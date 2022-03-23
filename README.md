@@ -7,12 +7,13 @@ Prérequis
 ---------
 
 - Sphinx
+- Shpinx-rtd-theme
 - MyST-Parser
 - Make
 
 ### Linux dérivé de Debian
 
-    sudo apt install python3-shpinx python3-myst-parser make
+    sudo apt install python3-shpinx python3-sphinx-rtd-theme python3-myst-parser make
 
 ### MacOS
 
