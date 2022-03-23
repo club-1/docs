@@ -15,12 +15,9 @@ nombre de protocoles, fournissant différents services.
    :maxdepth: 2
    :caption: Services:
 
+   ftps
    ssh
-   ftpis
+   web
+   mysql
 
 
-Indexes et tables
------------------
-
-* :ref:`genindex`
-* :ref:`search`
