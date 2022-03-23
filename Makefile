@@ -8,12 +8,16 @@ SPHINXBUILD   ?= sphinx-build
 SPHINXCMDS    = clean html latexpdf man
 SOURCEDIR     = .
 BUILDDIR      = _build
+LOCALES       = en
 
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile $(SPHINXCMDS)
+.PHONY: help locales Makefile $(SPHINXCMDS)
+
+locales: gettext
+	@sphinx-intl update -p $(BUILDDIR)/gettext $(LOCALES:%=-l %)
 
 # Explicit Sphinx commands for autocompletion.
 $(SPHINXCMDS):
