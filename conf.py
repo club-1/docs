@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Docs CLUB1'
+project = 'Documentation CLUB1'
 copyright = '2022, Nicolas PEUGNET'
 author = 'Nicolas PEUGNET'
 
@@ -58,6 +58,19 @@ exclude_patterns = [
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+html_context = {
+  'display_github': True,
+  'github_user': 'club-1',
+  'github_repo': 'docs',
+  'github_version': 'main/',
+}
+
+html_theme_options = {
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'vcs_pageview_mode': 'edit',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

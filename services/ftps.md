@@ -7,15 +7,14 @@ serveur CLUB1.
 
 Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**,
 il permet d'accéder à votre *espace personnel* grâce à des logiciels comme
-[FileZilla](https://filezilla-project.org/download.php?type=client)
-(attention l'installeur windows comprend des bundlewares).
+[FileZilla][filezilla] (attention l'installeur windows comprend des bundlewares).
 
 Sécurité
 --------
 
 Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés
 avec TLS pour éviter d'envoyer des mots de passe en clair. Cette fonctionnalité
-s'appelle [FTPS (FTP over implicit TLS)](https://en.wikipedia.org/wiki/FTPS#Implicit).
+s'appelle [FTPS (FTP over implicit TLS)][wiki-ftps].
 
 Un certificat est utilisé pour prouver l'authenticité de la clé du serveur.
 Si un message demande d'approuver le certificat lors de la connexion, il est
@@ -31,3 +30,6 @@ Informations de connexion
 | chiffrement      | TLS Implicite      |
 | authentification | Normale            |
 
+
+[filezilla]: https://filezilla-project.org/download.php?type=client
+[wiki-ftps]: https://fr.wikipedia.org/wiki/File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite

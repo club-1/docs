@@ -13,11 +13,9 @@ nombre de protocoles, fournissant différents services.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Services:
+   :caption: Services :
 
-   ftps
-   ssh
-   web
-   mysql
-
-
+   services/ftps
+   services/ssh
+   services/web
+   services/mysql
