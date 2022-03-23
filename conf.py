@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Documentation CLUB1'
+project = 'Docs CLUB1'
 copyright = '2022, Nicolas PEUGNET'
 author = 'Nicolas PEUGNET'
 
@@ -28,6 +28,7 @@ author = 'Nicolas PEUGNET'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -43,7 +44,12 @@ language = 'fr'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [
+    '_build',
+    'Thumbs.db',
+    '.DS_Store',
+    'README.*',
+]
 
 
 # -- Options for HTML output -------------------------------------------------
