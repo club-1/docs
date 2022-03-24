@@ -19,3 +19,6 @@ nombre de protocoles, fournissant différents services.
    services/ssh
    services/web
    services/mysql
+
+.. include:: ./details.md
+   :parser: myst_parser.sphinx_
