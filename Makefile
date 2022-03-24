@@ -3,21 +3,31 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
+LOCALE        ?= fr
+PUBHOST       ?= club1.fr
+PUBDIR        ?= /var/www/docs/$(LOCALE)
+
+ifneq "$(LOCALE)" "fr"
+SPHINXOPTS    += -D language=$(LOCALE)
+endif
 SPHINXBUILD   ?= sphinx-build
 SPHINXCMDS    = clean html latexpdf man
 SOURCEDIR     = .
 BUILDDIR      = _build
 LOCALES       = en
 
+
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help locales Makefile $(SPHINXCMDS)
+.PHONY: help locales publish Makefile $(SPHINXCMDS)
 
 locales: gettext
 	@sphinx-intl update -p $(BUILDDIR)/gettext $(LOCALES:%=-l %)
+
+publish: html
+	@rsync -av --del _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Explicit Sphinx commands for autocompletion.
 $(SPHINXCMDS):
