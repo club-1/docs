@@ -1,3 +1,22 @@
+Documentation de l'hébergement CLUB1
+====================================
+
+L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace personnel*.
+Il s'agit d'un espace de stockage sur le serveur, accessible via un certain
+nombre de protocoles, fournissant différents services.
+
+
+```{toctree}
+---
+maxdepth: 2
+caption: Services
+---
+services/ftps
+services/ssh
+services/web
+services/mysql
+```
+
 # Demandes et Incidents
 
 Pour toute demande ou incident, veuillez [créer un ticket (_issue_)][github-issue]
