@@ -1,7 +1,7 @@
-FTPS (File Transfer Protocol over implicit tlS)
-===============================================
+FTPS (File Transfer Protocol Secure)
+====================================
 
-Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPIS peut être
+Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être
 utile lors du tranfert d'un grand nombre de fichiers depuis et vers le
 serveur CLUB1.
 
@@ -14,7 +14,7 @@ Sécurité
 
 Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés
 avec TLS pour éviter d'envoyer des mots de passe en clair. Cette fonctionnalité
-s'appelle [FTPS (FTP over implicit TLS)][wiki-ftps].
+s'appelle [FTPS (FTP avec TLS implicite)][wiki-ftps].
 
 Un certificat est utilisé pour prouver l'authenticité de la clé du serveur.
 Si un message demande d'approuver le certificat lors de la connexion, il est

@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue sur la documentation de CLUB1
-=======================================
+Documentation de l'hébergement CLUB1
+====================================
 
 L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace personnel*.
 Il s'agit d'un espace de stockage sur le serveur, accessible via un certain
@@ -13,7 +13,7 @@ nombre de protocoles, fournissant différents services.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Services :
+   :caption: Services
 
    services/ftps
    services/ssh

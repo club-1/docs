@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Documentation CLUB1'
+project = 'Hébergement CLUB1'
 copyright = '2022, Nicolas PEUGNET'
 author = 'Nicolas PEUGNET'
 
