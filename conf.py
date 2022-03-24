@@ -31,6 +31,10 @@ extensions = [
     'myst_parser',
 ]
 
+# Allow to create implicit reference to headings.
+# See: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#implicit-targets
+myst_heading_anchors = 2
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
