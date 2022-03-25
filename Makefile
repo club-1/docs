@@ -46,8 +46,8 @@ latexpdf: latex
 info: texinfo
 	$(MAKE) -C $(BUILDDIR)/texinfo/$(LOCALE)
 
-publish: html
-	rsync -av --del _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
+publish:
+	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Shinx commands that need locales (builders).
 $(SPHINXBUILDERS): $(if $(NOTFR),locales/$(LOCALE)/LC_MESSAGES/package.po)
