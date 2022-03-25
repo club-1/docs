@@ -21,7 +21,6 @@ BUILDDIR         = _build
 MDFILES          = index.md $(shell find . -type f -name '*.md')
 LOCALES          = en
 LOCALEFILES      = $(LOCALES:%=locales/%/LC_MESSAGES/package.po)
-DIRS             = locales
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -37,14 +36,8 @@ $(LOCALEFILES): locales/%/LC_MESSAGES/package.po: locales/package.pot
 	sphinx-intl update -p $(<D) -l $*
 	@touch $@
 
-locales/package.pot: $(BUILDDIR)/gettext/package.pot | locales
-	cp $< $@
-
-$(DIRS):
-	mkdir -p $@
-
-$(BUILDDIR)/gettext/package.pot: $(MDFILES)
-	$(SPHINXBUILD) -M gettext "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
+locales/package.pot: $(MDFILES)
+	$(SPHINXBUILD) -b gettext "$(SOURCEDIR)" locales $(SPHINXOPTS) $O
 	@touch $@
 
 latexpdf: latex
@@ -66,4 +59,5 @@ $(SPHINXCMDS):
 
 clean:
 	rm -f locales/*/LC_MESSAGES/package.mo
+	rm -rf locales/.doctrees
 	rm -rf $(BUILDDIR)/*

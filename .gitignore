@@ -1,3 +1,4 @@
 # Project generated files
 _build
 *.mo
+.doctrees
