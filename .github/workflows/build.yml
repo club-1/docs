@@ -1,0 +1,25 @@
+name: build
+
+on: push
+
+jobs:
+  sphinx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build HTML
+        uses: XanaduAI/sphinx-action@08cb9868314fb5be5f28644b540a38b8faaf8e87
+        with:
+          pre-build-command: pip install myst-parser sphinx-rtd-theme
+          docs-folder: .
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: html-docs
+          path: _build/html/
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/html
