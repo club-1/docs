@@ -45,6 +45,12 @@ templates_path = ['_templates']
 # Usually you set "language" from the command line for these cases.
 language = 'fr'
 
+# Use a single POT and PO file par language.
+gettext_compact = 'package'
+
+# Display the translated string even if it is marked fuzzy.
+gettext_allow_fuzzy_translations = True
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
