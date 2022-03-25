@@ -1,9 +1,9 @@
 # Minimal makefile for Sphinx documentation
 #
 # You can set these variables from the command line.
-override LOCALE := $(or $(LOCALE),fr)
+LOCALE          ?= fr
 PUBHOST         ?= club1.fr
-PUBDIR          ?= /var/www/docs/$(LOCALE)
+PUBDIR          ?= /var/www/docs
 
 ifneq "$(LOCALE)" "fr"
 override NOTFR   = 1
@@ -14,7 +14,7 @@ endif
 SPHINXLANG       = -D language=$(LOCALE)
 SPHINXOPTS      += -a
 SPHINXBUILD     ?= sphinx-build
-SPHINXLCMDS      = html dirhtml singlehtml epub latex latexpdf latexpdfja text man texinfo info
+SPHINXBUILDERS   = html dirhtml singlehtml epub latex text man texinfo
 SPHINXCMDS       = pickle json htmlhelp changes xml pseudoxml linkcheck doctest coverage
 SOURCEDIR        = .
 BUILDDIR         = _build
@@ -27,7 +27,7 @@ DIRS             = locales
 help:
 	$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po gettext publish $(SPHINXLCMDS) $(SPHINXCMDS)
+.PHONY: help clean update-po gettext latexpdf info publish $(SPHINXBUILDERS) $(SPHINXCMDS)
 
 update-po: $(LOCALEFILES)
 
@@ -47,12 +47,18 @@ $(BUILDDIR)/gettext/package.pot: $(MDFILES)
 	$(SPHINXBUILD) -M gettext "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
 	@touch $@
 
+latexpdf: latex
+	$(MAKE) -C $(BUILDDIR)/latex/$(LOCALE)
+
+info: texinfo
+	$(MAKE) -C $(BUILDDIR)/texinfo/$(LOCALE)
+
 publish: html
 	rsync -av --del _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
-# Shinx commands that need locales.
-$(SPHINXLCMDS): $(if $(NOTFR),locales/$(LOCALE)/LC_MESSAGES/package.po)
-	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXLANG) $(SPHINXOPTS) $O
+# Shinx commands that need locales (builders).
+$(SPHINXBUILDERS): $(if $(NOTFR),locales/$(LOCALE)/LC_MESSAGES/package.po)
+	$(SPHINXBUILD) -b $@ "$(SOURCEDIR)" "$(BUILDDIR)/$@/$(LOCALE)" $(SPHINXLANG) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
 $(SPHINXCMDS):

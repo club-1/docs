@@ -3,6 +3,13 @@ Documentation CLUB1
 
 Ce dépôt contient la documentation de CLUB1.
 
+Références
+----------
+
+- https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html
+- https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html
+- https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/
+
 Prérequis
 ---------
 
