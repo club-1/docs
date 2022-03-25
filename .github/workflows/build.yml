@@ -18,5 +18,6 @@ jobs:
           chmod 700 .ssh
           echo "${{ secrets.RSA_KEY }}" > .ssh/id_rsa
           chmod 600 .ssh/id_rsa
+          echo "club1.fr ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBC64tjZ1WjxMMoGeWiipApfCAaQe1sP/YFoNWYtckXV7XfFFKsBf70SHUw/oPjVZ1sdwcIL8wsH8Q00oYMIv7M=" > .ssh/known_hosts
       - name: Publish
         run: make publish USER=docs
