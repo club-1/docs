@@ -12,14 +12,11 @@ jobs:
         with:
           pre-build-command: pip install myst-parser sphinx-rtd-theme
           docs-folder: .
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: html-docs
-          path: _build/html/
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html
+      - name: Install RSA key
+        run: |
+          mkdir .ssh
+          chmod 700 .ssh
+          echo "${{ secrets.RSA_KEY }}" > .ssh/id_rsa
+          chmod 600 .ssh/id_rsa
+      - name: Publish
+        run: make publish USER=docs
