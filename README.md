@@ -37,6 +37,13 @@ Pour obtenir de l'aide à propose de la compilation, lancer la commande suivante
 
     make
 
+Traduction
+----------
+
+Les traductions sont gérées via Weblate :
+
+[![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)][transurl]
+
 [buildimg]: https://github.com/club-1/docs/actions/workflows/build.yml/badge.svg
 [buildurl]: https://github.com/club-1/docs/actions/workflows/build.yml
 [transimg]: https://hosted.weblate.org/widgets/club-1/-/docs/svg-badge.svg
