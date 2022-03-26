@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, Nicolas PEUGNET
-# This file is distributed under the same license as the Hébergement CLUB1 package.
+# This file is distributed under the same license as the CLUB1 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hébergement CLUB1 main\n"
+"Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-26 12:57+0100\n"
+"POT-Creation-Date: 2022-03-26 23:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

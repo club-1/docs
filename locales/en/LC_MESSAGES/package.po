@@ -1,29 +1,88 @@
 # Translations for CLUB1 hosting's docs.
 # Copyright (C) 2022, Nicolas PEUGNET
-# This file is distributed under the same license as the Hébergement CLUB1
-# package.
+# This file is distributed under the same license as the CLUB1 package.
 # Nicolas PEUGNET <nicolas@club1.fr>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-26 11:55+0100\n"
+"POT-Creation-Date: 2022-03-26 23:04+0100\n"
 "PO-Revision-Date: 2022-03-26 22:01+0000\n"
 "Last-Translator: Leïla Renard <leila@club1.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
-"\n"
 "Language: en\n"
+"Language-Team: English "
+"<https://hosted.weblate.org/projects/club-1/docs/en/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../admin/aliases.md:1
+msgid "Gestion des alias email"
+msgstr ""
+
+#: ../admin/aliases.md:4
+msgid ""
+"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
+"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
+msgstr ""
+
+#: ../admin/aliases.md:7
+msgid "Modifier le fichier de configuration des aliases"
+msgstr ""
+
+#: ../admin/aliases.md:10
+msgid ""
+"Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI "
+"favori (`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci"
+" :"
+msgstr ""
+
+#: ../admin/aliases.md:24
+msgid "Ajouter ou supprimer un utiliseteur d'un alias"
+msgstr ""
+
+#: ../admin/aliases.md:26
+msgid ""
+"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de "
+"la liste se trouvant après le nom de l'alias."
+msgstr ""
+
+#: ../admin/aliases.md:29
+msgid "Ajouter ou supprimer un alias"
+msgstr ""
+
+#: ../admin/aliases.md:31
+msgid ""
+"Il est possible d'ajouter autant d'alias que voulu a ajoutant une "
+"nouvelle ligne au ficher, en suivant la [syntaxe d'alias de postfix][1] :"
+msgstr ""
+
+#: ../admin/aliases.md:38
+msgid ""
+"Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) "
+"la ligne correspondante."
+msgstr ""
+
+#: ../admin/aliases.md:41
+msgid "Soumettre les modifications"
+msgstr ""
+
+#: ../admin/aliases.md:44
+msgid ""
+"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base"
+" de donnée (`/etc/aliases.db`) en lançant la commande suivante :"
+msgstr ""
 
 #: ../index.md:9
 msgid "Services"
 msgstr "Services"
+
+#: ../index.md:80
+msgid "Documentation administrateur"
+msgstr ""
 
 #: ../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
@@ -43,7 +102,7 @@ msgstr ""
 msgid "Demandes et Incidents"
 msgstr "Requests and problems"
 
-#: ../index.md:22
+#: ../index.md:23
 msgid ""
 "Pour toute demande ou incident, veuillez [créer un ticket (_issue_"
 ")][github-issue] sur GitHub (vous devrez pour celà créer un compte), en "
@@ -53,20 +112,20 @@ msgid ""
 " la barre de recherche."
 msgstr ""
 "For any request or incident, please [create an issue][github-issue] sur "
-"GitHub (you will need to create an account), choosing between _request_ or "
-"_problem_ depending on the nature of the ticket. If it is an impersonal "
-"request, please **check** that there is not already a similar request using "
-"the search bar."
+"GitHub (you will need to create an account), choosing between _request_ "
+"or _problem_ depending on the nature of the ticket. If it is an "
+"impersonal request, please **check** that there is not already a similar "
+"request using the search bar."
 
-#: ../index.md:29
+#: ../index.md:30
 msgid "Infos sur le serveur"
 msgstr "Server infos"
 
-#: ../index.md:31
+#: ../index.md:33
 msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
-#: ../index.md:33
+#: ../index.md:35
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne][nperf]."
@@ -74,90 +133,90 @@ msgstr ""
 "The server is located in Pantin, France. It is connected to internet by "
 "optical fiver with an [average upload rate of 200Mb/s][nperf]."
 
-#: ../index.md:36
+#: ../index.md:38
 msgid "Système d'exploitation"
 msgstr "Operating system"
 
-#: ../index.md:38
+#: ../index.md:40
 msgid ""
 "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ "
 "(20.04)** et est mis à jour régulièrement."
 msgstr ""
-"The server runs the latest **LTS version of _ubuntu server_(20.04)** and is "
-"updated regularly."
+"The server runs the latest **LTS version of _ubuntu server_(20.04)** and "
+"is updated regularly."
 
-#: ../index.md:41
+#: ../index.md:43
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
-#: ../index.md:43
+#: ../index.md:45
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. "
 "En voici une liste _non-exhaustive_ :"
 msgstr ""
-"A significant number of software and libraries are already installed. Here "
-"is a _non-exhaustive_ list:"
+"A significant number of software and libraries are already installed. "
+"Here is a _non-exhaustive_ list:"
 
-#: ../index.md:46
+#: ../index.md:48
 msgid "Apache 2.4"
 msgstr "Apache 2.4"
 
-#: ../index.md:47
+#: ../index.md:49
 msgid "MariaDb 10.5"
 msgstr "MariaDb 10.5"
 
-#: ../index.md:48
+#: ../index.md:50
 msgid "PHP 7.4"
 msgstr "PHP 7.4"
 
-#: ../index.md:49
+#: ../index.md:51
 msgid "Python 3.8"
 msgstr "Python 3.8"
 
-#: ../index.md:50
+#: ../index.md:52
 msgid "NodeJs 10.19"
 msgstr "NodeJs 10.19"
 
-#: ../index.md:51
+#: ../index.md:53
 msgid "Composer 1.10"
 msgstr "Composer 1.10"
 
-#: ../index.md:52
+#: ../index.md:54
 msgid "pip 20.0"
 msgstr "pip 20.0"
 
-#: ../index.md:53
+#: ../index.md:55
 msgid "npm 7.5.2"
 msgstr "npm 7.5.2"
 
-#: ../index.md:54
+#: ../index.md:56
 msgid "phpMyAdmin 4.9"
 msgstr "phpMyAdmin 4.9"
 
-#: ../index.md:55
+#: ../index.md:57
 msgid "git 2.25"
 msgstr "git 2.25"
 
-#: ../index.md:56
+#: ../index.md:58
 msgid "..."
 msgstr "..."
 
-#: ../index.md:58
+#: ../index.md:60
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, "
 "dans le cas contraire, de **créer un ticket** comme expliqué [ci-"
 "dessus][demandes]."
 msgstr ""
-"If you wish an additional software to be installed, please **check first** "
-"that it is not already present, then, if not, **create a ticket** as "
-"explained [above][demandes]."
+"If you wish an additional software to be installed, please **check "
+"first** that it is not already present, then, if not, **create a ticket**"
+" as explained [above][demandes]."
 
-#: ../index.md:62
+#: ../index.md:64
 msgid "Disponibilité"
 msgstr ""
 
-#: ../index.md:64
+#: ../index.md:66
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la "
@@ -167,11 +226,11 @@ msgid ""
 " à 90%** devrait pouvoir être assurée."
 msgstr ""
 
-#: ../index.md:71
+#: ../index.md:73
 msgid "Politique et vie privée"
 msgstr ""
 
-#: ../index.md:73
+#: ../index.md:76
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -363,3 +422,4 @@ msgid ""
 "domaines seront à définir ensemble en fonction de leur disponibilité et "
 "leur viabilité."
 msgstr ""
+

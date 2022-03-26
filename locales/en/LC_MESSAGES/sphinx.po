@@ -1,7 +1,6 @@
 # Translations for the documentation's templates.
 # Copyright (C) 2022, Nicolas PEUGNET
-# This file is distributed under the same license as the Hébergement CLUB1
-# package.
+# This file is distributed under the same license as the CLUB1 package.
 # Nicolas PEUGNET <nicolas@club1.fr>, 2022.
 #
 msgid ""
