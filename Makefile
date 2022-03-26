@@ -42,7 +42,7 @@ update-po: $(LOCALEFILES)
 
 gettext: $(POTS)
 
-$(LOCALEFILES): locales/%/LC_MESSAGES/package.po: $(POTS)
+$(LOCALEFILES): locales/%/LC_MESSAGES/package.po: $(POTS) .FORCE
 	sphinx-intl update -p $(<D) -l $*
 	@touch $@
 
@@ -84,3 +84,6 @@ clean:
 	rm -f locales/*/LC_MESSAGES/*.mo
 	rm -rf locales/.doctrees
 	rm -rf $(BUILDDIR)/*
+
+.PHONY: .FORCE
+.FORCE:

@@ -5,7 +5,7 @@ SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se
 révéler très utile pour les **utilisateurs avancés** aussi bien que pour les
 **débutants**.
 
-Dans cette section [OpenSSH][wiki-openssh] sera
+Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
 utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est
 nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows).
 
@@ -15,7 +15,7 @@ Première connexion
 
 La première connexion est critique car c'est lors de celle-ci que se fait
 l'échange des clés. Pour éviter de subir une
-[attaque de l'homme du milieu][wiki-mitm]
+[attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu)
 il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
 
 Pour résoudre ce problème, OpenSSH affiche un avertissement contenant
@@ -55,6 +55,3 @@ Informations de connexion
 | ---------------- | ---------- |
 | hôte             | `club1.fr` |
 | port             | `22`       |
-
-[wiki-openssh]: https://fr.wikipedia.org/wiki/OpenSSH
-[wiki-mitm]: https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu

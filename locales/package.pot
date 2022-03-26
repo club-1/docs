@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-26 23:04+0100\n"
+"POT-Creation-Date: 2022-03-27 00:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Ajouter ou supprimer un alias"
 msgstr ""
 
 #: ../admin/aliases.md:31
-msgid "Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle ligne au ficher, en suivant la [syntaxe d'alias de postfix][1] :"
+msgid "Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www.postfix.org/aliases.5.html) :"
 msgstr ""
 
 #: ../admin/aliases.md:38
@@ -83,7 +83,7 @@ msgid "Demandes et Incidents"
 msgstr ""
 
 #: ../index.md:23
-msgid "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)][github-issue] sur GitHub (vous devrez pour celà créer un compte), en choisissant entre demande (_request_) ou incident (_problem_) en fonction de la nature du ticket. Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas déjà une demande similaire à l'aide de la barre de recherche."
+msgid "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues) sur GitHub (vous devrez pour celà créer un compte), en choisissant entre demande (_request_) ou incident (_problem_) en fonction de la nature du ticket. Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas déjà une demande similaire à l'aide de la barre de recherche."
 msgstr ""
 
 #: ../index.md:30
@@ -95,7 +95,7 @@ msgid "Matériel et infrastructure"
 msgstr ""
 
 #: ../index.md:35
-msgid "Le serveur est localisé en France à Pantin. Il est relié à internet par fibre optique avec un [débit montant de 200Mb/s en moyenne][nperf]."
+msgid "Le serveur est localisé en France à Pantin. Il est relié à internet par fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/r/338260996-nDOmVdkc)."
 msgstr ""
 
 #: ../index.md:38
@@ -159,7 +159,7 @@ msgid "..."
 msgstr ""
 
 #: ../index.md:60
-msgid "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans le cas contraire, de **créer un ticket** comme expliqué [ci-dessus][demandes]."
+msgid "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans le cas contraire, de **créer un ticket** comme expliqué [ci-dessus](#demandes-et-incidents)."
 msgstr ""
 
 #: ../index.md:64
@@ -187,7 +187,7 @@ msgid "Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut ê
 msgstr ""
 
 #: ../services/ftps.md:8
-msgid "Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**, il permet d'accéder à votre *espace personnel* grâce à des logiciels comme [FileZilla][filezilla] (attention l'installeur windows comprend des bundlewares)."
+msgid "Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**, il permet d'accéder à votre *espace personnel* grâce à des logiciels comme [FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
 
 #: ../services/ftps.md:12
@@ -195,7 +195,7 @@ msgid "Sécurité"
 msgstr ""
 
 #: ../services/ftps.md:15
-msgid "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés avec TLS pour éviter d'envoyer des mots de passe en clair. Cette fonctionnalité s'appelle [FTPS (FTP avec TLS implicite)][wiki-ftps]."
+msgid "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés avec TLS pour éviter d'envoyer des mots de passe en clair. Cette fonctionnalité s'appelle [FTPS (FTP avec TLS implicite)](https://fr.wikipedia.org/wiki/File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgstr ""
 
 #: ../services/ftps.md:19
@@ -282,7 +282,7 @@ msgid "SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peu
 msgstr ""
 
 #: ../services/ssh.md:8
-msgid "Dans cette section [OpenSSH][wiki-openssh] sera utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
+msgid "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
 msgstr ""
 
 #: ../services/ssh.md:13
@@ -290,7 +290,7 @@ msgid "Première connexion"
 msgstr ""
 
 #: ../services/ssh.md:16
-msgid "La première connexion est critique car c'est lors de celle-ci que se fait l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu][wiki-mitm] il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
+msgid "La première connexion est critique car c'est lors de celle-ci que se fait l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
 
 #: ../services/ssh.md:21

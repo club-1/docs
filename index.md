@@ -20,7 +20,7 @@ services/mysql
 Demandes et Incidents
 ---------------------
 
-Pour toute demande ou incident, veuillez [créer un ticket (_issue_)][github-issue]
+Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues)
 sur GitHub (vous devrez pour celà créer un compte), en choisissant entre demande
 (_request_) ou incident (_problem_) en fonction de la nature du ticket.
 Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas
@@ -33,7 +33,7 @@ Infos sur le serveur
 ### Matériel et infrastructure
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
-optique avec un [débit montant de 200Mb/s en moyenne][nperf].
+optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/r/338260996-nDOmVdkc).
 
 ### Système d'exploitation
 
@@ -59,7 +59,7 @@ En voici une liste _non-exhaustive_ :
 
 Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de
 **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans
-le cas contraire, de **créer un ticket** comme expliqué [ci-dessus][demandes].
+le cas contraire, de **créer un ticket** comme expliqué [ci-dessus](#demandes-et-incidents).
 
 ### Disponibilité
 
@@ -84,7 +84,3 @@ caption: Documentation administrateur
 ---
 admin/aliases
 ```
-
-[github-issue]: https://github.com/club-1/hosting/issues
-[nperf]: https://www.nperf.com/r/338260996-nDOmVdkc
-[demandes]: #demandes-et-incidents
