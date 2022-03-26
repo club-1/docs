@@ -26,6 +26,7 @@ SPHINXCMDS      := pickle json htmlhelp changes xml pseudoxml linkcheck doctest 
 SOURCEDIR       := .
 BUILDDIR        := _build
 MDFILES         := index.md $(shell find . -type f -name '*.md')
+MDFILES         := $(shell find . -type f -name '*.md' -not -name 'README.*')
 TEMPLATES       := $(shell find _templates -type f -name '*.html')
 
 PUBHOST         ?= club1.fr
