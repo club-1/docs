@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-03-26 11:55+0100\n"
 "PO-Revision-Date: 2022-03-26 22:01+0000\n"
-"Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
+"Last-Translator: Leïla Renard <leila@club1.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
 "Language: en\n"
@@ -71,70 +71,76 @@ msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne][nperf]."
 msgstr ""
+"The server is located in Pantin, France. It is connected to internet by "
+"optical fiver with an [average upload rate of 200Mb/s][nperf]."
 
 #: ../index.md:36
 msgid "Système d'exploitation"
-msgstr ""
+msgstr "Operating system"
 
 #: ../index.md:38
 msgid ""
 "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ "
 "(20.04)** et est mis à jour régulièrement."
 msgstr ""
+"The server runs the latest **LTS version of _ubuntu server_(20.04)** and is "
+"updated regularly."
 
 #: ../index.md:41
 msgid "Logiciels et bibliothèques installés"
-msgstr ""
+msgstr "Installed software and libraries"
 
 #: ../index.md:43
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. "
 "En voici une liste _non-exhaustive_ :"
 msgstr ""
+"A significant number of software and libraries are already installed. Here "
+"is a _non-exhaustive_ list:"
 
 #: ../index.md:46
 msgid "Apache 2.4"
-msgstr ""
+msgstr "Apache 2.4"
 
 #: ../index.md:47
 msgid "MariaDb 10.5"
-msgstr ""
+msgstr "MariaDb 10.5"
 
 #: ../index.md:48
 msgid "PHP 7.4"
-msgstr ""
+msgstr "PHP 7.4"
 
 #: ../index.md:49
 msgid "Python 3.8"
-msgstr ""
+msgstr "Python 3.8"
 
 #: ../index.md:50
 msgid "NodeJs 10.19"
-msgstr ""
+msgstr "NodeJs 10.19"
 
 #: ../index.md:51
 msgid "Composer 1.10"
-msgstr ""
+msgstr "Composer 1.10"
 
 #: ../index.md:52
 msgid "pip 20.0"
-msgstr ""
+msgstr "pip 20.0"
 
 #: ../index.md:53
 msgid "npm 7.5.2"
-msgstr ""
+msgstr "npm 7.5.2"
 
 #: ../index.md:54
 msgid "phpMyAdmin 4.9"
-msgstr ""
+msgstr "phpMyAdmin 4.9"
 
 #: ../index.md:55
 msgid "git 2.25"
-msgstr ""
+msgstr "git 2.25"
 
 #: ../index.md:56
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../index.md:58
 msgid ""
@@ -143,6 +149,9 @@ msgid ""
 "dans le cas contraire, de **créer un ticket** comme expliqué [ci-"
 "dessus][demandes]."
 msgstr ""
+"If you wish an additional software to be installed, please **check first** "
+"that it is not already present, then, if not, **create a ticket** as "
+"explained [above][demandes]."
 
 #: ../index.md:62
 msgid "Disponibilité"
