@@ -2,3 +2,7 @@
 _build
 *.mo
 .doctrees
+
+# Editor files
+.*.swp
+.vscode
