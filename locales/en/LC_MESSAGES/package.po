@@ -8,30 +8,33 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-03-27 00:20+0100\n"
-"PO-Revision-Date: 2022-03-26 22:01+0000\n"
-"Last-Translator: Leïla Renard <leila@club1.fr>\n"
+"PO-Revision-Date: 2022-03-27 18:00+0000\n"
+"Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
-"Language-Team: English "
-"<https://hosted.weblate.org/projects/club-1/docs/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../admin/aliases.md:1
 msgid "Gestion des alias email"
-msgstr ""
+msgstr "Managing email aliases"
 
 #: ../admin/aliases.md:4
 msgid ""
 "Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
 msgstr ""
+"This tutorial is dedicated to users that are part of the `aliases` group. It "
+"describes actions that can be done by those users."
 
 #: ../admin/aliases.md:7
 msgid "Modifier le fichier de configuration des aliases"
-msgstr ""
+msgstr "Edit the aliases configuration file"
 
 #: ../admin/aliases.md:10
 msgid ""
@@ -39,20 +42,24 @@ msgid ""
 "favori (`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci"
 " :"
 msgstr ""
+"Open the `/etc/aliases` file with your favorite CLI text editor (`nano`, "
+"`vim`, etc.). It should look something like this:"
 
 #: ../admin/aliases.md:24
 msgid "Ajouter ou supprimer un utiliseteur d'un alias"
-msgstr ""
+msgstr "Add or remove users from an alias"
 
 #: ../admin/aliases.md:26
 msgid ""
 "Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de "
 "la liste se trouvant après le nom de l'alias."
 msgstr ""
+"Simply write or erase the name of the chosen user in the list that follows "
+"the alias name."
 
 #: ../admin/aliases.md:29
 msgid "Ajouter ou supprimer un alias"
-msgstr ""
+msgstr "Create or delete an alias"
 
 #: ../admin/aliases.md:31
 msgid ""
@@ -60,22 +67,29 @@ msgid ""
 "nouvelle ligne au ficher, en suivant la [syntaxe d'alias de "
 "postfix](http://www.postfix.org/aliases.5.html) :"
 msgstr ""
+"You can create as many aliases as you want by adding a new line to the file, "
+"following the [postfix aliases db syntax](http://www.postfix.org/aliases.5."
+"html):"
 
 #: ../admin/aliases.md:38
 msgid ""
 "Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) "
 "la ligne correspondante."
 msgstr ""
+"To delete an alias, simply delete or comment out (using `#`) the "
+"corresponding line."
 
 #: ../admin/aliases.md:41
 msgid "Soumettre les modifications"
-msgstr ""
+msgstr "Submitting changes"
 
 #: ../admin/aliases.md:44
 msgid ""
 "Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base"
 " de donnée (`/etc/aliases.db`) en lançant la commande suivante :"
 msgstr ""
+"After you've saved your edits, you have to regenerate the database (`/etc/"
+"aliases.db`) using the following command:"
 
 #: ../index.md:9
 msgid "Services"
@@ -83,7 +97,7 @@ msgstr "Services"
 
 #: ../index.md:80
 msgid "Documentation administrateur"
-msgstr ""
+msgstr "Administrator's documentation"
 
 #: ../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
@@ -219,7 +233,7 @@ msgstr ""
 
 #: ../index.md:64
 msgid "Disponibilité"
-msgstr ""
+msgstr "Availability"
 
 #: ../index.md:66
 msgid ""
@@ -230,20 +244,27 @@ msgid ""
 " mise à jour du noyau. Cela dit, une disponibilité effective **supérieure"
 " à 90%** devrait pouvoir être assurée."
 msgstr ""
+"In order to guarantee a certain availability, the server as well as the "
+"network equipment are powered by an _UPS_. However, since redundancy is not "
+"present at all levels, the server may be inaccessible for short periods of "
+"time, for example during a kernel update. That said, an effective "
+"availability **above 90%** should be ensured."
 
 #: ../index.md:73
 msgid "Politique et vie privée"
-msgstr ""
+msgstr "Politics and privacy"
 
 #: ../index.md:76
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
 msgstr ""
+"None of the data you store in your personal space will be divulged or used "
+"for profit, even under threat."
 
 #: ../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
-msgstr ""
+msgstr "FTPS (File Transfer Protocol Secure)"
 
 #: ../services/ftps.md:4
 msgid ""
@@ -251,6 +272,8 @@ msgid ""
 " utile lors du tranfert d'un grand nombre de fichiers depuis et vers le "
 "serveur CLUB1."
 msgstr ""
+"Although [ssh](ssh) can also be used for this purpose, FTPS can be useful to "
+"transfer a large amount of files from and to the CLUB1 server."
 
 #: ../services/ftps.md:8
 msgid ""
@@ -263,7 +286,7 @@ msgstr ""
 
 #: ../services/ftps.md:12
 msgid "Sécurité"
-msgstr ""
+msgstr "Security"
 
 #: ../services/ftps.md:15
 msgid ""
@@ -272,6 +295,10 @@ msgid ""
 "fonctionnalité s'appelle [FTPS (FTP avec TLS "
 "implicite)](https://fr.wikipedia.org/wiki/File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgstr ""
+"The FTP server is configured to only accept encrypted TLS connections. This "
+"is to avoid passwords beeing sent in cleartext. This feature is referred to "
+"as [FTPS (FTP over implicit TLS)](https://en.wikipedia.org/wiki/"
+"FTPS#Implicit)."
 
 #: ../services/ftps.md:19
 msgid ""
@@ -280,54 +307,57 @@ msgid ""
 "connexion, il est important de vérifier qu'il est bien délivré par `Let's"
 " Encrypt`."
 msgstr ""
+"A certificate is also used to prove the authenticity of the server's key. If "
+"prompted for a certificate approval, it is important to check that it is "
+"issued by `Let's Encrypt`."
 
 #: ../services/ftps.md:23 ../services/mysql.md:9 ../services/ssh.md:51
 msgid "Informations de connexion"
-msgstr ""
+msgstr "Connection information"
 
 #: ../services/ftps.md ../services/mysql.md ../services/ssh.md
 msgid "champ"
-msgstr ""
+msgstr "field"
 
 #: ../services/ftps.md ../services/mysql.md ../services/ssh.md
 msgid "valeur"
-msgstr ""
+msgstr "value"
 
 #: ../services/ftps.md ../services/mysql.md ../services/ssh.md
 msgid "hôte"
-msgstr ""
+msgstr "host"
 
 #: ../services/ftps.md ../services/ssh.md
 msgid "`club1.fr`"
-msgstr ""
+msgstr "`club1.fr`"
 
 #: ../services/ftps.md ../services/mysql.md ../services/ssh.md
 msgid "port"
-msgstr ""
+msgstr "port"
 
 #: ../services/ftps.md
 msgid "`990` (par défaut)"
-msgstr ""
+msgstr "`990` (default)"
 
 #: ../services/ftps.md
 msgid "chiffrement"
-msgstr ""
+msgstr "encryption"
 
 #: ../services/ftps.md
 msgid "TLS Implicite"
-msgstr ""
+msgstr "Implicit TLS"
 
 #: ../services/ftps.md
 msgid "authentification"
-msgstr ""
+msgstr "authentication"
 
 #: ../services/ftps.md
 msgid "Normale"
-msgstr ""
+msgstr "Normal"
 
 #: ../services/mysql.md:1
 msgid "Bases de données MySQL"
-msgstr ""
+msgstr "MySQL databases"
 
 #: ../services/mysql.md:4
 msgid ""
@@ -340,15 +370,15 @@ msgstr ""
 
 #: ../services/mysql.md
 msgid "`localhost`"
-msgstr ""
+msgstr "`localhost`"
 
 #: ../services/mysql.md
 msgid "`3306`"
-msgstr ""
+msgstr "`3306`"
 
 #: ../services/ssh.md:1
 msgid "SSH (Secure SHell)"
-msgstr ""
+msgstr "SSH (Secure SHell)"
 
 #: ../services/ssh.md:4
 msgid ""
@@ -356,6 +386,8 @@ msgid ""
 "se révéler très utile pour les **utilisateurs avancés** aussi bien que "
 "pour les **débutants**."
 msgstr ""
+"SSH allows to remotely connect to the CLUB1 server. The SSH access can be "
+"very useful for **advanced users** and **beginners** alike."
 
 #: ../services/ssh.md:8
 msgid ""
@@ -363,10 +395,13 @@ msgid ""
 "utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est "
 "nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
 msgstr ""
+"In this section [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) will be "
+"used. As this software suite is in *command-line*, it is necessary to open a "
+"terminal window (powershell on windows)."
 
 #: ../services/ssh.md:13
 msgid "Première connexion"
-msgstr ""
+msgstr "First connection"
 
 #: ../services/ssh.md:16
 #, python-format
@@ -376,12 +411,18 @@ msgid ""
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
 "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
+"The first connection is critical because the key exchange takes place at "
+"this moment. To avoid a [man-in-the-middle attack](https://en.wikipedia.org/"
+"wiki/Man-in-the-middle_attack) we have to make sure that we received the "
+"correct key during this exchange."
 
 #: ../services/ssh.md:21
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
 "l'empreinte de la clé reçue :"
 msgstr ""
+"To solve this problem, OpenSSH shows a warning containing the fingerprint of "
+"the received key:"
 
 #: ../services/ssh.md:28
 msgid ""
@@ -390,22 +431,27 @@ msgid ""
 "est préférable d'ajouter la clé avant le première connexion avec la "
 "commande suivante :"
 msgstr ""
+"This is not ideal as the user must manually compare the fingerprint of the "
+"warning with the one provided by the admin. So instead, it is preferable to "
+"add the key before the first connection using the following command:"
 
 #: ../services/ssh.md:35
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
 msgstr ""
+"If for some reason the manual comparison is preferred, the fingerprint in "
+"the above example is indeed the fingerprint of club1.fr."
 
 #: ../services/ssh.md:38
 msgid "Créer une paire de clés de chiffrement"
-msgstr ""
+msgstr "Create a pair of asymmetric keys"
 
 #: ../services/ssh.md:41
 msgid ""
 "Pour créer une paire de clé de chiffrement, on utilise la commande "
 "suivante."
-msgstr ""
+msgstr "To create an asymmetric key pair we use the following command."
 
 #: ../services/ssh.md:45
 msgid ""
@@ -413,14 +459,17 @@ msgid ""
 "vers le serveur, afin de pouvoir l'utiliser comme méthode "
 "d'authentification.  (Remplacer `<login>` par votre identifiant)"
 msgstr ""
+"The command thereafter then effortlessly sends the public part of the key to "
+"the server to be able to use it as an authentication method. (Replace "
+"`<login>` with your login)"
 
 #: ../services/ssh.md
 msgid "`22`"
-msgstr ""
+msgstr "`22`"
 
 #: ../services/web.md:1
 msgid "Sites Web"
-msgstr ""
+msgstr "Websites"
 
 #: ../services/web.md:4
 msgid ""
@@ -430,4 +479,3 @@ msgid ""
 "domaines seront à définir ensemble en fonction de leur disponibilité et "
 "leur viabilité."
 msgstr ""
-
