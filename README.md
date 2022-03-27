@@ -9,9 +9,9 @@ Ce dépôt contient la documentation de CLUB1.
 Références
 ----------
 
-- https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html
-- https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html
-- https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/
+- [Fonctionnalités Markdown spécifique à MyST-Parser][myst-parser]
+- [Spécificités des liens avec Sphinx][sphinx-ref]
+- [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-tuto]
 
 Prérequis
 ---------
@@ -22,20 +22,36 @@ Prérequis
 - MyST-Parser
 - Make
 
-### Linux dérivé de Debian
+### Linux basé sur Debian
 
     sudo apt install python3-shpinx sphinx-intl python3-sphinx-rtd-theme python3-myst-parser make
 
-### MacOS
-
-    brew install sphinx-doc
 
 Compilation
 -----------
 
-Pour obtenir de l'aide à propose de la compilation, lancer la commande suivante :
+- Compilation en un site statique dans `_build/html`&nbsp;:
 
-    make
+        make html
+
+- Comilation d'une locale spécifique&nbsp;:
+
+        make html/fr
+
+- Mise-à-jour des locales après l'édition des sources&nbsp;:
+
+        make update-po
+
+Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé
+l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils ont
+trop changé, il faudra peut-être en récupérer la traduction dans les messages
+mis en commentaire à la fin du fichier, tout en ajoutant le commentaire suivant
+juste au dessus du la ligne `msgid "..."` :
+
+```gettext
+#, fuzzy
+```
+
 
 Traduction
 ----------
@@ -48,3 +64,6 @@ Les traductions sont gérées via Weblate :
 [buildurl]: https://github.com/club-1/docs/actions/workflows/build.yml
 [transimg]: https://hosted.weblate.org/widgets/club-1/-/docs/svg-badge.svg
 [transurl]: https://hosted.weblate.org/projects/club-1/docs/
+[myst-parser]: https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html
+[sphinx-ref]: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html
+[sphinx-rtd-tuto]: https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/
