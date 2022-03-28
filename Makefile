@@ -65,7 +65,7 @@ $(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%);
 # Localized Sphinx builders
 .SECONDEXPANSION:
 $(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,locales/$$(@F)/LC_MESSAGES/package.mo locales/$$(@F)/LC_MESSAGES/sphinx.mo)
-	$(SPHINXBUILD) -b $(@D) "$(SOURCEDIR)" "$(BUILDDIR)/$(@D)/$(@F)" -D language=$(@F) $(SPHINXOPTS) $O
+	LANGUAGE=$(@F) $(SPHINXBUILD) -b $(@D) "$(SOURCEDIR)" "$(BUILDDIR)/$(@D)/$(@F)" $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
 $(SPHINXCMDS):

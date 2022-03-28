@@ -44,7 +44,7 @@ templates_path = ['_templates']
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'fr'
+language = os.environ['LANGUAGE']
 
 # Set by make.
 languages = os.environ['LANGUAGES'].split(' ')
@@ -76,8 +76,10 @@ exclude_patterns = [
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_show_sourcelink = language == 'fr'
+
 html_context = {
-    'display_github': True,
+    'display_github': language == 'fr',
     'github_user': 'club-1',
     'github_repo': 'docs',
     'github_version': f'{version}/',
