@@ -13,8 +13,36 @@ Références
 - [Spécificités des liens avec Sphinx][sphinx-ref]
 - [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-tuto]
 
-Prérequis
----------
+Édition
+-------
+
+### Langue française
+
+Pour modifier une page existante, il faut éditer le fichier `.md` correspondant.
+Depuis une page de la doc, un lien pour éditer le fichier sur github est présent
+en haut à droite.
+
+Ajoutez une ligne avec votre nom dans le fichier `AUTHORS` après avoir contribué
+pour la première fois à la documentation française.
+
+### Autres langues
+
+Les traductions, elles, ne sont pas stockées dans des fichiers markdown, mais
+dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont plus
+facilement éditables via [Weblate][transurl].
+
+[![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)][transurl]
+
+### Ajouter une page
+
+L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier `.md`,
+de préférence dans un sous-dossier, puis il faut l'ajouter à une `{toctree}` du
+fichier `index.html` (s'inpirer de l'existant).
+
+Compilation
+-----------
+
+### Prérequis
 
 | Logiciel         | Détails                                |
 |------------------|----------------------------------------|
@@ -24,19 +52,18 @@ Prérequis
 | MyST-Parser      | Prise en charge du Markdown par Sphinx |
 | gettext          | Mise-à-jour des fichiers de locales    |
 
-### Linux basé sur Debian
+#### Linux basé sur Debian
 
     sudo apt install make python3-shpinx python3-sphinx-rtd-theme python3-myst-parser gettext
 
 
-Compilation
------------
+### Commandes
 
 - Compilation en un site statique dans `_build/html`&nbsp;:
 
         make html
 
-- Comilation d'une locale spécifique&nbsp;:
+- Compilation d'une locale spécifique&nbsp;:
 
         make html/fr
 
@@ -54,13 +81,6 @@ juste au dessus du la ligne `msgid "..."` :
 #, fuzzy
 ```
 
-
-Traduction
-----------
-
-Les traductions sont gérées via Weblate :
-
-[![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)][transurl]
 
 [buildimg]: https://github.com/club-1/docs/actions/workflows/build.yml/badge.svg
 [buildurl]: https://github.com/club-1/docs/actions/workflows/build.yml

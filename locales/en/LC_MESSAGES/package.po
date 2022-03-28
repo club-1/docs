@@ -1,7 +1,8 @@
 # Translations for CLUB1 hosting's docs.
-# Copyright (C) 2022, Nicolas PEUGNET
+# Copyright (C) 2022, Nicolas Peugnet
+# Copyright (C) 2022, Leïla Renard
 # This file is distributed under the same license as the CLUB1 package.
-# Nicolas PEUGNET <nicolas@club1.fr>, 2022.
+# Nicolas Peugnet <nicolas@club1.fr>, 2022.
 #
 msgid ""
 msgstr ""

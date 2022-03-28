@@ -5,7 +5,7 @@
 LOCALES         := en
 LOCALEFILES     := $(LOCALES:%=locales/%/LC_MESSAGES/package.po) $(LOCALES:%=locales/%/LC_MESSAGES/sphinx.po)
 
-export COPYRIGHT    := Nicolas PEUGNET
+export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
 export VERSION      := main
 export EMAIL        := nicolas@club1.fr
@@ -43,7 +43,7 @@ $(LOCALEFILES): locales/%.po: locales/$$(*F).pot
 
 locales/package.pot locales/sphinx.pot: locales/%.pot: $(BUILDDIR)/gettext/%.pot
 	xgettext $< -o $@ -w 77 \
-	--copyright-holder='$(COPYRIGHT)' --package-name='$(PACKAGE)' \
+	--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 
 $(BUILDDIR)/gettext/%.pot: gettext;

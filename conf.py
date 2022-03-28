@@ -18,8 +18,8 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = os.environ['PACKAGE']
-copyright = '2022, Nicolas PEUGNET'
-author = os.environ['COPYRIGHT']
+copyright = '2022, ' + os.environ['AUTHORS']
+author = os.environ['AUTHORS']
 version = os.environ['VERSION']
 
 
