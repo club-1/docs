@@ -10,7 +10,8 @@ export PACKAGE      := CLUB1
 export VERSION      := main
 export EMAIL        := nicolas@club1.fr
 
-export LANGUAGES    := fr $(LOCALES)
+export LANGUAGE     := fr
+export LANGUAGES    := $(LANGUAGE) $(LOCALES)
 export LATEXMKOPTS  := -quiet
 
 SPHINXLANG      := -D language=$(LOCALE)
