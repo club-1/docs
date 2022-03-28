@@ -18,7 +18,6 @@ SPHINXOPTS      += -a $(if $(CI),,-q)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
-SPHINXHBUILDERS := $(SPHINXBUILDERS:%=_%)
 SPHINXCMDS      := gettext pickle json htmlhelp changes xml pseudoxml linkcheck doctest coverage
 SOURCEDIR       := .
 BUILDDIR        := _build
@@ -30,7 +29,7 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXHBUILDERS) $(SPHINXCMDS)
+.PHONY: help clean update-po latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
 update-po: $(LOCALEFILES);
 
