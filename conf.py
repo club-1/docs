@@ -17,11 +17,10 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'CLUB1'
+project = os.environ['PACKAGE']
 copyright = '2022, Nicolas PEUGNET'
-author = 'Nicolas PEUGNET'
-version = 'main'
-release = version
+author = os.environ['COPYRIGHT']
+version = os.environ['VERSION']
 
 
 # -- General configuration ---------------------------------------------------
@@ -49,6 +48,9 @@ language = 'fr'
 
 # Set by make.
 languages = os.environ['LANGUAGES'].split(' ')
+
+# Managed by make and gettext.
+gettext_auto_build = False
 
 # Use a single POT and PO file par language.
 gettext_compact = 'package'

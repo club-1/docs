@@ -1,7 +1,6 @@
 # Project generated files
 _build
 *.mo
-.doctrees
 
 # Editor files
 .*.swp

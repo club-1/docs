@@ -16,15 +16,17 @@ Références
 Prérequis
 ---------
 
-- Sphinx
-- Sphinx-intl
-- Shpinx-rtd-theme
-- MyST-Parser
-- Make
+| Logiciel         | Détails                                |
+|------------------|----------------------------------------|
+| Make             | Gestionnaire de compilation            |
+| Sphinx           | Compilateur de documentation           |
+| Shpinx-rtd-theme | Thème ReadTheDocs pour Sphinx          |
+| MyST-Parser      | Prise en charge du Markdown par Sphinx |
+| gettext          | Mise-à-jour des fichiers de locales    |
 
 ### Linux basé sur Debian
 
-    sudo apt install python3-shpinx sphinx-intl python3-sphinx-rtd-theme python3-myst-parser make
+    sudo apt install make python3-shpinx python3-sphinx-rtd-theme python3-myst-parser gettext
 
 
 Compilation

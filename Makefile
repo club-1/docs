@@ -1,17 +1,14 @@
 # Minimal makefile for Sphinx documentation
 #
 # You can set these variables from the command line.
-ifneq (,$(filter grouped-target,$(.FEATURES)))
-GROUPED_TARGET  := 1
-else
-$(warning WARNING: This version of make does not support grouped-target, disabling parallel jobs.)
-.NOTPARALLEL:
-endif
 
 LOCALES         := en
-LOCALEFILES     := $(LOCALES:%=locales/%/LC_MESSAGES/package.po)
-PONAMES         := package sphinx
-POTS            := $(PONAMES:%=locales/%.pot)
+LOCALEFILES     := $(LOCALES:%=locales/%/LC_MESSAGES/package.po) $(LOCALES:%=locales/%/LC_MESSAGES/sphinx.po)
+
+export COPYRIGHT    := Nicolas PEUGNET
+export PACKAGE      := CLUB1
+export VERSION      := main
+export EMAIL        := nicolas@club1.fr
 
 export LANGUAGES    := fr $(LOCALES)
 export LATEXMKOPTS  := -quiet
@@ -22,12 +19,9 @@ SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
 SPHINXHBUILDERS := $(SPHINXBUILDERS:%=_%)
-SPHINXCMDS      := pickle json htmlhelp changes xml pseudoxml linkcheck doctest coverage
+SPHINXCMDS      := gettext pickle json htmlhelp changes xml pseudoxml linkcheck doctest coverage
 SOURCEDIR       := .
 BUILDDIR        := _build
-MDFILES         := index.md $(shell find . -type f -name '*.md')
-MDFILES         := $(shell find . -type f -name '*.md' -not -name 'README.*')
-TEMPLATES       := $(shell find _templates -type f -name '*.html')
 
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
@@ -36,25 +30,26 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po gettext latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXHBUILDERS) $(SPHINXCMDS)
+.PHONY: help clean update-po latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXHBUILDERS) $(SPHINXCMDS)
 
-update-po: $(LOCALEFILES)
+update-po: $(LOCALEFILES);
 
-gettext: $(POTS)
+%.mo: %.po
+	msgfmt -o $@ $<
 
-$(LOCALEFILES): locales/%/LC_MESSAGES/package.po: $(POTS) .FORCE
-	sphinx-intl update -p $(<D) -l $*
+.SECONDEXPANSION:
+$(LOCALEFILES): locales/%.po: locales/$$(*F).pot
+	msgmerge -q --update $@ $< --backup=none -w 77
 	@touch $@
 
-ifdef GROUPED_TARGET
-$(POTS)&: $(MDFILES) $(TEMPLATES)
-else
-$(POTS): $(MDFILES) $(TEMPLATES)
-endif
-	$(SPHINXBUILD) -b gettext "$(SOURCEDIR)" locales $(SPHINXOPTS) $O
-	@touch $(POTS)
+locales/package.pot locales/sphinx.pot: locales/%.pot: $(BUILDDIR)/gettext/%.pot
+	xgettext $< -o $@ -w 77 \
+	--copyright-holder='$(COPYRIGHT)' --package-name='$(PACKAGE)' \
+	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 
-latexpdf info: %: $(LANGUAGES:%=\%/%)
+$(BUILDDIR)/gettext/%.pot: gettext;
+
+latexpdf info: %: $(LANGUAGES:%=\%/%);
 
 $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 	$(MAKE) -C $(BUILDDIR)/$<
@@ -66,15 +61,12 @@ publish:
 	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Shinx builders that builds localized versions.
-$(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%)
+$(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%);
 
 # Localized Sphinx builders
-$(SPHINXLBUILDERS):
-	$(MAKE) _$(@D) LOCALE=$(@F)
-
-# Hidden Sphinx builders that need the LOCALE variable
-$(SPHINXHBUILDERS): _%: $(if $(filter fr,$(LOCALE)),,$(PONAMES:%=locales/$(LOCALE)/LC_MESSAGES/%.po))
-	$(SPHINXBUILD) -b $* "$(SOURCEDIR)" "$(BUILDDIR)/$*/$(LOCALE)" -D language=$(LOCALE) $(SPHINXOPTS) $O
+.SECONDEXPANSION:
+$(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,locales/$$(@F)/LC_MESSAGES/package.mo locales/$$(@F)/LC_MESSAGES/sphinx.mo)
+	$(SPHINXBUILD) -b $(@D) "$(SOURCEDIR)" "$(BUILDDIR)/$(@D)/$(@F)" -D language=$(@F) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
 $(SPHINXCMDS):
