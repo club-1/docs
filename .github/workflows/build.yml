@@ -13,7 +13,9 @@ jobs:
       - name: Build HTML
         uses: XanaduAI/sphinx-action@08cb9868314fb5be5f28644b540a38b8faaf8e87
         with:
-          pre-build-command: pip install myst-parser sphinx-rtd-theme
+          pre-build-command: >
+            apt-get update -y && apt-get install --no-install-recommends -y gettext
+            && pip install myst-parser sphinx-rtd-theme
           docs-folder: .
       - name: Install RSA key
         env:
