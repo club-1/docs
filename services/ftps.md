@@ -5,8 +5,7 @@ Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être
 utile lors du tranfert d'un grand nombre de fichiers depuis et vers le
 serveur CLUB1.
 
-Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**,
-il permet d'accéder à votre *espace personnel* grâce à des logiciels comme
+Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des logiciels comme
 [FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur windows comprend des bundlewares).
 
 Sécurité

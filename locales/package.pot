@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 20:03+0200\n"
+"POT-Creation-Date: 2022-03-29 20:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,7 +348,7 @@ msgid ""
 msgstr ""
 
 #: ../../interne/aliases.md:7
-msgid "Modifier le fichier de configuration des aliases"
+msgid "Modifier le fichier de configuration des alias"
 msgstr ""
 
 #: ../../interne/aliases.md:10
@@ -358,7 +358,7 @@ msgid ""
 msgstr ""
 
 #: ../../interne/aliases.md:24
-msgid "Ajouter ou supprimer un utiliseteur d'un alias"
+msgid "Ajouter ou supprimer un utilisateur d'un alias"
 msgstr ""
 
 #: ../../interne/aliases.md:26
@@ -398,6 +398,10 @@ msgstr ""
 msgid "Documentation interne"
 msgstr ""
 
+#: ../../interne/index.md:4
+msgid "Cette section comporte la documentation interne de CLUB1."
+msgstr ""
+
 #: ../../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
 msgstr ""
@@ -411,17 +415,16 @@ msgstr ""
 
 #: ../../services/ftps.md:8
 msgid ""
-"Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**, "
-"il permet d'accéder à votre *espace personnel* grâce à des logiciels comme "
-"[FileZilla](https://filezilla-project.org/download.php?type=client) "
-"(attention l'installeur windows comprend des bundlewares)."
+"Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des "
+"logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
+"type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
 
-#: ../../services/ftps.md:12
+#: ../../services/ftps.md:11
 msgid "Sécurité"
 msgstr ""
 
-#: ../../services/ftps.md:15
+#: ../../services/ftps.md:14
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
@@ -430,14 +433,14 @@ msgid ""
 "File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgstr ""
 
-#: ../../services/ftps.md:19
+#: ../../services/ftps.md:18
 msgid ""
 "Un certificat est utilisé pour prouver l'authenticité de la clé du serveur. "
 "Si un message demande d'approuver le certificat lors de la connexion, il est "
 "important de vérifier qu'il est bien délivré par `Let's Encrypt`."
 msgstr ""
 
-#: ../../services/ftps.md:23 ../../services/mysql.md:9 ../../services/ssh.md:51
+#: ../../services/ftps.md:22 ../../services/mysql.md:8 ../../services/ssh.md:50
 msgid "Informations de connexion"
 msgstr ""
 
@@ -489,7 +492,9 @@ msgstr ""
 msgid ""
 "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
 "personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
-"un certain nombre de protocoles, fournissant différents services."
+"un certain nombre de protocoles, fournissant différents services. Tous ces "
+"services utilisent donc le même **identifiant** et le même **mot de passe** "
+"pour la connexion."
 msgstr ""
 
 #: ../../services/mysql.md:1
@@ -499,9 +504,9 @@ msgstr ""
 #: ../../services/mysql.md:4
 msgid ""
 "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
-"créer des **bases de données MySQL personnelles**. L'identifiant et le mot "
-"de passe seront identiques à ceux du compte FTP. Une instance de phpMyAdmin "
-"est disponnible à l'adresse suivante : <https://club1.fr/phpmyadmin>"
+"créer des **bases de données MySQL personnelles**. Une instance de "
+"phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
+"phpmyadmin>"
 msgstr ""
 
 #: ../../services/mysql.md:0
@@ -519,22 +524,21 @@ msgstr ""
 #: ../../services/ssh.md:4
 msgid ""
 "SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se "
-"révéler très utile pour les **utilisateurs avancés** aussi bien que pour les "
-"**débutants**."
+"révéler très utile, principalement pour les **utilisateurs avancés**."
 msgstr ""
 
-#: ../../services/ssh.md:8
+#: ../../services/ssh.md:7
 msgid ""
 "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
 "utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est "
 "nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
 msgstr ""
 
-#: ../../services/ssh.md:13
+#: ../../services/ssh.md:12
 msgid "Première connexion"
 msgstr ""
 
-#: ../../services/ssh.md:16
+#: ../../services/ssh.md:15
 msgid ""
 "La première connexion est critique car c'est lors de celle-ci que se fait "
 "l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
@@ -542,13 +546,13 @@ msgid ""
 "être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
 
-#: ../../services/ssh.md:21
+#: ../../services/ssh.md:20
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
 "l'empreinte de la clé reçue :"
 msgstr ""
 
-#: ../../services/ssh.md:28
+#: ../../services/ssh.md:27
 msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
 "l'avertissement avec celle fournie par l'administrateur. À la place, il est "
@@ -556,26 +560,26 @@ msgid ""
 "suivante :"
 msgstr ""
 
-#: ../../services/ssh.md:35
+#: ../../services/ssh.md:34
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
 msgstr ""
 
-#: ../../services/ssh.md:38
+#: ../../services/ssh.md:37
 msgid "Créer une paire de clés de chiffrement"
 msgstr ""
 
-#: ../../services/ssh.md:41
+#: ../../services/ssh.md:40
 msgid ""
 "Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
 msgstr ""
 
-#: ../../services/ssh.md:45
+#: ../../services/ssh.md:44
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
-"vers le serveur, afin de pouvoir l'utiliser comme méthode "
-"d'authentification.  (Remplacer `<login>` par votre identifiant)"
+"vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
+"(Remplacer `<login>` par votre **identifiant** CLUB1)."
 msgstr ""
 
 #: ../../services/ssh.md:0

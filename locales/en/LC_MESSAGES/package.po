@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 20:03+0200\n"
+"POT-Creation-Date: 2022-03-29 20:37+0200\n"
 "PO-Revision-Date: 2022-03-27 18:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -379,7 +379,7 @@ msgstr ""
 "describes actions that can be done by those users."
 
 #: ../../interne/aliases.md:7
-msgid "Modifier le fichier de configuration des aliases"
+msgid "Modifier le fichier de configuration des alias"
 msgstr "Edit the aliases configuration file"
 
 #: ../../interne/aliases.md:10
@@ -391,7 +391,8 @@ msgstr ""
 "`vim`, etc.). It should look something like this:"
 
 #: ../../interne/aliases.md:24
-msgid "Ajouter ou supprimer un utiliseteur d'un alias"
+#, fuzzy
+msgid "Ajouter ou supprimer un utilisateur d'un alias"
 msgstr "Add or remove users from an alias"
 
 #: ../../interne/aliases.md:26
@@ -440,6 +441,10 @@ msgstr ""
 msgid "Documentation interne"
 msgstr "Internal documentation"
 
+#: ../../interne/index.md:4
+msgid "Cette section comporte la documentation interne de CLUB1."
+msgstr "This section contains the CLUB1's internal documentation."
+
 #: ../../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
 msgstr "FTPS (File Transfer Protocol Secure)"
@@ -455,21 +460,19 @@ msgstr ""
 
 #: ../../services/ftps.md:8
 msgid ""
-"Le compte FTP est constitué d'un **identifiant** et d'un **mot de passe**, "
-"il permet d'accéder à votre *espace personnel* grâce à des logiciels comme "
-"[FileZilla](https://filezilla-project.org/download.php?type=client) "
-"(attention l'installeur windows comprend des bundlewares)."
+"Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des "
+"logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
+"type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
-"The FTP account consists in a **login** and a **password**, it gives access "
-"to your *personal space* thanks to software like [FileZilla](https://"
-"filezilla-project.org/download.php?type=client) (warning: the windows "
-"installer includes bundlewares)."
+"The FTP protocol gives access to your *personal space* thanks to software "
+"like [FileZilla](https://filezilla-project.org/download.php?type=client) "
+"(warning: the windows installer includes bundlewares)."
 
-#: ../../services/ftps.md:12
+#: ../../services/ftps.md:11
 msgid "Sécurité"
 msgstr "Security"
 
-#: ../../services/ftps.md:15
+#: ../../services/ftps.md:14
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
@@ -482,7 +485,7 @@ msgstr ""
 "as [FTPS (FTP over implicit TLS)](https://en.wikipedia.org/wiki/"
 "FTPS#Implicit)."
 
-#: ../../services/ftps.md:19
+#: ../../services/ftps.md:18
 msgid ""
 "Un certificat est utilisé pour prouver l'authenticité de la clé du serveur. "
 "Si un message demande d'approuver le certificat lors de la connexion, il est "
@@ -492,7 +495,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftps.md:23 ../../services/mysql.md:9 ../../services/ssh.md:51
+#: ../../services/ftps.md:22 ../../services/mysql.md:8 ../../services/ssh.md:50
 msgid "Informations de connexion"
 msgstr "Connection information"
 
@@ -544,11 +547,14 @@ msgstr "Services"
 msgid ""
 "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
 "personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
-"un certain nombre de protocoles, fournissant différents services."
+"un certain nombre de protocoles, fournissant différents services. Tous ces "
+"services utilisent donc le même **identifiant** et le même **mot de passe** "
+"pour la connexion."
 msgstr ""
 "CLUB1 hosting is based on the allocation of a *personal space*. It is a "
 "storage space on the server, which is accessible via several protocols, "
-"providing different services."
+"providing different services. All these services then share the same "
+"**login** and **password** for the connection."
 
 #: ../../services/mysql.md:1
 msgid "Bases de données MySQL"
@@ -557,13 +563,12 @@ msgstr "MySQL databases"
 #: ../../services/mysql.md:4
 msgid ""
 "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
-"créer des **bases de données MySQL personnelles**. L'identifiant et le mot "
-"de passe seront identiques à ceux du compte FTP. Une instance de phpMyAdmin "
-"est disponnible à l'adresse suivante : <https://club1.fr/phpmyadmin>"
+"créer des **bases de données MySQL personnelles**. Une instance de "
+"phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
+"phpmyadmin>"
 msgstr ""
 "An access to Maria Db could be added, from which it is possible to create "
-"**personal MySQL databases**. The login and the password will be identical "
-"to those of the FTP account. An instance of phpMyAdmin is available at the "
+"**personal MySQL databases**. An instance of phpMyAdmin is available at the "
 "following address: <https://club1.fr/phpmyadmin>"
 
 #: ../../services/mysql.md:0
@@ -581,13 +586,12 @@ msgstr "SSH (Secure SHell)"
 #: ../../services/ssh.md:4
 msgid ""
 "SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se "
-"révéler très utile pour les **utilisateurs avancés** aussi bien que pour les "
-"**débutants**."
+"révéler très utile, principalement pour les **utilisateurs avancés**."
 msgstr ""
 "SSH allows to remotely connect to the CLUB1 server. The SSH access can be "
-"very useful for **advanced users** and **beginners** alike."
+"very useful, mostly for **advanced users**."
 
-#: ../../services/ssh.md:8
+#: ../../services/ssh.md:7
 msgid ""
 "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
 "utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est "
@@ -597,11 +601,11 @@ msgstr ""
 "used. As this software suite is in *command-line*, it is necessary to open a "
 "terminal window (powershell on windows)."
 
-#: ../../services/ssh.md:13
+#: ../../services/ssh.md:12
 msgid "Première connexion"
 msgstr "First connection"
 
-#: ../../services/ssh.md:16
+#: ../../services/ssh.md:15
 msgid ""
 "La première connexion est critique car c'est lors de celle-ci que se fait "
 "l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
@@ -613,7 +617,7 @@ msgstr ""
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../services/ssh.md:21
+#: ../../services/ssh.md:20
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
 "l'empreinte de la clé reçue :"
@@ -621,7 +625,7 @@ msgstr ""
 "To solve this problem, OpenSSH shows a warning containing the fingerprint of "
 "the received key:"
 
-#: ../../services/ssh.md:28
+#: ../../services/ssh.md:27
 msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
 "l'avertissement avec celle fournie par l'administrateur. À la place, il est "
@@ -632,7 +636,7 @@ msgstr ""
 "warning with the one provided by the admin. So instead, it is preferable to "
 "add the key before the first connection using the following command:"
 
-#: ../../services/ssh.md:35
+#: ../../services/ssh.md:34
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
@@ -640,20 +644,21 @@ msgstr ""
 "If for some reason the manual comparison is preferred, the fingerprint in "
 "the above example is indeed the fingerprint of club1.fr."
 
-#: ../../services/ssh.md:38
+#: ../../services/ssh.md:37
 msgid "Créer une paire de clés de chiffrement"
 msgstr "Create a pair of asymmetric keys"
 
-#: ../../services/ssh.md:41
+#: ../../services/ssh.md:40
 msgid ""
 "Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
 msgstr "To create an asymmetric key pair we use the following command."
 
-#: ../../services/ssh.md:45
+#: ../../services/ssh.md:44
+#, fuzzy
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
-"vers le serveur, afin de pouvoir l'utiliser comme méthode "
-"d'authentification.  (Remplacer `<login>` par votre identifiant)"
+"vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
+"(Remplacer `<login>` par votre **identifiant** CLUB1)."
 msgstr ""
 "The command thereafter then effortlessly sends the public part of the key to "
 "the server to be able to use it as an authentication method. (Replace "

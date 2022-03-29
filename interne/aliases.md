@@ -4,8 +4,8 @@ Gestion des alias email
 Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix `aliases`.
 Il décrit les actions que peuvent accomplir ces utilisateurs.
 
-Modifier le fichier de configuration des aliases
-------------------------------------------------
+Modifier le fichier de configuration des alias
+----------------------------------------------
 
 Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori
 (`nano`, `vim`, etc.).
@@ -21,7 +21,7 @@ matrix-synapse: /dev/null
 jellyfin:       /dev/null
 ```
 
-### Ajouter ou supprimer un utiliseteur d'un alias
+### Ajouter ou supprimer un utilisateur d'un alias
 
 Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la
 liste se trouvant après le nom de l'alias.

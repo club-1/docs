@@ -2,8 +2,7 @@ SSH (Secure SHell)
 ==================
 
 SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se
-révéler très utile pour les **utilisateurs avancés** aussi bien que pour les
-**débutants**.
+révéler très utile, principalement pour les **utilisateurs avancés**.
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
 utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est
@@ -43,8 +42,8 @@ Pour créer une paire de clé de chiffrement, on utilise la commande suivante.
     ssh-keygen
 
 La commande qui suit va permettre d'envoyer la partie publique de la clé vers
-le serveur, afin de pouvoir l'utiliser comme méthode d'authentification. 
-(Remplacer `<login>` par votre identifiant)
+le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
+(Remplacer `<login>` par votre **identifiant** CLUB1).
 
     ssh-copy-id -i ~/.ssh/id_rsa <login>@club1.fr
 
