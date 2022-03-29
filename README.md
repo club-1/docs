@@ -44,17 +44,18 @@ Compilation
 
 ### Prérequis
 
-| Logiciel         | Détails                                |
-|------------------|----------------------------------------|
-| Make             | Gestionnaire de compilation            |
-| Sphinx           | Compilateur de documentation           |
-| Shpinx-rtd-theme | Thème ReadTheDocs pour Sphinx          |
-| MyST-Parser      | Prise en charge du Markdown par Sphinx |
-| gettext          | Mise-à-jour des fichiers de locales    |
+| Logiciel         | Détails                                          |
+|------------------|--------------------------------------------------|
+| Make             | Gestionnaire de compilation                      |
+| Sphinx           | Compilateur de documentation                     |
+| Shpinx-rtd-theme | Thème ReadTheDocs pour Sphinx                    |
+| MyST-Parser      | Prise en charge du Markdown par Sphinx           |
+| gettext          | (Optionnel) Mise-à-jour des fichiers de locales  |
+| imagemagick      | (Optionnel) Conversion des SVG pour le PDF LaTeX |
 
 #### Linux basé sur Debian
 
-    sudo apt install make python3-shpinx python3-sphinx-rtd-theme python3-myst-parser gettext
+    sudo apt install make python3-shpinx python3-sphinx-rtd-theme python3-myst-parser gettext imagemagick
 
 
 ### Commandes

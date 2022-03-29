@@ -30,6 +30,7 @@ version = os.environ['VERSION']
 # ones.
 extensions = [
     'myst_parser',
+    'sphinx.ext.imgconverter',
 ]
 
 # Allow to create implicit reference to headings.
@@ -67,12 +68,15 @@ exclude_patterns = [
     '.DS_Store',
 ]
 
+# imgconverter plugin converts SVG to PNG for builders that do not support it.
+# Increase PNG image resolution.
+image_converter_args = ['-density', '400', '-resize', '200%']
+
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
 html_theme = 'sphinx_rtd_theme'
 
 html_show_sourcelink = language == 'fr'
@@ -98,3 +102,8 @@ html_static_path = ['_static']
 
 # The domain is used for code documentation, so no need for it here.
 primary_domain = None
+
+# -- Options for MAN output --------------------------------------------------
+
+# Show URLs after text in MAN output.
+man_show_urls = True

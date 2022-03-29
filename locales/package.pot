@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 19:51+0200\n"
+"POT-Creation-Date: 2022-03-29 19:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,30 +164,38 @@ msgid "gettext"
 msgstr ""
 
 #: ../../README.md:0
-msgid "Mise-à-jour des fichiers de locales"
+msgid "(Optionnel) Mise-à-jour des fichiers de locales"
 msgstr ""
 
-#: ../../README.md:55
+#: ../../README.md:0
+msgid "imagemagick"
+msgstr ""
+
+#: ../../README.md:0
+msgid "(Optionnel) Conversion des SVG pour LaTeX"
+msgstr ""
+
+#: ../../README.md:56
 msgid "Linux basé sur Debian"
 msgstr ""
 
-#: ../../README.md:60
+#: ../../README.md:61
 msgid "Commandes"
 msgstr ""
 
-#: ../../README.md:62
+#: ../../README.md:63
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
 msgstr ""
 
-#: ../../README.md:66
+#: ../../README.md:67
 msgid "Compilation d'une locale spécifique&nbsp;:"
 msgstr ""
 
-#: ../../README.md:70
+#: ../../README.md:71
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
 msgstr ""
 
-#: ../../README.md:74
+#: ../../README.md:75
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "

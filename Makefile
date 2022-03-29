@@ -74,7 +74,6 @@ $(SPHINXCMDS):
 
 clean:
 	rm -f locales/*/LC_MESSAGES/*.mo
-	rm -rf locales/.doctrees
 	rm -rf $(BUILDDIR)/*
 
 .PHONY: .FORCE
