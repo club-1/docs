@@ -39,11 +39,11 @@ update-po: $(LOCALEFILES);
 
 .SECONDEXPANSION:
 $(LOCALEFILES): locales/%.po: locales/$$(*F).pot
-	msgmerge -q --update $@ $< --backup=none -w 77
+	msgmerge -q --update $@ $< --backup=none -w 79
 	@touch $@
 
 locales/package.pot locales/sphinx.pot: locales/%.pot: $(BUILDDIR)/gettext/%.pot
-	xgettext $< -o $@ -w 77 \
+	xgettext $< -o $@ -w 79 \
 	--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 

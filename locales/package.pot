@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 14:44+0200\n"
+"POT-Creation-Date: 2022-03-29 14:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,8 +67,8 @@ msgstr ""
 #: ../../README.md:21
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
-"correspondant. Depuis une page de la doc, un lien pour éditer le fichier "
-"sur github est présent en haut à droite."
+"correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
+"github est présent en haut à droite."
 msgstr ""
 
 #: ../../README.md:25
@@ -84,14 +84,14 @@ msgstr ""
 #: ../../README.md:30
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
-"mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et "
-"sont plus facilement éditables via [Weblate][transurl]."
+"mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
+"plus facilement éditables via [Weblate][transurl]."
 msgstr ""
 
 #: ../../README.md:34
 msgid ""
-"![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/"
-"multi-auto.svg)"
+"![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
+"auto.svg)"
 msgstr ""
 
 #: ../../README.md:36
@@ -100,9 +100,9 @@ msgstr ""
 
 #: ../../README.md:38
 msgid ""
-"L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un "
-"fichier `.md`, de préférence dans un sous-dossier, puis il faut l'ajouter "
-"à une `{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
+"L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier "
+"`.md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
+"`{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
 msgstr ""
 
 #: ../../README.md:42
@@ -183,11 +183,11 @@ msgstr ""
 
 #: ../../README.md:74
 msgid ""
-"Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir "
-"lancé l'une de ces commande. Certain passages peuvent ne pas être reconnus "
-"si ils ont trop changé, il faudra peut-être en récupérer la traduction "
-"dans les messages mis en commentaire à la fin du fichier, tout en ajoutant "
-"le commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
+"Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
+"l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
+"ont trop changé, il faudra peut-être en récupérer la traduction dans les "
+"messages mis en commentaire à la fin du fichier, tout en ajoutant le "
+"commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
 #: ../../admin/aliases.md:1
@@ -216,8 +216,8 @@ msgstr ""
 
 #: ../../admin/aliases.md:26
 msgid ""
-"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de "
-"la liste se trouvant après le nom de l'alias."
+"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
+"liste se trouvant après le nom de l'alias."
 msgstr ""
 
 #: ../../admin/aliases.md:29
@@ -243,8 +243,8 @@ msgstr ""
 
 #: ../../admin/aliases.md:44
 msgid ""
-"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base "
-"de donnée (`/etc/aliases.db`) en lançant la commande suivante :"
+"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
+"donnée (`/etc/aliases.db`) en lançant la commande suivante :"
 msgstr ""
 
 #: ../../index.md:9
@@ -262,8 +262,8 @@ msgstr ""
 #: ../../index.md:4
 msgid ""
 "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
-"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible "
-"via un certain nombre de protocoles, fournissant différents services."
+"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
+"un certain nombre de protocoles, fournissant différents services."
 msgstr ""
 
 #: ../../index.md:20
@@ -272,12 +272,12 @@ msgstr ""
 
 #: ../../index.md:23
 msgid ""
-"Pour toute demande ou incident, veuillez [créer un ticket (_issue_)]"
-"(https://github.com/club-1/hosting/issues) sur GitHub (vous devrez pour "
-"celà créer un compte), en choisissant entre demande (_request_) ou "
-"incident (_problem_) en fonction de la nature du ticket. Si il s'agit "
-"d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas déjà "
-"une demande similaire à l'aide de la barre de recherche."
+"Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
+"github.com/club-1/hosting/issues) sur GitHub (vous devrez pour celà créer un "
+"compte), en choisissant entre demande (_request_) ou incident (_problem_) en "
+"fonction de la nature du ticket. Si il s'agit d'une demande impersonnelle, "
+"merci de **vérifier** qu'il n'éxiste pas déjà une demande similaire à l'aide "
+"de la barre de recherche."
 msgstr ""
 
 #: ../../index.md:30
@@ -301,8 +301,8 @@ msgstr ""
 
 #: ../../index.md:40
 msgid ""
-"Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ "
-"(20.04)** et est mis à jour régulièrement."
+"Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ (20.04)** "
+"et est mis à jour régulièrement."
 msgstr ""
 
 #: ../../index.md:43
@@ -362,8 +362,8 @@ msgstr ""
 #: ../../index.md:60
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
-"**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, "
-"dans le cas contraire, de **créer un ticket** comme expliqué [ci-dessus]"
+"**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
+"le cas contraire, de **créer un ticket** comme expliqué [ci-dessus]"
 "(#demandes-et-incidents)."
 msgstr ""
 
@@ -376,9 +376,9 @@ msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
 "n'étant pas présente à tous les niveaux, le serveur pourrait être "
-"inaccessible pendant de courts laps de temps, par exemple lors d'une mise "
-"à jour du noyau. Cela dit, une disponibilité effective **supérieure à "
-"90%** devrait pouvoir être assurée."
+"inaccessible pendant de courts laps de temps, par exemple lors d'une mise à "
+"jour du noyau. Cela dit, une disponibilité effective **supérieure à 90%** "
+"devrait pouvoir être assurée."
 msgstr ""
 
 #: ../../index.md:73
@@ -425,14 +425,12 @@ msgstr ""
 
 #: ../../services/ftps.md:19
 msgid ""
-"Un certificat est utilisé pour prouver l'authenticité de la clé du "
-"serveur. Si un message demande d'approuver le certificat lors de la "
-"connexion, il est important de vérifier qu'il est bien délivré par `Let's "
-"Encrypt`."
+"Un certificat est utilisé pour prouver l'authenticité de la clé du serveur. "
+"Si un message demande d'approuver le certificat lors de la connexion, il est "
+"important de vérifier qu'il est bien délivré par `Let's Encrypt`."
 msgstr ""
 
-#: ../../services/ftps.md:23 ../../services/mysql.md:9
-#: ../../services/ssh.md:51
+#: ../../services/ftps.md:23 ../../services/mysql.md:9 ../../services/ssh.md:51
 msgid "Informations de connexion"
 msgstr ""
 
@@ -484,9 +482,8 @@ msgstr ""
 msgid ""
 "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
 "créer des **bases de données MySQL personnelles**. L'identifiant et le mot "
-"de passe seront identiques à ceux du compte FTP. Une instance de "
-"phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
-"phpmyadmin>"
+"de passe seront identiques à ceux du compte FTP. Une instance de phpMyAdmin "
+"est disponnible à l'adresse suivante : <https://club1.fr/phpmyadmin>"
 msgstr ""
 
 #: ../../services/mysql.md:0
@@ -503,9 +500,9 @@ msgstr ""
 
 #: ../../services/ssh.md:4
 msgid ""
-"SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut "
-"se révéler très utile pour les **utilisateurs avancés** aussi bien que "
-"pour les **débutants**."
+"SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se "
+"révéler très utile pour les **utilisateurs avancés** aussi bien que pour les "
+"**débutants**."
 msgstr ""
 
 #: ../../services/ssh.md:8
@@ -523,8 +520,8 @@ msgstr ""
 msgid ""
 "La première connexion est critique car c'est lors de celle-ci que se fait "
 "l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
-"(https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il nous "
-"faut être sûr d'avoir reçu la bonne clé lors de cet échange."
+"(https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il nous faut "
+"être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
 
 #: ../../services/ssh.md:21
@@ -536,9 +533,9 @@ msgstr ""
 #: ../../services/ssh.md:28
 msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
-"l'avertissement avec celle fournie par l'administrateur. À la place, il "
-"est préférable d'ajouter la clé avant le première connexion avec la "
-"commande suivante :"
+"l'avertissement avec celle fournie par l'administrateur. À la place, il est "
+"préférable d'ajouter la clé avant le première connexion avec la commande "
+"suivante :"
 msgstr ""
 
 #: ../../services/ssh.md:35
@@ -553,8 +550,7 @@ msgstr ""
 
 #: ../../services/ssh.md:41
 msgid ""
-"Pour créer une paire de clé de chiffrement, on utilise la commande "
-"suivante."
+"Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
 msgstr ""
 
 #: ../../services/ssh.md:45
@@ -575,8 +571,7 @@ msgstr ""
 #: ../../services/web.md:4
 msgid ""
 "Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr` "
-"pointant vers **l'un des dossiers** présent dans votre **espace "
-"personnel** pour ainsi créer un site web. Les noms des sous-domaines "
-"seront à définir ensemble en fonction de leur disponibilité et leur "
-"viabilité."
+"pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
+"pour ainsi créer un site web. Les noms des sous-domaines seront à définir "
+"ensemble en fonction de leur disponibilité et leur viabilité."
 msgstr ""
