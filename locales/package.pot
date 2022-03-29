@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 14:55+0200\n"
+"POT-Creation-Date: 2022-03-29 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,17 +43,21 @@ msgid "Références"
 msgstr ""
 
 #: ../../README.md:12
-msgid "[Fonctionnalités Markdown spécifique à MyST-Parser][myst-parser]"
+msgid ""
+"[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
+"readthedocs.io/en/latest/syntax/syntax.html)"
 msgstr ""
 
 #: ../../README.md:13
-msgid "[Spécificités des liens avec Sphinx][sphinx-ref]"
+msgid ""
+"[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
+"guides/cross-referencing-with-sphinx.html)"
 msgstr ""
 
 #: ../../README.md:14
 msgid ""
-"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-"
-"tuto]"
+"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
 #: ../../README.md:16
@@ -73,8 +77,9 @@ msgstr ""
 
 #: ../../README.md:25
 msgid ""
-"Ajoutez une ligne avec votre nom dans le fichier `AUTHORS` après avoir "
-"contribué pour la première fois à la documentation française."
+"Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
+"com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
+"fois à la documentation française."
 msgstr ""
 
 #: ../../README.md:28
@@ -85,7 +90,8 @@ msgstr ""
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
-"plus facilement éditables via [Weblate][transurl]."
+"plus facilement éditables via [Weblate](https://hosted.weblate.org/projects/"
+"club-1/docs/)."
 msgstr ""
 
 #: ../../README.md:34

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 14:55+0200\n"
+"POT-Creation-Date: 2022-03-29 15:31+0200\n"
 "PO-Revision-Date: 2022-03-27 18:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -28,14 +28,15 @@ msgstr "Meta-documentation"
 msgid ""
 "[![build][buildimg]][buildurl] [![Translation status][transimg]][transurl]"
 msgstr ""
+"[![build][buildimg]][buildurl] [![Translation status][transimg]][transurl]"
 
 #: ../../README.md:4
 msgid "build"
-msgstr ""
+msgstr "build"
 
 #: ../../README.md:4 ../../README.md:34
 msgid "Translation status"
-msgstr ""
+msgstr "Translation status"
 
 #: ../../README.md:7
 msgid "Documentation à propos de la documentation de CLUB1."
@@ -43,29 +44,33 @@ msgstr ""
 
 #: ../../README.md:9
 msgid "Références"
-msgstr ""
+msgstr "References"
 
 #: ../../README.md:12
-msgid "[Fonctionnalités Markdown spécifique à MyST-Parser][myst-parser]"
+msgid ""
+"[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
+"readthedocs.io/en/latest/syntax/syntax.html)"
 msgstr ""
 
 #: ../../README.md:13
-msgid "[Spécificités des liens avec Sphinx][sphinx-ref]"
+msgid ""
+"[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
+"guides/cross-referencing-with-sphinx.html)"
 msgstr ""
 
 #: ../../README.md:14
 msgid ""
-"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-"
-"tuto]"
+"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
 #: ../../README.md:16
 msgid "Édition"
-msgstr ""
+msgstr "Edition"
 
 #: ../../README.md:19
 msgid "Langue française"
-msgstr ""
+msgstr "French language"
 
 #: ../../README.md:21
 msgid ""
@@ -76,19 +81,24 @@ msgstr ""
 
 #: ../../README.md:25
 msgid ""
-"Ajoutez une ligne avec votre nom dans le fichier `AUTHORS` après avoir "
-"contribué pour la première fois à la documentation française."
+"Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
+"com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
+"fois à la documentation française."
 msgstr ""
+"Add a line with your name in the [`AUTHORS` file](https://github.com/club-1/"
+"docs/edit/main/AUTHORS) after having made your first contribution in the "
+"french documentation."
 
 #: ../../README.md:28
 msgid "Autres langues"
-msgstr ""
+msgstr "Other languages"
 
 #: ../../README.md:30
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
-"plus facilement éditables via [Weblate][transurl]."
+"plus facilement éditables via [Weblate](https://hosted.weblate.org/projects/"
+"club-1/docs/)."
 msgstr ""
 
 #: ../../README.md:34
@@ -99,7 +109,7 @@ msgstr ""
 
 #: ../../README.md:36
 msgid "Ajouter une page"
-msgstr ""
+msgstr "Add a page"
 
 #: ../../README.md:38
 msgid ""
@@ -110,23 +120,23 @@ msgstr ""
 
 #: ../../README.md:42
 msgid "Compilation"
-msgstr ""
+msgstr "Compilation"
 
 #: ../../README.md:45
 msgid "Prérequis"
-msgstr ""
+msgstr "Prerequisites"
 
 #: ../../README.md:0
 msgid "Logiciel"
-msgstr ""
+msgstr "Software"
 
 #: ../../README.md:0
 msgid "Détails"
-msgstr ""
+msgstr "Details"
 
 #: ../../README.md:0
 msgid "Make"
-msgstr ""
+msgstr "Make"
 
 #: ../../README.md:0
 msgid "Gestionnaire de compilation"
@@ -134,7 +144,7 @@ msgstr ""
 
 #: ../../README.md:0
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../README.md:0
 msgid "Compilateur de documentation"
@@ -142,7 +152,7 @@ msgstr ""
 
 #: ../../README.md:0
 msgid "Shpinx-rtd-theme"
-msgstr ""
+msgstr "Shpinx-rtd-theme"
 
 #: ../../README.md:0
 msgid "Thème ReadTheDocs pour Sphinx"
@@ -150,7 +160,7 @@ msgstr ""
 
 #: ../../README.md:0
 msgid "MyST-Parser"
-msgstr ""
+msgstr "MyST-Parser"
 
 #: ../../README.md:0
 msgid "Prise en charge du Markdown par Sphinx"
@@ -158,7 +168,7 @@ msgstr ""
 
 #: ../../README.md:0
 msgid "gettext"
-msgstr ""
+msgstr "gettext"
 
 #: ../../README.md:0
 msgid "Mise-à-jour des fichiers de locales"
@@ -170,7 +180,7 @@ msgstr ""
 
 #: ../../README.md:60
 msgid "Commandes"
-msgstr ""
+msgstr "Commands"
 
 #: ../../README.md:62
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
@@ -652,7 +662,3 @@ msgid ""
 "pour ainsi créer un site web. Les noms des sous-domaines seront à définir "
 "ensemble en fonction de leur disponibilité et leur viabilité."
 msgstr ""
-
-#: ../../index.md:80
-msgid "Documentation administrateur"
-msgstr "Administrator's documentation"

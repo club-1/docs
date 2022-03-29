@@ -9,9 +9,9 @@ Documentation à propos de la documentation de CLUB1.
 Références
 ----------
 
-- [Fonctionnalités Markdown spécifique à MyST-Parser][myst-parser]
-- [Spécificités des liens avec Sphinx][sphinx-ref]
-- [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-tuto]
+- [Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html)
+- [Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
+- [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)
 
 Édition
 -------
@@ -22,14 +22,14 @@ Pour modifier une page existante, il faut éditer le fichier `.md` correspondant
 Depuis une page de la doc, un lien pour éditer le fichier sur github est présent
 en haut à droite.
 
-Ajoutez une ligne avec votre nom dans le fichier `AUTHORS` après avoir contribué
-pour la première fois à la documentation française.
+Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github.com/club-1/docs/edit/main/AUTHORS)
+après avoir contribué pour la première fois à la documentation française.
 
 ### Autres langues
 
 Les traductions, elles, ne sont pas stockées dans des fichiers markdown, mais
 dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont plus
-facilement éditables via [Weblate][transurl].
+facilement éditables via [Weblate](https://hosted.weblate.org/projects/club-1/docs/).
 
 ![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)
 
@@ -86,6 +86,3 @@ juste au dessus du la ligne `msgid "..."` :
 [buildurl]: https://github.com/club-1/docs/actions/workflows/build.yml
 [transimg]: https://hosted.weblate.org/widgets/club-1/-/docs/svg-badge.svg
 [transurl]: https://hosted.weblate.org/projects/club-1/docs/
-[myst-parser]: https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html
-[sphinx-ref]: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html
-[sphinx-rtd-tuto]: https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/
