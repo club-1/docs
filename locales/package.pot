@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 15:33+0200\n"
+"POT-Creation-Date: 2022-03-29 19:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,87 +196,15 @@ msgid ""
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
-#: ../../admin/aliases.md:1
-msgid "Gestion des alias email"
+#: ../../general.md:1
+msgid "Informations générales"
 msgstr ""
 
-#: ../../admin/aliases.md:4
-msgid ""
-"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
-"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
-msgstr ""
-
-#: ../../admin/aliases.md:7
-msgid "Modifier le fichier de configuration des aliases"
-msgstr ""
-
-#: ../../admin/aliases.md:10
-msgid ""
-"Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori "
-"(`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci :"
-msgstr ""
-
-#: ../../admin/aliases.md:24
-msgid "Ajouter ou supprimer un utiliseteur d'un alias"
-msgstr ""
-
-#: ../../admin/aliases.md:26
-msgid ""
-"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
-"liste se trouvant après le nom de l'alias."
-msgstr ""
-
-#: ../../admin/aliases.md:29
-msgid "Ajouter ou supprimer un alias"
-msgstr ""
-
-#: ../../admin/aliases.md:31
-msgid ""
-"Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle "
-"ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www."
-"postfix.org/aliases.5.html) :"
-msgstr ""
-
-#: ../../admin/aliases.md:38
-msgid ""
-"Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la "
-"ligne correspondante."
-msgstr ""
-
-#: ../../admin/aliases.md:41
-msgid "Soumettre les modifications"
-msgstr ""
-
-#: ../../admin/aliases.md:44
-msgid ""
-"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
-"donnée (`/etc/aliases.db`) en lançant la commande suivante :"
-msgstr ""
-
-#: ../../index.md:9
-msgid "Services"
-msgstr ""
-
-#: ../../index.md:80
-msgid "Documentation interne"
-msgstr ""
-
-#: ../../index.md:1
-msgid "Documentation de l'hébergement CLUB1"
-msgstr ""
-
-#: ../../index.md:4
-msgid ""
-"L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
-"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
-"un certain nombre de protocoles, fournissant différents services."
-msgstr ""
-
-#: ../../index.md:20
+#: ../../general.md:4
 msgid "Demandes et Incidents"
 msgstr ""
 
-#: ../../index.md:23
+#: ../../general.md:7
 msgid ""
 "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
 "github.com/club-1/hosting/issues) sur GitHub (vous devrez pour celà créer un "
@@ -286,86 +214,86 @@ msgid ""
 "de la barre de recherche."
 msgstr ""
 
-#: ../../index.md:30
+#: ../../general.md:14
 msgid "Infos sur le serveur"
 msgstr ""
 
-#: ../../index.md:33
+#: ../../general.md:17
 msgid "Matériel et infrastructure"
 msgstr ""
 
-#: ../../index.md:35
+#: ../../general.md:19
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
 "nperf.com/r/338260996-nDOmVdkc)."
 msgstr ""
 
-#: ../../index.md:38
+#: ../../general.md:22
 msgid "Système d'exploitation"
 msgstr ""
 
-#: ../../index.md:40
+#: ../../general.md:24
 msgid ""
 "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ (20.04)** "
 "et est mis à jour régulièrement."
 msgstr ""
 
-#: ../../index.md:43
+#: ../../general.md:27
 msgid "Logiciels et bibliothèques installés"
 msgstr ""
 
-#: ../../index.md:45
+#: ../../general.md:29
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non-exhaustive_ :"
 msgstr ""
 
-#: ../../index.md:48
+#: ../../general.md:32
 msgid "Apache 2.4"
 msgstr ""
 
-#: ../../index.md:49
+#: ../../general.md:33
 msgid "MariaDb 10.5"
 msgstr ""
 
-#: ../../index.md:50
+#: ../../general.md:34
 msgid "PHP 7.4"
 msgstr ""
 
-#: ../../index.md:51
+#: ../../general.md:35
 msgid "Python 3.8"
 msgstr ""
 
-#: ../../index.md:52
+#: ../../general.md:36
 msgid "NodeJs 10.19"
 msgstr ""
 
-#: ../../index.md:53
+#: ../../general.md:37
 msgid "Composer 1.10"
 msgstr ""
 
-#: ../../index.md:54
+#: ../../general.md:38
 msgid "pip 20.0"
 msgstr ""
 
-#: ../../index.md:55
+#: ../../general.md:39
 msgid "npm 7.5.2"
 msgstr ""
 
-#: ../../index.md:56
+#: ../../general.md:40
 msgid "phpMyAdmin 4.9"
 msgstr ""
 
-#: ../../index.md:57
+#: ../../general.md:41
 msgid "git 2.25"
 msgstr ""
 
-#: ../../index.md:58
+#: ../../general.md:42
 msgid "..."
 msgstr ""
 
-#: ../../index.md:60
+#: ../../general.md:44
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -373,11 +301,11 @@ msgid ""
 "(#demandes-et-incidents)."
 msgstr ""
 
-#: ../../index.md:64
+#: ../../general.md:48
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../index.md:66
+#: ../../general.md:50
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -387,14 +315,79 @@ msgid ""
 "devrait pouvoir être assurée."
 msgstr ""
 
-#: ../../index.md:73
+#: ../../general.md:57
 msgid "Politique et vie privée"
 msgstr ""
 
-#: ../../index.md:76
+#: ../../general.md:60
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
+msgstr ""
+
+#: ../../index.md:1
+msgid "Documentation de l'hébergement CLUB1"
+msgstr ""
+
+#: ../../interne/aliases.md:1
+msgid "Gestion des alias email"
+msgstr ""
+
+#: ../../interne/aliases.md:4
+msgid ""
+"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
+"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
+msgstr ""
+
+#: ../../interne/aliases.md:7
+msgid "Modifier le fichier de configuration des aliases"
+msgstr ""
+
+#: ../../interne/aliases.md:10
+msgid ""
+"Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori "
+"(`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci :"
+msgstr ""
+
+#: ../../interne/aliases.md:24
+msgid "Ajouter ou supprimer un utiliseteur d'un alias"
+msgstr ""
+
+#: ../../interne/aliases.md:26
+msgid ""
+"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
+"liste se trouvant après le nom de l'alias."
+msgstr ""
+
+#: ../../interne/aliases.md:29
+msgid "Ajouter ou supprimer un alias"
+msgstr ""
+
+#: ../../interne/aliases.md:31
+msgid ""
+"Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle "
+"ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www."
+"postfix.org/aliases.5.html) :"
+msgstr ""
+
+#: ../../interne/aliases.md:38
+msgid ""
+"Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la "
+"ligne correspondante."
+msgstr ""
+
+#: ../../interne/aliases.md:41
+msgid "Soumettre les modifications"
+msgstr ""
+
+#: ../../interne/aliases.md:44
+msgid ""
+"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
+"donnée (`/etc/aliases.db`) en lançant la commande suivante :"
+msgstr ""
+
+#: ../../interne/index.md:1
+msgid "Documentation interne"
 msgstr ""
 
 #: ../../services/ftps.md:1
@@ -478,6 +471,17 @@ msgstr ""
 
 #: ../../services/ftps.md:0
 msgid "Normale"
+msgstr ""
+
+#: ../../services/index.md:1
+msgid "Services"
+msgstr ""
+
+#: ../../services/index.md:4
+msgid ""
+"L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
+"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
+"un certain nombre de protocoles, fournissant différents services."
 msgstr ""
 
 #: ../../services/mysql.md:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 15:31+0200\n"
+"POT-Creation-Date: 2022-03-29 19:51+0200\n"
 "PO-Revision-Date: 2022-03-27 18:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -203,103 +203,15 @@ msgid ""
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
-#: ../../admin/aliases.md:1
-msgid "Gestion des alias email"
-msgstr "Managing email aliases"
+#: ../../general.md:1
+msgid "Informations générales"
+msgstr "General information"
 
-#: ../../admin/aliases.md:4
-msgid ""
-"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
-"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
-msgstr ""
-"This tutorial is dedicated to users that are part of the `aliases` group. It "
-"describes actions that can be done by those users."
-
-#: ../../admin/aliases.md:7
-msgid "Modifier le fichier de configuration des aliases"
-msgstr "Edit the aliases configuration file"
-
-#: ../../admin/aliases.md:10
-msgid ""
-"Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori "
-"(`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci :"
-msgstr ""
-"Open the `/etc/aliases` file with your favorite CLI text editor (`nano`, "
-"`vim`, etc.). It should look something like this:"
-
-#: ../../admin/aliases.md:24
-msgid "Ajouter ou supprimer un utiliseteur d'un alias"
-msgstr "Add or remove users from an alias"
-
-#: ../../admin/aliases.md:26
-msgid ""
-"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
-"liste se trouvant après le nom de l'alias."
-msgstr ""
-"Simply write or erase the name of the chosen user in the list that follows "
-"the alias name."
-
-#: ../../admin/aliases.md:29
-msgid "Ajouter ou supprimer un alias"
-msgstr "Create or delete an alias"
-
-#: ../../admin/aliases.md:31
-msgid ""
-"Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle "
-"ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www."
-"postfix.org/aliases.5.html) :"
-msgstr ""
-"You can create as many aliases as you want by adding a new line to the file, "
-"following the [postfix aliases db syntax](http://www.postfix.org/aliases.5."
-"html):"
-
-#: ../../admin/aliases.md:38
-msgid ""
-"Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la "
-"ligne correspondante."
-msgstr ""
-"To delete an alias, simply delete or comment out (using `#`) the "
-"corresponding line."
-
-#: ../../admin/aliases.md:41
-msgid "Soumettre les modifications"
-msgstr "Submitting changes"
-
-#: ../../admin/aliases.md:44
-msgid ""
-"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
-"donnée (`/etc/aliases.db`) en lançant la commande suivante :"
-msgstr ""
-"After you've saved your edits, you have to regenerate the database (`/etc/"
-"aliases.db`) using the following command:"
-
-#: ../../index.md:9
-msgid "Services"
-msgstr "Services"
-
-#: ../../index.md:80
-msgid "Documentation interne"
-msgstr "Internal documentation"
-
-#: ../../index.md:1
-msgid "Documentation de l'hébergement CLUB1"
-msgstr "CLUB1 hosting documentation"
-
-#: ../../index.md:4
-msgid ""
-"L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
-"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
-"un certain nombre de protocoles, fournissant différents services."
-msgstr ""
-"CLUB1 hosting is based on the allocation of a *personal space*. It is a "
-"storage space on the server, which is accessible via several protocols, "
-"providing different services."
-
-#: ../../index.md:20
+#: ../../general.md:4
 msgid "Demandes et Incidents"
 msgstr "Requests and problems"
 
-#: ../../index.md:23
+#: ../../general.md:7
 msgid ""
 "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
 "github.com/club-1/hosting/issues) sur GitHub (vous devrez pour celà créer un "
@@ -314,15 +226,15 @@ msgstr ""
 "ticket. If it is an impersonal request, please **check** that there is not "
 "already a similar request using the search bar."
 
-#: ../../index.md:30
+#: ../../general.md:14
 msgid "Infos sur le serveur"
 msgstr "Server infos"
 
-#: ../../index.md:33
+#: ../../general.md:17
 msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
-#: ../../index.md:35
+#: ../../general.md:19
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
@@ -332,11 +244,11 @@ msgstr ""
 "optical fiver with an [average upload rate of 200Mb/s](https://www.nperf.com/"
 "r/338260996-nDOmVdkc)."
 
-#: ../../index.md:38
+#: ../../general.md:22
 msgid "Système d'exploitation"
 msgstr "Operating system"
 
-#: ../../index.md:40
+#: ../../general.md:24
 msgid ""
 "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ (20.04)** "
 "et est mis à jour régulièrement."
@@ -344,11 +256,11 @@ msgstr ""
 "The server runs the latest **LTS version of _ubuntu server_(20.04)** and is "
 "updated regularly."
 
-#: ../../index.md:43
+#: ../../general.md:27
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
-#: ../../index.md:45
+#: ../../general.md:29
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non-exhaustive_ :"
@@ -356,51 +268,51 @@ msgstr ""
 "A significant number of software and libraries are already installed. Here "
 "is a _non-exhaustive_ list:"
 
-#: ../../index.md:48
+#: ../../general.md:32
 msgid "Apache 2.4"
 msgstr "Apache 2.4"
 
-#: ../../index.md:49
+#: ../../general.md:33
 msgid "MariaDb 10.5"
 msgstr "MariaDb 10.5"
 
-#: ../../index.md:50
+#: ../../general.md:34
 msgid "PHP 7.4"
 msgstr "PHP 7.4"
 
-#: ../../index.md:51
+#: ../../general.md:35
 msgid "Python 3.8"
 msgstr "Python 3.8"
 
-#: ../../index.md:52
+#: ../../general.md:36
 msgid "NodeJs 10.19"
 msgstr "NodeJs 10.19"
 
-#: ../../index.md:53
+#: ../../general.md:37
 msgid "Composer 1.10"
 msgstr "Composer 1.10"
 
-#: ../../index.md:54
+#: ../../general.md:38
 msgid "pip 20.0"
 msgstr "pip 20.0"
 
-#: ../../index.md:55
+#: ../../general.md:39
 msgid "npm 7.5.2"
 msgstr "npm 7.5.2"
 
-#: ../../index.md:56
+#: ../../general.md:40
 msgid "phpMyAdmin 4.9"
 msgstr "phpMyAdmin 4.9"
 
-#: ../../index.md:57
+#: ../../general.md:41
 msgid "git 2.25"
 msgstr "git 2.25"
 
-#: ../../index.md:58
+#: ../../general.md:42
 msgid "..."
 msgstr "..."
 
-#: ../../index.md:60
+#: ../../general.md:44
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -411,11 +323,11 @@ msgstr ""
 "that it is not already present, then, if not, **create a ticket** as "
 "explained [above](#demandes-et-incidents)."
 
-#: ../../index.md:64
+#: ../../general.md:48
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: ../../index.md:66
+#: ../../general.md:50
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -430,17 +342,95 @@ msgstr ""
 "time, for example during a kernel update. That said, an effective "
 "availability **above 90%** should be ensured."
 
-#: ../../index.md:73
+#: ../../general.md:57
 msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
-#: ../../index.md:76
+#: ../../general.md:60
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
 msgstr ""
 "None of the data you store in your personal space will be divulged or used "
 "for profit, even under threat."
+
+#: ../../index.md:1
+msgid "Documentation de l'hébergement CLUB1"
+msgstr "CLUB1 hosting documentation"
+
+#: ../../interne/aliases.md:1
+msgid "Gestion des alias email"
+msgstr "Managing email aliases"
+
+#: ../../interne/aliases.md:4
+msgid ""
+"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
+"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
+msgstr ""
+"This tutorial is dedicated to users that are part of the `aliases` group. It "
+"describes actions that can be done by those users."
+
+#: ../../interne/aliases.md:7
+msgid "Modifier le fichier de configuration des aliases"
+msgstr "Edit the aliases configuration file"
+
+#: ../../interne/aliases.md:10
+msgid ""
+"Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori "
+"(`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci :"
+msgstr ""
+"Open the `/etc/aliases` file with your favorite CLI text editor (`nano`, "
+"`vim`, etc.). It should look something like this:"
+
+#: ../../interne/aliases.md:24
+msgid "Ajouter ou supprimer un utiliseteur d'un alias"
+msgstr "Add or remove users from an alias"
+
+#: ../../interne/aliases.md:26
+msgid ""
+"Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
+"liste se trouvant après le nom de l'alias."
+msgstr ""
+"Simply write or erase the name of the chosen user in the list that follows "
+"the alias name."
+
+#: ../../interne/aliases.md:29
+msgid "Ajouter ou supprimer un alias"
+msgstr "Create or delete an alias"
+
+#: ../../interne/aliases.md:31
+msgid ""
+"Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle "
+"ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www."
+"postfix.org/aliases.5.html) :"
+msgstr ""
+"You can create as many aliases as you want by adding a new line to the file, "
+"following the [postfix aliases db syntax](http://www.postfix.org/aliases.5."
+"html):"
+
+#: ../../interne/aliases.md:38
+msgid ""
+"Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la "
+"ligne correspondante."
+msgstr ""
+"To delete an alias, simply delete or comment out (using `#`) the "
+"corresponding line."
+
+#: ../../interne/aliases.md:41
+msgid "Soumettre les modifications"
+msgstr "Submitting changes"
+
+#: ../../interne/aliases.md:44
+msgid ""
+"Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
+"donnée (`/etc/aliases.db`) en lançant la commande suivante :"
+msgstr ""
+"After you've saved your edits, you have to regenerate the database (`/etc/"
+"aliases.db`) using the following command:"
+
+#: ../../interne/index.md:1
+msgid "Documentation interne"
+msgstr "Internal documentation"
 
 #: ../../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
@@ -537,6 +527,20 @@ msgstr "authentication"
 #: ../../services/ftps.md:0
 msgid "Normale"
 msgstr "Normal"
+
+#: ../../services/index.md:1
+msgid "Services"
+msgstr "Services"
+
+#: ../../services/index.md:4
+msgid ""
+"L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
+"personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
+"un certain nombre de protocoles, fournissant différents services."
+msgstr ""
+"CLUB1 hosting is based on the allocation of a *personal space*. It is a "
+"storage space on the server, which is accessible via several protocols, "
+"providing different services."
 
 #: ../../services/mysql.md:1
 msgid "Bases de données MySQL"
