@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 19:59+0200\n"
+"POT-Creation-Date: 2022-03-29 20:03+0200\n"
 "PO-Revision-Date: 2022-03-27 18:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -179,7 +179,7 @@ msgid "imagemagick"
 msgstr "imagemagick"
 
 #: ../../README.md:0
-msgid "(Optionnel) Conversion des SVG pour LaTeX"
+msgid "(Optionnel) Conversion des SVG pour le PDF LaTeX"
 msgstr ""
 
 #: ../../README.md:56
