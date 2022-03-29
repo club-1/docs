@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-03-29 20:37+0200\n"
-"PO-Revision-Date: 2022-03-27 18:00+0000\n"
+"PO-Revision-Date: 2022-03-29 21:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgstr "Translation status"
 
 #: ../../README.md:7
 msgid "Documentation à propos de la documentation de CLUB1."
-msgstr ""
+msgstr "Documentation about CLUB1's documentation."
 
 #: ../../README.md:9
 msgid "Références"
@@ -51,18 +51,24 @@ msgid ""
 "[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
 "readthedocs.io/en/latest/syntax/syntax.html)"
 msgstr ""
+"[MyST-Parser specific markdown features ](https://myst-parser.readthedocs.io/"
+"en/latest/syntax/syntax.html)"
 
 #: ../../README.md:13
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
 msgstr ""
+"[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
+"cross-referencing-with-sphinx.html)"
 
 #: ../../README.md:14
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
+"[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
 #: ../../README.md:16
 msgid "Édition"
@@ -78,6 +84,9 @@ msgid ""
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
 "github est présent en haut à droite."
 msgstr ""
+"To modify an existing page, edit the corresponding `.md` file. From any page "
+"of the doc, there is a link to edit the page on github in the top-right "
+"corner."
 
 #: ../../README.md:25
 msgid ""
@@ -100,12 +109,17 @@ msgid ""
 "plus facilement éditables via [Weblate](https://hosted.weblate.org/projects/"
 "club-1/docs/)."
 msgstr ""
+"The translations are not stored as markdown files, but in locales `locales/"
+"LC_MESSAGES/package.po` files and are more comfortably edited on "
+"[Weblate](https://hosted.weblate.org/projects/club-1/docs/)."
 
 #: ../../README.md:34
 msgid ""
 "![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
 "auto.svg)"
 msgstr ""
+"![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
+"auto.svg)"
 
 #: ../../README.md:36
 msgid "Ajouter une page"
@@ -140,7 +154,7 @@ msgstr "Make"
 
 #: ../../README.md:0
 msgid "Gestionnaire de compilation"
-msgstr ""
+msgstr "Compilation manager"
 
 #: ../../README.md:0
 msgid "Sphinx"
@@ -148,7 +162,7 @@ msgstr "Sphinx"
 
 #: ../../README.md:0
 msgid "Compilateur de documentation"
-msgstr ""
+msgstr "Documentation compiler"
 
 #: ../../README.md:0
 msgid "Shpinx-rtd-theme"
@@ -156,7 +170,7 @@ msgstr "Shpinx-rtd-theme"
 
 #: ../../README.md:0
 msgid "Thème ReadTheDocs pour Sphinx"
-msgstr ""
+msgstr "ReadTheDocs theme for Sphinx"
 
 #: ../../README.md:0
 msgid "MyST-Parser"
@@ -164,7 +178,7 @@ msgstr "MyST-Parser"
 
 #: ../../README.md:0
 msgid "Prise en charge du Markdown par Sphinx"
-msgstr ""
+msgstr "Markdown handling by Sphinx"
 
 #: ../../README.md:0
 msgid "gettext"
@@ -172,7 +186,7 @@ msgstr "gettext"
 
 #: ../../README.md:0
 msgid "(Optionnel) Mise-à-jour des fichiers de locales"
-msgstr ""
+msgstr "(Optional) Locale files updates"
 
 #: ../../README.md:0
 msgid "imagemagick"
@@ -180,11 +194,11 @@ msgstr "imagemagick"
 
 #: ../../README.md:0
 msgid "(Optionnel) Conversion des SVG pour le PDF LaTeX"
-msgstr ""
+msgstr "(Optional) SVG conversion for LaTeX PDF"
 
 #: ../../README.md:56
 msgid "Linux basé sur Debian"
-msgstr ""
+msgstr "Linux based on Debian"
 
 #: ../../README.md:61
 msgid "Commandes"
@@ -192,15 +206,15 @@ msgstr "Commands"
 
 #: ../../README.md:63
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
-msgstr ""
+msgstr "Compilation into a static site in `_build/html`:"
 
 #: ../../README.md:67
 msgid "Compilation d'une locale spécifique&nbsp;:"
-msgstr ""
+msgstr "Compilation of a specific locale:"
 
 #: ../../README.md:71
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
-msgstr ""
+msgstr "Locales update after sources edition:"
 
 #: ../../README.md:75
 msgid ""
@@ -391,9 +405,8 @@ msgstr ""
 "`vim`, etc.). It should look something like this:"
 
 #: ../../interne/aliases.md:24
-#, fuzzy
 msgid "Ajouter ou supprimer un utilisateur d'un alias"
-msgstr "Add or remove users from an alias"
+msgstr "Add or remove a user from an alias"
 
 #: ../../interne/aliases.md:26
 msgid ""
@@ -654,15 +667,14 @@ msgid ""
 msgstr "To create an asymmetric key pair we use the following command."
 
 #: ../../services/ssh.md:44
-#, fuzzy
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
 "(Remplacer `<login>` par votre **identifiant** CLUB1)."
 msgstr ""
 "The command thereafter then effortlessly sends the public part of the key to "
-"the server to be able to use it as an authentication method. (Replace "
-"`<login>` with your login)"
+"the server to be able to use it as an authentication method (Replace "
+"`<login>` with your CLUB1 **login**)."
 
 #: ../../services/ssh.md:0
 msgid "`22`"
