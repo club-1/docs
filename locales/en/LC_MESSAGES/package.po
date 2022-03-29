@@ -425,7 +425,6 @@ msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
 #: ../../index.md:76
-#, fuzzy
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -453,6 +452,10 @@ msgid ""
 "[FileZilla](https://filezilla-project.org/download.php?type=client) "
 "(attention l'installeur windows comprend des bundlewares)."
 msgstr ""
+"The FTP account consists in a **login** and a **password**, it gives access "
+"to your *personal space* thanks to software like [FileZilla](https://"
+"filezilla-project.org/download.php?type=client) (warning: the windows "
+"installer includes bundlewares)."
 
 #: ../../services/ftps.md:12
 msgid "Sécurité"
@@ -536,6 +539,10 @@ msgid ""
 "de passe seront identiques à ceux du compte FTP. Une instance de phpMyAdmin "
 "est disponnible à l'adresse suivante : <https://club1.fr/phpmyadmin>"
 msgstr ""
+"An access to Maria Db could be added, from which it is possible to create "
+"**personal MySQL databases**. The login and the password will be identical "
+"to those of the FTP account. An instance of phpMyAdmin is available at the "
+"following address: <https://club1.fr/phpmyadmin>"
 
 #: ../../services/mysql.md:0
 msgid "`localhost`"
@@ -645,3 +652,7 @@ msgid ""
 "pour ainsi créer un site web. Les noms des sous-domaines seront à définir "
 "ensemble en fonction de leur disponibilité et leur viabilité."
 msgstr ""
+
+#: ../../index.md:80
+msgid "Documentation administrateur"
+msgstr "Administrator's documentation"
