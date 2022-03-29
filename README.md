@@ -1,10 +1,10 @@
-Documentation CLUB1
-===================
+Meta-documentation
+==================
 
 [![build][buildimg]][buildurl]
 [![Translation status][transimg]][transurl]
 
-Ce dépôt contient la documentation de CLUB1.
+Documentation à propos de la documentation de CLUB1.
 
 Références
 ----------
@@ -31,7 +31,7 @@ Les traductions, elles, ne sont pas stockées dans des fichiers markdown, mais
 dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont plus
 facilement éditables via [Weblate][transurl].
 
-[![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)][transurl]
+![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)
 
 ### Ajouter une page
 
@@ -77,7 +77,7 @@ trop changé, il faudra peut-être en récupérer la traduction dans les message
 mis en commentaire à la fin du fichier, tout en ajoutant le commentaire suivant
 juste au dessus du la ligne `msgid "..."` :
 
-```gettext
+```po
 #, fuzzy
 ```
 

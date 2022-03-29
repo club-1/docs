@@ -80,7 +80,8 @@ divulguée ni utilisée à des fins lucratives et ce même sous la menace.
 ```{toctree}
 ---
 maxdepth: 2
-caption: Documentation administrateur
+caption: Documentation interne
 ---
+README
 admin/aliases
 ```

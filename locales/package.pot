@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 01:45+0200\n"
+"POT-Creation-Date: 2022-03-29 14:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,179 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../README.md:1
+msgid "Meta-documentation"
+msgstr ""
+
+#: ../../README.md:4
+msgid ""
+"[![build][buildimg]][buildurl] [![Translation status][transimg]][transurl]"
+msgstr ""
+
+#: ../../README.md:4
+msgid "build"
+msgstr ""
+
+#: ../../README.md:4 ../../README.md:34
+msgid "Translation status"
+msgstr ""
+
+#: ../../README.md:7
+msgid "Documentation à propos de la documentation de CLUB1."
+msgstr ""
+
+#: ../../README.md:9
+msgid "Références"
+msgstr ""
+
+#: ../../README.md:12
+msgid "[Fonctionnalités Markdown spécifique à MyST-Parser][myst-parser]"
+msgstr ""
+
+#: ../../README.md:13
+msgid "[Spécificités des liens avec Sphinx][sphinx-ref]"
+msgstr ""
+
+#: ../../README.md:14
+msgid ""
+"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs][sphinx-rtd-"
+"tuto]"
+msgstr ""
+
+#: ../../README.md:16
+msgid "Édition"
+msgstr ""
+
+#: ../../README.md:19
+msgid "Langue française"
+msgstr ""
+
+#: ../../README.md:21
+msgid ""
+"Pour modifier une page existante, il faut éditer le fichier `.md` "
+"correspondant. Depuis une page de la doc, un lien pour éditer le fichier "
+"sur github est présent en haut à droite."
+msgstr ""
+
+#: ../../README.md:25
+msgid ""
+"Ajoutez une ligne avec votre nom dans le fichier `AUTHORS` après avoir "
+"contribué pour la première fois à la documentation française."
+msgstr ""
+
+#: ../../README.md:28
+msgid "Autres langues"
+msgstr ""
+
+#: ../../README.md:30
+msgid ""
+"Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
+"mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et "
+"sont plus facilement éditables via [Weblate][transurl]."
+msgstr ""
+
+#: ../../README.md:34
+msgid ""
+"![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/"
+"multi-auto.svg)"
+msgstr ""
+
+#: ../../README.md:36
+msgid "Ajouter une page"
+msgstr ""
+
+#: ../../README.md:38
+msgid ""
+"L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un "
+"fichier `.md`, de préférence dans un sous-dossier, puis il faut l'ajouter "
+"à une `{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
+msgstr ""
+
+#: ../../README.md:42
+msgid "Compilation"
+msgstr ""
+
+#: ../../README.md:45
+msgid "Prérequis"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Logiciel"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Détails"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Make"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Gestionnaire de compilation"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Sphinx"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Compilateur de documentation"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Shpinx-rtd-theme"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Thème ReadTheDocs pour Sphinx"
+msgstr ""
+
+#: ../../README.md:0
+msgid "MyST-Parser"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Prise en charge du Markdown par Sphinx"
+msgstr ""
+
+#: ../../README.md:0
+msgid "gettext"
+msgstr ""
+
+#: ../../README.md:0
+msgid "Mise-à-jour des fichiers de locales"
+msgstr ""
+
+#: ../../README.md:55
+msgid "Linux basé sur Debian"
+msgstr ""
+
+#: ../../README.md:60
+msgid "Commandes"
+msgstr ""
+
+#: ../../README.md:62
+msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
+msgstr ""
+
+#: ../../README.md:66
+msgid "Compilation d'une locale spécifique&nbsp;:"
+msgstr ""
+
+#: ../../README.md:70
+msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
+msgstr ""
+
+#: ../../README.md:74
+msgid ""
+"Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir "
+"lancé l'une de ces commande. Certain passages peuvent ne pas être reconnus "
+"si ils ont trop changé, il faudra peut-être en récupérer la traduction "
+"dans les messages mis en commentaire à la fin du fichier, tout en ajoutant "
+"le commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
+msgstr ""
 
 #: ../../admin/aliases.md:1
 msgid "Gestion des alias email"
@@ -79,7 +252,7 @@ msgid "Services"
 msgstr ""
 
 #: ../../index.md:80
-msgid "Documentation administrateur"
+msgid "Documentation interne"
 msgstr ""
 
 #: ../../index.md:1
