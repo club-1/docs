@@ -8,11 +8,44 @@ La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club
 Elle existe en deux langues : français, la principale et anglais, la secondaire.
 Le site web est généré à l'aide de
 [Sphinx](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)),
-à partir de fichiers source écrits en markdown.
+à partir de fichiers source écrits en [markdown](https://fr.wikipedia.org/wiki/Markdown).
 Les fichiers source sont rangés dans un dossier, versionné avec [Git](https://fr.wikipedia.org/wiki/Git)
 et accessible publiquement via [GitHub](https://fr.wikipedia.org/wiki/GitHub)
 à l'adresse <https://github.com/club-1/docs/>.
 
+Arborescence du dossier
+-----------------------
+
+L'arborescence ci-dessous présente un résumé de l'arborescence réelle du dossier
+de la documentation de CLUB1.
+
+    ./
+    ├── _build/
+    ├── _static/
+    ├── _templates/
+    ├── locales/
+    │   ├── en/
+    │   │   └── LC_MESSAGES/
+    │   │       └── package.po
+    │   └── package.pot
+    ├── ***/
+    │   └── ***.md
+    ├── AUTHORS
+    └── index.md
+
+- `_build/` : dossier contenant l'ensemble des fichiers générés par Sphinx.
+- `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation, par exemple les images.
+- `_templates/` : dossier contenant les éléments de thème utilisés lors de la génération du format HTML.
+- `locales/` : dossier contenant les fichiers de traductions.
+  Il comporte un dossier par langue avec des fichiers `.po` contenant les
+  traductions et des fichiers `.pot` générés automatiquement à partir des
+  fichiers source en markdown.
+- `AUTHORS` : fichier contenant la liste des auteurs.
+- `index.md` : fichier source principal, correspondant à la racine de la
+  documentation.
+
+Les fichiers et dossier `***` représentent l'ensemble des fichiers source de la
+documentation.
 
 Proposer des modifications
 --------------------------
@@ -60,6 +93,13 @@ Références
 
 Compilation
 -----------
+
+Il n'est pas nécessaire de connaître cette section pour participer à l'édition
+de la documentation de CLUB1.
+Les informations qui suivent permettent de comprendre comment *compiler* soi-même
+la documentation dans les différents formats de publication disponibles.
+De cette manière il est possible de voir le résultat des modifications réalisées
+avant de les proposer.
 
 ### Prérequis
 
