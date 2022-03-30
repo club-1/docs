@@ -14,13 +14,6 @@ et accessible publiquement via [GitHub](https://fr.wikipedia.org/wiki/GitHub)
 à l'adresse <https://github.com/club-1/docs/>.
 
 
-Références
-----------
-
-- [Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html)
-- [Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
-- [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)
-
 Proposer des modifications
 --------------------------
 
@@ -57,6 +50,13 @@ facilement éditables via [Weblate](https://hosted.weblate.org/projects/club-1/d
 L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier `.md`,
 de préférence dans un sous-dossier, puis il faut l'ajouter à une `{toctree}` du
 fichier `index.html` (s'inpirer de l'existant).
+
+Références
+----------
+
+- [Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html)
+- [Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
+- [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)
 
 Compilation
 -----------
