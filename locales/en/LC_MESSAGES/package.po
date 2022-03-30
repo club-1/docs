@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-30 14:26+0200\n"
+"POT-Creation-Date: 2022-03-30 14:29+0200\n"
 "PO-Revision-Date: 2022-03-29 21:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "build"
 msgstr "build"
 
-#: ../../README.md:4 ../../README.md:53
+#: ../../README.md:4 ../../README.md:46
 msgid "Translation status"
 msgstr "Translation status"
 
@@ -51,39 +51,11 @@ msgid ""
 msgstr ""
 
 #: ../../README.md:17
-msgid "Références"
-msgstr "References"
-
-#: ../../README.md:20
-msgid ""
-"[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
-"readthedocs.io/en/latest/syntax/syntax.html)"
-msgstr ""
-"[MyST-Parser specific markdown features ](https://myst-parser.readthedocs.io/"
-"en/latest/syntax/syntax.html)"
-
-#: ../../README.md:21
-msgid ""
-"[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
-"guides/cross-referencing-with-sphinx.html)"
-msgstr ""
-"[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
-"cross-referencing-with-sphinx.html)"
-
-#: ../../README.md:22
-msgid ""
-"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
-"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
-msgstr ""
-"[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
-"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
-
-#: ../../README.md:24
 #, fuzzy
 msgid "Proposer des modifications"
 msgstr "Submitting changes"
 
-#: ../../README.md:27
+#: ../../README.md:20
 msgid ""
 "L'utilisation de Git permet à n'importe qui de proposer des modifications. "
 "Pour cela il est possible de modifier les fichiers directement sur GitHub "
@@ -94,17 +66,17 @@ msgid ""
 "principale."
 msgstr ""
 
-#: ../../README.md:35
+#: ../../README.md:28
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
 msgstr ""
 
-#: ../../README.md:38
+#: ../../README.md:31
 msgid "Langue française"
 msgstr "French language"
 
-#: ../../README.md:40
+#: ../../README.md:33
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
@@ -114,7 +86,7 @@ msgstr ""
 "of the doc, there is a link to edit the page on github in the top-right "
 "corner."
 
-#: ../../README.md:44
+#: ../../README.md:37
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
@@ -124,11 +96,11 @@ msgstr ""
 "docs/edit/main/AUTHORS) after having made your first contribution in the "
 "french documentation."
 
-#: ../../README.md:47
+#: ../../README.md:40
 msgid "Autres langues"
 msgstr "Other languages"
 
-#: ../../README.md:49
+#: ../../README.md:42
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -139,7 +111,7 @@ msgstr ""
 "LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
 "(https://hosted.weblate.org/projects/club-1/docs/)."
 
-#: ../../README.md:53
+#: ../../README.md:46
 msgid ""
 "![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
 "auto.svg)"
@@ -147,16 +119,44 @@ msgstr ""
 "![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
 "auto.svg)"
 
-#: ../../README.md:55
+#: ../../README.md:48
 msgid "Ajouter une page"
 msgstr "Add a page"
 
-#: ../../README.md:57
+#: ../../README.md:50
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier "
 "`.md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
 "`{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
 msgstr ""
+
+#: ../../README.md:54
+msgid "Références"
+msgstr "References"
+
+#: ../../README.md:57
+msgid ""
+"[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
+"readthedocs.io/en/latest/syntax/syntax.html)"
+msgstr ""
+"[MyST-Parser specific markdown features ](https://myst-parser.readthedocs.io/"
+"en/latest/syntax/syntax.html)"
+
+#: ../../README.md:58
+msgid ""
+"[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
+"guides/cross-referencing-with-sphinx.html)"
+msgstr ""
+"[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
+"cross-referencing-with-sphinx.html)"
+
+#: ../../README.md:59
+msgid ""
+"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
+msgstr ""
+"[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
 #: ../../README.md:61
 msgid "Compilation"
