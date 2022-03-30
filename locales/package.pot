@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-29 20:37+0200\n"
+"POT-Creation-Date: 2022-03-30 14:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,63 +30,88 @@ msgstr ""
 msgid "build"
 msgstr ""
 
-#: ../../README.md:4 ../../README.md:34
+#: ../../README.md:4 ../../README.md:53
 msgid "Translation status"
 msgstr ""
 
 #: ../../README.md:7
-msgid "Documentation à propos de la documentation de CLUB1."
+msgid ""
+"La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
+"club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale et "
+"anglais, la secondaire. Le site web est généré à l'aide de [Sphinx](https://"
+"fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à "
+"partir de fichiers source écrits en markdown. Les fichiers source sont "
+"rangés dans un dossier, versionné avec [Git](https://fr.wikipedia.org/wiki/"
+"Git) et accessible publiquement via [GitHub](https://fr.wikipedia.org/wiki/"
+"GitHub) à l'adresse <https://github.com/club-1/docs/>."
 msgstr ""
 
-#: ../../README.md:9
+#: ../../README.md:17
 msgid "Références"
 msgstr ""
 
-#: ../../README.md:12
+#: ../../README.md:20
 msgid ""
 "[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
 "readthedocs.io/en/latest/syntax/syntax.html)"
 msgstr ""
 
-#: ../../README.md:13
+#: ../../README.md:21
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
 msgstr ""
 
-#: ../../README.md:14
+#: ../../README.md:22
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
-#: ../../README.md:16
-msgid "Édition"
+#: ../../README.md:24
+msgid "Proposer des modifications"
 msgstr ""
 
-#: ../../README.md:19
+#: ../../README.md:27
+msgid ""
+"L'utilisation de Git permet à n'importe qui de proposer des modifications. "
+"Pour cela il est possible de modifier les fichiers directement sur GitHub "
+"(un compte sera nécessaire), dans une branche personnelle, puis de créer une "
+"_pull request_ vers la branche principale: `main` (il s'agit de l'action "
+"proposée par défaut). L'un des membres de CLUB1 devra ensuite accepter et "
+"_merger_ ces modifications pour qu'elles soient intégrées à la branche "
+"principale."
+msgstr ""
+
+#: ../../README.md:35
+msgid ""
+"À chaque mise-à-jour de la branche principale, la documentation est "
+"automatiquement compilée et publiée sur le site web de CLUB1."
+msgstr ""
+
+#: ../../README.md:38
 msgid "Langue française"
 msgstr ""
 
-#: ../../README.md:21
+#: ../../README.md:40
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
 "github est présent en haut à droite."
 msgstr ""
 
-#: ../../README.md:25
+#: ../../README.md:44
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
 "fois à la documentation française."
 msgstr ""
 
-#: ../../README.md:28
+#: ../../README.md:47
 msgid "Autres langues"
 msgstr ""
 
-#: ../../README.md:30
+#: ../../README.md:49
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -94,28 +119,28 @@ msgid ""
 "club-1/docs/)."
 msgstr ""
 
-#: ../../README.md:34
+#: ../../README.md:53
 msgid ""
 "![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
 "auto.svg)"
 msgstr ""
 
-#: ../../README.md:36
+#: ../../README.md:55
 msgid "Ajouter une page"
 msgstr ""
 
-#: ../../README.md:38
+#: ../../README.md:57
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier "
 "`.md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
 "`{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
 msgstr ""
 
-#: ../../README.md:42
+#: ../../README.md:61
 msgid "Compilation"
 msgstr ""
 
-#: ../../README.md:45
+#: ../../README.md:64
 msgid "Prérequis"
 msgstr ""
 
@@ -175,27 +200,27 @@ msgstr ""
 msgid "(Optionnel) Conversion des SVG pour le PDF LaTeX"
 msgstr ""
 
-#: ../../README.md:56
+#: ../../README.md:75
 msgid "Linux basé sur Debian"
 msgstr ""
 
-#: ../../README.md:61
+#: ../../README.md:80
 msgid "Commandes"
 msgstr ""
 
-#: ../../README.md:63
+#: ../../README.md:82
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
 msgstr ""
 
-#: ../../README.md:67
+#: ../../README.md:86
 msgid "Compilation d'une locale spécifique&nbsp;:"
 msgstr ""
 
-#: ../../README.md:71
+#: ../../README.md:90
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
 msgstr ""
 
-#: ../../README.md:75
+#: ../../README.md:94
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
