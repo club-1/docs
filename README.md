@@ -4,7 +4,15 @@ Meta-documentation
 [![build][buildimg]][buildurl]
 [![Translation status][transimg]][transurl]
 
-Documentation à propos de la documentation de CLUB1.
+La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
+Elle existe en deux langues : français, la principale et anglais, la secondaire.
+Le site web est généré à l'aide de
+[Sphinx](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)),
+à partir de fichiers source écrits en markdown.
+Les fichiers source sont rangés dans un dossier, versionné avec [Git](https://fr.wikipedia.org/wiki/Git)
+et accessible publiquement via [GitHub](https://fr.wikipedia.org/wiki/GitHub)
+à l'adresse <https://github.com/club-1/docs/>.
+
 
 Références
 ----------
@@ -13,8 +21,19 @@ Références
 - [Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
 - [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)
 
-Édition
--------
+Proposer des modifications
+--------------------------
+
+L'utilisation de Git permet à n'importe qui de proposer des modifications.
+Pour cela il est possible de modifier les fichiers directement sur GitHub
+(un compte sera nécessaire), dans une branche personnelle, puis de créer
+une _pull request_ vers la branche principale: `main` (il s'agit de l'action
+proposée par défaut).
+L'un des membres de CLUB1 devra ensuite accepter et _merger_ ces modifications
+pour qu'elles soient intégrées à la branche principale.
+
+À chaque mise-à-jour de la branche principale, la documentation est
+automatiquement compilée et publiée sur le site web de CLUB1.
 
 ### Langue française
 
