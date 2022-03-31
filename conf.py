@@ -76,7 +76,7 @@ exclude_patterns = [
 
 # imgconverter plugin converts SVG to PNG for builders that do not support it.
 # Increase PNG image resolution.
-image_converter_args = ['-density', '400', '-resize', '200%']
+image_converter_args = ['-density', '250', '-resize', '230%']
 
 # Disable smart quotes at Sphinx level, as it is done by MyST.
 smartquotes = False
