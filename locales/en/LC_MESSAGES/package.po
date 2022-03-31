@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-31 15:47+0200\n"
+"POT-Creation-Date: 2022-03-31 15:52+0200\n"
 "PO-Revision-Date: 2022-03-29 21:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -648,7 +648,7 @@ msgstr ""
 msgid ""
 "Le dossier `git/`, à la racine de l'**espace personnel** est particulier. "
 "Les dépôts Git rangés dedans seront automatiquement publiés en _lecture "
-"seule_ à l'adresse `https://git.club1.fr`, par exemple :"
+"seule_ à l'adresse `https://git.club1.fr`, par exemple&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:8
@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/git.md:11
-msgid "Cette adresse permet 2 choses :"
+msgid "Cette adresse permet 2 choses&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:13
@@ -682,7 +682,7 @@ msgid ""
 "Pour utiliser la fonctionnalité de dépôts Git publics sur CLUB1, il faut "
 "tout d'abord initialiser le dépôt à distance, avec [SSH](ssh), depuis un "
 "ordinateur personnel (remplacer `<login>` par votre **identifiant** et "
-"`<repo>` par le nom que vous voulez donner au dépôt) :"
+"`<repo>` par le nom que vous voulez donner au dépôt)&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:28
@@ -691,18 +691,18 @@ msgid ""
 "club1.fr/<login>/<repo>`, mais celui-ci est vide pour le moment. La branche "
 "affichée par défaut dans l'interface web est `master`. Il est possible de la "
 "changer en modifiant le fichier `HEAD` du dépôt. Par exemple pour la "
-"remplacer par la branche `main` :"
+"remplacer par la branche `main`&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:36
 msgid ""
 "De la même manière, pour modifier la description du dépôt (cette "
 "modification ne sera pas forcément visible tout de suite à cause du cache de "
-"cgit) :"
+"cgit)&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:41
-msgid "Il y a ensuite deux cas de figure :"
+msgid "Il y a ensuite deux cas de figure&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:43 ../../services/git.md:46
@@ -717,19 +717,19 @@ msgstr ""
 msgid ""
 "Si le but est de créer un nouveau dépôt, alors le plus simple consiste à "
 "cloner celui-ci sur votre ordinateur personnel. On utilise pour cela "
-"l'adresse [SSH](ssh) car elle offre un accès en écriture au dépôt :"
+"l'adresse [SSH](ssh) car elle offre un accès en écriture au dépôt&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:55
 msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
-"qui est normal :"
+"qui est normal&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:60
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt Git, "
-"par exemple :"
+"par exemple&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:72
@@ -737,7 +737,7 @@ msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
 "dépôt distant aux _remotes_ et d'y pousser la branche désirée, par exemple "
 "pour la branche `main` (l'option `--set-upstream` permet d'en faire la "
-"_remote_ par défaut pour cette branche) :"
+"_remote_ par défaut pour cette branche)&nbsp;:"
 msgstr ""
 
 #: ../../services/index.md:1
