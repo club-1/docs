@@ -19,7 +19,7 @@ Tutoriel d'utilisation
 ----------------------
 
 Pour utiliser la fonctionnalité de dépôts Git publics sur CLUB1, il faut tout
-d'abord initialiser le dépôt à distance, avec [SSH](ssh), depuis un ordinateur personnel
+d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un ordinateur personnel
 (remplacer `<login>` par votre **identifiant** et `<repo>` par le nom que vous
 voulez donner au dépôt)&nbsp;:
 
@@ -40,14 +40,14 @@ ne sera pas forcément visible tout de suite à cause du cache de cgit)&nbsp;:
 
 Il y a ensuite deux cas de figure&nbsp;:
 
-- Création d'un nouveau dépôt
-- Publication d'un dépôt existant
+- [Création d'un nouveau dépôt](#création-dun-nouveau-dépôt)
+- [Publication d'un dépôt existant](#publication-dun-dépôt-existant)
 
 ### Création d'un nouveau dépôt
 
 Si le but est de créer un nouveau dépôt, alors le plus simple consiste
 à cloner celui-ci sur votre ordinateur personnel.
-On utilise pour cela l'adresse [SSH](ssh) car elle offre un accès en écriture
+On utilise pour cela l'adresse [SSH](ssh.md) car elle offre un accès en écriture
 au dépôt&nbsp;:
 
     git clone <login>@club1.fr:git/<repo>
