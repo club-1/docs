@@ -16,4 +16,5 @@ ftps
 ssh
 web
 mysql
+git
 ```
