@@ -31,12 +31,12 @@ moment. La branche affichée par défaut dans l'interface web est `master`.
 Il est possible de la changer en modifiant le fichier `HEAD` du dépôt.
 Par exemple pour la remplacer par la branche `main`&nbsp;:
 
-    echo "ref: refs/heads/main" | ssh <login>@club1.fr tee git/<repo>/HEAD
+    echo "ref: refs/heads/main" | ssh <login>@club1.fr sponge git/<repo>/HEAD
 
 De la même manière, pour modifier la description du dépôt (cette modification
 ne sera pas forcément visible tout de suite à cause du cache de cgit)&nbsp;:
 
-    echo "ma super description" | ssh <login>@club1.fr tee git/<repo>/description
+    echo "ma super description" | ssh <login>@club1.fr sponge git/<repo>/description
 
 Il y a ensuite deux cas de figure&nbsp;:
 
