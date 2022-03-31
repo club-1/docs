@@ -45,8 +45,8 @@ Il y a ensuite deux cas de figure&nbsp;:
 
 ### Création d'un nouveau dépôt
 
-Si le but est de créer un nouveau dépôt, alors le plus simple consiste
-à cloner celui-ci sur votre ordinateur personnel.
+Si le but est de créer un nouveau dépôt, alors le plus simple est de cloner
+sur votre ordinateur personnel celui qui vient d'être initialisé sur le serveur.
 On utilise pour cela l'adresse [SSH](ssh.md) car elle offre un accès en écriture
 au dépôt&nbsp;:
 
@@ -70,9 +70,9 @@ par exemple&nbsp;:
 ### Publication d'un dépôt existant
 
 Si le but est de publier un dépôt existant, alors il suffit d'ajouter le
-dépôt distant aux _remotes_ et d'y pousser la branche désirée, par exemple
-pour la branche `main` (l'option `--set-upstream` permet d'en faire la
-_remote_ par défaut pour cette branche)&nbsp;:
+dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la
+branche désirée, par exemple pour la branche `main` (l'option `--set-upstream`
+permet d'en faire la _remote_ par défaut pour cette branche)&nbsp;:
 
     git remote add club1 <login>@club1:git/<repo>
     git push --set-upstream club1 main

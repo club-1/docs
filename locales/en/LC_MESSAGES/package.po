@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-31 16:26+0200\n"
+"POT-Creation-Date: 2022-03-31 20:07+0200\n"
 "PO-Revision-Date: 2022-03-29 21:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -719,9 +719,10 @@ msgstr ""
 
 #: ../../services/git.md:48
 msgid ""
-"Si le but est de créer un nouveau dépôt, alors le plus simple consiste à "
-"cloner celui-ci sur votre ordinateur personnel. On utilise pour cela "
-"l'adresse [SSH](ssh.md) car elle offre un accès en écriture au dépôt&nbsp;:"
+"Si le but est de créer un nouveau dépôt, alors le plus simple est de cloner "
+"sur votre ordinateur personnel celui qui vient d'être initialisé sur le "
+"serveur. On utilise pour cela l'adresse [SSH](ssh.md) car elle offre un "
+"accès en écriture au dépôt&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:55
@@ -743,9 +744,9 @@ msgstr ""
 #: ../../services/git.md:72
 msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
-"dépôt distant aux _remotes_ et d'y pousser la branche désirée, par exemple "
-"pour la branche `main` (l'option `--set-upstream` permet d'en faire la "
-"_remote_ par défaut pour cette branche)&nbsp;:"
+"dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la "
+"branche désirée, par exemple pour la branche `main` (l'option `--set-"
+"upstream` permet d'en faire la _remote_ par défaut pour cette branche)&nbsp;:"
 msgstr ""
 
 #: ../../services/index.md:1
