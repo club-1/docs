@@ -33,9 +33,15 @@ extensions = [
     'sphinx.ext.imgconverter',
 ]
 
-# Allow to create implicit reference to headings.
+# Allow to create implicit reference to headings up to level 6.
 # See: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#implicit-targets
-myst_heading_anchors = 2
+myst_heading_anchors = 6
+
+# Enable Some MyST extensions.
+myst_enable_extensions = [
+    # Enable smart quotes at MyST level.
+    'smartquotes',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -71,6 +77,9 @@ exclude_patterns = [
 # imgconverter plugin converts SVG to PNG for builders that do not support it.
 # Increase PNG image resolution.
 image_converter_args = ['-density', '400', '-resize', '200%']
+
+# Disable smart quotes at Sphinx level, as it is done by MyST.
+smartquotes = False
 
 
 # -- Options for HTML output -------------------------------------------------
