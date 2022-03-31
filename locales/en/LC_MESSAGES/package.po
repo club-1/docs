@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-31 15:52+0200\n"
+"POT-Creation-Date: 2022-03-31 16:26+0200\n"
 "PO-Revision-Date: 2022-03-29 21:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
@@ -680,7 +680,7 @@ msgstr ""
 #: ../../services/git.md:21
 msgid ""
 "Pour utiliser la fonctionnalité de dépôts Git publics sur CLUB1, il faut "
-"tout d'abord initialiser le dépôt à distance, avec [SSH](ssh), depuis un "
+"tout d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un "
 "ordinateur personnel (remplacer `<login>` par votre **identifiant** et "
 "`<repo>` par le nom que vous voulez donner au dépôt)&nbsp;:"
 msgstr ""
@@ -705,19 +705,23 @@ msgstr ""
 msgid "Il y a ensuite deux cas de figure&nbsp;:"
 msgstr ""
 
-#: ../../services/git.md:43 ../../services/git.md:46
-msgid "Création d'un nouveau dépôt"
+#: ../../services/git.md:43
+msgid "[Création d'un nouveau dépôt](#création-dun-nouveau-dépôt)"
 msgstr ""
 
-#: ../../services/git.md:44 ../../services/git.md:70
-msgid "Publication d'un dépôt existant"
+#: ../../services/git.md:44
+msgid "[Publication d'un dépôt existant](#publication-dun-dépôt-existant)"
+msgstr ""
+
+#: ../../services/git.md:46
+msgid "Création d'un nouveau dépôt"
 msgstr ""
 
 #: ../../services/git.md:48
 msgid ""
 "Si le but est de créer un nouveau dépôt, alors le plus simple consiste à "
 "cloner celui-ci sur votre ordinateur personnel. On utilise pour cela "
-"l'adresse [SSH](ssh) car elle offre un accès en écriture au dépôt&nbsp;:"
+"l'adresse [SSH](ssh.md) car elle offre un accès en écriture au dépôt&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:55
@@ -730,6 +734,10 @@ msgstr ""
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt Git, "
 "par exemple&nbsp;:"
+msgstr ""
+
+#: ../../services/git.md:70
+msgid "Publication d'un dépôt existant"
 msgstr ""
 
 #: ../../services/git.md:72
