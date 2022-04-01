@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-28 21:14+0200\n"
+"POT-Creation-Date: 2022-04-01 16:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Nicolas Peugnet <nicolas@club1.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_templates/layout.html:4
+msgid "Retour au site principal"
+msgstr "Return to main site"
 
 #: ../../_templates/versions.html:4 ../../_templates/versions.html:21
 msgid "Versions"
