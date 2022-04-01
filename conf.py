@@ -88,6 +88,11 @@ smartquotes = False
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
 
+# Do not copy source as the link to view source as been replaced by a link to
+# GitHub.
+html_copy_source = False
+
+# Only show source link for french docs as other languages are stored in .po.
 html_show_sourcelink = language == 'fr'
 
 html_context = {
