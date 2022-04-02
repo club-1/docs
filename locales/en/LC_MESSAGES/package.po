@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-03-31 20:07+0200\n"
-"PO-Revision-Date: 2022-03-29 21:01+0000\n"
+"PO-Revision-Date: 2022-04-03 03:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,10 +50,18 @@ msgid ""
 "[GitHub](https://fr.wikipedia.org/wiki/GitHub) à l'adresse <https://github."
 "com/club-1/docs/>."
 msgstr ""
+"The CLUB1's documentation is published in HTML format at <https://club1.fr/"
+"docs/en/>. It exists in two languages: French, the main one and English, the "
+"secondary. The website is generated using [Sphinx](https://en.wikipedia.org/"
+"wiki/Sphinx_(documentation_generator)), from source files written in "
+"[markdown](https://en.wikipedia.org/wiki/Markdown). The source files are "
+"stored in a directory, versioned with [Git](https://en.wikipedia.org/wiki/"
+"Git) and publicly accessible via [GitHub](https://en.wikipedia.org/wiki/"
+"GitHub) at <https://github.com/club-1/docs/>."
 
 #: ../../README.md:16
 msgid "Arborescence du dossier"
-msgstr ""
+msgstr "Directory tree"
 
 #: ../../README.md:19
 msgid ""
@@ -103,9 +111,8 @@ msgid ""
 msgstr ""
 
 #: ../../README.md:50
-#, fuzzy
 msgid "Proposer des modifications"
-msgstr "Submitting changes"
+msgstr "Propose changes"
 
 #: ../../README.md:53
 msgid ""
@@ -642,7 +649,7 @@ msgstr "Normal"
 
 #: ../../services/git.md:1
 msgid "Dépôts Git publics"
-msgstr ""
+msgstr "Public Git repositories"
 
 #: ../../services/git.md:4
 msgid ""
@@ -675,7 +682,7 @@ msgstr ""
 
 #: ../../services/git.md:18
 msgid "Tutoriel d'utilisation"
-msgstr ""
+msgstr "Usage tutorial"
 
 #: ../../services/git.md:21
 msgid ""
