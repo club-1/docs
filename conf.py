@@ -51,7 +51,7 @@ templates_path = ['_templates']
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = os.environ['LANGUAGE']
+language = os.environ['LOCALE']
 
 # Set by make.
 languages = os.environ['LANGUAGES'].split(' ')
@@ -81,6 +81,9 @@ image_converter_args = ['-density', '250', '-resize', '230%']
 # Disable smart quotes at Sphinx level, as it is done by MyST.
 smartquotes = False
 
+# Date formats for today, for instance in LaTeX.
+# Use locale’s appropriate date representation.
+today_fmt = '%x'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -119,7 +122,16 @@ html_static_path = ['_static']
 # The domain is used for code documentation, so no need for it here.
 primary_domain = None
 
+
 # -- Options for MAN output --------------------------------------------------
 
 # Show URLs after text in MAN output.
 man_show_urls = True
+
+
+# -- Options for LATEX output ------------------------------------------------
+
+# Always use A4 paper.
+latex_elements = {
+    'papersize': 'a4paper',
+}

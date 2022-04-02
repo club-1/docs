@@ -10,8 +10,8 @@ export PACKAGE      := CLUB1
 export VERSION      := main
 export EMAIL        := nicolas@club1.fr
 
-export LANGUAGE     := fr
-export LANGUAGES    := $(LANGUAGE) $(LOCALES)
+export LOCALE       := fr
+export LANGUAGES    := $(LOCALE) $(LOCALES)
 export LATEXMKOPTS  := -quiet
 
 SPHINXLANG      := -D language=$(LOCALE)
@@ -19,7 +19,7 @@ SPHINXOPTS      += -a $(if $(CI),,-q)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
-SPHINXCMDS      := gettext pickle json htmlhelp changes xml pseudoxml linkcheck doctest coverage
+SPHINXCMDS      := gettext changes xml pseudoxml linkcheck
 SOURCEDIR       := .
 BUILDDIR        := _build
 
@@ -28,7 +28,7 @@ PUBDIR          ?= /var/www/docs
 
 # Put it first so that "make" without argument is like "make help".
 help:
-	$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
+	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 .PHONY: help clean update-po latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
@@ -66,11 +66,11 @@ $(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%);
 # Localized Sphinx builders
 .SECONDEXPANSION:
 $(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,locales/$$(@F)/LC_MESSAGES/package.mo locales/$$(@F)/LC_MESSAGES/sphinx.mo)
-	LANGUAGE=$(@F) $(SPHINXBUILD) -b $(@D) "$(SOURCEDIR)" "$(BUILDDIR)/$(@D)/$(@F)" $(SPHINXOPTS) $O
+	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
 $(SPHINXCMDS):
-	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $O
+	$(SPHINXBUILD) -M $@ $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 clean:
 	rm -f locales/*/LC_MESSAGES/*.mo
