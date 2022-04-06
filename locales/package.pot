@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-03-31 23:31+0200\n"
+"POT-Creation-Date: 2022-04-06 20:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,51 +30,60 @@ msgstr ""
 msgid "build"
 msgstr ""
 
-#: ../../README.md:4 ../../README.md:79
+#: ../../README.md:4 ../../README.md:87
 msgid "Translation status"
 msgstr ""
 
 #: ../../README.md:7
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-"club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale et "
-"anglais, la secondaire. Le site web est généré à l'aide de [Sphinx](https://"
-"fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à "
-"partir de fichiers source écrits en [markdown](https://fr.wikipedia.org/wiki/"
-"Markdown). Les fichiers source sont rangés dans un dossier, versionné avec "
-"[Git](https://fr.wikipedia.org/wiki/Git) et accessible publiquement via "
-"[GitHub](https://fr.wikipedia.org/wiki/GitHub) à l'adresse <https://github."
-"com/club-1/docs/>."
+"club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
+"principale et anglais, la secondaire. Le site web est généré à l'aide de "
+"[Sphinx](https://fr.wikipedia.org/wiki/"
+"Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers source "
+"écrits en {term}`markdown`. Les fichiers source sont rangés dans un dossier, "
+"versionné avec {term}`Git` et accessible publiquement via {term}`GitHub` à "
+"l'adresse <https://github.com/club-1/docs/>."
 msgstr ""
 
-#: ../../README.md:16
+#: ../../README.md:1
+msgid ""
+"Le language utilisé dans les fichiers source est une extension de {term}"
+"`markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). Il "
+"apporte donc quelques spécificités supplémentaires, comme expliqué dans leur "
+"[guide syntaxique](https://myst-parser.readthedocs.io/en/latest/syntax/"
+"syntax.html), dont il existe aussi une [référence rapide](https://myst-"
+"parser.readthedocs.io/en/latest/syntax/reference.html)."
+msgstr ""
+
+#: ../../README.md:24
 msgid "Arborescence du dossier"
 msgstr ""
 
-#: ../../README.md:19
+#: ../../README.md:27
 msgid ""
 "L'arborescence ci-dessous présente un résumé de l'arborescence réelle du "
 "dossier de la documentation de CLUB1."
 msgstr ""
 
-#: ../../README.md:36
+#: ../../README.md:44
 msgid ""
 "`_build/` : dossier contenant l'ensemble des fichiers générés par Sphinx."
 msgstr ""
 
-#: ../../README.md:37
+#: ../../README.md:45
 msgid ""
 "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
 "dans la documentation, par exemple les images."
 msgstr ""
 
-#: ../../README.md:38
+#: ../../README.md:46
 msgid ""
 "`_templates/` : dossier contenant les éléments de thème utilisés lors de la "
 "génération du format HTML."
 msgstr ""
 
-#: ../../README.md:39
+#: ../../README.md:47
 msgid ""
 "`locales/` : dossier contenant les fichiers de traductions. Il comporte un "
 "dossier par langue avec des fichiers `.po` contenant les traductions et des "
@@ -82,66 +91,66 @@ msgid ""
 "markdown."
 msgstr ""
 
-#: ../../README.md:43
+#: ../../README.md:51
 msgid "`AUTHORS` : fichier contenant la liste des auteurs."
 msgstr ""
 
-#: ../../README.md:44
+#: ../../README.md:52
 msgid ""
 "`index.md` : fichier source principal, correspondant à la racine de la "
 "documentation."
 msgstr ""
 
-#: ../../README.md:47
+#: ../../README.md:55
 msgid ""
 "Les fichiers et dossier `***` représentent l'ensemble des fichiers source de "
 "la documentation."
 msgstr ""
 
-#: ../../README.md:50
+#: ../../README.md:58
 msgid "Proposer des modifications"
 msgstr ""
 
-#: ../../README.md:53
+#: ../../README.md:61
 msgid ""
-"L'utilisation de Git permet à n'importe qui de proposer des modifications. "
-"Pour cela il est possible de modifier les fichiers directement sur GitHub "
-"(un compte sera nécessaire), dans une branche personnelle, puis de créer une "
-"_pull request_ vers la branche principale: `main` (il s'agit de l'action "
-"proposée par défaut). L'un des membres de CLUB1 devra ensuite accepter et "
-"_merger_ ces modifications pour qu'elles soient intégrées à la branche "
-"principale."
+"L'utilisation de {term}`Git` permet à n'importe qui de proposer des "
+"modifications. Pour cela il est possible de modifier les fichiers "
+"directement sur {term}`GitHub` (un compte sera nécessaire), dans une branche "
+"personnelle, puis de créer une _pull request_ vers la branche principale: "
+"`main` (il s'agit de l'action proposée par défaut). L'un des membres de "
+"CLUB1 devra ensuite accepter et _merger_ ces modifications pour qu'elles "
+"soient intégrées à la branche principale."
 msgstr ""
 
-#: ../../README.md:61
+#: ../../README.md:69
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
 msgstr ""
 
-#: ../../README.md:64
+#: ../../README.md:72
 msgid "Langue française"
 msgstr ""
 
-#: ../../README.md:66
+#: ../../README.md:74
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
-"github est présent en haut à droite."
+"{term}`GitHub` est présent en haut à droite."
 msgstr ""
 
-#: ../../README.md:70
+#: ../../README.md:78
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
 "fois à la documentation française."
 msgstr ""
 
-#: ../../README.md:73
+#: ../../README.md:81
 msgid "Autres langues"
 msgstr ""
 
-#: ../../README.md:75
+#: ../../README.md:83
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -149,50 +158,44 @@ msgid ""
 "club-1/docs/)."
 msgstr ""
 
-#: ../../README.md:79
+#: ../../README.md:87
 msgid ""
 "![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
 "auto.svg)"
 msgstr ""
 
-#: ../../README.md:81
+#: ../../README.md:89
 msgid "Ajouter une page"
 msgstr ""
 
-#: ../../README.md:83
+#: ../../README.md:91
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier "
 "`.md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
 "`{toctree}` du fichier `index.html` (s'inpirer de l'existant)."
 msgstr ""
 
-#: ../../README.md:87
+#: ../../README.md:95
 msgid "Références"
 msgstr ""
 
-#: ../../README.md:90
-msgid ""
-"[Fonctionnalités Markdown spécifique à MyST-Parser](https://myst-parser."
-"readthedocs.io/en/latest/syntax/syntax.html)"
-msgstr ""
-
-#: ../../README.md:91
+#: ../../README.md:98
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
 msgstr ""
 
-#: ../../README.md:92
+#: ../../README.md:99
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
-#: ../../README.md:94
+#: ../../README.md:101
 msgid "Compilation"
 msgstr ""
 
-#: ../../README.md:97
+#: ../../README.md:104
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -202,93 +205,93 @@ msgid ""
 "proposer."
 msgstr ""
 
-#: ../../README.md:104
+#: ../../README.md:111
 msgid "Prérequis"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Logiciel"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Détails"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Make"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Gestionnaire de compilation"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Sphinx"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Compilateur de documentation"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Shpinx-rtd-theme"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Thème ReadTheDocs pour Sphinx"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "MyST-Parser"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "Prise en charge du Markdown par Sphinx"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "gettext"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "(Optionnel) Mise-à-jour des fichiers de locales"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "imagemagick"
 msgstr ""
 
-#: ../../README.md:0
+#: ../../README.md:16
 msgid "(Optionnel) Conversion des SVG pour le PDF LaTeX"
 msgstr ""
 
-#: ../../README.md:115
+#: ../../README.md:122
 msgid "Linux basé sur Debian"
 msgstr ""
 
-#: ../../README.md:120
+#: ../../README.md:127
 msgid "Commandes"
 msgstr ""
 
-#: ../../README.md:122
+#: ../../README.md:129
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
 msgstr ""
 
-#: ../../README.md:126
+#: ../../README.md:133
 msgid "Compilation d'une locale spécifique&nbsp;:"
 msgstr ""
 
-#: ../../README.md:130
+#: ../../README.md:137
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
 msgstr ""
 
-#: ../../README.md:134
+#: ../../README.md:141
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
 "ont trop changé, il faudra peut-être en récupérer la traduction dans les "
 "messages mis en commentaire à la fin du fichier, tout en ajoutant le "
-"commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
+"commentaire suivant juste au dessus du la ligne `msgid \"...\"`&nbsp;:"
 msgstr ""
 
 #: ../../general.md:1
@@ -302,11 +305,11 @@ msgstr ""
 #: ../../general.md:7
 msgid ""
 "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
-"github.com/club-1/hosting/issues) sur GitHub (vous devrez pour celà créer un "
-"compte), en choisissant entre demande (_request_) ou incident (_problem_) en "
-"fonction de la nature du ticket. Si il s'agit d'une demande impersonnelle, "
-"merci de **vérifier** qu'il n'éxiste pas déjà une demande similaire à l'aide "
-"de la barre de recherche."
+"github.com/club-1/hosting/issues) sur {term}`GitHub` (vous devrez pour cela "
+"créer un compte), en choisissant entre demande (_request_) ou incident "
+"(_problem_) en fonction de la nature du ticket. Si il s'agit d'une demande "
+"impersonnelle, merci de **vérifier** qu'il n'éxiste pas déjà une demande "
+"similaire à l'aide de la barre de recherche."
 msgstr ""
 
 #: ../../general.md:14
@@ -420,8 +423,55 @@ msgid ""
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
 msgstr ""
 
+#: ../../glossary.md:3
+msgid "Glossaire"
+msgstr ""
+
+#: ../../glossary.md:0
+msgid "Git"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Git)"
+msgstr ""
+
+#: ../../glossary.md:4
+msgid "GitHub"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"Service web d'hébergement et de gestion de développement de logiciels, "
+"utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/GitHub)"
+msgstr ""
+
+#: ../../glossary.md:9
+msgid "markdown"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"Language de balisage léger permettant de mettre en forme un document. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
+msgstr ""
+
 #: ../../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
+msgstr ""
+
+#: ../../index.md:19
+msgid "Indexes et tables"
+msgstr ""
+
+#: ../../index.md:21
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.md:22
+msgid ":ref:`glossary`"
 msgstr ""
 
 #: ../../interne/aliases.md:1
@@ -578,8 +628,8 @@ msgstr ""
 #: ../../services/git.md:4
 msgid ""
 "Le dossier `git/`, à la racine de l'**espace personnel** est particulier. "
-"Les dépôts Git rangés dedans seront automatiquement publiés en _lecture "
-"seule_ à l'adresse `https://git.club1.fr`, par exemple&nbsp;:"
+"Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en "
+"_lecture seule_ à l'adresse `https://git.club1.fr`, par exemple&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:8
@@ -610,10 +660,11 @@ msgstr ""
 
 #: ../../services/git.md:21
 msgid ""
-"Pour utiliser la fonctionnalité de dépôts Git publics sur CLUB1, il faut "
-"tout d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un "
-"ordinateur personnel (remplacer `<login>` par votre **identifiant** et "
-"`<repo>` par le nom que vous voulez donner au dépôt)&nbsp;:"
+"Pour utiliser la fonctionnalité de dépôts {term}`Git` publics sur CLUB1, il "
+"faut tout d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), "
+"depuis un ordinateur personnel (remplacer `<login>` par votre "
+"**identifiant** et `<repo>` par le nom que vous voulez donner au "
+"dépôt)&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:28
@@ -664,8 +715,8 @@ msgstr ""
 
 #: ../../services/git.md:60
 msgid ""
-"Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt Git, "
-"par exemple&nbsp;:"
+"Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
+"`Git`, par exemple&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:70
