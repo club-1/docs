@@ -39,7 +39,7 @@ update-po: $(LOCALEFILES);
 
 .SECONDEXPANSION:
 $(LOCALEFILES): locales/%.po: locales/$$(*F).pot
-	msgmerge -q --update $@ $< --backup=none -w 79
+	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
 
 locales/package.pot locales/sphinx.pot: locales/%.pot: $(BUILDDIR)/gettext/%.pot
