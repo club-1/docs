@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-06 20:09+0200\n"
+"POT-Creation-Date: 2022-04-07 00:07+0200\n"
 "PO-Revision-Date: 2022-04-03 03:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -378,10 +378,15 @@ msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
 #: ../../general.md:19
+#, fuzzy
+#| msgid ""
+#| "Le serveur est localisé en France à Pantin. Il est relié à internet par "
+#| "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
+#| "nperf.com/r/338260996-nDOmVdkc)."
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
-"nperf.com/r/338260996-nDOmVdkc)."
+"nperf.com/fr/r/338260996-nDOmVdkc)."
 msgstr ""
 "The server is located in Pantin, France. It is connected to internet by "
 "optical fiver with an [average upload rate of 200Mb/s](https://www.nperf.com/"
@@ -502,6 +507,26 @@ msgid "Glossaire"
 msgstr ""
 
 #: ../../glossary.md:0
+msgid "Client"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/Client_(informatique))"
+msgstr ""
+
+#: ../../glossary.md:4
+msgid "Client web"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
+"Navigateur web."
+msgstr ""
+
+#: ../../glossary.md:7
 msgid "Git"
 msgstr ""
 
@@ -511,7 +536,7 @@ msgid ""
 "wikipedia.org/wiki/Git)"
 msgstr ""
 
-#: ../../glossary.md:4
+#: ../../glossary.md:11
 msgid "GitHub"
 msgstr ""
 
@@ -522,14 +547,63 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossary.md:9
-msgid "markdown"
+#: ../../glossary.md:16
+msgid "Internet"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/Internet)"
+msgstr ""
+
+#: ../../glossary.md:20
+msgid "Markdown"
 msgstr ""
 
 #: ../../glossary.md:1
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
+msgstr ""
+
+#: ../../glossary.md:24
+msgid "Réseau informatique"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
+"données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"R%C3%A9seau_informatique)"
+msgstr ""
+
+#: ../../glossary.md:28
+#, fuzzy
+#| msgid "Services"
+msgid "Serveur"
+msgstr "Services"
+
+#: ../../glossary.md:1
+msgid ""
+"Logiciel chargé de fournir un service. C'est lui qui détient les données et "
+"qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
+"clients sont installés sur des ordinateurs différentes. Par extension, on "
+"appelle ainsi un \"serveur\" l'ordinateur sur laquelle les serveurs sont "
+"installés (ex : le serveur CLUB1) . --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/Serveur_informatique)"
+msgstr ""
+
+#: ../../glossary.md:36
+msgid "Web"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
+"\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
+"documents et de les relier entre eux à l'aide de liens hypertexte. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgstr ""
 
 #: ../../index.md:1
@@ -626,6 +700,85 @@ msgstr "Internal documentation"
 msgid "Cette section comporte la documentation interne de CLUB1."
 msgstr "This section contains the CLUB1's internal documentation."
 
+#: ../../services/email.md:1
+msgid "Messagerie email"
+msgstr ""
+
+#: ../../services/email.md:4
+msgid ""
+"Chaque membre dispose d'une adresse email personnelle. Elle est composée de "
+"l'**identifiant**, suivi de `@club1.fr`. Par exemple, l'adresse de "
+"l'utilisateur `michel` est `michel@club1.fr`."
+msgstr ""
+
+#: ../../services/email.md:8
+msgid ""
+"Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
+msgstr ""
+
+#: ../../services/email.md:10 ../../services/ftps.md:22
+#: ../../services/mysql.md:8 ../../services/ssh.md:50
+msgid "Informations de connexion"
+msgstr "Connection information"
+
+#: ../../services/email.md:13
+msgid ""
+"La connexion d'un client email à une adresse CLUB1 nécessite de configurer "
+"plusieurs serveurs."
+msgstr ""
+
+#: ../../services/email.md:15
+msgid "Serveur d'envoi (SMTP)"
+msgstr ""
+
+#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/ssh.md:0
+msgid "champ"
+msgstr "field"
+
+#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/ssh.md:0
+msgid "valeur"
+msgstr "value"
+
+#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/ssh.md:0
+msgid "hôte"
+msgstr "host"
+
+#: ../../services/email.md:0
+#, fuzzy
+#| msgid "`club1.fr`"
+msgid "`mail.club1.fr`"
+msgstr "`club1.fr`"
+
+#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/ssh.md:0
+msgid "port"
+msgstr "port"
+
+#: ../../services/email.md:0
+msgid "`465`"
+msgstr ""
+
+#: ../../services/email.md:0 ../../services/ftps.md:0
+msgid "chiffrement"
+msgstr "encryption"
+
+#: ../../services/email.md:0
+#, fuzzy
+#| msgid "TLS Implicite"
+msgid "`SSL/TSL` (Implicite)"
+msgstr "Implicit TLS"
+
+#: ../../services/email.md:23
+msgid "Serveur de réception (IMAP)"
+msgstr ""
+
+#: ../../services/email.md:0
+msgid "`993`"
+msgstr ""
+
 #: ../../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
 msgstr "FTPS (File Transfer Protocol Secure)"
@@ -676,37 +829,13 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftps.md:22 ../../services/mysql.md:8 ../../services/ssh.md:50
-msgid "Informations de connexion"
-msgstr "Connection information"
-
-#: ../../services/ftps.md:0 ../../services/mysql.md:0 ../../services/ssh.md:0
-msgid "champ"
-msgstr "field"
-
-#: ../../services/ftps.md:0 ../../services/mysql.md:0 ../../services/ssh.md:0
-msgid "valeur"
-msgstr "value"
-
-#: ../../services/ftps.md:0 ../../services/mysql.md:0 ../../services/ssh.md:0
-msgid "hôte"
-msgstr "host"
-
 #: ../../services/ftps.md:0 ../../services/ssh.md:0
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
-#: ../../services/ftps.md:0 ../../services/mysql.md:0 ../../services/ssh.md:0
-msgid "port"
-msgstr "port"
-
 #: ../../services/ftps.md:0
 msgid "`990` (par défaut)"
 msgstr "`990` (default)"
-
-#: ../../services/ftps.md:0
-msgid "chiffrement"
-msgstr "encryption"
 
 #: ../../services/ftps.md:0
 msgid "TLS Implicite"
