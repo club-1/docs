@@ -2,7 +2,7 @@ Dépôts Git publics
 ==================
 
 Le dossier `git/`, à la racine de l'**espace personnel** est particulier.
-Les dépôts Git rangés dedans seront automatiquement publiés en _lecture seule_
+Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en _lecture seule_
 à l'adresse `https://git.club1.fr`, par exemple&nbsp;:
 
 [`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/dna-backup/)
@@ -18,7 +18,7 @@ Cette adresse permet 2 choses&nbsp;:
 Tutoriel d'utilisation
 ----------------------
 
-Pour utiliser la fonctionnalité de dépôts Git publics sur CLUB1, il faut tout
+Pour utiliser la fonctionnalité de dépôts {term}`Git` publics sur CLUB1, il faut tout
 d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un ordinateur personnel
 (remplacer `<login>` par votre **identifiant** et `<repo>` par le nom que vous
 voulez donner au dépôt)&nbsp;:
@@ -57,7 +57,7 @@ qui est normal&nbsp;:
 
     warning: You appear to have cloned an empty repository.
 
-Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt Git,
+Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}`Git`,
 par exemple&nbsp;:
 
     cd <repo>
