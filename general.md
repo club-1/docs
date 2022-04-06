@@ -5,7 +5,7 @@ Demandes et Incidents
 ---------------------
 
 Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues)
-sur GitHub (vous devrez pour celà créer un compte), en choisissant entre demande
+sur {term}`GitHub` (vous devrez pour cela créer un compte), en choisissant entre demande
 (_request_) ou incident (_problem_) en fonction de la nature du ticket.
 Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas
 déjà une demande similaire à l'aide de la barre de recherche.

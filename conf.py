@@ -41,6 +41,8 @@ myst_heading_anchors = 6
 myst_enable_extensions = [
     # Enable smart quotes at MyST level.
     'smartquotes',
+    # Replace some string patterns (... for instance) with their unicode equivalent.
+    'replacements',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
