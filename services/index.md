@@ -12,8 +12,9 @@ pour la connexion.
 ---
 maxdepth: 2
 ---
-ftps
 ssh
+email
+ftps
 web
 mysql
 git

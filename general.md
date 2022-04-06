@@ -17,7 +17,7 @@ Infos sur le serveur
 ### Matériel et infrastructure
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
-optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/r/338260996-nDOmVdkc).
+optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
 
 ### Système d'exploitation
 
