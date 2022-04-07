@@ -14,6 +14,13 @@ API
    Elle est en général composée d'un ensemble de fonctions qu'un logicel peut utiliser à distance. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation)
 
+CLI
+   De L'anglais _Command Line Interface_.
+   Interface en ligne de commande, basée sur un affichage textuel.
+   Elle s'utilise par l'intermédiaire d'une fenêtre de terminal.
+   La CLI est très intéressante car elle peut aussi bien être utilisée par des humains que par des logiciels. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
+
 Client
    Logiciel permettant de se connecter à un {term}`serveur`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))
