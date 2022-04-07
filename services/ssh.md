@@ -1,8 +1,8 @@
-SSH (Secure SHell)
-==================
+Connexion à distance SSH
+========================
 
-SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se
-révéler très utile, principalement pour les **utilisateurs avancés**.
+SSH (_Secure SHell_) permet de se connecter à distance en {term}`CLI` au serveur CLUB1.
+L'accès SSH peut se révéler très utile, surtout pour les utilisateurs avancés.
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
 utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est

@@ -1,11 +1,11 @@
-FTPS (File Transfer Protocol Secure)
-====================================
+Transfert de fichiers FTPS
+==========================
 
-Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être
-utile lors du tranfert d'un grand nombre de fichiers depuis et vers le
-serveur CLUB1.
+Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS (_File Transfer
+Protocol Secure_) peut être utile lors du tranfert d'un grand nombre de fichiers
+depuis et vers le serveur CLUB1.
 
-Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des logiciels comme
+Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme
 [FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur windows comprend des bundlewares).
 
 Sécurité

@@ -14,7 +14,7 @@ maxdepth: 2
 ---
 ssh
 email
-ftps
+ftp
 web
 mysql
 rss
