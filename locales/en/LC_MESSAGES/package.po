@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-07 23:43+0200\n"
+"POT-Creation-Date: 2022-04-08 00:42+0200\n"
 "PO-Revision-Date: 2022-04-07 22:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -502,6 +502,19 @@ msgid ""
 msgstr ""
 
 #: ../../glossary.md:6
+msgid "CLI"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
+"sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
+"de terminal. La CLI est très intéressante car elle peut aussi bien être "
+"utilisée par des humains que par des logiciels. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Interface_en_ligne_de_commande)"
+msgstr ""
+
+#: ../../glossary.md:13
 msgid "Client"
 msgstr "Client"
 
@@ -513,7 +526,7 @@ msgstr ""
 "Piece of software that accesses a service made available by a {term}"
 "`server`. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
-#: ../../glossary.md:10
+#: ../../glossary.md:17
 msgid "Client web"
 msgstr "Web client"
 
@@ -524,7 +537,7 @@ msgid ""
 msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
-#: ../../glossary.md:13
+#: ../../glossary.md:20
 msgid "Git"
 msgstr "Git"
 
@@ -536,7 +549,7 @@ msgstr ""
 "Distributed version control system software --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Git)"
 
-#: ../../glossary.md:17
+#: ../../glossary.md:24
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -549,7 +562,7 @@ msgstr ""
 "Web service providing hosting for software development and version control "
 "using {term}`Git`. --- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
 
-#: ../../glossary.md:22
+#: ../../glossary.md:29
 msgid "Internet"
 msgstr "Internet"
 
@@ -561,7 +574,7 @@ msgstr ""
 "Publicly accessible global {term}`computer network`. --- [Wikipedia](https://"
 "en.wikipedia.org/wiki/Internet)"
 
-#: ../../glossary.md:26
+#: ../../glossary.md:33
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -573,7 +586,7 @@ msgstr ""
 "Lightweight markup language for creating formatted text. --- [Wikipedia]"
 "(https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossary.md:30
+#: ../../glossary.md:37
 msgid "Réseau informatique"
 msgstr "Computer network"
 
@@ -586,7 +599,7 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossary.md:34
+#: ../../glossary.md:41
 msgid "Serveur"
 msgstr "Server"
 
@@ -600,7 +613,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossary.md:42
+#: ../../glossary.md:49
 msgid "Web"
 msgstr "Web"
 
@@ -722,7 +735,7 @@ msgid ""
 "Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
 msgstr "A {term}`web client` is accessible at <https://mail.club1.fr>."
 
-#: ../../services/email.md:10 ../../services/ftps.md:22
+#: ../../services/email.md:10 ../../services/ftp.md:22
 #: ../../services/mysql.md:8 ../../services/ssh.md:50
 msgid "Informations de connexion"
 msgstr "Connection information"
@@ -739,17 +752,17 @@ msgstr ""
 msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
-#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
 msgid "champ"
 msgstr "field"
 
-#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
 msgid "valeur"
 msgstr "value"
 
-#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
 msgid "hôte"
 msgstr "host"
@@ -758,7 +771,7 @@ msgstr "host"
 msgid "`mail.club1.fr`"
 msgstr "`mail.club1.fr`"
 
-#: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
 msgid "port"
 msgstr "port"
@@ -767,7 +780,7 @@ msgstr "port"
 msgid "`465`"
 msgstr "`465`"
 
-#: ../../services/email.md:0 ../../services/ftps.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:0
 msgid "chiffrement"
 msgstr "encryption"
 
@@ -783,22 +796,32 @@ msgstr "Received emails server (IMAP)"
 msgid "`993`"
 msgstr "`993`"
 
-#: ../../services/ftps.md:1
-msgid "FTPS (File Transfer Protocol Secure)"
-msgstr "FTPS (File Transfer Protocol Secure)"
+#: ../../services/ftp.md:1
+msgid "Transfert de fichiers FTPS"
+msgstr ""
 
-#: ../../services/ftps.md:4
+#: ../../services/ftp.md:4
+#, fuzzy
+#| msgid ""
+#| "Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être "
+#| "utile lors du tranfert d'un grand nombre de fichiers depuis et vers le "
+#| "serveur CLUB1."
 msgid ""
-"Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être "
-"utile lors du tranfert d'un grand nombre de fichiers depuis et vers le "
-"serveur CLUB1."
+"Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS (_File "
+"Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
+"nombre de fichiers depuis et vers le serveur CLUB1."
 msgstr ""
 "Although [ssh](ssh) can also be used for this purpose, FTPS can be useful to "
 "transfer a large amount of files from and to the CLUB1 server."
 
-#: ../../services/ftps.md:8
+#: ../../services/ftp.md:8
+#, fuzzy
+#| msgid ""
+#| "Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des "
+#| "logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
+#| "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgid ""
-"Le protocole FTP permet d'accéder à votre *espace personnel* grâce à des "
+"Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des "
 "logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
 "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
@@ -806,11 +829,11 @@ msgstr ""
 "like [FileZilla](https://filezilla-project.org/download.php?type=client) "
 "(warning: the windows installer includes bundlewares)."
 
-#: ../../services/ftps.md:11
+#: ../../services/ftp.md:11
 msgid "Sécurité"
 msgstr "Security"
 
-#: ../../services/ftps.md:14
+#: ../../services/ftp.md:14
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
@@ -823,7 +846,7 @@ msgstr ""
 "as [FTPS (FTP over implicit TLS)](https://en.wikipedia.org/wiki/"
 "FTPS#Implicit)."
 
-#: ../../services/ftps.md:18
+#: ../../services/ftp.md:18
 msgid ""
 "Un certificat est utilisé pour prouver l'authenticité de la clé du serveur. "
 "Si un message demande d'approuver le certificat lors de la connexion, il est "
@@ -833,23 +856,23 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftps.md:0 ../../services/ssh.md:0
+#: ../../services/ftp.md:0 ../../services/ssh.md:0
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
-#: ../../services/ftps.md:0
+#: ../../services/ftp.md:0
 msgid "`990` (par défaut)"
 msgstr "`990` (default)"
 
-#: ../../services/ftps.md:0
+#: ../../services/ftp.md:0
 msgid "TLS Implicite"
 msgstr "Implicit TLS"
 
-#: ../../services/ftps.md:0
+#: ../../services/ftp.md:0
 msgid "authentification"
 msgstr "authentication"
 
-#: ../../services/ftps.md:0
+#: ../../services/ftp.md:0
 msgid "Normale"
 msgstr "Normal"
 
@@ -1040,13 +1063,18 @@ msgid ""
 msgstr ""
 
 #: ../../services/ssh.md:1
-msgid "SSH (Secure SHell)"
-msgstr "SSH (Secure SHell)"
+msgid "Connexion à distance SSH"
+msgstr ""
 
 #: ../../services/ssh.md:4
+#, fuzzy
+#| msgid ""
+#| "SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut "
+#| "se révéler très utile, principalement pour les **utilisateurs avancés**."
 msgid ""
-"SSH permet de se connecter à distance au serveur CLUB1. L'accès SSH peut se "
-"révéler très utile, principalement pour les **utilisateurs avancés**."
+"SSH (_Secure SHell_) permet de se connecter à distance en {term}`CLI` au "
+"serveur CLUB1. L'accès SSH peut se révéler très utile, surtout pour les "
+"utilisateurs avancés."
 msgstr ""
 "SSH allows to remotely connect to the CLUB1 server. The SSH access can be "
 "very useful, mostly for **advanced users**."
