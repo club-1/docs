@@ -17,5 +17,6 @@ email
 ftps
 web
 mysql
+rss
 git
 ```

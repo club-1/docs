@@ -8,6 +8,12 @@ Glossaire
 sorted:
 ---
 
+API
+   De l'anglais _Application Programming Interface_.
+   Interface destinée à être utilisée non pas par un être humain mais par un logiciel.
+   Elle est en général composée d'un ensemble de fonctions qu'un logicel peut utiliser à distance. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation)
+
 Client
    Logiciel permettant de se connecter à un {term}`serveur`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))
