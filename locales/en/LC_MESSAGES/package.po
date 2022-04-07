@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-04-07 00:07+0200\n"
-"PO-Revision-Date: 2022-04-03 03:07+0000\n"
+"PO-Revision-Date: 2022-04-07 12:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -39,18 +39,6 @@ msgid "Translation status"
 msgstr "Translation status"
 
 #: ../../README.md:7
-#, fuzzy
-#| msgid ""
-#| "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-#| "club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale "
-#| "et anglais, la secondaire. Le site web est généré à l'aide de [Sphinx]"
-#| "(https://fr.wikipedia.org/wiki/"
-#| "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers "
-#| "source écrits en [markdown](https://fr.wikipedia.org/wiki/Markdown). Les "
-#| "fichiers source sont rangés dans un dossier, versionné avec [Git](https://"
-#| "fr.wikipedia.org/wiki/Git) et accessible publiquement via [GitHub]"
-#| "(https://fr.wikipedia.org/wiki/GitHub) à l'adresse <https://github.com/"
-#| "club-1/docs/>."
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
@@ -65,10 +53,9 @@ msgstr ""
 "docs/en/>. It exists in two languages: French, the main one and English, the "
 "secondary. The website is generated using [Sphinx](https://en.wikipedia.org/"
 "wiki/Sphinx_(documentation_generator)), from source files written in "
-"[markdown](https://en.wikipedia.org/wiki/Markdown). The source files are "
-"stored in a directory, versioned with [Git](https://en.wikipedia.org/wiki/"
-"Git) and publicly accessible via [GitHub](https://en.wikipedia.org/wiki/"
-"GitHub) at <https://github.com/club-1/docs/>."
+"{term}`markdown`. The source files are stored in a directory, versioned with "
+"{term}`Git` and publicly accessible via {term}`GitHub` at <https://github."
+"com/club-1/docs/>."
 
 #: ../../README.md:1
 msgid ""
@@ -378,11 +365,6 @@ msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
 #: ../../general.md:19
-#, fuzzy
-#| msgid ""
-#| "Le serveur est localisé en France à Pantin. Il est relié à internet par "
-#| "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
-#| "nperf.com/r/338260996-nDOmVdkc)."
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
@@ -390,7 +372,7 @@ msgid ""
 msgstr ""
 "The server is located in Pantin, France. It is connected to internet by "
 "optical fiver with an [average upload rate of 200Mb/s](https://www.nperf.com/"
-"r/338260996-nDOmVdkc)."
+"en/r/338260996-nDOmVdkc)."
 
 #: ../../general.md:22
 msgid "Système d'exploitation"
@@ -504,41 +486,46 @@ msgstr ""
 
 #: ../../glossary.md:3
 msgid "Glossaire"
-msgstr ""
+msgstr "Glossary"
 
 #: ../../glossary.md:0
 msgid "Client"
-msgstr ""
+msgstr "Client"
 
 #: ../../glossary.md:1
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
+"Piece of software that accesses a service made available by a {term}`server`"
+". --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
 #: ../../glossary.md:4
 msgid "Client web"
-msgstr ""
+msgstr "Web client"
 
 #: ../../glossary.md:1
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
+"{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
 #: ../../glossary.md:7
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: ../../glossary.md:1
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git)"
 msgstr ""
+"Distributed version control system software --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Git)"
 
 #: ../../glossary.md:11
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../glossary.md:1
 msgid ""
@@ -546,30 +533,37 @@ msgid ""
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
+"Web service providing {term}`Internet` hosting for software development and "
+"version control using {term}`Git`. --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/GitHub)"
 
 #: ../../glossary.md:16
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ../../glossary.md:1
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Internet)"
 msgstr ""
+"Publicly accessible global {term}`computer network`. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Internet)"
 
 #: ../../glossary.md:20
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: ../../glossary.md:1
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgstr ""
+"Lightweight markup language for creating formatted text. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
 #: ../../glossary.md:24
 msgid "Réseau informatique"
-msgstr ""
+msgstr "Computer network"
 
 #: ../../glossary.md:1
 msgid ""
@@ -577,12 +571,12 @@ msgid ""
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
+"Set of computers linked together in order for them to exchange data. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
 #: ../../glossary.md:28
-#, fuzzy
-#| msgid "Services"
 msgid "Serveur"
-msgstr "Services"
+msgstr "Server"
 
 #: ../../glossary.md:1
 msgid ""
@@ -596,7 +590,7 @@ msgstr ""
 
 #: ../../glossary.md:36
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: ../../glossary.md:1
 msgid ""
@@ -612,15 +606,15 @@ msgstr "CLUB1 hosting documentation"
 
 #: ../../index.md:19
 msgid "Indexes et tables"
-msgstr ""
+msgstr "Indices and tables"
 
 #: ../../index.md:21
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.md:22
 msgid ":ref:`glossary`"
-msgstr ""
+msgstr ":ref:`glossary`"
 
 #: ../../interne/aliases.md:1
 msgid "Gestion des alias email"
@@ -702,7 +696,7 @@ msgstr "This section contains the CLUB1's internal documentation."
 
 #: ../../services/email.md:1
 msgid "Messagerie email"
-msgstr ""
+msgstr "Email messaging"
 
 #: ../../services/email.md:4
 msgid ""
@@ -714,7 +708,7 @@ msgstr ""
 #: ../../services/email.md:8
 msgid ""
 "Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
-msgstr ""
+msgstr "A {term}`web client` is accessible at <https://mail.club1.fr>."
 
 #: ../../services/email.md:10 ../../services/ftps.md:22
 #: ../../services/mysql.md:8 ../../services/ssh.md:50
@@ -726,10 +720,12 @@ msgid ""
 "La connexion d'un client email à une adresse CLUB1 nécessite de configurer "
 "plusieurs serveurs."
 msgstr ""
+"Connecting an email client to a CLUB1 address requires configuring multiple "
+"servers."
 
 #: ../../services/email.md:15
 msgid "Serveur d'envoi (SMTP)"
-msgstr ""
+msgstr "Outgoing email server (SMTP)"
 
 #: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
@@ -747,10 +743,8 @@ msgid "hôte"
 msgstr "host"
 
 #: ../../services/email.md:0
-#, fuzzy
-#| msgid "`club1.fr`"
 msgid "`mail.club1.fr`"
-msgstr "`club1.fr`"
+msgstr "`mail.club1.fr`"
 
 #: ../../services/email.md:0 ../../services/ftps.md:0 ../../services/mysql.md:0
 #: ../../services/ssh.md:0
@@ -759,25 +753,23 @@ msgstr "port"
 
 #: ../../services/email.md:0
 msgid "`465`"
-msgstr ""
+msgstr "`465`"
 
 #: ../../services/email.md:0 ../../services/ftps.md:0
 msgid "chiffrement"
 msgstr "encryption"
 
 #: ../../services/email.md:0
-#, fuzzy
-#| msgid "TLS Implicite"
 msgid "`SSL/TSL` (Implicite)"
-msgstr "Implicit TLS"
+msgstr "`SSL/TSL` (Implicit)"
 
 #: ../../services/email.md:23
 msgid "Serveur de réception (IMAP)"
-msgstr ""
+msgstr "Received emails server (IMAP)"
 
 #: ../../services/email.md:0
 msgid "`993`"
-msgstr ""
+msgstr "`993`"
 
 #: ../../services/ftps.md:1
 msgid "FTPS (File Transfer Protocol Secure)"
@@ -868,19 +860,23 @@ msgstr ""
 
 #: ../../services/git.md:11
 msgid "Cette adresse permet 2 choses&nbsp;:"
-msgstr ""
+msgstr "This address allows 2 things:"
 
 #: ../../services/git.md:13
 msgid ""
 "Cloner le dépôt Git avec `git clone` grâce au [git-http-backend](https://git-"
 "scm.com/docs/git-http-backend)."
 msgstr ""
+"Clone the Git repository using `git clone` thanks to [git-http-backend](https"
+"://git-scm.com/docs/git-http-backend)."
 
 #: ../../services/git.md:15
 msgid ""
 "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
 "l'interface web [cgit](https://git.zx2c4.com/cgit/about/)."
 msgstr ""
+"Quickly browse the sources and repository data in a web browser thanks to "
+"the web interface [cgit](https://git.zx2c4.com/cgit/about/)."
 
 #: ../../services/git.md:18
 msgid "Tutoriel d'utilisation"
@@ -917,15 +913,16 @@ msgstr ""
 
 #: ../../services/git.md:43
 msgid "[Création d'un nouveau dépôt](#création-dun-nouveau-dépôt)"
-msgstr ""
+msgstr "[Creation of a new repository](#création-dun-nouveau-dépôt)"
 
 #: ../../services/git.md:44
 msgid "[Publication d'un dépôt existant](#publication-dun-dépôt-existant)"
 msgstr ""
+"[Publication of an existing repository](#publication-dun-dépôt-existant)"
 
 #: ../../services/git.md:46
 msgid "Création d'un nouveau dépôt"
-msgstr ""
+msgstr "Creation of an new repository"
 
 #: ../../services/git.md:48
 msgid ""
@@ -949,7 +946,7 @@ msgstr ""
 
 #: ../../services/git.md:70
 msgid "Publication d'un dépôt existant"
-msgstr ""
+msgstr "Publication of an existing repository"
 
 #: ../../services/git.md:72
 msgid ""
@@ -1098,10 +1095,13 @@ msgid ""
 "été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et "
 "peuvent ainsi produire des résultats différents."
 msgstr ""
+"There are two main categories of websites: the _static_ sites, made of files "
+"which contents will not change until it's modified and the _dynamic_ sites, "
+"whose files are executed and can thus produce different results."
 
 #: ../../services/web.md:9
 msgid "Sites web _statiques_"
-msgstr ""
+msgstr "_Static_ websites"
 
 #: ../../services/web.md:12
 msgid ""
@@ -1115,6 +1115,8 @@ msgid ""
 "[`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/"
 "nicolas/test.html) &rarr; `/home/nicolas/static/test.html`"
 msgstr ""
+"[`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/"
+"nicolas/test.html) &rarr; `/home/nicolas/static/test.html`"
 
 #: ../../services/web.md:19
 msgid ""
@@ -1133,7 +1135,7 @@ msgstr ""
 
 #: ../../services/web.md:32
 msgid "Sites web _dynamiques_"
-msgstr ""
+msgstr "_Dynamic_ websites"
 
 #: ../../services/web.md:35
 msgid ""
