@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-07 00:07+0200\n"
+"POT-Creation-Date: 2022-04-07 23:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -428,6 +428,19 @@ msgid "Glossaire"
 msgstr ""
 
 #: ../../glossary.md:0
+msgid "API"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"De l'anglais _Application Programming Interface_. Interface destinée à être "
+"utilisée non pas par un être humain mais par un logiciel. Elle est en "
+"général composée d'un ensemble de fonctions qu'un logicel peut utiliser à "
+"distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Interface_de_programmation)"
+msgstr ""
+
+#: ../../glossary.md:6
 msgid "Client"
 msgstr ""
 
@@ -437,7 +450,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossary.md:4
+#: ../../glossary.md:10
 msgid "Client web"
 msgstr ""
 
@@ -447,7 +460,7 @@ msgid ""
 "Navigateur web."
 msgstr ""
 
-#: ../../glossary.md:7
+#: ../../glossary.md:13
 msgid "Git"
 msgstr ""
 
@@ -457,7 +470,7 @@ msgid ""
 "wikipedia.org/wiki/Git)"
 msgstr ""
 
-#: ../../glossary.md:11
+#: ../../glossary.md:17
 msgid "GitHub"
 msgstr ""
 
@@ -468,7 +481,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossary.md:16
+#: ../../glossary.md:22
 msgid "Internet"
 msgstr ""
 
@@ -478,7 +491,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/Internet)"
 msgstr ""
 
-#: ../../glossary.md:20
+#: ../../glossary.md:26
 msgid "Markdown"
 msgstr ""
 
@@ -488,7 +501,7 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgstr ""
 
-#: ../../glossary.md:24
+#: ../../glossary.md:30
 msgid "Réseau informatique"
 msgstr ""
 
@@ -499,7 +512,7 @@ msgid ""
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossary.md:28
+#: ../../glossary.md:34
 msgid "Serveur"
 msgstr ""
 
@@ -513,7 +526,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossary.md:36
+#: ../../glossary.md:42
 msgid "Web"
 msgstr ""
 
@@ -880,6 +893,37 @@ msgstr ""
 
 #: ../../services/mysql.md:0
 msgid "`3306`"
+msgstr ""
+
+#: ../../services/rss.md:1
+msgid "Agrégateur de flux RSS"
+msgstr ""
+
+#: ../../services/rss.md:4
+msgid ""
+"Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
+"wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
+"travers le {term}`client web` intégré se trouvant à l'adresse <https://rss."
+"club1.fr>, mais il est également possible d'y connecter un client natif."
+msgstr ""
+
+#: ../../services/rss.md:10
+msgid "Se connecter avec un client natif"
+msgstr ""
+
+#: ../../services/rss.md:13
+msgid ""
+"Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
+"dans les paramètres du {term}`client web`. Cliquer sur le menu (icone avec "
+"les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
+"`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
+"l'API`."
+msgstr ""
+
+#: ../../services/rss.md:18
+msgid ""
+"Dans le client natif choisi, il faudra renseigner comme URL du serveur "
+"`https://rss.club1.fr`."
 msgstr ""
 
 #: ../../services/ssh.md:1

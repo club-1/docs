@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-07 00:07+0200\n"
+"POT-Creation-Date: 2022-04-07 23:43+0200\n"
 "PO-Revision-Date: 2022-04-07 12:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -52,10 +52,10 @@ msgstr ""
 "The CLUB1's documentation is published in HTML format at <https://club1.fr/"
 "docs/en/>. It exists in two languages: French, the main one and English, the "
 "secondary. The website is generated using [Sphinx](https://en.wikipedia.org/"
-"wiki/Sphinx_(documentation_generator)), from source files written in "
-"{term}`markdown`. The source files are stored in a directory, versioned with "
-"{term}`Git` and publicly accessible via {term}`GitHub` at <https://github."
-"com/club-1/docs/>."
+"wiki/Sphinx_(documentation_generator)), from source files written in {term}"
+"`markdown`. The source files are stored in a directory, versioned with {term}"
+"`Git` and publicly accessible via {term}`GitHub` at <https://github.com/"
+"club-1/docs/>."
 
 #: ../../README.md:1
 msgid ""
@@ -489,6 +489,19 @@ msgid "Glossaire"
 msgstr "Glossary"
 
 #: ../../glossary.md:0
+msgid "API"
+msgstr ""
+
+#: ../../glossary.md:1
+msgid ""
+"De l'anglais _Application Programming Interface_. Interface destinée à être "
+"utilisée non pas par un être humain mais par un logiciel. Elle est en "
+"général composée d'un ensemble de fonctions qu'un logicel peut utiliser à "
+"distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Interface_de_programmation)"
+msgstr ""
+
+#: ../../glossary.md:6
 msgid "Client"
 msgstr "Client"
 
@@ -497,10 +510,10 @@ msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
-"Piece of software that accesses a service made available by a {term}`server`"
-". --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
+"Piece of software that accesses a service made available by a {term}"
+"`server`. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
-#: ../../glossary.md:4
+#: ../../glossary.md:10
 msgid "Client web"
 msgstr "Web client"
 
@@ -511,7 +524,7 @@ msgid ""
 msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
-#: ../../glossary.md:7
+#: ../../glossary.md:13
 msgid "Git"
 msgstr "Git"
 
@@ -523,7 +536,7 @@ msgstr ""
 "Distributed version control system software --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Git)"
 
-#: ../../glossary.md:11
+#: ../../glossary.md:17
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -537,7 +550,7 @@ msgstr ""
 "version control using {term}`Git`. --- [Wikipedia](https://en.wikipedia.org/"
 "wiki/GitHub)"
 
-#: ../../glossary.md:16
+#: ../../glossary.md:22
 msgid "Internet"
 msgstr "Internet"
 
@@ -546,10 +559,10 @@ msgid ""
 "{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Internet)"
 msgstr ""
-"Publicly accessible global {term}`computer network`. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Internet)"
+"Publicly accessible global {term}`computer network`. --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/Internet)"
 
-#: ../../glossary.md:20
+#: ../../glossary.md:26
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -558,10 +571,10 @@ msgid ""
 "Language de balisage léger permettant de mettre en forme un document. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgstr ""
-"Lightweight markup language for creating formatted text. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
+"Lightweight markup language for creating formatted text. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossary.md:24
+#: ../../glossary.md:30
 msgid "Réseau informatique"
 msgstr "Computer network"
 
@@ -574,7 +587,7 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossary.md:28
+#: ../../glossary.md:34
 msgid "Serveur"
 msgstr "Server"
 
@@ -588,7 +601,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossary.md:36
+#: ../../glossary.md:42
 msgid "Web"
 msgstr "Web"
 
@@ -867,8 +880,8 @@ msgid ""
 "Cloner le dépôt Git avec `git clone` grâce au [git-http-backend](https://git-"
 "scm.com/docs/git-http-backend)."
 msgstr ""
-"Clone the Git repository using `git clone` thanks to [git-http-backend](https"
-"://git-scm.com/docs/git-http-backend)."
+"Clone the Git repository using `git clone` thanks to [git-http-backend]"
+"(https://git-scm.com/docs/git-http-backend)."
 
 #: ../../services/git.md:15
 msgid ""
@@ -995,6 +1008,37 @@ msgstr "`localhost`"
 #: ../../services/mysql.md:0
 msgid "`3306`"
 msgstr "`3306`"
+
+#: ../../services/rss.md:1
+msgid "Agrégateur de flux RSS"
+msgstr ""
+
+#: ../../services/rss.md:4
+msgid ""
+"Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
+"wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
+"travers le {term}`client web` intégré se trouvant à l'adresse <https://rss."
+"club1.fr>, mais il est également possible d'y connecter un client natif."
+msgstr ""
+
+#: ../../services/rss.md:10
+msgid "Se connecter avec un client natif"
+msgstr ""
+
+#: ../../services/rss.md:13
+msgid ""
+"Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
+"dans les paramètres du {term}`client web`. Cliquer sur le menu (icone avec "
+"les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
+"`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
+"l'API`."
+msgstr ""
+
+#: ../../services/rss.md:18
+msgid ""
+"Dans le client natif choisi, il faudra renseigner comme URL du serveur "
+"`https://rss.club1.fr`."
+msgstr ""
 
 #: ../../services/ssh.md:1
 msgid "SSH (Secure SHell)"
