@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-04-08 00:42+0200\n"
-"PO-Revision-Date: 2022-04-08 15:37+0000\n"
+"PO-Revision-Date: 2022-04-08 16:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -647,6 +647,11 @@ msgid ""
 "installés (ex : le serveur CLUB1) . --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Serveur_informatique)"
 msgstr ""
+"Software that provides a service. It holds the data and responds to requests "
+"from a {term}`client`. Often, servers and clients are installed on different "
+"computers. By extension, the computer on which the servers are installed is "
+"called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Server_(computing))"
 
 #: ../../glossary.md:49
 msgid "Web"
@@ -659,6 +664,10 @@ msgid ""
 "documents et de les relier entre eux à l'aide de liens hypertexte. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgstr ""
+"One of the best known services on {term}`Internet`. Its full name is \"World "
+"Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
+"link them together using hypertext links. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/World_Wide_Web)"
 
 #: ../../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
@@ -833,7 +842,7 @@ msgstr "`993`"
 
 #: ../../services/ftp.md:1
 msgid "Transfert de fichiers FTPS"
-msgstr ""
+msgstr "FTPS files transfer"
 
 #: ../../services/ftp.md:4
 #, fuzzy
@@ -1007,12 +1016,15 @@ msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
 "qui est normal&nbsp;:"
 msgstr ""
+"A warning will indicate that the cloned repository is empty, which is normal:"
 
 #: ../../services/git.md:60
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
 "`Git`, par exemple&nbsp;:"
 msgstr ""
+"It is now possible to use this repository as any other {term}`Git` "
+"repository, for instance:"
 
 #: ../../services/git.md:70
 msgid "Publication d'un dépôt existant"
@@ -1068,7 +1080,7 @@ msgstr "`3306`"
 
 #: ../../services/rss.md:1
 msgid "Agrégateur de flux RSS"
-msgstr ""
+msgstr "RSS feed aggregator"
 
 #: ../../services/rss.md:4
 msgid ""
@@ -1080,7 +1092,7 @@ msgstr ""
 
 #: ../../services/rss.md:10
 msgid "Se connecter avec un client natif"
-msgstr ""
+msgstr "Connect with a native client"
 
 #: ../../services/rss.md:13
 msgid ""
@@ -1096,10 +1108,12 @@ msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
 msgstr ""
+"In the chosen native client, the server URL must be filled with `https://rss."
+"club1.fr`."
 
 #: ../../services/ssh.md:1
 msgid "Connexion à distance SSH"
-msgstr ""
+msgstr "SSH remote connection"
 
 #: ../../services/ssh.md:4
 msgid ""
@@ -1211,6 +1225,9 @@ msgid ""
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
 "sur le web à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
 msgstr ""
+"The **personal space** has a special `static/` folder at its root. All files "
+"and folders that it contains are automatically published on the web at "
+"`https://static.club1.fr`, for instance:"
 
 #: ../../services/web.md:16
 msgid ""
@@ -1226,6 +1243,9 @@ msgid ""
 "wiki/Apache_HTTP_Server). Il est configuré pour automatiquement générer un "
 "_index_ affichant la liste des fichiers et dossiers qu'il contient."
 msgstr ""
+"This folder is served by the HTTP server [Apache](https://en.wikipedia.org/"
+"wiki/Apache_HTTP_Server). It is configured to automatically generate an "
+"_index_ displaying the list of files and folders it contains."
 
 #: ../../services/web.md:23
 msgid ""
@@ -1234,6 +1254,10 @@ msgid ""
 "fichier caché de configuration Apache `.htaccess` contenant au moins la "
 "ligne suivante."
 msgstr ""
+"To avoid displaying this index, it is possible either to create an `index."
+"html` file which will contain the page to be displayed instead, or to add a "
+"hidden Apache `.htaccess` configuration file containing at least the "
+"following line."
 
 #: ../../services/web.md:32
 msgid "Sites web _dynamiques_"
