@@ -112,7 +112,7 @@ html_context = {
 
 html_theme_options = {
     'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
+    'style_external_links': True,
     'vcs_pageview_mode': 'edit',
 }
 
