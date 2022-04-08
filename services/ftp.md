@@ -1,7 +1,7 @@
 Transfert de fichiers FTPS
 ==========================
 
-Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS (_File Transfer
+Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File Transfer
 Protocol Secure_) peut être utile lors du tranfert d'un grand nombre de fichiers
 depuis et vers le serveur CLUB1.
 

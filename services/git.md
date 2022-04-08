@@ -13,7 +13,7 @@ Cette adresse permet 2 choses&nbsp;:
 1. Cloner le dépôt Git avec `git clone` grâce au
    [git-http-backend](https://git-scm.com/docs/git-http-backend).
 2. Consulter rapidement le dépôt et le sources dans un navigateur grâce à
-   l'interface web [cgit](https://git.zx2c4.com/cgit/about/).
+   l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/about/).
 
 Tutoriel d'utilisation
 ----------------------
@@ -27,7 +27,7 @@ voulez donner au dépôt)&nbsp;:
 
 Dès lors, le dépôt est publié en _lecture seule_ à l'adresse
 `https://git.club1.fr/<login>/<repo>`, mais celui-ci est vide pour le
-moment. La branche affichée par défaut dans l'interface web est `master`.
+moment. La branche affichée par défaut dans l'interface {term}`Web` est `master`.
 Il est possible de la changer en modifiant le fichier `HEAD` du dépôt.
 Par exemple pour la remplacer par la branche `main`&nbsp;:
 
@@ -52,10 +52,12 @@ au dépôt&nbsp;:
 
     git clone <login>@club1.fr:git/<repo>
 
+```{note}
 Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce
 qui est normal&nbsp;:
 
     warning: You appear to have cloned an empty repository.
+```
 
 Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}`Git`,
 par exemple&nbsp;:

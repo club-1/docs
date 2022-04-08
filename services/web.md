@@ -1,17 +1,17 @@
-Sites Web
-=========
+Hébergement de sites Web
+========================
 
-Il existe deux grands types de sites web&nbsp;: les sites _statiques_,
+Il existe deux grands types de sites {term}`Web`&nbsp;: les sites _statiques_,
 constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas
 été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et
 peuvent ainsi produire des résultats différents.
 
-Sites web _statiques_
+Sites Web _statiques_
 ---------------------
 
 L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine.
 Tous les fichiers et dossiers rangés dedans seront automatiquement publiés
-sur le web à l'adresse `https://static.club1.fr`, par exemple&nbsp;:
+sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple&nbsp;:
 
 [`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/nicolas/test.html)
 &rarr; `/home/nicolas/static/test.html`
@@ -29,10 +29,10 @@ ligne suivante.
 Options -Indexes
 ```
 
-Sites web _dynamiques_
+Sites Web _dynamiques_
 ----------------------
 
 Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr`
 pointant vers **l'un des dossiers** présent dans votre **espace personnel**
-pour ainsi créer un site web. Les noms des sous-domaines seront à définir
+pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à définir
 ensemble en fonction de leur disponibilité et leur viabilité.

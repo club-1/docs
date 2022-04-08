@@ -31,8 +31,10 @@ suivante :
 
     echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 >> ~/.ssh/known_hosts
 
+```{tip}
 Si pour une quelconque raison la comparaison manuelle est préférée,
 l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr.
+```
 
 Créer une paire de clés de chiffrement
 --------------------------------------
@@ -50,7 +52,7 @@ le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
 Informations de connexion
 -------------------------
 
-| champ            | valeur     |
-| ---------------- | ---------- |
-| hôte             | `club1.fr` |
-| port             | `22`       |
+| champ            | valeur            |
+| ---------------- | ----------------- |
+| hôte             | `club1.fr`        |
+| port             | `22` (par défaut) |

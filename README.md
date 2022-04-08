@@ -6,7 +6,7 @@ Meta-documentation
 
 La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
 Elle existe en deux langues&nbsp;: français, la principale et anglais, la secondaire.
-Le site web est généré à l'aide de
+Le site {term}`Web` est généré à l'aide de
 [Sphinx](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)),
 à partir de fichiers source écrits en {term}`markdown`.
 Les fichiers source sont rangés dans un dossier, versionné avec {term}`Git`

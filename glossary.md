@@ -22,10 +22,11 @@ CLI
    [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
 
 Client
-   Logiciel permettant de se connecter à un {term}`serveur`. ---
+   Logiciel permettant de se connecter à un {term}`serveur`.
+   Il est en général doté d'une interface graphique, destinée à être utilisée directement par un humain. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))
 
-Client web
+Client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
 Git
@@ -60,6 +61,7 @@ Serveur
 Web
    L'un des services les plus connus d'{term}`Internet`.
    Son nom complet est "World Wide Web" (aussi abrégé "www").
-   Il permet de publier des documents et de les relier entre eux à l'aide de liens hypertexte. ---
+   Il permet de publier des documents et de les relier entre eux à l'aide de liens hypertexte.
+   On appelle "Navigateur Web" le {term}`client` utilisé pour y accéder. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)
 ```
