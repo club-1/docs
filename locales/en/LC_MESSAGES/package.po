@@ -539,7 +539,7 @@ msgid ""
 msgstr ""
 "_Application Programming Interface_, an interface intended to be used not by "
 "a human being but by a software. It is generally composed of a set of "
-"functions that a software can use remotely. --- [Wikipedia )(https://en."
+"functions that a software can use remotely. --- [Wikipedia](https://en."
 "wikipedia.org/wiki/API)"
 
 #: ../../glossary.md:6
