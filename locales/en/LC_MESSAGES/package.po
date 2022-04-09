@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-04-08 21:13+0200\n"
-"PO-Revision-Date: 2022-04-08 16:01+0000\n"
+"PO-Revision-Date: 2022-04-10 20:12+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -39,16 +39,6 @@ msgid "Translation status"
 msgstr "Translation status"
 
 #: ../../README.md:7
-#, fuzzy
-#| msgid ""
-#| "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-#| "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
-#| "principale et anglais, la secondaire. Le site web est généré à l'aide de "
-#| "[Sphinx](https://fr.wikipedia.org/wiki/"
-#| "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers "
-#| "source écrits en {term}`markdown`. Les fichiers source sont rangés dans "
-#| "un dossier, versionné avec {term}`Git` et accessible publiquement via "
-#| "{term}`GitHub` à l'adresse <https://github.com/club-1/docs/>."
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
@@ -62,10 +52,10 @@ msgstr ""
 "The CLUB1's documentation is published in HTML format at <https://club1.fr/"
 "docs/en/>. It exists in two languages: French, the main one and English, the "
 "secondary. The website is generated using [Sphinx](https://en.wikipedia.org/"
-"wiki/Sphinx_(documentation_generator)), from source files written in {term}"
-"`markdown`. The source files are stored in a directory, versioned with {term}"
-"`Git` and publicly accessible via {term}`GitHub` at <https://github.com/"
-"club-1/docs/>."
+"wiki/Sphinx_(documentation_generator)), from source files written in "
+"{term}`markdown`. The source files are stored in a directory, versioned with "
+"{term}`Git` and publicly accessible via {term}`GitHub` at <https://github."
+"com/club-1/docs/>."
 
 #: ../../README.md:1
 msgid ""
@@ -564,21 +554,16 @@ msgid "Client"
 msgstr "Client"
 
 #: ../../glossary.md:1
-#, fuzzy
-#| msgid ""
-#| "Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
-"Piece of software that accesses a service made available by a {term}"
-"`server`. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
+"Piece of software that accesses a service made available by a {term}`server`"
+". It usually has a graphical interface, intended to be used directly by a "
+"human. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
 #: ../../glossary.md:18
-#, fuzzy
-#| msgid "Client web"
 msgid "Client Web"
 msgstr "Web client"
 
@@ -675,12 +660,6 @@ msgid "Web"
 msgstr "Web"
 
 #: ../../glossary.md:1
-#, fuzzy
-#| msgid ""
-#| "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
-#| "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
-#| "documents et de les relier entre eux à l'aide de liens hypertexte. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -690,8 +669,9 @@ msgid ""
 msgstr ""
 "One of the best known services on {term}`Internet`. Its full name is \"World "
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
-"link them together using hypertext links. --- [Wikipedia](https://en."
-"wikipedia.org/wiki/World_Wide_Web)"
+"link them together using hypertext links. The {term}`client` used to access "
+"it is called a \"Web browser\". --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/World_Wide_Web)"
 
 #: ../../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
@@ -797,15 +777,17 @@ msgid ""
 "l'**identifiant**, suivi de `@club1.fr`. Par exemple, l'adresse de "
 "l'utilisateur `michel` est `michel@club1.fr`."
 msgstr ""
+"Each member has a personal email address. It is composed of the **login**, "
+"followed by `@club1.fr`. For instance, the address of `michel` is "
+"`michel@club1.fr`."
 
 #: ../../services/email.md:8
-#, fuzzy
-#| msgid ""
-#| "Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
 msgid ""
 "Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
 "Roundcube) est disponible à l'adresse <https://mail.club1.fr>."
-msgstr "A {term}`web client` is accessible at <https://mail.club1.fr>."
+msgstr ""
+"A {term}`Web client` provided by [Roundcube](https://en.wikipedia.org/wiki/"
+"Roundcube) is accessible at <https://mail.club1.fr>."
 
 #: ../../services/email.md:11 ../../services/ftp.md:22
 #: ../../services/mysql.md:9 ../../services/ssh.md:52
@@ -873,18 +855,14 @@ msgid "Transfert de fichiers FTPS"
 msgstr "FTPS files transfer"
 
 #: ../../services/ftp.md:4
-#, fuzzy
-#| msgid ""
-#| "Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS peut être "
-#| "utile lors du tranfert d'un grand nombre de fichiers depuis et vers le "
-#| "serveur CLUB1."
 msgid ""
 "Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File "
 "Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
 "nombre de fichiers depuis et vers le serveur CLUB1."
 msgstr ""
-"Although [ssh](ssh) can also be used for this purpose, FTPS can be useful to "
-"transfer a large amount of files from and to the CLUB1 server."
+"Although [SSH](ssh.md) can also be used for this purpose, FTPS (_File "
+"Transfer Protocol Secure_) can be useful to transfer a large amount of files "
+"from and to the CLUB1 server."
 
 #: ../../services/ftp.md:8
 #, fuzzy
@@ -958,12 +936,17 @@ msgid ""
 "Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en "
 "_lecture seule_ à l'adresse `https://git.club1.fr`, par exemple&nbsp;:"
 msgstr ""
+"The `git/` folder, at the root of the **personal space** is special. The "
+"{term}`Git` repositories stored inside will automatically be published with "
+"_read only_ access at `https://git.club1.fr`, for example:"
 
 #: ../../services/git.md:8
 msgid ""
 "[`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/"
 "dna-backup/) &rarr; `/home/nicolas/git/dna-backup/`"
 msgstr ""
+"[`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/"
+"dna-backup/) &rarr; `/home/nicolas/git/dna-backup/`"
 
 #: ../../services/git.md:11
 msgid "Cette adresse permet 2 choses&nbsp;:"
@@ -1002,6 +985,10 @@ msgid ""
 "**identifiant** et `<repo>` par le nom que vous voulez donner au "
 "dépôt)&nbsp;:"
 msgstr ""
+"To use CLUB1's public {term}`Git` repositories feature, a repository must "
+"first be initialized remotely, with [SSH](ssh.md), from a personal computer ("
+"replace `<login>` with your **login** and `<repo>` with the name you want to "
+"give to the repository):"
 
 #: ../../services/git.md:28
 msgid ""
@@ -1011,6 +998,11 @@ msgid ""
 "possible de la changer en modifiant le fichier `HEAD` du dépôt. Par exemple "
 "pour la remplacer par la branche `main`&nbsp;:"
 msgstr ""
+"From now on, the repository is published with _read only_ permissions at "
+"`https://git.club1.fr/<login>/<repo>`, but it is empty for now. The branch "
+"displayed by default in the {term}`Web` interface is `master`. It is "
+"possible to change it by modifying the `HEAD` file of the repository. For "
+"instance, to replace it by the `main` branch:"
 
 #: ../../services/git.md:36
 msgid ""
@@ -1018,6 +1010,8 @@ msgid ""
 "modification ne sera pas forcément visible tout de suite à cause du cache de "
 "cgit)&nbsp;:"
 msgstr ""
+"Similarly, to modify the repository's description (this modification might "
+"not be instantly displayed due to cgit's cache):"
 
 #: ../../services/git.md:41
 msgid "Il y a ensuite deux cas de figure&nbsp;:"
