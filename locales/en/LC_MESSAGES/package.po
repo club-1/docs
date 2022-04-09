@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-08 00:42+0200\n"
+"POT-Creation-Date: 2022-04-08 21:13+0200\n"
 "PO-Revision-Date: 2022-04-08 16:01+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -39,11 +39,21 @@ msgid "Translation status"
 msgstr "Translation status"
 
 #: ../../README.md:7
+#, fuzzy
+#| msgid ""
+#| "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
+#| "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
+#| "principale et anglais, la secondaire. Le site web est généré à l'aide de "
+#| "[Sphinx](https://fr.wikipedia.org/wiki/"
+#| "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers "
+#| "source écrits en {term}`markdown`. Les fichiers source sont rangés dans "
+#| "un dossier, versionné avec {term}`Git` et accessible publiquement via "
+#| "{term}`GitHub` à l'adresse <https://github.com/club-1/docs/>."
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
-"principale et anglais, la secondaire. Le site web est généré à l'aide de "
-"[Sphinx](https://fr.wikipedia.org/wiki/"
+"principale et anglais, la secondaire. Le site {term}`Web` est généré à "
+"l'aide de [Sphinx](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers source "
 "écrits en {term}`markdown`. Les fichiers source sont rangés dans un dossier, "
 "versionné avec {term}`Git` et accessible publiquement via {term}`GitHub` à "
@@ -114,8 +124,8 @@ msgid ""
 "markdown."
 msgstr ""
 "`locales/`: folder that contains the translation files. It is composed of "
-"one folder per language with `.po` files that contains the translations and `"
-".pot` files automatically generated from the markdown source files."
+"one folder per language with `.po` files that contains the translations and "
+"`.pot` files automatically generated from the markdown source files."
 
 #: ../../README.md:51
 msgid "`AUTHORS` : fichier contenant la liste des auteurs."
@@ -378,10 +388,10 @@ msgid ""
 "similaire à l'aide de la barre de recherche."
 msgstr ""
 "For any request or incident, please [create an issue](https://github.com/"
-"club-1/hosting/issues) on {term}`GitHub` (you will need to create an account)"
-", choosing between _request_ or _problem_ depending on the nature of the "
-"ticket. If it is an impersonal request, please **check** that there is not "
-"already a similar request using the search bar."
+"club-1/hosting/issues) on {term}`GitHub` (you will need to create an "
+"account), choosing between _request_ or _problem_ depending on the nature of "
+"the ticket. If it is an impersonal request, please **check** that there is "
+"not already a similar request using the search bar."
 
 #: ../../general.md:14
 msgid "Infos sur le serveur"
@@ -546,23 +556,30 @@ msgid ""
 msgstr ""
 "_Command Line Interface_, an interface in command line, based on a textual "
 "display. It is used through a terminal window. The CLI is very interesting "
-"because it can be used by humans as well as by software. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface)"
+"because it can be used by humans as well as by software. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/Command-line_interface)"
 
 #: ../../glossary.md:13
 msgid "Client"
 msgstr "Client"
 
 #: ../../glossary.md:1
+#, fuzzy
+#| msgid ""
+#| "Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
+#| "(https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgid ""
-"Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/Client_(informatique))"
+"Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
+"doté d'une interface graphique, destinée à être utilisée directement par un "
+"humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 "Piece of software that accesses a service made available by a {term}"
 "`server`. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
-#: ../../glossary.md:17
-msgid "Client web"
+#: ../../glossary.md:18
+#, fuzzy
+#| msgid "Client web"
+msgid "Client Web"
 msgstr "Web client"
 
 #: ../../glossary.md:1
@@ -572,7 +589,7 @@ msgid ""
 msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
-#: ../../glossary.md:20
+#: ../../glossary.md:21
 msgid "Git"
 msgstr "Git"
 
@@ -584,7 +601,7 @@ msgstr ""
 "Distributed version control system software --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Git)"
 
-#: ../../glossary.md:24
+#: ../../glossary.md:25
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -597,7 +614,7 @@ msgstr ""
 "Web service providing hosting for software development and version control "
 "using {term}`Git`. --- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
 
-#: ../../glossary.md:29
+#: ../../glossary.md:30
 msgid "Internet"
 msgstr "Internet"
 
@@ -609,7 +626,7 @@ msgstr ""
 "Publicly accessible global {term}`computer network`. --- [Wikipedia](https://"
 "en.wikipedia.org/wiki/Internet)"
 
-#: ../../glossary.md:33
+#: ../../glossary.md:34
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -621,7 +638,7 @@ msgstr ""
 "Lightweight markup language for creating formatted text. --- [Wikipedia]"
 "(https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossary.md:37
+#: ../../glossary.md:38
 msgid "Réseau informatique"
 msgstr "Computer network"
 
@@ -634,7 +651,7 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossary.md:41
+#: ../../glossary.md:42
 msgid "Serveur"
 msgstr "Server"
 
@@ -653,15 +670,22 @@ msgstr ""
 "called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Server_(computing))"
 
-#: ../../glossary.md:49
+#: ../../glossary.md:50
 msgid "Web"
 msgstr "Web"
 
 #: ../../glossary.md:1
+#, fuzzy
+#| msgid ""
+#| "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
+#| "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
+#| "documents et de les relier entre eux à l'aide de liens hypertexte. --- "
+#| "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
-"documents et de les relier entre eux à l'aide de liens hypertexte. --- "
+"documents et de les relier entre eux à l'aide de liens hypertexte. On "
+"appelle \"Navigateur Web\" le {term}`client` utilisé pour y accéder. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgstr ""
 "One of the best known services on {term}`Internet`. Its full name is \"World "
@@ -775,16 +799,20 @@ msgid ""
 msgstr ""
 
 #: ../../services/email.md:8
+#, fuzzy
+#| msgid ""
+#| "Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
 msgid ""
-"Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
+"Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
+"Roundcube) est disponible à l'adresse <https://mail.club1.fr>."
 msgstr "A {term}`web client` is accessible at <https://mail.club1.fr>."
 
-#: ../../services/email.md:10 ../../services/ftp.md:22
-#: ../../services/mysql.md:8 ../../services/ssh.md:50
+#: ../../services/email.md:11 ../../services/ftp.md:22
+#: ../../services/mysql.md:9 ../../services/ssh.md:52
 msgid "Informations de connexion"
 msgstr "Connection information"
 
-#: ../../services/email.md:13
+#: ../../services/email.md:14
 msgid ""
 "La connexion d'un client email à une adresse CLUB1 nécessite de configurer "
 "plusieurs serveurs."
@@ -792,22 +820,22 @@ msgstr ""
 "Connecting an email client to a CLUB1 address requires configuring multiple "
 "servers."
 
-#: ../../services/email.md:15
+#: ../../services/email.md:16
 msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "champ"
 msgstr "field"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "valeur"
 msgstr "value"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "hôte"
 msgstr "host"
 
@@ -816,13 +844,13 @@ msgid "`mail.club1.fr`"
 msgstr "`mail.club1.fr`"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "port"
 msgstr "port"
 
 #: ../../services/email.md:0
-msgid "`465`"
-msgstr "`465`"
+msgid "`465` (par défaut)"
+msgstr "`465` (default)"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0
 msgid "chiffrement"
@@ -832,13 +860,13 @@ msgstr "encryption"
 msgid "`SSL/TSL` (Implicite)"
 msgstr "`SSL/TSL` (Implicit)"
 
-#: ../../services/email.md:23
+#: ../../services/email.md:24
 msgid "Serveur de réception (IMAP)"
 msgstr "Received emails server (IMAP)"
 
 #: ../../services/email.md:0
-msgid "`993`"
-msgstr "`993`"
+msgid "`993` (par défaut)"
+msgstr "`993` (default)"
 
 #: ../../services/ftp.md:1
 msgid "Transfert de fichiers FTPS"
@@ -851,7 +879,7 @@ msgstr "FTPS files transfer"
 #| "utile lors du tranfert d'un grand nombre de fichiers depuis et vers le "
 #| "serveur CLUB1."
 msgid ""
-"Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS (_File "
+"Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File "
 "Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
 "nombre de fichiers depuis et vers le serveur CLUB1."
 msgstr ""
@@ -900,7 +928,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:0 ../../services/ssh.md:0
+#: ../../services/ftp.md:0 ../../services/ssh.md:34
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
@@ -950,9 +978,14 @@ msgstr ""
 "(https://git-scm.com/docs/git-http-backend)."
 
 #: ../../services/git.md:15
+#, fuzzy
+#| msgid ""
+#| "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
+#| "l'interface web [cgit](https://git.zx2c4.com/cgit/about/)."
 msgid ""
 "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
-"l'interface web [cgit](https://git.zx2c4.com/cgit/about/)."
+"l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/"
+"about/)."
 msgstr ""
 "Quickly browse the sources and repository data in a web browser thanks to "
 "the web interface [cgit](https://git.zx2c4.com/cgit/about/)."
@@ -974,9 +1007,9 @@ msgstr ""
 msgid ""
 "Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://git."
 "club1.fr/<login>/<repo>`, mais celui-ci est vide pour le moment. La branche "
-"affichée par défaut dans l'interface web est `master`. Il est possible de la "
-"changer en modifiant le fichier `HEAD` du dépôt. Par exemple pour la "
-"remplacer par la branche `main`&nbsp;:"
+"affichée par défaut dans l'interface {term}`Web` est `master`. Il est "
+"possible de la changer en modifiant le fichier `HEAD` du dépôt. Par exemple "
+"pour la remplacer par la branche `main`&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:36
@@ -1011,14 +1044,14 @@ msgid ""
 "accès en écriture au dépôt&nbsp;:"
 msgstr ""
 
-#: ../../services/git.md:55
+#: ../../services/git.md:1
 msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
 "qui est normal&nbsp;:"
 msgstr ""
 "A warning will indicate that the cloned repository is empty, which is normal:"
 
-#: ../../services/git.md:60
+#: ../../services/git.md:62
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
 "`Git`, par exemple&nbsp;:"
@@ -1026,11 +1059,11 @@ msgstr ""
 "It is now possible to use this repository as any other {term}`Git` "
 "repository, for instance:"
 
-#: ../../services/git.md:70
+#: ../../services/git.md:72
 msgid "Publication d'un dépôt existant"
 msgstr "Publication of an existing repository"
 
-#: ../../services/git.md:72
+#: ../../services/git.md:74
 msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
 "dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la "
@@ -1060,10 +1093,17 @@ msgid "Bases de données MySQL"
 msgstr "MySQL databases"
 
 #: ../../services/mysql.md:4
+#, fuzzy
+#| msgid ""
+#| "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
+#| "créer des **bases de données MySQL personnelles**. Une instance de "
+#| "phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
+#| "phpmyadmin>"
 msgid ""
 "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
-"créer des **bases de données MySQL personnelles**. Une instance de "
-"phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
+"créer des **bases de données MySQL personnelles**. Une interface {term}`Web` "
+"de gestion fournie par [phpMyAdmin](https://fr.wikipedia.org/wiki/"
+"PhpMyAdmin) est disponible à l'adresse suivante&nbsp;: <https://club1.fr/"
 "phpmyadmin>"
 msgstr ""
 "An access to Maria Db could be added, from which it is possible to create "
@@ -1075,8 +1115,8 @@ msgid "`localhost`"
 msgstr "`localhost`"
 
 #: ../../services/mysql.md:0
-msgid "`3306`"
-msgstr "`3306`"
+msgid "`3306` (par défaut)"
+msgstr "`3306` (default)"
 
 #: ../../services/rss.md:1
 msgid "Agrégateur de flux RSS"
@@ -1086,7 +1126,7 @@ msgstr "RSS feed aggregator"
 msgid ""
 "Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
 "wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
-"travers le {term}`client web` intégré se trouvant à l'adresse <https://rss."
+"travers le {term}`client Web` intégré se trouvant à l'adresse <https://rss."
 "club1.fr>, mais il est également possible d'y connecter un client natif."
 msgstr ""
 
@@ -1097,7 +1137,7 @@ msgstr "Connect with a native client"
 #: ../../services/rss.md:13
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
-"dans les paramètres du {term}`client web`. Cliquer sur le menu (icone avec "
+"dans les paramètres du {term}`client Web`. Cliquer sur le menu (icone avec "
 "les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
 "`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
 "l'API`."
@@ -1169,7 +1209,7 @@ msgstr ""
 "warning with the one provided by the admin. So instead, it is preferable to "
 "add the key before the first connection using the following command:"
 
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:1
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
@@ -1177,16 +1217,16 @@ msgstr ""
 "If for some reason the manual comparison is preferred, the fingerprint in "
 "the above example is indeed the fingerprint of club1.fr."
 
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:39
 msgid "Créer une paire de clés de chiffrement"
 msgstr "Create a pair of asymmetric keys"
 
-#: ../../services/ssh.md:40
+#: ../../services/ssh.md:42
 msgid ""
 "Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
 msgstr "To create an asymmetric key pair we use the following command."
 
-#: ../../services/ssh.md:44
+#: ../../services/ssh.md:46
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
@@ -1196,34 +1236,46 @@ msgstr ""
 "the server to be able to use it as an authentication method (Replace "
 "`<login>` with your CLUB1 **login**)."
 
-#: ../../services/ssh.md:0
-msgid "`22`"
-msgstr "`22`"
+#: ../../services/ssh.md:34
+msgid "`22` (par défaut)"
+msgstr "`22` (default)"
 
 #: ../../services/web.md:1
-msgid "Sites Web"
-msgstr "Websites"
+msgid "Hébergement de sites Web"
+msgstr "Websites hosting"
 
 #: ../../services/web.md:4
+#, fuzzy
+#| msgid ""
+#| "Il existe deux grands types de sites web&nbsp;: les sites _statiques_, "
+#| "constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont "
+#| "pas été modifiés et les sites _dynamiques_, dont les fichiers sont "
+#| "exécutés et peuvent ainsi produire des résultats différents."
 msgid ""
-"Il existe deux grands types de sites web&nbsp;: les sites _statiques_, "
-"constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas "
-"été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et "
-"peuvent ainsi produire des résultats différents."
+"Il existe deux grands types de sites {term}`Web`&nbsp;: les sites "
+"_statiques_, constitués de fichiers dont le contenu ne change pas tant "
+"qu'ils n'ont pas été modifiés et les sites _dynamiques_, dont les fichiers "
+"sont exécutés et peuvent ainsi produire des résultats différents."
 msgstr ""
 "There are two main categories of websites: the _static_ sites, made of files "
 "which contents will not change until it's modified and the _dynamic_ sites, "
 "whose files are executed and can thus produce different results."
 
 #: ../../services/web.md:9
-msgid "Sites web _statiques_"
+msgid "Sites Web _statiques_"
 msgstr "_Static_ websites"
 
 #: ../../services/web.md:12
+#, fuzzy
+#| msgid ""
+#| "L'**espace personnel** dispose d'un dossier spécial `static/` à sa "
+#| "racine. Tous les fichiers et dossiers rangés dedans seront "
+#| "automatiquement publiés sur le web à l'adresse `https://static.club1.fr`, "
+#| "par exemple&nbsp;:"
 msgid ""
 "L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
-"sur le web à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
+"sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
 msgstr ""
 "The **personal space** has a special `static/` folder at its root. All files "
 "and folders that it contains are automatically published on the web at "
@@ -1260,15 +1312,15 @@ msgstr ""
 "following line."
 
 #: ../../services/web.md:32
-msgid "Sites web _dynamiques_"
+msgid "Sites Web _dynamiques_"
 msgstr "_Dynamic_ websites"
 
 #: ../../services/web.md:35
 msgid ""
 "Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr` "
 "pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
-"pour ainsi créer un site web. Les noms des sous-domaines seront à définir "
-"ensemble en fonction de leur disponibilité et leur viabilité."
+"pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à "
+"définir ensemble en fonction de leur disponibilité et leur viabilité."
 msgstr ""
 
 #~ msgid ""

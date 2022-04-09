@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-08 00:42+0200\n"
+"POT-Creation-Date: 2022-04-08 21:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,8 +38,8 @@ msgstr ""
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
-"principale et anglais, la secondaire. Le site web est généré à l'aide de "
-"[Sphinx](https://fr.wikipedia.org/wiki/"
+"principale et anglais, la secondaire. Le site {term}`Web` est généré à "
+"l'aide de [Sphinx](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers source "
 "écrits en {term}`markdown`. Les fichiers source sont rangés dans un dossier, "
 "versionné avec {term}`Git` et accessible publiquement via {term}`GitHub` à "
@@ -459,12 +459,13 @@ msgstr ""
 
 #: ../../glossary.md:1
 msgid ""
-"Logiciel permettant de se connecter à un {term}`serveur`. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/Client_(informatique))"
+"Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
+"doté d'une interface graphique, destinée à être utilisée directement par un "
+"humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossary.md:17
-msgid "Client web"
+#: ../../glossary.md:18
+msgid "Client Web"
 msgstr ""
 
 #: ../../glossary.md:1
@@ -473,7 +474,7 @@ msgid ""
 "Navigateur web."
 msgstr ""
 
-#: ../../glossary.md:20
+#: ../../glossary.md:21
 msgid "Git"
 msgstr ""
 
@@ -483,7 +484,7 @@ msgid ""
 "wikipedia.org/wiki/Git)"
 msgstr ""
 
-#: ../../glossary.md:24
+#: ../../glossary.md:25
 msgid "GitHub"
 msgstr ""
 
@@ -494,7 +495,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossary.md:29
+#: ../../glossary.md:30
 msgid "Internet"
 msgstr ""
 
@@ -504,7 +505,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/Internet)"
 msgstr ""
 
-#: ../../glossary.md:33
+#: ../../glossary.md:34
 msgid "Markdown"
 msgstr ""
 
@@ -514,7 +515,7 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgstr ""
 
-#: ../../glossary.md:37
+#: ../../glossary.md:38
 msgid "Réseau informatique"
 msgstr ""
 
@@ -525,7 +526,7 @@ msgid ""
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossary.md:41
+#: ../../glossary.md:42
 msgid "Serveur"
 msgstr ""
 
@@ -539,7 +540,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossary.md:49
+#: ../../glossary.md:50
 msgid "Web"
 msgstr ""
 
@@ -547,7 +548,8 @@ msgstr ""
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
-"documents et de les relier entre eux à l'aide de liens hypertexte. --- "
+"documents et de les relier entre eux à l'aide de liens hypertexte. On "
+"appelle \"Navigateur Web\" le {term}`client` utilisé pour y accéder. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgstr ""
 
@@ -645,36 +647,37 @@ msgstr ""
 
 #: ../../services/email.md:8
 msgid ""
-"Un {term}`client web` est disponible à l'adresse <https://mail.club1.fr>."
+"Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
+"Roundcube) est disponible à l'adresse <https://mail.club1.fr>."
 msgstr ""
 
-#: ../../services/email.md:10 ../../services/ftp.md:22
-#: ../../services/mysql.md:8 ../../services/ssh.md:50
+#: ../../services/email.md:11 ../../services/ftp.md:22
+#: ../../services/mysql.md:9 ../../services/ssh.md:52
 msgid "Informations de connexion"
 msgstr ""
 
-#: ../../services/email.md:13
+#: ../../services/email.md:14
 msgid ""
 "La connexion d'un client email à une adresse CLUB1 nécessite de configurer "
 "plusieurs serveurs."
 msgstr ""
 
-#: ../../services/email.md:15
+#: ../../services/email.md:16
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "champ"
 msgstr ""
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "valeur"
 msgstr ""
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "hôte"
 msgstr ""
 
@@ -683,12 +686,12 @@ msgid "`mail.club1.fr`"
 msgstr ""
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:0
+#: ../../services/ssh.md:34
 msgid "port"
 msgstr ""
 
 #: ../../services/email.md:0
-msgid "`465`"
+msgid "`465` (par défaut)"
 msgstr ""
 
 #: ../../services/email.md:0 ../../services/ftp.md:0
@@ -699,12 +702,12 @@ msgstr ""
 msgid "`SSL/TSL` (Implicite)"
 msgstr ""
 
-#: ../../services/email.md:23
+#: ../../services/email.md:24
 msgid "Serveur de réception (IMAP)"
 msgstr ""
 
 #: ../../services/email.md:0
-msgid "`993`"
+msgid "`993` (par défaut)"
 msgstr ""
 
 #: ../../services/ftp.md:1
@@ -713,7 +716,7 @@ msgstr ""
 
 #: ../../services/ftp.md:4
 msgid ""
-"Bien que [ssh](ssh) puisse aussi être utilisé dans ce but, FTPS (_File "
+"Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File "
 "Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
 "nombre de fichiers depuis et vers le serveur CLUB1."
 msgstr ""
@@ -745,7 +748,7 @@ msgid ""
 "important de vérifier qu'il est bien délivré par `Let's Encrypt`."
 msgstr ""
 
-#: ../../services/ftp.md:0 ../../services/ssh.md:0
+#: ../../services/ftp.md:0 ../../services/ssh.md:34
 msgid "`club1.fr`"
 msgstr ""
 
@@ -795,7 +798,8 @@ msgstr ""
 #: ../../services/git.md:15
 msgid ""
 "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
-"l'interface web [cgit](https://git.zx2c4.com/cgit/about/)."
+"l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/"
+"about/)."
 msgstr ""
 
 #: ../../services/git.md:18
@@ -815,9 +819,9 @@ msgstr ""
 msgid ""
 "Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://git."
 "club1.fr/<login>/<repo>`, mais celui-ci est vide pour le moment. La branche "
-"affichée par défaut dans l'interface web est `master`. Il est possible de la "
-"changer en modifiant le fichier `HEAD` du dépôt. Par exemple pour la "
-"remplacer par la branche `main`&nbsp;:"
+"affichée par défaut dans l'interface {term}`Web` est `master`. Il est "
+"possible de la changer en modifiant le fichier `HEAD` du dépôt. Par exemple "
+"pour la remplacer par la branche `main`&nbsp;:"
 msgstr ""
 
 #: ../../services/git.md:36
@@ -851,23 +855,23 @@ msgid ""
 "accès en écriture au dépôt&nbsp;:"
 msgstr ""
 
-#: ../../services/git.md:55
+#: ../../services/git.md:1
 msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
 "qui est normal&nbsp;:"
 msgstr ""
 
-#: ../../services/git.md:60
+#: ../../services/git.md:62
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
 "`Git`, par exemple&nbsp;:"
 msgstr ""
 
-#: ../../services/git.md:70
+#: ../../services/git.md:72
 msgid "Publication d'un dépôt existant"
 msgstr ""
 
-#: ../../services/git.md:72
+#: ../../services/git.md:74
 msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
 "dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la "
@@ -895,8 +899,9 @@ msgstr ""
 #: ../../services/mysql.md:4
 msgid ""
 "Un accès à MariaDb pourra être ajouté, à partir duquel il est possible de "
-"créer des **bases de données MySQL personnelles**. Une instance de "
-"phpMyAdmin est disponnible à l'adresse suivante : <https://club1.fr/"
+"créer des **bases de données MySQL personnelles**. Une interface {term}`Web` "
+"de gestion fournie par [phpMyAdmin](https://fr.wikipedia.org/wiki/"
+"PhpMyAdmin) est disponible à l'adresse suivante&nbsp;: <https://club1.fr/"
 "phpmyadmin>"
 msgstr ""
 
@@ -905,7 +910,7 @@ msgid "`localhost`"
 msgstr ""
 
 #: ../../services/mysql.md:0
-msgid "`3306`"
+msgid "`3306` (par défaut)"
 msgstr ""
 
 #: ../../services/rss.md:1
@@ -916,7 +921,7 @@ msgstr ""
 msgid ""
 "Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
 "wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
-"travers le {term}`client web` intégré se trouvant à l'adresse <https://rss."
+"travers le {term}`client Web` intégré se trouvant à l'adresse <https://rss."
 "club1.fr>, mais il est également possible d'y connecter un client natif."
 msgstr ""
 
@@ -927,7 +932,7 @@ msgstr ""
 #: ../../services/rss.md:13
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
-"dans les paramètres du {term}`client web`. Cliquer sur le menu (icone avec "
+"dans les paramètres du {term}`client Web`. Cliquer sur le menu (icone avec "
 "les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
 "`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
 "l'API`."
@@ -983,53 +988,53 @@ msgid ""
 "suivante :"
 msgstr ""
 
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:1
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
 msgstr ""
 
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:39
 msgid "Créer une paire de clés de chiffrement"
 msgstr ""
 
-#: ../../services/ssh.md:40
+#: ../../services/ssh.md:42
 msgid ""
 "Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
 msgstr ""
 
-#: ../../services/ssh.md:44
+#: ../../services/ssh.md:46
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
 "(Remplacer `<login>` par votre **identifiant** CLUB1)."
 msgstr ""
 
-#: ../../services/ssh.md:0
-msgid "`22`"
+#: ../../services/ssh.md:34
+msgid "`22` (par défaut)"
 msgstr ""
 
 #: ../../services/web.md:1
-msgid "Sites Web"
+msgid "Hébergement de sites Web"
 msgstr ""
 
 #: ../../services/web.md:4
 msgid ""
-"Il existe deux grands types de sites web&nbsp;: les sites _statiques_, "
-"constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas "
-"été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et "
-"peuvent ainsi produire des résultats différents."
+"Il existe deux grands types de sites {term}`Web`&nbsp;: les sites "
+"_statiques_, constitués de fichiers dont le contenu ne change pas tant "
+"qu'ils n'ont pas été modifiés et les sites _dynamiques_, dont les fichiers "
+"sont exécutés et peuvent ainsi produire des résultats différents."
 msgstr ""
 
 #: ../../services/web.md:9
-msgid "Sites web _statiques_"
+msgid "Sites Web _statiques_"
 msgstr ""
 
 #: ../../services/web.md:12
 msgid ""
 "L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
-"sur le web à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
+"sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
 msgstr ""
 
 #: ../../services/web.md:16
@@ -1054,13 +1059,13 @@ msgid ""
 msgstr ""
 
 #: ../../services/web.md:32
-msgid "Sites web _dynamiques_"
+msgid "Sites Web _dynamiques_"
 msgstr ""
 
 #: ../../services/web.md:35
 msgid ""
 "Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr` "
 "pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
-"pour ainsi créer un site web. Les noms des sous-domaines seront à définir "
-"ensemble en fonction de leur disponibilité et leur viabilité."
+"pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à "
+"définir ensemble en fonction de leur disponibilité et leur viabilité."
 msgstr ""
