@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-08 21:13+0200\n"
+"POT-Creation-Date: 2022-04-11 17:02+0200\n"
 "PO-Revision-Date: 2022-04-10 20:12+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -52,10 +52,10 @@ msgstr ""
 "The CLUB1's documentation is published in HTML format at <https://club1.fr/"
 "docs/en/>. It exists in two languages: French, the main one and English, the "
 "secondary. The website is generated using [Sphinx](https://en.wikipedia.org/"
-"wiki/Sphinx_(documentation_generator)), from source files written in "
-"{term}`markdown`. The source files are stored in a directory, versioned with "
-"{term}`Git` and publicly accessible via {term}`GitHub` at <https://github."
-"com/club-1/docs/>."
+"wiki/Sphinx_(documentation_generator)), from source files written in {term}"
+"`markdown`. The source files are stored in a directory, versioned with {term}"
+"`Git` and publicly accessible via {term}`GitHub` at <https://github.com/"
+"club-1/docs/>."
 
 #: ../../README.md:1
 msgid ""
@@ -559,9 +559,9 @@ msgid ""
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
-"Piece of software that accesses a service made available by a {term}`server`"
-". It usually has a graphical interface, intended to be used directly by a "
-"human. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
+"Piece of software that accesses a service made available by a {term}"
+"`server`. It usually has a graphical interface, intended to be used directly "
+"by a human. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
 #: ../../glossary.md:18
 msgid "Client Web"
@@ -766,6 +766,32 @@ msgstr "Internal documentation"
 #: ../../interne/index.md:4
 msgid "Cette section comporte la documentation interne de CLUB1."
 msgstr "This section contains the CLUB1's internal documentation."
+
+#: ../../services/drive.md:1
+msgid "Explorateur de fichiers Web"
+msgstr "Web file explorer"
+
+#: ../../services/drive.md:4
+msgid ""
+"Le _**Drive**_ CLUB1 est un explorateur de fichiers utilisable à travers un "
+"navigateur {term}`Web`. Il permet d'acceder à son **espace personnel** sans "
+"avoir besoin d'installer ou de configurer une aplication native. Il est donc "
+"très utile lorsque l'on est pas sur son ordinateur personnel."
+msgstr ""
+
+#: ../../services/drive.md:8
+msgid ""
+"Il s'agit d'une application développée par et pour CLUB1 dont le [code "
+"source](https://github.com/club-1/webdav-drive) se trouve sur {term}"
+"`GitHub`. Cependant, elle a été pensée de manière générique, afin qu'elle "
+"puisse être utilisée en dehors de l'infrastructure de CLUB1. Elle utilise un "
+"{term}`serveur` WebDAV standard comme source de données, dont [CLUB1 propose "
+"un accès](webdav.md)."
+msgstr ""
+
+#: ../../services/drive.md:14
+msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
+msgstr ""
 
 #: ../../services/email.md:1
 msgid "Messagerie email"
@@ -986,9 +1012,9 @@ msgid ""
 "dépôt)&nbsp;:"
 msgstr ""
 "To use CLUB1's public {term}`Git` repositories feature, a repository must "
-"first be initialized remotely, with [SSH](ssh.md), from a personal computer ("
-"replace `<login>` with your **login** and `<repo>` with the name you want to "
-"give to the repository):"
+"first be initialized remotely, with [SSH](ssh.md), from a personal computer "
+"(replace `<login>` with your **login** and `<repo>` with the name you want "
+"to give to the repository):"
 
 #: ../../services/git.md:28
 msgid ""
@@ -1315,6 +1341,41 @@ msgid ""
 "pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
 "pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à "
 "définir ensemble en fonction de leur disponibilité et leur viabilité."
+msgstr ""
+
+#: ../../services/webdav.md:1
+msgid "Synchronisation WebDAV"
+msgstr ""
+
+#: ../../services/webdav.md:4
+msgid ""
+"**WebDAV** est un protocole qui étend les fonctionnalités du {term}`Web`. Il "
+"y ajoute des possibilités de modifications et de synchronisation de "
+"fichiers. Son utilisation première est donc similaire à un système de "
+"fichier distant. Il est donc possible d'y connecter un explorateur de "
+"fichier compatible pour éditer les fichiers de son **espace personnel** "
+"comme si ils étaient présents en local."
+msgstr ""
+
+#: ../../services/webdav.md:11
+msgid ""
+"Plusieurs extensions de WebDAV apportent des fonctionnalités encore un peu "
+"plus spécifiques&nbsp;:"
+msgstr ""
+
+#: ../../services/webdav.md:14
+msgid "**CardDAV** pour synchroniser des carnets d'adresses de contacts."
+msgstr ""
+
+#: ../../services/webdav.md:15
+msgid "**CalDAV** pour synchroniser des calendriers."
+msgstr ""
+
+#: ../../services/webdav.md:17
+msgid ""
+"Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://"
+"webdav.club1.fr>. Elle permet de terster la connexion et de prévisualiser "
+"certaines informations."
 msgstr ""
 
 #~ msgid ""
