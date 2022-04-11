@@ -15,6 +15,8 @@ maxdepth: 2
 ssh
 email
 ftp
+webdav
+drive
 web
 mysql
 rss
