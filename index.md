@@ -1,6 +1,8 @@
 Documentation de l'hébergement CLUB1
 ====================================
 
+test
+
 ```{toctree}
 ---
 maxdepth: 2
