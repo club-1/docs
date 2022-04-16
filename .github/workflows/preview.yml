@@ -1,0 +1,29 @@
+name: preview
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build HTML
+        uses: XanaduAI/sphinx-action@08cb9868314fb5be5f28644b540a38b8faaf8e87
+        with:
+          pre-build-command: >
+            apt-get update -y && apt-get install --no-install-recommends -y gettext
+            && pip install myst-parser sphinx-rtd-theme
+          docs-folder: .
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_build/html/
