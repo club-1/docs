@@ -2,3 +2,8 @@
 section img {
 	max-height: 30rem;
 }
+
+/* Specific styles for links to glossary terms */
+.xref.std-term {
+	text-decoration: underline dotted 1px;
+}
