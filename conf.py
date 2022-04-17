@@ -137,3 +137,10 @@ man_show_urls = True
 latex_elements = {
     'papersize': 'a4paper',
 }
+
+
+# -- Define some functions ---------------------------------------------------
+
+def setup(app):
+    # Add custom CSS
+    app.add_css_file('club1.css')
