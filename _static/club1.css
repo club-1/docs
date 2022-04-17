@@ -1,9 +1,18 @@
 /* Add maximum height for content's images */
-section img {
+.rst-content img {
 	max-height: 30rem;
 }
 
 /* Specific styles for links to glossary terms */
-.xref.std-term {
+.rst-content .xref.std-term {
 	text-decoration: underline dotted 1px;
+}
+
+/* Specific styles for external links */
+.rst-content a.reference.external::after {
+  font-family: FontAwesome;
+  content: "";
+  vertical-align: top;
+  font-size: 70%;
+  margin: 0 .2em;
 }
