@@ -37,11 +37,11 @@ Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton orange 
 ![menu principal](/_static/tutos/webdav-android/screen_004.png)
 
 
-Sélectionner la deuxième option : "Connexion avec une URL et un nom d'uitilisateur"
+Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisateur"
 
 ![connexion avec nom d'utilisateur](/_static/tutos/webdav-android/screen_005.png)
 
-URL de base
+URL de base :
 
         https://club1.fr
 
@@ -49,7 +49,7 @@ Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1.
 
 
 Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom pour ce compte qui risque fortement de ressembler à votre adresse email CLUB1.
-Ca semble judicieux car c'est souvent comme cela que l'on identifie un couple `user@server`.
+Ça semble judicieux car c'est souvent comme cela que l'on identifie un couple `user@server`.
 Un dernier petit détail :
 Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour chacun des contacts" pour être compatible avec le client web mail de CLUB1.
 
@@ -58,17 +58,17 @@ Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour
 Encore une dernière étape : quoi synchroniser ?
 
 DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous souhaitez synchroniser sur votre téléphone.
-Pour cela, il suffit de les cochers en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
+Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
 Il sera toujours possible d'accèder et modifier ces réglages  plus tard très facilement.
 
 
 ![groupes](/_static/tutos/webdav-android/screen_007.png)
 
-> Par défaut, même si vous n'avez pas encore créé de carnet ou d'agendas, il y en aura toujours un qui s'appelle : "Default".
+> Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il y en aura toujours un qui s'appelle : "Default".
 
 Depuis cette interface, il est également possible de __créer ou supprimer__ des carnets ou agendas, via le menu en haut à droite.
 
-A chaque fois que vous faites des modifications à cet endroit il est judicieux de __relancer une synchro__ en appuyant sur le bouton orange en bas à droite.
+À chaque fois que vous faites des modifications à cet endroit, il est judicieux de __relancer une synchro__ en appuyant sur le bouton orange en bas à droite.
 
 
 Conclusion
