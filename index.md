@@ -7,6 +7,7 @@ maxdepth: 2
 ---
 general
 services/index
+tutos/index
 interne/index
 glossary
 ```
