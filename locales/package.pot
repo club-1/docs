@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-17 21:20+0200\n"
+"POT-Creation-Date: 2022-04-17 23:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid ""
 "Pour synchroniser ses contacts et calendrier avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
-"charger essentiellement de la synchro : __DAVx5__."
+"charger essentiellement de la synchro&nbsp;: __DAVx5__."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:9
@@ -1240,8 +1240,8 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:40
 msgid ""
-"Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
-"d'uitilisateur\""
+"Sélectionner la deuxième option&nbsp;: \"Connexion avec une URL et un nom "
+"d'utilisateur\"."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:42
@@ -1255,7 +1255,7 @@ msgid "connexion avec nom d'utilisateur"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:44
-msgid "URL de base"
+msgid "URL de base&nbsp;:"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:48
@@ -1266,8 +1266,8 @@ msgstr ""
 msgid ""
 "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
 "pour ce compte qui risque fortement de ressembler à votre adresse email "
-"CLUB1. Ca semble judicieux car c'est souvent comme cela que l'on identifie "
-"un couple `user@server`. Un dernier petit détail : Il est recommandé "
+"CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on identifie "
+"un couple `user@server`. Un dernier petit détail&nbsp;: Il est recommandé "
 "d'utiliser la méthode \"Les groupes sont des catégories pour chacun des "
 "contacts\" pour être compatible avec le client web mail de CLUB1."
 msgstr ""
@@ -1281,78 +1281,78 @@ msgid "groupes"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:58
-msgid "Encore une dernière étape : quoi synchroniser ?"
+msgid "Encore une dernière étape&nbsp;: quoi synchroniser&nbsp;?"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:60
 msgid ""
 "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
 "vous souhaitez synchroniser sur votre téléphone. Pour cela, il suffit de les "
-"cochers en naviguant entre les onglets \"Carnets d'adresses\" et "
-"\"Agendas\". Il sera toujours possible d'accèder et modifier ces réglages  "
-"plus tard très facilement."
+"cocher en naviguant entre les onglets \"Carnets d'adresses\" et \"Agendas\". "
+"Il sera toujours possible d'accèder et modifier ces réglages  plus tard très "
+"facilement."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:65
 msgid "![groupes](/_static/tutos/webdav-android/screen_007.png)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:67
+#: ../../tutos/webdav-android.md:1
 msgid ""
-"Par défaut, même si vous n'avez pas encore créé de carnet ou d'agendas, il y "
-"en aura toujours un qui s'appelle : \"Default\"."
+"Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
+"y en aura toujours un qui s'appelle&nbsp;: \"Default\"."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:69
+#: ../../tutos/webdav-android.md:72
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:71
+#: ../../tutos/webdav-android.md:74
 msgid ""
-"A chaque fois que vous faites des modifications à cet endroit il est "
+"À chaque fois que vous faites des modifications à cet endroit, il est "
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
 "bas à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:74
+#: ../../tutos/webdav-android.md:77
 msgid "Conclusion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:77
+#: ../../tutos/webdav-android.md:80
 msgid ""
-"Et voilà ! Si tout vas bien, vous avez réussi à synchroniser vos contacts et/"
+"Et voilà ! Si tout va bien, vous avez réussi à synchroniser vos contacts et/"
 "ou calendriers entre le serveur CLUB1 et un appareil *Android*. Les carnets "
 "d'adresses et agendas ainsi synchronisés sont maintenant accessibles via "
 "l'appli de contact de votre choix et l'appli de calendrier de votre choix."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:81
+#: ../../tutos/webdav-android.md:84
 msgid ""
 "Si vous préferez utiliser des applis *open sources* et non orientés "
 "*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:83
+#: ../../tutos/webdav-android.md:86
 msgid ""
 "[Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "contacts.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:84
+#: ../../tutos/webdav-android.md:87
 msgid ""
 "[Contact Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.contacts&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:85
+#: ../../tutos/webdav-android.md:88
 msgid ""
 "[Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "calendar.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:86
+#: ../../tutos/webdav-android.md:89
 msgid ""
 "[Calendar Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
