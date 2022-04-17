@@ -91,6 +91,12 @@ today_fmt = '%x'
 
 html_favicon = '_static/favicon.ico'
 
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'club1.css',
+]
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
@@ -137,10 +143,3 @@ man_show_urls = True
 latex_elements = {
     'papersize': 'a4paper',
 }
-
-
-# -- Define some functions ---------------------------------------------------
-
-def setup(app):
-    # Add custom CSS
-    app.add_css_file('club1.css')
