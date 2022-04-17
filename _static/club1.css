@@ -1,0 +1,4 @@
+/* Add maximum height for content's images */
+section img {
+	max-height: 30rem;
+}
