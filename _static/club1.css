@@ -11,6 +11,17 @@
 	padding-left: 20px;
 }
 
+/* Style links on hover */
+a:not(.btn):hover {
+	text-decoration: underline solid 1px;
+}
+
+/* Fix underline for links with icon */
+a.fa::before, a.icon::before, a button.toctree-expand::before {
+	display: initial;
+	text-decoration: initial !important;
+}
+
 /* Specific styles for links to glossary terms */
 .rst-content .xref.std-term {
 	text-decoration: underline dotted 1px;
@@ -20,7 +31,8 @@
 .rst-content a.reference.external::after {
 	font-family: FontAwesome;
 	content: "";
+	display: inline-block;
 	vertical-align: top;
 	font-size: 70%;
-	margin: 0 .2em;
+	margin-left: .2rem;
 }
