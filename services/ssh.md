@@ -52,7 +52,7 @@ le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
 Se connecter
 ------------
 
-Après la première connexion, on utilise la commande suivante dans le terminal pour se connecter 
+On utilise la commande suivante dans le terminal pour se connecter 
 (remplacer `<login>` par votre **identifiant** CLUB1) :
     
     ssh <login>@club1.fr
