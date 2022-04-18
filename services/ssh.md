@@ -39,7 +39,7 @@ l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr.
 Créer une paire de clés de chiffrement
 --------------------------------------
 
-Pour créer une paire de clé de chiffrement, on utilise la commande suivante :
+Pour créer une paire de clé de chiffrement, on utilise la commande suivante&nbsp;:
 
     ssh-keygen
 
