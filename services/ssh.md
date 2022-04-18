@@ -39,15 +39,25 @@ l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr.
 Créer une paire de clés de chiffrement
 --------------------------------------
 
-Pour créer une paire de clé de chiffrement, on utilise la commande suivante.
+Pour créer une paire de clé de chiffrement, on utilise la commande suivante :
 
     ssh-keygen
 
 La commande qui suit va permettre d'envoyer la partie publique de la clé vers
 le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
-(Remplacer `<login>` par votre **identifiant** CLUB1).
+(remplacer `<login>` par votre **identifiant** CLUB1).
 
     ssh-copy-id -i ~/.ssh/id_rsa <login>@club1.fr
+
+Se connecter
+------------
+
+Après la première connexion, on utilise la commande suivante dans le terminal pour se connecter 
+(remplacer `<login>` par votre **identifiant** CLUB1) :
+    
+    ssh <login>@club1.fr
+
+Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).
 
 Informations de connexion
 -------------------------
@@ -56,12 +66,3 @@ Informations de connexion
 | ---------------- | ----------------- |
 | hôte             | `club1.fr`        |
 | port             | `22` (par défaut) |
-
-Se connecter
-------------
-
-Après la première connexion, on utilise la commande suivante dans le terminal pour se connecter :
-    
-    ssh identifiant@club1.fr
-
-Il faut ensuite entrer son mot de passe.
