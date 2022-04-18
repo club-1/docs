@@ -24,3 +24,17 @@
 	font-size: 70%;
 	margin: 0 .2em;
 }
+
+/* Highlight version selector on hover */
+.rst-current-version:hover {
+	background: rgba(255,255,255,0.1);
+}
+
+/* Fix navbar scroll until bottom */
+.rst-current-version {height: 2.5rem; /* lock version selector's height */}
+.wy-nav-side {padding-bottom: 2.5rem; /* set correct padding for the nav */}
+
+/* Disable scroll in version selector */
+.rst-versions.shift-up {
+	overflow-y: auto;
+}
