@@ -56,3 +56,12 @@ Informations de connexion
 | ---------------- | ----------------- |
 | hôte             | `club1.fr`        |
 | port             | `22` (par défaut) |
+
+Se connecter
+------------
+
+Après la première connexion, on utilise la commande suivante dans le terminal pour se connecter :
+    
+    ssh identifiant@club1.fr
+
+Il faut ensuite entrer son mot de passe.
