@@ -91,6 +91,9 @@ smartquotes = False
 # Use locale’s appropriate date representation.
 today_fmt = '%x'
 
+# Add numbers to figures
+numfig = True
+
 # -- Options for HTML output -------------------------------------------------
 
 html_favicon = '_static/favicon.ico'
