@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-17 23:44+0200\n"
+"POT-Creation-Date: 2022-04-19 20:15+0200\n"
 "PO-Revision-Date: 2022-04-19 10:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -816,7 +816,7 @@ msgstr ""
 "Roundcube) is accessible at <https://mail.club1.fr>."
 
 #: ../../services/email.md:11 ../../services/ftp.md:22
-#: ../../services/mysql.md:9 ../../services/ssh.md:52
+#: ../../services/mysql.md:9 ../../services/ssh.md:61
 msgid "Informations de connexion"
 msgstr "Connection information"
 
@@ -833,17 +833,17 @@ msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:33
 msgid "champ"
 msgstr "field"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:33
 msgid "valeur"
 msgstr "value"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:33
 msgid "hôte"
 msgstr "host"
 
@@ -852,7 +852,7 @@ msgid "`mail.club1.fr`"
 msgstr "`mail.club1.fr`"
 
 #: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/mysql.md:0
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:33
 msgid "port"
 msgstr "port"
 
@@ -932,7 +932,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:0 ../../services/ssh.md:34
+#: ../../services/ftp.md:0 ../../services/ssh.md:33
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
@@ -1194,11 +1194,11 @@ msgstr ""
 "used. As this software suite is in *command-line*, it is necessary to open a "
 "terminal window (powershell on windows)."
 
-#: ../../services/ssh.md:12
-msgid "Première connexion"
-msgstr "First connection"
+#: ../../services/ssh.md:11
+msgid "Avant de se connecter pour le première fois"
+msgstr "Before the first connection"
 
-#: ../../services/ssh.md:15
+#: ../../services/ssh.md:14
 msgid ""
 "La première connexion est critique car c'est lors de celle-ci que se fait "
 "l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
@@ -1210,20 +1210,20 @@ msgstr ""
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../services/ssh.md:20
+#: ../../services/ssh.md:19
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
-"l'empreinte de la clé reçue :"
+"l'empreinte de la clé reçue&nbsp;:"
 msgstr ""
 "To solve this problem, OpenSSH shows a warning containing the fingerprint of "
 "the received key:"
 
-#: ../../services/ssh.md:27
+#: ../../services/ssh.md:26
 msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
 "l'avertissement avec celle fournie par l'administrateur. À la place, il est "
 "préférable d'ajouter la clé avant le première connexion avec la commande "
-"suivante :"
+"suivante&nbsp;:"
 msgstr ""
 "This is not ideal as the user must manually compare the fingerprint of the "
 "warning with the one provided by the admin. So instead, it is preferable to "
@@ -1237,26 +1237,43 @@ msgstr ""
 "If for some reason the manual comparison is preferred, the fingerprint in "
 "the above example is indeed the fingerprint of club1.fr."
 
-#: ../../services/ssh.md:39
-msgid "Créer une paire de clés de chiffrement"
-msgstr "Create a pair of asymmetric keys"
+#: ../../services/ssh.md:38
+msgid "Se connecter via mot de passe"
+msgstr "Connect via password"
 
-#: ../../services/ssh.md:42
+#: ../../services/ssh.md:41
 msgid ""
-"Pour créer une paire de clé de chiffrement, on utilise la commande suivante."
-msgstr "To create an asymmetric key pair we use the following command."
+"On utilise la commande suivante dans le terminal pour se connecter  "
+"(remplacer `<login>` par votre **identifiant** CLUB1)&nbsp;:"
+msgstr ""
 
 #: ../../services/ssh.md:46
 msgid ""
+"Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
+"mot de passe ne s'affiche pas au moment de l'écriture)."
+msgstr ""
+
+#: ../../services/ssh.md:48
+msgid "Créer une paire de clés de chiffrement"
+msgstr "Create a pair of asymmetric keys"
+
+#: ../../services/ssh.md:51
+msgid ""
+"Pour créer une paire de clé de chiffrement, on utilise la commande "
+"suivante&nbsp;:"
+msgstr "To create an asymmetric key pair we use the following command:"
+
+#: ../../services/ssh.md:55
+msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
-"(Remplacer `<login>` par votre **identifiant** CLUB1)."
+"(remplacer `<login>` par votre **identifiant** CLUB1)."
 msgstr ""
 "The command thereafter then effortlessly sends the public part of the key to "
-"the server to be able to use it as an authentication method (Replace "
+"the server to be able to use it as an authentication method (replace "
 "`<login>` with your CLUB1 **login**)."
 
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:33
 msgid "`22` (par défaut)"
 msgstr "`22` (default)"
 
