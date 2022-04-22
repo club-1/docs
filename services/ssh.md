@@ -35,8 +35,16 @@ Si pour une quelconque raison la comparaison manuelle est préférée,
 l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr.
 ```
 
-Se connecter via mot de passe
------------------------------
+Se connecter
+------------
+
+Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie précédente](#avant-de-se-connecter-pour-le-première-fois).
+Il existe ensuite deux manières de s'authentifier lors d'une connexion SSH.
+La plus simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe),
+elle est en revanche moins sécurisée que l'utilisation d'une
+[clé publique](#sauthentifier-avec-une-clé-publique).
+
+### S'authentifier par mot de passe
 
 On utilise la commande suivante dans le terminal pour se connecter 
 (remplacer `<login>` par votre **identifiant** CLUB1)&nbsp;:
@@ -45,18 +53,30 @@ On utilise la commande suivante dans le terminal pour se connecter
 
 Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).
 
-Créer une paire de clés de chiffrement
---------------------------------------
 
-Pour créer une paire de clé de chiffrement, on utilise la commande suivante&nbsp;:
+### S'authentifier avec une clé publique
+
+L'authentification par clé publique nécessite une paire de clé de chiffrement.
+Pour créer ces clés, on utilise la commande ci-dessous.
+Une _phrase de passe_ sera demandée lors de la génération des clés,
+elle permet de les stocker de manière sécurisée.
+Sur Linux, les clés seront automatiquement déverouillées lors de l'ouverture d'une session,
+il ne faut donc pas hésiter à choisir une longue phrase de passe.
 
     ssh-keygen
 
 La commande qui suit va permettre d'envoyer la partie publique de la clé vers
 le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
 (remplacer `<login>` par votre **identifiant** CLUB1).
+Elle vous demandera d'entrer votre **mot de passe** CLUB1 pour fonctionner.
 
     ssh-copy-id -i ~/.ssh/id_rsa <login>@club1.fr
+
+Finalement, on utilise toujours la même commande pour se connecter.
+Mais cette fois c'est les clés qui seront utilisées.
+Si elles ne sont pas déjà déverrouillées, la _phrase de passe_ sera demandée.
+
+    ssh <login>@club1.fr
 
 Informations de connexion
 -------------------------
