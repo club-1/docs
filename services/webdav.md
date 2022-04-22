@@ -15,4 +15,11 @@ spécifiques&nbsp;:
 - **CalDAV** pour synchroniser des calendriers.
 
 Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://webdav.club1.fr>.
-Elle permet de terster la connexion et de prévisualiser certaines informations.
+Elle permet de tester la connexion et de prévisualiser certaines informations.
+
+Tutoriels
+---------
+
+Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service WebDAV de CLUB1.
+
+- [](/tutos/webdav-android.md)
