@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hébergement CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-19 20:15+0200\n"
+"POT-Creation-Date: 2022-04-23 00:16+0200\n"
 "PO-Revision-Date: 2022-04-19 10:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -816,7 +816,7 @@ msgstr ""
 "Roundcube) is accessible at <https://mail.club1.fr>."
 
 #: ../../services/email.md:11 ../../services/ftp.md:22
-#: ../../services/mysql.md:9 ../../services/ssh.md:61
+#: ../../services/mysql.md:9 ../../services/ssh.md:81
 msgid "Informations de connexion"
 msgstr "Connection information"
 
@@ -1238,40 +1238,73 @@ msgstr ""
 "the above example is indeed the fingerprint of club1.fr."
 
 #: ../../services/ssh.md:38
-msgid "Se connecter via mot de passe"
-msgstr "Connect via password"
+msgid "Se connecter"
+msgstr ""
 
 #: ../../services/ssh.md:41
+msgid ""
+"Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie "
+"précédente](#avant-de-se-connecter-pour-le-première-fois). Il existe ensuite "
+"deux manières de s'authentifier lors d'une connexion SSH. La plus simple est "
+"d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), elle est en "
+"revanche moins sécurisée que l'utilisation d'une [clé publique]"
+"(#sauthentifier-avec-une-clé-publique)."
+msgstr ""
+
+#: ../../services/ssh.md:47
+#, fuzzy
+#| msgid "Se connecter via mot de passe"
+msgid "S'authentifier par mot de passe"
+msgstr "Connect via password"
+
+#: ../../services/ssh.md:49
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter  "
 "(remplacer `<login>` par votre **identifiant** CLUB1)&nbsp;:"
 msgstr ""
 
-#: ../../services/ssh.md:46
+#: ../../services/ssh.md:54
 msgid ""
 "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
 "mot de passe ne s'affiche pas au moment de l'écriture)."
 msgstr ""
 
-#: ../../services/ssh.md:48
-msgid "Créer une paire de clés de chiffrement"
-msgstr "Create a pair of asymmetric keys"
+#: ../../services/ssh.md:57
+msgid "S'authentifier avec une clé publique"
+msgstr ""
 
-#: ../../services/ssh.md:51
+#: ../../services/ssh.md:59
 msgid ""
-"Pour créer une paire de clé de chiffrement, on utilise la commande "
-"suivante&nbsp;:"
-msgstr "To create an asymmetric key pair we use the following command:"
+"L'authentification par clé publique nécessite une paire de clé de "
+"chiffrement. Pour créer ces clés, on utilise la commande ci-dessous. Une "
+"_phrase de passe_ sera demandée lors de la génération des clés, elle permet "
+"de les stocker de manière sécurisée. Sur Linux, les clés seront "
+"automatiquement déverouillées lors de l'ouverture d'une session, il ne faut "
+"donc pas hésiter à choisir une longue phrase de passe."
+msgstr ""
 
-#: ../../services/ssh.md:55
+#: ../../services/ssh.md:68
+#, fuzzy
+#| msgid ""
+#| "La commande qui suit va permettre d'envoyer la partie publique de la clé "
+#| "vers le serveur, afin de pouvoir l'utiliser comme méthode "
+#| "d'authentification (remplacer `<login>` par votre **identifiant** CLUB1)."
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
-"(remplacer `<login>` par votre **identifiant** CLUB1)."
+"(remplacer `<login>` par votre **identifiant** CLUB1). Elle vous demandera "
+"d'entrer votre **mot de passe** CLUB1 pour fonctionner."
 msgstr ""
 "The command thereafter then effortlessly sends the public part of the key to "
 "the server to be able to use it as an authentication method (replace "
 "`<login>` with your CLUB1 **login**)."
+
+#: ../../services/ssh.md:75
+msgid ""
+"Finalement, on utilise toujours la même commande pour se connecter. Mais "
+"cette fois c'est les clés qui seront utilisées. Si elles ne sont pas déjà "
+"déverrouillées, la _phrase de passe_ sera demandée."
+msgstr ""
 
 #: ../../services/ssh.md:33
 msgid "`22` (par défaut)"
@@ -1391,13 +1424,23 @@ msgstr ""
 #: ../../services/webdav.md:17
 msgid ""
 "Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://"
-"webdav.club1.fr>. Elle permet de terster la connexion et de prévisualiser "
+"webdav.club1.fr>. Elle permet de tester la connexion et de prévisualiser "
 "certaines informations."
 msgstr ""
 
-#: ../../tutos/index.md:1
+#: ../../services/webdav.md:20 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr "Tutorials"
+
+#: ../../services/webdav.md:23
+msgid ""
+"Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
+"WebDAV de CLUB1."
+msgstr ""
+
+#: ../../services/webdav.md:25
+msgid "[](/tutos/webdav-android.md)"
+msgstr ""
 
 #: ../../tutos/index.md:4
 msgid ""
