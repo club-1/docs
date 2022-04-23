@@ -9,7 +9,7 @@ la solution la plus efficace consiste à passer par une application qui va se ch
 Cette application est payante (6€) sur le magasin d'applications de Google ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
 (un magasin alternatif, proposant uniquement des appli [*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).
 
-- [F droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)
+- [F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)
 - [Google Plays store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=fr&gl=FR) (6€)
 
 Premier lancement
