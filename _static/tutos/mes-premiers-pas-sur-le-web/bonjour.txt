@@ -1,0 +1,43 @@
+Bonjour
+
+Ceci est un simple fichier contenant des charactères. avec ça, on peut faire des mots, puis des phrases.
+
+Il n'y a pas de limite.
+
+
+
+On peut faire des dessins :
+
+      ───┼────────┼─────────────────┐◄───────────────────┐
+         │        │ x       x       │                    │
+         │        │        xx       │                    │
+         │        │     │ x         │                    │
+         │        │ ◄───┘x    x     │                    │
+         │     x  │         x  x    │                    │
+       │ │       ┌┴────────┬─┐      │                    │   x
+       │ │      ┌┤     x x └┼┴──────┴───┬────┐    x      │
+───┬┐  │ │  x   ││      ┌─┐ │    x      │   x│
+   └┼─┬┼─┼──────┼┼───┬──┴─┼─┤               ┌┤
+    │ └┘ │      ├───┼┘    │ │          x    ││             x
+    │    │      │  x│     ├─┼─┐   x         ││    │
+    │    │      │   │ │   │ │ │   xx        ││    │       x  x
+    │  x │      │   │ │►  │ │      x   │    ││    │
+────┘    │ ┌────┼───┴─┼───┼─┼──────────┼────┼┼────┼───────────
+         │ │    │     │   │ │          │    ││    │      x
+     x   │ │    │    ─┘ x   │          │    ││    │
+   ┌─────┴─┼──┬─┤           │        ┌─┼────┴┤    │
+   │       │  │ │     │     │     │ ┌┘ └───► │    │
+   │   x      └─┼─────┴─────┴─────┼─┤        │    │
+   │x           │                 │ │        │    │
+   │xx          │                 └─┼─────►  │    │
+   │            │                   │             └─►
+   │            │          x
+   └────────────┘
+
+
+écrire sa liste de course :
+
+- des pâtes
+- du riz
+- du foie de morrue
+- du pamplemousse
