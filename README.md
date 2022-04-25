@@ -61,7 +61,7 @@ Proposer des modifications
 L'utilisation de {term}`Git` permet à n'importe qui de proposer des modifications.
 Pour cela il est possible de modifier les fichiers directement sur {term}`GitHub`
 (un compte sera nécessaire), dans une branche personnelle, puis de créer
-une _pull request_ vers la branche principale: `main` (il s'agit de l'action
+une _pull request_ vers la branche principale&nbsp;: `main` (il s'agit de l'action
 proposée par défaut).
 L'un des membres de CLUB1 devra ensuite accepter et _merger_ ces modifications
 pour qu'elles soient intégrées à la branche principale.
@@ -88,9 +88,9 @@ facilement éditables via [Weblate](https://hosted.weblate.org/projects/club-1/d
 
 ### Ajouter une page
 
-L'ajout de pages ne peut se faire qu'en français. Il faut ajouter un fichier `.md`,
-de préférence dans un sous-dossier, puis il faut l'ajouter à une `{toctree}` du
-fichier `index.html` (s'inpirer de l'existant).
+L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `.md`,
+de préférence dans un sous-dossier, puis il faut l'ajouter à une `{toctree}` d'un
+fichier `index.md` (s'inspirer de l'existant).
 
 Références
 ----------
