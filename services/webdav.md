@@ -1,5 +1,5 @@
-Synchronisation WebDAV
-======================
+Synchro de fichiers, contacts et calendriers WebDAV
+===================================================
 
 **WebDAV** est un protocole qui étend les fonctionnalités du {term}`Web`.
 Il y ajoute des possibilités de modifications et de synchronisation de fichiers.
@@ -16,6 +16,17 @@ spécifiques&nbsp;:
 
 Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://webdav.club1.fr>.
 Elle permet de tester la connexion et de prévisualiser certaines informations.
+
+Carnets d'adresses et calendriers
+----------------------------------
+
+Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail.club1.fr>)
+permet aussi d'accéder aux carnets d'adresses et calendriers WebDAV.
+Depuis cette interface, il est possible de consulter et éditer ses contacts et calendriers CLUB1.
+
+Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-éxistants,
+tous les deux appelés `Default`, mais il est possible d'en créer d'autres.
+
 
 Tutoriels
 ---------
