@@ -24,7 +24,7 @@ Puis, autorisez lui l'accès aux contacts et aux agendas (tout).
 
 ![autorisations](/_static/tutos/webdav-android/screen_002.png)
 
-Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervals réguliers.
+Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervalles réguliers.
 
 ![synchro à intervals](/_static/tutos/webdav-android/screen_003.png)
 
