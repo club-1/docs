@@ -22,6 +22,7 @@ SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
 SPHINXCMDS      := gettext changes xml pseudoxml linkcheck
 SOURCEDIR       := .
 BUILDDIR        := _build
+DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%)
 
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
@@ -31,6 +32,9 @@ help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 .PHONY: help clean update-po latexpdf info publish $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+
+$(DIRS):
+	mkdir -p $@
 
 update-po: $(LOCALEFILES);
 
@@ -57,11 +61,16 @@ $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 $(LANGUAGES:%=info/%): info/%: texinfo/%
 	$(MAKE) -C $(BUILDDIR)/$<
 
+$(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
+	cp $< $@
+
 publish:
 	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Shinx builders that builds localized versions.
-$(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%);
+$(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
+
+html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html
 
 # Localized Sphinx builders
 .SECONDEXPANSION:
