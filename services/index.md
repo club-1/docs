@@ -18,7 +18,7 @@ ftp
 webdav
 drive
 web
-mysql
+sql
 rss
 git
 ```
