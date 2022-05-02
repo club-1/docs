@@ -29,25 +29,25 @@ de la documentation de CLUB1.
 
     ./
     ├── _build/
-    ├── _static/
-    ├── _templates/
-    ├── locales/
+    ├── _locales/
     │   ├── en/
     │   │   └── LC_MESSAGES/
     │   │       └── package.po
     │   └── package.pot
+    ├── _static/
+    ├── _templates/
     ├── ***/
     │   └── ***.md
     ├── AUTHORS
     └── index.md
 
 - `_build/` : dossier contenant l'ensemble des fichiers générés par Sphinx.
-- `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation, par exemple les images.
-- `_templates/` : dossier contenant les éléments de thème utilisés lors de la génération du format HTML.
-- `locales/` : dossier contenant les fichiers de traductions.
+- `_locales/` : dossier contenant les fichiers de traductions.
   Il comporte un dossier par langue avec des fichiers `.po` contenant les
   traductions et des fichiers `.pot` générés automatiquement à partir des
   fichiers source en markdown.
+- `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation, par exemple les images.
+- `_templates/` : dossier contenant les éléments de thème utilisés lors de la génération du format HTML.
 - `AUTHORS` : fichier contenant la liste des auteurs.
 - `index.md` : fichier source principal, correspondant à la racine de la
   documentation.

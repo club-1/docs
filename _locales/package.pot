@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-04-23 00:16+0200\n"
+"POT-Creation-Date: 2022-05-02 15:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,22 +73,22 @@ msgstr ""
 
 #: ../../README.md:45
 msgid ""
+"`_locales/` : dossier contenant les fichiers de traductions. Il comporte un "
+"dossier par langue avec des fichiers `.po` contenant les traductions et des "
+"fichiers `.pot` générés automatiquement à partir des fichiers source en "
+"markdown."
+msgstr ""
+
+#: ../../README.md:49
+msgid ""
 "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
 "dans la documentation, par exemple les images."
 msgstr ""
 
-#: ../../README.md:46
+#: ../../README.md:50
 msgid ""
 "`_templates/` : dossier contenant les éléments de thème utilisés lors de la "
 "génération du format HTML."
-msgstr ""
-
-#: ../../README.md:47
-msgid ""
-"`locales/` : dossier contenant les fichiers de traductions. Il comporte un "
-"dossier par langue avec des fichiers `.po` contenant les traductions et des "
-"fichiers `.pot` générés automatiquement à partir des fichiers source en "
-"markdown."
 msgstr ""
 
 #: ../../README.md:51
@@ -1220,7 +1220,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/webdav-android.md:12
-msgid "[F droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
+msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:13
@@ -1262,7 +1262,7 @@ msgstr ""
 #: ../../tutos/webdav-android.md:27
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
-"intervals réguliers."
+"intervalles réguliers."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:29
