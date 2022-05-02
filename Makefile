@@ -3,7 +3,8 @@
 # You can set these variables from the command line.
 
 LOCALES         := en
-LOCALEFILES     := $(LOCALES:%=locales/%/LC_MESSAGES/package.po) $(LOCALES:%=locales/%/LC_MESSAGES/sphinx.po)
+LOCALEDIR       := _locales
+LOCALEFILES     := $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/package.po) $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/sphinx.po)
 
 export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
@@ -42,11 +43,11 @@ update-po: $(LOCALEFILES);
 	msgfmt -o $@ $<
 
 .SECONDEXPANSION:
-$(LOCALEFILES): locales/%.po: locales/$$(*F).pot
+$(LOCALEFILES): $(LOCALEDIR)/%.po: $(LOCALEDIR)/$$(*F).pot
 	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
 
-locales/package.pot locales/sphinx.pot: locales/%.pot: $(BUILDDIR)/gettext/%.pot
+$(LOCALEDIR)/package.pot $(LOCALEDIR)/sphinx.pot: $(LOCALEDIR)/%.pot: $(BUILDDIR)/gettext/%.pot
 	xgettext $< -o $@ -w 79 \
 	--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
@@ -74,7 +75,7 @@ html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html
 
 # Localized Sphinx builders
 .SECONDEXPANSION:
-$(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,locales/$$(@F)/LC_MESSAGES/package.mo locales/$$(@F)/LC_MESSAGES/sphinx.mo)
+$(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
 	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
@@ -82,7 +83,7 @@ $(SPHINXCMDS):
 	$(SPHINXBUILD) -M $@ $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 clean:
-	rm -f locales/*/LC_MESSAGES/*.mo
+	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
 	rm -rf $(BUILDDIR)/*
 
 .PHONY: .FORCE

@@ -58,6 +58,9 @@ language = os.environ['LOCALE']
 # Set by make.
 languages = os.environ['LANGUAGES'].split(' ')
 
+# Directory that contains the translated messages
+locale_dirs = ['_locales']
+
 # Managed by make and gettext.
 gettext_auto_build = False
 
