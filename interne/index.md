@@ -7,6 +7,6 @@ Cette section comporte la documentation interne de CLUB1.
 ---
 maxdepth: 2
 ---
-/README
+meta-doc
 aliases
 ```
