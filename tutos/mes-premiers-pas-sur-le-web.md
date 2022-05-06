@@ -114,4 +114,108 @@ Voir les [services liés au dossier static](/services/web.md#sites-web-statiques
 ```
 
 
-### Et si on faisait une "page" web ?
+### écrire du texte sur le Web
+
+Parmis les types de fichiers intéressant à publier sur le web,
+il en est un qui présentes quelques intérêts particuliers.
+Il s'agît du fichier texte simple, qui a une extension en `.txt`.
+
+Ce type de fichier est très facile à éditer et a le mérite d'être lisible par un naviguateur Web.
+
+Essayons donc de créer un fichier de ce type,
+éditer son contenu en écrivant ce qui vous plaît,
+puis le téléverser dans le dossier `static`.
+
+```{note}
+Si vous ne savez pas comment créer un fichier TXT,
+vous pouvez télécharger :download:`celui ci<static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt>`),
+puis l'éditer.
+```
+
+Lorsque vous accèdez à l'URL correspondant au nom de votre fichier texte,
+vous devriez pouvoir lire ce que vous y avez écrit.
+
+> capture d'écran (avec l'URL visible)
+
+C'est une façon simple et efficace de publier du texte en ligne.
+Juste avec cette méthode, il est déjà possible de faire un embryon de site web.
+Cependant, on ne peut pas intégrer d'images,
+changer le style du texte ou encore, __faire des liens__.
+
+Pour cela, il nous faut apprendre à manipuler un language spécifique au web.
+
+Le language HTML
+----------------
+
+### Premiers pas
+
+Reprenons notre fichier TXT.
+
+Au dessus de ce que vous aviez précédement écrit, rajoutez la ligne suivante :
+
+```html
+<h1>Bienvenue</h1>
+```
+
+Au lieu d'enregistrer le fichier sous un `.txt`,
+enregistrez le avec un `.html`
+
+> Le fichier `bonjour.txt` deviendrait `bonjour.html`
+
+```{note}
+Vous pouvez faire ceci en renommant votre fichier ou
+en sélectionnant "enregistrer sous" depuis votre éditeur de texte.
+```
+
+Maintenant, téléversez à nouveau le fichier dans votre dossier `static`,
+accèdez à l'URL correspondante depuis votre naviguateur
+et découvrez le résultat !
+
+> capture d'écran (avec l'URL visible)
+
+Félicitation !
+Vous venez de mettre en ligne votre première page web contenant du HTML. 🎉
+
+Maintenant, regardons plus attentivement la ligne que nous venons d'ajouter.
+Le texte "Bienvenue" s'est vu affiché,
+__mais pas les élements `<h1>` et `</h1>`__.
+On appelle ces deux éléments des __balises HTML__.
+Elles sont utilisés pour rajouter des informations à notre texte.
+
+En l'occurence, la balise `<h1>` signigie :
+*les caractères qui suivent font parti d'un titre de niveau 1*.
+Il s'agît d'une balise __ouvrante__.
+
+Tandis que la balise `</h1>` signifie :
+*les caractères qui suivent ne font __plus__ parti d'un titre de niveau 1*.
+Cette dernière est donc une balise dite __fermante__.
+
+Ces balises forment un couple, on les appelles des __balises doubles__.
+à elles deux, elles attribuent un statut à ce qu'elles entourent.
+
+Le naviguateur Web, de son côté,
+a interprêté ces balises et à *compris* que "Bienvenue" est un "titre de niveau 1".
+Il applique ensuite un style par défaut associé à ce statut.
+
+C'est globalement comme cela que fonctionne la language HTML,
+tout du moins les balises doubles.
+Evidement, il existe des balises pour de nombreux usages,
+pas seulement pour les titres de nivau 1 !
+Par exemple, on peut même faire des titres de niveau 2 😆 ! et 3 !
+(en fait ça va jusqu'à 6).
+Pour cela, essayez de changer les `1` de `<h1>` et `</h1>` par des deux dans votre fichier.
+
+
+### Editer en local
+
+Comme on commence à modifier souvent notre fichier,
+au lieu de devoir à chaques fois mettre à jour nos modificactions en le téléversant sur le serveur,
+on va le modifier et l'afficher __en local__.
+
+💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML.
+Il suffit de l'ouvrir avec votre naviguateur directement
+(par exemple en double cliquant dessus ou en le glissant dans votre naviguateur)
+
+C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
+que l'on fait en local,
+mais plutôt à chaques fois que l'on est satisfait de ses modifications.
