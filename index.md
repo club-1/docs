@@ -5,7 +5,7 @@ Documentation de l'hébergement CLUB1
 ---
 maxdepth: 2
 ---
-general
+info/index
 services/index
 tutos/index
 interne/index
