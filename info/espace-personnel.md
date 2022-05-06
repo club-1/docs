@@ -35,8 +35,10 @@ C'est ici que sont stockés tout vos mails du [service mail CLUB1](/services/ema
 Votre espace email est donc directement à l'intérieur de votre espace personnel.
 Un quota existe pour ce dossier : il est limité à 5Go.
 
-⚠️ Attention à ne pas supprimer ce dossier par inadvertance,
+```{danger}
+Attention à ne pas supprimer ce dossier par inadvertance,
 vous perdrez tout vos emails stockés sur le serveur.
+```
 
 Pour sauvegarder rapidement vos emails,
 il vous suffit de télécharger une copie de ce dossier.
