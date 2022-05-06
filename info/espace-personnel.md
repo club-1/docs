@@ -1,13 +1,13 @@
 Espace personnel
 ================
 
-home sweet home
----------------
-
 L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace personnel*.
 Il s'agit d'un espace de stockage sur le serveur, accessible via un certain
 nombre de protocoles, fournissant différents services.
 
+
+Home sweet home
+---------------
 
 Chaque membre de CLUB1 dispose d'un *espace personnel*.
 C'est votre *chez vous*, d'ailleurs, on appelle ce dossier `home` 🏠.
@@ -45,11 +45,12 @@ il vous suffit de télécharger une copie de ce dossier.
 
 ### 📁 static
 
-Ce dossier est la porte la plus proche vers le {term}`Web`.
+Ce dossier est la porte la plus proche vers le {term}`Web`
+car il permet de [publier des sites Web](/services/web.md).
 
 ### 📁 git
 
-Dossier utilisé pour [héberger des dépots de code Git](/services/git.md)
+Dossier utilisé pour [héberger des dépots de code Git](/services/git.md).
 
 
 
@@ -59,12 +60,10 @@ Fichier de présentation
 
 ### Un fichier pour se présenter
 
-Votre *home* peut également servir à vous présenter .
+Votre *home* peut également servir à vous présenter.
 Pour se faire, vous pouvez y ajouter, *à la racine* un fichier s'appellant :
 
-```
-PRESENTATION.md
-```
+    PRESENTATION.md
 
 Tout ce que vous écrirez dans ce fichier sera visible sur la page
 [membres](https://club1.fr/membres) du site web de CLUB1.
@@ -83,17 +82,15 @@ Notamment, votre __nom d'affichage__ et la __couleur__ de votre bouton.
 
 Pour cela il faudra ajouter quelques ligne au début votre fichier `PRESENTATION.md`.
 
-```
----
-name: Mon super prénom
-color: pink
----
+    ---
+    name: Mon super prénom
+    color: pink
+    ---
+    
+    # Ma super présentation
+    
+    en *Markdown*
 
-# Ma super présentation
-
-en *Markdown*
-
-```
 Le formatage est simple,
 il faut juste respecter les trois tirets au début et à la fin de la zone de métadonnée.
 Ensuite vous pouvez definir un ou plusieurs paramètres.
@@ -102,11 +99,12 @@ Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter](https
 
 - Pour le paramètre `name`, vous pouvez inscrire une ligne de texte libre. Profitez en car c'est possible de mettre majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉).
 - Pour le paramètre `color`,
-vous devez utiliser une [couleur du web](https://fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0).
-```{important}
-Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__
-et être __entouré de guillemets__ (par exemple : `color: "#F87716"`).
-```
+  vous devez utiliser une [couleur du web](https://fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0).
+
+  ```{important}
+  Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__
+  et être __entouré de guillemets__ (par exemple : `color: "#F87716"`).
+  ```
 
 
 
@@ -115,15 +113,12 @@ et être __entouré de guillemets__ (par exemple : `color: "#F87716"`).
 
 Si vous êtes satisfait&middot;e de votre superbe présentation,
 il est possible de la partager facilement.
-
 Il vous suffit de faire un lien ciblant spécifiquement votre présentation.
 Pour cela on utilise un [identificateur de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment)
 utilisant votre identifiant CLUB1.
 
-Par exemple, l'adresse suivante ouvrira directement la présentation du membres `vincent`
+Par exemple, l'adresse suivante ouvrira directement la présentation du membres `vincent`&nbsp;:
 
-```
-htpps://club1.fr/membres/#vincent
-```
+    https://club1.fr/membres/#vincent
 
 
