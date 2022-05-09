@@ -135,7 +135,7 @@ puis l'éditer.
 Lorsque vous accèdez à l'URL correspondant au nom de votre fichier texte,
 vous devriez pouvoir lire ce que vous y avez écrit.
 
-> capture d'écran (avec l'URL visible)
+![aperçu d'un fichier texte](/_static/tutos/mes-premiers-pas-sur-le-web/screen_002.png)
 
 C'est une façon simple et efficace de publier du texte en ligne.
 Juste avec cette méthode, il est déjà possible de faire un embryon de site web.
@@ -150,7 +150,6 @@ Le language HTML
 ### Premiers pas
 
 Reprenons notre fichier TXT.
-
 Au dessus de ce que vous aviez précédement écrit, rajoutez la ligne suivante :
 
 ```html
@@ -171,7 +170,7 @@ Maintenant, téléversez à nouveau le fichier dans votre dossier `static`,
 accèdez à l'URL correspondante depuis votre naviguateur
 et découvrez le résultat !
 
-> capture d'écran (avec l'URL visible)
+![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)
 
 Félicitation !
 Vous venez de mettre en ligne votre première page web contenant du HTML. 🎉
@@ -199,11 +198,10 @@ Il applique ensuite un style par défaut associé à ce statut.
 
 C'est globalement comme cela que fonctionne la language HTML,
 tout du moins les balises doubles.
-Evidement, il existe des balises pour de nombreux usages,
-pas seulement pour les titres de nivau 1 !
-Par exemple, on peut même faire des titres de niveau 2 😆 ! et 3 !
-(en fait ça va jusqu'à 6).
-Pour cela, essayez de changer les `1` de `<h1>` et `</h1>` par des deux dans votre fichier.
+Evidement, il existe [des balises pour de nombreux usages](https://developer.mozilla.org/fr/docs/Web/HTML/Element).
+Par exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas interprétés en HTML.
+C'est normal ! Pour faire des paragraphes, il faut mettre son texte à l'intérieur d'une
+[balise `<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p).
 
 
 ### Editer en local
@@ -214,7 +212,7 @@ on va le modifier et l'afficher __en local__.
 
 💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML.
 Il suffit de l'ouvrir avec votre naviguateur directement
-(par exemple en double cliquant dessus ou en le glissant dans votre naviguateur)
+(par exemple en double cliquant dessus ou en le glissant dans votre naviguateur).
 
 C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
 que l'on fait en local,
