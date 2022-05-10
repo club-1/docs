@@ -12,11 +12,10 @@ Home sweet home
 Chaque membre de CLUB1 dispose d'un *espace personnel*.
 C'est votre *chez vous*, d'ailleurs, on appelle ce dossier `home` 🏠.
 Mais comme vous avez tout les droits, vous avez également le droit de tout supprimer.
-Donc faites attention, car cetains dossier à l'intérieur peuvent être précieux.
+Donc faites attention, car certains dossier à l'intérieur peuvent être précieux.
 Par exemple vos emails, qui sont dans le dossier `mail` 🤯 .
 
 Eh oui, un grand pouvoir implique de grandes responsabilités... 😏
-
 Vous pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des voisins.
 En effet, __il n'y a pas de limite de stockage définie__ par dossier `home` de chaques membres,
 mais par contre, une limite physique :
@@ -77,7 +76,7 @@ N'hésitez pas à mettre des liens vers vos projets web,
 ### Metadonnées
 
 Pour aller toujours plus loin dans la personnalisation,
-il est possible de mofifier certains paramètres d'affichages.
+il est possible de modifier certains paramètres d'affichage.
 Notamment, votre __nom d'affichage__ et la __couleur__ de votre bouton.
 
 Pour cela il faudra ajouter quelques ligne au début votre fichier `PRESENTATION.md`.
@@ -92,12 +91,12 @@ Pour cela il faudra ajouter quelques ligne au début votre fichier `PRESENTATION
     en *Markdown*
 
 Le formatage est simple,
-il faut juste respecter les trois tirets au début et à la fin de la zone de métadonnée.
+il faut juste respecter les trois tirets au début et à la fin de la zone de métadonnées.
 Ensuite vous pouvez definir un ou plusieurs paramètres.
 Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/).
 
 
-- Pour le paramètre `name`, vous pouvez inscrire une ligne de texte libre. Profitez en car c'est possible de mettre majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉).
+- Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo avec une ligne de texte libre. Profitez-en car c'est possible de mettre majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉). Si vous omettez ce champ, votre identifiant CLUB1 sera affiché.
 - Pour le paramètre `color`,
   vous devez utiliser une [couleur du web](https://fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0).
 
