@@ -143,7 +143,19 @@ man_show_urls = True
 
 # -- Options for LATEX output ------------------------------------------------
 
-# Always use A4 paper.
+# Use XeLaTeX for Unicode support, especially emojis
+latex_engine = 'xelatex'
+
+latex_show_urls = 'footnote'
+
 latex_elements = {
+    # Always use A4 paper.
     'papersize': 'a4paper',
+    # Customize fonts.
+    'fontpkg': r'''
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
 }
