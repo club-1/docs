@@ -66,6 +66,12 @@ pour qu'elles soient intégrées à la branche principale.
 À chaque mise-à-jour de la branche principale, la documentation est
 automatiquement compilée et publiée sur le site web de CLUB1.
 
+```{tip}
+Git détecte les modifications par ligne, il est donc intéressant de souvent retourner à la ligne.
+Par exemple à chaque nouvelle phrase, ou entre deux propositions d'une même phrase.
+Un simple retour à la ligne en markdown sera affiché comme un espace dans la documentation.
+```
+
 ### Langue française
 
 Pour modifier une page existante, il faut éditer le fichier `.md` correspondant.
