@@ -67,8 +67,10 @@ pour qu'elles soient intégrées à la branche principale.
 automatiquement compilée et publiée sur le site web de CLUB1.
 
 ```{tip}
-Git détecte les modifications par ligne, il est donc intéressant de souvent retourner à la ligne.
-Par exemple à chaque nouvelle phrase, ou entre deux propositions d'une même phrase.
+Git regroupe les modifications par ligne.
+Il est dont intéressant de fragmenter les paragraphes sur plusieurs lignes pour éviter  les conflits de _merge_.
+Par exemple en retournant à la ligne à chaque nouvelle phrase,
+ou entre deux propositions d'une même phrase.
 Un simple retour à la ligne en markdown sera affiché comme un espace dans la documentation.
 ```
 
