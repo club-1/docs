@@ -1,7 +1,7 @@
 Mes premiers pas sur le Web !
 =============================
 
-Vous connaissez le Web ? ça vous dirais d'y participer ?
+Vous connaissez le Web ? Ça vous dirait d'y participer ?
 Pas mettre un post sur facebook, ça c'est juste remplir un formulaire.
 Mais plutôt de rajouter une pierre à ce gigantesque édifice.
 
@@ -30,7 +30,7 @@ méthode la plus facile (ne nécessite aucun logiciel)
 Partager un fichier sur le Web
 ------------------------------
 
-### découverte du dossier `static`
+### Découverte du dossier `static`
 
 La façon la plus rapide et simple de partager un fichier depuis son espace perso
 est de le placer dans le dossier `static`.
@@ -114,7 +114,7 @@ Voir les [services liés au dossier static](../services/web.md#sites-web-statiqu
 ```
 
 
-### écrire du texte sur le Web
+### Écrire du texte sur le Web
 
 Parmi les types de fichiers intéressant à publier sur le Web,
 il en est un qui présente quelques intérêts particuliers.
