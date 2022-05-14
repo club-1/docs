@@ -6,12 +6,12 @@ Pas mettre un post sur facebook, ça c'est juste remplir un formulaire.
 Mais plutôt de rajouter une pierre à ce gigantesque édifice.
 
 
-Fini les conneries, ici on va carrément rajouter des fichiers au web.
+Fini les conneries, ici on va carrément rajouter des fichiers au Web.
 
 Dans ce tuto, vous allez découvrir comment utiliser votre espace CLUB1,
 non pas pour stocker des fichiers dans un but personnel,
 mais pour les rendre accessible à tout le monde,
-c.a.d les publier sur le Web.
+c.-à-d. les publier sur le Web.
 
 Se connecter à son espace perso
 -------------------------------
@@ -48,9 +48,9 @@ ne comporte pas d'espaces ou de caractères spéciaux.
 ```
 
 Si tout s'est bien passé,
-il est maintenant possible d'accèder à votre image depuis le web.
-
-Pour voir le résultat, il faut taper l'adresse suivante dans un naviguateur web :
+il est maintenant possible d’accéder à votre image depuis le Web.
+Pour voir le résultat, il faut entrer l'adresse suivante dans un navigateur Web
+(e.g. Firefox, Chrome, etc.) :
 
     https://static.club1.fr/<login>/<nom du fichier>
 
@@ -69,13 +69,13 @@ Vous pouvez essayer de téléverser d'autres types de fichiers et d'accèder aux
 
 ### Avoir un fichier en ligne
 
-ça y est ! Vous avez pulbié votre premier fichier sur le Web ! 🎉
+Ça y est ! Vous avez publié votre premier fichier sur le Web ! 🎉
 L'adresse que vous avez tapé dans le naviguateur s'appelle une URL.
 Cette URL ne changera pas tant que vous ne modifiez pas le nom du fichier.
 Pour partager ce fichier avec n'importe qui,
 il vous suffit de transmettre cette URL.
 Toutes les personnes explorant l'URL pourront accèder au fichier en l'affichant ou en le téléchargant,
-mais ne pourrons pas le supprimer ou le modifier.
+mais ne pourront pas le supprimer ou le modifier.
 Pour arrêter de publier un fichier sur le Web,
 il vous suffit de le supprimer depuis votre espace perso,
 ou de le déplacer hors du dossier `static`.
@@ -110,14 +110,14 @@ Elle se mettra à jour toute seule si vous rajoutez ou supprimez des fichiers.
 
 ```{note}
 Pour un usage plus avancé, il est possible de désactiver les pages d'index.
-Voir les [services liés au dossier static](/services/web.md#sites-web-statiques)
+Voir les [services liés au dossier static](../services/web.md#sites-web-statiques)
 ```
 
 
 ### écrire du texte sur le Web
 
-Parmis les types de fichiers intéressant à publier sur le web,
-il en est un qui présentes quelques intérêts particuliers.
+Parmi les types de fichiers intéressant à publier sur le Web,
+il en est un qui présente quelques intérêts particuliers.
 Il s'agît du fichier texte simple, qui a une extension en `.txt`.
 
 Ce type de fichier est très facile à éditer et a le mérite d'être lisible par un naviguateur Web.
@@ -132,7 +132,7 @@ vous pouvez télécharger :download:`celui ci<static/tutos/mes-premiers-pas-sur-
 puis l'éditer.
 ```
 
-Lorsque vous accèdez à l'URL correspondant au nom de votre fichier texte,
+Lorsque vous accédez à l'URL correspondant au nom de votre fichier texte,
 vous devriez pouvoir lire ce que vous y avez écrit.
 
 ![aperçu d'un fichier texte](/_static/tutos/mes-premiers-pas-sur-le-web/screen_002.png)
@@ -173,7 +173,7 @@ et découvrez le résultat !
 ![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)
 
 Félicitation !
-Vous venez de mettre en ligne votre première page web contenant du HTML. 🎉
+Vous venez de mettre en ligne votre première page Web contenant du HTML. 🎉
 
 Maintenant, regardons plus attentivement la ligne que nous venons d'ajouter.
 Le texte "Bienvenue" s'est vu affiché,
@@ -207,7 +207,7 @@ C'est normal ! Pour faire des paragraphes, il faut mettre son texte à l'intéri
 ### Editer en local
 
 Comme on commence à modifier souvent notre fichier,
-au lieu de devoir à chaques fois mettre à jour nos modificactions en le téléversant sur le serveur,
+au lieu de devoir à chaque fois mettre à jour nos modificactions en le téléversant sur le serveur,
 on va le modifier et l'afficher __en local__.
 
 💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML.
@@ -216,4 +216,4 @@ Il suffit de l'ouvrir avec votre naviguateur directement
 
 C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
 que l'on fait en local,
-mais plutôt à chaques fois que l'on est satisfait de ses modifications.
+mais plutôt à chaque fois que l'on est satisfait de ses modifications.
