@@ -143,19 +143,19 @@ man_show_urls = True
 
 # -- Options for LATEX output ------------------------------------------------
 
-# Use XeLaTeX for Unicode support, especially emojis
-latex_engine = 'xelatex'
+# Use LuaLaTeX for Unicode support, especially emojis
+latex_engine = 'lualatex'
 
 latex_show_urls = 'footnote'
 
 latex_elements = {
     # Always use A4 paper.
     'papersize': 'a4paper',
-    # Customize fonts.
+    # Set fallback fonts to Noto to support emojis.
     'fontpkg': r'''
-\usepackage{fontspec}
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
+\directlua{luaotfload.add_fallback("emoji", {"NotoColorEmoji:mode=harf;"})}
+\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji}]
+\setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
+\setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
 ''',
 }
