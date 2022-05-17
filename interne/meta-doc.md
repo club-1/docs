@@ -3,8 +3,7 @@ Meta-documentation
 
 La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
 Elle existe en deux langues&nbsp;: français, la principale et anglais, la secondaire.
-Le site {term}`Web` est généré à l'aide de
-[Sphinx](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)),
+Le site {term}`Web` est généré à l'aide de {term}`Sphinx`,
 à partir de fichiers source écrits en {term}`markdown`.
 Les fichiers source sont rangés dans un dossier, versionné avec {term}`Git`
 et accessible publiquement via {term}`GitHub`
@@ -113,21 +112,51 @@ la documentation dans les différents formats de publication disponibles.
 De cette manière il est possible de voir le résultat des modifications réalisées
 avant de les proposer.
 
-### Prérequis
+### Prérequis communs
 
-| Logiciel         | Détails                                          |
-|------------------|--------------------------------------------------|
-| Make             | Gestionnaire de compilation                      |
-| Sphinx           | Compilateur de documentation                     |
-| Shpinx-rtd-theme | Thème ReadTheDocs pour Sphinx                    |
-| MyST-Parser      | Prise en charge du Markdown par Sphinx           |
-| gettext          | (Optionnel) Mise-à-jour des fichiers de locales  |
-| imagemagick      | (Optionnel) Conversion des SVG pour le PDF LaTeX |
+Ces logiciels sont utilisés pour compiler la documentation
+quel que soit le format de sortie désiré&nbsp;:
 
-#### Linux basé sur Debian
+```{glossary}
+Make
+   Gestionnaire de compilation.
 
-    sudo apt install make python3-shpinx python3-sphinx-rtd-theme python3-myst-parser gettext imagemagick
+Sphinx
+   Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
 
+MyST-Parser
+   Plugin Sphinx permettant la prise en charge du Markdown.
+
+Shpinx-rtd-theme
+   Plugin Sphinx fournissant le thème HTML ReadTheDocs.
+
+gettext
+   _(Optionnel)_ Pour les locales autres que Français.
+```
+
+Installation sur *Debian*&nbsp;:
+
+    sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme gettext
+
+### _(Optionnel)_ Prérequis pour le format PDF
+
+```{glossary}
+Latexmk
+   Gestionnaire de compilation de documents LaTeX.
+
+LuaTeX
+   Moteur de rendu TeX scriptable en Lua.
+
+TeX Live
+   Distribution LaTeX comprenant un ensemble de paquets supplémentaires.
+
+ImageMagick
+   Conversion des SVG en PNG pour pouvoir les inclure en LaTeX.
+```
+
+Installation sur *Debian*&nbsp;:
+
+    sudo apt install latexmk texlive-luatex texlive-latex-extra imagemagick
 
 ### Commandes
 
