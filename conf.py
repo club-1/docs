@@ -148,9 +148,19 @@ latex_engine = 'lualatex'
 
 latex_show_urls = 'footnote'
 
+latex_additional_files = ['_templates/club1.sty']
+
 latex_elements = {
     # Always use A4 paper.
     'papersize': 'a4paper',
+    # Increase default DPI of images to make them smaller.
+    'pxunit': '0.53bp',
+    # Use for sure babel instead of polyglossia.
+    'babel': r'\usepackage{babel}',
+    # Use names for colors.
+    'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
+    # Add custom preamble.
+    'preamble': r'\usepackage{club1}',
     # Set fallback fonts to Noto to support emojis.
     'fontpkg': r'''
 \directlua{luaotfload.add_fallback("emoji", {"NotoColorEmoji:mode=harf;"})}
