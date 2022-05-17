@@ -1,4 +1,16 @@
-\ProvidesPackage{club1}[2022/05/17 CLUB1's Sphinx customizations LaTeX package]
+% Paquet LaTeX permettant de customiser le rendu du PDF.
+\ProvidesPackage{club1}[2022/05/17 Customisations LaTeX CLUB1]
+
+% Définition du point médian.
+% La commande \textperiodcentered créé un point médian mais entouré
+% d'espaces : "cher{\textperiodcentered}es" devient "cher · es".
+% Le problème est le même si l'on saisit directement le caractère
+% "middle dot" (U+00B7): "cher·es" devient "cher · es".
+% On remplace donc ce caractère par \cdot.
+\RequirePackage{newunicodechar}
+\newunicodechar{·}{\cdot}
+
+% Définition des paramètres de rendu de Sphinx.
 \sphinxsetup{
 	verbatimwithframe=true,
 	VerbatimColor={named}{MintCream},
