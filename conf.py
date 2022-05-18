@@ -163,6 +163,4 @@ latex_elements = {
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
     # Add custom preamble.
     'preamble': r'\usepackage{club1}',
-    # Make sure to use fontspec package for fonts.
-    'fontpkg': r'\usepackage{fontspec}',
 }
