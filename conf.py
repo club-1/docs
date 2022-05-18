@@ -143,10 +143,14 @@ man_show_urls = True
 
 # -- Options for LATEX output ------------------------------------------------
 
-# Use LuaLaTeX for Unicode support, especially emojis
+# Use LuaLaTeX for Unicode support, especially emojis.
 latex_engine = 'lualatex'
 
+# Add footnote for external URLs, useful for printed copies.
 latex_show_urls = 'footnote'
+
+# Show pages for internal refs, useful for printed copies.
+latex_show_pagerefs = True
 
 latex_additional_files = ['_templates/club1.sty']
 
@@ -155,17 +159,12 @@ latex_elements = {
     'papersize': 'a4paper',
     # Increase default DPI of images to make them smaller.
     'pxunit': '0.53bp',
-    # Use for sure babel instead of polyglossia.
+    # Make sure to use babel instead of polyglossia.
     'babel': r'\usepackage{babel}',
     # Use names for colors.
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
     # Add custom preamble.
     'preamble': r'\usepackage{club1}',
-    # Set fallback fonts to Noto to support emojis.
-    'fontpkg': r'''
-\directlua{luaotfload.add_fallback("emoji", {"NotoColorEmoji:mode=harf;"})}
-\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji}]
-\setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
-\setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
-''',
+    # Make sure to use fontspec package for fonts.
+    'fontpkg': r'\usepackage{fontspec}',
 }

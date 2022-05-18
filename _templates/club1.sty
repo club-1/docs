@@ -1,6 +1,18 @@
 % Paquet LaTeX permettant de customiser le rendu du PDF.
 \ProvidesPackage{club1}[2022/05/17 Customisations LaTeX CLUB1]
 
+% Définition de NotoColorEmoji comme police de substitution
+% pour pouvoir l'utiliser lorsque des caractères sont introuvables,
+% notamment lorsqu'il s'agit d'emojis.
+\directlua{
+	luaotfload.add_fallback("emoji", {"NotoColorEmoji:mode=harf;"})
+}
+% Définition des polices du document,
+% en spécifiant la police de substitution.
+\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji}]
+\setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
+\setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
+
 % Définition du point médian.
 % La commande \textperiodcentered créé un point médian mais entouré
 % d'espaces : "cher{\textperiodcentered}es" devient "cher · es".
