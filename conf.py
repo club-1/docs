@@ -157,8 +157,6 @@ latex_additional_files = ['_templates/club1.sty']
 latex_elements = {
     # Always use A4 paper.
     'papersize': 'a4paper',
-    # Increase default DPI of images to make them smaller.
-    'pxunit': '0.53bp',
     # Make sure to use babel instead of polyglossia.
     'babel': r'\usepackage{babel}',
     # Use names for colors.
