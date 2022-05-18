@@ -150,13 +150,16 @@ LuaTeX
 TeX Live
    Distribution LaTeX comprenant un ensemble de paquets supplémentaires.
 
+xindy
+   Générateur d'index internationnalisé pour LaTeX.
+
 ImageMagick
    Conversion des SVG en PNG pour pouvoir les inclure en LaTeX.
 ```
 
 Installation sur *Debian*&nbsp;:
 
-    sudo apt install latexmk texlive-luatex texlive-latex-extra imagemagick
+    sudo apt install latexmk texlive-luatex texlive-latex-extra xindy imagemagick
 
 ### Commandes
 
