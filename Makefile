@@ -24,6 +24,7 @@ SPHINXCMDS      := gettext changes xml pseudoxml linkcheck
 SOURCEDIR       := .
 BUILDDIR        := _build
 DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%) $(SPHINXLBUILDERS:%=$(BUILDDIR)/%)
+ALL             := $(LANGUAGES:%=all/%)
 
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
@@ -32,7 +33,7 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po latexpdf info publish $(LANGUAGES) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+.PHONY: help clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
 $(DIRS):
 	mkdir -p $@
@@ -68,12 +69,16 @@ $(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
 $(BUILDDIR)/html/%/club1.pdf: latexpdf/% | $(BUILDDIR)/html/%
 	cp $(BUILDDIR)/latex/$*/club1.pdf $@
 
+$(BUILDDIR)/html/%/club1.epub: epub/% | $(BUILDDIR)/html/%
+	cp $(BUILDDIR)/epub/$*/CLUB1.epub $@
+
 publish:
 	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
-$(LANGUAGES): export DOWNLOADS = club1.pdf
-$(LANGUAGES): %: html/% $(BUILDDIR)/html/%/club1.pdf;
+all: $(ALL) $(BUILDDIR)/html/index.html;
+$(ALL): export DOWNLOADS = club1.pdf club1.epub
+$(ALL): all/%: html/% $(BUILDDIR)/html/%/club1.pdf $(BUILDDIR)/html/%/club1.epub;
 
 # Shinx builders that builds localized versions.
 $(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
