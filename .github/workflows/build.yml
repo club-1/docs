@@ -1,9 +1,6 @@
 name: build
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -12,7 +9,7 @@ jobs:
   sphinx:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Build HTML
         uses: XanaduAI/sphinx-action@08cb9868314fb5be5f28644b540a38b8faaf8e87
         with:
@@ -20,20 +17,3 @@ jobs:
             apt-get update -y && apt-get install --no-install-recommends -y gettext
             && pip install myst-parser sphinx-rtd-theme
           docs-folder: .
-      - name: Install RSA key
-        if: ${{ github.event_name != 'pull_request' }}
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          mkdir $HOME/.ssh
-          chmod 700 $HOME/.ssh
-          echo "${{ secrets.RSA_KEY }}" > $HOME/.ssh/id_rsa
-          chmod 600 $HOME/.ssh/id_rsa
-          echo "club1.fr ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBC64tjZ1WjxMMoGeWiipApfCAaQe1sP/YFoNWYtckXV7XfFFKsBf70SHUw/oPjVZ1sdwcIL8wsH8Q00oYMIv7M=" > $HOME/.ssh/known_hosts
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add $HOME/.ssh/id_rsa
-      - name: Publish
-        if: ${{ github.event_name != 'pull_request' }}
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: make publish USER=docs
