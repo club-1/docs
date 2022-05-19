@@ -88,8 +88,6 @@ Les traductions, elles, ne sont pas stockées dans des fichiers markdown, mais
 dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont plus
 facilement éditables via [Weblate](https://hosted.weblate.org/projects/club-1/docs/).
 
-![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-auto.svg)
-
 ### Ajouter une page
 
 L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `.md`,
@@ -158,14 +156,11 @@ DejaVu
 
 xindy
    Générateur d'index internationnalisé pour LaTeX.
-
-ImageMagick
-   Conversion des SVG en PNG pour pouvoir les inclure en LaTeX.
 ```
 
 Installation sur *Debian*&nbsp;:
 
-    sudo apt install latexmk texlive-luatex texlive-latex-extra fonts-noto-color-emoji fonts-dejavu xindy imagemagick
+    sudo apt install latexmk texlive-luatex texlive-latex-extra fonts-noto-color-emoji fonts-dejavu xindy
 
 ### Commandes
 

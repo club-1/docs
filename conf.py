@@ -30,7 +30,6 @@ version = os.environ['VERSION']
 # ones.
 extensions = [
     'myst_parser',
-    'sphinx.ext.imgconverter',
 ]
 
 # Allow to create implicit reference to headings up to level 6.
