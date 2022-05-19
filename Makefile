@@ -13,7 +13,7 @@ export EMAIL        := nicolas@club1.fr
 
 export LOCALE       := fr
 export LANGUAGES    := $(LOCALE) $(LOCALES)
-export LATEXMKOPTS  := -quiet
+export LATEXMKOPTS  := $(if $(CI),,-quiet)
 
 SPHINXLANG      := -D language=$(LOCALE)
 SPHINXOPTS      += -a $(if $(CI),,-q)
