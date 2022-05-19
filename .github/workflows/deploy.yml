@@ -1,0 +1,50 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  all:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install apt packages
+        run: >
+          sudo apt-get install --no-install-recommends -y
+          gettext
+          imagemagick
+          latexmk
+          texlive-luatex
+          texlive-latex-extra
+          texlive-fonts-recommended
+          fonts-noto-color-emoji
+          fonts-dejavu
+          fonts-urw-base35
+          xindy
+      - name: Install pip packages
+        run: >
+          pip install
+          sphinx==4.5.0
+          myst-parser==0.17.2
+          sphinx-rtd-theme==1.0.0
+      - name: Make all
+        run: make all
+      - name: Install RSA key
+        if: ${{ github.event_name != 'pull_request' }}
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir $HOME/.ssh
+          chmod 700 $HOME/.ssh
+          echo "${{ secrets.RSA_KEY }}" > $HOME/.ssh/id_rsa
+          chmod 600 $HOME/.ssh/id_rsa
+          echo "club1.fr ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBC64tjZ1WjxMMoGeWiipApfCAaQe1sP/YFoNWYtckXV7XfFFKsBf70SHUw/oPjVZ1sdwcIL8wsH8Q00oYMIv7M=" > $HOME/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add $HOME/.ssh/id_rsa
+      - name: Publish
+        if: ${{ github.event_name != 'pull_request' }}
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: make publish USER=docs
