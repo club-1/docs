@@ -18,6 +18,8 @@ jobs:
           texlive-luatex
           texlive-latex-extra
           texlive-fonts-recommended
+          texlive-lang-french
+          texlive-lang-english
           fonts-noto-color-emoji
           fonts-dejavu
           xindy
