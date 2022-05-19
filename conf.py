@@ -94,6 +94,12 @@ today_fmt = '%x'
 # Add numbers to figures
 numfig = True
 
+# List of downloads to include in the site version seletor.
+downloads = []
+
+if "DOWNLOADS" in os.environ:
+    downloads = os.environ['DOWNLOADS'].split(' ')
+
 # -- Options for HTML output -------------------------------------------------
 
 html_favicon = '_static/favicon.ico'
@@ -121,6 +127,7 @@ html_context = {
     'github_repo': 'docs',
     'github_version': f'{version}/',
     'languages': [(lang, f'../{lang}/') for lang in languages],
+    'downloads': [(dl.split('.')[-1], dl) for dl in downloads],
 }
 
 html_theme_options = {
@@ -136,7 +143,6 @@ html_static_path = ['_static']
 
 # The domain is used for code documentation, so no need for it here.
 primary_domain = None
-
 
 # -- Options for MAN output --------------------------------------------------
 
