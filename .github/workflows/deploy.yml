@@ -14,14 +14,12 @@ jobs:
         run: >
           sudo apt-get install --no-install-recommends -y
           gettext
-          imagemagick
           latexmk
           texlive-luatex
           texlive-latex-extra
           texlive-fonts-recommended
           fonts-noto-color-emoji
           fonts-dejavu
-          fonts-urw-base35
           xindy
       - name: Install pip packages
         run: >
