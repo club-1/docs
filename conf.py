@@ -170,6 +170,8 @@ latex_elements = {
     'babel': r'\usepackage{babel}',
     # Use names for colors.
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
+    # Clear default font config.
+    'fontpkg': '',
     # Add custom preamble.
     'preamble': r'\usepackage{club1}',
 }
