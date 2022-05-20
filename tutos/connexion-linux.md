@@ -1,5 +1,5 @@
-Connexion au serveur depuis l'explorateur de fichiers linux
-==========================================================
+Connexion au serveur depuis l'explorateur de fichiers Linux
+===========================================================
 
 Cette méthode permet d'accéder à son [espace personnel](/info/espace-personnel.md) depuis son explorateur de fichiers.
 
