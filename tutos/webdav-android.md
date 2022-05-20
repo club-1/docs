@@ -1,5 +1,5 @@
-Synchronisation d'un appareil Android
-=====================================
+Synchronisation de calendriers et contacts sur un appareil Android
+==================================================================
 
 Cette méthode permet de synchroniser ses conctacts et calendrier entre le serveur et un appareil *Android*.
 

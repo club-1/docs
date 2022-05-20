@@ -1,6 +1,7 @@
 Bonjour
 
-Ceci est un simple fichier contenant des caractères. Avec ça, on peut faire des mots, puis des phrases.
+Ceci est un simple fichier contenant des caractères.
+Avec ça, on peut faire des mots, puis des phrases.
 
 Il n'y a pas de limite.
 
@@ -12,3 +13,13 @@ On peut écrire sa liste de course :
 - du riz
 - du foie de morrue
 - du pamplemousse
+
+
+Si ce fichier n'a pas été automatiquement téléchargé
+utilisez le raccourci clavier suivant :
+
+    Ctrl S
+
+Ou si vous êtes sur un ordinateur Mac :
+
+    Command S

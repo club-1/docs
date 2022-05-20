@@ -36,7 +36,7 @@ La façon la plus rapide et simple de partager un fichier depuis son espace pers
 est de le placer dans le dossier `static`.
 
 ```{note}
-Si ce dossier n'exsite pas, il faut le créer.
+Si ce dossier n'existe pas, il faut le créer.
 ```
 
 Choisissez une image depuis votre ordinateur ou smartphone et
@@ -126,11 +126,20 @@ Essayons donc de créer un fichier de ce type,
 éditer son contenu en écrivant ce qui vous plaît,
 puis le téléverser dans le dossier `static`.
 
-```{note}
-Si vous ne savez pas comment créer un fichier TXT,
-vous pouvez télécharger :download:`celui ci<static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt>`),
+````{note}
+```{only} builder_html
+Si vous ne savez pas comment créer un fichier TXT, vous pouvez
+<a download class="fa fa-download" href="../_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt">
+  télécharger celui-ci
+</a>
 puis l'éditer.
 ```
+```{only} not builder_html
+Si vous ne savez pas comment créer un fichier TXT, vous pouvez
+[télécharger celui-ci](https://club1.fr/docs/fr/_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt),
+puis l'éditer.
+```
+````
 
 Lorsque vous accédez à l'URL correspondant au nom de votre fichier texte,
 vous devriez pouvoir lire ce que vous y avez écrit.
