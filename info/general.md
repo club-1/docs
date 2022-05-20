@@ -29,17 +29,19 @@ est mis à jour régulièrement.
 Un certain nombre de logiciels et de bibliothèques sont déjà installés.
 En voici une liste _non-exhaustive_ :
 
--   Apache 2.4
--   MariaDb 10.5
--   PHP 7.4
--   Python 3.8
--   NodeJs 10.19
--   Composer 1.10
--   pip 20.0
--   npm 7.5.2
--   phpMyAdmin 4.9
--   git 2.25
--   ...
+    Apache       2.4
+    MariaDb     10.5
+    PHP          7.4
+    Python       3.8
+    NodeJs      10.19
+    Composer     1.10
+    pip         20.0
+    npm          7.5
+    phpMyAdmin   4.9
+    git          2.25
+    borg         1.1
+    rsync        3.1
+    unison       2.48
 
 Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de
 **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans
