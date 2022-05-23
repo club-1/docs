@@ -144,6 +144,14 @@ primary_domain = None
 # Show URLs after text in MAN output.
 man_show_urls = True
 
+# -- Options for EPUB output -------------------------------------------------
+
+# Exclude files that are not needed in EPUB format.
+epub_exclude_files = [
+    # Favicon is only needed for HTML output.
+    '_static/favicon.ico',
+    # This file is downloaded from the website.
+    '_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt', ]
 
 # -- Options for LATEX output ------------------------------------------------
 
