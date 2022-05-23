@@ -9,7 +9,7 @@ info/index
 services/index
 tutos/index
 interne/index
-glossary
+glossaire
 ```
 
 
@@ -20,5 +20,4 @@ glossary
    =================
 
    - :ref:`genindex`
-   - :ref:`glossary`
 ```

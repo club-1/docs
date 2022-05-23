@@ -4,21 +4,21 @@ Meta-documentation
 La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
 Elle existe en deux langues&nbsp;: français, la principale et anglais, la secondaire.
 Le site {term}`Web` est généré à l'aide de {term}`Sphinx`,
-à partir de fichiers source écrits en {term}`markdown`.
+à partir de fichiers source écrits en {term}`Markdown`.
 Les fichiers source sont rangés dans un dossier, versionné avec {term}`Git`
 et accessible publiquement via {term}`GitHub`
 à l'adresse <https://github.com/club-1/docs/>.
 
 ```{attention}
 Le language utilisé dans les fichiers source est une extension de
-{term}`markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/).
+{term}`Markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/).
 Il apporte donc quelques spécificités supplémentaires, comme expliqué dans
 leur [guide syntaxique](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html),
 dont il existe aussi une [référence rapide](https://myst-parser.readthedocs.io/en/latest/syntax/reference.html).
 ```
 
-Arborescence du dossier
------------------------
+Arborescence de fichiers
+------------------------
 
 L'arborescence ci-dessous présente un résumé de l'arborescence réelle du dossier
 de la documentation de CLUB1.
@@ -35,16 +35,18 @@ de la documentation de CLUB1.
     ├── ***/
     │   └── ***.md
     ├── AUTHORS
+    ├── glossaire.md
     └── index.md
 
 - `_build/` : dossier contenant l'ensemble des fichiers générés par Sphinx.
 - `_locales/` : dossier contenant les fichiers de traductions.
   Il comporte un dossier par langue avec des fichiers `.po` contenant les
   traductions et des fichiers `.pot` générés automatiquement à partir des
-  fichiers source en markdown.
+  fichiers source en Markdown.
 - `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation, par exemple les images.
 - `_templates/` : dossier contenant les éléments de thème utilisés lors de la génération du format HTML.
 - `AUTHORS` : fichier contenant la liste des auteurs.
+- `glossaire.md` : fichier contenant les termes du glossaire principal.
 - `index.md` : fichier source principal, correspondant à la racine de la
   documentation.
 
@@ -67,26 +69,41 @@ automatiquement compilée et publiée sur le site web de CLUB1.
 
 ```{tip}
 Git regroupe les modifications par ligne.
-Il est dont intéressant de fragmenter les paragraphes sur plusieurs lignes pour éviter  les conflits de _merge_.
+Il est donc intéressant de fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de _merge_.
 Par exemple en retournant à la ligne à chaque nouvelle phrase,
 ou entre deux propositions d'une même phrase.
-Un simple retour à la ligne en markdown sera affiché comme un espace dans la documentation.
+Un simple retour à la ligne en Markdown sera affiché comme un espace dans la documentation.
 ```
 
-### Langue française
+### Langue principale (français)
 
 Pour modifier une page existante, il faut éditer le fichier `.md` correspondant.
 Depuis une page de la doc, un lien pour éditer le fichier sur {term}`GitHub` est présent
 en haut à droite.
+
+Les images à inclure dans le contenu doivent être ajoutées au dossier `_static`
+(voir [plus haut](#arborescence-de-fichiers)).
+Il est intéressant de les y regrouper dans un dossier
+répliquant le chemin de la page dans laquelle elles seront inclues.
+
+```{tip}
+Privilégier un thème clair pour les captures d'écran
+car c'est plus habituel pour les utilisateurs
+et ça utilisera moins d'encre pour la version imprimée.
+```
 
 Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github.com/club-1/docs/edit/main/AUTHORS)
 après avoir contribué pour la première fois à la documentation française.
 
 ### Autres langues
 
-Les traductions, elles, ne sont pas stockées dans des fichiers markdown, mais
+Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, mais
 dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont plus
 facilement éditables via [Weblate](https://hosted.weblate.org/projects/club-1/docs/).
+
+Les traductions doivent suivre le texte d'origine au plus proche.
+Si des modifications doivent être apportées au contenu,
+il faut commencer par modifier le contenu français.
 
 ### Ajouter une page
 
