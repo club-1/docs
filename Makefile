@@ -1,4 +1,5 @@
 # Minimal makefile for Sphinx documentation
+# heavily customized for internationalization.
 #
 # You can set these variables from the command line.
 
@@ -66,19 +67,15 @@ $(LANGUAGES:%=info/%): info/%: texinfo/%
 $(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
 	cp $< $@
 
-$(BUILDDIR)/html/%/club1.pdf: latexpdf/% | $(BUILDDIR)/html/%
-	cp $(BUILDDIR)/latex/$*/club1.pdf $@
-
-$(BUILDDIR)/html/%/club1.epub: epub/% | $(BUILDDIR)/html/%
-	cp $(BUILDDIR)/epub/$*/CLUB1.epub $@
-
 publish:
 	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
 all: $(ALL) $(BUILDDIR)/html/index.html;
-$(ALL): export DOWNLOADS = club1.pdf club1.epub
-$(ALL): all/%: html/% $(BUILDDIR)/html/%/club1.pdf $(BUILDDIR)/html/%/club1.epub;
+$(ALL): export DOWNLOADS = club1-$(@F).pdf club1-$(@F).epub
+$(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
+	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*.pdf
+	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*.epub
 
 # Shinx builders that builds localized versions.
 $(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
