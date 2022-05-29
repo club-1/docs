@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-05-14 16:06+0200\n"
+"POT-Creation-Date: 2022-05-29 20:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../glossary.md:3
+#: ../../glossaire.md:3
 msgid "Glossaire"
 msgstr ""
 
-#: ../../glossary.md:0
+#: ../../glossaire.md:0
 msgid "API"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
@@ -34,11 +34,11 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossary.md:6
+#: ../../glossaire.md:6
 msgid "CLI"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -47,84 +47,84 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossary.md:13
+#: ../../glossaire.md:13
 msgid "Client"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossary.md:18 ../../services/email.md:8
+#: ../../glossaire.md:18 ../../services/email.md:8
 msgid "Client Web"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossary.md:21
+#: ../../glossaire.md:21
 msgid "Git"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git)"
 msgstr ""
 
-#: ../../glossary.md:25
+#: ../../glossaire.md:25
 msgid "GitHub"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossary.md:30
+#: ../../glossaire.md:30
 msgid "Internet"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Internet)"
 msgstr ""
 
-#: ../../glossary.md:34
+#: ../../glossaire.md:34
 msgid "Markdown"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgstr ""
 
-#: ../../glossary.md:38
+#: ../../glossaire.md:38
 msgid "Réseau informatique"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossary.md:42
+#: ../../glossaire.md:42
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -134,11 +134,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossary.md:50
+#: ../../glossaire.md:50
 msgid "Web"
 msgstr ""
 
-#: ../../glossary.md:1
+#: ../../glossaire.md:1
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -157,10 +157,6 @@ msgstr ""
 
 #: ../../index.md:22
 msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../index.md:23
-msgid ":ref:`glossary`"
 msgstr ""
 
 #: ../../info/espace-personnel.md:1
@@ -392,51 +388,7 @@ msgid ""
 "voici une liste _non-exhaustive_ :"
 msgstr ""
 
-#: ../../info/general.md:32
-msgid "Apache 2.4"
-msgstr ""
-
-#: ../../info/general.md:33
-msgid "MariaDb 10.5"
-msgstr ""
-
-#: ../../info/general.md:34
-msgid "PHP 7.4"
-msgstr ""
-
-#: ../../info/general.md:35
-msgid "Python 3.8"
-msgstr ""
-
-#: ../../info/general.md:36
-msgid "NodeJs 10.19"
-msgstr ""
-
-#: ../../info/general.md:37
-msgid "Composer 1.10"
-msgstr ""
-
-#: ../../info/general.md:38
-msgid "pip 20.0"
-msgstr ""
-
-#: ../../info/general.md:39
-msgid "npm 7.5.2"
-msgstr ""
-
-#: ../../info/general.md:40
-msgid "phpMyAdmin 4.9"
-msgstr ""
-
-#: ../../info/general.md:41
-msgid "git 2.25"
-msgstr ""
-
-#: ../../info/general.md:42
-msgid "..."
-msgstr ""
-
-#: ../../info/general.md:44
+#: ../../info/general.md:46
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -444,11 +396,11 @@ msgid ""
 "(#demandes-et-incidents)."
 msgstr ""
 
-#: ../../info/general.md:48
+#: ../../info/general.md:50
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../info/general.md:50
+#: ../../info/general.md:52
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -458,11 +410,11 @@ msgid ""
 "devrait pouvoir être assurée."
 msgstr ""
 
-#: ../../info/general.md:57
+#: ../../info/general.md:59
 msgid "Politique et vie privée"
 msgstr ""
 
-#: ../../info/general.md:60
+#: ../../info/general.md:62
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -575,28 +527,27 @@ msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
 "principale et anglais, la secondaire. Le site {term}`Web` est généré à "
-"l'aide de [Sphinx](https://fr.wikipedia.org/wiki/"
-"Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers source "
-"écrits en {term}`markdown`. Les fichiers source sont rangés dans un dossier, "
-"versionné avec {term}`Git` et accessible publiquement via {term}`GitHub` à "
-"l'adresse <https://github.com/club-1/docs/>."
+"l'aide de {term}`Sphinx`, à partir de fichiers source écrits en {term}"
+"`Markdown`. Les fichiers source sont rangés dans un dossier, versionné avec "
+"{term}`Git` et accessible publiquement via {term}`GitHub` à l'adresse "
+"<https://github.com/club-1/docs/>."
 msgstr ""
 
 #: ../../interne/meta-doc.md:1
 msgid ""
 "Le language utilisé dans les fichiers source est une extension de {term}"
-"`markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). Il "
+"`Markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). Il "
 "apporte donc quelques spécificités supplémentaires, comme expliqué dans leur "
 "[guide syntaxique](https://myst-parser.readthedocs.io/en/latest/syntax/"
 "syntax.html), dont il existe aussi une [référence rapide](https://myst-"
 "parser.readthedocs.io/en/latest/syntax/reference.html)."
 msgstr ""
 
-#: ../../interne/meta-doc.md:21
-msgid "Arborescence du dossier"
+#: ../../interne/meta-doc.md:20
+msgid "Arborescence de fichiers"
 msgstr ""
 
-#: ../../interne/meta-doc.md:24
+#: ../../interne/meta-doc.md:23
 msgid ""
 "L'arborescence ci-dessous présente un résumé de l'arborescence réelle du "
 "dossier de la documentation de CLUB1."
@@ -612,7 +563,7 @@ msgid ""
 "`_locales/` : dossier contenant les fichiers de traductions. Il comporte un "
 "dossier par langue avec des fichiers `.po` contenant les traductions et des "
 "fichiers `.pot` générés automatiquement à partir des fichiers source en "
-"markdown."
+"Markdown."
 msgstr ""
 
 #: ../../interne/meta-doc.md:46
@@ -632,22 +583,26 @@ msgid "`AUTHORS` : fichier contenant la liste des auteurs."
 msgstr ""
 
 #: ../../interne/meta-doc.md:49
+msgid "`glossaire.md` : fichier contenant les termes du glossaire principal."
+msgstr ""
+
+#: ../../interne/meta-doc.md:50
 msgid ""
 "`index.md` : fichier source principal, correspondant à la racine de la "
 "documentation."
 msgstr ""
 
-#: ../../interne/meta-doc.md:52
+#: ../../interne/meta-doc.md:53
 msgid ""
 "Les fichiers et dossier `***` représentent l'ensemble des fichiers source de "
 "la documentation."
 msgstr ""
 
-#: ../../interne/meta-doc.md:55
+#: ../../interne/meta-doc.md:56
 msgid "Proposer des modifications"
 msgstr ""
 
-#: ../../interne/meta-doc.md:58
+#: ../../interne/meta-doc.md:59
 msgid ""
 "L'utilisation de {term}`Git` permet à n'importe qui de proposer des "
 "modifications. Pour cela il est possible de modifier les fichiers "
@@ -658,7 +613,7 @@ msgid ""
 "pour qu'elles soient intégrées à la branche principale."
 msgstr ""
 
-#: ../../interne/meta-doc.md:66
+#: ../../interne/meta-doc.md:67
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
@@ -666,85 +621,96 @@ msgstr ""
 
 #: ../../interne/meta-doc.md:1
 msgid ""
-"Git regroupe les modifications par ligne. Il est dont intéressant de "
-"fragmenter les paragraphes sur plusieurs lignes pour éviter  les conflits de "
+"Git regroupe les modifications par ligne. Il est donc intéressant de "
+"fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de "
 "_merge_. Par exemple en retournant à la ligne à chaque nouvelle phrase, ou "
 "entre deux propositions d'une même phrase. Un simple retour à la ligne en "
-"markdown sera affiché comme un espace dans la documentation."
+"Markdown sera affiché comme un espace dans la documentation."
 msgstr ""
 
-#: ../../interne/meta-doc.md:77
-msgid "Langue française"
+#: ../../interne/meta-doc.md:78
+msgid "Langue principale (français)"
 msgstr ""
 
-#: ../../interne/meta-doc.md:79
+#: ../../interne/meta-doc.md:80
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
 "{term}`GitHub` est présent en haut à droite."
 msgstr ""
 
-#: ../../interne/meta-doc.md:83
+#: ../../interne/meta-doc.md:84
+msgid ""
+"Les images à inclure dans le contenu doivent être ajoutées au dossier "
+"`_static` (voir [plus haut](#arborescence-de-fichiers)). Il est intéressant "
+"de les y regrouper dans un dossier répliquant le chemin de la page dans "
+"laquelle elles seront inclues."
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid ""
+"Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
+"pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
+msgstr ""
+
+#: ../../interne/meta-doc.md:95
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
 "fois à la documentation française."
 msgstr ""
 
-#: ../../interne/meta-doc.md:86
+#: ../../interne/meta-doc.md:98
 msgid "Autres langues"
 msgstr ""
 
-#: ../../interne/meta-doc.md:88
+#: ../../interne/meta-doc.md:100
 msgid ""
-"Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
+"Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
 "plus facilement éditables via [Weblate](https://hosted.weblate.org/projects/"
 "club-1/docs/)."
 msgstr ""
 
-#: ../../interne/meta-doc.md:92
+#: ../../interne/meta-doc.md:104
 msgid ""
-"![Translation status](https://hosted.weblate.org/widgets/club-1/-/docs/multi-"
-"auto.svg)"
+"Les traductions doivent suivre le texte d'origine au plus proche. Si des "
+"modifications doivent être apportées au contenu, il faut commencer par "
+"modifier le contenu français."
 msgstr ""
 
-#: ../../interne/meta-doc.md:92
-msgid "Translation status"
-msgstr ""
-
-#: ../../interne/meta-doc.md:94
+#: ../../interne/meta-doc.md:108
 msgid "Ajouter une page"
 msgstr ""
 
-#: ../../interne/meta-doc.md:96
+#: ../../interne/meta-doc.md:110
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
 "md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
 "`{toctree}` d'un fichier `index.md` (s'inspirer de l'existant)."
 msgstr ""
 
-#: ../../interne/meta-doc.md:100
+#: ../../interne/meta-doc.md:114
 msgid "Références"
 msgstr ""
 
-#: ../../interne/meta-doc.md:103
+#: ../../interne/meta-doc.md:117
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
 msgstr ""
 
-#: ../../interne/meta-doc.md:104
+#: ../../interne/meta-doc.md:118
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
-#: ../../interne/meta-doc.md:106
+#: ../../interne/meta-doc.md:120
 msgid "Compilation"
 msgstr ""
 
-#: ../../interne/meta-doc.md:109
+#: ../../interne/meta-doc.md:123
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -754,87 +720,131 @@ msgid ""
 "proposer."
 msgstr ""
 
-#: ../../interne/meta-doc.md:116
-msgid "Prérequis"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Logiciel"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Détails"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Make"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Gestionnaire de compilation"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Sphinx"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Compilateur de documentation"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Shpinx-rtd-theme"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Thème ReadTheDocs pour Sphinx"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "MyST-Parser"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "Prise en charge du Markdown par Sphinx"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "gettext"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "(Optionnel) Mise-à-jour des fichiers de locales"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "imagemagick"
-msgstr ""
-
-#: ../../interne/meta-doc.md:69
-msgid "(Optionnel) Conversion des SVG pour le PDF LaTeX"
-msgstr ""
-
-#: ../../interne/meta-doc.md:127
-msgid "Linux basé sur Debian"
+#: ../../interne/meta-doc.md:130
+msgid "Prérequis communs"
 msgstr ""
 
 #: ../../interne/meta-doc.md:132
+msgid ""
+"Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
+"format de sortie désiré&nbsp;:"
+msgstr ""
+
+#: ../../interne/meta-doc.md:0
+msgid "Make"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Gestionnaire de compilation."
+msgstr ""
+
+#: ../../interne/meta-doc.md:3
+msgid "Sphinx"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid ""
+"Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
+msgstr ""
+
+#: ../../interne/meta-doc.md:6
+msgid "MyST-Parser"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Plugin Sphinx permettant la prise en charge du Markdown."
+msgstr ""
+
+#: ../../interne/meta-doc.md:9
+msgid "Shpinx-rtd-theme"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
+msgstr ""
+
+#: ../../interne/meta-doc.md:12
+msgid "gettext"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "_(Optionnel)_ Pour les locales autres que Français."
+msgstr ""
+
+#: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:178
+msgid "Installation sur *Debian*&nbsp;:"
+msgstr ""
+
+#: ../../interne/meta-doc.md:156
+msgid "_(Optionnel)_ Prérequis pour le format PDF"
+msgstr ""
+
+#: ../../interne/meta-doc.md:0
+msgid "Latexmk"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Gestionnaire de compilation de documents LaTeX."
+msgstr ""
+
+#: ../../interne/meta-doc.md:3
+msgid "LuaTeX"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Moteur de rendu TeX scriptable en Lua."
+msgstr ""
+
+#: ../../interne/meta-doc.md:6
+msgid "TeX Live"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
+msgstr ""
+
+#: ../../interne/meta-doc.md:9
+msgid "Noto Color Emoji"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Police de caractères contenant les emojis unicode en couleur."
+msgstr ""
+
+#: ../../interne/meta-doc.md:12
+msgid "DejaVu"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Police de caractères utilisée pour le texte monospace."
+msgstr ""
+
+#: ../../interne/meta-doc.md:15
+msgid "xindy"
+msgstr ""
+
+#: ../../interne/meta-doc.md:1
+msgid "Générateur d'index internationnalisé pour LaTeX."
+msgstr ""
+
+#: ../../interne/meta-doc.md:182
 msgid "Commandes"
 msgstr ""
 
-#: ../../interne/meta-doc.md:134
+#: ../../interne/meta-doc.md:184
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
 msgstr ""
 
-#: ../../interne/meta-doc.md:138
+#: ../../interne/meta-doc.md:188
 msgid "Compilation d'une locale spécifique&nbsp;:"
 msgstr ""
 
-#: ../../interne/meta-doc.md:142
+#: ../../interne/meta-doc.md:192
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
 msgstr ""
 
-#: ../../interne/meta-doc.md:146
+#: ../../interne/meta-doc.md:196
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -844,7 +854,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/drive.md:1
-msgid "Explorateur de fichiers Web"
+msgid "Explorateur de fichiers Web *Drive*"
 msgstr ""
 
 #: ../../services/drive.md:4
@@ -1442,7 +1452,7 @@ msgid "[](/tutos/webdav-android.md)"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:1
-msgid "Connexion au serveur depuis l'explorateur de fichiers linux"
+msgid "Connexion au serveur depuis l'explorateur de fichiers Linux"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:4
@@ -1580,7 +1590,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:4
 msgid ""
-"Vous connaissez le Web ? ça vous dirais d'y participer ? Pas mettre un post "
+"Vous connaissez le Web ? Ça vous dirait d'y participer ? Pas mettre un post "
 "sur facebook, ça c'est juste remplir un formulaire. Mais plutôt de rajouter "
 "une pierre à ce gigantesque édifice."
 msgstr ""
@@ -1636,7 +1646,7 @@ msgid "Partager un fichier sur le Web"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:33
-msgid "découverte du dossier `static`"
+msgid "Découverte du dossier `static`"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:35
@@ -1646,7 +1656,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:1
-msgid "Si ce dossier n'exsite pas, il faut le créer."
+msgid "Si ce dossier n'existe pas, il faut le créer."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:42
@@ -1769,7 +1779,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:117
-msgid "écrire du texte sur le Web"
+msgid "Écrire du texte sur le Web"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:119
@@ -1793,28 +1803,35 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:1
 msgid ""
-"Si vous ne savez pas comment créer un fichier TXT, vous pouvez télécharger :"
-"download:`celui ci<static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt>`), "
-"puis l'éditer."
+"Si vous ne savez pas comment créer un fichier TXT, vous pouvez <a download "
+"class=\"fa fa-download\" href=\"../_static/tutos/mes-premiers-pas-sur-le-web/"
+"bonjour.txt\">   télécharger celui-ci </a> puis l'éditer."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:135
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:1
+msgid ""
+"Si vous ne savez pas comment créer un fichier TXT, vous pouvez [télécharger "
+"celui-ci](https://club1.fr/docs/fr/_static/tutos/mes-premiers-pas-sur-le-web/"
+"bonjour.txt), puis l'éditer."
+msgstr ""
+
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:144
 msgid ""
 "Lorsque vous accédez à l'URL correspondant au nom de votre fichier texte, "
 "vous devriez pouvoir lire ce que vous y avez écrit."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:138
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:147
 msgid ""
 "![aperçu d'un fichier texte](/_static/tutos/mes-premiers-pas-sur-le-web/"
 "screen_002.png)"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:138
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:147
 msgid "aperçu d'un fichier texte"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:140
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:149
 msgid ""
 "C'est une façon simple et efficace de publier du texte en ligne. Juste avec "
 "cette méthode, il est déjà possible de faire un embryon de site web. "
@@ -1822,32 +1839,32 @@ msgid ""
 "encore, __faire des liens__."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:145
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:154
 msgid ""
 "Pour cela, il nous faut apprendre à manipuler un language spécifique au web."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:147
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:156
 msgid "Le language HTML"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:150
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:159
 msgid "Premiers pas"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:152
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:161
 msgid ""
 "Reprenons notre fichier TXT. Au dessus de ce que vous aviez précédement "
 "écrit, rajoutez la ligne suivante :"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:159
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:168
 msgid ""
 "Au lieu d'enregistrer le fichier sous un `.txt`, enregistrez le avec un `."
 "html`"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:162
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:171
 msgid "Le fichier `bonjour.txt` deviendrait `bonjour.html`"
 msgstr ""
 
@@ -1857,28 +1874,28 @@ msgid ""
 "\"enregistrer sous\" depuis votre éditeur de texte."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:169
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:178
 msgid ""
 "Maintenant, téléversez à nouveau le fichier dans votre dossier `static`, "
 "accèdez à l'URL correspondante depuis votre naviguateur et découvrez le "
 "résultat !"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:173
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:182
 msgid "![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:173
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:182
 msgid "html"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:175
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:184
 msgid ""
 "Félicitation ! Vous venez de mettre en ligne votre première page Web "
 "contenant du HTML. 🎉"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:178
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:187
 msgid ""
 "Maintenant, regardons plus attentivement la ligne que nous venons d'ajouter. "
 "Le texte \"Bienvenue\" s'est vu affiché, __mais pas les élements `<h1>` et "
@@ -1886,33 +1903,33 @@ msgid ""
 "utilisés pour rajouter des informations à notre texte."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:184
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:193
 msgid ""
 "En l'occurence, la balise `<h1>` signigie : *les caractères qui suivent font "
 "parti d'un titre de niveau 1*. Il s'agît d'une balise __ouvrante__."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:188
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:197
 msgid ""
 "Tandis que la balise `</h1>` signifie : *les caractères qui suivent ne font "
 "__plus__ parti d'un titre de niveau 1*. Cette dernière est donc une balise "
 "dite __fermante__."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:192
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:201
 msgid ""
 "Ces balises forment un couple, on les appelles des __balises doubles__. à "
 "elles deux, elles attribuent un statut à ce qu'elles entourent."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:195
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:204
 msgid ""
 "Le naviguateur Web, de son côté, a interprêté ces balises et à *compris* que "
 "\"Bienvenue\" est un \"titre de niveau 1\". Il applique ensuite un style par "
 "défaut associé à ce statut."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:199
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:208
 msgid ""
 "C'est globalement comme cela que fonctionne la language HTML, tout du moins "
 "les balises doubles. Evidement, il existe [des balises pour de nombreux "
@@ -1923,25 +1940,25 @@ msgid ""
 "mozilla.org/fr/docs/Web/HTML/Element/p)."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:207
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:216
 msgid "Editer en local"
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:209
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:218
 msgid ""
 "Comme on commence à modifier souvent notre fichier, au lieu de devoir à "
 "chaque fois mettre à jour nos modificactions en le téléversant sur le "
 "serveur, on va le modifier et l'afficher __en local__."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:213
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:222
 msgid ""
 "💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML. Il suffit "
 "de l'ouvrir avec votre naviguateur directement (par exemple en double "
 "cliquant dessus ou en le glissant dans votre naviguateur)."
 msgstr ""
 
-#: ../../tutos/mes-premiers-pas-sur-le-web.md:217
+#: ../../tutos/mes-premiers-pas-sur-le-web.md:226
 msgid ""
 "C'est une façon de travailler qui consiste à ne pas mettre à jour sa page "
 "web à chaque essais, que l'on fait en local, mais plutôt à chaque fois que "
@@ -1949,7 +1966,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/webdav-android.md:1
-msgid "Synchronisation d'un appareil Android"
+msgid "Synchronisation de calendriers et contacts sur un appareil Android"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:4
@@ -1990,118 +2007,123 @@ msgstr ""
 #: ../../tutos/webdav-android.md:18
 msgid ""
 "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
-"gestion des tâches."
+"gestion des tâches ({numref}`fig:taches`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:20
-msgid "![gestion des tâches](/_static/tutos/webdav-android/screen_001.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran gestion des tâches"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:20
-msgid "gestion des tâches"
+#: ../../tutos/webdav-android.md:1
+msgid "Gestion des tâches."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:22
-msgid "Puis, autorisez lui l'accès aux contacts et aux agendas (tout)."
+#: ../../tutos/webdav-android.md:29
+msgid ""
+"Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
+"autorisations`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:25
-msgid "![autorisations](/_static/tutos/webdav-android/screen_002.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran autorisations"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:25
-msgid "autorisations"
+#: ../../tutos/webdav-android.md:1
+msgid "Accorder les autorisations."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:27
+#: ../../tutos/webdav-android.md:41
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
-"intervalles réguliers."
+"intervalles réguliers ({numref}`fig:intervalles`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:29
-msgid "![synchro à intervals](/_static/tutos/webdav-android/screen_003.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran synchro à intervalles"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:29
-msgid "synchro à intervals"
+#: ../../tutos/webdav-android.md:1
+msgid "Synchronisation à intervalles réguliers."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:32
+#: ../../tutos/webdav-android.md:53
 msgid "Ajout du compte DAV"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:35
+#: ../../tutos/webdav-android.md:56
 msgid ""
 "Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton "
-"orange en bas à droite."
+"orange en bas à droite ({numref}`fig:accueil`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:37
-msgid "![menu principal](/_static/tutos/webdav-android/screen_004.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran accueil"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:37
-msgid "menu principal"
+#: ../../tutos/webdav-android.md:1
+msgid "Écran d'accueil de DAVx5."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:40
+#: ../../tutos/webdav-android.md:67
 msgid ""
 "Sélectionner la deuxième option&nbsp;: \"Connexion avec une URL et un nom "
-"d'utilisateur\"."
+"d'utilisateur\" ({numref}`fig:connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:42
-msgid ""
-"![connexion avec nom d'utilisateur](/_static/tutos/webdav-android/screen_005."
-"png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran connexion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:42
-msgid "connexion avec nom d'utilisateur"
+#: ../../tutos/webdav-android.md:1
+msgid "Connexion avec une URL et un nom d'utilisateur."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:44
+#: ../../tutos/webdav-android.md:78
 msgid "URL de base&nbsp;:"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:48
+#: ../../tutos/webdav-android.md:82
 msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:51
+#: ../../tutos/webdav-android.md:85
 msgid ""
 "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
 "pour ce compte qui risque fortement de ressembler à votre adresse email "
 "CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on identifie "
 "un couple `user@server`. Un dernier petit détail&nbsp;: Il est recommandé "
 "d'utiliser la méthode \"Les groupes sont des catégories pour chacun des "
-"contacts\" pour être compatible avec le client web mail de CLUB1."
+"contacts\" pour être compatible avec le client web mail de CLUB1 ({numref}"
+"`fig:groupes`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:56
-msgid "![groupes](/_static/tutos/webdav-android/screen_006.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran groupes"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:56 ../../tutos/webdav-android.md:65
-msgid "groupes"
+#: ../../tutos/webdav-android.md:1
+msgid "Méthode de stockage des groupes."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:58
+#: ../../tutos/webdav-android.md:99
 msgid "Encore une dernière étape&nbsp;: quoi synchroniser&nbsp;?"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:60
+#: ../../tutos/webdav-android.md:101
 msgid ""
 "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
-"vous souhaitez synchroniser sur votre téléphone. Pour cela, il suffit de les "
-"cocher en naviguant entre les onglets \"Carnets d'adresses\" et \"Agendas\". "
-"Il sera toujours possible d'accèder et modifier ces réglages  plus tard très "
-"facilement."
+"vous souhaitez synchroniser sur votre téléphone ({numref}`fig:selection`). "
+"Pour cela, il suffit de les cocher en naviguant entre les onglets \"Carnets "
+"d'adresses\" et \"Agendas\". Il sera toujours possible d'accèder et modifier "
+"ces réglages  plus tard très facilement."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:65
-msgid "![groupes](/_static/tutos/webdav-android/screen_007.png)"
+#: ../../tutos/webdav-android.md:1
+msgid "capture d'écran sélection"
+msgstr ""
+
+#: ../../tutos/webdav-android.md:1
+msgid "Liste des carnets d'adresses disponibles."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:1
@@ -2110,24 +2132,24 @@ msgid ""
 "y en aura toujours un qui s'appelle&nbsp;: \"Default\"."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:72
+#: ../../tutos/webdav-android.md:119
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:74
+#: ../../tutos/webdav-android.md:121
 msgid ""
 "À chaque fois que vous faites des modifications à cet endroit, il est "
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
 "bas à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:77
+#: ../../tutos/webdav-android.md:124
 msgid "Conclusion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:80
+#: ../../tutos/webdav-android.md:127
 msgid ""
 "Et voilà ! Si tout va bien, vous avez réussi à synchroniser vos contacts et/"
 "ou calendriers entre le serveur CLUB1 et un appareil *Android*. Les carnets "
@@ -2135,31 +2157,31 @@ msgid ""
 "l'appli de contact de votre choix et l'appli de calendrier de votre choix."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:84
+#: ../../tutos/webdav-android.md:131
 msgid ""
 "Si vous préferez utiliser des applis *open sources* et non orientés "
 "*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:86
+#: ../../tutos/webdav-android.md:133
 msgid ""
 "[Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "contacts.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:87
+#: ../../tutos/webdav-android.md:134
 msgid ""
 "[Contact Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.contacts&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:88
+#: ../../tutos/webdav-android.md:135
 msgid ""
 "[Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "calendar.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:89
+#: ../../tutos/webdav-android.md:136
 msgid ""
 "[Calendar Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
