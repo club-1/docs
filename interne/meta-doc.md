@@ -165,9 +165,6 @@ LuaTeX
 TeX Live
    Distribution LaTeX comprenant un ensemble de paquets supplémentaires.
 
-Noto Color Emoji
-   Police de caractères contenant les emojis unicode en couleur.
-
 DejaVu
    Police de caractères utilisée pour le texte monospace.
 
@@ -177,7 +174,7 @@ xindy
 
 Installation sur *Debian*&nbsp;:
 
-    sudo apt install latexmk texlive-luatex texlive-latex-extra fonts-noto-color-emoji fonts-dejavu xindy
+    sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy
 
 ### Commandes
 
