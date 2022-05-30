@@ -1,0 +1,4 @@
+;;;; Customisations du style d'index xindy
+
+;; Utilise la commande \idxopen pour séparer un terme de sa référence.
+(markup-locclass-list :open "\idxopen" :sep ", ")

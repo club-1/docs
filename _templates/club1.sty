@@ -43,3 +43,12 @@
 	warningBgColor={named}{LemonChiffon}
 }
 
+% Commence la numérotation avec des lettres pour les pages de titres.
+\pagenumbering{alph}
+
+% Affichage de l'index en 3 colones au lieu de 2.
+\RequirePackage[columns=3]{idxlayout}
+
+% Définit une commande d'espacement spécifiquement utilisé pour l'index.
+% Remplis l'espace avec une ligne de points alignés verticalement.
+\newcommand \idxopen {\leavevmode \leaders \hb@xt@ .66em{\hss .\hss }\hfill \kern \z@}
