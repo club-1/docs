@@ -226,3 +226,7 @@ Il suffit de l'ouvrir avec votre naviguateur directement
 C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
 que l'on fait en local,
 mais plutôt à chaque fois que l'on est satisfait de ses modifications.
+
+```{raw} latex
+\clearpage
+```

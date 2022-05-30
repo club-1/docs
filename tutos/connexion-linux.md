@@ -42,3 +42,7 @@ Selon votre explorateur de fichiers&nbsp;:
 - Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "ajouter marque-page", ou autre formulation similaire
 
 Vous pouvez désormais modifier tous vos fichiers facilement depuis votre explorateur de fichiers&nbsp;!
+
+```{raw} latex
+\clearpage
+```

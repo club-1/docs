@@ -138,3 +138,6 @@ Si vous préferez utiliser des applis *open sources* et non orientés *Google*, 
 
 
 
+```{raw} latex
+\clearpage
+```
