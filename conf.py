@@ -171,6 +171,8 @@ latex_elements = {
     'papersize': 'a4paper',
     # Make sure to use babel instead of polyglossia.
     'babel': r'\usepackage{babel}',
+    # Add version in content.
+    'releasename': version,
     # Use names for colors.
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
     # Clear default font config.
