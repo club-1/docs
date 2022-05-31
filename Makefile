@@ -7,9 +7,12 @@ LOCALES         := en
 LOCALEDIR       := _locales
 LOCALEFILES     := $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/package.po) $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/sphinx.po)
 
+DATE                := $(shell date +%F)
+REVISION            := $(shell git describe --always --dirty)
+
 export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
-export VERSION      := main
+export VERSION      := $(DATE)-g$(REVISION)
 export EMAIL        := nicolas@club1.fr
 
 export LOCALE       := fr
@@ -73,10 +76,10 @@ publish:
 
 # Build the full docs ready to be published for a language
 all: $(ALL) $(BUILDDIR)/html/index.html;
-$(ALL): export DOWNLOADS = club1-$(@F).pdf club1-$(@F).epub
+$(ALL): export DOWNLOADS = club1-$(@F)-$(VERSION).pdf club1-$(@F)-$(VERSION).epub
 $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
-	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*.pdf
-	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*.epub
+	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(VERSION).pdf
+	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*-$(VERSION).epub
 
 # Shinx builders that builds localized versions.
 $(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
