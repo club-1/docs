@@ -29,6 +29,11 @@ jobs:
           sphinx==4.5.0
           myst-parser==0.17.2
           sphinx-rtd-theme==1.0.0
+      - name: Restore LuaTex cache
+        uses: actions/cache@v3
+        with:
+          path: .texlive2021
+          key: ${{ runner.os }}-texlive2021
       - name: Make all
         run: make update-po all
       - name: Install RSA key
