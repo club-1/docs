@@ -29,10 +29,8 @@ jobs:
           sphinx==4.5.0
           myst-parser==0.17.2
           sphinx-rtd-theme==1.0.0
-      - name: Update po files
-        run: make update-po
       - name: Make all
-        run: make all
+        run: make update-po all
       - name: Install RSA key
         if: ${{ github.event_name != 'pull_request' }}
         env:
