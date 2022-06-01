@@ -57,4 +57,6 @@ mais il existe quelques différences&nbsp;:
 1. Le fichier à modifier est `/etc/aliases_senders`.
 2. Il ne faut PAS mettre de `:` entre la clé et la valeur.
 3. Il faut toujours indiquer l'email complet avec `@club1.fr`.
-4. La commande pour regénérer la base de données est `/usr/sbin/postmap hash:/etc/aliases_senders`.
+4. La commande pour regénérer la base de données est :
+
+       /usr/sbin/postmap hash:/etc/aliases_senders

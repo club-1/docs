@@ -5,7 +5,7 @@ SSH (_Secure SHell_) permet de se connecter à distance en {term}`CLI` au serveu
 L'accès SSH peut se révéler très utile, surtout pour les utilisateurs avancés.
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
-utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est
+utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est
 nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows).
 
 Avant de se connecter pour le première fois
