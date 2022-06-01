@@ -23,6 +23,12 @@ jobs:
           texlive-lang-english
           fonts-dejavu
           xindy
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/deploy.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
       - name: Install pip packages
         run: >
           pip install
@@ -32,7 +38,7 @@ jobs:
       - name: Restore LuaTex cache
         uses: actions/cache@v3
         with:
-          path: .texlive2021
+          path: ~/.texlive2021
           key: ${{ runner.os }}-texlive2021
       - name: Make all
         run: make update-po all
