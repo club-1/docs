@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Hébergement CLUB1 main\n"
+"Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-05-29 20:39+0200\n"
+"POT-Creation-Date: 2022-06-01 18:09+0200\n"
 "PO-Revision-Date: 2022-05-15 16:47+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -580,12 +580,8 @@ msgid "Il faut toujours indiquer l'email complet avec `@club1.fr`."
 msgstr "You must always specify the complete email address with `@club1.fr`."
 
 #: ../../interne/aliases.md:60
-msgid ""
-"La commande pour regénérer la base de données est `/usr/sbin/postmap hash:/"
-"etc/aliases_senders`."
-msgstr ""
-"The command used to regenerate the database is `/usr/sbin/postmap hash:/etc/"
-"aliases_senders`."
+msgid "La commande pour regénérer la base de données est :"
+msgstr "The command used to regenerate the database is:"
 
 #: ../../interne/index.md:1
 msgid "Documentation interne"
@@ -954,7 +950,7 @@ msgstr "gettext"
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr ""
 
-#: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:178
+#: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:175
 msgid "Installation sur *Debian*&nbsp;:"
 msgstr ""
 
@@ -989,14 +985,6 @@ msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr ""
 
 #: ../../interne/meta-doc.md:9
-msgid "Noto Color Emoji"
-msgstr ""
-
-#: ../../interne/meta-doc.md:1
-msgid "Police de caractères contenant les emojis unicode en couleur."
-msgstr ""
-
-#: ../../interne/meta-doc.md:12
 msgid "DejaVu"
 msgstr ""
 
@@ -1004,7 +992,7 @@ msgstr ""
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr ""
 
-#: ../../interne/meta-doc.md:15
+#: ../../interne/meta-doc.md:12
 msgid "xindy"
 msgstr ""
 
@@ -1012,23 +1000,23 @@ msgstr ""
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr ""
 
-#: ../../interne/meta-doc.md:182
+#: ../../interne/meta-doc.md:179
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:184
+#: ../../interne/meta-doc.md:181
 msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:188
+#: ../../interne/meta-doc.md:185
 msgid "Compilation d'une locale spécifique&nbsp;:"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:192
+#: ../../interne/meta-doc.md:189
 msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:196
+#: ../../interne/meta-doc.md:193
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1510,7 +1498,7 @@ msgstr ""
 #: ../../services/ssh.md:7
 msgid ""
 "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
-"utilisé. Comme il s'agit dans logiciel en *ligne de commande*, il est "
+"utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est "
 "nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
 msgstr ""
 "In this section [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) will be "
