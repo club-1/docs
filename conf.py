@@ -21,6 +21,7 @@ project = os.environ['PACKAGE']
 copyright = '2022, ' + os.environ['AUTHORS']
 author = os.environ['AUTHORS']
 version = os.environ['VERSION']
+release = os.environ['RELEASE']
 
 
 # -- General configuration ---------------------------------------------------
@@ -117,6 +118,7 @@ html_copy_source = False
 html_show_sourcelink = language == 'fr'
 
 html_context = {
+    'version': release,
     'display_github': language == 'fr',
     'github_user': 'club-1',
     'github_repo': 'docs',
@@ -171,8 +173,6 @@ latex_elements = {
     'papersize': 'a4paper',
     # Make sure to use babel instead of polyglossia.
     'babel': r'\usepackage{babel}',
-    # Add version in content.
-    'releasename': version,
     # Uniformization of chapter style, disable Sphinx default.
     'fncychap': '',
     # Use names for colors.
