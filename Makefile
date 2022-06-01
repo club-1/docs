@@ -12,7 +12,8 @@ REVISION            := $(shell git describe --always --dirty)
 
 export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
-export VERSION      := $(DATE)-g$(REVISION)
+export VERSION      := main
+export RELEASE      := $(DATE)-g$(REVISION)
 export EMAIL        := nicolas@club1.fr
 
 export LOCALE       := fr
@@ -78,10 +79,10 @@ publish:
 
 # Build the full docs ready to be published for a language
 all: $(ALL) $(BUILDDIR)/html/index.html;
-$(ALL): export DOWNLOADS = club1-$(@F)-$(VERSION).pdf club1-$(@F)-$(VERSION).epub
+$(ALL): export DOWNLOADS = club1-$(@F)-$(RELEASE).pdf club1-$(@F)-$(RELEASE).epub
 $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
-	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(VERSION).pdf
-	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*-$(VERSION).epub
+	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).pdf
+	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).epub
 
 # Shinx builders that builds localized versions.
 $(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
