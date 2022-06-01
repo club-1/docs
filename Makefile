@@ -6,6 +6,7 @@
 LOCALES         := en
 LOCALEDIR       := _locales
 LOCALEFILES     := $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/package.po) $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/sphinx.po)
+UPDATEPO        := $(filter update-po,$(MAKECMDGOALS))
 
 DATE                := $(shell date +%F)
 REVISION            := $(shell git describe --always --dirty)
@@ -38,14 +39,12 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
-.PHONY: help clean .update-po update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+.PHONY: help clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
 $(DIRS):
 	mkdir -p $@
 
-.update-po: $(LOCALEFILES);
-update-po:
-	@$(MAKE) --no-print-directory .update-po UPDATEPO=true
+update-po: $(LOCALEFILES);
 
 %.mo: %.po
 	msgfmt -o $@ $<
