@@ -173,6 +173,8 @@ latex_elements = {
     'babel': r'\usepackage{babel}',
     # Add version in content.
     'releasename': version,
+    # Uniformization of chapter style, disable Sphinx default.
+    'fncychap': '',
     # Use names for colors.
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
     # Clear default font config.
