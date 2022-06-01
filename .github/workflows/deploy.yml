@@ -23,7 +23,8 @@ jobs:
           texlive-lang-english
           fonts-dejavu
           xindy
-      - uses: actions/cache@v3
+      - name: Restore pip cache
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/deploy.yml') }}
