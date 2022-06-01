@@ -37,18 +37,20 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+.PHONY: help clean .update-po update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
 $(DIRS):
 	mkdir -p $@
 
-update-po: $(LOCALEFILES);
+.update-po: $(LOCALEFILES);
+update-po:
+	@$(MAKE) --no-print-directory .update-po UPDATEPO=true
 
 %.mo: %.po
 	msgfmt -o $@ $<
 
 .SECONDEXPANSION:
-$(LOCALEFILES): $(LOCALEDIR)/%.po: $(LOCALEDIR)/$$(*F).pot
+$(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
 	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
 
