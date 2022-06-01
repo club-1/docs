@@ -43,8 +43,14 @@
 	warningBgColor={named}{LemonChiffon}
 }
 
+% Augmentation de la marge intérieure.
+\geometry{inner=33mm}
+
 % Commence la numérotation avec des lettres pour les pages de titres.
 \pagenumbering{alph}
+
+% Utilisation du thème d'entête de chapitres "Bjornstrup".
+\RequirePackage[Bjornstrup]{fncychap}
 
 % Affichage de l'index en 3 colones au lieu de 2.
 \RequirePackage[columns=3]{idxlayout}
