@@ -24,10 +24,9 @@ jobs:
           xindy
       - name: Install TwemojiMozilla font
         run: |
-          mkdir ~/.fonts
           wget -nv https://github.com/mozilla/twemoji-colr/releases/download/v0.6.0/TwemojiMozilla.ttf
-          SHA256SUMCHECK="$(echo 'e52ebdb734105d3d634936b5ee436b2b91bed9c0200f0e9c84c7d663224610c7  TwemojiMozilla.ttf' | sha256sum -c)"
-          [ "$SHA256SUMCHECK"  == 'TwemojiMozilla.ttf: OK' ] || exit 1
+          echo 'e52ebdb734105d3d634936b5ee436b2b91bed9c0200f0e9c84c7d663224610c7  TwemojiMozilla.ttf' | sha256sum -c
+          mkdir ~/.fonts
           mv TwemojiMozilla.ttf ~/.fonts/
           fc-cache
       - name: Restore pip cache
