@@ -1,8 +1,11 @@
 Connexion à distance SSH
 ========================
 
-SSH (_Secure SHell_) permet de se connecter à distance en {term}`CLI` au serveur CLUB1.
-L'accès SSH peut se révéler très utile, surtout pour les utilisateurs avancés.
+```{glossary}
+SSH
+   (_Secure SHell_) Protocole permettant de se connecter à distance en {term}`CLI` à un serveur.
+   L'accès SSH peut se révéler très utile, surtout pour les utilisateurs avancés.
+```
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
 utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est
