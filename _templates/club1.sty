@@ -58,3 +58,10 @@
 % Définit une commande d'espacement spécifiquement utilisé pour l'index.
 % Remplis l'espace avec une ligne de points alignés verticalement.
 \newcommand \idxopen {\leavevmode \leaders \hb@xt@ .66em{\hss .\hss }\hfill \kern \z@}
+
+% Customisation des tableaux.
+% Élargissement du padding des cellules.
+\setlength{\tabcolsep}{10pt} % horizontal, defaut : 6pt
+\renewcommand\arraystretch{1.5} % vertical
+% Style de texte de la ligne de titre (Sans serif gras).
+\renewcommand\sphinxstyletheadfamily{\sffamily\bfseries}
