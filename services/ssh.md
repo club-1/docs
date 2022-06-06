@@ -31,7 +31,8 @@ l'avertissement avec celle fournie par l'administrateur. À la place, il est
 préférable d'ajouter la clé avant le première connexion avec la commande
 suivante&nbsp;:
 
-    echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 >> ~/.ssh/known_hosts
+    echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 \
+    >> ~/.ssh/known_hosts
 
 ```{tip}
 Si pour une quelconque raison la comparaison manuelle est préférée,
