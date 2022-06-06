@@ -1,7 +1,7 @@
 % Paquet LaTeX permettant de customiser le rendu du PDF.
 \ProvidesPackage{club1}[2022/05/17 Customisations LaTeX CLUB1]
 
-% Définition de NotoColorEmoji comme police de substitution
+% Définition de TwemojiMozilla comme police de substitution
 % pour pouvoir l'utiliser lorsque des caractères sont introuvables,
 % notamment lorsqu'il s'agit d'emojis.
 \directlua{
@@ -9,7 +9,7 @@
 }
 % Définition des polices du document,
 % en spécifiant la police de substitution.
-\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji}]
+\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji},SmallCapsFont={* Caps}]
 \setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
 \setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
 
@@ -51,6 +51,16 @@
 
 % Utilisation du thème d'entête de chapitres "Bjornstrup".
 \RequirePackage[Bjornstrup]{fncychap}
+% Customisation du thème Bjornstrup pour éviter les erreurs overfull hbox.
+% Voir https://tex.stackexchange.com/a/133064
+\renewcommand{\DOCH}{
+	\settowidth{\py}{\CNoV\thechapter}
+	\addtolength{\py}{-7pt} % Décalage du nombre vers la droite.
+	\fboxsep=0pt
+	\colorbox[gray]{.85}{\rule{0pt}{40pt}\parbox[b]{\textwidth}{\hfill}}
+	\kern-\py\raise20pt
+	\rlap{\color[gray]{.5}\CNoV\thechapter}\\
+}
 
 % Affichage de l'index en 3 colones au lieu de 2.
 \RequirePackage[columns=3]{idxlayout}
