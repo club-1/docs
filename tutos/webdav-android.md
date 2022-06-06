@@ -15,9 +15,9 @@ Cette application est payante (6€) sur le magasin d'applications de Google ou 
 Premier lancement
 -----------------
 
-Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la gestion des tâches ({numref}`fig:taches`).
+Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la gestion des tâches ({numref}`fig:tutos-webdav-android-taches`).
 
-(fig:taches)=
+(fig:tutos-webdav-android-taches)=
 ```{figure} /_static/tutos/webdav-android/screen_001.png
 ---
 alt: capture d'écran gestion des tâches
@@ -26,10 +26,10 @@ height: 400
 Gestion des tâches.
 ```
 
-Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:autorisations`).
+Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:tutos-webdav-android-autorisations`).
 
 
-(fig:autorisations)=
+(fig:tutos-webdav-android-autorisations)=
 ```{figure} /_static/tutos/webdav-android/screen_002.png
 ---
 alt: capture d'écran autorisations
@@ -38,9 +38,9 @@ height: 400
 Accorder les autorisations.
 ```
 
-Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervalles réguliers ({numref}`fig:intervalles`).
+Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`).
 
-(fig:intervalles)=
+(fig:tutos-webdav-android-intervalles)=
 ```{figure} /_static/tutos/webdav-android/screen_003.png
 ---
 alt: capture d'écran synchro à intervalles
@@ -53,9 +53,9 @@ Synchronisation à intervalles réguliers.
 Ajout du compte DAV
 -------------------
 
-Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton orange en bas à droite ({numref}`fig:accueil`).
+Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`).
 
-(fig:accueil)=
+(fig:tutos-webdav-android-accueil)=
 ```{figure} /_static/tutos/webdav-android/screen_004.png
 ---
 alt: capture d'écran accueil
@@ -64,9 +64,9 @@ height: 400
 Écran d'accueil de DAVx5.
 ```
 
-Sélectionner la deuxième option&nbsp;: "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:connexion`).
+Sélectionner la deuxième option&nbsp;: "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
 
-(fig:connexion)=
+(fig:tutos-webdav-android-connexion)=
 ```{figure} /_static/tutos/webdav-android/screen_005.png
 ---
 alt: capture d'écran connexion
@@ -85,9 +85,9 @@ Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1.
 Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom pour ce compte qui risque fortement de ressembler à votre adresse email CLUB1.
 Ça semble judicieux car c'est souvent comme cela que l'on identifie un couple `user@server`.
 Un dernier petit détail&nbsp;:
-Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour chacun des contacts" pour être compatible avec le client web mail de CLUB1 ({numref}`fig:groupes`).
+Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour chacun des contacts" pour être compatible avec le client web mail de CLUB1 ({numref}`fig:tutos-webdav-android-groupes`).
 
-(fig:groupes)=
+(fig:tutos-webdav-android-groupes)=
 ```{figure} /_static/tutos/webdav-android/screen_006.png
 ---
 alt: capture d'écran groupes
@@ -98,11 +98,11 @@ Méthode de stockage des groupes.
 
 Encore une dernière étape&nbsp;: quoi synchroniser&nbsp;?
 
-DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:selection`).
+DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-android-selection`).
 Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
 Il sera toujours possible d'accèder et modifier ces réglages  plus tard très facilement.
 
-(fig:selection)=
+(fig:tutos-webdav-android-selection)=
 ```{figure} /_static/tutos/webdav-android/screen_007.png
 ---
 alt: capture d'écran sélection

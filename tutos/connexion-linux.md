@@ -14,20 +14,33 @@ les instructions seront donc similaires.
 
 Dans la barre de menu, cliquez sur "fichier" puis "se connecter au serveur..."
 
-Remplir ensuite les informations&nbsp;:
+Remplir ensuite les informations suivantes dans la fenêtre de connexion ({numref}`fig:tutos-connexion-linux-connexion`)&nbsp;:
 - Serveur : `club1.fr`
 - Type : `SSH`
 - Dossier : `/`
 - Nom d'utilisateur : rentrez votre identifiant CLUB1
 - Mot de passe : rentrez votre mot de passe CLUB1
-- Cliquez sur "mémoriser ce mot de passe"
-- Cliquez sur "se connecter"
 
-![capture d'écran fenêtre de connexion](/_static/tutos/connexion-linux/se_connecter_au_serveur.png)
+Pour finir vous pouvez cocher la case "Mémoriser ce mot de passe"
+afin de ne pas avoir à le retaper plus tard, puis cliquer sur "Se connecter".
 
-Vous êtes maintenant connecté au serveur&nbsp;:
+(fig:tutos-connexion-linux-connexion)=
+```{figure} /_static/tutos/connexion-linux/se_connecter_au_serveur.png
+---
+alt: capture d'écran fenêtre de connexion
+---
+Fenêtre de connexion.
+```
 
-![capture d'écran des dossiers du serveur dans l'explorateur de fichier](/_static/tutos/connexion-linux/dans_le_serveur.png)
+Vous êtes maintenant connecté au serveur ({numref}`fig:tutos-connexion-linux-dossier`).
+
+(fig:tutos-connexion-linux-dossier)=
+```{figure} /_static/tutos/connexion-linux/dans_le_serveur.png
+---
+alt: capture d'écran dossiers du serveur dans l'explorateur de fichier
+---
+Dossiers du serveur dans l'explorateur de fichier.
+```
 
 Cliquez sur le dossier `home` puis sur votre *dossier perso*, qui est votre identifiant CLUB1.
 
