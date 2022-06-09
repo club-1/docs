@@ -21,8 +21,11 @@ optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/fr/
 
 ### Système d'exploitation
 
-Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ (20.04)** et
-est mis à jour régulièrement.
+Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour régulièrement.
+Les mises-à-jour de sécurité sont installées automatiquement dans les 24 heures
+à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-upgrades)
+et les services en dépendant sont ensuite automatiquement redémarés grâce à
+[_needrestart_](https://packages.debian.org/fr/stable/needrestart).
 
 ### Logiciels et bibliothèques installés
 

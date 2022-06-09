@@ -180,15 +180,15 @@ Installation sur *Debian*&nbsp;:
 
 - Compilation en un site statique dans `_build/html`&nbsp;:
 
-        make html
+      make html
 
 - Compilation d'une locale spécifique&nbsp;:
 
-        make html/fr
+      make html/fr
 
 - Mise-à-jour des locales après l'édition des sources&nbsp;:
 
-        make update-po
+      make update-po
 
 Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé
 l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils ont
