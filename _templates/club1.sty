@@ -6,6 +6,10 @@
 % Manipulation de macros LaTeX.
 \RequirePackage{etoolbox}
 
+% Définition de la macro \texversion renvoyant la version
+% du moteur TeX utilisé.
+\StrBehind{\luatexbanner}{\detokenize{This is }}[\texversion]
+
 % Définition de TwemojiMozilla comme police de substitution
 % pour pouvoir l'utiliser lorsque des caractères sont introuvables,
 % notamment lorsqu'il s'agit d'emojis.

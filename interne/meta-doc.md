@@ -200,3 +200,26 @@ juste au dessus du la ligne `msgid "..."` :
 #, fuzzy
 ```
 
+Metadonnées
+-----------
+
+```{only} builder_html
+- Documentation CLUB1 : {{ env.config.release }}
+- Sphinx : {{ sphinx_version }}
+- Docutils : {{ docutils_version }}
+- MyST-Parser : {{ myst_version }}
+- Sphinx-rtd-theme : {{ rtd_version }}
+```
+
+```{only} not builder_html
+- Documentation CLUB1 : {{ env.config.release }}
+- Sphinx : {{ sphinx_version }}
+- Docutils : {{ docutils_version }}
+- MyST-Parser : {{ myst_version }}
+```
+```{raw} latex
+\begin{itemize}
+\item \TeX\ : \texversion
+\end{itemize}
+```
+

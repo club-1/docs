@@ -11,6 +11,10 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+from sphinx import __version__ as sphinx_version
+from myst_parser import __version__ as myst_version
+from sphinx_rtd_theme import __version__ as rtd_version
+from docutils import __version__ as docutils_version
 import sys
 sys.path.insert(0, os.path.abspath('./_ext'))
 
@@ -40,7 +44,15 @@ myst_heading_anchors = 6
 
 # Enable Some MyST extensions.
 myst_enable_extensions = [
+    'substitution',
 ]
+
+myst_substitutions = {
+    'sphinx_version': sphinx_version,
+    'myst_version': myst_version,
+    'rtd_version': rtd_version,
+    'docutils_version': docutils_version,
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
