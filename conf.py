@@ -39,10 +39,6 @@ myst_heading_anchors = 6
 
 # Enable Some MyST extensions.
 myst_enable_extensions = [
-    # Enable smart quotes at MyST level.
-    'smartquotes',
-    # Replace some string patterns (... for instance) with their unicode equivalent.
-    'replacements',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -80,8 +76,8 @@ exclude_patterns = [
     '.DS_Store',
 ]
 
-# Disable smart quotes at Sphinx level, as it is done by MyST.
-smartquotes = False
+# Enable smart quotes at Sphinx level to support localized quotes.
+smartquotes = True
 
 # Date formats for today, for instance in LaTeX.
 # Use locale’s appropriate date representation.
