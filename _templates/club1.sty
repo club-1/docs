@@ -13,6 +13,11 @@
 \setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
 \setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
 
+% Rétablit le style de liste standard en français.
+\ifdefined\frenchsetup
+	\frenchsetup{StandardListSpacing=true,StandardItemLabels=true}
+\fi
+
 % Définition du point médian.
 % La commande \textperiodcentered créé un point médian mais entouré
 % d'espaces : "cher{\textperiodcentered}es" devient "cher · es".
@@ -75,3 +80,8 @@
 \renewcommand\arraystretch{1.5} % vertical
 % Style de texte de la ligne de titre (Sans serif gras).
 \renewcommand\sphinxstyletheadfamily{\sffamily\bfseries}
+
+% Définition de quelques motifs d'hyphenation particulier.
+\hyphenation{git-hub}
+\hyphenation{mark-down}
+\hyphenation{wi-ki-pe-dia}
