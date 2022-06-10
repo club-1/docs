@@ -100,6 +100,7 @@ $(SPHINXCMDS):
 clean:
 	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
 	rm -rf $(BUILDDIR)/*
+	rm -rf _ext/__pycache__
 
 .PHONY: .FORCE
 .FORCE:
