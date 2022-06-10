@@ -30,7 +30,7 @@ et les services en dépendant sont ensuite automatiquement redémarés grâce à
 ### Logiciels et bibliothèques installés
 
 Un certain nombre de logiciels et de bibliothèques sont déjà installés.
-En voici une liste _non-exhaustive_ :
+En voici une liste _non exhaustive_ :
 
     Apache       2.4
     MariaDb     10.5
