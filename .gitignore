@@ -1,5 +1,7 @@
 # Project generated files
 _build
+__pycache__
+*.pyc
 *.mo
 
 # Editor files
