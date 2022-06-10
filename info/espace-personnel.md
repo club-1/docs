@@ -116,7 +116,7 @@ Il vous suffit de faire un lien ciblant spécifiquement votre présentation.
 Pour cela on utilise un [identificateur de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment)
 utilisant votre identifiant CLUB1.
 
-Par exemple, l'adresse suivante ouvrira directement la présentation du membres `vincent`&nbsp;:
+Par exemple, l'adresse suivante ouvrira directement la présentation du membres `vincent` :
 
     https://club1.fr/membres/#vincent
 

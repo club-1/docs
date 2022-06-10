@@ -17,7 +17,7 @@ l'échange des clés. Pour éviter de subir une
 il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
 
 Pour résoudre ce problème, OpenSSH affiche un avertissement contenant
-l'empreinte de la clé reçue&nbsp;:
+l'empreinte de la clé reçue :
 
 >     The authenticity of host 'club1.fr (***)' can't be established.
 >     ED25519 key fingerprint is SHA256:t4m5ioK2DGyObdxh3ATIIKnbhm4EhCp1cfgQmogHd58.
@@ -26,7 +26,7 @@ l'empreinte de la clé reçue&nbsp;:
 Ce n'est pas idéal car il faut comparer manuellement l'empreinte de
 l'avertissement avec celle fournie par l'administrateur. À la place, il est
 préférable d'ajouter la clé avant le première connexion avec la commande
-suivante&nbsp;:
+suivante :
 
     echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 >> ~/.ssh/known_hosts
 
@@ -47,7 +47,7 @@ elle est en revanche moins sécurisée que l'utilisation d'une
 ### S'authentifier par mot de passe
 
 On utilise la commande suivante dans le terminal pour se connecter 
-(remplacer `<login>` par votre **identifiant** CLUB1)&nbsp;:
+(remplacer `<login>` par votre **identifiant** CLUB1) :
     
     ssh <login>@club1.fr
 

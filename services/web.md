@@ -1,7 +1,7 @@
 Hébergement de sites Web
 ========================
 
-Il existe deux grands types de sites {term}`Web`&nbsp;: les sites _statiques_,
+Il existe deux grands types de sites {term}`Web` : les sites _statiques_,
 constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas
 été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et
 peuvent ainsi produire des résultats différents.
@@ -11,7 +11,7 @@ Sites Web _statiques_
 
 L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine.
 Tous les fichiers et dossiers rangés dedans seront automatiquement publiés
-sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple&nbsp;:
+sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 
 [`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/nicolas/test.html)
 &rarr; `/home/nicolas/static/test.html`

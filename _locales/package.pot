@@ -332,7 +332,7 @@ msgstr ""
 #: ../../info/espace-personnel.md:119
 msgid ""
 "Par exemple, l'adresse suivante ouvrira directement la présentation du "
-"membres `vincent`&nbsp;:"
+"membres `vincent` :"
 msgstr ""
 
 #: ../../info/general.md:1
@@ -489,7 +489,7 @@ msgstr ""
 msgid ""
 "Le processus est très similaire à celui de la [modification des alias de "
 "reception](#modifier-les-alias-de-reception) mais il existe quelques "
-"différences&nbsp;:"
+"différences :"
 msgstr ""
 
 #: ../../interne/aliases.md:57
@@ -523,7 +523,7 @@ msgstr ""
 #: ../../interne/meta-doc.md:4
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-"club1.fr/docs/fr/>. Elle existe en deux langues&nbsp;: français, la "
+"club1.fr/docs/fr/>. Elle existe en deux langues : français, la "
 "principale et anglais, la secondaire. Le site {term}`Web` est généré à "
 "l'aide de {term}`Sphinx`, à partir de fichiers source écrits en {term}"
 "`Markdown`. Les fichiers source sont rangés dans un dossier, versionné avec "
@@ -606,7 +606,7 @@ msgid ""
 "modifications. Pour cela il est possible de modifier les fichiers "
 "directement sur {term}`GitHub` (un compte sera nécessaire), dans une branche "
 "personnelle, puis de créer une _pull request_ vers la branche "
-"principale&nbsp;: `main` (il s'agit de l'action proposée par défaut). L'un "
+"principale : `main` (il s'agit de l'action proposée par défaut). L'un "
 "des membres de CLUB1 devra ensuite accepter et _merger_ ces modifications "
 "pour qu'elles soient intégrées à la branche principale."
 msgstr ""
@@ -725,7 +725,7 @@ msgstr ""
 #: ../../interne/meta-doc.md:132
 msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
-"format de sortie désiré&nbsp;:"
+"format de sortie désiré :"
 msgstr ""
 
 #: ../../interne/meta-doc.md:0
@@ -771,7 +771,7 @@ msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr ""
 
 #: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:175
-msgid "Installation sur *Debian*&nbsp;:"
+msgid "Installation sur *Debian* :"
 msgstr ""
 
 #: ../../interne/meta-doc.md:156
@@ -823,15 +823,15 @@ msgid "Commandes"
 msgstr ""
 
 #: ../../interne/meta-doc.md:181
-msgid "Compilation en un site statique dans `_build/html`&nbsp;:"
+msgid "Compilation en un site statique dans `_build/html` :"
 msgstr ""
 
 #: ../../interne/meta-doc.md:185
-msgid "Compilation d'une locale spécifique&nbsp;:"
+msgid "Compilation d'une locale spécifique :"
 msgstr ""
 
 #: ../../interne/meta-doc.md:189
-msgid "Mise-à-jour des locales après l'édition des sources&nbsp;:"
+msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr ""
 
 #: ../../interne/meta-doc.md:193
@@ -840,7 +840,7 @@ msgid ""
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
 "ont trop changé, il faudra peut-être en récupérer la traduction dans les "
 "messages mis en commentaire à la fin du fichier, tout en ajoutant le "
-"commentaire suivant juste au dessus du la ligne `msgid \"...\"`&nbsp;:"
+"commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
 #: ../../services/drive.md:1
@@ -907,7 +907,7 @@ msgid ""
 "Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/"
 "wiki/Mutt) est préconfiguré pour consulter ce dossier par défaut. Pour "
 "l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au serveur "
-"CLUB1 puis lancer la commande suivante&nbsp;:"
+"CLUB1 puis lancer la commande suivante :"
 msgstr ""
 
 #: ../../services/email.md:32 ../../services/ftp.md:22 ../../services/sql.md:9
@@ -1039,7 +1039,7 @@ msgstr ""
 msgid ""
 "Le dossier `git/`, à la racine de l'**espace personnel** est particulier. "
 "Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en "
-"_lecture seule_ à l'adresse `https://git.club1.fr`, par exemple&nbsp;:"
+"_lecture seule_ à l'adresse `https://git.club1.fr`, par exemple :"
 msgstr ""
 
 #: ../../services/git.md:8
@@ -1049,7 +1049,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/git.md:11
-msgid "Cette adresse permet 2 choses&nbsp;:"
+msgid "Cette adresse permet 2 choses :"
 msgstr ""
 
 #: ../../services/git.md:13
@@ -1075,7 +1075,7 @@ msgid ""
 "faut tout d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), "
 "depuis un ordinateur personnel (remplacer `<login>` par votre "
 "**identifiant** et `<repo>` par le nom que vous voulez donner au "
-"dépôt)&nbsp;:"
+"dépôt) :"
 msgstr ""
 
 #: ../../services/git.md:28
@@ -1084,18 +1084,18 @@ msgid ""
 "club1.fr/<login>/<repo>`, mais celui-ci est vide pour le moment. La branche "
 "affichée par défaut dans l'interface {term}`Web` est `master`. Il est "
 "possible de la changer en modifiant le fichier `HEAD` du dépôt. Par exemple "
-"pour la remplacer par la branche `main`&nbsp;:"
+"pour la remplacer par la branche `main` :"
 msgstr ""
 
 #: ../../services/git.md:36
 msgid ""
 "De la même manière, pour modifier la description du dépôt (cette "
 "modification ne sera pas forcément visible tout de suite à cause du cache de "
-"cgit)&nbsp;:"
+"cgit) :"
 msgstr ""
 
 #: ../../services/git.md:41
-msgid "Il y a ensuite deux cas de figure&nbsp;:"
+msgid "Il y a ensuite deux cas de figure :"
 msgstr ""
 
 #: ../../services/git.md:43
@@ -1115,19 +1115,19 @@ msgid ""
 "Si le but est de créer un nouveau dépôt, alors le plus simple est de cloner "
 "sur votre ordinateur personnel celui qui vient d'être initialisé sur le "
 "serveur. On utilise pour cela l'adresse [SSH](ssh.md) car elle offre un "
-"accès en écriture au dépôt&nbsp;:"
+"accès en écriture au dépôt :"
 msgstr ""
 
 #: ../../services/git.md:1
 msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
-"qui est normal&nbsp;:"
+"qui est normal :"
 msgstr ""
 
 #: ../../services/git.md:62
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
-"`Git`, par exemple&nbsp;:"
+"`Git`, par exemple :"
 msgstr ""
 
 #: ../../services/git.md:72
@@ -1139,7 +1139,7 @@ msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
 "dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la "
 "branche désirée, par exemple pour la branche `main` (l'option `--set-"
-"upstream` permet d'en faire la _remote_ par défaut pour cette branche)&nbsp;:"
+"upstream` permet d'en faire la _remote_ par défaut pour cette branche) :"
 msgstr ""
 
 #: ../../services/index.md:1
@@ -1193,7 +1193,7 @@ msgid ""
 "ajouté, à partir duquel il est possible de créer des **bases de données SQL "
 "personnelles**. Une interface {term}`Web` de gestion fournie par [phpMyAdmin]"
 "(https://fr.wikipedia.org/wiki/PhpMyAdmin) est disponible à l'adresse "
-"suivante&nbsp;: <https://club1.fr/phpmyadmin>"
+"suivante : <https://club1.fr/phpmyadmin>"
 msgstr ""
 
 #: ../../services/sql.md:0
@@ -1237,7 +1237,7 @@ msgstr ""
 #: ../../services/ssh.md:19
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
-"l'empreinte de la clé reçue&nbsp;:"
+"l'empreinte de la clé reçue :"
 msgstr ""
 
 #: ../../services/ssh.md:26
@@ -1245,7 +1245,7 @@ msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
 "l'avertissement avec celle fournie par l'administrateur. À la place, il est "
 "préférable d'ajouter la clé avant le première connexion avec la commande "
-"suivante&nbsp;:"
+"suivante :"
 msgstr ""
 
 #: ../../services/ssh.md:1
@@ -1275,7 +1275,7 @@ msgstr ""
 #: ../../services/ssh.md:49
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter  "
-"(remplacer `<login>` par votre **identifiant** CLUB1)&nbsp;:"
+"(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgstr ""
 
 #: ../../services/ssh.md:54
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: ../../services/web.md:4
 msgid ""
-"Il existe deux grands types de sites {term}`Web`&nbsp;: les sites "
+"Il existe deux grands types de sites {term}`Web` : les sites "
 "_statiques_, constitués de fichiers dont le contenu ne change pas tant "
 "qu'ils n'ont pas été modifiés et les sites _dynamiques_, dont les fichiers "
 "sont exécutés et peuvent ainsi produire des résultats différents."
@@ -1337,7 +1337,7 @@ msgstr ""
 msgid ""
 "L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
-"sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple&nbsp;:"
+"sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :"
 msgstr ""
 
 #: ../../services/web.md:16
@@ -1390,7 +1390,7 @@ msgstr ""
 #: ../../services/webdav.md:11
 msgid ""
 "Plusieurs extensions de WebDAV apportent des fonctionnalités encore un peu "
-"plus spécifiques&nbsp;:"
+"plus spécifiques :"
 msgstr ""
 
 #: ../../services/webdav.md:14
@@ -1473,7 +1473,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:17
-msgid "Remplir ensuite les informations&nbsp;:"
+msgid "Remplir ensuite les informations :"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:18
@@ -1515,7 +1515,7 @@ msgid "capture d'écran fenêtre de connexion"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:28
-msgid "Vous êtes maintenant connecté au serveur&nbsp;:"
+msgid "Vous êtes maintenant connecté au serveur :"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:30
@@ -1547,7 +1547,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:40
-msgid "Selon votre explorateur de fichiers&nbsp;:"
+msgid "Selon votre explorateur de fichiers :"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:41
@@ -1565,7 +1565,7 @@ msgstr ""
 #: ../../tutos/connexion-linux.md:44
 msgid ""
 "Vous pouvez désormais modifier tous vos fichiers facilement depuis votre "
-"explorateur de fichiers&nbsp;!"
+"explorateur de fichiers !"
 msgstr ""
 
 #: ../../tutos/index.md:4
@@ -1969,7 +1969,7 @@ msgstr ""
 msgid ""
 "Pour synchroniser ses contacts et calendrier avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
-"charger essentiellement de la synchro&nbsp;: __DAVx5__."
+"charger essentiellement de la synchro : __DAVx5__."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:9
@@ -2056,7 +2056,7 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:67
 msgid ""
-"Sélectionner la deuxième option&nbsp;: \"Connexion avec une URL et un nom "
+"Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:connexion`)."
 msgstr ""
 
@@ -2069,7 +2069,7 @@ msgid "Connexion avec une URL et un nom d'utilisateur."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:78
-msgid "URL de base&nbsp;:"
+msgid "URL de base :"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:82
@@ -2081,7 +2081,7 @@ msgid ""
 "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
 "pour ce compte qui risque fortement de ressembler à votre adresse email "
 "CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on identifie "
-"un couple `user@server`. Un dernier petit détail&nbsp;: Il est recommandé "
+"un couple `user@server`. Un dernier petit détail : Il est recommandé "
 "d'utiliser la méthode \"Les groupes sont des catégories pour chacun des "
 "contacts\" pour être compatible avec le client web mail de CLUB1 ({numref}"
 "`fig:groupes`)."
@@ -2096,7 +2096,7 @@ msgid "Méthode de stockage des groupes."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:99
-msgid "Encore une dernière étape&nbsp;: quoi synchroniser&nbsp;?"
+msgid "Encore une dernière étape : quoi synchroniser ?"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:101
@@ -2119,7 +2119,7 @@ msgstr ""
 #: ../../tutos/webdav-android.md:1
 msgid ""
 "Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
-"y en aura toujours un qui s'appelle&nbsp;: \"Default\"."
+"y en aura toujours un qui s'appelle : \"Default\"."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:119

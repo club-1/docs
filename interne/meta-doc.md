@@ -2,7 +2,7 @@ Meta-documentation
 ==================
 
 La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
-Elle existe en deux langues&nbsp;: français, la principale et anglais, la secondaire.
+Elle existe en deux langues : français, la principale et anglais, la secondaire.
 Le site {term}`Web` est généré à l'aide de {term}`Sphinx`,
 à partir de fichiers source écrits en {term}`Markdown`.
 Les fichiers source sont rangés dans un dossier, versionné avec {term}`Git`
@@ -59,7 +59,7 @@ Proposer des modifications
 L'utilisation de {term}`Git` permet à n'importe qui de proposer des modifications.
 Pour cela il est possible de modifier les fichiers directement sur {term}`GitHub`
 (un compte sera nécessaire), dans une branche personnelle, puis de créer
-une _pull request_ vers la branche principale&nbsp;: `main` (il s'agit de l'action
+une _pull request_ vers la branche principale : `main` (il s'agit de l'action
 proposée par défaut).
 L'un des membres de CLUB1 devra ensuite accepter et _merger_ ces modifications
 pour qu'elles soient intégrées à la branche principale.
@@ -130,7 +130,7 @@ avant de les proposer.
 ### Prérequis communs
 
 Ces logiciels sont utilisés pour compiler la documentation
-quel que soit le format de sortie désiré&nbsp;:
+quel que soit le format de sortie désiré :
 
 ```{glossary}
 Make
@@ -149,7 +149,7 @@ gettext
    _(Optionnel)_ Pour les locales autres que Français.
 ```
 
-Installation sur *Debian*&nbsp;:
+Installation sur *Debian* :
 
     sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme gettext
 
@@ -172,21 +172,21 @@ xindy
    Générateur d'index internationnalisé pour LaTeX.
 ```
 
-Installation sur *Debian*&nbsp;:
+Installation sur *Debian* :
 
     sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy
 
 ### Commandes
 
-- Compilation en un site statique dans `_build/html`&nbsp;:
+- Compilation en un site statique dans `_build/html` :
 
         make html
 
-- Compilation d'une locale spécifique&nbsp;:
+- Compilation d'une locale spécifique :
 
         make html/fr
 
-- Mise-à-jour des locales après l'édition des sources&nbsp;:
+- Mise-à-jour des locales après l'édition des sources :
 
         make update-po
 
@@ -194,7 +194,7 @@ Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé
 l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils ont
 trop changé, il faudra peut-être en récupérer la traduction dans les messages
 mis en commentaire à la fin du fichier, tout en ajoutant le commentaire suivant
-juste au dessus du la ligne `msgid "..."`&nbsp;:
+juste au dessus du la ligne `msgid "..."` :
 
 ```po
 #, fuzzy

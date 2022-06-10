@@ -9,7 +9,7 @@ Il est donc possible d'y connecter un explorateur de fichier compatible pour
 en local.
 
 Plusieurs extensions de WebDAV apportent des fonctionnalités encore un peu plus
-spécifiques&nbsp;:
+spécifiques :
 
 - **CardDAV** pour synchroniser des carnets d'adresses de contacts.
 - **CalDAV** pour synchroniser des calendriers.
