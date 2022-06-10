@@ -4,7 +4,7 @@ Synchronisation de calendriers et contacts sur un appareil Android
 Cette méthode permet de synchroniser ses conctacts et calendrier entre le serveur et un appareil *Android*.
 
 Pour synchroniser ses contacts et calendrier avec différentes applications,
-la solution la plus efficace consiste à passer par une application qui va se charger essentiellement de la synchro&nbsp;: __DAVx5__.
+la solution la plus efficace consiste à passer par une application qui va se charger essentiellement de la synchro : __DAVx5__.
 
 Cette application est payante (6€) sur le magasin d'applications de Google ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
 (un magasin alternatif, proposant uniquement des appli [*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).
@@ -64,7 +64,7 @@ height: 400
 Écran d'accueil de DAVx5.
 ```
 
-Sélectionner la deuxième option&nbsp;: "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
+Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
 
 (fig:tutos-webdav-android-connexion)=
 ```{figure} /_static/tutos/webdav-android/screen_005.png
@@ -75,7 +75,7 @@ height: 400
 Connexion avec une URL et un nom d'utilisateur.
 ```
 
-URL de base&nbsp;:
+URL de base :
 
     https://club1.fr
 
@@ -84,7 +84,7 @@ Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1.
 
 Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom pour ce compte qui risque fortement de ressembler à votre adresse email CLUB1.
 Ça semble judicieux car c'est souvent comme cela que l'on identifie un couple `user@server`.
-Un dernier petit détail&nbsp;:
+Un dernier petit détail :
 Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour chacun des contacts" pour être compatible avec le client web mail de CLUB1 ({numref}`fig:tutos-webdav-android-groupes`).
 
 (fig:tutos-webdav-android-groupes)=
@@ -96,7 +96,7 @@ height: 400
 Méthode de stockage des groupes.
 ```
 
-Encore une dernière étape&nbsp;: quoi synchroniser&nbsp;?
+Encore une dernière étape : quoi synchroniser ?
 
 DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-android-selection`).
 Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
@@ -113,7 +113,7 @@ Liste des carnets d'adresses disponibles.
 
 ```{note}
 Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas,
-il y en aura toujours un qui s'appelle&nbsp;: "Default".
+il y en aura toujours un qui s'appelle : "Default".
 ```
 
 Depuis cette interface, il est également possible de __créer ou supprimer__ des carnets ou agendas, via le menu en haut à droite.

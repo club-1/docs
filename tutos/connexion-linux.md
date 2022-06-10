@@ -14,7 +14,7 @@ les instructions seront donc similaires.
 
 Dans la barre de menu, cliquez sur "fichier" puis "se connecter au serveur..."
 
-Remplir ensuite les informations suivantes dans la fenêtre de connexion ({numref}`fig:tutos-connexion-linux-connexion`)&nbsp;:
+Remplir ensuite les informations suivantes dans la fenêtre de connexion ({numref}`fig:tutos-connexion-linux-connexion`) :
 - Serveur : `club1.fr`
 - Type : `SSH`
 - Dossier : `/`
@@ -50,11 +50,11 @@ Marque-page
 Si on s'arrête là, il faudra recommencer toutes ces étapes à chaque nouveau redémarrage de l'ordinateur car cette connexion ne sera pas sauvegardée.
 Pour remédier à ce problème, il faut ajouter un **marque-page** (**bookmark** en anglais).
 
-Selon votre explorateur de fichiers&nbsp;:
+Selon votre explorateur de fichiers :
 - Depuis le *dossier perso* : dans la barre de menu, cliquez sur "Marque-pages" puis "Ajouter un marque-page"
 - Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "ajouter marque-page", ou autre formulation similaire
 
-Vous pouvez désormais modifier tous vos fichiers facilement depuis votre explorateur de fichiers&nbsp;!
+Vous pouvez désormais modifier tous vos fichiers facilement depuis votre explorateur de fichiers !
 
 ```{raw} latex
 \clearpage

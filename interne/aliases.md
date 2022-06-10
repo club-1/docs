@@ -52,7 +52,7 @@ Modifier les alias d'envoi
 --------------------------
 
 Le processus est très similaire à celui de la [modification des alias de reception](#modifier-les-alias-de-reception)
-mais il existe quelques différences&nbsp;:
+mais il existe quelques différences :
 
 1. Le fichier à modifier est `/etc/aliases_senders`.
 2. Il ne faut PAS mettre de `:` entre la clé et la valeur.

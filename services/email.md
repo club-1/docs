@@ -25,7 +25,7 @@ par exemple après avoir fait une sauvegarde du dossier sur un ordinateur person
 Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/wiki/Mutt)
 est préconfiguré pour consulter ce dossier par défaut.
 Pour l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au serveur CLUB1
-puis lancer la commande suivante&nbsp;:
+puis lancer la commande suivante :
 
     mutt
 
