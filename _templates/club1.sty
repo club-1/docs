@@ -81,6 +81,21 @@
 % Style de texte de la ligne de titre (Sans serif gras).
 \renewcommand\sphinxstyletheadfamily{\sffamily\bfseries}
 
+% Customisation des citations pour les uniformiser avec la version HTML.
+\RequirePackage{mdframed}
+\mdfdefinestyle{QuoteFrame}{
+	fontcolor=darkgray,
+	linecolor=lightgray,
+	linewidth=3pt,
+	rightline=false, topline=false, bottomline=false,
+	innerleftmargin=16pt, innerrightmargin=0pt,
+	innertopmargin=5pt, innerbottommargin=4pt,
+	skipabove=8pt, skipbelow=10pt,
+}
+\renewenvironment{quote}
+	{\par\mdframed[style=QuoteFrame]}
+	{\endmdframed}
+
 % Définition de quelques motifs d'hyphenation particulier.
 \hyphenation{git-hub}
 \hyphenation{mark-down}
