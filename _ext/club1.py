@@ -29,9 +29,9 @@ class FrenchTypography(Transform):
     def replace_chars(self, text):
             # Always add NBSP before some ponctuation marks.
             text = text.replace(' :', ' :')
-            text = text.replace(' !', ' !')
-            text = text.replace(' ?', ' ?')
-            text = text.replace(' ;', ' ;')
+            text = text.replace(' !', ' !')
+            text = text.replace(' ?', ' ?')
+            text = text.replace(' ;', ' ;')
             return text
 
     def apply(self):
