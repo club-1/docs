@@ -58,13 +58,13 @@
 \RequirePackage[Bjornstrup]{fncychap}
 % Customisation du thème Bjornstrup pour éviter les erreurs overfull hbox.
 % Voir https://tex.stackexchange.com/a/133064
-\renewcommand{\DOCH}{
-	\settowidth{\py}{\CNoV\thechapter}
-	\addtolength{\py}{-7pt} % Décalage du nombre vers la droite.
-	\fboxsep=0pt
-	\colorbox[gray]{.85}{\rule{0pt}{40pt}\parbox[b]{\textwidth}{\hfill}}
-	\kern-\py\raise20pt
-	\rlap{\color[gray]{.5}\CNoV\thechapter}\\
+\renewcommand{\DOCH}{%
+	\settowidth{\py}{\CNoV\thechapter}%
+	\addtolength{\py}{-10pt} % Décalage du nombre vers la droite.
+	\fboxsep=0pt%
+	\colorbox[gray]{.85}{\rule{0pt}{40pt}\parbox[b]{\textwidth}{\hfill}}%
+	\kern-\py\raise20pt%
+	\rlap{\color[gray]{.5}\CNoV\thechapter}\\%
 }
 
 % Affichage de l'index en 3 colones au lieu de 2.
