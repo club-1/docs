@@ -88,8 +88,8 @@ Il est ensuite très facile de partager l'URL via emails ou réseaux sociaux.
 
 ### L'index
 
-Et si je voulais partager 15 fichiers, j'aurais 15 URLs à partager ? C'est casse pied !
-N'y aurait il pas un moyen de partager un dossier complet ?
+Et si je voulais partager 15 fichiers, j'aurais 15 URLs à partager ? C'est casse-pied !
+N'y aurait-il pas un moyen de partager un dossier complet ?
 
 Faisons une expérience (si vous ne l'avez pas déjà faite par vous même) :
 Dans votre naviguateur Web, retiez la partie correspondant au nom du fichier.
@@ -100,7 +100,7 @@ Dans votre naviguateur Web, retiez la partie correspondant au nom du fichier.
 N'oubliez pas le dernier slash (`/`) de l'URL !
 ```
 
-Vous devrier avoir accès à une page listant les fichiers de votre dossier `static`.
+Vous devriez avoir accès à une page listant les fichiers de votre dossier `static`.
 
 ![index](/_static/tutos/mes-premiers-pas-sur-le-web/index.jpg)
 
@@ -190,19 +190,19 @@ __mais pas les élements `<h1>` et `</h1>`__.
 On appelle ces deux éléments des __balises HTML__.
 Elles sont utilisés pour rajouter des informations à notre texte.
 
-En l'occurence, la balise `<h1>` signigie :
-*les caractères qui suivent font parti d'un titre de niveau 1*.
+En l'occurence, la balise `<h1>` signifie :
+*les caractères qui suivent font partie d'un titre de niveau&nbsp;1*.
 Il s'agît d'une balise __ouvrante__.
 
 Tandis que la balise `</h1>` signifie :
-*les caractères qui suivent ne font __plus__ parti d'un titre de niveau 1*.
+*les caractères qui suivent ne font __plus__ partie d'un titre de niveau&nbsp;1*.
 Cette dernière est donc une balise dite __fermante__.
 
 Ces balises forment un couple, on les appelles des __balises doubles__.
 à elles deux, elles attribuent un statut à ce qu'elles entourent.
 
 Le naviguateur Web, de son côté,
-a interprêté ces balises et à *compris* que "Bienvenue" est un "titre de niveau 1".
+a interprêté ces balises et à *compris* que "Bienvenue" est un "titre de niveau&nbsp;1".
 Il applique ensuite un style par défaut associé à ce statut.
 
 C'est globalement comme cela que fonctionne la language HTML,
