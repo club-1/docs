@@ -1,6 +1,11 @@
 % Paquet LaTeX permettant de customiser le rendu du PDF.
 \ProvidesPackage{club1}[2022/05/17 Customisations LaTeX CLUB1]
 
+% Manipulation de strings.
+\RequirePackage{xstring}
+% Manipulation de macros LaTeX.
+\RequirePackage{etoolbox}
+
 % Définition de TwemojiMozilla comme police de substitution
 % pour pouvoir l'utiliser lorsque des caractères sont introuvables,
 % notamment lorsqu'il s'agit d'emojis.
@@ -35,17 +40,6 @@
 	verbatimwithframe=true,
 	VerbatimColor={named}{MintCream},
 	% TitleColor={named}{DarkGoldenrod},
-	noteBorderColor={named}{SteelBlue},
-	tipBorderColor={named}{LightSeaGreen},
-	importantBorderColor={named}{LightSeaGreen},
-	dangerBorderColor={named}{Crimson},
-	dangerBgColor={named}{MistyRose},
-	cautionBorderColor={named}{Orange},
-	cautionBgColor={named}{LemonChiffon},
-	attentionBorderColor={named}{Orange},
-	attentionBgColor={named}{LemonChiffon},
-	warningBorderColor={named}{Orange},
-	warningBgColor={named}{LemonChiffon}
 }
 
 % Augmentation de la marge intérieure.
@@ -95,6 +89,59 @@
 \renewenvironment{quote}
 	{\par\mdframed[style=QuoteFrame]}
 	{\endmdframed}
+
+% Customisation des admonitions pour les uniformiser avec la version HTML.
+\RequirePackage{tcolorbox}
+\RequirePackage{tikz}
+\tikzset{ExclamationCircle/.pic={
+  \path [draw=none, fill=white, even odd rule, scale=0.037]
+    (0,0) circle (4.2)
+    (-0.7,-3) rectangle (0.7,-1.6)
+    (-0.8,3) -- (0.8,3) -- (0.7,-1) -- (-0.7,-1) -- cycle;
+}}
+
+\newenvironment{club1admonition}[3]{\begin{tcolorbox}[
+	boxrule=0pt, frame empty, % no borders
+	width=\linewidth, % adapt to line width
+	colbacktitle=#2, colback=#3, % colors
+	outer arc=0pt, arc=0pt, % no border radius
+	left=5pt, right=5pt, top=5pt, bottom=5pt, % body margins
+	toptitle=1pt, bottomtitle=1pt, % title bar margins
+	fonttitle=\sffamily\bfseries, % same font variant as other titles
+	title=\raisebox{-.1\height}{\tikz\pic{ExclamationCircle};} \StrBefore{#1}{:}
+]}{\end{tcolorbox}}
+
+\definecolor{colTipHead}{HTML}{18BC9B}
+\definecolor{colTipBody}{HTML}{DBFAF4}
+\definecolor{colNoteHead}{HTML}{6AB0DE}
+\definecolor{colNoteBody}{HTML}{E4EFF7}
+\definecolor{colWarningHead}{HTML}{F0B27E}
+\definecolor{colWarningBody}{HTML}{FEECCA}
+\definecolor{colErrorHead}{HTML}{F19F97}
+\definecolor{colErrorBody}{HTML}{FDF3F2}
+\renewenvironment{sphinxnote}[1]
+	{\begin{club1admonition}{#1}{colNoteHead}{colNoteBody}}{\end{club1admonition}}
+\renewenvironment{sphinxhint}[1]
+	{\begin{club1admonition}{#1}{colTipHead}{colTipBody}}{\end{club1admonition}}
+\renewenvironment{sphinximportant}[1]
+	{\begin{club1admonition}{#1}{colTipHead}{colTipBody}}{\end{club1admonition}}
+\renewenvironment{sphinxtip}[1]
+	{\begin{club1admonition}{#1}{colTipHead}{colTipBody}}{\end{club1admonition}}
+\renewenvironment{sphinxwarning}[1]
+	{\begin{club1admonition}{#1}{colWarningHead}{colWarningBody}}{\end{club1admonition}}
+\renewenvironment{sphinxcaution}[1]
+	{\begin{club1admonition}{#1}{colWarningHead}{colWarningBody}}{\end{club1admonition}}
+\renewenvironment{sphinxattention}[1]
+	{\begin{club1admonition}{#1}{colWarningHead}{colWarningBody}}{\end{club1admonition}}
+\renewenvironment{sphinxdanger}[1]
+	{\begin{club1admonition}{#1}{colErrorHead}{colErrorBody}}{\end{club1admonition}}
+\renewenvironment{sphinxerror}[1]
+	{\begin{club1admonition}{#1}{colErrorHead}{colErrorBody}}{\end{club1admonition}}
+
+% Move footnotes back to end of page instead of inside the box.
+\BeforeBeginEnvironment{club1admonition}{\savenotes}
+\AfterEndEnvironment{club1admonition}{\spewnotes}
+
 
 % Définition de quelques motifs d'hyphenation particulier.
 \hyphenation{git-hub}
