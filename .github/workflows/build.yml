@@ -35,5 +35,5 @@ jobs:
       - name: Collect Sphinx errors
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'
-          sort -u errors.*.log
+          sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log | sort -u
           echo '::remove-matcher owner=sphinx::'
