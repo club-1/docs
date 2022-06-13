@@ -9,7 +9,8 @@ jobs:
   all:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
       - name: Install apt packages
         run: >
           sudo apt-get install --no-install-recommends -y

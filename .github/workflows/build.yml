@@ -8,12 +8,32 @@ on:
 jobs:
   sphinx:
     runs-on: ubuntu-latest
+    env:
+      SPHINXOPTS: -D gettext_auto_build=True -n
     steps:
-      - uses: actions/checkout@v3
-      - name: Build HTML
-        uses: XanaduAI/sphinx-action@08cb9868314fb5be5f28644b540a38b8faaf8e87
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install apt packages
+        run: sudo apt-get install --no-install-recommends -y gettext
+      - name: Restore pip cache
+        uses: actions/cache@v3
         with:
-          pre-build-command: >
-            apt-get update -y && apt-get install --no-install-recommends -y gettext
-            && pip install myst-parser sphinx-rtd-theme
-          docs-folder: .
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/deploy.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install pip packages
+        run: >
+          pip install
+          sphinx==4.5.0
+          myst-parser==0.17.2
+          sphinx-rtd-theme==1.0.0
+      - name: Make html/fr
+        run: make html/fr O='-w errors.html.fr.log'
+      - name: Make html/en
+        run: make html/en O='-w errors.html.en.log'
+      - name: Collect Sphinx errors
+        run: |
+          echo '::add-matcher::.github/matchers/sphinx.json'
+          sort -u errors.*.log
+          echo '::remove-matcher owner=sphinx::'
