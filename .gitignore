@@ -3,6 +3,7 @@ _build
 __pycache__
 *.pyc
 *.mo
+*.log
 
 # Editor files
 .*.swp

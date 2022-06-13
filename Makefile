@@ -99,6 +99,7 @@ $(SPHINXCMDS):
 
 clean:
 	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
+	rm -f *.log
 	rm -rf $(BUILDDIR)/*
 	rm -rf _ext/__pycache__
 
