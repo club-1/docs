@@ -5,8 +5,17 @@
       "severity": "error",
       "pattern": [
         {
-          "regexp": "^\\!.*(Error|Warning):\\s+(.*)$",
-          "severity": 1,
+          "regexp": "^\\!\\s.*$",
+          "message": 0
+        }
+      ]
+    },
+    {
+      "owner": "latex-line-error",
+      "severity": "error",
+      "pattern": [
+        {
+          "regexp": "^(.*):(\\d+):\\s+(.*)$",
           "message": 0
         }
       ]

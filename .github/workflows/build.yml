@@ -84,5 +84,6 @@ jobs:
           echo '::add-matcher::.github/matchers/latex.json'
           make latexpdf/fr
           echo '::remove-matcher owner=latex-error::'
+          echo '::remove-matcher owner=latex-line-error::'
           echo '::remove-matcher owner=latex-under-over-full::'
           echo '::remove-matcher owner=latex-warning::'
