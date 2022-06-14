@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-13 14:36+0200\n"
+"POT-Creation-Date: 2022-06-14 11:35+0200\n"
 "PO-Revision-Date: 2022-05-15 16:47+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -309,7 +309,7 @@ msgid ""
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
 
-#: ../../info/espace-personnel.md:76
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:203
 msgid "Metadonnées"
 msgstr ""
 
@@ -421,8 +421,8 @@ msgstr "Operating system"
 #: ../../info/general.md:24
 #, fuzzy
 #| msgid ""
-#| "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ (20.04)** "
-#| "et est mis à jour régulièrement."
+#| "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ "
+#| "(20.04)** et est mis à jour régulièrement."
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -1038,6 +1038,31 @@ msgstr ""
 "out at the end of the file, while adding the following comment just above "
 "the line `msgid \"...\"`:"
 
+# ignore-same
+#: ../../interne/meta-doc.md:207 ../../interne/meta-doc.md:215
+msgid "Documentation CLUB1 : {{ env.config.release }}"
+msgstr "Documentation CLUB1 : {{ env.config.release }}"
+
+# ignore-same
+#: ../../interne/meta-doc.md:208 ../../interne/meta-doc.md:216
+msgid "Sphinx : {{ sphinx_version }}"
+msgstr "Sphinx : {{ sphinx_version }}"
+
+# ignore-same
+#: ../../interne/meta-doc.md:209 ../../interne/meta-doc.md:217
+msgid "Docutils : {{ docutils_version }}"
+msgstr "Docutils : {{ docutils_version }}"
+
+# ignore-same
+#: ../../interne/meta-doc.md:210 ../../interne/meta-doc.md:218
+msgid "MyST-Parser : {{ myst_version }}"
+msgstr "MyST-Parser : {{ myst_version }}"
+
+# ignore-same
+#: ../../interne/meta-doc.md:211
+msgid "Sphinx-rtd-theme : {{ rtd_version }}"
+msgstr "Sphinx-rtd-theme : {{ rtd_version }}"
+
 #: ../../services/drive.md:1
 #, fuzzy
 #| msgid "Explorateur de fichiers Web"
@@ -1493,8 +1518,8 @@ msgstr "`3306` (default)"
 msgid "Connexion à distance SSH"
 msgstr "SSH remote connection"
 
+# ignore-same
 #: ../../services/ssh.md:0
-#, ignore-same
 msgid "SSH"
 msgstr "SSH"
 
@@ -1729,8 +1754,8 @@ msgstr ""
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
 msgstr "WebDAV synchro of files, contacts and calendars"
 
+# ignore-same
 #: ../../services/webdav.md:0
-#, ignore-same
 msgid "WebDAV"
 msgstr "WebDAV"
 
