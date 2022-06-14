@@ -65,7 +65,7 @@ latexpdf info: %: $(LANGUAGES:%=\%/%);
 
 $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 	cat _templates/style.xdy >> $(BUILDDIR)/$</sphinx.xdy
-	$(MAKE) -C $(BUILDDIR)/$<
+	max_print_line=110 $(MAKE) -C $(BUILDDIR)/$<
 
 $(LANGUAGES:%=info/%): info/%: texinfo/%
 	$(MAKE) -C $(BUILDDIR)/$<

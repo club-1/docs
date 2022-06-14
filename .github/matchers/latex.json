@@ -1,0 +1,35 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "latex-error",
+      "severity": "error",
+      "pattern": [
+        {
+          "regexp": "^\\!.*(Error|Warning):\\s+(.*)$",
+          "severity": 1,
+          "message": 0
+        }
+      ]
+    },
+    {
+      "owner": "latex-under-over-full",
+      "severity": "warning",
+      "pattern": [
+        {
+          "regexp": "^(Und|Ov)erfull.*$",
+          "message": 0
+        }
+      ]
+    },
+    {
+      "owner": "latex-warning",
+      "severity": "warning",
+      "pattern": [
+        {
+          "regexp": "^.*(?<!(rerunfilecheck)) Warning: (?!(Hyper reference|Reference|There were undefined references|Label)).*$",
+          "message": 0
+        }
+      ]
+    }
+  ]
+}
