@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-13 14:36+0200\n"
+"POT-Creation-Date: 2022-06-14 11:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,7 +271,7 @@ msgid ""
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
 
-#: ../../info/espace-personnel.md:76
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:203
 msgid "Metadonnées"
 msgstr ""
 
@@ -845,6 +845,26 @@ msgid ""
 "ont trop changé, il faudra peut-être en récupérer la traduction dans les "
 "messages mis en commentaire à la fin du fichier, tout en ajoutant le "
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
+msgstr ""
+
+#: ../../interne/meta-doc.md:207 ../../interne/meta-doc.md:215
+msgid "Documentation CLUB1 : {{ env.config.release }}"
+msgstr ""
+
+#: ../../interne/meta-doc.md:208 ../../interne/meta-doc.md:216
+msgid "Sphinx : {{ sphinx_version }}"
+msgstr ""
+
+#: ../../interne/meta-doc.md:209 ../../interne/meta-doc.md:217
+msgid "Docutils : {{ docutils_version }}"
+msgstr ""
+
+#: ../../interne/meta-doc.md:210 ../../interne/meta-doc.md:218
+msgid "MyST-Parser : {{ myst_version }}"
+msgstr ""
+
+#: ../../interne/meta-doc.md:211
+msgid "Sphinx-rtd-theme : {{ rtd_version }}"
 msgstr ""
 
 #: ../../services/drive.md:1
