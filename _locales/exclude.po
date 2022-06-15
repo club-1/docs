@@ -1,0 +1,74 @@
+msgid "Documentation CLUB1 : {{ env.config.release }}"
+msgstr ""
+
+msgid "Sphinx : {{ sphinx_version }}"
+msgstr ""
+
+msgid "Docutils : {{ docutils_version }}"
+msgstr ""
+
+msgid "MyST-Parser : {{ myst_version }}"
+msgstr ""
+
+msgid "Sphinx-rtd-theme : {{ rtd_version }}"
+msgstr ""
+
+msgid "SSH"
+msgstr ""
+
+msgid "WebDAV"
+msgstr ""
+
+msgid "API"
+msgstr ""
+
+msgid "CLI"
+msgstr ""
+
+msgid "Git"
+msgstr ""
+
+msgid "GitHub"
+msgstr ""
+
+msgid "Markdown"
+msgstr ""
+
+msgid "📁 mail"
+msgstr ""
+
+msgid "📁 static"
+msgstr ""
+
+msgid "📁 git"
+msgstr ""
+
+msgid "Make"
+msgstr ""
+
+msgid "Sphinx"
+msgstr ""
+
+msgid "MyST-Parser"
+msgstr ""
+
+msgid "Shpinx-rtd-theme"
+msgstr ""
+
+msgid "gettext"
+msgstr ""
+
+msgid "Latexmk"
+msgstr ""
+
+msgid "LuaTeX"
+msgstr ""
+
+msgid "TeX Live"
+msgstr ""
+
+msgid "DejaVu"
+msgstr ""
+
+msgid "xindy"
+msgstr ""

@@ -55,7 +55,7 @@ $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
 	@touch $@
 
 $(LOCALEDIR)/package.pot $(LOCALEDIR)/sphinx.pot: $(LOCALEDIR)/%.pot: $(BUILDDIR)/gettext/%.pot
-	xgettext $< -o $@ -w 79 \
+	xgettext $< -o $@ -x $(LOCALEDIR)/exclude.po -w 79 \
 	--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 

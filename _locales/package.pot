@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-14 11:35+0200\n"
+"POT-Creation-Date: 2022-06-15 12:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,6 @@ msgstr ""
 msgid "Glossaire"
 msgstr ""
 
-#: ../../glossaire.md:0
-msgid "API"
-msgstr ""
-
 #: ../../glossaire.md:8
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
@@ -32,10 +28,6 @@ msgid ""
 "général composée d'un ensemble de fonctions qu'un logicel peut utiliser à "
 "distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Interface_de_programmation)"
-msgstr ""
-
-#: ../../glossaire.md:6
-msgid "CLI"
 msgstr ""
 
 #: ../../glossaire.md:14
@@ -68,18 +60,10 @@ msgid ""
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:21
-msgid "Git"
-msgstr ""
-
 #: ../../glossaire.md:29
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git)"
-msgstr ""
-
-#: ../../glossaire.md:25
-msgid "GitHub"
 msgstr ""
 
 #: ../../glossaire.md:33
@@ -97,10 +81,6 @@ msgstr ""
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Internet)"
-msgstr ""
-
-#: ../../glossaire.md:34
-msgid "Markdown"
 msgstr ""
 
 #: ../../glossaire.md:42
@@ -202,10 +182,6 @@ msgstr ""
 msgid "Tout les dossiers ne se valent pas, certains ont un rôle spécifique."
 msgstr ""
 
-#: ../../info/espace-personnel.md:31
-msgid "📁 mail"
-msgstr ""
-
 #: ../../info/espace-personnel.md:33
 msgid ""
 "C'est ici que sont stockés tout vos mails du [service mail CLUB1](/services/"
@@ -225,18 +201,10 @@ msgid ""
 "copie de ce dossier."
 msgstr ""
 
-#: ../../info/espace-personnel.md:45
-msgid "📁 static"
-msgstr ""
-
 #: ../../info/espace-personnel.md:47
 msgid ""
 "Ce dossier est la porte la plus proche vers le {term}`Web` car il permet de "
 "[publier des sites Web](/services/web.md)."
-msgstr ""
-
-#: ../../info/espace-personnel.md:50
-msgid "📁 git"
 msgstr ""
 
 #: ../../info/espace-personnel.md:52
@@ -732,16 +700,8 @@ msgid ""
 "format de sortie désiré :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:0
-msgid "Make"
-msgstr ""
-
 #: ../../interne/meta-doc.md:137
 msgid "Gestionnaire de compilation."
-msgstr ""
-
-#: ../../interne/meta-doc.md:3
-msgid "Sphinx"
 msgstr ""
 
 #: ../../interne/meta-doc.md:140
@@ -750,24 +710,12 @@ msgid ""
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
 
-#: ../../interne/meta-doc.md:6
-msgid "MyST-Parser"
-msgstr ""
-
 #: ../../interne/meta-doc.md:143
 msgid "Plugin Sphinx permettant la prise en charge du Markdown."
 msgstr ""
 
-#: ../../interne/meta-doc.md:9
-msgid "Shpinx-rtd-theme"
-msgstr ""
-
 #: ../../interne/meta-doc.md:146
 msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
-msgstr ""
-
-#: ../../interne/meta-doc.md:12
-msgid "gettext"
 msgstr ""
 
 #: ../../interne/meta-doc.md:149
@@ -782,40 +730,20 @@ msgstr ""
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr ""
 
-#: ../../interne/meta-doc.md:0
-msgid "Latexmk"
-msgstr ""
-
 #: ../../interne/meta-doc.md:160
 msgid "Gestionnaire de compilation de documents LaTeX."
-msgstr ""
-
-#: ../../interne/meta-doc.md:3
-msgid "LuaTeX"
 msgstr ""
 
 #: ../../interne/meta-doc.md:163
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr ""
 
-#: ../../interne/meta-doc.md:6
-msgid "TeX Live"
-msgstr ""
-
 #: ../../interne/meta-doc.md:166
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr ""
 
-#: ../../interne/meta-doc.md:9
-msgid "DejaVu"
-msgstr ""
-
 #: ../../interne/meta-doc.md:169
 msgid "Police de caractères utilisée pour le texte monospace."
-msgstr ""
-
-#: ../../interne/meta-doc.md:12
-msgid "xindy"
 msgstr ""
 
 #: ../../interne/meta-doc.md:172
@@ -845,26 +773,6 @@ msgid ""
 "ont trop changé, il faudra peut-être en récupérer la traduction dans les "
 "messages mis en commentaire à la fin du fichier, tout en ajoutant le "
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
-msgstr ""
-
-#: ../../interne/meta-doc.md:207 ../../interne/meta-doc.md:215
-msgid "Documentation CLUB1 : {{ env.config.release }}"
-msgstr ""
-
-#: ../../interne/meta-doc.md:208 ../../interne/meta-doc.md:216
-msgid "Sphinx : {{ sphinx_version }}"
-msgstr ""
-
-#: ../../interne/meta-doc.md:209 ../../interne/meta-doc.md:217
-msgid "Docutils : {{ docutils_version }}"
-msgstr ""
-
-#: ../../interne/meta-doc.md:210 ../../interne/meta-doc.md:218
-msgid "MyST-Parser : {{ myst_version }}"
-msgstr ""
-
-#: ../../interne/meta-doc.md:211
-msgid "Sphinx-rtd-theme : {{ rtd_version }}"
 msgstr ""
 
 #: ../../services/drive.md:1
@@ -1231,10 +1139,6 @@ msgstr ""
 msgid "Connexion à distance SSH"
 msgstr ""
 
-#: ../../services/ssh.md:0
-msgid "SSH"
-msgstr ""
-
 #: ../../services/ssh.md:6
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
@@ -1402,10 +1306,6 @@ msgstr ""
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
-msgstr ""
-
-#: ../../services/webdav.md:0
-msgid "WebDAV"
 msgstr ""
 
 #: ../../services/webdav.md:6
@@ -1756,7 +1656,7 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:91
 msgid ""
 "Et si je voulais partager 15 fichiers, j'aurais 15 URLs à partager ? C'est "
-"casse pied ! N'y aurait il pas un moyen de partager un dossier complet ?"
+"casse-pied ! N'y aurait-il pas un moyen de partager un dossier complet ?"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:94
@@ -1771,7 +1671,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:103
 msgid ""
-"Vous devrier avoir accès à une page listant les fichiers de votre dossier "
+"Vous devriez avoir accès à une page listant les fichiers de votre dossier "
 "`static`."
 msgstr ""
 
@@ -1924,15 +1824,15 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:193
 msgid ""
-"En l'occurence, la balise `<h1>` signigie : *les caractères qui suivent font "
-"parti d'un titre de niveau 1*. Il s'agît d'une balise __ouvrante__."
+"En l'occurence, la balise `<h1>` signifie : *les caractères qui suivent font "
+"partie d'un titre de niveau&nbsp;1*. Il s'agît d'une balise __ouvrante__."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:197
 msgid ""
 "Tandis que la balise `</h1>` signifie : *les caractères qui suivent ne font "
-"__plus__ parti d'un titre de niveau 1*. Cette dernière est donc une balise "
-"dite __fermante__."
+"__plus__ partie d'un titre de niveau&nbsp;1*. Cette dernière est donc une "
+"balise dite __fermante__."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:201
@@ -1944,8 +1844,8 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:204
 msgid ""
 "Le naviguateur Web, de son côté, a interprêté ces balises et à *compris* que "
-"\"Bienvenue\" est un \"titre de niveau 1\". Il applique ensuite un style par "
-"défaut associé à ce statut."
+"\"Bienvenue\" est un \"titre de niveau&nbsp;1\". Il applique ensuite un "
+"style par défaut associé à ce statut."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:208
