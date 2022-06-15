@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-06-15 12:34+0200\n"
-"PO-Revision-Date: 2022-05-15 16:47+0000\n"
+"PO-Revision-Date: 2022-06-16 12:17+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -200,6 +200,11 @@ msgid ""
 "attention, car certains dossier à l'intérieur peuvent être précieux. Par "
 "exemple vos emails, qui sont dans le dossier `mail` 🤯 ."
 msgstr ""
+"Each CLUB1 member has a *personal space*. This is your *home*, by the way, "
+"we call this folder `home` 🏠. But since you have all the rights, you also "
+"have the right to delete everything. So be careful, because some folders "
+"inside can be precious. For example your emails, which are in the folder "
+"`mail` 🤯 ."
 
 #: ../../info/espace-personnel.md:18
 msgid ""
@@ -211,6 +216,12 @@ msgid ""
 "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du "
 "serveur."
 msgstr ""
+"Yep, with great power comes great responsibility... 😏 You can do whatever "
+"you want there, but as your home there are also neighbors. Indeed, __there "
+"is no storage limit defined__ per folder `home` of each member, but on the "
+"other hand, a physical limit: All these folders are on a SSD storage medium "
+"totaling __1To__. This is a common space to be shared between users of the "
+"server."
 
 #: ../../info/espace-personnel.md:26
 msgid "Architecture de dossiers"
@@ -218,7 +229,7 @@ msgstr "Directory tree"
 
 #: ../../info/espace-personnel.md:29
 msgid "Tout les dossiers ne se valent pas, certains ont un rôle spécifique."
-msgstr ""
+msgstr "Not all folders are created equal, some have a specific role."
 
 #: ../../info/espace-personnel.md:33
 msgid ""
@@ -226,18 +237,23 @@ msgid ""
 "email.md). Votre espace email est donc directement à l'intérieur de votre "
 "espace personnel. Un quota existe pour ce dossier : il est limité à 5Go."
 msgstr ""
+"This is where all your [CLUB1 mail service](/services/email.md) emails are "
+"stored. Your email space is therefore directly inside your personal space. A "
+"quota exists for this folder: it is limited to 5GB."
 
 #: ../../info/espace-personnel.md:38
 msgid ""
 "Attention à ne pas supprimer ce dossier par inadvertance, vous perdrez tout "
 "vos emails stockés sur le serveur."
 msgstr ""
+"Be careful not to delete this folder inadvertently, you will lose all your "
+"emails stored on the server."
 
 #: ../../info/espace-personnel.md:42
 msgid ""
 "Pour sauvegarder rapidement vos emails, il vous suffit de télécharger une "
 "copie de ce dossier."
-msgstr ""
+msgstr "To quickly back up your emails, just download a copy of this folder."
 
 #: ../../info/espace-personnel.md:47
 msgid ""
@@ -387,10 +403,6 @@ msgid "Système d'exploitation"
 msgstr "Operating system"
 
 #: ../../info/general.md:24
-#, fuzzy
-#| msgid ""
-#| "Le serveur tourne sur la dernière version **LTS d'_ubuntu server_ "
-#| "(20.04)** et est mis à jour régulièrement."
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -399,8 +411,11 @@ msgid ""
 "automatiquement redémarés grâce à [_needrestart_](https://packages.debian."
 "org/fr/stable/needrestart)."
 msgstr ""
-"The server runs the latest **LTS version of _ubuntu server_(20.04)** and is "
-"updated regularly."
+"The server runs on **Ubuntu 20.04 (LTS)** and is updated regularly. Security "
+"updates are installed automatically within 24 hours using [_unattended-"
+"upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the services "
+"depending on it are then automatically restarted using "
+"[_needrestart_](https://packages.debian.org/stable/needrestart)."
 
 #: ../../info/general.md:30
 msgid "Logiciels et bibliothèques installés"
@@ -572,16 +587,6 @@ msgid "Meta-documentation"
 msgstr "Meta-documentation"
 
 #: ../../interne/meta-doc.md:4
-#, fuzzy
-#| msgid ""
-#| "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-#| "club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale "
-#| "et anglais, la secondaire. Le site {term}`Web` est généré à l'aide de "
-#| "[Sphinx](https://fr.wikipedia.org/wiki/"
-#| "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation)), à partir de fichiers "
-#| "source écrits en {term}`markdown`. Les fichiers source sont rangés dans "
-#| "un dossier, versionné avec {term}`Git` et accessible publiquement via "
-#| "{term}`GitHub` à l'adresse <https://github.com/club-1/docs/>."
 msgid ""
 "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
 "club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale et "
@@ -593,21 +598,12 @@ msgid ""
 msgstr ""
 "The CLUB1's documentation is published in HTML format at <https://club1.fr/"
 "docs/en/>. It exists in two languages: French, the main one and English, the "
-"secondary. The {term}`Web` site is generated using [Sphinx](https://en."
-"wikipedia.org/wiki/Sphinx_(documentation_generator)), from source files "
-"written in {term}`markdown`. The source files are stored in a directory, "
-"versioned with {term}`Git` and publicly accessible via {term}`GitHub` at "
-"<https://github.com/club-1/docs/>."
+"secondary. The {term}`Web` site is generated using {term}`Sphinx`, from "
+"source files written in {term}`Markdown`. The source files are stored in a "
+"directory, versioned with {term}`Git` and publicly accessible via "
+"{term}`GitHub` at <https://github.com/club-1/docs/>."
 
 #: ../../interne/meta-doc.md:13
-#, fuzzy
-#| msgid ""
-#| "Le language utilisé dans les fichiers source est une extension de {term}"
-#| "`markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). "
-#| "Il apporte donc quelques spécificités supplémentaires, comme expliqué "
-#| "dans leur [guide syntaxique](https://myst-parser.readthedocs.io/en/latest/"
-#| "syntax/syntax.html), dont il existe aussi une [référence rapide](https://"
-#| "myst-parser.readthedocs.io/en/latest/syntax/reference.html)."
 msgid ""
 "Le language utilisé dans les fichiers source est une extension de {term}"
 "`Markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). Il "
@@ -616,7 +612,7 @@ msgid ""
 "syntax.html), dont il existe aussi une [référence rapide](https://myst-"
 "parser.readthedocs.io/en/latest/syntax/reference.html)."
 msgstr ""
-"The language used in source files is a {term}`markdown` extension called "
+"The language used in source files is a {term}`Markdown` extension called "
 "[MyST](https://myst-parser.readthedocs.io/en/latest/). It introduces several "
 "specificities, as explained in their [syntax guide](https://myst-parser."
 "readthedocs.io/en/latest/syntax/syntax.html), of which there is a [quick "
@@ -624,10 +620,8 @@ msgstr ""
 "html)."
 
 #: ../../interne/meta-doc.md:20
-#, fuzzy
-#| msgid "Arborescence du dossier"
 msgid "Arborescence de fichiers"
-msgstr "Directory tree"
+msgstr "File tree"
 
 #: ../../interne/meta-doc.md:23
 msgid ""
@@ -643,12 +637,6 @@ msgid ""
 msgstr "`_build`: folder that contains all the files generated by Sphinx."
 
 #: ../../interne/meta-doc.md:42
-#, fuzzy
-#| msgid ""
-#| "`_locales/` : dossier contenant les fichiers de traductions. Il comporte "
-#| "un dossier par langue avec des fichiers `.po` contenant les traductions "
-#| "et des fichiers `.pot` générés automatiquement à partir des fichiers "
-#| "source en markdown."
 msgid ""
 "`_locales/` : dossier contenant les fichiers de traductions. Il comporte un "
 "dossier par langue avec des fichiers `.po` contenant les traductions et des "
@@ -656,8 +644,8 @@ msgid ""
 "Markdown."
 msgstr ""
 "`_locales/`: folder that contains the translation files. It is composed of "
-"one folder per language with `.po` files that contains the translations and "
-"`.pot` files automatically generated from the markdown source files."
+"one folder per language with `.po` files that contains the translations and `"
+".pot` files automatically generated from the Markdown source files."
 
 #: ../../interne/meta-doc.md:46
 msgid ""
@@ -729,13 +717,6 @@ msgstr ""
 "compiled and published on the CLUB1 website."
 
 #: ../../interne/meta-doc.md:71
-#, fuzzy
-#| msgid ""
-#| "Git regroupe les modifications par ligne. Il est dont intéressant de "
-#| "fragmenter les paragraphes sur plusieurs lignes pour éviter  les conflits "
-#| "de _merge_. Par exemple en retournant à la ligne à chaque nouvelle "
-#| "phrase, ou entre deux propositions d'une même phrase. Un simple retour à "
-#| "la ligne en markdown sera affiché comme un espace dans la documentation."
 msgid ""
 "Git regroupe les modifications par ligne. Il est donc intéressant de "
 "fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de "
@@ -746,14 +727,12 @@ msgstr ""
 "Git groups modifications per line. It is therefore interesting to split the "
 "paragraphs on several lines to avoid _merge_ conflicts. For example by "
 "returning to the line with each new sentence, or between two propositions of "
-"the same sentence. A single line break in markdown will be displayed as a "
+"the same sentence. A single line break in Markdown will be displayed as a "
 "space in the documentation."
 
 #: ../../interne/meta-doc.md:78
-#, fuzzy
-#| msgid "Langue française"
 msgid "Langue principale (français)"
-msgstr "French language"
+msgstr "Main language (French)"
 
 #: ../../interne/meta-doc.md:80
 msgid ""
@@ -794,21 +773,15 @@ msgid "Autres langues"
 msgstr "Other languages"
 
 #: ../../interne/meta-doc.md:100
-#, fuzzy
-#| msgid ""
-#| "Les traductions, elles, ne sont pas stockées dans des fichiers markdown, "
-#| "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et "
-#| "sont plus facilement éditables via [Weblate](https://hosted.weblate.org/"
-#| "projects/club-1/docs/)."
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
 "plus facilement éditables via [Weblate](https://hosted.weblate.org/projects/"
 "club-1/docs/)."
 msgstr ""
-"The translations are not stored as markdown files, but in locales `locales/"
-"LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
-"(https://hosted.weblate.org/projects/club-1/docs/)."
+"The translations are not stored as Markdown files, but in locales `locales/"
+"LC_MESSAGES/package.po` files and are more comfortably edited on "
+"[Weblate](https://hosted.weblate.org/projects/club-1/docs/)."
 
 #: ../../interne/meta-doc.md:104
 msgid ""
@@ -871,10 +844,8 @@ msgstr ""
 "made before proposing them."
 
 #: ../../interne/meta-doc.md:130
-#, fuzzy
-#| msgid "Prérequis"
 msgid "Prérequis communs"
-msgstr "Prerequisites"
+msgstr "Common prerequisites"
 
 #: ../../interne/meta-doc.md:132
 msgid ""
@@ -883,10 +854,8 @@ msgid ""
 msgstr ""
 
 #: ../../interne/meta-doc.md:137
-#, fuzzy
-#| msgid "Gestionnaire de compilation"
 msgid "Gestionnaire de compilation."
-msgstr "Compilation manager"
+msgstr "Build manager."
 
 #: ../../interne/meta-doc.md:140
 msgid ""
@@ -915,10 +884,8 @@ msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr ""
 
 #: ../../interne/meta-doc.md:160
-#, fuzzy
-#| msgid "Gestionnaire de compilation"
 msgid "Gestionnaire de compilation de documents LaTeX."
-msgstr "Compilation manager"
+msgstr "LaTeX documents compilation manager."
 
 #: ../../interne/meta-doc.md:163
 msgid "Moteur de rendu TeX scriptable en Lua."
@@ -967,10 +934,8 @@ msgstr ""
 "the line `msgid \"...\"`:"
 
 #: ../../services/drive.md:1
-#, fuzzy
-#| msgid "Explorateur de fichiers Web"
 msgid "Explorateur de fichiers Web *Drive*"
-msgstr "Web file explorer"
+msgstr "*Drive* Web file explorer"
 
 #: ../../services/drive.md:4
 msgid ""
@@ -1422,18 +1387,13 @@ msgid "Connexion à distance SSH"
 msgstr "SSH remote connection"
 
 #: ../../services/ssh.md:6
-#, fuzzy
-#| msgid ""
-#| "SSH (_Secure SHell_) permet de se connecter à distance en {term}`CLI` au "
-#| "serveur CLUB1. L'accès SSH peut se révéler très utile, surtout pour les "
-#| "utilisateurs avancés."
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
 "`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour les "
 "utilisateurs avancés."
 msgstr ""
-"SSH (_Secure SHell_) allows to remotely connect in {term}`CLI` to the CLUB1 "
-"server. The SSH access can be very useful, mostly for advanced users."
+"(_Secure SHell_) Protocol allowing to connect remotely in {term}`CLI` to a "
+"server. SSH access can be very useful, especially for advanced users."
 
 #: ../../services/ssh.md:10
 msgid ""
@@ -1653,14 +1613,6 @@ msgid "Synchro de fichiers, contacts et calendriers WebDAV"
 msgstr "WebDAV synchro of files, contacts and calendars"
 
 #: ../../services/webdav.md:6
-#, fuzzy
-#| msgid ""
-#| "**WebDAV** est un protocole qui étend les fonctionnalités du {term}`Web`. "
-#| "Il y ajoute des possibilités de modifications et de synchronisation de "
-#| "fichiers. Son utilisation première est donc similaire à un système de "
-#| "fichier distant. Il est donc possible d'y connecter un explorateur de "
-#| "fichier compatible pour éditer les fichiers de son **espace personnel** "
-#| "comme si ils étaient présents en local."
 msgid ""
 "Protocole qui étend les fonctionnalités du {term}`Web`. Il y ajoute des "
 "possibilités de modifications et de synchronisation de fichiers. Son "
@@ -1669,11 +1621,11 @@ msgid ""
 "éditer les fichiers de son **espace personnel** comme si ils étaient "
 "présents en local."
 msgstr ""
-"**WebDAV** is a protocol that extends the functionality of the {term}`Web`. "
-"It adds possibilities of modifications and synchronization of files. Its "
-"primary use is therefore similar to a remote file system. It is therefore "
-"possible to connect a compatible file explorer to it to edit the files of "
-"your **personal space** as if they were present locally."
+"Protocol that extends the functionality of the {term}`Web`. It adds "
+"possibilities of modifications and synchronization of files. Its primary use "
+"is therefore similar to a remote file system and it is possible to use it "
+"via a compatible file explorer to edit the files of your **personal space** "
+"as if they were present locally."
 
 #: ../../services/webdav.md:13
 msgid ""
@@ -1739,10 +1691,8 @@ msgid "[](/tutos/webdav-android.md)"
 msgstr "[](/tutos/webdav-android.md)"
 
 #: ../../tutos/connexion-linux.md:1
-#, fuzzy
-#| msgid "Connexion au serveur depuis l'explorateur de fichiers linux"
 msgid "Connexion au serveur depuis l'explorateur de fichiers Linux"
-msgstr "Connect to server from linux file explorer"
+msgstr "Connecting to the server from Linux file explorer"
 
 #: ../../tutos/connexion-linux.md:4
 msgid ""
@@ -1810,10 +1760,8 @@ msgid "capture d'écran fenêtre de connexion"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:32
-#, fuzzy
-#| msgid "Informations de connexion"
 msgid "Fenêtre de connexion."
-msgstr "Connection information"
+msgstr "Connection window."
 
 #: ../../tutos/connexion-linux.md:35
 msgid ""
@@ -1822,16 +1770,12 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:42
-#, fuzzy
-#| msgid "Connexion au serveur depuis l'explorateur de fichiers linux"
 msgid "capture d'écran dossiers du serveur dans l'explorateur de fichier"
-msgstr "Connect to server from linux file explorer"
+msgstr "screenshot of server folders in file explorer"
 
 #: ../../tutos/connexion-linux.md:42
-#, fuzzy
-#| msgid "Connexion au serveur depuis l'explorateur de fichiers linux"
 msgid "Dossiers du serveur dans l'explorateur de fichier."
-msgstr "Connect to server from linux file explorer"
+msgstr "Server folders in the file explorer."
 
 #: ../../tutos/connexion-linux.md:45
 msgid ""
@@ -2261,10 +2205,8 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/webdav-android.md:1
-#, fuzzy
-#| msgid "Synchronisation d'un appareil Android"
 msgid "Synchronisation de calendriers et contacts sur un appareil Android"
-msgstr "Synchronization of an Android device"
+msgstr "Synchronizing calendars and contacts on an Android device"
 
 #: ../../tutos/webdav-android.md:4
 msgid ""
@@ -2313,35 +2255,28 @@ msgid "Premier lancement"
 msgstr "First launch"
 
 #: ../../tutos/webdav-android.md:18
-#, fuzzy
-#| msgid ""
-#| "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
-#| "gestion des tâches."
 msgid ""
 "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
-"When launching __DAVx5__, do not check the boxes concerning task management."
+"When launching __DAVx5__, do not check the boxes concerning task management "
+"({numref}`fig:tutos-webdav-android-taches`)."
 
 #: ../../tutos/webdav-android.md:26
-#, fuzzy
-#| msgid "gestion des tâches"
 msgid "capture d'écran gestion des tâches"
-msgstr "task management"
+msgstr "screenshot of task management"
 
 #: ../../tutos/webdav-android.md:26
-#, fuzzy
-#| msgid "gestion des tâches"
 msgid "Gestion des tâches."
-msgstr "task management"
+msgstr "Task management."
 
 #: ../../tutos/webdav-android.md:29
-#, fuzzy
-#| msgid "Puis, autorisez lui l'accès aux contacts et aux agendas (tout)."
 msgid ""
 "Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
-msgstr "Then, allow it access to contacts and calendars (everything)."
+msgstr ""
+"Then, allow it access to contacts and calendars (everything) ({numref}`fig"
+":tutos-webdav-android-autorisations`)."
 
 #: ../../tutos/webdav-android.md:38
 msgid "capture d'écran autorisations"
