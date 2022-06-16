@@ -1,0 +1,5 @@
+# Redirect root to default language
+RedirectMatch "^/docs/$" "/docs/fr"
+
+# Redirect latest versions of downloads to the real file
+RedirectMatch "^/docs/(.*)-latest\.(pdf|epub)$" "/docs/$1-{{release}}.$2"

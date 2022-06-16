@@ -73,12 +73,15 @@ $(LANGUAGES:%=info/%): info/%: texinfo/%
 $(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
 	cp $< $@
 
+$(BUILDDIR)/html/.htaccess: _templates/.htaccess .FORCE | $(BUILDDIR)/html
+	sed -e 's/{{release}}/$(RELEASE)/' $< > $@
+
 publish:
 	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
-all: $(ALL) $(BUILDDIR)/html/index.html;
-$(ALL): export DOWNLOADS = club1-$(@F)-$(RELEASE).pdf club1-$(@F)-$(RELEASE).epub
+all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess;
+$(ALL): export DOWNLOADS = club1-$(@F)-latest.pdf club1-$(@F)-latest.epub
 $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
 	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).pdf
 	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).epub
