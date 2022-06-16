@@ -77,7 +77,7 @@ $(BUILDDIR)/html/.htaccess: _templates/.htaccess .FORCE | $(BUILDDIR)/html
 	sed -e 's/{{release}}/$(RELEASE)/' $< > $@
 
 publish:
-	rsync -av --del --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
+	rsync -av --del --exclude='.*' --include=.htaccess _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
 all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess;
