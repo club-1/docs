@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-06-15 12:34+0200\n"
-"PO-Revision-Date: 2022-06-17 15:00+0000\n"
+"PO-Revision-Date: 2022-06-18 16:15+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: ../../glossaire.md:3
 msgid "Glossaire"
@@ -2325,65 +2325,71 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:38
 msgid "capture d'écran autorisations"
-msgstr ""
+msgstr "screenshot permissions"
 
 #: ../../tutos/webdav-android.md:38
 msgid "Accorder les autorisations."
-msgstr ""
+msgstr "Grant permissions."
 
 #: ../../tutos/webdav-android.md:41
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
 "intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`)."
 msgstr ""
+"Finally, for more comfort, it is recommended to activate the synchronization "
+"at regular intervals ({numref}`fig:tutos-webdav-android-intervalles`)."
 
 #: ../../tutos/webdav-android.md:49
 msgid "capture d'écran synchro à intervalles"
-msgstr ""
+msgstr "interval sync screenshot"
 
 #: ../../tutos/webdav-android.md:49
 msgid "Synchronisation à intervalles réguliers."
-msgstr ""
+msgstr "Synchronization at regular intervals."
 
 #: ../../tutos/webdav-android.md:53
 msgid "Ajout du compte DAV"
-msgstr ""
+msgstr "Adding the DAV account"
 
 #: ../../tutos/webdav-android.md:56
 msgid ""
 "Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton "
 "orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`)."
 msgstr ""
+"To add a new sync account, press the orange button on the bottom right "
+"({numref}`fig:tutos-webdav-android-accueil`)."
 
 #: ../../tutos/webdav-android.md:64
 msgid "capture d'écran accueil"
-msgstr ""
+msgstr "screenshot home"
 
 #: ../../tutos/webdav-android.md:64
 msgid "Écran d'accueil de DAVx5."
-msgstr ""
+msgstr "DAVx5 home screen."
 
 #: ../../tutos/webdav-android.md:67
 msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgstr ""
+"Select the second option: \"Login with URL and username\" ({numref}`fig"
+":tutos-webdav-android-connexion`)."
 
 #: ../../tutos/webdav-android.md:75
 msgid "capture d'écran connexion"
-msgstr ""
+msgstr "screenshot login"
 
 #: ../../tutos/webdav-android.md:75
 msgid "Connexion avec une URL et un nom d'utilisateur."
-msgstr ""
+msgstr "Login with URL and username."
 
 #: ../../tutos/webdav-android.md:78
 msgid "URL de base :"
-msgstr ""
+msgstr "Base URL:"
 
 #: ../../tutos/webdav-android.md:82
 msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
-msgstr ""
+msgstr "The username and password are your CLUB1 credentials."
 
 #: ../../tutos/webdav-android.md:85
 msgid ""
@@ -2395,18 +2401,25 @@ msgid ""
 "contacts\" pour être compatible avec le client web mail de CLUB1 ({numref}"
 "`fig:tutos-webdav-android-groupes`)."
 msgstr ""
+"If you have filled in everything correctly, DAVx5 will now suggest a name "
+"for this account that is very likely to resemble your CLUB1 email address. "
+"This seems to be a good idea because this is often how a pair of "
+"`user@server` is identified. One last little detail: It is recommended to "
+"use the method \"Groups are categories for each of the contacts\" to be "
+"compatible with the web mail client of CLUB1 ({numref}`fig:tutos-webdav-"
+"android-groupes`)."
 
 #: ../../tutos/webdav-android.md:96
 msgid "capture d'écran groupes"
-msgstr ""
+msgstr "screenshot groups"
 
 #: ../../tutos/webdav-android.md:96
 msgid "Méthode de stockage des groupes."
-msgstr ""
+msgstr "Groups storage method."
 
 #: ../../tutos/webdav-android.md:99
 msgid "Encore une dernière étape : quoi synchroniser ?"
-msgstr ""
+msgstr "One last step: what to synchronize?"
 
 #: ../../tutos/webdav-android.md:101
 msgid ""
@@ -2416,26 +2429,35 @@ msgid ""
 "les onglets \"Carnets d'adresses\" et \"Agendas\". Il sera toujours possible "
 "d'accèder et modifier ces réglages  plus tard très facilement."
 msgstr ""
+"DAVx5 lets us select the contact books and calendars you want to synchronize "
+"on your phone ({numref}`fig:tutos-webdav-android-selection`). To do this, "
+"simply tick them by navigating between the \"Address books\" and \"Agendas\" "
+"tabs. It will always be possible to access and modify these settings later "
+"very easily."
 
 #: ../../tutos/webdav-android.md:111
 msgid "capture d'écran sélection"
-msgstr ""
+msgstr "screenshot selection"
 
 #: ../../tutos/webdav-android.md:111
 msgid "Liste des carnets d'adresses disponibles."
-msgstr ""
+msgstr "List of available address books."
 
 #: ../../tutos/webdav-android.md:115
 msgid ""
 "Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
 "y en aura toujours un qui s'appelle : \"Default\"."
 msgstr ""
+"By default, even if you have not yet created any address books or calendars, "
+"there will always be one called: \"Default\"."
 
 #: ../../tutos/webdav-android.md:119
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
 msgstr ""
+"From this interface, it is also possible to __create or delete __ address "
+"books or calendars, via the menu at the top right."
 
 #: ../../tutos/webdav-android.md:121
 msgid ""
@@ -2443,10 +2465,12 @@ msgid ""
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
 "bas à droite."
 msgstr ""
+"Whenever you make changes there, it's a good idea to __re-run a sync__ by "
+"pressing the orange button at the bottom right."
 
 #: ../../tutos/webdav-android.md:124
 msgid "Conclusion"
-msgstr ""
+msgstr "Conclusion"
 
 #: ../../tutos/webdav-android.md:127
 msgid ""
@@ -2455,12 +2479,18 @@ msgid ""
 "d'adresses et agendas ainsi synchronisés sont maintenant accessibles via "
 "l'appli de contact de votre choix et l'appli de calendrier de votre choix."
 msgstr ""
+"There you go! If all goes well, you have successfully synchronized your "
+"contacts and/or calendars between the CLUB1 server and an *Android* device. "
+"The synchronized address books and calendars are now accessible via the "
+"contact app of your choice and the calendar app of your choice."
 
 #: ../../tutos/webdav-android.md:131
 msgid ""
 "Si vous préferez utiliser des applis *open sources* et non orientés "
 "*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
 msgstr ""
+"If you prefer to use *open source* and non-*Google*-oriented apps, we "
+"recommend __Simple Contacts__ and __Simple Calendar__."
 
 #: ../../tutos/webdav-android.md:133
 msgid ""
