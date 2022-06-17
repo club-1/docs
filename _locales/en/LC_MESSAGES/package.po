@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-06-15 12:34+0200\n"
-"PO-Revision-Date: 2022-06-16 12:17+0000\n"
+"PO-Revision-Date: 2022-06-17 15:00+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -264,27 +264,31 @@ msgstr ""
 #: ../../info/espace-personnel.md:52
 msgid ""
 "Dossier utilisé pour [héberger des dépots de code Git](/services/git.md)."
-msgstr ""
+msgstr "Folder used to [host Git code repositories](/services/git.md)."
 
 #: ../../info/espace-personnel.md:56
 msgid "Fichier de présentation"
-msgstr ""
+msgstr "Presentation file"
 
 #: ../../info/espace-personnel.md:60
 msgid "Un fichier pour se présenter"
-msgstr ""
+msgstr "A file to introduce yourself"
 
 #: ../../info/espace-personnel.md:62
 msgid ""
 "Votre *home* peut également servir à vous présenter. Pour se faire, vous "
 "pouvez y ajouter, *à la racine* un fichier s'appellant :"
 msgstr ""
+"Your *home* can also be used to introduce yourself. To do this, you can add "
+"to it, *at the root* a file called:"
 
 #: ../../info/espace-personnel.md:67
 msgid ""
 "Tout ce que vous écrirez dans ce fichier sera visible sur la page [membres]"
 "(https://club1.fr/membres) du site web de CLUB1."
 msgstr ""
+"Everything you write in this file will be visible on the "
+"[members](https://club1.fr/membres) page of the CLUB1 website."
 
 #: ../../info/espace-personnel.md:70
 msgid ""
@@ -292,6 +296,9 @@ msgid ""
 "présentation ! N'hésitez pas à mettre des liens vers vos projets web, ça "
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
+"Feel free to use {term}`Markdown` to spice up your presentation! Don't "
+"hesitate to put links to your web projects, it will allow members and "
+"visitors to discover them 🔎️."
 
 #: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:203
 msgid "Metadonnées"
@@ -303,12 +310,17 @@ msgid ""
 "modifier certains paramètres d'affichage. Notamment, votre __nom "
 "d'affichage__ et la __couleur__ de votre bouton."
 msgstr ""
+"To go even further in customization, it is possible to modify some display "
+"settings. These include your __display name__ and the __color__ of your "
+"button."
 
 #: ../../info/espace-personnel.md:82
 msgid ""
 "Pour cela il faudra ajouter quelques ligne au début votre fichier "
 "`PRESENTATION.md`."
 msgstr ""
+"To do this, you will need to add a few lines at the beginning of your "
+"`PRESENTATION.md` file."
 
 #: ../../info/espace-personnel.md:93
 msgid ""
@@ -317,6 +329,10 @@ msgid ""
 "plusieurs paramètres. Pour info, cette syntaxe *plus ou moins standard* "
 "s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/)."
 msgstr ""
+"The formatting is simple, you just have to respect the three dashes at the "
+"beginning and at the end of the metadata area. Then you can define one or "
+"more parameters. For your information, this *more or less standard* syntax "
+"is called [Front Matter](https://jekyllrb.com/docs/front-matter/)."
 
 #: ../../info/espace-personnel.md:99
 msgid ""
@@ -325,22 +341,30 @@ msgid ""
 "majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉). Si "
 "vous omettez ce champ, votre identifiant CLUB1 sera affiché."
 msgstr ""
+"For the `name` parameter, this is where you can choose your nickname with a "
+"free line of text. Take advantage of it because it is possible to put "
+"uppercase, lowercase and some special characters (even Emoji 😉). If you "
+"omit this field, your CLUB1 username will be displayed."
 
 #: ../../info/espace-personnel.md:100
 msgid ""
 "Pour le paramètre `color`, vous devez utiliser une [couleur du web](https://"
 "fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0)."
 msgstr ""
+"For the `color` parameter, you must use a [web color](https://en.wikipedia."
+"org/wiki/Web_colors#HTML_color_names)."
 
 #: ../../info/espace-personnel.md:104
 msgid ""
 "Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__ "
 "et être __entouré de guillemets__ (par exemple : `color: \"#F87716\"`)."
 msgstr ""
+"If you put in a color code, it should start with a __hash `#`__ and be "
+"__surrounded by quotation marks__ (e.g. `color: \"#F87716\"`)."
 
 #: ../../info/espace-personnel.md:111
 msgid "Faire un lien vers son profil"
-msgstr ""
+msgstr "Create a link to your profile"
 
 #: ../../info/espace-personnel.md:113
 msgid ""
@@ -350,12 +374,18 @@ msgid ""
 "de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment) "
 "utilisant votre identifiant CLUB1."
 msgstr ""
+"If you are satisfied with your superb presentation, it is possible to share "
+"it easily. You just need to make a link specifically targeting your "
+"presentation. For this we use an [URI fragment](https://en.wikipedia.org/"
+"wiki/URI_fragment) using your CLUB1 username."
 
 #: ../../info/espace-personnel.md:119
 msgid ""
 "Par exemple, l'adresse suivante ouvrira directement la présentation du "
 "membres `vincent` :"
 msgstr ""
+"For example, the following address will directly open the presentation of "
+"member `vincent`:"
 
 #: ../../info/general.md:1
 msgid "Informations générales"
@@ -478,6 +508,8 @@ msgstr "Server information"
 #: ../../info/index.md:4
 msgid "Tout savoir sur l'organisation et le fonctionnement du serveur."
 msgstr ""
+"Everything you need to know about the organization and operation of the "
+"server."
 
 #: ../../interne/aliases.md:1
 msgid "Gestion des alias email"
@@ -669,7 +701,7 @@ msgstr "`AUTHORS`: file that contains the list of authors."
 
 #: ../../interne/meta-doc.md:49
 msgid "`glossaire.md` : fichier contenant les termes du glossaire principal."
-msgstr ""
+msgstr "`glossaire.md`: file that contains the terms of the main glossary."
 
 #: ../../interne/meta-doc.md:50
 msgid ""
@@ -751,12 +783,18 @@ msgid ""
 "de les y regrouper dans un dossier répliquant le chemin de la page dans "
 "laquelle elles seront inclues."
 msgstr ""
+"Images to be included in the content must be added to the `_static` folder ("
+"see [above](#arborescence-de-fichiers)). It is interesting to group them "
+"there in a folder replicating the path of the page in which they will be "
+"included."
 
 #: ../../interne/meta-doc.md:90
 msgid ""
 "Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
 "pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
 msgstr ""
+"Favor a light theme for screenshots because it is more usual for users and "
+"it will use less ink for the printed version."
 
 #: ../../interne/meta-doc.md:95
 msgid ""
@@ -789,6 +827,9 @@ msgid ""
 "modifications doivent être apportées au contenu, il faut commencer par "
 "modifier le contenu français."
 msgstr ""
+"Translations should follow the original text as closely as possible. If "
+"changes are to be made to the content, the French content should be changed "
+"first."
 
 #: ../../interne/meta-doc.md:108
 msgid "Ajouter une page"
@@ -852,6 +893,8 @@ msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
 "format de sortie désiré :"
 msgstr ""
+"These software are used to compile the documentation regardless of the "
+"desired output format:"
 
 #: ../../interne/meta-doc.md:137
 msgid "Gestionnaire de compilation."
@@ -862,26 +905,28 @@ msgid ""
 "Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
+"Documentation compiler. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Sphinx_(documentation_generator))"
 
 #: ../../interne/meta-doc.md:143
 msgid "Plugin Sphinx permettant la prise en charge du Markdown."
-msgstr ""
+msgstr "Sphinx plugin allowing Markdown support."
 
 #: ../../interne/meta-doc.md:146
 msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
-msgstr ""
+msgstr "Sphinx plugin providing the ReadTheDocs HTML theme."
 
 #: ../../interne/meta-doc.md:149
 msgid "_(Optionnel)_ Pour les locales autres que Français."
-msgstr ""
+msgstr "_(Optional)_ For locales other than French."
 
 #: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:175
 msgid "Installation sur *Debian* :"
-msgstr ""
+msgstr "Installation on *Debian*:"
 
 #: ../../interne/meta-doc.md:156
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
-msgstr ""
+msgstr "_(Optional)_ Prerequisites for PDF format"
 
 #: ../../interne/meta-doc.md:160
 msgid "Gestionnaire de compilation de documents LaTeX."
@@ -889,19 +934,19 @@ msgstr "LaTeX documents compilation manager."
 
 #: ../../interne/meta-doc.md:163
 msgid "Moteur de rendu TeX scriptable en Lua."
-msgstr ""
+msgstr "Lua scriptable TeX rendering engine."
 
 #: ../../interne/meta-doc.md:166
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
-msgstr ""
+msgstr "LaTeX distribution including a set of additional packages."
 
 #: ../../interne/meta-doc.md:169
 msgid "Police de caractères utilisée pour le texte monospace."
-msgstr ""
+msgstr "Font used for monospace text."
 
 #: ../../interne/meta-doc.md:172
 msgid "Générateur d'index internationnalisé pour LaTeX."
-msgstr ""
+msgstr "Internationalized index generator for LaTeX."
 
 #: ../../interne/meta-doc.md:179
 msgid "Commandes"
