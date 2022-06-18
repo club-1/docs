@@ -14,6 +14,8 @@ Instructions about how to use it can be found in the
 
 For more information about CLUB1, please check the [website](https://club1.fr/english/)
 and the [online documentation](https://club1.fr/docs/en/).
+  
+[![download pdf](https://img.shields.io/badge/download-pdf-red)](https://club1.fr/docs/en/club1-en-latest.pdf)
 
 </details>
 
@@ -29,6 +31,8 @@ Les instructions expliquant comment l'utiliser se trouvent dans la
 
 Pour plus d'informations à propos de CLUB1, merci de consulter le [site web](https://club1.fr/)
 et la [documentation en ligne](https://club1.fr/docs/fr/).
+
+[![télécharger pdf](https://img.shields.io/badge/télécharger-pdf-red)](https://club1.fr/docs/fr/club1-fr-latest.pdf)
 
 </details>
 
