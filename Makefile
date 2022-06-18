@@ -76,11 +76,14 @@ $(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
 $(BUILDDIR)/html/.htaccess: _templates/.htaccess .FORCE | $(BUILDDIR)/html
 	sed -e 's/{{release}}/$(RELEASE)/' $< > $@
 
+$(BUILDDIR)/html/metadata.yaml: .FORCE | $(BUILDDIR)/html
+	echo 'release: $(RELEASE)' > $@
+
 publish:
 	rsync -av --del --include='.htaccess' --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
-all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess;
+all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml;
 $(ALL): export DOWNLOADS = club1-$(@F)-latest.pdf club1-$(@F)-latest.epub
 $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
 	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).pdf
@@ -89,7 +92,7 @@ $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
 # Shinx builders that builds localized versions.
 $(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
 
-html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html
+html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml
 
 # Localized Sphinx builders
 .SECONDEXPANSION:
