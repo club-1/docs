@@ -1,5 +1,6 @@
 [![build][buildimg]][buildurl]
 [![Translation status][transimg]][transurl]
+[![release][releaseimg]][releaseurl]
 
 <details>
 <summary>English</summary>
@@ -36,3 +37,5 @@ et la [documentation en ligne](https://club1.fr/docs/fr/).
 [buildurl]: https://github.com/club-1/docs/actions/workflows/deploy.yml
 [transimg]: https://hosted.weblate.org/widgets/club-1/en/docs/svg-badge.svg
 [transurl]: https://hosted.weblate.org/projects/club-1/docs/
+[releaseimg]: https://img.shields.io/badge/dynamic/yaml?color=informational&label=release&query=%24.release&url=https%3A%2F%2Fclub1.fr%2Fdocs%2Fmetadata.yaml
+[releaseurl]: https://club1.fr/docs/
