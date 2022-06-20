@@ -1,6 +1,15 @@
 Agrégateur de flux RSS
 ======================
 
+RSS est un format de données standardisé qui permet la consultation d'un site non pas par un humain mais par un logiciel.
+Il s'agit donc d'une forme d'{term}`API`.
+Les flux RSS sont des fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d'actualité et les blogs.
+
+Un agrégateur permet de consulter les flux RSS.
+Son but est d'agréger les nouveautés de différents sites dans un fil unique.
+Il permet d'éviter de regarder manuellement et un par un les sites dont on veut connaître les nouveaux contenus.
+
 Un agrégateur de flux RSS est fourni par
 [Tiny Tiny RSS](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS).
 Il est accessible à travers le {term}`client Web` intégré se trouvant à l'adresse

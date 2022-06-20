@@ -1,16 +1,9 @@
+# Utiliser Tiny tiny RSS
 
-TODO: page flux RSS des services, expliquer ce que c'est, et ce qu'est un client natif.
+% TODO: page flux RSS des services, expliquer ce que c'est, et ce qu'est un client natif.
 
+Ce tutoriel explique comment utiliser le [service RSS de CLUB1](/services/rss.md).
 
-
-## Qu'est-ce qu'un agrégateur de flux RSS?
-
-Un agrégateur vérifie la présence de nouveau contenu sur un site web et l'affiche sur son interface.
-Il permet d'éviter de regarder manuellement les sites dont on veut connaître les nouveaux contenus.
-
-Club1 utilise l'agrégateur Tiny tiny RSS.
-
-Définition RSS : 
 
 ## Comment accéder à son compte de flux RSS?
 
@@ -29,7 +22,9 @@ puis cliquez sur `S'abonner`.
 ![lien vers site](/_static/tutos/flux-rss/capture_2.png)
 
 
-Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé de sélectionner `Atom` car c'est plus récent.
+Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé de sélectionner `Atom` car c'est un format de données plus récent.
+
+![Atom vs RSS](/_static/tutos/flux-rss/capture_3.png)
 
 ## Comment configurer son flux RSS?
 
