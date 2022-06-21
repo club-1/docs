@@ -8,7 +8,7 @@ et pour tous les consulter dans un fil d'actualités commun.
 
 ## Accéder à son compte de flux RSS
 
-Pour accéder à votre compte, vous pouvez vous connecter avec vos identifiants Club1 à cette adresse : <https://rss.club1.fr/>
+Pour accéder à votre compte, vous pouvez vous connecter avec vos identifiants CLUB1 à cette adresse : <https://rss.club1.fr/>
 
 ## S'abonner à un flux RSS
 
@@ -77,9 +77,14 @@ vous pouvez désactiver le "mode combiné" dans la configuration.
 
 ![Mode d'affichage en liste](/_static/tutos/flux-rss/capture_6.png)
 
-```{hint}
+```{tip}
 Il est possible de passer en mode _trois colones_ avec le panneau de lecture à droite,
 ce qui est pratique lorsqu'on a un écran large.
 
 Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`.
+```
+
+
+```{raw} latex
+\clearpage
 ```

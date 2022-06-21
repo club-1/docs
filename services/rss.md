@@ -31,3 +31,10 @@ barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet `Configuration
 
 Dans le client natif choisi, il faudra renseigner comme URL du serveur
 `https://rss.club1.fr`.
+
+Tutoriels
+---------
+
+Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service RSS de CLUB1.
+
+- [](/tutos/flux-rss.md)
