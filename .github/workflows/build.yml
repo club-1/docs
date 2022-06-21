@@ -52,6 +52,7 @@ jobs:
           texlive-lang-french
           fonts-dejavu
           xindy
+          imagemagick
       - name: Install TwemojiMozilla font
         run: |
           wget -nv https://github.com/mozilla/twemoji-colr/releases/download/v0.6.0/TwemojiMozilla.ttf

@@ -170,11 +170,14 @@ DejaVu
 
 xindy
    Générateur d'index internationnalisé pour LaTeX.
+
+ImageMagick
+   Outil pour manipuler des images en {term}`CLI`.
 ```
 
 Installation sur *Debian* :
 
-    sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy
+    sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy imagemagick
 
 ### Commandes
 
