@@ -76,3 +76,10 @@ Pour utiliser un mode d'affichage en liste avec un panneau de lecture séparé,
 vous pouvez désactiver le "mode combiné" dans la configuration.
 
 ![Mode d'affichage en liste](/_static/tutos/flux-rss/capture_6.png)
+
+```{hint}
+Il est possible de passer en mode _trois colones_ avec le panneau de lecture à droite,
+ce qui est pratique lorsqu'on a un écran large.
+
+Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`.
+```
