@@ -1,14 +1,14 @@
 {
   "problemMatcher": [
     {
-      "owner": "sphinx",
+      "owner": "sphinx-loose-no-severity",
       "pattern": [
         {
-          "regexp": "^(.*):(\\d+):\\s+(\\w*):\\s+(.*)$",
+          "_comment": "Looks for file names ending with .rst and line numbers but without severity",
+          "regexp": "^(.*\\.md):(\\d+):(.*)$",
           "file": 1,
           "line": 2,
-          "severity": 3,
-          "message": 4
+          "message": 3
         }
       ]
     },
@@ -25,14 +25,14 @@
       ]
     },
     {
-      "owner": "sphinx-loose-no-severity",
+      "owner": "sphinx",
       "pattern": [
         {
-          "_comment": "Looks for file names ending with .rst and line numbers but without severity",
-          "regexp": "^(.*\\.md):(\\d+):(.*)$",
+          "regexp": "^(.*):(\\d+):\\s+(\\w*):\\s+(.*)$",
           "file": 1,
           "line": 2,
-          "message": 3
+          "severity": 3,
+          "message": 4
         }
       ]
     }
