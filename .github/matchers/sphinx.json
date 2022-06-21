@@ -11,6 +11,30 @@
           "message": 4
         }
       ]
+    },
+    {
+      "owner": "sphinx-loose",
+      "pattern": [
+        {
+          "_comment": "A bit of a looser pattern, doesn't look for line numbers, just looks for file names relying on them to start with / and end with .rst",
+          "regexp": "(\/.*\\.md):\\s+(\\w*):\\s+(.*)$",
+          "file": 1,
+          "severity": 2,
+          "message": 3
+        }
+      ]
+    },
+    {
+      "owner": "sphinx-loose-no-severity",
+      "pattern": [
+        {
+          "_comment": "Looks for file names ending with .rst and line numbers but without severity",
+          "regexp": "^(.*\\.md):(\\d+):(.*)$",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        }
+      ]
     }
   ]
 }
