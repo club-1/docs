@@ -42,6 +42,11 @@
 % Force les notes de bas de page tout en bas de la page.
 \RequirePackage[bottom]{footmisc}
 
+% Autorise les titres tout en bas de la page, puisque de toute
+% façon, LaTeX les déplacera à la page suivante si il n'y a pas
+% la place d'ajouter au moins un paragraphe.
+\renewcommand{\bottomtitlespace}{0pt}
+
 % Définition des paramètres de rendu de Sphinx.
 \sphinxsetup{
 	verbatimwithframe=true,
