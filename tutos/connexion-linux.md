@@ -24,20 +24,20 @@ Remplir ensuite les informations suivantes dans la fenêtre de connexion ({numre
 Pour finir vous pouvez cocher la case "Mémoriser ce mot de passe"
 afin de ne pas avoir à le retaper plus tard, puis cliquer sur "Se connecter".
 
-(fig:tutos-connexion-linux-connexion)=
 ```{figure} /_static/tutos/connexion-linux/se_connecter_au_serveur.png
 ---
 alt: capture d'écran fenêtre de connexion
+name: fig:tutos-connexion-linux-connexion
 ---
 Fenêtre de connexion.
 ```
 
 Vous êtes maintenant connecté au serveur ({numref}`fig:tutos-connexion-linux-dossier`).
 
-(fig:tutos-connexion-linux-dossier)=
 ```{figure} /_static/tutos/connexion-linux/dans_le_serveur.png
 ---
 alt: capture d'écran dossiers du serveur dans l'explorateur de fichier
+name: fig:tutos-connexion-linux-dossier
 ---
 Dossiers du serveur dans l'explorateur de fichier.
 ```
