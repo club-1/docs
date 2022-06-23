@@ -88,3 +88,8 @@ jobs:
           echo '::remove-matcher owner=latex-line-error::'
           echo '::remove-matcher owner=latex-under-over-full::'
           echo '::remove-matcher owner=latex-warning::'
+      - name: Upload pdf artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: club1-fr.pdf
+          path: _build/latex/fr/club1.pdf
