@@ -81,17 +81,6 @@ Pour modifier une page existante, il faut éditer le fichier `.md` correspondant
 Depuis une page de la doc, un lien pour éditer le fichier sur {term}`GitHub` est présent
 en haut à droite.
 
-Les images à inclure dans le contenu doivent être ajoutées au dossier `_static`
-(voir [plus haut](#arborescence-de-fichiers)).
-Il est intéressant de les y regrouper dans un dossier
-répliquant le chemin de la page dans laquelle elles seront inclues.
-
-```{tip}
-Privilégier un thème clair pour les captures d'écran
-car c'est plus habituel pour les utilisateurs
-et ça utilisera moins d'encre pour la version imprimée.
-```
-
 Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github.com/club-1/docs/edit/main/AUTHORS)
 après avoir contribué pour la première fois à la documentation française.
 
@@ -110,6 +99,19 @@ il faut commencer par modifier le contenu français.
 L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `.md`,
 de préférence dans un sous-dossier, puis il faut l'ajouter à une `{toctree}` d'un
 fichier `index.md` (s'inspirer de l'existant).
+
+### Ajouter des images
+
+Les images à inclure dans le contenu doivent être ajoutées au dossier `_static`
+(voir [l'arborescence de fichiers](#arborescence-de-fichiers)).
+Il est intéressant de les y regrouper dans un dossier
+répliquant le chemin de la page dans laquelle elles seront inclues.
+
+```{tip}
+Privilégier un thème clair pour les captures d'écran
+car c'est plus habituel pour les utilisateurs
+et ça utilisera moins d'encre pour la version imprimée.
+```
 
 Références
 ----------

@@ -29,10 +29,36 @@ puis lancer la commande suivante :
 
     mutt
 
+Détails divers
+--------------
+
+Quelques informations supplémentaires à propos de certains détails du service email de CLUB1.
+
+### Dossiers spéciaux
+
+Les dossiers spéciaux utilisent les noms standards,
+ils seront donc automatiquement reconnus par la grande majorité des clients email.
+Au cas où ils ne le sont pas, voici la liste complète :
+
+- `INBOX` : messages reçus
+- `Drafts` : brouillons en cours de rédaction
+- `Sent` : messages envoyés
+- `Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)
+- `Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)
+- `Archive` : messages archivés
+
+### Quotas
+
+Le dossier `mail` est soumis à un quota de **5&nbsp;Go**.
+Cette déscision a été prise pour encourager la suppression des anciens emails.
+
+La taille maximale acceptée pour les emails reçus est de **100&nbsp;Mo**.
+Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé.
+
 Informations de connexion
 -------------------------
 
-La connexion d'un client email à une adresse CLUB1 nécessite de configurer plusieurs serveurs.
+La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de configurer plusieurs serveurs.
 
 ### Serveur d'envoi (SMTP)
 
