@@ -175,7 +175,7 @@ latex_show_urls = 'footnote'
 # Show pages for internal refs, useful for printed copies.
 latex_show_pagerefs = True
 
-latex_additional_files = ['_templates/club1.sty']
+latex_additional_files = ['_templates/club1.sty', '_templates/packages.sty']
 
 latex_elements = {
     # Always use A4 paper.
@@ -188,6 +188,8 @@ latex_elements = {
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
     # Clear default font config.
     'fontpkg': '',
-    # Add custom preamble.
+    # Packages to include before 'hyperref' and 'sphinx'.
+    'extrapackages': r'\usepackage{packages}',
+    # Add custom preamble after 'hyperref' and 'sphinx'.
     'preamble': r'\usepackage{club1}',
 }

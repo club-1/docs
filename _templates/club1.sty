@@ -1,11 +1,6 @@
 % Paquet LaTeX permettant de customiser le rendu du PDF.
 \ProvidesPackage{club1}[2022/05/17 Customisations LaTeX CLUB1]
 
-% Manipulation de strings.
-\RequirePackage{xstring}
-% Manipulation de macros LaTeX.
-\RequirePackage{etoolbox}
-
 % Définition de la macro \texversion renvoyant la version
 % du moteur TeX utilisé.
 \StrBehind{\luatexbanner}{\detokenize{This is }}[\texversion]
@@ -33,14 +28,10 @@
 % Le problème est le même si l'on saisit directement le caractère
 % "middle dot" (U+00B7): "cher·es" devient "cher · es".
 % On remplace donc ce caractère par \cdot.
-\RequirePackage{newunicodechar}
 \newunicodechar{·}{\cdot}
 
 % Augmentation de la DPI des images qui ne l'ont pas définie.
 \pdfimageresolution=140
-
-% Force les notes de bas de page tout en bas de la page.
-\RequirePackage[bottom]{footmisc}
 
 % Autorise les titres tout en bas de la page, puisque de toute
 % façon, LaTeX les déplacera à la page suivante si il n'y a pas
@@ -48,7 +39,6 @@
 \renewcommand{\bottomtitlespace}{0pt}
 
 % Interdit les titres de section dans le dernier quart de la page.
-\RequirePackage{needspace}
 \newcommand{\sectionbreak}{\needspace{.25\textheight}}
 
 % Définition des paramètres de rendu de Sphinx.
@@ -77,9 +67,6 @@
 	\rlap{\color[gray]{.5}\CNoV\thechapter}\\%
 }
 
-% Affichage de l'index en 3 colones au lieu de 2.
-\RequirePackage[columns=3]{idxlayout}
-
 % Définit une commande d'espacement spécifiquement utilisé pour l'index.
 % Remplis l'espace avec une ligne de points alignés verticalement.
 \newcommand \idxopen {\leavevmode \leaders \hb@xt@ .66em{\hss .\hss }\hfill \kern \z@}
@@ -92,7 +79,6 @@
 \renewcommand\sphinxstyletheadfamily{\sffamily\bfseries}
 
 % Customisation des citations pour les uniformiser avec la version HTML.
-\RequirePackage{mdframed}
 \mdfdefinestyle{QuoteFrame}{
 	fontcolor=darkgray,
 	linecolor=lightgray,
@@ -107,8 +93,6 @@
 	{\endmdframed}
 
 % Customisation des admonitions pour les uniformiser avec la version HTML.
-\RequirePackage{tcolorbox}
-\RequirePackage{tikz}
 \tikzset{ExclamationCircle/.pic={
   \path [draw=none, fill=white, even odd rule, scale=0.037]
     (0,0) circle (4.2)
