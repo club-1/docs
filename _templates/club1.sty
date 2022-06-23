@@ -47,6 +47,10 @@
 % la place d'ajouter au moins un paragraphe.
 \renewcommand{\bottomtitlespace}{0pt}
 
+% Interdit les titres de section dans le dernier quart de la page.
+\RequirePackage{needspace}
+\newcommand{\sectionbreak}{\needspace{.25\textheight}}
+
 % Définition des paramètres de rendu de Sphinx.
 \sphinxsetup{
 	verbatimwithframe=true,
