@@ -9,6 +9,9 @@ class TermTooltips(SphinxPostTransform):
     logger = logging.getLogger('term_tooltips')
 
     def run(self) -> None:
+        # Get dictionary of terms from the standard domain.
+        stddomain = self.env.get_domain('std')
+        self.stdterms = stddomain.data.setdefault('terms', {})
         for termref in self.document.findall(nodes.reference):
             if isinstance(termref[0], nodes.Inline) and 'std-term' in termref[0]['classes']:
                 self.logger.debug(f'found termref: {termref}')
@@ -21,13 +24,10 @@ class TermTooltips(SphinxPostTransform):
         # If 'refid' is not defined, then the ref is from another document
         # and we need to find it from the standard domain.
         if refid == '':
-            # Get dictionary of terms from the standard domain.
-            stddomain = self.env.get_domain('std')
-            stdterms = stddomain.data.setdefault('terms', {})
             # Get key from termref's text.
             reftext: str = termref.astext().lower()
             # Get object from dictionary of terms.
-            obj = stdterms.get(reftext, None)
+            obj = self.stdterms.get(reftext, None)
             if obj == None:
                 self.logger.warning(f'could not find object in std domain for reftext: "{reftext}"')
                 return
