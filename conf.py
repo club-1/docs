@@ -35,7 +35,7 @@ release = os.environ['RELEASE']
 # ones.
 extensions = [
     'myst_parser',
-    'club1',
+    'french_typography',
     'term_tooltips',
 ]
 
