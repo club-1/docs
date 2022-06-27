@@ -62,12 +62,12 @@ assurée.
 Comptes des membres
 -------------------
 
-Le non d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
+Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
 Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/1).
 
-Ce nom est principalement utilisé en interne et pour la connexion aux services
-et n'est donc pas spécialement visible à l'extérieur.
-Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribué par défaut aux membres.
+Cet identifiant est principalement utilisé en interne pour la connexion aux services
+et n'est donc pas spécialement visible depuis l'extérieur.
+Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres.
 
 Politique et vie privée
 -----------------------
