@@ -36,6 +36,7 @@ release = os.environ['RELEASE']
 extensions = [
     'myst_parser',
     'club1',
+    'term_tooltips',
 ]
 
 # Allow to create implicit reference to headings up to level 6.
