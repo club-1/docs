@@ -2,11 +2,11 @@ from sphinx.application import Sphinx
 from docutils.transforms import Transform
 from docutils import nodes
 
-"""Sphinx plugin for CLUB1."""
+"""Sphinx plugin for correct french typography spacings."""
 
 class FrenchTypography(Transform):
     """
-    Replace some ASCII characters with typographic form fr French.
+    Replace some ASCII characters with typographic form for French.
 
     Based on SmartQuotes Transform.
     """
