@@ -2,6 +2,7 @@ from sphinx.application import Sphinx
 from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.util import logging
 from docutils import nodes
+from jinja2.utils import escape
 
 from typing import Callable, Optional
 
@@ -51,7 +52,7 @@ class TermTooltips(SphinxPostTransform):
                 termtext = parent.children[1].astext()
                 if self.apply != None:
                     termtext = self.apply(termtext)
-                termref['reftitle'] = termtext
+                termref['reftitle'] = escape(termtext)
                 break
 
 def setup(app: Sphinx):
