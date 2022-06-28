@@ -55,6 +55,8 @@ myst_substitutions = {
     'docutils_version': docutils_version,
 }
 
+term_tooltips_apply_function = lambda s: s.rsplit(' —', 1)[0]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
