@@ -1,6 +1,10 @@
 Informations générales
 ======================
 
+Le serveur Club1 permet à ses membres d'héberger différents types de projets web. 
+Mais c'est aussi une communauté de personne intéressées par les notions d'espaces web,
+de libertés et d'exploration du web.
+
 Demandes et Incidents
 ---------------------
 
@@ -14,10 +18,24 @@ déjà une demande similaire à l'aide de la barre de recherche.
 Infos sur le serveur
 --------------------
 
+Il vit dans le placard comme _Harry Potter_...
+
+c'est le serveur.
+
 ### Matériel et infrastructure
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
-optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
+optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
+
+### Caractéristiques techniques
+
+- Intel ATOM C3000
+- 16 Go DDR4 ECC
+- Stockage :
+  - SSD Système 300 Go
+  - SSD Users 1To
+
+
 
 ### Système d'exploitation
 
@@ -59,9 +77,18 @@ de courts laps de temps, par exemple lors d'une mise à jour du noyau.
 Cela dit, une disponibilité effective **supérieure à 90%** devrait pouvoir être
 assurée.
 
+### Sauvegardes
+
+Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
+Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
+
+L'article [Sauvegardes](https://club1.fr/backups/) apporte plus d'informations sur ce système.
+
+
 Comptes des membres
 -------------------
 
+### Identifiant
 Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
 Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/1).
 
@@ -69,8 +96,32 @@ Cet identifiant est principalement utilisé en interne pour la connexion aux ser
 et n'est donc pas spécialement visible depuis l'extérieur.
 Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres.
 
+### Modalités des comptes
+
+Chaque entité (personne ou groupe), 
+peut héberger autant de projets qu'elle le souhaite dans la limite du raisonnable.
+
+Un compte membre comporte donc :
+
+- de l'espace de stockage SSD
+- plus d'espace sur disque dur (sur demande)
+- un accès FTP
+- un accès SSH (pour les utilisateurs avancés)
+- des bases de données (MariDb)
+- la création gratuite de sous domaines en .club1.fr (sur demande)
+- l'utilisation de noms de domaines loué vias des registars
+- un accès à la room matrix réservée aux membres pour le suivi et l'assistance aux projets
+
+Pour l'instant, le format choisi est celui de l'adhésion, 
+avec une cotisation de 35€ à vie.
+
 Politique et vie privée
 -----------------------
 
 Aucune des données que vous stockez dans votre espace personnel de sera
 divulguée ni utilisée à des fins lucratives et ce même sous la menace.
+
+Contact
+-------
+
+<contact@club1.fr>
