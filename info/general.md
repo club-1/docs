@@ -18,6 +18,10 @@ déjà une demande similaire à l'aide de la barre de recherche.
 Infos sur le serveur
 --------------------
 
+Il vit dans le placard comme _Harry Potter_...
+
+c'est le serveur.
+
 ### Matériel et infrastructure
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
@@ -25,11 +29,11 @@ optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant]
 
 ### Caractéristiques techniques
 
-    Intel ATOM
-    16 Go DDR4 ECC
-    Stockage :
-        SSD Système 300 Go
-        SSD Users 1To
+- Intel ATOM C3000
+- 16 Go DDR4 ECC
+- Stockage :
+  - SSD Système 300 Go
+  - SSD Users 1To
 
 
 
