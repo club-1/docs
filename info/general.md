@@ -79,6 +79,10 @@ assurée.
 
 ### Sauvegardes
 
+```{raw} html
+<img alt="backup status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/fy2eY73W-2/backup.svg" />
+```
+
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
 Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
 
@@ -107,9 +111,9 @@ Un compte membre comporte donc :
 - plus d'espace sur disque dur (sur demande)
 - un accès FTP
 - un accès SSH (pour les utilisateurs avancés)
-- des bases de données (MariDb)
+- des bases de données (MariaDb)
 - la création gratuite de sous domaines en .club1.fr (sur demande)
-- l'utilisation de noms de domaines loué vias des registars
+- l'utilisation de noms de domaines loué vias des registraires
 - un accès à la room matrix réservée aux membres pour le suivi et l'assistance aux projets
 
 Pour l'instant, le format choisi est celui de l'adhésion, 
