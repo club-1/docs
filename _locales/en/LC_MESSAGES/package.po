@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-15 12:34+0200\n"
+"POT-Creation-Date: 2022-06-29 15:45+0200\n"
 "PO-Revision-Date: 2022-06-18 16:15+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -287,8 +287,8 @@ msgid ""
 "Tout ce que vous écrirez dans ce fichier sera visible sur la page [membres]"
 "(https://club1.fr/membres) du site web de CLUB1."
 msgstr ""
-"Everything you write in this file will be visible on the "
-"[members](https://club1.fr/membres) page of the CLUB1 website."
+"Everything you write in this file will be visible on the [members](https://"
+"club1.fr/membres) page of the CLUB1 website."
 
 #: ../../info/espace-personnel.md:70
 msgid ""
@@ -300,7 +300,7 @@ msgstr ""
 "hesitate to put links to your web projects, it will allow members and "
 "visitors to discover them 🔎️."
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:203
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:208
 msgid "Metadonnées"
 msgstr "Metadata"
 
@@ -444,8 +444,8 @@ msgstr ""
 "The server runs on **Ubuntu 20.04 (LTS)** and is updated regularly. Security "
 "updates are installed automatically within 24 hours using [_unattended-"
 "upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the services "
-"depending on it are then automatically restarted using "
-"[_needrestart_](https://packages.debian.org/stable/needrestart)."
+"depending on it are then automatically restarted using [_needrestart_]"
+"(https://packages.debian.org/stable/needrestart)."
 
 #: ../../info/general.md:30
 msgid "Logiciels et bibliothèques installés"
@@ -490,10 +490,29 @@ msgstr ""
 "availability **above 90%** should be ensured."
 
 #: ../../info/general.md:62
+msgid "Comptes des membres"
+msgstr "Members accounts"
+
+#: ../../info/general.md:65
+msgid ""
+"Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
+"possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
+"regex101.com/r/AilLZw/1)."
+msgstr ""
+
+#: ../../info/general.md:68
+msgid ""
+"Cet identifiant est principalement utilisé en interne pour la connexion aux "
+"services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
+"cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée "
+"par défaut aux membres."
+msgstr ""
+
+#: ../../info/general.md:72
 msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
-#: ../../info/general.md:65
+#: ../../info/general.md:75
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -632,8 +651,8 @@ msgstr ""
 "docs/en/>. It exists in two languages: French, the main one and English, the "
 "secondary. The {term}`Web` site is generated using {term}`Sphinx`, from "
 "source files written in {term}`Markdown`. The source files are stored in a "
-"directory, versioned with {term}`Git` and publicly accessible via "
-"{term}`GitHub` at <https://github.com/club-1/docs/>."
+"directory, versioned with {term}`Git` and publicly accessible via {term}"
+"`GitHub` at <https://github.com/club-1/docs/>."
 
 #: ../../interne/meta-doc.md:13
 msgid ""
@@ -676,8 +695,8 @@ msgid ""
 "Markdown."
 msgstr ""
 "`_locales/`: folder that contains the translation files. It is composed of "
-"one folder per language with `.po` files that contains the translations and `"
-".pot` files automatically generated from the Markdown source files."
+"one folder per language with `.po` files that contains the translations and "
+"`.pot` files automatically generated from the Markdown source files."
 
 #: ../../interne/meta-doc.md:46
 msgid ""
@@ -778,26 +797,6 @@ msgstr ""
 
 #: ../../interne/meta-doc.md:84
 msgid ""
-"Les images à inclure dans le contenu doivent être ajoutées au dossier "
-"`_static` (voir [plus haut](#arborescence-de-fichiers)). Il est intéressant "
-"de les y regrouper dans un dossier répliquant le chemin de la page dans "
-"laquelle elles seront inclues."
-msgstr ""
-"Images to be included in the content must be added to the `_static` folder ("
-"see [above](#arborescence-de-fichiers)). It is interesting to group them "
-"there in a folder replicating the path of the page in which they will be "
-"included."
-
-#: ../../interne/meta-doc.md:90
-msgid ""
-"Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
-"pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
-msgstr ""
-"Favor a light theme for screenshots because it is more usual for users and "
-"it will use less ink for the printed version."
-
-#: ../../interne/meta-doc.md:95
-msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
 "fois à la documentation française."
@@ -806,11 +805,11 @@ msgstr ""
 "docs/edit/main/AUTHORS) after having made your first contribution in the "
 "french documentation."
 
-#: ../../interne/meta-doc.md:98
+#: ../../interne/meta-doc.md:87
 msgid "Autres langues"
 msgstr "Other languages"
 
-#: ../../interne/meta-doc.md:100
+#: ../../interne/meta-doc.md:89
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -818,10 +817,10 @@ msgid ""
 "club-1/docs/)."
 msgstr ""
 "The translations are not stored as Markdown files, but in locales `locales/"
-"LC_MESSAGES/package.po` files and are more comfortably edited on "
-"[Weblate](https://hosted.weblate.org/projects/club-1/docs/)."
+"LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
+"(https://hosted.weblate.org/projects/club-1/docs/)."
 
-#: ../../interne/meta-doc.md:104
+#: ../../interne/meta-doc.md:93
 msgid ""
 "Les traductions doivent suivre le texte d'origine au plus proche. Si des "
 "modifications doivent être apportées au contenu, il faut commencer par "
@@ -831,11 +830,11 @@ msgstr ""
 "changes are to be made to the content, the French content should be changed "
 "first."
 
-#: ../../interne/meta-doc.md:108
+#: ../../interne/meta-doc.md:97
 msgid "Ajouter une page"
 msgstr "Add a page"
 
-#: ../../interne/meta-doc.md:110
+#: ../../interne/meta-doc.md:99
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
 "md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
@@ -845,11 +844,41 @@ msgstr ""
 "ideally in a subfolder, then it has to be added in a `{toctree}` of one of "
 "the `index.md` files (build on what already exists)."
 
-#: ../../interne/meta-doc.md:114
+#: ../../interne/meta-doc.md:103
+msgid "Ajouter des images"
+msgstr "Add images"
+
+#: ../../interne/meta-doc.md:105
+#, fuzzy
+#| msgid ""
+#| "Les images à inclure dans le contenu doivent être ajoutées au dossier "
+#| "`_static` (voir [plus haut](#arborescence-de-fichiers)). Il est "
+#| "intéressant de les y regrouper dans un dossier répliquant le chemin de la "
+#| "page dans laquelle elles seront inclues."
+msgid ""
+"Les images à inclure dans le contenu doivent être ajoutées au dossier "
+"`_static` (voir [l'arborescence de fichiers](#arborescence-de-fichiers)). Il "
+"est intéressant de les y regrouper dans un dossier répliquant le chemin de "
+"la page dans laquelle elles seront inclues."
+msgstr ""
+"Images to be included in the content must be added to the `_static` folder "
+"(see [above](#arborescence-de-fichiers)). It is interesting to group them "
+"there in a folder replicating the path of the page in which they will be "
+"included."
+
+#: ../../interne/meta-doc.md:111
+msgid ""
+"Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
+"pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
+msgstr ""
+"Favor a light theme for screenshots because it is more usual for users and "
+"it will use less ink for the printed version."
+
+#: ../../interne/meta-doc.md:116
 msgid "Références"
 msgstr "References"
 
-#: ../../interne/meta-doc.md:117
+#: ../../interne/meta-doc.md:119
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
@@ -857,7 +886,7 @@ msgstr ""
 "[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
 "cross-referencing-with-sphinx.html)"
 
-#: ../../interne/meta-doc.md:118
+#: ../../interne/meta-doc.md:120
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
@@ -865,11 +894,11 @@ msgstr ""
 "[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
-#: ../../interne/meta-doc.md:120
+#: ../../interne/meta-doc.md:122
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../../interne/meta-doc.md:123
+#: ../../interne/meta-doc.md:125
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -884,11 +913,11 @@ msgstr ""
 "available. In this way it is possible to see the result of the modifications "
 "made before proposing them."
 
-#: ../../interne/meta-doc.md:130
+#: ../../interne/meta-doc.md:132
 msgid "Prérequis communs"
 msgstr "Common prerequisites"
 
-#: ../../interne/meta-doc.md:132
+#: ../../interne/meta-doc.md:134
 msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
 "format de sortie désiré :"
@@ -896,11 +925,11 @@ msgstr ""
 "These software are used to compile the documentation regardless of the "
 "desired output format:"
 
-#: ../../interne/meta-doc.md:137
+#: ../../interne/meta-doc.md:139
 msgid "Gestionnaire de compilation."
 msgstr "Build manager."
 
-#: ../../interne/meta-doc.md:140
+#: ../../interne/meta-doc.md:142
 msgid ""
 "Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
@@ -908,63 +937,67 @@ msgstr ""
 "Documentation compiler. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
-#: ../../interne/meta-doc.md:143
+#: ../../interne/meta-doc.md:145
 msgid "Plugin Sphinx permettant la prise en charge du Markdown."
 msgstr "Sphinx plugin allowing Markdown support."
 
-#: ../../interne/meta-doc.md:146
+#: ../../interne/meta-doc.md:148
 msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
 msgstr "Sphinx plugin providing the ReadTheDocs HTML theme."
 
-#: ../../interne/meta-doc.md:149
+#: ../../interne/meta-doc.md:151
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:152 ../../interne/meta-doc.md:175
+#: ../../interne/meta-doc.md:154 ../../interne/meta-doc.md:180
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:156
+#: ../../interne/meta-doc.md:158
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:160
+#: ../../interne/meta-doc.md:162
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:163
+#: ../../interne/meta-doc.md:165
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:166
+#: ../../interne/meta-doc.md:168
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:169
+#: ../../interne/meta-doc.md:171
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:172
+#: ../../interne/meta-doc.md:174
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:179
+#: ../../interne/meta-doc.md:177
+msgid "Outil pour manipuler des images en {term}`CLI`."
+msgstr ""
+
+#: ../../interne/meta-doc.md:184
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:181
+#: ../../interne/meta-doc.md:186
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:185
+#: ../../interne/meta-doc.md:190
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:189
+#: ../../interne/meta-doc.md:194
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:193
+#: ../../interne/meta-doc.md:198
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1070,20 +1103,87 @@ msgstr ""
 "use it, you must start by connecting in [SSH](ssh.md) to the CLUB1 server "
 "then run the following command:"
 
-#: ../../services/email.md:32 ../../services/ftp.md:22 ../../services/sql.md:9
+#: ../../services/email.md:32
+msgid "Détails divers"
+msgstr ""
+
+#: ../../services/email.md:35
+msgid ""
+"Quelques informations supplémentaires à propos de certains détails du "
+"service email de CLUB1."
+msgstr ""
+
+#: ../../services/email.md:37
+msgid "Dossiers spéciaux"
+msgstr ""
+
+#: ../../services/email.md:39
+msgid ""
+"Les dossiers spéciaux utilisent les noms standards, ils seront donc "
+"automatiquement reconnus par la grande majorité des clients email. Au cas où "
+"ils ne le sont pas, voici la liste complète :"
+msgstr ""
+
+#: ../../services/email.md:43
+msgid "`INBOX` : messages reçus"
+msgstr ""
+
+#: ../../services/email.md:44
+msgid "`Drafts` : brouillons en cours de rédaction"
+msgstr ""
+
+#: ../../services/email.md:45
+msgid "`Sent` : messages envoyés"
+msgstr ""
+
+#: ../../services/email.md:46
+msgid "`Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)"
+msgstr ""
+
+#: ../../services/email.md:47
+msgid ""
+"`Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)"
+msgstr ""
+
+#: ../../services/email.md:48
+msgid "`Archive` : messages archivés"
+msgstr ""
+
+#: ../../services/email.md:50
+msgid "Quotas"
+msgstr ""
+
+#: ../../services/email.md:52
+msgid ""
+"Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette déscision a "
+"été prise pour encourager la suppression des anciens emails."
+msgstr ""
+
+#: ../../services/email.md:55
+msgid ""
+"La taille maximale acceptée pour les emails reçus est de **100&nbsp;Mo**. Si "
+"un email dépasse cette taille, il sera refusé et l'expéditeur en sera "
+"informé."
+msgstr ""
+
+#: ../../services/email.md:58 ../../services/ftp.md:22 ../../services/sql.md:9
 #: ../../services/ssh.md:85
 msgid "Informations de connexion"
 msgstr "Connection information"
 
-#: ../../services/email.md:35
+#: ../../services/email.md:61
+#, fuzzy
+#| msgid ""
+#| "La connexion d'un client email à une adresse CLUB1 nécessite de "
+#| "configurer plusieurs serveurs."
 msgid ""
-"La connexion d'un client email à une adresse CLUB1 nécessite de configurer "
-"plusieurs serveurs."
+"La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
+"configurer plusieurs serveurs."
 msgstr ""
 "Connecting an email client to a CLUB1 address requires configuring multiple "
 "servers."
 
-#: ../../services/email.md:37
+#: ../../services/email.md:63
 msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
@@ -1123,7 +1223,7 @@ msgstr "encryption"
 msgid "`SSL/TSL` (Implicite)"
 msgstr "`SSL/TSL` (Implicit)"
 
-#: ../../services/email.md:45
+#: ../../services/email.md:71
 msgid "Serveur de réception (IMAP)"
 msgstr "Received emails server (IMAP)"
 
@@ -1364,7 +1464,29 @@ msgstr ""
 msgid "Agrégateur de flux RSS"
 msgstr "RSS feed aggregator"
 
-#: ../../services/rss.md:4
+#: ../../services/rss.md:6
+msgid ""
+"(_Really Simple Syndication_) Format de données standardisé qui permet la "
+"consultation d'un site non pas par un humain mais par un logiciel. Il s'agit "
+"donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
+"contiennent les derniers articles ou actualités publiées. Ils sont souvent "
+"utilisés par les sites d'actualité et les blogs. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/RSS)"
+msgstr ""
+
+#: ../../services/rss.md:7
+msgid "Agrégateur de flux"
+msgstr "Feed aggregator"
+
+#: ../../services/rss.md:13
+msgid ""
+"Logiciel permettant de consulter les flux RSS. Son but est d'agréger les "
+"nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
+"regarder manuellement et un par un les sites dont on veut connaître les "
+"nouveaux contenus."
+msgstr ""
+
+#: ../../services/rss.md:18
 msgid ""
 "Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
 "wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
@@ -1376,11 +1498,11 @@ msgstr ""
 "integrated {term}`Web client` located at <https://rss.club1.fr>, but it is "
 "also possible to connect a native client to it."
 
-#: ../../services/rss.md:10
+#: ../../services/rss.md:24
 msgid "Se connecter avec un client natif"
 msgstr "Connect with a native client"
 
-#: ../../services/rss.md:13
+#: ../../services/rss.md:27
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
 "dans les paramètres du {term}`client Web`. Cliquer sur le menu (icone avec "
@@ -1393,13 +1515,25 @@ msgstr ""
 "at the top right) &rarr; `Preferences...` &rarr; `Preferences` tab &rarr; "
 "`General` section &rarr; Check the `Enable API` box."
 
-#: ../../services/rss.md:18
+#: ../../services/rss.md:32
 msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
 msgstr ""
 "In the chosen native client, the server URL must be filled with `https://rss."
 "club1.fr`."
+
+#: ../../services/rss.md:35 ../../services/webdav.md:33 ../../tutos/index.md:1
+msgid "Tutoriels"
+msgstr "Tutorials"
+
+#: ../../services/rss.md:38
+msgid ""
+"Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
+"RSS de CLUB1."
+msgstr ""
+"Below is a small list of tutorials to get the most out of CLUB1's RSS "
+"service."
 
 #: ../../services/sql.md:1
 msgid "Bases de données SQL"
@@ -1719,10 +1853,6 @@ msgstr ""
 "Each member has a pre-existing address book and calendar, both called "
 "`Default`, but it is possible to create others."
 
-#: ../../services/webdav.md:33 ../../tutos/index.md:1
-msgid "Tutoriels"
-msgstr "Tutorials"
-
 #: ../../services/webdav.md:36
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
@@ -1730,10 +1860,6 @@ msgid ""
 msgstr ""
 "Below is a small list of tutorials to get the most out of CLUB1's WebDAV "
 "service."
-
-#: ../../services/webdav.md:38
-msgid "[](/tutos/webdav-android.md)"
-msgstr "[](/tutos/webdav-android.md)"
 
 #: ../../tutos/connexion-linux.md:1
 msgid "Connexion au serveur depuis l'explorateur de fichiers Linux"
@@ -1860,6 +1986,205 @@ msgstr ""
 msgid ""
 "Vous pouvez désormais modifier tous vos fichiers facilement depuis votre "
 "explorateur de fichiers !"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:1
+msgid "Utiliser Tiny tiny RSS"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:3
+msgid ""
+"Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1](/"
+"services/rss.md)."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:5
+msgid ""
+"Cet {term}`agrégateur de flux` {term}`RSS` permet de \"s'abonner\" à de "
+"multiples sites web, pour recevoir des notifications lorsqu'un nouvel "
+"article est posté et pour tous les consulter dans un fil d'actualités commun."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:9
+msgid "Accéder à son compte de flux RSS"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:11
+msgid ""
+"Pour accéder à votre compte, vous pouvez vous connecter avec vos "
+"identifiants CLUB1 à cette adresse : <https://rss.club1.fr/>"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:13
+msgid "S'abonner à un flux RSS"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:15
+msgid ""
+"Pour recevoir les dernières nouveautés d'un site web, il faut \"s'abonner à "
+"son flux d'actualités\". Pour cela, le plus simple est de l'ajouter depuis "
+"l'interface de _Tiny Tiny RSS_."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:19
+msgid ""
+"Vous aurez besoin de l'adresse (aussi appelée URL) du site web auquel vous "
+"voulez vous abonner. Pour l'obtenir, vous pouvez visiter le site en question "
+"avec un navigateur web depuis lequel il est possible de copier l'URL depuis "
+"la barre de recherche."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:24
+msgid ""
+"Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, "
+"puis sur `s'abonner au flux...`"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:26
+msgid "![visualisation du menu](/_static/tutos/flux-rss/capture_1.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:26
+msgid "visualisation du menu"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:28
+msgid ""
+"Entrez l'url du site dont vous voulez obtenir le flux RSS, par exemple ici "
+"le blog de Fred Turner. Si vous avez créé des catégories, vous pouvez en "
+"sélectionner une pour trier votre flux (c'est possible de le faire plus "
+"tard) puis cliquez sur `S'abonner`."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:33
+msgid ""
+"Il est possible qu'un site ne propose pas de flux RSS, dans ce cas il ne "
+"sera malheureusement pas possible de s'y abonner."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:37
+msgid "![lien vers site](/_static/tutos/flux-rss/capture_2.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:37
+msgid "lien vers site"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:39
+msgid ""
+"Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé "
+"de sélectionner `Atom` car c'est un format de données plus récent."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:41
+msgid "![Atom vs RSS](/_static/tutos/flux-rss/capture_3.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:41
+msgid "Atom vs RSS"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:43
+msgid ""
+"Et voilà ! Vous vous êtes abonné à votre premier flux d'actualités. À partir "
+"de maintenant il vous est possible de lire les derniers articles de ce site "
+"depuis l'agrégateur."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:46
+msgid ""
+"Vous pouvez bien-sûr vous abonner à plusieurs flux, c'est même recommandé !"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:48
+msgid ""
+"C'est bien joli tout ça, mais quand on suit beaucoup de sites, ça met un peu "
+"le bazar de tout rassembler dans un seul fil !"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:51
+msgid "Pour résoudre ce problème, il est possible d'utiliser les catégories."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:53
+msgid "Utiliser les catégories"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:55
+msgid ""
+"Les catégories permettent de rassembler les flux auxquels vous vous êtes "
+"abonné dans des groupes, un peu comme des dossier. Elles sont utiles par "
+"exemple pour recréer un sous-fil d'actualités thématique, surtout lorsqu'on "
+"est abonné à beaucoup de sites."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:59
+msgid ""
+"Pour créer une catégorie, il faut retourner dans le menu en haut à droite de "
+"l'écran principal et cliquer sur `Configuration...`. Aller dans l'onglet "
+"Flux en haut de l'écran."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:62
+msgid "![Config catégories 1](/_static/tutos/flux-rss/capture_4.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:62
+msgid "Config catégories 1"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:64
+msgid ""
+"Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie "
+"pour ranger vos articles."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:66
+msgid ""
+"En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux "
+"qu'il contient.  Pour modifier la catégorie d'un flux, il suffit de *cliquer "
+"glisser* le flux vers une nouvelle catégorie."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:69
+msgid "Choisir un mode d'affichage"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:71
+msgid "Par défaut, l'affichage se fait en mode combiné."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:73
+msgid "![Mode d'affichage combiné](/_static/tutos/flux-rss/capture_5.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:73
+msgid "Mode d'affichage combiné"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:75
+msgid ""
+"Pour utiliser un mode d'affichage en liste avec un panneau de lecture "
+"séparé,  vous pouvez désactiver le \"mode combiné\" dans la configuration."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:78
+msgid "![Mode d'affichage en liste](/_static/tutos/flux-rss/capture_6.png)"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:78
+msgid "Mode d'affichage en liste"
+msgstr ""
+
+#: ../../tutos/flux-rss.md:81
+msgid ""
+"Il est possible de passer en mode _trois colones_ avec le panneau de lecture "
+"à droite, ce qui est pratique lorsqu'on a un écran large."
+msgstr ""
+
+#: ../../tutos/flux-rss.md:84
+msgid ""
+"Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`."
 msgstr ""
 
 #: ../../tutos/index.md:4
@@ -2320,8 +2645,8 @@ msgid ""
 "Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
 msgstr ""
-"Then, allow it access to contacts and calendars (everything) ({numref}`fig"
-":tutos-webdav-android-autorisations`)."
+"Then, allow it access to contacts and calendars (everything) ({numref}`fig:"
+"tutos-webdav-android-autorisations`)."
 
 #: ../../tutos/webdav-android.md:38
 msgid "capture d'écran autorisations"
@@ -2372,8 +2697,8 @@ msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgstr ""
-"Select the second option: \"Login with URL and username\" ({numref}`fig"
-":tutos-webdav-android-connexion`)."
+"Select the second option: \"Login with URL and username\" ({numref}`fig:"
+"tutos-webdav-android-connexion`)."
 
 #: ../../tutos/webdav-android.md:75
 msgid "capture d'écran connexion"

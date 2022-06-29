@@ -19,6 +19,15 @@ msgstr ""
 msgid "WebDAV"
 msgstr ""
 
+msgid "[](/tutos/webdav-android.md)"
+msgstr ""
+
+msgid "RSS"
+msgstr ""
+
+msgid "[](/tutos/flux-rss.md)"
+msgstr ""
+
 msgid "API"
 msgstr ""
 
@@ -71,4 +80,7 @@ msgid "DejaVu"
 msgstr ""
 
 msgid "xindy"
+msgstr ""
+
+msgid "ImageMagick"
 msgstr ""
