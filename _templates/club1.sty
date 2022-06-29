@@ -19,7 +19,11 @@
 
 % Rétablit le style de liste standard en français.
 \ifdefined\frenchsetup
-	\frenchsetup{StandardListSpacing=true,StandardItemLabels=true}
+	\frenchsetup{
+		StandardItemizeEnv,
+		StandardEnumerateEnv,
+		StandardListSpacing,
+		StandardItemLabels}
 \fi
 
 % Définition du point médian.
