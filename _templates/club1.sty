@@ -17,6 +17,10 @@
 \setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
 \setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
 
+% Redéfinition des puces des listes.
+\renewcommand{\labelitemi}{$\bullet$}	% niveau 1 : rond
+\renewcommand{\labelitemii}{$\circ$}	% niveau 2 : cercle
+
 % Rétablit le style de liste standard en français.
 \ifdefined\frenchsetup
 	\frenchsetup{
