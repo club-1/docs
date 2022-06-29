@@ -9,7 +9,7 @@ LOCALEFILES     := $(LOCALES:%=$(LOCALEDIR)/%/LC_MESSAGES/package.po) $(LOCALES:
 UPDATEPO        := $(filter update-po,$(MAKECMDGOALS))
 
 DATE                := $(shell date +%F)
-REVISION            := $(shell git describe --always --dirty)
+REVISION            := $(shell git describe --always --dirty --abbrev=4)
 
 export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
