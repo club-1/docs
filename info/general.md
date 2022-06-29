@@ -21,7 +21,7 @@ Infos sur le serveur
 ### Matériel et infrastructure
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
-optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/fr/r/338260996-nDOmVdkc) et un [débit descendant de 487Mb/s en moyenne](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
+optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
 
 ### Caractéristiques techniques
 
@@ -31,8 +31,6 @@ optique avec un [débit montant de 200Mb/s en moyenne](https://www.nperf.com/fr/
         SSD Système 300 Go
         SSD Users 1To
 
-Retrouvez plus d'informations technique sur le fonctionnement des services sur 
-le [github de club-1/hosting](https://github.com/club-1/hosting#readme)
 
 
 ### Système d'exploitation
@@ -122,4 +120,4 @@ divulguée ni utilisée à des fins lucratives et ce même sous la menace.
 Contact
 -------
 
-contact@club1.fr
+<contact@club1.fr>
