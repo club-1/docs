@@ -1,9 +1,6 @@
 Informations générales
 ======================
 
-Le serveur Club1 permet d'héberger différents types de projets web à ses membres. Mais c'est aussi une communauté de personne intéressées par les notions d'espaces web, de libertés et d'exploration du web.
-
-
 Demandes et Incidents
 ---------------------
 
@@ -86,6 +83,17 @@ Le système et les données utilisateur sont sauvegardées une fois par jour à 
 Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
 
 L'article [Sauvegardes](https://club1.fr/backups/) apporte plus d'informations sur ce système.
+
+
+Comptes des membres
+-------------------
+
+Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
+Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/1).
+
+Cet identifiant est principalement utilisé en interne pour la connexion aux services
+et n'est donc pas spécialement visible depuis l'extérieur.
+Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres.
 
 Politique et vie privée
 -----------------------
