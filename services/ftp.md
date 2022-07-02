@@ -1,8 +1,27 @@
 Transfert de fichiers FTPS
 ==========================
 
-Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File Transfer
-Protocol Secure_) peut être utile lors du tranfert d'un grand nombre de fichiers
+```{glossary}
+FTP
+   (_File Transfer Protocol_) Protocole de transfert de fichiers.
+   Il permet de copier des fichiers d'un ordinateur à un autre
+   à travers un {term}`réseau informatique`,
+   ou encore de déplacer ou supprimer des fichiers sur un ordinateur distant.
+   Le serveur CLUB1 utilise la variante sécurisée de ce protocole : {term}`FTPS`. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/File_Transfer_Protocol)
+
+FTPS
+   (_File Transfer Protocol Secure_)
+   Variante sécurisée de {term}`FTP`, basée sur {term}`TLS`.
+   L'ensemble des échanges de données réalisé est donc chiffré.
+   FTPS propose deux modes de fonctionnement : _explicite_ et _implicite_.
+   Le mode _implicite_ est plus sécurisé car la connexion est chiffrée
+   dès le premier échange. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/File_Transfer_Protocol_Secure)
+```
+
+Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS`
+peut être utile lors du tranfert d'un grand nombre de fichiers
 depuis et vers le serveur CLUB1.
 
 Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme

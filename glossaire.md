@@ -58,6 +58,14 @@ Serveur
    serveurs sont installés (ex : le serveur CLUB1) . ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
 
+TLS
+   (_Transport Layer Security_) Protocole permettant de sécuriser les échanges
+   réalisés dans un {term}`réseau informatique`.
+   L'une de ses fonctionnalités principale est de chiffrer l'ensemble des données échangées
+   entre le {term}`client` et le {term}`serveur`,
+   afin que personne d'autre ne puisse en lire le contenu. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Transport_Layer_Security)
+
 Web
    L'un des services les plus connus d'{term}`Internet`.
    Son nom complet est "World Wide Web" (aussi abrégé "www").

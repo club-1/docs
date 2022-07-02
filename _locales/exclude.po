@@ -16,6 +16,12 @@ msgstr ""
 msgid "SSH"
 msgstr ""
 
+msgid "FTP"
+msgstr ""
+
+msgid "FTPS"
+msgstr ""
+
 msgid "WebDAV"
 msgstr ""
 
@@ -41,6 +47,9 @@ msgid "GitHub"
 msgstr ""
 
 msgid "Markdown"
+msgstr ""
+
+msgid "TLS"
 msgstr ""
 
 msgid "📁 mail"
