@@ -48,6 +48,7 @@ myst_enable_extensions = [
     'substitution',
 ]
 
+# Define some substitution strings.
 myst_substitutions = {
     'sphinx_version': sphinx_version,
     'myst_version': myst_version,
@@ -55,7 +56,8 @@ myst_substitutions = {
     'docutils_version': docutils_version,
 }
 
-term_tooltips_apply_function = lambda s: s.rsplit(' —', 1)[0]
+# Strip everything after the last emdash in term's tooltips.
+term_tooltips_apply_function = lambda s: s.rsplit('—', 1)[0].strip()
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
