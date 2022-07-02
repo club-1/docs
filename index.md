@@ -4,6 +4,7 @@ Documentation de l'hébergement CLUB1
 ```{toctree}
 ---
 maxdepth: 2
+numbered: 3
 ---
 info/index
 services/index
@@ -19,5 +20,6 @@ glossaire
    Indexes et tables
    =================
 
-   - :ref:`genindex`
+   .. toctree::
+      genindex
 ```
