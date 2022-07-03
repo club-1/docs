@@ -4,7 +4,7 @@ Documentation de l'hébergement CLUB1
 ```{toctree}
 ---
 maxdepth: 2
-numbered: 3
+numbered: 2
 ---
 info/index
 services/index
