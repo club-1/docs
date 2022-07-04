@@ -52,8 +52,9 @@ Au cas où ils ne le sont pas, voici la liste complète :
 Le dossier `mail` est soumis à un quota de **5&nbsp;Go**.
 Cette déscision a été prise pour encourager la suppression des anciens emails.
 
-La taille maximale acceptée pour les emails reçus est de **100&nbsp;Mo**.
-Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé.
+La taille maximale acceptée pour les emails reçus est de **10&nbsp;Mo**.
+Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé
+avec le message d'erreur `552: 5.3.4 Error: message file too big`.
 
 Informations de connexion
 -------------------------
