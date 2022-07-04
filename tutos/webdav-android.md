@@ -1,10 +1,12 @@
 Synchronisation de calendriers et contacts sur un appareil Android
 ==================================================================
 
-Cette méthode permet de synchroniser ses conctacts et calendrier entre le serveur et un appareil *Android*.
+Cette méthode permet de synchroniser ses {index}`carnets d'adresses`
+et {index}`calendriers` entre le serveur et un appareil *Android*.
 
-Pour synchroniser ses contacts et calendrier avec différentes applications,
-la solution la plus efficace consiste à passer par une application qui va se charger essentiellement de la synchro : __DAVx5__.
+Pour synchroniser ses contacts et calendriers avec différentes applications,
+la solution la plus efficace consiste à passer par une application
+qui va se charger essentiellement de la synchro : __DAVx5__.
 
 Cette application est payante (6€) sur le magasin d'applications de Google ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
 (un magasin alternatif, proposant uniquement des appli [*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).

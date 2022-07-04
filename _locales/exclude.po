@@ -25,6 +25,12 @@ msgstr ""
 msgid "WebDAV"
 msgstr ""
 
+msgid "CardDAV"
+msgstr ""
+
+msgid "CalDAV"
+msgstr ""
+
 msgid "[](/tutos/webdav-android.md)"
 msgstr ""
 
