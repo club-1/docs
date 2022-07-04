@@ -42,8 +42,12 @@
 % Augmentation de la DPI des images qui ne l'ont pas définie.
 \pdfimageresolution=140
 
-% Profondeur de la numérotation limitée à 2 niveaux.
-\setcounter{secnumdepth}{1}
+% Profondeur de la numérotation limitée à 1 niveau.
+\setcounter{secnumdepth}{0}
+
+% Ajoute une ligne sous les titres de niveau 2.
+\titleformat{\section}{\Large\py@HeaderFamily}%
+	    {\py@TitleColor\thesection}{0.5em}{\py@TitleColor}[\py@TitleColor\hrule]
 
 % Autorise les titres tout en bas de la page, puisque de toute
 % façon, LaTeX les déplacera à la page suivante si il n'y a pas
