@@ -13,8 +13,13 @@ WebDAV
 Plusieurs extensions de WebDAV apportent des fonctionnalités encore un peu plus
 spécifiques :
 
-- **CardDAV** pour synchroniser des carnets d'adresses de contacts.
-- **CalDAV** pour synchroniser des calendriers.
+```{glossary}
+CardDAV
+   Extension {term}`WebDAV` pour synchroniser des {index}`carnets d'adresses` de contacts.
+
+CalDAV
+   Extension {term}`WebDAV` pour synchroniser des {index}`calendriers`.
+```
 
 Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://webdav.club1.fr>.
 Elle permet de tester la connexion et de prévisualiser certaines informations.

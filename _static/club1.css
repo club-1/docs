@@ -48,6 +48,7 @@ section:target > h2,
 section:target > h3,
 section:target > h4,
 section:target > h5,
+.target:target,
 dt:target {
 	background: #F1C40F !important;
 }

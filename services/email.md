@@ -10,8 +10,8 @@ Client Web
 
 Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/Roundcube)
 est disponible à l'adresse <https://mail.club1.fr>.
-Il permet de gérer et d'envoyer des emails, mais aussi d'accéder aux calendriers
-et carnets d'adresses CLUB1 synchronisés avec [WebDAV](webdav.md).
+Il permet de gérer et d'envoyer des emails, mais aussi d'accéder aux {index}`calendriers`
+et {index}`carnets d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md).
 
 Stockage des données
 --------------------

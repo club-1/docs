@@ -37,6 +37,7 @@ extensions = [
     'myst_parser',
     'french_typography',
     'term_tooltips',
+    'index_role',
 ]
 
 # Allow to create implicit reference to headings up to level 6.
