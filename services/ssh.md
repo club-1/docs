@@ -18,7 +18,8 @@ SFTP
 
 SCP
    (_Secure CoPy_) Protocole de copie de fichiers entre deux ordinateurs basé sur {term}`SSH`.
-   SCP s'utilise principalement à l'aide du {term}`client` en {term}`CLI` du même nom.
+   SCP s'utilise principalement à l'aide du {term}`client` en {term}`CLI` du même nom. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
 ```
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
