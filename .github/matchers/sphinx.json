@@ -2,9 +2,10 @@
   "problemMatcher": [
     {
       "owner": "sphinx-loose-no-severity",
+      "severity": "warning",
       "pattern": [
         {
-          "_comment": "Looks for file names ending with .rst and line numbers but without severity",
+          "_comment": "Looks for file names ending with .md and line numbers but without severity",
           "regexp": "^(.*\\.md):(\\d+):(.*)$",
           "file": 1,
           "line": 2,
@@ -16,7 +17,7 @@
       "owner": "sphinx-loose",
       "pattern": [
         {
-          "_comment": "A bit of a looser pattern, doesn't look for line numbers, just looks for file names relying on them to start with / and end with .rst",
+          "_comment": "A bit of a looser pattern, doesn't look for line numbers, just looks for file names relying on them to start with / and end with .md",
           "regexp": "(\/.*\\.md):\\s+(\\w*):\\s+(.*)$",
           "file": 1,
           "severity": 2,

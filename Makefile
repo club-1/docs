@@ -24,9 +24,9 @@ export LATEXMKOPTS  := -file-line-error $(if $(CI),,-quiet)
 SPHINXLANG      := -D language=$(LOCALE)
 SPHINXOPTS      += -a $(if $(CI),,-q)
 SPHINXBUILD     ?= sphinx-build
-SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo
+SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo linkcheck
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
-SPHINXCMDS      := gettext changes xml pseudoxml linkcheck
+SPHINXCMDS      := gettext changes xml pseudoxml
 SOURCEDIR       := .
 BUILDDIR        := _build
 DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%) $(SPHINXLBUILDERS:%=$(BUILDDIR)/%)
