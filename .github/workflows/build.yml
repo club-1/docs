@@ -33,13 +33,14 @@ jobs:
       - name: Make html/en
         run: make html/en O='-w errors.html.en.log'
       - name: Make linkcheck
-        run: make linkcheck || true
+        run: make linkcheck --keep-going || true
       - name: Collect Sphinx errors
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'
-          sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log \
-          | cat - _build/linkcheck/*/output.txt \
-          | sort -u
+          {
+            sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log;
+            sort -u -k2  _build/linkcheck/*/output.txt;
+          } | sort -u
           echo '::remove-matcher owner=sphinx::'
   latex:
     runs-on: ubuntu-22.04
