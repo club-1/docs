@@ -9,7 +9,7 @@ jobs:
   html:
     runs-on: ubuntu-latest
     env:
-      SPHINXOPTS: -D gettext_auto_build=True -n
+      SPHINXOPTS: --color -n
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3

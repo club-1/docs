@@ -22,7 +22,7 @@ export LANGUAGES    := $(LOCALE) $(LOCALES)
 export LATEXMKOPTS  := -file-line-error $(if $(CI),,-quiet)
 
 SPHINXLANG      := -D language=$(LOCALE)
-SPHINXOPTS      += -a --color $(if $(CI),,-q)
+SPHINXOPTS      += -a $(if $(CI),,-q)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
@@ -47,7 +47,7 @@ $(DIRS):
 update-po: $(LOCALEFILES);
 
 %.mo: %.po
-	msgfmt -o $@ $<
+	msgfmt --use-fuzzy -o $@ $<
 
 .SECONDEXPANSION:
 $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
