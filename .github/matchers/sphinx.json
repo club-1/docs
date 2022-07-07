@@ -2,6 +2,7 @@
   "problemMatcher": [
     {
       "owner": "sphinx-loose-no-severity",
+      "severity": "warning",
       "pattern": [
         {
           "_comment": "Looks for file names ending with .md and line numbers but without severity",
