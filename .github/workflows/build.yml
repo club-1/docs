@@ -38,8 +38,8 @@ jobs:
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'
           {
-            sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log;
-            sort -u -k2  _build/linkcheck/*/output.txt;
+            sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log
+            sort -u -k2  _build/linkcheck/*/output.txt
           } | sort -u
           echo '::remove-matcher owner=sphinx::'
   latex:
