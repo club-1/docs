@@ -44,6 +44,8 @@ jobs:
           echo '::remove-matcher owner=sphinx::'
   latex:
     runs-on: ubuntu-22.04
+    env:
+      SPHINXOPTS: --color
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
