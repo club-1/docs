@@ -57,6 +57,12 @@
 % Interdit les titres de section dans le dernier quart de la page.
 \newcommand{\sectionbreak}{\needspace{.25\textheight}}
 
+% Augmente très légèrement la pénalité de pagebreak juste avant
+% une liste ou un bloc de code (valeur par défaut : -51).
+\makeatletter
+\@beginparpenalty=1
+\makeatother
+
 % Définition des paramètres de rendu de Sphinx.
 \sphinxsetup{
 	verbatimwithframe=true,
@@ -85,7 +91,9 @@
 
 % Définit une commande d'espacement spécifiquement utilisé pour l'index.
 % Remplis l'espace avec une ligne de points alignés verticalement.
+\makeatletter
 \newcommand \idxopen {\leavevmode \leaders \hb@xt@ .66em{\hss .\hss }\hfill \kern \z@}
+\makeatother
 
 % Customisation des tableaux.
 % Élargissement du padding des cellules.
