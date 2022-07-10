@@ -12,7 +12,7 @@ SSH
 SFTP
    (_SSH File Transfer Protocol_) Protocole de transfert
    et gestion à distance de fichiers basé sur {term}`SSH`.
-   Il ainsi entièrement chiffré, et donc comparable à {term}`FTPS`,
+   Il est ainsi entièrement chiffré, et donc comparable à {term}`FTPS`,
    mais il offre plus de fonctionnalités (e.g. l'affichage des propriétaires d'un fichier). ---
    [Wikipedia](https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
 
