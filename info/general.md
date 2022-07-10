@@ -98,7 +98,9 @@ Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https
 
 Cet identifiant est principalement utilisé en interne pour la connexion aux services
 et n'est donc pas spécialement visible depuis l'extérieur.
-Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres.
+Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres
+et dans les URLs automatiques commes celles des [sites statiques](/services/web.md#sites-statiques)
+et des [dépôts git](/services/git.md).
 
 ### Modalités des comptes
 
