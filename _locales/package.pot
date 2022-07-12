@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-12 19:06+0200\n"
+"POT-Creation-Date: 2022-07-12 19:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,14 +363,6 @@ msgstr ""
 
 #: ../../info/general.md:30
 msgid "Caractéristiques techniques"
-msgstr ""
-
-#: ../../info/general.md:32
-msgid "Intel Atom C3000"
-msgstr ""
-
-#: ../../info/general.md:33
-msgid "16 Go DDR4 ECC"
 msgstr ""
 
 #: ../../info/general.md:34
@@ -1010,52 +1002,60 @@ msgid ""
 msgstr ""
 
 #: ../../services/email.md:37
+msgid "Voir aussi"
+msgstr ""
+
+#: ../../services/email.md:38
+msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
+msgstr ""
+
+#: ../../services/email.md:41
 msgid "Dossiers spéciaux"
 msgstr ""
 
-#: ../../services/email.md:39
+#: ../../services/email.md:43
 msgid ""
 "Les dossiers spéciaux utilisent les noms standards, ils seront donc "
 "automatiquement reconnus par la grande majorité des clients email. Au cas où "
 "ils ne le sont pas, voici la liste complète :"
 msgstr ""
 
-#: ../../services/email.md:43
+#: ../../services/email.md:47
 msgid "`INBOX` : messages reçus"
 msgstr ""
 
-#: ../../services/email.md:44
+#: ../../services/email.md:48
 msgid "`Drafts` : brouillons en cours de rédaction"
 msgstr ""
 
-#: ../../services/email.md:45
+#: ../../services/email.md:49
 msgid "`Sent` : messages envoyés"
 msgstr ""
 
-#: ../../services/email.md:46
+#: ../../services/email.md:50
 msgid "`Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:47
+#: ../../services/email.md:51
 msgid ""
 "`Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:48
+#: ../../services/email.md:52
 msgid "`Archive` : messages archivés"
 msgstr ""
 
-#: ../../services/email.md:50
+#: ../../services/email.md:54
 msgid "Quotas"
 msgstr ""
 
-#: ../../services/email.md:52
+#: ../../services/email.md:56
 msgid ""
 "Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette déscision a "
 "été prise pour encourager la suppression des anciens emails."
 msgstr ""
 
-#: ../../services/email.md:55
+#: ../../services/email.md:59
 msgid ""
 "La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**. Si "
 "un email dépasse cette taille, il sera refusé et l'expéditeur en sera "
@@ -1063,66 +1063,66 @@ msgid ""
 "`552: 5.3.4 Error: message file too big`."
 msgstr ""
 
-#: ../../services/email.md:59 ../../services/ftp.md:41 ../../services/sql.md:9
+#: ../../services/email.md:63 ../../services/ftp.md:41 ../../services/sql.md:9
 #: ../../services/ssh.md:85
 msgid "Informations de connexion"
 msgstr ""
 
-#: ../../services/email.md:62
+#: ../../services/email.md:66
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
 msgstr ""
 
-#: ../../services/email.md:64
+#: ../../services/email.md:68
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "champ"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "valeur"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "hôte"
 msgstr ""
 
-#: ../../services/email.md:0
+#: ../../services/email.md:37
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "port"
 msgstr ""
 
-#: ../../services/email.md:0
+#: ../../services/email.md:37
 msgid "`465` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:4
+#: ../../services/email.md:37 ../../services/ftp.md:4
 msgid "chiffrement"
 msgstr ""
 
-#: ../../services/email.md:0
+#: ../../services/email.md:37
 msgid "`SSL/TSL` (Implicite)"
 msgstr ""
 
-#: ../../services/email.md:72
+#: ../../services/email.md:76
 msgid "Serveur de réception (IMAP)"
 msgstr ""
 
-#: ../../services/email.md:0
+#: ../../services/email.md:37
 msgid "`mail.club1.fr` ou `imap.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:0
+#: ../../services/email.md:37
 msgid "`993` (par défaut)"
 msgstr ""
 

@@ -34,6 +34,10 @@ Détails divers
 
 Quelques informations supplémentaires à propos de certains détails du service email de CLUB1.
 
+```{admonition} Voir aussi
+L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)
+```
+
 ### Dossiers spéciaux
 
 Les dossiers spéciaux utilisent les noms standards,
