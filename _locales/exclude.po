@@ -13,6 +13,15 @@ msgstr ""
 msgid "Sphinx-rtd-theme : {{ rtd_version }}"
 msgstr ""
 
+msgid "Intel Atom C3000"
+msgstr ""
+
+msgid "16 Go DDR4 ECC"
+msgstr ""
+
+msgid "<contact@club1.fr>"
+msgstr ""
+
 msgid "SSH"
 msgstr ""
 

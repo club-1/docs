@@ -29,11 +29,11 @@ optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant]
 
 ### Caractéristiques techniques
 
-- Intel ATOM C3000
+- Intel Atom C3000
 - 16 Go DDR4 ECC
 - Stockage :
   - SSD Système 300 Go
-  - SSD Users 1To
+  - SSD Utilisateurs 1 To
 
 
 

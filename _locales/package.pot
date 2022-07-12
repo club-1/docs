@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-29 15:45+0200\n"
+"POT-Creation-Date: 2022-07-12 19:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../genindex.rst:4
+msgid "Index"
+msgstr ""
 
 #: ../../glossaire.md:3
 msgid "Glossaire"
@@ -114,11 +118,21 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:50
-msgid "Web"
+#: ../../glossaire.md:58
+msgid ""
+"(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
+"réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
+"principale est de chiffrer l'ensemble des données échangées entre le {term}"
+"`client` et le {term}`serveur`, afin que personne d'autre ne puisse en lire "
+"le contenu. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Transport_Layer_Security)"
 msgstr ""
 
 #: ../../glossaire.md:58
+msgid "Web"
+msgstr ""
+
+#: ../../glossaire.md:66
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -131,12 +145,8 @@ msgstr ""
 msgid "Documentation de l'hébergement CLUB1"
 msgstr ""
 
-#: ../../index.md:20
+#: ../../index.md:21
 msgid "Indexes et tables"
-msgstr ""
-
-#: ../../index.md:22
-msgid ":ref:`genindex`"
 msgstr ""
 
 #: ../../info/espace-personnel.md:1
@@ -308,10 +318,17 @@ msgid "Informations générales"
 msgstr ""
 
 #: ../../info/general.md:4
+msgid ""
+"Le serveur Club1 permet à ses membres d'héberger différents types de projets "
+"web.  Mais c'est aussi une communauté de personne intéressées par les "
+"notions d'espaces web, de libertés et d'exploration du web."
+msgstr ""
+
+#: ../../info/general.md:8
 msgid "Demandes et Incidents"
 msgstr ""
 
-#: ../../info/general.md:7
+#: ../../info/general.md:11
 msgid ""
 "Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
 "github.com/club-1/hosting/issues) sur {term}`GitHub` (vous devrez pour cela "
@@ -321,26 +338,58 @@ msgid ""
 "similaire à l'aide de la barre de recherche."
 msgstr ""
 
-#: ../../info/general.md:14
+#: ../../info/general.md:18
 msgid "Infos sur le serveur"
 msgstr ""
 
-#: ../../info/general.md:17
+#: ../../info/general.md:21
+msgid "Il vit dans le placard comme _Harry Potter_..."
+msgstr ""
+
+#: ../../info/general.md:23
+msgid "c'est le serveur."
+msgstr ""
+
+#: ../../info/general.md:25
 msgid "Matériel et infrastructure"
 msgstr ""
 
-#: ../../info/general.md:19
+#: ../../info/general.md:27
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
-"fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
-"nperf.com/fr/r/338260996-nDOmVdkc)."
+"fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
+"descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc)."
 msgstr ""
 
-#: ../../info/general.md:22
+#: ../../info/general.md:30
+msgid "Caractéristiques techniques"
+msgstr ""
+
+#: ../../info/general.md:32
+msgid "Intel Atom C3000"
+msgstr ""
+
+#: ../../info/general.md:33
+msgid "16 Go DDR4 ECC"
+msgstr ""
+
+#: ../../info/general.md:34
+msgid "Stockage :"
+msgstr ""
+
+#: ../../info/general.md:35
+msgid "SSD Système 300 Go"
+msgstr ""
+
+#: ../../info/general.md:36
+msgid "SSD Utilisateurs 1 To"
+msgstr ""
+
+#: ../../info/general.md:40
 msgid "Système d'exploitation"
 msgstr ""
 
-#: ../../info/general.md:24
+#: ../../info/general.md:42
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -350,17 +399,17 @@ msgid ""
 "org/fr/stable/needrestart)."
 msgstr ""
 
-#: ../../info/general.md:30
+#: ../../info/general.md:48
 msgid "Logiciels et bibliothèques installés"
 msgstr ""
 
-#: ../../info/general.md:32
+#: ../../info/general.md:50
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
 msgstr ""
 
-#: ../../info/general.md:49
+#: ../../info/general.md:67
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -368,11 +417,11 @@ msgid ""
 "(#demandes-et-incidents)."
 msgstr ""
 
-#: ../../info/general.md:53
+#: ../../info/general.md:71
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../info/general.md:55
+#: ../../info/general.md:73
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -382,33 +431,114 @@ msgid ""
 "devrait pouvoir être assurée."
 msgstr ""
 
-#: ../../info/general.md:62
+#: ../../info/general.md:80
+msgid "Sauvegardes"
+msgstr ""
+
+#: ../../info/general.md:86
+msgid ""
+"Le système et les données utilisateur sont sauvegardées une fois par jour à "
+"5h. Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs "
+"endroits dont un dépôt off-site."
+msgstr ""
+
+#: ../../info/general.md:89
+msgid ""
+"L'article [Sauvegardes](https://club1.fr/backups/) apporte plus "
+"d'informations sur ce système."
+msgstr ""
+
+#: ../../info/general.md:92
 msgid "Comptes des membres"
 msgstr ""
 
-#: ../../info/general.md:65
+#: ../../info/general.md:95
+msgid "Identifiant"
+msgstr ""
+
+#: ../../info/general.md:96
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/1)."
 msgstr ""
 
-#: ../../info/general.md:68
+#: ../../info/general.md:99
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
 "cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée "
-"par défaut aux membres."
+"par défaut aux membres et dans les URLs automatiques commes celles des "
+"[sites statiques](../services/web.md#sites-web-statiques) et des [dépôts git]"
+"(/services/git.md)."
 msgstr ""
 
-#: ../../info/general.md:72
+#: ../../info/general.md:105
+msgid "Modalités des comptes"
+msgstr ""
+
+#: ../../info/general.md:107
+msgid ""
+"Chaque entité (personne ou groupe),  peut héberger autant de projets qu'elle "
+"le souhaite dans la limite du raisonnable."
+msgstr ""
+
+#: ../../info/general.md:110
+msgid "Un compte membre comporte donc :"
+msgstr ""
+
+#: ../../info/general.md:112
+msgid "de l'espace de stockage SSD"
+msgstr ""
+
+#: ../../info/general.md:113
+msgid "plus d'espace sur disque dur (sur demande)"
+msgstr ""
+
+#: ../../info/general.md:114
+msgid "un accès FTP"
+msgstr ""
+
+#: ../../info/general.md:115
+msgid "un accès SSH (pour les utilisateurs avancés)"
+msgstr ""
+
+#: ../../info/general.md:116
+msgid "des bases de données (MariaDb)"
+msgstr ""
+
+#: ../../info/general.md:117
+msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
+msgstr ""
+
+#: ../../info/general.md:118
+msgid "l'utilisation de noms de domaines loué vias des registraires"
+msgstr ""
+
+#: ../../info/general.md:119
+msgid ""
+"un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
+"aux projets"
+msgstr ""
+
+#: ../../info/general.md:121
+msgid ""
+"Pour l'instant, le format choisi est celui de l'adhésion,  avec une "
+"cotisation de 35€ à vie."
+msgstr ""
+
+#: ../../info/general.md:124
 msgid "Politique et vie privée"
 msgstr ""
 
-#: ../../info/general.md:75
+#: ../../info/general.md:127
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
+msgstr ""
+
+#: ../../info/general.md:130
+msgid "Contact"
 msgstr ""
 
 #: ../../info/index.md:1
@@ -843,8 +973,8 @@ msgstr ""
 msgid ""
 "Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
 "Roundcube) est disponible à l'adresse <https://mail.club1.fr>. Il permet de "
-"gérer et d'envoyer des emails, mais aussi d'accéder aux calendriers et "
-"carnets d'adresses CLUB1 synchronisés avec [WebDAV](webdav.md)."
+"gérer et d'envoyer des emails, mais aussi d'accéder aux {index}`calendriers` "
+"et {index}`carnets d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgstr ""
 
 #: ../../services/email.md:16
@@ -927,37 +1057,38 @@ msgstr ""
 
 #: ../../services/email.md:55
 msgid ""
-"La taille maximale acceptée pour les emails reçus est de **100&nbsp;Mo**. Si "
+"La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**. Si "
 "un email dépasse cette taille, il sera refusé et l'expéditeur en sera "
-"informé."
+"informé avec le message d'erreur : `Message size exceeds fixed limit` ou "
+"`552: 5.3.4 Error: message file too big`."
 msgstr ""
 
-#: ../../services/email.md:58 ../../services/ftp.md:22 ../../services/sql.md:9
+#: ../../services/email.md:59 ../../services/ftp.md:41 ../../services/sql.md:9
 #: ../../services/ssh.md:85
 msgid "Informations de connexion"
 msgstr ""
 
-#: ../../services/email.md:61
+#: ../../services/email.md:62
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
 msgstr ""
 
-#: ../../services/email.md:63
+#: ../../services/email.md:64
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/sql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "champ"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/sql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "valeur"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/sql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "hôte"
 msgstr ""
@@ -966,7 +1097,7 @@ msgstr ""
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:0 ../../services/sql.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:37
 msgid "port"
 msgstr ""
@@ -975,7 +1106,7 @@ msgstr ""
 msgid "`465` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:0 ../../services/ftp.md:0
+#: ../../services/email.md:0 ../../services/ftp.md:4
 msgid "chiffrement"
 msgstr ""
 
@@ -983,7 +1114,7 @@ msgstr ""
 msgid "`SSL/TSL` (Implicite)"
 msgstr ""
 
-#: ../../services/email.md:71
+#: ../../services/email.md:72
 msgid "Serveur de réception (IMAP)"
 msgstr ""
 
@@ -999,25 +1130,45 @@ msgstr ""
 msgid "Transfert de fichiers FTPS"
 msgstr ""
 
-#: ../../services/ftp.md:4
+#: ../../services/ftp.md:6
 msgid ""
-"Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File "
-"Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
-"nombre de fichiers depuis et vers le serveur CLUB1."
+"(_File Transfer Protocol_) Protocole de transfert de fichiers. Il permet de "
+"copier des fichiers d'un ordinateur à un autre à travers un {term}`réseau "
+"informatique`, ou encore de déplacer ou supprimer des fichiers sur un "
+"ordinateur distant. Le serveur CLUB1 utilise la variante sécurisée de ce "
+"protocole : {term}`FTPS`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"File_Transfer_Protocol)"
 msgstr ""
 
-#: ../../services/ftp.md:8
+#: ../../services/ftp.md:14
+msgid ""
+"(_File Transfer Protocol Secure_) Variante sécurisée de {term}`FTP`, basée "
+"sur {term}`TLS`. L'ensemble des échanges de données réalisé est donc "
+"chiffré. FTPS propose deux modes de fonctionnement : _explicite_ et "
+"_implicite_. Le mode _implicite_ est plus sécurisé car la connexion est "
+"chiffrée dès le premier échange. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/File_Transfer_Protocol_Secure)"
+msgstr ""
+
+#: ../../services/ftp.md:23
+msgid ""
+"Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS` "
+"peut être utile lors du tranfert d'un grand nombre de fichiers depuis et "
+"vers le serveur CLUB1."
+msgstr ""
+
+#: ../../services/ftp.md:27
 msgid ""
 "Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des "
 "logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
 "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
 
-#: ../../services/ftp.md:11
+#: ../../services/ftp.md:30
 msgid "Sécurité"
 msgstr ""
 
-#: ../../services/ftp.md:14
+#: ../../services/ftp.md:33
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
@@ -1026,30 +1177,30 @@ msgid ""
 "File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgstr ""
 
-#: ../../services/ftp.md:18
+#: ../../services/ftp.md:37
 msgid ""
 "Un certificat est utilisé pour prouver l'authenticité de la clé du serveur. "
 "Si un message demande d'approuver le certificat lors de la connexion, il est "
 "important de vérifier qu'il est bien délivré par `Let's Encrypt`."
 msgstr ""
 
-#: ../../services/ftp.md:0 ../../services/ssh.md:37
+#: ../../services/ftp.md:4 ../../services/ssh.md:37
 msgid "`club1.fr`"
 msgstr ""
 
-#: ../../services/ftp.md:0
+#: ../../services/ftp.md:4
 msgid "`990` (par défaut)"
 msgstr ""
 
-#: ../../services/ftp.md:0
+#: ../../services/ftp.md:4
 msgid "TLS Implicite"
 msgstr ""
 
-#: ../../services/ftp.md:0
+#: ../../services/ftp.md:4
 msgid "authentification"
 msgstr ""
 
-#: ../../services/ftp.md:0
+#: ../../services/ftp.md:4
 msgid "Normale"
 msgstr ""
 
@@ -1226,7 +1377,7 @@ msgid ""
 "`https://rss.club1.fr`."
 msgstr ""
 
-#: ../../services/rss.md:35 ../../services/webdav.md:33 ../../tutos/index.md:1
+#: ../../services/rss.md:35 ../../services/webdav.md:38 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr ""
 
@@ -1446,26 +1597,28 @@ msgid ""
 "plus spécifiques :"
 msgstr ""
 
-#: ../../services/webdav.md:16
-msgid "**CardDAV** pour synchroniser des carnets d'adresses de contacts."
+#: ../../services/webdav.md:18
+msgid ""
+"Extension {term}`WebDAV` pour synchroniser des {index}`carnets d'adresses` "
+"de contacts."
 msgstr ""
 
-#: ../../services/webdav.md:17
-msgid "**CalDAV** pour synchroniser des calendriers."
+#: ../../services/webdav.md:21
+msgid "Extension {term}`WebDAV` pour synchroniser des {index}`calendriers`."
 msgstr ""
 
-#: ../../services/webdav.md:19
+#: ../../services/webdav.md:24
 msgid ""
 "Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://"
 "webdav.club1.fr>. Elle permet de tester la connexion et de prévisualiser "
 "certaines informations."
 msgstr ""
 
-#: ../../services/webdav.md:22
+#: ../../services/webdav.md:27
 msgid "Carnets d'adresses et calendriers"
 msgstr ""
 
-#: ../../services/webdav.md:25
+#: ../../services/webdav.md:30
 msgid ""
 "Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail."
 "club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
@@ -1473,14 +1626,14 @@ msgid ""
 "contacts et calendriers CLUB1."
 msgstr ""
 
-#: ../../services/webdav.md:29
+#: ../../services/webdav.md:34
 msgid ""
 "Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-"
 "éxistants, tous les deux appelés `Default`, mais il est possible d'en créer "
 "d'autres."
 msgstr ""
 
-#: ../../services/webdav.md:36
+#: ../../services/webdav.md:41
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "WebDAV de CLUB1."
@@ -2203,18 +2356,18 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:4
 msgid ""
-"Cette méthode permet de synchroniser ses conctacts et calendrier entre le "
-"serveur et un appareil *Android*."
+"Cette méthode permet de synchroniser ses {index}`carnets d'adresses` et "
+"{index}`calendriers` entre le serveur et un appareil *Android*."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:6
+#: ../../tutos/webdav-android.md:7
 msgid ""
-"Pour synchroniser ses contacts et calendrier avec différentes applications, "
+"Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
 "charger essentiellement de la synchro : __DAVx5__."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:9
+#: ../../tutos/webdav-android.md:11
 msgid ""
 "Cette application est payante (6€) sur le magasin d'applications de Google "
 "ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid) (un magasin "
@@ -2222,103 +2375,103 @@ msgid ""
 "wikipedia.org/wiki/Open_source) et sans pubs)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:12
+#: ../../tutos/webdav-android.md:14
 msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:13
+#: ../../tutos/webdav-android.md:15
 msgid ""
 "[Google Plays store](https://play.google.com/store/apps/details?id=at."
 "bitfire.davdroid&hl=fr&gl=FR) (6€)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:15
+#: ../../tutos/webdav-android.md:17
 msgid "Premier lancement"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:18
+#: ../../tutos/webdav-android.md:20
 msgid ""
 "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:26
+#: ../../tutos/webdav-android.md:28
 msgid "capture d'écran gestion des tâches"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:26
+#: ../../tutos/webdav-android.md:28
 msgid "Gestion des tâches."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:29
+#: ../../tutos/webdav-android.md:31
 msgid ""
 "Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:38
+#: ../../tutos/webdav-android.md:40
 msgid "capture d'écran autorisations"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:38
+#: ../../tutos/webdav-android.md:40
 msgid "Accorder les autorisations."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:41
+#: ../../tutos/webdav-android.md:43
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
 "intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:49
+#: ../../tutos/webdav-android.md:51
 msgid "capture d'écran synchro à intervalles"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:49
+#: ../../tutos/webdav-android.md:51
 msgid "Synchronisation à intervalles réguliers."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:53
+#: ../../tutos/webdav-android.md:55
 msgid "Ajout du compte DAV"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:56
+#: ../../tutos/webdav-android.md:58
 msgid ""
 "Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton "
 "orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:64
+#: ../../tutos/webdav-android.md:66
 msgid "capture d'écran accueil"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:64
+#: ../../tutos/webdav-android.md:66
 msgid "Écran d'accueil de DAVx5."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:67
+#: ../../tutos/webdav-android.md:69
 msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:75
+#: ../../tutos/webdav-android.md:77
 msgid "capture d'écran connexion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:75
+#: ../../tutos/webdav-android.md:77
 msgid "Connexion avec une URL et un nom d'utilisateur."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:78
+#: ../../tutos/webdav-android.md:80
 msgid "URL de base :"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:82
+#: ../../tutos/webdav-android.md:84
 msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:85
+#: ../../tutos/webdav-android.md:87
 msgid ""
 "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
 "pour ce compte qui risque fortement de ressembler à votre adresse email "
@@ -2329,19 +2482,19 @@ msgid ""
 "`fig:tutos-webdav-android-groupes`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:96
+#: ../../tutos/webdav-android.md:98
 msgid "capture d'écran groupes"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:96
+#: ../../tutos/webdav-android.md:98
 msgid "Méthode de stockage des groupes."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:99
+#: ../../tutos/webdav-android.md:101
 msgid "Encore une dernière étape : quoi synchroniser ?"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:101
+#: ../../tutos/webdav-android.md:103
 msgid ""
 "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
 "vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-"
@@ -2350,38 +2503,38 @@ msgid ""
 "d'accèder et modifier ces réglages  plus tard très facilement."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:111
+#: ../../tutos/webdav-android.md:113
 msgid "capture d'écran sélection"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:111
+#: ../../tutos/webdav-android.md:113
 msgid "Liste des carnets d'adresses disponibles."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:115
+#: ../../tutos/webdav-android.md:117
 msgid ""
 "Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
 "y en aura toujours un qui s'appelle : \"Default\"."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:119
+#: ../../tutos/webdav-android.md:121
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:121
+#: ../../tutos/webdav-android.md:123
 msgid ""
 "À chaque fois que vous faites des modifications à cet endroit, il est "
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
 "bas à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:124
+#: ../../tutos/webdav-android.md:126
 msgid "Conclusion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:127
+#: ../../tutos/webdav-android.md:129
 msgid ""
 "Et voilà ! Si tout va bien, vous avez réussi à synchroniser vos contacts et/"
 "ou calendriers entre le serveur CLUB1 et un appareil *Android*. Les carnets "
@@ -2389,31 +2542,31 @@ msgid ""
 "l'appli de contact de votre choix et l'appli de calendrier de votre choix."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:131
+#: ../../tutos/webdav-android.md:133
 msgid ""
 "Si vous préferez utiliser des applis *open sources* et non orientés "
 "*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:133
+#: ../../tutos/webdav-android.md:135
 msgid ""
 "[Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "contacts.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:134
+#: ../../tutos/webdav-android.md:136
 msgid ""
 "[Contact Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.contacts&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:135
+#: ../../tutos/webdav-android.md:137
 msgid ""
 "[Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "calendar.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:136
+#: ../../tutos/webdav-android.md:138
 msgid ""
 "[Calendar Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
