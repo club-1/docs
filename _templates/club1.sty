@@ -101,6 +101,10 @@
 \renewcommand\arraystretch{1.5} % vertical
 % Style de texte de la ligne de titre (Sans serif gras).
 \renewcommand\sphinxstyletheadfamily{\sffamily\bfseries}
+% Alterne le fond des lignes entre gris et blanc.
+\rowcolors{1}{}{gray!8}
+% Reset le compteur de ligne correctement avec tabulary.
+\preto\tabular{\global\rownum=0\relax}
 
 % Customisation des citations pour les uniformiser avec la version HTML.
 \mdfdefinestyle{QuoteFrame}{

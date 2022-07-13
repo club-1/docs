@@ -188,10 +188,10 @@ latex_elements = {
     # Uniformization of chapter style, disable Sphinx default.
     'fncychap': '',
     # Use names for colors.
-    'passoptionstopackages': r'\PassOptionsToPackage{svgnames}{xcolor}',
+    'passoptionstopackages': r'\PassOptionsToPackage{svgnames,table}{xcolor}',
     # Clear default font config.
     'fontpkg': '',
-    # Packages to include before 'hyperref' and 'sphinx'.
+    # Packages to include before 'hyperref' and after 'sphinx'.
     'extrapackages': r'\usepackage{packages}',
     # Add custom preamble after 'hyperref' and 'sphinx'.
     'preamble': r'\usepackage{club1}',
