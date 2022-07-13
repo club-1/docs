@@ -86,8 +86,9 @@ assurée.
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
 Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
 
-L'article [Sauvegardes](https://club1.fr/backups/) apporte plus d'informations sur ce système.
-
+```{admonition} Voir aussi
+L'article du journal [Sauvegardes](https://club1.fr/backups/)
+```
 
 Comptes des membres
 -------------------
