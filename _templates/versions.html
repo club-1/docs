@@ -30,7 +30,7 @@
 		<dl>
 			<dt>{{ _('Téléchargements') }}</dt>
 			{% for type, url in downloads %}
-			<dd><a download href="{{ pathto(url, 1) }}">{{ type }}</a></dd>
+			<dd><a download href="{{ pathto(url, 1) }}">{{ type|upper }}</a></dd>
 			{% endfor %}
 		</dl>
 		{% endif %}
