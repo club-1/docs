@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-12 19:11+0200\n"
+"POT-Creation-Date: 2022-07-14 16:07+0200\n"
 "PO-Revision-Date: 2022-06-18 16:15+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -19,6 +19,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.13.1-dev\n"
+
+#: ../../404.md:5
+msgid "404 Non trouvé"
+msgstr "404 Not found"
+
+#: ../../404.md:8
+msgid "La page demandée n'existe pas ou plus, elle a peut-être été renommée."
+msgstr "The asked page does not exist, it might have been renamed."
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -310,7 +318,7 @@ msgstr ""
 "hesitate to put links to your web projects, it will allow members and "
 "visitors to discover them 🔎️."
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:208
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:211
 msgid "Metadonnées"
 msgstr "Metadata"
 
@@ -546,28 +554,31 @@ msgid ""
 "endroits dont un dépôt off-site."
 msgstr ""
 
-#: ../../info/general.md:89
-msgid ""
-"L'article [Sauvegardes](https://club1.fr/backups/) apporte plus "
-"d'informations sur ce système."
-msgstr ""
+#: ../../info/general.md:89 ../../services/email.md:37
+msgid "Voir aussi"
+msgstr "See also"
 
-#: ../../info/general.md:92
+#: ../../info/general.md:90
+msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
+msgstr ""
+"The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
+
+#: ../../info/general.md:93
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:95
+#: ../../info/general.md:96
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:96
+#: ../../info/general.md:97
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/1)."
 msgstr ""
 
-#: ../../info/general.md:99
+#: ../../info/general.md:100
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -577,67 +588,67 @@ msgid ""
 "(/services/git.md)."
 msgstr ""
 
-#: ../../info/general.md:105
+#: ../../info/general.md:106
 msgid "Modalités des comptes"
 msgstr ""
 
-#: ../../info/general.md:107
+#: ../../info/general.md:108
 msgid ""
 "Chaque entité (personne ou groupe),  peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
 
-#: ../../info/general.md:110
+#: ../../info/general.md:111
 msgid "Un compte membre comporte donc :"
 msgstr ""
 
-#: ../../info/general.md:112
+#: ../../info/general.md:113
 msgid "de l'espace de stockage SSD"
 msgstr ""
 
-#: ../../info/general.md:113
+#: ../../info/general.md:114
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:114
+#: ../../info/general.md:115
 msgid "un accès FTP"
 msgstr ""
 
-#: ../../info/general.md:115
+#: ../../info/general.md:116
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr ""
 
-#: ../../info/general.md:116
+#: ../../info/general.md:117
 #, fuzzy
 #| msgid "Bases de données SQL"
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases"
 
-#: ../../info/general.md:117
+#: ../../info/general.md:118
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:118
+#: ../../info/general.md:119
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr ""
 
-#: ../../info/general.md:119
+#: ../../info/general.md:120
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 
-#: ../../info/general.md:121
+#: ../../info/general.md:122
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion,  avec une "
 "cotisation de 35€ à vie."
 msgstr ""
 
-#: ../../info/general.md:124
+#: ../../info/general.md:125
 msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
-#: ../../info/general.md:127
+#: ../../info/general.md:128
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -645,7 +656,7 @@ msgstr ""
 "None of the data you store in your personal space will be divulged or used "
 "for profit, even under threat."
 
-#: ../../info/general.md:130
+#: ../../info/general.md:131
 msgid "Contact"
 msgstr ""
 
@@ -1075,58 +1086,64 @@ msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
 msgstr "Sphinx plugin providing the ReadTheDocs HTML theme."
 
 #: ../../interne/meta-doc.md:151
+msgid ""
+"Plugin Sphinx pour générer une page d'erreur 404 personnalisée dont les "
+"liens sont absolus."
+msgstr ""
+
+#: ../../interne/meta-doc.md:154
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:154 ../../interne/meta-doc.md:180
+#: ../../interne/meta-doc.md:157 ../../interne/meta-doc.md:183
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:158
+#: ../../interne/meta-doc.md:161
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:162
+#: ../../interne/meta-doc.md:165
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:165
+#: ../../interne/meta-doc.md:168
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:168
+#: ../../interne/meta-doc.md:171
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:171
+#: ../../interne/meta-doc.md:174
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:174
+#: ../../interne/meta-doc.md:177
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:177
+#: ../../interne/meta-doc.md:180
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr ""
 
-#: ../../interne/meta-doc.md:184
+#: ../../interne/meta-doc.md:187
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:186
+#: ../../interne/meta-doc.md:189
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:190
+#: ../../interne/meta-doc.md:193
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:194
+#: ../../interne/meta-doc.md:197
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:198
+#: ../../interne/meta-doc.md:201
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1249,13 +1266,11 @@ msgid ""
 "service email de CLUB1."
 msgstr ""
 
-#: ../../services/email.md:37
-msgid "Voir aussi"
-msgstr "See also"
-
 #: ../../services/email.md:38
 msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
-msgstr "The journal article [Le(s) serveur(s) email](https://club1.fr/email/) (in French)"
+msgstr ""
+"The journal article [Le(s) serveur(s) email](https://club1.fr/email/) (in "
+"French)"
 
 #: ../../services/email.md:41
 msgid "Dossiers spéciaux"
