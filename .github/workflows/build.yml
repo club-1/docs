@@ -43,6 +43,11 @@ jobs:
             sort -u -k2  _build/linkcheck/*/output.txt
           } | sort -u
           echo '::remove-matcher owner=sphinx::'
+      - name: Upload html artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs-html
+          path: _build/html
   latex:
     runs-on: ubuntu-22.04
     env:
@@ -100,5 +105,5 @@ jobs:
       - name: Upload pdf artifact
         uses: actions/upload-artifact@v3
         with:
-          name: club1-fr.pdf
+          name: docs-pdf
           path: _build/latex/fr/club1.pdf
