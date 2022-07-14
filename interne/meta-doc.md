@@ -208,6 +208,29 @@ juste au dessus du la ligne `msgid "..."` :
 #, fuzzy
 ```
 
+Déploiement de la version Web
+-----------------------------
+
+Un [serveur HTTP Apache](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)
+est requis pour le déploiement de la version Web de la documentation.
+Ci-dessous se trouve un exemple de configuration Apache
+dans lequel la documentation se trouve dans `/var/www/docs`
+et où on veut la servir sous `/docs/` :
+
+```apache
+## Docs directory
+Alias /docs /var/www/docs
+<Directory /var/www/docs>
+	# Needed for latest pdf|epub redirection
+	AllowOverride All
+	Require all granted
+</Directory>
+<LocationMatch "^/docs/(?<LANG>[a-z]{2})/">
+	# Set the 404 error page
+	ErrorDocument 404 "/docs/%{env:MATCH_LANG}/404.html"
+</LocationMatch>
+```
+
 Metadonnées
 -----------
 
