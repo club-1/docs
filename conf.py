@@ -38,6 +38,7 @@ extensions = [
     'french_typography',
     'term_tooltips',
     'index_role',
+    'notfound.extension',
 ]
 
 # Allow to create implicit reference to headings up to level 6.
@@ -108,6 +109,9 @@ downloads = []
 if "DOWNLOADS" in os.environ:
     downloads = os.environ['DOWNLOADS'].split(' ')
 
+# The domain is used for code documentation, so no need for it here.
+primary_domain = None
+
 # -- Options for HTML output -------------------------------------------------
 
 html_favicon = '_static/favicon.ico'
@@ -150,8 +154,8 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# The domain is used for code documentation, so no need for it here.
-primary_domain = None
+# Base URL for 404 page's absolute links to resources.
+notfound_urls_prefix = f'/docs/{language}/'
 
 # -- Options for MAN output --------------------------------------------------
 

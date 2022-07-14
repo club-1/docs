@@ -147,13 +147,16 @@ MyST-Parser
 Shpinx-rtd-theme
    Plugin Sphinx fournissant le thème HTML ReadTheDocs.
 
+Sphinx-notfound-page
+   Plugin Sphinx pour générer une page d'erreur 404 personnalisée dont les liens sont absolus.
+
 gettext
    _(Optionnel)_ Pour les locales autres que Français.
 ```
 
 Installation sur *Debian* :
 
-    sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme gettext
+    sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme python3-sphinx-notfound-page gettext
 
 ### _(Optionnel)_ Prérequis pour le format PDF
 
