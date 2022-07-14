@@ -88,6 +88,9 @@ msgstr ""
 msgid "Shpinx-rtd-theme"
 msgstr ""
 
+msgid "Sphinx-notfound-page"
+msgstr ""
+
 msgid "gettext"
 msgstr ""
 
