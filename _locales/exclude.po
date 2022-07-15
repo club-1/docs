@@ -85,7 +85,7 @@ msgstr ""
 msgid "MyST-Parser"
 msgstr ""
 
-msgid "Shpinx-rtd-theme"
+msgid "Sphinx-rtd-theme"
 msgstr ""
 
 msgid "Sphinx-notfound-page"

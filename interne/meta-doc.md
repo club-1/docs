@@ -144,7 +144,7 @@ Sphinx
 MyST-Parser
    Plugin Sphinx permettant la prise en charge du Markdown.
 
-Shpinx-rtd-theme
+Sphinx-rtd-theme
    Plugin Sphinx fournissant le thème HTML ReadTheDocs.
 
 Sphinx-notfound-page
