@@ -1,7 +1,7 @@
 Meta-documentation
 ==================
 
-La documentation de CLUB1 est publiée au format HTML à l'adresse <https://club1.fr/docs/fr/>.
+La documentation de CLUB1 est publiée au format {term}`HTML` à l'adresse <https://club1.fr/docs/fr/>.
 Elle existe en deux langues : français, la principale et anglais, la secondaire.
 Le site {term}`Web` est généré à l'aide de {term}`Sphinx`,
 à partir de fichiers source écrits en {term}`Markdown`.
@@ -142,13 +142,13 @@ Sphinx
    Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
 
 MyST-Parser
-   Plugin Sphinx permettant la prise en charge du Markdown.
+   Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`.
 
 Sphinx-rtd-theme
-   Plugin Sphinx fournissant le thème HTML ReadTheDocs.
+   Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs.
 
 Sphinx-notfound-page
-   Plugin Sphinx pour générer une page d'erreur 404 personnalisée dont les liens sont absolus.
+   Extension {term}`Sphinx` permettant de générer une page d'erreur 404 personnalisée dont les liens sont absolus.
 
 gettext
    _(Optionnel)_ Pour les locales autres que Français.
@@ -211,8 +211,8 @@ juste au dessus du la ligne `msgid "..."` :
 Déploiement de la version Web
 -----------------------------
 
-Un [serveur HTTP Apache](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)
-est requis pour le déploiement de la version Web de la documentation.
+Un serveur HTTP {term}`Apache`
+est requis pour le déploiement de la version {term}`Web` de la documentation.
 Ci-dessous se trouve un exemple de configuration Apache
 dans lequel la documentation se trouve dans `/var/www/docs`
 et où on veut la servir sous `/docs/` :

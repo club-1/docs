@@ -16,7 +16,7 @@ sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 [`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/nicolas/test.html)
 &rarr; `/home/nicolas/static/test.html`
 
-Ce dossier est servi par le serveur HTTP [Apache](https://fr.wikipedia.org/wiki/Apache_HTTP_Server).
+Ce dossier est servi par le serveur HTTP {term}`Apache`.
 Il est configuré pour automatiquement générer un _index_ affichant la liste
 des fichiers et dossiers qu'il contient.
 
