@@ -8,6 +8,11 @@ Glossaire
 sorted:
 ---
 
+Apache
+   {term}`Serveur` HTTP très populaire, distribué sous license libre.
+   HTTP étant le protocole du {term}`Web` on parle aussi souvent de "serveur Web".
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)
+
 API
    De l'anglais _Application Programming Interface_.
    Interface destinée à être utilisée non pas par un être humain mais par un logiciel.
