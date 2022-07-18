@@ -114,6 +114,12 @@ primary_domain = None
 
 # -- Options for HTML output -------------------------------------------------
 
+# Used for canonical URLs and absolute links.
+html_basepath = f'docs/{language}'
+
+# Used for cannonical URLs.
+html_baseurl = f'https://club1.fr/{html_basepath}/'
+
 html_favicon = '_static/favicon.ico'
 
 # These paths are either relative to html_static_path
@@ -155,7 +161,7 @@ html_theme_options = {
 html_static_path = ['_static']
 
 # Base URL for 404 page's absolute links to resources.
-notfound_urls_prefix = f'/docs/{language}/'
+notfound_urls_prefix = f'/{html_basepath}/'
 
 # -- Options for MAN output --------------------------------------------------
 
