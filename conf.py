@@ -115,10 +115,12 @@ primary_domain = None
 # -- Options for HTML output -------------------------------------------------
 
 # Used for canonical URLs and absolute links.
-html_basepath = f'docs/{language}'
+html_domain = 'https://club1.fr'
+html_basedir = 'docs'
+html_basepath = f'{html_domain}/{html_basedir}'
 
 # Used for cannonical URLs.
-html_baseurl = f'https://club1.fr/{html_basepath}/'
+html_baseurl = f'{html_basepath}/{language}'
 
 html_favicon = '_static/favicon.ico'
 
@@ -140,6 +142,7 @@ html_copy_source = False
 html_show_sourcelink = language == 'fr'
 
 html_context = {
+    'basepath': f'{html_basepath}',
     'version': release,
     'display_github': language == 'fr',
     'github_user': 'club-1',
@@ -161,7 +164,7 @@ html_theme_options = {
 html_static_path = ['_static']
 
 # Base URL for 404 page's absolute links to resources.
-notfound_urls_prefix = f'/{html_basepath}/'
+notfound_urls_prefix = f'/{html_basedir}/{language}/'
 
 # -- Options for MAN output --------------------------------------------------
 

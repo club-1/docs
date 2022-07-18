@@ -1,6 +1,14 @@
 {% extends "!layout.html" %}
 
+{% block extrahead %}
+{# Add an "alternate" link for each other language #}
+	{% for l, _ in languages %}
+	<link rel="alternate" hreflang="{{ l }}" href="{{ basepath }}/{{ l }}/{{ pagename }}.html" />
+	{% endfor %}
+{% endblock %}
+
 {% block sidebartitle %}
+{# Add a link to the main website #}
 	<a href="https://club1.fr" class="fa fa-arrow-left" > {{ _("Retour au site principal") }} </a></br>
 	{{ super() }}
 {% endblock %}
