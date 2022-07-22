@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-14 16:07+0200\n"
+"POT-Creation-Date: 2022-07-22 18:26+0200\n"
 "PO-Revision-Date: 2022-06-18 16:15+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -3040,3 +3040,9 @@ msgid ""
 "[Calendar Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
+
+#. %s will be replaced by the project name
+#: conf.py:130
+#, python-format
+msgid "Documentation %s"
+msgstr "%s documentation"

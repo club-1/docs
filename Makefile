@@ -32,6 +32,7 @@ BUILDDIR        := _build
 DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%) $(SPHINXLBUILDERS:%=$(BUILDDIR)/%)
 ALL             := $(LANGUAGES:%=all/%)
 
+PYSRC        := conf.py
 XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
 		--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
@@ -58,8 +59,9 @@ $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
 	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
 
-$(LOCALEDIR)/package.pot: $(BUILDDIR)/gettext/package.pot
+$(LOCALEDIR)/package.pot: $(BUILDDIR)/gettext/package.pot $(PYSRC)
 	$(XGETTEXT) $< -o $@
+	$(XGETTEXT) --join-existing -L python $(PYSRC) -o $@
 
 $(LOCALEDIR)/sphinx.pot: $(BUILDDIR)/gettext/sphinx.pot
 	$(XGETTEXT) $< -o $@

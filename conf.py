@@ -11,6 +11,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+from gettext import translation
 from sphinx import __version__ as sphinx_version
 from myst_parser import __version__ as myst_version
 from sphinx_rtd_theme import __version__ as rtd_version
@@ -70,6 +71,8 @@ templates_path = ['_templates']
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = os.environ['LOCALE']
+t = translation('package', './_locales', [language], fallback=True)
+_ = t.gettext
 
 # Set by make.
 languages = os.environ['LANGUAGES'].split(' ')
@@ -123,6 +126,8 @@ html_basepath = f'{html_domain}/{html_basedir}'
 html_baseurl = f'{html_basepath}/{language}'
 
 html_favicon = '_static/favicon.ico'
+# %s will be replaced by the project name
+html_title = _('Documentation %s') % project
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
