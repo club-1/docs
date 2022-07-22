@@ -102,7 +102,7 @@ N'oubliez pas le dernier slash (`/`) de l'URL !
 
 Vous devriez avoir accès à une page listant les fichiers de votre dossier `static`.
 
-![index](/_static/tutos/mes-premiers-pas-sur-le-web/index.jpg)
+![index](mes-premiers-pas-sur-le-web/index.jpg)
 
 On appelle cette page un __index__.
 Cette page est générée par le serveur Web qui s'appelle *Apache* (c'est marqué en bas).
@@ -144,7 +144,7 @@ puis l'éditer.
 Lorsque vous accédez à l'URL correspondant au nom de votre fichier texte,
 vous devriez pouvoir lire ce que vous y avez écrit.
 
-![aperçu d'un fichier texte](/_static/tutos/mes-premiers-pas-sur-le-web/screen_002.png)
+![aperçu d'un fichier texte](mes-premiers-pas-sur-le-web/screen_002.png)
 
 C'est une façon simple et efficace de publier du texte en ligne.
 Juste avec cette méthode, il est déjà possible de faire un embryon de site web.
@@ -179,7 +179,7 @@ Maintenant, téléversez à nouveau le fichier dans votre dossier `static`,
 accédez à l'URL correspondante depuis votre navigateur
 et découvrez le résultat !
 
-![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)
+![html](mes-premiers-pas-sur-le-web/screen_003.png)
 
 Félicitation !
 Vous venez de mettre en ligne votre première page Web contenant du HTML. 🎉

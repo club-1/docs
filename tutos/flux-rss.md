@@ -23,7 +23,7 @@ depuis lequel il est possible de copier l'URL depuis la barre de recherche.
 
 Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, puis sur `s'abonner au flux...`
 
-![visualisation du menu](/_static/tutos/flux-rss/capture_1.png)
+![visualisation du menu](flux-rss/capture_1.png)
 
 Entrez l'url du site dont vous voulez obtenir le flux RSS, par exemple ici le blog de Fred Turner.
 Si vous avez créé des catégories, vous pouvez en sélectionner une pour trier votre flux (c'est possible de le faire plus tard)
@@ -34,11 +34,11 @@ Il est possible qu'un site ne propose pas de flux RSS,
 dans ce cas il ne sera malheureusement pas possible de s'y abonner.
 ```
 
-![lien vers site](/_static/tutos/flux-rss/capture_2.png)
+![lien vers site](flux-rss/capture_2.png)
 
 Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé de sélectionner `Atom` car c'est un format de données plus récent.
 
-![Atom vs RSS](/_static/tutos/flux-rss/capture_3.png)
+![Atom vs RSS](flux-rss/capture_3.png)
 
 Et voilà ! Vous vous êtes abonné à votre premier flux d'actualités.
 À partir de maintenant il vous est possible de lire les derniers articles de ce site depuis l'agrégateur.
@@ -59,7 +59,7 @@ surtout lorsqu'on est abonné à beaucoup de sites.
 Pour créer une catégorie, il faut retourner dans le menu en haut à droite de l'écran principal et cliquer sur `Configuration...`.
 Aller dans l'onglet Flux en haut de l'écran.
 
-![Config catégories 1](/_static/tutos/flux-rss/capture_4.png)
+![Config catégories 1](flux-rss/capture_4.png)
 
 Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie pour ranger vos articles.
 
@@ -70,12 +70,12 @@ Pour modifier la catégorie d'un flux, il suffit de *cliquer glisser* le flux ve
 
 Par défaut, l'affichage se fait en mode combiné.
 
-![Mode d'affichage combiné](/_static/tutos/flux-rss/capture_5.png)
+![Mode d'affichage combiné](flux-rss/capture_5.png)
 
 Pour utiliser un mode d'affichage en liste avec un panneau de lecture séparé, 
 vous pouvez désactiver le "mode combiné" dans la configuration.
 
-![Mode d'affichage en liste](/_static/tutos/flux-rss/capture_6.png)
+![Mode d'affichage en liste](flux-rss/capture_6.png)
 
 ```{tip}
 Il est possible de passer en mode _trois colones_ avec le panneau de lecture à droite,
