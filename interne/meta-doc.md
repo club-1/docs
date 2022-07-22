@@ -43,7 +43,8 @@ de la documentation de CLUB1.
   Il comporte un dossier par langue avec des fichiers `.po` contenant les
   traductions et des fichiers `.pot` générés automatiquement à partir des
   fichiers source en Markdown.
-- `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation, par exemple les images.
+- `_static/` : dossier contenant les autres fichiers que l'on veut inclure dans la documentation,
+  par exemple les "feuilles de style".
 - `_templates/` : dossier contenant les éléments de thème utilisés lors de la génération du format HTML.
 - `AUTHORS` : fichier contenant la liste des auteurs.
 - `glossaire.md` : fichier contenant les termes du glossaire principal.
@@ -102,10 +103,16 @@ fichier `index.md` (s'inspirer de l'existant).
 
 ### Ajouter des images
 
-Les images à inclure dans le contenu doivent être ajoutées au dossier `_static`
-(voir [l'arborescence de fichiers](#arborescence-de-fichiers)).
+Si il s'agit d'une image générique déjà présente sur le {term}`Web`,
+il n'est pas nécessaire de la copier dans la documentation, un simple lien suffira.
+{term}`Sphinx` se chargera de vérifier que l'image existe toujours
+et de la télécharger pour les formats hors-ligne.
+
+Pour des images plus spécifiques à la documentation CLUB1,
+il vaut mieux les sauvegarder dans le dossier avec les fichiers source.
 Il est intéressant de les y regrouper dans un dossier
-répliquant le chemin de la page dans laquelle elles seront inclues.
+portant le même nom que la page dans laquelle elles seront inclues
+(en omettant l'extension).
 
 ```{tip}
 Privilégier un thème clair pour les captures d'écran
@@ -139,7 +146,10 @@ Make
    Gestionnaire de compilation.
 
 Sphinx
-   Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
+   Générateur de documentation.
+   Il permet de compiler une documentation rédigée en texte brut dans différents formats.
+   C'est l'outil utilisé pour générer la documentation présente.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
 
 MyST-Parser
    Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`.
