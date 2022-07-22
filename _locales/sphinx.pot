@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-06-01 18:09+0200\n"
+"POT-Creation-Date: 2022-07-23 00:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../_templates/layout.html:4
+#: ../../_templates/404.html:4
+msgid "404 Non trouvé"
+msgstr ""
+
+#: ../../_templates/404.html:5
+msgid "La page demandée n'existe pas ou plus, elle a peut-être été renommée."
+msgstr ""
+
+#: ../../_templates/layout.html:12
 msgid "Retour au site principal"
 msgstr ""
 

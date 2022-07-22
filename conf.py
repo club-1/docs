@@ -171,6 +171,9 @@ html_static_path = ['_static']
 # Base URL for 404 page's absolute links to resources.
 notfound_urls_prefix = f'/{html_basedir}/{language}/'
 
+# Template used for 404 error page.
+notfound_template = '404.html'
+
 # -- Options for MAN output --------------------------------------------------
 
 # Show URLs after text in MAN output.
