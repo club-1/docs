@@ -32,6 +32,10 @@ BUILDDIR        := _build
 DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%) $(SPHINXLBUILDERS:%=$(BUILDDIR)/%)
 ALL             := $(LANGUAGES:%=all/%)
 
+XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
+		--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
+		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
+
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
 
@@ -54,10 +58,11 @@ $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
 	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
 
-$(LOCALEDIR)/package.pot $(LOCALEDIR)/sphinx.pot: $(LOCALEDIR)/%.pot: $(BUILDDIR)/gettext/%.pot
-	xgettext $< -o $@ -x $(LOCALEDIR)/exclude.po -w 79 \
-	--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
-	--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
+$(LOCALEDIR)/package.pot: $(BUILDDIR)/gettext/package.pot
+	$(XGETTEXT) $< -o $@
+
+$(LOCALEDIR)/sphinx.pot: $(BUILDDIR)/gettext/sphinx.pot
+	$(XGETTEXT) $< -o $@
 
 $(BUILDDIR)/gettext/%.pot: gettext;
 
