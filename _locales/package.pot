@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-22 18:26+0200\n"
+"POT-Creation-Date: 2022-07-23 00:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../../404.md:5
-msgid "404 Non trouvé"
-msgstr ""
-
-#: ../../404.md:8
-msgid "La page demandée n'existe pas ou plus, elle a peut-être été renommée."
-msgstr ""
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -35,6 +27,13 @@ msgstr ""
 
 #: ../../glossaire.md:8
 msgid ""
+"{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
+"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
+"--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)"
+msgstr ""
+
+#: ../../glossaire.md:13
+msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
 "général composée d'un ensemble de fonctions qu'un logicel peut utiliser à "
@@ -42,7 +41,7 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:14
+#: ../../glossaire.md:19
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -51,82 +50,97 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:13
+#: ../../glossaire.md:18
 msgid "Client"
 msgstr ""
 
-#: ../../glossaire.md:21
+#: ../../glossaire.md:26
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:18 ../../services/email.md:8
+#: ../../glossaire.md:23 ../../services/email.md:8
 msgid "Client Web"
 msgstr ""
 
-#: ../../glossaire.md:26
+#: ../../glossaire.md:31
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:29
+#: ../../glossaire.md:34
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git)"
 msgstr ""
 
-#: ../../glossaire.md:33
+#: ../../glossaire.md:38
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:30
+#: ../../glossaire.md:43
+msgid ""
+"(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
+"les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Hypertext_Markup_Language), [MDN web docs](https://developer.mozilla.org/fr/"
+"docs/Web/HTML)"
+msgstr ""
+
+#: ../../glossaire.md:40
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:38
+#: ../../glossaire.md:48
 msgid ""
-"{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/Internet)"
+"{term}`Réseau informatique` mondial accessible au public. Internet est en "
+"réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
+"son nom l'indique, \"inter\" \"net\" = \"entre les réseaux\". Il s'agit donc "
+"d'un \"réseau de réseaux\". --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Internet)"
 msgstr ""
 
-#: ../../glossaire.md:42
+#: ../../glossaire.md:55
 msgid ""
-"Language de balisage léger permettant de mettre en forme un document. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
+"Language de balisage léger permettant de mettre en forme un document. Les "
+"documents rédigés en Markdown ont généralement pour but d'être convertis en "
+"{term}`HTML`, afin d'en faire une page {term}`Web`. Son principal avantage "
+"par rapport au HTML est sa syntaxe épurée, ce qui le rend plus agréable à "
+"lire et à écrire pour un humain. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:38
+#: ../../glossaire.md:55
 msgid "Réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:46
+#: ../../glossaire.md:63
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:42
+#: ../../glossaire.md:59
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossaire.md:50
+#: ../../glossaire.md:67
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
-"clients sont installés sur des ordinateurs différentes. Par extension, on "
-"appelle ainsi un \"serveur\" l'ordinateur sur laquelle les serveurs sont "
-"installés (ex : le serveur CLUB1) . --- [Wikipedia](https://fr.wikipedia.org/"
+"clients sont installés sur des ordinateurs différents. Par extension, on "
+"appelle ainsi un \"serveur\" l'ordinateur sur lequel les serveurs sont "
+"installés (ex : le serveur CLUB1). --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:58
+#: ../../glossaire.md:75
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -136,17 +150,24 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:58
+#: ../../glossaire.md:75
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:83
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
-"documents et de les relier entre eux à l'aide de liens hypertexte. On "
-"appelle \"Navigateur Web\" le {term}`client` utilisé pour y accéder. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
+"documents et de les relier entre eux à l'aide de liens hypertexte."
+msgstr ""
+
+#: ../../glossaire.md:87
+msgid ""
+"Une \"page Web\" est généralement constituée d'un document dont le contenu "
+"est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
+"images ou des \"feuilles de style\". On appelle \"Navigateur Web\" le {term}"
+"`client` utilisé pour y accéder. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/World_Wide_Web)"
 msgstr ""
 
 #: ../../index.md:1
@@ -257,7 +278,7 @@ msgid ""
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:211
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:234
 msgid "Metadonnées"
 msgstr ""
 
@@ -645,13 +666,13 @@ msgstr ""
 
 #: ../../interne/meta-doc.md:4
 msgid ""
-"La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-"club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale et "
-"anglais, la secondaire. Le site {term}`Web` est généré à l'aide de {term}"
-"`Sphinx`, à partir de fichiers source écrits en {term}`Markdown`. Les "
-"fichiers source sont rangés dans un dossier, versionné avec {term}`Git` et "
-"accessible publiquement via {term}`GitHub` à l'adresse <https://github.com/"
-"club-1/docs/>."
+"La documentation de CLUB1 est publiée au format {term}`HTML` à l'adresse "
+"<https://club1.fr/docs/fr/>. Elle existe en deux langues : français, la "
+"principale et anglais, la secondaire. Le site {term}`Web` est généré à "
+"l'aide de {term}`Sphinx`, à partir de fichiers source écrits en {term}"
+"`Markdown`. Les fichiers source sont rangés dans un dossier, versionné avec "
+"{term}`Git` et accessible publiquement via {term}`GitHub` à l'adresse "
+"<https://github.com/club-1/docs/>."
 msgstr ""
 
 #: ../../interne/meta-doc.md:13
@@ -866,17 +887,18 @@ msgid ""
 msgstr ""
 
 #: ../../interne/meta-doc.md:145
-msgid "Plugin Sphinx permettant la prise en charge du Markdown."
+msgid ""
+"Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
 msgstr ""
 
 #: ../../interne/meta-doc.md:148
-msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
+msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr ""
 
 #: ../../interne/meta-doc.md:151
 msgid ""
-"Plugin Sphinx pour générer une page d'erreur 404 personnalisée dont les "
-"liens sont absolus."
+"Extension {term}`Sphinx` permettant de générer une page d'erreur 404 "
+"personnalisée dont les liens sont absolus."
 msgstr ""
 
 #: ../../interne/meta-doc.md:154
@@ -938,6 +960,18 @@ msgid ""
 "ont trop changé, il faudra peut-être en récupérer la traduction dans les "
 "messages mis en commentaire à la fin du fichier, tout en ajoutant le "
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
+msgstr ""
+
+#: ../../interne/meta-doc.md:211
+msgid "Déploiement de la version Web"
+msgstr ""
+
+#: ../../interne/meta-doc.md:214
+msgid ""
+"Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
+"{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
+"configuration Apache dans lequel la documentation se trouve dans `/var/www/"
+"docs` et où on veut la servir sous `/docs/` :"
 msgstr ""
 
 #: ../../services/drive.md:1
@@ -1564,9 +1598,9 @@ msgstr ""
 
 #: ../../services/web.md:19
 msgid ""
-"Ce dossier est servi par le serveur HTTP [Apache](https://fr.wikipedia.org/"
-"wiki/Apache_HTTP_Server). Il est configuré pour automatiquement générer un "
-"_index_ affichant la liste des fichiers et dossiers qu'il contient."
+"Ce dossier est servi par le serveur HTTP {term}`Apache`. Il est configuré "
+"pour automatiquement générer un _index_ affichant la liste des fichiers et "
+"dossiers qu'il contient."
 msgstr ""
 
 #: ../../services/web.md:23

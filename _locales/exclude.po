@@ -49,6 +49,9 @@ msgstr ""
 msgid "[](/tutos/flux-rss.md)"
 msgstr ""
 
+msgid "Apache"
+msgstr ""
+
 msgid "API"
 msgstr ""
 
@@ -59,6 +62,9 @@ msgid "Git"
 msgstr ""
 
 msgid "GitHub"
+msgstr ""
+
+msgid "HTML"
 msgstr ""
 
 msgid "Markdown"
