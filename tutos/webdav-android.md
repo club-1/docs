@@ -19,7 +19,7 @@ Premier lancement
 
 Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la gestion des tâches ({numref}`fig:tutos-webdav-android-taches`).
 
-```{figure} /_static/tutos/webdav-android/screen_001.png
+```{figure} webdav-android/screen_001.png
 ---
 alt: capture d'écran gestion des tâches
 name: fig:tutos-webdav-android-taches
@@ -31,7 +31,7 @@ Gestion des tâches.
 Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:tutos-webdav-android-autorisations`).
 
 
-```{figure} /_static/tutos/webdav-android/screen_002.png
+```{figure} webdav-android/screen_002.png
 ---
 alt: capture d'écran autorisations
 name: fig:tutos-webdav-android-autorisations
@@ -42,7 +42,7 @@ Accorder les autorisations.
 
 Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`).
 
-```{figure} /_static/tutos/webdav-android/screen_003.png
+```{figure} webdav-android/screen_003.png
 ---
 alt: capture d'écran synchro à intervalles
 name: fig:tutos-webdav-android-intervalles
@@ -57,7 +57,7 @@ Ajout du compte DAV
 
 Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`).
 
-```{figure} /_static/tutos/webdav-android/screen_004.png
+```{figure} webdav-android/screen_004.png
 ---
 alt: capture d'écran accueil
 name: fig:tutos-webdav-android-accueil
@@ -69,7 +69,7 @@ height: 400
 Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
 
 (fig:tutos-webdav-android-connexion)=
-```{figure} /_static/tutos/webdav-android/screen_005.png
+```{figure} webdav-android/screen_005.png
 ---
 alt: capture d'écran connexion
 height: 400
@@ -89,7 +89,7 @@ Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom pour
 Un dernier petit détail :
 Il est recommandé d'utiliser la méthode "Les groupes sont des catégories pour chacun des contacts" pour être compatible avec le client web mail de CLUB1 ({numref}`fig:tutos-webdav-android-groupes`).
 
-```{figure} /_static/tutos/webdav-android/screen_006.png
+```{figure} webdav-android/screen_006.png
 ---
 alt: capture d'écran groupes
 name: fig:tutos-webdav-android-groupes
@@ -104,7 +104,7 @@ DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous 
 Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
 Il sera toujours possible d'accèder et modifier ces réglages  plus tard très facilement.
 
-```{figure} /_static/tutos/webdav-android/screen_007.png
+```{figure} webdav-android/screen_007.png
 ---
 alt: capture d'écran sélection
 name: fig:tutos-webdav-android-selection
