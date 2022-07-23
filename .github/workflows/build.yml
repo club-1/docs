@@ -30,6 +30,8 @@ jobs:
         run: make html/en O='-w errors.html.en.log'
       - name: Make linkcheck
         run: make linkcheck --keep-going || true
+      - name: Make check-po
+        run: make check-po
       - name: Collect Sphinx errors
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'

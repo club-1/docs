@@ -1,20 +1,8 @@
-msgid "Documentation CLUB1 : {{ env.config.release }}"
+msgid ""
 msgstr ""
-
-msgid "Sphinx : {{ sphinx_version }}"
-msgstr ""
-
-msgid "Docutils : {{ docutils_version }}"
-msgstr ""
-
-msgid "MyST-Parser : {{ myst_version }}"
-msgstr ""
-
-msgid "Sphinx-rtd-theme : {{ rtd_version }}"
-msgstr ""
-
-msgid "Intel Atom C3000"
-msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "16 Go DDR4 ECC"
 msgstr ""
@@ -22,46 +10,34 @@ msgstr ""
 msgid "<contact@club1.fr>"
 msgstr ""
 
-msgid "SSH"
+msgid "API"
 msgstr ""
 
-msgid "SFTP"
+msgid "Apache"
 msgstr ""
 
-msgid "SCP"
+msgid "CLI"
+msgstr ""
+
+msgid "CalDAV"
+msgstr ""
+
+msgid "CardDAV"
+msgstr ""
+
+msgid "DejaVu"
+msgstr ""
+
+msgid "Documentation CLUB1 : {{ env.config.release }}"
+msgstr ""
+
+msgid "Docutils : {{ docutils_version }}"
 msgstr ""
 
 msgid "FTP"
 msgstr ""
 
 msgid "FTPS"
-msgstr ""
-
-msgid "WebDAV"
-msgstr ""
-
-msgid "CardDAV"
-msgstr ""
-
-msgid "CalDAV"
-msgstr ""
-
-msgid "[](/tutos/webdav-android.md)"
-msgstr ""
-
-msgid "RSS"
-msgstr ""
-
-msgid "[](/tutos/flux-rss.md)"
-msgstr ""
-
-msgid "Apache"
-msgstr ""
-
-msgid "API"
-msgstr ""
-
-msgid "CLI"
 msgstr ""
 
 msgid "Git"
@@ -73,37 +49,10 @@ msgstr ""
 msgid "HTML"
 msgstr ""
 
-msgid "Markdown"
+msgid "ImageMagick"
 msgstr ""
 
-msgid "TLS"
-msgstr ""
-
-msgid "📁 mail"
-msgstr ""
-
-msgid "📁 static"
-msgstr ""
-
-msgid "📁 git"
-msgstr ""
-
-msgid "Make"
-msgstr ""
-
-msgid "Sphinx"
-msgstr ""
-
-msgid "MyST-Parser"
-msgstr ""
-
-msgid "Sphinx-rtd-theme"
-msgstr ""
-
-msgid "Sphinx-notfound-page"
-msgstr ""
-
-msgid "gettext"
+msgid "Intel Atom C3000"
 msgstr ""
 
 msgid "Latexmk"
@@ -112,14 +61,71 @@ msgstr ""
 msgid "LuaTeX"
 msgstr ""
 
+msgid "Make"
+msgstr ""
+
+msgid "Markdown"
+msgstr ""
+
+msgid "MyST-Parser"
+msgstr ""
+
+msgid "MyST-Parser : {{ myst_version }}"
+msgstr ""
+
+msgid "RSS"
+msgstr ""
+
+msgid "SCP"
+msgstr ""
+
+msgid "SFTP"
+msgstr ""
+
+msgid "SSH"
+msgstr ""
+
+msgid "Sphinx"
+msgstr ""
+
+msgid "Sphinx : {{ sphinx_version }}"
+msgstr ""
+
+msgid "Sphinx-notfound-page"
+msgstr ""
+
+msgid "Sphinx-rtd-theme"
+msgstr ""
+
+msgid "Sphinx-rtd-theme : {{ rtd_version }}"
+msgstr ""
+
+msgid "TLS"
+msgstr ""
+
 msgid "TeX Live"
 msgstr ""
 
-msgid "DejaVu"
+msgid "WebDAV"
+msgstr ""
+
+msgid "[](/tutos/flux-rss.md)"
+msgstr ""
+
+msgid "[](/tutos/webdav-android.md)"
+msgstr ""
+
+msgid "gettext"
 msgstr ""
 
 msgid "xindy"
 msgstr ""
 
-msgid "ImageMagick"
+msgid "📁 git"
+msgstr ""
+
+msgid "📁 mail"
+msgstr ""
+
+msgid "📁 static"
 msgstr ""
