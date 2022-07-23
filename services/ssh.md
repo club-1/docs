@@ -4,7 +4,22 @@ Connexion à distance SSH
 ```{glossary}
 SSH
    (_Secure SHell_) Protocole permettant de se connecter à distance en {term}`CLI` à un serveur.
-   L'accès SSH peut se révéler très utile, surtout pour les utilisateurs avancés.
+   Ses principaux avantages sont d'être entièrement chiffré
+   et d'offrir un accès complet aux fonctionnalités du serveur.
+   Il existe des extensions SSH pour des usages plus spécifiques comme {term}`SFTP` ou {term}`SCP`. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Secure_Shell)
+
+SFTP
+   (_SSH File Transfer Protocol_) Protocole de transfert
+   et gestion à distance de fichiers basé sur {term}`SSH`.
+   Il est ainsi entièrement chiffré, et donc comparable à {term}`FTPS`,
+   mais il offre plus de fonctionnalités (e.g. l'affichage des propriétaires d'un fichier). ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
+
+SCP
+   (_Secure CoPy_) Protocole de copie de fichiers entre deux ordinateurs basé sur {term}`SSH`.
+   SCP s'utilise principalement à l'aide du {term}`client` en {term}`CLI` du même nom. ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
 ```
 
 Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera

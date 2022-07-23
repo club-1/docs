@@ -25,6 +25,12 @@ msgstr ""
 msgid "SSH"
 msgstr ""
 
+msgid "SFTP"
+msgstr ""
+
+msgid "SCP"
+msgstr ""
+
 msgid "FTP"
 msgstr ""
 
