@@ -102,7 +102,7 @@ Encore une dernière étape : quoi synchroniser ?
 
 DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-android-selection`).
 Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
-Il sera toujours possible d'accèder et modifier ces réglages  plus tard très facilement.
+Il sera toujours possible d'accéder et modifier ces réglages  plus tard très facilement.
 
 ```{figure} /_static/tutos/webdav-android/screen_007.png
 ---

@@ -21,7 +21,7 @@ FTPS
 ```
 
 Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS`
-peut être utile lors du tranfert d'un grand nombre de fichiers
+peut être utile lors du transfert d'un grand nombre de fichiers
 depuis et vers le serveur CLUB1.
 
 Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme

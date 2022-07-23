@@ -31,7 +31,7 @@ Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail.club1.f
 permet aussi d'accéder aux carnets d'adresses et calendriers WebDAV.
 Depuis cette interface, il est possible de consulter et éditer ses contacts et calendriers CLUB1.
 
-Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-éxistants,
+Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-existants,
 tous les deux appelés `Default`, mais il est possible d'en créer d'autres.
 
 

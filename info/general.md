@@ -11,7 +11,7 @@ Demandes et Incidents
 Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues)
 sur {term}`GitHub` (vous devrez pour cela créer un compte), en choisissant entre demande
 (_request_) ou incident (_problem_) en fonction de la nature du ticket.
-Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'éxiste pas
+Si il s'agit d'une demande impersonnelle, merci de **vérifier** qu'il n'existe pas
 déjà une demande similaire à l'aide de la barre de recherche.
 
 
@@ -42,7 +42,7 @@ optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant]
 Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour régulièrement.
 Les mises-à-jour de sécurité sont installées automatiquement dans les 24 heures
 à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-upgrades)
-et les services en dépendant sont ensuite automatiquement redémarés grâce à
+et les services en dépendant sont ensuite automatiquement redémarrés grâce à
 [_needrestart_](https://packages.debian.org/fr/stable/needrestart).
 
 ### Logiciels et bibliothèques installés
@@ -84,7 +84,7 @@ assurée.
 ```
 
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
-Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
+Elles sont stockées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
 
 ```{admonition} Voir aussi
 L'article du journal [Sauvegardes](https://club1.fr/backups/)
@@ -100,7 +100,7 @@ Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https
 Cet identifiant est principalement utilisé en interne pour la connexion aux services
 et n'est donc pas spécialement visible depuis l'extérieur.
 Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée par défaut aux membres
-et dans les URLs automatiques commes celles des [sites statiques](../services/web.md#sites-web-statiques)
+et dans les URLs automatiques comme celles des [sites statiques](../services/web.md#sites-web-statiques)
 et des [dépôts git](/services/git.md).
 
 ### Modalités des comptes
