@@ -252,6 +252,7 @@ Metadonnées
 - Sphinx-rtd-theme : {{ rtd_version }}
 ```
 
+<!-- markdownlint-disable MD031 -->
 ```{only} not builder_html
 - Documentation CLUB1 : {{ env.config.release }}
 - Sphinx : {{ sphinx_version }}

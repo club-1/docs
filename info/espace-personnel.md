@@ -96,7 +96,9 @@ Ensuite vous pouvez définir un ou plusieurs paramètres.
 Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/).
 
 
-- Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo avec une ligne de texte libre. Profitez-en car c'est possible de mettre majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉). Si vous omettez ce champ, votre identifiant CLUB1 sera affiché.
+- Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo avec une ligne de texte libre.
+  Profitez-en car c'est possible de mettre majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉).
+  Si vous omettez ce champ, votre identifiant CLUB1 sera affiché.
 - Pour le paramètre `color`,
   vous devez utiliser une [couleur du web](https://fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0).
 
@@ -104,7 +106,6 @@ Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter](https
   Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__
   et être __entouré de guillemets__ (par exemple : `color: "#F87716"`).
   ```
-
 
 
 
