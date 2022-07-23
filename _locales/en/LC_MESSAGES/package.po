@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-07-23 00:21+0200\n"
-"PO-Revision-Date: 2022-06-18 16:15+0000\n"
+"PO-Revision-Date: 2022-07-23 17:44+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -34,6 +34,9 @@ msgid ""
 "étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
 "--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)"
 msgstr ""
+"Very popular HTTP {term}`server`, distributed under free license. HTTP being "
+"the protocol of {term}`Web` we also often speak of \"Web server\". --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)"
 
 #: ../../glossaire.md:13
 msgid ""
@@ -110,16 +113,15 @@ msgid ""
 "Hypertext_Markup_Language), [MDN web docs](https://developer.mozilla.org/fr/"
 "docs/Web/HTML)"
 msgstr ""
+"(_Hypertext Markup Language_) Markup language designed to represent "
+"{term}`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN "
+"web docs](https://developer.mozilla.org/en/docs/Web/HTML)"
 
 #: ../../glossaire.md:40
 msgid "Internet"
 msgstr "Internet"
 
 #: ../../glossaire.md:48
-#, fuzzy
-#| msgid ""
-#| "{term}`Réseau informatique` mondial accessible au public. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Internet)"
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -127,14 +129,13 @@ msgid ""
 "d'un \"réseau de réseaux\". --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Internet)"
 msgstr ""
-"Publicly accessible global {term}`computer network`. --- [Wikipedia](https://"
-"en.wikipedia.org/wiki/Internet)"
+"Publicly accessible global {term}`computer network`. The Internet is "
+"actually the interconnection of a set of networks around the world. As the "
+"name suggests, \"inter\" \"net\" = \"between networks\". It is therefore a "
+"\"network of networks\". --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Internet)"
 
 #: ../../glossaire.md:55
-#, fuzzy
-#| msgid ""
-#| "Language de balisage léger permettant de mettre en forme un document. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/Markdown)"
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -143,8 +144,11 @@ msgid ""
 "lire et à écrire pour un humain. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Markdown)"
 msgstr ""
-"Lightweight markup language for creating formatted text. --- [Wikipedia]"
-"(https://en.wikipedia.org/wiki/Markdown)"
+"Lightweight markup language for creating formatted text. Documents written "
+"in Markdown are usually intended to be converted to {term}`HTML`, in order "
+"to make it a {term}`Web` page. Its main advantage over HTML is its sleek "
+"syntax, which makes it more pleasant to read and write for a human. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
 #: ../../glossaire.md:55
 msgid "Réseau informatique"
@@ -164,14 +168,6 @@ msgid "Serveur"
 msgstr "Server"
 
 #: ../../glossaire.md:67
-#, fuzzy
-#| msgid ""
-#| "Logiciel chargé de fournir un service. C'est lui qui détient les données "
-#| "et qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et "
-#| "les clients sont installés sur des ordinateurs différentes. Par "
-#| "extension, on appelle ainsi un \"serveur\" l'ordinateur sur laquelle les "
-#| "serveurs sont installés (ex : le serveur CLUB1) . --- [Wikipedia](https://"
-#| "fr.wikipedia.org/wiki/Serveur_informatique)"
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -195,19 +191,17 @@ msgid ""
 "le contenu. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 msgstr ""
+"(_Transport Layer Security_) Protocol used to secure exchanges in a {term}`"
+"computer network`. One of its main features is to encrypt all data exchanged "
+"between the {term}`client` and the {term}`server`, so that no one else can "
+"read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Transport_Layer_Security)"
 
 #: ../../glossaire.md:75
 msgid "Web"
 msgstr "Web"
 
 #: ../../glossaire.md:83
-#, fuzzy
-#| msgid ""
-#| "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
-#| "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
-#| "documents et de les relier entre eux à l'aide de liens hypertexte. On "
-#| "appelle \"Navigateur Web\" le {term}`client` utilisé pour y accéder. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)"
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -215,9 +209,7 @@ msgid ""
 msgstr ""
 "One of the best known services on {term}`Internet`. Its full name is \"World "
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
-"link them together using hypertext links. The {term}`client` used to access "
-"it is called a \"Web browser\". --- [Wikipedia](https://en.wikipedia.org/"
-"wiki/World_Wide_Web)"
+"link them together using hypertext links."
 
 #: ../../glossaire.md:87
 msgid ""
@@ -227,6 +219,10 @@ msgid ""
 "`client` utilisé pour y accéder. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/World_Wide_Web)"
 msgstr ""
+"A \"Web page\"usually consists of a document whose content is written in "
+"{term}`HTML` and may include other resources such as images or \"style "
+"sheets\". The {term}`client` used to access it is called a \"Web browser\". "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)"
 
 #: ../../index.md:1
 msgid "Documentation de l'hébergement CLUB1"
@@ -459,6 +455,9 @@ msgid ""
 "web.  Mais c'est aussi une communauté de personne intéressées par les "
 "notions d'espaces web, de libertés et d'exploration du web."
 msgstr ""
+"The Club1 server allows its members to host different types of web projects. "
+"But it is also a community of people interested in the notions of web "
+"spaces, freedoms and web exploration."
 
 #: ../../info/general.md:8
 msgid "Demandes et Incidents"
@@ -496,35 +495,30 @@ msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
 #: ../../info/general.md:27
-#, fuzzy
-#| msgid ""
-#| "Le serveur est localisé en France à Pantin. Il est relié à internet par "
-#| "fibre optique avec un [débit montant de 200Mb/s en moyenne](https://www."
-#| "nperf.com/fr/r/338260996-nDOmVdkc)."
 msgid ""
 "Le serveur est localisé en France à Pantin. Il est relié à internet par "
 "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
 "descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc)."
 msgstr ""
 "The server is located in Pantin, France. It is connected to internet by "
-"optical fiver with an [average upload rate of 200Mb/s](https://www.nperf.com/"
-"en/r/338260996-nDOmVdkc)."
+"optical fiber with average rates of [ 200Mb/s in upload and 500Mb/s in "
+"download](https://www.nperf.com/en/r/338260996-nDOmVdkc)."
 
 #: ../../info/general.md:30
 msgid "Caractéristiques techniques"
-msgstr ""
+msgstr "Technical characteristics"
 
 #: ../../info/general.md:34
 msgid "Stockage :"
-msgstr ""
+msgstr "Storage:"
 
 #: ../../info/general.md:35
 msgid "SSD Système 300 Go"
-msgstr ""
+msgstr "300 GB System SSD"
 
 #: ../../info/general.md:36
 msgid "SSD Utilisateurs 1 To"
-msgstr ""
+msgstr "1 TB User SSD"
 
 #: ../../info/general.md:40
 msgid "Système d'exploitation"
@@ -597,6 +591,9 @@ msgid ""
 "5h. Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs "
 "endroits dont un dépôt off-site."
 msgstr ""
+"System and user data are backed up once a day at 5am. They are stored in a "
+"deduplicated and encrypted manner in several places including an off-site "
+"repository."
 
 #: ../../info/general.md:89 ../../services/email.md:37
 msgid "Voir aussi"
@@ -621,6 +618,9 @@ msgid ""
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/1)."
 msgstr ""
+"The username must respect the regex `^[a-z\\-]{3,16}$`. It is possible to "
+"check that a name respects it using [regex101](https://regex101.com/r/AilLZw/"
+"1)."
 
 #: ../../info/general.md:100
 msgid ""
@@ -631,50 +631,55 @@ msgid ""
 "[sites statiques](../services/web.md#sites-web-statiques) et des [dépôts git]"
 "(/services/git.md)."
 msgstr ""
+"This identifier is mainly used internally for the connection to the services "
+"and is therefore not especially visible from outside. It is however present "
+"in the [CLUB1 email address](/services/email.md) assigned by default to "
+"members and in automatic URLs such as those of [static sites](../services/web"
+".md#sites-web-statiques) and [git repositories](/services/git.md)."
 
 #: ../../info/general.md:106
 msgid "Modalités des comptes"
-msgstr ""
+msgstr "Account Terms"
 
 #: ../../info/general.md:108
 msgid ""
 "Chaque entité (personne ou groupe),  peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
+"Each entity (person or group), can host as many projects as it wishes within "
+"reason."
 
 #: ../../info/general.md:111
 msgid "Un compte membre comporte donc :"
-msgstr ""
+msgstr "A member account therefore includes:"
 
 #: ../../info/general.md:113
 msgid "de l'espace de stockage SSD"
-msgstr ""
+msgstr "SSD storage space"
 
 #: ../../info/general.md:114
 msgid "plus d'espace sur disque dur (sur demande)"
-msgstr ""
+msgstr "more hard disk space (on request)"
 
 #: ../../info/general.md:115
 msgid "un accès FTP"
-msgstr ""
+msgstr "FTP access"
 
 #: ../../info/general.md:116
 msgid "un accès SSH (pour les utilisateurs avancés)"
-msgstr ""
+msgstr "SSH access (for advanced users)"
 
 #: ../../info/general.md:117
-#, fuzzy
-#| msgid "Bases de données SQL"
 msgid "des bases de données (MariaDb)"
-msgstr "SQL databases"
+msgstr "SQL databases (MariaDb)"
 
 #: ../../info/general.md:118
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
-msgstr ""
+msgstr "free creation of .club1.fr subdomains (on request)"
 
 #: ../../info/general.md:119
 msgid "l'utilisation de noms de domaines loué vias des registraires"
-msgstr ""
+msgstr "the use of domain names rented via registrars"
 
 #: ../../info/general.md:120
 msgid ""
@@ -822,15 +827,6 @@ msgid "Meta-documentation"
 msgstr "Meta-documentation"
 
 #: ../../interne/meta-doc.md:4
-#, fuzzy
-#| msgid ""
-#| "La documentation de CLUB1 est publiée au format HTML à l'adresse <https://"
-#| "club1.fr/docs/fr/>. Elle existe en deux langues : français, la principale "
-#| "et anglais, la secondaire. Le site {term}`Web` est généré à l'aide de "
-#| "{term}`Sphinx`, à partir de fichiers source écrits en {term}`Markdown`. "
-#| "Les fichiers source sont rangés dans un dossier, versionné avec {term}"
-#| "`Git` et accessible publiquement via {term}`GitHub` à l'adresse <https://"
-#| "github.com/club-1/docs/>."
 msgid ""
 "La documentation de CLUB1 est publiée au format {term}`HTML` à l'adresse "
 "<https://club1.fr/docs/fr/>. Elle existe en deux langues : français, la "
@@ -840,12 +836,12 @@ msgid ""
 "{term}`Git` et accessible publiquement via {term}`GitHub` à l'adresse "
 "<https://github.com/club-1/docs/>."
 msgstr ""
-"The CLUB1's documentation is published in HTML format at <https://club1.fr/"
-"docs/en/>. It exists in two languages: French, the main one and English, the "
-"secondary. The {term}`Web` site is generated using {term}`Sphinx`, from "
-"source files written in {term}`Markdown`. The source files are stored in a "
-"directory, versioned with {term}`Git` and publicly accessible via {term}"
-"`GitHub` at <https://github.com/club-1/docs/>."
+"The CLUB1's documentation is published in {term}`HTML` format at "
+"<https://club1.fr/docs/en/>. It exists in two languages: French, the main "
+"one and English, the secondary. The {term}`Web` site is generated using "
+"{term}`Sphinx`, from source files written in {term}`Markdown`. The source "
+"files are stored in a directory, versioned with {term}`Git` and publicly "
+"accessible via {term}`GitHub` at <https://github.com/club-1/docs/>."
 
 #: ../../interne/meta-doc.md:13
 msgid ""
@@ -1131,23 +1127,21 @@ msgstr ""
 "Sphinx_(documentation_generator))"
 
 #: ../../interne/meta-doc.md:145
-#, fuzzy
-#| msgid "Plugin Sphinx permettant la prise en charge du Markdown."
 msgid ""
 "Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
-msgstr "Sphinx plugin allowing Markdown support."
+msgstr "{term}`Sphinx` extension allowing {term}`Markdown` support."
 
 #: ../../interne/meta-doc.md:148
-#, fuzzy
-#| msgid "Plugin Sphinx fournissant le thème HTML ReadTheDocs."
 msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
-msgstr "Sphinx plugin providing the ReadTheDocs HTML theme."
+msgstr "{term}`Sphinx` extension providing the ReadTheDocs {term}`HTML` theme."
 
 #: ../../interne/meta-doc.md:151
 msgid ""
 "Extension {term}`Sphinx` permettant de générer une page d'erreur 404 "
 "personnalisée dont les liens sont absolus."
 msgstr ""
+"{term}`Sphinx` extension to generate a custom 404 error page with absolute "
+"links."
 
 #: ../../interne/meta-doc.md:154
 msgid "_(Optionnel)_ Pour les locales autres que Français."
@@ -1183,7 +1177,7 @@ msgstr "Internationalized index generator for LaTeX."
 
 #: ../../interne/meta-doc.md:180
 msgid "Outil pour manipuler des images en {term}`CLI`."
-msgstr ""
+msgstr "Tool to manipulate images in {term}`CLI`."
 
 #: ../../interne/meta-doc.md:187
 msgid "Commandes"
@@ -1217,7 +1211,7 @@ msgstr ""
 
 #: ../../interne/meta-doc.md:211
 msgid "Déploiement de la version Web"
-msgstr ""
+msgstr "Deployment of the Web version"
 
 #: ../../interne/meta-doc.md:214
 msgid ""
@@ -1226,6 +1220,10 @@ msgid ""
 "configuration Apache dans lequel la documentation se trouve dans `/var/www/"
 "docs` et où on veut la servir sous `/docs/` :"
 msgstr ""
+"A {term}`Apache` HTTP server is required for deploying the {term}`Web` "
+"version of the documentation. Below is an example Apache configuration where "
+"the documentation is in `/var/www/docs` and where we want to serve it under "
+"`/docs/`:"
 
 #: ../../services/drive.md:1
 msgid "Explorateur de fichiers Web *Drive*"
@@ -1277,13 +1275,6 @@ msgstr ""
 "`michel@club1.fr`."
 
 #: ../../services/email.md:11
-#, fuzzy
-#| msgid ""
-#| "Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/"
-#| "wiki/Roundcube) est disponible à l'adresse <https://mail.club1.fr>. Il "
-#| "permet de gérer et d'envoyer des emails, mais aussi d'accéder aux "
-#| "calendriers et carnets d'adresses CLUB1 synchronisés avec [WebDAV](webdav."
-#| "md)."
 msgid ""
 "Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
 "Roundcube) est disponible à l'adresse <https://mail.club1.fr>. Il permet de "
@@ -1292,8 +1283,8 @@ msgid ""
 msgstr ""
 "A {term}`Web client` provided by [Roundcube](https://en.wikipedia.org/wiki/"
 "Roundcube) is accessible at <https://mail.club1.fr>. It allows to manage and "
-"send emails, but also access CLUB1 calendars and address-books synchronized "
-"with [WebDAV](webdav.md)."
+"send emails, but also access CLUB1 {index}`calendars` and {index}`address-"
+"books` synchronized with [WebDAV](webdav.md)."
 
 #: ../../services/email.md:16
 msgid "Stockage des données"
@@ -1328,13 +1319,14 @@ msgstr ""
 
 #: ../../services/email.md:32
 msgid "Détails divers"
-msgstr ""
+msgstr "Miscellaneous details"
 
 #: ../../services/email.md:35
 msgid ""
 "Quelques informations supplémentaires à propos de certains détails du "
 "service email de CLUB1."
 msgstr ""
+"Some additional information about certain details of CLUB1's email service."
 
 #: ../../services/email.md:38
 msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
@@ -1344,7 +1336,7 @@ msgstr ""
 
 #: ../../services/email.md:41
 msgid "Dossiers spéciaux"
-msgstr ""
+msgstr "Special folders"
 
 #: ../../services/email.md:43
 msgid ""
@@ -1352,41 +1344,46 @@ msgid ""
 "automatiquement reconnus par la grande majorité des clients email. Au cas où "
 "ils ne le sont pas, voici la liste complète :"
 msgstr ""
+"The special folders use standard names, so they will be automatically "
+"recognized by the vast majority of email clients. In case they are not, here "
+"is the complete list:"
 
 #: ../../services/email.md:47
 msgid "`INBOX` : messages reçus"
-msgstr ""
+msgstr "`INBOX`: received messages"
 
 #: ../../services/email.md:48
 msgid "`Drafts` : brouillons en cours de rédaction"
-msgstr ""
+msgstr "`Drafts`: drafts being written"
 
 #: ../../services/email.md:49
 msgid "`Sent` : messages envoyés"
-msgstr ""
+msgstr "`Sent`: sent messages"
 
 #: ../../services/email.md:50
 msgid "`Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)"
-msgstr ""
+msgstr "`Junk`: SPAMs (automatically deleted after 60&nbsp;days)"
 
 #: ../../services/email.md:51
 msgid ""
 "`Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)"
-msgstr ""
+msgstr "`Trash`: trash (automatically deleted after 60&nbsp;days)"
 
 #: ../../services/email.md:52
 msgid "`Archive` : messages archivés"
-msgstr ""
+msgstr "`Archive`: archived messages"
 
 #: ../../services/email.md:54
 msgid "Quotas"
-msgstr ""
+msgstr "Quotas"
 
 #: ../../services/email.md:56
 msgid ""
 "Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette déscision a "
 "été prise pour encourager la suppression des anciens emails."
 msgstr ""
+"The `mail` folder is subject to a quota of **5&nbsp;GB**. This decision was "
+"made to encourage the deletion of old emails."
 
 #: ../../services/email.md:59
 msgid ""
@@ -1395,6 +1392,10 @@ msgid ""
 "informé avec le message d'erreur : `Message size exceeds fixed limit` ou "
 "`552: 5.3.4 Error: message file too big`."
 msgstr ""
+"The maximum size of emails (received and sent) is **25&nbsp;MB**. If an "
+"email exceeds this size, it will be refused and the sender will be notified "
+"with the error message: `Message size exceeds fixed limit` or `552: 5.3.4 "
+"Error: message file too big`."
 
 #: ../../services/email.md:63 ../../services/ftp.md:41 ../../services/sql.md:9
 #: ../../services/ssh.md:85
@@ -1402,16 +1403,12 @@ msgid "Informations de connexion"
 msgstr "Connection information"
 
 #: ../../services/email.md:66
-#, fuzzy
-#| msgid ""
-#| "La connexion d'un client email à une adresse CLUB1 nécessite de "
-#| "configurer plusieurs serveurs."
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
 msgstr ""
-"Connecting an email client to a CLUB1 address requires configuring multiple "
-"servers."
+"Connecting an email {term}`client` to a CLUB1 address requires configuring "
+"multiple servers."
 
 #: ../../services/email.md:68
 msgid "Serveur d'envoi (SMTP)"
@@ -1478,6 +1475,11 @@ msgid ""
 "protocole : {term}`FTPS`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "File_Transfer_Protocol)"
 msgstr ""
+"(_File Transfer Protocol_) Protocol that allows to copy files from one "
+"computer to another across a {term}`computer network`, or to move or delete "
+"files on a remote computer. Server CLUB1 uses the secure variant of this "
+"protocol: {term}`FTPS`. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"File_Transfer_Protocol)"
 
 #: ../../services/ftp.md:14
 msgid ""
@@ -1488,21 +1490,20 @@ msgid ""
 "chiffrée dès le premier échange. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/File_Transfer_Protocol_Secure)"
 msgstr ""
+"(_File Transfer Protocol Secure_) Secure variant of {term}`FTP`, based on "
+"{term}`TLS`. All data exchanges carried out are therefore encrypted. FTPS "
+"offers two modes of operation: _explicit_ and _implicit_. The _implicit_ "
+"mode is more secure because the connection is encrypted from the first "
+"exchange. --- [Wikipedia](https://en.wikipedia.org/wiki/FTPS)"
 
 #: ../../services/ftp.md:23
-#, fuzzy
-#| msgid ""
-#| "Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, FTPS (_File "
-#| "Transfer Protocol Secure_) peut être utile lors du tranfert d'un grand "
-#| "nombre de fichiers depuis et vers le serveur CLUB1."
 msgid ""
 "Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS` "
 "peut être utile lors du tranfert d'un grand nombre de fichiers depuis et "
 "vers le serveur CLUB1."
 msgstr ""
-"Although [SSH](ssh.md) can also be used for this purpose, FTPS (_File "
-"Transfer Protocol Secure_) can be useful to transfer a large amount of files "
-"from and to the CLUB1 server."
+"Although [SSH](ssh.md) can also be used for this purpose, {term}`FTPS` can "
+"be useful to transfer a large amount of files from and to the CLUB1 server."
 
 #: ../../services/ftp.md:27
 msgid ""
@@ -1728,6 +1729,11 @@ msgid ""
 "utilisés par les sites d'actualité et les blogs. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/RSS)"
 msgstr ""
+"(_Really Simple Syndication_) Standardized data format that allows the "
+"consultation of a site not by a human but by a software. It is therefore a "
+"form of {term}`API`. RSS feeds are files that contain the latest published "
+"articles or news. They are often used by news sites and blogs. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/RSS)"
 
 #: ../../services/rss.md:7
 msgid "Agrégateur de flux"
@@ -1740,6 +1746,9 @@ msgid ""
 "regarder manuellement et un par un les sites dont on veut connaître les "
 "nouveaux contenus."
 msgstr ""
+"Software for viewing RSS feeds. Its purpose is to aggregate news from "
+"different sites into a single feed. It allows you to avoid looking manually "
+"and one by one at the sites for which you want to know the new content."
 
 #: ../../services/rss.md:18
 msgid ""
@@ -2005,20 +2014,14 @@ msgstr ""
 "nicolas/test.html) &rarr; `/home/nicolas/static/test.html`"
 
 #: ../../services/web.md:19
-#, fuzzy
-#| msgid ""
-#| "Ce dossier est servi par le serveur HTTP [Apache](https://fr.wikipedia."
-#| "org/wiki/Apache_HTTP_Server). Il est configuré pour automatiquement "
-#| "générer un _index_ affichant la liste des fichiers et dossiers qu'il "
-#| "contient."
 msgid ""
 "Ce dossier est servi par le serveur HTTP {term}`Apache`. Il est configuré "
 "pour automatiquement générer un _index_ affichant la liste des fichiers et "
 "dossiers qu'il contient."
 msgstr ""
-"This folder is served by the HTTP server [Apache](https://en.wikipedia.org/"
-"wiki/Apache_HTTP_Server). It is configured to automatically generate an "
-"_index_ displaying the list of files and folders it contains."
+"This folder is served by the HTTP server {term}`Apache`. It is configured to "
+"automatically generate an _index_ displaying the list of files and folders "
+"it contains."
 
 #: ../../services/web.md:23
 msgid ""
@@ -2074,18 +2077,15 @@ msgid ""
 msgstr "A couple of WebDAV extensions provide even more specific features:"
 
 #: ../../services/webdav.md:18
-#, fuzzy
-#| msgid "**CardDAV** pour synchroniser des carnets d'adresses de contacts."
 msgid ""
 "Extension {term}`WebDAV` pour synchroniser des {index}`carnets d'adresses` "
 "de contacts."
-msgstr "**CardDAV** to synchronize contacts address-books."
+msgstr ""
+"{term}`WebDAV` extension to synchronize contacts {index}`address-books`."
 
 #: ../../services/webdav.md:21
-#, fuzzy
-#| msgid "**CalDAV** pour synchroniser des calendriers."
 msgid "Extension {term}`WebDAV` pour synchroniser des {index}`calendriers`."
-msgstr "**CalDAV** to synchronize calendars."
+msgstr "{term}`WebDAV` extension to synchronize {index}`calendars`."
 
 #: ../../services/webdav.md:24
 msgid ""
@@ -2846,29 +2846,20 @@ msgid "Synchronisation de calendriers et contacts sur un appareil Android"
 msgstr "Synchronizing calendars and contacts on an Android device"
 
 #: ../../tutos/webdav-android.md:4
-#, fuzzy
-#| msgid ""
-#| "Cette méthode permet de synchroniser ses conctacts et calendrier entre le "
-#| "serveur et un appareil *Android*."
 msgid ""
 "Cette méthode permet de synchroniser ses {index}`carnets d'adresses` et "
 "{index}`calendriers` entre le serveur et un appareil *Android*."
 msgstr ""
-"This method allows you to synchronize your contacts and calendar between the "
-"server and an *Android* device."
+"This method allows you to synchronize your {index}`address-books` and "
+"{index}`calendars` between the server and an *Android* device."
 
 #: ../../tutos/webdav-android.md:7
-#, fuzzy
-#| msgid ""
-#| "Pour synchroniser ses contacts et calendrier avec différentes "
-#| "applications, la solution la plus efficace consiste à passer par une "
-#| "application qui va se charger essentiellement de la synchro : __DAVx5__."
 msgid ""
 "Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
 "charger essentiellement de la synchro : __DAVx5__."
 msgstr ""
-"To synchronize your contacts and calendar with different applications, the "
+"To synchronize your contacts and calendars with different applications, the "
 "most effective solution is to go through an application that will mainly "
 "take care of synchronization: __DAVx5__."
 
