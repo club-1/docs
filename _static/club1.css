@@ -31,7 +31,6 @@ a.fa::before, a.icon::before, a button.toctree-expand::before {
 .rst-content a.reference.external::after {
 	font-family: FontAwesome;
 	content: "";
-	display: inline-block;
 	vertical-align: top;
 	font-size: 70%;
 	margin-left: .2rem;
