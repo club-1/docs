@@ -1,4 +1,5 @@
-# Utiliser Tiny tiny RSS
+Utiliser Tiny tiny RSS
+======================
 
 Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1](/services/rss.md).
 
@@ -6,11 +7,13 @@ Cet {term}`agrégateur de flux` {term}`RSS` permet de "s'abonner" à de multiple
 pour recevoir des notifications lorsqu'un nouvel article est posté
 et pour tous les consulter dans un fil d'actualités commun.
 
-## Accéder à son compte de flux RSS
+Accéder à son compte de flux RSS
+--------------------------------
 
 Pour accéder à votre compte, vous pouvez vous connecter avec vos identifiants CLUB1 à cette adresse : <https://rss.club1.fr/>
 
-## S'abonner à un flux RSS
+S'abonner à un flux RSS
+-----------------------
 
 Pour recevoir les dernières nouveautés d'un site web, il faut "s'abonner à son flux d'actualités".
 Pour cela, le plus simple est de l'ajouter depuis l'interface de _Tiny Tiny RSS_.
@@ -36,7 +39,8 @@ dans ce cas il ne sera malheureusement pas possible de s'y abonner.
 
 ![lien vers site](flux-rss/capture_2.png)
 
-Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé de sélectionner `Atom` car c'est un format de données plus récent.
+Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`.
+Il est conseillé de sélectionner `Atom` car c'est un format de données plus récent.
 
 ![Atom vs RSS](flux-rss/capture_3.png)
 
@@ -50,7 +54,8 @@ Vous pouvez bien-sûr vous abonner à plusieurs flux, c'est même recommandé !
 
 Pour résoudre ce problème, il est possible d'utiliser les catégories.
 
-## Utiliser les catégories
+Utiliser les catégories
+-----------------------
 
 Les catégories permettent de rassembler les flux auxquels vous vous êtes abonné dans des groupes, un peu comme des dossier.
 Elles sont utiles par exemple pour recréer un sous-fil d'actualités thématique,
@@ -63,16 +68,17 @@ Aller dans l'onglet Flux en haut de l'écran.
 
 Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie pour ranger vos articles.
 
-En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux qu'il contient. 
+En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux qu'il contient.
 Pour modifier la catégorie d'un flux, il suffit de *cliquer glisser* le flux vers une nouvelle catégorie.
 
-## Choisir un mode d'affichage
+Choisir un mode d'affichage
+---------------------------
 
 Par défaut, l'affichage se fait en mode combiné.
 
 ![Mode d'affichage combiné](flux-rss/capture_5.png)
 
-Pour utiliser un mode d'affichage en liste avec un panneau de lecture séparé, 
+Pour utiliser un mode d'affichage en liste avec un panneau de lecture séparé,
 vous pouvez désactiver le "mode combiné" dans la configuration.
 
 ![Mode d'affichage en liste](flux-rss/capture_6.png)

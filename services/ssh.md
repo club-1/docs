@@ -65,9 +65,9 @@ elle est en revanche moins sécurisée que l'utilisation d'une
 
 ### S'authentifier par mot de passe
 
-On utilise la commande suivante dans le terminal pour se connecter 
+On utilise la commande suivante dans le terminal pour se connecter
 (remplacer `<login>` par votre **identifiant** CLUB1) :
-    
+
     ssh <login>@club1.fr
 
 Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).

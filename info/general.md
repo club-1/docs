@@ -1,7 +1,7 @@
 Informations générales
 ======================
 
-Le serveur Club1 permet à ses membres d'héberger différents types de projets web. 
+Le serveur Club1 permet à ses membres d'héberger différents types de projets web.
 Mais c'est aussi une communauté de personne intéressées par les notions d'espaces web,
 de libertés et d'exploration du web.
 
@@ -94,6 +94,7 @@ Comptes des membres
 -------------------
 
 ### Identifiant
+
 Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
 Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/1).
 
@@ -105,7 +106,7 @@ et des [dépôts git](/services/git.md).
 
 ### Modalités des comptes
 
-Chaque entité (personne ou groupe), 
+Chaque entité (personne ou groupe),
 peut héberger autant de projets qu'elle le souhaite dans la limite du raisonnable.
 
 Un compte membre comporte donc :
@@ -119,7 +120,7 @@ Un compte membre comporte donc :
 - l'utilisation de noms de domaines loué vias des registraires
 - un accès à la room matrix réservée aux membres pour le suivi et l'assistance aux projets
 
-Pour l'instant, le format choisi est celui de l'adhésion, 
+Pour l'instant, le format choisi est celui de l'adhésion,
 avec une cotisation de 35€ à vie.
 
 Politique et vie privée

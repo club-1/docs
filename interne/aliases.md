@@ -40,7 +40,7 @@ liste se trouvant après le nom de l'alias.
 Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle ligne
 au ficher, en suivant la [syntaxe d'alias de postfix](http://www.postfix.org/aliases.5.html) :
 
-```
+```Makefile
 <ALIAS>:      <USER1>[,<USER2>...]
 ```
 
