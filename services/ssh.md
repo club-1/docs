@@ -79,7 +79,7 @@ L'authentification par clé publique nécessite une paire de clé de chiffrement
 Pour créer ces clés, on utilise la commande ci-dessous.
 Une _phrase de passe_ sera demandée lors de la génération des clés,
 elle permet de les stocker de manière sécurisée.
-Sur Linux, les clés seront automatiquement déverouillées lors de l'ouverture d'une session,
+Sur Linux, les clés seront automatiquement déverrouillées lors de l'ouverture d'une session,
 il ne faut donc pas hésiter à choisir une longue phrase de passe.
 
     ssh-keygen

@@ -16,7 +16,7 @@ Apache
 API
    De l'anglais _Application Programming Interface_.
    Interface destinée à être utilisée non pas par un être humain mais par un logiciel.
-   Elle est en général composée d'un ensemble de fonctions qu'un logicel peut utiliser à distance. ---
+   Elle est en général composée d'un ensemble de fonctions qu'un logiciel peut utiliser à distance. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation)
 
 CLI

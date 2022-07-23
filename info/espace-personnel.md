@@ -17,7 +17,7 @@ Par exemple vos emails, qui sont dans le dossier `mail` 🤯 .
 
 Eh oui, un grand pouvoir implique de grandes responsabilités... 😏
 Vous pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des voisins.
-En effet, __il n'y a pas de limite de stockage définie__ par dossier `home` de chaques membres,
+En effet, __il n'y a pas de limite de stockage définie__ par dossier `home` de chaque membres,
 mais par contre, une limite physique :
 Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__.
 C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du serveur.
@@ -92,7 +92,7 @@ Pour cela il faudra ajouter quelques ligne au début votre fichier `PRESENTATION
 
 Le formatage est simple,
 il faut juste respecter les trois tirets au début et à la fin de la zone de métadonnées.
-Ensuite vous pouvez definir un ou plusieurs paramètres.
+Ensuite vous pouvez définir un ou plusieurs paramètres.
 Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/).
 
 

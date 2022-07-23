@@ -21,10 +21,10 @@ Vous pouvez choisir la méthode de connexion avec laquelle vous vous sentez la p
 
 Petit rappel des différentes façons de se connecter :
 
-- [drive](/services/drive.md) en accèdant à `https://drive.club1.fr`
+- [drive](/services/drive.md) en accédant à `https://drive.club1.fr`
 méthode la plus facile (ne nécessite aucun logiciel)
 - [ftp](/services/ftp.md) pas beaucoup plus compliqué (nécessite un logiciel)
-- [ssh](/services/ssh.md) plus acancée
+- [ssh](/services/ssh.md) plus avancée
 - [WebDAV](/services/webdav.md) pratique si vous avez déjà configuré un accès
 
 Partager un fichier sur le Web
@@ -58,23 +58,23 @@ Par exemple, si votre nom d'utilisateur est `garance` et que votre fichier s'int
 
     https://static.club1.fr/garance/fleur.jpg
 
-Normalement, le naviguateur va afficher votre image si il en est capable, autrement,
+Normalement, le navigateur va afficher votre image si il en est capable, autrement,
 il vous proposerait de la télécharger.
 
 Par exemple, la plupart des navigateurs arrivent à afficher des fichiers PDF, lire des MP3,
 tandis que des fichiers d'archives (Zip, Tar...) seront téléchargés
-car le naviguateur Web ne sait pas lire ce genre de fichier.
+car le navigateur Web ne sait pas lire ce genre de fichier.
 
-Vous pouvez essayer de téléverser d'autres types de fichiers et d'accèder aux URL correspondantes.
+Vous pouvez essayer de téléverser d'autres types de fichiers et d'accéder aux URL correspondantes.
 
 ### Avoir un fichier en ligne
 
 Ça y est ! Vous avez publié votre premier fichier sur le Web ! 🎉
-L'adresse que vous avez tapé dans le naviguateur s'appelle une URL.
+L'adresse que vous avez tapé dans le navigateur s'appelle une URL.
 Cette URL ne changera pas tant que vous ne modifiez pas le nom du fichier.
 Pour partager ce fichier avec n'importe qui,
 il vous suffit de transmettre cette URL.
-Toutes les personnes explorant l'URL pourront accèder au fichier en l'affichant ou en le téléchargant,
+Toutes les personnes explorant l'URL pourront accéder au fichier en l'affichant ou en le téléchargeant,
 mais ne pourront pas le supprimer ou le modifier.
 Pour arrêter de publier un fichier sur le Web,
 il vous suffit de le supprimer depuis votre espace perso,
@@ -92,7 +92,7 @@ Et si je voulais partager 15 fichiers, j'aurais 15 URLs à partager ? C'est cass
 N'y aurait-il pas un moyen de partager un dossier complet ?
 
 Faisons une expérience (si vous ne l'avez pas déjà faite par vous même) :
-Dans votre naviguateur Web, retiez la partie correspondant au nom du fichier.
+Dans votre navigateur Web, retirez la partie correspondant au nom du fichier.
 
     https://static.club1.fr/<login>/
 
@@ -120,7 +120,7 @@ Parmi les types de fichiers intéressant à publier sur le Web,
 il en est un qui présente quelques intérêts particuliers.
 Il s'agît du fichier texte simple, qui a une extension en `.txt`.
 
-Ce type de fichier est très facile à éditer et a le mérite d'être lisible par un naviguateur Web.
+Ce type de fichier est très facile à éditer et a le mérite d'être lisible par un navigateur Web.
 
 Essayons donc de créer un fichier de ce type,
 éditer son contenu en écrivant ce qui vous plaît,
@@ -159,7 +159,7 @@ Le language HTML
 ### Premiers pas
 
 Reprenons notre fichier TXT.
-Au dessus de ce que vous aviez précédement écrit, rajoutez la ligne suivante :
+Au dessus de ce que vous aviez précédemment écrit, rajoutez la ligne suivante :
 
 ```html
 <h1>Bienvenue</h1>
@@ -176,7 +176,7 @@ en sélectionnant "enregistrer sous" depuis votre éditeur de texte.
 ```
 
 Maintenant, téléversez à nouveau le fichier dans votre dossier `static`,
-accèdez à l'URL correspondante depuis votre naviguateur
+accédez à l'URL correspondante depuis votre navigateur
 et découvrez le résultat !
 
 ![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)
@@ -186,11 +186,11 @@ Vous venez de mettre en ligne votre première page Web contenant du HTML. 🎉
 
 Maintenant, regardons plus attentivement la ligne que nous venons d'ajouter.
 Le texte "Bienvenue" s'est vu affiché,
-__mais pas les élements `<h1>` et `</h1>`__.
+__mais pas les éléments `<h1>` et `</h1>`__.
 On appelle ces deux éléments des __balises HTML__.
 Elles sont utilisés pour rajouter des informations à notre texte.
 
-En l'occurence, la balise `<h1>` signifie :
+En l'occurrence, la balise `<h1>` signifie :
 *les caractères qui suivent font partie d'un titre de niveau&nbsp;1*.
 Il s'agît d'une balise __ouvrante__.
 
@@ -201,27 +201,27 @@ Cette dernière est donc une balise dite __fermante__.
 Ces balises forment un couple, on les appelles des __balises doubles__.
 à elles deux, elles attribuent un statut à ce qu'elles entourent.
 
-Le naviguateur Web, de son côté,
-a interprêté ces balises et à *compris* que "Bienvenue" est un "titre de niveau&nbsp;1".
+Le navigateur Web, de son côté,
+a interprété ces balises et à *compris* que "Bienvenue" est un "titre de niveau&nbsp;1".
 Il applique ensuite un style par défaut associé à ce statut.
 
 C'est globalement comme cela que fonctionne la language HTML,
 tout du moins les balises doubles.
-Evidement, il existe [des balises pour de nombreux usages](https://developer.mozilla.org/fr/docs/Web/HTML/Element).
+Évidemment, il existe [des balises pour de nombreux usages](https://developer.mozilla.org/fr/docs/Web/HTML/Element).
 Par exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas interprétés en HTML.
 C'est normal ! Pour faire des paragraphes, il faut mettre son texte à l'intérieur d'une
 [balise `<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p).
 
 
-### Editer en local
+### Éditer en local
 
 Comme on commence à modifier souvent notre fichier,
-au lieu de devoir à chaque fois mettre à jour nos modificactions en le téléversant sur le serveur,
+au lieu de devoir à chaque fois mettre à jour nos modifications en le téléversant sur le serveur,
 on va le modifier et l'afficher __en local__.
 
 💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML.
-Il suffit de l'ouvrir avec votre naviguateur directement
-(par exemple en double cliquant dessus ou en le glissant dans votre naviguateur).
+Il suffit de l'ouvrir avec votre navigateur directement
+(par exemple en double cliquant dessus ou en le glissant dans votre navigateur).
 
 C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
 que l'on fait en local,
