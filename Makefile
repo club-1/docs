@@ -53,6 +53,7 @@ $(DIRS):
 update-po: $(LOCALEFILES);
 
 check-po: $(LOCALEFILES:%=check-po/%)
+	msgfmt --check-domain _locales/exclude.po
 	msgcat $(LOCALEDIR)/exclude.po --sort-output | $(DIFF) - $(LOCALEDIR)/exclude.po
 
 $(LOCALEFILES:%=check-po/%): check-po/%:
