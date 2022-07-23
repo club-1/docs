@@ -30,10 +30,9 @@ a.fa::before, a.icon::before, a button.toctree-expand::before {
 /* Specific styles for external links */
 .rst-content a.reference.external::after {
 	font-family: FontAwesome;
-	content: "";
+	content: "\0202f";
 	vertical-align: top;
 	font-size: 70%;
-	margin-left: .2rem;
 }
 
 /* Highlight version selector on hover */
