@@ -103,13 +103,13 @@ fichier `index.md` (s'inspirer de l'existant).
 
 ### Ajouter des images
 
-Si il s'agit d'une image générique déjà présente sur le {term}`Web`,
+S'il s'agit d'une image générique déjà présente sur le {term}`Web`,
 il n'est pas nécessaire de la copier dans la documentation, un simple lien suffira.
 {term}`Sphinx` se chargera de vérifier que l'image existe toujours
 et de la télécharger pour les formats hors-ligne.
 
 Pour des images plus spécifiques à la documentation CLUB1,
-il vaut mieux les sauvegarder dans le dossier avec les fichiers source.
+il vaut mieux les sauvegarder dans le dossier, avec les fichiers source.
 Il est intéressant de les y regrouper dans un dossier
 portant le même nom que la page dans laquelle elles seront inclues
 (en omettant l'extension).
@@ -147,7 +147,7 @@ Make
 
 Sphinx
    Générateur de documentation.
-   Il permet de compiler une documentation rédigée en texte brut dans différents formats.
+   Il permet de compiler dans différents formats une documentation rédigée en texte brut.
    C'est l'outil utilisé pour générer la documentation présente.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
 
