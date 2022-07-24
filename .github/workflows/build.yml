@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+      - name: Install apt packages
+        run: sudo apt-get install --no-install-recommends -y gettext
       - name: Setup problem matcher
         uses: xt0rted/markdownlint-problem-matcher@v1.1.0
       - name: Markdownlint
