@@ -36,6 +36,7 @@ PYSRC        := conf.py
 XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
 		--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
+DIFF         := diff -u --color
 
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
@@ -51,6 +52,13 @@ $(DIRS):
 
 update-po: $(LOCALEFILES);
 
+check-po: $(LOCALEFILES:%=check-po/%)
+	msgfmt --check-domain _locales/exclude.po
+	msgcat $(LOCALEDIR)/exclude.po --sort-output | $(DIFF) - $(LOCALEDIR)/exclude.po
+
+$(LOCALEFILES:%=check-po/%): check-po/%:
+	msgfmt --check $*
+
 %.mo: %.po
 	msgfmt --use-fuzzy -o $@ $<
 
@@ -60,8 +68,7 @@ $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
 	@touch $@
 
 $(LOCALEDIR)/package.pot: $(BUILDDIR)/gettext/package.pot $(PYSRC)
-	$(XGETTEXT) $< -o $@
-	$(XGETTEXT) --join-existing -L python $(PYSRC) -o $@
+	$(XGETTEXT) $< $(PYSRC) -o $@
 
 $(LOCALEDIR)/sphinx.pot: $(BUILDDIR)/gettext/sphinx.pot
 	$(XGETTEXT) $< -o $@

@@ -30,7 +30,14 @@ jobs:
         run: make html/en O='-w errors.html.en.log'
       - name: Make linkcheck
         run: make linkcheck --keep-going || true
+      - name: Make check-po
+        run: |
+          echo '::add-matcher::.github/matchers/gettext.json'
+          make check-po
+          echo '::remove-matcher owner=gettext::'
+          echo '::remove-matcher owner=gettext-no-severity::'
       - name: Collect Sphinx errors
+        if: ${{ always() }}
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'
           {
@@ -38,6 +45,8 @@ jobs:
             sort -u -k2  _build/linkcheck/*/output.txt
           } | sort -u
           echo '::remove-matcher owner=sphinx::'
+          echo '::remove-matcher owner=sphinx-loose::'
+          echo '::remove-matcher owner=sphinx-loose-no-severity::'
       - name: Upload html artifact
         uses: actions/upload-artifact@v3
         with:

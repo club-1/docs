@@ -1,0 +1,27 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "gettext-no-severity",
+      "pattern": [
+        {
+          "regexp": "^(.*\\.pot?):(\\d+):(.*)$",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        }
+      ]
+    },
+    {
+      "owner": "gettext",
+      "pattern": [
+        {
+          "regexp": "^(.*):(\\d+):\\s+(\\w*):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      ]
+    }
+  ]
+}
