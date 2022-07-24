@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-23 00:21+0200\n"
+"POT-Creation-Date: 2022-07-24 12:04+0200\n"
 "PO-Revision-Date: 2022-07-23 17:44+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -42,7 +42,7 @@ msgstr ""
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
-"général composée d'un ensemble de fonctions qu'un logicel peut utiliser à "
+"général composée d'un ensemble de fonctions qu'un logiciel peut utiliser à "
 "distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Interface_de_programmation)"
 msgstr ""
@@ -113,9 +113,9 @@ msgid ""
 "Hypertext_Markup_Language), [MDN web docs](https://developer.mozilla.org/fr/"
 "docs/Web/HTML)"
 msgstr ""
-"(_Hypertext Markup Language_) Markup language designed to represent "
-"{term}`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN "
-"web docs](https://developer.mozilla.org/en/docs/Web/HTML)"
+"(_Hypertext Markup Language_) Markup language designed to represent {term}"
+"`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN web "
+"docs](https://developer.mozilla.org/en/docs/Web/HTML)"
 
 #: ../../glossaire.md:40
 msgid "Internet"
@@ -191,10 +191,10 @@ msgid ""
 "le contenu. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 msgstr ""
-"(_Transport Layer Security_) Protocol used to secure exchanges in a {term}`"
-"computer network`. One of its main features is to encrypt all data exchanged "
-"between the {term}`client` and the {term}`server`, so that no one else can "
-"read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"(_Transport Layer Security_) Protocol used to secure exchanges in a {term}"
+"`computer network`. One of its main features is to encrypt all data "
+"exchanged between the {term}`client` and the {term}`server`, so that no one "
+"else can read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 
 #: ../../glossaire.md:75
@@ -269,7 +269,7 @@ msgid ""
 "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
 "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
 "voisins. En effet, __il n'y a pas de limite de stockage définie__ par "
-"dossier `home` de chaques membres, mais par contre, une limite physique : "
+"dossier `home` de chaque membres, mais par contre, une limite physique : "
 "Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__. "
 "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du "
 "serveur."
@@ -358,7 +358,7 @@ msgstr ""
 "hesitate to put links to your web projects, it will allow members and "
 "visitors to discover them 🔎️."
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:234
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:244
 msgid "Metadonnées"
 msgstr "Metadata"
 
@@ -383,7 +383,7 @@ msgstr ""
 #: ../../info/espace-personnel.md:93
 msgid ""
 "Le formatage est simple, il faut juste respecter les trois tirets au début "
-"et à la fin de la zone de métadonnées. Ensuite vous pouvez definir un ou "
+"et à la fin de la zone de métadonnées. Ensuite vous pouvez définir un ou "
 "plusieurs paramètres. Pour info, cette syntaxe *plus ou moins standard* "
 "s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/)."
 msgstr ""
@@ -404,7 +404,7 @@ msgstr ""
 "uppercase, lowercase and some special characters (even Emoji 😉). If you "
 "omit this field, your CLUB1 username will be displayed."
 
-#: ../../info/espace-personnel.md:100
+#: ../../info/espace-personnel.md:102
 msgid ""
 "Pour le paramètre `color`, vous devez utiliser une [couleur du web](https://"
 "fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0)."
@@ -412,7 +412,7 @@ msgstr ""
 "For the `color` parameter, you must use a [web color](https://en.wikipedia."
 "org/wiki/Web_colors#HTML_color_names)."
 
-#: ../../info/espace-personnel.md:104
+#: ../../info/espace-personnel.md:106
 msgid ""
 "Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__ "
 "et être __entouré de guillemets__ (par exemple : `color: \"#F87716\"`)."
@@ -420,11 +420,11 @@ msgstr ""
 "If you put in a color code, it should start with a __hash `#`__ and be "
 "__surrounded by quotation marks__ (e.g. `color: \"#F87716\"`)."
 
-#: ../../info/espace-personnel.md:111
+#: ../../info/espace-personnel.md:112
 msgid "Faire un lien vers son profil"
 msgstr "Create a link to your profile"
 
-#: ../../info/espace-personnel.md:113
+#: ../../info/espace-personnel.md:114
 msgid ""
 "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
 "possible de la partager facilement. Il vous suffit de faire un lien ciblant "
@@ -437,7 +437,7 @@ msgstr ""
 "presentation. For this we use an [URI fragment](https://en.wikipedia.org/"
 "wiki/URI_fragment) using your CLUB1 username."
 
-#: ../../info/espace-personnel.md:119
+#: ../../info/espace-personnel.md:120
 msgid ""
 "Par exemple, l'adresse suivante ouvrira directement la présentation du "
 "membres `vincent` :"
@@ -452,8 +452,8 @@ msgstr "General information"
 #: ../../info/general.md:4
 msgid ""
 "Le serveur Club1 permet à ses membres d'héberger différents types de projets "
-"web.  Mais c'est aussi une communauté de personne intéressées par les "
-"notions d'espaces web, de libertés et d'exploration du web."
+"web. Mais c'est aussi une communauté de personne intéressées par les notions "
+"d'espaces web, de libertés et d'exploration du web."
 msgstr ""
 "The Club1 server allows its members to host different types of web projects. "
 "But it is also a community of people interested in the notions of web "
@@ -469,7 +469,7 @@ msgid ""
 "github.com/club-1/hosting/issues) sur {term}`GitHub` (vous devrez pour cela "
 "créer un compte), en choisissant entre demande (_request_) ou incident "
 "(_problem_) en fonction de la nature du ticket. Si il s'agit d'une demande "
-"impersonnelle, merci de **vérifier** qu'il n'éxiste pas déjà une demande "
+"impersonnelle, merci de **vérifier** qu'il n'existe pas déjà une demande "
 "similaire à l'aide de la barre de recherche."
 msgstr ""
 "For any request or incident, please [create an issue](https://github.com/"
@@ -530,7 +530,7 @@ msgid ""
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
 "dans les 24 heures à l'aide de [_unattended-upgrades_](https://wiki.debian."
 "org/fr/unattended-upgrades) et les services en dépendant sont ensuite "
-"automatiquement redémarés grâce à [_needrestart_](https://packages.debian."
+"automatiquement redémarrés grâce à [_needrestart_](https://packages.debian."
 "org/fr/stable/needrestart)."
 msgstr ""
 "The server runs on **Ubuntu 20.04 (LTS)** and is updated regularly. Security "
@@ -588,7 +588,7 @@ msgstr "Backups"
 #: ../../info/general.md:86
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
-"5h. Elles sont stoquées de manière dédupliquée et chiffrée à plusieurs "
+"5h. Elles sont stockées de manière dédupliquée et chiffrée à plusieurs "
 "endroits dont un dépôt off-site."
 msgstr ""
 "System and user data are backed up once a day at 5am. They are stored in a "
@@ -612,92 +612,92 @@ msgstr "Members accounts"
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:97
+#: ../../info/general.md:98
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/1)."
 msgstr ""
 "The username must respect the regex `^[a-z\\-]{3,16}$`. It is possible to "
-"check that a name respects it using [regex101](https://regex101.com/r/AilLZw/"
-"1)."
+"check that a name respects it using [regex101](https://regex101.com/r/"
+"AilLZw/1)."
 
-#: ../../info/general.md:100
+#: ../../info/general.md:101
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
 "cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée "
-"par défaut aux membres et dans les URLs automatiques commes celles des "
-"[sites statiques](../services/web.md#sites-web-statiques) et des [dépôts git]"
-"(/services/git.md)."
+"par défaut aux membres et dans les URLs automatiques comme celles des [sites "
+"statiques](../services/web.md#sites-web-statiques) et des [dépôts git](/"
+"services/git.md)."
 msgstr ""
 "This identifier is mainly used internally for the connection to the services "
 "and is therefore not especially visible from outside. It is however present "
 "in the [CLUB1 email address](/services/email.md) assigned by default to "
-"members and in automatic URLs such as those of [static sites](../services/web"
-".md#sites-web-statiques) and [git repositories](/services/git.md)."
+"members and in automatic URLs such as those of [static sites](../services/"
+"web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:106
+#: ../../info/general.md:107
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:108
+#: ../../info/general.md:109
 msgid ""
-"Chaque entité (personne ou groupe),  peut héberger autant de projets qu'elle "
+"Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:111
+#: ../../info/general.md:112
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:113
+#: ../../info/general.md:114
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:114
+#: ../../info/general.md:115
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:115
+#: ../../info/general.md:116
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:116
+#: ../../info/general.md:117
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:117
+#: ../../info/general.md:118
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:118
+#: ../../info/general.md:119
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:119
+#: ../../info/general.md:120
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:120
+#: ../../info/general.md:121
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 
-#: ../../info/general.md:122
+#: ../../info/general.md:123
 msgid ""
-"Pour l'instant, le format choisi est celui de l'adhésion,  avec une "
+"Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr ""
 
-#: ../../info/general.md:125
+#: ../../info/general.md:126
 msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
-#: ../../info/general.md:128
+#: ../../info/general.md:129
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
@@ -705,7 +705,7 @@ msgstr ""
 "None of the data you store in your personal space will be divulged or used "
 "for profit, even under threat."
 
-#: ../../info/general.md:131
+#: ../../info/general.md:132
 msgid "Contact"
 msgstr ""
 
@@ -836,11 +836,11 @@ msgid ""
 "{term}`Git` et accessible publiquement via {term}`GitHub` à l'adresse "
 "<https://github.com/club-1/docs/>."
 msgstr ""
-"The CLUB1's documentation is published in {term}`HTML` format at "
-"<https://club1.fr/docs/en/>. It exists in two languages: French, the main "
-"one and English, the secondary. The {term}`Web` site is generated using "
-"{term}`Sphinx`, from source files written in {term}`Markdown`. The source "
-"files are stored in a directory, versioned with {term}`Git` and publicly "
+"The CLUB1's documentation is published in {term}`HTML` format at <https://"
+"club1.fr/docs/en/>. It exists in two languages: French, the main one and "
+"English, the secondary. The {term}`Web` site is generated using {term}"
+"`Sphinx`, from source files written in {term}`Markdown`. The source files "
+"are stored in a directory, versioned with {term}`Git` and publicly "
 "accessible via {term}`GitHub` at <https://github.com/club-1/docs/>."
 
 #: ../../interne/meta-doc.md:13
@@ -888,14 +888,18 @@ msgstr ""
 "`.pot` files automatically generated from the Markdown source files."
 
 #: ../../interne/meta-doc.md:46
+#, fuzzy
+#| msgid ""
+#| "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
+#| "dans la documentation, par exemple les images."
 msgid ""
 "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
-"dans la documentation, par exemple les images."
+"dans la documentation, par exemple les \"feuilles de style\"."
 msgstr ""
 "`_static/`: folder that contains the other files to include in the "
 "documentation, for instance images."
 
-#: ../../interne/meta-doc.md:47
+#: ../../interne/meta-doc.md:48
 msgid ""
 "`_templates/` : dossier contenant les éléments de thème utilisés lors de la "
 "génération du format HTML."
@@ -903,15 +907,15 @@ msgstr ""
 "`_templates/`: folder that contains the theme elements used for HTML format "
 "generation."
 
-#: ../../interne/meta-doc.md:48
+#: ../../interne/meta-doc.md:49
 msgid "`AUTHORS` : fichier contenant la liste des auteurs."
 msgstr "`AUTHORS`: file that contains the list of authors."
 
-#: ../../interne/meta-doc.md:49
+#: ../../interne/meta-doc.md:50
 msgid "`glossaire.md` : fichier contenant les termes du glossaire principal."
 msgstr "`glossaire.md`: file that contains the terms of the main glossary."
 
-#: ../../interne/meta-doc.md:50
+#: ../../interne/meta-doc.md:51
 msgid ""
 "`index.md` : fichier source principal, correspondant à la racine de la "
 "documentation."
@@ -919,7 +923,7 @@ msgstr ""
 "`index.md`: principal source file, representing the root of the "
 "documentation."
 
-#: ../../interne/meta-doc.md:53
+#: ../../interne/meta-doc.md:54
 msgid ""
 "Les fichiers et dossier `***` représentent l'ensemble des fichiers source de "
 "la documentation."
@@ -927,11 +931,11 @@ msgstr ""
 "The `***` files and folders represent the set of source files of the "
 "documentation."
 
-#: ../../interne/meta-doc.md:56
+#: ../../interne/meta-doc.md:57
 msgid "Proposer des modifications"
 msgstr "Propose changes"
 
-#: ../../interne/meta-doc.md:59
+#: ../../interne/meta-doc.md:60
 msgid ""
 "L'utilisation de {term}`Git` permet à n'importe qui de proposer des "
 "modifications. Pour cela il est possible de modifier les fichiers "
@@ -948,7 +952,7 @@ msgstr ""
 "will then have to accept and _merge_ these modifications in order to "
 "integrate it in the main branch."
 
-#: ../../interne/meta-doc.md:67
+#: ../../interne/meta-doc.md:68
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
@@ -956,7 +960,7 @@ msgstr ""
 "On each update of the main branch, the documentation is automatically "
 "compiled and published on the CLUB1 website."
 
-#: ../../interne/meta-doc.md:71
+#: ../../interne/meta-doc.md:72
 msgid ""
 "Git regroupe les modifications par ligne. Il est donc intéressant de "
 "fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de "
@@ -970,11 +974,11 @@ msgstr ""
 "the same sentence. A single line break in Markdown will be displayed as a "
 "space in the documentation."
 
-#: ../../interne/meta-doc.md:78
+#: ../../interne/meta-doc.md:79
 msgid "Langue principale (français)"
 msgstr "Main language (French)"
 
-#: ../../interne/meta-doc.md:80
+#: ../../interne/meta-doc.md:81
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
@@ -984,7 +988,7 @@ msgstr ""
 "of the doc, there is a link to edit the page on {term}`GitHub` in the top-"
 "right corner."
 
-#: ../../interne/meta-doc.md:84
+#: ../../interne/meta-doc.md:85
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
@@ -994,11 +998,11 @@ msgstr ""
 "docs/edit/main/AUTHORS) after having made your first contribution in the "
 "french documentation."
 
-#: ../../interne/meta-doc.md:87
+#: ../../interne/meta-doc.md:88
 msgid "Autres langues"
 msgstr "Other languages"
 
-#: ../../interne/meta-doc.md:89
+#: ../../interne/meta-doc.md:90
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -1009,7 +1013,7 @@ msgstr ""
 "LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
 "(https://hosted.weblate.org/projects/club-1/docs/)."
 
-#: ../../interne/meta-doc.md:93
+#: ../../interne/meta-doc.md:94
 msgid ""
 "Les traductions doivent suivre le texte d'origine au plus proche. Si des "
 "modifications doivent être apportées au contenu, il faut commencer par "
@@ -1019,11 +1023,11 @@ msgstr ""
 "changes are to be made to the content, the French content should be changed "
 "first."
 
-#: ../../interne/meta-doc.md:97
+#: ../../interne/meta-doc.md:98
 msgid "Ajouter une page"
 msgstr "Add a page"
 
-#: ../../interne/meta-doc.md:99
+#: ../../interne/meta-doc.md:100
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
 "md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
@@ -1033,11 +1037,19 @@ msgstr ""
 "ideally in a subfolder, then it has to be added in a `{toctree}` of one of "
 "the `index.md` files (build on what already exists)."
 
-#: ../../interne/meta-doc.md:103
+#: ../../interne/meta-doc.md:104
 msgid "Ajouter des images"
 msgstr "Add images"
 
-#: ../../interne/meta-doc.md:105
+#: ../../interne/meta-doc.md:106
+msgid ""
+"S'il s'agit d'une image générique déjà présente sur le {term}`Web`, il n'est "
+"pas nécessaire de la copier dans la documentation, un simple lien suffira. "
+"{term}`Sphinx` se chargera de vérifier que l'image existe toujours et de la "
+"télécharger pour les formats hors-ligne."
+msgstr ""
+
+#: ../../interne/meta-doc.md:111
 #, fuzzy
 #| msgid ""
 #| "Les images à inclure dans le contenu doivent être ajoutées au dossier "
@@ -1045,17 +1057,17 @@ msgstr "Add images"
 #| "intéressant de les y regrouper dans un dossier répliquant le chemin de la "
 #| "page dans laquelle elles seront inclues."
 msgid ""
-"Les images à inclure dans le contenu doivent être ajoutées au dossier "
-"`_static` (voir [l'arborescence de fichiers](#arborescence-de-fichiers)). Il "
-"est intéressant de les y regrouper dans un dossier répliquant le chemin de "
-"la page dans laquelle elles seront inclues."
+"Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux les "
+"sauvegarder dans le dossier, avec les fichiers source. Il est intéressant de "
+"les y regrouper dans un dossier portant le même nom que la page dans "
+"laquelle elles seront inclues (en omettant l'extension)."
 msgstr ""
 "Images to be included in the content must be added to the `_static` folder "
 "(see [above](#arborescence-de-fichiers)). It is interesting to group them "
 "there in a folder replicating the path of the page in which they will be "
 "included."
 
-#: ../../interne/meta-doc.md:111
+#: ../../interne/meta-doc.md:118
 msgid ""
 "Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
 "pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
@@ -1063,11 +1075,11 @@ msgstr ""
 "Favor a light theme for screenshots because it is more usual for users and "
 "it will use less ink for the printed version."
 
-#: ../../interne/meta-doc.md:116
+#: ../../interne/meta-doc.md:123
 msgid "Références"
 msgstr "References"
 
-#: ../../interne/meta-doc.md:119
+#: ../../interne/meta-doc.md:126
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
@@ -1075,7 +1087,7 @@ msgstr ""
 "[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
 "cross-referencing-with-sphinx.html)"
 
-#: ../../interne/meta-doc.md:120
+#: ../../interne/meta-doc.md:127
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
@@ -1083,11 +1095,11 @@ msgstr ""
 "[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
-#: ../../interne/meta-doc.md:122
+#: ../../interne/meta-doc.md:129
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../../interne/meta-doc.md:125
+#: ../../interne/meta-doc.md:132
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -1102,11 +1114,11 @@ msgstr ""
 "available. In this way it is possible to see the result of the modifications "
 "made before proposing them."
 
-#: ../../interne/meta-doc.md:132
+#: ../../interne/meta-doc.md:139
 msgid "Prérequis communs"
 msgstr "Common prerequisites"
 
-#: ../../interne/meta-doc.md:134
+#: ../../interne/meta-doc.md:141
 msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
 "format de sortie désiré :"
@@ -1114,28 +1126,34 @@ msgstr ""
 "These software are used to compile the documentation regardless of the "
 "desired output format:"
 
-#: ../../interne/meta-doc.md:139
+#: ../../interne/meta-doc.md:146
 msgid "Gestionnaire de compilation."
 msgstr "Build manager."
 
-#: ../../interne/meta-doc.md:142
+#: ../../interne/meta-doc.md:149
+#, fuzzy
+#| msgid ""
+#| "Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/"
+#| "wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgid ""
-"Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Générateur de documentation. Il permet de compiler dans différents formats "
+"une documentation rédigée en texte brut. C'est l'outil utilisé pour générer "
+"la documentation présente. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
 "Documentation compiler. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
-#: ../../interne/meta-doc.md:145
+#: ../../interne/meta-doc.md:155
 msgid ""
 "Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
 msgstr "{term}`Sphinx` extension allowing {term}`Markdown` support."
 
-#: ../../interne/meta-doc.md:148
+#: ../../interne/meta-doc.md:158
 msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr "{term}`Sphinx` extension providing the ReadTheDocs {term}`HTML` theme."
 
-#: ../../interne/meta-doc.md:151
+#: ../../interne/meta-doc.md:161
 msgid ""
 "Extension {term}`Sphinx` permettant de générer une page d'erreur 404 "
 "personnalisée dont les liens sont absolus."
@@ -1143,59 +1161,59 @@ msgstr ""
 "{term}`Sphinx` extension to generate a custom 404 error page with absolute "
 "links."
 
-#: ../../interne/meta-doc.md:154
+#: ../../interne/meta-doc.md:164
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:157 ../../interne/meta-doc.md:183
+#: ../../interne/meta-doc.md:167 ../../interne/meta-doc.md:193
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:161
+#: ../../interne/meta-doc.md:171
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:165
+#: ../../interne/meta-doc.md:175
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:168
+#: ../../interne/meta-doc.md:178
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:171
+#: ../../interne/meta-doc.md:181
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:174
+#: ../../interne/meta-doc.md:184
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:177
+#: ../../interne/meta-doc.md:187
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:180
+#: ../../interne/meta-doc.md:190
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr "Tool to manipulate images in {term}`CLI`."
 
-#: ../../interne/meta-doc.md:187
+#: ../../interne/meta-doc.md:197
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:189
+#: ../../interne/meta-doc.md:199
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:193
+#: ../../interne/meta-doc.md:203
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:197
+#: ../../interne/meta-doc.md:207
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:201
+#: ../../interne/meta-doc.md:211
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1209,11 +1227,11 @@ msgstr ""
 "out at the end of the file, while adding the following comment just above "
 "the line `msgid \"...\"`:"
 
-#: ../../interne/meta-doc.md:211
+#: ../../interne/meta-doc.md:221
 msgid "Déploiement de la version Web"
 msgstr "Deployment of the Web version"
 
-#: ../../interne/meta-doc.md:214
+#: ../../interne/meta-doc.md:224
 msgid ""
 "Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
 "{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1233,8 +1251,8 @@ msgstr "*Drive* Web file explorer"
 msgid ""
 "Le _**Drive**_ CLUB1 est un explorateur de fichiers utilisable à travers un "
 "navigateur {term}`Web`. Il permet d'acceder à son **espace personnel** sans "
-"avoir besoin d'installer ou de configurer une aplication native. Il est donc "
-"très utile lorsque l'on est pas sur son ordinateur personnel."
+"avoir besoin d'installer ou de configurer une application native. Il est "
+"donc très utile lorsque l'on est pas sur son ordinateur personnel."
 msgstr ""
 "The CLUB1 _**Drive**_ is a file explorer that can be used through a {term}"
 "`Web` browser. It allows to access your **personal space** without the need "
@@ -1379,7 +1397,7 @@ msgstr "Quotas"
 
 #: ../../services/email.md:56
 msgid ""
-"Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette déscision a "
+"Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette décision a "
 "été prise pour encourager la suppression des anciens emails."
 msgstr ""
 "The `mail` folder is subject to a quota of **5&nbsp;GB**. This decision was "
@@ -1398,7 +1416,7 @@ msgstr ""
 "Error: message file too big`."
 
 #: ../../services/email.md:63 ../../services/ftp.md:41 ../../services/sql.md:9
-#: ../../services/ssh.md:85
+#: ../../services/ssh.md:100
 msgid "Informations de connexion"
 msgstr "Connection information"
 
@@ -1415,17 +1433,17 @@ msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
 #: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:52
 msgid "champ"
 msgstr "field"
 
 #: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:52
 msgid "valeur"
 msgstr "value"
 
 #: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:52
 msgid "hôte"
 msgstr "host"
 
@@ -1434,7 +1452,7 @@ msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr "`mail.club1.fr` or `smtp.club1.fr`"
 
 #: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:52
 msgid "port"
 msgstr "port"
 
@@ -1499,7 +1517,7 @@ msgstr ""
 #: ../../services/ftp.md:23
 msgid ""
 "Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS` "
-"peut être utile lors du tranfert d'un grand nombre de fichiers depuis et "
+"peut être utile lors du transfert d'un grand nombre de fichiers depuis et "
 "vers le serveur CLUB1."
 msgstr ""
 "Although [SSH](ssh.md) can also be used for this purpose, {term}`FTPS` can "
@@ -1542,7 +1560,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:4 ../../services/ssh.md:37
+#: ../../services/ftp.md:4 ../../services/ssh.md:52
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
@@ -1735,11 +1753,11 @@ msgstr ""
 "articles or news. They are often used by news sites and blogs. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/RSS)"
 
-#: ../../services/rss.md:7
+#: ../../services/rss.md:8
 msgid "Agrégateur de flux"
 msgstr "Feed aggregator"
 
-#: ../../services/rss.md:13
+#: ../../services/rss.md:14
 msgid ""
 "Logiciel permettant de consulter les flux RSS. Son but est d'agréger les "
 "nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
@@ -1750,10 +1768,10 @@ msgstr ""
 "different sites into a single feed. It allows you to avoid looking manually "
 "and one by one at the sites for which you want to know the new content."
 
-#: ../../services/rss.md:18
+#: ../../services/rss.md:19
 msgid ""
 "Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
-"wikipedia.org/wiki/Tiny_Tiny_RSS) (abbrégé TTRSS). Il est accessible à "
+"wikipedia.org/wiki/Tiny_Tiny_RSS) (abrégé TTRSS). Il est accessible à "
 "travers le {term}`client Web` intégré se trouvant à l'adresse <https://rss."
 "club1.fr>, mais il est également possible d'y connecter un client natif."
 msgstr ""
@@ -1762,14 +1780,14 @@ msgstr ""
 "integrated {term}`Web client` located at <https://rss.club1.fr>, but it is "
 "also possible to connect a native client to it."
 
-#: ../../services/rss.md:24
+#: ../../services/rss.md:25
 msgid "Se connecter avec un client natif"
 msgstr "Connect with a native client"
 
-#: ../../services/rss.md:27
+#: ../../services/rss.md:28
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
-"dans les paramètres du {term}`client Web`. Cliquer sur le menu (icone avec "
+"dans les paramètres du {term}`client Web`. Cliquer sur le menu (icône avec "
 "les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
 "`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
 "l'API`."
@@ -1779,7 +1797,7 @@ msgstr ""
 "at the top right) &rarr; `Preferences...` &rarr; `Preferences` tab &rarr; "
 "`General` section &rarr; Check the `Enable API` box."
 
-#: ../../services/rss.md:32
+#: ../../services/rss.md:33
 msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
@@ -1787,11 +1805,11 @@ msgstr ""
 "In the chosen native client, the server URL must be filled with `https://rss."
 "club1.fr`."
 
-#: ../../services/rss.md:35 ../../services/webdav.md:38 ../../tutos/index.md:1
+#: ../../services/rss.md:36 ../../services/webdav.md:38 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr "Tutorials"
 
-#: ../../services/rss.md:38
+#: ../../services/rss.md:39
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "RSS de CLUB1."
@@ -1830,15 +1848,39 @@ msgid "Connexion à distance SSH"
 msgstr "SSH remote connection"
 
 #: ../../services/ssh.md:6
+#, fuzzy
+#| msgid ""
+#| "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
+#| "`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour les "
+#| "utilisateurs avancés."
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
-"`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour les "
-"utilisateurs avancés."
+"`CLI` à un serveur. Ses principaux avantages sont d'être entièrement chiffré "
+"et d'offrir un accès complet aux fonctionnalités du serveur. Il existe des "
+"extensions SSH pour des usages plus spécifiques comme {term}`SFTP` ou {term}"
+"`SCP`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Secure_Shell)"
 msgstr ""
 "(_Secure SHell_) Protocol allowing to connect remotely in {term}`CLI` to a "
 "server. SSH access can be very useful, especially for advanced users."
 
-#: ../../services/ssh.md:10
+#: ../../services/ssh.md:13
+msgid ""
+"(_SSH File Transfer Protocol_) Protocole de transfert et gestion à distance "
+"de fichiers basé sur {term}`SSH`. Il est ainsi entièrement chiffré, et donc "
+"comparable à {term}`FTPS`, mais il offre plus de fonctionnalités (e.g. "
+"l'affichage des propriétaires d'un fichier). --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
+msgstr ""
+
+#: ../../services/ssh.md:20
+msgid ""
+"(_Secure CoPy_) Protocole de copie de fichiers entre deux ordinateurs basé "
+"sur {term}`SSH`. SCP s'utilise principalement à l'aide du {term}`client` en "
+"{term}`CLI` du même nom. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Secure_copy)"
+msgstr ""
+
+#: ../../services/ssh.md:25
 msgid ""
 "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
 "utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est "
@@ -1848,11 +1890,11 @@ msgstr ""
 "used. As this software suite is in *command-line*, it is necessary to open a "
 "terminal window (powershell on windows)."
 
-#: ../../services/ssh.md:14
+#: ../../services/ssh.md:29
 msgid "Avant de se connecter pour le première fois"
 msgstr "Before the first connection"
 
-#: ../../services/ssh.md:17
+#: ../../services/ssh.md:32
 msgid ""
 "La première connexion est critique car c'est lors de celle-ci que se fait "
 "l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
@@ -1864,7 +1906,7 @@ msgstr ""
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../services/ssh.md:22
+#: ../../services/ssh.md:37
 msgid ""
 "Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
 "l'empreinte de la clé reçue :"
@@ -1872,7 +1914,7 @@ msgstr ""
 "To solve this problem, OpenSSH shows a warning containing the fingerprint of "
 "the received key:"
 
-#: ../../services/ssh.md:29
+#: ../../services/ssh.md:44
 msgid ""
 "Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
 "l'avertissement avec celle fournie par l'administrateur. À la place, il est "
@@ -1883,7 +1925,7 @@ msgstr ""
 "warning with the one provided by the admin. So instead, it is preferable to "
 "add the key before the first connection using the following command:"
 
-#: ../../services/ssh.md:38
+#: ../../services/ssh.md:53
 msgid ""
 "Si pour une quelconque raison la comparaison manuelle est préférée, "
 "l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
@@ -1891,11 +1933,11 @@ msgstr ""
 "If for some reason the manual comparison is preferred, the fingerprint in "
 "the above example is indeed the fingerprint of club1.fr."
 
-#: ../../services/ssh.md:42
+#: ../../services/ssh.md:57
 msgid "Se connecter"
 msgstr "Connection"
 
-#: ../../services/ssh.md:45
+#: ../../services/ssh.md:60
 msgid ""
 "Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie "
 "précédente](#avant-de-se-connecter-pour-le-première-fois). Il existe ensuite "
@@ -1910,19 +1952,19 @@ msgstr ""
 "(#sauthentifier-par-mot-de-passe), however it is less secure than using a "
 "[public key](#sauthentifier-avec-une-clé-publique)."
 
-#: ../../services/ssh.md:51
+#: ../../services/ssh.md:66
 msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
-#: ../../services/ssh.md:53
+#: ../../services/ssh.md:68
 msgid ""
-"On utilise la commande suivante dans le terminal pour se connecter  "
+"On utilise la commande suivante dans le terminal pour se connecter "
 "(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgstr ""
 "We use the following command in the terminal to connect (replace `<login>` "
 "with your CLUB1 **login**):"
 
-#: ../../services/ssh.md:58
+#: ../../services/ssh.md:73
 msgid ""
 "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
 "mot de passe ne s'affiche pas au moment de l'écriture)."
@@ -1930,17 +1972,17 @@ msgstr ""
 "You must then enter your CLUB1 **password** (it is normal that the password "
 "is not displayed at the time of writing)."
 
-#: ../../services/ssh.md:61
+#: ../../services/ssh.md:76
 msgid "S'authentifier avec une clé publique"
 msgstr "Authenticate with a public key"
 
-#: ../../services/ssh.md:63
+#: ../../services/ssh.md:78
 msgid ""
 "L'authentification par clé publique nécessite une paire de clé de "
 "chiffrement. Pour créer ces clés, on utilise la commande ci-dessous. Une "
 "_phrase de passe_ sera demandée lors de la génération des clés, elle permet "
 "de les stocker de manière sécurisée. Sur Linux, les clés seront "
-"automatiquement déverouillées lors de l'ouverture d'une session, il ne faut "
+"automatiquement déverrouillées lors de l'ouverture d'une session, il ne faut "
 "donc pas hésiter à choisir une longue phrase de passe."
 msgstr ""
 "Public key authentication requires an encryption key pair. To create these "
@@ -1949,7 +1991,7 @@ msgstr ""
 "keys will be automatically unlocked when opening a session, so do not "
 "hesitate to choose a long passphrase."
 
-#: ../../services/ssh.md:72
+#: ../../services/ssh.md:87
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
@@ -1961,7 +2003,7 @@ msgstr ""
 "`<login>` with your CLUB1 **login**). It will ask you to enter you CLUB1 "
 "**password** to work."
 
-#: ../../services/ssh.md:79
+#: ../../services/ssh.md:94
 msgid ""
 "Finalement, on utilise toujours la même commande pour se connecter. Mais "
 "cette fois c'est les clés qui seront utilisées. Si elles ne sont pas déjà "
@@ -1971,7 +2013,7 @@ msgstr ""
 "keys that will be used. If they are not already unlocked, the _passphrase_ "
 "will be prompted."
 
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:52
 msgid "`22` (par défaut)"
 msgstr "`22` (default)"
 
@@ -2114,7 +2156,7 @@ msgstr ""
 #: ../../services/webdav.md:34
 msgid ""
 "Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-"
-"éxistants, tous les deux appelés `Default`, mais il est possible d'en créer "
+"existants, tous les deux appelés `Default`, mais il est possible d'en créer "
 "d'autres."
 msgstr ""
 "Each member has a pre-existing address book and calendar, both called "
@@ -2167,65 +2209,65 @@ msgid ""
 "({numref}`fig:tutos-connexion-linux-connexion`) :"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:18
+#: ../../tutos/connexion-linux.md:19
 msgid "Serveur : `club1.fr`"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:19
+#: ../../tutos/connexion-linux.md:20
 msgid "Type : `SSH`"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:20
+#: ../../tutos/connexion-linux.md:21
 msgid "Dossier : `/`"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:21
+#: ../../tutos/connexion-linux.md:22
 msgid "Nom d'utilisateur : rentrez votre identifiant CLUB1"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:22
+#: ../../tutos/connexion-linux.md:23
 msgid "Mot de passe : rentrez votre mot de passe CLUB1"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:24
+#: ../../tutos/connexion-linux.md:25
 msgid ""
 "Pour finir vous pouvez cocher la case \"Mémoriser ce mot de passe\" afin de "
 "ne pas avoir à le retaper plus tard, puis cliquer sur \"Se connecter\"."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:32
+#: ../../tutos/connexion-linux.md:33
 msgid "capture d'écran fenêtre de connexion"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:32
+#: ../../tutos/connexion-linux.md:33
 msgid "Fenêtre de connexion."
 msgstr "Connection window."
 
-#: ../../tutos/connexion-linux.md:35
+#: ../../tutos/connexion-linux.md:36
 msgid ""
 "Vous êtes maintenant connecté au serveur ({numref}`fig:tutos-connexion-linux-"
 "dossier`)."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:42
+#: ../../tutos/connexion-linux.md:43
 msgid "capture d'écran dossiers du serveur dans l'explorateur de fichier"
 msgstr "screenshot of server folders in file explorer"
 
-#: ../../tutos/connexion-linux.md:42
+#: ../../tutos/connexion-linux.md:43
 msgid "Dossiers du serveur dans l'explorateur de fichier."
 msgstr "Server folders in the file explorer."
 
-#: ../../tutos/connexion-linux.md:45
+#: ../../tutos/connexion-linux.md:46
 msgid ""
 "Cliquez sur le dossier `home` puis sur votre *dossier perso*, qui est votre "
 "identifiant CLUB1."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:47
+#: ../../tutos/connexion-linux.md:48
 msgid "Marque-page"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:50
+#: ../../tutos/connexion-linux.md:51
 msgid ""
 "Si on s'arrête là, il faudra recommencer toutes ces étapes à chaque nouveau "
 "redémarrage de l'ordinateur car cette connexion ne sera pas sauvegardée. "
@@ -2233,23 +2275,23 @@ msgid ""
 "(**bookmark** en anglais)."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:53
+#: ../../tutos/connexion-linux.md:55
 msgid "Selon votre explorateur de fichiers :"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:54
+#: ../../tutos/connexion-linux.md:57
 msgid ""
 "Depuis le *dossier perso* : dans la barre de menu, cliquez sur \"Marque-"
 "pages\" puis \"Ajouter un marque-page\""
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:55
+#: ../../tutos/connexion-linux.md:58
 msgid ""
 "Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "
 "\"ajouter marque-page\", ou autre formulation similaire"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:57
+#: ../../tutos/connexion-linux.md:60
 msgid ""
 "Vous pouvez désormais modifier tous vos fichiers facilement depuis votre "
 "explorateur de fichiers !"
@@ -2259,41 +2301,41 @@ msgstr ""
 msgid "Utiliser Tiny tiny RSS"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:3
+#: ../../tutos/flux-rss.md:4
 msgid ""
 "Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1](/"
 "services/rss.md)."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:5
+#: ../../tutos/flux-rss.md:6
 msgid ""
 "Cet {term}`agrégateur de flux` {term}`RSS` permet de \"s'abonner\" à de "
 "multiples sites web, pour recevoir des notifications lorsqu'un nouvel "
 "article est posté et pour tous les consulter dans un fil d'actualités commun."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:9
+#: ../../tutos/flux-rss.md:10
 msgid "Accéder à son compte de flux RSS"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:11
+#: ../../tutos/flux-rss.md:13
 msgid ""
 "Pour accéder à votre compte, vous pouvez vous connecter avec vos "
 "identifiants CLUB1 à cette adresse : <https://rss.club1.fr/>"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:13
+#: ../../tutos/flux-rss.md:15
 msgid "S'abonner à un flux RSS"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:15
+#: ../../tutos/flux-rss.md:18
 msgid ""
 "Pour recevoir les dernières nouveautés d'un site web, il faut \"s'abonner à "
 "son flux d'actualités\". Pour cela, le plus simple est de l'ajouter depuis "
 "l'interface de _Tiny Tiny RSS_."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:19
+#: ../../tutos/flux-rss.md:22
 msgid ""
 "Vous aurez besoin de l'adresse (aussi appelée URL) du site web auquel vous "
 "voulez vous abonner. Pour l'obtenir, vous pouvez visiter le site en question "
@@ -2301,21 +2343,21 @@ msgid ""
 "la barre de recherche."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:24
+#: ../../tutos/flux-rss.md:27
 msgid ""
 "Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, "
 "puis sur `s'abonner au flux...`"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:26
-msgid "![visualisation du menu](/_static/tutos/flux-rss/capture_1.png)"
+#: ../../tutos/flux-rss.md:29
+msgid "![visualisation du menu](flux-rss/capture_1.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:26
+#: ../../tutos/flux-rss.md:29
 msgid "visualisation du menu"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:28
+#: ../../tutos/flux-rss.md:31
 msgid ""
 "Entrez l'url du site dont vous voulez obtenir le flux RSS, par exemple ici "
 "le blog de Fred Turner. Si vous avez créé des catégories, vous pouvez en "
@@ -2323,61 +2365,61 @@ msgid ""
 "tard) puis cliquez sur `S'abonner`."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:33
+#: ../../tutos/flux-rss.md:36
 msgid ""
 "Il est possible qu'un site ne propose pas de flux RSS, dans ce cas il ne "
 "sera malheureusement pas possible de s'y abonner."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:37
-msgid "![lien vers site](/_static/tutos/flux-rss/capture_2.png)"
+#: ../../tutos/flux-rss.md:40
+msgid "![lien vers site](flux-rss/capture_2.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:37
+#: ../../tutos/flux-rss.md:40
 msgid "lien vers site"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:39
+#: ../../tutos/flux-rss.md:42
 msgid ""
 "Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé "
 "de sélectionner `Atom` car c'est un format de données plus récent."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:41
-msgid "![Atom vs RSS](/_static/tutos/flux-rss/capture_3.png)"
+#: ../../tutos/flux-rss.md:45
+msgid "![Atom vs RSS](flux-rss/capture_3.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:41
+#: ../../tutos/flux-rss.md:45
 msgid "Atom vs RSS"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:43
+#: ../../tutos/flux-rss.md:47
 msgid ""
 "Et voilà ! Vous vous êtes abonné à votre premier flux d'actualités. À partir "
 "de maintenant il vous est possible de lire les derniers articles de ce site "
 "depuis l'agrégateur."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:46
+#: ../../tutos/flux-rss.md:50
 msgid ""
 "Vous pouvez bien-sûr vous abonner à plusieurs flux, c'est même recommandé !"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:48
+#: ../../tutos/flux-rss.md:52
 msgid ""
 "C'est bien joli tout ça, mais quand on suit beaucoup de sites, ça met un peu "
 "le bazar de tout rassembler dans un seul fil !"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:51
+#: ../../tutos/flux-rss.md:55
 msgid "Pour résoudre ce problème, il est possible d'utiliser les catégories."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:53
+#: ../../tutos/flux-rss.md:57
 msgid "Utiliser les catégories"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:55
+#: ../../tutos/flux-rss.md:60
 msgid ""
 "Les catégories permettent de rassembler les flux auxquels vous vous êtes "
 "abonné dans des groupes, un peu comme des dossier. Elles sont utiles par "
@@ -2385,71 +2427,71 @@ msgid ""
 "est abonné à beaucoup de sites."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:59
+#: ../../tutos/flux-rss.md:64
 msgid ""
 "Pour créer une catégorie, il faut retourner dans le menu en haut à droite de "
 "l'écran principal et cliquer sur `Configuration...`. Aller dans l'onglet "
 "Flux en haut de l'écran."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:62
-msgid "![Config catégories 1](/_static/tutos/flux-rss/capture_4.png)"
+#: ../../tutos/flux-rss.md:67
+msgid "![Config catégories 1](flux-rss/capture_4.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:62
+#: ../../tutos/flux-rss.md:67
 msgid "Config catégories 1"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:64
+#: ../../tutos/flux-rss.md:69
 msgid ""
 "Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie "
 "pour ranger vos articles."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:66
+#: ../../tutos/flux-rss.md:71
 msgid ""
 "En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux "
-"qu'il contient.  Pour modifier la catégorie d'un flux, il suffit de *cliquer "
+"qu'il contient. Pour modifier la catégorie d'un flux, il suffit de *cliquer "
 "glisser* le flux vers une nouvelle catégorie."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:69
+#: ../../tutos/flux-rss.md:74
 msgid "Choisir un mode d'affichage"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:71
+#: ../../tutos/flux-rss.md:77
 msgid "Par défaut, l'affichage se fait en mode combiné."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:73
-msgid "![Mode d'affichage combiné](/_static/tutos/flux-rss/capture_5.png)"
+#: ../../tutos/flux-rss.md:79
+msgid "![Mode d'affichage combiné](flux-rss/capture_5.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:73
+#: ../../tutos/flux-rss.md:79
 msgid "Mode d'affichage combiné"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:75
+#: ../../tutos/flux-rss.md:81
 msgid ""
 "Pour utiliser un mode d'affichage en liste avec un panneau de lecture "
-"séparé,  vous pouvez désactiver le \"mode combiné\" dans la configuration."
+"séparé, vous pouvez désactiver le \"mode combiné\" dans la configuration."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:78
-msgid "![Mode d'affichage en liste](/_static/tutos/flux-rss/capture_6.png)"
+#: ../../tutos/flux-rss.md:84
+msgid "![Mode d'affichage en liste](flux-rss/capture_6.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:78
+#: ../../tutos/flux-rss.md:84
 msgid "Mode d'affichage en liste"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:81
+#: ../../tutos/flux-rss.md:87
 msgid ""
 "Il est possible de passer en mode _trois colones_ avec le panneau de lecture "
 "à droite, ce qui est pratique lorsqu'on a un écran large."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:84
+#: ../../tutos/flux-rss.md:90
 msgid ""
 "Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`."
 msgstr ""
@@ -2499,7 +2541,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:24
 msgid ""
-"[drive](/services/drive.md) en accèdant à `https://drive.club1.fr` méthode "
+"[drive](/services/drive.md) en accédant à `https://drive.club1.fr` méthode "
 "la plus facile (ne nécessite aucun logiciel)"
 msgstr ""
 
@@ -2509,7 +2551,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:27
-msgid "[ssh](/services/ssh.md) plus acancée"
+msgid "[ssh](/services/ssh.md) plus avancée"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:28
@@ -2562,7 +2604,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:61
 msgid ""
-"Normalement, le naviguateur va afficher votre image si il en est capable, "
+"Normalement, le navigateur va afficher votre image si il en est capable, "
 "autrement, il vous proposerait de la télécharger."
 msgstr ""
 
@@ -2570,12 +2612,12 @@ msgstr ""
 msgid ""
 "Par exemple, la plupart des navigateurs arrivent à afficher des fichiers "
 "PDF, lire des MP3, tandis que des fichiers d'archives (Zip, Tar...) seront "
-"téléchargés car le naviguateur Web ne sait pas lire ce genre de fichier."
+"téléchargés car le navigateur Web ne sait pas lire ce genre de fichier."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:68
 msgid ""
-"Vous pouvez essayer de téléverser d'autres types de fichiers et d'accèder "
+"Vous pouvez essayer de téléverser d'autres types de fichiers et d'accéder "
 "aux URL correspondantes."
 msgstr ""
 
@@ -2586,11 +2628,11 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:72
 msgid ""
 "Ça y est ! Vous avez publié votre premier fichier sur le Web ! 🎉 L'adresse "
-"que vous avez tapé dans le naviguateur s'appelle une URL. Cette URL ne "
+"que vous avez tapé dans le navigateur s'appelle une URL. Cette URL ne "
 "changera pas tant que vous ne modifiez pas le nom du fichier. Pour partager "
 "ce fichier avec n'importe qui, il vous suffit de transmettre cette URL. "
-"Toutes les personnes explorant l'URL pourront accèder au fichier en "
-"l'affichant ou en le téléchargant, mais ne pourront pas le supprimer ou le "
+"Toutes les personnes explorant l'URL pourront accéder au fichier en "
+"l'affichant ou en le téléchargeant, mais ne pourront pas le supprimer ou le "
 "modifier. Pour arrêter de publier un fichier sur le Web, il vous suffit de "
 "le supprimer depuis votre espace perso, ou de le déplacer hors du dossier "
 "`static`."
@@ -2619,7 +2661,7 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:94
 msgid ""
 "Faisons une expérience (si vous ne l'avez pas déjà faite par vous même) : "
-"Dans votre naviguateur Web, retiez la partie correspondant au nom du fichier."
+"Dans votre navigateur Web, retirez la partie correspondant au nom du fichier."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:100
@@ -2633,7 +2675,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:105
-msgid "![index](/_static/tutos/mes-premiers-pas-sur-le-web/index.jpg)"
+msgid "![index](mes-premiers-pas-sur-le-web/index.jpg)"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:105
@@ -2668,7 +2710,7 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:123
 msgid ""
 "Ce type de fichier est très facile à éditer et a le mérite d'être lisible "
-"par un naviguateur Web."
+"par un navigateur Web."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:125
@@ -2699,8 +2741,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:147
 msgid ""
-"![aperçu d'un fichier texte](/_static/tutos/mes-premiers-pas-sur-le-web/"
-"screen_002.png)"
+"![aperçu d'un fichier texte](mes-premiers-pas-sur-le-web/screen_002.png)"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:147
@@ -2730,7 +2771,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:161
 msgid ""
-"Reprenons notre fichier TXT. Au dessus de ce que vous aviez précédement "
+"Reprenons notre fichier TXT. Au dessus de ce que vous aviez précédemment "
 "écrit, rajoutez la ligne suivante :"
 msgstr ""
 
@@ -2753,12 +2794,12 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:178
 msgid ""
 "Maintenant, téléversez à nouveau le fichier dans votre dossier `static`, "
-"accèdez à l'URL correspondante depuis votre naviguateur et découvrez le "
+"accédez à l'URL correspondante depuis votre navigateur et découvrez le "
 "résultat !"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:182
-msgid "![html](/_static/tutos/mes-premiers-pas-sur-le-web/screen_003.png)"
+msgid "![html](mes-premiers-pas-sur-le-web/screen_003.png)"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:182
@@ -2774,15 +2815,16 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:187
 msgid ""
 "Maintenant, regardons plus attentivement la ligne que nous venons d'ajouter. "
-"Le texte \"Bienvenue\" s'est vu affiché, __mais pas les élements `<h1>` et "
+"Le texte \"Bienvenue\" s'est vu affiché, __mais pas les éléments `<h1>` et "
 "`</h1>`__. On appelle ces deux éléments des __balises HTML__. Elles sont "
 "utilisés pour rajouter des informations à notre texte."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:193
 msgid ""
-"En l'occurence, la balise `<h1>` signifie : *les caractères qui suivent font "
-"partie d'un titre de niveau&nbsp;1*. Il s'agît d'une balise __ouvrante__."
+"En l'occurrence, la balise `<h1>` signifie : *les caractères qui suivent "
+"font partie d'un titre de niveau&nbsp;1*. Il s'agît d'une balise "
+"__ouvrante__."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:197
@@ -2800,7 +2842,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:204
 msgid ""
-"Le naviguateur Web, de son côté, a interprêté ces balises et à *compris* que "
+"Le navigateur Web, de son côté, a interprété ces balises et à *compris* que "
 "\"Bienvenue\" est un \"titre de niveau&nbsp;1\". Il applique ensuite un "
 "style par défaut associé à ce statut."
 msgstr ""
@@ -2808,7 +2850,7 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:208
 msgid ""
 "C'est globalement comme cela que fonctionne la language HTML, tout du moins "
-"les balises doubles. Evidement, il existe [des balises pour de nombreux "
+"les balises doubles. Évidemment, il existe [des balises pour de nombreux "
 "usages](https://developer.mozilla.org/fr/docs/Web/HTML/Element). Par "
 "exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas "
 "interprétés en HTML. C'est normal ! Pour faire des paragraphes, il faut "
@@ -2817,21 +2859,21 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:216
-msgid "Editer en local"
+msgid "Éditer en local"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:218
 msgid ""
 "Comme on commence à modifier souvent notre fichier, au lieu de devoir à "
-"chaque fois mettre à jour nos modificactions en le téléversant sur le "
+"chaque fois mettre à jour nos modifications en le téléversant sur le "
 "serveur, on va le modifier et l'afficher __en local__."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:222
 msgid ""
 "💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML. Il suffit "
-"de l'ouvrir avec votre naviguateur directement (par exemple en double "
-"cliquant dessus ou en le glissant dans votre naviguateur)."
+"de l'ouvrir avec votre navigateur directement (par exemple en double "
+"cliquant dessus ou en le glissant dans votre navigateur)."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:226
@@ -2850,8 +2892,8 @@ msgid ""
 "Cette méthode permet de synchroniser ses {index}`carnets d'adresses` et "
 "{index}`calendriers` entre le serveur et un appareil *Android*."
 msgstr ""
-"This method allows you to synchronize your {index}`address-books` and "
-"{index}`calendars` between the server and an *Android* device."
+"This method allows you to synchronize your {index}`address-books` and {index}"
+"`calendars` between the server and an *Android* device."
 
 #: ../../tutos/webdav-android.md:7
 msgid ""
@@ -2875,11 +2917,11 @@ msgstr ""
 "offering [*open source*](https://en.wikipedia.org/wiki/Open-source_software) "
 "apps without ads)."
 
-#: ../../tutos/webdav-android.md:14
+#: ../../tutos/webdav-android.md:16
 msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
 msgstr "[F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/)"
 
-#: ../../tutos/webdav-android.md:15
+#: ../../tutos/webdav-android.md:17
 msgid ""
 "[Google Plays store](https://play.google.com/store/apps/details?id=at."
 "bitfire.davdroid&hl=fr&gl=FR) (6€)"
@@ -2887,11 +2929,11 @@ msgstr ""
 "[Google Plays store](https://play.google.com/store/apps/details?id=at."
 "bitfire.davdroid&hl=en&gl=GB) (6€)"
 
-#: ../../tutos/webdav-android.md:17
+#: ../../tutos/webdav-android.md:19
 msgid "Premier lancement"
 msgstr "First launch"
 
-#: ../../tutos/webdav-android.md:20
+#: ../../tutos/webdav-android.md:22
 msgid ""
 "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
@@ -2899,15 +2941,15 @@ msgstr ""
 "When launching __DAVx5__, do not check the boxes concerning task management "
 "({numref}`fig:tutos-webdav-android-taches`)."
 
-#: ../../tutos/webdav-android.md:28
+#: ../../tutos/webdav-android.md:30
 msgid "capture d'écran gestion des tâches"
 msgstr "screenshot of task management"
 
-#: ../../tutos/webdav-android.md:28
+#: ../../tutos/webdav-android.md:30
 msgid "Gestion des tâches."
 msgstr "Task management."
 
-#: ../../tutos/webdav-android.md:31
+#: ../../tutos/webdav-android.md:33
 msgid ""
 "Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
@@ -2915,15 +2957,15 @@ msgstr ""
 "Then, allow it access to contacts and calendars (everything) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
 
-#: ../../tutos/webdav-android.md:40
+#: ../../tutos/webdav-android.md:42
 msgid "capture d'écran autorisations"
 msgstr "screenshot permissions"
 
-#: ../../tutos/webdav-android.md:40
+#: ../../tutos/webdav-android.md:42
 msgid "Accorder les autorisations."
 msgstr "Grant permissions."
 
-#: ../../tutos/webdav-android.md:43
+#: ../../tutos/webdav-android.md:45
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
 "intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`)."
@@ -2931,19 +2973,19 @@ msgstr ""
 "Finally, for more comfort, it is recommended to activate the synchronization "
 "at regular intervals ({numref}`fig:tutos-webdav-android-intervalles`)."
 
-#: ../../tutos/webdav-android.md:51
+#: ../../tutos/webdav-android.md:53
 msgid "capture d'écran synchro à intervalles"
 msgstr "interval sync screenshot"
 
-#: ../../tutos/webdav-android.md:51
+#: ../../tutos/webdav-android.md:53
 msgid "Synchronisation à intervalles réguliers."
 msgstr "Synchronization at regular intervals."
 
-#: ../../tutos/webdav-android.md:55
+#: ../../tutos/webdav-android.md:57
 msgid "Ajout du compte DAV"
 msgstr "Adding the DAV account"
 
-#: ../../tutos/webdav-android.md:58
+#: ../../tutos/webdav-android.md:60
 msgid ""
 "Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton "
 "orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`)."
@@ -2951,15 +2993,15 @@ msgstr ""
 "To add a new sync account, press the orange button on the bottom right "
 "({numref}`fig:tutos-webdav-android-accueil`)."
 
-#: ../../tutos/webdav-android.md:66
+#: ../../tutos/webdav-android.md:68
 msgid "capture d'écran accueil"
 msgstr "screenshot home"
 
-#: ../../tutos/webdav-android.md:66
+#: ../../tutos/webdav-android.md:68
 msgid "Écran d'accueil de DAVx5."
 msgstr "DAVx5 home screen."
 
-#: ../../tutos/webdav-android.md:69
+#: ../../tutos/webdav-android.md:71
 msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
@@ -2967,23 +3009,23 @@ msgstr ""
 "Select the second option: \"Login with URL and username\" ({numref}`fig:"
 "tutos-webdav-android-connexion`)."
 
-#: ../../tutos/webdav-android.md:77
+#: ../../tutos/webdav-android.md:79
 msgid "capture d'écran connexion"
 msgstr "screenshot login"
 
-#: ../../tutos/webdav-android.md:77
+#: ../../tutos/webdav-android.md:79
 msgid "Connexion avec une URL et un nom d'utilisateur."
 msgstr "Login with URL and username."
 
-#: ../../tutos/webdav-android.md:80
+#: ../../tutos/webdav-android.md:82
 msgid "URL de base :"
 msgstr "Base URL:"
 
-#: ../../tutos/webdav-android.md:84
+#: ../../tutos/webdav-android.md:86
 msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgstr "The username and password are your CLUB1 credentials."
 
-#: ../../tutos/webdav-android.md:87
+#: ../../tutos/webdav-android.md:89
 msgid ""
 "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
 "pour ce compte qui risque fortement de ressembler à votre adresse email "
@@ -3001,25 +3043,25 @@ msgstr ""
 "compatible with the web mail client of CLUB1 ({numref}`fig:tutos-webdav-"
 "android-groupes`)."
 
-#: ../../tutos/webdav-android.md:98
+#: ../../tutos/webdav-android.md:102
 msgid "capture d'écran groupes"
 msgstr "screenshot groups"
 
-#: ../../tutos/webdav-android.md:98
+#: ../../tutos/webdav-android.md:102
 msgid "Méthode de stockage des groupes."
 msgstr "Groups storage method."
 
-#: ../../tutos/webdav-android.md:101
+#: ../../tutos/webdav-android.md:105
 msgid "Encore une dernière étape : quoi synchroniser ?"
 msgstr "One last step: what to synchronize?"
 
-#: ../../tutos/webdav-android.md:103
+#: ../../tutos/webdav-android.md:107
 msgid ""
 "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
 "vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-"
 "android-selection`). Pour cela, il suffit de les cocher en naviguant entre "
 "les onglets \"Carnets d'adresses\" et \"Agendas\". Il sera toujours possible "
-"d'accèder et modifier ces réglages  plus tard très facilement."
+"d'accéder et modifier ces réglages  plus tard très facilement."
 msgstr ""
 "DAVx5 lets us select the contact books and calendars you want to synchronize "
 "on your phone ({numref}`fig:tutos-webdav-android-selection`). To do this, "
@@ -3027,15 +3069,15 @@ msgstr ""
 "tabs. It will always be possible to access and modify these settings later "
 "very easily."
 
-#: ../../tutos/webdav-android.md:113
+#: ../../tutos/webdav-android.md:118
 msgid "capture d'écran sélection"
 msgstr "screenshot selection"
 
-#: ../../tutos/webdav-android.md:113
+#: ../../tutos/webdav-android.md:118
 msgid "Liste des carnets d'adresses disponibles."
 msgstr "List of available address books."
 
-#: ../../tutos/webdav-android.md:117
+#: ../../tutos/webdav-android.md:122
 msgid ""
 "Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
 "y en aura toujours un qui s'appelle : \"Default\"."
@@ -3043,7 +3085,7 @@ msgstr ""
 "By default, even if you have not yet created any address books or calendars, "
 "there will always be one called: \"Default\"."
 
-#: ../../tutos/webdav-android.md:121
+#: ../../tutos/webdav-android.md:126
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
@@ -3051,7 +3093,7 @@ msgstr ""
 "From this interface, it is also possible to __create or delete __ address "
 "books or calendars, via the menu at the top right."
 
-#: ../../tutos/webdav-android.md:123
+#: ../../tutos/webdav-android.md:129
 msgid ""
 "À chaque fois que vous faites des modifications à cet endroit, il est "
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
@@ -3060,11 +3102,11 @@ msgstr ""
 "Whenever you make changes there, it's a good idea to __re-run a sync__ by "
 "pressing the orange button at the bottom right."
 
-#: ../../tutos/webdav-android.md:126
+#: ../../tutos/webdav-android.md:134
 msgid "Conclusion"
 msgstr "Conclusion"
 
-#: ../../tutos/webdav-android.md:129
+#: ../../tutos/webdav-android.md:137
 msgid ""
 "Et voilà ! Si tout va bien, vous avez réussi à synchroniser vos contacts et/"
 "ou calendriers entre le serveur CLUB1 et un appareil *Android*. Les carnets "
@@ -3076,7 +3118,7 @@ msgstr ""
 "The synchronized address books and calendars are now accessible via the "
 "contact app of your choice and the calendar app of your choice."
 
-#: ../../tutos/webdav-android.md:133
+#: ../../tutos/webdav-android.md:142
 msgid ""
 "Si vous préferez utiliser des applis *open sources* et non orientés "
 "*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
@@ -3084,25 +3126,25 @@ msgstr ""
 "If you prefer to use *open source* and non-*Google*-oriented apps, we "
 "recommend __Simple Contacts__ and __Simple Calendar__."
 
-#: ../../tutos/webdav-android.md:135
+#: ../../tutos/webdav-android.md:145
 msgid ""
 "[Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "contacts.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:136
+#: ../../tutos/webdav-android.md:147
 msgid ""
 "[Contact Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.contacts&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:137
+#: ../../tutos/webdav-android.md:149
 msgid ""
 "[Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
 "calendar.pro/) sur F-droid"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:138
+#: ../../tutos/webdav-android.md:151
 msgid ""
 "[Calendar Simple](https://play.google.com/store/apps/details?id=com."
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
