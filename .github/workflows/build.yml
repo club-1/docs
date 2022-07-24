@@ -8,6 +8,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -17,7 +18,13 @@ jobs:
         run: >
           npx --package markdownlint-cli@0.32.0 --
           markdownlint '**/*.md' --ignore '_*' --ignore README.md
-  html:
+      - name: Make check-po
+        run: |
+          echo '::add-matcher::.github/matchers/gettext.json'
+          make check-po
+          echo '::remove-matcher owner=gettext::'
+          echo '::remove-matcher owner=gettext-no-severity::'
+  sphinx:
     runs-on: ubuntu-22.04
     env:
       SPHINXOPTS: --color -n
@@ -41,12 +48,6 @@ jobs:
         run: make html/en O='-w errors.html.en.log'
       - name: Make linkcheck
         run: make linkcheck --keep-going || true
-      - name: Make check-po
-        run: |
-          echo '::add-matcher::.github/matchers/gettext.json'
-          make check-po
-          echo '::remove-matcher owner=gettext::'
-          echo '::remove-matcher owner=gettext-no-severity::'
       - name: Collect Sphinx errors
         if: ${{ always() }}
         run: |
