@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-24 12:04+0200\n"
+"POT-Creation-Date: 2022-07-24 16:26+0200\n"
 "PO-Revision-Date: 2022-07-23 17:44+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
-"\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
+">\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -318,6 +318,8 @@ msgid ""
 "Ce dossier est la porte la plus proche vers le {term}`Web` car il permet de "
 "[publier des sites Web](/services/web.md)."
 msgstr ""
+"This folder is the closest door to the {term}`Web` as it allows to [publish "
+"websites](/services/web.md)."
 
 #: ../../info/espace-personnel.md:52
 msgid ""
@@ -484,11 +486,11 @@ msgstr "Server infos"
 
 #: ../../info/general.md:21
 msgid "Il vit dans le placard comme _Harry Potter_..."
-msgstr ""
+msgstr "It lives in the closet like _Harry Potter_..."
 
 #: ../../info/general.md:23
 msgid "c'est le serveur."
-msgstr ""
+msgstr "it's the server."
 
 #: ../../info/general.md:25
 msgid "Matériel et infrastructure"
@@ -686,6 +688,7 @@ msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
+"access to the members-only matrix room for project monitoring and assistance"
 
 #: ../../info/general.md:123
 msgid ""
@@ -707,7 +710,7 @@ msgstr ""
 
 #: ../../info/general.md:132
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../info/index.md:1
 msgid "Informations sur le serveur"
@@ -1851,8 +1854,8 @@ msgstr "SSH remote connection"
 #, fuzzy
 #| msgid ""
 #| "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
-#| "`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour les "
-#| "utilisateurs avancés."
+#| "`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour "
+#| "les utilisateurs avancés."
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
 "`CLI` à un serveur. Ses principaux avantages sont d'être entièrement chiffré "
@@ -2196,6 +2199,11 @@ msgid ""
 "Ubuntu_(syst%C3%A8me_d%27exploitation)), les instructions seront donc "
 "similaires."
 msgstr ""
+"Start by opening your file explorer. In this tutorial, the [Nemo](https://en."
+"wikipedia.org/wiki/Nemo_(file_manager)) software is used. It is the default "
+"file explorer installed on [Linux Mint](https://en.wikipedia.org/wiki/"
+"Linux_Mint). It is quite similar to the one integrated in [Ubuntu](https://"
+"en.wikipedia.org/wiki/Ubuntu), so the instructions will be similar."
 
 #: ../../tutos/connexion-linux.md:15
 msgid ""
@@ -2208,36 +2216,40 @@ msgid ""
 "Remplir ensuite les informations suivantes dans la fenêtre de connexion "
 "({numref}`fig:tutos-connexion-linux-connexion`) :"
 msgstr ""
+"Then fill in the following information in the connection window ({numref}"
+"`fig:tutos-connexion-linux-connexion`):"
 
 #: ../../tutos/connexion-linux.md:19
 msgid "Serveur : `club1.fr`"
-msgstr ""
+msgstr "Server: `club1.fr`"
 
 #: ../../tutos/connexion-linux.md:20
 msgid "Type : `SSH`"
-msgstr ""
+msgstr "Type: `SSH`"
 
 #: ../../tutos/connexion-linux.md:21
 msgid "Dossier : `/`"
-msgstr ""
+msgstr "File: `/`"
 
 #: ../../tutos/connexion-linux.md:22
 msgid "Nom d'utilisateur : rentrez votre identifiant CLUB1"
-msgstr ""
+msgstr "Username: enter your CLUB1 username"
 
 #: ../../tutos/connexion-linux.md:23
 msgid "Mot de passe : rentrez votre mot de passe CLUB1"
-msgstr ""
+msgstr "Password: enter your CLUB1 password"
 
 #: ../../tutos/connexion-linux.md:25
 msgid ""
 "Pour finir vous pouvez cocher la case \"Mémoriser ce mot de passe\" afin de "
 "ne pas avoir à le retaper plus tard, puis cliquer sur \"Se connecter\"."
 msgstr ""
+"Finally, you can check the \"Remember this password\" box so that you don't "
+"have to type it in again later, then click on \"Log in\"."
 
 #: ../../tutos/connexion-linux.md:33
 msgid "capture d'écran fenêtre de connexion"
-msgstr ""
+msgstr "screenshot login window"
 
 #: ../../tutos/connexion-linux.md:33
 msgid "Fenêtre de connexion."
