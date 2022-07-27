@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-07-24 16:26+0200\n"
-"PO-Revision-Date: 2022-07-23 17:44+0000\n"
+"PO-Revision-Date: 2022-07-27 13:51+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,7 +694,7 @@ msgstr ""
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
-msgstr ""
+msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
 #: ../../info/general.md:126
 msgid "Politique et vie privée"
@@ -891,16 +891,12 @@ msgstr ""
 "`.pot` files automatically generated from the Markdown source files."
 
 #: ../../interne/meta-doc.md:46
-#, fuzzy
-#| msgid ""
-#| "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
-#| "dans la documentation, par exemple les images."
 msgid ""
 "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
 "dans la documentation, par exemple les \"feuilles de style\"."
 msgstr ""
 "`_static/`: folder that contains the other files to include in the "
-"documentation, for instance images."
+"documentation, for instance the \"style sheets\"."
 
 #: ../../interne/meta-doc.md:48
 msgid ""
@@ -1051,24 +1047,22 @@ msgid ""
 "{term}`Sphinx` se chargera de vérifier que l'image existe toujours et de la "
 "télécharger pour les formats hors-ligne."
 msgstr ""
+"If it is a generic image already present on the {term}`Web`, it is not "
+"necessary to copy it into the documentation, a simple link will suffice. "
+"{term}`Sphinx` will take care of verifying that the image still exists and "
+"downloading it for offline formats."
 
 #: ../../interne/meta-doc.md:111
-#, fuzzy
-#| msgid ""
-#| "Les images à inclure dans le contenu doivent être ajoutées au dossier "
-#| "`_static` (voir [plus haut](#arborescence-de-fichiers)). Il est "
-#| "intéressant de les y regrouper dans un dossier répliquant le chemin de la "
-#| "page dans laquelle elles seront inclues."
 msgid ""
 "Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux les "
 "sauvegarder dans le dossier, avec les fichiers source. Il est intéressant de "
 "les y regrouper dans un dossier portant le même nom que la page dans "
 "laquelle elles seront inclues (en omettant l'extension)."
 msgstr ""
-"Images to be included in the content must be added to the `_static` folder "
-"(see [above](#arborescence-de-fichiers)). It is interesting to group them "
-"there in a folder replicating the path of the page in which they will be "
-"included."
+"For images more specific to the CLUB1 documentation, it is better to save "
+"them in the folder, with the source files. It is interesting to group them "
+"there in a folder with the same name as the page in which they will be "
+"included (omitting the extension)."
 
 #: ../../interne/meta-doc.md:118
 msgid ""
@@ -1134,17 +1128,15 @@ msgid "Gestionnaire de compilation."
 msgstr "Build manager."
 
 #: ../../interne/meta-doc.md:149
-#, fuzzy
-#| msgid ""
-#| "Compilateur de documentation. --- [Wikipedia](https://fr.wikipedia.org/"
-#| "wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgid ""
 "Générateur de documentation. Il permet de compiler dans différents formats "
 "une documentation rédigée en texte brut. C'est l'outil utilisé pour générer "
 "la documentation présente. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
-"Documentation compiler. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Documentation generator. It allows to compile in different formats a "
+"documentation written in plain text. This is the tool used to generate the "
+"present documentation. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
 #: ../../interne/meta-doc.md:155
@@ -1851,11 +1843,6 @@ msgid "Connexion à distance SSH"
 msgstr "SSH remote connection"
 
 #: ../../services/ssh.md:6
-#, fuzzy
-#| msgid ""
-#| "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
-#| "`CLI` à un serveur. L'accès SSH peut se révéler très utile, surtout pour "
-#| "les utilisateurs avancés."
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
 "`CLI` à un serveur. Ses principaux avantages sont d'être entièrement chiffré "
@@ -1864,7 +1851,10 @@ msgid ""
 "`SCP`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Secure_Shell)"
 msgstr ""
 "(_Secure SHell_) Protocol allowing to connect remotely in {term}`CLI` to a "
-"server. SSH access can be very useful, especially for advanced users."
+"server. Its main advantages are being fully encrypted and providing full "
+"access to server functionality. There are SSH extensions for more specific "
+"uses like {term}`SFTP` or {term}`SCP`. --- [Wikipedia](https://en.wikipedia."
+"org/wiki/Secure_Shell)"
 
 #: ../../services/ssh.md:13
 msgid ""
@@ -1874,6 +1864,10 @@ msgid ""
 "l'affichage des propriétaires d'un fichier). --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
 msgstr ""
+"(_SSH File Transfer Protocol_) File transfer and remote management protocol "
+"based on {term}`SSH`. It is thus fully encrypted, and therefore comparable "
+"to {term}`FTPS`, but it offers more features (e.g. display of file owners). "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
 
 #: ../../services/ssh.md:20
 msgid ""
@@ -1882,6 +1876,10 @@ msgid ""
 "{term}`CLI` du même nom. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Secure_copy)"
 msgstr ""
+"(_Secure CoPy_) Protocol for copying files between two computers based on "
+"{term}`SSH`. SCP is mainly used with the {term}`CLI` {term}`client` of the "
+"same name. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Secure_copy_protocol)"
 
 #: ../../services/ssh.md:25
 msgid ""
@@ -2260,6 +2258,8 @@ msgid ""
 "Vous êtes maintenant connecté au serveur ({numref}`fig:tutos-connexion-linux-"
 "dossier`)."
 msgstr ""
+"You are now connected to the server ({numref}`fig:tutos-connexion-linux-"
+"dossier`)."
 
 #: ../../tutos/connexion-linux.md:43
 msgid "capture d'écran dossiers du serveur dans l'explorateur de fichier"
@@ -2274,10 +2274,12 @@ msgid ""
 "Cliquez sur le dossier `home` puis sur votre *dossier perso*, qui est votre "
 "identifiant CLUB1."
 msgstr ""
+"Click on the `home` folder then on your *personal folder*, which is your "
+"CLUB1 login."
 
 #: ../../tutos/connexion-linux.md:48
 msgid "Marque-page"
-msgstr ""
+msgstr "Bookmark"
 
 #: ../../tutos/connexion-linux.md:51
 msgid ""
@@ -2286,28 +2288,35 @@ msgid ""
 "Pour remédier à ce problème, il faut ajouter un **marque-page** "
 "(**bookmark** en anglais)."
 msgstr ""
+"If we stop there, all these steps will have to be repeated each time the "
+"computer is restarted because this connection will not be saved. To remedy "
+"this problem, you must add a **bookmark**."
 
 #: ../../tutos/connexion-linux.md:55
 msgid "Selon votre explorateur de fichiers :"
-msgstr ""
+msgstr "Depending on your file explorer:"
 
 #: ../../tutos/connexion-linux.md:57
 msgid ""
 "Depuis le *dossier perso* : dans la barre de menu, cliquez sur \"Marque-"
 "pages\" puis \"Ajouter un marque-page\""
 msgstr ""
+"From the *personal folder*: in the menu bar, click on \"Bookmarks\" then "
+"\"Add a bookmark\""
 
 #: ../../tutos/connexion-linux.md:58
 msgid ""
 "Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "
 "\"ajouter marque-page\", ou autre formulation similaire"
 msgstr ""
+"From the `home` folder: right click on your *personal folder* then \"add "
+"bookmark\", or other similar wording"
 
 #: ../../tutos/connexion-linux.md:60
 msgid ""
 "Vous pouvez désormais modifier tous vos fichiers facilement depuis votre "
 "explorateur de fichiers !"
-msgstr ""
+msgstr "You can now edit all your files easily from your file explorer!"
 
 #: ../../tutos/flux-rss.md:1
 msgid "Utiliser Tiny tiny RSS"
