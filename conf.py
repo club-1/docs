@@ -53,6 +53,7 @@ myst_enable_extensions = [
 
 # Define some substitution strings.
 myst_substitutions = {
+    'copyright': copyright,
     'sphinx_version': sphinx_version,
     'myst_version': myst_version,
     'rtd_version': rtd_version,
@@ -201,6 +202,8 @@ latex_show_pagerefs = True
 
 latex_additional_files = ['_templates/club1.sty', '_templates/packages.sty']
 
+latex_license = _(open('_templates/license.txt', 'r').read().strip()).replace('<', r'\url{').replace('>', '}')
+
 latex_elements = {
     # Always use A4 paper.
     'papersize': 'a4paper',
@@ -215,12 +218,19 @@ latex_elements = {
     # Packages to include before 'hyperref' and after 'sphinx'.
     'extrapackages': r'\usepackage{packages}',
     # Add custom preamble after 'hyperref' and 'sphinx'.
-    'preamble': r'\usepackage{club1}',
+    'preamble': r'''
+\usepackage{club1}
+\newcommand\sphinxbackoftitlepage{\null\vfill
+Copyright © %s.
+
+%s}
+''' % (copyright, latex_license),
 }
 
 # -- Options for linkcheck output --------------------------------------------
 
 # Allow some redirects.
 linkcheck_allowed_redirects = {
-        r'https://github\.com/club-1/docs/edit/.*': r'https://github\.com/login\?return_to=https%3A%2F%2Fgithub\.com%2Fclub-1%2Fdocs%2Fedit%2F.*'
+    r'https://github\.com/club-1/docs/edit/.*': r'https://github\.com/login\?return_to=https%3A%2F%2Fgithub\.com%2Fclub-1%2Fdocs%2Fedit%2F.*',
+    r'https://gnu\.org/licenses/fdl\.html': r'https://www\.gnu\.org/licenses/fdl-[0-9]+\.[0-9]+\.html',
 }
