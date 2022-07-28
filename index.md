@@ -1,6 +1,13 @@
 Documentation de l'hébergement CLUB1
 ====================================
 
+````{only} not latex
+Copyright © {{ copyright }}.
+
+```{include} _templates/license.txt
+```
+````
+
 ```{toctree}
 ---
 maxdepth: 2

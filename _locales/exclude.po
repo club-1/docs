@@ -25,6 +25,9 @@ msgstr ""
 msgid "CardDAV"
 msgstr ""
 
+msgid "Copyright © {{ copyright }}."
+msgstr ""
+
 msgid "DejaVu"
 msgstr ""
 
