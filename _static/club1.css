@@ -59,3 +59,12 @@ dt:target {
 .rst-versions.shift-up {
 	overflow-y: auto;
 }
+
+/* Override monospace fonts */
+.rst-content kbd,
+.rst-content pre,
+.rst-content samp,
+.rst-content code,
+.rst-content tt {
+	font-family: Noto Mono,Liberation Mono,SFMono-Regular,Consolas,monospace !important;
+}
