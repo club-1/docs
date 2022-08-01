@@ -2,7 +2,7 @@ from sphinx.application import Sphinx
 from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.util import logging
 from docutils import nodes
-from jinja2.utils import escape
+from markupsafe import escape
 
 from typing import Callable, Optional
 
