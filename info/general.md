@@ -24,7 +24,7 @@ c'est le serveur.
 
 ### Matériel et infrastructure
 
-Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
+Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par fibre
 optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
 La connexion internet est fournie par Bouygues Telecom.
 
@@ -47,6 +47,12 @@ et les services en dépendant sont ensuite automatiquement redémarrés grâce �
 [_needrestart_](https://packages.debian.org/fr/stable/needrestart).
 
 ### Logiciels et bibliothèques installés
+
+L'ensemble des logiciels installés sont sous **licence libre**,
+à part pour ceux de la liste suivante, dont il n'existe pas d'alternative libres :
+
+- BIOS/BMC Supermicro
+- Microcode Intel
 
 Un certain nombre de logiciels et de bibliothèques sont déjà installés.
 En voici une liste _non exhaustive_ :
