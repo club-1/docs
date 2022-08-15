@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-30 00:22+0200\n"
+"POT-Creation-Date: 2022-08-15 19:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,13 +27,6 @@ msgstr ""
 
 #: ../../glossaire.md:8
 msgid ""
-"{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
-"--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)"
-msgstr ""
-
-#: ../../glossaire.md:13
-msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
 "général composée d'un ensemble de fonctions qu'un logiciel peut utiliser à "
@@ -41,7 +34,7 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:19
+#: ../../glossaire.md:14
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -50,41 +43,35 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:18
+#: ../../glossaire.md:13
 msgid "Client"
 msgstr ""
 
-#: ../../glossaire.md:26
+#: ../../glossaire.md:21
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:23 ../../services/email.md:8
+#: ../../glossaire.md:18 ../../services/email.md:8
 msgid "Client Web"
 msgstr ""
 
-#: ../../glossaire.md:31
+#: ../../glossaire.md:26
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:34
-msgid ""
-"Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/Git)"
-msgstr ""
-
-#: ../../glossaire.md:38
+#: ../../glossaire.md:29
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:43
+#: ../../glossaire.md:34
 msgid ""
 "(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
 "les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -92,11 +79,11 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:40
+#: ../../glossaire.md:31
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:48
+#: ../../glossaire.md:39
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -105,7 +92,7 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:55
+#: ../../glossaire.md:46
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -115,22 +102,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:55
+#: ../../glossaire.md:46
 msgid "Réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:63
+#: ../../glossaire.md:54
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:59
+#: ../../glossaire.md:50
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossaire.md:67
+#: ../../glossaire.md:58
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -140,7 +127,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:75
+#: ../../glossaire.md:66
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -150,18 +137,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:75
+#: ../../glossaire.md:66
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:83
+#: ../../glossaire.md:74
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:87
+#: ../../glossaire.md:78
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -395,32 +382,33 @@ msgstr ""
 
 #: ../../info/general.md:27
 msgid ""
-"Le serveur est localisé en France à Pantin. Il est relié à internet par "
+"Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par "
 "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
-"descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc)."
+"descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc). La connexion "
+"internet est fournie par Bouygues Telecom."
 msgstr ""
 
-#: ../../info/general.md:30
+#: ../../info/general.md:31
 msgid "Caractéristiques techniques"
 msgstr ""
 
-#: ../../info/general.md:34
+#: ../../info/general.md:35
 msgid "Stockage :"
 msgstr ""
 
-#: ../../info/general.md:35
+#: ../../info/general.md:36
 msgid "SSD Système 300 Go"
 msgstr ""
 
-#: ../../info/general.md:36
+#: ../../info/general.md:37
 msgid "SSD Utilisateurs 1 To"
 msgstr ""
 
-#: ../../info/general.md:40
+#: ../../info/general.md:41
 msgid "Système d'exploitation"
 msgstr ""
 
-#: ../../info/general.md:42
+#: ../../info/general.md:43
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -430,17 +418,31 @@ msgid ""
 "org/fr/stable/needrestart)."
 msgstr ""
 
-#: ../../info/general.md:48
+#: ../../info/general.md:49
 msgid "Logiciels et bibliothèques installés"
 msgstr ""
 
-#: ../../info/general.md:50
+#: ../../info/general.md:51
+msgid ""
+"L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
+"ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
+msgstr ""
+
+#: ../../info/general.md:54
+msgid "BIOS/BMC Supermicro"
+msgstr ""
+
+#: ../../info/general.md:55
+msgid "Microcode Intel"
+msgstr ""
+
+#: ../../info/general.md:57
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
 msgstr ""
 
-#: ../../info/general.md:67
+#: ../../info/general.md:74
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -448,55 +450,79 @@ msgid ""
 "(#demandes-et-incidents)."
 msgstr ""
 
-#: ../../info/general.md:71
+#: ../../info/general.md:78
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../info/general.md:73
+#: ../../info/general.md:80
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
 "n'étant pas présente à tous les niveaux, le serveur pourrait être "
 "inaccessible pendant de courts laps de temps, par exemple lors d'une mise à "
-"jour du noyau. Cela dit, une disponibilité effective **supérieure à 90%** "
+"jour du noyau. Cela dit, une disponibilité effective **supérieure à 98%** "
 "devrait pouvoir être assurée."
 msgstr ""
 
-#: ../../info/general.md:80
+#: ../../info/general.md:87
 msgid "Sauvegardes"
 msgstr ""
 
-#: ../../info/general.md:86
+#: ../../info/general.md:93
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
-"5h. Elles sont stockées de manière dédupliquée et chiffrée à plusieurs "
-"endroits dont un dépôt off-site."
-msgstr ""
-
-#: ../../info/general.md:89 ../../services/email.md:37
-msgid "Voir aussi"
-msgstr ""
-
-#: ../../info/general.md:90
-msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
-msgstr ""
-
-#: ../../info/general.md:93
-msgid "Comptes des membres"
-msgstr ""
-
-#: ../../info/general.md:96
-msgid "Identifiant"
+"5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
+"Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
+"endroits dont un dépôt off-site fourni par OVH."
 msgstr ""
 
 #: ../../info/general.md:98
+msgid ""
+"Il s'agit de sauvegardes incrémentales avec une période de rétention d'une "
+"semaine. Il y a donc en permanence 7 jours d'historique disponible. En cas "
+"de défaillance matérielle, au maximum 24h de données seront perdues. Le bon "
+"déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io]"
+"(https://healthchecks.io/)"
+msgstr ""
+
+#: ../../info/general.md:103
+msgid "Les sauvegardes sont réparties en deux groupes :"
+msgstr ""
+
+#: ../../info/general.md:105
+msgid ""
+"**System** pour la configuration du serveur, les fichiers des applications "
+"et les bases de données."
+msgstr ""
+
+#: ../../info/general.md:106
+msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
+msgstr ""
+
+#: ../../info/general.md:108 ../../services/email.md:37
+msgid "Voir aussi"
+msgstr ""
+
+#: ../../info/general.md:109
+msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
+msgstr ""
+
+#: ../../info/general.md:112
+msgid "Comptes des membres"
+msgstr ""
+
+#: ../../info/general.md:115
+msgid "Identifiant"
+msgstr ""
+
+#: ../../info/general.md:117
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/1)."
 msgstr ""
 
-#: ../../info/general.md:101
+#: ../../info/general.md:120
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -506,71 +532,71 @@ msgid ""
 "services/git.md)."
 msgstr ""
 
-#: ../../info/general.md:107
+#: ../../info/general.md:126
 msgid "Modalités des comptes"
 msgstr ""
 
-#: ../../info/general.md:109
+#: ../../info/general.md:128
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
 
-#: ../../info/general.md:112
+#: ../../info/general.md:131
 msgid "Un compte membre comporte donc :"
 msgstr ""
 
-#: ../../info/general.md:114
+#: ../../info/general.md:133
 msgid "de l'espace de stockage SSD"
 msgstr ""
 
-#: ../../info/general.md:115
+#: ../../info/general.md:134
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:116
+#: ../../info/general.md:135
 msgid "un accès FTP"
 msgstr ""
 
-#: ../../info/general.md:117
+#: ../../info/general.md:136
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr ""
 
-#: ../../info/general.md:118
+#: ../../info/general.md:137
 msgid "des bases de données (MariaDb)"
 msgstr ""
 
-#: ../../info/general.md:119
+#: ../../info/general.md:138
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:120
+#: ../../info/general.md:139
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr ""
 
-#: ../../info/general.md:121
+#: ../../info/general.md:140
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 
-#: ../../info/general.md:123
+#: ../../info/general.md:142
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr ""
 
-#: ../../info/general.md:126
+#: ../../info/general.md:145
 msgid "Politique et vie privée"
 msgstr ""
 
-#: ../../info/general.md:129
+#: ../../info/general.md:148
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
 msgstr ""
 
-#: ../../info/general.md:132
+#: ../../info/general.md:151
 msgid "Contact"
 msgstr ""
 
@@ -1020,6 +1046,19 @@ msgstr ""
 msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
 msgstr ""
 
+#: ../../services/drive.md:16 ../../services/email.md:84
+#: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:42
+#: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:40
+#: ../../services/webdav.md:45
+msgid "Logiciels"
+msgstr ""
+
+#: ../../services/drive.md:21
+msgid ""
+"Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}"
+"`WebDAV`. --- [Sources](https://github.com/club-1/webdav-drive)"
+msgstr ""
+
 #: ../../services/email.md:1
 msgid "Messagerie email"
 msgstr ""
@@ -1033,10 +1072,10 @@ msgstr ""
 
 #: ../../services/email.md:11
 msgid ""
-"Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/"
-"Roundcube) est disponible à l'adresse <https://mail.club1.fr>. Il permet de "
-"gérer et d'envoyer des emails, mais aussi d'accéder aux {index}`calendriers` "
-"et {index}`carnets d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
+"Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
+"l'adresse <https://mail.club1.fr>. Il permet de gérer et d'envoyer des "
+"emails, mais aussi d'accéder aux {index}`calendriers` et {index}`carnets "
+"d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgstr ""
 
 #: ../../services/email.md:16
@@ -1192,6 +1231,34 @@ msgstr ""
 msgid "`993` (par défaut)"
 msgstr ""
 
+#: ../../services/email.md:89
+msgid ""
+"{term}`Serveur` SMTP utilisé pour la transmission d'email. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/Postfix), [Sources](https://github.com/"
+"vdukhovni/postfix)"
+msgstr ""
+
+#: ../../services/email.md:94
+msgid ""
+"{term}`Serveur` IMAP utilisé pour la gestion de boîtes emails. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://github."
+"com/dovecot/core)"
+msgstr ""
+
+#: ../../services/email.md:99
+msgid ""
+"{term}`Serveur` fournissant un filtre _milter_ utilisé par {term}`Postfix` "
+"pour signer les emails sortants. --- [Site Web](http://www.opendkim.org/), "
+"[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
+msgstr ""
+
+#: ../../services/email.md:104
+msgid ""
+"{term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP "
+"et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
+"(https://github.com/roundcube/roundcubemail)"
+msgstr ""
+
 #: ../../services/ftp.md:1
 msgid "Transfert de fichiers FTPS"
 msgstr ""
@@ -1270,6 +1337,12 @@ msgstr ""
 msgid "Normale"
 msgstr ""
 
+#: ../../services/ftp.md:56
+msgid ""
+"{term}`Serveur` {term}`FTP`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"ProFTPd), [Sources](https://github.com/proftpd/proftpd)"
+msgstr ""
+
 #: ../../services/git.md:1
 msgid "Dépôts Git publics"
 msgstr ""
@@ -1300,8 +1373,7 @@ msgstr ""
 #: ../../services/git.md:15
 msgid ""
 "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
-"l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/"
-"about/)."
+"l'interface {term}`Web` fournie par {term}`cgit`."
 msgstr ""
 
 #: ../../services/git.md:18
@@ -1380,6 +1452,18 @@ msgid ""
 "upstream` permet d'en faire la _remote_ par défaut pour cette branche) :"
 msgstr ""
 
+#: ../../services/git.md:88
+msgid ""
+"Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
+msgstr ""
+
+#: ../../services/git.md:93
+msgid ""
+"Interface {term}`Web` permettant de consulter les informations d'un dépôt "
+"{term}`Git`. --- [Sources](https://git.zx2c4.com/cgit/)"
+msgstr ""
+
 #: ../../services/index.md:1
 msgid "Services"
 msgstr ""
@@ -1418,17 +1502,17 @@ msgstr ""
 
 #: ../../services/rss.md:19
 msgid ""
-"Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
-"wikipedia.org/wiki/Tiny_Tiny_RSS) (abrégé TTRSS). Il est accessible à "
-"travers le {term}`client Web` intégré se trouvant à l'adresse <https://rss."
-"club1.fr>, mais il est également possible d'y connecter un client natif."
+"Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
+"accessible à travers le {term}`client Web` intégré se trouvant à l'adresse "
+"<https://rss.club1.fr>, mais il est également possible d'y connecter un "
+"client natif."
 msgstr ""
 
-#: ../../services/rss.md:25
+#: ../../services/rss.md:24
 msgid "Se connecter avec un client natif"
 msgstr ""
 
-#: ../../services/rss.md:28
+#: ../../services/rss.md:27
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
 "dans les paramètres du {term}`client Web`. Cliquer sur le menu (icône avec "
@@ -1437,20 +1521,30 @@ msgid ""
 "l'API`."
 msgstr ""
 
-#: ../../services/rss.md:33
+#: ../../services/rss.md:32
 msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
 msgstr ""
 
-#: ../../services/rss.md:36 ../../services/webdav.md:38 ../../tutos/index.md:1
+#: ../../services/rss.md:35 ../../services/webdav.md:38 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr ""
 
-#: ../../services/rss.md:39
+#: ../../services/rss.md:38
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "RSS de CLUB1."
+msgstr ""
+
+#: ../../services/rss.md:47
+msgid ""
+"{term}`Agrégateur de flux` supportant {term}`RSS` et ATOM. Il fournit un "
+"{term}`serveur` se chargeant de relever régulièrement les flux, un {term}"
+"`client Web` pour les consulter dans un navigateur et une {term}`API` pour "
+"s'y connecter avec une application native. Il est souvent abrégé TTRSS. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), [Sources](https://"
+"git.tt-rss.org/fox/tt-rss.git)"
 msgstr ""
 
 #: ../../services/sql.md:1
@@ -1459,11 +1553,10 @@ msgstr ""
 
 #: ../../services/sql.md:4
 msgid ""
-"Un accès à [MariaDb](https://fr.wikipedia.org/wiki/MariaDB) pourra être "
-"ajouté, à partir duquel il est possible de créer des **bases de données SQL "
-"personnelles**. Une interface {term}`Web` de gestion fournie par [phpMyAdmin]"
-"(https://fr.wikipedia.org/wiki/PhpMyAdmin) est disponible à l'adresse "
-"suivante : <https://club1.fr/phpmyadmin>"
+"Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
+"possible de créer des **bases de données SQL personnelles**. Une interface "
+"{term}`Web` de gestion fournie par {term}`phpMyAdmin` est disponible à "
+"l'adresse suivante : <https://club1.fr/phpmyadmin>"
 msgstr ""
 
 #: ../../services/sql.md:0
@@ -1472,6 +1565,20 @@ msgstr ""
 
 #: ../../services/sql.md:0
 msgid "`3306` (par défaut)"
+msgstr ""
+
+#: ../../services/sql.md:22
+msgid ""
+"{term}`Serveur` de bases de données SQL distribué sous licence libre. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources](https://github."
+"com/MariaDB/server)"
+msgstr ""
+
+#: ../../services/sql.md:27
+msgid ""
+"Interface {term}`Web` de gestion de bases de données SQL. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/PhpMyAdmin), [Sources](https://github.com/"
+"phpmyadmin/phpmyadmin)"
 msgstr ""
 
 #: ../../services/ssh.md:1
@@ -1506,9 +1613,9 @@ msgstr ""
 
 #: ../../services/ssh.md:25
 msgid ""
-"Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
-"utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est "
-"nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
+"Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
+"logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre de "
+"terminal (powershell sur windows)."
 msgstr ""
 
 #: ../../services/ssh.md:29
@@ -1606,6 +1713,13 @@ msgstr ""
 msgid "`22` (par défaut)"
 msgstr ""
 
+#: ../../services/ssh.md:113
+msgid ""
+"Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}"
+"`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
+"(https://anongit.mindrot.org/openssh.git)"
+msgstr ""
+
 #: ../../services/web.md:1
 msgid "Hébergement de sites Web"
 msgstr ""
@@ -1660,6 +1774,14 @@ msgid ""
 "pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
 "pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à "
 "définir ensemble en fonction de leur disponibilité et leur viabilité."
+msgstr ""
+
+#: ../../services/web.md:45
+msgid ""
+"{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
+"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
+"--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server), [Sources]"
+"(https://github.com/apache/httpd)"
 msgstr ""
 
 #: ../../services/webdav.md:1
@@ -1722,6 +1844,12 @@ msgstr ""
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "WebDAV de CLUB1."
+msgstr ""
+
+#: ../../services/webdav.md:50
+msgid ""
+"Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet. "
+"--- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:1
