@@ -90,7 +90,7 @@ Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs e
 dont un dépôt off-site fourni par OVH.
 
 Il s'agit de sauvegardes incrémentales avec une période de rétention d'une semaine.
-Il y a donc en permanence 7 jours d'historique disponnible.
+Il y a donc en permanence 7 jours d'historique disponible.
 En cas de défaillance matérielle, au maximum 24h de données seront perdues.
 Le bon déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://healthchecks.io/)
 
