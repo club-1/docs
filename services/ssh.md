@@ -22,8 +22,8 @@ SCP
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
 ```
 
-Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera
-utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est
+Dans cette section {term}`OpenSSH` sera utilisé.
+Comme il s'agit d'un logiciel en *ligne de commande*, il est
 nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows).
 
 Avant de se connecter pour le première fois
@@ -104,3 +104,13 @@ Informations de connexion
 | ---------------- | ----------------- |
 | hôte             | `club1.fr`        |
 | port             | `22` (par défaut) |
+
+Logiciels
+---------
+
+```{glossary}
+OpenSSH
+   Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}`SSH`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH),
+   [Sources](https://anongit.mindrot.org/openssh.git)
+```

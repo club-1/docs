@@ -36,3 +36,14 @@ Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr`
 pointant vers **l'un des dossiers** présent dans votre **espace personnel**
 pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à définir
 ensemble en fonction de leur disponibilité et leur viabilité.
+
+Logiciels
+---------
+
+```{glossary}
+Apache
+   {term}`Serveur` HTTP très populaire, distribué sous license libre.
+   HTTP étant le protocole du {term}`Web` on parle aussi souvent de "serveur Web".
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server),
+   [Sources](https://github.com/apache/httpd)
+```

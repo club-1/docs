@@ -13,7 +13,7 @@ Cette adresse permet 2 choses :
 1. Cloner le dépôt Git avec `git clone` grâce au
    [git-http-backend](https://git-scm.com/docs/git-http-backend).
 2. Consulter rapidement le dépôt et le sources dans un navigateur grâce à
-   l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/about/).
+   l'interface {term}`Web` fournie par {term}`cgit`.
 
 Tutoriel d'utilisation
 ----------------------
@@ -78,3 +78,18 @@ permet d'en faire la _remote_ par défaut pour cette branche) :
 
     git remote add club1 <login>@club1:git/<repo>
     git push --set-upstream club1 main
+
+
+Logiciels
+---------
+
+```{glossary}
+Git
+   Logiciel de gestion de versions décentralisé.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Git),
+   [Sources](https://github.com/git/git)
+
+cgit
+   Interface {term}`Web` permettant de consulter les informations d'un dépôt {term}`Git`.
+   --- [Sources](https://git.zx2c4.com/cgit/)
+```

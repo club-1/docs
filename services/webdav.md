@@ -41,3 +41,12 @@ Tutoriels
 Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service WebDAV de CLUB1.
 
 - [](/tutos/webdav-android.md)
+
+Logiciels
+---------
+
+```{glossary}
+SabreDAV
+   Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet.
+   --- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)
+```
