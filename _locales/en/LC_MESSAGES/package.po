@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-08-15 19:20+0200\n"
-"PO-Revision-Date: 2022-07-30 00:24+0200\n"
+"PO-Revision-Date: 2022-08-16 18:18+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -494,20 +494,16 @@ msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
 #: ../../info/general.md:27
-#, fuzzy
-#| msgid ""
-#| "Le serveur est localisé en France à Pantin. Il est relié à internet par "
-#| "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
-#| "descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc)."
 msgid ""
 "Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par "
 "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
 "descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc). La connexion "
 "internet est fournie par Bouygues Telecom."
 msgstr ""
-"The server is located in Pantin, France. It is connected to internet by "
+"The server is self-hosted in Pantin, France. It is connected to internet by "
 "optical fiber with average rates of [ 200Mb/s in upload and 500Mb/s in "
-"download](https://www.nperf.com/en/r/338260996-nDOmVdkc)."
+"download](https://www.nperf.com/en/r/338260996-nDOmVdkc). The internet "
+"connection is provided by Bouygues Telecom."
 
 #: ../../info/general.md:31
 msgid "Caractéristiques techniques"
@@ -553,14 +549,16 @@ msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
 "ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
 msgstr ""
+"All the installed software is under **free license**, except for the "
+"following list, for which there is no free alternative:"
 
 #: ../../info/general.md:54
 msgid "BIOS/BMC Supermicro"
-msgstr ""
+msgstr "Supermicro BIOS/BMC"
 
 #: ../../info/general.md:55
 msgid "Microcode Intel"
-msgstr ""
+msgstr "Intel Microcode"
 
 #: ../../info/general.md:57
 msgid ""
@@ -586,14 +584,6 @@ msgid "Disponibilité"
 msgstr "Availability"
 
 #: ../../info/general.md:80
-#, fuzzy
-#| msgid ""
-#| "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
-#| "équipements réseaux sont alimentés par une _UPS_. Cependant, la "
-#| "redondance n'étant pas présente à tous les niveaux, le serveur pourrait "
-#| "être inaccessible pendant de courts laps de temps, par exemple lors d'une "
-#| "mise à jour du noyau. Cela dit, une disponibilité effective **supérieure "
-#| "à 90%** devrait pouvoir être assurée."
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -606,27 +596,22 @@ msgstr ""
 "network equipment are powered by an _UPS_. However, since redundancy is not "
 "present at all levels, the server may be inaccessible for short periods of "
 "time, for example during a kernel update. That said, an effective "
-"availability **above 90%** should be ensured."
+"availability **above 98%** should be ensured."
 
 #: ../../info/general.md:87
 msgid "Sauvegardes"
 msgstr "Backups"
 
 #: ../../info/general.md:93
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Elles sont stockées de manière dédupliquée et chiffrée à plusieurs "
-#| "endroits dont un dépôt off-site."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
 "Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
 "endroits dont un dépôt off-site fourni par OVH."
 msgstr ""
-"System and user data are backed up once a day at 5am. They are stored in a "
-"deduplicated and encrypted manner in several places including an off-site "
-"repository."
+"System and user data are backed up once a day at 5am. Backups are made with "
+"[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
+"and encrypted manner in several places including an off-site repository."
 
 #: ../../info/general.md:98
 msgid ""
@@ -636,20 +621,25 @@ msgid ""
 "déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io]"
 "(https://healthchecks.io/)"
 msgstr ""
+"These are incremental backups with a retention period of one week. There is "
+"therefore permanently 7 days of history available. In case of hardware "
+"failure, a maximum of 24 hours of data will be lost. The successful "
+"completion of backups is verified using the [Healthchecks."
+"io](https://healthchecks.io/) service"
 
 #: ../../info/general.md:103
 msgid "Les sauvegardes sont réparties en deux groupes :"
-msgstr ""
+msgstr "Backups are divided into two groups:"
 
 #: ../../info/general.md:105
 msgid ""
 "**System** pour la configuration du serveur, les fichiers des applications "
 "et les bases de données."
-msgstr ""
+msgstr "**System** for server configuration, application files and databases."
 
 #: ../../info/general.md:106
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
-msgstr ""
+msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
 #: ../../info/general.md:108 ../../services/email.md:37
 msgid "Voir aussi"
@@ -1332,13 +1322,15 @@ msgstr "The address of the {term}`Web client` is <https://drive.club1.fr>."
 #: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:40
 #: ../../services/webdav.md:45
 msgid "Logiciels"
-msgstr ""
+msgstr "Software"
 
 #: ../../services/drive.md:21
 msgid ""
 "Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}"
 "`WebDAV`. --- [Sources](https://github.com/club-1/webdav-drive)"
 msgstr ""
+"{term}`Web` file explorer based on a {term}`WebDAV` {term}`server`. --- "
+"[Source](https://github.com/club-1/webdav-drive)"
 
 #: ../../services/email.md:1
 msgid "Messagerie email"
@@ -1355,23 +1347,16 @@ msgstr ""
 "`michel@club1.fr`."
 
 #: ../../services/email.md:11
-#, fuzzy
-#| msgid ""
-#| "Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/"
-#| "wiki/Roundcube) est disponible à l'adresse <https://mail.club1.fr>. Il "
-#| "permet de gérer et d'envoyer des emails, mais aussi d'accéder aux {index}"
-#| "`calendriers` et {index}`carnets d'adresses` CLUB1 synchronisés avec "
-#| "[WebDAV](webdav.md)."
 msgid ""
 "Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
 "l'adresse <https://mail.club1.fr>. Il permet de gérer et d'envoyer des "
 "emails, mais aussi d'accéder aux {index}`calendriers` et {index}`carnets "
 "d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgstr ""
-"A {term}`Web client` provided by [Roundcube](https://en.wikipedia.org/wiki/"
-"Roundcube) is accessible at <https://mail.club1.fr>. It allows to manage and "
-"send emails, but also access CLUB1 {index}`calendars` and {index}`address-"
-"books` synchronized with [WebDAV](webdav.md)."
+"A {term}`Web client` provided by {term}`Roundcube` is accessible at <https://"
+"mail.club1.fr>. It allows to manage and send emails, but also access CLUB1 "
+"{index}`calendars` and {index}`address-books` synchronized with "
+"[WebDAV](webdav.md)."
 
 #: ../../services/email.md:16
 msgid "Stockage des données"
@@ -1718,17 +1703,12 @@ msgstr ""
 "(https://git-scm.com/docs/git-http-backend)."
 
 #: ../../services/git.md:15
-#, fuzzy
-#| msgid ""
-#| "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
-#| "l'interface {term}`Web` fournie par [cgit](https://git.zx2c4.com/cgit/"
-#| "about/)."
 msgid ""
 "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
 "l'interface {term}`Web` fournie par {term}`cgit`."
 msgstr ""
 "Quickly browse the sources and repository data in a web browser thanks to "
-"the {term}`Web` interface [cgit](https://git.zx2c4.com/cgit/about/)."
+"the {term}`Web` interface {term}`cgit`."
 
 #: ../../services/git.md:18
 msgid "Tutoriel d'utilisation"
@@ -1830,16 +1810,12 @@ msgstr ""
 "makes it the default _remote_ for this branch):"
 
 #: ../../services/git.md:88
-#, fuzzy
-#| msgid ""
-#| "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
-#| "wikipedia.org/wiki/Git)"
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
 msgstr ""
 "Distributed version control system software --- [Wikipedia](https://en."
-"wikipedia.org/wiki/Git)"
+"wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
 
 #: ../../services/git.md:93
 msgid ""
@@ -1894,23 +1870,15 @@ msgstr ""
 "and one by one at the sites for which you want to know the new content."
 
 #: ../../services/rss.md:19
-#, fuzzy
-#| msgid ""
-#| "Un agrégateur de flux RSS est fourni par [Tiny Tiny RSS](https://fr."
-#| "wikipedia.org/wiki/Tiny_Tiny_RSS) (abrégé TTRSS). Il est accessible à "
-#| "travers le {term}`client Web` intégré se trouvant à l'adresse <https://"
-#| "rss.club1.fr>, mais il est également possible d'y connecter un client "
-#| "natif."
 msgid ""
 "Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
 "accessible à travers le {term}`client Web` intégré se trouvant à l'adresse "
 "<https://rss.club1.fr>, mais il est également possible d'y connecter un "
 "client natif."
 msgstr ""
-"An RSS feed aggregator is provided by [Tiny Tiny RSS](https://en.wikipedia."
-"org/wiki/Tiny_Tiny_RSS) (abbreviated TTRSS). It is accessible through the "
-"integrated {term}`Web client` located at <https://rss.club1.fr>, but it is "
-"also possible to connect a native client to it."
+"An RSS feed aggregator is provided by {term}`Tiny Tiny RSS`. It is "
+"accessible through the integrated {term}`Web client` located at <https://"
+"rss.club1.fr>, but it is also possible to connect a native client to it."
 
 #: ../../services/rss.md:24
 msgid "Se connecter avec un client natif"
@@ -1964,23 +1932,15 @@ msgid "Bases de données SQL"
 msgstr "SQL databases"
 
 #: ../../services/sql.md:4
-#, fuzzy
-#| msgid ""
-#| "Un accès à [MariaDb](https://fr.wikipedia.org/wiki/MariaDB) pourra être "
-#| "ajouté, à partir duquel il est possible de créer des **bases de données "
-#| "SQL personnelles**. Une interface {term}`Web` de gestion fournie par "
-#| "[phpMyAdmin](https://fr.wikipedia.org/wiki/PhpMyAdmin) est disponible à "
-#| "l'adresse suivante : <https://club1.fr/phpmyadmin>"
 msgid ""
 "Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
 "possible de créer des **bases de données SQL personnelles**. Une interface "
 "{term}`Web` de gestion fournie par {term}`phpMyAdmin` est disponible à "
 "l'adresse suivante : <https://club1.fr/phpmyadmin>"
 msgstr ""
-"An access to [MariaDb](https://en.wikipedia.org/wiki/MariaDB) could be "
-"added, from which it is possible to create **personal SQL databases**. A "
-"{term}`Web` management interface provided by [phpMyAdmin](https://en."
-"wikipedia.org/wiki/PhpMyAdmin) is available at the following address: "
+"An access to {term}`MariaDB` could be added, from which it is possible to "
+"create **personal SQL databases**. A {term}`Web` management interface "
+"provided by {term}`phpMyAdmin` is available at the following address: "
 "<https://club1.fr/phpmyadmin>"
 
 #: ../../services/sql.md:0
@@ -2049,19 +2009,14 @@ msgstr ""
 "Secure_copy_protocol)"
 
 #: ../../services/ssh.md:25
-#, fuzzy
-#| msgid ""
-#| "Dans cette section [OpenSSH](https://fr.wikipedia.org/wiki/OpenSSH) sera "
-#| "utilisé. Comme il s'agit d'un logiciel en *ligne de commande*, il est "
-#| "nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows)."
 msgid ""
 "Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
 "logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre de "
 "terminal (powershell sur windows)."
 msgstr ""
-"In this section [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) will be "
-"used. As this software suite is in *command-line*, it is necessary to open a "
-"terminal window (powershell on windows)."
+"In this section {term}`OpenSSH` will be used. As this software suite is in "
+"*command-line*, it is necessary to open a terminal window (powershell on "
+"windows)."
 
 #: ../../services/ssh.md:29
 msgid "Avant de se connecter pour le première fois"
@@ -2274,11 +2229,6 @@ msgstr ""
 "according to their availability and their viability."
 
 #: ../../services/web.md:45
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-#| "étant le protocole du {term}`Web` on parle aussi souvent de \"serveur "
-#| "Web\". --- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server)"
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
 "étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
@@ -2287,7 +2237,8 @@ msgid ""
 msgstr ""
 "Very popular HTTP {term}`server`, distributed under free license. HTTP being "
 "the protocol of {term}`Web` we also often speak of \"Web server\". --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)"
+"[Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server), "
+"[Sources](https://github.com/apache/httpd)"
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
