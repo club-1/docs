@@ -6,6 +6,8 @@ Copyright © {{ copyright }}.
 
 ```{include} _templates/license.txt
 ```
+
+Une copie de cette licence est incluse à la page [](/annexes/licence).
 ````
 
 ```{toctree}
@@ -29,4 +31,11 @@ glossaire
 
    .. toctree::
       genindex
+
+   .. toctree::
+      :caption: Annexes
+      :glob:
+      :titlesonly:
+
+      annexes/*
 ```
