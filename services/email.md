@@ -8,7 +8,7 @@ Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
 Client Web
 ----------
 
-Un {term}`client Web` fourni par [Roundcube](https://fr.wikipedia.org/wiki/Roundcube)
+Un {term}`client Web` fourni par {term}`Roundcube`
 est disponible à l'adresse <https://mail.club1.fr>.
 Il permet de gérer et d'envoyer des emails, mais aussi d'accéder aux {index}`calendriers`
 et {index}`carnets d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md).
@@ -80,3 +80,28 @@ La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de config
 | hôte             | `mail.club1.fr` ou `imap.club1.fr` |
 | port             | `993` (par défaut)                 |
 | chiffrement      | `SSL/TSL` (Implicite)              |
+
+Logiciels
+---------
+
+```{glossary}
+Postfix
+   {term}`Serveur` SMTP utilisé pour la transmission d'email.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Postfix),
+   [Sources](https://github.com/vdukhovni/postfix)
+
+Dovecot
+   {term}`Serveur` IMAP utilisé pour la gestion de boîtes emails.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Dovecot),
+   [Sources](https://github.com/dovecot/core)
+
+OpenDKIM
+   {term}`Serveur` fournissant un filtre _milter_
+   utilisé par {term}`Postfix` pour signer les emails sortants.
+   --- [Site Web](http://www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/OpenDKIM)
+
+Roundcube
+   {term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP et IMAP.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
+   [Sources](https://github.com/roundcube/roundcubemail)
+```

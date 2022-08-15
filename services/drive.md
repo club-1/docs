@@ -12,3 +12,12 @@ Elle utilise un {term}`serveur` WebDAV standard comme source de données,
 dont [CLUB1 propose un accès](webdav.md).
 
 L'adresse de ce {term}`client Web` est <https://drive.club1.fr>.
+
+Logiciels
+---------
+
+```{glossary}
+WebDAV Drive
+   Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}`WebDAV`.
+   --- [Sources](https://github.com/club-1/webdav-drive)
+```

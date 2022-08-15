@@ -16,8 +16,7 @@ Agrégateur de flux
    Il permet d'éviter de regarder manuellement et un par un les sites dont on veut connaître les nouveaux contenus.
 ```
 
-Un agrégateur de flux RSS est fourni par
-[Tiny Tiny RSS](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS) (abrégé TTRSS).
+Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`.
 Il est accessible à travers le {term}`client Web` intégré se trouvant à l'adresse
 <https://rss.club1.fr>, mais il est également possible d'y connecter un client
 natif.
@@ -39,3 +38,17 @@ Tutoriels
 Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service RSS de CLUB1.
 
 - [](/tutos/flux-rss.md)
+
+Logiciels
+---------
+
+```{glossary}
+Tiny Tiny RSS
+   {term}`Agrégateur de flux` supportant {term}`RSS` et ATOM.
+   Il fournit un {term}`serveur` se chargeant de relever régulièrement les flux,
+   un {term}`client Web` pour les consulter dans un navigateur
+   et une {term}`API` pour s'y connecter avec une application native.
+   Il est souvent abrégé TTRSS.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS),
+   [Sources](https://git.tt-rss.org/fox/tt-rss.git)
+```

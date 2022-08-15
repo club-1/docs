@@ -37,6 +37,9 @@ msgstr ""
 msgid "Docutils : {{ docutils_version }}"
 msgstr ""
 
+msgid "Dovecot"
+msgstr ""
+
 msgid "FTP"
 msgstr ""
 
@@ -67,6 +70,9 @@ msgstr ""
 msgid "Make"
 msgstr ""
 
+msgid "MariaDB"
+msgstr ""
+
 msgid "Markdown"
 msgstr ""
 
@@ -76,7 +82,22 @@ msgstr ""
 msgid "MyST-Parser : {{ myst_version }}"
 msgstr ""
 
+msgid "OpenDKIM"
+msgstr ""
+
+msgid "OpenSSH"
+msgstr ""
+
+msgid "Postfix"
+msgstr ""
+
+msgid "ProFTPD"
+msgstr ""
+
 msgid "RSS"
+msgstr ""
+
+msgid "Roundcube"
 msgstr ""
 
 msgid "SCP"
@@ -86,6 +107,9 @@ msgid "SFTP"
 msgstr ""
 
 msgid "SSH"
+msgstr ""
+
+msgid "SabreDAV"
 msgstr ""
 
 msgid "Sphinx"
@@ -109,7 +133,13 @@ msgstr ""
 msgid "TeX Live"
 msgstr ""
 
+msgid "Tiny Tiny RSS"
+msgstr ""
+
 msgid "WebDAV"
+msgstr ""
+
+msgid "WebDAV Drive"
 msgstr ""
 
 msgid "[](/tutos/flux-rss.md)"
@@ -118,7 +148,13 @@ msgstr ""
 msgid "[](/tutos/webdav-android.md)"
 msgstr ""
 
+msgid "cgit"
+msgstr ""
+
 msgid "gettext"
+msgstr ""
+
+msgid "phpMyAdmin"
 msgstr ""
 
 msgid "xindy"
