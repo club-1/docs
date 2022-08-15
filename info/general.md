@@ -26,6 +26,7 @@ c'est le serveur.
 
 Le serveur est localisé en France à Pantin. Il est relié à internet par fibre
 optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc).
+La connexion internet est fournie par Bouygues Telecom.
 
 ### Caractéristiques techniques
 
@@ -74,7 +75,7 @@ Afin de garantir un certaine disponibilité, le serveur ainsi que les équipemen
 réseaux sont alimentés par une _UPS_. Cependant, la redondance n'étant pas
 présente à tous les niveaux, le serveur pourrait être inaccessible pendant
 de courts laps de temps, par exemple lors d'une mise à jour du noyau.
-Cela dit, une disponibilité effective **supérieure à 90%** devrait pouvoir être
+Cela dit, une disponibilité effective **supérieure à 98%** devrait pouvoir être
 assurée.
 
 ### Sauvegardes
@@ -84,7 +85,19 @@ assurée.
 ```
 
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
-Elles sont stockées de manière dédupliquée et chiffrée à plusieurs endroits dont un dépôt off-site.
+Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/).
+Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
+dont un dépôt off-site fourni par OVH.
+
+Il s'agit de sauvegardes incrémentales avec une période de rétention d'une semaine.
+Il y a donc en permanence 7 jours d'historique disponnible.
+En cas de défaillance matérielle, au maximum 24h de données seront perdues.
+Le bon déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://healthchecks.io/)
+
+Les sauvegardes sont réparties en deux groupes :
+
+1. **System** pour la configuration du serveur, les fichiers des applications et les bases de données.
+2. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
 
 ```{admonition} Voir aussi
 L'article du journal [Sauvegardes](https://club1.fr/backups/)
