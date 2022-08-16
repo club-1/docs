@@ -158,7 +158,7 @@ Sphinx-rtd-theme
    Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs.
 
 Sphinx-notfound-page
-   Extension {term}`Sphinx` permettant de générer une page d'erreur 404 personnalisée dont les liens sont absolus.
+   _(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page d'erreur 404 personnalisée dont les liens sont absolus.
 
 gettext
    _(Optionnel)_ Pour les locales autres que Français.
@@ -166,7 +166,8 @@ gettext
 
 Installation sur *Debian* :
 
-    sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme python3-sphinx-notfound-page gettext
+    sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme
+    sudo apt install python3-sphinx-notfound-page gettext
 
 ### _(Optionnel)_ Prérequis pour le format PDF
 
@@ -264,4 +265,5 @@ Metadonnées
 \item \TeX\ : \texversion
 \end{itemize}
 ```
+<!-- markdownlint-enable MD031 -->
 

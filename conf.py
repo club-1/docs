@@ -13,11 +13,14 @@
 import os
 from gettext import translation
 from sphinx import __version__ as sphinx_version
+from sphinx.util.logging import getLogger
 from myst_parser import __version__ as myst_version
 from sphinx_rtd_theme import __version__ as rtd_version
 from docutils import __version__ as docutils_version
+from importlib.util import find_spec
 import sys
 sys.path.insert(0, os.path.abspath('./_ext'))
+logger = getLogger(__name__)
 
 
 # -- Project information -----------------------------------------------------
@@ -39,8 +42,17 @@ extensions = [
     'french_typography',
     'term_tooltips',
     'index_role',
-    'notfound.extension',
 ]
+
+extensions_optionnal = {
+    'sphinx-notfound-page': 'notfound.extension',
+}
+
+for (package, module) in extensions_optionnal.items():
+    if find_spec(module.split('.', 1)[0]) is not None:
+        extensions.append(module)
+    else:
+        logger.warn(f'package {package} is not installed, not using {module} extension')
 
 # Allow to create implicit reference to headings up to level 6.
 # See: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#implicit-targets
