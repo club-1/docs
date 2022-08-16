@@ -185,6 +185,9 @@ html_static_path = ['_static']
 # Format the date relative to the current locale.
 html_last_updated_fmt = '%x'
 
+# Use Paris timezone for display of last updated dates.
+git_last_updated_timezone = 'Europe/Paris'
+
 # Base URL for 404 page's absolute links to resources.
 notfound_urls_prefix = f'/{html_basedir}/{language}/'
 
