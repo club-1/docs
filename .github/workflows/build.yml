@@ -29,7 +29,7 @@ jobs:
   sphinx:
     runs-on: ubuntu-22.04
     env:
-      SPHINXOPTS: --color -n
+      SPHINXOPTS: --color -n -Dsuppress_warnings=git.too_shallow
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
