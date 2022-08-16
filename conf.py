@@ -46,13 +46,14 @@ extensions = [
 
 extensions_optionnal = {
     'sphinx-notfound-page': 'notfound.extension',
+    'sphinx-last-updated-by-git': 'sphinx_last_updated_by_git',
 }
 
 for (package, module) in extensions_optionnal.items():
     if find_spec(module.split('.', 1)[0]) is not None:
         extensions.append(module)
     else:
-        logger.warn(f'package {package} is not installed, not using {module} extension')
+        logger.info(f'package {package} is not installed, not using {module} extension')
 
 # Allow to create implicit reference to headings up to level 6.
 # See: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#implicit-targets
@@ -180,6 +181,9 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Format the date relative to the current locale.
+html_last_updated_fmt = '%x'
 
 # Base URL for 404 page's absolute links to resources.
 notfound_urls_prefix = f'/{html_basedir}/{language}/'
