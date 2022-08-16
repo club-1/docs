@@ -146,7 +146,7 @@ Politique et vie privée
 -----------------------
 
 Aucune des données que vous stockez dans votre espace personnel de sera
-divulguée ni utilisée à des fins lucratives et ce même sous la menace.
+divulguée ni utilisée à des fins lucratives.
 
 Contact
 -------
