@@ -93,7 +93,7 @@ assurée.
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
 Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/).
 Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
-dont un dépôt off-site fourni par OVH.
+dont un dépôt off-site offert par Etienne Le Louët (hébergé chez OVH).
 
 Il s'agit de sauvegardes incrémentales avec une période de rétention d'une semaine.
 Il y a donc en permanence 7 jours d'historique disponible.
