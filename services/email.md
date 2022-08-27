@@ -60,9 +60,9 @@ La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**.
 Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé
 avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Error: message file too big`.
 
-### Transferts
+### Transferts automatiques
 
-Il est possible de transférer les mails que vous reçevez sur votre adresse CLUB1
+Il est possible de transférer automatiquement les mails que vous reçevez sur votre adresse CLUB1
 vers une ou plusieurs autres adresses de votre choix.
 Pour se faire, il faut créer dans votre [Home](/info/espace-personnel.md)
 un fichier qui va indiquer au {term}`serveur` email à qui transferer votre courrier entrant.
@@ -75,11 +75,11 @@ Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
 ```
 
 A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses emails
-vers lesquelles vous souhaiter diriger ce transfert en les séparant par une virgule et un espace.
+vers lesquelles vous souhaiter rediriger en les séparant par une virgule et un espace.
 
 Exemple de transfert vers deux adresses emails :
 
-```{raw}
+```Makefile
 perso@serveur.net, unautremail@cool.fr
 ```
 
@@ -87,6 +87,7 @@ perso@serveur.net, unautremail@cool.fr
 Il es même possible de conserver ses emails sur sa boîte CLUB1
 en ajoutant son nom d'utilisateur&middot;trice à cette liste !
 ```
+Pour y mettre fin, il suffit de vider le fichier ou le supprimer. 
 
 Informations de connexion
 -------------------------
