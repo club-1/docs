@@ -188,6 +188,15 @@ html_last_updated_fmt = '%x'
 # Use Paris timezone for display of last updated dates.
 git_last_updated_timezone = 'Europe/Paris'
 
+git_exclude_commits = [
+    '130f8dd3322f42ceed64c706038e95ef15c96d97', # fix: markdownlint issues
+    '2f1d07a2df3e1e83d94009ccac2d9005f55087d9', # docs: suppression de &nbsp; non nécessaires
+]
+
+git_exclude_patterns = [
+    '**/docutils.conf',
+]
+
 # Base URL for 404 page's absolute links to resources.
 notfound_urls_prefix = f'/{html_basedir}/{language}/'
 
