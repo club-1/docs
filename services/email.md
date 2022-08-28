@@ -103,7 +103,7 @@ SPF-Engine
 PostSRSd
    {term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_)
    permettant à {term}`Postfix` de transférer des emails en restant compatible avec SPF.
-   [Sources](https://github.com/roehling/postsrsd)
+   --- [Sources](https://github.com/roehling/postsrsd)
 
 OpenDKIM
    {term}`Serveur` fournissant un filtre _milter_
