@@ -64,7 +64,7 @@ avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Err
 
 Il est possible de transférer automatiquement les emails que vous recevez sur votre adresse CLUB1
 vers une ou plusieurs autres adresses de votre choix.
-Pour se faire, il faut créer dans votre [Home](/info/espace-personnel.md)
+Pour se faire, il faut créer dans votre [espace personnel](/info/espace-personnel.md)
 un fichier qui va indiquer à {term}`Postfix` à qui transférer votre courrier entrant.
 Ce fichier doit être placé directement dans votre dossier et s'appeller `.forward`.
 
