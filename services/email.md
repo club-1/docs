@@ -88,6 +88,10 @@ en ajoutant son nom d'utilisateur&middot;trice à cette liste !
 
 Pour y mettre fin, il suffit de vider le fichier ou le supprimer.
 
+```{admonition} Voir aussi
+La page de manuel [Postfix local mail delivery](https://www.postfix.org/local.8.html) (en anglais)
+```
+
 Informations de connexion
 -------------------------
 
