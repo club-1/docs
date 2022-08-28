@@ -62,7 +62,7 @@ avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Err
 
 ### Transferts automatiques
 
-Il est possible de transférer automatiquement les mails que vous reçevez sur votre adresse CLUB1
+Il est possible de transférer automatiquement les emails que vous recevez sur votre adresse CLUB1
 vers une ou plusieurs autres adresses de votre choix.
 Pour se faire, il faut créer dans votre [Home](/info/espace-personnel.md)
 un fichier qui va indiquer au {term}`serveur` email à qui transferer votre courrier entrant.
