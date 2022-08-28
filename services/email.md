@@ -79,9 +79,7 @@ vers lesquelles vous souhaiter rediriger en les séparant par une virgule et un 
 
 Exemple de transfert vers deux adresses emails :
 
-```Makefile
-perso@serveur.net, unautremail@cool.fr
-```
+    perso@serveur.net, unautremail@cool.fr
 
 ```{tip}
 Il es même possible de conserver ses emails sur sa boîte CLUB1
