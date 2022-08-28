@@ -74,8 +74,8 @@ Les fichiers avec un point `.` devant sont appelés des
 Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
 ```
 
-A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses emails
-vers lesquelles vous souhaiter rediriger en les séparant par une virgule et un espace.
+A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses
+vers lesquelles vous souhaiter rediriger les emails en les séparant par une virgule et/ou un espace.
 
 Exemple de transfert vers deux adresses emails :
 
