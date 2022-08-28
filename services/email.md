@@ -75,18 +75,20 @@ Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
 ```
 
 A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses
-vers lesquelles vous souhaiter rediriger les emails en les séparant par une virgule et/ou un espace.
+vers lesquelles vous souhaiter rediriger les emails en les séparant par un retour à la ligne.
 
-Exemple de transfert vers deux adresses emails :
+Exemple de fichier `.forward` transferant vers deux adresses emails :
 
-    perso@serveur.net, unautremail@cool.fr
+    perso@serveur.net
+    unautremail@cool.fr
 
 ```{tip}
-Il es même possible de conserver ses emails sur sa boîte CLUB1
+Il est même possible de conserver ses emails sur sa boîte CLUB1
 en ajoutant son nom d'utilisateur&middot;trice à cette liste !
 ```
 
-Pour y mettre fin, il suffit de vider le fichier ou le supprimer.
+Pour mettre fin à une redirection, il suffit de supprimer la ligne correspondante.
+Il est aussi possible de supprimer le fichier pour tout annuler.
 
 ```{admonition} Voir aussi
 La page de manuel [Postfix local mail delivery](https://www.postfix.org/local.8.html) (en anglais)
