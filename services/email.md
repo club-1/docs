@@ -75,9 +75,9 @@ Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
 ```
 
 A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses
-vers lesquelles vous souhaiter rediriger les emails en les séparant par un retour à la ligne.
+vers lesquelles vous souhaitez rediriger les emails en les séparant par un retour à la ligne.
 
-Exemple de fichier `.forward` transferant vers deux adresses emails :
+Exemple de fichier `.forward` transférant vers deux adresses emails :
 
     perso@serveur.net
     unautremail@cool.fr
