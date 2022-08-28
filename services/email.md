@@ -94,6 +94,16 @@ Dovecot
    {term}`Serveur` IMAP utilisé pour la gestion de boîtes emails.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Dovecot),
    [Sources](https://github.com/dovecot/core)
+   
+SPF-Engine
+   {term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
+   utilisé par {term}`Postfix` pour vérifier l'origine des emails entrants.
+   --- [Sources](https://launchpad.net/spf-engine)
+
+PostSRSd
+   {term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_)
+   permettant à {term}`Postfix` de transférer des emails en restant compatible avec SPF.
+   [Sources](https://github.com/roehling/postsrsd)
 
 OpenDKIM
    {term}`Serveur` fournissant un filtre _milter_
