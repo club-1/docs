@@ -86,7 +86,7 @@ Il es même possible de conserver ses emails sur sa boîte CLUB1
 en ajoutant son nom d'utilisateur&middot;trice à cette liste !
 ```
 
-Pour y mettre fin, il suffit de vider le fichier ou le supprimer. 
+Pour y mettre fin, il suffit de vider le fichier ou le supprimer.
 
 Informations de connexion
 -------------------------
