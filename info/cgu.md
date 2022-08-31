@@ -19,7 +19,8 @@ La liste des services et leurs conditions d'accès est disponible sur la page [s
 
 CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le serveur.
 Un membre peut être une personne physique ou morale.
-Pour devenir membre, il faut s'aquiter des frais d'inscription, fixés à 35€.
+Pour devenir membre, il faut s'aquiter des frais d'inscription dont le montant est indiqué
+sur la page [découvrir](https://club1.fr/rejoindre#devenir-membre).
 
 Les services accessibles par compte sont soumis à l’approbation préalable de CLUB1
 selon les ressources disponibles.
@@ -30,8 +31,6 @@ Fonctionnement
 --------------
 
 ### Délais de mise en service
-
-**CLUB1 ne s’engage sur aucun délai de mise en service.**
 
 CLUB1 propose les services suivants grâce à des bénévoles,
 de ce fait CLUB1 ne s’engage sur aucun délai de mise en service.
@@ -48,8 +47,6 @@ que CLUB1 est en train de corriger le dysfonctionnement,
 vous devez faire un signalement via un [ticket sur GitHub](https://github.com/club-1/hosting/issues).
 
 
-
-**Si ça casse, on fera de notre mieux MAIS nous ne sommes pas obligés de réparer**
 CLUB1 propose l’ensemble de ces services grâce à des bénévoles qui feront
 ce qu’ils et elles peuvent pour résoudre les problèmes techniques qui pourraient subvenir.
 
@@ -65,8 +62,8 @@ Dès réception d’un signalement, CLUB1 intervient le plus promptement possibl
 
 ### Responsabilité de CLUB1
 
-**En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages
-ou indemnités résultant de problèmes techniques de quelque nature que ce soit.**
+En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages
+ou indemnités résultant de problèmes techniques de quelque nature que ce soit.
 
 
 CLUB1 est assujetti à une obligation de moyens, considérant la haute technicité des technologies mises en œuvre.
@@ -76,11 +73,11 @@ de chiffre d’affaires, de bénéfices ou d’économies prévus, ou de tout au
 
 ### Mésusage des services
 
-**CLUB1 n’est pas là pour vous couvrir et prendre des risques légaux à votre place,
-même si votre action est légitime, vous êtes entièrement responsables de ce que vous faites.**
+CLUB1 n’est pas là pour vous couvrir et prendre des risques légaux à votre place,
+même si votre action est légitime, vous êtes entièrement responsables de ce que vous faites.
 
-**La consommation de ressources doit respecter le cadre mutualisé de nos services.
-Tout abus peut entraîner la fermeture d’un compte.**
+La consommation de ressources doit respecter le cadre mutualisé de nos services.
+Tout abus peut entraîner la fermeture d’un compte.
 
 Vous devez respecter les lois et réglementations en vigueur lors de l’usage des services proposés
 que ce soit en matière de respect de la vie privée,d’envoi de mails en grande quantité,
@@ -133,7 +130,6 @@ CLUB1 ne transmettra ni ne revendra vos données personnelles.
 Votre contenu vous appartient tout autant, toutefois,
 nous vous encourageons à le publier sous licence libre si c’est pertinent.
 
-**Insistance sur l’importance du respect des données personnelles**
 Une modification du paragraphe précédente, contrairement au reste de la présente charte,
 ne peut se faire simplement par une simple notification. Si une telle modification devait survenir, elle :
 
@@ -145,13 +141,11 @@ ayant à cœur les problématiques de respect de la vie privée.
 
 ### Charte CHATONS
 
-**CLUB1 s’engage à respecter la charte du Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts,
-Neutres et Solidaires dans le cadre de son activité d’hébergeur et de fourniture de services en ligne**
+CLUB1 s’engage à respecter la [charte](https://chatons.org/fr/charte) du
+Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et Solidaires
+dans le cadre de son activité d’hébergeur et de fourniture de services en ligne
 
 CLUB1 est candidat à l’intégration au sein de ce collectif.
-
-Plus d’information sur la charte C.H.A.T.O.N.S. : <https://chatons.org/fr/charte>
-
 
 ### Devenir des données
 
