@@ -1,5 +1,5 @@
-C.G.U.
-======
+Conditions générales d'utilisation
+==================================
 
 
 Évolution des conditions générales de service
