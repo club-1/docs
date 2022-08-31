@@ -54,7 +54,7 @@ CLUB1 propose l’ensemble de ces services grâce à des bénévoles qui feront
 ce qu’ils et elles peuvent pour résoudre les problèmes techniques qui pourraient subvenir.
 
 Si vous êtes membre, à ce titre vous avez une part de responsabilité dans le bon fonctionnement du collectif.
-Si le service est indisponible ou si vos données sont perdus, ce sera donc une faute collective.
+Si le service est indisponible ou si vos données sont perdues, ce sera donc une faute collective.
 
 En cas d’incapacité à résoudre un problème technique,
 CLUB1  pourra prendre la décision de fermer le service.
