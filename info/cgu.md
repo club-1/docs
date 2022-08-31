@@ -14,6 +14,9 @@ Un historique daté des versions de cette charte peut être consulté sur [GitHu
 Accès aux services
 ------------------
 
+Certains services sont en accès libre, d'autre requièrent un compte de membre. 
+La liste des services et leurs conditions d'accès est disponible sur la page [services](https://club1.fr/services/).
+
 CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le serveur.
 Un membre peut être une personne physique ou morale.
 Pour devenir membre, il faut s'aquiter des frais d'inscription, fixés à 35€.
