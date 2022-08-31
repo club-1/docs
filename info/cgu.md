@@ -2,7 +2,7 @@ Conditions générales d'utilisation
 ==================================
 
 
-Évolution des conditions générales de service
+Évolution des conditions générales d'utilisation
 ---------------------------------------------
 
 CLUB1 se réserve le droit de mettre à jour et modifier ces conditions.
