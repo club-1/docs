@@ -1,6 +1,7 @@
 Conditions générales d'utilisation
 ==================================
 
+En utilisant les services de CLUB1, vous acceptez d’être lié par les conditions suivantes.
 
 Évolution des conditions générales d'utilisation
 ---------------------------------------------
