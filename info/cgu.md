@@ -8,7 +8,7 @@ Conditions générales d'utilisation
 CLUB1 se réserve le droit de mettre à jour et modifier ces conditions.
 Dans ce cas, CLUB1 informe les personnes concernées par mail si elle le peut ou par un affichage sur le site.
 
-Un historique daté des versions de cette charte peut être récupéré sur LIEN_GITHUB_DOC
+Un historique daté des versions de cette charte peut être consulté sur [GitHub](https://github.com/club-1/docs/commits/main/info/cgu.md).
 
 Accès aux services
 ------------------
