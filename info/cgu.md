@@ -43,11 +43,11 @@ CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe.
 
 ### Intervention en cas de panne
 
-**En cas de panne constatée et si aucun message n’atteste sur la page de statut
+En cas de panne constatée et si aucun message n’atteste sur la page de statut
 que CLUB1 est en train de corriger le dysfonctionnement,
-vous devez faire un signalement via un ticket sur Github.**
+vous devez faire un signalement via un [ticket sur GitHub](https://github.com/club-1/hosting/issues).
 
-<https://github.com/club-1/hosting/issues>
+
 
 **Si ça casse, on fera de notre mieux MAIS nous ne sommes pas obligés de réparer**
 CLUB1 propose l’ensemble de ces services grâce à des bénévoles qui feront
