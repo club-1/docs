@@ -14,8 +14,9 @@ Un historique daté des versions de cette charte peut être consulté sur [GitHu
 Accès aux services
 ------------------
 
-Certains services sont en accès libre, d'autre requièrent un compte de membre. 
-La liste des services et leurs conditions d'accès est disponible sur la page [services](https://club1.fr/services/).
+Certains services sont en accès libre, d'autre requièrent un compte de membre.
+La liste des services et leurs conditions d'accès est disponible
+sur la page [services](https://club1.fr/services/).
 
 CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le serveur.
 Un membre peut être une personne physique ou morale.
@@ -56,15 +57,11 @@ Si le service est indisponible ou si vos données sont perdues, ce sera donc une
 En cas d’incapacité à résoudre un problème technique,
 CLUB1  pourra prendre la décision de fermer le service.
 
-Dès réception d’un signalement, CLUB1 intervient le plus promptement possible compte tenue du contexte
-(nombre d’usagers impactés, gravité, temps nécessaire pour résoudre le problème, disponibilité, etc).
-
 
 ### Responsabilité de CLUB1
 
 En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages
 ou indemnités résultant de problèmes techniques de quelque nature que ce soit.
-
 
 CLUB1 est assujetti à une obligation de moyens, considérant la haute technicité des technologies mises en œuvre.
 En cas de défaillance, CLUB1 ne peut être tenu pour responsable des dommages indirects
@@ -72,9 +69,6 @@ tels que pertes d’exploitation, préjudices commerciaux, perte de Clientèle,
 de chiffre d’affaires, de bénéfices ou d’économies prévus, ou de tout autre préjudice indirect.
 
 ### Mésusage des services
-
-CLUB1 n’est pas là pour vous couvrir et prendre des risques légaux à votre place,
-même si votre action est légitime, vous êtes entièrement responsables de ce que vous faites.
 
 La consommation de ressources doit respecter le cadre mutualisé de nos services.
 Tout abus peut entraîner la fermeture d’un compte.
