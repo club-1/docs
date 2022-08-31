@@ -2,14 +2,16 @@ C.G.U.
 ======
 
 
-## Évolution des conditions générales de service
+Évolution des conditions générales de service
+---------------------------------------------
 
 CLUB1 se réserve le droit de mettre à jour et modifier ces conditions.
 Dans ce cas, CLUB1 informe les personnes concernées par mail si elle le peut ou par un affichage sur le site.
 
 Un historique daté des versions de cette charte peut être récupéré sur LIEN_GITHUB_DOC
 
-## Accès aux services
+Accès aux services
+------------------
 
 CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le serveur.
 Un membre peut être une personne physique ou morale.
@@ -20,7 +22,8 @@ selon les ressources disponibles.
 
 
 
-## Fonctionnement
+Fonctionnement
+--------------
 
 ### Délais de mise en service
 
@@ -32,7 +35,7 @@ Nous essayons toutefois de faire de notre mieux.
 
 ### Transmission sécurisée d’identifiants
 
-**CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe**
+CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe.
 
 ### Intervention en cas de panne
 
@@ -40,7 +43,7 @@ Nous essayons toutefois de faire de notre mieux.
 que CLUB1 est en train de corriger le dysfonctionnement,
 vous devez faire un signalement via un ticket sur Github.**
 
-https://github.com/club-1/hosting/issues
+<https://github.com/club-1/hosting/issues>
 
 **Si ça casse, on fera de notre mieux MAIS nous ne sommes pas obligés de réparer**
 CLUB1 propose l’ensemble de ces services grâce à des bénévoles qui feront
@@ -54,7 +57,6 @@ CLUB1  pourra prendre la décision de fermer le service.
 
 Dès réception d’un signalement, CLUB1 intervient le plus promptement possible compte tenue du contexte
 (nombre d’usagers impactés, gravité, temps nécessaire pour résoudre le problème, disponibilité, etc).
-
 
 
 ### Responsabilité de CLUB1
@@ -101,26 +103,25 @@ Si CLUB1 en a la possibilité, le club fera de son mieux pour laisser un délai 
 pour permettre à tout le monde de migrer sereinement.
 
 
-
-
 ### Résiliation d’un compte
 
 Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par email à <contact@club1.fr>.
 
 
-
-
-## Nos engagements
+Nos engagements
+---------------
 
 **Respects de vos données personnelles, votre vie privée,
 votre propriété intellectuelle, vos droits ainsi que le principe de neutralité du net**
 
 CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finalités:
- - fournir le service pour lesquels vous avez transmis vos données
- - produire d’éventuelles statistiques anonymisées et agrégées
- - vous prévenir d’un changement important sur le service
- (panne, notification d’intrusion et de vol de données, changement d’interface, date d’arrêt du service...)
- - obtenir votre avis sur les services et l’action du collectif
+
+- fournir le service pour lesquels vous avez transmis vos données
+- produire d’éventuelles statistiques anonymisées et agrégées
+- vous prévenir d’un changement important sur le service
+(panne, notification d’intrusion et de vol de données, changement d’interface, date d’arrêt du service...)
+- obtenir votre avis sur les services et l’action du collectif
+
 > - vous inviter à participer à un évènement de CLUB1
 
 
@@ -131,11 +132,11 @@ nous vous encourageons à le publier sous licence libre si c’est pertinent.
 **Insistance sur l’importance du respect des données personnelles**
 Une modification du paragraphe précédente, contrairement au reste de la présente charte,
 ne peut se faire simplement par une simple notification. Si une telle modification devait survenir, elle :
- - Ne serait pas rétroactive
- - Demandera un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
- - Provoquera une révocation préalable à la modification auprès de tous les soutiens de CLUB1
- ayant à cœur les problématiques de respect de la vie privée.
 
+- Ne serait pas rétroactive
+- Demandera un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
+- Provoquera une révocation préalable à la modification auprès de tous les soutiens de CLUB1
+ayant à cœur les problématiques de respect de la vie privée.
 
 
 ### Charte CHATONS
@@ -145,7 +146,7 @@ Neutres et Solidaires dans le cadre de son activité d’hébergeur et de fourni
 
 CLUB1 est candidat à l’intégration au sein de ce collectif.
 
-Plus d’information sur la charte C.H.A.T.O.N.S. : https://chatons.org/fr/charte
+Plus d’information sur la charte C.H.A.T.O.N.S. : <https://chatons.org/fr/charte>
 
 
 ### Devenir des données
