@@ -103,9 +103,6 @@ Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par email
 Nos engagements
 ---------------
 
-**Respects de vos données personnelles, votre vie privée,
-votre propriété intellectuelle, vos droits ainsi que le principe de neutralité du net**
-
 CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finalités:
 
 - fournir le service pour lesquels vous avez transmis vos données
@@ -140,9 +137,8 @@ CLUB1 est candidat à l’intégration au sein de ce collectif.
 
 Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données.
 
-Certains services en libre accès permettent de configurer la péremption des données,
-d’autres les conservent de façon permanentes,
-mais vous pouvez demander leur retrait si vous pouvez prouver que vous en êtes l’auteur⋅ices.
+Les services en libre accès ont une péremption des données fixée,
+cela pour éviter la surcharge des espaces de stockage.
 
 ### RGPD
 
