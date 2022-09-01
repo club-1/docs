@@ -133,7 +133,7 @@ ayant à cœur les problématiques de respect de la vie privée.
 
 CLUB1 s’engage à respecter la [charte](https://chatons.org/fr/charte) du
 Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et Solidaires
-dans le cadre de son activité d’hébergeur et de fourniture de services en ligne
+dans le cadre de son activité d’hébergeur et de fournisseur de services en ligne.
 
 CLUB1 est candidat à l’intégration au sein de ce collectif.
 
