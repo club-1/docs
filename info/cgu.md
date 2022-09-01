@@ -117,7 +117,7 @@ CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finali
 
 
 CLUB1 ne transmettra ni ne revendra vos données personnelles.
-Votre contenu vous appartient tout autant, toutefois,
+Votre contenu vous appartient, toutefois,
 nous vous encourageons à le publier sous licence libre si c’est pertinent.
 
 Une modification du paragraphe précédent, contrairement au reste des CGU,
