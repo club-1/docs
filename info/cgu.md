@@ -124,8 +124,8 @@ Une modification du paragraphe précédent, contrairement au reste des CGU,
 ne peut se faire simplement par une simple notification. Si une telle modification devait survenir, elle :
 
 - Ne serait pas rétroactive
-- Demandera un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
-- Provoquera une révocation préalable à la modification auprès de tous les soutiens de CLUB1
+- Demanderait un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
+- Provoquerait une révocation préalable à la modification auprès de tous les soutiens de CLUB1
 ayant à cœur les problématiques de respect de la vie privée.
 
 
