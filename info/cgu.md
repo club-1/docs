@@ -31,11 +31,7 @@ selon les ressources disponibles.
 Fonctionnement
 --------------
 
-### Délais de mise en service
-
-CLUB1 propose les services suivants grâce à des bénévoles,
-de ce fait CLUB1 ne s’engage sur aucun délai de mise en service.
-Nous essayons toutefois de faire de notre mieux.
+CLUB1 propose les services suivants grâce à des bénévoles, de ce fait CLUB1 ne s'engage sur aucun délai. Nous essayons toutefois de faire de notre mieux.
 
 ### Transmission sécurisée d’identifiants
 
