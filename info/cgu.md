@@ -139,7 +139,7 @@ CLUB1 est candidat à l’intégration au sein de ce collectif.
 
 ### Devenir des données
 
-Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données
+Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données.
 
 Certains services en libre accès permettent de configurer la péremption des données,
 d’autres les conservent de façon permanentes,
