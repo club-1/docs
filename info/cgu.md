@@ -113,8 +113,6 @@ CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finali
 (panne, notification d’intrusion et de vol de données, changement d’interface, date d’arrêt du service...)
 - obtenir votre avis sur les services et l’action du collectif
 
-> - vous inviter à participer à un évènement de CLUB1
-
 
 CLUB1 ne transmettra ni ne revendra vos données personnelles.
 Votre contenu vous appartient, toutefois,
