@@ -120,7 +120,7 @@ CLUB1 ne transmettra ni ne revendra vos données personnelles.
 Votre contenu vous appartient tout autant, toutefois,
 nous vous encourageons à le publier sous licence libre si c’est pertinent.
 
-Une modification du paragraphe précédente, contrairement au reste de la présente charte,
+Une modification du paragraphe précédent, contrairement au reste des CGU,
 ne peut se faire simplement par une simple notification. Si une telle modification devait survenir, elle :
 
 - Ne serait pas rétroactive
