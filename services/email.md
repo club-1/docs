@@ -10,8 +10,12 @@ Client Web
 
 Un {term}`client Web` fourni par {term}`Roundcube`
 est disponible à l'adresse <https://mail.club1.fr>.
-Il permet de gérer et d'envoyer des emails, mais aussi d'accéder aux {index}`calendriers`
-et {index}`carnets d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md).
+
+Il permet de gérer et envoyer des emails
+ainsi que de [configurer des filtres](#filtres-automatiques) pour trier automatiquement les emails reçus.
+
+Mais il permet aussi d'accéder aux **{index}`calendriers`**
+et **{index}`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md).
 
 Stockage des données
 --------------------
@@ -94,6 +98,20 @@ Il est aussi possible de supprimer le fichier pour tout annuler.
 La page de manuel [Postfix local mail delivery](https://www.postfix.org/local.8.html) (en anglais)
 ```
 
+### Filtres automatiques
+
+Les filtres Sieve permettent de trier automatiquement les emails que vous recevez.
+Ces filtres sont appliqués côté {term}`serveur` et ne dépendent donc d'aucun {term}`client`.
+Chaque utilisateur doit cependant les configurer lui-même.
+
+Il existe deux manières de les éditer.
+La plus simple est d'utiliser le [client Web Roundcube de CLUB1](#client-web).
+Il dispose dans ses paramètres d'une interface de gestion de filtres.
+
+La deuxième méthode consiste à directement modifier le fichier de filtre dans votre **espace personnel** :
+
+    ~/.dovecot.sieve
+
 Informations de connexion
 -------------------------
 
@@ -118,7 +136,7 @@ La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de config
 Logiciels
 ---------
 
-```{glossary}
+````{glossary}
 Postfix
    {term}`Serveur` SMTP utilisé pour la transmission d'email.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Postfix),
@@ -128,6 +146,12 @@ Dovecot
    {term}`Serveur` IMAP utilisé pour la gestion de boîtes emails.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Dovecot),
    [Sources](https://github.com/dovecot/core)
+
+Pigeonhole
+   Extension {term}`Dovecot` pour Sieve et ManageSieve,
+   permettant de configurer des filtres automatiques côté {term}`serveur`.
+   Ces filtres peuvent être édités depuis {term}`Roundcube`.
+   --- [Site Web](https://pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)
 
 SPF-Engine
    {term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
@@ -148,4 +172,8 @@ Roundcube
    {term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP et IMAP.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
    [Sources](https://github.com/roundcube/roundcubemail)
-```
+
+   ```{admonition} Voir aussi
+   La section [](#client-web)
+   ```
+````
