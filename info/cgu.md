@@ -31,7 +31,7 @@ selon les ressources disponibles.
 Fonctionnement
 --------------
 
-CLUB1 propose les services suivants grâce à des bénévoles, de ce fait CLUB1 ne s'engage sur aucun délai.
+CLUB1 propose l’ensemble de ses services grâce à des bénévoles, de ce fait CLUB1 ne s'engage sur aucun délai d'action.
 Nous essayons toutefois de faire de notre mieux.
 
 ### Transmission sécurisée d’identifiants
