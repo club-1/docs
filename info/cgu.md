@@ -127,7 +127,7 @@ ayant à cœur les problématiques de respect de la vie privée.
 
 ### Charte CHATONS
 
-CLUB1 s’engage à respecter la [charte](https://chatons.org/fr/charte) du
+CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du
 Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et Solidaires
 dans le cadre de son activité d’hébergeur et de fournisseur de services en ligne.
 
