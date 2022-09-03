@@ -7,7 +7,7 @@ En utilisant les services de CLUB1, vous acceptez d’être lié par les conditi
 ---------------------------------------------
 
 CLUB1 se réserve le droit de mettre à jour et modifier ces conditions.
-Dans ce cas, CLUB1 informe les personnes concernées par mail si elle le peut ou par un affichage sur le site.
+Dans ce cas, CLUB1 informe les personnes concernées par email si elle le peut ou par un affichage sur le site.
 
 Un historique daté des versions de cette charte peut être consulté sur [GitHub](https://github.com/club-1/docs/commits/main/info/cgu.md).
 
