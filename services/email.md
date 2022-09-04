@@ -9,7 +9,7 @@ Sous-adresses
 -------------
 
 En plus de l'adresse principale, les membres ont la possibilité d'utiliser les sous-adresses.
-Les sous-adresses sont comme des alias.
+Les sous-adresses sont comme des {term}`alias`.
 Par défaut, elles redirigent vers l'adresse principale.
 Toutes les adresses de la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`
 
