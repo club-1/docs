@@ -8,6 +8,12 @@ Glossaire
 sorted:
 ---
 
+Alias
+    Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs noms à la même entité.
+    C'est un concept fréquemment utilisé en informatique.
+    On parle par exemple d'alias lorsqu'on fait pointer plusieurs adresses email vers la même boîte de reception,
+    ou lorsqu'on définit un nouveau nom pour une commande.
+
 API
    De l'anglais _Application Programming Interface_.
    Interface destinée à être utilisée non pas par un être humain mais par un logiciel.

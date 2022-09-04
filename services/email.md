@@ -5,6 +5,35 @@ Chaque membre dispose d'une adresse email personnelle.
 Elle est composée de l'**identifiant**, suivi de `@club1.fr`.
 Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
 
+Sous-adresses
+-------------
+
+En plus de l'adresse principale, les membres ont la possibilité d'utiliser les sous-adresses.
+Les sous-adresses sont comme des {term}`alias`.
+Par défaut, elles redirigent vers l'adresse principale.
+Toutes les adresses de la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`
+
+> Par exemple, tous les emails envoyés à `michel+travail@club1.fr`
+> seront redirigés vers `michel@club1.fr`.
+
+Ces adresses peuvent paraitre inutiles à première vue.
+Mais combinées avec les [transferts automatiques](#transferts-automatiques)
+et les [filtres automatiques](#filtres-automatiques),
+elles deviennent très intéressantes.
+
+```{important}
+Pour le [transfert automatique](#transferts-automatiques) d'une sous-adresse en particulier,
+on utilise un fichier `.formward+[...]` au lieu du fichier `.forward` de l'adresse principale.
+
+> Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr`
+> il faut le faire dans le fichier `.forward+travail`.
+```
+
+```{admonition} Voir aussi
+La documentation officielle de l'option [recipient_delimiter](http://www.postfix.org/postconf.5.html#recipient_delimiter)
+(en anglais)
+```
+
 Client Web
 ----------
 
