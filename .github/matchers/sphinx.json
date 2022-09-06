@@ -36,10 +36,10 @@
       ]
     },
     {
-      "owner": "sphinx-translated",
+      "owner": "sphinx",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):<translated>:\\d+:\\s+(\\w+):\\s+(.+)$",
+          "regexp": "^(.+):(\\d+):\\s+(\\w+):\\s+(.+)$",
           "file": 1,
           "line": 2,
           "severity": 3,
@@ -48,10 +48,10 @@
       ]
     },
     {
-      "owner": "sphinx",
+      "owner": "sphinx-translated",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):\\s+(\\w+):\\s+(.+)$",
+          "regexp": "^(.+):(\\d+):<translated>:\\d+:\\s+(\\w+):\\s+(.+)$",
           "file": 1,
           "line": 2,
           "severity": 3,
