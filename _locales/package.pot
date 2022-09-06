@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-08-15 19:20+0200\n"
+"POT-Creation-Date: 2022-09-06 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,20 @@ msgstr ""
 msgid "Glossaire"
 msgstr ""
 
+#: ../../glossaire.md:0
+msgid "Alias"
+msgstr ""
+
 #: ../../glossaire.md:8
+msgid ""
+"Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs "
+"noms à la même entité. C'est un concept fréquemment utilisé en informatique. "
+"On parle par exemple d'alias lorsqu'on fait pointer plusieurs adresses email "
+"vers la même boîte de reception, ou lorsqu'on définit un nouveau nom pour "
+"une commande."
+msgstr ""
+
+#: ../../glossaire.md:14
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
@@ -34,7 +47,7 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:14
+#: ../../glossaire.md:20
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -43,35 +56,35 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:13
+#: ../../glossaire.md:19
 msgid "Client"
 msgstr ""
 
-#: ../../glossaire.md:21
+#: ../../glossaire.md:27
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:18 ../../services/email.md:8
+#: ../../glossaire.md:24 ../../services/email.md:37
 msgid "Client Web"
 msgstr ""
 
-#: ../../glossaire.md:26
+#: ../../glossaire.md:32
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:29
+#: ../../glossaire.md:35
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:34
+#: ../../glossaire.md:40
 msgid ""
 "(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
 "les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -79,11 +92,11 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:31
+#: ../../glossaire.md:37
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:39
+#: ../../glossaire.md:45
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -92,7 +105,7 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:46
+#: ../../glossaire.md:52
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -102,22 +115,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:46
+#: ../../glossaire.md:52
 msgid "Réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:54
+#: ../../glossaire.md:60
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:50
+#: ../../glossaire.md:56
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossaire.md:58
+#: ../../glossaire.md:64
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -127,7 +140,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:72
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -137,18 +150,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:72
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:74
+#: ../../glossaire.md:80
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:78
+#: ../../glossaire.md:84
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -275,7 +288,7 @@ msgid ""
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:244
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:245
 msgid "Metadonnées"
 msgstr ""
 
@@ -473,7 +486,8 @@ msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
 "Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
-"endroits dont un dépôt off-site fourni par OVH."
+"endroits dont un dépôt off-site offert par Etienne Le Louët (hébergé chez "
+"OVH)."
 msgstr ""
 
 #: ../../info/general.md:98
@@ -499,7 +513,9 @@ msgstr ""
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr ""
 
-#: ../../info/general.md:108 ../../services/email.md:37
+#: ../../info/general.md:108 ../../services/email.md:32
+#: ../../services/email.md:70 ../../services/email.md:126
+#: ../../services/email.md:205
 msgid "Voir aussi"
 msgstr ""
 
@@ -593,7 +609,7 @@ msgstr ""
 #: ../../info/general.md:148
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
-"divulguée ni utilisée à des fins lucratives et ce même sous la menace."
+"divulguée ni utilisée à des fins lucratives."
 msgstr ""
 
 #: ../../info/general.md:151
@@ -614,8 +630,9 @@ msgstr ""
 
 #: ../../interne/aliases.md:4
 msgid ""
-"Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
-"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
+"Ce manuel est réservé aux utilisateurs faisant partie du groupe unix "
+"`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
+"les {term}`alias` emails."
 msgstr ""
 
 #: ../../interne/aliases.md:7
@@ -943,63 +960,63 @@ msgstr ""
 
 #: ../../interne/meta-doc.md:161
 msgid ""
-"Extension {term}`Sphinx` permettant de générer une page d'erreur 404 "
-"personnalisée dont les liens sont absolus."
+"_(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page "
+"d'erreur 404 personnalisée dont les liens sont absolus."
 msgstr ""
 
 #: ../../interne/meta-doc.md:164
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr ""
 
-#: ../../interne/meta-doc.md:167 ../../interne/meta-doc.md:193
+#: ../../interne/meta-doc.md:167 ../../interne/meta-doc.md:194
 msgid "Installation sur *Debian* :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:171
+#: ../../interne/meta-doc.md:172
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr ""
 
-#: ../../interne/meta-doc.md:175
+#: ../../interne/meta-doc.md:176
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr ""
 
-#: ../../interne/meta-doc.md:178
+#: ../../interne/meta-doc.md:179
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr ""
 
-#: ../../interne/meta-doc.md:181
+#: ../../interne/meta-doc.md:182
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr ""
 
-#: ../../interne/meta-doc.md:184
+#: ../../interne/meta-doc.md:185
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr ""
 
-#: ../../interne/meta-doc.md:187
+#: ../../interne/meta-doc.md:188
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr ""
 
-#: ../../interne/meta-doc.md:190
+#: ../../interne/meta-doc.md:191
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr ""
 
-#: ../../interne/meta-doc.md:197
+#: ../../interne/meta-doc.md:198
 msgid "Commandes"
 msgstr ""
 
-#: ../../interne/meta-doc.md:199
+#: ../../interne/meta-doc.md:200
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:203
+#: ../../interne/meta-doc.md:204
 msgid "Compilation d'une locale spécifique :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:207
+#: ../../interne/meta-doc.md:208
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:211
+#: ../../interne/meta-doc.md:212
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1008,11 +1025,11 @@ msgid ""
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
-#: ../../interne/meta-doc.md:221
+#: ../../interne/meta-doc.md:222
 msgid "Déploiement de la version Web"
 msgstr ""
 
-#: ../../interne/meta-doc.md:224
+#: ../../interne/meta-doc.md:225
 msgid ""
 "Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
 "{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1046,7 +1063,7 @@ msgstr ""
 msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
 msgstr ""
 
-#: ../../services/drive.md:16 ../../services/email.md:84
+#: ../../services/drive.md:16 ../../services/email.md:165
 #: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:42
 #: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:40
 #: ../../services/webdav.md:45
@@ -1070,19 +1087,73 @@ msgid ""
 "l'utilisateur `michel` est `michel@club1.fr`."
 msgstr ""
 
+#: ../../services/email.md:8
+msgid "Sous-adresses"
+msgstr ""
+
 #: ../../services/email.md:11
 msgid ""
-"Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
-"l'adresse <https://mail.club1.fr>. Il permet de gérer et d'envoyer des "
-"emails, mais aussi d'accéder aux {index}`calendriers` et {index}`carnets "
-"d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
+"En plus de l'adresse principale, les membres ont la possibilité d'utiliser "
+"les sous-adresses. Les sous-adresses sont comme des {term}`alias`. Par "
+"défaut, elles redirigent vers l'adresse principale. Toutes les adresses de "
+"la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`"
 msgstr ""
 
 #: ../../services/email.md:16
-msgid "Stockage des données"
+msgid ""
+"Par exemple, tous les emails envoyés à `michel+travail@club1.fr` seront "
+"redirigés vers `michel@club1.fr`."
 msgstr ""
 
 #: ../../services/email.md:19
+msgid ""
+"Ces adresses peuvent paraitre inutiles à première vue. Mais combinées avec "
+"les [transferts automatiques](#transferts-automatiques) et les [filtres "
+"automatiques](#filtres-automatiques), elles deviennent très intéressantes."
+msgstr ""
+
+#: ../../services/email.md:25
+msgid ""
+"Pour le [transfert automatique](#transferts-automatiques) d'une sous-adresse "
+"en particulier, on utilise un fichier `.formward+[...]` au lieu du fichier `."
+"forward` de l'adresse principale."
+msgstr ""
+
+#: ../../services/email.md:28
+msgid ""
+"Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr` il "
+"faut le faire dans le fichier `.forward+travail`."
+msgstr ""
+
+#: ../../services/email.md:33
+msgid ""
+"La documentation officielle de l'option [recipient_delimiter](http://www."
+"postfix.org/postconf.5.html#recipient_delimiter) (en anglais)"
+msgstr ""
+
+#: ../../services/email.md:40
+msgid ""
+"Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
+"l'adresse <https://mail.club1.fr>."
+msgstr ""
+
+#: ../../services/email.md:43
+msgid ""
+"Il permet de gérer et envoyer des emails ainsi que de [configurer des "
+"filtres](#filtres-automatiques) pour trier automatiquement les emails reçus."
+msgstr ""
+
+#: ../../services/email.md:46
+msgid ""
+"Mais il permet aussi d'accéder aux **{index}`calendriers`** et **{index}"
+"`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md)."
+msgstr ""
+
+#: ../../services/email.md:49
+msgid "Stockage des données"
+msgstr ""
+
+#: ../../services/email.md:52
 msgid ""
 "Toutes les données relatives aux emails sont stockées sous la forme de "
 "fichiers dans le dossier `mail` de votre [*espace personnel*](/info/espace-"
@@ -1092,7 +1163,7 @@ msgid ""
 "avoir fait une sauvegarde du dossier sur un ordinateur personnel."
 msgstr ""
 
-#: ../../services/email.md:25
+#: ../../services/email.md:58
 msgid ""
 "Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/"
 "wiki/Mutt) est préconfiguré pour consulter ce dossier par défaut. Pour "
@@ -1100,67 +1171,67 @@ msgid ""
 "CLUB1 puis lancer la commande suivante :"
 msgstr ""
 
-#: ../../services/email.md:32
+#: ../../services/email.md:65
 msgid "Détails divers"
 msgstr ""
 
-#: ../../services/email.md:35
+#: ../../services/email.md:68
 msgid ""
 "Quelques informations supplémentaires à propos de certains détails du "
 "service email de CLUB1."
 msgstr ""
 
-#: ../../services/email.md:38
+#: ../../services/email.md:71
 msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
 msgstr ""
 
-#: ../../services/email.md:41
+#: ../../services/email.md:74
 msgid "Dossiers spéciaux"
 msgstr ""
 
-#: ../../services/email.md:43
+#: ../../services/email.md:76
 msgid ""
 "Les dossiers spéciaux utilisent les noms standards, ils seront donc "
 "automatiquement reconnus par la grande majorité des clients email. Au cas où "
 "ils ne le sont pas, voici la liste complète :"
 msgstr ""
 
-#: ../../services/email.md:47
+#: ../../services/email.md:80
 msgid "`INBOX` : messages reçus"
 msgstr ""
 
-#: ../../services/email.md:48
+#: ../../services/email.md:81
 msgid "`Drafts` : brouillons en cours de rédaction"
 msgstr ""
 
-#: ../../services/email.md:49
+#: ../../services/email.md:82
 msgid "`Sent` : messages envoyés"
 msgstr ""
 
-#: ../../services/email.md:50
+#: ../../services/email.md:83
 msgid "`Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:51
+#: ../../services/email.md:84
 msgid ""
 "`Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:52
+#: ../../services/email.md:85
 msgid "`Archive` : messages archivés"
 msgstr ""
 
-#: ../../services/email.md:54
+#: ../../services/email.md:87
 msgid "Quotas"
 msgstr ""
 
-#: ../../services/email.md:56
+#: ../../services/email.md:89
 msgid ""
 "Le dossier `mail` est soumis à un quota de **5&nbsp;Go**. Cette décision a "
 "été prise pour encourager la suppression des anciens emails."
 msgstr ""
 
-#: ../../services/email.md:59
+#: ../../services/email.md:92
 msgid ""
 "La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**. Si "
 "un email dépasse cette taille, il sera refusé et l'expéditeur en sera "
@@ -1168,95 +1239,199 @@ msgid ""
 "`552: 5.3.4 Error: message file too big`."
 msgstr ""
 
-#: ../../services/email.md:63 ../../services/ftp.md:41 ../../services/sql.md:9
+#: ../../services/email.md:96
+msgid "Transferts automatiques"
+msgstr ""
+
+#: ../../services/email.md:98
+msgid ""
+"Il est possible de transférer automatiquement les emails que vous recevez "
+"sur votre adresse CLUB1 vers une ou plusieurs autres adresses de votre "
+"choix. Pour se faire, il faut créer dans votre [espace personnel](/info/"
+"espace-personnel.md) un fichier qui va indiquer à {term}`Postfix` à qui "
+"transférer votre courrier entrant. Ce fichier doit être placé directement "
+"dans votre dossier et s'appeller `.forward`."
+msgstr ""
+
+#: ../../services/email.md:105
+msgid ""
+"Les fichiers avec un point `.` devant sont appelés des [fichiers cachés]"
+"(https://fr.wikipedia.org/wiki/"
+"Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux). Dans les "
+"explorateurs de fichiers ils peuvent être masqués par défaut."
+msgstr ""
+
+#: ../../services/email.md:110
+msgid ""
+"A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses "
+"vers lesquelles vous souhaitez rediriger les emails en les séparant par un "
+"retour à la ligne."
+msgstr ""
+
+#: ../../services/email.md:113
+msgid "Exemple de fichier `.forward` transférant vers deux adresses emails :"
+msgstr ""
+
+#: ../../services/email.md:119
+msgid ""
+"Il est même possible de conserver ses emails sur sa boîte CLUB1 en ajoutant "
+"son nom d'utilisateur&middot;trice à cette liste !"
+msgstr ""
+
+#: ../../services/email.md:123
+msgid ""
+"Pour mettre fin à une redirection, il suffit de supprimer la ligne "
+"correspondante. Il est aussi possible de supprimer le fichier pour tout "
+"annuler."
+msgstr ""
+
+#: ../../services/email.md:127
+msgid ""
+"La page de manuel [Postfix local mail delivery](https://www.postfix.org/"
+"local.8.html) (en anglais)"
+msgstr ""
+
+#: ../../services/email.md:130
+msgid "Filtres automatiques"
+msgstr ""
+
+#: ../../services/email.md:132
+msgid ""
+"Les filtres Sieve permettent de trier automatiquement les emails que vous "
+"recevez. Ces filtres sont appliqués côté {term}`serveur` et ne dépendent "
+"donc d'aucun {term}`client`. Chaque utilisateur doit cependant les "
+"configurer lui-même."
+msgstr ""
+
+#: ../../services/email.md:136
+msgid ""
+"Il existe deux manières de les éditer. La plus simple est d'utiliser le "
+"[client Web Roundcube de CLUB1](#client-web). Il dispose dans ses paramètres "
+"d'une interface de gestion de filtres."
+msgstr ""
+
+#: ../../services/email.md:140
+msgid ""
+"La deuxième méthode consiste à directement modifier le fichier de filtre "
+"dans votre **espace personnel** :"
+msgstr ""
+
+#: ../../services/email.md:144 ../../services/ftp.md:41 ../../services/sql.md:9
 #: ../../services/ssh.md:100
 msgid "Informations de connexion"
 msgstr ""
 
-#: ../../services/email.md:66
+#: ../../services/email.md:147
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
 msgstr ""
 
-#: ../../services/email.md:68
+#: ../../services/email.md:149
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:52
 msgid "champ"
 msgstr ""
 
-#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:52
 msgid "valeur"
 msgstr ""
 
-#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:52
 msgid "hôte"
 msgstr ""
 
-#: ../../services/email.md:37
+#: ../../services/email.md:126
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:37 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
 #: ../../services/ssh.md:52
 msgid "port"
 msgstr ""
 
-#: ../../services/email.md:37
+#: ../../services/email.md:126
 msgid "`465` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:37 ../../services/ftp.md:4
+#: ../../services/email.md:126 ../../services/ftp.md:4
 msgid "chiffrement"
 msgstr ""
 
-#: ../../services/email.md:37
+#: ../../services/email.md:126
 msgid "`SSL/TSL` (Implicite)"
 msgstr ""
 
-#: ../../services/email.md:76
+#: ../../services/email.md:157
 msgid "Serveur de réception (IMAP)"
 msgstr ""
 
-#: ../../services/email.md:37
+#: ../../services/email.md:126
 msgid "`mail.club1.fr` ou `imap.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:37
+#: ../../services/email.md:126
 msgid "`993` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:89
+#: ../../services/email.md:170
 msgid ""
 "{term}`Serveur` SMTP utilisé pour la transmission d'email. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Postfix), [Sources](https://github.com/"
 "vdukhovni/postfix)"
 msgstr ""
 
-#: ../../services/email.md:94
+#: ../../services/email.md:175
 msgid ""
 "{term}`Serveur` IMAP utilisé pour la gestion de boîtes emails. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://github."
 "com/dovecot/core)"
 msgstr ""
 
-#: ../../services/email.md:99
+#: ../../services/email.md:180
+msgid ""
+"Extension {term}`Dovecot` pour Sieve et ManageSieve, permettant de "
+"configurer des filtres automatiques côté {term}`serveur`. Ces filtres "
+"peuvent être édités depuis {term}`Roundcube`. --- [Site Web](https://"
+"pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)"
+msgstr ""
+
+#: ../../services/email.md:186
+msgid ""
+"{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr."
+"wikipedia.org/wiki/Sender_Policy_Framework) utilisé par {term}`Postfix` pour "
+"vérifier l'origine des emails entrants. --- [Sources](https://launchpad.net/"
+"spf-engine)"
+msgstr ""
+
+#: ../../services/email.md:191
+msgid ""
+"{term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_) permettant à "
+"{term}`Postfix` de transférer des emails en restant compatible avec SPF. --- "
+"[Sources](https://github.com/roehling/postsrsd)"
+msgstr ""
+
+#: ../../services/email.md:196
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {term}`Postfix` "
 "pour signer les emails sortants. --- [Site Web](http://www.opendkim.org/), "
 "[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
 msgstr ""
 
-#: ../../services/email.md:104
+#: ../../services/email.md:201
 msgid ""
 "{term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP "
 "et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
 "(https://github.com/roundcube/roundcubemail)"
+msgstr ""
+
+#: ../../services/email.md:206
+msgid "La section [](#client-web)"
 msgstr ""
 
 #: ../../services/ftp.md:1
@@ -2786,7 +2961,7 @@ msgid ""
 msgstr ""
 
 #. %s will be replaced by the project name
-#: conf.py:131
+#: conf.py:144
 #, python-format
 msgid "Documentation %s"
 msgstr ""

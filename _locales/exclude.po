@@ -88,6 +88,12 @@ msgstr ""
 msgid "OpenSSH"
 msgstr ""
 
+msgid "Pigeonhole"
+msgstr ""
+
+msgid "PostSRSd"
+msgstr ""
+
 msgid "Postfix"
 msgstr ""
 
@@ -104,6 +110,9 @@ msgid "SCP"
 msgstr ""
 
 msgid "SFTP"
+msgstr ""
+
+msgid "SPF-Engine"
 msgstr ""
 
 msgid "SSH"
