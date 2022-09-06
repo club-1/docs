@@ -39,7 +39,7 @@
       "owner": "sphinx-translated",
       "pattern": [
         {
-          "regexp": "^(.*):(\\d+):<translated>:1:\\s+(\\w*):\\s+(.*)$",
+          "regexp": "^(.+):(\\d+):<translated>:\\d+:\\s+(\\w+):\\s+(.+)$",
           "file": 1,
           "line": 2,
           "severity": 3,
@@ -51,7 +51,7 @@
       "owner": "sphinx",
       "pattern": [
         {
-          "regexp": "^(.*):(\\d+):\\s+(\\w*):\\s+(.*)$",
+          "regexp": "^(.+):(\\d+):\\s+(\\w+):\\s+(.+)$",
           "file": 1,
           "line": 2,
           "severity": 3,
