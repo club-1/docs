@@ -59,8 +59,10 @@ jobs:
             sort -u -k2  _build/linkcheck/*/output.txt
           } | sort -u
           echo '::remove-matcher owner=sphinx::'
+          echo '::remove-matcher owner=sphinx-translated::'
           echo '::remove-matcher owner=sphinx-loose::'
           echo '::remove-matcher owner=sphinx-loose-no-severity::'
+          echo '::remove-matcher owner=sphinx-no-file::'
       - name: Upload html artifact
         uses: actions/upload-artifact@v3
         with:

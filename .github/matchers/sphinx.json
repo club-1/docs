@@ -1,6 +1,16 @@
 {
   "problemMatcher": [
     {
+      "owner": "sphinx-no-file",
+      "pattern": [
+        {
+          "regexp": "^(WARNING|ERROR):\\s+(.*)$",
+          "severity": 1,
+          "message": 2
+        }
+      ]
+    },
+    {
       "owner": "sphinx-loose-no-severity",
       "severity": "warning",
       "pattern": [
@@ -22,6 +32,18 @@
           "file": 1,
           "severity": 2,
           "message": 3
+        }
+      ]
+    },
+    {
+      "owner": "sphinx-translated",
+      "pattern": [
+        {
+          "regexp": "^(.*):(\\d+):<translated>:1:\\s+(\\w*):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
         }
       ]
     },
