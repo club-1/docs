@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-09-06 14:18+0200\n"
-"PO-Revision-Date: 2022-08-16 18:18+0000\n"
+"PO-Revision-Date: 2022-09-07 15:18+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -30,7 +30,7 @@ msgstr "Glossary"
 
 #: ../../glossaire.md:0
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: ../../glossaire.md:8
 msgid ""
@@ -40,6 +40,10 @@ msgid ""
 "vers la même boîte de reception, ou lorsqu'on définit un nouveau nom pour "
 "une commande."
 msgstr ""
+"Pseudonym, substitute name. Aliases allow multiple names to be given to the "
+"same entity. It is a concept frequently used in computer science. For "
+"example, we speak of an alias when we point several email addresses to the "
+"same inbox, or when we define a new name for a command."
 
 #: ../../glossaire.md:14
 msgid ""
@@ -616,12 +620,6 @@ msgid "Sauvegardes"
 msgstr "Backups"
 
 #: ../../info/general.md:93
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup."
-#| "org/). Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
-#| "plusieurs endroits dont un dépôt off-site fourni par OVH."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
@@ -631,7 +629,8 @@ msgid ""
 msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
 "[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
-"and encrypted manner in several places including an off-site repository."
+"and encrypted manner in several places including an off-site repository "
+"offered by Etienne Le Louët (hosted by OVH)."
 
 #: ../../info/general.md:98
 msgid ""
@@ -767,16 +766,12 @@ msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
 #: ../../info/general.md:148
-#, fuzzy
-#| msgid ""
-#| "Aucune des données que vous stockez dans votre espace personnel de sera "
-#| "divulguée ni utilisée à des fins lucratives et ce même sous la menace."
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives."
 msgstr ""
 "None of the data you store in your personal space will be divulged or used "
-"for profit, even under threat."
+"for profit."
 
 #: ../../info/general.md:151
 msgid "Contact"
@@ -797,17 +792,14 @@ msgid "Gestion des alias email"
 msgstr "Managing email aliases"
 
 #: ../../interne/aliases.md:4
-#, fuzzy
-#| msgid ""
-#| "Ce tutoriel est réservé aux utilisateurs faisant partie du groupe unix "
-#| "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs."
 msgid ""
 "Ce manuel est réservé aux utilisateurs faisant partie du groupe unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
-"This tutorial is dedicated to users that are part of the `aliases` group. It "
-"describes actions that can be done by those users."
+"This manual is dedicated to users that are part of the `aliases` group. It "
+"describes actions that can be done by those users on the email {term}`"
+"aliases <alias>`."
 
 #: ../../interne/aliases.md:7
 msgid "Modifier les alias de reception"
@@ -1224,16 +1216,12 @@ msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr "{term}`Sphinx` extension providing the ReadTheDocs {term}`HTML` theme."
 
 #: ../../interne/meta-doc.md:161
-#, fuzzy
-#| msgid ""
-#| "Extension {term}`Sphinx` permettant de générer une page d'erreur 404 "
-#| "personnalisée dont les liens sont absolus."
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page "
 "d'erreur 404 personnalisée dont les liens sont absolus."
 msgstr ""
-"{term}`Sphinx` extension to generate a custom 404 error page with absolute "
-"links."
+"_(Optional)_ {term}`Sphinx` extension to generate a custom 404 error page "
+"with absolute links."
 
 #: ../../interne/meta-doc.md:164
 msgid "_(Optionnel)_ Pour les locales autres que Français."
@@ -1383,7 +1371,7 @@ msgstr ""
 
 #: ../../services/email.md:8
 msgid "Sous-adresses"
-msgstr ""
+msgstr "Subaddresses"
 
 #: ../../services/email.md:11
 msgid ""
@@ -1392,12 +1380,18 @@ msgid ""
 "défaut, elles redirigent vers l'adresse principale. Toutes les adresses de "
 "la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`"
 msgstr ""
+"In addition to the primary address, members have the option to use "
+"subaddresses. Subaddresses are like {term}`aliases <alias>`. By default, "
+"they redirect to the primary address. All addresses of the form `member+[...]"
+" @club1.fr` are subaddresses of `membre@club1.fr`"
 
 #: ../../services/email.md:16
 msgid ""
 "Par exemple, tous les emails envoyés à `michel+travail@club1.fr` seront "
 "redirigés vers `michel@club1.fr`."
 msgstr ""
+"For example, all emails sent to `michel+travail@club1.fr` will be redirected "
+"to `michel@club1.fr`."
 
 #: ../../services/email.md:19
 msgid ""
@@ -1405,6 +1399,9 @@ msgid ""
 "les [transferts automatiques](#transferts-automatiques) et les [filtres "
 "automatiques](#filtres-automatiques), elles deviennent très intéressantes."
 msgstr ""
+"These addresses may seem useless at first glance. But combined with ["
+"automatic forwarding](#transferts-automatiques) and [automatic filters"
+"](#filtres-automatiques), they become very interesting."
 
 #: ../../services/email.md:25
 msgid ""
@@ -1412,46 +1409,49 @@ msgid ""
 "en particulier, on utilise un fichier `.formward+[...]` au lieu du fichier `."
 "forward` de l'adresse principale."
 msgstr ""
+"For [automatic forwarding](#transferts-automatiques) of a particular "
+"subaddress, a `.formward+[...]` file is used instead of the `.forward` file "
+"of the main address."
 
 #: ../../services/email.md:28
 msgid ""
 "Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr` il "
 "faut le faire dans le fichier `.forward+travail`."
 msgstr ""
+"For example, to redirect only the address `michel+travail@club1.fr` it must "
+"be done in the file `.forward+travail`."
 
 #: ../../services/email.md:33
 msgid ""
 "La documentation officielle de l'option [recipient_delimiter](http://www."
 "postfix.org/postconf.5.html#recipient_delimiter) (en anglais)"
 msgstr ""
+"The official documentation of the [recipient_delimiter](http://www.postfix."
+"org/postconf.5.html#recipient_delimiter) option"
 
 #: ../../services/email.md:40
 msgid ""
 "Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
 "l'adresse <https://mail.club1.fr>."
 msgstr ""
+"A {term}`Web client` provided by {term}`Roundcube` is available at "
+"<https://mail.club1.fr>."
 
 #: ../../services/email.md:43
 msgid ""
 "Il permet de gérer et envoyer des emails ainsi que de [configurer des "
 "filtres](#filtres-automatiques) pour trier automatiquement les emails reçus."
 msgstr ""
+"It allows you to manage and send emails as well as [configure filters"
+"](#filtres-automatiques) to automatically sort incoming emails."
 
 #: ../../services/email.md:46
-#, fuzzy
-#| msgid ""
-#| "Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
-#| "l'adresse <https://mail.club1.fr>. Il permet de gérer et d'envoyer des "
-#| "emails, mais aussi d'accéder aux {index}`calendriers` et {index}`carnets "
-#| "d'adresses` CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgid ""
 "Mais il permet aussi d'accéder aux **{index}`calendriers`** et **{index}"
 "`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgstr ""
-"A {term}`Web client` provided by {term}`Roundcube` is accessible at <https://"
-"mail.club1.fr>. It allows to manage and send emails, but also access CLUB1 "
-"{index}`calendars` and {index}`address-books` synchronized with [WebDAV]"
-"(webdav.md)."
+"But it also allows access to CLUB1 **{index}`calendars`** and **{index"
+"}`address-books`** synchronized with [WebDAV](webdav.md)."
 
 #: ../../services/email.md:49
 msgid "Stockage des données"
@@ -1566,7 +1566,7 @@ msgstr ""
 
 #: ../../services/email.md:96
 msgid "Transferts automatiques"
-msgstr ""
+msgstr "Automatic forwarding"
 
 #: ../../services/email.md:98
 msgid ""
@@ -1577,6 +1577,11 @@ msgid ""
 "transférer votre courrier entrant. Ce fichier doit être placé directement "
 "dans votre dossier et s'appeller `.forward`."
 msgstr ""
+"It is possible to automatically forward the emails you receive to your CLUB1 "
+"address to one or more other addresses of your choice. To do this, you must "
+"create a file in your [personal space](/info/espace-personnel.md) that will "
+"tell {term}`Postfix` to whom to forward your incoming mail. This file should "
+"be placed directly in your folder and be called `.forward`."
 
 #: ../../services/email.md:105
 msgid ""
@@ -1585,6 +1590,9 @@ msgid ""
 "Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux). Dans les "
 "explorateurs de fichiers ils peuvent être masqués par défaut."
 msgstr ""
+"Files with a dot `.` in front are called [hidden files](https://en.wikipedia."
+"org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments). "
+"In file explorers they may be hidden by default."
 
 #: ../../services/email.md:110
 msgid ""
@@ -1592,16 +1600,20 @@ msgid ""
 "vers lesquelles vous souhaitez rediriger les emails en les séparant par un "
 "retour à la ligne."
 msgstr ""
+"Inside this file, all you have to do is list all the addresses to which you "
+"want to redirect the emails, separating them with a line break."
 
 #: ../../services/email.md:113
 msgid "Exemple de fichier `.forward` transférant vers deux adresses emails :"
-msgstr ""
+msgstr "Example of `.forward` file forwarding to two email addresses:"
 
 #: ../../services/email.md:119
 msgid ""
 "Il est même possible de conserver ses emails sur sa boîte CLUB1 en ajoutant "
 "son nom d'utilisateur&middot;trice à cette liste !"
 msgstr ""
+"It is even possible to keep your emails on your CLUB1 mailbox by adding your "
+"username to this list!"
 
 #: ../../services/email.md:123
 msgid ""
@@ -1609,16 +1621,20 @@ msgid ""
 "correspondante. Il est aussi possible de supprimer le fichier pour tout "
 "annuler."
 msgstr ""
+"To end a redirection, simply delete the corresponding line. It is also "
+"possible to delete the file to cancel everything."
 
 #: ../../services/email.md:127
 msgid ""
 "La page de manuel [Postfix local mail delivery](https://www.postfix.org/"
 "local.8.html) (en anglais)"
 msgstr ""
+"The [Postfix local mail delivery](https://www.postfix.org/local.8.html) man "
+"page"
 
 #: ../../services/email.md:130
 msgid "Filtres automatiques"
-msgstr ""
+msgstr "Automatic filters"
 
 #: ../../services/email.md:132
 msgid ""
@@ -1627,6 +1643,9 @@ msgid ""
 "donc d'aucun {term}`client`. Chaque utilisateur doit cependant les "
 "configurer lui-même."
 msgstr ""
+"Sieve filters allow you to automatically sort the emails you receive. These "
+"filters are applied on the {term}`server` side and therefore do not depend "
+"on any {term}`client`. However, each user must configure them himself."
 
 #: ../../services/email.md:136
 msgid ""
@@ -1634,12 +1653,17 @@ msgid ""
 "[client Web Roundcube de CLUB1](#client-web). Il dispose dans ses paramètres "
 "d'une interface de gestion de filtres."
 msgstr ""
+"There are two ways to edit them. The easiest way is to use the [CLUB1 "
+"Roundcube web client](#client-web). It has a filter management interface in "
+"its settings."
 
 #: ../../services/email.md:140
 msgid ""
 "La deuxième méthode consiste à directement modifier le fichier de filtre "
 "dans votre **espace personnel** :"
 msgstr ""
+"The second method is to directly edit the filter file in your **personal "
+"space**:"
 
 #: ../../services/email.md:144 ../../services/ftp.md:41 ../../services/sql.md:9
 #: ../../services/ssh.md:100
@@ -1712,6 +1736,9 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/Postfix), [Sources](https://github.com/"
 "vdukhovni/postfix)"
 msgstr ""
+"SMTP {term}`server` used for email transmission. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Postfix_(software)), [Sources](https://github.com/"
+"vdukhovni/postfix)"
 
 #: ../../services/email.md:175
 msgid ""
@@ -1719,6 +1746,9 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://github."
 "com/dovecot/core)"
 msgstr ""
+"IMAP {term}`server` used for managing mailboxes. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Dovecot_(software)), [Sources](https://github.com/dovecot/"
+"core)"
 
 #: ../../services/email.md:180
 msgid ""
@@ -1727,6 +1757,10 @@ msgid ""
 "peuvent être édités depuis {term}`Roundcube`. --- [Site Web](https://"
 "pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)"
 msgstr ""
+"{term}`Dovecot` extension for Sieve and ManageSieve, allowing to configure "
+"automatic filters on the {term}`server` side. These filters can be edited "
+"from {term}`Roundcube`. --- [Website](https://pigeonhole.dovecot.org/), "
+"[Sources](https://github.com/dovecot/pigeonhole)"
 
 #: ../../services/email.md:186
 msgid ""
@@ -1735,6 +1769,10 @@ msgid ""
 "vérifier l'origine des emails entrants. --- [Sources](https://launchpad.net/"
 "spf-engine)"
 msgstr ""
+"[SPF (_Sender Policy Framework_)](https://en.wikipedia.org/wiki/"
+"Sender_Policy_Framework) processing {term}`server` used by {term}`Postfix` "
+"to verify the origin of incoming emails. --- [Source](https://launchpad.net/"
+"spf-engine)"
 
 #: ../../services/email.md:191
 msgid ""
@@ -1742,6 +1780,9 @@ msgid ""
 "{term}`Postfix` de transférer des emails en restant compatible avec SPF. --- "
 "[Sources](https://github.com/roehling/postsrsd)"
 msgstr ""
+"SRS (_Sender Rewriting Scheme_) processing {term}`server` allowing "
+"{term}`Postfix` to forward emails while remaining compatible with SPF. --- "
+"[Sources](https://github.com/roehling/postsrsd)"
 
 #: ../../services/email.md:196
 msgid ""
@@ -1749,6 +1790,9 @@ msgid ""
 "pour signer les emails sortants. --- [Site Web](http://www.opendkim.org/), "
 "[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
 msgstr ""
+"{term}`Server` providing a _milter_ filter used by {term}`Postfix` to sign "
+"outgoing emails. --- [Website](http://www.opendkim.org/), "
+"[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
 
 #: ../../services/email.md:201
 msgid ""
@@ -1756,10 +1800,13 @@ msgid ""
 "et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
 "(https://github.com/roundcube/roundcubemail)"
 msgstr ""
+"{term}`Web client` allowing to consult and send emails via SMTP and IMAP. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/Roundcube), "
+"[Sources](https://github.com/roundcube/roundcubemail)"
 
 #: ../../services/email.md:206
 msgid "La section [](#client-web)"
-msgstr ""
+msgstr "The [](#client-web) section"
 
 #: ../../services/ftp.md:1
 msgid "Transfert de fichiers FTPS"
@@ -1866,6 +1913,8 @@ msgid ""
 "{term}`Serveur` {term}`FTP`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "ProFTPd), [Sources](https://github.com/proftpd/proftpd)"
 msgstr ""
+"{term}`FTP` {term}`server`. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"ProFTPd), [Sources](https://github.com/proftpd/proftpd)"
 
 #: ../../services/git.md:1
 msgid "Dépôts Git publics"
@@ -2021,6 +2070,8 @@ msgid ""
 "Interface {term}`Web` permettant de consulter les informations d'un dépôt "
 "{term}`Git`. --- [Sources](https://git.zx2c4.com/cgit/)"
 msgstr ""
+"{term}`Web` interface allowing to consult the information of a {term}`Git` "
+"repository. --- [Source](https://git.zx2c4.com/cgit/)"
 
 #: ../../services/index.md:1
 msgid "Services"
@@ -2125,6 +2176,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), [Sources](https://"
 "git.tt-rss.org/fox/tt-rss.git)"
 msgstr ""
+"{term}`Feed aggregator` supporting {term}`RSS` and ATOM. It provides a "
+"{term}`server` to collect feeds regularly, a {term}`web client` to view them "
+"in a browser and an {term}`API` to connect to it with a native application. "
+"It is often abbreviated TTRSS. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Tiny_Tiny_RSS), [Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 
 #: ../../services/sql.md:1
 msgid "Bases de données SQL"
@@ -2156,6 +2212,9 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources](https://github."
 "com/MariaDB/server)"
 msgstr ""
+"SQL database {term}`server` distributed under a free license. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github."
+"com/MariaDB/server)"
 
 #: ../../services/sql.md:27
 msgid ""
@@ -2163,6 +2222,9 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PhpMyAdmin), [Sources](https://github.com/"
 "phpmyadmin/phpmyadmin)"
 msgstr ""
+"{term}`Web` interface for managing SQL databases. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/PhpMyAdmin), [Sources](https://github.com/phpmyadmin/"
+"phpmyadmin)"
 
 #: ../../services/ssh.md:1
 msgid "Connexion à distance SSH"
@@ -2350,6 +2412,9 @@ msgid ""
 "`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
 "(https://anongit.mindrot.org/openssh.git)"
 msgstr ""
+"Software providing both an {term}`SSH` {term}`server` and {term}`client`. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/OpenSSH), "
+"[Sources](https://anongit.mindrot.org/openssh.git)"
 
 #: ../../services/web.md:1
 msgid "Hébergement de sites Web"
@@ -2521,6 +2586,8 @@ msgid ""
 "Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet. "
 "--- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"
 msgstr ""
+"PHP library providing a very complete {term}`WebDAV` {term}`server`. --- "
+"[Website](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"
 
 #: ../../tutos/connexion-linux.md:1
 msgid "Connexion au serveur depuis l'explorateur de fichiers Linux"
