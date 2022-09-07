@@ -14,13 +14,13 @@ Un historique daté des versions de cette charte peut être consulté sur [GitHu
 Accès aux services
 ------------------
 
-Certains services sont en accès libre, d'autre requièrent un compte de membre.
-La liste des services et leurs conditions d'accès est disponible
+Certains services sont en accès libre, d'autres requièrent un compte de membre.
+La liste des services et leurs conditions d'accès sont disponibles
 sur la page [services](https://club1.fr/services/).
 
 CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le serveur.
 Un membre peut être une personne physique ou morale.
-Pour devenir membre, il faut s'aquiter des frais d'inscription dont le montant est indiqué
+Pour devenir membre, il faut s’acquitter des frais d'inscription dont le montant est indiqué
 sur la page [découvrir](https://club1.fr/rejoindre#devenir-membre).
 
 Les services accessibles par compte sont soumis à l’approbation préalable de CLUB1
@@ -44,7 +44,7 @@ En cas de panne constatée et si aucun message n’atteste sur la page de statut
 que CLUB1 est en train de corriger le dysfonctionnement,
 vous devez faire un signalement via un [ticket sur GitHub](https://github.com/club-1/hosting/issues).
 
-Si vous êtes membre, à ce titre vous avez une part de responsabilité dans le bon fonctionnement du collectif.
+Si vous êtes membre, à ce titre, vous avez une part de responsabilité dans le bon fonctionnement du collectif.
 Si le service est indisponible ou si vos données sont perdues, ce sera donc une faute collective.
 
 En cas d’incapacité à résoudre un problème technique,
@@ -54,7 +54,7 @@ CLUB1  pourra prendre la décision de fermer le service.
 ### Responsabilité de CLUB1
 
 En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages
-ou indemnités résultant de problèmes techniques de quelque nature que ce soit.
+ou indemnités résultant de problèmes techniques de quelque nature qu'ils soient.
 
 CLUB1 est assujetti à une obligation de moyens, considérant la haute technicité des technologies mises en œuvre.
 En cas de défaillance, CLUB1 ne peut être tenu pour responsable des dommages indirects
@@ -67,7 +67,7 @@ La consommation de ressources doit respecter le cadre mutualisé de nos services
 Tout abus peut entraîner la fermeture d’un compte.
 
 Vous devez respecter les lois et réglementations en vigueur lors de l’usage des services proposés
-que ce soit en matière de respect de la vie privée,d’envoi de mails en grande quantité,
+que ce soit en matière de respect de la vie privée, d’envoi d'emails en grande quantité,
 de propriété intellectuelle, de propos discriminatoires, d’appel à la haine,
 de harcèlement, d’atteinte aux libertés fondamentales de personnes, etc.
 
@@ -101,7 +101,7 @@ Nos engagements
 
 CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finalités:
 
-- fournir le service pour lesquels vous avez transmis vos données
+- fournir le service pour lequel vous avez transmis vos données
 - produire d’éventuelles statistiques anonymisées et agrégées
 - vous prévenir d’un changement important sur le service
 (panne, notification d’intrusion et de vol de données, changement d’interface, date d’arrêt du service...)
@@ -113,7 +113,7 @@ Votre contenu vous appartient, toutefois,
 nous vous encourageons à le publier sous licence libre si c’est pertinent.
 
 Une modification du paragraphe précédent, contrairement au reste des CGU,
-ne peut se faire simplement par une simple notification. Si une telle modification devait survenir, elle :
+ne peut se faire par une simple notification. Si une telle modification devait survenir, elle :
 
 - Ne serait pas rétroactive
 - Demanderait un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
