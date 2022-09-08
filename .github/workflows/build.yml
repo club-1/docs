@@ -71,7 +71,7 @@ jobs:
   latex:
     runs-on: ubuntu-22.04
     env:
-      SPHINXOPTS: --color
+      SPHINXOPTS: --color -Dsuppress_warnings=git.too_shallow
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
