@@ -9,7 +9,7 @@ En utilisant les services de CLUB1, vous acceptez d’être lié par les conditi
 CLUB1 se réserve le droit de mettre à jour et modifier ces conditions.
 Dans ce cas, CLUB1 informe les personnes concernées par email si elle le peut ou par un affichage sur le site.
 
-Un historique daté des versions de cette charte peut être consulté sur [GitHub](https://github.com/club-1/docs/commits/main/infos/cgu.md).
+Un historique daté des versions de cette charte peut être consulté sur [GitHub](https://github.com/club-1/docs/commits/main/cgu.md).
 
 Accès aux services
 ------------------
@@ -117,8 +117,6 @@ ne peut se faire par une simple notification. Si une telle modification devait s
 
 - Ne serait pas rétroactive
 - Demanderait un accord explicite de votre part pour continuer à utiliser les services fournis par CLUB1
-- Provoquerait une révocation préalable à la modification auprès de tous les soutiens de CLUB1
-ayant à cœur les problématiques de respect de la vie privée.
 
 
 ### Charte CHATONS

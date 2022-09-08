@@ -10,5 +10,5 @@ maxdepth: 2
 ---
 general
 espace-personnel
-cgu
+/cgu
 ```
