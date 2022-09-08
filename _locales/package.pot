@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-09-06 14:18+0200\n"
+"POT-Creation-Date: 2022-09-08 18:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,280 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../cgu.md:1
+msgid "Conditions générales d'utilisation"
+msgstr ""
+
+#: ../../cgu.md:4
+msgid ""
+"En utilisant les services de CLUB1, vous acceptez d’être lié par les "
+"conditions suivantes."
+msgstr ""
+
+#: ../../cgu.md:6
+msgid "Évolution des conditions générales d'utilisation"
+msgstr ""
+
+#: ../../cgu.md:9
+msgid ""
+"CLUB1 se réserve le droit de mettre à jour et modifier ces conditions. Dans "
+"ce cas, CLUB1 informe les personnes concernées par email si elle le peut ou "
+"par un affichage sur le site."
+msgstr ""
+
+#: ../../cgu.md:12
+msgid ""
+"Un historique daté des versions de cette charte peut être consulté sur "
+"[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
+msgstr ""
+
+#: ../../cgu.md:14
+msgid "Accès aux services"
+msgstr ""
+
+#: ../../cgu.md:17
+msgid ""
+"Certains services sont en accès libre, d'autres requièrent un compte de "
+"membre. La liste des services et leurs conditions d'accès sont disponibles "
+"sur la page [services](https://club1.fr/services/)."
+msgstr ""
+
+#: ../../cgu.md:21
+msgid ""
+"CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le "
+"serveur. Un membre peut être une personne physique ou morale. Pour devenir "
+"membre, il faut s’acquitter des frais d'inscription dont le montant est "
+"indiqué sur la page [découvrir](https://club1.fr/rejoindre#devenir-membre)."
+msgstr ""
+
+#: ../../cgu.md:26
+msgid ""
+"La création d'un compte de membre est soumis à l’approbation préalable de "
+"CLUB1 selon les ressources disponibles."
+msgstr ""
+
+#: ../../cgu.md:31
+msgid "Fonctionnement"
+msgstr ""
+
+#: ../../cgu.md:34
+msgid ""
+"CLUB1 propose l’ensemble de ses services grâce à des bénévoles, de ce fait "
+"CLUB1 ne s'engage sur aucun délai d'action. Nous essayons toutefois de faire "
+"de notre mieux."
+msgstr ""
+
+#: ../../cgu.md:37
+msgid "Transmission sécurisée d’identifiants"
+msgstr ""
+
+#: ../../cgu.md:39
+msgid ""
+"CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe."
+msgstr ""
+
+#: ../../cgu.md:41
+msgid "Intervention en cas de panne"
+msgstr ""
+
+#: ../../cgu.md:43
+msgid ""
+"En cas de panne constatée et si aucun message n’atteste sur la page de "
+"statut que CLUB1 est en train de corriger le dysfonctionnement, vous devez "
+"faire un signalement via un [ticket sur GitHub](https://github.com/club-1/"
+"hosting/issues)."
+msgstr ""
+
+#: ../../cgu.md:47
+msgid ""
+"Si vous êtes membre, à ce titre, vous avez une part de responsabilité dans "
+"le bon fonctionnement du collectif. Si le service est indisponible ou si vos "
+"données sont perdues, ce sera donc une faute collective."
+msgstr ""
+
+#: ../../cgu.md:50
+msgid ""
+"En cas d’incapacité à résoudre un problème technique, CLUB1  pourra prendre "
+"la décision de fermer le service."
+msgstr ""
+
+#: ../../cgu.md:54
+msgid "Responsabilité de CLUB1"
+msgstr ""
+
+#: ../../cgu.md:56
+msgid ""
+"En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages ou "
+"indemnités résultant de problèmes techniques de quelque nature qu'ils soient."
+msgstr ""
+
+#: ../../cgu.md:59
+msgid ""
+"CLUB1 est assujetti à une obligation de moyens. En cas de défaillance, CLUB1 "
+"ne peut être tenu pour responsable des dommages indirects tels que pertes "
+"d’exploitation, préjudices commerciaux, perte de clientèle, de chiffre "
+"d’affaires, de bénéfices ou d’économies prévus, ou de tout autre préjudice "
+"indirect."
+msgstr ""
+
+#: ../../cgu.md:64
+msgid "Mésusage des services"
+msgstr ""
+
+#: ../../cgu.md:66
+msgid ""
+"La consommation de ressources doit respecter le cadre mutualisé de nos "
+"services. Tout abus peut entraîner la fermeture d’un compte."
+msgstr ""
+
+#: ../../cgu.md:69
+msgid ""
+"Vous devez respecter les lois et réglementations en vigueur lors de l’usage "
+"des services proposés que ce soit en matière de respect de la vie privée, "
+"d’envoi d'emails en grande quantité, de propriété intellectuelle, de propos "
+"discriminatoires, d’appel à la haine, de harcèlement, d’atteinte aux "
+"libertés fondamentales de personnes, etc."
+msgstr ""
+
+#: ../../cgu.md:74
+msgid ""
+"En cas d’usage prohibé, CLUB1 peut se trouver dans l’obligation de "
+"déclencher la suspension totale ou partielle du service, le retrait de "
+"contenu, ou toute autre mesure que les lois et réglementations lui imposent."
+msgstr ""
+
+#: ../../cgu.md:78
+msgid ""
+"Vous devez respecter les autres utilisateurs en faisant preuve de civisme et "
+"de politesse. CLUB1 se réserve le droit de supprimer tout contenu paraissant "
+"non pertinent ou contrevenant à ces principes, selon son seul jugement."
+msgstr ""
+
+#: ../../cgu.md:82
+msgid ""
+"Par ailleurs, si un ou une utilisatrice abuse du service, par exemple en "
+"monopolisant des ressources machines partagées, son contenu ou son accès "
+"pourra être supprimé, après avertissement et négociation."
+msgstr ""
+
+#: ../../cgu.md:86
+msgid "Devenir des services"
+msgstr ""
+
+#: ../../cgu.md:88
+msgid ""
+"CLUB1 peut par ailleurs choisir d’arrêter des services si CLUB1 estime ne "
+"plus être en mesure de fournir lesdits services. Si CLUB1 en a la "
+"possibilité, le club fera de son mieux pour laisser un délai suffisant pour "
+"permettre à tout le monde de migrer sereinement."
+msgstr ""
+
+#: ../../cgu.md:94
+msgid "Résiliation d’un compte"
+msgstr ""
+
+#: ../../cgu.md:96
+msgid ""
+"Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par "
+"email à <contact@club1.fr>."
+msgstr ""
+
+#: ../../cgu.md:99
+msgid "Nos engagements"
+msgstr ""
+
+#: ../../cgu.md:102
+msgid ""
+"CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 "
+"finalités:"
+msgstr ""
+
+#: ../../cgu.md:104
+msgid "fournir le service pour lequel vous avez transmis vos données"
+msgstr ""
+
+#: ../../cgu.md:105
+msgid "produire d’éventuelles statistiques anonymisées et agrégées"
+msgstr ""
+
+#: ../../cgu.md:106
+msgid ""
+"vous prévenir d’un changement important sur le service (panne, notification "
+"d’intrusion et de vol de données, changement d’interface, date d’arrêt du "
+"service...)"
+msgstr ""
+
+#: ../../cgu.md:108
+msgid "obtenir votre avis sur les services et l’action du collectif"
+msgstr ""
+
+#: ../../cgu.md:111
+msgid ""
+"CLUB1 ne transmettra ni ne revendra vos données personnelles. Votre contenu "
+"vous appartient, toutefois, nous vous encourageons à le publier sous licence "
+"libre si c’est pertinent."
+msgstr ""
+
+#: ../../cgu.md:115
+msgid ""
+"Une modification du paragraphe précédent, contrairement au reste des CGU, ne "
+"peut se faire par une simple notification. Si une telle modification devait "
+"survenir, elle :"
+msgstr ""
+
+#: ../../cgu.md:118
+msgid "Ne serait pas rétroactive"
+msgstr ""
+
+#: ../../cgu.md:119
+msgid ""
+"Demanderait un accord explicite de votre part pour continuer à utiliser les "
+"services fournis par CLUB1"
+msgstr ""
+
+#: ../../cgu.md:122
+msgid "Charte CHATONS"
+msgstr ""
+
+#: ../../cgu.md:124
+msgid ""
+"CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du "
+"Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et "
+"Solidaires dans le cadre de son activité d’hébergeur et de fournisseur de "
+"services en ligne."
+msgstr ""
+
+#: ../../cgu.md:128
+msgid "CLUB1 est candidat à l’intégration au sein de ce collectif."
+msgstr ""
+
+#: ../../cgu.md:130
+msgid "Devenir des données"
+msgstr ""
+
+#: ../../cgu.md:132
+msgid ""
+"Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données."
+msgstr ""
+
+#: ../../cgu.md:134
+msgid ""
+"Les services en libre accès ont une péremption des données fixée, cela pour "
+"éviter la surcharge des espaces de stockage."
+msgstr ""
+
+#: ../../cgu.md:137
+msgid "RGPD"
+msgstr ""
+
+#: ../../cgu.md:139
+msgid ""
+"Vous et CLUB1 s’engagent à respecter la réglementation en vigueur applicable "
+"au traitement de données à caractère personnel et, en particulier, le "
+"règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 "
+"applicable à compter du 25 mai 2018, dite RGPD."
+msgstr ""
 
 #: ../../genindex.rst:4
 msgid "Index"

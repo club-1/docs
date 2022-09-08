@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-09-06 14:18+0200\n"
+"POT-Creation-Date: 2022-09-08 18:16+0200\n"
 "PO-Revision-Date: 2022-09-07 15:18+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -19,6 +19,280 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.1-dev\n"
+
+#: ../../cgu.md:1
+msgid "Conditions générales d'utilisation"
+msgstr ""
+
+#: ../../cgu.md:4
+msgid ""
+"En utilisant les services de CLUB1, vous acceptez d’être lié par les "
+"conditions suivantes."
+msgstr ""
+
+#: ../../cgu.md:6
+msgid "Évolution des conditions générales d'utilisation"
+msgstr ""
+
+#: ../../cgu.md:9
+msgid ""
+"CLUB1 se réserve le droit de mettre à jour et modifier ces conditions. Dans "
+"ce cas, CLUB1 informe les personnes concernées par email si elle le peut ou "
+"par un affichage sur le site."
+msgstr ""
+
+#: ../../cgu.md:12
+msgid ""
+"Un historique daté des versions de cette charte peut être consulté sur "
+"[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
+msgstr ""
+
+#: ../../cgu.md:14
+msgid "Accès aux services"
+msgstr ""
+
+#: ../../cgu.md:17
+msgid ""
+"Certains services sont en accès libre, d'autres requièrent un compte de "
+"membre. La liste des services et leurs conditions d'accès sont disponibles "
+"sur la page [services](https://club1.fr/services/)."
+msgstr ""
+
+#: ../../cgu.md:21
+msgid ""
+"CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le "
+"serveur. Un membre peut être une personne physique ou morale. Pour devenir "
+"membre, il faut s’acquitter des frais d'inscription dont le montant est "
+"indiqué sur la page [découvrir](https://club1.fr/rejoindre#devenir-membre)."
+msgstr ""
+
+#: ../../cgu.md:26
+msgid ""
+"La création d'un compte de membre est soumis à l’approbation préalable de "
+"CLUB1 selon les ressources disponibles."
+msgstr ""
+
+#: ../../cgu.md:31
+msgid "Fonctionnement"
+msgstr ""
+
+#: ../../cgu.md:34
+msgid ""
+"CLUB1 propose l’ensemble de ses services grâce à des bénévoles, de ce fait "
+"CLUB1 ne s'engage sur aucun délai d'action. Nous essayons toutefois de faire "
+"de notre mieux."
+msgstr ""
+
+#: ../../cgu.md:37
+msgid "Transmission sécurisée d’identifiants"
+msgstr ""
+
+#: ../../cgu.md:39
+msgid ""
+"CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe."
+msgstr ""
+
+#: ../../cgu.md:41
+msgid "Intervention en cas de panne"
+msgstr ""
+
+#: ../../cgu.md:43
+msgid ""
+"En cas de panne constatée et si aucun message n’atteste sur la page de "
+"statut que CLUB1 est en train de corriger le dysfonctionnement, vous devez "
+"faire un signalement via un [ticket sur GitHub](https://github.com/club-1/"
+"hosting/issues)."
+msgstr ""
+
+#: ../../cgu.md:47
+msgid ""
+"Si vous êtes membre, à ce titre, vous avez une part de responsabilité dans "
+"le bon fonctionnement du collectif. Si le service est indisponible ou si vos "
+"données sont perdues, ce sera donc une faute collective."
+msgstr ""
+
+#: ../../cgu.md:50
+msgid ""
+"En cas d’incapacité à résoudre un problème technique, CLUB1  pourra prendre "
+"la décision de fermer le service."
+msgstr ""
+
+#: ../../cgu.md:54
+msgid "Responsabilité de CLUB1"
+msgstr ""
+
+#: ../../cgu.md:56
+msgid ""
+"En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages ou "
+"indemnités résultant de problèmes techniques de quelque nature qu'ils soient."
+msgstr ""
+
+#: ../../cgu.md:59
+msgid ""
+"CLUB1 est assujetti à une obligation de moyens. En cas de défaillance, CLUB1 "
+"ne peut être tenu pour responsable des dommages indirects tels que pertes "
+"d’exploitation, préjudices commerciaux, perte de clientèle, de chiffre "
+"d’affaires, de bénéfices ou d’économies prévus, ou de tout autre préjudice "
+"indirect."
+msgstr ""
+
+#: ../../cgu.md:64
+msgid "Mésusage des services"
+msgstr ""
+
+#: ../../cgu.md:66
+msgid ""
+"La consommation de ressources doit respecter le cadre mutualisé de nos "
+"services. Tout abus peut entraîner la fermeture d’un compte."
+msgstr ""
+
+#: ../../cgu.md:69
+msgid ""
+"Vous devez respecter les lois et réglementations en vigueur lors de l’usage "
+"des services proposés que ce soit en matière de respect de la vie privée, "
+"d’envoi d'emails en grande quantité, de propriété intellectuelle, de propos "
+"discriminatoires, d’appel à la haine, de harcèlement, d’atteinte aux "
+"libertés fondamentales de personnes, etc."
+msgstr ""
+
+#: ../../cgu.md:74
+msgid ""
+"En cas d’usage prohibé, CLUB1 peut se trouver dans l’obligation de "
+"déclencher la suspension totale ou partielle du service, le retrait de "
+"contenu, ou toute autre mesure que les lois et réglementations lui imposent."
+msgstr ""
+
+#: ../../cgu.md:78
+msgid ""
+"Vous devez respecter les autres utilisateurs en faisant preuve de civisme et "
+"de politesse. CLUB1 se réserve le droit de supprimer tout contenu paraissant "
+"non pertinent ou contrevenant à ces principes, selon son seul jugement."
+msgstr ""
+
+#: ../../cgu.md:82
+msgid ""
+"Par ailleurs, si un ou une utilisatrice abuse du service, par exemple en "
+"monopolisant des ressources machines partagées, son contenu ou son accès "
+"pourra être supprimé, après avertissement et négociation."
+msgstr ""
+
+#: ../../cgu.md:86
+msgid "Devenir des services"
+msgstr ""
+
+#: ../../cgu.md:88
+msgid ""
+"CLUB1 peut par ailleurs choisir d’arrêter des services si CLUB1 estime ne "
+"plus être en mesure de fournir lesdits services. Si CLUB1 en a la "
+"possibilité, le club fera de son mieux pour laisser un délai suffisant pour "
+"permettre à tout le monde de migrer sereinement."
+msgstr ""
+
+#: ../../cgu.md:94
+msgid "Résiliation d’un compte"
+msgstr ""
+
+#: ../../cgu.md:96
+msgid ""
+"Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par "
+"email à <contact@club1.fr>."
+msgstr ""
+
+#: ../../cgu.md:99
+msgid "Nos engagements"
+msgstr ""
+
+#: ../../cgu.md:102
+msgid ""
+"CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 "
+"finalités:"
+msgstr ""
+
+#: ../../cgu.md:104
+msgid "fournir le service pour lequel vous avez transmis vos données"
+msgstr ""
+
+#: ../../cgu.md:105
+msgid "produire d’éventuelles statistiques anonymisées et agrégées"
+msgstr ""
+
+#: ../../cgu.md:106
+msgid ""
+"vous prévenir d’un changement important sur le service (panne, notification "
+"d’intrusion et de vol de données, changement d’interface, date d’arrêt du "
+"service...)"
+msgstr ""
+
+#: ../../cgu.md:108
+msgid "obtenir votre avis sur les services et l’action du collectif"
+msgstr ""
+
+#: ../../cgu.md:111
+msgid ""
+"CLUB1 ne transmettra ni ne revendra vos données personnelles. Votre contenu "
+"vous appartient, toutefois, nous vous encourageons à le publier sous licence "
+"libre si c’est pertinent."
+msgstr ""
+
+#: ../../cgu.md:115
+msgid ""
+"Une modification du paragraphe précédent, contrairement au reste des CGU, ne "
+"peut se faire par une simple notification. Si une telle modification devait "
+"survenir, elle :"
+msgstr ""
+
+#: ../../cgu.md:118
+msgid "Ne serait pas rétroactive"
+msgstr ""
+
+#: ../../cgu.md:119
+msgid ""
+"Demanderait un accord explicite de votre part pour continuer à utiliser les "
+"services fournis par CLUB1"
+msgstr ""
+
+#: ../../cgu.md:122
+msgid "Charte CHATONS"
+msgstr ""
+
+#: ../../cgu.md:124
+msgid ""
+"CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du "
+"Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et "
+"Solidaires dans le cadre de son activité d’hébergeur et de fournisseur de "
+"services en ligne."
+msgstr ""
+
+#: ../../cgu.md:128
+msgid "CLUB1 est candidat à l’intégration au sein de ce collectif."
+msgstr ""
+
+#: ../../cgu.md:130
+msgid "Devenir des données"
+msgstr ""
+
+#: ../../cgu.md:132
+msgid ""
+"Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données."
+msgstr ""
+
+#: ../../cgu.md:134
+msgid ""
+"Les services en libre accès ont une péremption des données fixée, cela pour "
+"éviter la surcharge des espaces de stockage."
+msgstr ""
+
+#: ../../cgu.md:137
+msgid "RGPD"
+msgstr ""
+
+#: ../../cgu.md:139
+msgid ""
+"Vous et CLUB1 s’engagent à respecter la réglementation en vigueur applicable "
+"au traitement de données à caractère personnel et, en particulier, le "
+"règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 "
+"applicable à compter du 25 mai 2018, dite RGPD."
+msgstr ""
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -798,8 +1072,8 @@ msgid ""
 "les {term}`alias` emails."
 msgstr ""
 "This manual is dedicated to users that are part of the `aliases` group. It "
-"describes actions that can be done by those users on the email {term}`"
-"aliases <alias>`."
+"describes actions that can be done by those users on the email {term}"
+"`aliases <alias>`."
 
 #: ../../interne/aliases.md:7
 msgid "Modifier les alias de reception"
@@ -1382,8 +1656,8 @@ msgid ""
 msgstr ""
 "In addition to the primary address, members have the option to use "
 "subaddresses. Subaddresses are like {term}`aliases <alias>`. By default, "
-"they redirect to the primary address. All addresses of the form `member+[...]"
-" @club1.fr` are subaddresses of `membre@club1.fr`"
+"they redirect to the primary address. All addresses of the form "
+"`member+[...] @club1.fr` are subaddresses of `membre@club1.fr`"
 
 #: ../../services/email.md:16
 msgid ""
@@ -1399,9 +1673,9 @@ msgid ""
 "les [transferts automatiques](#transferts-automatiques) et les [filtres "
 "automatiques](#filtres-automatiques), elles deviennent très intéressantes."
 msgstr ""
-"These addresses may seem useless at first glance. But combined with ["
-"automatic forwarding](#transferts-automatiques) and [automatic filters"
-"](#filtres-automatiques), they become very interesting."
+"These addresses may seem useless at first glance. But combined with "
+"[automatic forwarding](#transferts-automatiques) and [automatic filters]"
+"(#filtres-automatiques), they become very interesting."
 
 #: ../../services/email.md:25
 msgid ""
@@ -1434,24 +1708,24 @@ msgid ""
 "Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
 "l'adresse <https://mail.club1.fr>."
 msgstr ""
-"A {term}`Web client` provided by {term}`Roundcube` is available at "
-"<https://mail.club1.fr>."
+"A {term}`Web client` provided by {term}`Roundcube` is available at <https://"
+"mail.club1.fr>."
 
 #: ../../services/email.md:43
 msgid ""
 "Il permet de gérer et envoyer des emails ainsi que de [configurer des "
 "filtres](#filtres-automatiques) pour trier automatiquement les emails reçus."
 msgstr ""
-"It allows you to manage and send emails as well as [configure filters"
-"](#filtres-automatiques) to automatically sort incoming emails."
+"It allows you to manage and send emails as well as [configure filters]"
+"(#filtres-automatiques) to automatically sort incoming emails."
 
 #: ../../services/email.md:46
 msgid ""
 "Mais il permet aussi d'accéder aux **{index}`calendriers`** et **{index}"
 "`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md)."
 msgstr ""
-"But it also allows access to CLUB1 **{index}`calendars`** and **{index"
-"}`address-books`** synchronized with [WebDAV](webdav.md)."
+"But it also allows access to CLUB1 **{index}`calendars`** and **{index}"
+"`address-books`** synchronized with [WebDAV](webdav.md)."
 
 #: ../../services/email.md:49
 msgid "Stockage des données"
@@ -1780,8 +2054,8 @@ msgid ""
 "{term}`Postfix` de transférer des emails en restant compatible avec SPF. --- "
 "[Sources](https://github.com/roehling/postsrsd)"
 msgstr ""
-"SRS (_Sender Rewriting Scheme_) processing {term}`server` allowing "
-"{term}`Postfix` to forward emails while remaining compatible with SPF. --- "
+"SRS (_Sender Rewriting Scheme_) processing {term}`server` allowing {term}"
+"`Postfix` to forward emails while remaining compatible with SPF. --- "
 "[Sources](https://github.com/roehling/postsrsd)"
 
 #: ../../services/email.md:196
@@ -1791,8 +2065,8 @@ msgid ""
 "[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
 msgstr ""
 "{term}`Server` providing a _milter_ filter used by {term}`Postfix` to sign "
-"outgoing emails. --- [Website](http://www.opendkim.org/), "
-"[Sources](https://github.com/trusteddomainproject/OpenDKIM)"
+"outgoing emails. --- [Website](http://www.opendkim.org/), [Sources](https://"
+"github.com/trusteddomainproject/OpenDKIM)"
 
 #: ../../services/email.md:201
 msgid ""
@@ -1800,9 +2074,9 @@ msgid ""
 "et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
 "(https://github.com/roundcube/roundcubemail)"
 msgstr ""
-"{term}`Web client` allowing to consult and send emails via SMTP and IMAP. ---"
-" [Wikipedia](https://en.wikipedia.org/wiki/Roundcube), "
-"[Sources](https://github.com/roundcube/roundcubemail)"
+"{term}`Web client` allowing to consult and send emails via SMTP and IMAP. "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/Roundcube), [Sources](https://"
+"github.com/roundcube/roundcubemail)"
 
 #: ../../services/email.md:206
 msgid "La section [](#client-web)"
@@ -2176,10 +2450,10 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), [Sources](https://"
 "git.tt-rss.org/fox/tt-rss.git)"
 msgstr ""
-"{term}`Feed aggregator` supporting {term}`RSS` and ATOM. It provides a "
-"{term}`server` to collect feeds regularly, a {term}`web client` to view them "
-"in a browser and an {term}`API` to connect to it with a native application. "
-"It is often abbreviated TTRSS. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"{term}`Feed aggregator` supporting {term}`RSS` and ATOM. It provides a {term}"
+"`server` to collect feeds regularly, a {term}`web client` to view them in a "
+"browser and an {term}`API` to connect to it with a native application. It is "
+"often abbreviated TTRSS. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Tiny_Tiny_RSS), [Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 
 #: ../../services/sql.md:1
@@ -2212,9 +2486,9 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources](https://github."
 "com/MariaDB/server)"
 msgstr ""
-"SQL database {term}`server` distributed under a free license. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github."
-"com/MariaDB/server)"
+"SQL database {term}`server` distributed under a free license. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github.com/"
+"MariaDB/server)"
 
 #: ../../services/sql.md:27
 msgid ""
@@ -2412,9 +2686,9 @@ msgid ""
 "`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
 "(https://anongit.mindrot.org/openssh.git)"
 msgstr ""
-"Software providing both an {term}`SSH` {term}`server` and {term}`client`. ---"
-" [Wikipedia](https://en.wikipedia.org/wiki/OpenSSH), "
-"[Sources](https://anongit.mindrot.org/openssh.git)"
+"Software providing both an {term}`SSH` {term}`server` and {term}`client`. "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/OpenSSH), [Sources](https://"
+"anongit.mindrot.org/openssh.git)"
 
 #: ../../services/web.md:1
 msgid "Hébergement de sites Web"
