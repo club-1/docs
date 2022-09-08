@@ -23,7 +23,7 @@ Un membre peut être une personne physique ou morale.
 Pour devenir membre, il faut s’acquitter des frais d'inscription dont le montant est indiqué
 sur la page [découvrir](https://club1.fr/rejoindre#devenir-membre).
 
-Les services accessibles par compte sont soumis à l’approbation préalable de CLUB1
+La création d'un compte de membre est soumis à l’approbation préalable de CLUB1
 selon les ressources disponibles.
 
 
@@ -56,9 +56,9 @@ CLUB1  pourra prendre la décision de fermer le service.
 En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages
 ou indemnités résultant de problèmes techniques de quelque nature qu'ils soient.
 
-CLUB1 est assujetti à une obligation de moyens, considérant la haute technicité des technologies mises en œuvre.
+CLUB1 est assujetti à une obligation de moyens.
 En cas de défaillance, CLUB1 ne peut être tenu pour responsable des dommages indirects
-tels que pertes d’exploitation, préjudices commerciaux, perte de Clientèle,
+tels que pertes d’exploitation, préjudices commerciaux, perte de clientèle,
 de chiffre d’affaires, de bénéfices ou d’économies prévus, ou de tout autre préjudice indirect.
 
 ### Mésusage des services
