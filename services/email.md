@@ -1,8 +1,8 @@
 Messagerie email
 ================
 
-Chaque membre dispose d'une adresse email personnelle.
-Elle est composée de l'**identifiant**, suivi de `@club1.fr`.
+Chaque membre dispose d'**une boîte email** avec une adresse email personnelle.
+L'adresse est composée de l'**identifiant**, suivi de `@club1.fr`.
 Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
 
 Sous-adresses
