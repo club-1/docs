@@ -17,6 +17,7 @@ info/index
 services/index
 tutos/index
 interne/index
+faq
 glossaire
 ```
 
