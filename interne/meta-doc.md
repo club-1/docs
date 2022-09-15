@@ -65,8 +65,20 @@ proposée par défaut).
 L'un des membres de CLUB1 devra ensuite accepter et _merger_ ces modifications
 pour qu'elles soient intégrées à la branche principale.
 
+```{note}
+Si vous refusez d'utiliser un compte GitHub,
+il est toujours possible d'utiliser [`git send-email`](https://git-scm.com/docs/git-send-email)
+pour envoyer vos modifications à l'adresse <docs+git@club1.fr>.
+```
+
 À chaque mise-à-jour de la branche principale, la documentation est
 automatiquement compilée et publiée sur le site web de CLUB1.
+
+### Langue principale (français)
+
+Pour modifier une page existante, il faut éditer le fichier `.md` correspondant.
+Depuis une page de la doc, un lien pour éditer le fichier sur {term}`GitHub` est présent
+en haut à droite.
 
 ```{tip}
 Git regroupe les modifications par ligne.
@@ -75,12 +87,6 @@ Par exemple en retournant à la ligne à chaque nouvelle phrase,
 ou entre deux propositions d'une même phrase.
 Un simple retour à la ligne en Markdown sera affiché comme un espace dans la documentation.
 ```
-
-### Langue principale (français)
-
-Pour modifier une page existante, il faut éditer le fichier `.md` correspondant.
-Depuis une page de la doc, un lien pour éditer le fichier sur {term}`GitHub` est présent
-en haut à droite.
 
 Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github.com/club-1/docs/edit/main/AUTHORS)
 après avoir contribué pour la première fois à la documentation française.
