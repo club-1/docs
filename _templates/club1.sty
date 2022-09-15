@@ -121,6 +121,9 @@
 	{\par\mdframed[style=QuoteFrame]}
 	{\endmdframed}
 
+% Désactivation de sphinxShadowBox utilisé pour les noeuds 'contents' et 'topic'.
+\renewenvironment{sphinxShadowBox}{}{}
+
 % Customisation des admonitions pour les uniformiser avec la version HTML.
 \tikzset{ExclamationCircle/.pic={
   \path [draw=none, fill=white, even odd rule, scale=0.037]
