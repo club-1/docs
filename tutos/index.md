@@ -12,4 +12,5 @@ webdav-android
 connexion-linux
 mes-premiers-pas-sur-le-web
 flux-rss
+aimer-les-emails
 ```
