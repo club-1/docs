@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-09-08 18:16+0200\n"
+"POT-Creation-Date: 2022-09-17 13:03+0200\n"
 "PO-Revision-Date: 2022-09-07 15:18+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -294,6 +294,45 @@ msgid ""
 "applicable à compter du 25 mai 2018, dite RGPD."
 msgstr ""
 
+#: ../../faq.md:1
+msgid "Foire aux questions"
+msgstr "Frequently asked questions"
+
+#: ../../faq.md:4
+msgid "Reponses aux questions fréquemment posées par rapport au serveur CLUB1."
+msgstr ""
+
+#: ../../faq.md:6
+msgid "Questions"
+msgstr "Questions"
+
+#: ../../faq.md:17
+msgid ""
+"Est ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et "
+"créer plein d'adresses indépendantes ?"
+msgstr ""
+
+#: ../../faq.md:19
+msgid "Réponse courte : NON"
+msgstr "Short Answer: NO"
+
+#: ../../faq.md:21
+msgid ""
+"Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email.md) "
+"par compte de membre** avec une adresse principale et toutes ses [sous-"
+"adresses](services/email.md#sous-adresses). Il est possible de créer des "
+"{term}`alias` personalisés à la demande, mais pas de créer des boîtes de "
+"reception supplémentaires."
+msgstr ""
+
+#: ../../faq.md:27
+msgid ""
+"Si vous louez votre nom de domaine, il est probable que votre registraire "
+"(intermédiare chez qui vouz louez le nom de domaine) propose un service "
+"d'email inclus. Par exemple, [Gandi inclut ce service](https://docs.gandi."
+"net/fr/gandimail/index.html) avec chaque nom de domaine loué."
+msgstr ""
+
 #: ../../genindex.rst:4
 msgid "Index"
 msgstr "Index"
@@ -516,7 +555,7 @@ msgstr ""
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. The text of this "
 "license is readable at <https://gnu.org/licenses/fdl.html>."
 
-#: ../../index.md:28
+#: ../../index.md:29
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
@@ -648,7 +687,7 @@ msgstr ""
 "hesitate to put links to your web projects, it will allow members and "
 "visitors to discover them 🔎️."
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:245
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:251
 msgid "Metadonnées"
 msgstr "Metadata"
 
@@ -1292,7 +1331,14 @@ msgstr ""
 "will then have to accept and _merge_ these modifications in order to "
 "integrate it in the main branch."
 
-#: ../../interne/meta-doc.md:68
+#: ../../interne/meta-doc.md:69
+msgid ""
+"Si vous refusez d'utiliser un compte GitHub, il est toujours possible "
+"d'utiliser [`git send-email`](https://git-scm.com/docs/git-send-email) pour "
+"envoyer vos modifications à l'adresse <docs+git@club1.fr>."
+msgstr ""
+
+#: ../../interne/meta-doc.md:74
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
@@ -1300,7 +1346,21 @@ msgstr ""
 "On each update of the main branch, the documentation is automatically "
 "compiled and published on the CLUB1 website."
 
-#: ../../interne/meta-doc.md:72
+#: ../../interne/meta-doc.md:77
+msgid "Langue principale (français)"
+msgstr "Main language (French)"
+
+#: ../../interne/meta-doc.md:79
+msgid ""
+"Pour modifier une page existante, il faut éditer le fichier `.md` "
+"correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
+"{term}`GitHub` est présent en haut à droite."
+msgstr ""
+"To modify an existing page, edit the corresponding `.md` file. From any page "
+"of the doc, there is a link to edit the page on {term}`GitHub` in the top-"
+"right corner."
+
+#: ../../interne/meta-doc.md:84
 msgid ""
 "Git regroupe les modifications par ligne. Il est donc intéressant de "
 "fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de "
@@ -1314,21 +1374,7 @@ msgstr ""
 "the same sentence. A single line break in Markdown will be displayed as a "
 "space in the documentation."
 
-#: ../../interne/meta-doc.md:79
-msgid "Langue principale (français)"
-msgstr "Main language (French)"
-
-#: ../../interne/meta-doc.md:81
-msgid ""
-"Pour modifier une page existante, il faut éditer le fichier `.md` "
-"correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
-"{term}`GitHub` est présent en haut à droite."
-msgstr ""
-"To modify an existing page, edit the corresponding `.md` file. From any page "
-"of the doc, there is a link to edit the page on {term}`GitHub` in the top-"
-"right corner."
-
-#: ../../interne/meta-doc.md:85
+#: ../../interne/meta-doc.md:91
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
@@ -1338,11 +1384,11 @@ msgstr ""
 "docs/edit/main/AUTHORS) after having made your first contribution in the "
 "french documentation."
 
-#: ../../interne/meta-doc.md:88
+#: ../../interne/meta-doc.md:94
 msgid "Autres langues"
 msgstr "Other languages"
 
-#: ../../interne/meta-doc.md:90
+#: ../../interne/meta-doc.md:96
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -1353,7 +1399,7 @@ msgstr ""
 "LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
 "(https://hosted.weblate.org/projects/club-1/docs/)."
 
-#: ../../interne/meta-doc.md:94
+#: ../../interne/meta-doc.md:100
 msgid ""
 "Les traductions doivent suivre le texte d'origine au plus proche. Si des "
 "modifications doivent être apportées au contenu, il faut commencer par "
@@ -1363,11 +1409,11 @@ msgstr ""
 "changes are to be made to the content, the French content should be changed "
 "first."
 
-#: ../../interne/meta-doc.md:98
+#: ../../interne/meta-doc.md:104
 msgid "Ajouter une page"
 msgstr "Add a page"
 
-#: ../../interne/meta-doc.md:100
+#: ../../interne/meta-doc.md:106
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
 "md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
@@ -1377,11 +1423,11 @@ msgstr ""
 "ideally in a subfolder, then it has to be added in a `{toctree}` of one of "
 "the `index.md` files (build on what already exists)."
 
-#: ../../interne/meta-doc.md:104
+#: ../../interne/meta-doc.md:110
 msgid "Ajouter des images"
 msgstr "Add images"
 
-#: ../../interne/meta-doc.md:106
+#: ../../interne/meta-doc.md:112
 msgid ""
 "S'il s'agit d'une image générique déjà présente sur le {term}`Web`, il n'est "
 "pas nécessaire de la copier dans la documentation, un simple lien suffira. "
@@ -1393,7 +1439,7 @@ msgstr ""
 "{term}`Sphinx` will take care of verifying that the image still exists and "
 "downloading it for offline formats."
 
-#: ../../interne/meta-doc.md:111
+#: ../../interne/meta-doc.md:117
 msgid ""
 "Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux les "
 "sauvegarder dans le dossier, avec les fichiers source. Il est intéressant de "
@@ -1405,7 +1451,7 @@ msgstr ""
 "there in a folder with the same name as the page in which they will be "
 "included (omitting the extension)."
 
-#: ../../interne/meta-doc.md:118
+#: ../../interne/meta-doc.md:124
 msgid ""
 "Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
 "pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
@@ -1413,11 +1459,11 @@ msgstr ""
 "Favor a light theme for screenshots because it is more usual for users and "
 "it will use less ink for the printed version."
 
-#: ../../interne/meta-doc.md:123
+#: ../../interne/meta-doc.md:129
 msgid "Références"
 msgstr "References"
 
-#: ../../interne/meta-doc.md:126
+#: ../../interne/meta-doc.md:132
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
@@ -1425,7 +1471,7 @@ msgstr ""
 "[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
 "cross-referencing-with-sphinx.html)"
 
-#: ../../interne/meta-doc.md:127
+#: ../../interne/meta-doc.md:133
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
@@ -1433,11 +1479,11 @@ msgstr ""
 "[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
-#: ../../interne/meta-doc.md:129
+#: ../../interne/meta-doc.md:135
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../../interne/meta-doc.md:132
+#: ../../interne/meta-doc.md:138
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -1452,11 +1498,11 @@ msgstr ""
 "available. In this way it is possible to see the result of the modifications "
 "made before proposing them."
 
-#: ../../interne/meta-doc.md:139
+#: ../../interne/meta-doc.md:145
 msgid "Prérequis communs"
 msgstr "Common prerequisites"
 
-#: ../../interne/meta-doc.md:141
+#: ../../interne/meta-doc.md:147
 msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
 "format de sortie désiré :"
@@ -1464,11 +1510,11 @@ msgstr ""
 "These software are used to compile the documentation regardless of the "
 "desired output format:"
 
-#: ../../interne/meta-doc.md:146
+#: ../../interne/meta-doc.md:152
 msgid "Gestionnaire de compilation."
 msgstr "Build manager."
 
-#: ../../interne/meta-doc.md:149
+#: ../../interne/meta-doc.md:155
 msgid ""
 "Générateur de documentation. Il permet de compiler dans différents formats "
 "une documentation rédigée en texte brut. C'est l'outil utilisé pour générer "
@@ -1480,16 +1526,16 @@ msgstr ""
 "present documentation. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
-#: ../../interne/meta-doc.md:155
+#: ../../interne/meta-doc.md:161
 msgid ""
 "Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
 msgstr "{term}`Sphinx` extension allowing {term}`Markdown` support."
 
-#: ../../interne/meta-doc.md:158
+#: ../../interne/meta-doc.md:164
 msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr "{term}`Sphinx` extension providing the ReadTheDocs {term}`HTML` theme."
 
-#: ../../interne/meta-doc.md:161
+#: ../../interne/meta-doc.md:167
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page "
 "d'erreur 404 personnalisée dont les liens sont absolus."
@@ -1497,59 +1543,59 @@ msgstr ""
 "_(Optional)_ {term}`Sphinx` extension to generate a custom 404 error page "
 "with absolute links."
 
-#: ../../interne/meta-doc.md:164
+#: ../../interne/meta-doc.md:170
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:167 ../../interne/meta-doc.md:194
+#: ../../interne/meta-doc.md:173 ../../interne/meta-doc.md:200
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:172
+#: ../../interne/meta-doc.md:178
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:176
+#: ../../interne/meta-doc.md:182
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:179
+#: ../../interne/meta-doc.md:185
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:182
+#: ../../interne/meta-doc.md:188
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:185
+#: ../../interne/meta-doc.md:191
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:188
+#: ../../interne/meta-doc.md:194
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:191
+#: ../../interne/meta-doc.md:197
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr "Tool to manipulate images in {term}`CLI`."
 
-#: ../../interne/meta-doc.md:198
+#: ../../interne/meta-doc.md:204
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:200
+#: ../../interne/meta-doc.md:206
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:204
+#: ../../interne/meta-doc.md:210
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:208
+#: ../../interne/meta-doc.md:214
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:212
+#: ../../interne/meta-doc.md:218
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1563,11 +1609,11 @@ msgstr ""
 "out at the end of the file, while adding the following comment just above "
 "the line `msgid \"...\"`:"
 
-#: ../../interne/meta-doc.md:222
+#: ../../interne/meta-doc.md:228
 msgid "Déploiement de la version Web"
 msgstr "Deployment of the Web version"
 
-#: ../../interne/meta-doc.md:225
+#: ../../interne/meta-doc.md:231
 msgid ""
 "Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
 "{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1596,6 +1642,14 @@ msgstr ""
 "useful when you are not on your personal computer."
 
 #: ../../services/drive.md:8
+msgid "![capture d'écran WebDav drive](drive/webdav_drive.png)"
+msgstr ""
+
+#: ../../services/drive.md:8
+msgid "capture d'écran WebDav drive"
+msgstr "screenshot WebDAV drive"
+
+#: ../../services/drive.md:10
 msgid ""
 "Il s'agit d'une application développée par et pour CLUB1 dont le [code "
 "source](https://github.com/club-1/webdav-drive) se trouve sur {term}"
@@ -1610,18 +1664,18 @@ msgstr ""
 "outside the CLUB1 infrastructure. It uses a standard WebDAV {term}`server` "
 "as its data source, to which [CLUB1 provides an access](webdav.md)."
 
-#: ../../services/drive.md:14
+#: ../../services/drive.md:16
 msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
 msgstr "The address of the {term}`Web client` is <https://drive.club1.fr>."
 
-#: ../../services/drive.md:16 ../../services/email.md:165
+#: ../../services/drive.md:18 ../../services/email.md:165
 #: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:42
 #: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:40
 #: ../../services/webdav.md:45
 msgid "Logiciels"
 msgstr "Software"
 
-#: ../../services/drive.md:21
+#: ../../services/drive.md:23
 msgid ""
 "Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}"
 "`WebDAV`. --- [Sources](https://github.com/club-1/webdav-drive)"
@@ -1634,10 +1688,15 @@ msgid "Messagerie email"
 msgstr "Email messaging"
 
 #: ../../services/email.md:4
+#, fuzzy
+#| msgid ""
+#| "Chaque membre dispose d'une adresse email personnelle. Elle est composée "
+#| "de l'**identifiant**, suivi de `@club1.fr`. Par exemple, l'adresse de "
+#| "l'utilisateur `michel` est `michel@club1.fr`."
 msgid ""
-"Chaque membre dispose d'une adresse email personnelle. Elle est composée de "
-"l'**identifiant**, suivi de `@club1.fr`. Par exemple, l'adresse de "
-"l'utilisateur `michel` est `michel@club1.fr`."
+"Chaque membre dispose d'**une boîte email** avec une adresse email "
+"personnelle. L'adresse est composée de l'**identifiant**, suivi de `@club1."
+"fr`. Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`."
 msgstr ""
 "Each member has a personal email address. It is composed of the **login**, "
 "followed by `@club1.fr`. For instance, the address of `michel` is "
