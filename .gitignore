@@ -9,3 +9,6 @@ __pycache__
 .*.swp
 *.orig
 .vscode
+
+# OS files
+.DS_Store
