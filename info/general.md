@@ -142,11 +142,18 @@ Un compte membre comporte donc :
 Pour l'instant, le format choisi est celui de l'adhésion,
 avec une cotisation de 35€ à vie.
 
-Politique et vie privée
+Politique de sécurité
 -----------------------
 
-Aucune des données que vous stockez dans votre espace personnel de sera
-divulguée ni utilisée à des fins lucratives.
+On utilise uniquement des protocoles chiffrés, les mots de passe ne transitent jamais en clair.
+
+Engagements des administrateurs systèmes
+-----------------------------------------
+
+Les administrateurs système s'engagent à respecter les points suivants :
+- Les clés ssh sont chiffrées
+- Les mots de passe ont une bonne entropie et ne sont pas utilisés 2 fois
+
 
 Contact
 -------
