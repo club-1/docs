@@ -9,7 +9,7 @@ Voici une petite liste de tutos sympatoches pour s'amuser avec les outils et ser
 maxdepth: 1
 ---
 webdav-android
-webdav-mac
+caldav-mac
 connexion-linux
 mes-premiers-pas-sur-le-web
 flux-rss

@@ -41,7 +41,7 @@ Tutoriels
 Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service WebDAV de CLUB1.
 
 - [](/tutos/webdav-android.md)
-- [](/tutos/webdav-mac.md)
+- [](/tutos/caldav-mac.md)
 
 Logiciels
 ---------
