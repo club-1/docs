@@ -26,3 +26,7 @@ Une fois validé, un calendrier "Default" apparaîtra sous CLUB1 dans le panneau
 ![Fenetre input adresse](webdav-mac/5.png)
 
 Bravo.
+
+```{raw} latex
+\clearpage
+```
