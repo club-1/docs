@@ -13,27 +13,29 @@ Une nouvelle fenêtre apparait :
 
 Rentrez l'url Webdav correspondant à votre utilisateur :
 
-```
-https://webdav.club1.fr/files/<login>
-```
+
+    https://webdav.club1.fr/files/<login>
+
 
 En utilisant votre login CLUB1.
 
 
-Cliquez sur le bouton + en bas à gauche de la fenêtre pour garder en mémoire l'adresse de votre serveur dans les favoris. 
+Cliquez sur le bouton + en bas à gauche de la fenêtre pour garder en mémoire l'adresse de votre serveur dans les favoris.
 
 Puis, cliquez sur le bouton Connexion.
 
 ![aller](webdav-mac/screen_003.png)
 
-Une fenêtre pop-up va apparaître vous demandant vos identifiants chez Club1. 
+Une fenêtre pop-up va apparaître vous demandant vos identifiants chez Club1.
 
 Cliquez sur le bouton Se connecter.
 
 ![aller](webdav-mac/screen_004.png)
 
 
-Entrez votre identifiant et mot de passe CLUB1. Il est utile de cocher la case "Conserver ce mot de passe dans mon trousseau", car ceci permettra de déverouiller l'accès entre vos ouvertures/fermetures de sessions mac.
+Entrez votre identifiant et mot de passe CLUB1.
+Il est utile de cocher la case "Conserver ce mot de passe dans mon trousseau",
+car ceci permettra de déverouiller l'accès entre vos ouvertures/fermetures de sessions mac.
 
 ![aller](webdav-mac/screen_005.png)
 
