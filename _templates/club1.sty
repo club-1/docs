@@ -106,6 +106,12 @@
 % Reset le compteur de ligne correctement avec tabulary.
 \preto\tabular{\global\rownum=0\relax}
 
+% Ignore le tableau de la page de titres
+\makeatletter
+\preto\sphinxmaketitle{\bgroup\def\@rowc@lors{}}
+\appto\sphinxmaketitle{\egroup}
+\makeatother
+
 % Customisation des citations pour les uniformiser avec la version HTML.
 \mdfdefinestyle{QuoteFrame}{
 	backgroundcolor=none,
