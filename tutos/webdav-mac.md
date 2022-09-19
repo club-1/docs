@@ -1,7 +1,7 @@
 Synchronisation de calendrier CalDAV sur un Mac
 ===============================================
 
-Cette méthode permet de synchroniser ses calendriers entre le serveur et un appareil Mac.
+Cette méthode permet de synchroniser ses {index}`calendriers` entre le serveur et un appareil Mac.
 
 L'opération se fait directement depuis l'application Calendrier Apple.
 
