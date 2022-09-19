@@ -12,7 +12,7 @@ class FrenchTypography(Transform):
     """
 
     # Low priority
-    default_priority = 888
+    default_priority = 740
 
     nodes_to_skip = (nodes.FixedTextElement, nodes.Special)
     """Do not apply FrenchTypo to instances of these block-level nodes."""
@@ -32,6 +32,7 @@ class FrenchTypography(Transform):
             text = text.replace(' !', ' !')
             text = text.replace(' ?', ' ?')
             text = text.replace(' ;', ' ;')
+            text = text.replace('-->', '→')
             return text
 
     def apply(self):

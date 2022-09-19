@@ -14,7 +14,7 @@ Tous les fichiers et dossiers rangés dedans seront automatiquement publiés
 sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 
 [`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/nicolas/test.html)
-&rarr; `/home/nicolas/static/test.html`
+--> `/home/nicolas/static/test.html`
 
 Ce dossier est servi par le serveur HTTP {term}`Apache`.
 Il est configuré pour automatiquement générer un _index_ affichant la liste

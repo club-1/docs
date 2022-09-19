@@ -6,7 +6,7 @@ Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en _lect
 à l'adresse `https://git.club1.fr`, par exemple :
 
 [`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/dna-backup/)
-&rarr; `/home/nicolas/git/dna-backup/`
+--> `/home/nicolas/git/dna-backup/`
 
 Cette adresse permet 2 choses :
 

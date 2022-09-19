@@ -26,8 +26,8 @@ Se connecter avec un client natif
 
 Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` dans
 les paramètres du {term}`client Web`. Cliquer sur le menu (icône avec les trois
-barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet `Configuration`
-&rarr; Section `Général` &rarr; Cocher la case `Activer l'API`.
+barres en haut à droite) --> `Configuration...` --> Onglet `Configuration`
+--> Section `Général` --> Cocher la case `Activer l'API`.
 
 Dans le client natif choisi, il faudra renseigner comme URL du serveur
 `https://rss.club1.fr`.
