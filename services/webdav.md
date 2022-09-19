@@ -24,6 +24,11 @@ CalDAV
 Une interface {term}`Web` de _debug_ est disponible à l'adresse <https://webdav.club1.fr>.
 Elle permet de tester la connexion et de prévisualiser certaines informations.
 
+```{attention}
+Le {term}`serveur` {term}`WebDAV` de CLUB1 est limité à des fichiers de 1&nbsp;Go maximum.
+Pour transferer de plus gros fichiers, il vaut mieux se tourner vers le service [SSH](ssh.md) ou [FTP](ftp.md).
+```
+
 Carnets d'adresses et calendriers
 ----------------------------------
 
