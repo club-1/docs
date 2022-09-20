@@ -8,6 +8,19 @@ Glossaire
 sorted:
 ---
 
+Adresse IP
+   Numéro d'identification d'un ordinateur relié à un {term}`réseau informatique`.
+   
+   Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer des données entre un ordinateur source et sa destination.
+   Il a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs.
+   
+   Actuellement, deux version d'adresses IP sont utilisées :
+   La version 4 qui s'écrit sous la forme de nombres séparés par des points
+   (ex : `87.91.4.64` pour le serveur de CLUB1).
+   Et la version 6 qui utilise des nombre beaucoup plus grands et qui s'écrit en hexadécimal
+   (ex : `2001:861:38c4:18a0::3` pour le serveur de CLUB1).
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Adresse_IP)
+
 Alias
     Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs noms à la même entité.
     C'est un concept fréquemment utilisé en informatique.
