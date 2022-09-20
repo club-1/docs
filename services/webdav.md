@@ -47,6 +47,7 @@ Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service WebD
 
 - [](/tutos/webdav-android.md)
 - [](/tutos/caldav-mac.md)
+- [](/tutos/webdav-mac.md)
 
 Logiciels
 ---------
