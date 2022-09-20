@@ -109,10 +109,6 @@ Nom de domaine
    
    En plus de ces informations, un domaine peut également avoir des sous domaines.
 
-DNS
-   Le système de domaine est un annuaire reliant des noms de domaine.
---- [Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_System)
-
 Registraire
    Registraire de {term}`nom de domaine`.
    Société ou une association gérant la réservation de nom de domaine {term}`Internet`.
