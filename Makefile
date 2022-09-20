@@ -79,7 +79,7 @@ latexpdf info: %: $(LANGUAGES:%=\%/%);
 
 $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 	cat _templates/style.xdy >> $(BUILDDIR)/$</sphinx.xdy
-	mogrify -strip -define png:compression-level=9 $(BUILDDIR)/$</*.png
+	mogrify -strip -resize '800x600>' -define png:compression-level=9 $(BUILDDIR)/$</*.png
 	max_print_line=110 $(MAKE) -C $(BUILDDIR)/$<
 
 $(LANGUAGES:%=info/%): info/%: texinfo/%
