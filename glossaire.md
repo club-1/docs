@@ -8,6 +8,12 @@ Glossaire
 sorted:
 ---
 
+Adresse IP
+   Numéro d'identification qui est attribué de façon permanente ou provisoire à chaque périphérique relié à un réseau informatique.
+   Visuellement, c'est une suite de chiffres et lettres séparés par des deux points.
+   Par exemple, `2001:861:38c4:18a0::3` est l'adresse IP (v6) de la machine physique du serveur CLUB1.
+   [Wikipedia](https://fr.wikipedia.org/wiki/Adresse_IP)
+
 Alias
     Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs noms à la même entité.
     C'est un concept fréquemment utilisé en informatique.
