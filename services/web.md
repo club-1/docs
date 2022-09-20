@@ -164,6 +164,8 @@ Il ne doit être composé que de lettres minuscules, chiffres ou tirets `-`.
 
 C'est effectivement possible de descendre encore un niveau dans la filiation de domaine.
 Par exemple, si l'on utilise déjà `yaourt.club1.fr`, on peut aussi demander à créer `fraise.yaourt.club1.fr`.
+Cependant, cela nécessite actuellement la création d'un certificat _Let's Encrypt_ supplémentaire par **sous domaine**,
+ce qui n'est pas anodin. Donc pour l'instant, mollo sur les sous.sous.domaines 🐌 !
 
 
 ### Louer un nom de domaine externe
