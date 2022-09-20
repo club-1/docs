@@ -32,7 +32,8 @@ C'est la façon la plus artisanale de faire un site web.
 Elle garantie des styles uniques et originaux et est très efficace pour apprendre comment fonctionne le web.
 
 ```{tip}
-- Pour apprendre à coder en HTML et CSS, on recommande souvent le [tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881) de Mathieu Nebra.
+- Pour apprendre à coder en HTML et CSS, on recommande souvent le
+[tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881) de Mathieu Nebra.
 - Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), reccueille des sites "fait à la mains".
 ```
 
@@ -199,7 +200,6 @@ Il est possible de le joindre :
 
 - par email : <nicolas@club1.fr>
 - par matrix : `@n-peugnet:club1.fr`
-
 
 
 
