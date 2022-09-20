@@ -1,9 +1,7 @@
 Accès à l'espace personnel depuis le Finder d'un Mac
 ====================================================
 
-Dans le Finder, dans la barre de menu, cliquez sur :
-
-> Aller > Se connecter au serveur...
+Dans le Finder, dans la barre de menu, cliquez sur `Aller` --> `Se connecter au serveur...`
 
 ![aller](webdav-mac/screen_001.png)
 
@@ -20,9 +18,9 @@ Rentrez l'url Webdav correspondant à votre utilisateur :
 En utilisant votre login CLUB1.
 
 
-Cliquez sur le bouton + en bas à gauche de la fenêtre pour garder en mémoire l'adresse de votre serveur dans les favoris.
+Cliquez sur le bouton `+` en bas à gauche de la fenêtre pour garder en mémoire l'adresse de votre serveur dans les favoris.
 
-Puis, cliquez sur le bouton Connexion.
+Puis, cliquez sur le bouton `Connexion`.
 
 ![aller](webdav-mac/screen_003.png)
 
@@ -46,11 +44,7 @@ Votre dossier personnel Club1 devrait s'afficher et être listé dans les Emplac
 A présent, il faut péréniser cet accès en l'ajoutant aux favoris.
 Pour se faire, il nous faut accèder au dossier parent.
 
-Depuis la barre de menu :
-
-> Aller > dossier parent
-
-ou via les touches CMD + flèche du haut.
+Depuis la barre de menu cliquez sur `Aller` --> `Dossier parent` (ou via le raccourci clavier : `CMD` + `↑`).
 
 Maintenant, il est possbile de cliquer-glisser votre dossier perso dans la zone de favoris.
 
