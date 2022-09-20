@@ -110,6 +110,7 @@ Nom de domaine
 
 DNS
    Le système de domaine est un annuaire reliant des noms de domaine.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_System)
 
 Registraire
    Registraire de {term}`nom de domaine`.
