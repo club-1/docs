@@ -103,13 +103,13 @@ en même temps que la location d'un espace pour les fichiers (hébergement).
 ```{glossary}
 Nom de domaine
    Une {term}`adresse IP` n'est pas agréable à retenir.
-   Tandis qu'un nom de domaine est pensée pour être lu et retenu, par un être humain.
-   C'est donc souvent utilisé comme {term}`alias` pour une adresse IP.
+   Tandis qu'un nom de domaine est pensé pour être lu et retenu, par un être humain.
+   Il est donc souvent utilisé comme {term}`alias` pour une adresse IP.
    `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 
 DNS
-   Le système de domaine est un annuaire reliant des noms de dom
+   Le système de domaine est un annuaire reliant des noms de domaine.
 
 Registraire
    Registraire de {term}`nom de domaine`.
@@ -136,7 +136,7 @@ Comme le dit *Stéphane Bortzmeyer* dans [son article sur son blog](https://www.
 ### Utiliser un sous domaine de `club1.fr`
 
 Pour faciliter la création de projets et aider à la spontanéité,
-l'utilisation de **sous-domaines** de `club1.fr` par les membre est encouragée !
+l'utilisation de **sous-domaines** de `club1.fr` par les membres est encouragée !
 
 Cela a l'avantage d'être gratuit, et de ne nécessiter aucun entretien,
 contrairement à la [location d'un nom de domaine](#louer-un-nom-de-domaine-externe).
@@ -159,11 +159,6 @@ en spécifiant vers quel dossier dans son espace personnel devra pointer le doma
 Pensez à vérifier que le **sous-domaine** est disponible avant d'envoyer une demande ! 😉
 Il ne doit être composé que de lettres minuscules, chiffres ou tirets `-`.
 ```
-
-Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr`
-pointant vers **l'un des dossiers** présent dans votre **espace personnel**
-pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à définir
-ensemble en fonction de leur disponibilité et leur viabilité.
 
 
 #### Avoir des sous-sous-domaine
