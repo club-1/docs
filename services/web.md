@@ -39,11 +39,11 @@ de Mathieu Nebra.
 ```
 
 Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer.
-Pour ça il est conseiller de se tourner vers les [générateurs de sites statiques](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_site_statique)
+Pour ça il est conseillé de se tourner vers les [générateurs de sites statiques](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_site_statique)
 Ces outils peuvent générer les fichiers HTML d'un site, par exemple à partir de fichiers {term}`Markdown`,
 sur votre ordinateur personnel.
 A chaque fois qu'une mise à jour est nécessaire, il n'y a qu'à relancer le processus et
-déplacer les fichiers créés de cette manière sur le serveur.
+copier les fichiers ainsi créés sur le serveur.
 
 #### Dossier `static/`
 
@@ -67,10 +67,8 @@ ligne suivante.
 Options -Indexes
 ```
 
-```{tip}
-Pour apprendre à faire son premier site web avec le dossier `/static`,
-il existe un tuto :
-[](/tutos/mes-premiers-pas-sur-le-web.md)
+```{admonition} Voir aussi
+Le tutoriel "[](/tutos/mes-premiers-pas-sur-le-web.md)" pour apprendre à faire son premier site web avec le dossier `/static`.
 ```
 
 ### Sites Web _dynamiques_
@@ -79,7 +77,7 @@ Ce type de site web utilise du code logique qui s'execute sur le serveur.
 Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu).
 Et peut notamment nécessiter l'utilisation de [bases de données SQL](sql.md)
 Pour ces sites web, il faut obligatoirement passer par la création d'un [nom de domaine](#noms-de-domaines).
-Car il n'y a pas de dossier par défaut.
+Car il n'y a pas de dossier automatique préconfiguré.
 
 
 Noms de domaines
@@ -114,7 +112,7 @@ DNS
 
 Registraire
    Registraire de {term}`nom de domaine`.
-   Société ou une association gérant la réservation de {term}`nom de domaine` Internet.
+   Société ou une association gérant la réservation de nom de domaine {term}`Internet`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)
 
 TLD
@@ -195,7 +193,7 @@ C'est _Nicolas_ qu'il faut contacter pour l'association des domaines avec vos do
 
 Il est possible de le joindre :
 
-- par email : <nicolas@club1.fr>
+- par email : <nicolas+web@club1.fr>
 - par matrix : `@n-peugnet:club1.fr`
 
 
