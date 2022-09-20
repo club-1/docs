@@ -33,8 +33,9 @@ Elle garantie des styles uniques et originaux et est très efficace pour apprend
 
 ```{tip}
 - Pour apprendre à coder en HTML et CSS, on recommande souvent le
-[tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881) de Mathieu Nebra.
-- Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), reccueille des sites "fait à la mains".
+[tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+de Mathieu Nebra.
+- Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), recueille des sites "fait à la mains".
 ```
 
 Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer.

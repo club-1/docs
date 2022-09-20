@@ -45,7 +45,7 @@ il vous suffit de télécharger une copie de ce dossier.
 ### 📁 static
 
 Ce dossier est la porte la plus proche vers le {term}`Web`
-car il permet de [publier des sites Web](/services/web.md#dossier-static).
+car il permet de [publier des sites Web](../services/web.md#dossier-static).
 
 ### 📁 git
 
