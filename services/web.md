@@ -117,7 +117,7 @@ Registraire
 TLD
    Top level Domain
    {term}`Nom de domaine` de premier niveau.
-   Par exemple `.fr`, `.com` ou `.org` sont des TLD.
+   Par exemple `fr`, `com` ou `org` sont des TLD.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Domaine_de_premier_niveau)
 ```
 
