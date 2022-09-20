@@ -100,11 +100,14 @@ en même temps que la location d'un espace pour les fichiers (hébergement).
 
 ```{glossary}
 Nom de domaine
-   Une {term}`adresse IP` n'est pas agréable à retenir.
-   Tandis qu'un nom de domaine est pensé pour être lu et retenu, par un être humain.
-   Il est donc souvent utilisé comme {term}`alias` pour une adresse IP.
-   `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
+   Identifiant de domaine {term}`Internet`,
+   facile à lire et à retenir par un être humain.
+   > Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
+   Un domaine permet d'associer des informations à un nom.
+   Parmi ces information la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
+   Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
+   
+   En plus de ces informations, un domaine peut également avoir des sous domaines.
 
 DNS
    Le système de domaine est un annuaire reliant des noms de domaine.
