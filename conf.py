@@ -153,6 +153,8 @@ html_css_files = [
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
 
+html_logo = '_static/club1logo.png'
+
 # Do not copy source as the link to view source as been replaced by a link to
 # GitHub.
 html_copy_source = False
@@ -172,6 +174,7 @@ html_context = {
 }
 
 html_theme_options = {
+    'logo_only': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': 'edit',
