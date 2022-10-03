@@ -7,13 +7,16 @@ RSS
    non pas par un humain mais par un logiciel.
    Il s'agit donc d'une forme d'{term}`API`.
    Les flux RSS sont des fichiers qui contiennent les derniers articles ou actualités publiées.
-   Ils sont souvent utilisés par les sites d'actualité et les blogs. ---
-   [Wikipedia](https://fr.wikipedia.org/wiki/RSS)
+   Ils sont souvent utilisés par les sites d'actualité et les blogs.
+   
+   Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur de flux`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/RSS)
 
 Agrégateur de flux
-   Logiciel permettant de consulter les flux RSS.
+   Logiciel permettant de consulter les flux {term}`RSS`.
    Son but est d'agréger les nouveautés de différents sites dans un fil unique.
    Il permet d'éviter de regarder manuellement et un par un les sites dont on veut connaître les nouveaux contenus.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Agr%C3%A9gateur#Dans_le_domaine_informatique)
 ```
 
 Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`.
