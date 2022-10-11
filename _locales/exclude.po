@@ -136,6 +136,9 @@ msgstr ""
 msgid "Sphinx-rtd-theme : {{ rtd_version }}"
 msgstr ""
 
+msgid "TLD"
+msgstr ""
+
 msgid "TLS"
 msgstr ""
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Nicolas Peugnet, Vincent Peugnet, Leïla Renard
+# Copyright (C) YEAR Nicolas Peugnet, Vincent Peugnet, Leïla Renard, Alix Turcq, Audrey Deluc
 # This file is distributed under the same license as the CLUB1 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-07-23 00:36+0200\n"
+"POT-Creation-Date: 2022-10-11 20:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Retour au site principal"
 msgstr ""
 
-#: ../../_templates/versions.html:4 ../../_templates/versions.html:21
+#: ../../_templates/versions.html:4 ../../_templates/versions.html:23
 msgid "Versions"
 msgstr ""
 
@@ -37,6 +37,6 @@ msgstr ""
 msgid "Langages"
 msgstr ""
 
-#: ../../_templates/versions.html:31
+#: ../../_templates/versions.html:35
 msgid "Téléchargements"
 msgstr ""

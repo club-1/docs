@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Nicolas Peugnet, Vincent Peugnet, Leïla Renard
+# Copyright (C) YEAR Nicolas Peugnet, Vincent Peugnet, Leïla Renard, Alix Turcq, Audrey Deluc
 # This file is distributed under the same license as the CLUB1 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-09-17 13:03+0200\n"
+"POT-Creation-Date: 2022-10-11 20:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -318,16 +318,16 @@ msgid ""
 "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email.md) "
 "par compte de membre** avec une adresse principale et toutes ses [sous-"
 "adresses](services/email.md#sous-adresses). Il est possible de créer des "
-"{term}`alias` personalisés à la demande, mais pas de créer des boîtes de "
+"{term}`alias` personnalisés à la demande, mais pas de créer des boîtes de "
 "reception supplémentaires."
 msgstr ""
 
 #: ../../faq.md:27
 msgid ""
-"Si vous louez votre nom de domaine, il est probable que votre registraire "
-"(intermédiare chez qui vouz louez le nom de domaine) propose un service "
-"d'email inclus. Par exemple, [Gandi inclut ce service](https://docs.gandi."
-"net/fr/gandimail/index.html) avec chaque nom de domaine loué."
+"Si vous louez votre {term}`nom de domaine`, il est probable que votre {term}"
+"`registraire` (intermédiaire chez qui vous louez le nom de domaine) propose "
+"un service d'email inclus. Par exemple, [Gandi inclut ce service](https://"
+"docs.gandi.net/fr/gandimail/index.html) avec chaque nom de domaine loué."
 msgstr ""
 
 #: ../../genindex.rst:4
@@ -339,10 +339,37 @@ msgid "Glossaire"
 msgstr ""
 
 #: ../../glossaire.md:0
-msgid "Alias"
+msgid "Adresse IP"
 msgstr ""
 
 #: ../../glossaire.md:8
+msgid ""
+"Numéro d'identification d'un ordinateur relié à un {term}`réseau "
+"informatique`."
+msgstr ""
+
+#: ../../glossaire.md:10
+msgid ""
+"Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer "
+"des données entre un ordinateur source et sa destination. Il a besoin pour "
+"cela d'adresses IP afin d'identifier ces deux ordinateurs."
+msgstr ""
+
+#: ../../glossaire.md:13
+msgid ""
+"Actuellement, deux version d'adresses IP sont utilisées : La version 4 qui "
+"s'écrit sous la forme de nombres séparés par des points (ex : `87.91.4.64` "
+"pour le serveur de CLUB1). Et la version 6 qui utilise des nombre beaucoup "
+"plus grands et qui s'écrit en hexadécimal (ex : `2001:861:38c4:18a0::3` pour "
+"le serveur de CLUB1). --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Adresse_IP)"
+msgstr ""
+
+#: ../../glossaire.md:13
+msgid "Alias"
+msgstr ""
+
+#: ../../glossaire.md:21
 msgid ""
 "Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs "
 "noms à la même entité. C'est un concept fréquemment utilisé en informatique. "
@@ -351,7 +378,7 @@ msgid ""
 "une commande."
 msgstr ""
 
-#: ../../glossaire.md:14
+#: ../../glossaire.md:27
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
@@ -360,7 +387,7 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:20
+#: ../../glossaire.md:33
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -369,35 +396,35 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:19
+#: ../../glossaire.md:32
 msgid "Client"
 msgstr ""
 
-#: ../../glossaire.md:27
+#: ../../glossaire.md:40
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:24 ../../services/email.md:37
+#: ../../glossaire.md:37 ../../services/email.md:37
 msgid "Client Web"
 msgstr ""
 
-#: ../../glossaire.md:32
+#: ../../glossaire.md:45
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:35
+#: ../../glossaire.md:48
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:40
+#: ../../glossaire.md:53
 msgid ""
 "(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
 "les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -405,11 +432,11 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:37
+#: ../../glossaire.md:50
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:45
+#: ../../glossaire.md:58
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -418,7 +445,7 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:52
+#: ../../glossaire.md:65
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -428,22 +455,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:52
+#: ../../glossaire.md:65
 msgid "Réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:60
+#: ../../glossaire.md:73
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:56
+#: ../../glossaire.md:69
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossaire.md:64
+#: ../../glossaire.md:77
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -453,7 +480,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:85
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -463,18 +490,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:85
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:80
+#: ../../glossaire.md:93
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:84
+#: ../../glossaire.md:97
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -566,7 +593,7 @@ msgstr ""
 #: ../../info/espace-personnel.md:47
 msgid ""
 "Ce dossier est la porte la plus proche vers le {term}`Web` car il permet de "
-"[publier des sites Web](/services/web.md)."
+"[publier des sites Web](../services/web.md#dossier-static)."
 msgstr ""
 
 #: ../../info/espace-personnel.md:52
@@ -828,7 +855,7 @@ msgstr ""
 
 #: ../../info/general.md:108 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:126
-#: ../../services/email.md:205
+#: ../../services/email.md:205 ../../services/web.md:70
 msgid "Voir aussi"
 msgstr ""
 
@@ -1392,9 +1419,9 @@ msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
 msgstr ""
 
 #: ../../services/drive.md:18 ../../services/email.md:165
-#: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:42
-#: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:40
-#: ../../services/webdav.md:45
+#: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:45
+#: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:204
+#: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
 
@@ -1860,7 +1887,7 @@ msgstr ""
 #: ../../services/git.md:8
 msgid ""
 "[`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/"
-"dna-backup/) &rarr; `/home/nicolas/git/dna-backup/`"
+"dna-backup/) --> `/home/nicolas/git/dna-backup/`"
 msgstr ""
 
 #: ../../services/git.md:11
@@ -1987,23 +2014,29 @@ msgid ""
 "consultation d'un site non pas par un humain mais par un logiciel. Il s'agit "
 "donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
 "contiennent les derniers articles ou actualités publiées. Ils sont souvent "
-"utilisés par les sites d'actualité et les blogs. --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/RSS)"
+"utilisés par les sites d'actualité et les blogs."
 msgstr ""
 
-#: ../../services/rss.md:8
+#: ../../services/rss.md:12
+msgid ""
+"Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur de "
+"flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/RSS)"
+msgstr ""
+
+#: ../../services/rss.md:10
 msgid "Agrégateur de flux"
 msgstr ""
 
-#: ../../services/rss.md:14
+#: ../../services/rss.md:16
 msgid ""
-"Logiciel permettant de consulter les flux RSS. Son but est d'agréger les "
-"nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
+"Logiciel permettant de consulter les flux {term}`RSS`. Son but est d'agréger "
+"les nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
 "regarder manuellement et un par un les sites dont on veut connaître les "
-"nouveaux contenus."
+"nouveaux contenus. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgstr ""
 
-#: ../../services/rss.md:19
+#: ../../services/rss.md:22
 msgid ""
 "Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
 "accessible à travers le {term}`client Web` intégré se trouvant à l'adresse "
@@ -2011,36 +2044,35 @@ msgid ""
 "client natif."
 msgstr ""
 
-#: ../../services/rss.md:24
+#: ../../services/rss.md:27
 msgid "Se connecter avec un client natif"
 msgstr ""
 
-#: ../../services/rss.md:27
+#: ../../services/rss.md:30
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
 "dans les paramètres du {term}`client Web`. Cliquer sur le menu (icône avec "
-"les trois barres en haut à droite) &rarr; `Configuration...` &rarr; Onglet "
-"`Configuration` &rarr; Section `Général` &rarr; Cocher la case `Activer "
-"l'API`."
+"les trois barres en haut à droite) --> `Configuration...` --> Onglet "
+"`Configuration` --> Section `Général` --> Cocher la case `Activer l'API`."
 msgstr ""
 
-#: ../../services/rss.md:32
+#: ../../services/rss.md:35
 msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
 msgstr ""
 
-#: ../../services/rss.md:35 ../../services/webdav.md:38 ../../tutos/index.md:1
+#: ../../services/rss.md:38 ../../services/webdav.md:43 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr ""
 
-#: ../../services/rss.md:38
+#: ../../services/rss.md:41
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "RSS de CLUB1."
 msgstr ""
 
-#: ../../services/rss.md:47
+#: ../../services/rss.md:50
 msgid ""
 "{term}`Agrégateur de flux` supportant {term}`RSS` et ATOM. Il fournit un "
 "{term}`serveur` se chargeant de relever régulièrement les flux, un {term}"
@@ -2229,37 +2261,100 @@ msgstr ""
 
 #: ../../services/web.md:4
 msgid ""
+"L'hébergement de site web est historiquement le **premier service** mis à la "
+"disposition des membres de CLUB1."
+msgstr ""
+
+#: ../../services/web.md:7
+msgid ""
+"La liberté d'expérimenter est au coeur des principes de CLUB1 : Un compte "
+"membre CLUB1 **ne limite pas à un seul site web** ! Il n'y a pas de limite "
+"au nombre de projet web à héberger tant que ça ne sature pas le serveur 😄."
+msgstr ""
+
+#: ../../services/web.md:14
+msgid "Types de sites"
+msgstr ""
+
+#: ../../services/web.md:18
+msgid ""
 "Il existe deux grands types de sites {term}`Web` : les sites _statiques_, "
 "constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas "
 "été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et "
 "peuvent ainsi produire des résultats différents."
 msgstr ""
 
-#: ../../services/web.md:9
+#: ../../services/web.md:23
 msgid "Sites Web _statiques_"
 msgstr ""
 
-#: ../../services/web.md:12
+#: ../../services/web.md:25
+msgid ""
+"Ce type de site web est constitué uniquement de fichiers que le serveur va "
+"servir en fonction des requêtes. Cela ne demande presque aucun \"travail\" "
+"au processeur car il n'y a pas de calcul à effectuer. Les sites statiques "
+"sont une voie intéressante pour qui cherche à proposer des sites plus sobres "
+"énergétiquement."
+msgstr ""
+
+#: ../../services/web.md:29
+msgid ""
+"Pour créer un site web statique, on peut écrire soi même du code HTML, "
+"associé avec des images, sons ou vidéos. C'est la façon la plus artisanale "
+"de faire un site web. Elle garantie des styles uniques et originaux et est "
+"très efficace pour apprendre comment fonctionne le web."
+msgstr ""
+
+#: ../../services/web.md:35
+msgid ""
+"Pour apprendre à coder en HTML et CSS, on recommande souvent le [tutoriel "
+"OpenClassromm](https://openclassrooms.com/fr/courses/1603881-apprenez-a-"
+"creer-votre-site-web-avec-html5-et-css3) de Mathieu Nebra."
+msgstr ""
+
+#: ../../services/web.md:38
+msgid ""
+"Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), recueille des "
+"sites \"fait à la mains\"."
+msgstr ""
+
+#: ../../services/web.md:41
+msgid ""
+"Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer. "
+"Pour ça il est conseillé de se tourner vers les [générateurs de sites "
+"statiques](https://fr.wikipedia.org/wiki/"
+"G%C3%A9n%C3%A9rateur_de_site_statique) Ces outils peuvent générer les "
+"fichiers HTML d'un site, par exemple à partir de fichiers {term}`Markdown`, "
+"sur votre ordinateur personnel. A chaque fois qu'une mise à jour est "
+"nécessaire, il n'y a qu'à relancer le processus et copier les fichiers ainsi "
+"créés sur le serveur."
+msgstr ""
+
+#: ../../services/web.md:48
+msgid "Dossier `static/`"
+msgstr ""
+
+#: ../../services/web.md:50
 msgid ""
 "L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
 "sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :"
 msgstr ""
 
-#: ../../services/web.md:16
+#: ../../services/web.md:54
 msgid ""
 "[`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/"
-"nicolas/test.html) &rarr; `/home/nicolas/static/test.html`"
+"nicolas/test.html) --> `/home/nicolas/static/test.html`"
 msgstr ""
 
-#: ../../services/web.md:19
+#: ../../services/web.md:57
 msgid ""
 "Ce dossier est servi par le serveur HTTP {term}`Apache`. Il est configuré "
 "pour automatiquement générer un _index_ affichant la liste des fichiers et "
 "dossiers qu'il contient."
 msgstr ""
 
-#: ../../services/web.md:23
+#: ../../services/web.md:61
 msgid ""
 "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
 "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
@@ -2267,19 +2362,231 @@ msgid ""
 "ligne suivante."
 msgstr ""
 
-#: ../../services/web.md:32
+#: ../../services/web.md:71
+msgid ""
+"Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre à "
+"faire son premier site web avec le dossier `/static`."
+msgstr ""
+
+#: ../../services/web.md:74
 msgid "Sites Web _dynamiques_"
 msgstr ""
 
-#: ../../services/web.md:35
+#: ../../services/web.md:76
 msgid ""
-"Il est possible d'ajouter à la demande des **sous-domaines** de `club1.fr` "
-"pointant vers **l'un des dossiers** présent dans votre **espace personnel** "
-"pour ainsi créer un site {term}`Web`. Les noms des sous-domaines seront à "
-"définir ensemble en fonction de leur disponibilité et leur viabilité."
+"Ce type de site web utilise du code logique qui s'execute sur le serveur. "
+"Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/"
+"Syst%C3%A8me_de_gestion_de_contenu). Et peut notamment nécessiter "
+"l'utilisation de [bases de données SQL](sql.md) Pour ces sites web, il faut "
+"obligatoirement passer par la création d'un [nom de domaine](#noms-de-"
+"domaines). Car il n'y a pas de dossier automatique préconfiguré."
 msgstr ""
 
-#: ../../services/web.md:45
+#: ../../services/web.md:83
+msgid "Noms de domaines"
+msgstr ""
+
+#: ../../services/web.md:86
+msgid "La question du {term}`nom de domaine` est un enjeu fort du {term}`Web`."
+msgstr ""
+
+#: ../../services/web.md:89
+msgid ""
+"Il faut distinguer hébergement et location de nom de domaine ! L'hébergement "
+"stocke les fichiers d'un site et les publie sur le {term}`web` à une {term}"
+"`adresse IP` spécifique, tandis qu'un {term}`nom de domaine` est une "
+"interface plus agréable pour les humains, sensée pointer vers l'adresse IP "
+"d'un serveur."
+msgstr ""
+
+#: ../../services/web.md:95
+msgid ""
+"Eh oui ! ce sont deux notions différentes, même si une grosse partie des "
+"hébergeurs mainstream vont souvent proposer la location du nom de domaine en "
+"même temps que la location d'un espace pour les fichiers (hébergement)."
+msgstr ""
+
+#: ../../services/web.md:0
+msgid "Nom de domaine"
+msgstr ""
+
+#: ../../services/web.md:103
+msgid ""
+"Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
+"être humain."
+msgstr ""
+
+#: ../../services/web.md:106
+msgid ""
+"Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
+msgstr ""
+
+#: ../../services/web.md:108
+msgid ""
+"Un domaine permet d'associer des informations à un nom. Parmi ces "
+"information la plus importante est l'{term}`adresse IP` de l'ordinateur "
+"associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
+"{term}`alias` pour une adresse IP."
+msgstr ""
+
+#: ../../services/web.md:112
+msgid ""
+"En plus de ces informations, un domaine peut également avoir des sous "
+"domaines."
+msgstr ""
+
+#: ../../services/web.md:12
+msgid "Registraire"
+msgstr ""
+
+#: ../../services/web.md:115
+msgid ""
+"Registraire de {term}`nom de domaine`. Société ou une association gérant la "
+"réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
+msgstr ""
+
+#: ../../services/web.md:120
+msgid ""
+"Top level Domain {term}`Nom de domaine` de premier niveau. Par exemple `fr`, "
+"`com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Domaine_de_premier_niveau)"
+msgstr ""
+
+#: ../../services/web.md:126
+msgid ""
+"Comme le dit *Stéphane Bortzmeyer* dans [son article sur son blog](https://"
+"www.bortzmeyer.org/parties-nom-domaine.html) :"
+msgstr ""
+
+#: ../../services/web.md:128
+msgid ""
+"On entend parfois le terme de « sous-domaine ». Malheureusement, il est "
+"souvent utilisé en supposant qu'il y a des domaines qui sont des sous-"
+"domaines et d'autres qui seraient des « vrais » domaines. Mais ce n'est pas "
+"le cas. Tous les domaines sont des sous-domaines d'un autre (à part le cas "
+"particulier de la racine, le début des domaines). Ainsi, `signal.eu.org` est "
+"un sous-domaine de `eu.org`, lui-même un sous-domaine de `org`, lui-même "
+"sous-domaine de la racine."
+msgstr ""
+
+#: ../../services/web.md:136
+msgid "Utiliser un sous domaine de `club1.fr`"
+msgstr ""
+
+#: ../../services/web.md:138
+msgid ""
+"Pour faciliter la création de projets et aider à la spontanéité, "
+"l'utilisation de **sous-domaines** de `club1.fr` par les membres est "
+"encouragée !"
+msgstr ""
+
+#: ../../services/web.md:141
+msgid ""
+"Cela a l'avantage d'être gratuit, et de ne nécessiter aucun entretien, "
+"contrairement à la [location d'un nom de domaine](#louer-un-nom-de-domaine-"
+"externe). L'inconvénient étant de dépendre de `club1.fr`. Cela entraîne "
+"aussi une **filiation visible avec CLUB1**, ce qui peut être gênant ou "
+"intéressant en fonction des projets."
+msgstr ""
+
+#: ../../services/web.md:148
+msgid ""
+"Il est possible à tout moment de rediriger un **sous-domaine** de `club1.fr` "
+"vers n'importe quel autre domaine de votre choix. Cela permet par exemple de "
+"commencer via cette méthode et plus tard, de louer un nom de domaine sans "
+"casser aucun lien !"
+msgstr ""
+
+#: ../../services/web.md:154
+msgid ""
+"Pour demander un **sous-domaine** de `club1.fr`, il faut [contacter "
+"l'administrateur système](#gestion), en spécifiant vers quel dossier dans "
+"son espace personnel devra pointer le domaine."
+msgstr ""
+
+#: ../../services/web.md:159
+msgid ""
+"Pensez à vérifier que le **sous-domaine** est disponible avant d'envoyer une "
+"demande ! 😉 Il ne doit être composé que de lettres minuscules, chiffres ou "
+"tirets `-`."
+msgstr ""
+
+#: ../../services/web.md:164
+msgid "Avoir des sous-sous-domaine"
+msgstr ""
+
+#: ../../services/web.md:167
+msgid ""
+"C'est effectivement possible de descendre encore un niveau dans la filiation "
+"de domaine. Par exemple, si l'on utilise déjà `yaourt.club1.fr`, on peut "
+"aussi demander à créer `fraise.yaourt.club1.fr`. Cependant, cela nécessite "
+"actuellement la création d'un certificat _Let's Encrypt_ supplémentaire par "
+"**sous domaine**, ce qui n'est pas anodin. Donc pour l'instant, mollo sur "
+"les sous.sous.domaines 🐌 !"
+msgstr ""
+
+#: ../../services/web.md:173
+msgid "Louer un nom de domaine externe"
+msgstr ""
+
+#: ../../services/web.md:175
+msgid ""
+"Il est possible de louer un nom de domaine chez un {term}`registraire`. Cela "
+"coûte souvent une dizaine d'euros par an mais cela peut varier en fonction "
+"du {term}`TLD` choisi."
+msgstr ""
+
+#: ../../services/web.md:178
+msgid ""
+"Nous recommandons [Gandi.net](https://www.gandi.net/fr/domain), pour son "
+"soutient à divers projets libres."
+msgstr ""
+
+#: ../../services/web.md:180
+msgid ""
+"Avant d'acheter votre dom de domaine, prenez le temps d'en [discuter]"
+"(#gestion) ! Il va y avoir une petite série de réglages à faire et ça vaut "
+"le coup d'en parler pour que tout se passe bien."
+msgstr ""
+
+#: ../../services/web.md:185
+msgid "Gestion"
+msgstr ""
+
+#: ../../services/web.md:188
+msgid ""
+"Aucune de ces actions ne sont automatisés ni accessibles via une interface "
+"web. Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** "
+"🍺 ! Cela fait partie de l'aspect artisanal et de l'échelle volontairement "
+"humaine de la gestion du serveur."
+msgstr ""
+
+#: ../../services/web.md:192
+msgid ""
+"Pour soulager la tâche, des [scripts](https://github.com/club-1/hosting) "
+"sont là pour faciliter la mise en place technique."
+msgstr ""
+
+#: ../../services/web.md:195
+msgid ""
+"C'est _Nicolas_ qu'il faut contacter pour l'association des domaines avec "
+"vos dossiers de sites."
+msgstr ""
+
+#: ../../services/web.md:197
+msgid "Il est possible de le joindre :"
+msgstr ""
+
+#: ../../services/web.md:199
+msgid "par email : <nicolas+web@club1.fr>"
+msgstr ""
+
+#: ../../services/web.md:200
+msgid "par matrix : `@n-peugnet:club1.fr`"
+msgstr ""
+
+#: ../../services/web.md:209
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
 "étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
@@ -2324,11 +2631,18 @@ msgid ""
 "certaines informations."
 msgstr ""
 
-#: ../../services/webdav.md:27
+#: ../../services/webdav.md:28
+msgid ""
+"Le {term}`serveur` {term}`WebDAV` de CLUB1 est limité à des fichiers de "
+"1&nbsp;Go maximum. Pour transferer de plus gros fichiers, il vaut mieux se "
+"tourner vers le service [SSH](ssh.md) ou [FTP](ftp.md)."
+msgstr ""
+
+#: ../../services/webdav.md:32
 msgid "Carnets d'adresses et calendriers"
 msgstr ""
 
-#: ../../services/webdav.md:30
+#: ../../services/webdav.md:35
 msgid ""
 "Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail."
 "club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
@@ -2336,23 +2650,110 @@ msgid ""
 "contacts et calendriers CLUB1."
 msgstr ""
 
-#: ../../services/webdav.md:34
+#: ../../services/webdav.md:39
 msgid ""
 "Chaque membre dispose d'un carnet d'adresses et d'un calendrier pré-"
 "existants, tous les deux appelés `Default`, mais il est possible d'en créer "
 "d'autres."
 msgstr ""
 
-#: ../../services/webdav.md:41
+#: ../../services/webdav.md:46
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
 "WebDAV de CLUB1."
 msgstr ""
 
+#: ../../services/webdav.md:49
+msgid "[](/tutos/caldav-mac.md)"
+msgstr ""
+
 #: ../../services/webdav.md:50
+msgid "[](/tutos/webdav-mac.md)"
+msgstr ""
+
+#: ../../services/webdav.md:57
 msgid ""
 "Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet. "
 "--- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:1
+msgid "Synchronisation de calendrier CalDAV sur un Mac"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:4
+msgid ""
+"Cette méthode permet de synchroniser ses {index}`calendriers` entre le "
+"serveur et un appareil Mac."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:6
+msgid "L'opération se fait directement depuis l'application Calendrier Apple."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:8
+msgid ""
+"Dans la barre de menu il faut se rendre dans **Calendrier** puis **Comptes..."
+"** pour afficher la fenêtre de configuration de **Comptes Internet** "
+"({numref}`fig:tutos-caldav-mac-comptes`)."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:17
+msgid "capture d'écran fenêtre Comptes Internet"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:17
+msgid "Fenêtre \"Comptes Internet\"."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:20
+msgid ""
+"Pour ajouter un compte CLUB1 il faut cliquer sur **Ajouter un autre compte..."
+"** et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-mac-"
+"autres-comptes`)"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:28
+msgid "capture d'écran fenêtre Autres Comptes"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:28
+msgid ""
+"La fenêtre \"Comptes Internet\" dévoile son plein potentiel une fois qu'on a "
+"cliqué sur le bouton \"Ajouter un autres compte...\"."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:32
+msgid ""
+"Dans la fenêtre dépliée, entrer son adresse et son mot-de-passe membre CLUB1 "
+"({numref}`fig:tutos-caldav-mac-ajouter-compte-caldav`)."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:40
+msgid "capture d'écran fenêtre Ajouter un compte CalDAV"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:40
+msgid "Le formulaire d'ajout de compte CalDAV."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:44
+msgid ""
+"Une fois validé, un calendrier \"Default\" apparaîtra sous CLUB1 dans le "
+"panneau de gauche de l'application Calendrier ({numref}`fig:tutos-caldav-mac-"
+"calendrier`)."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:52
+msgid "capture d'écran fenêtre calendrier"
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:52
+msgid "Le calendrier \"Default\" est maintenant présent dans le calendrier."
+msgstr ""
+
+#: ../../tutos/caldav-mac.md:55
+msgid "Bravo."
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:1
@@ -3288,8 +3689,120 @@ msgid ""
 "simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
 msgstr ""
 
-#. %s will be replaced by the project name
-#: conf.py:144
+#: ../../tutos/webdav-mac.md:1
+msgid "Accès à l'espace personnel depuis le Finder d'un Mac"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:4
+msgid ""
+"Dans le Finder, dans la barre de menu, cliquez sur `Aller` --> `Se connecter "
+"au serveur...`"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:6
+msgid "![aller](webdav-mac/screen_001.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:6 ../../tutos/webdav-mac.md:10
+#: ../../tutos/webdav-mac.md:25 ../../tutos/webdav-mac.md:31
+#: ../../tutos/webdav-mac.md:38 ../../tutos/webdav-mac.md:51
+msgid "aller"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:8
+msgid "Une nouvelle fenêtre apparait :"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:10
+msgid "![aller](webdav-mac/screen_002.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:12
+msgid "Rentrez l'url Webdav correspondant à votre utilisateur :"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:18
+msgid "En utilisant votre login CLUB1."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:21
+msgid ""
+"Cliquez sur le bouton `+` en bas à gauche de la fenêtre pour garder en "
+"mémoire l'adresse de votre serveur dans les favoris."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:23
+msgid "Puis, cliquez sur le bouton `Connexion`."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:25
+msgid "![aller](webdav-mac/screen_003.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:27
+msgid ""
+"Une fenêtre pop-up va apparaître vous demandant vos identifiants chez Club1."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:29
+msgid "Cliquez sur le bouton Se connecter."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:31
+msgid "![aller](webdav-mac/screen_004.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:34
+msgid ""
+"Entrez votre identifiant et mot de passe CLUB1. Il est utile de cocher la "
+"case \"Conserver ce mot de passe dans mon trousseau\", car ceci permettra de "
+"déverouiller l'accès entre vos ouvertures/fermetures de sessions mac."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:38
+msgid "![aller](webdav-mac/screen_005.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:42
+msgid ""
+"Votre dossier personnel Club1 devrait s'afficher et être listé dans les "
+"Emplacements de votre Finder."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:44
+msgid ""
+"A présent, il faut péréniser cet accès en l'ajoutant aux favoris. Pour se "
+"faire, il nous faut accèder au dossier parent."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:47
+msgid ""
+"Depuis la barre de menu cliquez sur `Aller` --> `Dossier parent` (ou via le "
+"raccourci clavier : `CMD` + `↑`)."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:49
+msgid ""
+"Maintenant, il est possbile de cliquer-glisser votre dossier perso dans la "
+"zone de favoris."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:51
+msgid "![aller](webdav-mac/screen_007.png)"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:54
+msgid ""
+"Votre dossier dans le serveur Club1 est dorénavant accessible en tout temps "
+"et simplement !"
+msgstr ""
+
+#: conf.py:44
 #, python-format
 msgid "Documentation %s"
+msgstr ""
+
+#: conf.py:45
+#, python-format
+msgid "%s, Membres de CLUB1"
 msgstr ""
