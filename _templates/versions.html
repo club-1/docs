@@ -10,9 +10,11 @@
 		<dl>
 			<dt>{{ _('Langages') }}</dt>
 			{% for slug, url in languages %}
-			{% if slug == language %} <strong> {% endif %}
-				<dd><a href="{{ pathto(url + pagename) }}">{{ slug }}</a></dd>
+			<dd>
+				{% if slug == language %} <strong> {% endif %}
+					<a href="{{ pathto(url + pagename) }}">{{ slug }}</a>
 				{% if slug == language %} </strong> {% endif %}
+			</dd>
 			{% endfor %}
 		</dl>
 		{% endif %}
@@ -20,9 +22,11 @@
 		<dl>
 			<dt>{{ _('Versions') }}</dt>
 			{% for slug, url in versions %}
-			{% if slug == version %} <strong> {% endif %}
-				<dd><a href="{{ pathto(url + pagename) }}">{{ slug }}</a></dd>
+			<dd>
+				{% if slug == version %} <strong> {% endif %}
+					<a href="{{ pathto(url + pagename) }}">{{ slug }}</a>
 				{% if slug == version %} </strong> {% endif %}
+			</dd>
 			{% endfor %}
 		</dl>
 		{% endif %}
