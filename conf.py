@@ -269,3 +269,10 @@ linkcheck_allowed_redirects = {
     r'https://github\.com/club-1/docs/edit/.*': r'https://github\.com/login\?return_to=https%3A%2F%2Fgithub\.com%2Fclub-1%2Fdocs%2Fedit%2F.*',
     r'https://gnu\.org/licenses/fdl\.html': r'https://www\.gnu\.org/licenses/fdl-[0-9]+\.[0-9]+\.html',
 }
+
+# -- Global setup ------------------------------------------------------------
+def override_html_permalink_icon(app):
+    app.config.html_permalinks_icon = "#"
+
+def setup(app):
+    app.connect('builder-inited', override_html_permalink_icon)
