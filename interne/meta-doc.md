@@ -166,6 +166,11 @@ Sphinx-rtd-theme
 Sphinx-notfound-page
    _(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page d'erreur 404 personnalisée dont les liens sont absolus.
 
+Sphinx-last-updated-by-git
+   _(Optionnel)_ Extension {term}`Sphinx` ajoutant à chaque page sa date de dernière modification
+   à partir de l'historique {term}`Git` de la documentation.
+   --- [Sources](https://github.com/mgeier/sphinx-last-updated-by-git)
+
 gettext
    _(Optionnel)_ Pour les locales autres que Français.
 ```
