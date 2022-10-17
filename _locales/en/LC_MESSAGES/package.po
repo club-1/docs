@@ -367,7 +367,7 @@ msgid ""
 "Numéro d'identification d'un ordinateur relié à un {term}`réseau "
 "informatique`."
 msgstr ""
-"Identification number of a computer connected to a {term}'computer network'."
+"Identification number of a computer connected to a {term}`computer network`."
 
 #: ../../glossaire.md:10
 msgid ""
@@ -2496,7 +2496,7 @@ msgstr ""
 "Software for viewing {term}`RSS` feeds. Its purpose is to aggregate news "
 "from different sites into a single feed. It allows you to avoid looking "
 "manually and one by one at the sites for which you want to know the new "
-"content.---[Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
+"content. --- [Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
 
 #: ../../services/rss.md:22
 msgid ""
