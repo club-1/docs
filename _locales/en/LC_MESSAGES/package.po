@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-10-11 20:40+0200\n"
-"PO-Revision-Date: 2022-09-07 15:18+0000\n"
-"Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
+"PO-Revision-Date: 2022-10-17 00:54+0000\n"
+"Last-Translator: Leïla Renard <leila@club1.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: ../../cgu.md:1
 msgid "Conditions générales d'utilisation"
@@ -46,6 +46,8 @@ msgid ""
 "Un historique daté des versions de cette charte peut être consulté sur "
 "[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
 msgstr ""
+"A dated version history of this charter can be found on "
+"[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
 
 #: ../../cgu.md:14
 msgid "Accès aux services"
@@ -57,6 +59,9 @@ msgid ""
 "membre. La liste des services et leurs conditions d'accès sont disponibles "
 "sur la page [services](https://club1.fr/services/)."
 msgstr ""
+"Some services are free to access, others require a membership account. The "
+"list of services and their access conditions are available on the page "
+"[services](https://club1.fr/services/)."
 
 #: ../../cgu.md:21
 msgid ""
@@ -300,7 +305,7 @@ msgstr "Frequently asked questions"
 
 #: ../../faq.md:4
 msgid "Reponses aux questions fréquemment posées par rapport au serveur CLUB1."
-msgstr ""
+msgstr "Answers to frequently asked questions about the CLUB1 server."
 
 #: ../../faq.md:6
 msgid "Questions"
@@ -311,6 +316,8 @@ msgid ""
 "Est ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et "
 "créer plein d'adresses indépendantes ?"
 msgstr ""
+"Can I host my emails at CLUB1 with my domain name and create many "
+"independent addresses?"
 
 #: ../../faq.md:19
 msgid "Réponse courte : NON"
@@ -324,6 +331,10 @@ msgid ""
 "{term}`alias` personnalisés à la demande, mais pas de créer des boîtes de "
 "reception supplémentaires."
 msgstr ""
+"Long answer: CLUB1 provides **[one email box](/services/email.md) per member "
+"account** with a main address and all its [sub-addresses](services/email.md"
+"#sous-adresses). It is possible to create custom {term}`alias` on demand, "
+"but not to create additional mailboxes."
 
 #: ../../faq.md:27
 msgid ""
@@ -332,6 +343,11 @@ msgid ""
 "un service d'email inclus. Par exemple, [Gandi inclut ce service](https://"
 "docs.gandi.net/fr/gandimail/index.html) avec chaque nom de domaine loué."
 msgstr ""
+"If you rent your {term}`domain name`, it is likely that your "
+"{term}`registrar` (the intermediary with whom you rent the domain name) "
+"offers an email service included. For example, [Gandi includes this "
+"service](https://docs.gandi.net/en/gandimail/index.html) with each domain "
+"name rented."
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -343,13 +359,15 @@ msgstr "Glossary"
 
 #: ../../glossaire.md:0
 msgid "Adresse IP"
-msgstr ""
+msgstr "IP address"
 
 #: ../../glossaire.md:8
+#, fuzzy
 msgid ""
 "Numéro d'identification d'un ordinateur relié à un {term}`réseau "
 "informatique`."
 msgstr ""
+"Identification number of a computer connected to a {term}`computer network`."
 
 #: ../../glossaire.md:10
 msgid ""
@@ -668,16 +686,12 @@ msgid ""
 msgstr "To quickly back up your emails, just download a copy of this folder."
 
 #: ../../info/espace-personnel.md:47
-#, fuzzy
-#| msgid ""
-#| "Ce dossier est la porte la plus proche vers le {term}`Web` car il permet "
-#| "de [publier des sites Web](/services/web.md)."
 msgid ""
 "Ce dossier est la porte la plus proche vers le {term}`Web` car il permet de "
 "[publier des sites Web](../services/web.md#dossier-static)."
 msgstr ""
 "This folder is the closest door to the {term}`Web` as it allows to [publish "
-"websites](/services/web.md)."
+"websites](../services/web.md#dossier-static)."
 
 #: ../../info/espace-personnel.md:52
 msgid ""
@@ -1719,19 +1733,14 @@ msgid "Messagerie email"
 msgstr "Email messaging"
 
 #: ../../services/email.md:4
-#, fuzzy
-#| msgid ""
-#| "Chaque membre dispose d'une adresse email personnelle. Elle est composée "
-#| "de l'**identifiant**, suivi de `@club1.fr`. Par exemple, l'adresse de "
-#| "l'utilisateur `michel` est `michel@club1.fr`."
 msgid ""
 "Chaque membre dispose d'**une boîte email** avec une adresse email "
 "personnelle. L'adresse est composée de l'**identifiant**, suivi de `@club1."
 "fr`. Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`."
 msgstr ""
-"Each member has a personal email address. It is composed of the **login**, "
-"followed by `@club1.fr`. For instance, the address of `michel` is "
-"`michel@club1.fr`."
+"Each member has an **email box** with a personal email address. The adress "
+"is composed of the **login**, followed by `@club1.fr`. For instance, the "
+"address of `michel` is `michel@club1.fr`."
 
 #: ../../services/email.md:8
 msgid "Sous-adresses"
@@ -2454,14 +2463,6 @@ msgid "Agrégateur de flux RSS"
 msgstr "RSS feed aggregator"
 
 #: ../../services/rss.md:6
-#, fuzzy
-#| msgid ""
-#| "(_Really Simple Syndication_) Format de données standardisé qui permet la "
-#| "consultation d'un site non pas par un humain mais par un logiciel. Il "
-#| "s'agit donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
-#| "contiennent les derniers articles ou actualités publiées. Ils sont "
-#| "souvent utilisés par les sites d'actualité et les blogs. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/RSS)"
 msgid ""
 "(_Really Simple Syndication_) Format de données standardisé qui permet la "
 "consultation d'un site non pas par un humain mais par un logiciel. Il s'agit "
@@ -2472,8 +2473,7 @@ msgstr ""
 "(_Really Simple Syndication_) Standardized data format that allows the "
 "consultation of a site not by a human but by a software. It is therefore a "
 "form of {term}`API`. RSS feeds are files that contain the latest published "
-"articles or news. They are often used by news sites and blogs. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/RSS)"
+"articles or news. They are often used by news sites and blogs."
 
 #: ../../services/rss.md:12
 msgid ""
@@ -2486,12 +2486,6 @@ msgid "Agrégateur de flux"
 msgstr "Feed aggregator"
 
 #: ../../services/rss.md:16
-#, fuzzy
-#| msgid ""
-#| "Logiciel permettant de consulter les flux RSS. Son but est d'agréger les "
-#| "nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
-#| "regarder manuellement et un par un les sites dont on veut connaître les "
-#| "nouveaux contenus."
 msgid ""
 "Logiciel permettant de consulter les flux {term}`RSS`. Son but est d'agréger "
 "les nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
@@ -2499,9 +2493,10 @@ msgid ""
 "nouveaux contenus. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgstr ""
-"Software for viewing RSS feeds. Its purpose is to aggregate news from "
-"different sites into a single feed. It allows you to avoid looking manually "
-"and one by one at the sites for which you want to know the new content."
+"Software for viewing {term}`RSS` feeds. Its purpose is to aggregate news "
+"from different sites into a single feed. It allows you to avoid looking "
+"manually and one by one at the sites for which you want to know the new "
+"content. --- [Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
 
 #: ../../services/rss.md:22
 msgid ""
@@ -3263,16 +3258,12 @@ msgid "Synchronisation de calendrier CalDAV sur un Mac"
 msgstr ""
 
 #: ../../tutos/caldav-mac.md:4
-#, fuzzy
-#| msgid ""
-#| "Cette méthode permet de synchroniser ses {index}`carnets d'adresses` et "
-#| "{index}`calendriers` entre le serveur et un appareil *Android*."
 msgid ""
 "Cette méthode permet de synchroniser ses {index}`calendriers` entre le "
 "serveur et un appareil Mac."
 msgstr ""
-"This method allows you to synchronize your {index}`address-books` and {index}"
-"`calendars` between the server and an *Android* device."
+"This method allows you to synchronize your {index}`calendars` between the "
+"server and a Mac device."
 
 #: ../../tutos/caldav-mac.md:6
 msgid "L'opération se fait directement depuis l'application Calendrier Apple."
