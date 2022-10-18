@@ -50,8 +50,11 @@ Client Web
 
 GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
-   utilisant le logiciel de gestion de versions {term}`Git`. ---
-   [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
+   utilisant le logiciel de gestion de versions {term}`Git`.
+
+   Contrairement à la plupart des projets que l'on peut y trouver,
+   Github n'est ni **libre**, ni **open source** et appartient à Microsoft.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
 HTML
    (_Hypertext Markup Language_) Language de balisage conçu pour représenter les pages {term}`Web`. ---
