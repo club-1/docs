@@ -8,8 +8,8 @@ Citer ce document
 
 Les différentes manières de citer la documentation CLUB1.
 
-Bibtex
+BibTeX
 ------
 
-```{bibtex}
+```{citation:bibtex}
 ```
