@@ -50,6 +50,7 @@ copyright = _('%s, Membres de CLUB1') % '2022'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'citation',
     'myst_parser',
     'french_typography',
     'term_tooltips',

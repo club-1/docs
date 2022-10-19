@@ -30,4 +30,10 @@ glossaire
 
    .. toctree::
       genindex
+
+   .. toctree::
+      :caption: Annexes
+      :titlesonly:
+
+      citation
 ```
