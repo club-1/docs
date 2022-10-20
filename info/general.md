@@ -13,7 +13,7 @@ ou que vous avez une suggestion 💡, n'hésitez pas à nous en faire part !
 Vous pouvez, selon vos préférences :
 
 - envoyer un email à <contact@club1.fr>
-- en dicuter sur _Matrix_ via `#bazar:club1.fr`.
+- en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
 Des salons plus spécifiques sont dédiés au site web et à la doc.
 Ils sont répertoriés au sein de l'espace `#le-club:club1.fr`.
 - [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues)
