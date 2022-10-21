@@ -128,7 +128,7 @@ Logiciels
 
 ```{glossary}
 members-presentation
-    Stript PHP permettant de générer la page membre.
+    Script PHP permettant de générer la page membre.
     --- [Sources](https://github.com/club-1/members-presentation)
 
 ```
