@@ -122,3 +122,13 @@ Par exemple, l'adresse suivante ouvrira directement la présentation du membres 
     https://club1.fr/membres/#vincent
 
 
+
+Logiciels
+---------
+
+```{glossary}
+members-presentation
+    Script PHP permettant de générer la page membre.
+    --- [Sources](https://github.com/club-1/members-presentation)
+
+```
