@@ -219,7 +219,17 @@ epub_exclude_files = [
     # Favicon is only needed for HTML output.
     '_static/favicon.ico',
     # This file is downloaded from the website.
-    '_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt', ]
+    '_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt',
+]
+
+# Use home page as epub identifier.
+epub_identifier = html_baseurl
+
+# Identifier is an URL.
+epub_scheme = 'URL'
+
+# Override some CSS rules.
+epub_css_files = ['epub.css']
 
 # -- Options for LATEX output ------------------------------------------------
 

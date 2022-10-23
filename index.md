@@ -25,15 +25,16 @@ glossaire
 ```{eval-rst}
 .. only:: html
 
-   Indexes et tables
-   =================
-
-   .. toctree::
-      genindex
-
    .. toctree::
       :caption: Annexes
       :titlesonly:
 
       citation
+
+.. only:: builder_html
+
+   .. toctree::
+      :caption: Indexes et tables
+
+      genindex
 ```
