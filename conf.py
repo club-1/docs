@@ -214,6 +214,10 @@ man_show_urls = True
 
 # -- Options for EPUB output -------------------------------------------------
 
+epub_title = title
+
+epub_description = _("Documentation de l'hébergement CLUB1")
+
 # Exclude files that are not needed in EPUB format.
 epub_exclude_files = [
     # Favicon is only needed for HTML output.
@@ -229,7 +233,7 @@ epub_identifier = html_baseurl
 epub_scheme = 'URL'
 
 # Override some CSS rules.
-epub_css_files = ['epub.css']
+epub_css_files = ['pygments.css', 'epub.css']
 
 # -- Options for LATEX output ------------------------------------------------
 
