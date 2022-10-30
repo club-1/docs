@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-10-11 20:40+0200\n"
+"POT-Creation-Date: 2022-10-30 16:11+0100\n"
 "PO-Revision-Date: 2022-10-17 00:54+0000\n"
 "Last-Translator: Leïla Renard <leila@club1.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../cgu.md:1
 msgid "Conditions générales d'utilisation"
-msgstr ""
+msgstr "Terms of service"
 
 #: ../../cgu.md:4
 msgid ""
@@ -46,8 +46,8 @@ msgid ""
 "Un historique daté des versions de cette charte peut être consulté sur "
 "[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
 msgstr ""
-"A dated version history of this charter can be found on "
-"[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
+"A dated version history of this charter can be found on [GitHub](https://"
+"github.com/club-1/docs/commits/main/cgu.md)."
 
 #: ../../cgu.md:14
 msgid "Accès aux services"
@@ -299,6 +299,14 @@ msgid ""
 "applicable à compter du 25 mai 2018, dite RGPD."
 msgstr ""
 
+#: ../../citation.md:6
+msgid "Citer ce document"
+msgstr ""
+
+#: ../../citation.md:9
+msgid "Les différentes manières de citer la documentation CLUB1."
+msgstr ""
+
 #: ../../faq.md:1
 msgid "Foire aux questions"
 msgstr "Frequently asked questions"
@@ -332,8 +340,8 @@ msgid ""
 "reception supplémentaires."
 msgstr ""
 "Long answer: CLUB1 provides **[one email box](/services/email.md) per member "
-"account** with a main address and all its [sub-addresses](services/email.md"
-"#sous-adresses). It is possible to create custom {term}`alias` on demand, "
+"account** with a main address and all its [sub-addresses](services/email."
+"md#sous-adresses). It is possible to create custom {term}`alias` on demand, "
 "but not to create additional mailboxes."
 
 #: ../../faq.md:27
@@ -343,11 +351,10 @@ msgid ""
 "un service d'email inclus. Par exemple, [Gandi inclut ce service](https://"
 "docs.gandi.net/fr/gandimail/index.html) avec chaque nom de domaine loué."
 msgstr ""
-"If you rent your {term}`domain name`, it is likely that your "
-"{term}`registrar` (the intermediary with whom you rent the domain name) "
-"offers an email service included. For example, [Gandi includes this "
-"service](https://docs.gandi.net/en/gandimail/index.html) with each domain "
-"name rented."
+"If you rent your {term}`domain name`, it is likely that your {term}"
+"`registrar` (the intermediary with whom you rent the domain name) offers an "
+"email service included. For example, [Gandi includes this service](https://"
+"docs.gandi.net/en/gandimail/index.html) with each domain name rented."
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -457,13 +464,19 @@ msgstr ""
 #: ../../glossaire.md:48
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
-"utilisant le logiciel de gestion de versions {term}`Git`. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/GitHub)"
+"utilisant le logiciel de gestion de versions {term}`Git`."
 msgstr ""
 "Web service providing hosting for software development and version control "
-"using {term}`Git`. --- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
+"using {term}`Git`."
 
-#: ../../glossaire.md:53
+#: ../../glossaire.md:51
+msgid ""
+"Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
+"ni **libre**, ni **open source** et appartient à Microsoft. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/GitHub)"
+msgstr ""
+
+#: ../../glossaire.md:56
 msgid ""
 "(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
 "les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -474,11 +487,11 @@ msgstr ""
 "`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN web "
 "docs](https://developer.mozilla.org/en/docs/Web/HTML)"
 
-#: ../../glossaire.md:50
+#: ../../glossaire.md:53
 msgid "Internet"
 msgstr "Internet"
 
-#: ../../glossaire.md:58
+#: ../../glossaire.md:61
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -492,7 +505,7 @@ msgstr ""
 "\"network of networks\". --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Internet)"
 
-#: ../../glossaire.md:65
+#: ../../glossaire.md:68
 msgid ""
 "Language de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -507,11 +520,11 @@ msgstr ""
 "syntax, which makes it more pleasant to read and write for a human. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossaire.md:65
+#: ../../glossaire.md:68
 msgid "Réseau informatique"
 msgstr "Computer network"
 
-#: ../../glossaire.md:73
+#: ../../glossaire.md:76
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -520,11 +533,11 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossaire.md:69
+#: ../../glossaire.md:72
 msgid "Serveur"
 msgstr "Server"
 
-#: ../../glossaire.md:77
+#: ../../glossaire.md:80
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -539,7 +552,7 @@ msgstr ""
 "called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Server_(computing))"
 
-#: ../../glossaire.md:85
+#: ../../glossaire.md:88
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -554,11 +567,11 @@ msgstr ""
 "else can read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 
-#: ../../glossaire.md:85
+#: ../../glossaire.md:88
 msgid "Web"
 msgstr "Web"
 
-#: ../../glossaire.md:93
+#: ../../glossaire.md:96
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -568,7 +581,7 @@ msgstr ""
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
 "link them together using hypertext links."
 
-#: ../../glossaire.md:97
+#: ../../glossaire.md:100
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -581,7 +594,15 @@ msgstr ""
 "sheets\". The {term}`client` used to access it is called a \"Web browser\". "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)"
 
-#: ../../index.md:1
+#: ../../index.md:28
+msgid "Annexes"
+msgstr "Appendices"
+
+#: ../../index.md:36
+msgid "Indexes et tables"
+msgstr "Indices and tables"
+
+#: ../../index.md:1 conf.py:219
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -599,10 +620,6 @@ msgstr ""
 "version published by the Free Software Foundation; with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. The text of this "
 "license is readable at <https://gnu.org/licenses/fdl.html>."
-
-#: ../../index.md:29
-msgid "Indexes et tables"
-msgstr "Indices and tables"
 
 #: ../../info/espace-personnel.md:1
 msgid "Espace personnel"
@@ -732,7 +749,7 @@ msgstr ""
 "hesitate to put links to your web projects, it will allow members and "
 "visitors to discover them 🔎️."
 
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:251
+#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:256
 msgid "Metadonnées"
 msgstr "Metadata"
 
@@ -819,6 +836,20 @@ msgstr ""
 "For example, the following address will directly open the presentation of "
 "member `vincent`:"
 
+#: ../../info/espace-personnel.md:126 ../../services/drive.md:18
+#: ../../services/email.md:165 ../../services/ftp.md:51
+#: ../../services/git.md:83 ../../services/rss.md:45 ../../services/sql.md:17
+#: ../../services/ssh.md:108 ../../services/web.md:204
+#: ../../services/webdav.md:52
+msgid "Logiciels"
+msgstr "Software"
+
+#: ../../info/espace-personnel.md:131
+msgid ""
+"Script PHP permettant de générer la page membre. --- [Sources](https://"
+"github.com/club-1/members-presentation)"
+msgstr ""
+
 #: ../../info/general.md:1
 msgid "Informations générales"
 msgstr "General information"
@@ -839,36 +870,55 @@ msgstr "Requests and problems"
 
 #: ../../info/general.md:11
 msgid ""
-"Pour toute demande ou incident, veuillez [créer un ticket (_issue_)](https://"
-"github.com/club-1/hosting/issues) sur {term}`GitHub` (vous devrez pour cela "
-"créer un compte), en choisissant entre demande (_request_) ou incident "
-"(_problem_) en fonction de la nature du ticket. Si il s'agit d'une demande "
-"impersonnelle, merci de **vérifier** qu'il n'existe pas déjà une demande "
-"similaire à l'aide de la barre de recherche."
+"Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou que "
+"vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous "
+"pouvez, selon vos préférences :"
 msgstr ""
-"For any request or incident, please [create an issue](https://github.com/"
-"club-1/hosting/issues) on {term}`GitHub` (you will need to create an "
-"account), choosing between _request_ or _problem_ depending on the nature of "
-"the ticket. If it is an impersonal request, please **check** that there is "
-"not already a similar request using the search bar."
 
-#: ../../info/general.md:18
+#: ../../info/general.md:15
+msgid "envoyer un email à <contact@club1.fr>"
+msgstr ""
+
+#: ../../info/general.md:16
+msgid ""
+"en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
+"Des salons plus spécifiques sont dédiés au site web et à la doc. Ils sont "
+"répertoriés au sein de l'espace `#le-club:club1.fr`."
+msgstr ""
+
+#: ../../info/general.md:19
+msgid ""
+"[créer un ticket (_issue_)](https://github.com/club-1/hosting/issues) sur "
+"{term}`GitHub`."
+msgstr ""
+
+#: ../../info/general.md:23
+msgid ""
+"Nous utilisons actuellement {term}`GitHub` pour la gestion des tickets. Il "
+"faut savoir que ce service en ligne, proposé par Microsoft, n'est ni "
+"**libre**, ni **open source** 😲 ! Ce choix à été fait pour des raisons de "
+"simplicité, car beaucoup de personnes ont déjà un compte sur cette "
+"plateforme. On risque de migrer vers un autre outil prochainement, donc ne "
+"vous forcez pas à avoir un compte pour nous !"
+msgstr ""
+
+#: ../../info/general.md:32
 msgid "Infos sur le serveur"
 msgstr "Server infos"
 
-#: ../../info/general.md:21
+#: ../../info/general.md:35
 msgid "Il vit dans le placard comme _Harry Potter_..."
 msgstr "It lives in the closet like _Harry Potter_..."
 
-#: ../../info/general.md:23
+#: ../../info/general.md:37
 msgid "c'est le serveur."
 msgstr "it's the server."
 
-#: ../../info/general.md:25
+#: ../../info/general.md:39
 msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
-#: ../../info/general.md:27
+#: ../../info/general.md:41
 msgid ""
 "Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par "
 "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
@@ -880,27 +930,27 @@ msgstr ""
 "download](https://www.nperf.com/en/r/338260996-nDOmVdkc). The internet "
 "connection is provided by Bouygues Telecom."
 
-#: ../../info/general.md:31
+#: ../../info/general.md:45
 msgid "Caractéristiques techniques"
 msgstr "Technical characteristics"
 
-#: ../../info/general.md:35
+#: ../../info/general.md:49
 msgid "Stockage :"
 msgstr "Storage:"
 
-#: ../../info/general.md:36
+#: ../../info/general.md:50
 msgid "SSD Système 300 Go"
 msgstr "300 GB System SSD"
 
-#: ../../info/general.md:37
+#: ../../info/general.md:51
 msgid "SSD Utilisateurs 1 To"
 msgstr "1 TB User SSD"
 
-#: ../../info/general.md:41
+#: ../../info/general.md:55
 msgid "Système d'exploitation"
 msgstr "Operating system"
 
-#: ../../info/general.md:43
+#: ../../info/general.md:57
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -915,11 +965,11 @@ msgstr ""
 "depending on it are then automatically restarted using [_needrestart_]"
 "(https://packages.debian.org/stable/needrestart)."
 
-#: ../../info/general.md:49
+#: ../../info/general.md:63
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
-#: ../../info/general.md:51
+#: ../../info/general.md:65
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
 "ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
@@ -927,15 +977,15 @@ msgstr ""
 "All the installed software is under **free license**, except for the "
 "following list, for which there is no free alternative:"
 
-#: ../../info/general.md:54
+#: ../../info/general.md:68
 msgid "BIOS/BMC Supermicro"
 msgstr "Supermicro BIOS/BMC"
 
-#: ../../info/general.md:55
+#: ../../info/general.md:69
 msgid "Microcode Intel"
 msgstr "Intel Microcode"
 
-#: ../../info/general.md:57
+#: ../../info/general.md:71
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
@@ -943,7 +993,7 @@ msgstr ""
 "A significant number of software and libraries are already installed. Here "
 "is a _non-exhaustive_ list:"
 
-#: ../../info/general.md:74
+#: ../../info/general.md:88
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -954,11 +1004,11 @@ msgstr ""
 "that it is not already present, then, if not, **create a ticket** as "
 "explained [above](#demandes-et-incidents)."
 
-#: ../../info/general.md:78
+#: ../../info/general.md:92
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: ../../info/general.md:80
+#: ../../info/general.md:94
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -973,11 +1023,11 @@ msgstr ""
 "time, for example during a kernel update. That said, an effective "
 "availability **above 98%** should be ensured."
 
-#: ../../info/general.md:87
+#: ../../info/general.md:101
 msgid "Sauvegardes"
 msgstr "Backups"
 
-#: ../../info/general.md:93
+#: ../../info/general.md:107
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
@@ -990,7 +1040,7 @@ msgstr ""
 "and encrypted manner in several places including an off-site repository "
 "offered by Etienne Le Louët (hosted by OVH)."
 
-#: ../../info/general.md:98
+#: ../../info/general.md:112
 msgid ""
 "Il s'agit de sauvegardes incrémentales avec une période de rétention d'une "
 "semaine. Il y a donc en permanence 7 jours d'historique disponible. En cas "
@@ -1004,40 +1054,40 @@ msgstr ""
 "completion of backups is verified using the [Healthchecks.io](https://"
 "healthchecks.io/) service"
 
-#: ../../info/general.md:103
+#: ../../info/general.md:117
 msgid "Les sauvegardes sont réparties en deux groupes :"
 msgstr "Backups are divided into two groups:"
 
-#: ../../info/general.md:105
+#: ../../info/general.md:119
 msgid ""
 "**System** pour la configuration du serveur, les fichiers des applications "
 "et les bases de données."
 msgstr "**System** for server configuration, application files and databases."
 
-#: ../../info/general.md:106
+#: ../../info/general.md:120
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
-#: ../../info/general.md:108 ../../services/email.md:32
+#: ../../info/general.md:122 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:126
 #: ../../services/email.md:205 ../../services/web.md:70
 msgid "Voir aussi"
 msgstr "See also"
 
-#: ../../info/general.md:109
+#: ../../info/general.md:123
 msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 "The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
 
-#: ../../info/general.md:112
+#: ../../info/general.md:126
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:115
+#: ../../info/general.md:129
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:117
+#: ../../info/general.md:131
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
@@ -1047,7 +1097,7 @@ msgstr ""
 "check that a name respects it using [regex101](https://regex101.com/r/"
 "AilLZw/1)."
 
-#: ../../info/general.md:120
+#: ../../info/general.md:134
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1062,11 +1112,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:126
+#: ../../info/general.md:140
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:128
+#: ../../info/general.md:142
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1074,56 +1124,56 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:131
+#: ../../info/general.md:145
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:133
+#: ../../info/general.md:147
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:134
+#: ../../info/general.md:148
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:135
+#: ../../info/general.md:149
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:136
+#: ../../info/general.md:150
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:137
+#: ../../info/general.md:151
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:138
+#: ../../info/general.md:152
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:139
+#: ../../info/general.md:153
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:140
+#: ../../info/general.md:154
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 "access to the members-only matrix room for project monitoring and assistance"
 
-#: ../../info/general.md:142
+#: ../../info/general.md:156
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:145
+#: ../../info/general.md:159
 msgid "Politique et vie privée"
 msgstr "Politics and privacy"
 
-#: ../../info/general.md:148
+#: ../../info/general.md:162
 msgid ""
 "Aucune des données que vous stockez dans votre espace personnel de sera "
 "divulguée ni utilisée à des fins lucratives."
@@ -1131,7 +1181,7 @@ msgstr ""
 "None of the data you store in your personal space will be divulged or used "
 "for profit."
 
-#: ../../info/general.md:151
+#: ../../info/general.md:165
 msgid "Contact"
 msgstr "Contact"
 
@@ -1589,58 +1639,66 @@ msgstr ""
 "with absolute links."
 
 #: ../../interne/meta-doc.md:170
+msgid ""
+"_(Optionnel)_ Extension {term}`Sphinx` ajoutant à chaque page sa date de "
+"dernière modification à partir de l'historique {term}`Git` de la "
+"documentation. --- [Sources](https://github.com/mgeier/sphinx-last-updated-"
+"by-git)"
+msgstr ""
+
+#: ../../interne/meta-doc.md:175
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:173 ../../interne/meta-doc.md:200
+#: ../../interne/meta-doc.md:178 ../../interne/meta-doc.md:205
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:178
+#: ../../interne/meta-doc.md:183
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:182
+#: ../../interne/meta-doc.md:187
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:185
+#: ../../interne/meta-doc.md:190
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:188
+#: ../../interne/meta-doc.md:193
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:191
+#: ../../interne/meta-doc.md:196
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:194
+#: ../../interne/meta-doc.md:199
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:197
+#: ../../interne/meta-doc.md:202
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr "Tool to manipulate images in {term}`CLI`."
 
-#: ../../interne/meta-doc.md:204
+#: ../../interne/meta-doc.md:209
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:206
+#: ../../interne/meta-doc.md:211
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:210
+#: ../../interne/meta-doc.md:215
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:214
+#: ../../interne/meta-doc.md:219
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:218
+#: ../../interne/meta-doc.md:223
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1654,11 +1712,11 @@ msgstr ""
 "out at the end of the file, while adding the following comment just above "
 "the line `msgid \"...\"`:"
 
-#: ../../interne/meta-doc.md:228
+#: ../../interne/meta-doc.md:233
 msgid "Déploiement de la version Web"
 msgstr "Deployment of the Web version"
 
-#: ../../interne/meta-doc.md:231
+#: ../../interne/meta-doc.md:236
 msgid ""
 "Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
 "{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1712,13 +1770,6 @@ msgstr ""
 #: ../../services/drive.md:16
 msgid "L'adresse de ce {term}`client Web` est <https://drive.club1.fr>."
 msgstr "The address of the {term}`Web client` is <https://drive.club1.fr>."
-
-#: ../../services/drive.md:18 ../../services/email.md:165
-#: ../../services/ftp.md:51 ../../services/git.md:83 ../../services/rss.md:45
-#: ../../services/sql.md:17 ../../services/ssh.md:108 ../../services/web.md:204
-#: ../../services/webdav.md:52
-msgid "Logiciels"
-msgstr "Software"
 
 #: ../../services/drive.md:23
 msgid ""
@@ -2522,8 +2573,8 @@ msgid ""
 msgstr ""
 "Before you can connect a native client, the {term}`API` must be enabled in "
 "the {term}`Web client` settings. Click on the menu (icon with the three bars "
-"at the top right) --> `Preferences...` --> `Preferences` tab --> "
-"`General` section --> Check the `Enable API` box."
+"at the top right) --> `Preferences...` --> `Preferences` tab --> `General` "
+"section --> Check the `Enable API` box."
 
 #: ../../services/rss.md:35
 msgid ""

@@ -16,6 +16,9 @@ msgstr ""
 msgid "Apache"
 msgstr ""
 
+msgid "BibTeX"
+msgstr ""
+
 msgid "CLI"
 msgstr ""
 
@@ -127,6 +130,9 @@ msgstr ""
 msgid "Sphinx : {{ sphinx_version }}"
 msgstr ""
 
+msgid "Sphinx-last-updated-by-git"
+msgstr ""
+
 msgid "Sphinx-notfound-page"
 msgstr ""
 
@@ -164,6 +170,9 @@ msgid "cgit"
 msgstr ""
 
 msgid "gettext"
+msgstr ""
+
+msgid "members-presentation"
 msgstr ""
 
 msgid "phpMyAdmin"
