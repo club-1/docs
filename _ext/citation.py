@@ -6,7 +6,7 @@ from sphinx.util.docutils import SphinxDirective
 bibtex_months = ['', 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 bibtex_template = r'''
 @manual{%s,
-  title = {{%s}},
+  title = {%s},
   author = {%s},
   edition = {%s},
   year = %d,
@@ -19,7 +19,7 @@ bibtex_template = r'''
 class Bibtex(SphinxDirective):
     def run(self):
         bibtex = bibtex_template % (self.env.config.project + 'Documentation',
-                                    self.env.config.html_title,
+                                    self.env.config.citation_bibtex_title or self.env.config.html_title,
                                     self.env.config.author.replace(',', ' and '),
                                     self.env.config.release,
                                     self.env.config.citation_date.year,
@@ -33,6 +33,7 @@ class Bibtex(SphinxDirective):
 def setup(app: Sphinx):
     app.add_directive('citation:bibtex', Bibtex)
     app.add_config_value('citation_date', date.today(), 'env')
+    app.add_config_value('citation_bibtex_title', '', 'env')
 
     return {
         'version': '0.1',

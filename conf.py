@@ -41,7 +41,7 @@ languages = os.environ['LANGUAGES'].split(' ')
 t = translation('package', './_locales', [language], fallback=True)
 _ = t.gettext
 
-title = _('Documentation %s') % project
+title = _('Documentation CLUB1')
 copyright = _('%s, Membres de CLUB1') % '2022'
 
 # -- General configuration ---------------------------------------------------
@@ -129,6 +129,9 @@ if "DOWNLOADS" in os.environ:
 
 # The domain is used for code documentation, so no need for it here.
 primary_domain = None
+
+# Title used for BibTeX citation
+citation_bibtex_title = _('Documentation {CLUB1}')
 
 # -- Options for HTML output -------------------------------------------------
 

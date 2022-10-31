@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-10-30 16:11+0100\n"
+"POT-Creation-Date: 2022-10-31 17:56+0100\n"
 "PO-Revision-Date: 2022-10-17 00:54+0000\n"
 "Last-Translator: Leïla Renard <leila@club1.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -602,7 +602,7 @@ msgstr "Appendices"
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
-#: ../../index.md:1 conf.py:219
+#: ../../index.md:1 conf.py:222
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -4509,11 +4509,16 @@ msgid ""
 msgstr ""
 
 #: conf.py:44
-#, python-format
-msgid "Documentation %s"
-msgstr "%s documentation"
+msgid "Documentation CLUB1"
+msgstr "CLUB1 documentation"
 
 #: conf.py:45
 #, python-format
 msgid "%s, Membres de CLUB1"
 msgstr "%s, CLUB1 members"
+
+#. Title used for BibTeX citation
+#: conf.py:134
+#, python-brace-format
+msgid "Documentation {CLUB1}"
+msgstr "{CLUB1} documentation"

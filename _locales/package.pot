@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-10-30 16:11+0100\n"
+"POT-Creation-Date: 2022-10-31 17:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -532,7 +532,7 @@ msgstr ""
 msgid "Indexes et tables"
 msgstr ""
 
-#: ../../index.md:1 conf.py:219
+#: ../../index.md:1 conf.py:222
 msgid "Documentation de l'hébergement CLUB1"
 msgstr ""
 
@@ -3855,11 +3855,16 @@ msgid ""
 msgstr ""
 
 #: conf.py:44
-#, python-format
-msgid "Documentation %s"
+msgid "Documentation CLUB1"
 msgstr ""
 
 #: conf.py:45
 #, python-format
 msgid "%s, Membres de CLUB1"
+msgstr ""
+
+#. Title used for BibTeX citation
+#: conf.py:134
+#, python-brace-format
+msgid "Documentation {CLUB1}"
 msgstr ""
