@@ -4,7 +4,7 @@ Bases de données SQL
 Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est possible de
 créer des **bases de données SQL personnelles**. Une interface {term}`Web`
 de gestion fournie par {term}`phpMyAdmin`
-est disponible à l'adresse suivante : <https://club1.fr/phpmyadmin>
+est disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>
 
 Informations de connexion
 -------------------------
