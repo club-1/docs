@@ -34,9 +34,9 @@ Engagements des administrateurs systèmes
 
 Les administrateurs système s'engagent à respecter les points suivants :
 
-- Ne pas accèder aux données utilisateur (espace personnel et bases de données) sans leurs accords,
+- Ne pas accéder aux données utilisateur (espace personnel et bases de données) sans leur accord,
   sauf en cas de restauration suite à un problème technique,
   auquel cas les utilisateurs concernés en seront avertis.
 - Chiffrement des clefs {term}`SSH`.
 - Application des bonnes pratiques en matière de sécurité
-  (Remplacement des mots de passe par defaut. Mots de passes générés forts. etc.)
+  (remplacement des mots de passe par défaut, mots de passe générés forts, etc.).
