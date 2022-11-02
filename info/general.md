@@ -156,12 +156,6 @@ Un compte membre comporte donc :
 Pour l'instant, le format choisi est celui de l'adhésion,
 avec une cotisation de 35€ à vie.
 
-Politique et vie privée
------------------------
-
-Aucune des données que vous stockez dans votre espace personnel de sera
-divulguée ni utilisée à des fins lucratives.
-
 Contact
 -------
 
