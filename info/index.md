@@ -11,4 +11,5 @@ maxdepth: 2
 general
 espace-personnel
 /cgu
+politique-de-vie-privee
 ```
