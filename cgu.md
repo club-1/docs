@@ -42,7 +42,7 @@ CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe.
 
 En cas de panne constatée et si aucun message n’atteste sur la page de statut
 que CLUB1 est en train de corriger le dysfonctionnement,
-vous devez faire un signalement via un [ticket sur GitHub](https://github.com/club-1/hosting/issues).
+un [signalement](./info/general.md#demandes-et-incidents) est le bienvenu.
 
 Si vous êtes membre, à ce titre, vous avez une part de responsabilité dans le bon fonctionnement du collectif.
 Si le service est indisponible ou si vos données sont perdues, ce sera donc une faute collective.
