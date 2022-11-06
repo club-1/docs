@@ -53,6 +53,10 @@ Logiciels
 ---------
 
 ```{glossary}
+webdav-server
+   {term}`Serveur` {term}`WebDAV` adapté aux besoins de CLUB1 et basé sur {term}`SabreDAV`.
+   --- [Sources](https://github.com/club-1/webdav-server)
+
 SabreDAV
    Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet.
    --- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)
