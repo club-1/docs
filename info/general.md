@@ -2,7 +2,7 @@ Informations générales
 ======================
 
 Le serveur Club1 permet à ses membres d'héberger différents types de projets web.
-Mais c'est aussi une communauté de personne intéressées par les notions d'espaces web,
+Mais c'est aussi une communauté de personnes intéressées par les notions d'espaces web,
 de libertés et d'exploration du web.
 
 Demandes et Incidents
