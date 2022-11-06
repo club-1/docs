@@ -99,7 +99,7 @@ Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par email
 Nos engagements
 ---------------
 
-CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 finalités:
+CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 4 finalités:
 
 - fournir le service pour lequel vous avez transmis vos données
 - produire d’éventuelles statistiques anonymisées et agrégées
