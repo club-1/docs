@@ -2,11 +2,11 @@ from sphinx.application import Sphinx
 from docutils.transforms import Transform
 from docutils import nodes
 
-"""Sphinx plugin for correct french typography spacings."""
+"""Sphinx plugin for global substring level replacements."""
 
-class FrenchTypography(Transform):
+class SubstringReplace(Transform):
     """
-    Replace some ASCII characters with typographic form for French.
+    Replace some substrings characters into custom form depending on the language.
 
     Based on SmartQuotes Transform.
     """
@@ -15,25 +15,36 @@ class FrenchTypography(Transform):
     default_priority = 740
 
     nodes_to_skip = (nodes.FixedTextElement, nodes.Special)
-    """Do not apply FrenchTypo to instances of these block-level nodes."""
+    """Do not apply SubstringReplace to instances of these block-level nodes."""
 
     literal_nodes = (nodes.FixedTextElement, nodes.Special,
                      nodes.image, nodes.literal, nodes.math,
                      nodes.raw, nodes.problematic)
-    """Do not apply FrenchTypo to instances of these inline nodes."""
+    """Do not apply SubstringReplace to instances of these inline nodes."""
+
+    replacements = {
+        'fr': [
+            # Always add NBSP before some ponctuation marks.
+            (' :', ' :'),
+            (' !', ' !'),
+            (' ?', ' ?'),
+            (' ;', ' ;'),
+        ],
+        'all': [
+            ('-->', '→'),
+        ],
+    }
 
     def __init__(self, document, startnode):
         Transform.__init__(self, document, startnode=startnode)
         self.unsupported_languages = set()
 
-    def replace_chars(self, text):
-            # Always add NBSP before some ponctuation marks.
-            text = text.replace(' :', ' :')
-            text = text.replace(' !', ' !')
-            text = text.replace(' ?', ' ?')
-            text = text.replace(' ;', ' ;')
-            text = text.replace('-->', '→')
-            return text
+    def replace_chars(self, text: str, lang: str) -> str:
+        replacements = self.replacements.get(lang, [])
+        replacements.extend(self.replacements.get('all', []))
+        for needle, haystack in replacements:
+            text = text.replace(needle, haystack)
+        return text
 
     def apply(self):
         document_language = self.document.settings.language_code
@@ -53,16 +64,13 @@ class FrenchTypography(Transform):
                         if not isinstance(txtnode.parent,
                                           nodes.option_string)]
 
-            # language: use typographical chars for language "fr"
             lang = node.get_language_code(document_language)
-            if lang != 'fr':
-                break
 
             for node in txtnodes:
                 if (isinstance(node.parent, self.literal_nodes)
                     or isinstance(node.parent.parent, self.literal_nodes)):
                     continue
-                node.parent.replace(node, nodes.Text(self.replace_chars(str(node))))
+                node.parent.replace(node, nodes.Text(self.replace_chars(str(node), lang)))
 
 def setup(app: Sphinx):
-    app.add_transform(FrenchTypography)
+    app.add_transform(SubstringReplace)
