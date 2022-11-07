@@ -10,10 +10,10 @@ sorted:
 
 Adresse IP
    Numéro d'identification d'un ordinateur relié à un {term}`réseau informatique`.
-   
+
    Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer des données entre un ordinateur source et sa destination.
    Il a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs.
-   
+
    Actuellement, deux version d'adresses IP sont utilisées :
    La version 4 qui s'écrit sous la forme de nombres séparés par des points
    (ex : `87.91.4.64` pour le serveur de CLUB1).
@@ -57,7 +57,7 @@ GitHub
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
 HTML
-   (_Hypertext Markup Language_) Language de balisage conçu pour représenter les pages {term}`Web`. ---
+   (_Hypertext Markup Language_) Langage de balisage conçu pour représenter les pages {term}`Web`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language),
    [MDN web docs](https://developer.mozilla.org/fr/docs/Web/HTML)
 
@@ -69,12 +69,20 @@ Internet
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
 Markdown
-   Language de balisage léger permettant de mettre en forme un document.
+   Langage de balisage léger permettant de mettre en forme un document.
    Les documents rédigés en Markdown ont généralement pour but
    d'être convertis en {term}`HTML`, afin d'en faire une page {term}`Web`.
    Son principal avantage par rapport au HTML est sa syntaxe épurée,
    ce qui le rend plus agréable à lire et à écrire pour un humain. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)
+
+PHP
+   (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
+   principalement utilisé pour produire des pages {term}`Web` de manière dynamique
+   en générant du code {term}`HTML`.
+   Son acronyme signifiait à l'origine "_Personnal Home Page_"
+   et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
 Réseau informatique
    Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des données. ---

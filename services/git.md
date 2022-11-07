@@ -91,5 +91,7 @@ Git
 
 cgit
    Interface {term}`Web` permettant de consulter les informations d'un dépôt {term}`Git`.
+
+   Chez CLUB1, cgit et accessible à travers le {term}`serveur` HTTP {term}`Apache`.
    --- [Sources](https://git.zx2c4.com/cgit/)
 ```
