@@ -183,6 +183,10 @@
 \BeforeBeginEnvironment{club1admonition}{\savenotes}
 \AfterEndEnvironment{club1admonition}{\spewnotes}
 
+% Autorise les retours à la ligne après un tiret dans l'index.
+\BeforeBeginEnvironment{theindex}{\bgroup\def\sphinxhyphen#1{-}}
+\AfterEndEnvironment{theindex}{\egroup}
+
 
 % Définition de quelques motifs d'hyphenation particulier.
 \hyphenation{git-hub}
