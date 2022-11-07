@@ -52,7 +52,7 @@ copyright = _('%s, Membres de CLUB1') % '2022'
 extensions = [
     'citation',
     'myst_parser',
-    'substrin_replace',
+    'substring_replace',
     'term_tooltips',
     'index_role',
 ]
