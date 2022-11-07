@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-10-31 17:56+0100\n"
+"POT-Creation-Date: 2022-11-07 15:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,9 +96,8 @@ msgstr ""
 #: ../../cgu.md:43
 msgid ""
 "En cas de panne constatée et si aucun message n’atteste sur la page de "
-"statut que CLUB1 est en train de corriger le dysfonctionnement, vous devez "
-"faire un signalement via un [ticket sur GitHub](https://github.com/club-1/"
-"hosting/issues)."
+"statut que CLUB1 est en train de corriger le dysfonctionnement, un "
+"[signalement](./info/general.md#demandes-et-incidents) est le bienvenu."
 msgstr ""
 
 #: ../../cgu.md:47
@@ -201,7 +200,7 @@ msgstr ""
 
 #: ../../cgu.md:102
 msgid ""
-"CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 5 "
+"CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 4 "
 "finalités:"
 msgstr ""
 
@@ -440,8 +439,8 @@ msgstr ""
 
 #: ../../glossaire.md:56
 msgid ""
-"(_Hypertext Markup Language_) Language de balisage conçu pour représenter "
-"les pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
+"pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Hypertext_Markup_Language), [MDN web docs](https://developer.mozilla.org/fr/"
 "docs/Web/HTML)"
 msgstr ""
@@ -461,7 +460,7 @@ msgstr ""
 
 #: ../../glossaire.md:68
 msgid ""
-"Language de balisage léger permettant de mettre en forme un document. Les "
+"Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
 "{term}`HTML`, afin d'en faire une page {term}`Web`. Son principal avantage "
 "par rapport au HTML est sa syntaxe épurée, ce qui le rend plus agréable à "
@@ -469,22 +468,32 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:68
-msgid "Réseau informatique"
+#: ../../glossaire.md:76
+msgid ""
+"(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
+"principalement utilisé pour produire des pages {term}`Web` de manière "
+"dynamique en générant du code {term}`HTML`. Son acronyme signifiait à "
+"l'origine \"_Personnal Home Page_\" et c'est justement le langage que CLUB1 "
+"met en avant pour la création de [sites Web dynamiques](./services/web."
+"md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
 #: ../../glossaire.md:76
+msgid "Réseau informatique"
+msgstr ""
+
+#: ../../glossaire.md:84
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:80
 msgid "Serveur"
 msgstr ""
 
-#: ../../glossaire.md:80
+#: ../../glossaire.md:88
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -494,7 +503,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:88
+#: ../../glossaire.md:96
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -504,18 +513,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:88
+#: ../../glossaire.md:96
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:96
+#: ../../glossaire.md:104
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:100
+#: ../../glossaire.md:108
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -712,7 +721,7 @@ msgstr ""
 
 #: ../../info/espace-personnel.md:126 ../../services/drive.md:18
 #: ../../services/email.md:165 ../../services/ftp.md:51
-#: ../../services/git.md:83 ../../services/rss.md:45 ../../services/sql.md:17
+#: ../../services/git.md:83 ../../services/rss.md:45 ../../services/sql.md:24
 #: ../../services/ssh.md:108 ../../services/web.md:204
 #: ../../services/webdav.md:52
 msgid "Logiciels"
@@ -731,8 +740,8 @@ msgstr ""
 #: ../../info/general.md:4
 msgid ""
 "Le serveur Club1 permet à ses membres d'héberger différents types de projets "
-"web. Mais c'est aussi une communauté de personne intéressées par les notions "
-"d'espaces web, de libertés et d'exploration du web."
+"web. Mais c'est aussi une communauté de personnes intéressées par les "
+"notions d'espaces web, de libertés et d'exploration du web."
 msgstr ""
 
 #: ../../info/general.md:8
@@ -909,9 +918,10 @@ msgstr ""
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr ""
 
-#: ../../info/general.md:122 ../../services/email.md:32
-#: ../../services/email.md:70 ../../services/email.md:126
-#: ../../services/email.md:205 ../../services/web.md:70
+#: ../../info/general.md:122 ../../info/politique-de-vie-privee.md:6
+#: ../../services/email.md:32 ../../services/email.md:70
+#: ../../services/email.md:126 ../../services/email.md:205
+#: ../../services/web.md:70
 msgid "Voir aussi"
 msgstr ""
 
@@ -999,16 +1009,6 @@ msgid ""
 msgstr ""
 
 #: ../../info/general.md:159
-msgid "Politique et vie privée"
-msgstr ""
-
-#: ../../info/general.md:162
-msgid ""
-"Aucune des données que vous stockez dans votre espace personnel de sera "
-"divulguée ni utilisée à des fins lucratives."
-msgstr ""
-
-#: ../../info/general.md:165
 msgid "Contact"
 msgstr ""
 
@@ -1018,6 +1018,87 @@ msgstr ""
 
 #: ../../info/index.md:4
 msgid "Tout savoir sur l'organisation et le fonctionnement du serveur."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:1
+msgid "Politique de vie privée"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:4
+msgid "Nos engagements en matière de vie privée."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:7
+msgid "Nos engagement dans les [CGU](../cgu.md#nos-engagements)"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:10
+msgid "Politique de sécurité"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:13
+msgid ""
+"⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
+"sont donc lisibles par les administrateurs (utilisateur `root` et membres du "
+"groupe `sudo`)."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:15
+msgid "Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:16
+msgid ""
+"Les protocoles utilisés pour se connecter au serveur sont tous chiffrés, les "
+"mots de passe et les données ne peuvent donc pas être interceptées."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:18
+msgid ""
+"Les données personnelles sont protégées par les [permissions UNIX](https://"
+"fr.wikipedia.org/wiki/Permissions_UNIX). Par defaut l'[espace personnel](./"
+"espace-personnel.md) n'est pas accessible par les autres utilisateurs (à "
+"part en lecture par les membres du groupe `home`, ex: le {term}`serveur` "
+"{term}`web`). Chacun est libre de changer les permissions de son espace "
+"perso."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:24
+msgid ""
+"Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
+"un accès {term}`SSH` avec la commande suivante :"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:29
+msgid ""
+"En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou "
+"`members home`."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:32
+msgid "Engagements des administrateurs systèmes"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:35
+msgid ""
+"Les administrateurs système s'engagent à respecter les points suivants :"
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:37
+msgid ""
+"Ne pas accéder aux données utilisateur (espace personnel et bases de "
+"données) sans leur accord, sauf en cas de restauration suite à un problème "
+"technique, auquel cas les utilisateurs concernés en seront avertis."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:40
+msgid "Chiffrement des clefs {term}`SSH`."
+msgstr ""
+
+#: ../../info/politique-de-vie-privee.md:41
+msgid ""
+"Application des bonnes pratiques en matière de sécurité (remplacement des "
+"mots de passe par défaut, mots de passe générés forts, etc.)."
 msgstr ""
 
 #: ../../interne/aliases.md:1
@@ -1485,7 +1566,9 @@ msgstr ""
 #: ../../services/drive.md:23
 msgid ""
 "Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}"
-"`WebDAV`. --- [Sources](https://github.com/club-1/webdav-drive)"
+"`WebDAV`. Chez CLUB1, ce service accessible via {term}`Nginx` en tant que "
+"site statique, et communique avec le serveur {term}`webdav-server`. --- "
+"[Sources](https://github.com/club-1/webdav-drive)"
 msgstr ""
 
 #: ../../services/email.md:1
@@ -1728,8 +1811,8 @@ msgid ""
 "dans votre **espace personnel** :"
 msgstr ""
 
-#: ../../services/email.md:144 ../../services/ftp.md:41 ../../services/sql.md:9
-#: ../../services/ssh.md:100
+#: ../../services/email.md:144 ../../services/ftp.md:41
+#: ../../services/sql.md:16 ../../services/ssh.md:100
 msgid "Informations de connexion"
 msgstr ""
 
@@ -1743,17 +1826,17 @@ msgstr ""
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
 #: ../../services/ssh.md:52
 msgid "champ"
 msgstr ""
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
 #: ../../services/ssh.md:52
 msgid "valeur"
 msgstr ""
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
 #: ../../services/ssh.md:52
 msgid "hôte"
 msgstr ""
@@ -1762,7 +1845,7 @@ msgstr ""
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:0
+#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
 #: ../../services/ssh.md:52
 msgid "port"
 msgstr ""
@@ -2048,7 +2131,13 @@ msgstr ""
 #: ../../services/git.md:93
 msgid ""
 "Interface {term}`Web` permettant de consulter les informations d'un dépôt "
-"{term}`Git`. --- [Sources](https://git.zx2c4.com/cgit/)"
+"{term}`Git`."
+msgstr ""
+
+#: ../../services/git.md:95
+msgid ""
+"Chez CLUB1, cgit et accessible à travers le {term}`serveur` HTTP {term}"
+"`Apache`. --- [Sources](https://git.zx2c4.com/cgit/)"
 msgstr ""
 
 #: ../../services/index.md:1
@@ -2143,34 +2232,42 @@ msgstr ""
 msgid "Bases de données SQL"
 msgstr ""
 
-#: ../../services/sql.md:4
+#: ../../services/sql.md:6
 msgid ""
-"Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
-"possible de créer des **bases de données SQL personnelles**. Une interface "
-"{term}`Web` de gestion fournie par {term}`phpMyAdmin` est disponible à "
-"l'adresse suivante : <https://club1.fr/phpmyadmin>"
+"(_Structured Query Language_) Langage informatique permettant de chercher "
+"des informations dans une base de données relationnelle. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/Structured_Query_Language)"
 msgstr ""
 
-#: ../../services/sql.md:0
+#: ../../services/sql.md:11
+msgid ""
+"Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
+"possible de créer des **bases de données {term}`SQL` personnelles**. Une "
+"interface {term}`Web` de gestion fournie par {term}`phpMyAdmin` est "
+"disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>"
+msgstr ""
+
+#: ../../services/sql.md:4
 msgid "`localhost`"
 msgstr ""
 
-#: ../../services/sql.md:0
+#: ../../services/sql.md:4
 msgid "`3306` (par défaut)"
 msgstr ""
 
-#: ../../services/sql.md:22
+#: ../../services/sql.md:29
 msgid ""
-"{term}`Serveur` de bases de données SQL distribué sous licence libre. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources](https://github."
-"com/MariaDB/server)"
+"{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
+"libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
+"(https://github.com/MariaDB/server)"
 msgstr ""
 
-#: ../../services/sql.md:27
+#: ../../services/sql.md:34
 msgid ""
-"Interface {term}`Web` de gestion de bases de données SQL. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/PhpMyAdmin), [Sources](https://github.com/"
-"phpmyadmin/phpmyadmin)"
+"Interface {term}`Web` de gestion de bases de données {term}`SQL` écrit en "
+"{term}`PHP`. Chez CLUB1, phpMyAdmin est directement servi par {term}`Nginx` "
+"via {term}`PHP-FPM`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"PhpMyAdmin), [Sources](https://github.com/phpmyadmin/phpmyadmin)"
 msgstr ""
 
 #: ../../services/ssh.md:1
@@ -2645,10 +2742,39 @@ msgstr ""
 
 #: ../../services/web.md:209
 msgid ""
+"{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, il "
+"est principalement utilisé en tant que \"point de terminaison {term}`TLS`\" "
+"et \"proxy inverse\" devant les différents services {term}`Web`, notamment "
+"le serveur {term}`Apache`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"NGINX), [Sources](https://hg.nginx.org/nginx)"
+msgstr ""
+
+#: ../../services/web.md:216
+msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\". "
-"--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server), [Sources]"
-"(https://github.com/apache/httpd)"
+"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\"."
+msgstr ""
+
+#: ../../services/web.md:219
+msgid ""
+"Apache est intéressant pour l'hébergement de pages Web personnelles, car il "
+"peut être configuré en cours d'exécution et par les utilisaturs finaux grâce "
+"aux fichiers `.htaccess`."
+msgstr ""
+
+#: ../../services/web.md:223
+msgid ""
+"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy inverse\" {term}"
+"`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server), "
+"[Sources](https://github.com/apache/httpd)"
+msgstr ""
+
+#: ../../services/web.md:228
+msgid ""
+"Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` {term}"
+"`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
+"d'exécuter PHP avec différents utilisateurs. --- [Sources](https://github."
+"com/php/php-src/tree/master/sapi/fpm)"
 msgstr ""
 
 #: ../../services/webdav.md:1
@@ -2729,6 +2855,12 @@ msgid "[](/tutos/webdav-mac.md)"
 msgstr ""
 
 #: ../../services/webdav.md:57
+msgid ""
+"{term}`Serveur` {term}`WebDAV` adapté aux besoins de CLUB1 et basé sur {term}"
+"`SabreDAV`. --- [Sources](https://github.com/club-1/webdav-server)"
+msgstr ""
+
+#: ../../services/webdav.md:61
 msgid ""
 "Bibliothèque PHP fournissant un {term}`serveur` {term}`WebDAV` très complet. "
 "--- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"

@@ -85,10 +85,19 @@ msgstr ""
 msgid "MyST-Parser : {{ myst_version }}"
 msgstr ""
 
+msgid "Nginx"
+msgstr ""
+
 msgid "OpenDKIM"
 msgstr ""
 
 msgid "OpenSSH"
+msgstr ""
+
+msgid "PHP"
+msgstr ""
+
+msgid "PHP-FPM"
 msgstr ""
 
 msgid "Pigeonhole"
@@ -116,6 +125,9 @@ msgid "SFTP"
 msgstr ""
 
 msgid "SPF-Engine"
+msgstr ""
+
+msgid "SQL"
 msgstr ""
 
 msgid "SSH"
@@ -176,6 +188,9 @@ msgid "members-presentation"
 msgstr ""
 
 msgid "phpMyAdmin"
+msgstr ""
+
+msgid "webdav-server"
 msgstr ""
 
 msgid "xindy"
