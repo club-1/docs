@@ -183,9 +183,13 @@
 \BeforeBeginEnvironment{club1admonition}{\savenotes}
 \AfterEndEnvironment{club1admonition}{\spewnotes}
 
-% Autorise les retours à la ligne après un tiret dans l'index.
+% Autorise les retours à la ligne après un tiret dans l'index
+% et désactive les erreurs de badness over/underfull horizontales.
+\makeatletter
 \BeforeBeginEnvironment{theindex}{\bgroup\def\sphinxhyphen#1{-}}
 \AfterEndEnvironment{theindex}{\egroup}
+\preto\spxentry{\hbadness=10000}
+\makeatother
 
 
 % Définition de quelques motifs d'hyphenation particulier.
