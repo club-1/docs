@@ -14,6 +14,8 @@ class TermTooltips(SphinxPostTransform):
     apply: Optional[Callable[[str], str]]
 
     def run(self) -> None:
+        if self.app.builder.format != 'html':
+            return
         self.apply = self.app.config.term_tooltips_apply_function
         # Get dictionary of terms from the standard domain.
         stddomain = self.env.get_domain('std')
