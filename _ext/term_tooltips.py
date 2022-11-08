@@ -1,3 +1,4 @@
+from sphinx import addnodes
 from sphinx.application import Sphinx
 from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.util import logging
@@ -8,7 +9,7 @@ from typing import Callable, Optional
 
 
 class TermTooltips(SphinxPostTransform):
-    default_priority = 900
+    default_priority = 5
     logger = logging.getLogger('term_tooltips')
     apply: Optional[Callable[[str], str]]
 
@@ -17,43 +18,38 @@ class TermTooltips(SphinxPostTransform):
         # Get dictionary of terms from the standard domain.
         stddomain = self.env.get_domain('std')
         self.stdterms = stddomain.data.setdefault('terms', {})
-        for termref in self.document.findall(nodes.reference):
-            if isinstance(termref[0], nodes.Inline) and 'std-term' in termref[0]['classes']:
-                self.logger.debug(f'found termref: {termref}')
-                self.process_termref(termref)
+        for node in self.document.findall(addnodes.pending_xref):
+            if node['reftype'] == 'term':
+                self.logger.debug(f'found termref: {node}')
+                self.process_termref(node)
 
-    def process_termref(self, termref: nodes.reference) -> None:
-        # Get current doc name
-        docname = self.env.docname
-        refid = termref.get('refid', '')
-        # If 'refid' is not defined, then the ref is from another document
-        # and we need to find it from the standard domain.
-        if refid == '':
-            # Get key from termref's text.
-            reftext: str = termref.astext().lower()
-            # Get object from dictionary of terms.
-            obj = self.stdterms.get(reftext, None)
-            if obj == None:
-                self.logger.warning(f'could not find object in std domain for reftext: "{reftext}"')
-                return
-            # Override document and refid with those found from the standard domain.
-            docname = obj[0]
-            refid = obj[1]
+    def process_termref(self, termref: addnodes.pending_xref) -> None:
+        # Get key from termref's target.
+        target: str = termref['reftarget'].lower()
+        # Get object from dictionary of terms.
+        obj = self.stdterms.get(target, None)
+        if obj == None:
+            self.logger.debug(f'could not find object in std domain for target: "{target}"')
+            return
+        # get document and refid from object found in the standard domain.
+        docname, refid = obj[:2]
         self.logger.debug(f'document: {docname}, refid: {refid}')
         document = self.env.get_doctree(docname)
         term: nodes.Element
         # Find corresponding term node from its doctree.
-        for term in document.findall(nodes.term):
-            ids = term.get('ids', [])
-            if refid in ids:
-                self.logger.debug(f'found term: {term}')
-                parent = term.parent
-                assert isinstance(parent, nodes.Node), "parent is not a node !?"
-                termtext = parent.children[1].astext()
-                if self.apply != None:
-                    termtext = self.apply(termtext)
-                termref['reftitle'] = escape(termtext)
-                break
+        term = document.ids[refid]
+        self.logger.debug(f'found term: {term}')
+        parent = term.parent
+        assert isinstance(parent, nodes.Element), f'parent {parent} is not an Element !?'
+        index = parent.first_child_matching_class(nodes.definition)
+        assert index is not None, f'term {term} has no definition !?'
+        deftext = parent[index].astext()
+        if self.apply != None:
+            deftext = self.apply(deftext)
+        newnode = nodes.abbreviation()
+        newnode['explanation'] = escape(deftext)
+        newnode += termref.deepcopy()
+        termref.replace_self(newnode)
 
 def setup(app: Sphinx):
     app.add_config_value(
