@@ -1,9 +1,9 @@
 Utiliser Tiny tiny RSS
 ======================
 
-Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1](/services/rss.md).
+Ce tutoriel explique comment utiliser [l'agrégateur de flux Web de CLUB1](/services/rss.md).
 
-Cet {term}`agrégateur de flux` {term}`RSS` permet de "s'abonner" à de multiples sites web,
+Cet {term}`agrégateur de flux` permet de "s'abonner" à de multiples sites web,
 pour recevoir des notifications lorsqu'un nouvel article est posté
 et pour tous les consulter dans un fil d'actualités commun.
 
@@ -28,12 +28,12 @@ Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, 
 
 ![visualisation du menu](flux-rss/capture_1.png)
 
-Entrez l'url du site dont vous voulez obtenir le flux RSS, par exemple ici le blog de Fred Turner.
+Entrez l'url du site dont vous voulez obtenir le {term}`flux de nouvelles`, par exemple ici le blog de Fred Turner.
 Si vous avez créé des catégories, vous pouvez en sélectionner une pour trier votre flux (c'est possible de le faire plus tard)
 puis cliquez sur `S'abonner`.
 
 ```{warning}
-Il est possible qu'un site ne propose pas de flux RSS,
+Il est possible qu'un site ne propose pas de flux de nouvelles,
 dans ce cas il ne sera malheureusement pas possible de s'y abonner.
 ```
 
