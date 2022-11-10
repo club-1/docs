@@ -15,7 +15,7 @@ jobs:
       - name: Install apt packages
         run: sudo apt-get install --no-install-recommends -y gettext
       - name: Setup problem matcher
-        uses: xt0rted/markdownlint-problem-matcher@v1.1.0
+        uses: xt0rted/markdownlint-problem-matcher@v2
       - name: Markdownlint
         run: >
           npx --package markdownlint-cli@0.32.0 --
