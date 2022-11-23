@@ -14,7 +14,7 @@ Vous êtes invités dans un premier temps à explorer le [forum](https://forum.c
 pour vérifier que le sujet n'ai pas déjà été abordé.
 Si ce n'est pas le cas, vous pouvez, selon vos préférences :
 
-- __Ouvrir un ticket__ en créant un [post sur le forum](https://forum.club1.fr/t/tickets) .
+- **Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/t/tickets) .
 - Envoyer un email à <contact@club1.fr>
 - En discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
   Des salons plus spécifiques sont dédiés au site web et à la doc.
