@@ -31,12 +31,16 @@ moment. La branche affichée par défaut dans l'interface {term}`Web` est `maste
 Il est possible de la changer en modifiant le fichier `HEAD` du dépôt.
 Par exemple pour la remplacer par la branche `main` :
 
-    echo "ref: refs/heads/main" | ssh <login>@club1.fr sponge git/<repo>/HEAD
+```sh
+echo 'ref: refs/heads/main' | ssh <login>@club1.fr sponge git/<repo>/HEAD
+```
 
 De la même manière, pour modifier la description du dépôt (cette modification
 ne sera pas forcément visible tout de suite à cause du cache de cgit) :
 
-    echo "ma super description" | ssh <login>@club1.fr sponge git/<repo>/description
+```sh
+echo 'ma super description' | ssh <login>@club1.fr sponge git/<repo>/description
+```
 
 Il y a ensuite deux cas de figure :
 
@@ -62,11 +66,13 @@ qui est normal :
 Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}`Git`,
 par exemple :
 
-    cd <repo>
-    echo 'Hello World!' >> README
-    git add README
-    git commit -m "add Hello World README"
-    git push origin
+```sh
+cd <repo>
+echo 'Hello World!' >> README
+git add README
+git commit -m "add Hello World README"
+git push origin
+```
 
 
 ### Publication d'un dépôt existant
@@ -76,9 +82,10 @@ dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la
 branche désirée, par exemple pour la branche `main` (l'option `--set-upstream`
 permet d'en faire la _remote_ par défaut pour cette branche) :
 
-    git remote add club1 <login>@club1:git/<repo>
-    git push --set-upstream club1 main
-
+```sh
+git remote add club1 <login>@club1.fr:git/<repo>
+git push --set-upstream club1 main
+```
 
 Logiciels
 ---------
