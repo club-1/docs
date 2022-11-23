@@ -10,11 +10,13 @@ Demandes et Incidents
 
 Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵
 ou que vous avez une suggestion 💡, n'hésitez pas à nous en faire part !
-Vous pouvez, selon vos préférences :
+Vous êtes invités dans un premier temps à explorer le [forum](https://forum.club1.fr) 🔍,
+pour vérifier que le sujet n'ai pas déjà été abordé.
+Si ce n'est pas le cas, vous pouvez, selon vos préférences :
 
-- [créer un ticket](https://forum.club1.fr/t/tickets) via un post sur le forum.
-- envoyer un email à <contact@club1.fr>
-- en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
+- __Ouvrir un ticket__ en créant un [post sur le forum](https://forum.club1.fr/t/tickets) .
+- Envoyer un email à <contact@club1.fr>
+- En discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
   Des salons plus spécifiques sont dédiés au site web et à la doc.
   Ils sont répertoriés au sein de l'espace `#le-club:club1.fr`.
 
