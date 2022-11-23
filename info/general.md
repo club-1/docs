@@ -12,22 +12,11 @@ Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵
 ou que vous avez une suggestion 💡, n'hésitez pas à nous en faire part !
 Vous pouvez, selon vos préférences :
 
+- [créer un ticket](https://forum.club1.fr/t/tickets) via un post sur le forum.
 - envoyer un email à <contact@club1.fr>
 - en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
   Des salons plus spécifiques sont dédiés au site web et à la doc.
   Ils sont répertoriés au sein de l'espace `#le-club:club1.fr`.
-- [créer un ticket (_issue_)](https://github.com/club-1/hosting/issues)
-  sur {term}`GitHub`.
-
-  ```{warning}
-  Nous utilisons actuellement {term}`GitHub` pour la gestion des tickets.
-  Il faut savoir que ce service en ligne, proposé par Microsoft,
-  n'est ni **libre**, ni **open source** 😲 !
-  Ce choix à été fait pour des raisons de simplicité,
-  car beaucoup de personnes ont déjà un compte sur cette plateforme.
-  On risque de migrer vers un autre outil prochainement,
-  donc ne vous forcez pas à avoir un compte pour nous !
-  ```
 
 Infos sur le serveur
 --------------------
