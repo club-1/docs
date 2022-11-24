@@ -10,7 +10,7 @@ CLUB1 documentation
 
 This repository contains the CLUB1's documentation's sources.
 Instructions about how to use it can be found in the
-[meta-documentation](https://club1.fr/docs/en/interne/meta-doc.html).
+[meta-documentation](https://club1.fr/docs/en/outils/meta-doc.html).
 
 For more information about CLUB1, please check the [website](https://club1.fr/english/)
 and the [online documentation](https://club1.fr/docs/en/).
@@ -27,7 +27,7 @@ Documentation CLUB1
 
 Ce dépôt contient les sources de la documentation de CLUB1.
 Les instructions expliquant comment l'utiliser se trouvent dans la
-[meta-documentation](https://club1.fr/docs/fr/interne/meta-doc.html).
+[meta-documentation](https://club1.fr/docs/fr/outils/meta-doc.html).
 
 Pour plus d'informations à propos de CLUB1, merci de consulter le [site web](https://club1.fr/)
 et la [documentation en ligne](https://club1.fr/docs/fr/).

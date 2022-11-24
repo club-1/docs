@@ -3,3 +3,6 @@ RedirectMatch "^/docs/$" "/docs/fr"
 
 # Redirect latest versions of downloads to the real file
 RedirectMatch "^/docs/(.*)-latest\.(pdf|epub)$" "/docs/$1-{{release}}.$2"
+
+# Redirect old naming of outils to new naming (interne > outils)
+RedirectMatch 301 "^/docs/([a-z]{2})/interne(.*)$" "/docs/$1/outils$2"
