@@ -11,7 +11,7 @@ Demandes et Incidents
 Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵
 ou que vous avez une suggestion 💡, n'hésitez pas à nous en faire part !
 Vous êtes invités dans un premier temps à explorer le [forum](https://forum.club1.fr) 🔍,
-pour vérifier que le sujet n'ai pas déjà été abordé.
+pour vérifier que le sujet n'ait pas déjà été abordé.
 Si ce n'est pas le cas, vous pouvez, selon vos préférences :
 
 - **Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/t/tickets) .
