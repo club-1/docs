@@ -50,7 +50,7 @@ suivante :
     >> ~/.ssh/known_hosts
 
 ```{warning}
-Cette action ne fonctionne malheureusement pas avec *Windows 11*,
+Cette action ne fonctionne malheureusement pas avec *Windows*,
 veuillez utiliser une autre configuration ou comparer manuellement l'empreinte (*fingerprint*).
 ```
 
