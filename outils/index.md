@@ -1,7 +1,7 @@
-Documentation interne
-=====================
+Outils
+======
 
-Cette section comporte la documentation interne de CLUB1.
+Cette section comporte la documentation des différents outils utilisés par CLUB1.
 
 ```{toctree}
 ---
