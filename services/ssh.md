@@ -24,7 +24,7 @@ SCP
 
 Dans cette section {term}`OpenSSH` sera utilisé.
 Comme il s'agit d'un logiciel en *ligne de commande*, il est
-nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows).
+nécessaire d'ouvrir une fenêtre de terminal (powershell sur Windows).
 
 Avant de se connecter pour le première fois
 -------------------------------------------
@@ -48,6 +48,11 @@ suivante :
 
     echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 \
     >> ~/.ssh/known_hosts
+
+```{warning}
+Cette action ne fonctionne malheureusement pas avec *Windows 11*,
+veuillez utiliser une autre configuration ou comparer manuellement l'empreinte (*fingerprint*).
+```
 
 ```{tip}
 Si pour une quelconque raison la comparaison manuelle est préférée,
