@@ -16,7 +16,7 @@ numbered: 1
 info/index
 services/index
 tutos/index
-interne/index
+outils/index
 faq
 glossaire
 ```
