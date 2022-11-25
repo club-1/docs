@@ -102,9 +102,7 @@ un fichier qui va indiquer à {term}`Postfix` à qui transférer votre courrier 
 Ce fichier doit être placé directement dans votre dossier et s'appeller `.forward`.
 
 ```{warning}
-Les fichiers avec un point `.` devant sont appelés des
-[fichiers cachés](https://fr.wikipedia.org/wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux).
-Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+`.forward` est un {term}`fichier caché`.
 ```
 
 A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses

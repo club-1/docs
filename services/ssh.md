@@ -24,41 +24,22 @@ SCP
 
 Dans cette section {term}`OpenSSH` sera utilisé.
 Comme il s'agit d'un logiciel en *ligne de commande*, il est
-nécessaire d'ouvrir une fenêtre de terminal (powershell sur windows).
+nécessaire d'ouvrir une fenêtre de terminal (`cmd` sur windows).
 
-Avant de se connecter pour le première fois
--------------------------------------------
-
-La première connexion est critique car c'est lors de celle-ci que se fait
-l'échange des clés. Pour éviter de subir une
+```{warning}
+La première connexion est **critique** car c'est lors de celle-ci que se fait
+l'**échange des clés**. Pour éviter de subir une
 [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu)
 il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
 
-Pour résoudre ce problème, OpenSSH affiche un avertissement contenant
-l'empreinte de la clé reçue :
-
->     The authenticity of host 'club1.fr (***)' can't be established.
->     ED25519 key fingerprint is SHA256:t4m5ioK2DGyObdxh3ATIIKnbhm4EhCp1cfgQmogHd58.
->     Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-Ce n'est pas idéal car il faut comparer manuellement l'empreinte de
-l'avertissement avec celle fournie par l'administrateur. À la place, il est
-préférable d'ajouter la clé avant le première connexion avec la commande
-suivante :
-
-    echo club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6 \
-    >> ~/.ssh/known_hosts
-
-```{tip}
-Si pour une quelconque raison la comparaison manuelle est préférée,
-l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr.
+Si vous ne savez pas comment ajouter la clé du serveur à votre appareil,
+[ce tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !
 ```
 
 Se connecter
 ------------
 
-Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie précédente](#avant-de-se-connecter-pour-le-première-fois).
-Il existe ensuite deux manières de s'authentifier lors d'une connexion SSH.
+Il existe deux manières de s'authentifier lors d'une connexion SSH.
 La plus simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe),
 elle est en revanche moins sécurisée que l'utilisation d'une
 [clé publique](#sauthentifier-avec-une-clé-publique).

@@ -48,6 +48,19 @@ Client
 Client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
+Fichier caché
+Dossier caché
+   Dans la plupart des systèmes d'exploitation,
+   il est possible de cacher des fichiers ou des dossiers.
+   Cela sert souvent pour masquer des paramètres peu utiles au quotidien.
+   Dans un système UNIX, les fichiers cachés commencent par un point `.`.
+
+   Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+   Il est possible de d'activer leur affichage si besoin,
+   souvent avec le raccourci clavier {kbd}`CTRL` + {kbd}`H`.
+   ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)
+
 GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
    utilisant le logiciel de gestion de versions {term}`Git`.
