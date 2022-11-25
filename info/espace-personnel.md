@@ -17,9 +17,9 @@ Par exemple vos emails, qui sont dans le dossier `mail` 🤯 .
 
 Eh oui, un grand pouvoir implique de grandes responsabilités... 😏
 Vous pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des voisins.
-En effet, __il n'y a pas de limite de stockage définie__ par dossier `home` de chaque membres,
+En effet, **il n'y a pas de limite de stockage définie** par dossier `home` de chaque membres,
 mais par contre, une limite physique :
-Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__.
+Tout ces dossiers sont sur un support de stockage SSD totalisant **1To**.
 C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du serveur.
 
 
@@ -62,7 +62,7 @@ il faut créer un **fichier de présentation** appellé `PRESENTATION.md` à la 
 Il est possible de formater son texte en {term}`Markdown`,
 ainsi que de changer son nom d'affichage et la couleur de son bouton.
 
-```{see also}
+```{admonition} Voir aussi
 Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)
 ```
 
