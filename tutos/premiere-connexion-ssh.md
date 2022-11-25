@@ -40,7 +40,9 @@ La confiance règne
 
 Nous allons rajouter à votre appareil une **clef publique** correspondant au serveur CLUB1.
 Cela permet de chiffrer ce qu'on lui envoie en étant sûr que seul le serveur pourra le déchiffrer.
-Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut l'acquérir par une autre source que la connexion SSH elle même au cas où celle ci serrait compromise 😮.
+Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1,
+il faut l'acquérir par une autre source que la connexion SSH elle même
+au cas où celle-ci serait compromise 😮.
 
 > 🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle aussi compromise ?
 
