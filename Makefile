@@ -60,7 +60,7 @@ $(LOCALEFILES:%=check-po/%): check-po/%:
 	msgfmt --check $*
 
 %.mo: %.po
-	msgfmt --use-fuzzy -o $@ $<
+	msgfmt -o $@ $<
 
 .SECONDEXPANSION:
 $(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)

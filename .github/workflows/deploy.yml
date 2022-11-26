@@ -52,7 +52,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-texlive2021-
       - name: Make all
-        run: make update-po all
+        run: make all
       - name: Install RSA key
         if: ${{ github.event_name != 'pull_request' }}
         env:
