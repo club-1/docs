@@ -202,6 +202,7 @@ git_exclude_commits = [
 
 git_exclude_patterns = [
     '**/docutils.conf',
+    '**/citation.md',
 ]
 
 # Base URL for 404 page's absolute links to resources.
