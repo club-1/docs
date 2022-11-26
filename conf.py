@@ -181,7 +181,7 @@ html_theme_options = {
     'logo_only': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'vcs_pageview_mode': 'edit',
+    'vcs_pageview_mode': 'blob',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
