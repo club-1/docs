@@ -8,7 +8,9 @@ pour la première fois en SSH de manière **sécurisée**.
 Connexion avec le terminal
 --------------------------
 
-Pour effectuer cette connexion SSH nous allons utiliser la {term}`CLI` via **le terminal** ! 🥵
+Pour effectuer cette connexion SSH nous allons utiliser {term}`OpenSSH`.
+Ce logiciel s'utilise en {term}`CLI`,
+il est donc nécessaire d'ouvrir une fenêtre de **terminal** (`cmd` sur windows) ! 🥵
 
 Ne vous laissez pas impressioner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
@@ -24,22 +26,27 @@ Appuyer sur {kbd}`Enter` pour lancer une commande depuis le temrinal.
 
 Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).
 
-> 💥 Houla ! Qu'est ce que c'est que ça ??
-
 Vous devriez voir s'afficher le message suivant :
 
 >     The authenticity of host 'club1.fr (***)' can't be established.
->     ED25519 key fingerprint is SHA256:t4m5ioK2DGyObdxh3ATIIKnbhm4EhCp1cfgQmogHd58.
+>     ED25519 key fingerprint is SHA256:*********.
 >     Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+> 😱 Houla ! Qu'est ce que c'est que ça ??
 
 En fait, c'est normal, {term}`OpenSSH` nous averti que l'authentification
 de la connexion n'est pas garantie car votre appareil ne connais pas *encore* ce serveur.
 
+En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).
+Nous allons donc répondre `no` pour le moment.
+
 La confiance règne
 ------------------
 
-Nous allons rajouter à votre appareil une **clef publique** correspondant au serveur CLUB1.
-Cela permet de chiffrer ce qu'on lui envoie en étant sûr que seul le serveur pourra le déchiffrer.
+Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1.
+Cela permet de garantir l'authenticité des réponse du serveur et d'initialiser une connexion chiffrée.
+De cette manière on est certains que l'on a bien affaire au serveur de CLUB1.
+
 Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1,
 il faut l'acquérir par une autre source que la connexion SSH elle même
 au cas où celle-ci serait compromise 😮.
