@@ -3,7 +3,7 @@
 Glossaire
 =========
 
-```{glossary}
+````{glossary}
 ---
 sorted:
 ---
@@ -52,8 +52,11 @@ GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
    utilisant le logiciel de gestion de versions {term}`Git`.
 
+   ```{warning}
    Contrairement à la plupart des projets que l'on peut y trouver,
    Github n'est ni **libre**, ni **open source** et appartient à Microsoft.
+   ```
+
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
 HTML
@@ -113,4 +116,4 @@ Web
    et peut inclure d'autre ressources comme des images ou des "feuilles de style".
    On appelle "Navigateur Web" le {term}`client` utilisé pour y accéder. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)
-```
+````
