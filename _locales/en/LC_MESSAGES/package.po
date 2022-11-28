@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-11-07 15:13+0100\n"
+"POT-Creation-Date: 2022-11-28 15:41+0100\n"
 "PO-Revision-Date: 2022-11-09 22:48+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -76,8 +76,8 @@ msgid ""
 msgstr ""
 "CLUB1 provides its members with a shared personal space on the server. A "
 "member can be a natural or legal person. To become a member, you must pay "
-"the registration fee, the amount of which is indicated on the "
-"[discover](https://club1.fr/rejoindre#devenir-membre) page."
+"the registration fee, the amount of which is indicated on the [discover]"
+"(https://club1.fr/rejoindre#devenir-membre) page."
 
 #: ../../cgu.md:26
 msgid ""
@@ -362,8 +362,8 @@ msgid ""
 "applicable à compter du 25 mai 2018, dite RGPD."
 msgstr ""
 "You and CLUB1 undertake to comply with the regulations in force applicable "
-"to the processing of personal data and, in particular, Regulation (EU) 2016/"
-"679 of the European Parliament and of the Council of April 27, 2016 "
+"to the processing of personal data and, in particular, Regulation (EU) "
+"2016/679 of the European Parliament and of the Council of April 27, 2016 "
 "applicable from May 25, 2018 , known as GDPR."
 
 #: ../../citation.md:6
@@ -463,9 +463,9 @@ msgid ""
 msgstr ""
 "Currently, two versions of IP addresses are used: Version 4 which is written "
 "as numbers separated by periods (e.g. `87.91.4.64` for the CLUB1 server). "
-"And version 6 which uses much larger numbers and is written in hexadecimal ("
-"e.g. `2001:861:38c4:18a0::3` for the CLUB1 server). --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/IP_address)"
+"And version 6 which uses much larger numbers and is written in hexadecimal "
+"(e.g. `2001:861:38c4:18a0::3` for the CLUB1 server). --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/IP_address)"
 
 #: ../../glossaire.md:13
 msgid "Alias"
@@ -535,7 +535,31 @@ msgid ""
 msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
-#: ../../glossaire.md:48
+#: ../../glossaire.md:40
+msgid "Fichier caché"
+msgstr "Hidden file"
+
+#: ../../glossaire.md:41
+msgid "Dossier caché"
+msgstr "hidden folder"
+
+#: ../../glossaire.md:49
+msgid ""
+"Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
+"fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
+"utiles au quotidien. Dans un système UNIX, les fichiers cachés commencent "
+"par un point `.`."
+msgstr ""
+
+#: ../../glossaire.md:54
+msgid ""
+"Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
+"est possible d'activer leur affichage si besoin, souvent avec le raccourci "
+"clavier {kbd}`Ctrl` + {kbd}`H`. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
+msgstr ""
+
+#: ../../glossaire.md:60
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`."
@@ -543,32 +567,41 @@ msgstr ""
 "Web service providing hosting for software development and version control "
 "using {term}`Git`."
 
-#: ../../glossaire.md:51
+#: ../../glossaire.md:64
+#, fuzzy
+#| msgid ""
+#| "Contrairement à la plupart des projets que l'on peut y trouver, Github "
+#| "n'est ni **libre**, ni **open source** et appartient à Microsoft. --- "
+#| "[Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
-"ni **libre**, ni **open source** et appartient à Microsoft. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/GitHub)"
+"ni **libre**, ni **open source** et appartient à Microsoft."
 msgstr ""
 "Unlike most of the projects that can be found there, Github is neither "
-"**libre**, nor **open source** and belongs to Microsoft. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
+"**libre**, nor **open source** and belongs to Microsoft. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/GitHub)"
 
-#: ../../glossaire.md:56
+#: ../../glossaire.md:68
+msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
+msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
+
+
+#: ../../glossaire.md:71
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Hypertext_Markup_Language), [MDN web docs](https://developer.mozilla.org/fr/"
 "docs/Web/HTML)"
 msgstr ""
-"(_Hypertext Markup Language_) Markup language designed to represent "
-"{term}`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN "
-"web docs](https://developer.mozilla.org/en/docs/Web/HTML)"
+"(_Hypertext Markup Language_) Markup language designed to represent {term}"
+"`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN web "
+"docs](https://developer.mozilla.org/en/docs/Web/HTML)"
 
-#: ../../glossaire.md:53
+#: ../../glossaire.md:68
 msgid "Internet"
 msgstr "Internet"
 
-#: ../../glossaire.md:61
+#: ../../glossaire.md:76
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -582,7 +615,7 @@ msgstr ""
 "\"network of networks\". --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Internet)"
 
-#: ../../glossaire.md:68
+#: ../../glossaire.md:83
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -597,7 +630,7 @@ msgstr ""
 "syntax, which makes it more pleasant to read and write for a human. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:91
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -610,14 +643,14 @@ msgstr ""
 "used to produce {term}`Web` pages dynamically by generating {term}`HTML` "
 "code. Its acronym originally stood for \"_Personal Home Page_\" and it is "
 "precisely the language that CLUB1 puts forward for the creation of [dynamic "
-"websites](./services/web.md#sites-web-dynamiques). --- [Wikipedia](https://en"
-".wikipedia.org/wiki/PHP)"
+"websites](./services/web.md#sites-web-dynamiques). --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/PHP)"
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:91
 msgid "Réseau informatique"
 msgstr "Computer network"
 
-#: ../../glossaire.md:84
+#: ../../glossaire.md:99
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -626,11 +659,11 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossaire.md:80
+#: ../../glossaire.md:95
 msgid "Serveur"
 msgstr "Server"
 
-#: ../../glossaire.md:88
+#: ../../glossaire.md:103
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -645,7 +678,7 @@ msgstr ""
 "called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Server_(computing))"
 
-#: ../../glossaire.md:96
+#: ../../glossaire.md:111
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -660,11 +693,11 @@ msgstr ""
 "else can read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 
-#: ../../glossaire.md:96
+#: ../../glossaire.md:111
 msgid "Web"
 msgstr "Web"
 
-#: ../../glossaire.md:104
+#: ../../glossaire.md:119
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -674,7 +707,7 @@ msgstr ""
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
 "link them together using hypertext links."
 
-#: ../../glossaire.md:108
+#: ../../glossaire.md:123
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -695,7 +728,7 @@ msgstr "Appendices"
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
-#: ../../index.md:1 conf.py:222
+#: ../../index.md:1 conf.py:223
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -747,12 +780,21 @@ msgstr ""
 "`mail` 🤯 ."
 
 #: ../../info/espace-personnel.md:18
+#, fuzzy
+#| msgid ""
+#| "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
+#| "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
+#| "voisins. En effet, __il n'y a pas de limite de stockage définie__ par "
+#| "dossier `home` de chaque membres, mais par contre, une limite physique : "
+#| "Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__. "
+#| "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s "
+#| "du serveur."
 msgid ""
 "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
 "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
-"voisins. En effet, __il n'y a pas de limite de stockage définie__ par "
+"voisins. En effet, **il n'y a pas de limite de stockage définie** par "
 "dossier `home` de chaque membres, mais par contre, une limite physique : "
-"Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__. "
+"Tout ces dossiers sont sur un support de stockage SSD totalisant **1To**. "
 "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du "
 "serveur."
 msgstr ""
@@ -812,132 +854,45 @@ msgstr "Folder used to [host Git code repositories](/services/git.md)."
 msgid "Fichier de présentation"
 msgstr "Presentation file"
 
-#: ../../info/espace-personnel.md:60
-msgid "Un fichier pour se présenter"
-msgstr "A file to introduce yourself"
+#: ../../info/espace-personnel.md:59
+msgid ""
+"Pour apparaître sur la [page membres](https://club1.fr/membres) du site web "
+"de CLUB1, il faut créer un **fichier de présentation** appellé `PRESENTATION."
+"md` à la racine de son espace perso."
+msgstr ""
 
 #: ../../info/espace-personnel.md:62
 msgid ""
-"Votre *home* peut également servir à vous présenter. Pour se faire, vous "
-"pouvez y ajouter, *à la racine* un fichier s'appellant :"
+"Il est possible de formater son texte en {term}`Markdown`, ainsi que de "
+"changer son nom d'affichage et la couleur de son bouton."
 msgstr ""
-"Your *home* can also be used to introduce yourself. To do this, you can add "
-"to it, *at the root* a file called:"
 
-#: ../../info/espace-personnel.md:67
+#: ../../info/espace-personnel.md:65 ../../info/general.md:118
+#: ../../info/politique-de-vie-privee.md:6 ../../services/email.md:32
+#: ../../services/email.md:70 ../../services/email.md:124
+#: ../../services/email.md:203 ../../services/web.md:70
+msgid "Voir aussi"
+msgstr "See also"
+
+#: ../../info/espace-personnel.md:66
+msgid "Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)"
+msgstr ""
+
+#: ../../info/espace-personnel.md:69
 msgid ""
-"Tout ce que vous écrirez dans ce fichier sera visible sur la page [membres]"
-"(https://club1.fr/membres) du site web de CLUB1."
+"💡 L'ordre des boutons de présentation change à chaque fois qu'un&middot;e "
+"membre met à jour son fichier de présentation !"
 msgstr ""
-"Everything you write in this file will be visible on the [members](https://"
-"club1.fr/membres) page of the CLUB1 website."
 
-#: ../../info/espace-personnel.md:70
-msgid ""
-"Libre à vous d'utiliser le {term}`Markdown` pour pimenter votre "
-"présentation ! N'hésitez pas à mettre des liens vers vos projets web, ça "
-"permettra aux membres et visiteurs de les découvrir 🔎️."
-msgstr ""
-"Feel free to use {term}`Markdown` to spice up your presentation! Don't "
-"hesitate to put links to your web projects, it will allow members and "
-"visitors to discover them 🔎️."
-
-#: ../../info/espace-personnel.md:76 ../../interne/meta-doc.md:256
-msgid "Metadonnées"
-msgstr "Metadata"
-
-#: ../../info/espace-personnel.md:78
-msgid ""
-"Pour aller toujours plus loin dans la personnalisation, il est possible de "
-"modifier certains paramètres d'affichage. Notamment, votre __nom "
-"d'affichage__ et la __couleur__ de votre bouton."
-msgstr ""
-"To go even further in customization, it is possible to modify some display "
-"settings. These include your __display name__ and the __color__ of your "
-"button."
-
-#: ../../info/espace-personnel.md:82
-msgid ""
-"Pour cela il faudra ajouter quelques ligne au début votre fichier "
-"`PRESENTATION.md`."
-msgstr ""
-"To do this, you will need to add a few lines at the beginning of your "
-"`PRESENTATION.md` file."
-
-#: ../../info/espace-personnel.md:93
-msgid ""
-"Le formatage est simple, il faut juste respecter les trois tirets au début "
-"et à la fin de la zone de métadonnées. Ensuite vous pouvez définir un ou "
-"plusieurs paramètres. Pour info, cette syntaxe *plus ou moins standard* "
-"s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/)."
-msgstr ""
-"The formatting is simple, you just have to respect the three dashes at the "
-"beginning and at the end of the metadata area. Then you can define one or "
-"more parameters. For your information, this *more or less standard* syntax "
-"is called [Front Matter](https://jekyllrb.com/docs/front-matter/)."
-
-#: ../../info/espace-personnel.md:99
-msgid ""
-"Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo "
-"avec une ligne de texte libre. Profitez-en car c'est possible de mettre "
-"majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉). Si "
-"vous omettez ce champ, votre identifiant CLUB1 sera affiché."
-msgstr ""
-"For the `name` parameter, this is where you can choose your nickname with a "
-"free line of text. Take advantage of it because it is possible to put "
-"uppercase, lowercase and some special characters (even Emoji 😉). If you "
-"omit this field, your CLUB1 username will be displayed."
-
-#: ../../info/espace-personnel.md:102
-msgid ""
-"Pour le paramètre `color`, vous devez utiliser une [couleur du web](https://"
-"fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0)."
-msgstr ""
-"For the `color` parameter, you must use a [web color](https://en.wikipedia."
-"org/wiki/Web_colors#HTML_color_names)."
-
-#: ../../info/espace-personnel.md:106
-msgid ""
-"Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__ "
-"et être __entouré de guillemets__ (par exemple : `color: \"#F87716\"`)."
-msgstr ""
-"If you put in a color code, it should start with a __hash `#`__ and be "
-"__surrounded by quotation marks__ (e.g. `color: \"#F87716\"`)."
-
-#: ../../info/espace-personnel.md:112
-msgid "Faire un lien vers son profil"
-msgstr "Create a link to your profile"
-
-#: ../../info/espace-personnel.md:114
-msgid ""
-"Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
-"possible de la partager facilement. Il vous suffit de faire un lien ciblant "
-"spécifiquement votre présentation. Pour cela on utilise un [identificateur "
-"de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment) "
-"utilisant votre identifiant CLUB1."
-msgstr ""
-"If you are satisfied with your superb presentation, it is possible to share "
-"it easily. You just need to make a link specifically targeting your "
-"presentation. For this we use an [URI fragment](https://en.wikipedia.org/"
-"wiki/URI_fragment) using your CLUB1 username."
-
-#: ../../info/espace-personnel.md:120
-msgid ""
-"Par exemple, l'adresse suivante ouvrira directement la présentation du "
-"membres `vincent` :"
-msgstr ""
-"For example, the following address will directly open the presentation of "
-"member `vincent`:"
-
-#: ../../info/espace-personnel.md:126 ../../services/drive.md:18
-#: ../../services/email.md:165 ../../services/ftp.md:51
-#: ../../services/git.md:83 ../../services/rss.md:45 ../../services/sql.md:24
-#: ../../services/ssh.md:108 ../../services/web.md:204
+#: ../../info/espace-personnel.md:72 ../../services/drive.md:18
+#: ../../services/email.md:163 ../../services/ftp.md:51
+#: ../../services/git.md:90 ../../services/rss.md:57 ../../services/sql.md:24
+#: ../../services/ssh.md:85 ../../services/web.md:204
 #: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr "Software"
 
-#: ../../info/espace-personnel.md:131
+#: ../../info/espace-personnel.md:77
 msgid ""
 "Script PHP permettant de générer la page membre. --- [Sources](https://"
 "github.com/club-1/members-presentation)"
@@ -964,22 +919,42 @@ msgid "Demandes et Incidents"
 msgstr "Requests and problems"
 
 #: ../../info/general.md:11
+#, fuzzy
+#| msgid ""
+#| "Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou "
+#| "que vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! "
+#| "Vous pouvez, selon vos préférences :"
 msgid ""
 "Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou que "
-"vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous "
-"pouvez, selon vos préférences :"
+"vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous êtes "
+"invités dans un premier temps à explorer le [forum](https://forum.club1.fr) "
+"🔍, pour vérifier que le sujet n'ait pas déjà été abordé. Si ce n'est pas le "
+"cas, vous pouvez, selon vos préférences :"
 msgstr ""
 "If you find a bug 🐛, a service seems to be unavailable 😵 or you have a "
 "suggestion 💡, don't hesitate to let us know! You can, according to your "
 "preferences:"
 
-#: ../../info/general.md:15
-msgid "envoyer un email à <contact@club1.fr>"
+#: ../../info/general.md:17
+msgid ""
+"**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/"
+"t/tickets) ."
+msgstr ""
+
+#: ../../info/general.md:18
+#, fuzzy
+#| msgid "envoyer un email à <contact@club1.fr>"
+msgid "Envoyer un email à <contact@club1.fr>"
 msgstr "send an email to <contact@club1.fr>"
 
-#: ../../info/general.md:16
+#: ../../info/general.md:19
+#, fuzzy
+#| msgid ""
+#| "en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1."
+#| "fr`. Des salons plus spécifiques sont dédiés au site web et à la doc. Ils "
+#| "sont répertoriés au sein de l'espace `#le-club:club1.fr`."
 msgid ""
-"en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
+"En discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
 "Des salons plus spécifiques sont dédiés au site web et à la doc. Ils sont "
 "répertoriés au sein de l'espace `#le-club:club1.fr`."
 msgstr ""
@@ -987,47 +962,23 @@ msgstr ""
 "More specific rooms are dedicated to the website and the doc. They are "
 "listed within the `#le-club:club1.fr` space."
 
-#: ../../info/general.md:19
-#, fuzzy
-msgid ""
-"[créer un ticket (_issue_)](https://github.com/club-1/hosting/issues) sur "
-"{term}`GitHub`."
-msgstr ""
-"[create an issue](https://github.com/club-1/hosting/issues) on "
-"{term}`GitHub`."
-
 #: ../../info/general.md:23
-msgid ""
-"Nous utilisons actuellement {term}`GitHub` pour la gestion des tickets. Il "
-"faut savoir que ce service en ligne, proposé par Microsoft, n'est ni "
-"**libre**, ni **open source** 😲 ! Ce choix à été fait pour des raisons de "
-"simplicité, car beaucoup de personnes ont déjà un compte sur cette "
-"plateforme. On risque de migrer vers un autre outil prochainement, donc ne "
-"vous forcez pas à avoir un compte pour nous !"
-msgstr ""
-"We currently use {term}`GitHub` for ticket management. You should know that "
-"this online service, offered by Microsoft, is neither **libre**, nor **open "
-"source** 😲! This choice was made for reasons of simplicity, because many "
-"people already have an account on this platform. We may migrate to another "
-"tool soon, so don't force yourself to have an account for us!"
-
-#: ../../info/general.md:32
 msgid "Infos sur le serveur"
 msgstr "Server infos"
 
-#: ../../info/general.md:35
+#: ../../info/general.md:26
 msgid "Il vit dans le placard comme _Harry Potter_..."
 msgstr "It lives in the closet like _Harry Potter_..."
 
-#: ../../info/general.md:37
+#: ../../info/general.md:28
 msgid "c'est le serveur."
 msgstr "it's the server."
 
-#: ../../info/general.md:39
+#: ../../info/general.md:30
 msgid "Matériel et infrastructure"
 msgstr "Hardware and infrastructure"
 
-#: ../../info/general.md:41
+#: ../../info/general.md:32
 msgid ""
 "Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par "
 "fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
@@ -1039,27 +990,27 @@ msgstr ""
 "download](https://www.nperf.com/en/r/338260996-nDOmVdkc). The internet "
 "connection is provided by Bouygues Telecom."
 
-#: ../../info/general.md:45
+#: ../../info/general.md:36
 msgid "Caractéristiques techniques"
 msgstr "Technical characteristics"
 
-#: ../../info/general.md:49
+#: ../../info/general.md:40
 msgid "Stockage :"
 msgstr "Storage:"
 
-#: ../../info/general.md:50
+#: ../../info/general.md:41
 msgid "SSD Système 300 Go"
 msgstr "300 GB System SSD"
 
-#: ../../info/general.md:51
+#: ../../info/general.md:42
 msgid "SSD Utilisateurs 1 To"
 msgstr "1 TB User SSD"
 
-#: ../../info/general.md:55
+#: ../../info/general.md:46
 msgid "Système d'exploitation"
 msgstr "Operating system"
 
-#: ../../info/general.md:57
+#: ../../info/general.md:48
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -1074,11 +1025,11 @@ msgstr ""
 "depending on it are then automatically restarted using [_needrestart_]"
 "(https://packages.debian.org/stable/needrestart)."
 
-#: ../../info/general.md:63
+#: ../../info/general.md:54
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
-#: ../../info/general.md:65
+#: ../../info/general.md:56
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
 "ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
@@ -1086,15 +1037,15 @@ msgstr ""
 "All the installed software is under **free license**, except for the "
 "following list, for which there is no free alternative:"
 
-#: ../../info/general.md:68
+#: ../../info/general.md:59
 msgid "BIOS/BMC Supermicro"
 msgstr "Supermicro BIOS/BMC"
 
-#: ../../info/general.md:69
+#: ../../info/general.md:60
 msgid "Microcode Intel"
 msgstr "Intel Microcode"
 
-#: ../../info/general.md:71
+#: ../../info/general.md:62
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
@@ -1102,7 +1053,7 @@ msgstr ""
 "A significant number of software and libraries are already installed. Here "
 "is a _non-exhaustive_ list:"
 
-#: ../../info/general.md:88
+#: ../../info/general.md:79
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -1113,11 +1064,11 @@ msgstr ""
 "that it is not already present, then, if not, **create a ticket** as "
 "explained [above](#demandes-et-incidents)."
 
-#: ../../info/general.md:92
+#: ../../info/general.md:83
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: ../../info/general.md:94
+#: ../../info/general.md:85
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -1132,30 +1083,58 @@ msgstr ""
 "time, for example during a kernel update. That said, an effective "
 "availability **above 98%** should be ensured."
 
-#: ../../info/general.md:101
+#: ../../info/general.md:92
 msgid "Sauvegardes"
 msgstr "Backups"
 
-#: ../../info/general.md:107
+#: ../../info/general.md:98
+#, fuzzy
+#| msgid ""
+#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
+#| "à 5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup."
+#| "org/). Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
+#| "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
+#| "(hébergé chez OVH)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
 "Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
-"endroits dont un dépôt off-site offert par Etienne Le Louët (hébergé chez "
-"OVH)."
+"endroits dont un dépôt off-site offert par Etienne Le Louët (serveur OMV "
+"auto-hébergé à Paris)."
 msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
 "[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
 "and encrypted manner in several places including an off-site repository "
 "offered by Etienne Le Louët (hosted by OVH)."
 
-#: ../../info/general.md:112
+#: ../../info/general.md:103
 msgid ""
-"Il s'agit de sauvegardes incrémentales avec une période de rétention d'une "
-"semaine. Il y a donc en permanence 7 jours d'historique disponible. En cas "
-"de défaillance matérielle, au maximum 24h de données seront perdues. Le bon "
-"déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io]"
-"(https://healthchecks.io/)"
+"Il s'agit de sauvegardes incrémentales avec la politique de rétention "
+"suivante :"
+msgstr ""
+
+#: ../../info/general.md:105
+msgid "7 sauvegardes journalières"
+msgstr ""
+
+#: ../../info/general.md:106
+msgid "4 sauvegardes hebdomadaires"
+msgstr ""
+
+#: ../../info/general.md:108
+#, fuzzy
+#| msgid ""
+#| "Il s'agit de sauvegardes incrémentales avec une période de rétention "
+#| "d'une semaine. Il y a donc en permanence 7 jours d'historique disponible. "
+#| "En cas de défaillance matérielle, au maximum 24h de données seront "
+#| "perdues. Le bon déroulement des sauvegardes est vérifié à l'aide du "
+#| "service [Healthchecks.io](https://healthchecks.io/)"
+msgid ""
+"La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
+"des jours de la dernière semaine est accessible. En cas de défaillance "
+"matérielle, au maximum 24h de données seront perdues. Le bon déroulement des "
+"sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://"
+"healthchecks.io/)"
 msgstr ""
 "These are incremental backups with a retention period of one week. There is "
 "therefore permanently 7 days of history available. In case of hardware "
@@ -1163,41 +1142,34 @@ msgstr ""
 "completion of backups is verified using the [Healthchecks.io](https://"
 "healthchecks.io/) service"
 
-#: ../../info/general.md:117
+#: ../../info/general.md:113
 msgid "Les sauvegardes sont réparties en deux groupes :"
 msgstr "Backups are divided into two groups:"
 
-#: ../../info/general.md:119
+#: ../../info/general.md:115
 msgid ""
 "**System** pour la configuration du serveur, les fichiers des applications "
 "et les bases de données."
 msgstr "**System** for server configuration, application files and databases."
 
-#: ../../info/general.md:120
+#: ../../info/general.md:116
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
-#: ../../info/general.md:122 ../../info/politique-de-vie-privee.md:6
-#: ../../services/email.md:32 ../../services/email.md:70
-#: ../../services/email.md:126 ../../services/email.md:205
-#: ../../services/web.md:70
-msgid "Voir aussi"
-msgstr "See also"
-
-#: ../../info/general.md:123
+#: ../../info/general.md:119
 msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 "The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
 
-#: ../../info/general.md:126
+#: ../../info/general.md:122
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:129
+#: ../../info/general.md:125
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:131
+#: ../../info/general.md:127
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
@@ -1207,7 +1179,7 @@ msgstr ""
 "check that a name respects it using [regex101](https://regex101.com/r/"
 "AilLZw/1)."
 
-#: ../../info/general.md:134
+#: ../../info/general.md:130
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1222,11 +1194,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:140
+#: ../../info/general.md:136
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:142
+#: ../../info/general.md:138
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1234,52 +1206,52 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:145
+#: ../../info/general.md:141
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:147
+#: ../../info/general.md:143
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:148
+#: ../../info/general.md:144
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:149
+#: ../../info/general.md:145
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:150
+#: ../../info/general.md:146
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:151
+#: ../../info/general.md:147
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:152
+#: ../../info/general.md:148
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:153
+#: ../../info/general.md:149
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:154
+#: ../../info/general.md:150
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 "access to the members-only matrix room for project monitoring and assistance"
 
-#: ../../info/general.md:156
+#: ../../info/general.md:152
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:159
+#: ../../info/general.md:155
 msgid "Contact"
 msgstr "Contact"
 
@@ -1340,9 +1312,9 @@ msgid ""
 "perso."
 msgstr ""
 "Personal data is protected by [UNIX permissions](https://en.wikipedia.org/"
-"wiki/File-system_permissions#Traditional_Unix_permissions). By default, the ["
-"personal space](./espace-personnel.md) is not accessible by other users ("
-"except for reading by members of the `home` group, e.g. the {term}`Web` "
+"wiki/File-system_permissions#Traditional_Unix_permissions). By default, the "
+"[personal space](./espace-personnel.md) is not accessible by other users "
+"(except for reading by members of the `home` group, e.g. the {term}`Web` "
 "{term}`server`). Everyone is free to change the permissions of their "
 "personal space."
 
@@ -1359,8 +1331,8 @@ msgid ""
 "En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
 msgstr ""
-"By replacing `<group>` with the desired group. Example: `members sudo` or `"
-"members home`."
+"By replacing `<group>` with the desired group. Example: `members sudo` or "
+"`members home`."
 
 #: ../../info/politique-de-vie-privee.md:32
 msgid "Engagements des administrateurs systèmes"
@@ -1393,11 +1365,11 @@ msgstr ""
 "Application of security best practices (replacement of default passwords, "
 "strong generated passwords, etc.)."
 
-#: ../../interne/aliases.md:1
+#: ../../outils/aliases.md:1
 msgid "Gestion des alias email"
 msgstr "Managing email aliases"
 
-#: ../../interne/aliases.md:4
+#: ../../outils/aliases.md:4
 msgid ""
 "Ce manuel est réservé aux utilisateurs faisant partie du groupe unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
@@ -1407,11 +1379,11 @@ msgstr ""
 "describes actions that can be done by those users on the email {term}"
 "`aliases <alias>`."
 
-#: ../../interne/aliases.md:7
+#: ../../outils/aliases.md:7
 msgid "Modifier les alias de reception"
 msgstr "Edit receiving aliases"
 
-#: ../../interne/aliases.md:10
+#: ../../outils/aliases.md:10
 msgid ""
 "Ouvrir le fichier `/etc/aliases` avec votre éditeur de texte en CLI favori "
 "(`nano`, `vim`, etc.). Il doit ressembler approximativement à ceci :"
@@ -1419,7 +1391,7 @@ msgstr ""
 "Open the `/etc/aliases` file with your favorite CLI text editor (`nano`, "
 "`vim`, etc.). It should look something like this:"
 
-#: ../../interne/aliases.md:27
+#: ../../outils/aliases.md:27
 msgid ""
 "Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de "
 "donnée (`/etc/aliases.db`) en lançant la commande suivante :"
@@ -1427,11 +1399,11 @@ msgstr ""
 "After you've saved your edits, you have to regenerate the database (`/etc/"
 "aliases.db`) using the following command:"
 
-#: ../../interne/aliases.md:33
+#: ../../outils/aliases.md:33
 msgid "Ajouter ou supprimer un utilisateur d'un alias"
 msgstr "Add or remove a user from an alias"
 
-#: ../../interne/aliases.md:35
+#: ../../outils/aliases.md:35
 msgid ""
 "Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la "
 "liste se trouvant après le nom de l'alias."
@@ -1439,11 +1411,11 @@ msgstr ""
 "Simply write or erase the name of the chosen user in the list that follows "
 "the alias name."
 
-#: ../../interne/aliases.md:38
+#: ../../outils/aliases.md:38
 msgid "Ajouter ou supprimer un alias"
 msgstr "Create or delete an alias"
 
-#: ../../interne/aliases.md:40
+#: ../../outils/aliases.md:40
 msgid ""
 "Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle "
 "ligne au ficher, en suivant la [syntaxe d'alias de postfix](http://www."
@@ -1453,7 +1425,7 @@ msgstr ""
 "following the [postfix aliases db syntax](http://www.postfix.org/aliases.5."
 "html):"
 
-#: ../../interne/aliases.md:47
+#: ../../outils/aliases.md:47
 msgid ""
 "Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la "
 "ligne correspondante."
@@ -1461,11 +1433,11 @@ msgstr ""
 "To delete an alias, simply delete or comment out (using `#`) the "
 "corresponding line."
 
-#: ../../interne/aliases.md:51
+#: ../../outils/aliases.md:51
 msgid "Modifier les alias d'envoi"
 msgstr "Edit sending aliases"
 
-#: ../../interne/aliases.md:54
+#: ../../outils/aliases.md:54
 msgid ""
 "Le processus est très similaire à celui de la [modification des alias de "
 "reception](#modifier-les-alias-de-reception) mais il existe quelques "
@@ -1474,35 +1446,39 @@ msgstr ""
 "The process is very similar from the [edition of receiving aliases]"
 "(#modifier-les-alias-de-reception), but some differences exists:"
 
-#: ../../interne/aliases.md:57
+#: ../../outils/aliases.md:57
 msgid "Le fichier à modifier est `/etc/aliases_senders`."
 msgstr "The file to edit is `/etc/aliases_senders`."
 
-#: ../../interne/aliases.md:58
+#: ../../outils/aliases.md:58
 msgid "Il ne faut PAS mettre de `:` entre la clé et la valeur."
 msgstr "You must NOT use `:` between the key and the value."
 
-#: ../../interne/aliases.md:59
+#: ../../outils/aliases.md:59
 msgid "Il faut toujours indiquer l'email complet avec `@club1.fr`."
 msgstr "You must always specify the complete email address with `@club1.fr`."
 
-#: ../../interne/aliases.md:60
+#: ../../outils/aliases.md:60
 msgid "La commande pour regénérer la base de données est :"
 msgstr "The command used to regenerate the database is:"
 
-#: ../../interne/index.md:1
-msgid "Documentation interne"
-msgstr "Internal documentation"
+#: ../../outils/index.md:1
+msgid "Outils"
+msgstr ""
 
-#: ../../interne/index.md:4
-msgid "Cette section comporte la documentation interne de CLUB1."
+#: ../../outils/index.md:4
+#, fuzzy
+#| msgid "Cette section comporte la documentation interne de CLUB1."
+msgid ""
+"Cette section comporte la documentation des différents outils utilisés par "
+"CLUB1."
 msgstr "This section contains the CLUB1's internal documentation."
 
-#: ../../interne/meta-doc.md:1
+#: ../../outils/meta-doc.md:1
 msgid "Meta-documentation"
 msgstr "Meta-documentation"
 
-#: ../../interne/meta-doc.md:4
+#: ../../outils/meta-doc.md:4
 msgid ""
 "La documentation de CLUB1 est publiée au format {term}`HTML` à l'adresse "
 "<https://club1.fr/docs/fr/>. Elle existe en deux langues : français, la "
@@ -1519,7 +1495,7 @@ msgstr ""
 "are stored in a directory, versioned with {term}`Git` and publicly "
 "accessible via {term}`GitHub` at <https://github.com/club-1/docs/>."
 
-#: ../../interne/meta-doc.md:13
+#: ../../outils/meta-doc.md:13
 msgid ""
 "Le language utilisé dans les fichiers source est une extension de {term}"
 "`Markdown` appelée [MyST](https://myst-parser.readthedocs.io/en/latest/). Il "
@@ -1535,11 +1511,11 @@ msgstr ""
 "reference](https://myst-parser.readthedocs.io/en/latest/syntax/reference."
 "html)."
 
-#: ../../interne/meta-doc.md:20
+#: ../../outils/meta-doc.md:20
 msgid "Arborescence de fichiers"
 msgstr "File tree"
 
-#: ../../interne/meta-doc.md:23
+#: ../../outils/meta-doc.md:23
 msgid ""
 "L'arborescence ci-dessous présente un résumé de l'arborescence réelle du "
 "dossier de la documentation de CLUB1."
@@ -1547,12 +1523,12 @@ msgstr ""
 "The file tree below shows a summary of the real CLUB1 documentation's "
 "folder's file tree."
 
-#: ../../interne/meta-doc.md:41
+#: ../../outils/meta-doc.md:41
 msgid ""
 "`_build/` : dossier contenant l'ensemble des fichiers générés par Sphinx."
 msgstr "`_build`: folder that contains all the files generated by Sphinx."
 
-#: ../../interne/meta-doc.md:42
+#: ../../outils/meta-doc.md:42
 msgid ""
 "`_locales/` : dossier contenant les fichiers de traductions. Il comporte un "
 "dossier par langue avec des fichiers `.po` contenant les traductions et des "
@@ -1563,7 +1539,7 @@ msgstr ""
 "one folder per language with `.po` files that contains the translations and "
 "`.pot` files automatically generated from the Markdown source files."
 
-#: ../../interne/meta-doc.md:46
+#: ../../outils/meta-doc.md:46
 msgid ""
 "`_static/` : dossier contenant les autres fichiers que l'on veut inclure "
 "dans la documentation, par exemple les \"feuilles de style\"."
@@ -1571,7 +1547,7 @@ msgstr ""
 "`_static/`: folder that contains the other files to include in the "
 "documentation, for instance the \"style sheets\"."
 
-#: ../../interne/meta-doc.md:48
+#: ../../outils/meta-doc.md:48
 msgid ""
 "`_templates/` : dossier contenant les éléments de thème utilisés lors de la "
 "génération du format HTML."
@@ -1579,15 +1555,15 @@ msgstr ""
 "`_templates/`: folder that contains the theme elements used for HTML format "
 "generation."
 
-#: ../../interne/meta-doc.md:49
+#: ../../outils/meta-doc.md:49
 msgid "`AUTHORS` : fichier contenant la liste des auteurs."
 msgstr "`AUTHORS`: file that contains the list of authors."
 
-#: ../../interne/meta-doc.md:50
+#: ../../outils/meta-doc.md:50
 msgid "`glossaire.md` : fichier contenant les termes du glossaire principal."
 msgstr "`glossaire.md`: file that contains the terms of the main glossary."
 
-#: ../../interne/meta-doc.md:51
+#: ../../outils/meta-doc.md:51
 msgid ""
 "`index.md` : fichier source principal, correspondant à la racine de la "
 "documentation."
@@ -1595,7 +1571,7 @@ msgstr ""
 "`index.md`: principal source file, representing the root of the "
 "documentation."
 
-#: ../../interne/meta-doc.md:54
+#: ../../outils/meta-doc.md:54
 msgid ""
 "Les fichiers et dossier `***` représentent l'ensemble des fichiers source de "
 "la documentation."
@@ -1603,11 +1579,11 @@ msgstr ""
 "The `***` files and folders represent the set of source files of the "
 "documentation."
 
-#: ../../interne/meta-doc.md:57
+#: ../../outils/meta-doc.md:57
 msgid "Proposer des modifications"
 msgstr "Propose changes"
 
-#: ../../interne/meta-doc.md:60
+#: ../../outils/meta-doc.md:60
 msgid ""
 "L'utilisation de {term}`Git` permet à n'importe qui de proposer des "
 "modifications. Pour cela il est possible de modifier les fichiers "
@@ -1624,7 +1600,7 @@ msgstr ""
 "will then have to accept and _merge_ these modifications in order to "
 "integrate it in the main branch."
 
-#: ../../interne/meta-doc.md:69
+#: ../../outils/meta-doc.md:69
 msgid ""
 "Si vous refusez d'utiliser un compte GitHub, il est toujours possible "
 "d'utiliser [`git send-email`](https://git-scm.com/docs/git-send-email) pour "
@@ -1634,7 +1610,7 @@ msgstr ""
 "send-email`](https://git-scm.com/docs/git-send-email) to send your changes "
 "to <docs+git@club1.fr>."
 
-#: ../../interne/meta-doc.md:74
+#: ../../outils/meta-doc.md:74
 msgid ""
 "À chaque mise-à-jour de la branche principale, la documentation est "
 "automatiquement compilée et publiée sur le site web de CLUB1."
@@ -1642,11 +1618,11 @@ msgstr ""
 "On each update of the main branch, the documentation is automatically "
 "compiled and published on the CLUB1 website."
 
-#: ../../interne/meta-doc.md:77
+#: ../../outils/meta-doc.md:77
 msgid "Langue principale (français)"
 msgstr "Main language (French)"
 
-#: ../../interne/meta-doc.md:79
+#: ../../outils/meta-doc.md:79
 msgid ""
 "Pour modifier une page existante, il faut éditer le fichier `.md` "
 "correspondant. Depuis une page de la doc, un lien pour éditer le fichier sur "
@@ -1656,7 +1632,7 @@ msgstr ""
 "of the doc, there is a link to edit the page on {term}`GitHub` in the top-"
 "right corner."
 
-#: ../../interne/meta-doc.md:84
+#: ../../outils/meta-doc.md:84
 msgid ""
 "Git regroupe les modifications par ligne. Il est donc intéressant de "
 "fragmenter les paragraphes sur plusieurs lignes pour éviter les conflits de "
@@ -1670,7 +1646,7 @@ msgstr ""
 "the same sentence. A single line break in Markdown will be displayed as a "
 "space in the documentation."
 
-#: ../../interne/meta-doc.md:91
+#: ../../outils/meta-doc.md:91
 msgid ""
 "Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
 "com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
@@ -1680,11 +1656,11 @@ msgstr ""
 "docs/edit/main/AUTHORS) after having made your first contribution in the "
 "french documentation."
 
-#: ../../interne/meta-doc.md:94
+#: ../../outils/meta-doc.md:94
 msgid "Autres langues"
 msgstr "Other languages"
 
-#: ../../interne/meta-doc.md:96
+#: ../../outils/meta-doc.md:96
 msgid ""
 "Les traductions, elles, ne sont pas stockées dans des fichiers Markdown, "
 "mais dans des fichiers de locales `locales/*/LC_MESSAGES/package.po` et sont "
@@ -1695,7 +1671,7 @@ msgstr ""
 "LC_MESSAGES/package.po` files and are more comfortably edited on [Weblate]"
 "(https://hosted.weblate.org/projects/club-1/docs/)."
 
-#: ../../interne/meta-doc.md:100
+#: ../../outils/meta-doc.md:100
 msgid ""
 "Les traductions doivent suivre le texte d'origine au plus proche. Si des "
 "modifications doivent être apportées au contenu, il faut commencer par "
@@ -1705,11 +1681,11 @@ msgstr ""
 "changes are to be made to the content, the French content should be changed "
 "first."
 
-#: ../../interne/meta-doc.md:104
+#: ../../outils/meta-doc.md:104
 msgid "Ajouter une page"
 msgstr "Add a page"
 
-#: ../../interne/meta-doc.md:106
+#: ../../outils/meta-doc.md:106
 msgid ""
 "L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
 "md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
@@ -1719,11 +1695,11 @@ msgstr ""
 "ideally in a subfolder, then it has to be added in a `{toctree}` of one of "
 "the `index.md` files (build on what already exists)."
 
-#: ../../interne/meta-doc.md:110
+#: ../../outils/meta-doc.md:110
 msgid "Ajouter des images"
 msgstr "Add images"
 
-#: ../../interne/meta-doc.md:112
+#: ../../outils/meta-doc.md:112
 msgid ""
 "S'il s'agit d'une image générique déjà présente sur le {term}`Web`, il n'est "
 "pas nécessaire de la copier dans la documentation, un simple lien suffira. "
@@ -1735,7 +1711,7 @@ msgstr ""
 "{term}`Sphinx` will take care of verifying that the image still exists and "
 "downloading it for offline formats."
 
-#: ../../interne/meta-doc.md:117
+#: ../../outils/meta-doc.md:117
 msgid ""
 "Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux les "
 "sauvegarder dans le dossier, avec les fichiers source. Il est intéressant de "
@@ -1747,7 +1723,7 @@ msgstr ""
 "there in a folder with the same name as the page in which they will be "
 "included (omitting the extension)."
 
-#: ../../interne/meta-doc.md:124
+#: ../../outils/meta-doc.md:124
 msgid ""
 "Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
 "pour les utilisateurs et ça utilisera moins d'encre pour la version imprimée."
@@ -1755,11 +1731,11 @@ msgstr ""
 "Favor a light theme for screenshots because it is more usual for users and "
 "it will use less ink for the printed version."
 
-#: ../../interne/meta-doc.md:129
+#: ../../outils/meta-doc.md:129
 msgid "Références"
 msgstr "References"
 
-#: ../../interne/meta-doc.md:132
+#: ../../outils/meta-doc.md:132
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/"
 "guides/cross-referencing-with-sphinx.html)"
@@ -1767,7 +1743,7 @@ msgstr ""
 "[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
 "cross-referencing-with-sphinx.html)"
 
-#: ../../interne/meta-doc.md:133
+#: ../../outils/meta-doc.md:133
 msgid ""
 "[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
@@ -1775,11 +1751,11 @@ msgstr ""
 "[Sphinx with ReadTheDocs theme configuration tutorial](https://tech."
 "michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 
-#: ../../interne/meta-doc.md:135
+#: ../../outils/meta-doc.md:135
 msgid "Compilation"
 msgstr "Compilation"
 
-#: ../../interne/meta-doc.md:138
+#: ../../outils/meta-doc.md:138
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -1794,11 +1770,11 @@ msgstr ""
 "available. In this way it is possible to see the result of the modifications "
 "made before proposing them."
 
-#: ../../interne/meta-doc.md:145
+#: ../../outils/meta-doc.md:145
 msgid "Prérequis communs"
 msgstr "Common prerequisites"
 
-#: ../../interne/meta-doc.md:147
+#: ../../outils/meta-doc.md:147
 msgid ""
 "Ces logiciels sont utilisés pour compiler la documentation quel que soit le "
 "format de sortie désiré :"
@@ -1806,11 +1782,11 @@ msgstr ""
 "These software are used to compile the documentation regardless of the "
 "desired output format:"
 
-#: ../../interne/meta-doc.md:152
+#: ../../outils/meta-doc.md:152
 msgid "Gestionnaire de compilation."
 msgstr "Build manager."
 
-#: ../../interne/meta-doc.md:155
+#: ../../outils/meta-doc.md:155
 msgid ""
 "Générateur de documentation. Il permet de compiler dans différents formats "
 "une documentation rédigée en texte brut. C'est l'outil utilisé pour générer "
@@ -1822,16 +1798,16 @@ msgstr ""
 "present documentation. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
-#: ../../interne/meta-doc.md:161
+#: ../../outils/meta-doc.md:161
 msgid ""
 "Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
 msgstr "{term}`Sphinx` extension allowing {term}`Markdown` support."
 
-#: ../../interne/meta-doc.md:164
+#: ../../outils/meta-doc.md:164
 msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr "{term}`Sphinx` extension providing the ReadTheDocs {term}`HTML` theme."
 
-#: ../../interne/meta-doc.md:167
+#: ../../outils/meta-doc.md:167
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page "
 "d'erreur 404 personnalisée dont les liens sont absolus."
@@ -1839,7 +1815,7 @@ msgstr ""
 "_(Optional)_ {term}`Sphinx` extension to generate a custom 404 error page "
 "with absolute links."
 
-#: ../../interne/meta-doc.md:170
+#: ../../outils/meta-doc.md:170
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` ajoutant à chaque page sa date de "
 "dernière modification à partir de l'historique {term}`Git` de la "
@@ -1847,62 +1823,62 @@ msgid ""
 "by-git)"
 msgstr ""
 "_(Optional)_ {term}`Sphinx` extension adding to each page its last modified "
-"date from the {term}`Git` history of the documentation. --- "
-"[Sources](https://github.com/mgeier/sphinx-last-updated-by-git)"
+"date from the {term}`Git` history of the documentation. --- [Sources]"
+"(https://github.com/mgeier/sphinx-last-updated-by-git)"
 
-#: ../../interne/meta-doc.md:175
+#: ../../outils/meta-doc.md:175
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
-#: ../../interne/meta-doc.md:178 ../../interne/meta-doc.md:205
+#: ../../outils/meta-doc.md:178 ../../outils/meta-doc.md:205
 msgid "Installation sur *Debian* :"
 msgstr "Installation on *Debian*:"
 
-#: ../../interne/meta-doc.md:183
+#: ../../outils/meta-doc.md:183
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr "_(Optional)_ Prerequisites for PDF format"
 
-#: ../../interne/meta-doc.md:187
+#: ../../outils/meta-doc.md:187
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr "LaTeX documents compilation manager."
 
-#: ../../interne/meta-doc.md:190
+#: ../../outils/meta-doc.md:190
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr "Lua scriptable TeX rendering engine."
 
-#: ../../interne/meta-doc.md:193
+#: ../../outils/meta-doc.md:193
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr "LaTeX distribution including a set of additional packages."
 
-#: ../../interne/meta-doc.md:196
+#: ../../outils/meta-doc.md:196
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr "Font used for monospace text."
 
-#: ../../interne/meta-doc.md:199
+#: ../../outils/meta-doc.md:199
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr "Internationalized index generator for LaTeX."
 
-#: ../../interne/meta-doc.md:202
+#: ../../outils/meta-doc.md:202
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr "Tool to manipulate images in {term}`CLI`."
 
-#: ../../interne/meta-doc.md:209
+#: ../../outils/meta-doc.md:209
 msgid "Commandes"
 msgstr "Commands"
 
-#: ../../interne/meta-doc.md:211
+#: ../../outils/meta-doc.md:211
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
-#: ../../interne/meta-doc.md:215
+#: ../../outils/meta-doc.md:215
 msgid "Compilation d'une locale spécifique :"
 msgstr "Compilation of a specific locale:"
 
-#: ../../interne/meta-doc.md:219
+#: ../../outils/meta-doc.md:219
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
-#: ../../interne/meta-doc.md:223
+#: ../../outils/meta-doc.md:223
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1916,11 +1892,11 @@ msgstr ""
 "out at the end of the file, while adding the following comment just above "
 "the line `msgid \"...\"`:"
 
-#: ../../interne/meta-doc.md:233
+#: ../../outils/meta-doc.md:233
 msgid "Déploiement de la version Web"
 msgstr "Deployment of the Web version"
 
-#: ../../interne/meta-doc.md:236
+#: ../../outils/meta-doc.md:236
 msgid ""
 "Un serveur HTTP {term}`Apache` est requis pour le déploiement de la version "
 "{term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1931,6 +1907,10 @@ msgstr ""
 "version of the documentation. Below is an example Apache configuration where "
 "the documentation is in `/var/www/docs` and where we want to serve it under "
 "`/docs/`:"
+
+#: ../../outils/meta-doc.md:256 ../../tutos/presentation.md:19
+msgid "Metadonnées"
+msgstr "Metadata"
 
 #: ../../services/drive.md:1
 msgid "Explorateur de fichiers Web *Drive*"
@@ -1984,8 +1964,8 @@ msgid ""
 msgstr ""
 "{term}`Web` file explorer based on a {term}`WebDAV` {term}`server`. At "
 "CLUB1, this service is accessible via {term}`Nginx` as a static site, and "
-"communicates with the {term}`webdav-server` server. --- "
-"[Source](https://github.com/club-1/webdav-drive)"
+"communicates with the {term}`webdav-server` server. --- [Source](https://"
+"github.com/club-1/webdav-drive)"
 
 #: ../../services/email.md:1
 msgid "Messagerie email"
@@ -2216,17 +2196,10 @@ msgstr ""
 "be placed directly in your folder and be called `.forward`."
 
 #: ../../services/email.md:105
-msgid ""
-"Les fichiers avec un point `.` devant sont appelés des [fichiers cachés]"
-"(https://fr.wikipedia.org/wiki/"
-"Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux). Dans les "
-"explorateurs de fichiers ils peuvent être masqués par défaut."
+msgid "`.forward` est un {term}`fichier caché`."
 msgstr ""
-"Files with a dot `.` in front are called [hidden files](https://en.wikipedia."
-"org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments). "
-"In file explorers they may be hidden by default."
 
-#: ../../services/email.md:110
+#: ../../services/email.md:108
 msgid ""
 "A l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses "
 "vers lesquelles vous souhaitez rediriger les emails en les séparant par un "
@@ -2235,11 +2208,11 @@ msgstr ""
 "Inside this file, all you have to do is list all the addresses to which you "
 "want to redirect the emails, separating them with a line break."
 
-#: ../../services/email.md:113
+#: ../../services/email.md:111
 msgid "Exemple de fichier `.forward` transférant vers deux adresses emails :"
 msgstr "Example of `.forward` file forwarding to two email addresses:"
 
-#: ../../services/email.md:119
+#: ../../services/email.md:117
 msgid ""
 "Il est même possible de conserver ses emails sur sa boîte CLUB1 en ajoutant "
 "son nom d'utilisateur&middot;trice à cette liste !"
@@ -2247,7 +2220,7 @@ msgstr ""
 "It is even possible to keep your emails on your CLUB1 mailbox by adding your "
 "username to this list!"
 
-#: ../../services/email.md:123
+#: ../../services/email.md:121
 msgid ""
 "Pour mettre fin à une redirection, il suffit de supprimer la ligne "
 "correspondante. Il est aussi possible de supprimer le fichier pour tout "
@@ -2256,7 +2229,7 @@ msgstr ""
 "To end a redirection, simply delete the corresponding line. It is also "
 "possible to delete the file to cancel everything."
 
-#: ../../services/email.md:127
+#: ../../services/email.md:125
 msgid ""
 "La page de manuel [Postfix local mail delivery](https://www.postfix.org/"
 "local.8.html) (en anglais)"
@@ -2264,11 +2237,11 @@ msgstr ""
 "The [Postfix local mail delivery](https://www.postfix.org/local.8.html) man "
 "page"
 
-#: ../../services/email.md:130
+#: ../../services/email.md:128
 msgid "Filtres automatiques"
 msgstr "Automatic filters"
 
-#: ../../services/email.md:132
+#: ../../services/email.md:130
 msgid ""
 "Les filtres Sieve permettent de trier automatiquement les emails que vous "
 "recevez. Ces filtres sont appliqués côté {term}`serveur` et ne dépendent "
@@ -2279,7 +2252,7 @@ msgstr ""
 "filters are applied on the {term}`server` side and therefore do not depend "
 "on any {term}`client`. However, each user must configure them himself."
 
-#: ../../services/email.md:136
+#: ../../services/email.md:134
 msgid ""
 "Il existe deux manières de les éditer. La plus simple est d'utiliser le "
 "[client Web Roundcube de CLUB1](#client-web). Il dispose dans ses paramètres "
@@ -2289,7 +2262,7 @@ msgstr ""
 "Roundcube web client](#client-web). It has a filter management interface in "
 "its settings."
 
-#: ../../services/email.md:140
+#: ../../services/email.md:138
 msgid ""
 "La deuxième méthode consiste à directement modifier le fichier de filtre "
 "dans votre **espace personnel** :"
@@ -2297,12 +2270,12 @@ msgstr ""
 "The second method is to directly edit the filter file in your **personal "
 "space**:"
 
-#: ../../services/email.md:144 ../../services/ftp.md:41
-#: ../../services/sql.md:16 ../../services/ssh.md:100
+#: ../../services/email.md:142 ../../services/ftp.md:41
+#: ../../services/sql.md:16 ../../services/ssh.md:77
 msgid "Informations de connexion"
 msgstr "Connection information"
 
-#: ../../services/email.md:147
+#: ../../services/email.md:145
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
@@ -2310,59 +2283,59 @@ msgstr ""
 "Connecting an email {term}`client` to a CLUB1 address requires configuring "
 "multiple servers."
 
-#: ../../services/email.md:149
+#: ../../services/email.md:147
 msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:52
+#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
+#: ../../services/ssh.md:25
 msgid "champ"
 msgstr "field"
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:52
+#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
+#: ../../services/ssh.md:25
 msgid "valeur"
 msgstr "value"
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:52
+#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
+#: ../../services/ssh.md:25
 msgid "hôte"
 msgstr "host"
 
-#: ../../services/email.md:126
+#: ../../services/email.md:124
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr "`mail.club1.fr` or `smtp.club1.fr`"
 
-#: ../../services/email.md:126 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:52
+#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
+#: ../../services/ssh.md:25
 msgid "port"
 msgstr "port"
 
-#: ../../services/email.md:126
+#: ../../services/email.md:124
 msgid "`465` (par défaut)"
 msgstr "`465` (default)"
 
-#: ../../services/email.md:126 ../../services/ftp.md:4
+#: ../../services/email.md:124 ../../services/ftp.md:4
 msgid "chiffrement"
 msgstr "encryption"
 
-#: ../../services/email.md:126
+#: ../../services/email.md:124
 msgid "`SSL/TSL` (Implicite)"
 msgstr "`SSL/TSL` (Implicit)"
 
-#: ../../services/email.md:157
+#: ../../services/email.md:155
 msgid "Serveur de réception (IMAP)"
 msgstr "Received emails server (IMAP)"
 
-#: ../../services/email.md:126
+#: ../../services/email.md:124
 msgid "`mail.club1.fr` ou `imap.club1.fr`"
 msgstr "`mail.club1.fr` or `imap.club1.fr`"
 
-#: ../../services/email.md:126
+#: ../../services/email.md:124
 msgid "`993` (par défaut)"
 msgstr "`993` (default)"
 
-#: ../../services/email.md:170
+#: ../../services/email.md:168
 msgid ""
 "{term}`Serveur` SMTP utilisé pour la transmission d'email. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Postfix), [Sources](https://github.com/"
@@ -2372,7 +2345,7 @@ msgstr ""
 "wikipedia.org/wiki/Postfix_(software)), [Sources](https://github.com/"
 "vdukhovni/postfix)"
 
-#: ../../services/email.md:175
+#: ../../services/email.md:173
 msgid ""
 "{term}`Serveur` IMAP utilisé pour la gestion de boîtes emails. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://github."
@@ -2382,7 +2355,7 @@ msgstr ""
 "wikipedia.org/wiki/Dovecot_(software)), [Sources](https://github.com/dovecot/"
 "core)"
 
-#: ../../services/email.md:180
+#: ../../services/email.md:178
 msgid ""
 "Extension {term}`Dovecot` pour Sieve et ManageSieve, permettant de "
 "configurer des filtres automatiques côté {term}`serveur`. Ces filtres "
@@ -2394,7 +2367,7 @@ msgstr ""
 "from {term}`Roundcube`. --- [Website](https://pigeonhole.dovecot.org/), "
 "[Sources](https://github.com/dovecot/pigeonhole)"
 
-#: ../../services/email.md:186
+#: ../../services/email.md:184
 msgid ""
 "{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr."
 "wikipedia.org/wiki/Sender_Policy_Framework) utilisé par {term}`Postfix` pour "
@@ -2406,7 +2379,7 @@ msgstr ""
 "to verify the origin of incoming emails. --- [Source](https://launchpad.net/"
 "spf-engine)"
 
-#: ../../services/email.md:191
+#: ../../services/email.md:189
 msgid ""
 "{term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_) permettant à "
 "{term}`Postfix` de transférer des emails en restant compatible avec SPF. --- "
@@ -2416,7 +2389,7 @@ msgstr ""
 "`Postfix` to forward emails while remaining compatible with SPF. --- "
 "[Sources](https://github.com/roehling/postsrsd)"
 
-#: ../../services/email.md:196
+#: ../../services/email.md:194
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {term}`Postfix` "
 "pour signer les emails sortants. --- [Site Web](http://www.opendkim.org/), "
@@ -2426,7 +2399,7 @@ msgstr ""
 "outgoing emails. --- [Website](http://www.opendkim.org/), [Sources](https://"
 "github.com/trusteddomainproject/OpenDKIM)"
 
-#: ../../services/email.md:201
+#: ../../services/email.md:199
 msgid ""
 "{term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP "
 "et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
@@ -2436,7 +2409,7 @@ msgstr ""
 "--- [Wikipedia](https://en.wikipedia.org/wiki/Roundcube), [Sources](https://"
 "github.com/roundcube/roundcubemail)"
 
-#: ../../services/email.md:206
+#: ../../services/email.md:204
 msgid "La section [](#client-web)"
 msgstr "The [](#client-web) section"
 
@@ -2520,7 +2493,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:4 ../../services/ssh.md:52
+#: ../../services/ftp.md:4 ../../services/ssh.md:25
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
@@ -2620,7 +2593,7 @@ msgstr ""
 "possible to change it by modifying the `HEAD` file of the repository. For "
 "instance, to replace it by the `main` branch:"
 
-#: ../../services/git.md:36
+#: ../../services/git.md:38
 msgid ""
 "De la même manière, pour modifier la description du dépôt (cette "
 "modification ne sera pas forcément visible tout de suite à cause du cache de "
@@ -2629,24 +2602,24 @@ msgstr ""
 "Similarly, to modify the repository's description (this modification might "
 "not be instantly displayed due to cgit's cache):"
 
-#: ../../services/git.md:41
+#: ../../services/git.md:45
 msgid "Il y a ensuite deux cas de figure :"
 msgstr "There are then two scenarios:"
 
-#: ../../services/git.md:43
+#: ../../services/git.md:47
 msgid "[Création d'un nouveau dépôt](#création-dun-nouveau-dépôt)"
 msgstr "[Creation of a new repository](#création-dun-nouveau-dépôt)"
 
-#: ../../services/git.md:44
+#: ../../services/git.md:48
 msgid "[Publication d'un dépôt existant](#publication-dun-dépôt-existant)"
 msgstr ""
 "[Publication of an existing repository](#publication-dun-dépôt-existant)"
 
-#: ../../services/git.md:46
+#: ../../services/git.md:50
 msgid "Création d'un nouveau dépôt"
 msgstr "Creation of an new repository"
 
-#: ../../services/git.md:48
+#: ../../services/git.md:52
 msgid ""
 "Si le but est de créer un nouveau dépôt, alors le plus simple est de cloner "
 "sur votre ordinateur personnel celui qui vient d'être initialisé sur le "
@@ -2658,14 +2631,14 @@ msgstr ""
 "server. We use the address [SSH](ssh.md) for this because it offers write "
 "access to the repository:"
 
-#: ../../services/git.md:56
+#: ../../services/git.md:60
 msgid ""
 "Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce "
 "qui est normal :"
 msgstr ""
 "A warning will indicate that the cloned repository is empty, which is normal:"
 
-#: ../../services/git.md:62
+#: ../../services/git.md:66
 msgid ""
 "Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}"
 "`Git`, par exemple :"
@@ -2673,11 +2646,11 @@ msgstr ""
 "It is now possible to use this repository as any other {term}`Git` "
 "repository, for instance:"
 
-#: ../../services/git.md:72
+#: ../../services/git.md:78
 msgid "Publication d'un dépôt existant"
 msgstr "Publication of an existing repository"
 
-#: ../../services/git.md:74
+#: ../../services/git.md:80
 msgid ""
 "Si le but est de publier un dépôt existant, alors il suffit d'ajouter le "
 "dépôt distant qui vient d'être initialisé aux _remotes_ et d'y pousser la "
@@ -2689,7 +2662,7 @@ msgstr ""
 "branch there, for example with the `main` branch (the `- -set-upstream` "
 "makes it the default _remote_ for this branch):"
 
-#: ../../services/git.md:88
+#: ../../services/git.md:95
 msgid ""
 "Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
@@ -2697,7 +2670,7 @@ msgstr ""
 "Distributed version control system software --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
 
-#: ../../services/git.md:93
+#: ../../services/git.md:100
 msgid ""
 "Interface {term}`Web` permettant de consulter les informations d'un dépôt "
 "{term}`Git`."
@@ -2705,7 +2678,7 @@ msgstr ""
 "{term}`Web` interface allowing to consult the information of a {term}`Git` "
 "repository."
 
-#: ../../services/git.md:95
+#: ../../services/git.md:102
 msgid ""
 "Chez CLUB1, cgit et accessible à travers le {term}`serveur` HTTP {term}"
 "`Apache`. --- [Sources](https://git.zx2c4.com/cgit/)"
@@ -2726,16 +2699,33 @@ msgstr ""
 "connection."
 
 #: ../../services/rss.md:1
-msgid "Agrégateur de flux RSS"
-msgstr "RSS feed aggregator"
+#, fuzzy
+#| msgid "Agrégateur de flux"
+msgid "Agrégateur de flux de nouvelles"
+msgstr "Feed aggregator"
 
-#: ../../services/rss.md:6
+#: ../../services/rss.md:0
+msgid "Flux Web"
+msgstr ""
+
+#: ../../services/rss.md:1
+msgid "Flux de nouvelles"
+msgstr ""
+
+#: ../../services/rss.md:7
+#, fuzzy
+#| msgid ""
+#| "(_Really Simple Syndication_) Format de données standardisé qui permet la "
+#| "consultation d'un site non pas par un humain mais par un logiciel. Il "
+#| "s'agit donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
+#| "contiennent les derniers articles ou actualités publiées. Ils sont "
+#| "souvent utilisés par les sites d'actualité et les blogs."
 msgid ""
-"(_Really Simple Syndication_) Format de données standardisé qui permet la "
-"consultation d'un site non pas par un humain mais par un logiciel. Il s'agit "
-"donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
-"contiennent les derniers articles ou actualités publiées. Ils sont souvent "
-"utilisés par les sites d'actualité et les blogs."
+"Format de données standardisé qui permet la consultation d'un site, non pas "
+"par un humain, mais par un logiciel. Il s'agit donc d'une forme d'{term}"
+"`API`. Les flux Web sont des fichiers qui contiennent les derniers articles "
+"ou actualités publiées. Ils sont souvent utilisés par les sites d'actualité "
+"et les blogs."
 msgstr ""
 "(_Really Simple Syndication_) Standardized data format that allows the "
 "consultation of a site not by a human but by a software. It is therefore a "
@@ -2744,17 +2734,48 @@ msgstr ""
 
 #: ../../services/rss.md:12
 msgid ""
-"Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur de "
-"flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/RSS)"
+"Il existe plusieurs formats de flux Web, notamment {term}`Atom` et {term}"
+"`RSS` (plus ancien)."
 msgstr ""
 
-#: ../../services/rss.md:10
+#: ../../services/rss.md:14
+msgid ""
+"Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur de "
+"flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Flux_web)"
+msgstr ""
+
+#: ../../services/rss.md:18
+msgid ""
+"(_Really Simple Syndication_) Premier format de {term}`flux Web`. Il est "
+"plus ancien et moins strict que son concurrent {term}`Atom`. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/RSS)"
+msgstr ""
+
+#: ../../services/rss.md:17
+msgid "Atom"
+msgstr ""
+
+#: ../../services/rss.md:23
+msgid ""
+"Format de {term}`flux Web`. Ce format est plus strict et mieux standardisé "
+"que son ancêtre {term}`RSS` et tend à le remplacer. --- [Wikipedia](https://"
+"fr.wikipedia.org/wiki/Atom_Syndication_Format)"
+msgstr ""
+
+#: ../../services/rss.md:22
 msgid "Agrégateur de flux"
 msgstr "Feed aggregator"
 
-#: ../../services/rss.md:16
+#: ../../services/rss.md:28
+#, fuzzy
+#| msgid ""
+#| "Logiciel permettant de consulter les flux {term}`RSS`. Son but est "
+#| "d'agréger les nouveautés de différents sites dans un fil unique. Il "
+#| "permet d'éviter de regarder manuellement et un par un les sites dont on "
+#| "veut connaître les nouveaux contenus. --- [Wikipedia](https://fr."
+#| "wikipedia.org/wiki/Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgid ""
-"Logiciel permettant de consulter les flux {term}`RSS`. Son but est d'agréger "
+"Logiciel permettant de consulter les {term}`flux Web`. Son but est d'agréger "
 "les nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
 "regarder manuellement et un par un les sites dont on veut connaître les "
 "nouveaux contenus. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -2765,22 +2786,28 @@ msgstr ""
 "manually and one by one at the sites for which you want to know the new "
 "content. --- [Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
 
-#: ../../services/rss.md:22
+#: ../../services/rss.md:34
+#, fuzzy
+#| msgid ""
+#| "Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
+#| "accessible à travers le {term}`client Web` intégré se trouvant à "
+#| "l'adresse <https://rss.club1.fr>, mais il est également possible d'y "
+#| "connecter un client natif."
 msgid ""
-"Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
-"accessible à travers le {term}`client Web` intégré se trouvant à l'adresse "
-"<https://rss.club1.fr>, mais il est également possible d'y connecter un "
-"client natif."
+"Un agrégateur de flux de nouvelles est fourni par {term}`Tiny Tiny RSS`. Il "
+"est accessible à travers le {term}`client Web` intégré se trouvant à "
+"l'adresse <https://rss.club1.fr>, mais il est également possible d'y "
+"connecter un client natif."
 msgstr ""
 "An RSS feed aggregator is provided by {term}`Tiny Tiny RSS`. It is "
 "accessible through the integrated {term}`Web client` located at <https://rss."
 "club1.fr>, but it is also possible to connect a native client to it."
 
-#: ../../services/rss.md:27
+#: ../../services/rss.md:39
 msgid "Se connecter avec un client natif"
 msgstr "Connect with a native client"
 
-#: ../../services/rss.md:30
+#: ../../services/rss.md:42
 msgid ""
 "Avant de pouvoir connecter un client natif, il faut activer l'{term}`API` "
 "dans les paramètres du {term}`client Web`. Cliquer sur le menu (icône avec "
@@ -2792,7 +2819,7 @@ msgstr ""
 "at the top right) --> `Preferences...` --> `Preferences` tab --> `General` "
 "section --> Check the `Enable API` box."
 
-#: ../../services/rss.md:35
+#: ../../services/rss.md:47
 msgid ""
 "Dans le client natif choisi, il faudra renseigner comme URL du serveur "
 "`https://rss.club1.fr`."
@@ -2800,26 +2827,38 @@ msgstr ""
 "In the chosen native client, the server URL must be filled with `https://rss."
 "club1.fr`."
 
-#: ../../services/rss.md:38 ../../services/webdav.md:43 ../../tutos/index.md:1
+#: ../../services/rss.md:50 ../../services/webdav.md:43 ../../tutos/index.md:1
 msgid "Tutoriels"
 msgstr "Tutorials"
 
-#: ../../services/rss.md:41
+#: ../../services/rss.md:53
+#, fuzzy
+#| msgid ""
+#| "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du "
+#| "service RSS de CLUB1."
 msgid ""
-"Ci-dessous, une petite liste de tutoriels pour profiter au mieux du service "
-"RSS de CLUB1."
+"Ci-dessous, une petite liste de tutoriels pour profiter au mieux des flux "
+"Web."
 msgstr ""
 "Below is a small list of tutorials to get the most out of CLUB1's RSS "
 "service."
 
-#: ../../services/rss.md:50
+#: ../../services/rss.md:62
+#, fuzzy
+#| msgid ""
+#| "{term}`Agrégateur de flux` supportant {term}`RSS` et ATOM. Il fournit un "
+#| "{term}`serveur` se chargeant de relever régulièrement les flux, un {term}"
+#| "`client Web` pour les consulter dans un navigateur et une {term}`API` "
+#| "pour s'y connecter avec une application native. Il est souvent abrégé "
+#| "TTRSS. --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), "
+#| "[Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 msgid ""
-"{term}`Agrégateur de flux` supportant {term}`RSS` et ATOM. Il fournit un "
-"{term}`serveur` se chargeant de relever régulièrement les flux, un {term}"
-"`client Web` pour les consulter dans un navigateur et une {term}`API` pour "
-"s'y connecter avec une application native. Il est souvent abrégé TTRSS. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), [Sources](https://"
-"git.tt-rss.org/fox/tt-rss.git)"
+"{term}`Agrégateur de flux` supportant {term}`RSS` et {term}`Atom`. Il "
+"fournit un {term}`serveur` se chargeant de relever régulièrement les flux, "
+"un {term}`client Web` pour les consulter dans un navigateur et une {term}"
+"`API` pour s'y connecter avec une application native. Il est souvent abrégé "
+"TTRSS. --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), "
+"[Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 msgstr ""
 "{term}`Feed aggregator` supporting {term}`RSS` and ATOM. It provides a {term}"
 "`server` to collect feeds regularly, a {term}`web client` to view them in a "
@@ -2875,9 +2914,9 @@ msgid ""
 "via {term}`PHP-FPM`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "PhpMyAdmin), [Sources](https://github.com/phpmyadmin/phpmyadmin)"
 msgstr ""
-"{term}`Web` interface for managing {term}`SQL` databases written in "
-"{term}`PHP`. At CLUB1, phpMyAdmin is directly served by {term}`Nginx` via "
-"{term}`PHP-FPM`. --- [Wikipedia](https://en.wikipedia.org/wiki/PhpMyAdmin), "
+"{term}`Web` interface for managing {term}`SQL` databases written in {term}"
+"`PHP`. At CLUB1, phpMyAdmin is directly served by {term}`Nginx` via {term}"
+"`PHP-FPM`. --- [Wikipedia](https://en.wikipedia.org/wiki/PhpMyAdmin), "
 "[Sources](https://github.com/phpmyadmin/phpmyadmin)"
 
 #: ../../services/ssh.md:1
@@ -2923,70 +2962,47 @@ msgstr ""
 "same name. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Secure_copy_protocol)"
 
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:26
+#, fuzzy
+#| msgid ""
+#| "La première connexion est critique car c'est lors de celle-ci que se fait "
+#| "l'échange des clés. Pour éviter de subir une [attaque de l'homme du "
+#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
+#| "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgid ""
-"Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
-"logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre de "
-"terminal (powershell sur windows)."
-msgstr ""
-"In this section {term}`OpenSSH` will be used. As this software suite is in "
-"*command-line*, it is necessary to open a terminal window (powershell on "
-"windows)."
-
-#: ../../services/ssh.md:29
-msgid "Avant de se connecter pour le première fois"
-msgstr "Before the first connection"
-
-#: ../../services/ssh.md:32
-msgid ""
-"La première connexion est critique car c'est lors de celle-ci que se fait "
-"l'échange des clés. Pour éviter de subir une [attaque de l'homme du milieu]"
-"(https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il nous faut "
-"être sûr d'avoir reçu la bonne clé lors de cet échange."
+"La première connexion est **critique** car c'est lors de celle-ci que se "
+"fait l'**échange des clés**. Pour éviter de subir une [attaque de l'homme du "
+"milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
+"nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
 "The first connection is critical because the key exchange takes place at "
 "this moment. To avoid a [man-in-the-middle attack](https://en.wikipedia.org/"
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../services/ssh.md:37
+#: ../../services/ssh.md:31
 msgid ""
-"Pour résoudre ce problème, OpenSSH affiche un avertissement contenant "
-"l'empreinte de la clé reçue :"
+"Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, [ce "
+"tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgstr ""
-"To solve this problem, OpenSSH shows a warning containing the fingerprint of "
-"the received key:"
 
-#: ../../services/ssh.md:44
-msgid ""
-"Ce n'est pas idéal car il faut comparer manuellement l'empreinte de "
-"l'avertissement avec celle fournie par l'administrateur. À la place, il est "
-"préférable d'ajouter la clé avant le première connexion avec la commande "
-"suivante :"
-msgstr ""
-"This is not ideal as the user must manually compare the fingerprint of the "
-"warning with the one provided by the admin. So instead, it is preferable to "
-"add the key before the first connection using the following command:"
-
-#: ../../services/ssh.md:53
-msgid ""
-"Si pour une quelconque raison la comparaison manuelle est préférée, "
-"l'empreinte de l'exemple ci-dessus est effectivement celle de club1.fr."
-msgstr ""
-"If for some reason the manual comparison is preferred, the fingerprint in "
-"the above example is indeed the fingerprint of club1.fr."
-
-#: ../../services/ssh.md:57
+#: ../../services/ssh.md:35
 msgid "Se connecter"
 msgstr "Connection"
 
-#: ../../services/ssh.md:60
+#: ../../services/ssh.md:38
+#, fuzzy
+#| msgid ""
+#| "Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie "
+#| "précédente](#avant-de-se-connecter-pour-le-première-fois). Il existe "
+#| "ensuite deux manières de s'authentifier lors d'une connexion SSH. La plus "
+#| "simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
+#| "elle est en revanche moins sécurisée que l'utilisation d'une [clé "
+#| "publique](#sauthentifier-avec-une-clé-publique)."
 msgid ""
-"Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie "
-"précédente](#avant-de-se-connecter-pour-le-première-fois). Il existe ensuite "
-"deux manières de s'authentifier lors d'une connexion SSH. La plus simple est "
-"d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), elle est en "
-"revanche moins sécurisée que l'utilisation d'une [clé publique]"
+"Il existe deux manières de s'authentifier lors d'une connexion SSH. La plus "
+"simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
+"elle est en revanche moins sécurisée que l'utilisation d'une [clé publique]"
 "(#sauthentifier-avec-une-clé-publique)."
 msgstr ""
 "First, make sure you've followed the instructions in the [previous part]"
@@ -2995,11 +3011,11 @@ msgstr ""
 "(#sauthentifier-par-mot-de-passe), however it is less secure than using a "
 "[public key](#sauthentifier-avec-une-clé-publique)."
 
-#: ../../services/ssh.md:66
+#: ../../services/ssh.md:43
 msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
-#: ../../services/ssh.md:68
+#: ../../services/ssh.md:45 ../../tutos/premiere-connexion-ssh.md:18
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter "
 "(remplacer `<login>` par votre **identifiant** CLUB1) :"
@@ -3007,7 +3023,7 @@ msgstr ""
 "We use the following command in the terminal to connect (replace `<login>` "
 "with your CLUB1 **login**):"
 
-#: ../../services/ssh.md:73
+#: ../../services/ssh.md:50
 msgid ""
 "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
 "mot de passe ne s'affiche pas au moment de l'écriture)."
@@ -3015,11 +3031,11 @@ msgstr ""
 "You must then enter your CLUB1 **password** (it is normal that the password "
 "is not displayed at the time of writing)."
 
-#: ../../services/ssh.md:76
+#: ../../services/ssh.md:53
 msgid "S'authentifier avec une clé publique"
 msgstr "Authenticate with a public key"
 
-#: ../../services/ssh.md:78
+#: ../../services/ssh.md:55
 msgid ""
 "L'authentification par clé publique nécessite une paire de clé de "
 "chiffrement. Pour créer ces clés, on utilise la commande ci-dessous. Une "
@@ -3034,7 +3050,7 @@ msgstr ""
 "keys will be automatically unlocked when opening a session, so do not "
 "hesitate to choose a long passphrase."
 
-#: ../../services/ssh.md:87
+#: ../../services/ssh.md:64
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
@@ -3046,7 +3062,7 @@ msgstr ""
 "`<login>` with your CLUB1 **login**). It will ask you to enter you CLUB1 "
 "**password** to work."
 
-#: ../../services/ssh.md:94
+#: ../../services/ssh.md:71
 msgid ""
 "Finalement, on utilise toujours la même commande pour se connecter. Mais "
 "cette fois c'est les clés qui seront utilisées. Si elles ne sont pas déjà "
@@ -3056,11 +3072,11 @@ msgstr ""
 "keys that will be used. If they are not already unlocked, the _passphrase_ "
 "will be prompted."
 
-#: ../../services/ssh.md:52
+#: ../../services/ssh.md:25
 msgid "`22` (par défaut)"
 msgstr "`22` (default)"
 
-#: ../../services/ssh.md:113
+#: ../../services/ssh.md:90
 msgid ""
 "Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}"
 "`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
@@ -3182,11 +3198,17 @@ msgstr ""
 "it contains."
 
 #: ../../services/web.md:61
+#, fuzzy
+#| msgid ""
+#| "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
+#| "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter "
+#| "un fichier caché de configuration Apache `.htaccess` contenant au moins "
+#| "la ligne suivante."
 msgid ""
 "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
 "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
-"fichier caché de configuration Apache `.htaccess` contenant au moins la "
-"ligne suivante."
+"{term}`fichier caché` de configuration Apache `.htaccess` contenant au moins "
+"la ligne suivante."
 msgstr ""
 "To avoid displaying this index, it is possible either to create an `index."
 "html` file which will contain the page to be displayed instead, or to add a "
@@ -3448,8 +3470,8 @@ msgid ""
 "[Sources](https://github.com/apache/httpd)"
 msgstr ""
 "At CLUB1, the Apache server is behind the \"reverse proxy\" {term}`Nginx`. "
-"--- [Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server), "
-"[Sources](https://github.com/apache/httpd)"
+"--- [Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server), [Sources]"
+"(https://github.com/apache/httpd)"
 
 #: ../../services/web.md:228
 msgid ""
@@ -3798,18 +3820,28 @@ msgid "Utiliser Tiny tiny RSS"
 msgstr "Using Tiny tiny RSS"
 
 #: ../../tutos/flux-rss.md:4
+#, fuzzy
+#| msgid ""
+#| "Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1]"
+#| "(/services/rss.md)."
 msgid ""
-"Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1](/"
+"Ce tutoriel explique comment utiliser [l'agrégateur de flux Web de CLUB1](/"
 "services/rss.md)."
 msgstr ""
 "This tutorial explains how to use [CLUB1's RSS feed aggregator](/services/"
 "rss.md)."
 
 #: ../../tutos/flux-rss.md:6
+#, fuzzy
+#| msgid ""
+#| "Cet {term}`agrégateur de flux` {term}`RSS` permet de \"s'abonner\" à de "
+#| "multiples sites web, pour recevoir des notifications lorsqu'un nouvel "
+#| "article est posté et pour tous les consulter dans un fil d'actualités "
+#| "commun."
 msgid ""
-"Cet {term}`agrégateur de flux` {term}`RSS` permet de \"s'abonner\" à de "
-"multiples sites web, pour recevoir des notifications lorsqu'un nouvel "
-"article est posté et pour tous les consulter dans un fil d'actualités commun."
+"Cet {term}`agrégateur de flux` permet de \"s'abonner\" à de multiples sites "
+"web, pour recevoir des notifications lorsqu'un nouvel article est posté et "
+"pour tous les consulter dans un fil d'actualités commun."
 msgstr ""
 "This {term}`RSS` {term}`feed aggregator` allows you to \"subscribe\" to "
 "multiple websites, in order to receive notifications when a new article is "
@@ -3870,16 +3902,16 @@ msgstr "menu screenshot"
 
 #: ../../tutos/flux-rss.md:31
 msgid ""
-"Entrez l'url du site dont vous voulez obtenir le flux RSS, par exemple ici "
-"le blog de Fred Turner. Si vous avez créé des catégories, vous pouvez en "
-"sélectionner une pour trier votre flux (c'est possible de le faire plus "
-"tard) puis cliquez sur `S'abonner`."
+"Entrez l'url du site dont vous voulez obtenir le {term}`flux de nouvelles`, "
+"par exemple ici le blog de Fred Turner. Si vous avez créé des catégories, "
+"vous pouvez en sélectionner une pour trier votre flux (c'est possible de le "
+"faire plus tard) puis cliquez sur `S'abonner`."
 msgstr ""
 
 #: ../../tutos/flux-rss.md:36
 msgid ""
-"Il est possible qu'un site ne propose pas de flux RSS, dans ce cas il ne "
-"sera malheureusement pas possible de s'y abonner."
+"Il est possible qu'un site ne propose pas de flux de nouvelles, dans ce cas "
+"il ne sera malheureusement pas possible de s'y abonner."
 msgstr ""
 
 #: ../../tutos/flux-rss.md:40
@@ -4393,6 +4425,353 @@ msgid ""
 "web à chaque essais, que l'on fait en local, mais plutôt à chaque fois que "
 "l'on est satisfait de ses modifications."
 msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:1
+#, fuzzy
+#| msgid "Fenêtre de connexion."
+msgid "Première connexion SSH"
+msgstr "Connection window."
+
+#: ../../tutos/premiere-connexion-ssh.md:4
+msgid ""
+"Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
+"première fois en SSH de manière **sécurisée**."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:8
+#, fuzzy
+#| msgid "Connexion initiale"
+msgid "Connexion avec le terminal"
+msgstr "Initial connection"
+
+#: ../../tutos/premiere-connexion-ssh.md:11
+#, fuzzy
+#| msgid ""
+#| "Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
+#| "logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre "
+#| "de terminal (powershell sur windows)."
+msgid ""
+"Pour effectuer cette connexion SSH nous allons utiliser {term}`OpenSSH`. Ce "
+"logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
+"fenêtre de **terminal** (`cmd` sur windows) ! 🥵"
+msgstr ""
+"In this section {term}`OpenSSH` will be used. As this software suite is in "
+"*command-line*, it is necessary to open a terminal window (powershell on "
+"windows)."
+
+#: ../../tutos/premiere-connexion-ssh.md:15
+msgid ""
+"Ne vous laissez pas impressionner par son interface déroutante, c'est un "
+"outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
+"l'informatique ! 🧙"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:24
+msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le temrinal."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:27
+msgid "Vous devriez voir s'afficher le message suivant :"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:33
+msgid "😱 Houla ! Qu'est ce que c'est que ça ??"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:35
+msgid ""
+"En fait, c'est normal, {term}`OpenSSH` nous averti que l'authentification de "
+"la connexion n'est pas garantie car votre appareil ne connaît pas *encore* "
+"ce serveur."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:38
+#, fuzzy
+#| msgid ""
+#| "La première connexion est critique car c'est lors de celle-ci que se fait "
+#| "l'échange des clés. Pour éviter de subir une [attaque de l'homme du "
+#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
+#| "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
+msgid ""
+"En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
+"milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu). Nous "
+"allons donc répondre `no` pour le moment."
+msgstr ""
+"The first connection is critical because the key exchange takes place at "
+"this moment. To avoid a [man-in-the-middle attack](https://en.wikipedia.org/"
+"wiki/Man-in-the-middle_attack) we have to make sure that we received the "
+"correct key during this exchange."
+
+#: ../../tutos/premiere-connexion-ssh.md:41
+msgid "La confiance règne"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:44
+msgid ""
+"Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1. "
+"Cela permet de garantir l'authenticité des réponses du serveur et "
+"d'initialiser une connexion chiffrée. De cette manière on est certains que "
+"l'on a bien affaire au serveur de CLUB1."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:48
+msgid ""
+"Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut "
+"l'acquérir par une autre source que la connexion SSH elle-même au cas où "
+"celle-ci serait compromise 😮."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:52
+msgid ""
+"🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle "
+"aussi compromise ?"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:54
+msgid ""
+"La source de la clef que nous allons utiliser provient du {term}`Web`, à "
+"travers une connexion chiffrée et **authentifié** via {term}`TLS` 🔒 (C'est "
+"le fameux `s` dans `https`)."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:59
+msgid "Fichier `known_hosts`"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:62
+msgid ""
+"Concrètement, cela consiste à ajouter une ligne de texte contenant la clef "
+"🔑, à un fichier sur votre appareil. Ce fichier s'appellera `known_hosts`, "
+"*serveurs connus*. Il devra se trouver dans un dossier `.ssh`, lui-même au "
+"sein de votre espace personnel sur votre appareil."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:69
+msgid ""
+"Le dossier correspondant à votre espace personnel porte généralement le nom "
+"de votre utilisateur sur cet appareil."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:80
+msgid ""
+"Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la "
+"tentative de connexion SSH."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:82
+msgid ""
+"Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
+"fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:89
+msgid ""
+"Si tout s'est bien passé, le fichier `known_hosts` doit maintenant contenir "
+"une ligne contenant la clef."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:92
+#, fuzzy
+#| msgid ""
+#| "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
+#| "mot de passe ne s'affiche pas au moment de l'écriture)."
+msgid ""
+"Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
+"terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
+"**mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas "
+"au moment de l'écriture 🤫)."
+msgstr ""
+"You must then enter your CLUB1 **password** (it is normal that the password "
+"is not displayed at the time of writing)."
+
+#: ../../tutos/premiere-connexion-ssh.md:97
+#, fuzzy
+#| msgid "c'est le serveur."
+msgid "Dans le serveur"
+msgstr "it's the server."
+
+#: ../../tutos/premiere-connexion-ssh.md:100
+msgid ""
+"Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
+"C'est un accès privilégié, car c'est celui qui vous donne le plus de "
+"libertés d'interactions avec le serveur."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:104
+msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:106
+msgid "`passwd`"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:108
+msgid ""
+"Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
+"connexion à tout les [services](/services/index.md))."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:111
+msgid "`htop`"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:113
+msgid ""
+"Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
+"les ressources sont utilisées. Pressez la touche {kbd}`q` pour quitter."
+msgstr ""
+
+#: ../../tutos/presentation.md:1
+#, fuzzy
+#| msgid "Fichier de présentation"
+msgid "Éditer son fichier de présentation"
+msgstr "Presentation file"
+
+#: ../../tutos/presentation.md:4
+msgid "Un fichier pour se présenter"
+msgstr "A file to introduce yourself"
+
+#: ../../tutos/presentation.md:6
+#, fuzzy
+#| msgid ""
+#| "Votre *home* peut également servir à vous présenter. Pour se faire, vous "
+#| "pouvez y ajouter, *à la racine* un fichier s'appellant :"
+msgid ""
+"Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter. Pour "
+"se faire, vous pouvez y ajouter, *à la racine* un fichier s'appellant :"
+msgstr ""
+"Your *home* can also be used to introduce yourself. To do this, you can add "
+"to it, *at the root* a file called:"
+
+#: ../../tutos/presentation.md:11
+msgid ""
+"Tout ce que vous écrirez dans ce fichier sera visible sur la page [membres]"
+"(https://club1.fr/membres) du site web de CLUB1."
+msgstr ""
+"Everything you write in this file will be visible on the [members](https://"
+"club1.fr/membres) page of the CLUB1 website."
+
+#: ../../tutos/presentation.md:14
+msgid ""
+"Libre à vous d'utiliser le {term}`Markdown` pour pimenter votre "
+"présentation ! N'hésitez pas à mettre des liens vers vos projets web, ça "
+"permettra aux membres et visiteurs de les découvrir 🔎️."
+msgstr ""
+"Feel free to use {term}`Markdown` to spice up your presentation! Don't "
+"hesitate to put links to your web projects, it will allow members and "
+"visitors to discover them 🔎️."
+
+#: ../../tutos/presentation.md:22
+#, fuzzy
+#| msgid ""
+#| "Pour aller toujours plus loin dans la personnalisation, il est possible "
+#| "de modifier certains paramètres d'affichage. Notamment, votre __nom "
+#| "d'affichage__ et la __couleur__ de votre bouton."
+msgid ""
+"Pour aller plus loin dans la personnalisation, il est possible de modifier "
+"certains paramètres d'affichage. Notamment, votre __nom d'affichage__ et la "
+"__couleur__ de votre bouton."
+msgstr ""
+"To go even further in customization, it is possible to modify some display "
+"settings. These include your __display name__ and the __color__ of your "
+"button."
+
+#: ../../tutos/presentation.md:26
+msgid ""
+"Pour cela il faudra ajouter quelques ligne au début votre fichier "
+"`PRESENTATION.md`."
+msgstr ""
+"To do this, you will need to add a few lines at the beginning of your "
+"`PRESENTATION.md` file."
+
+#: ../../tutos/presentation.md:37
+#, fuzzy
+#| msgid ""
+#| "Le formatage est simple, il faut juste respecter les trois tirets au "
+#| "début et à la fin de la zone de métadonnées. Ensuite vous pouvez définir "
+#| "un ou plusieurs paramètres. Pour info, cette syntaxe *plus ou moins "
+#| "standard* s'appelle [Front Matter](https://jekyllrb.com/docs/front-"
+#| "matter/)."
+msgid ""
+"Le formatage est simple, il faut juste respecter les trois tirets au début "
+"et à la fin de la zone de métadonnées. Ensuite vous pouvez définir un ou "
+"plusieurs paramètres."
+msgstr ""
+"The formatting is simple, you just have to respect the three dashes at the "
+"beginning and at the end of the metadata area. Then you can define one or "
+"more parameters. For your information, this *more or less standard* syntax "
+"is called [Front Matter](https://jekyllrb.com/docs/front-matter/)."
+
+#: ../../tutos/presentation.md:42
+msgid ""
+"Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter]"
+"(https://jekyllrb.com/docs/front-matter/)."
+msgstr ""
+
+#: ../../tutos/presentation.md:46
+msgid ""
+"Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo "
+"avec une ligne de texte libre. Profitez-en car c'est possible de mettre "
+"majuscule, minuscule et certains caractères spéciaux (même des Emoji 😉). Si "
+"vous omettez ce champ, votre identifiant CLUB1 sera affiché."
+msgstr ""
+"For the `name` parameter, this is where you can choose your nickname with a "
+"free line of text. Take advantage of it because it is possible to put "
+"uppercase, lowercase and some special characters (even Emoji 😉). If you "
+"omit this field, your CLUB1 username will be displayed."
+
+#: ../../tutos/presentation.md:49
+msgid ""
+"Pour le paramètre `color`, vous devez utiliser une [couleur du web](https://"
+"fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0)."
+msgstr ""
+"For the `color` parameter, you must use a [web color](https://en.wikipedia."
+"org/wiki/Web_colors#HTML_color_names)."
+
+#: ../../tutos/presentation.md:53
+msgid ""
+"Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__ "
+"et être __entouré de guillemets__ (par exemple : `color: \"#F87716\"`)."
+msgstr ""
+"If you put in a color code, it should start with a __hash `#`__ and be "
+"__surrounded by quotation marks__ (e.g. `color: \"#F87716\"`)."
+
+#: ../../tutos/presentation.md:59
+msgid "Faire un lien vers son profil"
+msgstr "Create a link to your profile"
+
+#: ../../tutos/presentation.md:62
+#, fuzzy
+#| msgid ""
+#| "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
+#| "possible de la partager facilement. Il vous suffit de faire un lien "
+#| "ciblant spécifiquement votre présentation. Pour cela on utilise un "
+#| "[identificateur de fragment](https://fr.wikipedia.org/wiki/"
+#| "Identificateur_de_fragment) utilisant votre identifiant CLUB1."
+msgid ""
+"Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
+"possible de la partager facilement. Il vous suffit de faire un lien ciblant "
+"spécifiquement votre présentation. Pour cela on utilise un [identificateur "
+"de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment) "
+"utilisant votre identifiant CLUB1 (`#` + votre nom d'utilisateur&middot;"
+"trice)."
+msgstr ""
+"If you are satisfied with your superb presentation, it is possible to share "
+"it easily. You just need to make a link specifically targeting your "
+"presentation. For this we use an [URI fragment](https://en.wikipedia.org/"
+"wiki/URI_fragment) using your CLUB1 username."
+
+#: ../../tutos/presentation.md:68
+#, fuzzy
+#| msgid ""
+#| "Par exemple, l'adresse suivante ouvrira directement la présentation du "
+#| "membres `vincent` :"
+msgid ""
+"Par exemple, l'adresse suivante ouvrira directement la présentation du "
+"membre `vincent` :"
+msgstr ""
+"For example, the following address will directly open the presentation of "
+"member `vincent`:"
 
 #: ../../tutos/webdav-android.md:1
 msgid "Synchronisation de calendriers et contacts sur un appareil Android"
