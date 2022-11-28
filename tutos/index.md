@@ -12,6 +12,7 @@ presentation
 webdav-android
 caldav-mac
 connexion-linux
+premiere-connexion-ssh
 webdav-mac
 mes-premiers-pas-sur-le-web
 flux-rss

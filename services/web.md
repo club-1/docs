@@ -60,7 +60,7 @@ des fichiers et dossiers qu'il contient.
 
 Pour ne pas afficher cet index, il est possible soit de créer un fichier
 `index.html` qui contiendra la page à afficher à la place, soit d'ajouter
-un fichier caché de configuration Apache `.htaccess` contenant au moins la
+un {term}`fichier caché` de configuration Apache `.htaccess` contenant au moins la
 ligne suivante.
 
 ```apache
