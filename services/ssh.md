@@ -22,6 +22,9 @@ SCP
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
 ```
 
+Se connecter
+------------
+
 ```{warning}
 La première connexion est **critique** car c'est lors de celle-ci que se fait
 l'**échange des clés**. Pour éviter de subir une
@@ -31,9 +34,6 @@ il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
 Si vous ne savez pas comment ajouter la clé du serveur à votre appareil,
 [ce tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !
 ```
-
-Se connecter
-------------
 
 Il existe deux manières de s'authentifier lors d'une connexion SSH.
 La plus simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe),
