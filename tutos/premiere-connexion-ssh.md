@@ -110,5 +110,5 @@ Permet de changer son mot de passe CLUB1
 
 ### `htop`
 
-Permet de voir ce qui se passe sur le serveur en se moment et à quel point les ressources sont utilisés.
+Permet de voir ce qui se passe sur le serveur en ce moment et à quel point les ressources sont utilisées.
 Pressez la touche {kbd}`q` pour quitter.
