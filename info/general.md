@@ -98,10 +98,15 @@ assurée.
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
 Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/).
 Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
-dont un dépôt off-site offert par Etienne Le Louët (hébergé chez OVH).
+dont un dépôt off-site offert par Etienne Le Louët (serveur OMV auto-hébergé à Paris).
 
-Il s'agit de sauvegardes incrémentales avec une période de rétention d'une semaine.
-Il y a donc en permanence 7 jours d'historique disponible.
+Il s'agit de sauvegardes incrémentales avec la politique de rétention suivante :
+
+- 7 sauvegardes journalières
+- 4 sauvegardes hebdomadaires
+
+La plus ancienne sauvegarde conservée date donc d'environ 1 mois
+et chacun des jours de la dernière semaine est accessible.
 En cas de défaillance matérielle, au maximum 24h de données seront perdues.
 Le bon déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://healthchecks.io/)
 
