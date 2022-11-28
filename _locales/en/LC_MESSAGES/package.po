@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-11-28 15:41+0100\n"
-"PO-Revision-Date: 2022-11-09 22:48+0000\n"
+"PO-Revision-Date: 2022-11-28 15:27+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -568,23 +568,16 @@ msgstr ""
 "using {term}`Git`."
 
 #: ../../glossaire.md:64
-#, fuzzy
-#| msgid ""
-#| "Contrairement à la plupart des projets que l'on peut y trouver, Github "
-#| "n'est ni **libre**, ni **open source** et appartient à Microsoft. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
 "ni **libre**, ni **open source** et appartient à Microsoft."
 msgstr ""
 "Unlike most of the projects that can be found there, Github is neither "
-"**libre**, nor **open source** and belongs to Microsoft. --- [Wikipedia]"
-"(https://en.wikipedia.org/wiki/GitHub)"
+"**libre**, nor **open source** and belongs to Microsoft."
 
 #: ../../glossaire.md:68
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
-
 
 #: ../../glossaire.md:71
 msgid ""
@@ -780,15 +773,6 @@ msgstr ""
 "`mail` 🤯 ."
 
 #: ../../info/espace-personnel.md:18
-#, fuzzy
-#| msgid ""
-#| "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
-#| "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
-#| "voisins. En effet, __il n'y a pas de limite de stockage définie__ par "
-#| "dossier `home` de chaque membres, mais par contre, une limite physique : "
-#| "Tout ces dossiers sont sur un support de stockage SSD totalisant __1To__. "
-#| "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s "
-#| "du serveur."
 msgid ""
 "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
 "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
@@ -799,10 +783,10 @@ msgid ""
 "serveur."
 msgstr ""
 "Yep, with great power comes great responsibility... 😏 You can do whatever "
-"you want there, but as your home there are also neighbors. Indeed, __there "
-"is no storage limit defined__ per folder `home` of each member, but on the "
+"you want there, but as your home there are also neighbors. Indeed, **there "
+"is no storage limit defined** per folder `home` of each member, but on the "
 "other hand, a physical limit: All these folders are on a SSD storage medium "
-"totaling __1To__. This is a common space to be shared between users of the "
+"totaling **1To**. This is a common space to be shared between users of the "
 "server."
 
 #: ../../info/espace-personnel.md:26
@@ -919,11 +903,6 @@ msgid "Demandes et Incidents"
 msgstr "Requests and problems"
 
 #: ../../info/general.md:11
-#, fuzzy
-#| msgid ""
-#| "Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou "
-#| "que vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! "
-#| "Vous pouvez, selon vos préférences :"
 msgid ""
 "Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou que "
 "vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous êtes "
@@ -932,8 +911,10 @@ msgid ""
 "cas, vous pouvez, selon vos préférences :"
 msgstr ""
 "If you find a bug 🐛, a service seems to be unavailable 😵 or you have a "
-"suggestion 💡, don't hesitate to let us know! You can, according to your "
-"preferences:"
+"suggestion 💡, don't hesitate to let us know! You are first invited to "
+"explore the [forum](https://forum.club1.fr) 🔍, to check that the subject "
+"has not already been discussed. If this is not the case, you can, according "
+"to your preferences:"
 
 #: ../../info/general.md:17
 msgid ""
@@ -942,23 +923,16 @@ msgid ""
 msgstr ""
 
 #: ../../info/general.md:18
-#, fuzzy
-#| msgid "envoyer un email à <contact@club1.fr>"
 msgid "Envoyer un email à <contact@club1.fr>"
-msgstr "send an email to <contact@club1.fr>"
+msgstr "Send an email to <contact@club1.fr>"
 
 #: ../../info/general.md:19
-#, fuzzy
-#| msgid ""
-#| "en discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1."
-#| "fr`. Des salons plus spécifiques sont dédiés au site web et à la doc. Ils "
-#| "sont répertoriés au sein de l'espace `#le-club:club1.fr`."
 msgid ""
 "En discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
 "Des salons plus spécifiques sont dédiés au site web et à la doc. Ils sont "
 "répertoriés au sein de l'espace `#le-club:club1.fr`."
 msgstr ""
-"discuss it on [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
+"Discuss it on [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`. "
 "More specific rooms are dedicated to the website and the doc. They are "
 "listed within the `#le-club:club1.fr` space."
 
@@ -1088,13 +1062,6 @@ msgid "Sauvegardes"
 msgstr "Backups"
 
 #: ../../info/general.md:98
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup."
-#| "org/). Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
-#| "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
-#| "(hébergé chez OVH)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
@@ -1105,7 +1072,7 @@ msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
 "[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
 "and encrypted manner in several places including an off-site repository "
-"offered by Etienne Le Louët (hosted by OVH)."
+"offered by Etienne Le Louët (self-hosted OMV server in Paris)."
 
 #: ../../info/general.md:103
 msgid ""
@@ -1122,13 +1089,6 @@ msgid "4 sauvegardes hebdomadaires"
 msgstr ""
 
 #: ../../info/general.md:108
-#, fuzzy
-#| msgid ""
-#| "Il s'agit de sauvegardes incrémentales avec une période de rétention "
-#| "d'une semaine. Il y a donc en permanence 7 jours d'historique disponible. "
-#| "En cas de défaillance matérielle, au maximum 24h de données seront "
-#| "perdues. Le bon déroulement des sauvegardes est vérifié à l'aide du "
-#| "service [Healthchecks.io](https://healthchecks.io/)"
 msgid ""
 "La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
 "des jours de la dernière semaine est accessible. En cas de défaillance "
@@ -1136,11 +1096,10 @@ msgid ""
 "sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://"
 "healthchecks.io/)"
 msgstr ""
-"These are incremental backups with a retention period of one week. There is "
-"therefore permanently 7 days of history available. In case of hardware "
-"failure, a maximum of 24 hours of data will be lost. The successful "
-"completion of backups is verified using the [Healthchecks.io](https://"
-"healthchecks.io/) service"
+"The oldest backup kept is therefore about 1 month old and each day of the "
+"last week is accessible. In case of hardware failure, a maximum of 24 hours "
+"of data will be lost. The successful completion of backups is verified using "
+"the [Healthchecks.io](https://healthchecks.io/) service"
 
 #: ../../info/general.md:113
 msgid "Les sauvegardes sont réparties en deux groupes :"
@@ -1464,15 +1423,14 @@ msgstr "The command used to regenerate the database is:"
 
 #: ../../outils/index.md:1
 msgid "Outils"
-msgstr ""
+msgstr "Tools"
 
 #: ../../outils/index.md:4
-#, fuzzy
-#| msgid "Cette section comporte la documentation interne de CLUB1."
 msgid ""
 "Cette section comporte la documentation des différents outils utilisés par "
 "CLUB1."
-msgstr "This section contains the CLUB1's internal documentation."
+msgstr ""
+"This section contains the documentation of the various tools used by CLUB1."
 
 #: ../../outils/meta-doc.md:1
 msgid "Meta-documentation"
@@ -2197,7 +2155,7 @@ msgstr ""
 
 #: ../../services/email.md:105
 msgid "`.forward` est un {term}`fichier caché`."
-msgstr ""
+msgstr "`.forward` is a {term}`hidden file`."
 
 #: ../../services/email.md:108
 msgid ""
@@ -2699,27 +2657,18 @@ msgstr ""
 "connection."
 
 #: ../../services/rss.md:1
-#, fuzzy
-#| msgid "Agrégateur de flux"
 msgid "Agrégateur de flux de nouvelles"
-msgstr "Feed aggregator"
+msgstr "News feed aggregator"
 
 #: ../../services/rss.md:0
 msgid "Flux Web"
-msgstr ""
+msgstr "Web feed"
 
 #: ../../services/rss.md:1
 msgid "Flux de nouvelles"
-msgstr ""
+msgstr "News feed"
 
 #: ../../services/rss.md:7
-#, fuzzy
-#| msgid ""
-#| "(_Really Simple Syndication_) Format de données standardisé qui permet la "
-#| "consultation d'un site non pas par un humain mais par un logiciel. Il "
-#| "s'agit donc d'une forme d'{term}`API`. Les flux RSS sont des fichiers qui "
-#| "contiennent les derniers articles ou actualités publiées. Ils sont "
-#| "souvent utilisés par les sites d'actualité et les blogs."
 msgid ""
 "Format de données standardisé qui permet la consultation d'un site, non pas "
 "par un humain, mais par un logiciel. Il s'agit donc d'une forme d'{term}"
@@ -2727,29 +2676,37 @@ msgid ""
 "ou actualités publiées. Ils sont souvent utilisés par les sites d'actualité "
 "et les blogs."
 msgstr ""
-"(_Really Simple Syndication_) Standardized data format that allows the "
-"consultation of a site not by a human but by a software. It is therefore a "
-"form of {term}`API`. RSS feeds are files that contain the latest published "
-"articles or news. They are often used by news sites and blogs."
+"Standardized data format that allows the consultation of a site not by a "
+"human but by a software. It is therefore a form of {term}`API`. Web feeds "
+"are files that contain the latest published articles or news. They are often "
+"used by news sites and blogs."
 
 #: ../../services/rss.md:12
 msgid ""
 "Il existe plusieurs formats de flux Web, notamment {term}`Atom` et {term}"
 "`RSS` (plus ancien)."
 msgstr ""
+"There are several Web feed formats, including {term}`Atom` and {term}`RSS` "
+"(older)."
 
 #: ../../services/rss.md:14
 msgid ""
 "Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur de "
 "flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Flux_web)"
 msgstr ""
+"The software for viewing these feeds is called {term}`feed aggregator`. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Web_feed)"
 
 #: ../../services/rss.md:18
+#, fuzzy
 msgid ""
 "(_Really Simple Syndication_) Premier format de {term}`flux Web`. Il est "
 "plus ancien et moins strict que son concurrent {term}`Atom`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/RSS)"
 msgstr ""
+"(Really Simple Syndication) First {term}`Web feed` format. It is older and "
+"less strict than its competitor {term}`Atom`. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/RSS)"
 
 #: ../../services/rss.md:17
 msgid "Atom"
@@ -2761,19 +2718,15 @@ msgid ""
 "que son ancêtre {term}`RSS` et tend à le remplacer. --- [Wikipedia](https://"
 "fr.wikipedia.org/wiki/Atom_Syndication_Format)"
 msgstr ""
+"{term}`Web feed` format. It is stricter and better standardized than its "
+"ancestor {term}`RSS` and tends to replace it. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Atom_(web_standard))"
 
 #: ../../services/rss.md:22
 msgid "Agrégateur de flux"
 msgstr "Feed aggregator"
 
 #: ../../services/rss.md:28
-#, fuzzy
-#| msgid ""
-#| "Logiciel permettant de consulter les flux {term}`RSS`. Son but est "
-#| "d'agréger les nouveautés de différents sites dans un fil unique. Il "
-#| "permet d'éviter de regarder manuellement et un par un les sites dont on "
-#| "veut connaître les nouveaux contenus. --- [Wikipedia](https://fr."
-#| "wikipedia.org/wiki/Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgid ""
 "Logiciel permettant de consulter les {term}`flux Web`. Son but est d'agréger "
 "les nouveautés de différents sites dans un fil unique. Il permet d'éviter de "
@@ -2781,27 +2734,21 @@ msgid ""
 "nouveaux contenus. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgstr ""
-"Software for viewing {term}`RSS` feeds. Its purpose is to aggregate news "
+"Software for viewing {term}`Web feeds`. Its purpose is to aggregate news "
 "from different sites into a single feed. It allows you to avoid looking "
 "manually and one by one at the sites for which you want to know the new "
 "content. --- [Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
 
 #: ../../services/rss.md:34
-#, fuzzy
-#| msgid ""
-#| "Un agrégateur de flux RSS est fourni par {term}`Tiny Tiny RSS`. Il est "
-#| "accessible à travers le {term}`client Web` intégré se trouvant à "
-#| "l'adresse <https://rss.club1.fr>, mais il est également possible d'y "
-#| "connecter un client natif."
 msgid ""
 "Un agrégateur de flux de nouvelles est fourni par {term}`Tiny Tiny RSS`. Il "
 "est accessible à travers le {term}`client Web` intégré se trouvant à "
 "l'adresse <https://rss.club1.fr>, mais il est également possible d'y "
 "connecter un client natif."
 msgstr ""
-"An RSS feed aggregator is provided by {term}`Tiny Tiny RSS`. It is "
-"accessible through the integrated {term}`Web client` located at <https://rss."
-"club1.fr>, but it is also possible to connect a native client to it."
+"An news feed aggregator is provided by {term}`Tiny Tiny RSS`. It is "
+"accessible through the integrated {term}`Web client` located at <https://"
+"rss.club1.fr>, but it is also possible to connect a native client to it."
 
 #: ../../services/rss.md:39
 msgid "Se connecter avec un client natif"
@@ -2832,26 +2779,12 @@ msgid "Tutoriels"
 msgstr "Tutorials"
 
 #: ../../services/rss.md:53
-#, fuzzy
-#| msgid ""
-#| "Ci-dessous, une petite liste de tutoriels pour profiter au mieux du "
-#| "service RSS de CLUB1."
 msgid ""
 "Ci-dessous, une petite liste de tutoriels pour profiter au mieux des flux "
 "Web."
-msgstr ""
-"Below is a small list of tutorials to get the most out of CLUB1's RSS "
-"service."
+msgstr "Below is a small list of tutorials to get the most out of Web feeds."
 
 #: ../../services/rss.md:62
-#, fuzzy
-#| msgid ""
-#| "{term}`Agrégateur de flux` supportant {term}`RSS` et ATOM. Il fournit un "
-#| "{term}`serveur` se chargeant de relever régulièrement les flux, un {term}"
-#| "`client Web` pour les consulter dans un navigateur et une {term}`API` "
-#| "pour s'y connecter avec une application native. Il est souvent abrégé "
-#| "TTRSS. --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), "
-#| "[Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 msgid ""
 "{term}`Agrégateur de flux` supportant {term}`RSS` et {term}`Atom`. Il "
 "fournit un {term}`serveur` se chargeant de relever régulièrement les flux, "
@@ -2860,22 +2793,26 @@ msgid ""
 "TTRSS. --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS), "
 "[Sources](https://git.tt-rss.org/fox/tt-rss.git)"
 msgstr ""
-"{term}`Feed aggregator` supporting {term}`RSS` and ATOM. It provides a {term}"
-"`server` to collect feeds regularly, a {term}`web client` to view them in a "
-"browser and an {term}`API` to connect to it with a native application. It is "
-"often abbreviated TTRSS. --- [Wikipedia](https://en.wikipedia.org/wiki/"
-"Tiny_Tiny_RSS), [Sources](https://git.tt-rss.org/fox/tt-rss.git)"
+"{term}`Feed aggregator` supporting {term}`RSS` and {term}`Atom`. It provides "
+"a {term}`server` to collect feeds regularly, a {term}`web client` to view "
+"them in a browser and an {term}`API` to connect to it with a native "
+"application. It is often abbreviated TTRSS. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Tiny_Tiny_RSS), [Sources](https://git.tt-rss.org/fox/tt-"
+"rss.git)"
 
 #: ../../services/sql.md:1
 msgid "Bases de données SQL"
 msgstr "SQL databases"
 
 #: ../../services/sql.md:6
+#, fuzzy
 msgid ""
 "(_Structured Query Language_) Langage informatique permettant de chercher "
 "des informations dans une base de données relationnelle. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Structured_Query_Language)"
 msgstr ""
+"(Structured Query Language) A computer language for searching information in "
+"a relational database. --- [Wikipedia](https://en.wikipedia.org/wiki/SQL)"
 
 #: ../../services/sql.md:11
 msgid ""
@@ -2985,6 +2922,8 @@ msgid ""
 "Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, [ce "
 "tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgstr ""
+"If you don't know how to add the server key to your device, [this tutorial](/"
+"tutos/premiere-connexion-ssh.md) is for you!"
 
 #: ../../services/ssh.md:35
 msgid "Se connecter"
@@ -3095,6 +3034,8 @@ msgid ""
 "L'hébergement de site web est historiquement le **premier service** mis à la "
 "disposition des membres de CLUB1."
 msgstr ""
+"Website hosting is historically the **first service** made available to "
+"CLUB1 members."
 
 #: ../../services/web.md:7
 msgid ""
@@ -3102,10 +3043,14 @@ msgid ""
 "membre CLUB1 **ne limite pas à un seul site web** ! Il n'y a pas de limite "
 "au nombre de projet web à héberger tant que ça ne sature pas le serveur 😄."
 msgstr ""
+"The freedom to experiment is at the heart of CLUB1's principles: A CLUB1 "
+"member account **is not limited to a single website**! There is no limit to "
+"the number of web projects to host as long as it does not saturate the "
+"server 😄."
 
 #: ../../services/web.md:14
 msgid "Types de sites"
-msgstr ""
+msgstr "Types of sites"
 
 #: ../../services/web.md:18
 msgid ""
@@ -3131,6 +3076,10 @@ msgid ""
 "sont une voie intéressante pour qui cherche à proposer des sites plus sobres "
 "énergétiquement."
 msgstr ""
+"This type of website consists only of files that the server will serve based "
+"on requests. It requires almost no \"work\" from the processor because there "
+"is no calculation to perform. Static sites are an interesting way for anyone "
+"looking to offer more energy-efficient sites."
 
 #: ../../services/web.md:29
 msgid ""
@@ -3139,6 +3088,10 @@ msgid ""
 "de faire un site web. Elle garantie des styles uniques et originaux et est "
 "très efficace pour apprendre comment fonctionne le web."
 msgstr ""
+"To create a static website, you can write HTML code yourself, associated "
+"with images, sounds or videos. This is the most artisanal way to make a "
+"website. It guarantees unique and original styles and is very efficient to "
+"learn how the web works."
 
 #: ../../services/web.md:35
 msgid ""
@@ -3152,6 +3105,8 @@ msgid ""
 "Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), recueille des "
 "sites \"fait à la mains\"."
 msgstr ""
+"The site [Gossip's Web](https://gossipsweb.net/), collects \"handmade\" "
+"sites."
 
 #: ../../services/web.md:41
 msgid ""
@@ -3164,10 +3119,16 @@ msgid ""
 "nécessaire, il n'y a qu'à relancer le processus et copier les fichiers ainsi "
 "créés sur le serveur."
 msgstr ""
+"But this can become complex when you have a lot of content to manage. For "
+"that it is advised to turn to [static site generators](https://en.wikipedia."
+"org/wiki/Static_site_generator) These tools can generate the HTML files of a "
+"site, for example from {term}`Markdown` files, on your personal computer. "
+"Each time an update is needed, you just have to run the process again and "
+"copy the created files to the server."
 
 #: ../../services/web.md:48
 msgid "Dossier `static/`"
-msgstr ""
+msgstr "`static/` folder"
 
 #: ../../services/web.md:50
 msgid ""
@@ -3220,6 +3181,8 @@ msgid ""
 "Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre à "
 "faire son premier site web avec le dossier `/static`."
 msgstr ""
+"The tutorial \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" to learn how to "
+"make your first website with the folder `/static`."
 
 #: ../../services/web.md:74
 msgid "Sites Web _dynamiques_"
@@ -3234,14 +3197,20 @@ msgid ""
 "obligatoirement passer par la création d'un [nom de domaine](#noms-de-"
 "domaines). Car il n'y a pas de dossier automatique préconfiguré."
 msgstr ""
+"This type of website uses logic code that runs on the server. This can be "
+"via a [C.M.S](https://en.wikipedia.org/wiki/Content_management_system). And "
+"may in particular require the use of [SQL databases](sql.md) For these "
+"websites, you must go through the creation of a [domain name](#noms-de-"
+"domaines). Because there is no preconfigured automatic folder."
 
 #: ../../services/web.md:83
 msgid "Noms de domaines"
-msgstr ""
+msgstr "Domain names"
 
 #: ../../services/web.md:86
 msgid "La question du {term}`nom de domaine` est un enjeu fort du {term}`Web`."
 msgstr ""
+"The question of the {term}`domain name` is a major issue for the {term}`Web`."
 
 #: ../../services/web.md:89
 msgid ""
@@ -3251,6 +3220,10 @@ msgid ""
 "interface plus agréable pour les humains, sensée pointer vers l'adresse IP "
 "d'un serveur."
 msgstr ""
+"There is a difference between hosting and domain name rental! Hosting stores "
+"a site's files and publishes them on the {term}`Web` to a specific {term}`IP "
+"address`, while a {term}`domain name` is a more human-friendly interface "
+"that is supposed to point to a server's IP address."
 
 #: ../../services/web.md:95
 msgid ""
@@ -3258,21 +3231,25 @@ msgid ""
 "hébergeurs mainstream vont souvent proposer la location du nom de domaine en "
 "même temps que la location d'un espace pour les fichiers (hébergement)."
 msgstr ""
+"Yes! These are two different notions, even if a large part of mainstream "
+"hosts will often offer the rental of the domain name at the same time as the "
+"rental of space for files (hosting)."
 
 #: ../../services/web.md:0
 msgid "Nom de domaine"
-msgstr ""
+msgstr "Domain name"
 
 #: ../../services/web.md:103
 msgid ""
 "Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
 "être humain."
 msgstr ""
+"{term}`Internet` domain identifier, easy for a human to read and remember."
 
 #: ../../services/web.md:106
 msgid ""
 "Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
-msgstr ""
+msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
 
 #: ../../services/web.md:108
 msgid ""
@@ -3281,16 +3258,20 @@ msgid ""
 "associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
 "{term}`alias` pour une adresse IP."
 msgstr ""
+"A domain allows to associate information with a name. Among this information "
+"the most important is the {term}`IP address` of the computer associated with "
+"this domain. A domain name is therefore often used as an {term}`alias` for "
+"an IP address."
 
 #: ../../services/web.md:112
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines."
-msgstr ""
+msgstr "In addition to this information, a domain can also have subdomains."
 
 #: ../../services/web.md:12
 msgid "Registraire"
-msgstr ""
+msgstr "Registrar"
 
 #: ../../services/web.md:115
 msgid ""
@@ -3298,6 +3279,9 @@ msgid ""
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
+"{term}`Domain name` registrar. Company or association managing the "
+"{term}`Internet` domain name reservation. --- [Wikipedia](https://en."
+"wikipedia.org/wiki/Domain_name_registrar)"
 
 #: ../../services/web.md:120
 msgid ""
@@ -3305,6 +3289,8 @@ msgid ""
 "`com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Domaine_de_premier_niveau)"
 msgstr ""
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
 #: ../../services/web.md:126
 msgid ""
