@@ -12,7 +12,7 @@ Pour effectuer cette connexion SSH nous allons utiliser {term}`OpenSSH`.
 Ce logiciel s'utilise en {term}`CLI`,
 il est donc nécessaire d'ouvrir une fenêtre de **terminal** (`cmd` sur windows) ! 🥵
 
-Ne vous laissez pas impressioner par son interface déroutante,
+Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
 
 On utilise la commande suivante dans le terminal pour se connecter
@@ -35,7 +35,7 @@ Vous devriez voir s'afficher le message suivant :
 > 😱 Houla ! Qu'est ce que c'est que ça ??
 
 En fait, c'est normal, {term}`OpenSSH` nous averti que l'authentification
-de la connexion n'est pas garantie car votre appareil ne connais pas *encore* ce serveur.
+de la connexion n'est pas garantie car votre appareil ne connaît pas *encore* ce serveur.
 
 En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).
 Nous allons donc répondre `no` pour le moment.
@@ -44,11 +44,11 @@ La confiance règne
 ------------------
 
 Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1.
-Cela permet de garantir l'authenticité des réponse du serveur et d'initialiser une connexion chiffrée.
+Cela permet de garantir l'authenticité des réponses du serveur et d'initialiser une connexion chiffrée.
 De cette manière on est certains que l'on a bien affaire au serveur de CLUB1.
 
 Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1,
-il faut l'acquérir par une autre source que la connexion SSH elle même
+il faut l'acquérir par une autre source que la connexion SSH elle-même
 au cas où celle-ci serait compromise 😮.
 
 > 🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle aussi compromise ?
@@ -65,7 +65,7 @@ Concrètement, cela consiste à ajouter une ligne de texte contenant la clef �
 à un fichier sur votre appareil.
 Ce fichier s'appellera `known_hosts`, *serveurs connus*.
 Il devra se trouver dans un dossier `.ssh`,
-lui même au sein de votre espace personnel sur votre appareil.
+lui-même au sein de votre espace personnel sur votre appareil.
 
 ```{note}
 Le dossier correspondant à votre espace personnel
@@ -74,7 +74,7 @@ porte généralement le nom de votre utilisateur sur cet appareil.
 
     📁 <utilisateur>
     ├─ 📁 .ssh
-    │  ├─ 📄 known_host    👈
+    │  └─ 📄 known_host    👈
     ├─ 📁 Documents
     ├─ 📁 Images
     ...
@@ -88,7 +88,7 @@ La commande suivante fait tout ça pour vous ! 🪄
 echo 'club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6' >> ~/.ssh/known_hosts
 ```
 
-Si tout c'est bien passé,
+Si tout s'est bien passé,
 le fichier `known_hosts` doit maintenant contenir une ligne contenant la clef.
 
 Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-terminal)
