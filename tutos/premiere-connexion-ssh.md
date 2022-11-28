@@ -24,8 +24,6 @@ On utilise la commande suivante dans le terminal pour se connecter
 Appuyer sur {kbd}`Enter` pour lancer une commande depuis le temrinal.
 ```
 
-Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).
-
 Vous devriez voir s'afficher le message suivant :
 
     The authenticity of host 'club1.fr (***)' can't be established.
@@ -92,5 +90,25 @@ Si tout s'est bien passé,
 le fichier `known_hosts` doit maintenant contenir une ligne contenant la clef.
 
 Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-terminal)
-sans voir le message d'alerte.
+sans voir le message d'alerte et il vous faudra alors entrer votre **mot de passe** CLUB1
+(il est normal que le mot de passe ne s'affiche pas au moment de l'écriture 🤫).
 
+
+Dans le serveur
+---------------
+
+Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH !
+C'est un accès privilégié,
+car c'est celui qui vous donne le plus de libertés d'interactions avec le serveur.
+
+🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :
+
+### `passwd`
+
+Permet de changer son mot de passe CLUB1
+(cela aura donc un effet sur la connexion à tout les [services](/services/index.md)).
+
+### `htop`
+
+Permet de voir ce qui se passe sur le serveur en se moment et à quel point les ressources sont utilisés.
+Pressez la touche {kbd}`q` pour quitter.
