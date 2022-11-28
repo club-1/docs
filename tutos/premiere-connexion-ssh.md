@@ -28,9 +28,9 @@ Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de
 
 Vous devriez voir s'afficher le message suivant :
 
->     The authenticity of host 'club1.fr (***)' can't be established.
->     ED25519 key fingerprint is SHA256:*********.
->     Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    The authenticity of host 'club1.fr (***)' can't be established.
+    ED25519 key fingerprint is SHA256:*********.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 > 😱 Houla ! Qu'est ce que c'est que ça ??
 
