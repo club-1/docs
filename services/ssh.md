@@ -22,10 +22,6 @@ SCP
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
 ```
 
-Dans cette section {term}`OpenSSH` sera utilisé.
-Comme il s'agit d'un logiciel en *ligne de commande*, il est
-nécessaire d'ouvrir une fenêtre de terminal (`cmd` sur windows).
-
 ```{warning}
 La première connexion est **critique** car c'est lors de celle-ci que se fait
 l'**échange des clés**. Pour éviter de subir une
