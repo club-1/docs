@@ -58,8 +58,7 @@ Dossier caché
    Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
    Il est possible de d'activer leur affichage si besoin,
    souvent avec le raccourci clavier {kbd}`Ctrl` + {kbd}`H`.
-   ---
-   [Wikipedia](https://fr.wikipedia.org/wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)
 
 GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
