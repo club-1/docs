@@ -127,6 +127,21 @@
 	{\par\mdframed[style=QuoteFrame]}
 	{\endmdframed}
 
+% Customisation des touches de clavier.
+\renewcommand\sphinxkeyboard[1]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw,
+      fill=white,
+      drop shadow={shadow xshift=0pt,shadow yshift=-1pt,fill=gray,opacity=1,shadow scale=1},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=2pt,
+      line width=0.2pt,
+      font=\scriptsize\sffamily
+    ](key) {\vphantom{Q}#1};%
+}
+
 % Désactivation de sphinxShadowBox utilisé pour les noeuds 'contents' et 'topic'.
 \renewenvironment{sphinxShadowBox}{}{}
 
