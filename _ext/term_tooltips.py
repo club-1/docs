@@ -1,5 +1,7 @@
+import re
 from sphinx import addnodes
 from sphinx.application import Sphinx
+from sphinx.writers.html5 import HTML5Translator
 from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.util import logging
 from docutils import nodes
@@ -12,6 +14,7 @@ class TermTooltips(SphinxPostTransform):
     default_priority = 5
     logger = logging.getLogger('term_tooltips')
     apply: Optional[Callable[[str], str]]
+    single_newlines = re.compile('(?<!\n)\n')
 
     def run(self) -> None:
         if self.app.builder.format != 'html':
@@ -46,6 +49,7 @@ class TermTooltips(SphinxPostTransform):
         index = parent.first_child_matching_class(nodes.definition)
         assert index is not None, f'term {term} has no definition !?'
         deftext = parent[index].astext()
+        deftext = self.single_newlines.sub(' ', deftext)
         if self.apply != None:
             deftext = self.apply(deftext)
         newnode = nodes.abbreviation()
@@ -53,9 +57,16 @@ class TermTooltips(SphinxPostTransform):
         newnode += termref.deepcopy()
         termref.replace_self(newnode)
 
+class TooltipsHTMLTranslator(HTML5Translator):
+    """This custom HTML5 translator allows line breaks in attributes values.
+    """
+    def attval(self, text, whitespace=re.compile('[\r\t\v\f]')):
+        return super().attval(text, whitespace)
+
 def setup(app: Sphinx):
     app.add_config_value(
             name='term_tooltips_apply_function',
             default=None,
             rebuild='html')
     app.add_post_transform(TermTooltips)
+    app.set_translator('html', TooltipsHTMLTranslator)
