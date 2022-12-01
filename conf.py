@@ -182,6 +182,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': 'blob',
+    'navigation_with_keys': True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
