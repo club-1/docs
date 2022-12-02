@@ -7,7 +7,7 @@ pour la première fois en SSH de manière **sécurisée**.
 ```{caution}
 Ce tutoriel n'a pas encore été testé sur Windows.
 Certaines étapes risquent de ne pas fonctionner.
-Si vous rencontrez un problème, la section "[](../info/general.html#demandes-et-incidents)"
+Si vous rencontrez un problème, la section "[](../info/general.md#demandes-et-incidents)"
 explique comment nous en faire part.
 ```
 
