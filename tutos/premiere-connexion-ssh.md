@@ -4,6 +4,12 @@ Première connexion SSH
 Dans ce tuto, nous allons voir comment se connecter au serveur
 pour la première fois en SSH de manière **sécurisée**.
 
+```{caution}
+Ce tutoriel n'a pas encore été testé sur Windows.
+Certaines étapes risquent de ne pas fonctionner.
+Si vous rencontrez un problème, la section "[](../info/general.md#demandes-et-incidents)"
+explique comment nous en faire part.
+```
 
 Connexion avec le terminal
 --------------------------
@@ -21,7 +27,7 @@ On utilise la commande suivante dans le terminal pour se connecter
     ssh <login>@club1.fr
 
 ```{tip}
-Appuyer sur {kbd}`Enter` pour lancer une commande depuis le temrinal.
+Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.
 ```
 
 Vous devriez voir s'afficher le message suivant :
