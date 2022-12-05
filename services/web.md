@@ -26,14 +26,14 @@ Ce type de site web est constitué uniquement de fichiers que le serveur va serv
 Cela ne demande presque aucun "travail" au processeur car il n'y a pas de calcul à effectuer.
 Les sites statiques sont une voie intéressante pour qui cherche à proposer des sites plus sobres énergétiquement.
 
-Pour créer un site web statique, on peut écrire soi même du code HTML,
+Pour créer un site web statique, on peut écrire soi-même du code HTML,
 associé avec des images, sons ou vidéos.
 C'est la façon la plus artisanale de faire un site web.
 Elle garantie des styles uniques et originaux et est très efficace pour apprendre comment fonctionne le web.
 
 ```{tip}
 - Pour apprendre à coder en HTML et CSS, on recommande souvent le
-[tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+[tutoriel OpenClassromm](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
 de Mathieu Nebra.
 - Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), recueille des sites "fait à la mains".
 ```
@@ -92,7 +92,7 @@ tandis qu'un {term}`nom de domaine` est une interface plus agréable pour les hu
 sensée pointer vers l'adresse IP d'un serveur.
 ```
 
-Eh oui ! ce sont deux notions différentes, même si une grosse partie des hébergeurs mainstream
+Eh oui ! Ce sont deux notions différentes, même si une grosse partie des hébergeurs mainstream
 vont souvent proposer la location du nom de domaine
 en même temps que la location d'un espace pour les fichiers (hébergement).
 
@@ -106,7 +106,7 @@ Nom de domaine
    > Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
 
    Un domaine permet d'associer des informations à un nom.
-   Parmi ces information la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
+   Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
    Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
    
    En plus de ces informations, un domaine peut également avoir des sous domaines.
