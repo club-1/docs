@@ -14,7 +14,7 @@ explique comment nous en faire part.
 Connexion avec le terminal
 --------------------------
 
-Pour effectuer cette connexion SSH nous allons utiliser {term}`OpenSSH`.
+Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`.
 Ce logiciel s'utilise en {term}`CLI`,
 il est donc nécessaire d'ouvrir une fenêtre de **terminal** (`cmd` sur windows) ! 🥵
 
@@ -38,7 +38,7 @@ Vous devriez voir s'afficher le message suivant :
 
 > 😱 Houla ! Qu'est ce que c'est que ça ??
 
-En fait, c'est normal, {term}`OpenSSH` nous averti que l'authentification
+En fait, c'est normal, {logiciel}`OpenSSH` nous averti que l'authentification
 de la connexion n'est pas garantie car votre appareil ne connaît pas *encore* ce serveur.
 
 En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).

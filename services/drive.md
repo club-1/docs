@@ -18,10 +18,9 @@ L'adresse de ce {term}`client Web` est <https://drive.club1.fr>.
 Logiciels
 ---------
 
-```{glossary}
-WebDAV Drive
-   Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}`WebDAV`.
-   Chez CLUB1, ce service accessible via {term}`Nginx` en tant que site statique,
-   et communique avec le serveur {term}`webdav-server`.
-   --- [Sources](https://github.com/club-1/webdav-drive)
+```{logiciel} WebDAV Drive
+Explorateur de fichiers {term}`Web` basé sur un {term}`serveur` {term}`WebDAV`.
+Chez CLUB1, ce service accessible via {logiciel}`Nginx` en tant que site statique,
+et communique avec le serveur {logiciel}`webdav-server`.
+--- [Sources](https://github.com/club-1/webdav-drive)
 ```

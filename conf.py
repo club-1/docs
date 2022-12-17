@@ -12,7 +12,9 @@
 #
 import os
 from gettext import translation
+from docutils import nodes
 from sphinx import __version__ as sphinx_version
+from sphinx.application import Sphinx
 from sphinx.util.logging import getLogger
 from myst_parser import __version__ as myst_version
 from sphinx_rtd_theme import __version__ as rtd_version
@@ -296,5 +298,7 @@ linkcheck_allowed_redirects = {
 def override_html_permalink_icon(app):
     app.config.html_permalinks_icon = "#"
 
-def setup(app):
+def setup(app: Sphinx):
     app.connect('builder-inited', override_html_permalink_icon)
+    # Add custom 'software' directive and refs
+    app.add_object_type('logiciel', 'logiciel', 'pair: %s; ' + _('logiciel'), ref_nodeclass=nodes.inline)

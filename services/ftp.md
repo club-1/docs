@@ -51,9 +51,8 @@ Informations de connexion
 Logiciels
 ---------
 
-```{glossary}
-ProFTPD
-   {term}`Serveur` {term}`FTP`.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/ProFTPd),
-   [Sources](https://github.com/proftpd/proftpd)
+```{logiciel} ProFTPD
+{term}`Serveur` {term}`FTP`.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/ProFTPd),
+[Sources](https://github.com/proftpd/proftpd)
 ```

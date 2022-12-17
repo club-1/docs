@@ -37,7 +37,7 @@ La documentation officielle de l'option [recipient_delimiter](http://www.postfix
 Client Web
 ----------
 
-Un {term}`client Web` fourni par {term}`Roundcube`
+Un {term}`client Web` fourni par {logiciel}`Roundcube`
 est disponible à l'adresse <https://mail.club1.fr>.
 
 Il permet de gérer et envoyer des emails
@@ -98,7 +98,7 @@ avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Err
 Il est possible de transférer automatiquement les emails que vous recevez sur votre adresse CLUB1
 vers une ou plusieurs autres adresses de votre choix.
 Pour se faire, il faut créer dans votre [espace personnel](/info/espace-personnel.md)
-un fichier qui va indiquer à {term}`Postfix` à qui transférer votre courrier entrant.
+un fichier qui va indiquer à {logiciel}`Postfix` à qui transférer votre courrier entrant.
 Ce fichier doit être placé directement dans votre dossier et s'appeller `.forward`.
 
 ```{warning}
@@ -163,44 +163,49 @@ La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de config
 Logiciels
 ---------
 
-````{glossary}
-Postfix
-   {term}`Serveur` SMTP utilisé pour la transmission d'email.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Postfix),
-   [Sources](https://github.com/vdukhovni/postfix)
+```{logiciel} Postfix
+{term}`Serveur` SMTP utilisé pour la transmission d'email.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Postfix),
+[Sources](https://github.com/vdukhovni/postfix)
+```
 
-Dovecot
-   {term}`Serveur` IMAP utilisé pour la gestion de boîtes emails.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Dovecot),
-   [Sources](https://github.com/dovecot/core)
+```{logiciel} Dovecot
+{term}`Serveur` IMAP utilisé pour la gestion de boîtes emails.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Dovecot),
+[Sources](https://github.com/dovecot/core)
+```
 
-Pigeonhole
-   Extension {term}`Dovecot` pour Sieve et ManageSieve,
-   permettant de configurer des filtres automatiques côté {term}`serveur`.
-   Ces filtres peuvent être édités depuis {term}`Roundcube`.
-   --- [Site Web](https://pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)
+```{logiciel} Pigeonhole
+Extension {logiciel}`Dovecot` pour Sieve et ManageSieve,
+permettant de configurer des filtres automatiques côté {term}`serveur`.
+Ces filtres peuvent être édités depuis {logiciel}`Roundcube`.
+--- [Site Web](https://pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)
+```
 
-SPF-Engine
-   {term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
-   utilisé par {term}`Postfix` pour vérifier l'origine des emails entrants.
-   --- [Sources](https://launchpad.net/spf-engine)
+```{logiciel} SPF-Engine
+{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
+utilisé par {logiciel}`Postfix` pour vérifier l'origine des emails entrants.
+--- [Sources](https://launchpad.net/spf-engine)
+```
 
-PostSRSd
-   {term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_)
-   permettant à {term}`Postfix` de transférer des emails en restant compatible avec SPF.
-   --- [Sources](https://github.com/roehling/postsrsd)
+```{logiciel} PostSRSd
+{term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_)
+permettant à {logiciel}`Postfix` de transférer des emails en restant compatible avec SPF.
+--- [Sources](https://github.com/roehling/postsrsd)
+```
 
-OpenDKIM
-   {term}`Serveur` fournissant un filtre _milter_
-   utilisé par {term}`Postfix` pour signer les emails sortants.
-   --- [Site Web](http://www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/OpenDKIM)
+```{logiciel} OpenDKIM
+{term}`Serveur` fournissant un filtre _milter_
+utilisé par {logiciel}`Postfix` pour signer les emails sortants.
+--- [Site Web](http://www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/OpenDKIM)
+```
 
-Roundcube
-   {term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP et IMAP.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
-   [Sources](https://github.com/roundcube/roundcubemail)
+````{logiciel} Roundcube
+{term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP et IMAP.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
+[Sources](https://github.com/roundcube/roundcubemail)
 
-   ```{admonition} Voir aussi
-   La section [](#client-web)
-   ```
+```{admonition} Voir aussi
+La section [](#client-web)
+```
 ````

@@ -85,9 +85,8 @@ Informations de connexion
 Logiciels
 ---------
 
-```{glossary}
-OpenSSH
-   Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}`SSH`.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH),
-   [Sources](https://anongit.mindrot.org/openssh.git)
+```{logiciel} OpenSSH
+Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}`SSH`.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH),
+[Sources](https://anongit.mindrot.org/openssh.git)
 ```
