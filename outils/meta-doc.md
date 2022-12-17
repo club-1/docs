@@ -5,7 +5,7 @@ La documentation de CLUB1 est publiée au format {term}`HTML` à l'adresse <http
 Elle existe en deux langues : français, la principale et anglais, la secondaire.
 Le site {term}`Web` est généré à l'aide de {term}`Sphinx`,
 à partir de fichiers source écrits en {term}`Markdown`.
-Les fichiers source sont rangés dans un dossier, versionné avec {term}`Git`
+Les fichiers source sont rangés dans un dossier, versionné avec {logiciel}`Git`
 et accessible publiquement via {term}`GitHub`
 à l'adresse <https://github.com/club-1/docs/>.
 
@@ -57,7 +57,7 @@ documentation.
 Proposer des modifications
 --------------------------
 
-L'utilisation de {term}`Git` permet à n'importe qui de proposer des modifications.
+L'utilisation de {logiciel}`Git` permet à n'importe qui de proposer des modifications.
 Pour cela il est possible de modifier les fichiers directement sur {term}`GitHub`
 (un compte sera nécessaire), dans une branche personnelle, puis de créer
 une _pull request_ vers la branche principale : `main` (il s'agit de l'action
@@ -168,7 +168,7 @@ Sphinx-notfound-page
 
 Sphinx-last-updated-by-git
    _(Optionnel)_ Extension {term}`Sphinx` ajoutant à chaque page sa date de dernière modification
-   à partir de l'historique {term}`Git` de la documentation.
+   à partir de l'historique {logiciel}`Git` de la documentation.
    --- [Sources](https://github.com/mgeier/sphinx-last-updated-by-git)
 
 Sphinx-copybutton
@@ -238,7 +238,7 @@ juste au dessus du la ligne `msgid "..."` :
 Déploiement de la version Web
 -----------------------------
 
-Un serveur HTTP {term}`Apache`
+Un serveur HTTP {logiciel}`Apache`
 est requis pour le déploiement de la version {term}`Web` de la documentation.
 Ci-dessous se trouve un exemple de configuration Apache
 dans lequel la documentation se trouve dans `/var/www/docs`

@@ -56,7 +56,7 @@ Dossier utilisé pour [héberger des dépots de code Git](/services/git.md).
 Ce dossier contient l'ensemble des {term}`logs <log>` produits par les services.
 Par exemple ceux des [sites Web dynamiques](../services/web.md#sites-web-dynamiques).
 
-Une rotation est opérée à l'aide de {term}`logrotate` sur les fichiers `*.log` de ce dossier toute les semaines
+Une rotation est opérée à l'aide de {logiciel}`logrotate` sur les fichiers `*.log` de ce dossier toute les semaines
 et un historique de 15 fichiers par log est conservé.
 Les anciens fichiers sont compressés via `gzip`.
 
@@ -79,12 +79,12 @@ son fichier de présentation !
 Logiciels
 ---------
 
-```{glossary}
-members-presentation
-    Script PHP permettant de générer la page membre.
-    --- [Sources](https://github.com/club-1/members-presentation)
+```{logiciel} members-presentation
+Script PHP permettant de générer la page membre.
+--- [Sources](https://github.com/club-1/members-presentation)
+```
 
-logrotate
-    Utilitaire permettant de simplifier la rotation d'un grand nombre de fichiers de {term}`log`.
-    --- [Sources](https://github.com/logrotate/logrotate)
+```{logiciel} logrotate
+Utilitaire permettant de simplifier la rotation d'un grand nombre de fichiers de {term}`log`.
+--- [Sources](https://github.com/logrotate/logrotate)
 ```

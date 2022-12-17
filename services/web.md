@@ -54,7 +54,7 @@ sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 [`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/nicolas/test.html)
 --> `/home/nicolas/static/test.html`
 
-Ce dossier est servi par le serveur HTTP {term}`Apache`.
+Ce dossier est servi par le serveur HTTP {logiciel}`Apache`.
 Il est configuré pour automatiquement générer un _index_ affichant la liste
 des fichiers et dossiers qu'il contient.
 
@@ -204,29 +204,30 @@ Il est possible de le joindre :
 Logiciels
 ---------
 
-```{glossary}
-Nginx
-   {term}`Serveur` HTTP principalement axé sur les performances.
-   Chez CLUB1, il est principalement utilisé en tant que "point de terminaison {term}`TLS`"
-   et "proxy inverse" devant les différents services {term}`Web`,
-   notamment le serveur {term}`Apache`.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/NGINX), [Sources](https://hg.nginx.org/nginx)
+```{logiciel} Nginx
+{term}`Serveur` HTTP principalement axé sur les performances.
+Chez CLUB1, il est principalement utilisé en tant que "point de terminaison {term}`TLS`"
+et "proxy inverse" devant les différents services {term}`Web`,
+notamment le serveur {logiciel}`Apache`.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/NGINX), [Sources](https://hg.nginx.org/nginx)
+```
 
-Apache
-   {term}`Serveur` HTTP très populaire, distribué sous license libre.
-   HTTP étant le protocole du {term}`Web` on parle aussi souvent de "serveur Web".
+```{logiciel} Apache
+{term}`Serveur` HTTP très populaire, distribué sous license libre.
+HTTP étant le protocole du {term}`Web` on parle aussi souvent de "serveur Web".
 
-   Apache est intéressant pour l'hébergement de pages Web personnelles,
-   car il peut être configuré en cours d'exécution et par les utilisaturs finaux
-   grâce aux fichiers `.htaccess`.
+Apache est intéressant pour l'hébergement de pages Web personnelles,
+car il peut être configuré en cours d'exécution et par les utilisaturs finaux
+grâce aux fichiers `.htaccess`.
 
-   Chez CLUB1, le serveur Apache se trouve derrière le "proxy inverse" {term}`Nginx`.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server),
-   [Sources](https://github.com/apache/httpd)
+Chez CLUB1, le serveur Apache se trouve derrière le "proxy inverse" {logiciel}`Nginx`.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Apache_HTTP_Server),
+[Sources](https://github.com/apache/httpd)
+```
 
-PHP-FPM
-   Gestionnaire de processus {term}`PHP`,
-   permettant à un {term}`serveur` {term}`Web` d'exécuter du code PHP de manière performante.
-   Il est aussi capable d'exécuter PHP avec différents utilisateurs.
-   --- [Sources](https://github.com/php/php-src/tree/master/sapi/fpm)
+```{logiciel} PHP-FPM
+Gestionnaire de processus {term}`PHP`,
+permettant à un {term}`serveur` {term}`Web` d'exécuter du code PHP de manière performante.
+Il est aussi capable d'exécuter PHP avec différents utilisateurs.
+--- [Sources](https://github.com/php/php-src/tree/master/sapi/fpm)
 ```

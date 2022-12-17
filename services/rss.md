@@ -31,7 +31,7 @@ agrégateur de flux
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Agr%C3%A9gateur#Dans_le_domaine_informatique)
 ```
 
-Un agrégateur de flux de nouvelles est fourni par {term}`Tiny Tiny RSS`.
+Un agrégateur de flux de nouvelles est fourni par {logiciel}`Tiny Tiny RSS`.
 Il est accessible à travers le {term}`client Web` intégré se trouvant à l'adresse
 <https://rss.club1.fr>, mais il est également possible d'y connecter un client
 natif.
@@ -57,13 +57,12 @@ Ci-dessous, une petite liste de tutoriels pour profiter au mieux des flux Web.
 Logiciels
 ---------
 
-```{glossary}
-Tiny Tiny RSS
-   {term}`Agrégateur de flux` supportant {term}`RSS` et {term}`Atom`.
-   Il fournit un {term}`serveur` se chargeant de relever régulièrement les flux,
-   un {term}`client Web` pour les consulter dans un navigateur
-   et une {term}`API` pour s'y connecter avec une application native.
-   Il est souvent abrégé TTRSS.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS),
-   [Sources](https://git.tt-rss.org/fox/tt-rss.git)
+```{logiciel} Tiny Tiny RSS
+{term}`Agrégateur de flux` supportant {term}`RSS` et {term}`Atom`.
+Il fournit un {term}`serveur` se chargeant de relever régulièrement les flux,
+un {term}`client Web` pour les consulter dans un navigateur
+et une {term}`API` pour s'y connecter avec une application native.
+Il est souvent abrégé TTRSS.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS),
+[Sources](https://git.tt-rss.org/fox/tt-rss.git)
 ```

@@ -63,7 +63,7 @@ dossier caché
 
 GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
-   utilisant le logiciel de gestion de versions {term}`Git`.
+   utilisant le logiciel de gestion de versions {logiciel}`Git`.
 
    ```{warning}
    Contrairement à la plupart des projets que l'on peut y trouver,

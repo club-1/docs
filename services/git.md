@@ -2,7 +2,7 @@ Dépôts Git publics
 ==================
 
 Le dossier `git/`, à la racine de l'**espace personnel** est particulier.
-Les dépôts {term}`Git` rangés dedans seront automatiquement publiés en _lecture seule_
+Les dépôts {logiciel}`Git` rangés dedans seront automatiquement publiés en _lecture seule_
 à l'adresse `https://git.club1.fr`, par exemple :
 
 [`https://git.club1.fr/nicolas/dna-backup/`](https://git.club1.fr/nicolas/dna-backup/)
@@ -13,12 +13,12 @@ Cette adresse permet 2 choses :
 1. Cloner le dépôt Git avec `git clone` grâce au
    [git-http-backend](https://git-scm.com/docs/git-http-backend).
 2. Consulter rapidement le dépôt et le sources dans un navigateur grâce à
-   l'interface {term}`Web` fournie par {term}`cgit`.
+   l'interface {term}`Web` fournie par {logiciel}`cgit`.
 
 Tutoriel d'utilisation
 ----------------------
 
-Pour utiliser la fonctionnalité de dépôts {term}`Git` publics sur CLUB1, il faut tout
+Pour utiliser la fonctionnalité de dépôts {logiciel}`Git` publics sur CLUB1, il faut tout
 d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un ordinateur personnel
 (remplacer `<login>` par votre **identifiant** et `<repo>` par le nom que vous
 voulez donner au dépôt) :
@@ -63,7 +63,7 @@ qui est normal :
     warning: You appear to have cloned an empty repository.
 ```
 
-Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {term}`Git`,
+Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {logiciel}`Git`,
 par exemple :
 
 ```sh
@@ -90,15 +90,15 @@ git push --set-upstream club1 main
 Logiciels
 ---------
 
-```{glossary}
-Git
-   Logiciel de gestion de versions décentralisé.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Git),
-   [Sources](https://github.com/git/git)
+```{logiciel} Git
+Logiciel de gestion de versions décentralisé.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Git),
+[Sources](https://github.com/git/git)
+```
 
-cgit
-   Interface {term}`Web` permettant de consulter les informations d'un dépôt {term}`Git`.
+```{logiciel} cgit
+Interface {term}`Web` permettant de consulter les informations d'un dépôt {logiciel}`Git`.
 
-   Chez CLUB1, cgit et accessible à travers le {term}`serveur` HTTP {term}`Apache`.
-   --- [Sources](https://git.zx2c4.com/cgit/)
+Chez CLUB1, cgit et accessible à travers le {term}`serveur` HTTP {logiciel}`Apache`.
+--- [Sources](https://git.zx2c4.com/cgit/)
 ```
