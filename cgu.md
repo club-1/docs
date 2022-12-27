@@ -1,3 +1,8 @@
+---
+template: cgu.html
+
+---
+
 Conditions générales d'utilisation
 ==================================
 
