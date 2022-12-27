@@ -125,7 +125,7 @@ CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du
 Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et Solidaires
 dans le cadre de son activité d’hébergeur et de fournisseur de services en ligne.
 
-CLUB1 est candidat à l’intégration au sein de ce collectif.
+CLUB1 est membre de ce collectif.
 
 ### Devenir des données
 
