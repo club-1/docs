@@ -83,6 +83,12 @@ Internet
    Il s'agit donc d'un "réseau de réseaux". ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
+Log
+   Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/wiki/Livre_de_bord) d'un navire.
+   En informatique il s'agit d'un journal contenant un historique d'événements,
+   généralement sous la forme de ficher en texte brut.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Historique_(informatique))
+
 Markdown
    Langage de balisage léger permettant de mettre en forme un document.
    Les documents rédigés en Markdown ont généralement pour but
