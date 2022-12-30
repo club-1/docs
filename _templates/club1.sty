@@ -39,9 +39,6 @@
 % On remplace donc ce caractère par \cdot.
 \newunicodechar{·}{\cdot}
 
-% Augmentation de la DPI des images qui ne l'ont pas définie.
-\pdfimageresolution=140
-
 % Profondeur de la numérotation limitée à 1 niveau.
 \setcounter{secnumdepth}{0}
 
@@ -134,6 +131,20 @@
       draw,
       fill=white,
       drop shadow={shadow xshift=0pt,shadow yshift=-1pt,fill=gray,opacity=1,shadow scale=1},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=2pt,
+      line width=0.2pt,
+      font=\scriptsize\sffamily
+    ](key) {\vphantom{Q}#1};%
+}
+
+% Customisation des guilabels.
+\renewcommand\sphinxguilabel[1]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw=white!60!blue,
+      fill=white!95!blue,
       rectangle,
       rounded corners=2pt,
       inner sep=2pt,

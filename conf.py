@@ -271,6 +271,8 @@ latex_elements = {
     'passoptionstopackages': r'\PassOptionsToPackage{svgnames,table}{xcolor}',
     # Clear default font config.
     'fontpkg': '',
+    # Reduce size of images by default.
+    'pxunit': '0.58bp',
     # Packages to include before 'hyperref' and after 'sphinx'.
     'extrapackages': r'\usepackage{packages}',
     # Add custom preamble after 'hyperref' and 'sphinx'.

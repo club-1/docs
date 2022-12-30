@@ -1,6 +1,6 @@
 /* Add maximum height for content's images */
 .rst-content img {
-	max-height: 30rem;
+	max-height: 30rem !important;
 }
 
 /* Override blockquotes style */
