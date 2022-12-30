@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-12-30 17:58+0100\n"
-"PO-Revision-Date: 2022-12-30 17:29+0000\n"
+"PO-Revision-Date: 2022-12-30 17:39+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -3091,12 +3091,6 @@ msgstr ""
 "looking to offer more energy-efficient sites."
 
 #: ../../services/web.md:29
-#, fuzzy
-#| msgid ""
-#| "Pour créer un site web statique, on peut écrire soi même du code HTML, "
-#| "associé avec des images, sons ou vidéos. C'est la façon la plus "
-#| "artisanale de faire un site web. Elle garantie des styles uniques et "
-#| "originaux et est très efficace pour apprendre comment fonctionne le web."
 msgid ""
 "Pour créer un site web statique, on peut écrire soi-même du code HTML, "
 "associé avec des images, sons ou vidéos. C'est la façon la plus artisanale "
@@ -3114,6 +3108,9 @@ msgid ""
 "OpenClassromm](https://openclassrooms.com/fr/courses/1603881-creez-votre-"
 "site-web-avec-html5-et-css3) de Mathieu Nebra."
 msgstr ""
+"To learn how to code in HTML and CSS, we often recommend Mathieu Nebra's ["
+"OpenClassromm tutorial](https://openclassrooms.com/fr/courses/1603881-creez-"
+"votre-site-web-avec-html5-et-css3)."
 
 #: ../../services/web.md:38
 msgid ""
@@ -3235,11 +3232,6 @@ msgstr ""
 "that is supposed to point to a server's IP address."
 
 #: ../../services/web.md:95
-#, fuzzy
-#| msgid ""
-#| "Eh oui ! ce sont deux notions différentes, même si une grosse partie des "
-#| "hébergeurs mainstream vont souvent proposer la location du nom de domaine "
-#| "en même temps que la location d'un espace pour les fichiers (hébergement)."
 msgid ""
 "Eh oui ! Ce sont deux notions différentes, même si une grosse partie des "
 "hébergeurs mainstream vont souvent proposer la location du nom de domaine en "
@@ -3266,12 +3258,6 @@ msgid ""
 msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
 
 #: ../../services/web.md:108
-#, fuzzy
-#| msgid ""
-#| "Un domaine permet d'associer des informations à un nom. Parmi ces "
-#| "information la plus importante est l'{term}`adresse IP` de l'ordinateur "
-#| "associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
-#| "{term}`alias` pour une adresse IP."
 msgid ""
 "Un domaine permet d'associer des informations à un nom. Parmi ces "
 "informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
@@ -3331,7 +3317,7 @@ msgstr ""
 
 #: ../../services/web.md:136
 msgid "Utiliser un sous domaine de `club1.fr`"
-msgstr ""
+msgstr "Use a subdomain of `club1.fr`"
 
 #: ../../services/web.md:138
 msgid ""
@@ -3339,6 +3325,8 @@ msgid ""
 "l'utilisation de **sous-domaines** de `club1.fr` par les membres est "
 "encouragée !"
 msgstr ""
+"To facilitate the creation of projects and help spontaneity, the use of "
+"**subdomains** of `club1.fr` by members is encouraged!"
 
 #: ../../services/web.md:141
 msgid ""
@@ -3348,6 +3336,11 @@ msgid ""
 "aussi une **filiation visible avec CLUB1**, ce qui peut être gênant ou "
 "intéressant en fonction des projets."
 msgstr ""
+"This has the advantage of being free, and of requiring no maintenance, "
+"unlike [renting a domain name](#louer-un-nom-de-domaine-externe). The "
+"disadvantage being to depend on `club1.fr`. This also leads to a **visible "
+"relationship with CLUB1**, which can be bothersome or interesting depending "
+"on the project."
 
 #: ../../services/web.md:148
 msgid ""
@@ -3356,6 +3349,9 @@ msgid ""
 "commencer via cette méthode et plus tard, de louer un nom de domaine sans "
 "casser aucun lien !"
 msgstr ""
+"It is possible at any time to redirect a **subdomain** of `club1.fr` to any "
+"other domain of your choice. This allows for example to start via this "
+"method and later, to rent a domain name without breaking any links!"
 
 #: ../../services/web.md:154
 msgid ""
@@ -3363,6 +3359,9 @@ msgid ""
 "l'administrateur système](#gestion), en spécifiant vers quel dossier dans "
 "son espace personnel devra pointer le domaine."
 msgstr ""
+"To request a **sub-domain** of `club1.fr`, it is necessary [to contact the "
+"system administrator](#gestion), by specifying towards which folder in its "
+"personal space will have to point the domain."
 
 #: ../../services/web.md:159
 msgid ""
@@ -3370,10 +3369,13 @@ msgid ""
 "demande ! 😉 Il ne doit être composé que de lettres minuscules, chiffres ou "
 "tirets `-`."
 msgstr ""
+"Remember to check that the **subdomain** is available before sending a "
+"request! 😉 It must only consist of lowercase letters, numbers or hyphens "
+"`-`."
 
 #: ../../services/web.md:164
 msgid "Avoir des sous-sous-domaine"
-msgstr ""
+msgstr "Have sub-subdomains"
 
 #: ../../services/web.md:167
 msgid ""
