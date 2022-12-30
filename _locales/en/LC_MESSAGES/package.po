@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2022-12-30 17:58+0100\n"
-"PO-Revision-Date: 2022-11-28 15:27+0000\n"
+"PO-Revision-Date: 2022-12-30 17:29+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -329,10 +329,8 @@ msgstr ""
 "et Solidaires_ as part of its activity as a host and online service provider."
 
 #: ../../cgu.md:133
-#, fuzzy
-#| msgid "CLUB1 est candidat à l’intégration au sein de ce collectif."
 msgid "CLUB1 est membre de ce collectif."
-msgstr "CLUB1 is a candidate for integration into this collective."
+msgstr "CLUB1 is a member of this collective."
 
 #: ../../cgu.md:135
 msgid "Devenir des données"
@@ -552,6 +550,9 @@ msgid ""
 "utiles au quotidien. Dans un système UNIX, les fichiers cachés commencent "
 "par un point `.`."
 msgstr ""
+"In most operating systems, it is possible to hide files or folders. This is "
+"often used to hide parameters that are not very useful in everyday life. In "
+"a UNIX system, hidden files begin with a dot `.`."
 
 #: ../../glossaire.md:54
 msgid ""
@@ -560,6 +561,10 @@ msgid ""
 "clavier {kbd}`Ctrl` + {kbd}`H`. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
+"In file explorers they may be hidden by default. It is possible to activate "
+"their display if necessary, often with the keyboard shortcut {kbd}`Ctrl` + "
+"{kbd}`H`. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Hidden_file_and_hidden_directory)"
 
 #: ../../glossaire.md:60
 msgid ""
@@ -846,12 +851,17 @@ msgid ""
 "de CLUB1, il faut créer un **fichier de présentation** appellé `PRESENTATION."
 "md` à la racine de son espace perso."
 msgstr ""
+"To appear on the [members page](https://club1.fr/membres) of the CLUB1 "
+"website, you must create a **presentation file** called `PRESENTATION.md` at "
+"the root of your personal space."
 
 #: ../../info/espace-personnel.md:62
 msgid ""
 "Il est possible de formater son texte en {term}`Markdown`, ainsi que de "
 "changer son nom d'affichage et la couleur de son bouton."
 msgstr ""
+"It is possible to format your text in {term}`Markdown`, as well as to change "
+"your display name and the color of your button."
 
 #: ../../info/espace-personnel.md:65 ../../info/general.md:121
 #: ../../info/politique-de-vie-privee.md:6 ../../services/email.md:32
@@ -862,13 +872,15 @@ msgstr "See also"
 
 #: ../../info/espace-personnel.md:66
 msgid "Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)"
-msgstr ""
+msgstr "Tutorial: [How to edit your presentation](/tutos/presentation.md)"
 
 #: ../../info/espace-personnel.md:69
 msgid ""
 "💡 L'ordre des boutons de présentation change à chaque fois qu'un&middot;e "
 "membre met à jour son fichier de présentation !"
 msgstr ""
+"💡 The order of the presentation buttons changes each time a member updates "
+"their presentation file!"
 
 #: ../../info/espace-personnel.md:72 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
@@ -923,6 +935,8 @@ msgid ""
 "**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/"
 "t/tickets) ."
 msgstr ""
+"**Open a ticket** by creating a [post on the forum](https://forum.club1.fr/t/"
+"tickets) ."
 
 #: ../../info/general.md:18
 msgid "Envoyer un email à <contact@club1.fr>"
@@ -1064,6 +1078,8 @@ msgid ""
 "Il est possible de consulter en direct l'état des différents services à "
 "cette adresse : <https://status.club1.fr/>"
 msgstr ""
+"The status of the various services can be consulted online at this address: "
+"<https://status.club1.fr/>"
 
 #: ../../info/general.md:95
 msgid "Sauvegardes"
@@ -1086,15 +1102,15 @@ msgstr ""
 msgid ""
 "Il s'agit de sauvegardes incrémentales avec la politique de rétention "
 "suivante :"
-msgstr ""
+msgstr "These are incremental backups with the following retention policy:"
 
 #: ../../info/general.md:108
 msgid "7 sauvegardes journalières"
-msgstr ""
+msgstr "7 daily backups"
 
 #: ../../info/general.md:109
 msgid "4 sauvegardes hebdomadaires"
-msgstr ""
+msgstr "4 weekly backups"
 
 #: ../../info/general.md:111
 msgid ""
@@ -1896,7 +1912,7 @@ msgstr ""
 
 #: ../../services/drive.md:8
 msgid "![capture d'écran WebDav drive](drive/webdav_drive.png)"
-msgstr ""
+msgstr "![WebDav drive screenshot](drive/webdav_drive.png)"
 
 #: ../../services/drive.md:8
 msgid "capture d'écran WebDav drive"
@@ -2913,22 +2929,16 @@ msgid "Se connecter"
 msgstr "Connection"
 
 #: ../../services/ssh.md:29
-#, fuzzy
-#| msgid ""
-#| "La première connexion est critique car c'est lors de celle-ci que se fait "
-#| "l'échange des clés. Pour éviter de subir une [attaque de l'homme du "
-#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
-#| "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgid ""
 "La première connexion est **critique** car c'est lors de celle-ci que se "
 "fait l'**échange des clés**. Pour éviter de subir une [attaque de l'homme du "
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
 "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
-"The first connection is critical because the key exchange takes place at "
-"this moment. To avoid a [man-in-the-middle attack](https://en.wikipedia.org/"
-"wiki/Man-in-the-middle_attack) we have to make sure that we received the "
-"correct key during this exchange."
+"The first connection is **critical** because the **key exchange** takes "
+"place at this moment. To avoid a [man-in-the-middle attack](https://en."
+"wikipedia.org/wiki/Man-in-the-middle_attack) we have to make sure that we "
+"received the correct key during this exchange."
 
 #: ../../services/ssh.md:34
 msgid ""
@@ -2939,25 +2949,15 @@ msgstr ""
 "tutos/premiere-connexion-ssh.md) is for you!"
 
 #: ../../services/ssh.md:38
-#, fuzzy
-#| msgid ""
-#| "Tout d'abord, assurez-vous d'avoir suivi les instructions de la [partie "
-#| "précédente](#avant-de-se-connecter-pour-le-première-fois). Il existe "
-#| "ensuite deux manières de s'authentifier lors d'une connexion SSH. La plus "
-#| "simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
-#| "elle est en revanche moins sécurisée que l'utilisation d'une [clé "
-#| "publique](#sauthentifier-avec-une-clé-publique)."
 msgid ""
 "Il existe deux manières de s'authentifier lors d'une connexion SSH. La plus "
 "simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
 "elle est en revanche moins sécurisée que l'utilisation d'une [clé publique]"
 "(#sauthentifier-avec-une-clé-publique)."
 msgstr ""
-"First, make sure you've followed the instructions in the [previous part]"
-"(#avant-de-se-connecter-pour-le-première-fois). There are then two ways to "
-"authenticate for an SSH connection. The simplest is to use a [password]"
-"(#sauthentifier-par-mot-de-passe), however it is less secure than using a "
-"[public key](#sauthentifier-avec-une-clé-publique)."
+"There are two ways to authenticate for an SSH connection. The simplest is to "
+"use a [password](#sauthentifier-par-mot-de-passe), however it is less secure "
+"than using a [public key](#sauthentifier-avec-une-clé-publique)."
 
 #: ../../services/ssh.md:43
 msgid "S'authentifier par mot de passe"
@@ -3174,12 +3174,6 @@ msgstr ""
 "it contains."
 
 #: ../../services/web.md:61
-#, fuzzy
-#| msgid ""
-#| "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
-#| "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter "
-#| "un fichier caché de configuration Apache `.htaccess` contenant au moins "
-#| "la ligne suivante."
 msgid ""
 "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
 "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
@@ -3188,8 +3182,8 @@ msgid ""
 msgstr ""
 "To avoid displaying this index, it is possible either to create an `index."
 "html` file which will contain the page to be displayed instead, or to add a "
-"hidden Apache `.htaccess` configuration file containing at least the "
-"following line."
+"{term}`hidden <hidden file>` Apache `.htaccess` configuration file "
+"containing at least the following line."
 
 #: ../../services/web.md:71
 msgid ""
@@ -3832,32 +3826,22 @@ msgid "Utiliser Tiny tiny RSS"
 msgstr "Using Tiny tiny RSS"
 
 #: ../../tutos/flux-rss.md:4
-#, fuzzy
-#| msgid ""
-#| "Ce tutoriel explique comment utiliser [l'agrégateur de flux RSS de CLUB1]"
-#| "(/services/rss.md)."
 msgid ""
 "Ce tutoriel explique comment utiliser [l'agrégateur de flux Web de CLUB1](/"
 "services/rss.md)."
 msgstr ""
-"This tutorial explains how to use [CLUB1's RSS feed aggregator](/services/"
-"rss.md)."
+"This tutorial explains how to use [CLUB1's Web feed aggregator](/services/rss"
+".md)."
 
 #: ../../tutos/flux-rss.md:6
-#, fuzzy
-#| msgid ""
-#| "Cet {term}`agrégateur de flux` {term}`RSS` permet de \"s'abonner\" à de "
-#| "multiples sites web, pour recevoir des notifications lorsqu'un nouvel "
-#| "article est posté et pour tous les consulter dans un fil d'actualités "
-#| "commun."
 msgid ""
 "Cet {term}`agrégateur de flux` permet de \"s'abonner\" à de multiples sites "
 "web, pour recevoir des notifications lorsqu'un nouvel article est posté et "
 "pour tous les consulter dans un fil d'actualités commun."
 msgstr ""
-"This {term}`RSS` {term}`feed aggregator` allows you to \"subscribe\" to "
-"multiple websites, in order to receive notifications when a new article is "
-"posted and to view them all in a common news feed."
+"This {term}`feed aggregator` allows you to \"subscribe\" to multiple "
+"websites, in order to receive notifications when a new article is posted and "
+"to view them all in a common news feed."
 
 #: ../../tutos/flux-rss.md:10
 msgid "Accéder à son compte de flux RSS"
@@ -4439,10 +4423,8 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:1
-#, fuzzy
-#| msgid "Fenêtre de connexion."
 msgid "Première connexion SSH"
-msgstr "Connection window."
+msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
 msgid ""
@@ -4458,25 +4440,18 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:14
-#, fuzzy
-#| msgid "Connexion initiale"
 msgid "Connexion avec le terminal"
-msgstr "Initial connection"
+msgstr "Connection with the terminal"
 
 #: ../../tutos/premiere-connexion-ssh.md:17
-#, fuzzy
-#| msgid ""
-#| "Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
-#| "logiciel en *ligne de commande*, il est nécessaire d'ouvrir une fenêtre "
-#| "de terminal (powershell sur windows)."
 msgid ""
 "Pour effectuer cette connexion SSH nous allons utiliser {term}`OpenSSH`. Ce "
 "logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
 "fenêtre de **terminal** (`cmd` sur windows) ! 🥵"
 msgstr ""
-"In this section {term}`OpenSSH` will be used. As this software suite is in "
-"*command-line*, it is necessary to open a terminal window (powershell on "
-"windows)."
+"To make this SSH connection we will use {term}`OpenSSH`. This software is "
+"used in {term}`CLI`, so it is necessary to open a **terminal** window (`cmd` "
+"on windows)! 🥵"
 
 #: ../../tutos/premiere-connexion-ssh.md:21
 msgid ""
@@ -4505,21 +4480,14 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:44
-#, fuzzy
-#| msgid ""
-#| "La première connexion est critique car c'est lors de celle-ci que se fait "
-#| "l'échange des clés. Pour éviter de subir une [attaque de l'homme du "
-#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) il "
-#| "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgid ""
 "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu). Nous "
 "allons donc répondre `no` pour le moment."
 msgstr ""
-"The first connection is critical because the key exchange takes place at "
-"this moment. To avoid a [man-in-the-middle attack](https://en.wikipedia.org/"
-"wiki/Man-in-the-middle_attack) we have to make sure that we received the "
-"correct key during this exchange."
+"Replying `yes` to this message exposes oneself to a [man-in-the-middle "
+"attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). So we're "
+"going to answer `no` for now."
 
 #: ../../tutos/premiere-connexion-ssh.md:47
 msgid "La confiance règne"
@@ -4590,24 +4558,20 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:98
-#, fuzzy
-#| msgid ""
-#| "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
-#| "mot de passe ne s'affiche pas au moment de l'écriture)."
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
 "**mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas "
 "au moment de l'écriture 🤫)."
 msgstr ""
-"You must then enter your CLUB1 **password** (it is normal that the password "
-"is not displayed at the time of writing)."
+"You should now be able to [connect via SSH](#connexion-avec-le-terminal) "
+"without seeing the alert message and you will then need to enter your CLUB1 "
+"**password** (it is normal that the password is not displayed at the time of "
+"writing 🤫)."
 
 #: ../../tutos/premiere-connexion-ssh.md:103
-#, fuzzy
-#| msgid "c'est le serveur."
 msgid "Dans le serveur"
-msgstr "it's the server."
+msgstr "In the server"
 
 #: ../../tutos/premiere-connexion-ssh.md:106
 msgid ""
@@ -4641,26 +4605,20 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/presentation.md:1
-#, fuzzy
-#| msgid "Fichier de présentation"
 msgid "Éditer son fichier de présentation"
-msgstr "Presentation file"
+msgstr "Edit your presentation file"
 
 #: ../../tutos/presentation.md:4
 msgid "Un fichier pour se présenter"
 msgstr "A file to introduce yourself"
 
 #: ../../tutos/presentation.md:6
-#, fuzzy
-#| msgid ""
-#| "Votre *home* peut également servir à vous présenter. Pour se faire, vous "
-#| "pouvez y ajouter, *à la racine* un fichier s'appellant :"
 msgid ""
 "Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter. Pour "
 "se faire, vous pouvez y ajouter, *à la racine* un fichier s'appellant :"
 msgstr ""
-"Your *home* can also be used to introduce yourself. To do this, you can add "
-"to it, *at the root* a file called:"
+"Your [*home*](/info/espace-personnel.md) can also be used to introduce "
+"yourself. To do this, you can add to it, *at the root* a file called:"
 
 #: ../../tutos/presentation.md:11
 msgid ""
@@ -4681,17 +4639,12 @@ msgstr ""
 "visitors to discover them 🔎️."
 
 #: ../../tutos/presentation.md:22
-#, fuzzy
-#| msgid ""
-#| "Pour aller toujours plus loin dans la personnalisation, il est possible "
-#| "de modifier certains paramètres d'affichage. Notamment, votre __nom "
-#| "d'affichage__ et la __couleur__ de votre bouton."
 msgid ""
 "Pour aller plus loin dans la personnalisation, il est possible de modifier "
 "certains paramètres d'affichage. Notamment, votre __nom d'affichage__ et la "
 "__couleur__ de votre bouton."
 msgstr ""
-"To go even further in customization, it is possible to modify some display "
+"To go further in customization, it is possible to modify some display "
 "settings. These include your __display name__ and the __color__ of your "
 "button."
 
@@ -4704,13 +4657,6 @@ msgstr ""
 "`PRESENTATION.md` file."
 
 #: ../../tutos/presentation.md:37
-#, fuzzy
-#| msgid ""
-#| "Le formatage est simple, il faut juste respecter les trois tirets au "
-#| "début et à la fin de la zone de métadonnées. Ensuite vous pouvez définir "
-#| "un ou plusieurs paramètres. Pour info, cette syntaxe *plus ou moins "
-#| "standard* s'appelle [Front Matter](https://jekyllrb.com/docs/front-"
-#| "matter/)."
 msgid ""
 "Le formatage est simple, il faut juste respecter les trois tirets au début "
 "et à la fin de la zone de métadonnées. Ensuite vous pouvez définir un ou "
@@ -4718,8 +4664,7 @@ msgid ""
 msgstr ""
 "The formatting is simple, you just have to respect the three dashes at the "
 "beginning and at the end of the metadata area. Then you can define one or "
-"more parameters. For your information, this *more or less standard* syntax "
-"is called [Front Matter](https://jekyllrb.com/docs/front-matter/)."
+"more parameters."
 
 #: ../../tutos/presentation.md:42
 msgid ""
@@ -4760,13 +4705,6 @@ msgid "Faire un lien vers son profil"
 msgstr "Create a link to your profile"
 
 #: ../../tutos/presentation.md:62
-#, fuzzy
-#| msgid ""
-#| "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
-#| "possible de la partager facilement. Il vous suffit de faire un lien "
-#| "ciblant spécifiquement votre présentation. Pour cela on utilise un "
-#| "[identificateur de fragment](https://fr.wikipedia.org/wiki/"
-#| "Identificateur_de_fragment) utilisant votre identifiant CLUB1."
 msgid ""
 "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
 "possible de la partager facilement. Il vous suffit de faire un lien ciblant "
@@ -4778,13 +4716,9 @@ msgstr ""
 "If you are satisfied with your superb presentation, it is possible to share "
 "it easily. You just need to make a link specifically targeting your "
 "presentation. For this we use an [URI fragment](https://en.wikipedia.org/"
-"wiki/URI_fragment) using your CLUB1 username."
+"wiki/URI_fragment) using your CLUB1 username (`#` + your username)."
 
 #: ../../tutos/presentation.md:68
-#, fuzzy
-#| msgid ""
-#| "Par exemple, l'adresse suivante ouvrira directement la présentation du "
-#| "membres `vincent` :"
 msgid ""
 "Par exemple, l'adresse suivante ouvrira directement la présentation du "
 "membre `vincent` :"
