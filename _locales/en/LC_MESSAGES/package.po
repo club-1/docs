@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-11-28 15:41+0100\n"
+"POT-Creation-Date: 2022-12-30 17:58+0100\n"
 "PO-Revision-Date: 2022-11-28 15:27+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -20,22 +20,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: ../../cgu.md:1
+#: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
 msgstr "Terms of service"
 
-#: ../../cgu.md:4
+#: ../../cgu.md:9
 msgid ""
 "En utilisant les services de CLUB1, vous acceptez d’être lié par les "
 "conditions suivantes."
 msgstr ""
 "By using the services of CLUB1, you agree to be bound by the following terms."
 
-#: ../../cgu.md:6
+#: ../../cgu.md:11
 msgid "Évolution des conditions générales d'utilisation"
 msgstr "Evolution of the terms of services"
 
-#: ../../cgu.md:9
+#: ../../cgu.md:14
 msgid ""
 "CLUB1 se réserve le droit de mettre à jour et modifier ces conditions. Dans "
 "ce cas, CLUB1 informe les personnes concernées par email si elle le peut ou "
@@ -45,7 +45,7 @@ msgstr ""
 "case, CLUB1 informs the persons concerned by email if it can or by posting "
 "on the site."
 
-#: ../../cgu.md:12
+#: ../../cgu.md:17
 msgid ""
 "Un historique daté des versions de cette charte peut être consulté sur "
 "[GitHub](https://github.com/club-1/docs/commits/main/cgu.md)."
@@ -53,11 +53,11 @@ msgstr ""
 "A dated version history of this charter can be found on [GitHub](https://"
 "github.com/club-1/docs/commits/main/cgu.md)."
 
-#: ../../cgu.md:14
+#: ../../cgu.md:19
 msgid "Accès aux services"
 msgstr "Access to services"
 
-#: ../../cgu.md:17
+#: ../../cgu.md:22
 msgid ""
 "Certains services sont en accès libre, d'autres requièrent un compte de "
 "membre. La liste des services et leurs conditions d'accès sont disponibles "
@@ -67,7 +67,7 @@ msgstr ""
 "list of services and their access conditions are available on the page "
 "[services](https://club1.fr/services/)."
 
-#: ../../cgu.md:21
+#: ../../cgu.md:26
 msgid ""
 "CLUB1 met à disposition de ses membres un espace personnel mutualisé sur le "
 "serveur. Un membre peut être une personne physique ou morale. Pour devenir "
@@ -79,7 +79,7 @@ msgstr ""
 "the registration fee, the amount of which is indicated on the [discover]"
 "(https://club1.fr/rejoindre#devenir-membre) page."
 
-#: ../../cgu.md:26
+#: ../../cgu.md:31
 msgid ""
 "La création d'un compte de membre est soumis à l’approbation préalable de "
 "CLUB1 selon les ressources disponibles."
@@ -87,11 +87,11 @@ msgstr ""
 "The creation of a member account is subject to the prior approval of CLUB1 "
 "according to the available resources."
 
-#: ../../cgu.md:31
+#: ../../cgu.md:36
 msgid "Fonctionnement"
 msgstr "Operation"
 
-#: ../../cgu.md:34
+#: ../../cgu.md:39
 msgid ""
 "CLUB1 propose l’ensemble de ses services grâce à des bénévoles, de ce fait "
 "CLUB1 ne s'engage sur aucun délai d'action. Nous essayons toutefois de faire "
@@ -100,20 +100,20 @@ msgstr ""
 "CLUB1 offers all of its services thanks to volunteers, therefore CLUB1 does "
 "not commit to any deadline for action. However, we try to do our best."
 
-#: ../../cgu.md:37
+#: ../../cgu.md:42
 msgid "Transmission sécurisée d’identifiants"
 msgstr "Secure transmission of credentials"
 
-#: ../../cgu.md:39
+#: ../../cgu.md:44
 msgid ""
 "CLUB1 ne vous demandera jamais de communiquer vos mots ou phrases de passe."
 msgstr "CLUB1 will never ask you for your passwords or passphrases."
 
-#: ../../cgu.md:41
+#: ../../cgu.md:46
 msgid "Intervention en cas de panne"
 msgstr "Intervention in case of breakdown"
 
-#: ../../cgu.md:43
+#: ../../cgu.md:48
 msgid ""
 "En cas de panne constatée et si aucun message n’atteste sur la page de "
 "statut que CLUB1 est en train de corriger le dysfonctionnement, un "
@@ -123,7 +123,7 @@ msgstr ""
 "that CLUB1 is in the process of correcting the malfunction, a [report](./"
 "info/general.md#demandes-et-incidents) is welcome."
 
-#: ../../cgu.md:47
+#: ../../cgu.md:52
 msgid ""
 "Si vous êtes membre, à ce titre, vous avez une part de responsabilité dans "
 "le bon fonctionnement du collectif. Si le service est indisponible ou si vos "
@@ -133,7 +133,7 @@ msgstr ""
 "proper functioning of the collective. If the service is unavailable or if "
 "your data is lost, it will therefore be a collective fault."
 
-#: ../../cgu.md:50
+#: ../../cgu.md:55
 msgid ""
 "En cas d’incapacité à résoudre un problème technique, CLUB1  pourra prendre "
 "la décision de fermer le service."
@@ -141,11 +141,11 @@ msgstr ""
 "If unable to resolve a technical problem, CLUB1 may decide to close the "
 "service."
 
-#: ../../cgu.md:54
+#: ../../cgu.md:59
 msgid "Responsabilité de CLUB1"
 msgstr "Responsibility of CLUB1"
 
-#: ../../cgu.md:56
+#: ../../cgu.md:61
 msgid ""
 "En aucun cas, un ou une utilisatrice ne pourra se prévaloir de dommages ou "
 "indemnités résultant de problèmes techniques de quelque nature qu'ils soient."
@@ -153,7 +153,7 @@ msgstr ""
 "Under no circumstances will a user be able to claim damages or indemnities "
 "resulting from technical problems of any nature whatsoever."
 
-#: ../../cgu.md:59
+#: ../../cgu.md:64
 msgid ""
 "CLUB1 est assujetti à une obligation de moyens. En cas de défaillance, CLUB1 "
 "ne peut être tenu pour responsable des dommages indirects tels que pertes "
@@ -166,11 +166,11 @@ msgstr ""
 "commercial damage, loss of customers, turnover, profits or anticipated "
 "savings, or any other indirect damage."
 
-#: ../../cgu.md:64
+#: ../../cgu.md:69
 msgid "Mésusage des services"
 msgstr "Misuse of services"
 
-#: ../../cgu.md:66
+#: ../../cgu.md:71
 msgid ""
 "La consommation de ressources doit respecter le cadre mutualisé de nos "
 "services. Tout abus peut entraîner la fermeture d’un compte."
@@ -178,7 +178,7 @@ msgstr ""
 "The consumption of resources must respect the shared framework of our "
 "services. Any abuse may result in the termination of an account."
 
-#: ../../cgu.md:69
+#: ../../cgu.md:74
 msgid ""
 "Vous devez respecter les lois et réglementations en vigueur lors de l’usage "
 "des services proposés que ce soit en matière de respect de la vie privée, "
@@ -191,7 +191,7 @@ msgstr ""
 "quantities of emails, intellectual property, discriminatory remarks, hate "
 "speech, harassment, violation of people's fundamental freedoms, etc."
 
-#: ../../cgu.md:74
+#: ../../cgu.md:79
 msgid ""
 "En cas d’usage prohibé, CLUB1 peut se trouver dans l’obligation de "
 "déclencher la suspension totale ou partielle du service, le retrait de "
@@ -201,7 +201,7 @@ msgstr ""
 "total or partial suspension of the service, the withdrawal of content, or "
 "any other measure that the laws and regulations impose on it."
 
-#: ../../cgu.md:78
+#: ../../cgu.md:83
 msgid ""
 "Vous devez respecter les autres utilisateurs en faisant preuve de civisme et "
 "de politesse. CLUB1 se réserve le droit de supprimer tout contenu paraissant "
@@ -211,7 +211,7 @@ msgstr ""
 "reserves the right to remove any content that appears irrelevant or "
 "contravenes these principles, at its sole discretion."
 
-#: ../../cgu.md:82
+#: ../../cgu.md:87
 msgid ""
 "Par ailleurs, si un ou une utilisatrice abuse du service, par exemple en "
 "monopolisant des ressources machines partagées, son contenu ou son accès "
@@ -221,11 +221,11 @@ msgstr ""
 "shared machine resources, its content or access may be deleted, after "
 "warning and negotiation."
 
-#: ../../cgu.md:86
+#: ../../cgu.md:91
 msgid "Devenir des services"
 msgstr "Future of services"
 
-#: ../../cgu.md:88
+#: ../../cgu.md:93
 msgid ""
 "CLUB1 peut par ailleurs choisir d’arrêter des services si CLUB1 estime ne "
 "plus être en mesure de fournir lesdits services. Si CLUB1 en a la "
@@ -237,12 +237,12 @@ msgstr ""
 "club will do its best to leave enough time to allow everyone to migrate "
 "peacefully."
 
-#: ../../cgu.md:94
+#: ../../cgu.md:99
 #, fuzzy
 msgid "Résiliation d’un compte"
 msgstr "Account Termination"
 
-#: ../../cgu.md:96
+#: ../../cgu.md:101
 msgid ""
 "Si vous souhaitez résilier un compte, vous devez le signaler à CLUB1 par "
 "email à <contact@club1.fr>."
@@ -250,25 +250,25 @@ msgstr ""
 "If you wish to terminate an account, you must notify CLUB1 by email at "
 "<contact@club1.fr>."
 
-#: ../../cgu.md:99
+#: ../../cgu.md:104
 msgid "Nos engagements"
 msgstr "Our commitments"
 
-#: ../../cgu.md:102
+#: ../../cgu.md:107
 msgid ""
 "CLUB1 n’exploitera vos données personnelles que dans le cadre de ces 4 "
 "finalités:"
 msgstr "CLUB1 will only use your personal data for these 4 purposes:"
 
-#: ../../cgu.md:104
+#: ../../cgu.md:109
 msgid "fournir le service pour lequel vous avez transmis vos données"
 msgstr "provide the service for which you provided your data"
 
-#: ../../cgu.md:105
+#: ../../cgu.md:110
 msgid "produire d’éventuelles statistiques anonymisées et agrégées"
 msgstr "produce any anonymized and aggregated statistics"
 
-#: ../../cgu.md:106
+#: ../../cgu.md:111
 msgid ""
 "vous prévenir d’un changement important sur le service (panne, notification "
 "d’intrusion et de vol de données, changement d’interface, date d’arrêt du "
@@ -277,11 +277,11 @@ msgstr ""
 "notify you of a major change in the service (breakdown, notification of "
 "intrusion and data theft, change of interface, service shutdown date, etc.)"
 
-#: ../../cgu.md:108
+#: ../../cgu.md:113
 msgid "obtenir votre avis sur les services et l’action du collectif"
 msgstr "get your opinion on the services and action of the collective"
 
-#: ../../cgu.md:111
+#: ../../cgu.md:116
 msgid ""
 "CLUB1 ne transmettra ni ne revendra vos données personnelles. Votre contenu "
 "vous appartient, toutefois, nous vous encourageons à le publier sous licence "
@@ -291,7 +291,7 @@ msgstr ""
 "to you, however, we encourage you to publish it under a free license if it "
 "is relevant."
 
-#: ../../cgu.md:115
+#: ../../cgu.md:120
 msgid ""
 "Une modification du paragraphe précédent, contrairement au reste des CGU, ne "
 "peut se faire par une simple notification. Si une telle modification devait "
@@ -300,11 +300,11 @@ msgstr ""
 "A modification of the previous paragraph, unlike the rest of the T&Cs, "
 "cannot be made by a simple notification. Should such a change occur, it:"
 
-#: ../../cgu.md:118
+#: ../../cgu.md:123
 msgid "Ne serait pas rétroactive"
 msgstr "would not be retroactive"
 
-#: ../../cgu.md:119
+#: ../../cgu.md:124
 msgid ""
 "Demanderait un accord explicite de votre part pour continuer à utiliser les "
 "services fournis par CLUB1"
@@ -312,11 +312,11 @@ msgstr ""
 "Would require an explicit agreement from you to continue using the services "
 "provided by CLUB1"
 
-#: ../../cgu.md:122
+#: ../../cgu.md:127
 msgid "Charte CHATONS"
 msgstr "CHATONS Charter"
 
-#: ../../cgu.md:124
+#: ../../cgu.md:129
 #, fuzzy
 msgid ""
 "CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du "
@@ -328,20 +328,22 @@ msgstr ""
 "of the _Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres "
 "et Solidaires_ as part of its activity as a host and online service provider."
 
-#: ../../cgu.md:128
-msgid "CLUB1 est candidat à l’intégration au sein de ce collectif."
+#: ../../cgu.md:133
+#, fuzzy
+#| msgid "CLUB1 est candidat à l’intégration au sein de ce collectif."
+msgid "CLUB1 est membre de ce collectif."
 msgstr "CLUB1 is a candidate for integration into this collective."
 
-#: ../../cgu.md:130
+#: ../../cgu.md:135
 msgid "Devenir des données"
 msgstr "Future of data"
 
-#: ../../cgu.md:132
+#: ../../cgu.md:137
 msgid ""
 "Une fois le compte clôturé, CLUB1 peut procéder à la suppression des données."
 msgstr "Once the account is closed, CLUB1 can proceed to delete the data."
 
-#: ../../cgu.md:134
+#: ../../cgu.md:139
 msgid ""
 "Les services en libre accès ont une péremption des données fixée, cela pour "
 "éviter la surcharge des espaces de stockage."
@@ -349,11 +351,11 @@ msgstr ""
 "Open access services have a fixed data expiration, this to avoid overloading "
 "storage spaces."
 
-#: ../../cgu.md:137
+#: ../../cgu.md:142
 msgid "RGPD"
 msgstr "GDPR"
 
-#: ../../cgu.md:139
+#: ../../cgu.md:144
 #, fuzzy
 msgid ""
 "Vous et CLUB1 s’engagent à respecter la réglementation en vigueur applicable "
@@ -721,7 +723,7 @@ msgstr "Appendices"
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
-#: ../../index.md:1 conf.py:223
+#: ../../index.md:1 conf.py:225
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -851,7 +853,7 @@ msgid ""
 "changer son nom d'affichage et la couleur de son bouton."
 msgstr ""
 
-#: ../../info/espace-personnel.md:65 ../../info/general.md:118
+#: ../../info/espace-personnel.md:65 ../../info/general.md:121
 #: ../../info/politique-de-vie-privee.md:6 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:124
 #: ../../services/email.md:203 ../../services/web.md:70
@@ -1058,10 +1060,16 @@ msgstr ""
 "availability **above 98%** should be ensured."
 
 #: ../../info/general.md:92
+msgid ""
+"Il est possible de consulter en direct l'état des différents services à "
+"cette adresse : <https://status.club1.fr/>"
+msgstr ""
+
+#: ../../info/general.md:95
 msgid "Sauvegardes"
 msgstr "Backups"
 
-#: ../../info/general.md:98
+#: ../../info/general.md:101
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
@@ -1074,21 +1082,21 @@ msgstr ""
 "and encrypted manner in several places including an off-site repository "
 "offered by Etienne Le Louët (self-hosted OMV server in Paris)."
 
-#: ../../info/general.md:103
+#: ../../info/general.md:106
 msgid ""
 "Il s'agit de sauvegardes incrémentales avec la politique de rétention "
 "suivante :"
 msgstr ""
 
-#: ../../info/general.md:105
+#: ../../info/general.md:108
 msgid "7 sauvegardes journalières"
 msgstr ""
 
-#: ../../info/general.md:106
+#: ../../info/general.md:109
 msgid "4 sauvegardes hebdomadaires"
 msgstr ""
 
-#: ../../info/general.md:108
+#: ../../info/general.md:111
 msgid ""
 "La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
 "des jours de la dernière semaine est accessible. En cas de défaillance "
@@ -1101,34 +1109,34 @@ msgstr ""
 "of data will be lost. The successful completion of backups is verified using "
 "the [Healthchecks.io](https://healthchecks.io/) service"
 
-#: ../../info/general.md:113
+#: ../../info/general.md:116
 msgid "Les sauvegardes sont réparties en deux groupes :"
 msgstr "Backups are divided into two groups:"
 
-#: ../../info/general.md:115
+#: ../../info/general.md:118
 msgid ""
 "**System** pour la configuration du serveur, les fichiers des applications "
 "et les bases de données."
 msgstr "**System** for server configuration, application files and databases."
 
-#: ../../info/general.md:116
+#: ../../info/general.md:119
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
-#: ../../info/general.md:119
+#: ../../info/general.md:122
 msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 "The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
 
-#: ../../info/general.md:122
+#: ../../info/general.md:125
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:125
+#: ../../info/general.md:128
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:127
+#: ../../info/general.md:130
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
@@ -1138,7 +1146,7 @@ msgstr ""
 "check that a name respects it using [regex101](https://regex101.com/r/"
 "AilLZw/1)."
 
-#: ../../info/general.md:130
+#: ../../info/general.md:133
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1153,11 +1161,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:136
+#: ../../info/general.md:139
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:138
+#: ../../info/general.md:141
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1165,52 +1173,52 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:141
+#: ../../info/general.md:144
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:143
+#: ../../info/general.md:146
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:144
+#: ../../info/general.md:147
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:145
+#: ../../info/general.md:148
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:146
+#: ../../info/general.md:149
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:147
+#: ../../info/general.md:150
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:148
+#: ../../info/general.md:151
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:149
+#: ../../info/general.md:152
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:150
+#: ../../info/general.md:153
 msgid ""
 "un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
 "aux projets"
 msgstr ""
 "access to the members-only matrix room for project monitoring and assistance"
 
-#: ../../info/general.md:152
+#: ../../info/general.md:155
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:155
+#: ../../info/general.md:158
 msgid "Contact"
 msgstr "Contact"
 
@@ -2246,17 +2254,17 @@ msgid "Serveur d'envoi (SMTP)"
 msgstr "Outgoing email server (SMTP)"
 
 #: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:28
 msgid "champ"
 msgstr "field"
 
 #: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:28
 msgid "valeur"
 msgstr "value"
 
 #: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:28
 msgid "hôte"
 msgstr "host"
 
@@ -2265,7 +2273,7 @@ msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr "`mail.club1.fr` or `smtp.club1.fr`"
 
 #: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:28
 msgid "port"
 msgstr "port"
 
@@ -2451,7 +2459,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:4 ../../services/ssh.md:25
+#: ../../services/ftp.md:4 ../../services/ssh.md:28
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
 
@@ -2734,10 +2742,11 @@ msgid ""
 "nouveaux contenus. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Agr%C3%A9gateur#Dans_le_domaine_informatique)"
 msgstr ""
-"Software for viewing {term}`Web feeds <Web feed>`. Its purpose is to aggregate news "
-"from different sites into a single feed. It allows you to avoid looking "
-"manually and one by one at the sites for which you want to know the new "
-"content. --- [Wikipedia](https://en.wikipedia.org/wiki/News_aggregator)"
+"Software for viewing {term}`Web feeds <Web feed>`. Its purpose is to "
+"aggregate news from different sites into a single feed. It allows you to "
+"avoid looking manually and one by one at the sites for which you want to "
+"know the new content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"News_aggregator)"
 
 #: ../../services/rss.md:34
 msgid ""
@@ -2747,8 +2756,8 @@ msgid ""
 "connecter un client natif."
 msgstr ""
 "An news feed aggregator is provided by {term}`Tiny Tiny RSS`. It is "
-"accessible through the integrated {term}`Web client` located at <https://"
-"rss.club1.fr>, but it is also possible to connect a native client to it."
+"accessible through the integrated {term}`Web client` located at <https://rss."
+"club1.fr>, but it is also possible to connect a native client to it."
 
 #: ../../services/rss.md:39
 msgid "Se connecter avec un client natif"
@@ -2899,7 +2908,11 @@ msgstr ""
 "same name. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Secure_copy_protocol)"
 
-#: ../../services/ssh.md:26
+#: ../../services/ssh.md:25
+msgid "Se connecter"
+msgstr "Connection"
+
+#: ../../services/ssh.md:29
 #, fuzzy
 #| msgid ""
 #| "La première connexion est critique car c'est lors de celle-ci que se fait "
@@ -2917,17 +2930,13 @@ msgstr ""
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../services/ssh.md:31
+#: ../../services/ssh.md:34
 msgid ""
 "Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, [ce "
 "tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgstr ""
 "If you don't know how to add the server key to your device, [this tutorial](/"
 "tutos/premiere-connexion-ssh.md) is for you!"
-
-#: ../../services/ssh.md:35
-msgid "Se connecter"
-msgstr "Connection"
 
 #: ../../services/ssh.md:38
 #, fuzzy
@@ -2954,7 +2963,7 @@ msgstr ""
 msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
-#: ../../services/ssh.md:45 ../../tutos/premiere-connexion-ssh.md:18
+#: ../../services/ssh.md:45 ../../tutos/premiere-connexion-ssh.md:24
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter "
 "(remplacer `<login>` par votre **identifiant** CLUB1) :"
@@ -3011,7 +3020,7 @@ msgstr ""
 "keys that will be used. If they are not already unlocked, the _passphrase_ "
 "will be prompted."
 
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:28
 msgid "`22` (par défaut)"
 msgstr "`22` (default)"
 
@@ -3082,8 +3091,14 @@ msgstr ""
 "looking to offer more energy-efficient sites."
 
 #: ../../services/web.md:29
+#, fuzzy
+#| msgid ""
+#| "Pour créer un site web statique, on peut écrire soi même du code HTML, "
+#| "associé avec des images, sons ou vidéos. C'est la façon la plus "
+#| "artisanale de faire un site web. Elle garantie des styles uniques et "
+#| "originaux et est très efficace pour apprendre comment fonctionne le web."
 msgid ""
-"Pour créer un site web statique, on peut écrire soi même du code HTML, "
+"Pour créer un site web statique, on peut écrire soi-même du code HTML, "
 "associé avec des images, sons ou vidéos. C'est la façon la plus artisanale "
 "de faire un site web. Elle garantie des styles uniques et originaux et est "
 "très efficace pour apprendre comment fonctionne le web."
@@ -3096,8 +3111,8 @@ msgstr ""
 #: ../../services/web.md:35
 msgid ""
 "Pour apprendre à coder en HTML et CSS, on recommande souvent le [tutoriel "
-"OpenClassromm](https://openclassrooms.com/fr/courses/1603881-apprenez-a-"
-"creer-votre-site-web-avec-html5-et-css3) de Mathieu Nebra."
+"OpenClassromm](https://openclassrooms.com/fr/courses/1603881-creez-votre-"
+"site-web-avec-html5-et-css3) de Mathieu Nebra."
 msgstr ""
 
 #: ../../services/web.md:38
@@ -3226,8 +3241,13 @@ msgstr ""
 "that is supposed to point to a server's IP address."
 
 #: ../../services/web.md:95
+#, fuzzy
+#| msgid ""
+#| "Eh oui ! ce sont deux notions différentes, même si une grosse partie des "
+#| "hébergeurs mainstream vont souvent proposer la location du nom de domaine "
+#| "en même temps que la location d'un espace pour les fichiers (hébergement)."
 msgid ""
-"Eh oui ! ce sont deux notions différentes, même si une grosse partie des "
+"Eh oui ! Ce sont deux notions différentes, même si une grosse partie des "
 "hébergeurs mainstream vont souvent proposer la location du nom de domaine en "
 "même temps que la location d'un espace pour les fichiers (hébergement)."
 msgstr ""
@@ -3252,9 +3272,15 @@ msgid ""
 msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
 
 #: ../../services/web.md:108
+#, fuzzy
+#| msgid ""
+#| "Un domaine permet d'associer des informations à un nom. Parmi ces "
+#| "information la plus importante est l'{term}`adresse IP` de l'ordinateur "
+#| "associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
+#| "{term}`alias` pour une adresse IP."
 msgid ""
 "Un domaine permet d'associer des informations à un nom. Parmi ces "
-"information la plus importante est l'{term}`adresse IP` de l'ordinateur "
+"informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
 "associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
 "{term}`alias` pour une adresse IP."
 msgstr ""
@@ -3279,9 +3305,9 @@ msgid ""
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
-"{term}`Domain name` registrar. Company or association managing the "
-"{term}`Internet` domain name reservation. --- [Wikipedia](https://en."
-"wikipedia.org/wiki/Domain_name_registrar)"
+"{term}`Domain name` registrar. Company or association managing the {term}"
+"`Internet` domain name reservation. --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/Domain_name_registrar)"
 
 #: ../../services/web.md:120
 msgid ""
@@ -3289,8 +3315,8 @@ msgid ""
 "`com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Domaine_de_premier_niveau)"
 msgstr ""
-"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. ---"
-" [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
 #: ../../services/web.md:126
 msgid ""
@@ -4425,12 +4451,19 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:8
+msgid ""
+"Ce tutoriel n'a pas encore été testé sur Windows. Certaines étapes risquent "
+"de ne pas fonctionner. Si vous rencontrez un problème, la section \"[](../"
+"info/general.md#demandes-et-incidents)\" explique comment nous en faire part."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:14
 #, fuzzy
 #| msgid "Connexion initiale"
 msgid "Connexion avec le terminal"
 msgstr "Initial connection"
 
-#: ../../tutos/premiere-connexion-ssh.md:11
+#: ../../tutos/premiere-connexion-ssh.md:17
 #, fuzzy
 #| msgid ""
 #| "Dans cette section {term}`OpenSSH` sera utilisé. Comme il s'agit d'un "
@@ -4445,33 +4478,33 @@ msgstr ""
 "*command-line*, it is necessary to open a terminal window (powershell on "
 "windows)."
 
-#: ../../tutos/premiere-connexion-ssh.md:15
+#: ../../tutos/premiere-connexion-ssh.md:21
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
 "l'informatique ! 🧙"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:24
-msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le temrinal."
-msgstr ""
-
-#: ../../tutos/premiere-connexion-ssh.md:27
-msgid "Vous devriez voir s'afficher le message suivant :"
+#: ../../tutos/premiere-connexion-ssh.md:30
+msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:33
+msgid "Vous devriez voir s'afficher le message suivant :"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:39
 msgid "😱 Houla ! Qu'est ce que c'est que ça ??"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:35
+#: ../../tutos/premiere-connexion-ssh.md:41
 msgid ""
 "En fait, c'est normal, {term}`OpenSSH` nous averti que l'authentification de "
 "la connexion n'est pas garantie car votre appareil ne connaît pas *encore* "
 "ce serveur."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:38
+#: ../../tutos/premiere-connexion-ssh.md:44
 #, fuzzy
 #| msgid ""
 #| "La première connexion est critique car c'est lors de celle-ci que se fait "
@@ -4488,11 +4521,11 @@ msgstr ""
 "wiki/Man-in-the-middle_attack) we have to make sure that we received the "
 "correct key during this exchange."
 
-#: ../../tutos/premiere-connexion-ssh.md:41
+#: ../../tutos/premiere-connexion-ssh.md:47
 msgid "La confiance règne"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:44
+#: ../../tutos/premiere-connexion-ssh.md:50
 msgid ""
 "Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1. "
 "Cela permet de garantir l'authenticité des réponses du serveur et "
@@ -4500,31 +4533,31 @@ msgid ""
 "l'on a bien affaire au serveur de CLUB1."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:48
+#: ../../tutos/premiere-connexion-ssh.md:54
 msgid ""
 "Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut "
 "l'acquérir par une autre source que la connexion SSH elle-même au cas où "
 "celle-ci serait compromise 😮."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:52
+#: ../../tutos/premiere-connexion-ssh.md:58
 msgid ""
 "🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle "
 "aussi compromise ?"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:54
+#: ../../tutos/premiere-connexion-ssh.md:60
 msgid ""
 "La source de la clef que nous allons utiliser provient du {term}`Web`, à "
 "travers une connexion chiffrée et **authentifié** via {term}`TLS` 🔒 (C'est "
 "le fameux `s` dans `https`)."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:59
+#: ../../tutos/premiere-connexion-ssh.md:65
 msgid "Fichier `known_hosts`"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:62
+#: ../../tutos/premiere-connexion-ssh.md:68
 msgid ""
 "Concrètement, cela consiste à ajouter une ligne de texte contenant la clef "
 "🔑, à un fichier sur votre appareil. Ce fichier s'appellera `known_hosts`, "
@@ -4532,31 +4565,31 @@ msgid ""
 "sein de votre espace personnel sur votre appareil."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:69
+#: ../../tutos/premiere-connexion-ssh.md:75
 msgid ""
 "Le dossier correspondant à votre espace personnel porte généralement le nom "
 "de votre utilisateur sur cet appareil."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:80
+#: ../../tutos/premiere-connexion-ssh.md:86
 msgid ""
 "Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la "
 "tentative de connexion SSH."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:82
+#: ../../tutos/premiere-connexion-ssh.md:88
 msgid ""
 "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
 "fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:89
+#: ../../tutos/premiere-connexion-ssh.md:95
 msgid ""
 "Si tout s'est bien passé, le fichier `known_hosts` doit maintenant contenir "
 "une ligne contenant la clef."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:92
+#: ../../tutos/premiere-connexion-ssh.md:98
 #, fuzzy
 #| msgid ""
 #| "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
@@ -4570,41 +4603,41 @@ msgstr ""
 "You must then enter your CLUB1 **password** (it is normal that the password "
 "is not displayed at the time of writing)."
 
-#: ../../tutos/premiere-connexion-ssh.md:97
+#: ../../tutos/premiere-connexion-ssh.md:103
 #, fuzzy
 #| msgid "c'est le serveur."
 msgid "Dans le serveur"
 msgstr "it's the server."
 
-#: ../../tutos/premiere-connexion-ssh.md:100
+#: ../../tutos/premiere-connexion-ssh.md:106
 msgid ""
 "Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
 "C'est un accès privilégié, car c'est celui qui vous donne le plus de "
 "libertés d'interactions avec le serveur."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:104
+#: ../../tutos/premiere-connexion-ssh.md:110
 msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:106
+#: ../../tutos/premiere-connexion-ssh.md:112
 msgid "`passwd`"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:108
+#: ../../tutos/premiere-connexion-ssh.md:114
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
 "connexion à tout les [services](/services/index.md))."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:111
+#: ../../tutos/premiere-connexion-ssh.md:117
 msgid "`htop`"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:113
+#: ../../tutos/premiere-connexion-ssh.md:119
 msgid ""
 "Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
-"les ressources sont utilisées. Pressez la touche {kbd}`q` pour quitter."
+"les ressources sont utilisées. Pressez la touche {kbd}`Q` pour quitter."
 msgstr ""
 
 #: ../../tutos/presentation.md:1
