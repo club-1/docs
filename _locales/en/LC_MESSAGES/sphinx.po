@@ -26,7 +26,7 @@ msgstr "The asked page does not exist, it might have been renamed."
 
 #: ../../_templates/cgu.html:4
 msgid "Dernière modification le %s"
-msgstr ""
+msgstr "Last modification on %s"
 
 #: ../../_templates/layout.html:16
 msgid "Retour au site principal"

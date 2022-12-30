@@ -16,6 +16,9 @@ msgstr ""
 msgid "Apache"
 msgstr ""
 
+msgid "Atom"
+msgstr ""
+
 msgid "BibTeX"
 msgstr ""
 

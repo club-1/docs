@@ -2167,10 +2167,6 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/RSS)"
 msgstr ""
 
-#: ../../services/rss.md:17
-msgid "Atom"
-msgstr ""
-
 #: ../../services/rss.md:23
 msgid ""
 "Format de {term}`flux Web`. Ce format est plus strict et mieux standardisé "
