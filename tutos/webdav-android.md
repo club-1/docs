@@ -14,7 +14,7 @@ ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
 [*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).
 
 - [F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)
-- [Google Plays store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=fr&gl=FR) (6€)
+- [Google Play store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=fr&gl=FR) (6€)
 
 Premier lancement
 -----------------

@@ -70,3 +70,7 @@ Par exemple, l'adresse suivante ouvrira directement la présentation du membre `
     https://club1.fr/membres/#vincent
 
 
+
+```{raw} latex
+\clearpage
+```

@@ -5,8 +5,8 @@ Cette méthode permet de synchroniser ses {index}`calendriers` entre le serveur 
 
 L'opération se fait directement depuis l'application Calendrier Apple.
 
-Dans la barre de menu il faut se rendre dans **Calendrier**
-puis **Comptes...** pour afficher la fenêtre de configuration de **Comptes Internet**
+Dans la barre de menu il faut se rendre dans {guilabel}`Calendrier`
+puis {guilabel}`Comptes...` pour afficher la fenêtre de configuration de **Comptes Internet**
 ({numref}`fig:tutos-caldav-mac-comptes`).
 
 ```{figure} caldav-mac/0.png
@@ -17,7 +17,7 @@ name: fig:tutos-caldav-mac-comptes
 Fenêtre "Comptes Internet".
 ```
 
-Pour ajouter un compte CLUB1 il faut cliquer sur **Ajouter un autre compte...**
+Pour ajouter un compte CLUB1 il faut cliquer sur {guilabel}`Ajouter un autre compte...`
 et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-mac-autres-comptes`)
 
 ```{figure} caldav-mac/2.png
@@ -25,7 +25,7 @@ et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-mac-autres-compt
 alt: capture d'écran fenêtre Autres Comptes
 name: fig:tutos-caldav-mac-autres-comptes
 ---
-La fenêtre "Comptes Internet" dévoile son plein potentiel une fois qu'on a cliqué sur le bouton "Ajouter un autres compte...".
+La fenêtre "Comptes Internet" dévoile son plein potentiel une fois qu'on a cliqué sur le bouton {guilabel}`Ajouter un autres compte...`.
 ```
 
 

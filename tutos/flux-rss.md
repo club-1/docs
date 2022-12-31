@@ -24,13 +24,13 @@ Pour l'obtenir, vous pouvez visiter le site en question avec un navigateur web
 depuis lequel il est possible de copier l'URL depuis la barre de recherche.
 ```
 
-Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, puis sur `s'abonner au flux...`
+Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, puis sur {guilabel}`s'abonner au flux...`
 
 ![visualisation du menu](flux-rss/capture_1.png)
 
 Entrez l'url du site dont vous voulez obtenir le {term}`flux de nouvelles`, par exemple ici le blog de Fred Turner.
 Si vous avez créé des catégories, vous pouvez en sélectionner une pour trier votre flux (c'est possible de le faire plus tard)
-puis cliquez sur `S'abonner`.
+puis cliquez sur {guilabel}`S'abonner`.
 
 ```{warning}
 Il est possible qu'un site ne propose pas de flux de nouvelles,
@@ -61,7 +61,8 @@ Les catégories permettent de rassembler les flux auxquels vous vous êtes abonn
 Elles sont utiles par exemple pour recréer un sous-fil d'actualités thématique,
 surtout lorsqu'on est abonné à beaucoup de sites.
 
-Pour créer une catégorie, il faut retourner dans le menu en haut à droite de l'écran principal et cliquer sur `Configuration...`.
+Pour créer une catégorie, il faut retourner dans le menu en haut à droite de l'écran principal
+et cliquer sur {guilabel}`Configuration...`.
 Aller dans l'onglet Flux en haut de l'écran.
 
 ![Config catégories 1](flux-rss/capture_4.png)
@@ -87,7 +88,7 @@ vous pouvez désactiver le "mode combiné" dans la configuration.
 Il est possible de passer en mode _trois colones_ avec le panneau de lecture à droite,
 ce qui est pratique lorsqu'on a un écran large.
 
-Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`.
+Ceci se fait depuis le menu, en cliquant sur {guilabel}`Basculer le mode écran large`.
 ```
 
 
