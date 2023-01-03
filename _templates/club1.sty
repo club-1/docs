@@ -110,19 +110,12 @@
 \makeatother
 
 % Customisation des citations pour les uniformiser avec la version HTML.
-\mdfdefinestyle{QuoteFrame}{
-	backgroundcolor=none,
-	fontcolor=darkgray,
-	linecolor=lightgray,
-	linewidth=3pt,
-	rightline=false, topline=false, bottomline=false,
-	innerleftmargin=16pt, innerrightmargin=0pt,
-	innertopmargin=5pt, innerbottommargin=4pt,
-	skipabove=8pt, skipbelow=10pt,
-}
-\renewenvironment{quote}
-	{\par\mdframed[style=QuoteFrame]}
-	{\endmdframed}
+\renewenvironment{quote}[1]{\begin{tcolorbox}[
+	blanker,
+	colupper=darkgray,
+	borderline west={2.5pt}{0pt}{lightgray},
+	left=15pt, top=4pt, bottom=4pt, % body margins
+]}{\end{tcolorbox}}
 
 % Customisation des touches de clavier.
 \DeclareRobustCommand{\sphinxkeyboard}[1]{%
@@ -169,7 +162,6 @@
 
 \newenvironment{club1admonition}[3]{\begin{tcolorbox}[
 	boxrule=0pt, frame empty, % no borders
-	width=\linewidth, % adapt to line width
 	colbacktitle=#2, colback=#3, % colors
 	outer arc=0pt, arc=0pt, % no border radius
 	left=5pt, right=5pt, top=5pt, bottom=5pt, % body margins
