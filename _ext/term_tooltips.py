@@ -14,7 +14,7 @@ class TermTooltips(SphinxPostTransform):
     default_priority = 5
     logger = logging.getLogger('term_tooltips')
     apply: Optional[Callable[[str], str]]
-    single_newlines = re.compile('(?<!\n)\n')
+    single_newlines = re.compile('(?<!\n)\n(?!\n)')
 
     def run(self) -> None:
         if self.app.builder.format != 'html':
