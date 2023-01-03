@@ -67,7 +67,7 @@ ligne suivante.
 Options -Indexes
 ```
 
-```{admonition} Voir aussi
+```{seealso}
 Le tutoriel "[](/tutos/mes-premiers-pas-sur-le-web.md)" pour apprendre à faire son premier site web avec le dossier `/static`.
 ```
 

@@ -29,7 +29,7 @@ on utilise un fichier `.formward+[...]` au lieu du fichier `.forward` de l'adres
 > il faut le faire dans le fichier `.forward+travail`.
 ```
 
-```{admonition} Voir aussi
+```{seealso}
 La documentation officielle de l'option [recipient_delimiter](http://www.postfix.org/postconf.5.html#recipient_delimiter)
 (en anglais)
 ```
@@ -67,7 +67,7 @@ Détails divers
 
 Quelques informations supplémentaires à propos de certains détails du service email de CLUB1.
 
-```{admonition} Voir aussi
+```{seealso}
 L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)
 ```
 
@@ -121,7 +121,7 @@ en ajoutant son nom d'utilisateur&middot;trice à cette liste !
 Pour mettre fin à une redirection, il suffit de supprimer la ligne correspondante.
 Il est aussi possible de supprimer le fichier pour tout annuler.
 
-```{admonition} Voir aussi
+```{seealso}
 La page de manuel [Postfix local mail delivery](https://www.postfix.org/local.8.html) (en anglais)
 ```
 
@@ -200,7 +200,7 @@ Roundcube
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
    [Sources](https://github.com/roundcube/roundcubemail)
 
-   ```{admonition} Voir aussi
+   ```{seealso}
    La section [](#client-web)
    ```
 ````

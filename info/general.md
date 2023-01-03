@@ -118,7 +118,7 @@ Les sauvegardes sont réparties en deux groupes :
 1. **System** pour la configuration du serveur, les fichiers des applications et les bases de données.
 2. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
 
-```{admonition} Voir aussi
+```{seealso}
 L'article du journal [Sauvegardes](https://club1.fr/backups/)
 ```
 
