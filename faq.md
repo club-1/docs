@@ -17,7 +17,7 @@ backlinks: entry
 ### Comment modifier mon mot de passe de membre CLUB1 ?
 
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
-est de lancer la commande [`passwd`](tutos/premiere-connexion-ssh.md#passwd) à partir d'une [connexion SSH](services/ssh.md).
+est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
 
 ### Est ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et créer plein d'adresses indépendantes ?
 
