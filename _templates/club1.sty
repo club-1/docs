@@ -112,6 +112,7 @@
 % Customisation des citations pour les uniformiser avec la version HTML.
 \renewenvironment{quote}{\begin{tcolorbox}[
 	blanker, % base style
+	breakable, % allow to break
 	before=\par, parbox=false, % obey document paragraph spacing rules
 	colupper=darkgray,
 	borderline west={2.5pt}{0pt}{lightgray},
@@ -161,11 +162,22 @@
 \def\StriplastColon#1{\striplastColon{#1}#1\end :\end\eend}
 \def\striplastColon#1#2:\end#3\eend{\ifx\end#3\end#1\else#2\fi}
 
+\usetikzlibrary{decorations.pathmorphing}
 \newenvironment{club1admonition}[3]{\begin{tcolorbox}[
-	boxrule=0pt, frame empty, % no borders
+	tile, % base style
+	breakable, % allow to break
 	before=\par, parbox=false, % obey document paragraph spacing rules
 	colbacktitle=#2, colback=#3, % colors
-	outer arc=0pt, arc=0pt, % no border radius
+	overlay first={%
+		\fill[#3,decoration={zigzag,amplitude=1.5pt}]
+		([yshift=0.5pt]frame.south east) -- ([yshift=0.5pt]frame.south west) --
+		([yshift=-1.5pt]frame.south west) decorate{ -- ([yshift=-1.5pt]frame.south east)};
+	},
+	overlay last={%
+		\fill[#3,decoration={zigzag,amplitude=1.5pt}]
+		([yshift=-0.5pt]frame.north east) -- ([yshift=-0.5pt]frame.north west) --
+		([yshift=1.5pt]frame.north west) decorate{ -- ([yshift=1.5pt]frame.north east)};
+	},
 	left=5pt, right=5pt, top=5pt, bottom=5pt, % body margins
 	toptitle=1pt, bottomtitle=1pt, % title bar margins
 	fonttitle=\sffamily\bfseries, % same font variant as other titles
