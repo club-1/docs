@@ -346,7 +346,7 @@ msgid "Glossaire"
 msgstr ""
 
 #: ../../glossaire.md:0
-msgid "Adresse IP"
+msgid "adresse IP"
 msgstr ""
 
 #: ../../glossaire.md:8
@@ -373,7 +373,7 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:13
-msgid "Alias"
+msgid "alias"
 msgstr ""
 
 #: ../../glossaire.md:21
@@ -404,7 +404,7 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:32
-msgid "Client"
+msgid "client"
 msgstr ""
 
 #: ../../glossaire.md:40
@@ -415,7 +415,7 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:37 ../../services/email.md:37
-msgid "Client Web"
+msgid "client Web"
 msgstr ""
 
 #: ../../glossaire.md:45
@@ -425,11 +425,11 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:40
-msgid "Fichier caché"
+msgid "fichier caché"
 msgstr ""
 
 #: ../../glossaire.md:41
-msgid "Dossier caché"
+msgid "dossier caché"
 msgstr ""
 
 #: ../../glossaire.md:49
@@ -506,7 +506,7 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:91
-msgid "Réseau informatique"
+msgid "réseau informatique"
 msgstr ""
 
 #: ../../glossaire.md:99
@@ -517,7 +517,7 @@ msgid ""
 msgstr ""
 
 #: ../../glossaire.md:95
-msgid "Serveur"
+msgid "serveur"
 msgstr ""
 
 #: ../../glossaire.md:103

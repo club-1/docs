@@ -432,7 +432,7 @@ msgid "Glossaire"
 msgstr "Glossary"
 
 #: ../../glossaire.md:0
-msgid "Adresse IP"
+msgid "adresse IP"
 msgstr "IP address"
 
 #: ../../glossaire.md:8
@@ -468,8 +468,8 @@ msgstr ""
 "en.wikipedia.org/wiki/IP_address)"
 
 #: ../../glossaire.md:13
-msgid "Alias"
-msgstr "Alias"
+msgid "alias"
+msgstr "alias"
 
 #: ../../glossaire.md:21
 msgid ""
@@ -511,8 +511,8 @@ msgstr ""
 "(https://en.wikipedia.org/wiki/Command-line_interface)"
 
 #: ../../glossaire.md:32
-msgid "Client"
-msgstr "Client"
+msgid "client"
+msgstr "client"
 
 #: ../../glossaire.md:40
 msgid ""
@@ -525,7 +525,7 @@ msgstr ""
 "by a human. --- [Wikipedia](https://en.wikipedia.org/wiki/Client_(computing))"
 
 #: ../../glossaire.md:37 ../../services/email.md:37
-msgid "Client Web"
+msgid "client Web"
 msgstr "Web client"
 
 #: ../../glossaire.md:45
@@ -536,11 +536,11 @@ msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
 #: ../../glossaire.md:40
-msgid "Fichier caché"
-msgstr "Hidden file"
+msgid "fichier caché"
+msgstr "hidden file"
 
 #: ../../glossaire.md:41
-msgid "Dossier caché"
+msgid "dossier caché"
 msgstr "hidden folder"
 
 #: ../../glossaire.md:49
@@ -647,8 +647,8 @@ msgstr ""
 "en.wikipedia.org/wiki/PHP)"
 
 #: ../../glossaire.md:91
-msgid "Réseau informatique"
-msgstr "Computer network"
+msgid "réseau informatique"
+msgstr "computer network"
 
 #: ../../glossaire.md:99
 msgid ""
@@ -660,8 +660,8 @@ msgstr ""
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
 #: ../../glossaire.md:95
-msgid "Serveur"
-msgstr "Server"
+msgid "serveur"
+msgstr "server"
 
 #: ../../glossaire.md:103
 msgid ""
@@ -2732,10 +2732,6 @@ msgstr ""
 "less strict than its competitor {term}`Atom`. --- [Wikipedia](https://en."
 "wikipedia.org/wiki/RSS)"
 
-#: ../../services/rss.md:17
-msgid "Atom"
-msgstr ""
-
 #: ../../services/rss.md:23
 msgid ""
 "Format de {term}`flux Web`. Ce format est plus strict et mieux standardisé "
@@ -3108,8 +3104,8 @@ msgid ""
 "OpenClassromm](https://openclassrooms.com/fr/courses/1603881-creez-votre-"
 "site-web-avec-html5-et-css3) de Mathieu Nebra."
 msgstr ""
-"To learn how to code in HTML and CSS, we often recommend Mathieu Nebra's ["
-"OpenClassromm tutorial](https://openclassrooms.com/fr/courses/1603881-creez-"
+"To learn how to code in HTML and CSS, we often recommend Mathieu Nebra's "
+"[OpenClassromm tutorial](https://openclassrooms.com/fr/courses/1603881-creez-"
 "votre-site-web-avec-html5-et-css3)."
 
 #: ../../services/web.md:38
@@ -3370,8 +3366,8 @@ msgid ""
 "tirets `-`."
 msgstr ""
 "Remember to check that the **subdomain** is available before sending a "
-"request! 😉 It must only consist of lowercase letters, numbers or hyphens "
-"`-`."
+"request! 😉 It must only consist of lowercase letters, numbers or hyphens `-"
+"`."
 
 #: ../../services/web.md:164
 msgid "Avoir des sous-sous-domaine"
@@ -3832,8 +3828,8 @@ msgid ""
 "Ce tutoriel explique comment utiliser [l'agrégateur de flux Web de CLUB1](/"
 "services/rss.md)."
 msgstr ""
-"This tutorial explains how to use [CLUB1's Web feed aggregator](/services/rss"
-".md)."
+"This tutorial explains how to use [CLUB1's Web feed aggregator](/services/"
+"rss.md)."
 
 #: ../../tutos/flux-rss.md:6
 msgid ""
