@@ -26,6 +26,7 @@ Alias
     C'est un concept fréquemment utilisé en informatique.
     On parle par exemple d'alias lorsqu'on fait pointer plusieurs adresses email vers la même boîte de reception,
     ou lorsqu'on définit un nouveau nom pour une commande.
+    --- [Wiktionnaire](https://fr.wiktionary.org/wiki/alias)
 
 API
    De l'anglais _Application Programming Interface_.
@@ -75,6 +76,13 @@ HTML
    (_Hypertext Markup Language_) Langage de balisage conçu pour représenter les pages {term}`Web`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language),
    [MDN web docs](https://developer.mozilla.org/fr/docs/Web/HTML)
+
+instance
+   Copie d'un logiciel ou d'un objet informatique ayant sa propre existance et son propre état.
+
+   On parle par exemple d'instance à chaque fois qu'on execute un logiciel avec des données différentes.
+   Sur le serveur CLUB1, il y a notamment plusieurs instances de {term}`PHP` : au moins une pour chaque membre.
+   --- [Wiktionnaire](https://fr.wiktionary.org/wiki/instance)
 
 Internet
    {term}`Réseau informatique` mondial accessible au public.
