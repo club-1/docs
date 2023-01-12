@@ -8,7 +8,7 @@ Glossaire
 sorted:
 ---
 
-Adresse IP
+adresse IP
    Numéro d'identification d'un ordinateur relié à un {term}`réseau informatique`.
 
    Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer des données entre un ordinateur source et sa destination.
@@ -21,7 +21,7 @@ Adresse IP
    (ex : `2001:861:38c4:18a0::3` pour le serveur de CLUB1).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Adresse_IP)
 
-Alias
+alias
     Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs noms à la même entité.
     C'est un concept fréquemment utilisé en informatique.
     On parle par exemple d'alias lorsqu'on fait pointer plusieurs adresses email vers la même boîte de reception,
@@ -40,16 +40,16 @@ CLI
    La CLI est très intéressante car elle peut aussi bien être utilisée par des humains que par des logiciels. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
 
-Client
+client
    Logiciel permettant de se connecter à un {term}`serveur`.
    Il est en général doté d'une interface graphique, destinée à être utilisée directement par un humain. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))
 
-Client Web
+client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
-Fichier caché
-Dossier caché
+fichier caché
+dossier caché
    Dans la plupart des systèmes d'exploitation,
    il est possible de cacher des fichiers ou des dossiers.
    Cela sert souvent à masquer des paramètres peu utiles au quotidien.
@@ -83,7 +83,7 @@ Internet
    Il s'agit donc d'un "réseau de réseaux". ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
-Log
+log
    Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/wiki/Livre_de_bord) d'un navire.
    En informatique il s'agit d'un journal contenant un historique d'événements,
    généralement sous la forme de ficher en texte brut.
@@ -105,11 +105,11 @@ PHP
    et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
-Réseau informatique
+réseau informatique
    Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des données. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9seau_informatique)
 
-Serveur
+serveur
    Logiciel chargé de fournir un service. C'est lui qui détient les données
    et qui répond aux demandes d'un {term}`client`.
    Souvent, les serveurs et les clients sont installés sur des ordinateurs différents.
