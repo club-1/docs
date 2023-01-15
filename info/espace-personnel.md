@@ -26,11 +26,11 @@ C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du se
 Architecture de dossiers
 ------------------------
 
-Tout les dossiers ne se valent pas, certains ont un rôle spécifique.
+Tous les dossiers ne se valent pas, certains ont un rôle spécifique.
 
 ### 📁 mail
 
-C'est ici que sont stockés tout vos mails du [service mail CLUB1](/services/email.md).
+C'est ici que sont stockés tous vos emails du [service email CLUB1](/services/email.md).
 Votre espace email est donc directement à l'intérieur de votre espace personnel.
 Un quota existe pour ce dossier : il est limité à 5Go.
 
