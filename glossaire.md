@@ -78,9 +78,9 @@ HTML
    [MDN web docs](https://developer.mozilla.org/fr/docs/Web/HTML)
 
 instance
-   Copie d'un logiciel ou d'un objet informatique ayant sa propre existance et son propre état.
+   Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et son propre état.
 
-   On parle par exemple d'instance à chaque fois qu'on execute un logiciel avec des données différentes.
+   On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec des données différentes.
    Sur le serveur CLUB1, il y a notamment plusieurs instances de {term}`PHP` : au moins une pour chaque membre.
    --- [Wiktionnaire](https://fr.wiktionary.org/wiki/instance)
 
