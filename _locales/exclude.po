@@ -187,6 +187,12 @@ msgstr ""
 msgid "gettext"
 msgstr ""
 
+msgid "log"
+msgstr ""
+
+msgid "logrotate"
+msgstr ""
+
 msgid "members-presentation"
 msgstr ""
 
@@ -200,6 +206,9 @@ msgid "xindy"
 msgstr ""
 
 msgid "📁 git"
+msgstr ""
+
+msgid "📁 log"
 msgstr ""
 
 msgid "📁 mail"

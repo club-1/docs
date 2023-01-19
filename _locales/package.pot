@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-12-30 17:58+0100\n"
+"POT-Creation-Date: 2023-01-20 00:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -382,10 +382,10 @@ msgid ""
 "noms à la même entité. C'est un concept fréquemment utilisé en informatique. "
 "On parle par exemple d'alias lorsqu'on fait pointer plusieurs adresses email "
 "vers la même boîte de reception, ou lorsqu'on définit un nouveau nom pour "
-"une commande."
+"une commande. --- [Wiktionnaire](https://fr.wiktionary.org/wiki/alias)"
 msgstr ""
 
-#: ../../glossaire.md:27
+#: ../../glossaire.md:28
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
@@ -394,7 +394,7 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:33
+#: ../../glossaire.md:34
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -403,36 +403,36 @@ msgid ""
 "wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:32
+#: ../../glossaire.md:33
 msgid "client"
 msgstr ""
 
-#: ../../glossaire.md:40
+#: ../../glossaire.md:41
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:37 ../../services/email.md:37
+#: ../../glossaire.md:38
 msgid "client Web"
 msgstr ""
 
-#: ../../glossaire.md:45
+#: ../../glossaire.md:46
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:40
+#: ../../glossaire.md:41
 msgid "fichier caché"
 msgstr ""
 
-#: ../../glossaire.md:41
+#: ../../glossaire.md:42
 msgid "dossier caché"
 msgstr ""
 
-#: ../../glossaire.md:49
+#: ../../glossaire.md:50
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
@@ -440,7 +440,7 @@ msgid ""
 "par un point `.`."
 msgstr ""
 
-#: ../../glossaire.md:54
+#: ../../glossaire.md:55
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -448,23 +448,23 @@ msgid ""
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
 
-#: ../../glossaire.md:60
+#: ../../glossaire.md:61
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {term}`Git`."
 msgstr ""
 
-#: ../../glossaire.md:64
+#: ../../glossaire.md:65
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
 "ni **libre**, ni **open source** et appartient à Microsoft."
 msgstr ""
 
-#: ../../glossaire.md:68
+#: ../../glossaire.md:69
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:71
+#: ../../glossaire.md:72
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -472,11 +472,29 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:68
-msgid "Internet"
+#: ../../glossaire.md:69
+msgid "instance"
+msgstr ""
+
+#: ../../glossaire.md:77
+msgid ""
+"Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
+"son propre état."
+msgstr ""
+
+#: ../../glossaire.md:79
+msgid ""
+"On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
+"des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
+"instances de {term}`PHP` : au moins une pour chaque membre. --- "
+"[Wiktionnaire](https://fr.wiktionary.org/wiki/instance)"
 msgstr ""
 
 #: ../../glossaire.md:76
+msgid "Internet"
+msgstr ""
+
+#: ../../glossaire.md:84
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -485,7 +503,16 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:83
+#: ../../glossaire.md:91
+msgid ""
+"Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
+"wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
+"contenant un historique d'événements, généralement sous la forme de ficher "
+"en texte brut. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Historique_(informatique))"
+msgstr ""
+
+#: ../../glossaire.md:97
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -495,7 +522,7 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:91
+#: ../../glossaire.md:105
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -505,22 +532,22 @@ msgid ""
 "md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:91
+#: ../../glossaire.md:105
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:99
+#: ../../glossaire.md:113
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:95
+#: ../../glossaire.md:109
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:103
+#: ../../glossaire.md:117
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -530,7 +557,7 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:111
+#: ../../glossaire.md:125
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -540,18 +567,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:111
+#: ../../glossaire.md:125
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:119
+#: ../../glossaire.md:133
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:123
+#: ../../glossaire.md:137
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -568,7 +595,7 @@ msgstr ""
 msgid "Indexes et tables"
 msgstr ""
 
-#: ../../index.md:1 conf.py:225
+#: ../../index.md:1 conf.py:222
 msgid "Documentation de l'hébergement CLUB1"
 msgstr ""
 
@@ -622,14 +649,15 @@ msgid "Architecture de dossiers"
 msgstr ""
 
 #: ../../info/espace-personnel.md:29
-msgid "Tout les dossiers ne se valent pas, certains ont un rôle spécifique."
+msgid "Tous les dossiers ne se valent pas, certains ont un rôle spécifique."
 msgstr ""
 
 #: ../../info/espace-personnel.md:33
 msgid ""
-"C'est ici que sont stockés tout vos mails du [service mail CLUB1](/services/"
-"email.md). Votre espace email est donc directement à l'intérieur de votre "
-"espace personnel. Un quota existe pour ce dossier : il est limité à 5Go."
+"C'est ici que sont stockés tous vos emails du [service email CLUB1](/"
+"services/email.md). Votre espace email est donc directement à l'intérieur de "
+"votre espace personnel. Un quota existe pour ce dossier : il est limité à "
+"5Go."
 msgstr ""
 
 #: ../../info/espace-personnel.md:38
@@ -656,51 +684,72 @@ msgid ""
 msgstr ""
 
 #: ../../info/espace-personnel.md:56
-msgid "Fichier de présentation"
+msgid ""
+"Ce dossier contient l'ensemble des {term}`logs <log>` produits par les "
+"services. Par exemple ceux des [sites Web dynamiques](../services/web."
+"md#sites-web-dynamiques)."
 msgstr ""
 
 #: ../../info/espace-personnel.md:59
+msgid ""
+"Une rotation est opérée à l'aide de {term}`logrotate` sur les fichiers `*."
+"log` de ce dossier toute les semaines et un historique de 15 fichiers par "
+"log est conservé. Les anciens fichiers sont compressés via `gzip`."
+msgstr ""
+
+#: ../../info/espace-personnel.md:63
+msgid "Fichier de présentation"
+msgstr ""
+
+#: ../../info/espace-personnel.md:66
 msgid ""
 "Pour apparaître sur la [page membres](https://club1.fr/membres) du site web "
 "de CLUB1, il faut créer un **fichier de présentation** appellé `PRESENTATION."
 "md` à la racine de son espace perso."
 msgstr ""
 
-#: ../../info/espace-personnel.md:62
+#: ../../info/espace-personnel.md:69
 msgid ""
 "Il est possible de formater son texte en {term}`Markdown`, ainsi que de "
 "changer son nom d'affichage et la couleur de son bouton."
 msgstr ""
 
-#: ../../info/espace-personnel.md:65 ../../info/general.md:121
+#: ../../info/espace-personnel.md:72 ../../info/general.md:121
 #: ../../info/politique-de-vie-privee.md:6 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:124
 #: ../../services/email.md:203 ../../services/web.md:70
 msgid "Voir aussi"
 msgstr ""
 
-#: ../../info/espace-personnel.md:66
+#: ../../info/espace-personnel.md:73
 msgid "Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)"
 msgstr ""
 
-#: ../../info/espace-personnel.md:69
+#: ../../info/espace-personnel.md:76
 msgid ""
 "💡 L'ordre des boutons de présentation change à chaque fois qu'un&middot;e "
 "membre met à jour son fichier de présentation !"
 msgstr ""
 
-#: ../../info/espace-personnel.md:72 ../../services/drive.md:18
+#: ../../info/espace-personnel.md:79 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/rss.md:57 ../../services/sql.md:24
+#: ../../services/git.md:90 ../../services/rss.md:57 ../../services/sql.md:56
 #: ../../services/ssh.md:85 ../../services/web.md:204
 #: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
 
-#: ../../info/espace-personnel.md:77
+#: ../../info/espace-personnel.md:84
 msgid ""
 "Script PHP permettant de générer la page membre. --- [Sources](https://"
 "github.com/club-1/members-presentation)"
+msgstr ""
+
+#: ../../info/espace-personnel.md:88
+msgid ""
+"Utilitaire permettant de simplifier la rotation d'un grand nombre de "
+"fichiers de {term}`log`. --- [Sources](https://github.com/logrotate/"
+"logrotate)"
 msgstr ""
 
 #: ../../info/general.md:1
@@ -1607,6 +1656,10 @@ msgid ""
 "postfix.org/postconf.5.html#recipient_delimiter) (en anglais)"
 msgstr ""
 
+#: ../../services/email.md:37
+msgid "Client Web"
+msgstr ""
+
 #: ../../services/email.md:40
 msgid ""
 "Un {term}`client Web` fourni par {term}`Roundcube` est disponible à "
@@ -1789,7 +1842,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/email.md:142 ../../services/ftp.md:41
-#: ../../services/sql.md:16 ../../services/ssh.md:77
+#: ../../services/sql.md:45 ../../services/ssh.md:77
 msgid "Informations de connexion"
 msgstr ""
 
@@ -2241,15 +2294,68 @@ msgstr ""
 msgid ""
 "(_Structured Query Language_) Langage informatique permettant de chercher "
 "des informations dans une base de données relationnelle. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/Structured_Query_Language)"
+"(https://fr.wikipedia.org/wiki/Structured_Query_Language), [Doc MariaDB]"
+"(https://mariadb.com/kb/en/sql-statements/)"
 msgstr ""
 
-#: ../../services/sql.md:11
+#: ../../services/sql.md:12
 msgid ""
-"Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
-"possible de créer des **bases de données {term}`SQL` personnelles**. Une "
-"interface {term}`Web` de gestion fournie par {term}`phpMyAdmin` est "
+"Une {term}`instance` de {term}`MariaDB`, commune à tous les membres, est "
+"présente sur le serveur CLUB1. L'accès est optionnel et peut être ajouté à "
+"la création du compte membre ou plus tard sur demande."
+msgstr ""
+
+#: ../../services/sql.md:16
+msgid "Bases de données personnelles"
+msgstr ""
+
+#: ../../services/sql.md:19
+msgid ""
+"Il est possible de créer autant de **bases de données {term}`SQL` "
+"personnelles** que voulu. Celles-ci devront avoir un nom commençant par "
+"votre identifiant suivi de `_`. Par exmple si `lisa` veut créer une base de "
+"donnée `flarum`, elle devra la nommer `lisa_flarum`."
+msgstr ""
+
+#: ../../services/sql.md:24
+msgid ""
+"Il n'y a pour le moment pas de limite au nombre de bases de données "
+"personnelles, ni à la quantité de données qu'elles peuvent contenir."
+msgstr ""
+
+#: ../../services/sql.md:27
+msgid "Interface Web"
+msgstr ""
+
+#: ../../services/sql.md:30
+msgid ""
+"Une interface {term}`Web` de gestion fournie par {term}`phpMyAdmin` est "
 "disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>"
+msgstr ""
+
+#: ../../services/sql.md:33
+msgid "Interface en ligne de commande"
+msgstr ""
+
+#: ../../services/sql.md:36
+msgid ""
+"Il est possible de se connecter au serveur SQL directement depuis la ligne "
+"de commande. Pour cela, il faut tout d'abord se connecter au serveur en [SSH]"
+"(ssh.md). Ensuite, la commande pour démarrer un shell SQL est la suivante "
+"(votre mot de passe CLUB1 sera demandé) :"
+msgstr ""
+
+#: ../../services/sql.md:43
+msgid ""
+"Depuis ce shell il est possible de lancer n'importe quelle commande {term}"
+"`SQL`."
+msgstr ""
+
+#: ../../services/sql.md:48
+msgid ""
+"L'instance {term}`MariaDB` de CLUB1 n'est pas accessible depuis l'extérieur. "
+"Il n'est donc possible de s'y connecter que depuis un processus s'executant "
+"sur le même serveur."
 msgstr ""
 
 #: ../../services/sql.md:4
@@ -2260,14 +2366,14 @@ msgstr ""
 msgid "`3306` (par défaut)"
 msgstr ""
 
-#: ../../services/sql.md:29
+#: ../../services/sql.md:61
 msgid ""
 "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
 "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
 "(https://github.com/MariaDB/server)"
 msgstr ""
 
-#: ../../services/sql.md:34
+#: ../../services/sql.md:66
 msgid ""
 "Interface {term}`Web` de gestion de bases de données {term}`SQL` écrit en "
 "{term}`PHP`. Chez CLUB1, phpMyAdmin est directement servi par {term}`Nginx` "
@@ -2860,9 +2966,9 @@ msgstr ""
 
 #: ../../tutos/caldav-mac.md:8
 msgid ""
-"Dans la barre de menu il faut se rendre dans **Calendrier** puis **Comptes..."
-"** pour afficher la fenêtre de configuration de **Comptes Internet** "
-"({numref}`fig:tutos-caldav-mac-comptes`)."
+"Dans la barre de menu il faut se rendre dans {guilabel}`Calendrier` puis "
+"{guilabel}`Comptes...` pour afficher la fenêtre de configuration de "
+"**Comptes Internet** ({numref}`fig:tutos-caldav-mac-comptes`)."
 msgstr ""
 
 #: ../../tutos/caldav-mac.md:17
@@ -2875,9 +2981,9 @@ msgstr ""
 
 #: ../../tutos/caldav-mac.md:20
 msgid ""
-"Pour ajouter un compte CLUB1 il faut cliquer sur **Ajouter un autre compte..."
-"** et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-mac-"
-"autres-comptes`)"
+"Pour ajouter un compte CLUB1 il faut cliquer sur {guilabel}`Ajouter un autre "
+"compte...` et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-"
+"mac-autres-comptes`)"
 msgstr ""
 
 #: ../../tutos/caldav-mac.md:28
@@ -2887,7 +2993,7 @@ msgstr ""
 #: ../../tutos/caldav-mac.md:28
 msgid ""
 "La fenêtre \"Comptes Internet\" dévoile son plein potentiel une fois qu'on a "
-"cliqué sur le bouton \"Ajouter un autres compte...\"."
+"cliqué sur le bouton {guilabel}`Ajouter un autres compte...`."
 msgstr ""
 
 #: ../../tutos/caldav-mac.md:32
@@ -2950,8 +3056,8 @@ msgstr ""
 
 #: ../../tutos/connexion-linux.md:15
 msgid ""
-"Dans la barre de menu, cliquez sur \"fichier\" puis \"se connecter au "
-"serveur...\""
+"Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
+"connecter au serveur...`."
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:17
@@ -2983,7 +3089,8 @@ msgstr ""
 #: ../../tutos/connexion-linux.md:25
 msgid ""
 "Pour finir vous pouvez cocher la case \"Mémoriser ce mot de passe\" afin de "
-"ne pas avoir à le retaper plus tard, puis cliquer sur \"Se connecter\"."
+"ne pas avoir à le retaper plus tard, puis cliquer sur {guilabel}`Se "
+"connecter`."
 msgstr ""
 
 #: ../../tutos/connexion-linux.md:33
@@ -3032,17 +3139,17 @@ msgstr ""
 
 #: ../../tutos/connexion-linux.md:57
 msgid ""
-"Depuis le *dossier perso* : dans la barre de menu, cliquez sur \"Marque-"
-"pages\" puis \"Ajouter un marque-page\""
+"Depuis le *dossier perso* : dans la barre de menu, cliquez sur {guilabel}"
+"`Marque-pages` puis {guilabel}`Ajouter un marque-page`"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:58
+#: ../../tutos/connexion-linux.md:59
 msgid ""
 "Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "
-"\"ajouter marque-page\", ou autre formulation similaire"
+"{guilabel}`ajouter marque-page`, ou autre formulation similaire"
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:60
+#: ../../tutos/connexion-linux.md:62
 msgid ""
 "Vous pouvez désormais modifier tous vos fichiers facilement depuis votre "
 "explorateur de fichiers !"
@@ -3097,7 +3204,7 @@ msgstr ""
 #: ../../tutos/flux-rss.md:27
 msgid ""
 "Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, "
-"puis sur `s'abonner au flux...`"
+"puis sur {guilabel}`s'abonner au flux...`"
 msgstr ""
 
 #: ../../tutos/flux-rss.md:29
@@ -3113,7 +3220,7 @@ msgid ""
 "Entrez l'url du site dont vous voulez obtenir le {term}`flux de nouvelles`, "
 "par exemple ici le blog de Fred Turner. Si vous avez créé des catégories, "
 "vous pouvez en sélectionner une pour trier votre flux (c'est possible de le "
-"faire plus tard) puis cliquez sur `S'abonner`."
+"faire plus tard) puis cliquez sur {guilabel}`S'abonner`."
 msgstr ""
 
 #: ../../tutos/flux-rss.md:36
@@ -3181,70 +3288,71 @@ msgstr ""
 #: ../../tutos/flux-rss.md:64
 msgid ""
 "Pour créer une catégorie, il faut retourner dans le menu en haut à droite de "
-"l'écran principal et cliquer sur `Configuration...`. Aller dans l'onglet "
-"Flux en haut de l'écran."
+"l'écran principal et cliquer sur {guilabel}`Configuration...`. Aller dans "
+"l'onglet Flux en haut de l'écran."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:67
+#: ../../tutos/flux-rss.md:68
 msgid "![Config catégories 1](flux-rss/capture_4.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:67
+#: ../../tutos/flux-rss.md:68
 msgid "Config catégories 1"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:69
+#: ../../tutos/flux-rss.md:70
 msgid ""
 "Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie "
 "pour ranger vos articles."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:71
+#: ../../tutos/flux-rss.md:72
 msgid ""
 "En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux "
 "qu'il contient. Pour modifier la catégorie d'un flux, il suffit de *cliquer "
 "glisser* le flux vers une nouvelle catégorie."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:74
+#: ../../tutos/flux-rss.md:75
 msgid "Choisir un mode d'affichage"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:77
+#: ../../tutos/flux-rss.md:78
 msgid "Par défaut, l'affichage se fait en mode combiné."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:79
+#: ../../tutos/flux-rss.md:80
 msgid "![Mode d'affichage combiné](flux-rss/capture_5.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:79
+#: ../../tutos/flux-rss.md:80
 msgid "Mode d'affichage combiné"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:81
+#: ../../tutos/flux-rss.md:82
 msgid ""
 "Pour utiliser un mode d'affichage en liste avec un panneau de lecture "
 "séparé, vous pouvez désactiver le \"mode combiné\" dans la configuration."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:84
+#: ../../tutos/flux-rss.md:85
 msgid "![Mode d'affichage en liste](flux-rss/capture_6.png)"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:84
+#: ../../tutos/flux-rss.md:85
 msgid "Mode d'affichage en liste"
 msgstr ""
 
-#: ../../tutos/flux-rss.md:87
+#: ../../tutos/flux-rss.md:88
 msgid ""
 "Il est possible de passer en mode _trois colones_ avec le panneau de lecture "
 "à droite, ce qui est pratique lorsqu'on a un écran large."
 msgstr ""
 
-#: ../../tutos/flux-rss.md:90
+#: ../../tutos/flux-rss.md:91
 msgid ""
-"Ceci se fait depuis le menu, en cliquant sur `Basculer le mode écran large`."
+"Ceci se fait depuis le menu, en cliquant sur {guilabel}`Basculer le mode "
+"écran large`."
 msgstr ""
 
 #: ../../tutos/index.md:4
@@ -3930,8 +4038,8 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:17
 msgid ""
-"[Google Plays store](https://play.google.com/store/apps/details?id=at."
-"bitfire.davdroid&hl=fr&gl=FR) (6€)"
+"[Google Play store](https://play.google.com/store/apps/details?id=at.bitfire."
+"davdroid&hl=fr&gl=FR) (6€)"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:19
@@ -4127,8 +4235,8 @@ msgstr ""
 
 #: ../../tutos/webdav-mac.md:4
 msgid ""
-"Dans le Finder, dans la barre de menu, cliquez sur `Aller` --> `Se connecter "
-"au serveur...`"
+"Dans le Finder, dans la barre de menu, cliquez sur {guilabel}`Aller` --> "
+"{guilabel}`Se connecter au serveur...`."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:6
@@ -4137,7 +4245,7 @@ msgstr ""
 
 #: ../../tutos/webdav-mac.md:6 ../../tutos/webdav-mac.md:10
 #: ../../tutos/webdav-mac.md:25 ../../tutos/webdav-mac.md:31
-#: ../../tutos/webdav-mac.md:38 ../../tutos/webdav-mac.md:51
+#: ../../tutos/webdav-mac.md:38 ../../tutos/webdav-mac.md:52
 msgid "aller"
 msgstr ""
 
@@ -4159,12 +4267,12 @@ msgstr ""
 
 #: ../../tutos/webdav-mac.md:21
 msgid ""
-"Cliquez sur le bouton `+` en bas à gauche de la fenêtre pour garder en "
-"mémoire l'adresse de votre serveur dans les favoris."
+"Cliquez sur le bouton {guilabel}`+` en bas à gauche de la fenêtre pour "
+"garder en mémoire l'adresse de votre serveur dans les favoris."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:23
-msgid "Puis, cliquez sur le bouton `Connexion`."
+msgid "Puis, cliquez sur le bouton {guilabel}`Connexion`."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:25
@@ -4172,12 +4280,11 @@ msgid "![aller](webdav-mac/screen_003.png)"
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:27
-msgid ""
-"Une fenêtre pop-up va apparaître vous demandant vos identifiants chez Club1."
+msgid "Une fenêtre pop-up va apparaître vous demandant vos identifiants CLUB1."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:29
-msgid "Cliquez sur le bouton Se connecter."
+msgid "Cliquez sur le bouton {guilabel}`Se connecter`."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:31
@@ -4197,7 +4304,7 @@ msgstr ""
 
 #: ../../tutos/webdav-mac.md:42
 msgid ""
-"Votre dossier personnel Club1 devrait s'afficher et être listé dans les "
+"Votre dossier personnel CLUB1 devrait s'afficher et être listé dans les "
 "Emplacements de votre Finder."
 msgstr ""
 
@@ -4209,23 +4316,23 @@ msgstr ""
 
 #: ../../tutos/webdav-mac.md:47
 msgid ""
-"Depuis la barre de menu cliquez sur `Aller` --> `Dossier parent` (ou via le "
-"raccourci clavier : `CMD` + `↑`)."
+"Depuis la barre de menu cliquez sur {guilabel}`Aller` --> {guilabel}`Dossier "
+"parent` (ou via le raccourci clavier : {kbd}`Cmd` + {kbd}`↑`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:49
+#: ../../tutos/webdav-mac.md:50
 msgid ""
-"Maintenant, il est possbile de cliquer-glisser votre dossier perso dans la "
+"Maintenant, il est possible de cliquer-glisser votre dossier perso dans la "
 "zone de favoris."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:51
+#: ../../tutos/webdav-mac.md:52
 msgid "![aller](webdav-mac/screen_007.png)"
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:54
+#: ../../tutos/webdav-mac.md:55
 msgid ""
-"Votre dossier dans le serveur Club1 est dorénavant accessible en tout temps "
+"Votre dossier dans le serveur CLUB1 est dorénavant accessible en tout temps "
 "et simplement !"
 msgstr ""
 
@@ -4239,7 +4346,7 @@ msgid "%s, Membres de CLUB1"
 msgstr ""
 
 #. Title used for BibTeX citation
-#: conf.py:134
+#: conf.py:131
 #, python-brace-format
 msgid "Documentation {CLUB1}"
 msgstr ""
