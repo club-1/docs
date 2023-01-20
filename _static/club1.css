@@ -38,9 +38,11 @@ a.fa::before, a.icon::before, a button.toctree-expand::before {
 	font-size: 70%;
 }
 
-/* Make size of permalink icon depend on target's size */
 .rst-content a.headerlink {
+	/* Make size of permalink icon depend on target's size */
 	font-size: 80%;
+	/* Prevent permalink icon from wrapping alone */
+	display: inline;
 }
 
 /* Highlight version selector on hover */
