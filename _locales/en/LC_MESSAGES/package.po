@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-01-20 00:26+0100\n"
-"PO-Revision-Date: 2022-12-30 17:39+0000\n"
+"PO-Revision-Date: 2023-01-20 13:03+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -238,7 +238,6 @@ msgstr ""
 "peacefully."
 
 #: ../../cgu.md:99
-#, fuzzy
 msgid "Résiliation d’un compte"
 msgstr "Account Termination"
 
@@ -317,7 +316,6 @@ msgid "Charte CHATONS"
 msgstr "CHATONS Charter"
 
 #: ../../cgu.md:129
-#, fuzzy
 msgid ""
 "CLUB1 s’engage à respecter la [charte](https://www.chatons.org/charte) du "
 "Collectif des Hébergeurs, Alternatifs, Transparents, Ouverts, Neutres et "
@@ -354,7 +352,6 @@ msgid "RGPD"
 msgstr "GDPR"
 
 #: ../../cgu.md:144
-#, fuzzy
 msgid ""
 "Vous et CLUB1 s’engagent à respecter la réglementation en vigueur applicable "
 "au traitement de données à caractère personnel et, en particulier, le "
@@ -362,8 +359,8 @@ msgid ""
 "applicable à compter du 25 mai 2018, dite RGPD."
 msgstr ""
 "You and CLUB1 undertake to comply with the regulations in force applicable "
-"to the processing of personal data and, in particular, Regulation (EU) "
-"2016/679 of the European Parliament and of the Council of April 27, 2016 "
+"to the processing of personal data and, in particular, Regulation (EU) 2016/"
+"679 of the European Parliament and of the Council of April 27, 2016 "
 "applicable from May 25, 2018 , known as GDPR."
 
 #: ../../citation.md:6
@@ -472,13 +469,6 @@ msgid "alias"
 msgstr "alias"
 
 #: ../../glossaire.md:21
-#, fuzzy
-#| msgid ""
-#| "Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs "
-#| "noms à la même entité. C'est un concept fréquemment utilisé en "
-#| "informatique. On parle par exemple d'alias lorsqu'on fait pointer "
-#| "plusieurs adresses email vers la même boîte de reception, ou lorsqu'on "
-#| "définit un nouveau nom pour une commande."
 msgid ""
 "Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs "
 "noms à la même entité. C'est un concept fréquemment utilisé en informatique. "
@@ -489,7 +479,8 @@ msgstr ""
 "Pseudonym, substitute name. Aliases allow multiple names to be given to the "
 "same entity. It is a concept frequently used in computer science. For "
 "example, we speak of an alias when we point several email addresses to the "
-"same inbox, or when we define a new name for a command."
+"same inbox, or when we define a new name for a command. --- "
+"[Wiktionary](https://en.wiktionary.org/wiki/alias#English)"
 
 #: ../../glossaire.md:28
 msgid ""
@@ -606,13 +597,14 @@ msgstr ""
 
 #: ../../glossaire.md:69
 msgid "instance"
-msgstr ""
+msgstr "instance"
 
 #: ../../glossaire.md:77
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
+"Copy of software or a computer object having its own existence and state."
 
 #: ../../glossaire.md:79
 msgid ""
@@ -621,6 +613,10 @@ msgid ""
 "instances de {term}`PHP` : au moins une pour chaque membre. --- "
 "[Wiktionnaire](https://fr.wiktionary.org/wiki/instance)"
 msgstr ""
+"For example, we speak of an instance each time a software is executed with "
+"different data. On the CLUB1 server, there are notably several instances of "
+"{term}`PHP`: at least one for each member. --- [Wiktionary](https://en."
+"wiktionary.org/wiki/instance#English)"
 
 #: ../../glossaire.md:76
 msgid "Internet"
@@ -648,6 +644,10 @@ msgid ""
 "en texte brut. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Historique_(informatique))"
 msgstr ""
+"Originally refers to the [logbook](https://en.wikipedia.org/wiki/"
+"Logbook_(nautical)) of a ship. In computing it is a journal containing a "
+"history of events, usually in the form of a plain text file. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Logging_(computing))"
 
 #: ../../glossaire.md:97
 msgid ""
@@ -839,19 +839,13 @@ msgid "Tous les dossiers ne se valent pas, certains ont un rôle spécifique."
 msgstr "Not all folders are created equal, some have a specific role."
 
 #: ../../info/espace-personnel.md:33
-#, fuzzy
-#| msgid ""
-#| "C'est ici que sont stockés tout vos mails du [service mail CLUB1](/"
-#| "services/email.md). Votre espace email est donc directement à l'intérieur "
-#| "de votre espace personnel. Un quota existe pour ce dossier : il est "
-#| "limité à 5Go."
 msgid ""
 "C'est ici que sont stockés tous vos emails du [service email CLUB1](/"
 "services/email.md). Votre espace email est donc directement à l'intérieur de "
 "votre espace personnel. Un quota existe pour ce dossier : il est limité à "
 "5Go."
 msgstr ""
-"This is where all your [CLUB1 mail service](/services/email.md) emails are "
+"This is where all your [CLUB1 email service](/services/email.md) emails are "
 "stored. Your email space is therefore directly inside your personal space. A "
 "quota exists for this folder: it is limited to 5GB."
 
@@ -888,6 +882,9 @@ msgid ""
 "services. Par exemple ceux des [sites Web dynamiques](../services/web."
 "md#sites-web-dynamiques)."
 msgstr ""
+"This folder contains all the {term}`logs <log>` produced by the services. "
+"For example those of [dynamic Web sites](../services/web.md#sites-web-"
+"dynamiques)."
 
 #: ../../info/espace-personnel.md:59
 msgid ""
@@ -895,6 +892,9 @@ msgid ""
 "log` de ce dossier toute les semaines et un historique de 15 fichiers par "
 "log est conservé. Les anciens fichiers sont compressés via `gzip`."
 msgstr ""
+"A rotation is performed using {term}`logrotate` on the `*.log` files of this "
+"folder every week and a history of 15 files per log is kept. Old files are "
+"compressed via `gzip`."
 
 #: ../../info/espace-personnel.md:63
 msgid "Fichier de présentation"
@@ -959,6 +959,8 @@ msgid ""
 "fichiers de {term}`log`. --- [Sources](https://github.com/logrotate/"
 "logrotate)"
 msgstr ""
+"Utility to simplify the rotation of a large number of {term}`log` files. --- "
+"[Sources](https://github.com/logrotate/logrotate)"
 
 #: ../../info/general.md:1
 msgid "Informations générales"
@@ -2788,7 +2790,6 @@ msgstr ""
 "[Wikipedia](https://en.wikipedia.org/wiki/Web_feed)"
 
 #: ../../services/rss.md:18
-#, fuzzy
 msgid ""
 "(_Really Simple Syndication_) Premier format de {term}`flux Web`. Il est "
 "plus ancien et moins strict que son concurrent {term}`Atom`. --- [Wikipedia]"
@@ -2892,7 +2893,6 @@ msgid "Bases de données SQL"
 msgstr "SQL databases"
 
 #: ../../services/sql.md:6
-#, fuzzy
 msgid ""
 "(_Structured Query Language_) Langage informatique permettant de chercher "
 "des informations dans une base de données relationnelle. --- [Wikipedia]"
@@ -2900,7 +2900,8 @@ msgid ""
 "(https://mariadb.com/kb/en/sql-statements/)"
 msgstr ""
 "(Structured Query Language) A computer language for searching information in "
-"a relational database. --- [Wikipedia](https://en.wikipedia.org/wiki/SQL)"
+"a relational database. --- [Wikipedia](https://en.wikipedia.org/wiki/SQL), ["
+"MariaDB docs](https://mariadb.com/kb/en/sql-statements/)"
 
 #: ../../services/sql.md:12
 msgid ""
@@ -2908,12 +2909,13 @@ msgid ""
 "présente sur le serveur CLUB1. L'accès est optionnel et peut être ajouté à "
 "la création du compte membre ou plus tard sur demande."
 msgstr ""
+"A {term}`MariaDB` {term}`instance`, common to all members, is present on the "
+"CLUB1 server. Access is optional and can be added when creating the member "
+"account or later on request."
 
 #: ../../services/sql.md:16
-#, fuzzy
-#| msgid "Bases de données SQL"
 msgid "Bases de données personnelles"
-msgstr "SQL databases"
+msgstr "Personal databases"
 
 #: ../../services/sql.md:19
 msgid ""
@@ -2922,36 +2924,34 @@ msgid ""
 "votre identifiant suivi de `_`. Par exmple si `lisa` veut créer une base de "
 "donnée `flarum`, elle devra la nommer `lisa_flarum`."
 msgstr ""
+"You can create as many **personal {term}`SQL` databases** as you want. These "
+"should have a name starting with your username followed by `_`. For example "
+"if `lisa` wants to create a database `flarum`, she will have to name it "
+"`lisa_flarum`."
 
 #: ../../services/sql.md:24
 msgid ""
 "Il n'y a pour le moment pas de limite au nombre de bases de données "
 "personnelles, ni à la quantité de données qu'elles peuvent contenir."
 msgstr ""
+"There is currently no limit to the number of personal databases, nor to the "
+"amount of data they can contain."
 
 #: ../../services/sql.md:27
 msgid "Interface Web"
-msgstr ""
+msgstr "Web interface"
 
 #: ../../services/sql.md:30
-#, fuzzy
-#| msgid ""
-#| "Un accès à {term}`MariaDB` pourra être ajouté, à partir duquel il est "
-#| "possible de créer des **bases de données {term}`SQL` personnelles**. Une "
-#| "interface {term}`Web` de gestion fournie par {term}`phpMyAdmin` est "
-#| "disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>"
 msgid ""
 "Une interface {term}`Web` de gestion fournie par {term}`phpMyAdmin` est "
 "disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>"
 msgstr ""
-"An access to {term}`MariaDB` could be added, from which it is possible to "
-"create **personal {term}`SQL` databases**. A {term}`Web` management "
-"interface provided by {term}`phpMyAdmin` is available at the following "
-"address: <https://phpmyadmin.club1.fr>"
+"A {term}`Web` management interface provided by {term}`phpMyAdmin` is "
+"available at the following address: <https://phpmyadmin.club1.fr>"
 
 #: ../../services/sql.md:33
 msgid "Interface en ligne de commande"
-msgstr ""
+msgstr "Command line interface"
 
 #: ../../services/sql.md:36
 msgid ""
@@ -2960,12 +2960,16 @@ msgid ""
 "(ssh.md). Ensuite, la commande pour démarrer un shell SQL est la suivante "
 "(votre mot de passe CLUB1 sera demandé) :"
 msgstr ""
+"It is possible to connect to the SQL server directly from the command line. "
+"To do this, you must first connect to the server using [SSH](ssh.md). Then, "
+"the command to start a SQL shell is the following (your CLUB1 password will "
+"be asked):"
 
 #: ../../services/sql.md:43
 msgid ""
 "Depuis ce shell il est possible de lancer n'importe quelle commande {term}"
 "`SQL`."
-msgstr ""
+msgstr "From this shell it is possible to launch any {term}`SQL` command."
 
 #: ../../services/sql.md:48
 msgid ""
@@ -2973,6 +2977,9 @@ msgid ""
 "Il n'est donc possible de s'y connecter que depuis un processus s'executant "
 "sur le même serveur."
 msgstr ""
+"The {term}`MariaDB` instance of CLUB1 is not accessible from outside. It is "
+"therefore only possible to connect to it from a process running on the same "
+"server."
 
 #: ../../services/sql.md:4
 msgid "`localhost`"
@@ -3832,14 +3839,12 @@ msgstr ""
 "en.wikipedia.org/wiki/Ubuntu), so the instructions will be similar."
 
 #: ../../tutos/connexion-linux.md:15
-#, fuzzy
-#| msgid ""
-#| "Dans la barre de menu, cliquez sur \"fichier\" puis \"se connecter au "
-#| "serveur...\""
 msgid ""
 "Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
 "connecter au serveur...`."
-msgstr "In the menu bar, click on \"file\" then \"connect to server...\""
+msgstr ""
+"In the menu bar, click on {guilabel}`file` then {guilabel}`connect to "
+"server...`."
 
 #: ../../tutos/connexion-linux.md:17
 msgid ""
@@ -3870,17 +3875,13 @@ msgid "Mot de passe : rentrez votre mot de passe CLUB1"
 msgstr "Password: enter your CLUB1 password"
 
 #: ../../tutos/connexion-linux.md:25
-#, fuzzy
-#| msgid ""
-#| "Pour finir vous pouvez cocher la case \"Mémoriser ce mot de passe\" afin "
-#| "de ne pas avoir à le retaper plus tard, puis cliquer sur \"Se connecter\"."
 msgid ""
 "Pour finir vous pouvez cocher la case \"Mémoriser ce mot de passe\" afin de "
 "ne pas avoir à le retaper plus tard, puis cliquer sur {guilabel}`Se "
 "connecter`."
 msgstr ""
 "Finally, you can check the \"Remember this password\" box so that you don't "
-"have to type it in again later, then click on \"Log in\"."
+"have to type it in again later, then click on {guilabel}`Log in`."
 
 #: ../../tutos/connexion-linux.md:33
 msgid "capture d'écran fenêtre de connexion"
@@ -3934,28 +3935,20 @@ msgid "Selon votre explorateur de fichiers :"
 msgstr "Depending on your file explorer:"
 
 #: ../../tutos/connexion-linux.md:57
-#, fuzzy
-#| msgid ""
-#| "Depuis le *dossier perso* : dans la barre de menu, cliquez sur \"Marque-"
-#| "pages\" puis \"Ajouter un marque-page\""
 msgid ""
 "Depuis le *dossier perso* : dans la barre de menu, cliquez sur {guilabel}"
 "`Marque-pages` puis {guilabel}`Ajouter un marque-page`"
 msgstr ""
-"From the *personal folder*: in the menu bar, click on \"Bookmarks\" then "
-"\"Add a bookmark\""
+"From the *personal folder*: in the menu bar, click on {guilabel}`Bookmarks` "
+"then {guilabel}`Add a bookmark`"
 
 #: ../../tutos/connexion-linux.md:59
-#, fuzzy
-#| msgid ""
-#| "Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "
-#| "\"ajouter marque-page\", ou autre formulation similaire"
 msgid ""
 "Depuis le dossier `home` : clic droit sur votre *dossier perso* puis "
 "{guilabel}`ajouter marque-page`, ou autre formulation similaire"
 msgstr ""
-"From the `home` folder: right click on your *personal folder* then \"add "
-"bookmark\", or other similar wording"
+"From the `home` folder: right click on your *personal folder* then "
+"{guilabel}`add bookmark`, or other similar wording"
 
 #: ../../tutos/connexion-linux.md:62
 msgid ""
@@ -4023,16 +4016,12 @@ msgstr ""
 "browser from which it is possible to copy the URL from the search bar."
 
 #: ../../tutos/flux-rss.md:27
-#, fuzzy
-#| msgid ""
-#| "Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 "
-#| "barres, puis sur `s'abonner au flux...`"
 msgid ""
 "Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, "
 "puis sur {guilabel}`s'abonner au flux...`"
 msgstr ""
 "Once connected, click on the 3-bar menu logo at the top right, then on "
-"`subscribe to feed...`"
+"{guilabel}`subscribe to feed...`"
 
 #: ../../tutos/flux-rss.md:29
 msgid "![visualisation du menu](flux-rss/capture_1.png)"
@@ -4912,16 +4901,12 @@ msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
 msgstr "[F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/)"
 
 #: ../../tutos/webdav-android.md:17
-#, fuzzy
-#| msgid ""
-#| "[Google Plays store](https://play.google.com/store/apps/details?id=at."
-#| "bitfire.davdroid&hl=fr&gl=FR) (6€)"
 msgid ""
 "[Google Play store](https://play.google.com/store/apps/details?id=at.bitfire."
 "davdroid&hl=fr&gl=FR) (6€)"
 msgstr ""
-"[Google Plays store](https://play.google.com/store/apps/details?id=at."
-"bitfire.davdroid&hl=en&gl=GB) (6€)"
+"[Google Play store](https://play.google.com/store/apps/details?id=at.bitfire."
+"davdroid&hl=en&gl=GB) (6€)"
 
 #: ../../tutos/webdav-android.md:19
 msgid "Premier lancement"
