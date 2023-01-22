@@ -3601,7 +3601,7 @@ msgid ""
 msgstr ""
 "HTTP {term}`server` primarily focused on performance. At CLUB1, it is mainly "
 "used as a \"{term}`TLS` endpoint\" and \"reverse proxy\" in front of the "
-"various {term}`Web` services, including the {term }`Apache` server. --- "
+"various {term}`Web` services, including the {term}`Apache` server. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Nginx), [Sources](https://hg.nginx."
 "org/nginx)"
 
