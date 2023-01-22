@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-01-20 00:26+0100\n"
-"PO-Revision-Date: 2023-01-20 13:13+0000\n"
+"PO-Revision-Date: 2023-01-22 12:22+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -3518,7 +3518,7 @@ msgstr ""
 
 #: ../../services/web.md:173
 msgid "Louer un nom de domaine externe"
-msgstr ""
+msgstr "Rent an external domain name"
 
 #: ../../services/web.md:175
 msgid ""
@@ -3526,12 +3526,17 @@ msgid ""
 "coûte souvent une dizaine d'euros par an mais cela peut varier en fonction "
 "du {term}`TLD` choisi."
 msgstr ""
+"It is possible to rent a domain name from a {term}`registrar`. This often "
+"costs about ten euros per year but it can vary depending on the {term}`TLD` "
+"chosen."
 
 #: ../../services/web.md:178
 msgid ""
 "Nous recommandons [Gandi.net](https://www.gandi.net/fr/domain), pour son "
 "soutient à divers projets libres."
 msgstr ""
+"We recommend [Gandi.net](https://www.gandi.net/en/domain), for its support "
+"to various free projects."
 
 #: ../../services/web.md:180
 msgid ""
@@ -3539,10 +3544,13 @@ msgid ""
 "(#gestion) ! Il va y avoir une petite série de réglages à faire et ça vaut "
 "le coup d'en parler pour que tout se passe bien."
 msgstr ""
+"Before buying your domain name, take the time to [discuss](#gestion) it! "
+"There will be a small series of adjustments to make and it's worth talking "
+"about so that everything goes smoothly."
 
 #: ../../services/web.md:185
 msgid "Gestion"
-msgstr ""
+msgstr "Management"
 
 #: ../../services/web.md:188
 msgid ""
@@ -3551,30 +3559,37 @@ msgid ""
 "🍺 ! Cela fait partie de l'aspect artisanal et de l'échelle volontairement "
 "humaine de la gestion du serveur."
 msgstr ""
+"None of these actions are automated or accessible via a web interface. It is "
+"therefore **necessary to discuss it between humans** 🍺! This is part of the "
+"artisanal aspect and the deliberately human scale of the server management."
 
 #: ../../services/web.md:192
 msgid ""
 "Pour soulager la tâche, des [scripts](https://github.com/club-1/hosting) "
 "sont là pour faciliter la mise en place technique."
 msgstr ""
+"To ease the task, [scripts](https://github.com/club-1/hosting) are there to "
+"facilitate the technical implementation."
 
 #: ../../services/web.md:195
 msgid ""
 "C'est _Nicolas_ qu'il faut contacter pour l'association des domaines avec "
 "vos dossiers de sites."
 msgstr ""
+"It is _Nicolas_ that you must contact for the association of domains with "
+"your site folders."
 
 #: ../../services/web.md:197
 msgid "Il est possible de le joindre :"
-msgstr ""
+msgstr "It is possible to reach him:"
 
 #: ../../services/web.md:199
 msgid "par email : <nicolas+web@club1.fr>"
-msgstr ""
+msgstr "by email: <nicolas+web@club1.fr>"
 
 #: ../../services/web.md:200
 msgid "par matrix : `@n-peugnet:club1.fr`"
-msgstr ""
+msgstr "by matrix: `@n-peugnet:club1.fr`"
 
 #: ../../services/web.md:209
 msgid ""
@@ -3584,6 +3599,11 @@ msgid ""
 "le serveur {term}`Apache`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "NGINX), [Sources](https://hg.nginx.org/nginx)"
 msgstr ""
+"HTTP {term}`server` primarily focused on performance. At CLUB1, it is mainly "
+"used as a \"{term}`TLS` endpoint\" and \"reverse proxy\" in front of the "
+"various {term}`Web` services, including the {term}`Apache` server. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Nginx), [Sources](https://hg.nginx."
+"org/nginx)"
 
 #: ../../services/web.md:216
 msgid ""
@@ -3599,6 +3619,8 @@ msgid ""
 "peut être configuré en cours d'exécution et par les utilisaturs finaux grâce "
 "aux fichiers `.htaccess`."
 msgstr ""
+"Apache is attractive for hosting personal web pages because it can be "
+"configured at runtime and by end users through `.htaccess` files."
 
 #: ../../services/web.md:223
 msgid ""
@@ -3617,6 +3639,10 @@ msgid ""
 "d'exécuter PHP avec différents utilisateurs. --- [Sources](https://github."
 "com/php/php-src/tree/master/sapi/fpm)"
 msgstr ""
+"{term}`PHP` process manager, allowing a {term}`Web` {term}`server` to "
+"execute PHP code in a high-performance manner. It is also able to run PHP "
+"with different users. --- [Sources](https://github.com/php/php-src/tree/"
+"master/sapi/fpm)"
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
@@ -3669,6 +3695,9 @@ msgid ""
 "1&nbsp;Go maximum. Pour transferer de plus gros fichiers, il vaut mieux se "
 "tourner vers le service [SSH](ssh.md) ou [FTP](ftp.md)."
 msgstr ""
+"CLUB1's {term}`WebDAV` {term}`server` is limited to files up to 1GB in size. "
+"To transfer larger files, it is better to use the [SSH](ssh.md) or [FTP](ftp."
+"md) service."
 
 #: ../../services/webdav.md:32
 msgid "Carnets d'adresses et calendriers"
@@ -3704,17 +3733,19 @@ msgstr ""
 
 #: ../../services/webdav.md:49
 msgid "[](/tutos/caldav-mac.md)"
-msgstr ""
+msgstr "[](/tutos/caldav-mac.md)"
 
 #: ../../services/webdav.md:50
 msgid "[](/tutos/webdav-mac.md)"
-msgstr ""
+msgstr "[](/tutos/webdav-mac.md)"
 
 #: ../../services/webdav.md:57
 msgid ""
 "{term}`Serveur` {term}`WebDAV` adapté aux besoins de CLUB1 et basé sur {term}"
 "`SabreDAV`. --- [Sources](https://github.com/club-1/webdav-server)"
 msgstr ""
+"{term}`WebDAV` {term}`server` adapted to the needs of CLUB1 and based on "
+"{term}`SabreDAV`. --- [Sources](https://github.com/club-1/webdav-server)"
 
 #: ../../services/webdav.md:61
 msgid ""
@@ -3726,7 +3757,7 @@ msgstr ""
 
 #: ../../tutos/caldav-mac.md:1
 msgid "Synchronisation de calendrier CalDAV sur un Mac"
-msgstr ""
+msgstr "CalDAV calendar synchronization on a Mac"
 
 #: ../../tutos/caldav-mac.md:4
 msgid ""
@@ -3738,7 +3769,7 @@ msgstr ""
 
 #: ../../tutos/caldav-mac.md:6
 msgid "L'opération se fait directement depuis l'application Calendrier Apple."
-msgstr ""
+msgstr "The operation is done directly from the Apple Calendar application."
 
 #: ../../tutos/caldav-mac.md:8
 msgid ""
