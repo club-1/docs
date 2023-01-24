@@ -6,7 +6,7 @@ Flux Web
 Flux de nouvelles
    Format de données standardisé qui permet la consultation d'un site, non pas par un humain, mais par un logiciel.
    Il s'agit donc d'une forme d'{term}`API`.
-   Les flux Web sont des fichiers qui contiennent les derniers articles ou actualités publiées.
+   Les flux Web (ou "flux de nouvelles") sont des fichiers qui contiennent les derniers articles ou actualités publiées.
    Ils sont souvent utilisés par les sites d'actualité et les blogs.
 
    Il existe plusieurs formats de flux Web, notamment {term}`Atom` et {term}`RSS` (plus ancien).
