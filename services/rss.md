@@ -1,5 +1,5 @@
-Agrégateur de flux de nouvelles
-===============================
+Agrégateur de flux de nouvelles (RSS/Atom)
+==========================================
 
 ```{glossary}
 Flux Web
