@@ -171,6 +171,11 @@ Sphinx-last-updated-by-git
    à partir de l'historique {term}`Git` de la documentation.
    --- [Sources](https://github.com/mgeier/sphinx-last-updated-by-git)
 
+Sphinx-copybutton
+   _(Optionnel)_ Extension {term}`Sphinx` ajoutant un bouton sur les blocs de code
+   pour en copier le contenu.
+   --- [Sources](https://github.com/executablebooks/sphinx-copybutton)
+
 gettext
    _(Optionnel)_ Pour les locales autres que Français.
 ```
@@ -178,7 +183,7 @@ gettext
 Installation sur *Debian* :
 
     sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme
-    sudo apt install python3-sphinx-notfound-page gettext
+    sudo apt install python3-sphinx-notfound-page python3-sphinx-copybutton gettext
 
 ### _(Optionnel)_ Prérequis pour le format PDF
 

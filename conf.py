@@ -60,6 +60,7 @@ extensions = [
 extensions_optionnal = {
     'sphinx-notfound-page': 'notfound.extension',
     'sphinx-last-updated-by-git': 'sphinx_last_updated_by_git',
+    'sphinx-copybutton': 'sphinx_copybutton',
 }
 
 for (package, module) in extensions_optionnal.items():
