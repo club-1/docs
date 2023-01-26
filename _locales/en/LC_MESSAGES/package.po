@@ -2748,16 +2748,16 @@ msgstr ""
 "connection."
 
 #: ../../services/rss.md:1
-msgid "Agrégateur de flux de nouvelles"
-msgstr "News feed aggregator"
+msgid "agrégateur de flux de nouvelles"
+msgstr "news feed aggregator"
 
 #: ../../services/rss.md:0
-msgid "Flux Web"
+msgid "flux Web"
 msgstr "Web feed"
 
 #: ../../services/rss.md:1
-msgid "Flux de nouvelles"
-msgstr "News feed"
+msgid "flux de nouvelles"
+msgstr "news feed"
 
 #: ../../services/rss.md:7
 msgid ""
@@ -2809,8 +2809,8 @@ msgstr ""
 "wikipedia.org/wiki/Atom_(web_standard))"
 
 #: ../../services/rss.md:22
-msgid "Agrégateur de flux"
-msgstr "Feed aggregator"
+msgid "agrégateur de flux"
+msgstr "feed aggregator"
 
 #: ../../services/rss.md:28
 msgid ""
@@ -3371,8 +3371,8 @@ msgstr ""
 "rental of space for files (hosting)."
 
 #: ../../services/web.md:0
-msgid "Nom de domaine"
-msgstr "Domain name"
+msgid "nom de domaine"
+msgstr "domain name"
 
 #: ../../services/web.md:103
 msgid ""
@@ -3405,8 +3405,8 @@ msgid ""
 msgstr "In addition to this information, a domain can also have subdomains."
 
 #: ../../services/web.md:12
-msgid "Registraire"
-msgstr "Registrar"
+msgid "registraire"
+msgstr "registrar"
 
 #: ../../services/web.md:115
 msgid ""

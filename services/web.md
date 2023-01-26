@@ -99,7 +99,7 @@ en même temps que la location d'un espace pour les fichiers (hébergement).
 
 
 ```{glossary}
-Nom de domaine
+nom de domaine
    Identifiant de domaine {term}`Internet`,
    facile à lire et à retenir par un être humain.
 
@@ -111,7 +111,7 @@ Nom de domaine
    
    En plus de ces informations, un domaine peut également avoir des sous domaines.
 
-Registraire
+registraire
    Registraire de {term}`nom de domaine`.
    Société ou une association gérant la réservation de nom de domaine {term}`Internet`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)

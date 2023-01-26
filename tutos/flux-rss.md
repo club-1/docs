@@ -63,7 +63,7 @@ surtout lorsqu'on est abonné à beaucoup de sites.
 
 Pour créer une catégorie, il faut retourner dans le menu en haut à droite de l'écran principal
 et cliquer sur {guilabel}`Configuration...`.
-Aller dans l'onglet Flux en haut de l'écran.
+Aller dans l'onglet {guilabel}`Flux` en haut de l'écran.
 
 ![Config catégories 1](flux-rss/capture_4.png)
 

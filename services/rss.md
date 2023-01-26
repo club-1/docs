@@ -2,8 +2,8 @@ Agrégateur de flux de nouvelles (RSS/Atom)
 ==========================================
 
 ```{glossary}
-Flux Web
-Flux de nouvelles
+flux Web
+flux de nouvelles
    Format de données standardisé qui permet la consultation d'un site, non pas par un humain, mais par un logiciel.
    Il s'agit donc d'une forme d'{term}`API`.
    Les flux Web (ou "flux de nouvelles") sont des fichiers qui contiennent les derniers articles ou actualités publiées.
@@ -24,7 +24,7 @@ Atom
    Ce format est plus strict et mieux standardisé que son ancêtre {term}`RSS` et tend à le remplacer.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Atom_Syndication_Format)
 
-Agrégateur de flux
+agrégateur de flux
    Logiciel permettant de consulter les {term}`flux Web`.
    Son but est d'agréger les nouveautés de différents sites dans un fil unique.
    Il permet d'éviter de regarder manuellement et un par un les sites dont on veut connaître les nouveaux contenus.

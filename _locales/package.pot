@@ -2185,11 +2185,11 @@ msgid "Agrégateur de flux de nouvelles"
 msgstr ""
 
 #: ../../services/rss.md:0
-msgid "Flux Web"
+msgid "flux Web"
 msgstr ""
 
 #: ../../services/rss.md:1
-msgid "Flux de nouvelles"
+msgid "flux de nouvelles"
 msgstr ""
 
 #: ../../services/rss.md:7
@@ -2228,7 +2228,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/rss.md:22
-msgid "Agrégateur de flux"
+msgid "agrégateur de flux"
 msgstr ""
 
 #: ../../services/rss.md:28
@@ -2645,7 +2645,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/web.md:0
-msgid "Nom de domaine"
+msgid "nom de domaine"
 msgstr ""
 
 #: ../../services/web.md:103
@@ -2674,7 +2674,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/web.md:12
-msgid "Registraire"
+msgid "registraire"
 msgstr ""
 
 #: ../../services/web.md:115
