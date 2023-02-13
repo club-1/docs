@@ -65,7 +65,6 @@ dt:target {
 
 /* Fix navbar scroll until bottom */
 .rst-current-version {height: 2.5rem; /* lock version selector's height */}
-.wy-nav-side {padding-bottom: 2.5rem; /* set correct padding for the nav */}
 
 /* Disable scroll in version selector */
 .rst-versions.shift-up {
@@ -80,3 +79,53 @@ dt:target {
 .rst-content tt {
 	font-family: Noto Mono,Liberation Mono,SFMono-Regular,Consolas,monospace !important;
 }
+
+
+
+/* make Sphinx rtd theme work nicely with CLUB1 header */
+
+.wy-side-scroll {
+	padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+	.wy-grid-for-nav {
+		height: initial;
+		display: flex;
+	}
+
+	.wy-nav-side {
+		position: sticky;
+		min-height: 100vh;
+		flex-shrink: 0;
+		align-self: flex-start;
+	}
+
+	.wy-nav-content-wrap {
+		margin-left: 0;
+	}
+
+	.wy-body-for-nav {
+		background: initial;
+	}
+
+	.wy-side-scroll {
+		/* height: 100%; */
+		max-height: calc(100vh - 2.5rem);
+		padding-bottom: 4rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wy-grid-for-nav {
+		position: initial;
+	}
+	.wy-nav-content-wrap.shift {
+		top: 30px;
+	}
+	.wy-nav-side.shift {
+		top: 30px;
+		min-height: calc(100% - 30px);
+	}
+}
+
