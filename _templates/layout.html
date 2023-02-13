@@ -11,8 +11,24 @@
 	{% endfor %}
 {% endblock %}
 
-{% block sidebartitle %}
-{# Add a link to the main website #}
-	<a href="https://club1.fr" class="fa fa-arrow-left" > {{ _("Retour au site principal") }} </a><br>
-	{{ super() }}
+{% block extrabody %}
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: black; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <span>CLUB1</span>
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
 {% endblock %}
