@@ -96,7 +96,7 @@ dt:target {
 
 	.wy-nav-side {
 		position: sticky;
-		min-height: 100vh;
+		min-height: calc(100vh - 2.5em);
 		flex-shrink: 0;
 		align-self: flex-start;
 	}
