@@ -113,6 +113,7 @@ html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htacce
 .SECONDEXPANSION:
 $(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
 	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
+	$(patsubst %,patch -p1 -d $(BUILDDIR)/$@ < %; ,$(wildcard _patches/$(@D)/*))
 
 # Other Sphinx commands for autocompletion
 $(SPHINXCMDS):
