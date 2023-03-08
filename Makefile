@@ -45,7 +45,7 @@ PUBDIR          ?= /var/www/docs
 help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
-.PHONY: help clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+.PHONY: help deps clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
 
 $(DIRS):
 	mkdir -p $@
@@ -111,18 +111,30 @@ html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htacce
 
 # Localized Sphinx builders
 .SECONDEXPANSION:
-$(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
+$(SPHINXLBUILDERS): deps $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
 	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
-$(SPHINXCMDS):
+$(SPHINXCMDS): deps
 	$(SPHINXBUILD) -M $@ $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
+
+deps: _static/js/theme.js;
+
+_static/js/theme.js: _static/js/theme.js.orig
+	patch $< _patches/theme-js-nav-no-reset.diff -o $@
+	rm $<
+
+.INTERMEDIATE: _static/js/theme.js.orig;
+
+_static/js/theme.js.orig: Makefile
+	wget -q https://raw.githubusercontent.com/readthedocs/sphinx_rtd_theme/1.1.1/src/theme.js -O $@
 
 clean:
 	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
 	rm -f *.log
 	rm -rf $(BUILDDIR)/*
 	rm -rf _ext/__pycache__
+	rm -f _static/js/theme.js*
 
 .PHONY: .FORCE
 .FORCE:
