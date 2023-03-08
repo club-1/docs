@@ -1,0 +1,35 @@
+Add an option to HTML writers to set the "width" and "height" attributes
+using the "max-*" variant.
+This is very useful when you want to limit the size of images in HTML
+documents but at the same time want to keep the aspect ratio on smaller
+screen sizes.
+---
+
+--- a/docutils/writers/_html_base.py	2022-12-28 21:14:23.038617096 +0100
++++ b/docutils/writers/_html_base.py	2022-12-28 21:14:12.259094956 +0100
+@@ -128,6 +128,13 @@
+           'keeping email links usable with standards-compliant browsers.',
+           ['--cloak-email-addresses'],
+           {'action': 'store_true', 'validator': frontend.validate_boolean}),
++         ('Use "max-width" and "max-height" attributes when defining sizes of images.',
++          ['--image-sizing-max'],
++          {'default': False, 'action': 'store_true',
++           'validator': frontend.validate_boolean}),
++         ('Use classic "width" and "height" attributes when defining sizes of images.',
++          ['--no-image-sizing-max'],
++          {'dest': 'image_sizing_max', 'action': 'store_false'}),
+          )
+         )
+ 
+@@ -1035,7 +1042,10 @@
+                 if re.match(r'^[0-9.]+$', atts[att_name]):
+                     # Interpret unitless values as pixels.
+                     atts[att_name] += 'px'
+-                style.append('%s: %s;' % (att_name, atts[att_name]))
++                if self.settings.image_sizing_max:
++                    style.append('max-%s: %s;' % (att_name, atts[att_name]))
++                else:
++                    style.append('%s: %s;' % (att_name, atts[att_name]))
+                 del atts[att_name]
+         if style:
+             atts['style'] = ' '.join(style)
