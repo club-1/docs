@@ -103,6 +103,7 @@ dt:target {
 
 	.wy-nav-content-wrap {
 		margin-left: 0;
+		flex-grow: 1;
 	}
 
 	.wy-body-for-nav {
