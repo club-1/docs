@@ -38,6 +38,8 @@ XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 DIFF         := diff -u --color
 
+RTDVERSION   := 1.1.1
+
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
 
@@ -127,7 +129,7 @@ _static/js/theme.js: _static/js/theme.js.orig
 .INTERMEDIATE: _static/js/theme.js.orig;
 
 _static/js/theme.js.orig: Makefile
-	wget -q https://raw.githubusercontent.com/readthedocs/sphinx_rtd_theme/1.1.1/src/theme.js -O $@
+	wget -q https://raw.githubusercontent.com/readthedocs/sphinx_rtd_theme/$(RTDVERSION)/src/theme.js -O $@
 
 clean:
 	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
