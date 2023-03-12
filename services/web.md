@@ -196,7 +196,7 @@ C'est _Nicolas_ qu'il faut contacter pour l'association des domaines avec vos do
 
 Il est possible de le joindre :
 
-- par email : <nicolas+web@club1.fr>
+- par email : <webmaster@club1.fr>
 - par matrix : `@n-peugnet:club1.fr`
 
 
