@@ -23,7 +23,7 @@ a.fa::before, a.icon::before, a button.toctree-expand::before {
 }
 
 /* Specific styles for links to glossary terms */
-.rst-content abbr[title] .xref.std-term {
+.rst-content abbr[title] .xref.std {
 	text-decoration: underline dotted 1px;
 }
 .rst-content abbr[title] {
@@ -103,8 +103,6 @@ dt:target {
 
 	.wy-nav-content-wrap {
 		margin-left: 0;
-		flex-grow: 1;
-		min-width: 0;
 	}
 
 	.wy-body-for-nav {
