@@ -104,6 +104,7 @@ dt:target {
 	.wy-nav-content-wrap {
 		margin-left: 0;
 		flex-grow: 1;
+		min-width: 0;
 	}
 
 	.wy-body-for-nav {
