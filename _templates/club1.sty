@@ -110,13 +110,19 @@
 \makeatother
 
 % Customisation des citations pour les uniformiser avec la version HTML.
-\renewenvironment{quote}{\begin{tcolorbox}[
-	blanker, % base style
-	before=\par, parbox=false, % obey document paragraph spacing rules
-	colupper=darkgray,
-	borderline west={2.5pt}{0pt}{lightgray},
-	left=15pt, top=4pt, bottom=4pt, % body margins
-]}{\end{tcolorbox}}
+\mdfdefinestyle{QuoteFrame}{
+	backgroundcolor=none,
+	fontcolor=darkgray,
+	linecolor=lightgray,
+	linewidth=3pt,
+	rightline=false, topline=false, bottomline=false,
+	innerleftmargin=16pt, innerrightmargin=0pt,
+	innertopmargin=5pt, innerbottommargin=4pt,
+	skipabove=8pt, skipbelow=10pt,
+}
+\renewenvironment{quote}
+	{\par\mdframed[style=QuoteFrame]}
+	{\endmdframed}
 
 % Customisation des touches de clavier.
 \DeclareRobustCommand{\sphinxkeyboard}[1]{%
