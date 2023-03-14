@@ -13,7 +13,7 @@
 
 /* Style links on hover */
 a:not(.btn):hover {
-	text-decoration: underline solid 1px;
+	text-decoration: underline solid 1px !important;
 }
 
 /* Fix underline for links with icon */
@@ -23,7 +23,7 @@ a.fa::before, a.icon::before, a button.toctree-expand::before {
 }
 
 /* Specific styles for links to glossary terms */
-.rst-content abbr[title] .xref.std {
+.rst-content abbr[title] a {
 	text-decoration: underline dotted 1px;
 }
 .rst-content abbr[title] {
