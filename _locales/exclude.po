@@ -13,9 +13,6 @@ msgstr ""
 msgid "API"
 msgstr ""
 
-msgid "Apache"
-msgstr ""
-
 msgid "Atom"
 msgstr ""
 
@@ -43,16 +40,10 @@ msgstr ""
 msgid "Docutils : {{ docutils_version }}"
 msgstr ""
 
-msgid "Dovecot"
-msgstr ""
-
 msgid "FTP"
 msgstr ""
 
 msgid "FTPS"
-msgstr ""
-
-msgid "Git"
 msgstr ""
 
 msgid "GitHub"
@@ -76,9 +67,6 @@ msgstr ""
 msgid "Make"
 msgstr ""
 
-msgid "MariaDB"
-msgstr ""
-
 msgid "Markdown"
 msgstr ""
 
@@ -88,37 +76,13 @@ msgstr ""
 msgid "MyST-Parser : {{ myst_version }}"
 msgstr ""
 
-msgid "Nginx"
-msgstr ""
-
-msgid "OpenDKIM"
-msgstr ""
-
-msgid "OpenSSH"
-msgstr ""
-
 msgid "PHP"
 msgstr ""
 
 msgid "PHP-FPM"
 msgstr ""
 
-msgid "Pigeonhole"
-msgstr ""
-
-msgid "PostSRSd"
-msgstr ""
-
-msgid "Postfix"
-msgstr ""
-
-msgid "ProFTPD"
-msgstr ""
-
 msgid "RSS"
-msgstr ""
-
-msgid "Roundcube"
 msgstr ""
 
 msgid "SCP"
@@ -127,16 +91,10 @@ msgstr ""
 msgid "SFTP"
 msgstr ""
 
-msgid "SPF-Engine"
-msgstr ""
-
 msgid "SQL"
 msgstr ""
 
 msgid "SSH"
-msgstr ""
-
-msgid "SabreDAV"
 msgstr ""
 
 msgid "Sphinx"
@@ -169,13 +127,7 @@ msgstr ""
 msgid "TeX Live"
 msgstr ""
 
-msgid "Tiny Tiny RSS"
-msgstr ""
-
 msgid "WebDAV"
-msgstr ""
-
-msgid "WebDAV Drive"
 msgstr ""
 
 msgid "[](/tutos/flux-rss.md)"
@@ -184,25 +136,10 @@ msgstr ""
 msgid "[](/tutos/webdav-android.md)"
 msgstr ""
 
-msgid "cgit"
-msgstr ""
-
 msgid "gettext"
 msgstr ""
 
 msgid "log"
-msgstr ""
-
-msgid "logrotate"
-msgstr ""
-
-msgid "members-presentation"
-msgstr ""
-
-msgid "phpMyAdmin"
-msgstr ""
-
-msgid "webdav-server"
 msgstr ""
 
 msgid "xindy"
