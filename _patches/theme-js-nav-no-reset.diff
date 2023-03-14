@@ -1,15 +1,14 @@
---- theme.js.orig	2023-03-13 12:21:18.849437951 +0100
-+++ theme.js	2023-03-13 12:21:10.337371940 +0100
-@@ -36,8 +36,6 @@
-         jQuery(function ($) {
-             self.init($);
- 
--            self.reset();
--            self.win.on('hashchange', self.reset);
- 
-             if (withStickyNav) {
-                 // Set scroll monitor
-@@ -223,15 +221,15 @@
+--- theme.js.orig	2023-03-14 02:01:12.221434966 +0100
++++ theme.js	2023-03-14 02:02:45.994098961 +0100
+@@ -160,7 +160,6 @@
+                         .addClass('current')
+                         .attr('aria-expanded','true');
+                 }
+-                link[0].scrollIntoView();
+             }
+         }
+         catch (err) {
+@@ -223,15 +222,15 @@
      return nav;
  };
  
