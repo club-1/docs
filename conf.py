@@ -130,6 +130,9 @@ downloads = os.environ.get('DOWNLOADS', '').split(' ')
 # The domain is used for code documentation, so no need for it here.
 primary_domain = None
 
+# Template used for manpage role
+manpages_url = 'https://manpages.debian.org/{path}.' + language
+
 # Title used for BibTeX citation
 citation_bibtex_title = _('Documentation {CLUB1}')
 
@@ -302,3 +305,4 @@ def setup(app: Sphinx):
     app.connect('builder-inited', override_html_permalink_icon)
     # Add custom 'software' directive and refs
     app.add_object_type('logiciel', 'logiciel', 'pair: %s; ' + _('logiciel'), ref_nodeclass=nodes.inline)
+    app.add_object_type('commande', 'commande', 'pair: %s; ' + _('commande'))

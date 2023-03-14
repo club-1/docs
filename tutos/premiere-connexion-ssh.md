@@ -109,12 +109,14 @@ car c'est celui qui vous donne le plus de libertés d'interactions avec le serve
 
 🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :
 
-### `passwd`
-
+```{commande} passwd
 Permet de changer son mot de passe CLUB1
-(cela aura donc un effet sur la connexion à tout les [services](/services/index.md)).
+(cela aura donc un effet sur la connexion à tous les [services](/services/index.md)).
+--- Manuel : {manpage}`passwd.1`
+```
 
-### `htop`
-
+```{commande} htop
 Permet de voir ce qui se passe sur le serveur en ce moment et à quel point les ressources sont utilisées.
 Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`htop.1`
+```
