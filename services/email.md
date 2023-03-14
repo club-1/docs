@@ -55,7 +55,7 @@ Ce dossier respecte le standard [Maildir](https://fr.wikipedia.org/wiki/Maildir)
 il est donc possible d'y accéder directement à partir d'un {term}`client` email supportant ce standard,
 par exemple après avoir fait une sauvegarde du dossier sur un ordinateur personnel.
 
-Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/wiki/Mutt)
+Sur le serveur, le client en {term}`CLI` {logiciel}`Mutt`
 est préconfiguré pour consulter ce dossier par défaut.
 Pour l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au serveur CLUB1
 puis lancer la commande suivante :
@@ -209,3 +209,11 @@ utilisé par {logiciel}`Postfix` pour signer les emails sortants.
 La section [](#client-web)
 ```
 ````
+
+```{logiciel} Mutt
+{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses email
+directement depuis un terminal.
+Il est installé et pré-configuré sur le serveur CLUB1.
+--- [Wikipedia](https://fr.wikipedia.org/wiki/Mutt),
+[Sources](https://gitlab.com/muttmua/mutt)
+```
