@@ -145,6 +145,9 @@ msgstr ""
 msgid "Sphinx : {{ sphinx_version }}"
 msgstr ""
 
+msgid "Sphinx-copybutton"
+msgstr ""
+
 msgid "Sphinx-last-updated-by-git"
 msgstr ""
 

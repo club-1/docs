@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2022-12-30 17:58+0100\n"
+"POT-Creation-Date: 2023-03-14 01:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,10 +27,6 @@ msgstr ""
 
 #: ../../_templates/cgu.html:4
 msgid "Dernière modification le %s"
-msgstr ""
-
-#: ../../_templates/layout.html:16
-msgid "Retour au site principal"
 msgstr ""
 
 #: ../../_templates/versions.html:4 ../../_templates/versions.html:23
