@@ -37,9 +37,9 @@ API
 CLI
    De L'anglais _Command Line Interface_.
    Interface en ligne de commande, basée sur un affichage textuel.
-   Elle s'utilise par l'intermédiaire d'une fenêtre de terminal.
-   La CLI est très intéressante car elle peut aussi bien être utilisée par des humains que par des logiciels. ---
-   [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
+   Elle s'utilise par l'intermédiaire d'une fenêtre de {term}`terminal`.
+   La CLI est très intéressante car elle peut aussi bien être utilisée par des humain&middot;e&middot;s que par des logiciels.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
 
 client
    Logiciel permettant de se connecter à un {term}`serveur`.
@@ -130,6 +130,15 @@ serveur
    Par extension, on appelle ainsi un "serveur" l'ordinateur sur lequel les
    serveurs sont installés (ex : le serveur CLUB1). ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
+
+terminal
+   En informatique, un terminal était à l'origine un appareil constitué d'un moniteur et d'un clavier,
+   permettant à un&middot;e humain&middot;e d'interagir avec un ordinateur partagé distant.
+   Il offrait une interface textuelle, permettant d'entrer des commandes et d'en lire le résultat.
+
+   De nos jours, on utilise souvent le mot "terminal" comme raccourci pour désigner un "émulateur de terminal".
+   Il s'agit d'un logiciel recréant l'interface en ligne de commande ({term}`CLI`) de ce materiel.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))
 
 TLS
    (_Transport Layer Security_) Protocole permettant de sécuriser les échanges
