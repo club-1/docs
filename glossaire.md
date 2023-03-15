@@ -113,6 +113,12 @@ PHP
    et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
+protocole
+   Dans le contexte de l'informatique,
+   un protocole est un ensemble de règles qui régissent les échanges de données
+   ou le comportement collectif de processus ou d'ordinateurs en réseaux.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Protocole_informatique)
+
 réseau informatique
    Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des données. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9seau_informatique)
