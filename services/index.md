@@ -1,8 +1,9 @@
-Services
-========
+Services réservés aux membres
+=============================
 
-Tous ces services utilisent donc le même **identifiant** et le même **mot de passe**
-pour la connexion.
+Ces services nécessitent d'être membre de CLUB1
+et se basent tous sur un compte commun.
+Ils utilisent donc le même **identifiant** et le même **mot de passe** pour la connexion.
 
 
 ```{toctree}
