@@ -304,5 +304,7 @@ def override_html_permalink_icon(app):
 def setup(app: Sphinx):
     app.connect('builder-inited', override_html_permalink_icon)
     # Add custom 'software' directive and refs
-    app.add_object_type('logiciel', 'logiciel', 'pair: %s; ' + _('logiciel'), ref_nodeclass=nodes.inline)
-    app.add_object_type('commande', 'commande', 'pair: %s; ' + _('commande'))
+    app.add_object_type('logiciel', 'logiciel', 'pair: %s; ' + _('logiciel'),
+                        objname=_('logiciel'), ref_nodeclass=nodes.inline)
+    app.add_object_type('commande', 'commande', 'pair: %s; ' + _('commande'),
+                        objname=_('commande'))
