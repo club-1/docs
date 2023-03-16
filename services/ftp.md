@@ -7,7 +7,7 @@ FTP
    Il permet de copier des fichiers d'un ordinateur à un autre
    à travers un {term}`réseau informatique`,
    ou encore de déplacer ou supprimer des fichiers sur un ordinateur distant.
-   Le serveur CLUB1 utilise la variante sécurisée de ce protocole : {term}`FTPS`. ---
+   Le serveur CLUB1 utilise la variante sécurisée de ce {term}`protocole` : {term}`FTPS`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/File_Transfer_Protocol)
 
 FTPS
@@ -24,7 +24,7 @@ Bien que [SSH](ssh.md) puisse aussi être utilisé dans ce but, {term}`FTPS`
 peut être utile lors du transfert d'un grand nombre de fichiers
 depuis et vers le serveur CLUB1.
 
-Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme
+Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme
 [FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur windows comprend des bundlewares).
 
 Sécurité

@@ -11,7 +11,8 @@ sorted:
 adresse IP
    Numéro d'identification d'un ordinateur relié à un {term}`réseau informatique`.
 
-   Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer des données entre un ordinateur source et sa destination.
+   Le {term}`protocole` IP (créé à l'origine pour {term}`Internet`)
+   permet d'acheminer des données entre un ordinateur source et sa destination.
    Il a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs.
 
    Actuellement, deux version d'adresses IP sont utilisées :
@@ -37,9 +38,9 @@ API
 CLI
    De L'anglais _Command Line Interface_.
    Interface en ligne de commande, basée sur un affichage textuel.
-   Elle s'utilise par l'intermédiaire d'une fenêtre de terminal.
-   La CLI est très intéressante car elle peut aussi bien être utilisée par des humains que par des logiciels. ---
-   [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
+   Elle s'utilise par l'intermédiaire d'une fenêtre de {term}`terminal`.
+   La CLI est très intéressante car elle peut aussi bien être utilisée par des humain&middot;e&middot;s que par des logiciels.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
 
 client
    Logiciel permettant de se connecter à un {term}`serveur`.
@@ -113,6 +114,12 @@ PHP
    et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
+protocole
+   Dans le contexte de l'informatique,
+   un protocole est un ensemble de règles qui régissent les échanges de données
+   ou le comportement collectif de processus ou d'ordinateurs en réseaux.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Protocole_informatique)
+
 réseau informatique
    Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des données. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9seau_informatique)
@@ -124,6 +131,15 @@ serveur
    Par extension, on appelle ainsi un "serveur" l'ordinateur sur lequel les
    serveurs sont installés (ex : le serveur CLUB1). ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
+
+terminal
+   En informatique, un terminal était à l'origine un appareil constitué d'un moniteur et d'un clavier,
+   permettant à un&middot;e humain&middot;e d'interagir avec un ordinateur partagé distant.
+   Il offrait une interface textuelle, permettant d'entrer des commandes et d'en lire le résultat.
+
+   De nos jours, on utilise souvent le mot "terminal" comme raccourci pour désigner un "émulateur de terminal".
+   Il s'agit d'un logiciel recréant l'interface en ligne de commande ({term}`CLI`) de ce materiel.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))
 
 TLS
    (_Transport Layer Security_) Protocole permettant de sécuriser les échanges

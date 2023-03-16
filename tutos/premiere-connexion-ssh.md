@@ -2,7 +2,7 @@ Première connexion SSH
 ======================
 
 Dans ce tuto, nous allons voir comment se connecter au serveur
-pour la première fois en SSH de manière **sécurisée**.
+pour la première fois en {term}`SSH` de manière **sécurisée**.
 
 ```{caution}
 Ce tutoriel n'a pas encore été testé sur Windows.
@@ -16,7 +16,7 @@ Connexion avec le terminal
 
 Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`.
 Ce logiciel s'utilise en {term}`CLI`,
-il est donc nécessaire d'ouvrir une fenêtre de **terminal** (`cmd` sur windows) ! 🥵
+il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵
 
 Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙

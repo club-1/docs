@@ -212,7 +212,7 @@ La section [](#client-web)
 
 ```{logiciel} Mutt
 {term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses email
-directement depuis un terminal.
+directement depuis un {term}`terminal`.
 Il est installé et pré-configuré sur le serveur CLUB1.
 --- [Wikipedia](https://fr.wikipedia.org/wiki/Mutt),
 [Sources](https://gitlab.com/muttmua/mutt)

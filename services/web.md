@@ -214,7 +214,7 @@ notamment le serveur {logiciel}`Apache`.
 
 ```{logiciel} Apache
 {term}`Serveur` HTTP très populaire, distribué sous license libre.
-HTTP étant le protocole du {term}`Web` on parle aussi souvent de "serveur Web".
+HTTP étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "serveur Web".
 
 Apache est intéressant pour l'hébergement de pages Web personnelles,
 car il peut être configuré en cours d'exécution et par les utilisaturs finaux
