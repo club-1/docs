@@ -11,7 +11,8 @@ sorted:
 adresse IP
    Numéro d'identification d'un ordinateur relié à un {term}`réseau informatique`.
 
-   Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer des données entre un ordinateur source et sa destination.
+   Le {term}`protocole` IP (créé à l'origine pour {term}`Internet`)
+   permet d'acheminer des données entre un ordinateur source et sa destination.
    Il a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs.
 
    Actuellement, deux version d'adresses IP sont utilisées :
