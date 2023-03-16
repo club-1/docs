@@ -45,11 +45,11 @@ Elles ont aussi une adresse, qui commence cette fois par un `#` :
     #blabla-dauphins:club1.fr
 
 Où `blabla-dauphins` est le nom de la *room*
-et `club1.fr`, le serveur sur lequel elle a été crée et auxquel elle est ratachée.
+et `club1.fr`, le serveur sur lequel elle a été créée et auquel elle est rattachée.
 
 ```{note}
 Il est possible, au moment de la création d'une *room*,
-d'interdire l'accès aux utilisateurs qui ne sont pas inscris sur ce serveur en particulier.
+d'interdire l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier.
 ```
 
 
@@ -75,7 +75,7 @@ auxquel cas vous êtes invité&middot;e&middot;s à utiliser le superbe [gomuks]
 
 Sur Android, certaines applications commencent à être matures.
 Il y a bien-sûr la version mobile de [Element](https://play.google.com/store/apps/details?id=im.vector.app),
-mais on peut aussi préfèrer l'ambiance *fluffy* de [FluffyChat](https://fluffychat.im/en/)
+mais on peut aussi préférer l'ambiance *fluffy* de [FluffyChat](https://fluffychat.im/)
 
 ```{important}
 Pour se connecter ailleurs que sur l'interface web de Club1,
@@ -90,7 +90,7 @@ Comment l'utiliser (interface Element web) ?
 ### Rejoindre des salons
 
 Pour rejoindre des rooms, il suffit de cliquer sur {guilabel}`explorer` en haut à gauche de l'interface.
-Par défault, seule les rooms du serveur local sont listés.
+Par défaut, seules les rooms du serveur local sont listées.
 Pour en afficher d'autres, il faut sélectionner un autre serveur depuis le menu déroulant
 ou cliquer sur {guilabel}`ajouter un nouveau serveur`.
 
@@ -109,7 +109,7 @@ définir si elle va être privée ou publique, ainsi que l'activation ou non du 
 
 ### Formatage
 
-Il est possible de formater son message, en selectionnant du texte sur la zone d'écriture de message,
+Il est possible de formater son message, en sélectionnant du texte sur la zone d'écriture de message,
 ou en utilisant le __{term}`Markdown`__, un standard de formatage simple utilisé par de plus en plus de site.
 
 ### Chiffrement
@@ -132,7 +132,7 @@ Questions concernant le serveur Matrix de CLUB1
 Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur,
 cependant pour se faire un avis, il est possible de consulter les statistiques
 de disponibilité du serveur Matrix et de Riot à cette adresse : [status.club1.fr](https://status.club1.fr/).
-Des mises à jours sont effectués régulièrement
+Des mises-à-jour sont effectuées régulièrement
 pour avoir la dernière version de Matrix et Riot
 et ainsi éviter des bugs ou failles de sécurité.
 
