@@ -15,6 +15,7 @@ numbered: 1
 ---
 info/index
 services/index
+services-ouverts/index
 tutos/index
 outils/index
 faq
