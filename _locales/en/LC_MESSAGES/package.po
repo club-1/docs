@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-03-14 00:59+0100\n"
+"POT-Creation-Date: 2023-03-16 20:34+0100\n"
 "PO-Revision-Date: 2023-01-22 12:22+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -390,8 +390,8 @@ msgstr ""
 #: ../../faq.md:19
 msgid ""
 "Pour le moment, la seule manière de modifier son mot de passe de membre "
-"CLUB1 est de lancer la commande [`passwd`](tutos/premiere-connexion-ssh."
-"md#passwd) à partir d'une [connexion SSH](services/ssh.md)."
+"CLUB1 est de lancer la commande {commande}`passwd` à partir d'une [connexion "
+"SSH](services/ssh.md)."
 msgstr ""
 
 #: ../../faq.md:22
@@ -777,7 +777,7 @@ msgstr "Appendices"
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
-#: ../../index.md:1 conf.py:226
+#: ../../index.md:1 conf.py:229
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -2211,11 +2211,17 @@ msgstr ""
 "for example after making a backup of the folder on a personal computer."
 
 #: ../../services/email.md:58
+#, fuzzy
+#| msgid ""
+#| "Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/"
+#| "wiki/Mutt) est préconfiguré pour consulter ce dossier par défaut. Pour "
+#| "l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au "
+#| "serveur CLUB1 puis lancer la commande suivante :"
 msgid ""
-"Sur le serveur, le client en {term}`CLI` [Mutt](https://fr.wikipedia.org/"
-"wiki/Mutt) est préconfiguré pour consulter ce dossier par défaut. Pour "
-"l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au serveur "
-"CLUB1 puis lancer la commande suivante :"
+"Sur le serveur, le client en {term}`CLI` {logiciel}`Mutt` est préconfiguré "
+"pour consulter ce dossier par défaut. Pour l'utiliser, il faut commencer par "
+"se connecter en [SSH](ssh.md) au serveur CLUB1 puis lancer la commande "
+"suivante :"
 msgstr ""
 "On the server, the {term}`CLI` client [Mutt](https://en.wikipedia.org/wiki/"
 "Mutt_(email_client)) is preconfigured to consult this folder by default. To "
@@ -2569,6 +2575,22 @@ msgstr ""
 #: ../../services/email.md:209
 msgid "La section [](#client-web)"
 msgstr "The [](#client-web) section"
+
+#: ../../services/email.md:214
+#, fuzzy
+#| msgid ""
+#| "{term}`Client Web` permettant de consulter et d'envoyer des emails via "
+#| "SMTP et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), "
+#| "[Sources](https://github.com/roundcube/roundcubemail)"
+msgid ""
+"{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses "
+"email directement depuis un terminal. Il est installé et pré-configuré sur "
+"le serveur CLUB1. --- [Wikipedia](https://fr.wikipedia.org/wiki/Mutt), "
+"[Sources](https://gitlab.com/muttmua/mutt)"
+msgstr ""
+"{term}`Web client` allowing to consult and send emails via SMTP and IMAP. "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/Roundcube), [Sources](https://"
+"github.com/roundcube/roundcubemail)"
 
 #: ../../services/ftp.md:1
 msgid "Transfert de fichiers FTPS"
@@ -3247,9 +3269,13 @@ msgstr ""
 "received the correct key during this exchange."
 
 #: ../../services/ssh.md:34
+#, fuzzy
+#| msgid ""
+#| "Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, "
+#| "[ce tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgid ""
-"Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, [ce "
-"tuto](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
+"Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, le "
+"tuto [](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgstr ""
 "If you don't know how to add the server key to your device, [this tutorial](/"
 "tutos/premiere-connexion-ssh.md) is for you!"
@@ -4955,24 +4981,18 @@ msgstr ""
 msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:112
-msgid "`passwd`"
-msgstr ""
-
-#: ../../tutos/premiere-connexion-ssh.md:114
+#: ../../tutos/premiere-connexion-ssh.md:113
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
-"connexion à tout les [services](/services/index.md))."
-msgstr ""
-
-#: ../../tutos/premiere-connexion-ssh.md:117
-msgid "`htop`"
+"connexion à tous les [services](/services/index.md)). --- Manuel : {manpage}"
+"`passwd.1`"
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:119
 msgid ""
 "Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
-"les ressources sont utilisées. Pressez la touche {kbd}`Q` pour quitter."
+"les ressources sont utilisées. Pressez la touche {kbd}`Q` pour quitter. --- "
+"Manuel : {manpage}`htop.1`"
 msgstr ""
 
 #: ../../tutos/presentation.md:1
@@ -5481,12 +5501,16 @@ msgid "%s, Membres de CLUB1"
 msgstr "%s, CLUB1 members"
 
 #. Title used for BibTeX citation
-#: conf.py:134
+#: conf.py:137
 #, python-brace-format
 msgid "Documentation {CLUB1}"
 msgstr "{CLUB1} documentation"
 
 #. Add custom 'software' directive and refs
-#: conf.py:304
+#: conf.py:307 conf.py:308
 msgid "logiciel"
-msgstr "Software"
+msgstr "software"
+
+#: conf.py:309 conf.py:310
+msgid "commande"
+msgstr "command"
