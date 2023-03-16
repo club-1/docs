@@ -13,6 +13,7 @@ puis {guilabel}`Comptes...` pour afficher la fenêtre de configuration de **Comp
 ---
 alt: capture d'écran fenêtre Comptes Internet
 name: fig:tutos-caldav-mac-comptes
+width: 700
 ---
 Fenêtre "Comptes Internet".
 ```
@@ -24,8 +25,9 @@ et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-mac-autres-compt
 ---
 alt: capture d'écran fenêtre Autres Comptes
 name: fig:tutos-caldav-mac-autres-comptes
+width: 700
 ---
-La fenêtre "Comptes Internet" dévoile son plein potentiel une fois qu'on a cliqué sur le bouton {guilabel}`Ajouter un autres compte...`.
+La fenêtre "Comptes Internet" dévoile son plein potentiel.
 ```
 
 
@@ -36,6 +38,7 @@ Dans la fenêtre dépliée, entrer son adresse et son mot-de-passe membre CLUB1
 ---
 alt: capture d'écran fenêtre Ajouter un compte CalDAV
 name: fig:tutos-caldav-mac-ajouter-compte-caldav
+width: 700
 ---
 Le formulaire d'ajout de compte CalDAV.
 ```
@@ -48,6 +51,7 @@ Une fois validé, un calendrier "Default" apparaîtra sous CLUB1 dans le panneau
 ---
 alt: capture d'écran fenêtre calendrier
 name: fig:tutos-caldav-mac-calendrier
+width: 700
 ---
 Le calendrier "Default" est maintenant présent dans le calendrier.
 ```

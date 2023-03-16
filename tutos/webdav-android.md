@@ -25,7 +25,7 @@ Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la gestion de
 ---
 alt: capture d'écran gestion des tâches
 name: fig:tutos-webdav-android-taches
-height: 400
+width: 280
 ---
 Gestion des tâches.
 ```
@@ -37,7 +37,7 @@ Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:tu
 ---
 alt: capture d'écran autorisations
 name: fig:tutos-webdav-android-autorisations
-height: 400
+width: 280
 ---
 Accorder les autorisations.
 ```
@@ -48,7 +48,7 @@ Enfin, pour plus de confort, il est conseillé d'activer la synchro à intervall
 ---
 alt: capture d'écran synchro à intervalles
 name: fig:tutos-webdav-android-intervalles
-height: 400
+width: 280
 ---
 Synchronisation à intervalles réguliers.
 ```
@@ -63,7 +63,7 @@ Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton orange 
 ---
 alt: capture d'écran accueil
 name: fig:tutos-webdav-android-accueil
-height: 400
+width: 280
 ---
 Écran d'accueil de DAVx5.
 ```
@@ -74,7 +74,7 @@ Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisat
 ---
 alt: capture d'écran connexion
 name: fig:tutos-webdav-android-connexion
-height: 400
+width: 280
 ---
 Connexion avec une URL et un nom d'utilisateur.
 ```
@@ -97,7 +97,7 @@ pour être compatible avec le client web mail de CLUB1 ({numref}`fig:tutos-webda
 ---
 alt: capture d'écran groupes
 name: fig:tutos-webdav-android-groupes
-height: 400
+width: 280
 ---
 Méthode de stockage des groupes.
 ```
@@ -113,7 +113,7 @@ Il sera toujours possible d'accéder et modifier ces réglages  plus tard très 
 ---
 alt: capture d'écran sélection
 name: fig:tutos-webdav-android-selection
-height: 400
+width: 280
 ---
 Liste des carnets d'adresses disponibles.
 ```
