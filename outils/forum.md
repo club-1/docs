@@ -72,9 +72,10 @@ Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`.
 
 ```{logiciel} Flarum
 Logiciel de forum écrit en {term}`PHP`.
-Il est concu pour être extremmement modulaire
+Il est concu pour être extrêmement modulaire
 avec très peu de fonctionnalités faisant réellement partie du c&oelig;ur.
-Il est ainsi facile d'en développer des extensions.
+Il est ainsi facile d'en développer des extensions de toute sorte,
+qui peuvent emmener l'outil forum dans des directions très différentes.
 --- [Sources](https://github.com/flarum/framework/), [Site](https://flarum.org/)
 ```
 
