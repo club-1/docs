@@ -9,4 +9,5 @@ maxdepth: 2
 ---
 meta-doc
 aliases
+forum
 ```
