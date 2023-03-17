@@ -106,6 +106,10 @@ la room sera par défaut privée.
 Dans d'une discussion de groupe, il va falloir définir un nom,
 définir si elle va être privée ou publique, ainsi que l'activation ou non du chiffrement.
 
+```{warning}
+Le chiffrement des discussions ne peut pas être désactivé plus tard.
+```
+
 
 ### Formatage
 
