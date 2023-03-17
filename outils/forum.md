@@ -38,7 +38,11 @@ Les étiquettes primaires sont les suivantes :
 
 ### Cycle de vie d'un _ticket_
 
-Les nouveaux tickets (problèmes, suggestions, questions) doivent être créés avec l'étiquette {guilabel}`Tickets`.
+Le mot "ticket" représente un problème, une suggestion, une question qui est amené au _centre de tri_ des tickets
+où les personnes concernées, capables de répondre peuvent résoudre les tickets au fur et à mesure.
+Les tickets ont vocation à être fermés une fois le problème résolu, la suggestion reçue ou encore la question répondue.
+
+Les nouveaux tickets doivent être créés avec l'étiquette {guilabel}`Tickets`.
 Si l'objet du ticket est encore nébuleux et requiert plus de discussions,
 il vaut mieux lui ajouter l'étiquette {guilabel}`rêve`.
 
