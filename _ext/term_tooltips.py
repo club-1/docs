@@ -6,7 +6,6 @@ from sphinx.writers.html5 import HTML5Translator
 from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.util import logging
 from docutils import nodes
-from markupsafe import escape
 
 from typing import Callable, Optional, Tuple
 
@@ -79,7 +78,7 @@ class TermTooltips(SphinxPostTransform):
         if self.apply != None:
             deftext = self.apply(deftext)
         newnode = nodes.abbreviation()
-        newnode['explanation'] = escape(deftext)
+        newnode['explanation'] = deftext
         newnode += ref.deepcopy()
         ref.replace_self(newnode)
 
