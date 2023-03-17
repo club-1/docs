@@ -73,6 +73,21 @@ GitHub
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
+groupe
+   Les groupes servent à rassembler des utilisateurs afin de leur attribuer des droits communs.
+   Un utilisateur UNIX appartient à un ou plusieurs groupes.
+
+   ```{tip}
+   Il est possible de savoir qui est membre d'un groupe sur le serveur
+   depuis un accès {term}`SSH` avec la commande suivante :
+
+       members <group>
+
+   En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou `members home`.
+   ```
+
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))
+
 HTML
    (_Hypertext Markup Language_) Langage de balisage conçu pour représenter les pages {term}`Web`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language),

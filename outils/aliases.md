@@ -1,7 +1,7 @@
 Gestion des alias email
 =======================
 
-Ce manuel est réservé aux utilisateurs faisant partie du groupe unix `aliases`.
+Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` unix `aliases`.
 Il décrit les actions que peuvent accomplir ces utilisateurs sur les {term}`alias` emails.
 
 Modifier les alias de reception
