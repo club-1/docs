@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-03-16 20:34+0100\n"
+"POT-Creation-Date: 2023-03-18 21:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -368,12 +368,12 @@ msgstr ""
 
 #: ../../glossaire.md:10
 msgid ""
-"Le protocole IP (créé à l'origine pour {term}`Internet`) permet d'acheminer "
-"des données entre un ordinateur source et sa destination. Il a besoin pour "
-"cela d'adresses IP afin d'identifier ces deux ordinateurs."
+"Le {term}`protocole` IP (créé à l'origine pour {term}`Internet`) permet "
+"d'acheminer des données entre un ordinateur source et sa destination. Il a "
+"besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs."
 msgstr ""
 
-#: ../../glossaire.md:13
+#: ../../glossaire.md:14
 msgid ""
 "Actuellement, deux version d'adresses IP sont utilisées : La version 4 qui "
 "s'écrit sous la forme de nombres séparés par des points (ex : `87.91.4.64` "
@@ -383,11 +383,11 @@ msgid ""
 "Adresse_IP)"
 msgstr ""
 
-#: ../../glossaire.md:13
+#: ../../glossaire.md:14
 msgid "alias"
 msgstr ""
 
-#: ../../glossaire.md:21
+#: ../../glossaire.md:22
 msgid ""
 "Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs "
 "noms à la même entité. C'est un concept fréquemment utilisé en informatique. "
@@ -396,7 +396,7 @@ msgid ""
 "une commande. --- [Wiktionnaire](https://fr.wiktionary.org/wiki/alias)"
 msgstr ""
 
-#: ../../glossaire.md:28
+#: ../../glossaire.md:29
 msgid ""
 "De l'anglais _Application Programming Interface_. Interface destinée à être "
 "utilisée non pas par un être humain mais par un logiciel. Elle est en "
@@ -405,45 +405,45 @@ msgid ""
 "Interface_de_programmation)"
 msgstr ""
 
-#: ../../glossaire.md:34
+#: ../../glossaire.md:35
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
-"de terminal. La CLI est très intéressante car elle peut aussi bien être "
-"utilisée par des humains que par des logiciels. --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/Interface_en_ligne_de_commande)"
+"de {term}`terminal`. La CLI est très intéressante car elle peut aussi bien "
+"être utilisée par des humain&middot;e&middot;s que par des logiciels. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
-#: ../../glossaire.md:33
+#: ../../glossaire.md:34
 msgid "client"
 msgstr ""
 
-#: ../../glossaire.md:41
+#: ../../glossaire.md:42
 msgid ""
 "Logiciel permettant de se connecter à un {term}`serveur`. Il est en général "
 "doté d'une interface graphique, destinée à être utilisée directement par un "
 "humain. --- [Wikipedia](https://fr.wikipedia.org/wiki/Client_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:38
+#: ../../glossaire.md:39
 msgid "client Web"
 msgstr ""
 
-#: ../../glossaire.md:46
+#: ../../glossaire.md:47
 msgid ""
 "{term}`Client` accessible via le {term}`Web` et ainsi exécuté par un "
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:41
+#: ../../glossaire.md:42
 msgid "fichier caché"
 msgstr ""
 
-#: ../../glossaire.md:42
+#: ../../glossaire.md:43
 msgid "dossier caché"
 msgstr ""
 
-#: ../../glossaire.md:50
+#: ../../glossaire.md:51
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
@@ -451,7 +451,7 @@ msgid ""
 "par un point `.`."
 msgstr ""
 
-#: ../../glossaire.md:55
+#: ../../glossaire.md:56
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -459,23 +459,49 @@ msgid ""
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
 
-#: ../../glossaire.md:61
+#: ../../glossaire.md:62
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
 
-#: ../../glossaire.md:65
+#: ../../glossaire.md:66
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
 "ni **libre**, ni **open source** et appartient à Microsoft."
 msgstr ""
 
-#: ../../glossaire.md:69
+#: ../../glossaire.md:70
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:65
+msgid "groupe"
+msgstr ""
+
+#: ../../glossaire.md:73
+msgid ""
+"Les groupes servent à rassembler des utilisateurs afin de leur attribuer des "
+"droits communs. Un utilisateur UNIX appartient à un ou plusieurs groupes."
+msgstr ""
+
+#: ../../glossaire.md:77
+msgid ""
+"Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
+"un accès {term}`SSH` avec la commande suivante :"
+msgstr ""
+
+#: ../../glossaire.md:82
+msgid ""
+"En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou "
+"`members home`."
+msgstr ""
+
+#: ../../glossaire.md:85
+msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
+msgstr ""
+
+#: ../../glossaire.md:88
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -483,17 +509,17 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:69
+#: ../../glossaire.md:85
 msgid "instance"
 msgstr ""
 
-#: ../../glossaire.md:77
+#: ../../glossaire.md:93
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
 
-#: ../../glossaire.md:79
+#: ../../glossaire.md:95
 msgid ""
 "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
 "des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
@@ -501,11 +527,11 @@ msgid ""
 "[Wiktionnaire](https://fr.wiktionary.org/wiki/instance)"
 msgstr ""
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:92
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:84
+#: ../../glossaire.md:100
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -514,7 +540,7 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:91
+#: ../../glossaire.md:107
 msgid ""
 "Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
 "wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
@@ -523,7 +549,7 @@ msgid ""
 "Historique_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:97
+#: ../../glossaire.md:113
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -533,7 +559,7 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:105
+#: ../../glossaire.md:121
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -543,22 +569,34 @@ msgid ""
 "md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:105
+#: ../../glossaire.md:121
+msgid "protocole"
+msgstr ""
+
+#: ../../glossaire.md:129
+msgid ""
+"Dans le contexte de l'informatique, un protocole est un ensemble de règles "
+"qui régissent les échanges de données ou le comportement collectif de "
+"processus ou d'ordinateurs en réseaux. --- [Wikipedia](https://fr.wikipedia."
+"org/wiki/Protocole_informatique)"
+msgstr ""
+
+#: ../../glossaire.md:127
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:113
+#: ../../glossaire.md:135
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:109
+#: ../../glossaire.md:131
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:117
+#: ../../glossaire.md:139
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -568,7 +606,27 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:125
+#: ../../glossaire.md:139
+msgid "terminal"
+msgstr ""
+
+#: ../../glossaire.md:147
+msgid ""
+"En informatique, un terminal était à l'origine un appareil constitué d'un "
+"moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
+"d'interagir avec un ordinateur partagé distant. Il offrait une interface "
+"textuelle, permettant d'entrer des commandes et d'en lire le résultat."
+msgstr ""
+
+#: ../../glossaire.md:151
+msgid ""
+"De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
+"désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
+"l'interface en ligne de commande ({term}`CLI`) de ce materiel. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
+msgstr ""
+
+#: ../../glossaire.md:156
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -578,18 +636,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:125
+#: ../../glossaire.md:156
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:133
+#: ../../glossaire.md:164
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:137
+#: ../../glossaire.md:168
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -598,11 +656,11 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../index.md:28
+#: ../../index.md:29
 msgid "Annexes"
 msgstr ""
 
-#: ../../index.md:36
+#: ../../index.md:37
 msgid "Indexes et tables"
 msgstr ""
 
@@ -628,7 +686,8 @@ msgstr ""
 msgid ""
 "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
 "personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
-"un certain nombre de protocoles, fournissant différents services."
+"un certain nombre de {term}`protocoles <protocole>`, fournissant différents "
+"services."
 msgstr ""
 
 #: ../../info/espace-personnel.md:9
@@ -726,9 +785,10 @@ msgid ""
 msgstr ""
 
 #: ../../info/espace-personnel.md:72 ../../info/general.md:121
-#: ../../info/politique-de-vie-privee.md:6 ../../services/email.md:32
-#: ../../services/email.md:70 ../../services/email.md:124
-#: ../../services/email.md:208 ../../services/web.md:70
+#: ../../info/politique-de-vie-privee.md:6 ../../outils/forum.md:12
+#: ../../services/email.md:32 ../../services/email.md:70
+#: ../../services/email.md:124 ../../services/email.md:208
+#: ../../services/web.md:70
 msgid "Voir aussi"
 msgstr ""
 
@@ -968,7 +1028,7 @@ msgstr ""
 msgid "Comptes des membres"
 msgstr ""
 
-#: ../../info/general.md:128
+#: ../../info/general.md:128 ../../services-ouverts/matrix.md:27
 msgid "Identifiant"
 msgstr ""
 
@@ -1075,7 +1135,7 @@ msgstr ""
 msgid ""
 "⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
 "sont donc lisibles par les administrateurs (utilisateur `root` et membres du "
-"groupe `sudo`)."
+"{term}`groupe` `sudo`)."
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:15
@@ -1084,8 +1144,9 @@ msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:16
 msgid ""
-"Les protocoles utilisés pour se connecter au serveur sont tous chiffrés, les "
-"mots de passe et les données ne peuvent donc pas être interceptées."
+"Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur "
+"sont tous chiffrés, les mots de passe et les données ne peuvent donc pas "
+"être interceptées."
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:18
@@ -1093,44 +1154,32 @@ msgid ""
 "Les données personnelles sont protégées par les [permissions UNIX](https://"
 "fr.wikipedia.org/wiki/Permissions_UNIX). Par defaut l'[espace personnel](./"
 "espace-personnel.md) n'est pas accessible par les autres utilisateurs (à "
-"part en lecture par les membres du groupe `home`, ex: le {term}`serveur` "
-"{term}`web`). Chacun est libre de changer les permissions de son espace "
-"perso."
+"part en lecture par les membres du {term}`groupe` `home`, ex: le {term}"
+"`serveur` {term}`web`). Chacun est libre de changer les permissions de son "
+"espace perso."
 msgstr ""
 
-#: ../../info/politique-de-vie-privee.md:24
-msgid ""
-"Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
-"un accès {term}`SSH` avec la commande suivante :"
-msgstr ""
-
-#: ../../info/politique-de-vie-privee.md:29
-msgid ""
-"En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou "
-"`members home`."
-msgstr ""
-
-#: ../../info/politique-de-vie-privee.md:32
+#: ../../info/politique-de-vie-privee.md:23
 msgid "Engagements des administrateurs systèmes"
 msgstr ""
 
-#: ../../info/politique-de-vie-privee.md:35
+#: ../../info/politique-de-vie-privee.md:26
 msgid ""
 "Les administrateurs système s'engagent à respecter les points suivants :"
 msgstr ""
 
-#: ../../info/politique-de-vie-privee.md:37
+#: ../../info/politique-de-vie-privee.md:28
 msgid ""
 "Ne pas accéder aux données utilisateur (espace personnel et bases de "
 "données) sans leur accord, sauf en cas de restauration suite à un problème "
 "technique, auquel cas les utilisateurs concernés en seront avertis."
 msgstr ""
 
-#: ../../info/politique-de-vie-privee.md:40
+#: ../../info/politique-de-vie-privee.md:31
 msgid "Chiffrement des clefs {term}`SSH`."
 msgstr ""
 
-#: ../../info/politique-de-vie-privee.md:41
+#: ../../info/politique-de-vie-privee.md:32
 msgid ""
 "Application des bonnes pratiques en matière de sécurité (remplacement des "
 "mots de passe par défaut, mots de passe générés forts, etc.)."
@@ -1142,7 +1191,7 @@ msgstr ""
 
 #: ../../outils/aliases.md:4
 msgid ""
-"Ce manuel est réservé aux utilisateurs faisant partie du groupe unix "
+"Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
@@ -1215,6 +1264,201 @@ msgstr ""
 
 #: ../../outils/aliases.md:60
 msgid "La commande pour regénérer la base de données est :"
+msgstr ""
+
+#: ../../outils/forum.md:1
+msgid "Forum de discussion"
+msgstr ""
+
+#: ../../outils/forum.md:4
+msgid ""
+"CLUB1 héberge un forum de discussion à l'adresse <https://forum.club1.fr>. "
+"Il a pour but de remplir trois rôles principaux :"
+msgstr ""
+
+#: ../../outils/forum.md:7
+msgid "La gestion des tickets (problèmes, suggestions, questions)."
+msgstr ""
+
+#: ../../outils/forum.md:8
+msgid "La gestion de la feuille de route des administrateurs système."
+msgstr ""
+
+#: ../../outils/forum.md:9
+msgid ""
+"Offrir un canal de discussion asynchrone public, permettant à des "
+"discussions variées de co-exister dans la durée."
+msgstr ""
+
+#: ../../outils/forum.md:13
+msgid ""
+"L'article du journal \"[Création d'un forum](https://club1.fr/creation-d-un-"
+"forum)\""
+msgstr ""
+
+#: ../../outils/forum.md:16
+msgid "Utilisation"
+msgstr ""
+
+#: ../../outils/forum.md:19
+msgid ""
+"Le forum CLUB1 est basé sur un système d'étiquettes plutôt que sur des "
+"catégories. Un fil de discussion peut donc avoir plusieurs étiquettes."
+msgstr ""
+
+#: ../../outils/forum.md:23
+msgid ""
+"Certaines étiquettes sont dites _primaires_ et il ne doit y avoir qu'une "
+"seule étiquette primaire par discussion, ce qui recréé des sortes de "
+"catégories."
+msgstr ""
+
+#: ../../outils/forum.md:28
+msgid "Organisation des étiquettes"
+msgstr ""
+
+#: ../../outils/forum.md:30
+msgid "Les étiquettes primaires sont les suivantes :"
+msgstr ""
+
+#: ../../outils/forum.md:32
+msgid "{guilabel}`Tickets` : Regroupe les tickets ouverts."
+msgstr ""
+
+#: ../../outils/forum.md:33
+msgid ""
+"{guilabel}`Terminé` : Regroupe les tickets fermés (\"résolus\" ou "
+"\"refusés\")."
+msgstr ""
+
+#: ../../outils/forum.md:34
+msgid ""
+"{guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement "
+"reliées à l'activité d'hébergement de CLUB1, et ne sont sonc pas des tickets."
+msgstr ""
+
+#: ../../outils/forum.md:36
+msgid "{guilabel}`English` : Regroupe les discussions en anglais."
+msgstr ""
+
+#: ../../outils/forum.md:39
+msgid "Cycle de vie d'un _ticket_"
+msgstr ""
+
+#: ../../outils/forum.md:41
+msgid ""
+"Le mot \"ticket\" représente un problème, une suggestion, une question qui "
+"est amené au _centre de tri_ des tickets où les personnes concernées, "
+"capables de répondre peuvent résoudre les tickets au fur et à mesure. Les "
+"tickets ont vocation à être fermés une fois le problème résolu, la "
+"suggestion reçue ou encore la question répondue."
+msgstr ""
+
+#: ../../outils/forum.md:45
+msgid ""
+"Les nouveaux tickets doivent être créés avec l'étiquette {guilabel}"
+"`Tickets`. Si l'objet du ticket est encore nébuleux et requiert plus de "
+"discussions, il vaut mieux lui ajouter l'étiquette {guilabel}`rêve`."
+msgstr ""
+
+#: ../../outils/forum.md:49
+msgid ""
+"Une fois qu'un ticket est résolu (ou refusé), il faut lui retirer "
+"l'étiquette {guilabel}`Tickets` pour pouvoir lui assigner les étiquettes "
+"{guilabel}`Terminé` et {guilabel}`résolu` ou {guilabel}`refusé` en fonction "
+"de son état."
+msgstr ""
+
+#: ../../outils/forum.md:53
+msgid "Feuille de route administrateurs système"
+msgstr ""
+
+#: ../../outils/forum.md:55
+msgid ""
+"Transversalement au système de gestion de tickets, l'étiquette {guilabel}"
+"`Roadmap Admin` est utilisée par les administrateurs système de CLUB1 pour "
+"s'organiser. Elle permet également de rendre publique les tâches \"en "
+"cours\", \"suivantes\" et \"planifiées\"."
+msgstr ""
+
+#: ../../outils/forum.md:59
+msgid ""
+"C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du "
+"forum peuvent utiliser, en contournant les restriction d'étiquettes."
+msgstr ""
+
+#: ../../outils/forum.md:63
+msgid "Administration"
+msgstr ""
+
+#: ../../outils/forum.md:66
+msgid ""
+"Cette section est surtout destinée aux administrateurs du forum, soit les "
+"membres CLUB1 faisant partie du {term}`groupe` `forum`."
+msgstr ""
+
+#: ../../outils/forum.md:69
+msgid "Logiciel utilisé"
+msgstr ""
+
+#: ../../outils/forum.md:71
+msgid ""
+"Le forum est basé sur {logiciel}`Flarum`. Il est executé par {logiciel}`PHP-"
+"FPM` avec l'utilisateur `forum`, directement depuis {logiciel}`Nginx`."
+msgstr ""
+
+#: ../../outils/forum.md:75
+msgid ""
+"Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`."
+msgstr ""
+
+#: ../../outils/forum.md:78
+msgid ""
+"Logiciel de forum écrit en {term}`PHP`. Il est concu pour être extrêmement "
+"modulaire avec très peu de fonctionnalités faisant réellement partie du "
+"c&oelig;ur. Il est ainsi facile d'en développer des extensions de toute "
+"sorte, qui peuvent emmener l'outil forum dans des directions très "
+"différentes. --- [Sources](https://github.com/flarum/framework/), [Site]"
+"(https://flarum.org/)"
+msgstr ""
+
+#: ../../outils/forum.md:86
+msgid "Fichiers et dossiers"
+msgstr ""
+
+#: ../../outils/forum.md:88
+msgid "Quelques fichiers et dossiers en relation avec le forum CLUB1."
+msgstr ""
+
+#: ../../outils/forum.md:92
+msgid ""
+"Dossier d'installation de Flarum. Il contient notamment les fichiers "
+"suivants :"
+msgstr ""
+
+#: ../../outils/forum.md:95
+msgid ""
+"`config.php` : Fichier de configuration de Flarum. Il ne contient que les "
+"paramètres d'installation. Le reste de la configuration se trouve dans la "
+"base de données."
+msgstr ""
+
+#: ../../outils/forum.md:99
+msgid ""
+"`composer.json` : Fichier décrivant les dépendances Composer. C'est via ce "
+"logiciel que sont installées les extensions Flarum."
+msgstr ""
+
+#: ../../outils/forum.md:104
+msgid ""
+"Fichier de configuration {logiciel}`Nginx` contenant le _virtual host_ du "
+"forum."
+msgstr ""
+
+#: ../../outils/forum.md:109
+msgid ""
+"Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisateur "
+"`forum`."
 msgstr ""
 
 #: ../../outils/index.md:1
@@ -1575,6 +1819,251 @@ msgstr ""
 
 #: ../../outils/meta-doc.md:261 ../../tutos/presentation.md:19
 msgid "Metadonnées"
+msgstr ""
+
+#: ../../services-ouverts/index.md:1
+msgid "Services ouverts à tous"
+msgstr ""
+
+#: ../../services-ouverts/index.md:4
+msgid ""
+"Ces services ne nécessitent pas d'être membre de CLUB1, ils sont utilisables "
+"par n'importe qui."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:1
+msgid "Discussion instantanée Matrix"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:6
+msgid ""
+"{term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/"
+"Messagerie_instantan%C3%A9e) [__décentralisé__](https://fr.wikipedia.org/"
+"wiki/Red%C3%A9centralisation_d%27Internet). --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Matrix_(protocole))"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:12
+msgid "Principes généraux"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:15
+msgid ""
+"Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
+"Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
+"internes pour ses utilisateurs, mais aussi de se connecter de façon "
+"transparente aux salons provenant d'autres serveur si ils le souhaitent."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:19
+msgid "Serveur"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:21
+msgid ""
+"Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
+"les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
+"simplement `club1.fr` ou `https://club1.fr`. Inutile d'aller voir à cette "
+"adresse, il vous faudra un [client](#client-interfaces-de-connexion) pour "
+"accèder à l'interface de messagerie."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:29
+msgid ""
+"Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une "
+"adresse email, à ceci près que le symbole `@` est utilisé comme premier "
+"caractère, signalant que l'adresse fait référence à un utilisateur. Le "
+"symbole `:` est donc utilisé pour séparer l'identifiant du serveur :"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:36
+msgid ""
+"Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auxquel le "
+"compte est rataché."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:40
+msgid "Room"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:42
+msgid ""
+"Une *room*, ou *salon* Matrix est un flux de discussion qui accueille "
+"n'importe quel nombre de participants. Elles ont aussi une adresse, qui "
+"commence cette fois par un `#` :"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:47
+msgid ""
+"Où `blabla-dauphins` est le nom de la *room* et `club1.fr`, le serveur sur "
+"lequel elle a été créée et auquel elle est rattachée."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:51
+msgid ""
+"Il est possible, au moment de la création d'une *room*, d'interdire l'accès "
+"aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:57
+msgid "Client (interfaces de connexion)"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:59
+msgid ""
+"Comme pour les emails, il est aussi possible de choisir son {term}`client`, "
+"son interface, pour se connecter à Matrix. Il en existe pour tout les goûts, "
+"mais la plupart sont encore en cours de développement. A l'heure actuelle, "
+"__la façon la plus simple et fiable de converser via Matrix est d'utiliser "
+"*Element*__, en tant qu'application web ou sur mobile."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:65
+msgid "[__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:68
+msgid ""
+"On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent "
+"dans un naviguateur), __Desktop__ (Linux, Windows, MacOS) et __Mobile__ "
+"(Android, Iphone). [Liste officielle des clients matrix](https://matrix.org/"
+"clients/)."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:72
+msgid ""
+"Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisament "
+"complet pour que cela soit intéressant, à part si vous êtes un&middot;e "
+"amoureux&middot;se du {term}`terminal`, auxquel cas vous êtes invité&middot;"
+"e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:76
+msgid ""
+"Sur Android, certaines applications commencent à être matures. Il y a bien-"
+"sûr la version mobile de [Element](https://play.google.com/store/apps/"
+"details?id=im.vector.app), mais on peut aussi préférer l'ambiance *fluffy* "
+"de [FluffyChat](https://fluffychat.im/)"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:81
+msgid ""
+"Pour se connecter ailleurs que sur l'interface web de Club1, __il faut bien "
+"spécifier que votre serveur est `https://club1.fr` !__"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:87
+msgid "Comment l'utiliser (interface Element web) ?"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:90
+msgid "Rejoindre des salons"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:92
+msgid ""
+"Pour rejoindre des rooms, il suffit de cliquer sur {guilabel}`explorer` en "
+"haut à gauche de l'interface. Par défaut, seules les rooms du serveur local "
+"sont listées. Pour en afficher d'autres, il faut sélectionner un autre "
+"serveur depuis le menu déroulant ou cliquer sur {guilabel}`ajouter un "
+"nouveau serveur`."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:97
+msgid ""
+"Dans le panneau de gauche, les salons sont répartis en {guilabel}`messages "
+"direct` et {guilabel}`salons`. Cela sert à distinguer les discussions à deux "
+"personnes des discussions de groupes."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:100
+msgid "Créer un salon"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:102
+msgid ""
+"En cliquant sur le {guilabel}`+` à droite de {guilabel}`messages direct` ou "
+"{guilabel}`salons`, on a la possibilité de créer son propre salon. Dans le "
+"cas d'une discussion à deux, il suffit de choisir un destinataire, la room "
+"sera par défaut privée. Dans d'une discussion de groupe, il va falloir "
+"définir un nom, définir si elle va être privée ou publique, ainsi que "
+"l'activation ou non du chiffrement."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:110
+msgid "Le chiffrement des discussions ne peut pas être désactivé plus tard."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:114
+msgid "Formatage"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:116
+msgid ""
+"Il est possible de formater son message, en sélectionnant du texte sur la "
+"zone d'écriture de message, ou en utilisant le __{term}`Markdown`__, un "
+"standard de formatage simple utilisé par de plus en plus de site."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:119
+msgid "Chiffrement"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:121
+msgid ""
+"Le protocole Matrix permet de chiffrer ses messages *de bout en bout*, c'est "
+"à dire qu'un message sera illisible d'un bout à l'autre de son cheminement "
+"et n'est déchiffrable qu'à l'arrivée par son destinataire. Cela complexifie "
+"un peu les échanges, car Matrix force la vérifications des différents "
+"appareils que l'on utilise pour communiquer. En effet, il faut être sûr que "
+"les différents appareils connectés au même compte sont bien en possession "
+"d'une même personne. Pour cela, une *pass-phrase* globale est utilisée : "
+"c'est un super mot de passe plus long qui va servir à au chiffrement de vos "
+"messages."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:131
+msgid "Questions concernant le serveur Matrix de CLUB1"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:134
+msgid "Est ce fiable ?"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:136
+msgid ""
+"Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur, "
+"cependant pour se faire un avis, il est possible de consulter les "
+"statistiques de disponibilité du serveur Matrix et de Riot à cette adresse : "
+"[status.club1.fr](https://status.club1.fr/). Des mises-à-jour sont "
+"effectuées régulièrement pour avoir la dernière version de Matrix et Riot et "
+"ainsi éviter des bugs ou failles de sécurité."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:143
+msgid "Que faire si j'ai perdu mon mot de passe ?"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:145
+msgid ""
+"Si une adresse email à été reliée à votre compte (compte créé après la [mise "
+"à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien "
+"ajout manuel), il suffit de cliquer sur {guilabel}`mot de passe oublié`. "
+"Sinon, il n'est pas possible de réccupérer son mot de passe automatiquement. "
+"La seule façon est de réussir à joindre et convaincre l'administrateur "
+"système *dans la vrai vie*, autant dire qu'il vaux mieux ne pas l'oublier."
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:152
+msgid "Est ce que club1.fr respecte ma vie privée ?"
+msgstr ""
+
+#: ../../services-ouverts/matrix.md:154
+msgid ""
+"La seule personne qui a accès aux bases de données est l'administrateur "
+"système du serveur (`@n-peugnet:club1.fr`), normalement il n'a pas que ça à "
+"faire de vous espionner, mais si vous n'avez pas confiance en lui, il ne "
+"vous reste plus qu'à activer le chiffrement des conversations."
 msgstr ""
 
 #: ../../services/drive.md:1
@@ -1980,9 +2469,9 @@ msgstr ""
 #: ../../services/email.md:214
 msgid ""
 "{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses "
-"email directement depuis un terminal. Il est installé et pré-configuré sur "
-"le serveur CLUB1. --- [Wikipedia](https://fr.wikipedia.org/wiki/Mutt), "
-"[Sources](https://gitlab.com/muttmua/mutt)"
+"email directement depuis un {term}`terminal`. Il est installé et pré-"
+"configuré sur le serveur CLUB1. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/Mutt), [Sources](https://gitlab.com/muttmua/mutt)"
 msgstr ""
 
 #: ../../services/ftp.md:1
@@ -1995,8 +2484,8 @@ msgid ""
 "copier des fichiers d'un ordinateur à un autre à travers un {term}`réseau "
 "informatique`, ou encore de déplacer ou supprimer des fichiers sur un "
 "ordinateur distant. Le serveur CLUB1 utilise la variante sécurisée de ce "
-"protocole : {term}`FTPS`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-"File_Transfer_Protocol)"
+"{term}`protocole` : {term}`FTPS`. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/File_Transfer_Protocol)"
 msgstr ""
 
 #: ../../services/ftp.md:14
@@ -2018,8 +2507,8 @@ msgstr ""
 
 #: ../../services/ftp.md:27
 msgid ""
-"Le protocole FTP permet d'accéder à votre **espace personnel** grâce à des "
-"logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
+"Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** grâce "
+"à des logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
 "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
 
@@ -2197,13 +2686,14 @@ msgid ""
 msgstr ""
 
 #: ../../services/index.md:1
-msgid "Services"
+msgid "Services réservés aux membres"
 msgstr ""
 
 #: ../../services/index.md:4
 msgid ""
-"Tous ces services utilisent donc le même **identifiant** et le même **mot de "
-"passe** pour la connexion."
+"Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
+"compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
+"de passe** pour la connexion."
 msgstr ""
 
 #: ../../services/rss.md:1
@@ -2468,9 +2958,9 @@ msgstr ""
 msgid "S'authentifier par mot de passe"
 msgstr ""
 
-#: ../../services/ssh.md:45 ../../tutos/premiere-connexion-ssh.md:24
+#: ../../services/ssh.md:45
 msgid ""
-"On utilise la commande suivante dans le terminal pour se connecter "
+"On utilise la commande suivante dans le {term}`terminal` pour se connecter "
 "(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgstr ""
 
@@ -2863,7 +3353,8 @@ msgstr ""
 #: ../../services/web.md:216
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-"étant le protocole du {term}`Web` on parle aussi souvent de \"serveur Web\"."
+"étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "
+"\"serveur Web\"."
 msgstr ""
 
 #: ../../services/web.md:219
@@ -3776,7 +4267,7 @@ msgstr ""
 #: ../../tutos/premiere-connexion-ssh.md:4
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-"première fois en SSH de manière **sécurisée**."
+"première fois en {term}`SSH` de manière **sécurisée**."
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:8
@@ -3794,7 +4285,7 @@ msgstr ""
 msgid ""
 "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`. "
 "Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
-"fenêtre de **terminal** (`cmd` sur windows) ! 🥵"
+"fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵"
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:21
@@ -3802,6 +4293,12 @@ msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
 "l'informatique ! 🧙"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:24
+msgid ""
+"On utilise la commande suivante dans le terminal pour se connecter "
+"(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:30
