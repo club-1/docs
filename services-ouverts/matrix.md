@@ -1,4 +1,4 @@
-Discussion instantannée Matrix
+Discussion instantanée Matrix
 ==============================
 
 ```{glossary}
