@@ -111,7 +111,7 @@ car c'est celui qui vous donne le plus de libertés d'interactions avec le serve
 
 ```{commande} passwd
 Permet de changer son mot de passe CLUB1
-(cela aura donc un effet sur la connexion à tous les [services](/services/index.md)).
+(cela aura donc un effet sur la connexion à tous les [services](/services-membres.md)).
 --- Manuel : {manpage}`passwd.1`
 ```
 

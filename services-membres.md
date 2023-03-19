@@ -10,13 +10,13 @@ Ils utilisent donc le même **identifiant** et le même **mot de passe** pour la
 ---
 maxdepth: 2
 ---
-ssh
-email
-ftp
-webdav
-drive
-web
-sql
-rss
-git
+services/ssh
+services/email
+services/ftp
+services/webdav
+services/drive
+services/web
+services/sql
+services/rss
+services/git
 ```

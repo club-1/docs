@@ -14,8 +14,8 @@ maxdepth: 2
 numbered: 1
 ---
 info/index
-services/index
-services-ouverts/index
+services-membres
+services-ouverts
 tutos/index
 outils/index
 faq

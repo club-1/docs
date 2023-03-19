@@ -8,5 +8,5 @@ ils sont utilisables par n'importe qui.
 ---
 maxdepth: 2
 ---
-matrix
+services/matrix
 ```
