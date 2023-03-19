@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-03-18 21:41+0100\n"
-"PO-Revision-Date: 2023-03-16 22:34+0000\n"
+"PO-Revision-Date: 2023-03-20 12:41+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -453,17 +453,12 @@ msgstr ""
 "Identification number of a computer connected to a {term}`computer network`."
 
 #: ../../glossaire.md:10
-#, fuzzy
-#| msgid ""
-#| "Le protocole IP (créé à l'origine pour {term}`Internet`) permet "
-#| "d'acheminer des données entre un ordinateur source et sa destination. Il "
-#| "a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs."
 msgid ""
 "Le {term}`protocole` IP (créé à l'origine pour {term}`Internet`) permet "
 "d'acheminer des données entre un ordinateur source et sa destination. Il a "
 "besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs."
 msgstr ""
-"The IP protocol (originally created for {term}`Internet`) is used to "
+"The IP {term}`protocol` (originally created for {term}`Internet`) is used to "
 "transport data between a source computer and its destination. For this, it "
 "needs IP addresses in order to identify these two computers."
 
@@ -514,13 +509,6 @@ msgstr ""
 "wikipedia.org/wiki/API)"
 
 #: ../../glossaire.md:35
-#, fuzzy
-#| msgid ""
-#| "De L'anglais _Command Line Interface_. Interface en ligne de commande, "
-#| "basée sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une "
-#| "fenêtre de terminal. La CLI est très intéressante car elle peut aussi "
-#| "bien être utilisée par des humains que par des logiciels. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgid ""
 "De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
 "sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
@@ -529,9 +517,9 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 "_Command Line Interface_, an interface in command line, based on a textual "
-"display. It is used through a terminal window. The CLI is very interesting "
-"because it can be used by humans as well as by software. --- [Wikipedia]"
-"(https://en.wikipedia.org/wiki/Command-line_interface)"
+"display. It is used through a {term}`terminal` window. The CLI is very "
+"interesting because it can be used by humans as well as by software. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface)"
 
 #: ../../glossaire.md:34
 msgid "client"
@@ -611,13 +599,15 @@ msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
 
 #: ../../glossaire.md:65
 msgid "groupe"
-msgstr ""
+msgstr "group"
 
 #: ../../glossaire.md:73
 msgid ""
 "Les groupes servent à rassembler des utilisateurs afin de leur attribuer des "
 "droits communs. Un utilisateur UNIX appartient à un ou plusieurs groupes."
 msgstr ""
+"Groups are used to gather users in order to assign them common rights. A "
+"UNIX user belongs to one or more groups."
 
 #: ../../glossaire.md:77
 msgid ""
@@ -737,7 +727,7 @@ msgstr ""
 
 #: ../../glossaire.md:121
 msgid "protocole"
-msgstr ""
+msgstr "protocol"
 
 #: ../../glossaire.md:129
 msgid ""
@@ -781,7 +771,7 @@ msgstr ""
 
 #: ../../glossaire.md:139
 msgid "terminal"
-msgstr ""
+msgstr "terminal"
 
 #: ../../glossaire.md:147
 msgid ""
@@ -790,6 +780,10 @@ msgid ""
 "d'interagir avec un ordinateur partagé distant. Il offrait une interface "
 "textuelle, permettant d'entrer des commandes et d'en lire le résultat."
 msgstr ""
+"In computing, a terminal was originally a device consisting of a monitor and "
+"a keyboard, allowing a human to interact with a remote shared computer. It "
+"offered a textual interface, making it possible to enter commands and read "
+"the result."
 
 #: ../../glossaire.md:151
 msgid ""
@@ -873,11 +867,6 @@ msgid "Espace personnel"
 msgstr "Personal space"
 
 #: ../../info/espace-personnel.md:4
-#, fuzzy
-#| msgid ""
-#| "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
-#| "personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible "
-#| "via un certain nombre de protocoles, fournissant différents services."
 msgid ""
 "L'hébergement CLUB1 est basé sur la mise à disposition d'un *espace "
 "personnel*. Il s'agit d'un espace de stockage sur le serveur, accessible via "
@@ -885,8 +874,8 @@ msgid ""
 "services."
 msgstr ""
 "CLUB1 hosting is based on the allocation of a *personal space*. It is a "
-"storage space on the server, which is accessible via several protocols, "
-"providing different services."
+"storage space on the server, which is accessible via several {term}`"
+"protocols <protocol>`, providing different services."
 
 #: ../../info/espace-personnel.md:9
 msgid "Home sweet home"
@@ -1423,45 +1412,29 @@ msgid "Politique de sécurité"
 msgstr "Security policy"
 
 #: ../../info/politique-de-vie-privee.md:13
-#, fuzzy
-#| msgid ""
-#| "⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
-#| "sont donc lisibles par les administrateurs (utilisateur `root` et membres "
-#| "du groupe `sudo`)."
 msgid ""
 "⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
 "sont donc lisibles par les administrateurs (utilisateur `root` et membres du "
 "{term}`groupe` `sudo`)."
 msgstr ""
 "⚠️ Member data on the server **is not encrypted**. They are therefore "
-"readable by administrators (`root` user and members of the `sudo` group)."
+"readable by administrators (`root` user and members of the `sudo` "
+"{term}`group`)."
 
 #: ../../info/politique-de-vie-privee.md:15
 msgid "Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées."
 msgstr "The [backups](./general.md#sauvegardes) are encrypted."
 
 #: ../../info/politique-de-vie-privee.md:16
-#, fuzzy
-#| msgid ""
-#| "Les protocoles utilisés pour se connecter au serveur sont tous chiffrés, "
-#| "les mots de passe et les données ne peuvent donc pas être interceptées."
 msgid ""
 "Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur "
 "sont tous chiffrés, les mots de passe et les données ne peuvent donc pas "
 "être interceptées."
 msgstr ""
-"The protocols used to connect to the server are all encrypted, so passwords "
-"and data cannot be intercepted."
+"The {term}`protocols <protocol>` used to connect to the server are all "
+"encrypted, so passwords and data cannot be intercepted."
 
 #: ../../info/politique-de-vie-privee.md:18
-#, fuzzy
-#| msgid ""
-#| "Les données personnelles sont protégées par les [permissions UNIX]"
-#| "(https://fr.wikipedia.org/wiki/Permissions_UNIX). Par defaut l'[espace "
-#| "personnel](./espace-personnel.md) n'est pas accessible par les autres "
-#| "utilisateurs (à part en lecture par les membres du groupe `home`, ex: le "
-#| "{term}`serveur` {term}`web`). Chacun est libre de changer les permissions "
-#| "de son espace perso."
 msgid ""
 "Les données personnelles sont protégées par les [permissions UNIX](https://"
 "fr.wikipedia.org/wiki/Permissions_UNIX). Par defaut l'[espace personnel](./"
@@ -1473,9 +1446,9 @@ msgstr ""
 "Personal data is protected by [UNIX permissions](https://en.wikipedia.org/"
 "wiki/File-system_permissions#POSIX_permissions). By default, the [personal "
 "space](./espace-personnel.md) is not accessible by other users (except for "
-"reading by members of the `home` group, e.g. the {term}`Web` {term}"
-"`server`). Everyone is free to change the permissions of their personal "
-"space."
+"reading by members of the `home` {term}`group`, e.g. the {term}`Web` "
+"{term}`server`). Everyone is free to change the permissions of their "
+"personal space."
 
 #: ../../info/politique-de-vie-privee.md:23
 msgid "Engagements des administrateurs systèmes"
@@ -1513,19 +1486,14 @@ msgid "Gestion des alias email"
 msgstr "Managing email aliases"
 
 #: ../../outils/aliases.md:4
-#, fuzzy
-#| msgid ""
-#| "Ce manuel est réservé aux utilisateurs faisant partie du groupe unix "
-#| "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs "
-#| "sur les {term}`alias` emails."
 msgid ""
 "Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
-"This manual is dedicated to users that are part of the `aliases` group. It "
-"describes actions that can be done by those users on the email {term}"
-"`aliases <alias>`."
+"This manual is dedicated to users that are part of the `aliases` "
+"{term}`group`. It describes actions that can be done by those users on the "
+"email {term}`aliases <alias>`."
 
 #: ../../outils/aliases.md:7
 msgid "Modifier les alias de reception"
@@ -1612,46 +1580,51 @@ msgstr "The command used to regenerate the database is:"
 
 #: ../../outils/forum.md:1
 msgid "Forum de discussion"
-msgstr ""
+msgstr "Discussion forum"
 
 #: ../../outils/forum.md:4
 msgid ""
 "CLUB1 héberge un forum de discussion à l'adresse <https://forum.club1.fr>. "
 "Il a pour but de remplir trois rôles principaux :"
 msgstr ""
+"CLUB1 hosts a discussion forum at <https://forum.club1.fr>. It aims to "
+"fulfill three main roles:"
 
 #: ../../outils/forum.md:7
 msgid "La gestion des tickets (problèmes, suggestions, questions)."
-msgstr ""
+msgstr "Ticket management (problems, suggestions, questions)."
 
 #: ../../outils/forum.md:8
 msgid "La gestion de la feuille de route des administrateurs système."
-msgstr ""
+msgstr "System administrator roadmap management."
 
 #: ../../outils/forum.md:9
 msgid ""
 "Offrir un canal de discussion asynchrone public, permettant à des "
 "discussions variées de co-exister dans la durée."
 msgstr ""
+"Offer a public asynchronous discussion channel, allowing varied discussions "
+"to co-exist over time."
 
 #: ../../outils/forum.md:13
-#, fuzzy
-#| msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgid ""
 "L'article du journal \"[Création d'un forum](https://club1.fr/creation-d-un-"
 "forum)\""
 msgstr ""
-"The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
+"The journal article \"[Création d'un forum](https://club1.fr/creation-d-un-"
+"forum)\" (in French)"
 
 #: ../../outils/forum.md:16
 msgid "Utilisation"
-msgstr ""
+msgstr "Usage"
 
 #: ../../outils/forum.md:19
 msgid ""
 "Le forum CLUB1 est basé sur un système d'étiquettes plutôt que sur des "
 "catégories. Un fil de discussion peut donc avoir plusieurs étiquettes."
 msgstr ""
+"The CLUB1 forum is based on a tag system rather than categories. A "
+"discussion thread can therefore have several tags."
 
 #: ../../outils/forum.md:23
 msgid ""
@@ -1659,14 +1632,16 @@ msgid ""
 "seule étiquette primaire par discussion, ce qui recréé des sortes de "
 "catégories."
 msgstr ""
+"Some tags are called _primary_ and there should only be one primary tag per "
+"discussion, which recreates sort of categories."
 
 #: ../../outils/forum.md:28
 msgid "Organisation des étiquettes"
-msgstr ""
+msgstr "Tags organization"
 
 #: ../../outils/forum.md:30
 msgid "Les étiquettes primaires sont les suivantes :"
-msgstr ""
+msgstr "The primary tags are as follows:"
 
 #: ../../outils/forum.md:32
 msgid "{guilabel}`Tickets` : Regroupe les tickets ouverts."
@@ -1717,10 +1692,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/forum.md:53
-#, fuzzy
-#| msgid "Engagements des administrateurs systèmes"
 msgid "Feuille de route administrateurs système"
-msgstr "Commitments of system administrators"
+msgstr "System administrators roadmap"
 
 #: ../../outils/forum.md:55
 msgid ""
@@ -1747,10 +1720,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/forum.md:69
-#, fuzzy
-#| msgid "Logiciels"
 msgid "Logiciel utilisé"
-msgstr "Software"
+msgstr "Software used"
 
 #: ../../outils/forum.md:71
 msgid ""
@@ -1774,10 +1745,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/forum.md:86
-#, fuzzy
-#| msgid "Architecture de dossiers"
 msgid "Fichiers et dossiers"
-msgstr "Directory tree"
+msgstr "Files and folders"
 
 #: ../../outils/forum.md:88
 msgid "Quelques fichiers et dossiers en relation avec le forum CLUB1."
@@ -2308,10 +2277,8 @@ msgid ""
 msgstr ""
 
 #: ../../services-ouverts/matrix.md:19
-#, fuzzy
-#| msgid "serveur"
 msgid "Serveur"
-msgstr "server"
+msgstr "Server"
 
 #: ../../services-ouverts/matrix.md:21
 msgid ""
@@ -2360,10 +2327,8 @@ msgid ""
 msgstr ""
 
 #: ../../services-ouverts/matrix.md:57
-#, fuzzy
-#| msgid "Fenêtre de connexion."
 msgid "Client (interfaces de connexion)"
-msgstr "Connection window."
+msgstr "Client (connection interfaces)"
 
 #: ../../services-ouverts/matrix.md:59
 msgid ""
@@ -2462,10 +2427,8 @@ msgid ""
 msgstr ""
 
 #: ../../services-ouverts/matrix.md:119
-#, fuzzy
-#| msgid "chiffrement"
 msgid "Chiffrement"
-msgstr "encryption"
+msgstr "Encryption"
 
 #: ../../services-ouverts/matrix.md:121
 msgid ""
@@ -3029,12 +2992,6 @@ msgid "La section [](#client-web)"
 msgstr "The [](#client-web) section"
 
 #: ../../services/email.md:214
-#, fuzzy
-#| msgid ""
-#| "{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter "
-#| "ses email directement depuis un terminal. Il est installé et pré-"
-#| "configuré sur le serveur CLUB1. --- [Wikipedia](https://fr.wikipedia.org/"
-#| "wiki/Mutt), [Sources](https://gitlab.com/muttmua/mutt)"
 msgid ""
 "{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses "
 "email directement depuis un {term}`terminal`. Il est installé et pré-"
@@ -3042,8 +2999,8 @@ msgid ""
 "wiki/Mutt), [Sources](https://gitlab.com/muttmua/mutt)"
 msgstr ""
 "{term}`CLI` email {term}`client` allowing you to send and consult your "
-"emails directly from a terminal. It is installed and pre-configured on the "
-"CLUB1 server. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"emails directly from a {term}`terminal`. It is installed and pre-configured "
+"on the CLUB1 server. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Mutt_(email_client)), [Sources](https://gitlab.com/muttmua/mutt)"
 
 #: ../../services/ftp.md:1
@@ -3051,14 +3008,6 @@ msgid "Transfert de fichiers FTPS"
 msgstr "FTPS files transfer"
 
 #: ../../services/ftp.md:6
-#, fuzzy
-#| msgid ""
-#| "(_File Transfer Protocol_) Protocole de transfert de fichiers. Il permet "
-#| "de copier des fichiers d'un ordinateur à un autre à travers un {term}"
-#| "`réseau informatique`, ou encore de déplacer ou supprimer des fichiers "
-#| "sur un ordinateur distant. Le serveur CLUB1 utilise la variante sécurisée "
-#| "de ce protocole : {term}`FTPS`. --- [Wikipedia](https://fr.wikipedia.org/"
-#| "wiki/File_Transfer_Protocol)"
 msgid ""
 "(_File Transfer Protocol_) Protocole de transfert de fichiers. Il permet de "
 "copier des fichiers d'un ordinateur à un autre à travers un {term}`réseau "
@@ -3070,8 +3019,8 @@ msgstr ""
 "(_File Transfer Protocol_) Protocol that allows to copy files from one "
 "computer to another across a {term}`computer network`, or to move or delete "
 "files on a remote computer. Server CLUB1 uses the secure variant of this "
-"protocol: {term}`FTPS`. --- [Wikipedia](https://en.wikipedia.org/wiki/"
-"File_Transfer_Protocol)"
+"{term}`protocol`: {term}`FTPS`. --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/File_Transfer_Protocol)"
 
 #: ../../services/ftp.md:14
 msgid ""
@@ -3098,20 +3047,14 @@ msgstr ""
 "be useful to transfer a large amount of files from and to the CLUB1 server."
 
 #: ../../services/ftp.md:27
-#, fuzzy
-#| msgid ""
-#| "Le protocole FTP permet d'accéder à votre **espace personnel** grâce à "
-#| "des logiciels comme [FileZilla](https://filezilla-project.org/download."
-#| "php?type=client) (attention l'installeur windows comprend des "
-#| "bundlewares)."
 msgid ""
 "Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** grâce "
 "à des logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
 "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
-"The FTP protocol gives access to your **personal space** thanks to software "
-"like [FileZilla](https://filezilla-project.org/download.php?type=client) "
-"(warning: the windows installer includes bundlewares)."
+"The FTP {term}`protocol` gives access to your **personal space** thanks to "
+"software like [FileZilla](https://filezilla-project.org/download."
+"php?type=client) (warning: the windows installer includes bundlewares)."
 
 #: ../../services/ftp.md:30
 msgid "Sécurité"
@@ -3697,16 +3640,12 @@ msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
 #: ../../services/ssh.md:45
-#, fuzzy
-#| msgid ""
-#| "On utilise la commande suivante dans le terminal pour se connecter "
-#| "(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgid ""
 "On utilise la commande suivante dans le {term}`terminal` pour se connecter "
 "(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgstr ""
-"We use the following command in the terminal to connect (replace `<login>` "
-"with your CLUB1 **login**):"
+"We use the following command in the {term}`terminal` to connect (replace "
+"`<login>` with your CLUB1 **login**):"
 
 #: ../../services/ssh.md:50
 msgid ""
@@ -4214,18 +4153,13 @@ msgstr ""
 "org/nginx)"
 
 #: ../../services/web.md:216
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-#| "étant le protocole du {term}`Web` on parle aussi souvent de \"serveur "
-#| "Web\"."
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
 "étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "
 "\"serveur Web\"."
 msgstr ""
 "Very popular HTTP {term}`server`, distributed under free license. HTTP being "
-"the protocol of {term}`Web` we also often speak of \"Web server\"."
+"the {term}`protocol` of {term}`Web` we also often speak of \"Web server\"."
 
 #: ../../services/web.md:219
 msgid ""
@@ -5220,16 +5154,12 @@ msgid "Première connexion SSH"
 msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
-#, fuzzy
-#| msgid ""
-#| "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-#| "première fois en SSH de manière **sécurisée**."
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
 "première fois en {term}`SSH` de manière **sécurisée**."
 msgstr ""
 "In this tutorial, we will see how to connect to the server for the first "
-"time in SSH in a **secure way**."
+"time in {term}`SSH` in a **secure way**."
 
 #: ../../tutos/premiere-connexion-ssh.md:8
 msgid ""
@@ -5246,19 +5176,14 @@ msgid "Connexion avec le terminal"
 msgstr "Connection with the terminal"
 
 #: ../../tutos/premiere-connexion-ssh.md:17
-#, fuzzy
-#| msgid ""
-#| "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}"
-#| "`OpenSSH`. Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire "
-#| "d'ouvrir une fenêtre de **terminal** (`cmd` sur windows) ! 🥵"
 msgid ""
 "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`. "
 "Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
 "fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵"
 msgstr ""
 "To make this SSH connection we will use {logiciel}`OpenSSH`. This software "
-"is used in {term}`CLI`, so it is necessary to open a **terminal** window "
-"(`cmd` on windows)! 🥵"
+"is used in {term}`CLI`, so it is necessary to open a **{term}`terminal`** "
+"window (`cmd` on windows)! 🥵"
 
 #: ../../tutos/premiere-connexion-ssh.md:21
 msgid ""
