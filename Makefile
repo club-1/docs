@@ -97,7 +97,7 @@ $(BUILDDIR)/html/metadata.yaml: .FORCE | $(BUILDDIR)/html
 	echo 'release: $(RELEASE)' > $@
 
 publish:
-	rsync -av --size-only --del --include='.htaccess' --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
+	rsync -av --size-only --fuzzy --del --include='.htaccess' --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
 all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml;
