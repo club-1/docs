@@ -150,7 +150,7 @@ Un compte membre comporte donc :
 - des bases de données (MariaDb)
 - la création gratuite de sous domaines en .club1.fr (sur demande)
 - l'utilisation de noms de domaines loué vias des registraires
-- un accès à la room matrix réservée aux membres pour le suivi et l'assistance aux projets
+- un accès à la room {term}`matrix` réservée aux membres pour le suivi et l'assistance aux projets
 
 Pour l'instant, le format choisi est celui de l'adhésion,
 avec une cotisation de 35€ à vie.

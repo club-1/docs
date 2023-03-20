@@ -5,6 +5,10 @@ Discussion instantanée Matrix
 Matrix
    {term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e)
    [__décentralisé__](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet).
+
+   Son avantage principal par rapport aux autres systèmes fédérés du même type,
+   est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` participants,
+   afin d'améliorer la tolérence aux pannes en garantissant une "cohérence à terme".
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Matrix_(protocole))
 ```
 
@@ -60,7 +64,7 @@ Comme pour les emails, il est aussi possible de choisir son {term}`client`,
 son interface, pour se connecter à Matrix.
 Il en existe pour tout les goûts, mais la plupart sont encore en cours de développement.
 A l'heure actuelle, __la façon la plus simple et fiable de converser via Matrix
-est d'utiliser *Element*__, en tant qu'application web ou sur mobile.
+est d'utiliser *{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mobile.
 
 [__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)
 
@@ -156,3 +160,19 @@ est l'administrateur système du serveur (`@n-peugnet:club1.fr`),
 normalement il n'a pas que ça à faire de vous espionner,
 mais si vous n'avez pas confiance en lui, il ne vous reste plus qu'à activer le chiffrement des conversations.
 
+Logiciels
+---------
+
+```{logiciel} Synapse
+{term}`Serveur` {term}`Matrix` écrit en Python.
+Il s'agit de l'implémentation de référence d'un serveur Matrix
+et pour l'instant la seule qui soit annoncée comme "stable".
+--- [Sources](https://github.com/matrix-org/synapse), [Site](https://matrix.org/docs/projects/server/synapse)
+```
+
+```{logiciel} Element
+{term}`Client` {term}`Matrix` complet (anciennement "Riot") disponible sur de nombreuses plateformes.
+CLUB1 héberge une {term}`instance` de la version {term}`Web` de ce client
+à l'adresse <https://riot.club1.fr>.
+--- [Sources](https://github.com/vector-im/element-web), [Wikipedia](https://fr.wikipedia.org/wiki/Element_(logiciel))
+```
