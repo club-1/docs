@@ -74,14 +74,27 @@ directement depuis {logiciel}`Nginx`.
 
 Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`.
 
-```{logiciel} Flarum
+````{logiciel} Flarum
 Logiciel de forum écrit en {term}`PHP`.
 Il est concu pour être extrêmement modulaire
 avec très peu de fonctionnalités faisant réellement partie du c&oelig;ur.
 Il est ainsi facile d'en développer des extensions de toute sorte,
 qui peuvent emmener l'outil forum dans des directions très différentes.
 --- [Sources](https://github.com/flarum/framework/), [Site](https://flarum.org/)
+
+CLUB1 maintient plusieurs extension pour ce forum :
+
+```{describe} club-1/flarum-ext-cross-references
+Ajoute des liens de référence croisé lorsqu'une discussion est mentionnée depuis une autre.
+--- [Sources](https://github.com/club-1/flarum-ext-cross-references)
 ```
+
+```{describe} club-1/flarum-ext-french-typography
+Typographie améliorée pour les écrits français, principalement autour de la ponctuation.
+--- [Sources](https://github.com/club-1/flarum-ext-french-typography)
+```
+
+````
 
 ### Fichiers et dossiers
 
