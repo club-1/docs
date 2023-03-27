@@ -13,6 +13,40 @@ Il a pour but de remplir trois rôles principaux :
 L'article du journal "[Création d'un forum](https://club1.fr/creation-d-un-forum)"
 ```
 
+Connexion
+---------
+
+Le forum est un outil de gestion interne mais il est aussi ouvert vers l'exterieur.
+C'est pourquoi il existe deux façons de s'y connecter.
+Dans tous les cas, une adresse e-mail est requise.
+Elle permettra, si vous le souhaitez, de recevoir des notifications sur des conversations que vous aurez choisi.
+
+### Connexion via le compte CLUB1
+
+Ce type de connexion est dédié aux membres de CLUB1 souhaitant utiliser leur compte CLUB1 pour s'identifier sur le forum.
+Cela implique d'utiliser le même identifiant et le même mot de passe
+que pour l'ensemble des [services](/services-membres.md).
+L'intérêt d'une telle méthode de connexion est de ne pas avoir un nouveau couple identifiant / mot de passe à retenir,
+que votre mot de passe sera mis à jour si vous [modifiez celui de votre compte CLUB1](../faq.md#comment-modifier-mon-mot-de-passe-de-membre-club1-)
+et que vous aurez automatiquement le badge {guilabel}`membre CLUB1`.
+
+```{warning}
+Votre identifiant CLUB1 sera votre pseudo et sera donc visible lorsque vous postez des messages public.
+```
+
+### Connexion ouverte
+
+Ce type de connexion permet à n'importe qui de se créer un compte sur le forum et d'interagir avec.
+Passage obligatoire si vous n'avez pas de compte CLUB1,
+mais aussi dans le cas où ce sont des comptes de personnes morales (associations, collectifs)
+et que des personnes souhaitent s'y exprimer à titre individuel.
+
+Si vous êtes membres CLUB1 ou que vous appartenez à un groupe ayant un compte CLUB1
+et que vous vous êtes inscrites via cette méthode,
+nous vous invitons à envoyer un email à <contact@club1.fr> en indiquant la situation,
+afin que les personnes en charge de l'administration du forum puissent vous ajouter le badge {guilabel}`membre CLUB1`.
+
+
 Utilisation
 -----------
 
