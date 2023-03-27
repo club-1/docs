@@ -21,7 +21,7 @@ C'est pourquoi il existe deux façons de s'y connecter.
 Dans tous les cas, une adresse e-mail est requise.
 Elle permettra, si vous le souhaitez, de recevoir des notifications sur des conversations que vous aurez choisi.
 
-### connexion via le compte CLUB1
+### Connexion via le compte CLUB1
 
 Ce type de connexion est dédié aux membres de CLUB1 souhaitant utiliser leur compte CLUB1 pour s'identifier sur le forum.
 Cela implique d'utiliser le même identifiant et le même mot de passe
