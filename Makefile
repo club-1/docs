@@ -10,6 +10,7 @@ UPDATEPO        := $(filter update-po,$(MAKECMDGOALS))
 
 DATE                := $(shell date +%F)
 REVISION            := $(shell git describe --always --dirty --abbrev=4)
+COPYRIGHT           := Membres de CLUB1
 
 export AUTHORS      := $(shell awk '{printf t $$0; t=", "}' AUTHORS)
 export PACKAGE      := CLUB1
@@ -34,7 +35,7 @@ ALL             := $(LANGUAGES:%=all/%)
 
 PYSRC        := conf.py
 XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
-		--copyright-holder='$(AUTHORS)' --package-name='$(PACKAGE)' \
+		--copyright-holder='$(COPYRIGHT)' --package-name='$(PACKAGE)' \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 DIFF         := diff -u --color
 

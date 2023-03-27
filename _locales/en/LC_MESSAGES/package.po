@@ -1,14 +1,14 @@
 # Translations for CLUB1 hosting's docs.
-# Copyright (C) 2022, Nicolas Peugnet
-# Copyright (C) 2022, Leïla Renard
+# Copyright (C) 2022 Membres de CLUB1
 # This file is distributed under the same license as the CLUB1 package.
 # Nicolas Peugnet <nicolas@club1.fr>, 2022.
+# Leïla Renard <leila@club1.fr>, 2022
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-03-18 21:41+0100\n"
+"POT-Creation-Date: 2023-03-27 21:54+0200\n"
 "PO-Revision-Date: 2023-03-20 12:41+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -874,8 +874,8 @@ msgid ""
 "services."
 msgstr ""
 "CLUB1 hosting is based on the allocation of a *personal space*. It is a "
-"storage space on the server, which is accessible via several {term}`"
-"protocols <protocol>`, providing different services."
+"storage space on the server, which is accessible via several {term}"
+"`protocols <protocol>`, providing different services."
 
 #: ../../info/espace-personnel.md:9
 msgid "Home sweet home"
@@ -1022,9 +1022,9 @@ msgstr ""
 
 #: ../../info/espace-personnel.md:79 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/rss.md:57 ../../services/sql.md:56
-#: ../../services/ssh.md:85 ../../services/web.md:204
-#: ../../services/webdav.md:52
+#: ../../services/git.md:90 ../../services/matrix.md:163
+#: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:85
+#: ../../services/web.md:204 ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr "Software"
 
@@ -1295,7 +1295,7 @@ msgstr ""
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:128 ../../services-ouverts/matrix.md:27
+#: ../../info/general.md:128 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr "Username"
 
@@ -1369,9 +1369,13 @@ msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
 #: ../../info/general.md:153
+#, fuzzy
+#| msgid ""
+#| "un accès à la room matrix réservée aux membres pour le suivi et "
+#| "l'assistance aux projets"
 msgid ""
-"un accès à la room matrix réservée aux membres pour le suivi et l'assistance "
-"aux projets"
+"un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
+"l'assistance aux projets"
 msgstr ""
 "access to the members-only matrix room for project monitoring and assistance"
 
@@ -1418,8 +1422,8 @@ msgid ""
 "{term}`groupe` `sudo`)."
 msgstr ""
 "⚠️ Member data on the server **is not encrypted**. They are therefore "
-"readable by administrators (`root` user and members of the `sudo` "
-"{term}`group`)."
+"readable by administrators (`root` user and members of the `sudo` {term}"
+"`group`)."
 
 #: ../../info/politique-de-vie-privee.md:15
 msgid "Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées."
@@ -1446,9 +1450,9 @@ msgstr ""
 "Personal data is protected by [UNIX permissions](https://en.wikipedia.org/"
 "wiki/File-system_permissions#POSIX_permissions). By default, the [personal "
 "space](./espace-personnel.md) is not accessible by other users (except for "
-"reading by members of the `home` {term}`group`, e.g. the {term}`Web` "
-"{term}`server`). Everyone is free to change the permissions of their "
-"personal space."
+"reading by members of the `home` {term}`group`, e.g. the {term}`Web` {term}"
+"`server`). Everyone is free to change the permissions of their personal "
+"space."
 
 #: ../../info/politique-de-vie-privee.md:23
 msgid "Engagements des administrateurs systèmes"
@@ -1491,9 +1495,9 @@ msgid ""
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
-"This manual is dedicated to users that are part of the `aliases` "
-"{term}`group`. It describes actions that can be done by those users on the "
-"email {term}`aliases <alias>`."
+"This manual is dedicated to users that are part of the `aliases` {term}"
+"`group`. It describes actions that can be done by those users on the email "
+"{term}`aliases <alias>`."
 
 #: ../../outils/aliases.md:7
 msgid "Modifier les alias de reception"
@@ -1615,10 +1619,73 @@ msgstr ""
 "forum)\" (in French)"
 
 #: ../../outils/forum.md:16
+#, fuzzy
+#| msgid "Connexion initiale"
+msgid "Connexion"
+msgstr "Initial connection"
+
+#: ../../outils/forum.md:19
+msgid ""
+"Le forum est un outil de gestion interne mais il est aussi ouvert vers "
+"l'exterieur. C'est pourquoi il existe deux façons de s'y connecter. Dans "
+"tous les cas, une adresse e-mail est requise. Elle permettra, si vous le "
+"souhaitez, de recevoir des notifications sur des conversations que vous "
+"aurez choisi."
+msgstr ""
+
+#: ../../outils/forum.md:24
+#, fuzzy
+#| msgid "Connexion avec le terminal"
+msgid "Connexion via le compte CLUB1"
+msgstr "Connection with the terminal"
+
+#: ../../outils/forum.md:26
+msgid ""
+"Ce type de connexion est dédié aux membres de CLUB1 souhaitant utiliser leur "
+"compte CLUB1 pour s'identifier sur le forum. Cela implique d'utiliser le "
+"même identifiant et le même mot de passe que pour l'ensemble des [services](/"
+"services-membres.md). L'intérêt d'une telle méthode de connexion est de ne "
+"pas avoir un nouveau couple identifiant / mot de passe à retenir, que votre "
+"mot de passe sera mis à jour si vous [modifiez celui de votre compte CLUB1]"
+"(../faq.md#comment-modifier-mon-mot-de-passe-de-membre-club1-) et que vous "
+"aurez automatiquement le badge {guilabel}`membre CLUB1`."
+msgstr ""
+
+#: ../../outils/forum.md:34
+msgid ""
+"Votre identifiant CLUB1 sera votre pseudo et sera donc visible lorsque vous "
+"postez des messages public."
+msgstr ""
+
+#: ../../outils/forum.md:37
+#, fuzzy
+#| msgid "Connexion initiale"
+msgid "Connexion ouverte"
+msgstr "Initial connection"
+
+#: ../../outils/forum.md:39
+msgid ""
+"Ce type de connexion permet à n'importe qui de se créer un compte sur le "
+"forum et d'interagir avec. Passage obligatoire si vous n'avez pas de compte "
+"CLUB1, mais aussi dans le cas où ce sont des comptes de personnes morales "
+"(associations, collectifs) et que des personnes souhaitent s'y exprimer à "
+"titre individuel."
+msgstr ""
+
+#: ../../outils/forum.md:44
+msgid ""
+"Si vous êtes membres CLUB1 ou que vous appartenez à un groupe ayant un "
+"compte CLUB1 et que vous vous êtes inscrites via cette méthode, nous vous "
+"invitons à envoyer un email à <contact@club1.fr> en indiquant la situation, "
+"afin que les personnes en charge de l'administration du forum puissent vous "
+"ajouter le badge {guilabel}`membre CLUB1`."
+msgstr ""
+
+#: ../../outils/forum.md:50
 msgid "Utilisation"
 msgstr "Usage"
 
-#: ../../outils/forum.md:19
+#: ../../outils/forum.md:53
 msgid ""
 "Le forum CLUB1 est basé sur un système d'étiquettes plutôt que sur des "
 "catégories. Un fil de discussion peut donc avoir plusieurs étiquettes."
@@ -1626,7 +1693,7 @@ msgstr ""
 "The CLUB1 forum is based on a tag system rather than categories. A "
 "discussion thread can therefore have several tags."
 
-#: ../../outils/forum.md:23
+#: ../../outils/forum.md:57
 msgid ""
 "Certaines étiquettes sont dites _primaires_ et il ne doit y avoir qu'une "
 "seule étiquette primaire par discussion, ce qui recréé des sortes de "
@@ -1635,39 +1702,39 @@ msgstr ""
 "Some tags are called _primary_ and there should only be one primary tag per "
 "discussion, which recreates sort of categories."
 
-#: ../../outils/forum.md:28
+#: ../../outils/forum.md:62
 msgid "Organisation des étiquettes"
 msgstr "Tags organization"
 
-#: ../../outils/forum.md:30
+#: ../../outils/forum.md:64
 msgid "Les étiquettes primaires sont les suivantes :"
 msgstr "The primary tags are as follows:"
 
-#: ../../outils/forum.md:32
+#: ../../outils/forum.md:66
 msgid "{guilabel}`Tickets` : Regroupe les tickets ouverts."
 msgstr ""
 
-#: ../../outils/forum.md:33
+#: ../../outils/forum.md:67
 msgid ""
 "{guilabel}`Terminé` : Regroupe les tickets fermés (\"résolus\" ou "
 "\"refusés\")."
 msgstr ""
 
-#: ../../outils/forum.md:34
+#: ../../outils/forum.md:68
 msgid ""
 "{guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement "
 "reliées à l'activité d'hébergement de CLUB1, et ne sont sonc pas des tickets."
 msgstr ""
 
-#: ../../outils/forum.md:36
+#: ../../outils/forum.md:70
 msgid "{guilabel}`English` : Regroupe les discussions en anglais."
 msgstr ""
 
-#: ../../outils/forum.md:39
+#: ../../outils/forum.md:73
 msgid "Cycle de vie d'un _ticket_"
 msgstr ""
 
-#: ../../outils/forum.md:41
+#: ../../outils/forum.md:75
 msgid ""
 "Le mot \"ticket\" représente un problème, une suggestion, une question qui "
 "est amené au _centre de tri_ des tickets où les personnes concernées, "
@@ -1676,14 +1743,14 @@ msgid ""
 "suggestion reçue ou encore la question répondue."
 msgstr ""
 
-#: ../../outils/forum.md:45
+#: ../../outils/forum.md:79
 msgid ""
 "Les nouveaux tickets doivent être créés avec l'étiquette {guilabel}"
 "`Tickets`. Si l'objet du ticket est encore nébuleux et requiert plus de "
 "discussions, il vaut mieux lui ajouter l'étiquette {guilabel}`rêve`."
 msgstr ""
 
-#: ../../outils/forum.md:49
+#: ../../outils/forum.md:83
 msgid ""
 "Une fois qu'un ticket est résolu (ou refusé), il faut lui retirer "
 "l'étiquette {guilabel}`Tickets` pour pouvoir lui assigner les étiquettes "
@@ -1691,11 +1758,11 @@ msgid ""
 "de son état."
 msgstr ""
 
-#: ../../outils/forum.md:53
+#: ../../outils/forum.md:87
 msgid "Feuille de route administrateurs système"
 msgstr "System administrators roadmap"
 
-#: ../../outils/forum.md:55
+#: ../../outils/forum.md:89
 msgid ""
 "Transversalement au système de gestion de tickets, l'étiquette {guilabel}"
 "`Roadmap Admin` est utilisée par les administrateurs système de CLUB1 pour "
@@ -1703,38 +1770,38 @@ msgid ""
 "cours\", \"suivantes\" et \"planifiées\"."
 msgstr ""
 
-#: ../../outils/forum.md:59
+#: ../../outils/forum.md:93
 msgid ""
 "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du "
 "forum peuvent utiliser, en contournant les restriction d'étiquettes."
 msgstr ""
 
-#: ../../outils/forum.md:63
+#: ../../outils/forum.md:97
 msgid "Administration"
 msgstr ""
 
-#: ../../outils/forum.md:66
+#: ../../outils/forum.md:100
 msgid ""
 "Cette section est surtout destinée aux administrateurs du forum, soit les "
 "membres CLUB1 faisant partie du {term}`groupe` `forum`."
 msgstr ""
 
-#: ../../outils/forum.md:69
+#: ../../outils/forum.md:103
 msgid "Logiciel utilisé"
 msgstr "Software used"
 
-#: ../../outils/forum.md:71
+#: ../../outils/forum.md:105
 msgid ""
 "Le forum est basé sur {logiciel}`Flarum`. Il est executé par {logiciel}`PHP-"
 "FPM` avec l'utilisateur `forum`, directement depuis {logiciel}`Nginx`."
 msgstr ""
 
-#: ../../outils/forum.md:75
+#: ../../outils/forum.md:109
 msgid ""
 "Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`."
 msgstr ""
 
-#: ../../outils/forum.md:78
+#: ../../outils/forum.md:112
 msgid ""
 "Logiciel de forum écrit en {term}`PHP`. Il est concu pour être extrêmement "
 "modulaire avec très peu de fonctionnalités faisant réellement partie du "
@@ -1744,40 +1811,58 @@ msgid ""
 "(https://flarum.org/)"
 msgstr ""
 
-#: ../../outils/forum.md:86
+#: ../../outils/forum.md:119
+msgid "CLUB1 maintient plusieurs extension pour ce forum :"
+msgstr ""
+
+#: ../../outils/forum.md:122
+msgid ""
+"Ajoute des liens de référence croisé lorsqu'une discussion est mentionnée "
+"depuis une autre. --- [Sources](https://github.com/club-1/flarum-ext-cross-"
+"references)"
+msgstr ""
+
+#: ../../outils/forum.md:127
+msgid ""
+"Typographie améliorée pour les écrits français, principalement autour de la "
+"ponctuation. --- [Sources](https://github.com/club-1/flarum-ext-french-"
+"typography)"
+msgstr ""
+
+#: ../../outils/forum.md:133
 msgid "Fichiers et dossiers"
 msgstr "Files and folders"
 
-#: ../../outils/forum.md:88
+#: ../../outils/forum.md:135
 msgid "Quelques fichiers et dossiers en relation avec le forum CLUB1."
 msgstr ""
 
-#: ../../outils/forum.md:92
+#: ../../outils/forum.md:139
 msgid ""
 "Dossier d'installation de Flarum. Il contient notamment les fichiers "
 "suivants :"
 msgstr ""
 
-#: ../../outils/forum.md:95
+#: ../../outils/forum.md:142
 msgid ""
 "`config.php` : Fichier de configuration de Flarum. Il ne contient que les "
 "paramètres d'installation. Le reste de la configuration se trouve dans la "
 "base de données."
 msgstr ""
 
-#: ../../outils/forum.md:99
+#: ../../outils/forum.md:146
 msgid ""
 "`composer.json` : Fichier décrivant les dépendances Composer. C'est via ce "
 "logiciel que sont installées les extensions Flarum."
 msgstr ""
 
-#: ../../outils/forum.md:104
+#: ../../outils/forum.md:151
 msgid ""
 "Fichier de configuration {logiciel}`Nginx` contenant le _virtual host_ du "
 "forum."
 msgstr ""
 
-#: ../../outils/forum.md:109
+#: ../../outils/forum.md:156
 msgid ""
 "Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisateur "
 "`forum`."
@@ -2242,249 +2327,31 @@ msgstr ""
 msgid "Metadonnées"
 msgstr "Metadata"
 
-#: ../../services-ouverts/index.md:1
+#: ../../services-membres.md:1
+msgid "Services réservés aux membres"
+msgstr ""
+
+#: ../../services-membres.md:4
+#, fuzzy
+#| msgid ""
+#| "Tous ces services utilisent donc le même **identifiant** et le même **mot "
+#| "de passe** pour la connexion."
+msgid ""
+"Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
+"compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
+"de passe** pour la connexion."
+msgstr ""
+"All these services then share the same **login** and **password** for the "
+"connection."
+
+#: ../../services-ouverts.md:1
 msgid "Services ouverts à tous"
 msgstr ""
 
-#: ../../services-ouverts/index.md:4
+#: ../../services-ouverts.md:4
 msgid ""
 "Ces services ne nécessitent pas d'être membre de CLUB1, ils sont utilisables "
 "par n'importe qui."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:1
-msgid "Discussion instantanée Matrix"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:6
-msgid ""
-"{term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/"
-"Messagerie_instantan%C3%A9e) [__décentralisé__](https://fr.wikipedia.org/"
-"wiki/Red%C3%A9centralisation_d%27Internet). --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/Matrix_(protocole))"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:12
-msgid "Principes généraux"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:15
-msgid ""
-"Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
-"Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
-"internes pour ses utilisateurs, mais aussi de se connecter de façon "
-"transparente aux salons provenant d'autres serveur si ils le souhaitent."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:19
-msgid "Serveur"
-msgstr "Server"
-
-#: ../../services-ouverts/matrix.md:21
-msgid ""
-"Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
-"les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
-"simplement `club1.fr` ou `https://club1.fr`. Inutile d'aller voir à cette "
-"adresse, il vous faudra un [client](#client-interfaces-de-connexion) pour "
-"accèder à l'interface de messagerie."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:29
-msgid ""
-"Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une "
-"adresse email, à ceci près que le symbole `@` est utilisé comme premier "
-"caractère, signalant que l'adresse fait référence à un utilisateur. Le "
-"symbole `:` est donc utilisé pour séparer l'identifiant du serveur :"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:36
-msgid ""
-"Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auxquel le "
-"compte est rataché."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:40
-msgid "Room"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:42
-msgid ""
-"Une *room*, ou *salon* Matrix est un flux de discussion qui accueille "
-"n'importe quel nombre de participants. Elles ont aussi une adresse, qui "
-"commence cette fois par un `#` :"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:47
-msgid ""
-"Où `blabla-dauphins` est le nom de la *room* et `club1.fr`, le serveur sur "
-"lequel elle a été créée et auquel elle est rattachée."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:51
-msgid ""
-"Il est possible, au moment de la création d'une *room*, d'interdire l'accès "
-"aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:57
-msgid "Client (interfaces de connexion)"
-msgstr "Client (connection interfaces)"
-
-#: ../../services-ouverts/matrix.md:59
-msgid ""
-"Comme pour les emails, il est aussi possible de choisir son {term}`client`, "
-"son interface, pour se connecter à Matrix. Il en existe pour tout les goûts, "
-"mais la plupart sont encore en cours de développement. A l'heure actuelle, "
-"__la façon la plus simple et fiable de converser via Matrix est d'utiliser "
-"*Element*__, en tant qu'application web ou sur mobile."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:65
-msgid "[__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:68
-msgid ""
-"On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent "
-"dans un naviguateur), __Desktop__ (Linux, Windows, MacOS) et __Mobile__ "
-"(Android, Iphone). [Liste officielle des clients matrix](https://matrix.org/"
-"clients/)."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:72
-msgid ""
-"Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisament "
-"complet pour que cela soit intéressant, à part si vous êtes un&middot;e "
-"amoureux&middot;se du {term}`terminal`, auxquel cas vous êtes invité&middot;"
-"e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:76
-msgid ""
-"Sur Android, certaines applications commencent à être matures. Il y a bien-"
-"sûr la version mobile de [Element](https://play.google.com/store/apps/"
-"details?id=im.vector.app), mais on peut aussi préférer l'ambiance *fluffy* "
-"de [FluffyChat](https://fluffychat.im/)"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:81
-msgid ""
-"Pour se connecter ailleurs que sur l'interface web de Club1, __il faut bien "
-"spécifier que votre serveur est `https://club1.fr` !__"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:87
-msgid "Comment l'utiliser (interface Element web) ?"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:90
-msgid "Rejoindre des salons"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:92
-msgid ""
-"Pour rejoindre des rooms, il suffit de cliquer sur {guilabel}`explorer` en "
-"haut à gauche de l'interface. Par défaut, seules les rooms du serveur local "
-"sont listées. Pour en afficher d'autres, il faut sélectionner un autre "
-"serveur depuis le menu déroulant ou cliquer sur {guilabel}`ajouter un "
-"nouveau serveur`."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:97
-msgid ""
-"Dans le panneau de gauche, les salons sont répartis en {guilabel}`messages "
-"direct` et {guilabel}`salons`. Cela sert à distinguer les discussions à deux "
-"personnes des discussions de groupes."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:100
-msgid "Créer un salon"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:102
-msgid ""
-"En cliquant sur le {guilabel}`+` à droite de {guilabel}`messages direct` ou "
-"{guilabel}`salons`, on a la possibilité de créer son propre salon. Dans le "
-"cas d'une discussion à deux, il suffit de choisir un destinataire, la room "
-"sera par défaut privée. Dans d'une discussion de groupe, il va falloir "
-"définir un nom, définir si elle va être privée ou publique, ainsi que "
-"l'activation ou non du chiffrement."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:110
-msgid "Le chiffrement des discussions ne peut pas être désactivé plus tard."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:114
-msgid "Formatage"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:116
-msgid ""
-"Il est possible de formater son message, en sélectionnant du texte sur la "
-"zone d'écriture de message, ou en utilisant le __{term}`Markdown`__, un "
-"standard de formatage simple utilisé par de plus en plus de site."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:119
-msgid "Chiffrement"
-msgstr "Encryption"
-
-#: ../../services-ouverts/matrix.md:121
-msgid ""
-"Le protocole Matrix permet de chiffrer ses messages *de bout en bout*, c'est "
-"à dire qu'un message sera illisible d'un bout à l'autre de son cheminement "
-"et n'est déchiffrable qu'à l'arrivée par son destinataire. Cela complexifie "
-"un peu les échanges, car Matrix force la vérifications des différents "
-"appareils que l'on utilise pour communiquer. En effet, il faut être sûr que "
-"les différents appareils connectés au même compte sont bien en possession "
-"d'une même personne. Pour cela, une *pass-phrase* globale est utilisée : "
-"c'est un super mot de passe plus long qui va servir à au chiffrement de vos "
-"messages."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:131
-msgid "Questions concernant le serveur Matrix de CLUB1"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:134
-msgid "Est ce fiable ?"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:136
-msgid ""
-"Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur, "
-"cependant pour se faire un avis, il est possible de consulter les "
-"statistiques de disponibilité du serveur Matrix et de Riot à cette adresse : "
-"[status.club1.fr](https://status.club1.fr/). Des mises-à-jour sont "
-"effectuées régulièrement pour avoir la dernière version de Matrix et Riot et "
-"ainsi éviter des bugs ou failles de sécurité."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:143
-msgid "Que faire si j'ai perdu mon mot de passe ?"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:145
-msgid ""
-"Si une adresse email à été reliée à votre compte (compte créé après la [mise "
-"à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien "
-"ajout manuel), il suffit de cliquer sur {guilabel}`mot de passe oublié`. "
-"Sinon, il n'est pas possible de réccupérer son mot de passe automatiquement. "
-"La seule façon est de réussir à joindre et convaincre l'administrateur "
-"système *dans la vrai vie*, autant dire qu'il vaux mieux ne pas l'oublier."
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:152
-msgid "Est ce que club1.fr respecte ma vie privée ?"
-msgstr ""
-
-#: ../../services-ouverts/matrix.md:154
-msgid ""
-"La seule personne qui a accès aux bases de données est l'administrateur "
-"système du serveur (`@n-peugnet:club1.fr`), normalement il n'a pas que ça à "
-"faire de vous espionner, mais si vous n'avez pas confiance en lui, il ne "
-"vous reste plus qu'à activer le chiffrement des conversations."
 msgstr ""
 
 #: ../../services/drive.md:1
@@ -3053,8 +2920,8 @@ msgid ""
 "type=client) (attention l'installeur windows comprend des bundlewares)."
 msgstr ""
 "The FTP {term}`protocol` gives access to your **personal space** thanks to "
-"software like [FileZilla](https://filezilla-project.org/download."
-"php?type=client) (warning: the windows installer includes bundlewares)."
+"software like [FileZilla](https://filezilla-project.org/download.php?"
+"type=client) (warning: the windows installer includes bundlewares)."
 
 #: ../../services/ftp.md:30
 msgid "Sécurité"
@@ -3276,22 +3143,265 @@ msgstr ""
 "At CLUB1, cgit is accessible through the HTTP {term}`server` {logiciel}"
 "`Apache`. --- [Source](https://git.zx2c4.com/cgit/)"
 
-#: ../../services/index.md:1
-msgid "Services réservés aux membres"
+#: ../../services/matrix.md:1
+msgid "Discussion instantanée Matrix"
 msgstr ""
 
-#: ../../services/index.md:4
-#, fuzzy
-#| msgid ""
-#| "Tous ces services utilisent donc le même **identifiant** et le même **mot "
-#| "de passe** pour la connexion."
+#: ../../services/matrix.md:6
 msgid ""
-"Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
-"compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
-"de passe** pour la connexion."
+"{term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/"
+"Messagerie_instantan%C3%A9e) [__décentralisé__](https://fr.wikipedia.org/"
+"wiki/Red%C3%A9centralisation_d%27Internet)."
 msgstr ""
-"All these services then share the same **login** and **password** for the "
-"connection."
+
+#: ../../services/matrix.md:9
+msgid ""
+"Son avantage principal par rapport aux autres systèmes fédérés du même type, "
+"est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` "
+"participants, afin d'améliorer la tolérence aux pannes en garantissant une "
+"\"cohérence à terme\". --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Matrix_(protocole))"
+msgstr ""
+
+#: ../../services/matrix.md:16
+msgid "Principes généraux"
+msgstr ""
+
+#: ../../services/matrix.md:19
+msgid ""
+"Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
+"Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
+"internes pour ses utilisateurs, mais aussi de se connecter de façon "
+"transparente aux salons provenant d'autres serveur si ils le souhaitent."
+msgstr ""
+
+#: ../../services/matrix.md:23
+msgid "Serveur"
+msgstr "Server"
+
+#: ../../services/matrix.md:25
+msgid ""
+"Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
+"les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
+"simplement `club1.fr` ou `https://club1.fr`. Inutile d'aller voir à cette "
+"adresse, il vous faudra un [client](#client-interfaces-de-connexion) pour "
+"accèder à l'interface de messagerie."
+msgstr ""
+
+#: ../../services/matrix.md:33
+msgid ""
+"Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une "
+"adresse email, à ceci près que le symbole `@` est utilisé comme premier "
+"caractère, signalant que l'adresse fait référence à un utilisateur. Le "
+"symbole `:` est donc utilisé pour séparer l'identifiant du serveur :"
+msgstr ""
+
+#: ../../services/matrix.md:40
+msgid ""
+"Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auxquel le "
+"compte est rataché."
+msgstr ""
+
+#: ../../services/matrix.md:44
+msgid "Room"
+msgstr ""
+
+#: ../../services/matrix.md:46
+msgid ""
+"Une *room*, ou *salon* Matrix est un flux de discussion qui accueille "
+"n'importe quel nombre de participants. Elles ont aussi une adresse, qui "
+"commence cette fois par un `#` :"
+msgstr ""
+
+#: ../../services/matrix.md:51
+msgid ""
+"Où `blabla-dauphins` est le nom de la *room* et `club1.fr`, le serveur sur "
+"lequel elle a été créée et auquel elle est rattachée."
+msgstr ""
+
+#: ../../services/matrix.md:55
+msgid ""
+"Il est possible, au moment de la création d'une *room*, d'interdire l'accès "
+"aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier."
+msgstr ""
+
+#: ../../services/matrix.md:61
+msgid "Client (interfaces de connexion)"
+msgstr "Client (connection interfaces)"
+
+#: ../../services/matrix.md:63
+msgid ""
+"Comme pour les emails, il est aussi possible de choisir son {term}`client`, "
+"son interface, pour se connecter à Matrix. Il en existe pour tout les goûts, "
+"mais la plupart sont encore en cours de développement. A l'heure actuelle, "
+"__la façon la plus simple et fiable de converser via Matrix est d'utiliser "
+"*{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mobile."
+msgstr ""
+
+#: ../../services/matrix.md:69
+msgid "[__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)"
+msgstr ""
+
+#: ../../services/matrix.md:72
+msgid ""
+"On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent "
+"dans un naviguateur), __Desktop__ (Linux, Windows, MacOS) et __Mobile__ "
+"(Android, Iphone). [Liste officielle des clients matrix](https://matrix.org/"
+"clients/)."
+msgstr ""
+
+#: ../../services/matrix.md:76
+msgid ""
+"Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisament "
+"complet pour que cela soit intéressant, à part si vous êtes un&middot;e "
+"amoureux&middot;se du {term}`terminal`, auxquel cas vous êtes invité&middot;"
+"e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)"
+msgstr ""
+
+#: ../../services/matrix.md:80
+msgid ""
+"Sur Android, certaines applications commencent à être matures. Il y a bien-"
+"sûr la version mobile de [Element](https://play.google.com/store/apps/"
+"details?id=im.vector.app), mais on peut aussi préférer l'ambiance *fluffy* "
+"de [FluffyChat](https://fluffychat.im/)"
+msgstr ""
+
+#: ../../services/matrix.md:85
+msgid ""
+"Pour se connecter ailleurs que sur l'interface web de Club1, __il faut bien "
+"spécifier que votre serveur est `https://club1.fr` !__"
+msgstr ""
+
+#: ../../services/matrix.md:91
+msgid "Comment l'utiliser (interface Element web) ?"
+msgstr ""
+
+#: ../../services/matrix.md:94
+msgid "Rejoindre des salons"
+msgstr ""
+
+#: ../../services/matrix.md:96
+msgid ""
+"Pour rejoindre des rooms, il suffit de cliquer sur {guilabel}`explorer` en "
+"haut à gauche de l'interface. Par défaut, seules les rooms du serveur local "
+"sont listées. Pour en afficher d'autres, il faut sélectionner un autre "
+"serveur depuis le menu déroulant ou cliquer sur {guilabel}`ajouter un "
+"nouveau serveur`."
+msgstr ""
+
+#: ../../services/matrix.md:101
+msgid ""
+"Dans le panneau de gauche, les salons sont répartis en {guilabel}`messages "
+"direct` et {guilabel}`salons`. Cela sert à distinguer les discussions à deux "
+"personnes des discussions de groupes."
+msgstr ""
+
+#: ../../services/matrix.md:104
+msgid "Créer un salon"
+msgstr ""
+
+#: ../../services/matrix.md:106
+msgid ""
+"En cliquant sur le {guilabel}`+` à droite de {guilabel}`messages direct` ou "
+"{guilabel}`salons`, on a la possibilité de créer son propre salon. Dans le "
+"cas d'une discussion à deux, il suffit de choisir un destinataire, la room "
+"sera par défaut privée. Dans d'une discussion de groupe, il va falloir "
+"définir un nom, définir si elle va être privée ou publique, ainsi que "
+"l'activation ou non du chiffrement."
+msgstr ""
+
+#: ../../services/matrix.md:114
+msgid "Le chiffrement des discussions ne peut pas être désactivé plus tard."
+msgstr ""
+
+#: ../../services/matrix.md:118
+msgid "Formatage"
+msgstr ""
+
+#: ../../services/matrix.md:120
+msgid ""
+"Il est possible de formater son message, en sélectionnant du texte sur la "
+"zone d'écriture de message, ou en utilisant le __{term}`Markdown`__, un "
+"standard de formatage simple utilisé par de plus en plus de site."
+msgstr ""
+
+#: ../../services/matrix.md:123
+msgid "Chiffrement"
+msgstr "Encryption"
+
+#: ../../services/matrix.md:125
+msgid ""
+"Le protocole Matrix permet de chiffrer ses messages *de bout en bout*, c'est "
+"à dire qu'un message sera illisible d'un bout à l'autre de son cheminement "
+"et n'est déchiffrable qu'à l'arrivée par son destinataire. Cela complexifie "
+"un peu les échanges, car Matrix force la vérifications des différents "
+"appareils que l'on utilise pour communiquer. En effet, il faut être sûr que "
+"les différents appareils connectés au même compte sont bien en possession "
+"d'une même personne. Pour cela, une *pass-phrase* globale est utilisée : "
+"c'est un super mot de passe plus long qui va servir à au chiffrement de vos "
+"messages."
+msgstr ""
+
+#: ../../services/matrix.md:135
+msgid "Questions concernant le serveur Matrix de CLUB1"
+msgstr ""
+
+#: ../../services/matrix.md:138
+msgid "Est ce fiable ?"
+msgstr ""
+
+#: ../../services/matrix.md:140
+msgid ""
+"Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur, "
+"cependant pour se faire un avis, il est possible de consulter les "
+"statistiques de disponibilité du serveur Matrix et de Riot à cette adresse : "
+"[status.club1.fr](https://status.club1.fr/). Des mises-à-jour sont "
+"effectuées régulièrement pour avoir la dernière version de Matrix et Riot et "
+"ainsi éviter des bugs ou failles de sécurité."
+msgstr ""
+
+#: ../../services/matrix.md:147
+msgid "Que faire si j'ai perdu mon mot de passe ?"
+msgstr ""
+
+#: ../../services/matrix.md:149
+msgid ""
+"Si une adresse email à été reliée à votre compte (compte créé après la [mise "
+"à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien "
+"ajout manuel), il suffit de cliquer sur {guilabel}`mot de passe oublié`. "
+"Sinon, il n'est pas possible de réccupérer son mot de passe automatiquement. "
+"La seule façon est de réussir à joindre et convaincre l'administrateur "
+"système *dans la vrai vie*, autant dire qu'il vaux mieux ne pas l'oublier."
+msgstr ""
+
+#: ../../services/matrix.md:156
+msgid "Est ce que club1.fr respecte ma vie privée ?"
+msgstr ""
+
+#: ../../services/matrix.md:158
+msgid ""
+"La seule personne qui a accès aux bases de données est l'administrateur "
+"système du serveur (`@n-peugnet:club1.fr`), normalement il n'a pas que ça à "
+"faire de vous espionner, mais si vous n'avez pas confiance en lui, il ne "
+"vous reste plus qu'à activer le chiffrement des conversations."
+msgstr ""
+
+#: ../../services/matrix.md:167
+msgid ""
+"{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
+"l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
+"qui soit annoncée comme \"stable\". --- [Sources](https://github.com/matrix-"
+"org/synapse), [Site](https://matrix.org/docs/projects/server/synapse)"
+msgstr ""
+
+#: ../../services/matrix.md:174
+msgid ""
+"{term}`Client` {term}`Matrix` complet (anciennement \"Riot\") disponible sur "
+"de nombreuses plateformes. CLUB1 héberge une {term}`instance` de la version "
+"{term}`Web` de ce client à l'adresse <https://riot.club1.fr>. --- [Sources]"
+"(https://github.com/vector-im/element-web), [Wikipedia](https://fr.wikipedia."
+"org/wiki/Element_(logiciel))"
+msgstr ""
 
 #: ../../services/rss.md:1
 msgid "Agrégateur de flux de nouvelles (RSS/Atom)"
@@ -4135,7 +4245,9 @@ msgid "par email : <webmaster@club1.fr>"
 msgstr "by email: <webmaster@club1.fr>"
 
 #: ../../services/web.md:200
-msgid "par matrix : `@n-peugnet:club1.fr`"
+#, fuzzy
+#| msgid "par matrix : `@n-peugnet:club1.fr`"
+msgid "par {term}`matrix` : `@n-peugnet:club1.fr`"
 msgstr "by matrix: `@n-peugnet:club1.fr`"
 
 #: ../../services/web.md:208
@@ -4329,15 +4441,15 @@ msgstr ""
 "display the **Internet Accounts** configuration window ({numref}`fig:tutos-"
 "caldav-mac-comptes`)."
 
-#: ../../tutos/caldav-mac.md:17
+#: ../../tutos/caldav-mac.md:18
 msgid "capture d'écran fenêtre Comptes Internet"
 msgstr "Internet Accounts window screenshot"
 
-#: ../../tutos/caldav-mac.md:17
+#: ../../tutos/caldav-mac.md:18
 msgid "Fenêtre \"Comptes Internet\"."
 msgstr "\"Internet Accounts\" window."
 
-#: ../../tutos/caldav-mac.md:20
+#: ../../tutos/caldav-mac.md:21
 msgid ""
 "Pour ajouter un compte CLUB1 il faut cliquer sur {guilabel}`Ajouter un autre "
 "compte...` et choisir **Compte {term}`CalDAV`** ({numref}`fig:tutos-caldav-"
@@ -4347,17 +4459,17 @@ msgstr ""
 "choose **{term}`CalDAV` Account** ({numref}`fig:tutos-caldav-mac-autres-"
 "comptes`)"
 
-#: ../../tutos/caldav-mac.md:28
+#: ../../tutos/caldav-mac.md:30
 msgid "capture d'écran fenêtre Autres Comptes"
 msgstr "Other Accounts window screenshot"
 
-#: ../../tutos/caldav-mac.md:28
-msgid ""
-"La fenêtre \"Comptes Internet\" dévoile son plein potentiel une fois qu'on a "
-"cliqué sur le bouton {guilabel}`Ajouter un autres compte...`."
-msgstr ""
+#: ../../tutos/caldav-mac.md:30
+#, fuzzy
+#| msgid "Fenêtre \"Comptes Internet\"."
+msgid "La fenêtre \"Comptes Internet\" dévoile son plein potentiel."
+msgstr "\"Internet Accounts\" window."
 
-#: ../../tutos/caldav-mac.md:32
+#: ../../tutos/caldav-mac.md:34
 msgid ""
 "Dans la fenêtre dépliée, entrer son adresse et son mot-de-passe membre CLUB1 "
 "({numref}`fig:tutos-caldav-mac-ajouter-compte-caldav`)."
@@ -4365,15 +4477,15 @@ msgstr ""
 "In the unfolded window, enter your CLUB1 member address and password "
 "({numref}`fig:tutos-caldav-mac-ajouter-compte-caldav`)."
 
-#: ../../tutos/caldav-mac.md:40
+#: ../../tutos/caldav-mac.md:43
 msgid "capture d'écran fenêtre Ajouter un compte CalDAV"
 msgstr "screenshot window Add CalDAV account"
 
-#: ../../tutos/caldav-mac.md:40
+#: ../../tutos/caldav-mac.md:43
 msgid "Le formulaire d'ajout de compte CalDAV."
 msgstr "The CalDAV account addition form."
 
-#: ../../tutos/caldav-mac.md:44
+#: ../../tutos/caldav-mac.md:47
 msgid ""
 "Une fois validé, un calendrier \"Default\" apparaîtra sous CLUB1 dans le "
 "panneau de gauche de l'application Calendrier ({numref}`fig:tutos-caldav-mac-"
@@ -4383,15 +4495,15 @@ msgstr ""
 "panel of the Calendar application ({numref}`fig:tutos-caldav-mac-"
 "calendrier`)."
 
-#: ../../tutos/caldav-mac.md:52
+#: ../../tutos/caldav-mac.md:56
 msgid "capture d'écran fenêtre calendrier"
 msgstr "calendar window screenshot"
 
-#: ../../tutos/caldav-mac.md:52
+#: ../../tutos/caldav-mac.md:56
 msgid "Le calendrier \"Default\" est maintenant présent dans le calendrier."
 msgstr "The \"Default\" calendar is now present in the calendar."
 
-#: ../../tutos/caldav-mac.md:55
+#: ../../tutos/caldav-mac.md:59
 msgid "Bravo."
 msgstr "Cheer."
 
@@ -5356,10 +5468,15 @@ msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découv
 msgstr "🍾 To celebrate, here is a small selection of commands to discover:"
 
 #: ../../tutos/premiere-connexion-ssh.md:113
+#, fuzzy
+#| msgid ""
+#| "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
+#| "connexion à tous les [services](/services/index.md)). --- Manuel : "
+#| "{manpage}`passwd.1`"
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
-"connexion à tous les [services](/services/index.md)). --- Manuel : {manpage}"
-"`passwd.1`"
+"connexion à tous les [services](/services-membres.md)). --- Manuel : "
+"{manpage}`passwd.1`"
 msgstr ""
 "Allows you to change your CLUB1 password (this will therefore have an effect "
 "on the connection to all [services](/services/index.md)). --- Manual: "
@@ -5779,103 +5896,139 @@ msgid "Accès à l'espace personnel depuis le Finder d'un Mac"
 msgstr "Access personal space from a Mac's Finder"
 
 #: ../../tutos/webdav-mac.md:4
+#, fuzzy
+#| msgid ""
+#| "Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
+#| "connecter au serveur...`."
 msgid ""
 "Dans le Finder, dans la barre de menu, cliquez sur {guilabel}`Aller` --> "
-"{guilabel}`Se connecter au serveur...`."
+"{guilabel}`Se connecter au serveur...` ({numref}`fig:tutos-webdav-mac-"
+"aller`)."
+msgstr ""
+"In the menu bar, click on {guilabel}`file` then {guilabel}`connect to "
+"server...`."
+
+#: ../../tutos/webdav-mac.md:13
+msgid "menu Aller"
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:6
-msgid "![aller](webdav-mac/screen_001.png)"
+#: ../../tutos/webdav-mac.md:13
+msgid "Le menu \"Aller\" du _Finder_."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:6 ../../tutos/webdav-mac.md:10
-#: ../../tutos/webdav-mac.md:25 ../../tutos/webdav-mac.md:31
-#: ../../tutos/webdav-mac.md:38 ../../tutos/webdav-mac.md:52
-msgid "aller"
-msgstr ""
-
-#: ../../tutos/webdav-mac.md:8
-msgid "Une nouvelle fenêtre apparait :"
-msgstr ""
-
-#: ../../tutos/webdav-mac.md:10
-msgid "![aller](webdav-mac/screen_002.png)"
-msgstr ""
-
-#: ../../tutos/webdav-mac.md:12
-msgid "Rentrez l'url Webdav correspondant à votre utilisateur :"
-msgstr ""
-
-#: ../../tutos/webdav-mac.md:18
-msgid "En utilisant votre login CLUB1."
-msgstr ""
-
-#: ../../tutos/webdav-mac.md:21
+#: ../../tutos/webdav-mac.md:16
 msgid ""
-"Cliquez sur le bouton {guilabel}`+` en bas à gauche de la fenêtre pour "
-"garder en mémoire l'adresse de votre serveur dans les favoris."
+"Une nouvelle fenêtre apparait ({numref}`fig:tutos-webdav-mac-fenetre-"
+"connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:23
-msgid "Puis, cliquez sur le bouton {guilabel}`Connexion`."
-msgstr ""
+#: ../../tutos/webdav-mac.md:24
+#, fuzzy
+#| msgid "Fenêtre de connexion."
+msgid "fenêtre Connexion au serveur"
+msgstr "Connection window."
 
-#: ../../tutos/webdav-mac.md:25
-msgid "![aller](webdav-mac/screen_003.png)"
+#: ../../tutos/webdav-mac.md:24
+msgid ""
+"La fenêtre \"Connexion au server\" permettant d'ajouter un serveur à partir "
+"d'une URL."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:27
-msgid "Une fenêtre pop-up va apparaître vous demandant vos identifiants CLUB1."
+msgid "Rentrez l'url Webdav correspondant à votre utilisateur :"
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:29
+#: ../../tutos/webdav-mac.md:33
+msgid "En utilisant votre login CLUB1."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:36
+msgid ""
+"Cliquez sur le bouton {guilabel}`+` en bas à gauche de la fenêtre pour "
+"garder en mémoire l'adresse de votre serveur dans les favoris ({numref}`fig:"
+"tutos-webdav-mac-serveurs-favoris`)."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:45
+msgid "fenêtre Connexion au serveur avec un serveur favori"
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:45
+msgid "La fenêtre \"Connexion au serveur\" comprenant un serveur favori."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:48
+msgid ""
+"Puis, cliquez sur le bouton {guilabel}`Connexion`. Une fenêtre pop-up va "
+"apparaître vous demandant vos identifiants CLUB1 ({numref}`fig:tutos-webdav-"
+"mac-popup`)."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:52
 msgid "Cliquez sur le bouton {guilabel}`Se connecter`."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:31
-msgid "![aller](webdav-mac/screen_004.png)"
+#: ../../tutos/webdav-mac.md:60
+#, fuzzy
+#| msgid "Se connecter"
+msgid "popup Se connecter"
+msgstr "Connection"
+
+#: ../../tutos/webdav-mac.md:60
+msgid "La fenêtre _pop-up_ avertissant qu'une connexion va avoir lieu."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:34
+#: ../../tutos/webdav-mac.md:64
 msgid ""
-"Entrez votre identifiant et mot de passe CLUB1. Il est utile de cocher la "
-"case \"Conserver ce mot de passe dans mon trousseau\", car ceci permettra de "
-"déverouiller l'accès entre vos ouvertures/fermetures de sessions mac."
+"Entrez votre identifiant et mot de passe CLUB1 ({numref}`fig:tutos-webdav-"
+"mac-fenetre-identifiants`). Il est utile de cocher la case \"Conserver ce "
+"mot de passe dans mon trousseau\", car ceci permettra de déverouiller "
+"l'accès entre vos ouvertures/fermetures de sessions mac."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:38
-msgid "![aller](webdav-mac/screen_005.png)"
+#: ../../tutos/webdav-mac.md:74
+#, fuzzy
+#| msgid "Identifiant"
+msgid "fenêtre identifiants"
+msgstr "Username"
+
+#: ../../tutos/webdav-mac.md:74
+msgid "La fenêtre permettant d'entrer ses identifiants."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:42
+#: ../../tutos/webdav-mac.md:78
 msgid ""
 "Votre dossier personnel CLUB1 devrait s'afficher et être listé dans les "
 "Emplacements de votre Finder."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:44
+#: ../../tutos/webdav-mac.md:80
 msgid ""
 "A présent, il faut péréniser cet accès en l'ajoutant aux favoris. Pour se "
 "faire, il nous faut accèder au dossier parent."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:47
+#: ../../tutos/webdav-mac.md:83
 msgid ""
 "Depuis la barre de menu cliquez sur {guilabel}`Aller` --> {guilabel}`Dossier "
 "parent` (ou via le raccourci clavier : {kbd}`Cmd` + {kbd}`↑`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:50
+#: ../../tutos/webdav-mac.md:86
 msgid ""
 "Maintenant, il est possible de cliquer-glisser votre dossier perso dans la "
-"zone de favoris."
+"zone de favoris ({numref}`fig:tutos-webdav-mac-glisser-favoris`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:52
-msgid "![aller](webdav-mac/screen_007.png)"
+#: ../../tutos/webdav-mac.md:94
+msgid "déplacement à effectuer"
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:55
+#: ../../tutos/webdav-mac.md:94
+msgid "Ajout du raccourci vers le serveur dans les favoris."
+msgstr ""
+
+#: ../../tutos/webdav-mac.md:98
 msgid ""
 "Votre dossier dans le serveur CLUB1 est dorénavant accessible en tout temps "
 "et simplement !"
