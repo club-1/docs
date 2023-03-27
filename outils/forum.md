@@ -16,8 +16,9 @@ L'article du journal "[Création d'un forum](https://club1.fr/creation-d-un-foru
 Connexion
 ---------
 
-Le forum est à la fois un outil de gestion interne mais est aussi ouvert vers l'exterieur.
-C'est pourquoi il existe deux façons de s'y connecter. Dans tous les cas, une adresse e-mail est requise.
+Le forum est un outil de gestion interne mais il est aussi ouvert vers l'exterieur.
+C'est pourquoi il existe deux façons de s'y connecter.
+Dans tous les cas, une adresse e-mail est requise.
 Elle permettra, si vous le souhaitez, de recevoir des notifications sur des conversations que vous aurez choisi.
 
 ### connexion via le compte CLUB1
