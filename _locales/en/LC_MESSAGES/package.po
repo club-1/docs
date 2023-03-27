@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the CLUB1 package.
 # Nicolas Peugnet <nicolas@club1.fr>, 2022.
 # Leïla Renard <leila@club1.fr>, 2022
-#
+# Nicolas Peugnet <n.peugnet@free.fr>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-03-27 21:54+0200\n"
-"PO-Revision-Date: 2023-03-20 12:41+0000\n"
+"PO-Revision-Date: 2023-03-28 20:41+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -627,7 +627,7 @@ msgstr ""
 
 #: ../../glossaire.md:85
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
-msgstr ""
+msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/Group_identifier)"
 
 #: ../../glossaire.md:88
 msgid ""
@@ -736,6 +736,10 @@ msgid ""
 "processus ou d'ordinateurs en réseaux. --- [Wikipedia](https://fr.wikipedia."
 "org/wiki/Protocole_informatique)"
 msgstr ""
+"In the context of computing, a protocol is a set of rules that govern the "
+"exchange of data or the collective behavior of processes or computers in "
+"networks. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Communication_protocol)"
 
 #: ../../glossaire.md:127
 msgid "réseau informatique"
@@ -792,6 +796,10 @@ msgid ""
 "l'interface en ligne de commande ({term}`CLI`) de ce materiel. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
+"Nowadays, the word \"terminal\" is often used as a shorthand for a \"terminal"
+" emulator\". This is a software that recreates the command line interface "
+"({term}`CLI`) of this hardware. --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/Computer_terminal)"
 
 #: ../../glossaire.md:156
 msgid ""
@@ -1369,15 +1377,12 @@ msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
 #: ../../info/general.md:153
-#, fuzzy
-#| msgid ""
-#| "un accès à la room matrix réservée aux membres pour le suivi et "
-#| "l'assistance aux projets"
 msgid ""
 "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
 msgstr ""
-"access to the members-only matrix room for project monitoring and assistance"
+"access to the members-only {term}`matrix` room for project monitoring and "
+"assistance"
 
 #: ../../info/general.md:155
 msgid ""
@@ -1619,10 +1624,8 @@ msgstr ""
 "forum)\" (in French)"
 
 #: ../../outils/forum.md:16
-#, fuzzy
-#| msgid "Connexion initiale"
 msgid "Connexion"
-msgstr "Initial connection"
+msgstr "Login"
 
 #: ../../outils/forum.md:19
 msgid ""
@@ -1632,12 +1635,14 @@ msgid ""
 "souhaitez, de recevoir des notifications sur des conversations que vous "
 "aurez choisi."
 msgstr ""
+"The forum is an internal management tool but it is also open to the outside. "
+"That's why there are two ways to log in. In all cases, an e-mail address is "
+"required. It will allow, if you wish, to receive notifications about "
+"conversations you will have chosen."
 
 #: ../../outils/forum.md:24
-#, fuzzy
-#| msgid "Connexion avec le terminal"
 msgid "Connexion via le compte CLUB1"
-msgstr "Connection with the terminal"
+msgstr "Login via CLUB1 account"
 
 #: ../../outils/forum.md:26
 msgid ""
@@ -1650,18 +1655,26 @@ msgid ""
 "(../faq.md#comment-modifier-mon-mot-de-passe-de-membre-club1-) et que vous "
 "aurez automatiquement le badge {guilabel}`membre CLUB1`."
 msgstr ""
+"This type of login is dedicated to CLUB1 members wishing to use their CLUB1 "
+"account to identify themselves on the forum. This implies using the same "
+"identifier and the same password as for all [services](/services-membres.md)"
+". The advantage of such a login method is that you do not have to remember a "
+"new username/password pair, that your password will be updated if you ["
+"modify your CLUB1 account password](../faq.md#comment-modifier-mon-mot-de-"
+"passe-de-membre-club1-) and that you will automatically have the badge "
+"{guilabel}`membre CLUB1`."
 
 #: ../../outils/forum.md:34
 msgid ""
 "Votre identifiant CLUB1 sera votre pseudo et sera donc visible lorsque vous "
 "postez des messages public."
 msgstr ""
+"Your CLUB1 identifier will be your nickname and will therefore be visible "
+"when you post public messages."
 
 #: ../../outils/forum.md:37
-#, fuzzy
-#| msgid "Connexion initiale"
 msgid "Connexion ouverte"
-msgstr "Initial connection"
+msgstr "Open login"
 
 #: ../../outils/forum.md:39
 msgid ""
@@ -4245,10 +4258,8 @@ msgid "par email : <webmaster@club1.fr>"
 msgstr "by email: <webmaster@club1.fr>"
 
 #: ../../services/web.md:200
-#, fuzzy
-#| msgid "par matrix : `@n-peugnet:club1.fr`"
 msgid "par {term}`matrix` : `@n-peugnet:club1.fr`"
-msgstr "by matrix: `@n-peugnet:club1.fr`"
+msgstr "by {term}`matrix`: `@n-peugnet:club1.fr`"
 
 #: ../../services/web.md:208
 msgid ""
@@ -4464,10 +4475,8 @@ msgid "capture d'écran fenêtre Autres Comptes"
 msgstr "Other Accounts window screenshot"
 
 #: ../../tutos/caldav-mac.md:30
-#, fuzzy
-#| msgid "Fenêtre \"Comptes Internet\"."
 msgid "La fenêtre \"Comptes Internet\" dévoile son plein potentiel."
-msgstr "\"Internet Accounts\" window."
+msgstr "The \"Internet Accounts\" window reveals its full potential."
 
 #: ../../tutos/caldav-mac.md:34
 msgid ""
@@ -5468,18 +5477,13 @@ msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découv
 msgstr "🍾 To celebrate, here is a small selection of commands to discover:"
 
 #: ../../tutos/premiere-connexion-ssh.md:113
-#, fuzzy
-#| msgid ""
-#| "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
-#| "connexion à tous les [services](/services/index.md)). --- Manuel : "
-#| "{manpage}`passwd.1`"
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
 "connexion à tous les [services](/services-membres.md)). --- Manuel : "
 "{manpage}`passwd.1`"
 msgstr ""
 "Allows you to change your CLUB1 password (this will therefore have an effect "
-"on the connection to all [services](/services/index.md)). --- Manual: "
+"on the connection to all [services](/services-membres.md)). --- Manual: "
 "{manpage}`passwd.1`"
 
 #: ../../tutos/premiere-connexion-ssh.md:119
@@ -5923,10 +5927,8 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:24
-#, fuzzy
-#| msgid "Fenêtre de connexion."
 msgid "fenêtre Connexion au serveur"
-msgstr "Connection window."
+msgstr "Server Connection window"
 
 #: ../../tutos/webdav-mac.md:24
 msgid ""
@@ -5969,10 +5971,8 @@ msgid "Cliquez sur le bouton {guilabel}`Se connecter`."
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:60
-#, fuzzy
-#| msgid "Se connecter"
 msgid "popup Se connecter"
-msgstr "Connection"
+msgstr "Log in popup"
 
 #: ../../tutos/webdav-mac.md:60
 msgid "La fenêtre _pop-up_ avertissant qu'une connexion va avoir lieu."
@@ -5987,10 +5987,8 @@ msgid ""
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:74
-#, fuzzy
-#| msgid "Identifiant"
 msgid "fenêtre identifiants"
-msgstr "Username"
+msgstr "credentials window"
 
 #: ../../tutos/webdav-mac.md:74
 msgid "La fenêtre permettant d'entrer ses identifiants."
