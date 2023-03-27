@@ -27,7 +27,7 @@ Ce type de connexion est dédié aux membres de CLUB1 souhaitant utiliser leur c
 Cela implique d'utiliser le même identifiant et le même mot de passe
 que pour l'ensemble des [services](/services-membres.md).
 L'intérêt d'une telle méthode de connexion est de ne pas avoir un nouveau couple identifiant / mot de passe à retenir,
-que votre mot de passe sera mis à jour si vous [modifiez celui de votre compte CLUB1](/faq.md#comment-modifier-mon-mot-de-passe-de-membre-club1)
+que votre mot de passe sera mis à jour si vous [modifiez celui de votre compte CLUB1](../faq.md#comment-modifier-mon-mot-de-passe-de-membre-club1-)
 et que vous aurez automatiquement le badge {guilabel}`membre CLUB1`.
 
 ```{warning}
