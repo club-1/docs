@@ -180,6 +180,8 @@
 \definecolor{colWarningBody}{HTML}{FEECCA}
 \definecolor{colErrorHead}{HTML}{F19F97}
 \definecolor{colErrorBody}{HTML}{FDF3F2}
+\renewenvironment{sphinxseealso}[1]
+	{\begin{club1admonition}{#1}{colNoteHead}{colNoteBody}}{\end{club1admonition}}
 \renewenvironment{sphinxnote}[1]
 	{\begin{club1admonition}{#1}{colNoteHead}{colNoteBody}}{\end{club1admonition}}
 \renewenvironment{sphinxhint}[1]
