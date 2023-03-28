@@ -158,9 +158,6 @@
     (-0.8,3) -- (0.8,3) -- (0.7,-1) -- (-0.7,-1) -- cycle;
 }}
 
-\def\StriplastColon#1{\striplastColon{#1}#1\end :\end\eend}
-\def\striplastColon#1#2:\end#3\eend{\ifx\end#3\end#1\else#2\fi}
-
 \newenvironment{club1admonition}[3]{\begin{tcolorbox}[
 	boxrule=0pt, frame empty, % no borders
 	before=\par, parbox=false, % obey document paragraph spacing rules
@@ -169,7 +166,7 @@
 	left=5pt, right=5pt, top=5pt, bottom=5pt, % body margins
 	toptitle=1pt, bottomtitle=1pt, % title bar margins
 	fonttitle=\sffamily\bfseries, % same font variant as other titles
-	title=\raisebox{-.1\height}{\tikz\pic{ExclamationCircle};} \StriplastColon{#1}
+	title=\raisebox{-.1\height}{\tikz\pic{ExclamationCircle};} \sphinxremovefinalcolon{#1}
 ]}{\end{tcolorbox}}
 
 \definecolor{colTipHead}{HTML}{18BC9B}
