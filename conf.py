@@ -268,6 +268,8 @@ latex_show_urls = 'footnote'
 # Show pages for internal refs, useful for printed copies.
 latex_show_pagerefs = True
 
+latex_table_style = ['colorrows']
+
 latex_additional_files = ['_templates/club1.sty', '_templates/packages.sty']
 
 latex_license = _(open('_templates/license.txt', 'r').read().strip()).replace('<', r'\url{').replace('>', '}')
