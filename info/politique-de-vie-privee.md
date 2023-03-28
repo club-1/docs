@@ -3,7 +3,7 @@ Politique de vie privée
 
 Nos engagements en matière de vie privée.
 
-```{admonition} Voir aussi
+```{seealso}
 Nos engagement dans les [CGU](../cgu.md#nos-engagements)
 ```
 

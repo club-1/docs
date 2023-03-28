@@ -69,7 +69,7 @@ il faut créer un **fichier de présentation** appellé `PRESENTATION.md` à la 
 Il est possible de formater son texte en {term}`Markdown`,
 ainsi que de changer son nom d'affichage et la couleur de son bouton.
 
-```{admonition} Voir aussi
+```{seealso}
 Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)
 ```
 

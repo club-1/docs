@@ -26,7 +26,7 @@ Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/wiki/
 et [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) est activé sur le domaine `club1.fr`.
 BIND est également utilisé en tant que résolveur DNS pour le réseau local.
 
-```{admonition} Voir aussi
+```{seealso}
 - [Article du journal à propos du serveur DNS](https://club1.fr/serveur-dns)
 - [Fil du forum à propos de DNSSEC](https://forum.club1.fr/d/7-configurer-dnssec-sur-ns1club1fr)
 - Outils de diagnostic en ligne :

@@ -72,6 +72,6 @@ pour créer les fichiers et exécuter les commandes.
 Ces actions sont réalisées avec les droits de l'utilisateur correspondant à l'alias s'il existe
 et sinon, sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`.
 
-```{admonition} Voir aussi
+```{seealso}
 La [section "Delivery Rights" de la page local du manuel de Postfix](https://manpages.debian.org/stable/postfix/local.8postfix.en.html#DELIVERY_RIGHTS).
 ```

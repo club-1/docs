@@ -33,7 +33,7 @@ il faut forcément utiliser un [domaine dédié](#hébergement-avec-un-nom-de-do
 
 C'est l'endroit idéal pour débuter et commencer à mettre en ligne rapidement.
 
-```{admonition} Voir aussi
+```{seealso}
 Le tutoriel "[](/tutos/mes-premiers-pas-sur-le-web.md)"
 pour apprendre à faire son premier site web avec le dossier `static`.
 ```

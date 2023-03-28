@@ -107,7 +107,7 @@ Les sauvegardes sont réparties en quatre groupes :
 3. **Postgres** pour les bases de données {logiciel}`PostgreSQL`.
 4. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
 
-```{admonition} Voir aussi
+```{seealso}
 L'article du journal [Sauvegardes](https://club1.fr/backups/)
 ```
 

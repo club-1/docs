@@ -3,7 +3,7 @@ Infrastructure matérielle
 
 Le serveur est auto-hébergé en France à Pantin.
 
-```{admonition} Voir aussi
+```{seealso}
 Les tickets concernant l'infrastructure matérielle sont regroupés sur le forum
 [sous le tag *hardware*](https://forum.club1.fr/t/hardware).
 ```

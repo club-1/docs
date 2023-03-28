@@ -9,7 +9,7 @@ Il a pour but de remplir trois rôles principaux :
 - Offrir un canal de discussion asynchrone public,
   permettant à des discussions variées de coexister dans la durée.
 
-```{admonition} Voir aussi
+```{seealso}
 L'article du journal "[Création d'un forum](https://club1.fr/creation-d-un-forum)"
 ```
 

@@ -73,7 +73,7 @@ L'édition de ce fichier est également réservée aux membres du {term}`groupe`
 
 L'envoi d'emails automatique pour la gestion des inscriptions tire fortement parti des {term}`alias` de réception.
 
-```{admonition} Voir aussi
+```{seealso}
 Pour l'édition des alias email,
 voir la section [Modifier les alias de réception](./aliases.md#modifier-les-alias-de-réception).
 ```
