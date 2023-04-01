@@ -14,7 +14,7 @@ webdiffusion
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)
 ```
 
-Un service de {term}`webdiffusion` en "direct" est mis à disposition des membres.
+Un service de {term}`webdiffusion` en continu est mis à disposition des membres.
 Il permet par exemple de créer des émissions de radio sur {term}`Internet`.
 Ce service est basé sur le logiciel {logiciel}`Icecast`
 et est accessible à l'adresse <https://club1.fr:8000>.
