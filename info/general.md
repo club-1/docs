@@ -89,8 +89,8 @@ de courts laps de temps, par exemple lors d'une mise à jour du noyau.
 Cela dit, une disponibilité effective **supérieure à 98%** devrait pouvoir être
 assurée.
 
-Il est possible de consulter en direct l'état des différents services à cette adresse :
-<https://status.club1.fr/>
+Il est possible de consulter en direct l'état des différents services
+sur [UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)
 
 ### Sauvegardes
 

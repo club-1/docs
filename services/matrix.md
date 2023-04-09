@@ -138,8 +138,8 @@ Questions concernant le serveur Matrix de CLUB1
 ### Est ce fiable ?
 
 Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur,
-cependant pour se faire un avis, il est possible de consulter les statistiques
-de disponibilité du serveur Matrix et de Riot à cette adresse : [status.club1.fr](https://status.club1.fr/).
+cependant pour se faire un avis, il est possible de consulter
+les [statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du serveur Matrix et de Riot.
 Des mises-à-jour sont effectuées régulièrement
 pour avoir la dernière version de Matrix et Riot
 et ainsi éviter des bugs ou failles de sécurité.
