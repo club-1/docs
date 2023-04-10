@@ -6,7 +6,7 @@ et {index}`calendriers` entre le serveur et un appareil *Android*.
 
 Pour synchroniser ses contacts et calendriers avec différentes applications,
 la solution la plus efficace consiste à passer par une application
-qui va se charger essentiellement de la synchro : __DAVx5__.
+qui va se charger essentiellement de la synchro : __DAVx{sup}`5`__.
 
 Cette application est payante (6€) sur le magasin d'applications de Google
 ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
@@ -19,7 +19,7 @@ ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
 Premier lancement
 -----------------
 
-Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la gestion des tâches ({numref}`fig:tutos-webdav-android-taches`).
+Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la gestion des tâches ({numref}`fig:tutos-webdav-android-taches`).
 
 ```{figure} webdav-android/screen_001.png
 ---
@@ -65,7 +65,7 @@ alt: capture d'écran accueil
 name: fig:tutos-webdav-android-accueil
 width: 280
 ---
-Écran d'accueil de DAVx5.
+Écran d'accueil de DAVx{sup}`5`.
 ```
 
 Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
@@ -86,7 +86,7 @@ URL de base :
 Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1.
 
 
-Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom pour ce compte
+Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer un nom pour ce compte
 qui risque fortement de ressembler à votre adresse email CLUB1.
 Ça semble judicieux car c'est souvent comme cela que l'on identifie un couple `user@server`.
 Un dernier petit détail :
@@ -104,7 +104,7 @@ Méthode de stockage des groupes.
 
 Encore une dernière étape : quoi synchroniser ?
 
-DAVx5 nous laisse sélectionner les carnets de contacts et calendriers
+DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers
 que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-android-selection`).
 Pour cela, il suffit de les cocher en naviguant entre les onglets "Carnets d'adresses" et "Agendas".
 Il sera toujours possible d'accéder et modifier ces réglages  plus tard très facilement.
