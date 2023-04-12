@@ -18,6 +18,7 @@ jobs:
       - name: Install apt packages
         run: >
           sudo apt-get install --no-install-recommends -y
+          graphviz
           gettext
           latexmk
           texlive-luatex

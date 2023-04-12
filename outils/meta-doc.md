@@ -157,6 +157,10 @@ Sphinx
    C'est l'outil utilisé pour générer la documentation présente.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))
 
+Graphviz
+   Outils de génération de graphes visuels à partir d'une déscription en language DOT.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Graphviz)
+
 MyST-Parser
    Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`.
 

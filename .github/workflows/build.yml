@@ -34,7 +34,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Install apt packages
-        run: sudo apt-get install --no-install-recommends -y gettext
+        run: sudo apt-get install --no-install-recommends -y gettext graphviz
       - name: Restore pip cache
         uses: actions/cache@v3
         with:
@@ -78,6 +78,7 @@ jobs:
       - name: Install apt packages
         run: >
           sudo apt-get install --no-install-recommends -y
+          graphviz
           latexmk
           texlive-luatex
           texlive-latex-extra

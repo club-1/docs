@@ -57,6 +57,7 @@ extensions = [
     'substring_replace',
     'term_tooltips',
     'index_role',
+    'sphinx.ext.graphviz',
 ]
 
 extensions_optionnal = {
@@ -135,6 +136,10 @@ manpages_url = 'https://manpages.debian.org/{path}.' + language
 
 # Title used for BibTeX citation
 citation_bibtex_title = _('Documentation {CLUB1}')
+
+suppress_warnings = [
+    'epub.unknown_project_files',
+]
 
 # -- Options for HTML output -------------------------------------------------
 
