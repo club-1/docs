@@ -75,6 +75,14 @@ dt:target {
 	font-family: Noto Mono,Liberation Mono,SFMono-Regular,Consolas,monospace !important;
 }
 
+/* Use real white for the section background for images with white BG */
+.wy-nav-content {
+	background: #fff !important;
+}
+.wy-menu-vertical li.current > a {
+	background: #fff;
+}
+
 
 
 /* make Sphinx rtd theme work nicely with CLUB1 header */
