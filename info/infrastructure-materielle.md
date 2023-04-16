@@ -28,7 +28,7 @@ son rôle est donc de leur fournir une **alimentation électrique de qualitée**
 
 ### EATON 5P650IR
 
-Notre modèle : `5P650IR` de la marque *EATON* - 
+Notre modèle : `5P650IR` de la marque *EATON*
 [Specifications sur le site du constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications.html)
 
 Nous l'avons sélectionné, entre autre,
