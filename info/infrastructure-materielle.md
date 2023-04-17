@@ -3,6 +3,10 @@ Infrastructure matérielle
 
 Le serveur est auto-hébergé en France à Pantin.
 
+```{admonition} Voir aussi
+Les tickets concernant l'infrastructure matérielle sont regroupés sur le forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware).
+```
+
 Connexion à internet
 --------------------
 
@@ -25,8 +29,6 @@ mais avec quelques fonctions supplémentaires, notamment :
 
 Il est branché en amont de tout le matériel informatique et
 son rôle est donc de leur fournir une **alimentation électrique de qualité**.
-
-### EATON 5P650IR
 
 Notre modèle : `5P650IR` de la marque *EATON*
 [Specifications sur le site du constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications.html)
