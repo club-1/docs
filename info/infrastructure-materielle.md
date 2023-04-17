@@ -15,16 +15,16 @@ Onduleur
 --------
 
 Un onduleur, c'est avant tout **une multiprise**,
-mais avec quelques fonction supplémentaires, notamment :
+mais avec quelques fonctions supplémentaires, notamment :
 
 - la protection contre les sur-tensions ou sous-tensions, par exemple en cas d'orages.
-- le maintient de l'alimentation électrique en cas de coupure de courant
-(grâce à sa batterie interne).
+- le maintien de l'alimentation électrique en cas de coupure de courant
+  (grâce à sa batterie interne).
 - la communication avec le serveur pour lui dire de s'éteindre "proprement"
-lorsque le courant de revient pas et qu'il n'a bientôt plus de batterie.
+  lorsque le courant de revient pas et qu'il n'a bientôt plus de batterie.
 
-Il est branché en amont de tout le matériel technique et
-son rôle est donc de leur fournir une **alimentation électrique de qualitée**.
+Il est branché en amont de tout le matériel informatique et
+son rôle est donc de leur fournir une **alimentation électrique de qualité**.
 
 ### EATON 5P650IR
 
@@ -32,15 +32,15 @@ Notre modèle : `5P650IR` de la marque *EATON*
 [Specifications sur le site du constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications.html)
 
 Nous l'avons sélectionné, entre autre,
-car c'est la plus faible puissance (420W) parmis la gamme pro de chez *EATON*.
-Le prix de ce matériel est assez élévé (un peu plus de 300€).
+car c'est la plus faible puissance (420W) parmi la gamme pro de chez *EATON*.
+Le prix de ce matériel est assez élevé (un peu plus de 300€).
 Auparavant, nous avions acheté en occasion un modèle plus bas de gamme pour 40€.
-Celui ci est tombé en panne après un an d'utilisation.
+Celui-ci est tombé en panne après un an d'utilisation.
 
 ![Face avant de l'onduleur](infrastructure-materielle/eaton-5p650ir-face.png)
 
 Il s'agit d'un modèle rackable d'une hauteur de 1U.
-Un petit écran permet d'accèder à quelques statistiques et réglages.
+Un petit écran permet d'accéder à quelques statistiques et réglages.
 Il indique par exemple la consommation électrique de l'ensemble de l'infrastructure en Watts.
 
 
@@ -48,7 +48,7 @@ Il indique par exemple la consommation électrique de l'ensemble de l'infrastruc
 
 De gauche à droite : l'arrivée du courant électrique,
 les ports de communication avec le serveur,
-puis les quatres sorties électrique bénéficiant des avantages de l'onduleur.
+puis les quatre sorties électrique bénéficiant des avantages de l'onduleur.
 
 #### Entretien
 
@@ -73,8 +73,8 @@ Boitier rackable d'un hauteur de 2U.
 
 #### Refroidissement
 
-L'un de nos intérêt pour se boitier était la qualitée de son refroidissement.
-Il dispose de trois emplacement pour ventilateurs 80mm.
+L'un de nos intérêts pour se boîtier était la qualité de son refroidissement.
+Il dispose de trois emplacements pour ventilateurs 80mm.
 Les ventilateurs par défaut ont été remplacés par des modèles plus silencieux de la marque *Noctua*.
 
 
@@ -83,7 +83,7 @@ Les ventilateurs par défaut ont été remplacés par des modèles plus silencie
 
 Précédement, nous utilisions un boitier `Chenbro ES34169`, qui était plus compact,
 mais n'était pas rackable et moins bien refroidi.
-Un [article du journal de bord](https://club1.fr/nouveau-boitier) en retrace cette évolution.
+Un [article du journal de bord](https://club1.fr/nouveau-boitier) retrace cette évolution.
 
 ### Carte mère
 
@@ -96,20 +96,20 @@ Modèle : `Supermicro A2SDi-4C-HLN4F`
 
 Modèle : `Intel Atom C3000`
 
-Processeur quadri coeur à faible consomation.
+Processeur quadri-c&oelig;ur à faible consommation.
 
 ### Mémoire vive
 
 Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`
 
 Le serveur dispose d'une unique barrette de 16 Go DDR4 ECC,
-parmis les quatres emplacement fournis par la [carte mère](#carte-mère).
-Cela laisse de la place pour augmenter cette capacitée si nécessaire.
+parmi les quatre emplacements fournis par la [carte mère](#carte-mère).
+Cela laisse de la place pour augmenter cette capacité si nécessaire.
 
 
 ### Stockage
 
-Il est composé de trois supports de stockages distinct :
+Il est composé de trois supports de stockage distincts :
 
 #### système
 
