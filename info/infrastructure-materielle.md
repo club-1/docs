@@ -4,7 +4,8 @@ Infrastructure matérielle
 Le serveur est auto-hébergé en France à Pantin.
 
 ```{admonition} Voir aussi
-Les tickets concernant l'infrastructure matérielle sont regroupés sur le forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware).
+Les tickets concernant l'infrastructure matérielle sont regroupés sur le forum
+[sous le tag *hardware*](https://forum.club1.fr/t/hardware).
 ```
 
 Connexion à internet
@@ -52,7 +53,7 @@ De gauche à droite : l'arrivée du courant électrique,
 les ports de communication avec le serveur,
 puis les quatre sorties électrique bénéficiant des avantages de l'onduleur.
 
-#### Entretien
+### Entretien
 
 Les batteries internes sont garanties de 3 à 5 ans.
 Leur changement se fait par la face avant de l'appareil.
