@@ -99,9 +99,9 @@ Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-termi
 sans voir le message d'alerte et il vous faudra alors entrer votre **mot de passe** CLUB1.
 
 ```{attention}
-Lorsque vous tappez votre mot de passe, rien ne s'affiche.
+Lorsque vous tapez votre mot de passe, rien ne s'affiche !
 C'est normal, il s'agit d'une mesure de sécurité
-qui permet de ne même pas révéler le nombre de caractères du mot de passe ! 🤫
+qui permet de ne même pas révéler le nombre de caractères du mot de passe. 🤫
 ```
 
 ```{tip}
