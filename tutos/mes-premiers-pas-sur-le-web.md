@@ -52,7 +52,7 @@ il est maintenant possible d’accéder à votre image depuis le Web.
 Pour voir le résultat, il faut entrer l'adresse suivante dans un navigateur Web
 (e.g. Firefox, Chrome, etc.) :
 
-    https://static.club1.fr/<login>/<nom du fichier>
+    https://static.club1.fr/USER/FILE
 
 Par exemple, si votre nom d'utilisateur est `garance` et que votre fichier s'intitule `fleur.jpg`, vous devriez avoir :
 
@@ -94,7 +94,7 @@ N'y aurait-il pas un moyen de partager un dossier complet ?
 Faisons une expérience (si vous ne l'avez pas déjà faite par vous même) :
 Dans votre navigateur Web, retirez la partie correspondant au nom du fichier.
 
-    https://static.club1.fr/<login>/
+    https://static.club1.fr/USER/
 
 ```{warning}
 N'oubliez pas le dernier slash (`/`) de l'URL !

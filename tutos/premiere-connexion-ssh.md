@@ -22,9 +22,9 @@ Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
 
 On utilise la commande suivante dans le terminal pour se connecter
-(remplacer `<login>` par votre **identifiant** CLUB1) :
+(remplacer `USER` par votre **identifiant** CLUB1) :
 
-    ssh <login>@club1.fr
+    ssh USER@club1.fr
 
 ```{tip}
 Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.

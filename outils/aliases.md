@@ -41,7 +41,7 @@ Il est possible d'ajouter autant d'alias que voulu a ajoutant une nouvelle ligne
 au ficher, en suivant la [syntaxe d'alias de postfix](http://www.postfix.org/aliases.5.html) :
 
 ```Makefile
-<ALIAS>:      <USER1>[,<USER2>...]
+ALIAS:      USER1[,USER2...]
 ```
 
 Pour supprimer un alias, il suffit de supprimer ou commenter (avec `#`) la ligne

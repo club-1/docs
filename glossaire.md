@@ -81,9 +81,9 @@ groupe
    Il est possible de savoir qui est membre d'un groupe sur le serveur
    depuis un accès {term}`SSH` avec la commande suivante :
 
-       members <group>
+       members GROUP
 
-   En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou `members home`.
+   En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou `members home`.
    ```
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))
