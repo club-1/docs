@@ -96,9 +96,18 @@ Si tout s'est bien passé,
 le fichier `known_hosts` doit maintenant contenir une ligne contenant la clef.
 
 Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-terminal)
-sans voir le message d'alerte et il vous faudra alors entrer votre **mot de passe** CLUB1
-(il est normal que le mot de passe ne s'affiche pas au moment de l'écriture 🤫).
+sans voir le message d'alerte et il vous faudra alors entrer votre **mot de passe** CLUB1.
 
+```{attention}
+Lorsque vous tapez votre mot de passe, rien ne s'affiche !
+C'est normal, il s'agit d'une mesure de sécurité
+qui permet de ne même pas révéler le nombre de caractères du mot de passe. 🤫
+```
+
+```{tip}
+Dans une fenêtre de terminal, il est généralement possible de "coller" un texte
+en faisant "Clic droit" --> {guilabel}`Coller`.
+```
 
 Dans le serveur
 ---------------
