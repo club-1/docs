@@ -27,10 +27,10 @@ La fenêtre "Connexion au server" permettant d'ajouter un serveur à partir d'un
 Rentrez l'url Webdav correspondant à votre utilisateur :
 
 
-    https://webdav.club1.fr/files/<login>
+    https://webdav.club1.fr/files/USER
 
 
-En utilisant votre login CLUB1.
+En remplaçant `USER` par votre identifiant CLUB1.
 
 
 Cliquez sur le bouton {guilabel}`+` en bas à gauche de la fenêtre

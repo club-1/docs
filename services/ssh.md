@@ -43,9 +43,9 @@ elle est en revanche moins sécurisée que l'utilisation d'une
 ### S'authentifier par mot de passe
 
 On utilise la commande suivante dans le {term}`terminal` pour se connecter
-(remplacer `<login>` par votre **identifiant** CLUB1) :
+(remplacer `USER` par votre **identifiant** CLUB1) :
 
-    ssh <login>@club1.fr
+    ssh USER@club1.fr
 
 Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas au moment de l'écriture).
 
@@ -63,16 +63,16 @@ il ne faut donc pas hésiter à choisir une longue phrase de passe.
 
 La commande qui suit va permettre d'envoyer la partie publique de la clé vers
 le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
-(remplacer `<login>` par votre **identifiant** CLUB1).
+(remplacer `USER` par votre **identifiant** CLUB1).
 Elle vous demandera d'entrer votre **mot de passe** CLUB1 pour fonctionner.
 
-    ssh-copy-id -i ~/.ssh/id_rsa <login>@club1.fr
+    ssh-copy-id -i ~/.ssh/id_rsa USER@club1.fr
 
 Finalement, on utilise toujours la même commande pour se connecter.
 Mais cette fois c'est les clés qui seront utilisées.
 Si elles ne sont pas déjà déverrouillées, la _phrase de passe_ sera demandée.
 
-    ssh <login>@club1.fr
+    ssh USER@club1.fr
 
 Informations de connexion
 -------------------------

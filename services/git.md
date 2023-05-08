@@ -20,26 +20,26 @@ Tutoriel d'utilisation
 
 Pour utiliser la fonctionnalité de dépôts {logiciel}`Git` publics sur CLUB1, il faut tout
 d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), depuis un ordinateur personnel
-(remplacer `<login>` par votre **identifiant** et `<repo>` par le nom que vous
+(remplacer `USER` par votre **identifiant** et `REPO` par le nom que vous
 voulez donner au dépôt) :
 
-    ssh <login>@club1.fr git init --bare git/<repo>
+    ssh USER@club1.fr git init --bare git/REPO
 
 Dès lors, le dépôt est publié en _lecture seule_ à l'adresse
-`https://git.club1.fr/<login>/<repo>`, mais celui-ci est vide pour le
+`https://git.club1.fr/USER/REPO`, mais celui-ci est vide pour le
 moment. La branche affichée par défaut dans l'interface {term}`Web` est `master`.
 Il est possible de la changer en modifiant le fichier `HEAD` du dépôt.
 Par exemple pour la remplacer par la branche `main` :
 
 ```sh
-echo 'ref: refs/heads/main' | ssh <login>@club1.fr sponge git/<repo>/HEAD
+echo 'ref: refs/heads/main' | ssh USER@club1.fr sponge git/REPO/HEAD
 ```
 
 De la même manière, pour modifier la description du dépôt (cette modification
 ne sera pas forcément visible tout de suite à cause du cache de cgit) :
 
 ```sh
-echo 'ma super description' | ssh <login>@club1.fr sponge git/<repo>/description
+echo 'ma super description' | ssh USER@club1.fr sponge git/REPO/description
 ```
 
 Il y a ensuite deux cas de figure :
@@ -54,7 +54,7 @@ sur votre ordinateur personnel celui qui vient d'être initialisé sur le serveu
 On utilise pour cela l'adresse [SSH](ssh.md) car elle offre un accès en écriture
 au dépôt :
 
-    git clone <login>@club1.fr:git/<repo>
+    git clone USER@club1.fr:git/REPO
 
 ```{note}
 Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce
@@ -67,7 +67,7 @@ Il est désormais possible d'utiliser ce dépôt comme tout autre dépôt {logic
 par exemple :
 
 ```sh
-cd <repo>
+cd REPO
 echo 'Hello World!' >> README
 git add README
 git commit -m "add Hello World README"
@@ -83,7 +83,7 @@ branche désirée, par exemple pour la branche `main` (l'option `--set-upstream`
 permet d'en faire la _remote_ par défaut pour cette branche) :
 
 ```sh
-git remote add club1 <login>@club1.fr:git/<repo>
+git remote add club1 USER@club1.fr:git/REPO
 git push --set-upstream club1 main
 ```
 
