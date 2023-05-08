@@ -104,6 +104,11 @@ C'est normal, il s'agit d'une mesure de sécurité
 qui permet de ne même pas révéler le nombre de caractères du mot de passe ! 🤫
 ```
 
+```{tip}
+Dans une fenêtre de terminal, il est généralement possible de "coller" un texte
+en faisant "Clic droit" --> {guilabel}`Coller`.
+```
+
 Dans le serveur
 ---------------
 
