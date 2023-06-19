@@ -19,6 +19,12 @@ backlinks: entry
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
 est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
 
+### Est-il possible de modifier mon identifiant CLUB1 ?
+
+Il n'y a rien de prévu actuellement pour permettre aux membres de modifier leur [identifiant CLUB1](./info/general.md#identifiant).
+En effet cet identifiant est assez largement utilisé à différents niveaux,
+notamment pour les adresses email, les pages Web statiques et les bases de données.
+
 ### Est-ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et créer plein d'adresses indépendantes ?
 
 Réponse courte : NON
