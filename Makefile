@@ -23,7 +23,7 @@ export LANGUAGES    := $(LOCALE) $(LOCALES)
 export LATEXMKOPTS  := -file-line-error $(if $(CI),,-quiet)
 
 SPHINXLANG      := -D language=$(LOCALE)
-SPHINXOPTS      += -a $(if $(CI),,-q)
+SPHINXOPTS      += $(if $(CI),,-q)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo linkcheck
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
@@ -129,14 +129,16 @@ _static/js/theme.js: _static/js/theme.js.orig
 
 .INTERMEDIATE: _static/js/theme.js.orig;
 
-_static/js/theme.js.orig: Makefile
+_static/js/theme.js.orig:
 	wget -q https://raw.githubusercontent.com/readthedocs/sphinx_rtd_theme/$(RTDVERSION)/src/theme.js -O $@
 
-clean:
+mostlyclean:
 	rm -f $(LOCALEDIR)/*/LC_MESSAGES/*.mo
 	rm -f *.log
 	rm -rf $(BUILDDIR)/*
 	rm -rf _ext/__pycache__
+
+clean: mostlyclean
 	rm -f _static/js/theme.js*
 
 .PHONY: .FORCE
