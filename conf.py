@@ -302,6 +302,9 @@ linkcheck_allowed_redirects = {
     r'https://gnu\.org/licenses/fdl\.html': r'https://www\.gnu\.org/licenses/fdl-[0-9]+\.[0-9]+\.html',
 }
 
+# Set small timeout for broken links.
+linkcheck_timeout = 20
+
 # -- Global setup ------------------------------------------------------------
 def override_html_permalink_icon(app):
     app.config.html_permalinks_icon = "#"
