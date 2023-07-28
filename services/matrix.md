@@ -71,7 +71,7 @@ est d'utiliser *{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mo
 
 On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent dans un naviguateur),
 __Desktop__ (Linux, Windows, MacOS) et __Mobile__ (Android, Iphone).
-[Liste officielle des clients matrix](https://matrix.org/clients/).
+[Liste officielle des clients matrix](https://matrix.org/ecosystem/clients/).
 
 Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisament complet
 pour que cela soit intéressant, à part si vous êtes un&middot;e amoureux&middot;se du {term}`terminal`,
@@ -167,7 +167,7 @@ Logiciels
 {term}`Serveur` {term}`Matrix` écrit en Python.
 Il s'agit de l'implémentation de référence d'un serveur Matrix
 et pour l'instant la seule qui soit annoncée comme "stable".
---- [Sources](https://github.com/matrix-org/synapse), [Site](https://matrix.org/docs/projects/server/synapse)
+--- [Sources](https://github.com/matrix-org/synapse)
 ```
 
 ```{logiciel} Element

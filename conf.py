@@ -296,6 +296,11 @@ Copyright © %s.
 
 # -- Options for linkcheck output --------------------------------------------
 
+# Ignore some links.
+linkcheck_ignore = [
+    r'https://www\.silverstonetek\.com/',
+]
+
 # Allow some redirects.
 linkcheck_allowed_redirects = {
     r'https://github\.com/club-1/docs/edit/.*': r'https://github\.com/login\?return_to=https%3A%2F%2Fgithub\.com%2Fclub-1%2Fdocs%2Fedit%2F.*',
