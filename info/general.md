@@ -113,8 +113,8 @@ Comptes des membres
 
 ### Identifiant
 
-Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,16}$`.
-Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/1).
+Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,17}$`.
+Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/2).
 
 Cet identifiant est principalement utilisé en interne pour la connexion aux services
 et n'est donc pas spécialement visible depuis l'extérieur.
