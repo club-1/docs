@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-08-30 16:27+0200\n"
-"PO-Revision-Date: 2023-03-28 20:41+0000\n"
+"PO-Revision-Date: 2023-08-31 14:51+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -1282,19 +1282,14 @@ msgid "Identifiant"
 msgstr "Username"
 
 #: ../../info/general.md:116
-#, fuzzy
-#| msgid ""
-#| "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
-#| "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
-#| "regex101.com/r/AilLZw/1)."
 msgid ""
 "Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,17}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
 "regex101.com/r/AilLZw/2)."
 msgstr ""
-"The username must respect the regex `^[a-z\\-]{3,16}$`. It is possible to "
-"check that a name respects it using [regex101](https://regex101.com/r/"
-"AilLZw/1)."
+"The username must respect the regex `^[a-z\\-]{3,17}$`. It is possible to "
+"check that a name respects it using [regex101](https://regex101.com/r/AilLZw/"
+"2)."
 
 #: ../../info/general.md:119
 msgid ""
@@ -1385,44 +1380,38 @@ msgstr ""
 
 #: ../../info/infrastructure-materielle.md:1
 msgid "Infrastructure matérielle"
-msgstr ""
+msgstr "Hardware infrastructure"
 
 #: ../../info/infrastructure-materielle.md:4
 msgid "Le serveur est auto-hébergé en France à Pantin."
-msgstr ""
+msgstr "The server is self-hosted in France in Pantin."
 
 #: ../../info/infrastructure-materielle.md:7
 msgid ""
 "Les tickets concernant l'infrastructure matérielle sont regroupés sur le "
 "forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware)."
 msgstr ""
+"Tickets about the hardware infrastructure are grouped on the forum [under "
+"the *hardware* tag](https://forum.club1.fr/t/hardware)."
 
 #: ../../info/infrastructure-materielle.md:11
-#, fuzzy
-#| msgid "Connexion à distance SSH"
 msgid "Connexion à internet"
-msgstr "SSH remote connection"
+msgstr "Internet connection"
 
 #: ../../info/infrastructure-materielle.md:14
-#, fuzzy
-#| msgid ""
-#| "Le serveur est auto-hébergé en France à Pantin. Il est relié à internet "
-#| "par fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/"
-#| "s en descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc). La "
-#| "connexion internet est fournie par Bouygues Telecom."
 msgid ""
 "Il est relié à internet par fibre optique avec des débits moyens de [200Mb/s "
 "en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-"
 "nDOmVdkc). La connexion internet est fournie par *Bouygues Telecom*."
 msgstr ""
-"The server is self-hosted in Pantin, France. It is connected to internet by "
-"optical fiber with average rates of [ 200Mb/s in upload and 500Mb/s in "
-"download](https://www.nperf.com/en/r/338260996-nDOmVdkc). The internet "
-"connection is provided by Bouygues Telecom."
+"It is connected to internet by optical fiber with average rates of [ 200Mb/s "
+"in upload and 500Mb/s in download](https://www.nperf.com/en/r/"
+"338260996-nDOmVdkc). The internet connection is provided by *Bouygues "
+"Telecom*."
 
 #: ../../info/infrastructure-materielle.md:19
 msgid "Onduleur"
-msgstr ""
+msgstr "Uninterruptible power supply"
 
 #: ../../info/infrastructure-materielle.md:22
 msgid ""
