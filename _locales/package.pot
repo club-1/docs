@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-03-27 21:54+0200\n"
+"POT-Creation-Date: 2023-08-30 16:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -664,7 +664,7 @@ msgstr ""
 msgid "Indexes et tables"
 msgstr ""
 
-#: ../../index.md:1 conf.py:229
+#: ../../index.md:1 conf.py:234
 msgid "Documentation de l'hébergement CLUB1"
 msgstr ""
 
@@ -784,7 +784,8 @@ msgid ""
 "changer son nom d'affichage et la couleur de son bouton."
 msgstr ""
 
-#: ../../info/espace-personnel.md:72 ../../info/general.md:121
+#: ../../info/espace-personnel.md:72 ../../info/general.md:107
+#: ../../info/infrastructure-materielle.md:6
 #: ../../info/politique-de-vie-privee.md:6 ../../outils/forum.md:12
 #: ../../services/email.md:32 ../../services/email.md:70
 #: ../../services/email.md:124 ../../services/email.md:208
@@ -802,11 +803,12 @@ msgid ""
 "membre met à jour son fichier de présentation !"
 msgstr ""
 
-#: ../../info/espace-personnel.md:79 ../../services/drive.md:18
-#: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/matrix.md:163
-#: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:85
-#: ../../services/web.md:204 ../../services/webdav.md:52
+#: ../../info/espace-personnel.md:79 ../../outils/ldap.md:59
+#: ../../services/drive.md:18 ../../services/email.md:163
+#: ../../services/ftp.md:51 ../../services/git.md:90
+#: ../../services/matrix.md:163 ../../services/rss.md:57
+#: ../../services/sql.md:56 ../../services/ssh.md:85 ../../services/web.md:204
+#: ../../services/webcast.md:40 ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
 
@@ -876,39 +878,11 @@ msgstr ""
 msgid "c'est le serveur."
 msgstr ""
 
-#: ../../info/general.md:30
-msgid "Matériel et infrastructure"
-msgstr ""
-
 #: ../../info/general.md:32
-msgid ""
-"Le serveur est auto-hébergé en France à Pantin. Il est relié à internet par "
-"fibre optique avec des débits moyens de [200Mb/s en montant et 500Mb/s en "
-"descendant](https://www.nperf.com/fr/r/338260996-nDOmVdkc). La connexion "
-"internet est fournie par Bouygues Telecom."
-msgstr ""
-
-#: ../../info/general.md:36
-msgid "Caractéristiques techniques"
-msgstr ""
-
-#: ../../info/general.md:40
-msgid "Stockage :"
-msgstr ""
-
-#: ../../info/general.md:41
-msgid "SSD Système 300 Go"
-msgstr ""
-
-#: ../../info/general.md:42
-msgid "SSD Utilisateurs 1 To"
-msgstr ""
-
-#: ../../info/general.md:46
 msgid "Système d'exploitation"
 msgstr ""
 
-#: ../../info/general.md:48
+#: ../../info/general.md:34
 msgid ""
 "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
 "régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
@@ -918,31 +892,31 @@ msgid ""
 "org/fr/stable/needrestart)."
 msgstr ""
 
-#: ../../info/general.md:54
+#: ../../info/general.md:40
 msgid "Logiciels et bibliothèques installés"
 msgstr ""
 
-#: ../../info/general.md:56
+#: ../../info/general.md:42
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
 "ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
 msgstr ""
 
-#: ../../info/general.md:59
+#: ../../info/general.md:45
 msgid "BIOS/BMC Supermicro"
 msgstr ""
 
-#: ../../info/general.md:60
+#: ../../info/general.md:46
 msgid "Microcode Intel"
 msgstr ""
 
-#: ../../info/general.md:62
+#: ../../info/general.md:48
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
 msgstr ""
 
-#: ../../info/general.md:79
+#: ../../info/general.md:65
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -950,11 +924,11 @@ msgid ""
 "(#demandes-et-incidents)."
 msgstr ""
 
-#: ../../info/general.md:83
+#: ../../info/general.md:69
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../info/general.md:85
+#: ../../info/general.md:71
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -964,17 +938,17 @@ msgid ""
 "devrait pouvoir être assurée."
 msgstr ""
 
-#: ../../info/general.md:92
+#: ../../info/general.md:78
 msgid ""
-"Il est possible de consulter en direct l'état des différents services à "
-"cette adresse : <https://status.club1.fr/>"
+"Il est possible de consulter en direct l'état des différents services sur "
+"[UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)"
 msgstr ""
 
-#: ../../info/general.md:95
+#: ../../info/general.md:81
 msgid "Sauvegardes"
 msgstr ""
 
-#: ../../info/general.md:101
+#: ../../info/general.md:87
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
@@ -983,21 +957,21 @@ msgid ""
 "auto-hébergé à Paris)."
 msgstr ""
 
-#: ../../info/general.md:106
+#: ../../info/general.md:92
 msgid ""
 "Il s'agit de sauvegardes incrémentales avec la politique de rétention "
 "suivante :"
 msgstr ""
 
-#: ../../info/general.md:108
+#: ../../info/general.md:94
 msgid "7 sauvegardes journalières"
 msgstr ""
 
-#: ../../info/general.md:109
+#: ../../info/general.md:95
 msgid "4 sauvegardes hebdomadaires"
 msgstr ""
 
-#: ../../info/general.md:111
+#: ../../info/general.md:97
 msgid ""
 "La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
 "des jours de la dernière semaine est accessible. En cas de défaillance "
@@ -1006,40 +980,40 @@ msgid ""
 "healthchecks.io/)"
 msgstr ""
 
-#: ../../info/general.md:116
+#: ../../info/general.md:102
 msgid "Les sauvegardes sont réparties en deux groupes :"
 msgstr ""
 
-#: ../../info/general.md:118
+#: ../../info/general.md:104
 msgid ""
 "**System** pour la configuration du serveur, les fichiers des applications "
 "et les bases de données."
 msgstr ""
 
-#: ../../info/general.md:119
+#: ../../info/general.md:105
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr ""
 
-#: ../../info/general.md:122
+#: ../../info/general.md:108
 msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 
-#: ../../info/general.md:125
+#: ../../info/general.md:111
 msgid "Comptes des membres"
 msgstr ""
 
-#: ../../info/general.md:128 ../../services/matrix.md:31
+#: ../../info/general.md:114 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr ""
 
-#: ../../info/general.md:130
+#: ../../info/general.md:116
 msgid ""
-"Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,16}$`. Il est "
+"Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,17}$`. Il est "
 "possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
-"regex101.com/r/AilLZw/1)."
+"regex101.com/r/AilLZw/2)."
 msgstr ""
 
-#: ../../info/general.md:133
+#: ../../info/general.md:119
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1049,61 +1023,61 @@ msgid ""
 "services/git.md)."
 msgstr ""
 
-#: ../../info/general.md:139
+#: ../../info/general.md:125
 msgid "Modalités des comptes"
 msgstr ""
 
-#: ../../info/general.md:141
+#: ../../info/general.md:127
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
 
-#: ../../info/general.md:144
+#: ../../info/general.md:130
 msgid "Un compte membre comporte donc :"
 msgstr ""
 
-#: ../../info/general.md:146
+#: ../../info/general.md:132
 msgid "de l'espace de stockage SSD"
 msgstr ""
 
-#: ../../info/general.md:147
+#: ../../info/general.md:133
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:148
+#: ../../info/general.md:134
 msgid "un accès FTP"
 msgstr ""
 
-#: ../../info/general.md:149
+#: ../../info/general.md:135
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr ""
 
-#: ../../info/general.md:150
+#: ../../info/general.md:136
 msgid "des bases de données (MariaDb)"
 msgstr ""
 
-#: ../../info/general.md:151
+#: ../../info/general.md:137
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:152
+#: ../../info/general.md:138
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr ""
 
-#: ../../info/general.md:153
+#: ../../info/general.md:139
 msgid ""
 "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
 msgstr ""
 
-#: ../../info/general.md:155
+#: ../../info/general.md:141
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr ""
 
-#: ../../info/general.md:158
+#: ../../info/general.md:144
 msgid "Contact"
 msgstr ""
 
@@ -1113,6 +1087,274 @@ msgstr ""
 
 #: ../../info/index.md:4
 msgid "Tout savoir sur l'organisation et le fonctionnement du serveur."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:1
+msgid "Infrastructure matérielle"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:4
+msgid "Le serveur est auto-hébergé en France à Pantin."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:7
+msgid ""
+"Les tickets concernant l'infrastructure matérielle sont regroupés sur le "
+"forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware)."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:11
+msgid "Connexion à internet"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:14
+msgid ""
+"Il est relié à internet par fibre optique avec des débits moyens de [200Mb/s "
+"en montant et 500Mb/s en descendant](https://www.nperf.com/fr/r/338260996-"
+"nDOmVdkc). La connexion internet est fournie par *Bouygues Telecom*."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:19
+msgid "Onduleur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:22
+msgid ""
+"Un onduleur, c'est avant tout **une multiprise**, mais avec quelques "
+"fonctions supplémentaires, notamment :"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:25
+msgid ""
+"la protection contre les sur-tensions ou sous-tensions, par exemple en cas "
+"d'orages."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:26
+msgid ""
+"le maintien de l'alimentation électrique en cas de coupure de courant (grâce "
+"à sa batterie interne)."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:28
+msgid ""
+"la communication avec le serveur pour lui dire de s'éteindre \"proprement\" "
+"lorsque le courant de revient pas et qu'il n'a bientôt plus de batterie."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:31
+msgid ""
+"Il est branché en amont de tout le matériel informatique et son rôle est "
+"donc de leur fournir une **alimentation électrique de qualité**."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:34
+msgid ""
+"Notre modèle : `5P650IR` de la marque *EATON* [Specifications sur le site du "
+"constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications."
+"html)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:37
+msgid ""
+"Nous l'avons sélectionné, entre autre, car c'est la plus faible puissance "
+"(420W) parmi la gamme pro de chez *EATON*. Le prix de ce matériel est assez "
+"élevé (un peu plus de 300€). Auparavant, nous avions acheté en occasion un "
+"modèle plus bas de gamme pour 40€. Celui-ci est tombé en panne après un an "
+"d'utilisation."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:43
+msgid ""
+"![Face avant de l'onduleur](infrastructure-materielle/eaton-5p650ir-face.png)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:43
+msgid "Face avant de l'onduleur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:45
+msgid ""
+"Il s'agit d'un modèle rackable d'une hauteur de 1U. Un petit écran permet "
+"d'accéder à quelques statistiques et réglages. Il indique par exemple la "
+"consommation électrique de l'ensemble de l'infrastructure en Watts."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:50
+msgid ""
+"![Face arrière de l'onduleur](infrastructure-materielle/eaton-5p650ir-dos."
+"png)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:50
+msgid "Face arrière de l'onduleur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:52
+msgid ""
+"De gauche à droite : l'arrivée du courant électrique, les ports de "
+"communication avec le serveur, puis les quatre sorties électrique "
+"bénéficiant des avantages de l'onduleur."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:56
+msgid "Entretien"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:58
+msgid ""
+"Les batteries internes sont garanties de 3 à 5 ans. Leur changement se fait "
+"par la face avant de l'appareil. Il n'est donc pas nécessaire de le dévisser "
+"ni de le débrancher lors de cette opération."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:64 ../../services/matrix.md:23
+msgid "Serveur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:68
+msgid "Boitier"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:70
+msgid ""
+"Modèle : `SilverStone RM21-304` [Site du constructeur](https://www."
+"silverstonetek.com/fr/product/info/server-nas/RM21-304/)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:73
+msgid ""
+"![vue en perspective du boitier](infrastructure-materielle/rm21-304-face.png)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:73
+msgid "vue en perspective du boitier"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:75
+msgid "Boitier rackable d'un hauteur de 2U."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:77
+msgid "Refroidissement"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:79
+msgid ""
+"L'un de nos intérêts pour se boîtier était la qualité de son "
+"refroidissement. Il dispose de trois emplacements pour ventilateurs 80mm. "
+"Les ventilateurs par défaut ont été remplacés par des modèles plus "
+"silencieux de la marque *Noctua*."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:84
+msgid "Ancien boitier"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:87
+msgid ""
+"Précédement, nous utilisions un boitier `Chenbro ES34169`, qui était plus "
+"compact, mais n'était pas rackable et moins bien refroidi. Un [article du "
+"journal de bord](https://club1.fr/nouveau-boitier) retrace cette évolution."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:91
+msgid "Carte mère"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:93
+msgid ""
+"Modèle : `Supermicro A2SDi-4C-HLN4F` [Site du constructeur](https://www."
+"supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:96
+msgid "![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:96
+msgid "carte mère vue du dessus"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:98
+msgid "Processeur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:100
+msgid "Modèle : `Intel Atom C3000`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:102
+msgid "Processeur quadri-c&oelig;ur à faible consommation."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:104
+msgid "Mémoire vive"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:106
+msgid "Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:108
+msgid ""
+"Le serveur dispose d'une unique barrette de 16 Go DDR4 ECC, parmi les quatre "
+"emplacements fournis par la [carte mère](#carte-mère). Cela laisse de la "
+"place pour augmenter cette capacité si nécessaire."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:113
+msgid "Stockage"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:115
+msgid "Il est composé de trois supports de stockage distincts :"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:117
+msgid "système"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:119
+msgid "un SSD SATA de 300Go. `Crucial`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:121
+msgid "Utilisateurs"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:123
+msgid "un SSD SATA de 1To. `Samsung EVO 860`."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:125
+msgid ""
+"Un [article dans le journal de bord](https://club1.fr/ssd-home) raconte son "
+"arrivée dans le serveur."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:127
+msgid ""
+"C'est ici que se situe [l'espace personnel](/info/espace-personnel.md) des "
+"membres du club."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:129
+msgid "Stockage secondaire"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:131
+msgid ""
+"Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](./"
+"general.md#sauvegardes)."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:133
+msgid "Alimentation"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:135
+msgid "`FSP250-60EGA 90+`"
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:1
@@ -1546,6 +1788,119 @@ msgid ""
 "CLUB1."
 msgstr ""
 
+#: ../../outils/ldap.md:1
+msgid "Annuaire LDAP"
+msgstr ""
+
+#: ../../outils/ldap.md:0
+msgid "LDAP"
+msgstr ""
+
+#: ../../outils/ldap.md:6
+msgid ""
+"(_Lightweight Directory Access Protocol_) {term}`Protocole` de service "
+"d'annuaire décrivant à la fois un modèle de données et la manière "
+"d'interroger et de modifier ces données."
+msgstr ""
+
+#: ../../outils/ldap.md:9
+msgid ""
+"Un annuaire LDAP est une sorte de base de données avec une structure "
+"hierarchique, arborescente, permettant de relier des informations à des "
+"noms. En général des comptes ou des groupes d'utilisateurs ou d'ordinateurs, "
+"appartenant à une organisation."
+msgstr ""
+
+#: ../../outils/ldap.md:15
+msgid ""
+"Le schéma de données n'est pas fixé, il faut donc le connaitre, avant de "
+"pouvoir interagir avec un annuaire LDAP."
+msgstr ""
+
+#: ../../outils/ldap.md:19
+msgid ""
+"CLUB1 utilise un annuaire {term}`LDAP` pour stocker les comptes de ses "
+"membres de manière centralisée. C'est ce qui permet de mettre en commun les "
+"identifiants de connexion entre les différents [services membres](/services-"
+"membres.md)."
+msgstr ""
+
+#: ../../outils/ldap.md:25
+msgid "Détails de configuration"
+msgstr ""
+
+#: ../../outils/ldap.md:28
+msgid "Cette section décrit les spécificités de la configuration de CLUB1."
+msgstr ""
+
+#: ../../outils/ldap.md:31
+msgid "Schéma de données LDAP"
+msgstr ""
+
+#: ../../outils/ldap.md:46 ../../services/email.md:142 ../../services/ftp.md:41
+#: ../../services/sql.md:45 ../../services/ssh.md:77
+#: ../../services/webcast.md:30
+msgid "Informations de connexion"
+msgstr ""
+
+#: ../../outils/ldap.md:49
+msgid ""
+"L'annuaire LDAP de CLUB1 n'est pas public, il est accessible uniquement en "
+"local depuis le serveur."
+msgstr ""
+
+#: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
+#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/webcast.md:11
+msgid "champ"
+msgstr ""
+
+#: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
+#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/webcast.md:11
+msgid "valeur"
+msgstr ""
+
+#: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
+#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/webcast.md:11
+msgid "hôte"
+msgstr ""
+
+#: ../../outils/ldap.md:31 ../../services/sql.md:4
+msgid "`localhost`"
+msgstr ""
+
+#: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
+#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/webcast.md:11
+msgid "port"
+msgstr ""
+
+#: ../../outils/ldap.md:31
+msgid "`389` (par défaut)"
+msgstr ""
+
+#: ../../outils/ldap.md:31
+msgid "non"
+msgstr ""
+
+#: ../../outils/ldap.md:63
+msgid ""
+"{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
+"une implémentation libre du protocole LDAP. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/OpenLDAP), [Sources](https://git.openldap.org/openldap/"
+"openldap)"
+msgstr ""
+
+#: ../../outils/ldap.md:70
+msgid ""
+"{term}`Serveur` connectant les systèmes d'authentification (PAM) et de "
+"gestion des sources de données (NSS) à l'annuaire {term}`LDAP`. --- [Site]"
+"(https://arthurdejong.org/nss-pam-ldapd/), [Sources](https://arthurdejong."
+"org/git/nss-pam-ldapd/)"
+msgstr ""
+
 #: ../../outils/meta-doc.md:1
 msgid "Meta-documentation"
 msgstr ""
@@ -1789,22 +2144,32 @@ msgid ""
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
 
+#: ../../outils/meta-doc.md:9
+msgid "Graphviz"
+msgstr ""
+
 #: ../../outils/meta-doc.md:161
+msgid ""
+"Outils de génération de graphes visuels à partir d'une déscription en "
+"language DOT. --- [Wikipedia](https://fr.wikipedia.org/wiki/Graphviz)"
+msgstr ""
+
+#: ../../outils/meta-doc.md:165
 msgid ""
 "Extension {term}`Sphinx` permettant la prise en charge du {term}`Markdown`."
 msgstr ""
 
-#: ../../outils/meta-doc.md:164
+#: ../../outils/meta-doc.md:168
 msgid "Extension {term}`Sphinx` fournissant le thème {term}`HTML` ReadTheDocs."
 msgstr ""
 
-#: ../../outils/meta-doc.md:167
+#: ../../outils/meta-doc.md:171
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` permettant de générer une page "
 "d'erreur 404 personnalisée dont les liens sont absolus."
 msgstr ""
 
-#: ../../outils/meta-doc.md:170
+#: ../../outils/meta-doc.md:174
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` ajoutant à chaque page sa date de "
 "dernière modification à partir de l'historique {logiciel}`Git` de la "
@@ -1812,66 +2177,66 @@ msgid ""
 "by-git)"
 msgstr ""
 
-#: ../../outils/meta-doc.md:175
+#: ../../outils/meta-doc.md:179
 msgid ""
 "_(Optionnel)_ Extension {term}`Sphinx` ajoutant un bouton sur les blocs de "
 "code pour en copier le contenu. --- [Sources](https://github.com/"
 "executablebooks/sphinx-copybutton)"
 msgstr ""
 
-#: ../../outils/meta-doc.md:180
+#: ../../outils/meta-doc.md:184
 msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr ""
 
-#: ../../outils/meta-doc.md:183 ../../outils/meta-doc.md:210
+#: ../../outils/meta-doc.md:187 ../../outils/meta-doc.md:214
 msgid "Installation sur *Debian* :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:188
+#: ../../outils/meta-doc.md:192
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
 msgstr ""
 
-#: ../../outils/meta-doc.md:192
+#: ../../outils/meta-doc.md:196
 msgid "Gestionnaire de compilation de documents LaTeX."
 msgstr ""
 
-#: ../../outils/meta-doc.md:195
+#: ../../outils/meta-doc.md:199
 msgid "Moteur de rendu TeX scriptable en Lua."
 msgstr ""
 
-#: ../../outils/meta-doc.md:198
+#: ../../outils/meta-doc.md:202
 msgid "Distribution LaTeX comprenant un ensemble de paquets supplémentaires."
 msgstr ""
 
-#: ../../outils/meta-doc.md:201
+#: ../../outils/meta-doc.md:205
 msgid "Police de caractères utilisée pour le texte monospace."
 msgstr ""
 
-#: ../../outils/meta-doc.md:204
+#: ../../outils/meta-doc.md:208
 msgid "Générateur d'index internationnalisé pour LaTeX."
 msgstr ""
 
-#: ../../outils/meta-doc.md:207
+#: ../../outils/meta-doc.md:211
 msgid "Outil pour manipuler des images en {term}`CLI`."
 msgstr ""
 
-#: ../../outils/meta-doc.md:214
+#: ../../outils/meta-doc.md:218
 msgid "Commandes"
 msgstr ""
 
-#: ../../outils/meta-doc.md:216
+#: ../../outils/meta-doc.md:220
 msgid "Compilation en un site statique dans `_build/html` :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:220
+#: ../../outils/meta-doc.md:224
 msgid "Compilation d'une locale spécifique :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:224
+#: ../../outils/meta-doc.md:228
 msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:228
+#: ../../outils/meta-doc.md:232
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils "
@@ -1880,11 +2245,11 @@ msgid ""
 "commentaire suivant juste au dessus du la ligne `msgid \"...\"` :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:238
+#: ../../outils/meta-doc.md:242
 msgid "Déploiement de la version Web"
 msgstr ""
 
-#: ../../outils/meta-doc.md:241
+#: ../../outils/meta-doc.md:245
 msgid ""
 "Un serveur HTTP {logiciel}`Apache` est requis pour le déploiement de la "
 "version {term}`Web` de la documentation. Ci-dessous se trouve un exemple de "
@@ -1892,7 +2257,7 @@ msgid ""
 "docs` et où on veut la servir sous `/docs/` :"
 msgstr ""
 
-#: ../../outils/meta-doc.md:261 ../../tutos/presentation.md:19
+#: ../../outils/meta-doc.md:265 ../../tutos/presentation.md:19
 msgid "Metadonnées"
 msgstr ""
 
@@ -2199,11 +2564,6 @@ msgid ""
 "dans votre **espace personnel** :"
 msgstr ""
 
-#: ../../services/email.md:142 ../../services/ftp.md:41
-#: ../../services/sql.md:45 ../../services/ssh.md:77
-msgid "Informations de connexion"
-msgstr ""
-
 #: ../../services/email.md:145
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
@@ -2214,28 +2574,8 @@ msgstr ""
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:28
-msgid "champ"
-msgstr ""
-
-#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:28
-msgid "valeur"
-msgstr ""
-
-#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:28
-msgid "hôte"
-msgstr ""
-
 #: ../../services/email.md:124
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
-msgstr ""
-
-#: ../../services/email.md:124 ../../services/ftp.md:4 ../../services/sql.md:4
-#: ../../services/ssh.md:28
-msgid "port"
 msgstr ""
 
 #: ../../services/email.md:124
@@ -2384,6 +2724,7 @@ msgid ""
 msgstr ""
 
 #: ../../services/ftp.md:4 ../../services/ssh.md:28
+#: ../../services/webcast.md:11
 msgid "`club1.fr`"
 msgstr ""
 
@@ -2568,10 +2909,6 @@ msgid ""
 "transparente aux salons provenant d'autres serveur si ils le souhaitent."
 msgstr ""
 
-#: ../../services/matrix.md:23
-msgid "Serveur"
-msgstr ""
-
 #: ../../services/matrix.md:25
 msgid ""
 "Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
@@ -2640,7 +2977,7 @@ msgid ""
 "On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent "
 "dans un naviguateur), __Desktop__ (Linux, Windows, MacOS) et __Mobile__ "
 "(Android, Iphone). [Liste officielle des clients matrix](https://matrix.org/"
-"clients/)."
+"ecosystem/clients/)."
 msgstr ""
 
 #: ../../services/matrix.md:76
@@ -2747,10 +3084,10 @@ msgstr ""
 msgid ""
 "Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur, "
 "cependant pour se faire un avis, il est possible de consulter les "
-"statistiques de disponibilité du serveur Matrix et de Riot à cette adresse : "
-"[status.club1.fr](https://status.club1.fr/). Des mises-à-jour sont "
-"effectuées régulièrement pour avoir la dernière version de Matrix et Riot et "
-"ainsi éviter des bugs ou failles de sécurité."
+"[statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du "
+"serveur Matrix et de Riot. Des mises-à-jour sont effectuées régulièrement "
+"pour avoir la dernière version de Matrix et Riot et ainsi éviter des bugs ou "
+"failles de sécurité."
 msgstr ""
 
 #: ../../services/matrix.md:147
@@ -2784,7 +3121,7 @@ msgid ""
 "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
 "l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
 "qui soit annoncée comme \"stable\". --- [Sources](https://github.com/matrix-"
-"org/synapse), [Site](https://matrix.org/docs/projects/server/synapse)"
+"org/synapse)"
 msgstr ""
 
 #: ../../services/matrix.md:174
@@ -2973,10 +3310,6 @@ msgid ""
 "L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis "
 "l'extérieur. Il n'est donc possible de s'y connecter que depuis un processus "
 "s'executant sur le même serveur."
-msgstr ""
-
-#: ../../services/sql.md:4
-msgid "`localhost`"
 msgstr ""
 
 #: ../../services/sql.md:4
@@ -3477,6 +3810,72 @@ msgid ""
 "`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
 "d'exécuter PHP avec différents utilisateurs. --- [Sources](https://github."
 "com/php/php-src/tree/master/sapi/fpm)"
+msgstr ""
+
+#: ../../services/webcast.md:1
+msgid "Émissions Web (audio/vidéo) via Icecast (beta)"
+msgstr ""
+
+#: ../../services/webcast.md:5
+msgid ""
+"Ce service est en \"beta\" sur CLUB1, ce qui signifie qu'il risque de "
+"changer de configuration ou même d'être supprimé dans le futur."
+msgstr ""
+
+#: ../../services/webcast.md:0
+msgid "webdiffusion"
+msgstr ""
+
+#: ../../services/webcast.md:13
+msgid ""
+"Désigne la diffusion de contenus audio et/ou vidéo via le {term}`Web`. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)"
+msgstr ""
+
+#: ../../services/webcast.md:17
+msgid ""
+"Un service de {term}`webdiffusion` en continu est mis à disposition des "
+"membres. Il permet par exemple de créer des émissions de radio sur {term}"
+"`Internet`. Ce service est basé sur le logiciel {logiciel}`Icecast` et est "
+"accessible à l'adresse <https://club1.fr:8000>."
+msgstr ""
+
+#: ../../services/webcast.md:22
+msgid ""
+"Il est possible de consulter cette page depuis un navigateur {term}`Web` "
+"mais elle ne permettra que d'afficher la liste des émissions en cours et "
+"d'en lire les contenus. Pour diffuser des contenus en tant que source, il "
+"est nécessaire d'utiliser un {term}`client` dédié (par exemple [butt]"
+"(https://danielnoethen.de/butt/)). Pour la lecture, un client dédié (par "
+"exemple [VLC](https://fr.wikipedia.org/wiki/VLC_media_player)) pourra tout "
+"de même apporter un meilleur confort."
+msgstr ""
+
+#: ../../services/webcast.md:11
+msgid "`8000`"
+msgstr ""
+
+#: ../../services/webcast.md:11
+msgid "type"
+msgstr ""
+
+#: ../../services/webcast.md:11
+msgid "Icecast"
+msgstr ""
+
+#: ../../services/webcast.md:11
+msgid "SSL/TLS"
+msgstr ""
+
+#: ../../services/webcast.md:11
+msgid "Oui"
+msgstr ""
+
+#: ../../services/webcast.md:44
+msgid ""
+"{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
+"xiph.org/xiph/icecast-server)"
 msgstr ""
 
 #: ../../services/webdav.md:1
@@ -4497,33 +4896,45 @@ msgstr ""
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
-"**mot de passe** CLUB1 (il est normal que le mot de passe ne s'affiche pas "
-"au moment de l'écriture 🤫)."
+"**mot de passe** CLUB1."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:103
+#: ../../tutos/premiere-connexion-ssh.md:102
+msgid ""
+"Lorsque vous tapez votre mot de passe, rien ne s'affiche ! C'est normal, il "
+"s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
+"de caractères du mot de passe. 🤫"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:108
+msgid ""
+"Dans une fenêtre de terminal, il est généralement possible de \"coller\" un "
+"texte en faisant \"Clic droit\" --> {guilabel}`Coller`."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:112
 msgid "Dans le serveur"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:106
+#: ../../tutos/premiere-connexion-ssh.md:115
 msgid ""
 "Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
 "C'est un accès privilégié, car c'est celui qui vous donne le plus de "
 "libertés d'interactions avec le serveur."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:110
+#: ../../tutos/premiere-connexion-ssh.md:119
 msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:113
+#: ../../tutos/premiere-connexion-ssh.md:122
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
 "connexion à tous les [services](/services-membres.md)). --- Manuel : "
 "{manpage}`passwd.1`"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:119
+#: ../../tutos/premiere-connexion-ssh.md:128
 msgid ""
 "Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
 "les ressources sont utilisées. Pressez la touche {kbd}`Q` pour quitter. --- "
@@ -4637,7 +5048,7 @@ msgstr ""
 msgid ""
 "Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
-"charger essentiellement de la synchro : __DAVx5__."
+"charger essentiellement de la synchro : __DAVx{sup}`5`__."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:11
@@ -4664,7 +5075,7 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:22
 msgid ""
-"Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
+"Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
 
@@ -4719,7 +5130,7 @@ msgid "capture d'écran accueil"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:68
-msgid "Écran d'accueil de DAVx5."
+msgid "Écran d'accueil de DAVx{sup}`5`."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:71
@@ -4746,13 +5157,13 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:89
 msgid ""
-"Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un nom "
-"pour ce compte qui risque fortement de ressembler à votre adresse email "
-"CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on identifie "
-"un couple `user@server`. Un dernier petit détail : Il est recommandé "
-"d'utiliser la méthode \"Les groupes sont des catégories pour chacun des "
-"contacts\" pour être compatible avec le client web mail de CLUB1 ({numref}"
-"`fig:tutos-webdav-android-groupes`)."
+"Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer "
+"un nom pour ce compte qui risque fortement de ressembler à votre adresse "
+"email CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on "
+"identifie un couple `user@server`. Un dernier petit détail : Il est "
+"recommandé d'utiliser la méthode \"Les groupes sont des catégories pour "
+"chacun des contacts\" pour être compatible avec le client web mail de CLUB1 "
+"({numref}`fig:tutos-webdav-android-groupes`)."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:102
@@ -4769,11 +5180,11 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:107
 msgid ""
-"DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
-"vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-webdav-"
-"android-selection`). Pour cela, il suffit de les cocher en naviguant entre "
-"les onglets \"Carnets d'adresses\" et \"Agendas\". Il sera toujours possible "
-"d'accéder et modifier ces réglages  plus tard très facilement."
+"DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers "
+"que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
+"webdav-android-selection`). Pour cela, il suffit de les cocher en naviguant "
+"entre les onglets \"Carnets d'adresses\" et \"Agendas\". Il sera toujours "
+"possible d'accéder et modifier ces réglages  plus tard très facilement."
 msgstr ""
 
 #: ../../tutos/webdav-android.md:118
@@ -4986,16 +5397,16 @@ msgid "%s, Membres de CLUB1"
 msgstr ""
 
 #. Title used for BibTeX citation
-#: conf.py:137
+#: conf.py:138
 #, python-brace-format
 msgid "Documentation {CLUB1}"
 msgstr ""
 
 #. Add custom 'software' directive and refs
-#: conf.py:307 conf.py:308
+#: conf.py:320 conf.py:321
 msgid "logiciel"
 msgstr ""
 
-#: conf.py:309 conf.py:310
+#: conf.py:322 conf.py:323
 msgid "commande"
 msgstr ""
