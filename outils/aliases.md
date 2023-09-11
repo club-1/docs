@@ -60,3 +60,18 @@ mais il existe quelques différences :
 4. La commande pour regénérer la base de données est :
 
        /usr/sbin/postmap hash:/etc/aliases_senders
+
+Utilisation avancée
+-------------------
+
+Comme indiqué précédemment, le fichier d'alias de réception `/etc/aliases` respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/aliases.5.html).
+En plus de rediriger les emails vers d'autres adresses,
+elle permet de les envoyer vers des fichiers ou des commandes.
+Dans ce cas, il faut faire attention aux permissions requises
+pour créer les fichiers et exécuter les commandes.
+Ces actions sont réalisées avec les droits de l'utilisateur correspondant à l'alias s'il existe
+et sinon, sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`.
+
+```{admonition} Voir aussi
+La [section "Delivery Rights" de la page local du manuel de Postfix](https://manpages.debian.org/stable/postfix/local.8postfix.en.html#DELIVERY_RIGHTS).
+```
