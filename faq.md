@@ -1,7 +1,7 @@
 Foire aux questions
 ===================
 
-Reponses aux questions fréquemment posées par rapport au serveur CLUB1.
+Réponses aux questions fréquemment posées par rapport au serveur CLUB1.
 
 Questions
 ---------
@@ -19,7 +19,7 @@ backlinks: entry
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
 est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
 
-### Est ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et créer plein d'adresses indépendantes ?
+### Est-ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et créer plein d'adresses indépendantes ?
 
 Réponse courte : NON
 

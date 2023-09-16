@@ -32,7 +32,7 @@ Pour transferer de plus gros fichiers, il vaut mieux se tourner vers le service 
 Carnets d'adresses et calendriers
 ----------------------------------
 
-Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail.club1.fr>)
+Le {term}`client Web` utilisé pour les [emails](email.md) (<https://mail.club1.fr>)
 permet aussi d'accéder aux carnets d'adresses et calendriers WebDAV.
 Depuis cette interface, il est possible de consulter et éditer ses contacts et calendriers CLUB1.
 

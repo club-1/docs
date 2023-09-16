@@ -23,13 +23,13 @@ peuvent ainsi produire des résultats différents.
 ### Sites Web _statiques_
 
 Ce type de site web est constitué uniquement de fichiers que le serveur va servir en fonction des requêtes.
-Cela ne demande presque aucun "travail" au processeur car il n'y a pas de calcul à effectuer.
+Cela ne demande presque aucun "travail" au processeur, car il n'y a pas de calcul à effectuer.
 Les sites statiques sont une voie intéressante pour qui cherche à proposer des sites plus sobres énergétiquement.
 
 Pour créer un site web statique, on peut écrire soi-même du code HTML,
 associé avec des images, sons ou vidéos.
 C'est la façon la plus artisanale de faire un site web.
-Elle garantie des styles uniques et originaux et est très efficace pour apprendre comment fonctionne le web.
+Elle garantit des styles uniques et originaux et est très efficace pour apprendre comment fonctionne le web.
 
 ```{tip}
 - Pour apprendre à coder en HTML et CSS, on recommande souvent le
@@ -42,7 +42,7 @@ Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer.
 Pour ça il est conseillé de se tourner vers les [générateurs de sites statiques](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_site_statique)
 Ces outils peuvent générer les fichiers HTML d'un site, par exemple à partir de fichiers {term}`Markdown`,
 sur votre ordinateur personnel.
-A chaque fois qu'une mise à jour est nécessaire, il n'y a qu'à relancer le processus et
+À chaque fois qu'une mise à jour est nécessaire, il n'y a qu'à relancer le processus et
 copier les fichiers ainsi créés sur le serveur.
 
 #### Dossier `static/`
@@ -73,7 +73,7 @@ Le tutoriel "[](/tutos/mes-premiers-pas-sur-le-web.md)" pour apprendre à faire 
 
 ### Sites Web _dynamiques_
 
-Ce type de site web utilise du code logique qui s'execute sur le serveur.
+Ce type de site web utilise du code logique qui s'exécute sur le serveur.
 Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu).
 Et peut notamment nécessiter l'utilisation de [bases de données SQL](sql.md)
 Pour ces sites web, il faut obligatoirement passer par la création d'un [nom de domaine](#noms-de-domaines).
@@ -173,7 +173,7 @@ ce qui n'est pas anodin. Donc pour l'instant, mollo sur les sous.sous.domaines �
 ### Louer un nom de domaine externe
 
 Il est possible de louer un nom de domaine chez un {term}`registraire`.
-Cela coûte souvent une dizaine d'euros par an mais cela peut varier en fonction du {term}`TLD` choisi.
+Cela coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction du {term}`TLD` choisi.
 
 Nous recommandons [Gandi.net](https://www.gandi.net/fr/domain), pour son soutient à divers projets libres.
 
@@ -185,7 +185,7 @@ et ça vaut le coup d'en parler pour que tout se passe bien.
 Gestion
 -------
 
-Aucune de ces actions ne sont automatisés ni accessibles via une interface web.
+Aucune de ces actions n'est automatisée ni accessibles via une interface web.
 Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** 🍺 !
 Cela fait partie de l'aspect artisanal et de l'échelle volontairement humaine de la gestion du serveur.
 

@@ -2,8 +2,8 @@ Explorateur de fichiers Web *Drive*
 ===================================
 
 Le _**Drive**_ CLUB1 est un explorateur de fichiers utilisable à travers un navigateur {term}`Web`.
-Il permet d'acceder à son **espace personnel** sans avoir besoin d'installer ou de configurer une application native.
-Il est donc très utile lorsque l'on est pas sur son ordinateur personnel.
+Il permet d'accéder à son **espace personnel** sans avoir besoin d'installer ou de configurer une application native.
+Il est donc très utile lorsque l'on n'est pas sur son ordinateur personnel.
 
 ![capture d'écran WebDav drive](drive/webdav_drive.png)
 

@@ -18,14 +18,14 @@ Principes généraux
 
 Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`.
 Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisateurs,
-mais aussi de se connecter de façon transparente aux salons provenant d'autres serveur si ils le souhaitent.
+mais aussi de se connecter de façon transparente aux salons provenant d'autres serveurs si ils le souhaitent.
 
 ### Serveur
 
 Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke les échanges de messages.
 Chez CLUB1, l'adresse de notre serveur est tout simplement `club1.fr` ou `https://club1.fr`.
 Inutile d'aller voir à cette adresse,
-il vous faudra un [client](#client-interfaces-de-connexion) pour accèder à l'interface de messagerie.
+il vous faudra un [client](#client-interfaces-de-connexion) pour accéder à l'interface de messagerie.
 
 
 ### Identifiant
@@ -37,7 +37,7 @@ Le symbole `:` est donc utilisé pour séparer l'identifiant du serveur :
 
     @baby:club1.fr
 
-Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auxquel le compte est rataché.
+Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auquel le compte est rattaché.
 
 
 
@@ -62,20 +62,20 @@ d'interdire l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en
 
 Comme pour les emails, il est aussi possible de choisir son {term}`client`,
 son interface, pour se connecter à Matrix.
-Il en existe pour tout les goûts, mais la plupart sont encore en cours de développement.
-A l'heure actuelle, __la façon la plus simple et fiable de converser via Matrix
+Il en existe pour tous les goûts, mais la plupart sont encore en cours de développement.
+À l'heure actuelle, __la façon la plus simple et fiable de converser via Matrix
 est d'utiliser *{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mobile.
 
 [__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)
 
 
-On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent dans un naviguateur),
+On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent dans un navigateur),
 __Desktop__ (Linux, Windows, MacOS) et __Mobile__ (Android, Iphone).
 [Liste officielle des clients matrix](https://matrix.org/ecosystem/clients/).
 
-Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisament complet
+Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisamment complet
 pour que cela soit intéressant, à part si vous êtes un&middot;e amoureux&middot;se du {term}`terminal`,
-auxquel cas vous êtes invité&middot;e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)
+auquel cas, vous êtes invité&middot;e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)
 
 Sur Android, certaines applications commencent à être matures.
 Il y a bien-sûr la version mobile de [Element](https://play.google.com/store/apps/details?id=im.vector.app),
@@ -123,41 +123,41 @@ ou en utilisant le __{term}`Markdown`__, un standard de formatage simple utilis�
 ### Chiffrement
 
 Le protocole Matrix permet de chiffrer ses messages *de bout en bout*,
-c'est à dire qu'un message sera illisible d'un bout à l'autre de son cheminement
+c'est-à-dire qu'un message sera illisible d'un bout à l'autre de son cheminement
 et n'est déchiffrable qu'à l'arrivée par son destinataire.
 Cela complexifie un peu les échanges,
-car Matrix force la vérifications des différents appareils que l'on utilise pour communiquer.
+car Matrix force la vérification des différents appareils que l'on utilise pour communiquer.
 En effet, il faut être sûr que les différents appareils connectés au même compte
 sont bien en possession d'une même personne.
 Pour cela, une *pass-phrase* globale est utilisée :
-c'est un super mot de passe plus long qui va servir à au chiffrement de vos messages.
+c'est un super mot de passe plus long qui va servir au chiffrement de vos messages.
 
 Questions concernant le serveur Matrix de CLUB1
 -----------------------------------------------
 
-### Est ce fiable ?
+### Est-ce fiable ?
 
-Nous ne garantissons pas une fiabilitée à toute épreuve de notre serveur,
+Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur,
 cependant pour se faire un avis, il est possible de consulter
-les [statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du serveur Matrix et de Riot.
+les [statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du serveur Matrix et de Element.
 Des mises-à-jour sont effectuées régulièrement
-pour avoir la dernière version de Matrix et Riot
+pour avoir la dernière version de {logiciel}`Synapse` et {logiciel}`Element`
 et ainsi éviter des bugs ou failles de sécurité.
 
 ### Que faire si j'ai perdu mon mot de passe ?
 
-Si une adresse email à été reliée à votre compte
+Si une adresse email a été reliée à votre compte
 (compte créé après la [mise à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien ajout manuel),
 il suffit de cliquer sur {guilabel}`mot de passe oublié`.
-Sinon, il n'est pas possible de réccupérer son mot de passe automatiquement.
-La seule façon est de réussir à joindre et convaincre l'administrateur système *dans la vrai vie*,
-autant dire qu'il vaux mieux ne pas l'oublier.
+Sinon, il n'est pas possible de récupérer son mot de passe automatiquement.
+La seule façon est de réussir à joindre et convaincre l'administrateur système *dans la vraie vie*,
+autant dire qu'il vaut mieux ne pas l'oublier.
 
-### Est ce que club1.fr respecte ma vie privée ?
+### Est-ce que club1.fr respecte ma vie privée ?
 
 La seule personne qui a accès aux bases de données
 est l'administrateur système du serveur (`@n-peugnet:club1.fr`),
-normalement il n'a pas que ça à faire de vous espionner,
+normalement, il n'a pas que ça à faire de vous espionner,
 mais si vous n'avez pas confiance en lui, il ne vous reste plus qu'à activer le chiffrement des conversations.
 
 Logiciels

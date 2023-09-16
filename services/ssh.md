@@ -69,7 +69,7 @@ Elle vous demandera d'entrer votre **mot de passe** CLUB1 pour fonctionner.
     ssh-copy-id -i ~/.ssh/id_rsa USER@club1.fr
 
 Finalement, on utilise toujours la même commande pour se connecter.
-Mais cette fois c'est les clés qui seront utilisées.
+Mais cette fois ce sont les clés qui seront utilisées.
 Si elles ne sont pas déjà déverrouillées, la _phrase de passe_ sera demandée.
 
     ssh USER@club1.fr
