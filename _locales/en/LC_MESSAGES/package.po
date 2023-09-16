@@ -2264,6 +2264,7 @@ msgstr ""
 
 #: ../../outils/ldap.md:25
 #, fuzzy
+#| msgid "Détails divers"
 msgid "Détails de configuration"
 msgstr "Miscellaneous details"
 
@@ -2273,6 +2274,7 @@ msgstr ""
 
 #: ../../outils/ldap.md:31
 #, fuzzy
+#| msgid "Bases de données SQL"
 msgid "Schéma de données LDAP"
 msgstr "SQL databases"
 
@@ -2318,6 +2320,7 @@ msgstr "port"
 
 #: ../../outils/ldap.md:31
 #, fuzzy
+#| msgid "`993` (par défaut)"
 msgid "`389` (par défaut)"
 msgstr "`993` (default)"
 
@@ -2327,6 +2330,10 @@ msgstr ""
 
 #: ../../outils/ldap.md:63
 #, fuzzy
+#| msgid ""
+#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
+#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
+#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation libre du protocole LDAP. --- [Wikipedia](https://fr."
@@ -2809,6 +2816,9 @@ msgstr ""
 
 #: ../../services-membres.md:4
 #, fuzzy
+#| msgid ""
+#| "Tous ces services utilisent donc le même **identifiant** et le même **mot "
+#| "de passe** pour la connexion."
 msgid ""
 "Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
 "compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
@@ -4759,6 +4769,9 @@ msgstr ""
 
 #: ../../services/webcast.md:13
 #, fuzzy
+#| msgid ""
+#| "Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur "
+#| "de flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Flux_web)"
 msgid ""
 "Désigne la diffusion de contenus audio et/ou vidéo via le {term}`Web`. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)"
@@ -4803,11 +4816,16 @@ msgstr ""
 
 #: ../../services/webcast.md:11
 #, fuzzy
+#| msgid "Outils"
 msgid "Oui"
 msgstr "Tools"
 
 #: ../../services/webcast.md:44
 #, fuzzy
+#| msgid ""
+#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
+#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
+#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
@@ -5950,6 +5968,11 @@ msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:98
 #, fuzzy
+#| msgid ""
+#| "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-"
+#| "le-terminal) sans voir le message d'alerte et il vous faudra alors entrer "
+#| "votre **mot de passe** CLUB1 (il est normal que le mot de passe ne "
+#| "s'affiche pas au moment de l'écriture 🤫)."
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
@@ -6149,6 +6172,10 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:7
 #, fuzzy
+#| msgid ""
+#| "Pour synchroniser ses contacts et calendriers avec différentes "
+#| "applications, la solution la plus efficace consiste à passer par une "
+#| "application qui va se charger essentiellement de la synchro : __DAVx5__."
 msgid ""
 "Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
@@ -6188,6 +6215,9 @@ msgstr "First launch"
 
 #: ../../tutos/webdav-android.md:22
 #, fuzzy
+#| msgid ""
+#| "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
+#| "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgid ""
 "Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
@@ -6253,6 +6283,7 @@ msgstr "screenshot home"
 
 #: ../../tutos/webdav-android.md:68
 #, fuzzy
+#| msgid "Écran d'accueil de DAVx5."
 msgid "Écran d'accueil de DAVx{sup}`5`."
 msgstr "DAVx5 home screen."
 
@@ -6282,6 +6313,14 @@ msgstr "The username and password are your CLUB1 credentials."
 
 #: ../../tutos/webdav-android.md:89
 #, fuzzy
+#| msgid ""
+#| "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un "
+#| "nom pour ce compte qui risque fortement de ressembler à votre adresse "
+#| "email CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on "
+#| "identifie un couple `user@server`. Un dernier petit détail : Il est "
+#| "recommandé d'utiliser la méthode \"Les groupes sont des catégories pour "
+#| "chacun des contacts\" pour être compatible avec le client web mail de "
+#| "CLUB1 ({numref}`fig:tutos-webdav-android-groupes`)."
 msgid ""
 "Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer "
 "un nom pour ce compte qui risque fortement de ressembler à votre adresse "
@@ -6313,6 +6352,13 @@ msgstr "One last step: what to synchronize?"
 
 #: ../../tutos/webdav-android.md:107
 #, fuzzy
+#| msgid ""
+#| "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
+#| "vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
+#| "webdav-android-selection`). Pour cela, il suffit de les cocher en "
+#| "naviguant entre les onglets \"Carnets d'adresses\" et \"Agendas\". Il "
+#| "sera toujours possible d'accéder et modifier ces réglages  plus tard très "
+#| "facilement."
 msgid ""
 "DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers "
 "que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
@@ -6421,6 +6467,9 @@ msgstr "Access personal space from a Mac's Finder"
 
 #: ../../tutos/webdav-mac.md:4
 #, fuzzy
+#| msgid ""
+#| "Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
+#| "connecter au serveur...`."
 msgid ""
 "Dans le Finder, dans la barre de menu, cliquez sur {guilabel}`Aller` --> "
 "{guilabel}`Se connecter au serveur...` ({numref}`fig:tutos-webdav-mac-"
@@ -6572,7 +6621,3 @@ msgstr "software"
 #: conf.py:322 conf.py:323
 msgid "commande"
 msgstr "command"
-
-#: ../../outils/ldap.md:0
-msgid "LDAP"
-msgstr ""
