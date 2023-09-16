@@ -11,8 +11,8 @@ msgstr ""
 "POT-Creation-Date: 2023-09-16 20:50+0200\n"
 "PO-Revision-Date: 2023-08-31 14:51+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
-"\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
+">\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1199,16 +1199,12 @@ msgstr ""
 "availability **above 98%** should be ensured."
 
 #: ../../info/general.md:78
-#, fuzzy
-#| msgid ""
-#| "Il est possible de consulter en direct l'état des différents services à "
-#| "cette adresse : <https://status.club1.fr/>"
 msgid ""
 "Il est possible de consulter en direct l'état des différents services sur "
 "[UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)"
 msgstr ""
-"The status of the various services can be consulted online at this address: "
-"<https://status.club1.fr/>"
+"The live status of the various services can be consulted on [UptimeRobot]"
+"(https://stats.uptimerobot.com/A84pLI9rlW)"
 
 #: ../../info/general.md:81
 msgid "Sauvegardes"
@@ -1417,30 +1413,40 @@ msgid ""
 "Un onduleur, c'est avant tout **une multiprise**, mais avec quelques "
 "fonctions supplémentaires, notamment :"
 msgstr ""
+"An uninterruptible power supply (UPS) is above all **a power strip**, but "
+"with some additional functions, including:"
 
 #: ../../info/infrastructure-materielle.md:25
 msgid ""
 "la protection contre les sur-tensions ou sous-tensions, par exemple en cas "
 "d'orages."
 msgstr ""
+"protection against over-voltage or sub-tensions, for example in the event of "
+"storms."
 
 #: ../../info/infrastructure-materielle.md:26
 msgid ""
 "le maintien de l'alimentation électrique en cas de coupure de courant (grâce "
 "à sa batterie interne)."
 msgstr ""
+"maintaining electrical power in the event of a power outage (thanks to its "
+"internal battery)."
 
 #: ../../info/infrastructure-materielle.md:28
 msgid ""
 "la communication avec le serveur pour lui dire de s'éteindre \"proprement\" "
 "lorsque le courant de revient pas et qu'il n'a bientôt plus de batterie."
 msgstr ""
+"communication with the server to tell it to shut down \"properly\" when the "
+"power does not return and it soon runs out of battery."
 
 #: ../../info/infrastructure-materielle.md:31
 msgid ""
 "Il est branché en amont de tout le matériel informatique et son rôle est "
 "donc de leur fournir une **alimentation électrique de qualité**."
 msgstr ""
+"It is connected upstream of all computer equipment and its role is therefore "
+"to provide them with a **quality power supply**."
 
 #: ../../info/infrastructure-materielle.md:34
 msgid ""
@@ -1448,6 +1454,9 @@ msgid ""
 "constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications."
 "html)"
 msgstr ""
+"Our model: `5P650IR` from the *EATON* brand [Specifications on the "
+"manufacturer's website](https://www.eaton.com/gb/en-gb/skuPage.5P650IR."
+"specifications.html)"
 
 #: ../../info/infrastructure-materielle.md:37
 msgid ""
@@ -1457,15 +1466,20 @@ msgid ""
 "modèle plus bas de gamme pour 40€. Celui-ci est tombé en panne après un an "
 "d'utilisation."
 msgstr ""
+"We selected it, among other things, because it has the lowest power (420W) "
+"among the *EATON* pro range. The price of this equipment is quite high (a "
+"little over €300). Previously, we had bought a lower-end model second-hand "
+"for €40. It broke down after a year of use."
 
 #: ../../info/infrastructure-materielle.md:43
 msgid ""
 "![Face avant de l'onduleur](infrastructure-materielle/eaton-5p650ir-face.png)"
 msgstr ""
+"![Front panel of the UPS](infrastructure-materielle/eaton-5p650ir-face.png)"
 
 #: ../../info/infrastructure-materielle.md:43
 msgid "Face avant de l'onduleur"
-msgstr ""
+msgstr "Front panel of the UPS"
 
 #: ../../info/infrastructure-materielle.md:45
 msgid ""
@@ -1473,16 +1487,20 @@ msgid ""
 "d'accéder à quelques statistiques et réglages. Il indique par exemple la "
 "consommation électrique de l'ensemble de l'infrastructure en Watts."
 msgstr ""
+"This is a rack model with a height of 1U. A small screen provides access to "
+"some statistics and settings. For example, it indicates the electricity "
+"consumption of the entire infrastructure in Watts."
 
 #: ../../info/infrastructure-materielle.md:50
 msgid ""
 "![Face arrière de l'onduleur](infrastructure-materielle/eaton-5p650ir-dos."
 "png)"
 msgstr ""
+"![Back panel of the UPS](infrastructure-materielle/eaton-5p650ir-dos.png)"
 
 #: ../../info/infrastructure-materielle.md:50
 msgid "Face arrière de l'onduleur"
-msgstr ""
+msgstr "Back panel of the UPS"
 
 #: ../../info/infrastructure-materielle.md:52
 msgid ""
@@ -1490,10 +1508,13 @@ msgid ""
 "communication avec le serveur, puis les quatre sorties électrique "
 "bénéficiant des avantages de l'onduleur."
 msgstr ""
+"From left to right: the arrival of the electrical current, the communication "
+"ports with the server, then the four electrical outputs benefiting from the "
+"advantages of the UPS."
 
 #: ../../info/infrastructure-materielle.md:56
 msgid "Entretien"
-msgstr ""
+msgstr "Maintenance"
 
 #: ../../info/infrastructure-materielle.md:58
 msgid ""
@@ -1501,6 +1522,9 @@ msgid ""
 "par la face avant de l'appareil. Il n'est donc pas nécessaire de le dévisser "
 "ni de le débrancher lors de cette opération."
 msgstr ""
+"Internal batteries are guaranteed for 3 to 5 years. They are changed via the "
+"front of the device. It is therefore not necessary to unscrew it or unplug "
+"it during this operation."
 
 #: ../../info/infrastructure-materielle.md:64 ../../services/matrix.md:23
 msgid "Serveur"
@@ -1508,30 +1532,33 @@ msgstr "Server"
 
 #: ../../info/infrastructure-materielle.md:68
 msgid "Boitier"
-msgstr ""
+msgstr "Case"
 
 #: ../../info/infrastructure-materielle.md:70
 msgid ""
 "Modèle : `SilverStone RM21-304` [Site du constructeur](https://www."
 "silverstonetek.com/fr/product/info/server-nas/RM21-304/)"
 msgstr ""
+"Model: `SilverStone RM21-304` [Manufacturer's Site](https://www."
+"silverstonetek.com/en/product/info/server-nas/RM21-304/)"
 
 #: ../../info/infrastructure-materielle.md:73
 msgid ""
 "![vue en perspective du boitier](infrastructure-materielle/rm21-304-face.png)"
 msgstr ""
+"![perspective view of the case](infrastructure-materielle/rm21-304-face.png)"
 
 #: ../../info/infrastructure-materielle.md:73
 msgid "vue en perspective du boitier"
-msgstr ""
+msgstr "perspective view of the case"
 
 #: ../../info/infrastructure-materielle.md:75
 msgid "Boitier rackable d'un hauteur de 2U."
-msgstr ""
+msgstr "Rackmount case with a height of 2U."
 
 #: ../../info/infrastructure-materielle.md:77
 msgid "Refroidissement"
-msgstr ""
+msgstr "Cooling"
 
 #: ../../info/infrastructure-materielle.md:79
 msgid ""
@@ -1540,10 +1567,13 @@ msgid ""
 "Les ventilateurs par défaut ont été remplacés par des modèles plus "
 "silencieux de la marque *Noctua*."
 msgstr ""
+"One of our interests in this case was the quality of its cooling. It has "
+"three slots for 80mm fans. The default fans have been replaced by quieter "
+"models from the *Noctua* brand."
 
 #: ../../info/infrastructure-materielle.md:84
 msgid "Ancien boitier"
-msgstr ""
+msgstr "Old case"
 
 #: ../../info/infrastructure-materielle.md:87
 msgid ""
@@ -1551,44 +1581,50 @@ msgid ""
 "compact, mais n'était pas rackable et moins bien refroidi. Un [article du "
 "journal de bord](https://club1.fr/nouveau-boitier) retrace cette évolution."
 msgstr ""
+"Previously, we used a `Chenbro ES34169` case, which was more compact, but "
+"was not rack-mountable and not as well cooled. An [article from the journal]"
+"(https://club1.fr/nouveau-boitier) retraces this evolution."
 
 #: ../../info/infrastructure-materielle.md:91
 msgid "Carte mère"
-msgstr ""
+msgstr "Motherboard"
 
 #: ../../info/infrastructure-materielle.md:93
 msgid ""
 "Modèle : `Supermicro A2SDi-4C-HLN4F` [Site du constructeur](https://www."
 "supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)"
 msgstr ""
+"Model: `Supermicro A2SDi-4C-HLN4F` [ Manufacturer's Site](https://www."
+"supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)"
 
 #: ../../info/infrastructure-materielle.md:96
 msgid "![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)"
 msgstr ""
+"![top shot of the motherboard](infrastructure-materielle/carte-mere.png)"
 
 #: ../../info/infrastructure-materielle.md:96
 msgid "carte mère vue du dessus"
-msgstr ""
+msgstr "top shot of the motherboard"
 
 #: ../../info/infrastructure-materielle.md:98
 msgid "Processeur"
-msgstr ""
+msgstr "Processor"
 
 #: ../../info/infrastructure-materielle.md:100
 msgid "Modèle : `Intel Atom C3000`"
-msgstr ""
+msgstr "Model: `Intel Atom C3000`"
 
 #: ../../info/infrastructure-materielle.md:102
 msgid "Processeur quadri-c&oelig;ur à faible consommation."
-msgstr ""
+msgstr "Low consumption quad-core processor."
 
 #: ../../info/infrastructure-materielle.md:104
 msgid "Mémoire vive"
-msgstr ""
+msgstr "Memory"
 
 #: ../../info/infrastructure-materielle.md:106
 msgid "Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`"
-msgstr ""
+msgstr "Model : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`"
 
 #: ../../info/infrastructure-materielle.md:108
 msgid ""
@@ -1596,34 +1632,33 @@ msgid ""
 "emplacements fournis par la [carte mère](#carte-mère). Cela laisse de la "
 "place pour augmenter cette capacité si nécessaire."
 msgstr ""
+"The server has a single 16 GB DDR4 ECC module, among the four slots provided "
+"by the [motherboard](#carte-mère). This leaves room to increase this "
+"capacity if necessary."
 
 #: ../../info/infrastructure-materielle.md:113
-#, fuzzy
-#| msgid "Stockage :"
 msgid "Stockage"
-msgstr "Storage:"
+msgstr "Storage"
 
 #: ../../info/infrastructure-materielle.md:115
 msgid "Il est composé de trois supports de stockage distincts :"
-msgstr ""
+msgstr "It consists of three separate storage media:"
 
 #: ../../info/infrastructure-materielle.md:117
 msgid "système"
-msgstr ""
+msgstr "system"
 
 #: ../../info/infrastructure-materielle.md:119
 msgid "un SSD SATA de 300Go. `Crucial`"
-msgstr ""
+msgstr "a 300GB SATA SSD. `Crucial`"
 
 #: ../../info/infrastructure-materielle.md:121
-#, fuzzy
-#| msgid "SSD Utilisateurs 1 To"
 msgid "Utilisateurs"
-msgstr "1 TB User SSD"
+msgstr "Users"
 
 #: ../../info/infrastructure-materielle.md:123
 msgid "un SSD SATA de 1To. `Samsung EVO 860`."
-msgstr ""
+msgstr "a SATA SSD of 1TB. `Samsung EVO 860`."
 
 #: ../../info/infrastructure-materielle.md:125
 msgid ""
@@ -1632,34 +1667,28 @@ msgid ""
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:127
-#, fuzzy
-#| msgid ""
-#| "Cette méthode permet d'accéder à son [espace personnel](/info/espace-"
-#| "personnel.md) depuis son explorateur de fichiers."
 msgid ""
 "C'est ici que se situe [l'espace personnel](/info/espace-personnel.md) des "
 "membres du club."
 msgstr ""
-"This method allows to access your [personal space](/info/espace-personnel."
-"md) from your file explorer."
+"This is where the club members' [personal space](/info/espace-personnel.md) "
+"is located."
 
 #: ../../info/infrastructure-materielle.md:129
-#, fuzzy
-#| msgid "Stockage des données"
 msgid "Stockage secondaire"
-msgstr "Data storage"
+msgstr "Secondary storage"
 
 #: ../../info/infrastructure-materielle.md:131
 msgid ""
 "Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](./"
 "general.md#sauvegardes)."
 msgstr ""
+"2TB 5600rpm hard drive. Not supported by the [backups](./general."
+"md#sauvegardes)."
 
 #: ../../info/infrastructure-materielle.md:133
-#, fuzzy
-#| msgid "Utilisation"
 msgid "Alimentation"
-msgstr "Usage"
+msgstr "Power supply"
 
 #: ../../info/infrastructure-materielle.md:135
 msgid "`FSP250-60EGA 90+`"
@@ -1945,6 +1974,10 @@ msgid ""
 "(associations, collectifs) et que des personnes souhaitent s'y exprimer à "
 "titre individuel."
 msgstr ""
+"This type of connection allows anyone to create an account on the forum and "
+"interact with it. Obligatory passage if you do not have a CLUB1 account, but "
+"also in the case where these are accounts of legal entities (associations, "
+"collectives) and people wish to express themselves there as an individual."
 
 #: ../../outils/forum.md:44
 msgid ""
@@ -1954,6 +1987,10 @@ msgid ""
 "afin que les personnes en charge de l'administration du forum puissent vous "
 "ajouter le badge {guilabel}`membre CLUB1`."
 msgstr ""
+"If you are a member of CLUB1 or belong to a group with a CLUB1 account and "
+"you have registered via this method, we invite you to send an email to "
+"<contact@club1.fr> indicating the situation, so that people responsible for "
+"administering the forum can give you the {guilabel}`membre CLUB1` badge."
 
 #: ../../outils/forum.md:50
 msgid "Utilisation"
@@ -1986,27 +2023,30 @@ msgstr "The primary tags are as follows:"
 
 #: ../../outils/forum.md:66
 msgid "{guilabel}`Tickets` : Regroupe les tickets ouverts."
-msgstr ""
+msgstr "{guilabel}`Tickets`: Groups open tickets."
 
 #: ../../outils/forum.md:67
 msgid ""
 "{guilabel}`Terminé` : Regroupe les tickets fermés (\"résolus\" ou "
 "\"refusés\")."
 msgstr ""
+"{guilabel}`Terminé`: Groups closed tickets (\"resolved\" or \"refused\")."
 
 #: ../../outils/forum.md:68
 msgid ""
 "{guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement "
 "reliées à l'activité d'hébergement de CLUB1, et ne sont sonc pas des tickets."
 msgstr ""
+"{guilabel}`Cafet`: Brings together discussions that are not directly related "
+"to CLUB1's hosting activity, and are therefore not tickets."
 
 #: ../../outils/forum.md:70
 msgid "{guilabel}`English` : Regroupe les discussions en anglais."
-msgstr ""
+msgstr "{guilabel}`English`: Groups discussions in English."
 
 #: ../../outils/forum.md:73
 msgid "Cycle de vie d'un _ticket_"
-msgstr ""
+msgstr "Lifecycle of a _ticket_"
 
 #: ../../outils/forum.md:75
 msgid ""
@@ -2016,6 +2056,11 @@ msgid ""
 "tickets ont vocation à être fermés une fois le problème résolu, la "
 "suggestion reçue ou encore la question répondue."
 msgstr ""
+"The word \"ticket\" represents a problem, a suggestion, a question that is "
+"taken to the _ticket sorting center_ where the appropriate people, capable "
+"of responding, can resolve the tickets as they arise. Tickets are intended "
+"to be closed once the problem has been resolved, the suggestion received or "
+"the question answered."
 
 #: ../../outils/forum.md:79
 msgid ""
@@ -2023,6 +2068,9 @@ msgid ""
 "`Tickets`. Si l'objet du ticket est encore nébuleux et requiert plus de "
 "discussions, il vaut mieux lui ajouter l'étiquette {guilabel}`rêve`."
 msgstr ""
+"New tickets must be created with the {guilabel}`Tickets` label. If the "
+"subject of the ticket is still nebulous and requires more discussion, it is "
+"better to add the label {guilabel}`rêve`."
 
 #: ../../outils/forum.md:83
 msgid ""
@@ -2031,6 +2079,10 @@ msgid ""
 "{guilabel}`Terminé` et {guilabel}`résolu` ou {guilabel}`refusé` en fonction "
 "de son état."
 msgstr ""
+"Once a ticket is resolved (or refused), you must remove the {guilabel}"
+"`Tickets` label from it to be able to assign it the labels {guilabel}"
+"`Terminé` and {guilabel}`résolu` or {guilabel}`refusé` based on its "
+"condition."
 
 #: ../../outils/forum.md:87
 msgid "Feuille de route administrateurs système"
@@ -2043,22 +2095,29 @@ msgid ""
 "s'organiser. Elle permet également de rendre publique les tâches \"en "
 "cours\", \"suivantes\" et \"planifiées\"."
 msgstr ""
+"Transversely to the ticket management system, the {guilabel}`Roadmap Admin` "
+"label is used by CLUB1 system administrators to organize themselves. It also "
+"allows to make \"current\", \"next\" and \"planned\" tasks public."
 
 #: ../../outils/forum.md:93
 msgid ""
 "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du "
 "forum peuvent utiliser, en contournant les restriction d'étiquettes."
 msgstr ""
+"This is actually a _primary_ tag that only certain forum users can use, "
+"bypassing tag restrictions."
 
 #: ../../outils/forum.md:97
 msgid "Administration"
-msgstr ""
+msgstr "Administration"
 
 #: ../../outils/forum.md:100
 msgid ""
 "Cette section est surtout destinée aux administrateurs du forum, soit les "
 "membres CLUB1 faisant partie du {term}`groupe` `forum`."
 msgstr ""
+"This section is primarily intended for forum administrators, namely CLUB1 "
+"members being part of the `forum` {term}`group`."
 
 #: ../../outils/forum.md:103
 msgid "Logiciel utilisé"
@@ -2069,11 +2128,13 @@ msgid ""
 "Le forum est basé sur {logiciel}`Flarum`. Il est executé par {logiciel}`PHP-"
 "FPM` avec l'utilisateur `forum`, directement depuis {logiciel}`Nginx`."
 msgstr ""
+"The forum is based on {logiciel}`Flarum`. It is executed by {logiciel}`PHP-"
+"FPM` with the user `forum`, directly from {logiciel}`Nginx`."
 
 #: ../../outils/forum.md:109
 msgid ""
 "Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`."
-msgstr ""
+msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
 
 #: ../../outils/forum.md:112
 msgid ""
@@ -2084,10 +2145,15 @@ msgid ""
 "différentes. --- [Sources](https://github.com/flarum/framework/), [Site]"
 "(https://flarum.org/)"
 msgstr ""
+"Forum software written in {term}`PHP`. It is designed to be extremely "
+"modular with very few features actually being part of the core. It is thus "
+"easy to develop extensions of all kinds, which can take the forum tool in "
+"very different directions. --- [Sources](https://github.com/flarum/"
+"framework/), [Site](https://flarum.org/)"
 
 #: ../../outils/forum.md:119
 msgid "CLUB1 maintient plusieurs extension pour ce forum :"
-msgstr ""
+msgstr "CLUB1 maintains several extensions for this forum:"
 
 #: ../../outils/forum.md:122
 msgid ""
@@ -2095,6 +2161,8 @@ msgid ""
 "depuis une autre. --- [Sources](https://github.com/club-1/flarum-ext-cross-"
 "references)"
 msgstr ""
+"Adds cross-reference links when a discussion has been mentioned from "
+"another. --- [Sources](https://github.com/club-1/flarum-ext-cross-references)"
 
 #: ../../outils/forum.md:127
 msgid ""
@@ -2102,6 +2170,8 @@ msgid ""
 "ponctuation. --- [Sources](https://github.com/club-1/flarum-ext-french-"
 "typography)"
 msgstr ""
+"Improved typography for French writings, mainly around punctuation. --- "
+"[Sources](https://github.com/club-1/flarum-ext-french-typography)"
 
 #: ../../outils/forum.md:133
 msgid "Fichiers et dossiers"
@@ -2109,13 +2179,13 @@ msgstr "Files and folders"
 
 #: ../../outils/forum.md:135
 msgid "Quelques fichiers et dossiers en relation avec le forum CLUB1."
-msgstr ""
+msgstr "Some files and folders related to the CLUB1 forum."
 
 #: ../../outils/forum.md:139
 msgid ""
 "Dossier d'installation de Flarum. Il contient notamment les fichiers "
 "suivants :"
-msgstr ""
+msgstr "Flarum installation folder. It includes the following files:"
 
 #: ../../outils/forum.md:142
 msgid ""
@@ -2123,24 +2193,30 @@ msgid ""
 "paramètres d'installation. Le reste de la configuration se trouve dans la "
 "base de données."
 msgstr ""
+"`config.php`: Flarum's configuration file. It only contains the installation "
+"parameters. The rest of the configuration is in the database."
 
 #: ../../outils/forum.md:146
 msgid ""
 "`composer.json` : Fichier décrivant les dépendances Composer. C'est via ce "
 "logiciel que sont installées les extensions Flarum."
 msgstr ""
+"`composer.json`: File describing Composer dependencies. It is via this "
+"software that Flarum extensions are installed."
 
 #: ../../outils/forum.md:151
 msgid ""
 "Fichier de configuration {logiciel}`Nginx` contenant le _virtual host_ du "
 "forum."
 msgstr ""
+"{logiciel}`Nginx` configuration file containing the _virtual host_ of the "
+"forum."
 
 #: ../../outils/forum.md:156
 msgid ""
 "Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisateur "
 "`forum`."
-msgstr ""
+msgstr "{logiciel}`PHP-FPM` configuration file of the `forum` users' _pool_."
 
 #: ../../outils/index.md:1
 msgid "Outils"
@@ -2155,7 +2231,7 @@ msgstr ""
 
 #: ../../outils/ldap.md:1
 msgid "Annuaire LDAP"
-msgstr ""
+msgstr "LDAP directory"
 
 #: ../../outils/ldap.md:6
 msgid ""
@@ -2188,7 +2264,6 @@ msgstr ""
 
 #: ../../outils/ldap.md:25
 #, fuzzy
-#| msgid "Détails divers"
 msgid "Détails de configuration"
 msgstr "Miscellaneous details"
 
@@ -2198,7 +2273,6 @@ msgstr ""
 
 #: ../../outils/ldap.md:31
 #, fuzzy
-#| msgid "Bases de données SQL"
 msgid "Schéma de données LDAP"
 msgstr "SQL databases"
 
@@ -2244,7 +2318,6 @@ msgstr "port"
 
 #: ../../outils/ldap.md:31
 #, fuzzy
-#| msgid "`993` (par défaut)"
 msgid "`389` (par défaut)"
 msgstr "`993` (default)"
 
@@ -2254,10 +2327,6 @@ msgstr ""
 
 #: ../../outils/ldap.md:63
 #, fuzzy
-#| msgid ""
-#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation libre du protocole LDAP. --- [Wikipedia](https://fr."
@@ -2740,9 +2809,6 @@ msgstr ""
 
 #: ../../services-membres.md:4
 #, fuzzy
-#| msgid ""
-#| "Tous ces services utilisent donc le même **identifiant** et le même **mot "
-#| "de passe** pour la connexion."
 msgid ""
 "Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
 "compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
@@ -4693,9 +4759,6 @@ msgstr ""
 
 #: ../../services/webcast.md:13
 #, fuzzy
-#| msgid ""
-#| "Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur "
-#| "de flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Flux_web)"
 msgid ""
 "Désigne la diffusion de contenus audio et/ou vidéo via le {term}`Web`. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)"
@@ -4740,16 +4803,11 @@ msgstr ""
 
 #: ../../services/webcast.md:11
 #, fuzzy
-#| msgid "Outils"
 msgid "Oui"
 msgstr "Tools"
 
 #: ../../services/webcast.md:44
 #, fuzzy
-#| msgid ""
-#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
@@ -5892,11 +5950,6 @@ msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:98
 #, fuzzy
-#| msgid ""
-#| "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-"
-#| "le-terminal) sans voir le message d'alerte et il vous faudra alors entrer "
-#| "votre **mot de passe** CLUB1 (il est normal que le mot de passe ne "
-#| "s'affiche pas au moment de l'écriture 🤫)."
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
@@ -6096,10 +6149,6 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:7
 #, fuzzy
-#| msgid ""
-#| "Pour synchroniser ses contacts et calendriers avec différentes "
-#| "applications, la solution la plus efficace consiste à passer par une "
-#| "application qui va se charger essentiellement de la synchro : __DAVx5__."
 msgid ""
 "Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
@@ -6139,9 +6188,6 @@ msgstr "First launch"
 
 #: ../../tutos/webdav-android.md:22
 #, fuzzy
-#| msgid ""
-#| "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
-#| "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgid ""
 "Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
@@ -6207,7 +6253,6 @@ msgstr "screenshot home"
 
 #: ../../tutos/webdav-android.md:68
 #, fuzzy
-#| msgid "Écran d'accueil de DAVx5."
 msgid "Écran d'accueil de DAVx{sup}`5`."
 msgstr "DAVx5 home screen."
 
@@ -6237,14 +6282,6 @@ msgstr "The username and password are your CLUB1 credentials."
 
 #: ../../tutos/webdav-android.md:89
 #, fuzzy
-#| msgid ""
-#| "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un "
-#| "nom pour ce compte qui risque fortement de ressembler à votre adresse "
-#| "email CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on "
-#| "identifie un couple `user@server`. Un dernier petit détail : Il est "
-#| "recommandé d'utiliser la méthode \"Les groupes sont des catégories pour "
-#| "chacun des contacts\" pour être compatible avec le client web mail de "
-#| "CLUB1 ({numref}`fig:tutos-webdav-android-groupes`)."
 msgid ""
 "Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer "
 "un nom pour ce compte qui risque fortement de ressembler à votre adresse "
@@ -6276,13 +6313,6 @@ msgstr "One last step: what to synchronize?"
 
 #: ../../tutos/webdav-android.md:107
 #, fuzzy
-#| msgid ""
-#| "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
-#| "vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
-#| "webdav-android-selection`). Pour cela, il suffit de les cocher en "
-#| "naviguant entre les onglets \"Carnets d'adresses\" et \"Agendas\". Il "
-#| "sera toujours possible d'accéder et modifier ces réglages  plus tard très "
-#| "facilement."
 msgid ""
 "DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers "
 "que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
@@ -6391,9 +6421,6 @@ msgstr "Access personal space from a Mac's Finder"
 
 #: ../../tutos/webdav-mac.md:4
 #, fuzzy
-#| msgid ""
-#| "Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
-#| "connecter au serveur...`."
 msgid ""
 "Dans le Finder, dans la barre de menu, cliquez sur {guilabel}`Aller` --> "
 "{guilabel}`Se connecter au serveur...` ({numref}`fig:tutos-webdav-mac-"
@@ -6545,3 +6572,7 @@ msgstr "software"
 #: conf.py:322 conf.py:323
 msgid "commande"
 msgstr "command"
+
+#: ../../outils/ldap.md:0
+msgid "LDAP"
+msgstr ""
