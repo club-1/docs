@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-08-30 16:27+0200\n"
+"POT-Creation-Date: 2023-09-16 20:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1790,10 +1790,6 @@ msgstr ""
 
 #: ../../outils/ldap.md:1
 msgid "Annuaire LDAP"
-msgstr ""
-
-#: ../../outils/ldap.md:0
-msgid "LDAP"
 msgstr ""
 
 #: ../../outils/ldap.md:6

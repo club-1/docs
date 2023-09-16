@@ -58,6 +58,9 @@ msgstr ""
 msgid "Intel Atom C3000"
 msgstr ""
 
+msgid "LDAP"
+msgstr ""
+
 msgid "Latexmk"
 msgstr ""
 

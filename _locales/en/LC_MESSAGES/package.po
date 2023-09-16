@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-08-30 16:27+0200\n"
+"POT-Creation-Date: 2023-09-16 20:50+0200\n"
 "PO-Revision-Date: 2023-08-31 14:51+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -1288,8 +1288,8 @@ msgid ""
 "regex101.com/r/AilLZw/2)."
 msgstr ""
 "The username must respect the regex `^[a-z\\-]{3,17}$`. It is possible to "
-"check that a name respects it using [regex101](https://regex101.com/r/AilLZw/"
-"2)."
+"check that a name respects it using [regex101](https://regex101.com/r/"
+"AilLZw/2)."
 
 #: ../../info/general.md:119
 msgid ""
@@ -1405,9 +1405,8 @@ msgid ""
 "nDOmVdkc). La connexion internet est fournie par *Bouygues Telecom*."
 msgstr ""
 "It is connected to internet by optical fiber with average rates of [ 200Mb/s "
-"in upload and 500Mb/s in download](https://www.nperf.com/en/r/"
-"338260996-nDOmVdkc). The internet connection is provided by *Bouygues "
-"Telecom*."
+"in upload and 500Mb/s in download](https://www.nperf.com/en/r/338260996-"
+"nDOmVdkc). The internet connection is provided by *Bouygues Telecom*."
 
 #: ../../info/infrastructure-materielle.md:19
 msgid "Onduleur"
@@ -2156,10 +2155,6 @@ msgstr ""
 
 #: ../../outils/ldap.md:1
 msgid "Annuaire LDAP"
-msgstr ""
-
-#: ../../outils/ldap.md:0
-msgid "LDAP"
 msgstr ""
 
 #: ../../outils/ldap.md:6
