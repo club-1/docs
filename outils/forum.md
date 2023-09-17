@@ -7,7 +7,7 @@ Il a pour but de remplir trois rôles principaux :
 - La gestion des tickets (problèmes, suggestions, questions).
 - La gestion de la feuille de route des administrateurs système.
 - Offrir un canal de discussion asynchrone public,
-  permettant à des discussions variées de co-exister dans la durée.
+  permettant à des discussions variées de coexister dans la durée.
 
 ```{admonition} Voir aussi
 L'article du journal "[Création d'un forum](https://club1.fr/creation-d-un-forum)"
@@ -16,10 +16,10 @@ L'article du journal "[Création d'un forum](https://club1.fr/creation-d-un-foru
 Connexion
 ---------
 
-Le forum est un outil de gestion interne mais il est aussi ouvert vers l'exterieur.
+Le forum est un outil de gestion interne, mais il est aussi ouvert vers l'extérieur.
 C'est pourquoi il existe deux façons de s'y connecter.
 Dans tous les cas, une adresse e-mail est requise.
-Elle permettra, si vous le souhaitez, de recevoir des notifications sur des conversations que vous aurez choisi.
+Elle permettra, si vous le souhaitez, de recevoir des notifications sur des conversations que vous aurez choisies.
 
 ### Connexion via le compte CLUB1
 
@@ -38,7 +38,7 @@ Votre identifiant CLUB1 sera votre pseudo et sera donc visible lorsque vous post
 
 Ce type de connexion permet à n'importe qui de se créer un compte sur le forum et d'interagir avec.
 Passage obligatoire si vous n'avez pas de compte CLUB1,
-mais aussi dans le cas où ce sont des comptes de personnes morales (associations, collectifs)
+mais aussi dans le cas où il s'agit de comptes de personnes morales (associations, collectifs)
 et que des personnes souhaitent s'y exprimer à titre individuel.
 
 Si vous êtes membres CLUB1 ou que vous appartenez à un groupe ayant un compte CLUB1
@@ -66,7 +66,7 @@ Les étiquettes primaires sont les suivantes :
 - {guilabel}`Tickets` : Regroupe les tickets ouverts.
 - {guilabel}`Terminé` : Regroupe les tickets fermés ("résolus" ou "refusés").
 - {guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement reliées à l'activité d'hébergement de CLUB1,
-  et ne sont sonc pas des tickets.
+  et ne sont donc pas des tickets.
 - {guilabel}`English` : Regroupe les discussions en anglais.
 
 
@@ -91,7 +91,7 @@ l'étiquette {guilabel}`Roadmap Admin` est utilisée par les administrateurs sys
 Elle permet également de rendre publique les tâches "en cours", "suivantes" et "planifiées".
 
 C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du forum peuvent utiliser,
-en contournant les restriction d'étiquettes.
+en contournant les restrictions d'étiquettes.
 
 
 Administration
@@ -103,7 +103,7 @@ soit les membres CLUB1 faisant partie du {term}`groupe` `forum`.
 ### Logiciel utilisé
 
 Le forum est basé sur {logiciel}`Flarum`.
-Il est executé par {logiciel}`PHP-FPM` avec l'utilisateur `forum`,
+Il est exécuté par {logiciel}`PHP-FPM` avec l'utilisateur `forum`,
 directement depuis {logiciel}`Nginx`.
 
 Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`.

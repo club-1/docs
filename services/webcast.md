@@ -19,7 +19,7 @@ Il permet par exemple de créer des émissions de radio sur {term}`Internet`.
 Ce service est basé sur le logiciel {logiciel}`Icecast`
 et est accessible à l'adresse <https://club1.fr:8000>.
 
-Il est possible de consulter cette page depuis un navigateur {term}`Web`
+Il est possible de consulter cette page depuis un navigateur {term}`Web`,
 mais elle ne permettra que d'afficher la liste des émissions en cours et d'en lire les contenus.
 Pour diffuser des contenus en tant que source,
 il est nécessaire d'utiliser un {term}`client` dédié (par exemple [butt](https://danielnoethen.de/butt/)).

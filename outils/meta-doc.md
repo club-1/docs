@@ -58,7 +58,7 @@ Proposer des modifications
 --------------------------
 
 L'utilisation de {logiciel}`Git` permet à n'importe qui de proposer des modifications.
-Pour cela il est possible de modifier les fichiers directement sur {term}`GitHub`
+Pour cela, il est possible de modifier les fichiers directement sur {term}`GitHub`
 (un compte sera nécessaire), dans une branche personnelle, puis de créer
 une _pull request_ vers la branche principale : `main` (il s'agit de l'action
 proposée par défaut).
@@ -117,7 +117,7 @@ et de la télécharger pour les formats hors-ligne.
 Pour des images plus spécifiques à la documentation CLUB1,
 il vaut mieux les sauvegarder dans le dossier, avec les fichiers source.
 Il est intéressant de les y regrouper dans un dossier
-portant le même nom que la page dans laquelle elles seront inclues
+portant le même nom que la page dans laquelle elles seront incluses
 (en omettant l'extension).
 
 ```{tip}
@@ -139,7 +139,7 @@ Il n'est pas nécessaire de connaître cette section pour participer à l'éditi
 de la documentation de CLUB1.
 Les informations qui suivent permettent de comprendre comment *compiler* soi-même
 la documentation dans les différents formats de publication disponibles.
-De cette manière il est possible de voir le résultat des modifications réalisées
+De cette manière, il est possible de voir le résultat des modifications réalisées
 avant de les proposer.
 
 ### Prérequis communs
@@ -230,10 +230,10 @@ Installation sur *Debian* :
       make update-po
 
 Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé
-l'une de ces commande. Certain passages peuvent ne pas être reconnus si ils ont
+l'une de ces commandes. Certains passages peuvent ne pas être reconnus s'ils ont
 trop changé, il faudra peut-être en récupérer la traduction dans les messages
 mis en commentaire à la fin du fichier, tout en ajoutant le commentaire suivant
-juste au dessus du la ligne `msgid "..."` :
+juste au-dessus de la ligne `msgid "..."` :
 
 ```po
 #, fuzzy
@@ -262,7 +262,7 @@ Alias /docs /var/www/docs
 </LocationMatch>
 ```
 
-Metadonnées
+Métadonnées
 -----------
 
 ```{only} builder_html

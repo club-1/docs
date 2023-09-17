@@ -25,12 +25,12 @@ peut être utile lors du transfert d'un grand nombre de fichiers
 depuis et vers le serveur CLUB1.
 
 Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** grâce à des logiciels comme
-[FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur windows comprend des bundlewares).
+[FileZilla](https://filezilla-project.org/download.php?type=client) (attention l'installeur Windows comprend des bundlewares).
 
 Sécurité
 --------
 
-Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés
+Le serveur FTP est configuré pour ne recevoir que des connexions chiffrées
 avec TLS pour éviter d'envoyer des mots de passe en clair. Cette fonctionnalité
 s'appelle [FTPS (FTP avec TLS implicite)](https://fr.wikipedia.org/wiki/File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite).
 

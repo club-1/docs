@@ -46,7 +46,7 @@ Informations de connexion
 -------------------------
 
 L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis l'extérieur.
-Il n'est donc possible de s'y connecter que depuis un processus s'executant sur le même serveur.
+Il n'est donc possible de s'y connecter que depuis un processus s'exécutant sur le même serveur.
 
 | champ            | valeur              |
 | ---------------- | ------------------- |

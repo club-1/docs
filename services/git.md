@@ -12,7 +12,7 @@ Cette adresse permet 2 choses :
 
 1. Cloner le dépôt Git avec `git clone` grâce au
    [git-http-backend](https://git-scm.com/docs/git-http-backend).
-2. Consulter rapidement le dépôt et le sources dans un navigateur grâce à
+2. Consulter rapidement le dépôt et les sources dans un navigateur grâce à
    l'interface {term}`Web` fournie par {logiciel}`cgit`.
 
 Tutoriel d'utilisation
