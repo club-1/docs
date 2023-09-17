@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-09-17 18:13+0200\n"
+"POT-Creation-Date: 2023-09-17 23:41+0200\n"
 "PO-Revision-Date: 2023-09-17 21:37+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -610,8 +610,8 @@ msgid ""
 "En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
 msgstr ""
-"By replacing `GROUP` with the desired group. Example: `members sudo` or `"
-"members home`."
+"By replacing `GROUP` with the desired group. Example: `members sudo` or "
+"`members home`."
 
 #: ../../glossaire.md:85
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
@@ -1778,9 +1778,9 @@ msgid ""
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
-"This manual is dedicated to users that are part of the `aliases` "
-"{term}`group`. It describes actions that can be done by those users on the "
-"email {term}`aliases <alias>`."
+"This manual is dedicated to users that are part of the `aliases` {term}"
+"`group`. It describes actions that can be done by those users on the email "
+"{term}`aliases <alias>`."
 
 #: ../../outils/aliases.md:7
 msgid "Modifier les alias de réception"
@@ -1846,8 +1846,8 @@ msgid ""
 "réception](#modifier-les-alias-de-réception), mais il existe quelques "
 "différences :"
 msgstr ""
-"The process is very similar from the [edition of receiving aliases"
-"](#modifier-les-alias-de-réception), but some differences exists:"
+"The process is very similar from the [edition of receiving aliases]"
+"(#modifier-les-alias-de-réception), but some differences exists:"
 
 #: ../../outils/aliases.md:57
 msgid "Le fichier à modifier est `/etc/aliases_senders`."
@@ -2676,10 +2676,6 @@ msgstr ""
 "present documentation. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Sphinx_(documentation_generator))"
 
-#: ../../outils/meta-doc.md:9
-msgid "Graphviz"
-msgstr ""
-
 #: ../../outils/meta-doc.md:161
 msgid ""
 "Outils de génération de graphes visuels à partir d'une déscription en "
@@ -2847,9 +2843,9 @@ msgid ""
 "avoir besoin d'installer ou de configurer une application native. Il est "
 "donc très utile lorsque l'on n'est pas sur son ordinateur personnel."
 msgstr ""
-"The CLUB1 _**Drive**_ is a file explorer that can be used through a "
-"{term}`Web` browser. It allows to access your **personal space** without the "
-"need for configuring or install any native application. It is therefore very "
+"The CLUB1 _**Drive**_ is a file explorer that can be used through a {term}"
+"`Web` browser. It allows to access your **personal space** without the need "
+"for configuring or install any native application. It is therefore very "
 "useful when you are not on your personal computer."
 
 #: ../../services/drive.md:8
@@ -3377,8 +3373,8 @@ msgid ""
 "type=client) (attention l'installeur Windows comprend des bundlewares)."
 msgstr ""
 "The FTP {term}`protocol` gives access to your **personal space** thanks to "
-"software like [FileZilla](https://filezilla-project.org/download."
-"php?type=client) (warning: the Windows installer includes bundlewares)."
+"software like [FileZilla](https://filezilla-project.org/download.php?"
+"type=client) (warning: the Windows installer includes bundlewares)."
 
 #: ../../services/ftp.md:30
 msgid "Sécurité"
@@ -4771,8 +4767,8 @@ msgid ""
 "Désigne la diffusion de contenus audio et/ou vidéo via le {term}`Web`. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)"
 msgstr ""
-"Refers to the distribution of audio and/or video content via the {term}`Web`"
-". --- [Wikipedia](https://en.wikipedia.org/wiki/Webcast)"
+"Refers to the distribution of audio and/or video content via the {term}"
+"`Web`. --- [Wikipedia](https://en.wikipedia.org/wiki/Webcast)"
 
 #: ../../services/webcast.md:17
 msgid ""
@@ -4812,10 +4808,6 @@ msgid "type"
 msgstr "type"
 
 #: ../../services/webcast.md:11
-msgid "Icecast"
-msgstr ""
-
-#: ../../services/webcast.md:11
 msgid "SSL/TLS"
 msgstr ""
 
@@ -4829,9 +4821,9 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
 "xiph.org/xiph/icecast-server)"
 msgstr ""
-"{term}`Webcast` {term}`server` for audio and video streams. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
-"xiph.org/xiph/icecast-server)"
+"{term}`Webcast` {term}`server` for audio and video streams. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/Icecast), [Sources](https://gitlab.xiph.org/"
+"xiph/icecast-server)"
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
@@ -6438,8 +6430,8 @@ msgid ""
 "{guilabel}`Se connecter au serveur...` ({numref}`fig:tutos-webdav-mac-"
 "aller`)."
 msgstr ""
-"In the Finder, then the menu bar, click on {guilabel}`Go` then {guilabel}`"
-"Connect to Server...` ({numref}`fig:tutos-webdav-mac-aller`)."
+"In the Finder, then the menu bar, click on {guilabel}`Go` then {guilabel}"
+"`Connect to Server...` ({numref}`fig:tutos-webdav-mac-aller`)."
 
 #: ../../tutos/webdav-mac.md:13
 msgid "menu Aller"

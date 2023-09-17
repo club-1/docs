@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-09-17 18:13+0200\n"
+"POT-Creation-Date: 2023-09-17 23:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2155,10 +2155,6 @@ msgid ""
 "Sphinx_(g%C3%A9n%C3%A9rateur_de_documentation))"
 msgstr ""
 
-#: ../../outils/meta-doc.md:9
-msgid "Graphviz"
-msgstr ""
-
 #: ../../outils/meta-doc.md:161
 msgid ""
 "Outils de génération de graphes visuels à partir d'une déscription en "
@@ -3868,10 +3864,6 @@ msgstr ""
 
 #: ../../services/webcast.md:11
 msgid "type"
-msgstr ""
-
-#: ../../services/webcast.md:11
-msgid "Icecast"
 msgstr ""
 
 #: ../../services/webcast.md:11
