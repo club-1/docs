@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-09-17 18:13+0200\n"
-"PO-Revision-Date: 2023-08-31 14:51+0000\n"
+"PO-Revision-Date: 2023-09-17 21:37+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -376,9 +376,6 @@ msgid "Foire aux questions"
 msgstr "Frequently asked questions"
 
 #: ../../faq.md:4
-#, fuzzy
-#| msgid ""
-#| "Reponses aux questions fréquemment posées par rapport au serveur CLUB1."
 msgid "Réponses aux questions fréquemment posées par rapport au serveur CLUB1."
 msgstr "Answers to frequently asked questions about the CLUB1 server."
 
@@ -400,10 +397,6 @@ msgstr ""
 "the {commande}`passwd` command from an [SSH connection](services/ssh.md)."
 
 #: ../../faq.md:22
-#, fuzzy
-#| msgid ""
-#| "Est ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine "
-#| "et créer plein d'adresses indépendantes ?"
 msgid ""
 "Est-ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et "
 "créer plein d'adresses indépendantes ?"
@@ -613,16 +606,12 @@ msgstr ""
 "{term}`SSH` access with the following command:"
 
 #: ../../glossaire.md:82
-#, fuzzy
-#| msgid ""
-#| "En remplaçant `<group>` par le groupe voulu. Exemple : `members sudo` ou "
-#| "`members home`."
 msgid ""
 "En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
 msgstr ""
-"By replacing `<group>` with the desired group. Example: `members sudo` or "
-"`members home`."
+"By replacing `GROUP` with the desired group. Example: `members sudo` or `"
+"members home`."
 
 #: ../../glossaire.md:85
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
@@ -1784,23 +1773,16 @@ msgid "Gestion des alias email"
 msgstr "Managing email aliases"
 
 #: ../../outils/aliases.md:4
-#, fuzzy
-#| msgid ""
-#| "Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` "
-#| "unix `aliases`. Il décrit les actions que peuvent accomplir ces "
-#| "utilisateurs sur les {term}`alias` emails."
 msgid ""
 "Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` Unix "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
-"This manual is dedicated to users that are part of the `aliases` {term}"
-"`group`. It describes actions that can be done by those users on the email "
-"{term}`aliases <alias>`."
+"This manual is dedicated to users that are part of the `aliases` "
+"{term}`group`. It describes actions that can be done by those users on the "
+"email {term}`aliases <alias>`."
 
 #: ../../outils/aliases.md:7
-#, fuzzy
-#| msgid "Modifier les alias de reception"
 msgid "Modifier les alias de réception"
 msgstr "Edit receiving aliases"
 
@@ -1837,18 +1819,13 @@ msgid "Ajouter ou supprimer un alias"
 msgstr "Create or delete an alias"
 
 #: ../../outils/aliases.md:40
-#, fuzzy
-#| msgid ""
-#| "Il est possible d'ajouter autant d'alias que voulu a ajoutant une "
-#| "nouvelle ligne au ficher, en suivant la [syntaxe d'alias de postfix]"
-#| "(http://www.postfix.org/aliases.5.html) :"
 msgid ""
 "Il est possible d'ajouter autant d'alias que voulu en ajoutant une nouvelle "
 "ligne au fichier, en suivant la [syntaxe d'alias de Postfix](http://www."
 "postfix.org/aliases.5.html) :"
 msgstr ""
 "You can create as many aliases as you want by adding a new line to the file, "
-"following the [postfix aliases db syntax](http://www.postfix.org/aliases.5."
+"following the [Postfix aliases db syntax](http://www.postfix.org/aliases.5."
 "html):"
 
 #: ../../outils/aliases.md:47
@@ -1864,18 +1841,13 @@ msgid "Modifier les alias d'envoi"
 msgstr "Edit sending aliases"
 
 #: ../../outils/aliases.md:54
-#, fuzzy
-#| msgid ""
-#| "Le processus est très similaire à celui de la [modification des alias de "
-#| "reception](#modifier-les-alias-de-reception) mais il existe quelques "
-#| "différences :"
 msgid ""
 "Le processus est très similaire à celui de la [modification des alias de "
 "réception](#modifier-les-alias-de-réception), mais il existe quelques "
 "différences :"
 msgstr ""
-"The process is very similar from the [edition of receiving aliases]"
-"(#modifier-les-alias-de-reception), but some differences exists:"
+"The process is very similar from the [edition of receiving aliases"
+"](#modifier-les-alias-de-réception), but some differences exists:"
 
 #: ../../outils/aliases.md:57
 msgid "Le fichier à modifier est `/etc/aliases_senders`."
@@ -1890,16 +1862,12 @@ msgid "Il faut toujours indiquer l'email complet avec `@club1.fr`."
 msgstr "You must always specify the complete email address with `@club1.fr`."
 
 #: ../../outils/aliases.md:60
-#, fuzzy
-#| msgid "La commande pour regénérer la base de données est :"
 msgid "La commande pour régénérer la base de données est :"
 msgstr "The command used to regenerate the database is:"
 
 #: ../../outils/aliases.md:64
-#, fuzzy
-#| msgid "Utilisation"
 msgid "Utilisation avancée"
-msgstr "Usage"
+msgstr "Advanced usage"
 
 #: ../../outils/aliases.md:67
 msgid ""
@@ -1941,16 +1909,12 @@ msgid "La gestion de la feuille de route des administrateurs système."
 msgstr "System administrator roadmap management."
 
 #: ../../outils/forum.md:9
-#, fuzzy
-#| msgid ""
-#| "Offrir un canal de discussion asynchrone public, permettant à des "
-#| "discussions variées de co-exister dans la durée."
 msgid ""
 "Offrir un canal de discussion asynchrone public, permettant à des "
 "discussions variées de coexister dans la durée."
 msgstr ""
 "Offer a public asynchronous discussion channel, allowing varied discussions "
-"to co-exist over time."
+"to coexist over time."
 
 #: ../../outils/forum.md:13
 msgid ""
@@ -1965,13 +1929,6 @@ msgid "Connexion"
 msgstr "Login"
 
 #: ../../outils/forum.md:19
-#, fuzzy
-#| msgid ""
-#| "Le forum est un outil de gestion interne mais il est aussi ouvert vers "
-#| "l'exterieur. C'est pourquoi il existe deux façons de s'y connecter. Dans "
-#| "tous les cas, une adresse e-mail est requise. Elle permettra, si vous le "
-#| "souhaitez, de recevoir des notifications sur des conversations que vous "
-#| "aurez choisi."
 msgid ""
 "Le forum est un outil de gestion interne, mais il est aussi ouvert vers "
 "l'extérieur. C'est pourquoi il existe deux façons de s'y connecter. Dans "
@@ -1979,10 +1936,10 @@ msgid ""
 "souhaitez, de recevoir des notifications sur des conversations que vous "
 "aurez choisies."
 msgstr ""
-"The forum is an internal management tool but it is also open to the outside. "
-"That's why there are two ways to log in. In all cases, an e-mail address is "
-"required. It will allow, if you wish, to receive notifications about "
-"conversations you will have chosen."
+"The forum is an internal management tool, but it is also open to the "
+"outside. That's why there are two ways to log in. In all cases, an e-mail "
+"address is required. It will allow, if you wish, to receive notifications "
+"about conversations you will have chosen."
 
 #: ../../outils/forum.md:24
 msgid "Connexion via le compte CLUB1"
@@ -2021,13 +1978,6 @@ msgid "Connexion ouverte"
 msgstr "Open login"
 
 #: ../../outils/forum.md:39
-#, fuzzy
-#| msgid ""
-#| "Ce type de connexion permet à n'importe qui de se créer un compte sur le "
-#| "forum et d'interagir avec. Passage obligatoire si vous n'avez pas de "
-#| "compte CLUB1, mais aussi dans le cas où ce sont des comptes de personnes "
-#| "morales (associations, collectifs) et que des personnes souhaitent s'y "
-#| "exprimer à titre individuel."
 msgid ""
 "Ce type de connexion permet à n'importe qui de se créer un compte sur le "
 "forum et d'interagir avec. Passage obligatoire si vous n'avez pas de compte "
@@ -2094,11 +2044,6 @@ msgstr ""
 "{guilabel}`Terminé`: Groups closed tickets (\"resolved\" or \"refused\")."
 
 #: ../../outils/forum.md:68
-#, fuzzy
-#| msgid ""
-#| "{guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement "
-#| "reliées à l'activité d'hébergement de CLUB1, et ne sont sonc pas des "
-#| "tickets."
 msgid ""
 "{guilabel}`Cafet` : Regroupe les discussions qui ne sont pas directement "
 "reliées à l'activité d'hébergement de CLUB1, et ne sont donc pas des tickets."
@@ -2166,10 +2111,6 @@ msgstr ""
 "allows to make \"current\", \"next\" and \"planned\" tasks public."
 
 #: ../../outils/forum.md:93
-#, fuzzy
-#| msgid ""
-#| "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs "
-#| "du forum peuvent utiliser, en contournant les restriction d'étiquettes."
 msgid ""
 "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du "
 "forum peuvent utiliser, en contournant les restrictions d'étiquettes."
@@ -2194,11 +2135,6 @@ msgid "Logiciel utilisé"
 msgstr "Software used"
 
 #: ../../outils/forum.md:105
-#, fuzzy
-#| msgid ""
-#| "Le forum est basé sur {logiciel}`Flarum`. Il est executé par {logiciel}"
-#| "`PHP-FPM` avec l'utilisateur `forum`, directement depuis {logiciel}"
-#| "`Nginx`."
 msgid ""
 "Le forum est basé sur {logiciel}`Flarum`. Il est exécuté par {logiciel}`PHP-"
 "FPM` avec l'utilisateur `forum`, directement depuis {logiciel}`Nginx`."
@@ -2338,20 +2274,16 @@ msgid ""
 msgstr ""
 
 #: ../../outils/ldap.md:25
-#, fuzzy
-#| msgid "Détails divers"
 msgid "Détails de configuration"
-msgstr "Miscellaneous details"
+msgstr "Configuration details"
 
 #: ../../outils/ldap.md:28
 msgid "Cette section décrit les spécificités de la configuration de CLUB1."
 msgstr ""
 
 #: ../../outils/ldap.md:31
-#, fuzzy
-#| msgid "Bases de données SQL"
 msgid "Schéma de données LDAP"
-msgstr "SQL databases"
+msgstr "LDAP data schema"
 
 #: ../../outils/ldap.md:46 ../../services/email.md:142 ../../services/ftp.md:41
 #: ../../services/sql.md:45 ../../services/ssh.md:77
@@ -2394,30 +2326,23 @@ msgid "port"
 msgstr "port"
 
 #: ../../outils/ldap.md:31
-#, fuzzy
-#| msgid "`993` (par défaut)"
 msgid "`389` (par défaut)"
-msgstr "`993` (default)"
+msgstr "`389` (default)"
 
 #: ../../outils/ldap.md:31
 msgid "non"
 msgstr ""
 
 #: ../../outils/ldap.md:63
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation libre du protocole LDAP. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/OpenLDAP), [Sources](https://git.openldap.org/openldap/"
 "openldap)"
 msgstr ""
-"{term}`SQL` database {term}`server` distributed under a free license. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github."
-"com/MariaDB/server)"
+"{term}`LDAP` directory {term}`server` part of the OpenLDAP project, a free "
+"implementation of the LDAP protocol. --- [Wikipedia](https://en.wikipedia."
+"org/wiki/OpenLDAP), [Sources](https://git.openldap.org/openldap/openldap)"
 
 #: ../../outils/ldap.md:70
 msgid ""
@@ -2537,15 +2462,6 @@ msgid "Proposer des modifications"
 msgstr "Propose changes"
 
 #: ../../outils/meta-doc.md:60
-#, fuzzy
-#| msgid ""
-#| "L'utilisation de {logiciel}`Git` permet à n'importe qui de proposer des "
-#| "modifications. Pour cela il est possible de modifier les fichiers "
-#| "directement sur {term}`GitHub` (un compte sera nécessaire), dans une "
-#| "branche personnelle, puis de créer une _pull request_ vers la branche "
-#| "principale : `main` (il s'agit de l'action proposée par défaut). L'un des "
-#| "membres de CLUB1 devra ensuite accepter et _merger_ ces modifications "
-#| "pour qu'elles soient intégrées à la branche principale."
 msgid ""
 "L'utilisation de {logiciel}`Git` permet à n'importe qui de proposer des "
 "modifications. Pour cela, il est possible de modifier les fichiers "
@@ -2674,12 +2590,6 @@ msgstr ""
 "downloading it for offline formats."
 
 #: ../../outils/meta-doc.md:117
-#, fuzzy
-#| msgid ""
-#| "Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux "
-#| "les sauvegarder dans le dossier, avec les fichiers source. Il est "
-#| "intéressant de les y regrouper dans un dossier portant le même nom que la "
-#| "page dans laquelle elles seront inclues (en omettant l'extension)."
 msgid ""
 "Pour des images plus spécifiques à la documentation CLUB1, il vaut mieux les "
 "sauvegarder dans le dossier, avec les fichiers source. Il est intéressant de "
@@ -2724,14 +2634,6 @@ msgid "Compilation"
 msgstr "Compilation"
 
 #: ../../outils/meta-doc.md:138
-#, fuzzy
-#| msgid ""
-#| "Il n'est pas nécessaire de connaître cette section pour participer à "
-#| "l'édition de la documentation de CLUB1. Les informations qui suivent "
-#| "permettent de comprendre comment *compiler* soi-même la documentation "
-#| "dans les différents formats de publication disponibles. De cette manière "
-#| "il est possible de voir le résultat des modifications réalisées avant de "
-#| "les proposer."
 msgid ""
 "Il n'est pas nécessaire de connaître cette section pour participer à "
 "l'édition de la documentation de CLUB1. Les informations qui suivent "
@@ -2743,8 +2645,8 @@ msgstr ""
 "It is not required to know this section to participate in the edition of the "
 "CLUB1 documentation. The following information allows you to understand how "
 "to *compile* the documentation yourself in the different publication formats "
-"available. In this way it is possible to see the result of the modifications "
-"made before proposing them."
+"available. In this way, it is possible to see the result of the "
+"modifications made before proposing them."
 
 #: ../../outils/meta-doc.md:145
 msgid "Prérequis communs"
@@ -2875,14 +2777,6 @@ msgid "Mise-à-jour des locales après l'édition des sources :"
 msgstr "Locales update after sources edition:"
 
 #: ../../outils/meta-doc.md:232
-#, fuzzy
-#| msgid ""
-#| "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir "
-#| "lancé l'une de ces commande. Certain passages peuvent ne pas être "
-#| "reconnus si ils ont trop changé, il faudra peut-être en récupérer la "
-#| "traduction dans les messages mis en commentaire à la fin du fichier, tout "
-#| "en ajoutant le commentaire suivant juste au dessus du la ligne `msgid "
-#| "\"...\"` :"
 msgid ""
 "Toujours vérifier l'état des fichiers `.po` dans `locales` après avoir lancé "
 "l'une de ces commandes. Certains passages peuvent ne pas être reconnus s'ils "
@@ -2913,58 +2807,49 @@ msgstr ""
 "`/docs/`:"
 
 #: ../../outils/meta-doc.md:265
-#, fuzzy
-#| msgid "Metadonnées"
 msgid "Métadonnées"
 msgstr "Metadata"
 
 #: ../../services-membres.md:1
 msgid "Services réservés aux membres"
-msgstr ""
+msgstr "Services reserved for members"
 
 #: ../../services-membres.md:4
-#, fuzzy
-#| msgid ""
-#| "Tous ces services utilisent donc le même **identifiant** et le même **mot "
-#| "de passe** pour la connexion."
 msgid ""
 "Ces services nécessitent d'être membre de CLUB1 et se basent tous sur un "
 "compte commun. Ils utilisent donc le même **identifiant** et le même **mot "
 "de passe** pour la connexion."
 msgstr ""
-"All these services then share the same **login** and **password** for the "
-"connection."
+"These services require being a member of CLUB1 and are all based on a common "
+"account. They therefore use the same **login** and the same **password** for "
+"the connection."
 
 #: ../../services-ouverts.md:1
 msgid "Services ouverts à tous"
-msgstr ""
+msgstr "Services open to all"
 
 #: ../../services-ouverts.md:4
 msgid ""
 "Ces services ne nécessitent pas d'être membre de CLUB1, ils sont utilisables "
 "par n'importe qui."
 msgstr ""
+"These services do not require to be a member of CLUB1, they are usable by "
+"anyone."
 
 #: ../../services/drive.md:1
 msgid "Explorateur de fichiers Web *Drive*"
 msgstr "*Drive* Web file explorer"
 
 #: ../../services/drive.md:4
-#, fuzzy
-#| msgid ""
-#| "Le _**Drive**_ CLUB1 est un explorateur de fichiers utilisable à travers "
-#| "un navigateur {term}`Web`. Il permet d'acceder à son **espace personnel** "
-#| "sans avoir besoin d'installer ou de configurer une application native. Il "
-#| "est donc très utile lorsque l'on est pas sur son ordinateur personnel."
 msgid ""
 "Le _**Drive**_ CLUB1 est un explorateur de fichiers utilisable à travers un "
 "navigateur {term}`Web`. Il permet d'accéder à son **espace personnel** sans "
 "avoir besoin d'installer ou de configurer une application native. Il est "
 "donc très utile lorsque l'on n'est pas sur son ordinateur personnel."
 msgstr ""
-"The CLUB1 _**Drive**_ is a file explorer that can be used through a {term}"
-"`Web` browser. It allows to access your **personal space** without the need "
-"for configuring or install any native application. It is therefore very "
+"The CLUB1 _**Drive**_ is a file explorer that can be used through a "
+"{term}`Web` browser. It allows to access your **personal space** without the "
+"need for configuring or install any native application. It is therefore very "
 "useful when you are not on your personal computer."
 
 #: ../../services/drive.md:8
@@ -3223,14 +3108,6 @@ msgid "Transferts automatiques"
 msgstr "Automatic forwarding"
 
 #: ../../services/email.md:98
-#, fuzzy
-#| msgid ""
-#| "Il est possible de transférer automatiquement les emails que vous recevez "
-#| "sur votre adresse CLUB1 vers une ou plusieurs autres adresses de votre "
-#| "choix. Pour se faire, il faut créer dans votre [espace personnel](/info/"
-#| "espace-personnel.md) un fichier qui va indiquer à {logiciel}`Postfix` à "
-#| "qui transférer votre courrier entrant. Ce fichier doit être placé "
-#| "directement dans votre dossier et s'appeller `.forward`."
 msgid ""
 "Il est possible de transférer automatiquement les emails que vous recevez "
 "sur votre adresse CLUB1 vers une ou plusieurs autres adresses de votre "
@@ -3250,11 +3127,6 @@ msgid "`.forward` est un {term}`fichier caché`."
 msgstr "`.forward` is a {term}`hidden file`."
 
 #: ../../services/email.md:108
-#, fuzzy
-#| msgid ""
-#| "A l'intérieur de ce fichier, il suffit ensuite de lister toutes les "
-#| "adresses vers lesquelles vous souhaitez rediriger les emails en les "
-#| "séparant par un retour à la ligne."
 msgid ""
 "À l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses "
 "vers lesquelles vous souhaitez rediriger les emails en les séparant par un "
@@ -3499,33 +3371,20 @@ msgstr ""
 "be useful to transfer a large amount of files from and to the CLUB1 server."
 
 #: ../../services/ftp.md:27
-#, fuzzy
-#| msgid ""
-#| "Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** "
-#| "grâce à des logiciels comme [FileZilla](https://filezilla-project.org/"
-#| "download.php?type=client) (attention l'installeur windows comprend des "
-#| "bundlewares)."
 msgid ""
 "Le {term}`protocole` FTP permet d'accéder à votre **espace personnel** grâce "
 "à des logiciels comme [FileZilla](https://filezilla-project.org/download.php?"
 "type=client) (attention l'installeur Windows comprend des bundlewares)."
 msgstr ""
 "The FTP {term}`protocol` gives access to your **personal space** thanks to "
-"software like [FileZilla](https://filezilla-project.org/download.php?"
-"type=client) (warning: the windows installer includes bundlewares)."
+"software like [FileZilla](https://filezilla-project.org/download."
+"php?type=client) (warning: the Windows installer includes bundlewares)."
 
 #: ../../services/ftp.md:30
 msgid "Sécurité"
 msgstr "Security"
 
 #: ../../services/ftp.md:33
-#, fuzzy
-#| msgid ""
-#| "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrés "
-#| "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
-#| "fonctionnalité s'appelle [FTPS (FTP avec TLS implicite)](https://fr."
-#| "wikipedia.org/wiki/"
-#| "File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrées "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
@@ -3612,10 +3471,6 @@ msgstr ""
 "(https://git-scm.com/docs/git-http-backend)."
 
 #: ../../services/git.md:15
-#, fuzzy
-#| msgid ""
-#| "Consulter rapidement le dépôt et le sources dans un navigateur grâce à "
-#| "l'interface {term}`Web` fournie par {logiciel}`cgit`."
 msgid ""
 "Consulter rapidement le dépôt et les sources dans un navigateur grâce à "
 "l'interface {term}`Web` fournie par {logiciel}`cgit`."
@@ -3628,12 +3483,6 @@ msgid "Tutoriel d'utilisation"
 msgstr "Usage tutorial"
 
 #: ../../services/git.md:21
-#, fuzzy
-#| msgid ""
-#| "Pour utiliser la fonctionnalité de dépôts {logiciel}`Git` publics sur "
-#| "CLUB1, il faut tout d'abord initialiser le dépôt à distance, avec [SSH]"
-#| "(ssh.md), depuis un ordinateur personnel (remplacer `<login>` par votre "
-#| "**identifiant** et `<repo>` par le nom que vous voulez donner au dépôt) :"
 msgid ""
 "Pour utiliser la fonctionnalité de dépôts {logiciel}`Git` publics sur CLUB1, "
 "il faut tout d'abord initialiser le dépôt à distance, avec [SSH](ssh.md), "
@@ -3642,17 +3491,10 @@ msgid ""
 msgstr ""
 "To use CLUB1's public {logiciel}`Git` repositories feature, a repository "
 "must first be initialized remotely, with [SSH](ssh.md), from a personal "
-"computer (replace `<login>` with your **login** and `<repo>` with the name "
-"you want to give to the repository):"
+"computer (replace `USER` with your **login** and `REPO` with the name you "
+"want to give to the repository):"
 
 #: ../../services/git.md:28
-#, fuzzy
-#| msgid ""
-#| "Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://git."
-#| "club1.fr/<login>/<repo>`, mais celui-ci est vide pour le moment. La "
-#| "branche affichée par défaut dans l'interface {term}`Web` est `master`. Il "
-#| "est possible de la changer en modifiant le fichier `HEAD` du dépôt. Par "
-#| "exemple pour la remplacer par la branche `main` :"
 msgid ""
 "Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://git."
 "club1.fr/USER/REPO`, mais celui-ci est vide pour le moment. La branche "
@@ -3661,7 +3503,7 @@ msgid ""
 "pour la remplacer par la branche `main` :"
 msgstr ""
 "From now on, the repository is published with _read only_ permissions at "
-"`https://git.club1.fr/<login>/<repo>`, but it is empty for now. The branch "
+"`https://git.club1.fr/USER/REPO`, but it is empty for now. The branch "
 "displayed by default in the {term}`Web` interface is `master`. It is "
 "possible to change it by modifying the `HEAD` file of the repository. For "
 "instance, to replace it by the `main` branch:"
@@ -3761,7 +3603,7 @@ msgstr ""
 
 #: ../../services/matrix.md:1
 msgid "Discussion instantanée Matrix"
-msgstr ""
+msgstr "Matrix instant discussion"
 
 #: ../../services/matrix.md:6
 msgid ""
@@ -4240,11 +4082,6 @@ msgid ""
 msgstr "From this shell it is possible to launch any {term}`SQL` command."
 
 #: ../../services/sql.md:48
-#, fuzzy
-#| msgid ""
-#| "L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis "
-#| "l'extérieur. Il n'est donc possible de s'y connecter que depuis un "
-#| "processus s'executant sur le même serveur."
 msgid ""
 "L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis "
 "l'extérieur. Il n'est donc possible de s'y connecter que depuis un processus "
@@ -4363,16 +4200,12 @@ msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
 #: ../../services/ssh.md:45
-#, fuzzy
-#| msgid ""
-#| "On utilise la commande suivante dans le {term}`terminal` pour se "
-#| "connecter (remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgid ""
 "On utilise la commande suivante dans le {term}`terminal` pour se connecter "
 "(remplacer `USER` par votre **identifiant** CLUB1) :"
 msgstr ""
 "We use the following command in the {term}`terminal` to connect (replace "
-"`<login>` with your CLUB1 **login**):"
+"`USER` with your CLUB1 **login**):"
 
 #: ../../services/ssh.md:50
 msgid ""
@@ -4402,13 +4235,6 @@ msgstr ""
 "hesitate to choose a long passphrase."
 
 #: ../../services/ssh.md:64
-#, fuzzy
-#| msgid ""
-#| "La commande qui suit va permettre d'envoyer la partie publique de la clé "
-#| "vers le serveur, afin de pouvoir l'utiliser comme méthode "
-#| "d'authentification (remplacer `<login>` par votre **identifiant** CLUB1). "
-#| "Elle vous demandera d'entrer votre **mot de passe** CLUB1 pour "
-#| "fonctionner."
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
@@ -4416,16 +4242,11 @@ msgid ""
 "d'entrer votre **mot de passe** CLUB1 pour fonctionner."
 msgstr ""
 "The command thereafter then effortlessly sends the public part of the key to "
-"the server to be able to use it as an authentication method (replace "
-"`<login>` with your CLUB1 **login**). It will ask you to enter you CLUB1 "
-"**password** to work."
+"the server to be able to use it as an authentication method (replace `USER` "
+"with your CLUB1 **login**). It will ask you to enter you CLUB1 **password** "
+"to work."
 
 #: ../../services/ssh.md:71
-#, fuzzy
-#| msgid ""
-#| "Finalement, on utilise toujours la même commande pour se connecter. Mais "
-#| "cette fois c'est les clés qui seront utilisées. Si elles ne sont pas déjà "
-#| "déverrouillées, la _phrase de passe_ sera demandée."
 msgid ""
 "Finalement, on utilise toujours la même commande pour se connecter. Mais "
 "cette fois ce sont les clés qui seront utilisées. Si elles ne sont pas déjà "
@@ -4493,13 +4314,6 @@ msgid "Sites Web _statiques_"
 msgstr "_Static_ websites"
 
 #: ../../services/web.md:25
-#, fuzzy
-#| msgid ""
-#| "Ce type de site web est constitué uniquement de fichiers que le serveur "
-#| "va servir en fonction des requêtes. Cela ne demande presque aucun "
-#| "\"travail\" au processeur car il n'y a pas de calcul à effectuer. Les "
-#| "sites statiques sont une voie intéressante pour qui cherche à proposer "
-#| "des sites plus sobres énergétiquement."
 msgid ""
 "Ce type de site web est constitué uniquement de fichiers que le serveur va "
 "servir en fonction des requêtes. Cela ne demande presque aucun \"travail\" "
@@ -4508,17 +4322,11 @@ msgid ""
 "énergétiquement."
 msgstr ""
 "This type of website consists only of files that the server will serve based "
-"on requests. It requires almost no \"work\" from the processor because there "
-"is no calculation to perform. Static sites are an interesting way for anyone "
-"looking to offer more energy-efficient sites."
+"on requests. It requires almost no \"work\" from the processor, because "
+"there is no calculation to perform. Static sites are an interesting way for "
+"anyone looking to offer more energy-efficient sites."
 
 #: ../../services/web.md:29
-#, fuzzy
-#| msgid ""
-#| "Pour créer un site web statique, on peut écrire soi-même du code HTML, "
-#| "associé avec des images, sons ou vidéos. C'est la façon la plus "
-#| "artisanale de faire un site web. Elle garantie des styles uniques et "
-#| "originaux et est très efficace pour apprendre comment fonctionne le web."
 msgid ""
 "Pour créer un site web statique, on peut écrire soi-même du code HTML, "
 "associé avec des images, sons ou vidéos. C'est la façon la plus artisanale "
@@ -4549,16 +4357,6 @@ msgstr ""
 "sites."
 
 #: ../../services/web.md:41
-#, fuzzy
-#| msgid ""
-#| "Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à "
-#| "gérer. Pour ça il est conseillé de se tourner vers les [générateurs de "
-#| "sites statiques](https://fr.wikipedia.org/wiki/"
-#| "G%C3%A9n%C3%A9rateur_de_site_statique) Ces outils peuvent générer les "
-#| "fichiers HTML d'un site, par exemple à partir de fichiers {term}"
-#| "`Markdown`, sur votre ordinateur personnel. A chaque fois qu'une mise à "
-#| "jour est nécessaire, il n'y a qu'à relancer le processus et copier les "
-#| "fichiers ainsi créés sur le serveur."
 msgid ""
 "Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer. "
 "Pour ça il est conseillé de se tourner vers les [générateurs de sites "
@@ -4633,14 +4431,6 @@ msgid "Sites Web _dynamiques_"
 msgstr "_Dynamic_ websites"
 
 #: ../../services/web.md:76
-#, fuzzy
-#| msgid ""
-#| "Ce type de site web utilise du code logique qui s'execute sur le serveur. "
-#| "Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/"
-#| "Syst%C3%A8me_de_gestion_de_contenu). Et peut notamment nécessiter "
-#| "l'utilisation de [bases de données SQL](sql.md) Pour ces sites web, il "
-#| "faut obligatoirement passer par la création d'un [nom de domaine](#noms-"
-#| "de-domaines). Car il n'y a pas de dossier automatique préconfiguré."
 msgid ""
 "Ce type de site web utilise du code logique qui s'exécute sur le serveur. "
 "Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/"
@@ -4838,18 +4628,13 @@ msgid "Louer un nom de domaine externe"
 msgstr "Rent an external domain name"
 
 #: ../../services/web.md:175
-#, fuzzy
-#| msgid ""
-#| "Il est possible de louer un nom de domaine chez un {term}`registraire`. "
-#| "Cela coûte souvent une dizaine d'euros par an mais cela peut varier en "
-#| "fonction du {term}`TLD` choisi."
 msgid ""
 "Il est possible de louer un nom de domaine chez un {term}`registraire`. Cela "
 "coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction "
 "du {term}`TLD` choisi."
 msgstr ""
 "It is possible to rent a domain name from a {term}`registrar`. This often "
-"costs about ten euros per year but it can vary depending on the {term}`TLD` "
+"costs about ten euros per year, but it can vary depending on the {term}`TLD` "
 "chosen."
 
 #: ../../services/web.md:178
@@ -4875,12 +4660,6 @@ msgid "Gestion"
 msgstr "Management"
 
 #: ../../services/web.md:188
-#, fuzzy
-#| msgid ""
-#| "Aucune de ces actions ne sont automatisés ni accessibles via une "
-#| "interface web. Il est donc **nécessaire d'en discuter entre humain&middot;"
-#| "e&middot;s** 🍺 ! Cela fait partie de l'aspect artisanal et de l'échelle "
-#| "volontairement humaine de la gestion du serveur."
 msgid ""
 "Aucune de ces actions n'est automatisée ni accessibles via une interface "
 "web. Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** "
@@ -4985,19 +4764,15 @@ msgstr ""
 
 #: ../../services/webcast.md:0
 msgid "webdiffusion"
-msgstr ""
+msgstr "webcast"
 
 #: ../../services/webcast.md:13
-#, fuzzy
-#| msgid ""
-#| "Le logiciel permettant de consulter ces flux est appelé {term}`agrégateur "
-#| "de flux`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Flux_web)"
 msgid ""
 "Désigne la diffusion de contenus audio et/ou vidéo via le {term}`Web`. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Webdiffusion)"
 msgstr ""
-"The software for viewing these feeds is called {term}`feed aggregator`. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Web_feed)"
+"Refers to the distribution of audio and/or video content via the {term}`Web`"
+". --- [Wikipedia](https://en.wikipedia.org/wiki/Webcast)"
 
 #: ../../services/webcast.md:17
 msgid ""
@@ -5006,6 +4781,10 @@ msgid ""
 "`Internet`. Ce service est basé sur le logiciel {logiciel}`Icecast` et est "
 "accessible à l'adresse <https://club1.fr:8000>."
 msgstr ""
+"A live {term}`webcast` service is made available to members. For example, it "
+"allows you to create radio broadcasts on {term}`Internet`. This service is "
+"based on the software {logiciel}`Icecast` and is accessible at the address "
+"<https://club1.fr:8000>."
 
 #: ../../services/webcast.md:22
 msgid ""
@@ -5017,14 +4796,20 @@ msgid ""
 "exemple [VLC](https://fr.wikipedia.org/wiki/VLC_media_player)) pourra tout "
 "de même apporter un meilleur confort."
 msgstr ""
+"It is possible to consult this page from a {term}`Web` browser, but it will "
+"only allow you to display the list of current broadcasts and read their "
+"contents. To broadcast content as a source, it is necessary to use a "
+"dedicated {term}`client` (e.g. [butt](https://danielnoethen.de/butt/)). For "
+"reading, a dedicated client (for example [VLC](https://en.wikipedia.org/wiki/"
+"VLC_media_player)) will still be able to provide better comfort."
 
 #: ../../services/webcast.md:11
 msgid "`8000`"
-msgstr ""
+msgstr "`8000`"
 
 #: ../../services/webcast.md:11
 msgid "type"
-msgstr ""
+msgstr "type"
 
 #: ../../services/webcast.md:11
 msgid "Icecast"
@@ -5035,25 +4820,18 @@ msgid "SSL/TLS"
 msgstr ""
 
 #: ../../services/webcast.md:11
-#, fuzzy
-#| msgid "Outils"
 msgid "Oui"
-msgstr "Tools"
+msgstr "Yes"
 
 #: ../../services/webcast.md:44
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
 "xiph.org/xiph/icecast-server)"
 msgstr ""
-"{term}`SQL` database {term}`server` distributed under a free license. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github."
-"com/MariaDB/server)"
+"{term}`Webcast` {term}`server` for audio and video streams. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
+"xiph.org/xiph/icecast-server)"
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
@@ -5115,19 +4893,13 @@ msgid "Carnets d'adresses et calendriers"
 msgstr "Address-books and calendars"
 
 #: ../../services/webdav.md:35
-#, fuzzy
-#| msgid ""
-#| "Le {term}`client Web` utilisé pour les [email](email.md) (<https://mail."
-#| "club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
-#| "WebDAV. Depuis cette interface, il est possible de consulter et éditer "
-#| "ses contacts et calendriers CLUB1."
 msgid ""
 "Le {term}`client Web` utilisé pour les [emails](email.md) (<https://mail."
 "club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
 "WebDAV. Depuis cette interface, il est possible de consulter et éditer ses "
 "contacts et calendriers CLUB1."
 msgstr ""
-"The {term}`Web client` used for [email](email.md) (<https://mail.club1.fr>) "
+"The {term}`Web client` used for [emails](email.md) (<https://mail.club1.fr>) "
 "also allows to access the WebDAV address-books and calendars. From this "
 "interface, it is possible to view and edit your CLUB1 contacts and calendars."
 
@@ -6062,16 +5834,12 @@ msgstr ""
 "make you a real computer magician! 🧙"
 
 #: ../../tutos/premiere-connexion-ssh.md:24
-#, fuzzy
-#| msgid ""
-#| "On utilise la commande suivante dans le terminal pour se connecter "
-#| "(remplacer `<login>` par votre **identifiant** CLUB1) :"
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter "
 "(remplacer `USER` par votre **identifiant** CLUB1) :"
 msgstr ""
-"We use the following command in the terminal to connect (replace `<login>` "
-"with your CLUB1 **login**):"
+"We use the following command in the terminal to connect (replace `USER` with "
+"your CLUB1 **login**):"
 
 #: ../../tutos/premiere-connexion-ssh.md:30
 msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
@@ -6197,12 +5965,6 @@ msgstr ""
 "with the key."
 
 #: ../../tutos/premiere-connexion-ssh.md:98
-#, fuzzy
-#| msgid ""
-#| "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-"
-#| "le-terminal) sans voir le message d'alerte et il vous faudra alors entrer "
-#| "votre **mot de passe** CLUB1 (il est normal que le mot de passe ne "
-#| "s'affiche pas au moment de l'écriture 🤫)."
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
@@ -6210,8 +5972,7 @@ msgid ""
 msgstr ""
 "You should now be able to [connect via SSH](#connexion-avec-le-terminal) "
 "without seeing the alert message and you will then need to enter your CLUB1 "
-"**password** (it is normal that the password is not displayed at the time of "
-"writing 🤫)."
+"**password**."
 
 #: ../../tutos/premiere-connexion-ssh.md:102
 msgid ""
@@ -6405,11 +6166,6 @@ msgstr ""
 "`calendars` between the server and an *Android* device."
 
 #: ../../tutos/webdav-android.md:7
-#, fuzzy
-#| msgid ""
-#| "Pour synchroniser ses contacts et calendriers avec différentes "
-#| "applications, la solution la plus efficace consiste à passer par une "
-#| "application qui va se charger essentiellement de la synchro : __DAVx5__."
 msgid ""
 "Pour synchroniser ses contacts et calendriers avec différentes applications, "
 "la solution la plus efficace consiste à passer par une application qui va se "
@@ -6417,7 +6173,7 @@ msgid ""
 msgstr ""
 "To synchronize your contacts and calendars with different applications, the "
 "most effective solution is to go through an application that will mainly "
-"take care of synchronization: __DAVx5__."
+"take care of synchronization: __DAVx{sup}`5`__."
 
 #: ../../tutos/webdav-android.md:11
 msgid ""
@@ -6448,16 +6204,12 @@ msgid "Premier lancement"
 msgstr "First launch"
 
 #: ../../tutos/webdav-android.md:22
-#, fuzzy
-#| msgid ""
-#| "Lors du lancement de __DAVx5__, ne pas cocher les cases concernant la "
-#| "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgid ""
 "Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
-"When launching __DAVx5__, do not check the boxes concerning task management "
-"({numref}`fig:tutos-webdav-android-taches`)."
+"When launching __DAVx{sup}`5`__, do not check the boxes concerning task "
+"management ({numref}`fig:tutos-webdav-android-taches`)."
 
 #: ../../tutos/webdav-android.md:30
 msgid "capture d'écran gestion des tâches"
@@ -6516,10 +6268,8 @@ msgid "capture d'écran accueil"
 msgstr "screenshot home"
 
 #: ../../tutos/webdav-android.md:68
-#, fuzzy
-#| msgid "Écran d'accueil de DAVx5."
 msgid "Écran d'accueil de DAVx{sup}`5`."
-msgstr "DAVx5 home screen."
+msgstr "DAVx{sup}`5` home screen."
 
 #: ../../tutos/webdav-android.md:71
 msgid ""
@@ -6546,15 +6296,6 @@ msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgstr "The username and password are your CLUB1 credentials."
 
 #: ../../tutos/webdav-android.md:89
-#, fuzzy
-#| msgid ""
-#| "Si vous avez tout bien renseigné, DAVx5 va maintenant vous proposer un "
-#| "nom pour ce compte qui risque fortement de ressembler à votre adresse "
-#| "email CLUB1. Ça semble judicieux car c'est souvent comme cela que l'on "
-#| "identifie un couple `user@server`. Un dernier petit détail : Il est "
-#| "recommandé d'utiliser la méthode \"Les groupes sont des catégories pour "
-#| "chacun des contacts\" pour être compatible avec le client web mail de "
-#| "CLUB1 ({numref}`fig:tutos-webdav-android-groupes`)."
 msgid ""
 "Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer "
 "un nom pour ce compte qui risque fortement de ressembler à votre adresse "
@@ -6564,9 +6305,9 @@ msgid ""
 "chacun des contacts\" pour être compatible avec le client web mail de CLUB1 "
 "({numref}`fig:tutos-webdav-android-groupes`)."
 msgstr ""
-"If you have filled in everything correctly, DAVx5 will now suggest a name "
-"for this account that is very likely to resemble your CLUB1 email address. "
-"This seems to be a good idea because this is often how a pair of "
+"If you have filled in everything correctly, DAVx{sup}`5` will now suggest a "
+"name for this account that is very likely to resemble your CLUB1 email "
+"address. This seems to be a good idea because this is often how a pair of "
 "`user@server` is identified. One last little detail: It is recommended to "
 "use the method \"Groups are categories for each of the contacts\" to be "
 "compatible with the web mail client of CLUB1 ({numref}`fig:tutos-webdav-"
@@ -6585,14 +6326,6 @@ msgid "Encore une dernière étape : quoi synchroniser ?"
 msgstr "One last step: what to synchronize?"
 
 #: ../../tutos/webdav-android.md:107
-#, fuzzy
-#| msgid ""
-#| "DAVx5 nous laisse sélectionner les carnets de contacts et calendriers que "
-#| "vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
-#| "webdav-android-selection`). Pour cela, il suffit de les cocher en "
-#| "naviguant entre les onglets \"Carnets d'adresses\" et \"Agendas\". Il "
-#| "sera toujours possible d'accéder et modifier ces réglages  plus tard très "
-#| "facilement."
 msgid ""
 "DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers "
 "que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
@@ -6600,11 +6333,11 @@ msgid ""
 "entre les onglets \"Carnets d'adresses\" et \"Agendas\". Il sera toujours "
 "possible d'accéder et modifier ces réglages  plus tard très facilement."
 msgstr ""
-"DAVx5 lets us select the contact books and calendars you want to synchronize "
-"on your phone ({numref}`fig:tutos-webdav-android-selection`). To do this, "
-"simply tick them by navigating between the \"Address books\" and \"Agendas\" "
-"tabs. It will always be possible to access and modify these settings later "
-"very easily."
+"DAVx{sup}`5` lets us select the contact books and calendars you want to "
+"synchronize on your phone ({numref}`fig:tutos-webdav-android-selection`). To "
+"do this, simply tick them by navigating between the \"Address books\" and "
+"\"Agendas\" tabs. It will always be possible to access and modify these "
+"settings later very easily."
 
 #: ../../tutos/webdav-android.md:118
 msgid "capture d'écran sélection"
@@ -6700,17 +6433,13 @@ msgid "Accès à l'espace personnel depuis le Finder d'un Mac"
 msgstr "Access personal space from a Mac's Finder"
 
 #: ../../tutos/webdav-mac.md:4
-#, fuzzy
-#| msgid ""
-#| "Dans la barre de menu, cliquez sur {guilabel}`fichier` puis {guilabel}`se "
-#| "connecter au serveur...`."
 msgid ""
 "Dans le Finder, dans la barre de menu, cliquez sur {guilabel}`Aller` --> "
 "{guilabel}`Se connecter au serveur...` ({numref}`fig:tutos-webdav-mac-"
 "aller`)."
 msgstr ""
-"In the menu bar, click on {guilabel}`file` then {guilabel}`connect to "
-"server...`."
+"In the Finder, then the menu bar, click on {guilabel}`Go` then {guilabel}`"
+"Connect to Server...` ({numref}`fig:tutos-webdav-mac-aller`)."
 
 #: ../../tutos/webdav-mac.md:13
 msgid "menu Aller"
@@ -6741,10 +6470,8 @@ msgid "Rentrez l'url Webdav correspondant à votre utilisateur :"
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:33
-#, fuzzy
-#| msgid "Nom d'utilisateur : rentrez votre identifiant CLUB1"
 msgid "En remplaçant `USER` par votre identifiant CLUB1."
-msgstr "Username: enter your CLUB1 username"
+msgstr "By replacing `USER` with your CLUB1 identifier."
 
 #: ../../tutos/webdav-mac.md:36
 msgid ""
