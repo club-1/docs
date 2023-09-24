@@ -16,6 +16,9 @@ msgstr ""
 msgid "Atom"
 msgstr ""
 
+msgid "BIND"
+msgstr ""
+
 msgid "BibTeX"
 msgstr ""
 
@@ -29,6 +32,9 @@ msgid "CardDAV"
 msgstr ""
 
 msgid "Copyright © {{ copyright }}."
+msgstr ""
+
+msgid "DNS"
 msgstr ""
 
 msgid "DejaVu"
