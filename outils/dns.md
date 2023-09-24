@@ -49,7 +49,11 @@ et quelques règles doivent être respectées par les administrateurs :
 - Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier `/etc/bind/named.conf.local`.
 - Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un lien symbolique dans `/var/lib/bind`.
 - Les blocs de zones primaires doivent référencer le fichier de `/var/lib/bind`.
-- Les blocs de zones secondaires doivent utiliser un simple nom de fichier (lequel sera alors relatif à `/var/cache/bind`)
+- Les blocs de zones secondaires doivent utiliser un simple nom de fichier (lequel sera alors relatif à `/var/cache/bind`).
+
+Les modifications de zones sont principalement réalisées par les [scripts CLUB1](https://github.com/club-1/hosting/),
+mais dans le cas d'une modification manuelle,
+ne pas oublier de lancer le script `dns-bump` sur le fichier de zone en question.
 
 Logiciels
 ---------
