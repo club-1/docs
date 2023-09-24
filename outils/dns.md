@@ -46,7 +46,7 @@ Administration
 Seuls les membres du {term}`groupe` `sudo` peuvent éditer la configuration du serveur DNS
 et quelques règles doivent être respectées par les administrateurs :
 
-- Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier `/etc/binc/named.conf.local`.
+- Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier `/etc/bind/named.conf.local`.
 - Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un lien symbolique dans `/var/lib/bind`.
 - Les blocs de zones primaires doivent référencer le fichier de `/var/lib/bind`.
 - Les blocs de zones secondaires doivent utiliser un simple nom de fichier (lequel sera alors relatif à `/var/cache/bind`)
