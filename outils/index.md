@@ -11,4 +11,5 @@ meta-doc
 aliases
 forum
 ldap
+dns
 ```
