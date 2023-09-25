@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-09-17 23:41+0200\n"
+"POT-Creation-Date: 2023-09-25 12:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -779,7 +779,7 @@ msgstr ""
 #: ../../info/espace-personnel.md:72 ../../info/general.md:107
 #: ../../info/infrastructure-materielle.md:6
 #: ../../info/politique-de-vie-privee.md:6 ../../outils/aliases.md:75
-#: ../../outils/forum.md:12 ../../services/email.md:32
+#: ../../outils/dns.md:26 ../../outils/forum.md:12 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:124
 #: ../../services/email.md:208 ../../services/web.md:70
 msgid "Voir aussi"
@@ -795,12 +795,13 @@ msgid ""
 "membre met à jour son fichier de présentation !"
 msgstr ""
 
-#: ../../info/espace-personnel.md:79 ../../outils/ldap.md:59
-#: ../../services/drive.md:18 ../../services/email.md:163
-#: ../../services/ftp.md:51 ../../services/git.md:90
-#: ../../services/matrix.md:163 ../../services/rss.md:57
-#: ../../services/sql.md:56 ../../services/ssh.md:85 ../../services/web.md:204
-#: ../../services/webcast.md:40 ../../services/webdav.md:52
+#: ../../info/espace-personnel.md:79 ../../outils/dns.md:58
+#: ../../outils/ldap.md:59 ../../services/drive.md:18
+#: ../../services/email.md:163 ../../services/ftp.md:51
+#: ../../services/git.md:90 ../../services/matrix.md:163
+#: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:85
+#: ../../services/web.md:204 ../../services/webcast.md:40
+#: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
 
@@ -1523,6 +1524,124 @@ msgid ""
 "html#DELIVERY_RIGHTS)."
 msgstr ""
 
+#: ../../outils/dns.md:1
+msgid "Serveur DNS"
+msgstr ""
+
+#: ../../outils/dns.md:6
+msgid ""
+"(_Domain Name System_) Service informatique distribué qui associe les {term}"
+"`noms de domaine <nom de domaine>` {term}`Internet` avec leurs {term}"
+"`adresses IP <adresse IP>` ou d'autres types d'enregistrements. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/BIND)"
+msgstr ""
+
+#: ../../outils/dns.md:12
+msgid ""
+"CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire "
+"primaire à l'aide de {logiciel}`BIND`. Il est répliqué sur 4 autres serveurs "
+"secondaires fournis gratuitement par [Hurricane Electrics](https://dns.he."
+"net/). Ce qui donne un total de 5 serveurs autoritaires :"
+msgstr ""
+
+#: ../../outils/dns.md:22
+msgid ""
+"Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/"
+"wiki/TSIG) et [DNSSEC](https://fr.wikipedia.org/wiki/"
+"Domain_Name_System_Security_Extensions) est activé sur le domaine `club1."
+"fr`. BIND est également utilisé en tant que résolveur DNS pour le réseau "
+"local."
+msgstr ""
+
+#: ../../outils/dns.md:27
+msgid ""
+"[Article du journal à propos du serveur DNS](https://club1.fr/serveur-dns)"
+msgstr ""
+
+#: ../../outils/dns.md:28
+msgid ""
+"[Fil du forum à propos de DNSSEC](https://forum.club1.fr/d/7-configurer-"
+"dnssec-sur-ns1club1fr)"
+msgstr ""
+
+#: ../../outils/dns.md:29
+msgid ""
+"Outils de diagnostic en ligne : [délégation](https://www.buddyns.com/"
+"delegation-lab/club1.fr), [résumé DNSSEC](https://dnssec-analyzer."
+"verisignlabs.com/club1.fr), [Visualiseur DNSSEC](https://dnsviz.net/d/club1."
+"fr/dnssec/)"
+msgstr ""
+
+#: ../../outils/dns.md:35
+msgid "Hébergement de zones secondaires"
+msgstr ""
+
+#: ../../outils/dns.md:38
+msgid ""
+"Il est envisageable pour CLUB1 d'héberger les zones DNS d'autres domaines en "
+"tant que serveur secondaire. La configuration initiale devra être faite "
+"manuellement, mais les mises-à-jour seront ensuite entièrement automatisées. "
+"TSIG sera utilisé de préférence pour authentifier les transferts. Il est "
+"possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
+msgstr ""
+
+#: ../../outils/dns.md:43 ../../outils/forum.md:97
+msgid "Administration"
+msgstr ""
+
+#: ../../outils/dns.md:46
+msgid ""
+"Seuls les membres du {term}`groupe` `sudo` peuvent éditer la configuration "
+"du serveur DNS et quelques règles doivent être respectées par les "
+"administrateurs :"
+msgstr ""
+
+#: ../../outils/dns.md:49
+msgid ""
+"Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier "
+"`/etc/bind/named.conf.local`."
+msgstr ""
+
+#: ../../outils/dns.md:50
+msgid ""
+"Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un "
+"lien symbolique dans `/var/lib/bind`."
+msgstr ""
+
+#: ../../outils/dns.md:51
+msgid ""
+"Les blocs de zones primaires doivent référencer le fichier de `/var/lib/"
+"bind`."
+msgstr ""
+
+#: ../../outils/dns.md:52
+msgid ""
+"Les blocs de zones secondaires doivent utiliser un simple nom de fichier "
+"(lequel sera alors relatif à `/var/cache/bind`)."
+msgstr ""
+
+#: ../../outils/dns.md:54
+msgid ""
+"Les modifications de zones sont principalement réalisées par les [scripts "
+"CLUB1](https://github.com/club-1/hosting/), mais dans le cas d'une "
+"modification manuelle, ne pas oublier de lancer le script `dns-bump` sur le "
+"fichier de zone en question."
+msgstr ""
+
+#: ../../outils/dns.md:62
+msgid ""
+"{term}`Serveur` {term}`DNS`, respectant les standards, pouvant jouer le rôle "
+"de serveur autoritaire, de résolveur récursif, de transitaire DNS, ou les "
+"trois à la fois."
+msgstr ""
+
+#: ../../outils/dns.md:66
+msgid ""
+"Sur CLUB1, BIND est à la fois un serveur autoritaire et un résolveur "
+"récursif pour le réseau local. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"BIND), [Sources](https://gitlab.isc.org/isc-projects/bind9)"
+msgstr ""
+
 #: ../../outils/forum.md:1
 msgid "Forum de discussion"
 msgstr ""
@@ -1699,10 +1818,6 @@ msgstr ""
 msgid ""
 "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du "
 "forum peuvent utiliser, en contournant les restrictions d'étiquettes."
-msgstr ""
-
-#: ../../outils/forum.md:97
-msgid "Administration"
 msgstr ""
 
 #: ../../outils/forum.md:100
