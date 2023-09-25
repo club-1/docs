@@ -15,6 +15,7 @@ class TermTooltips(SphinxPostTransform):
     logger = logging.getLogger('term_tooltips')
     apply: Optional[Callable[[str], str]]
     single_newlines = re.compile('(?<!\n)\n(?!\n)')
+    too_much_newlines = re.compile('\n{3,}')
     stddomain: StandardDomain
 
     def run(self) -> None:
@@ -75,6 +76,7 @@ class TermTooltips(SphinxPostTransform):
         assert index is not None, f'element {targetnode} has no definition !?'
         deftext = parent[index].astext()
         deftext = self.single_newlines.sub(' ', deftext)
+        deftext = self.too_much_newlines.sub('\n\n', deftext)
         if self.apply != None:
             deftext = self.apply(deftext)
         newnode = nodes.abbreviation()
