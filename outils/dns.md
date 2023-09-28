@@ -10,11 +10,14 @@ DNS
 ```
 
 CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire primaire à l'aide de {logiciel}`BIND`.
-Il est répliqué sur 4 autres serveurs secondaires fournis gratuitement par [Hurricane Electrics](https://dns.he.net/).
+Il est répliqué sur 4 autres serveurs secondaires :
+celui d'un ami, Aymeric Agon-Rambosson ([ricorambo.su](https://ricorambo.su))
+avec lequel on a fait un échange de zones DNS
+et 3 autres, fournis gratuitement par [Hurricane Electrics](https://dns.he.net/).
 Ce qui donne un total de 5 serveurs autoritaires :
 
     ns1.club1.fr (primaire)
-    ns1.he.net
+    ns1.ricorambo.su
     ns2.he.net
     ns3.he.net
     ns4.he.net
