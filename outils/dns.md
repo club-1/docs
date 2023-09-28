@@ -18,9 +18,9 @@ Ce qui donne un total de 5 serveurs autoritaires :
 
     ns1.club1.fr (primaire)
     ns1.ricorambo.su
+    ns1.he.net
     ns2.he.net
     ns3.he.net
-    ns4.he.net
 
 Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/wiki/TSIG)
 et [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) est activé sur le domaine `club1.fr`.
