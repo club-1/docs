@@ -85,16 +85,16 @@ Pour chacune des trois adresses d'interface utilisateurs, il faut indiquer l'emp
 le dossier contenant les fichiers de paramétrage et le préfixe de l'adresse email utilisée pour ces échanges.
 
 ```makefile
-    nouvelles-ACTION:    | "SCRIPT ACTION DOSSIER_CONFIG PREFIX"
+nouvelles-ACTION:	| "SCRIPT ACTION DOSSIER_CONFIG PREFIX"
 ```
 
 Exemple de configuration avec les fichiers se trouvant dans `var/mail/newsletter`
 et en utilisant `nouvelles` comme préfix.
 
 ```makefile
-    nouvelles-subscribe:    | "/usr/local/sbin/nl.sh subscribe /var/mail/newsletter nouvelles"
-    nouvelles-confirm:      | "/usr/local/sbin/nl.sh confirm /var/mail/newsletter nouvelles"
-    nouvelles-unsubscribe:  | "/usr/local/sbin/nl.sh unsubscribe /var/mail/newsletter nouvelles"
+nouvelles-subscribe:	| "/usr/local/sbin/nl.sh subscribe /var/mail/newsletter nouvelles"
+nouvelles-confirm:	| "/usr/local/sbin/nl.sh confirm /var/mail/newsletter nouvelles"
+nouvelles-unsubscribe:	| "/usr/local/sbin/nl.sh unsubscribe /var/mail/newsletter nouvelles"
 ```
 
 ### Logiciel utilisé
