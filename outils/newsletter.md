@@ -26,14 +26,14 @@ Envoyer une newsletter
 
 Pour pouvoir envoyer une newsletter, il faut être membre du {term}`groupe` `mail`.
 
-Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via une {term}`CLI`.
+Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via un {term}`terminal`.
 
 Le contenu à envoyer doit préalablement être stocké dans un fichier sur le serveur.
 Il faut ensuite lancer la commande suivante :
 
     newsletter FICHIER NUMERO
 
-Par exemple, si notre texte est dans un fichié qui s'appelle `contenu.txt`
+Par exemple, si notre texte est dans un fichier qui s'appelle `contenu.txt`
 et qu'il s'agît de la 42ème newsletter, il faudrait lancer :
 
     newsletter contenu.txt 42
