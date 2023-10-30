@@ -7,6 +7,7 @@ Cette section comporte la documentation des différents outils utilisés par CLU
 ---
 maxdepth: 2
 ---
+wiki
 meta-doc
 aliases
 forum

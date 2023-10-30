@@ -173,4 +173,11 @@ Web
    et peut inclure d'autre ressources comme des images ou des "feuilles de style".
    On appelle "Navigateur Web" le {term}`client` utilisé pour y accéder. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)
+
+Wiki
+   Type d'application {term}`Web` qui permet de créer un site de manière collaborative.
+   L'édition des pages est possible depuis le naviguateur Web.
+   Le plus connu étant *Wikipedia*.
+   Le nom provient de la langue Hawaïenne dans laquelle "wiki" signifie "rapide". ---
+   [Wikipedia](https://fr.wikipedia.org/wiki/Wiki)
 ````
