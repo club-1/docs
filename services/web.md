@@ -27,7 +27,7 @@ sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 
 ```{warning}
 Le dossier `static` se limite aux {term}`sites Web statiques<site Web statique>`.
-Pour héberger des sites {term}`sites dynamqiues<site Web dynamique>`,
+Pour héberger des sites {term}`sites Web dynamiques<site Web dynamique>`,
 il faut forcément utiliser un [domaine dédié](#hébergement-avec-un-nom-de-domaine-dédié).
 ```
 
