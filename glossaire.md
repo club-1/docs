@@ -121,12 +121,24 @@ Markdown
    ce qui le rend plus agréable à lire et à écrire pour un humain. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)
 
+nom de domaine
+   Identifiant de domaine {term}`Internet`,
+   facile à lire et à retenir par un être humain.
+
+   > Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
+
+   Un domaine permet d'associer des informations à un nom.
+   Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
+   Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
+   
+   En plus de ces informations, un domaine peut également avoir des sous domaines.
+
 PHP
    (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
    principalement utilisé pour produire des pages {term}`Web` de manière dynamique
    en générant du code {term}`HTML`.
    Son acronyme signifiait à l'origine "_Personnal Home Page_"
-   et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
+   et c'est justement le langage que CLUB1 met en avant pour la création de {term}`site Web dynamique`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
 protocole
@@ -134,6 +146,11 @@ protocole
    un protocole est un ensemble de règles qui régissent les échanges de données
    ou le comportement collectif de processus ou d'ordinateurs en réseaux.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Protocole_informatique)
+
+registraire
+   Registraire de {term}`nom de domaine`.
+   Société ou une association gérant la réservation de nom de domaine {term}`Internet`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)
 
 réseau informatique
    Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des données. ---
@@ -147,6 +164,19 @@ serveur
    serveurs sont installés (ex : le serveur CLUB1). ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
 
+site Web dynamique
+   Site {term}`Web` dont l'affichage peut varier "de lui-même", d'où le nom "dynamique"
+   (le distinguant ainsi du {term}`site Web statique`).
+   Il contient du code qui va être "executé" pour générer du {term}`HTML`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)
+
+site Web statique
+   Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne change pas tant qu'ils n'ont pas été édités.
+   Ils peuvent être conçus "à la main" ou à l'aide d'un "générateur de site statique".
+   Les sites statiques sont une voie intéressante
+   pour qui cherche à proposer des sites plus sobres énergétiquement.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_statique)
+
 terminal
    En informatique, un terminal était à l'origine un appareil constitué d'un moniteur et d'un clavier,
    permettant à un&middot;e humain&middot;e d'interagir avec un ordinateur partagé distant.
@@ -155,6 +185,12 @@ terminal
    De nos jours, on utilise souvent le mot "terminal" comme raccourci pour désigner un "émulateur de terminal".
    Il s'agit d'un logiciel recréant l'interface en ligne de commande ({term}`CLI`) de ce materiel.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))
+
+TLD
+   (_Top level Domain_)
+   {term}`Nom de domaine` de premier niveau.
+   Par exemple `fr`, `com` ou `org` sont des TLD.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Domaine_de_premier_niveau)
 
 TLS
    (_Transport Layer Security_) Protocole permettant de sécuriser les échanges

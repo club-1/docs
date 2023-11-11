@@ -110,7 +110,7 @@ Elle se mettra à jour toute seule si vous rajoutez ou supprimez des fichiers.
 
 ```{note}
 Pour un usage plus avancé, il est possible de désactiver les pages d'index.
-Voir les [services liés au dossier static](../services/web.md#sites-web-statiques)
+Voir les [services liés au dossier static](../services/web.md#index-des-fichiers)
 ```
 
 

@@ -217,7 +217,7 @@ Installation sur *Debian* :
 
 ### Commandes
 
-- Compilation en un site statique dans `_build/html` :
+- Compilation en un {term}`site Web statique` dans `_build/html` :
 
       make html
 
