@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-09-25 12:04+0200\n"
+"POT-Creation-Date: 2023-11-11 21:14+0100\n"
 "PO-Revision-Date: 2023-09-17 21:37+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -396,7 +396,25 @@ msgstr ""
 "At this time, the only way to change your CLUB1 member password is to run "
 "the {commande}`passwd` command from an [SSH connection](services/ssh.md)."
 
-#: ../../faq.md:22
+#: ../../faq.md:23
+msgid ""
+"Si vous n'avez jamais utilisé {term}`SSH`, il existe [un tutoriel pour aider "
+"à réaliser sa première connexion SHH](tutos/premiere-connexion-ssh.md)."
+msgstr ""
+
+#: ../../faq.md:27
+msgid "Est-il possible de modifier mon identifiant CLUB1 ?"
+msgstr ""
+
+#: ../../faq.md:29
+msgid ""
+"Il n'y a rien de prévu actuellement pour permettre aux membres de modifier "
+"leur [identifiant CLUB1](./info/general.md#identifiant). En effet cet "
+"identifiant est assez largement utilisé à différents niveaux, notamment pour "
+"les adresses email, les pages Web statiques et les bases de données."
+msgstr ""
+
+#: ../../faq.md:33
 msgid ""
 "Est-ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et "
 "créer plein d'adresses indépendantes ?"
@@ -404,17 +422,24 @@ msgstr ""
 "Can I host my emails at CLUB1 with my domain name and create many "
 "independent addresses?"
 
-#: ../../faq.md:24
+#: ../../faq.md:35
 msgid "Réponse courte : NON"
 msgstr "Short Answer: NO"
 
-#: ../../faq.md:26
+#: ../../faq.md:37
+#, fuzzy
+#| msgid ""
+#| "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email."
+#| "md) par compte de membre** avec une adresse principale et toutes ses "
+#| "[sous-adresses](services/email.md#sous-adresses). Il est possible de "
+#| "créer des {term}`alias` personnalisés à la demande, mais pas de créer des "
+#| "boîtes de reception supplémentaires."
 msgid ""
 "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email.md) "
 "par compte de membre** avec une adresse principale et toutes ses [sous-"
 "adresses](services/email.md#sous-adresses). Il est possible de créer des "
 "{term}`alias` personnalisés à la demande, mais pas de créer des boîtes de "
-"reception supplémentaires."
+"réception supplémentaires."
 msgstr ""
 "Long answer: CLUB1 provides **[one email box](/services/email.md) per member "
 "account** with a main address and all its [sub-addresses](services/email."
@@ -697,14 +722,57 @@ msgstr ""
 "syntax, which makes it more pleasant to read and write for a human. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
+#: ../../glossaire.md:113
+msgid "nom de domaine"
+msgstr "domain name"
+
 #: ../../glossaire.md:121
+msgid ""
+"Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
+"être humain."
+msgstr ""
+"{term}`Internet` domain identifier, easy for a human to read and remember."
+
+#: ../../glossaire.md:124
+msgid ""
+"Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
+msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
+
+#: ../../glossaire.md:126
+msgid ""
+"Un domaine permet d'associer des informations à un nom. Parmi ces "
+"informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
+"associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
+"{term}`alias` pour une adresse IP."
+msgstr ""
+"A domain allows to associate information with a name. Among this information "
+"the most important is the {term}`IP address` of the computer associated with "
+"this domain. A domain name is therefore often used as an {term}`alias` for "
+"an IP address."
+
+#: ../../glossaire.md:130
+msgid ""
+"En plus de ces informations, un domaine peut également avoir des sous "
+"domaines."
+msgstr "In addition to this information, a domain can also have subdomains."
+
+#: ../../glossaire.md:133
+#, fuzzy
+#| msgid ""
+#| "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
+#| "principalement utilisé pour produire des pages {term}`Web` de manière "
+#| "dynamique en générant du code {term}`HTML`. Son acronyme signifiait à "
+#| "l'origine \"_Personnal Home Page_\" et c'est justement le langage que "
+#| "CLUB1 met en avant pour la création de [sites Web dynamiques](./services/"
+#| "web.md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/"
+#| "wiki/PHP)"
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
 "dynamique en générant du code {term}`HTML`. Son acronyme signifiait à "
 "l'origine \"_Personnal Home Page_\" et c'est justement le langage que CLUB1 "
-"met en avant pour la création de [sites Web dynamiques](./services/web."
-"md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)"
+"met en avant pour la création de {term}`site Web dynamique`. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 "(_PHP Hypertext Preprocessor_) High-level programming language, primarily "
 "used to produce {term}`Web` pages dynamically by generating {term}`HTML` "
@@ -713,11 +781,11 @@ msgstr ""
 "websites](./services/web.md#sites-web-dynamiques). --- [Wikipedia](https://"
 "en.wikipedia.org/wiki/PHP)"
 
-#: ../../glossaire.md:121
+#: ../../glossaire.md:133
 msgid "protocole"
 msgstr "protocol"
 
-#: ../../glossaire.md:129
+#: ../../glossaire.md:141
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -729,11 +797,25 @@ msgstr ""
 "networks. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Communication_protocol)"
 
-#: ../../glossaire.md:127
+#: ../../glossaire.md:139
+msgid "registraire"
+msgstr "registrar"
+
+#: ../../glossaire.md:147
+msgid ""
+"Registraire de {term}`nom de domaine`. Société ou une association gérant la "
+"réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
+msgstr ""
+"{term}`Domain name` registrar. Company or association managing the {term}"
+"`Internet` domain name reservation. --- [Wikipedia](https://en.wikipedia.org/"
+"wiki/Domain_name_registrar)"
+
+#: ../../glossaire.md:144
 msgid "réseau informatique"
 msgstr "computer network"
 
-#: ../../glossaire.md:135
+#: ../../glossaire.md:152
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -742,11 +824,11 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossaire.md:131
+#: ../../glossaire.md:148
 msgid "serveur"
 msgstr "server"
 
-#: ../../glossaire.md:139
+#: ../../glossaire.md:156
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -761,11 +843,41 @@ msgstr ""
 "called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Server_(computing))"
 
-#: ../../glossaire.md:139
+#: ../../glossaire.md:156
+#, fuzzy
+#| msgid "Sites Web _dynamiques_"
+msgid "site Web dynamique"
+msgstr "_Dynamic_ websites"
+
+#: ../../glossaire.md:164
+msgid ""
+"Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
+"\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
+"contient du code qui va être \"executé\" pour générer du {term}`HTML`. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
+msgstr ""
+
+#: ../../glossaire.md:162
+#, fuzzy
+#| msgid "Sites Web _statiques_"
+msgid "site Web statique"
+msgstr "_Static_ websites"
+
+#: ../../glossaire.md:170
+msgid ""
+"Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
+"change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
+"main\" ou à l'aide d'un \"générateur de site statique\". Les sites statiques "
+"sont une voie intéressante pour qui cherche à proposer des sites plus sobres "
+"énergétiquement. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Page_web_statique)"
+msgstr ""
+
+#: ../../glossaire.md:169
 msgid "terminal"
 msgstr "terminal"
 
-#: ../../glossaire.md:147
+#: ../../glossaire.md:177
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -777,7 +889,7 @@ msgstr ""
 "offered a textual interface, making it possible to enter commands and read "
 "the result."
 
-#: ../../glossaire.md:151
+#: ../../glossaire.md:181
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -789,7 +901,21 @@ msgstr ""
 "interface ({term}`CLI`) of this hardware. --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Computer_terminal)"
 
-#: ../../glossaire.md:156
+#: ../../glossaire.md:186
+#, fuzzy
+#| msgid ""
+#| "Top level Domain {term}`Nom de domaine` de premier niveau. Par exemple "
+#| "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia."
+#| "org/wiki/Domaine_de_premier_niveau)"
+msgid ""
+"(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
+"`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
+"wiki/Domaine_de_premier_niveau)"
+msgstr ""
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
+"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
+
+#: ../../glossaire.md:192
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -804,11 +930,11 @@ msgstr ""
 "else can read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 
-#: ../../glossaire.md:156
+#: ../../glossaire.md:192
 msgid "Web"
 msgstr "Web"
 
-#: ../../glossaire.md:164
+#: ../../glossaire.md:200
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -818,7 +944,7 @@ msgstr ""
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
 "link them together using hypertext links."
 
-#: ../../glossaire.md:168
+#: ../../glossaire.md:204
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -955,10 +1081,15 @@ msgid ""
 msgstr "Folder used to [host Git code repositories](/services/git.md)."
 
 #: ../../info/espace-personnel.md:56
+#, fuzzy
+#| msgid ""
+#| "Ce dossier contient l'ensemble des {term}`logs <log>` produits par les "
+#| "services. Par exemple ceux des [sites Web dynamiques](../services/web."
+#| "md#sites-web-dynamiques)."
 msgid ""
 "Ce dossier contient l'ensemble des {term}`logs <log>` produits par les "
-"services. Par exemple ceux des [sites Web dynamiques](../services/web."
-"md#sites-web-dynamiques)."
+"services. Par exemple ceux des {term}`sites Web dynamiques<site Web "
+"dynamique>`."
 msgstr ""
 "This folder contains all the {term}`logs <log>` produced by the services. "
 "For example those of [dynamic Web sites](../services/web.md#sites-web-"
@@ -999,9 +1130,10 @@ msgstr ""
 #: ../../info/espace-personnel.md:72 ../../info/general.md:107
 #: ../../info/infrastructure-materielle.md:6
 #: ../../info/politique-de-vie-privee.md:6 ../../outils/aliases.md:75
-#: ../../outils/dns.md:26 ../../outils/forum.md:12 ../../services/email.md:32
+#: ../../outils/dns.md:29 ../../outils/forum.md:12
+#: ../../outils/newsletter.md:76 ../../services/email.md:32
 #: ../../services/email.md:70 ../../services/email.md:124
-#: ../../services/email.md:208 ../../services/web.md:70
+#: ../../services/email.md:208 ../../services/web.md:36
 msgid "Voir aussi"
 msgstr "See also"
 
@@ -1017,12 +1149,12 @@ msgstr ""
 "💡 The order of the presentation buttons changes each time a member updates "
 "their presentation file!"
 
-#: ../../info/espace-personnel.md:79 ../../outils/dns.md:58
+#: ../../info/espace-personnel.md:79 ../../outils/dns.md:61
 #: ../../outils/ldap.md:59 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
 #: ../../services/git.md:90 ../../services/matrix.md:163
 #: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:85
-#: ../../services/web.md:204 ../../services/webcast.md:40
+#: ../../services/web.md:155 ../../services/webcast.md:40
 #: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr "Software"
@@ -1267,23 +1399,36 @@ msgid "Identifiant"
 msgstr "Username"
 
 #: ../../info/general.md:116
-msgid ""
-"Le nom d'utilisateur doit respecter le regex `^[a-z\\-]{3,17}$`. Il est "
-"possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://"
-"regex101.com/r/AilLZw/2)."
+#, fuzzy
+#| msgid ""
+#| "Les administrateurs système s'engagent à respecter les points suivants :"
+msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
+msgstr "System administrators agree to respect the following points:"
+
+#: ../../info/general.md:118
+msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr ""
-"The username must respect the regex `^[a-z\\-]{3,17}$`. It is possible to "
-"check that a name respects it using [regex101](https://regex101.com/r/"
-"AilLZw/2)."
 
 #: ../../info/general.md:119
+msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
+msgstr ""
+
+#: ../../info/general.md:121
+#, fuzzy
+#| msgid ""
+#| "Cet identifiant est principalement utilisé en interne pour la connexion "
+#| "aux services et n'est donc pas spécialement visible depuis l'extérieur. "
+#| "Il est cependant présent dans l'[adresse email CLUB1](/services/email.md) "
+#| "attribuée par défaut aux membres et dans les URLs automatiques comme "
+#| "celles des [sites statiques](../services/web.md#sites-web-statiques) et "
+#| "des [dépôts git](/services/git.md)."
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
 "cependant présent dans l'[adresse email CLUB1](/services/email.md) attribuée "
-"par défaut aux membres et dans les URLs automatiques comme celles des [sites "
-"statiques](../services/web.md#sites-web-statiques) et des [dépôts git](/"
-"services/git.md)."
+"par défaut aux membres et dans les URLs automatiques comme celles des {term}"
+"`sites Web statiques<site Web statique>` et des [dépôts git](/services/git."
+"md)."
 msgstr ""
 "This identifier is mainly used internally for the connection to the services "
 "and is therefore not especially visible from outside. It is however present "
@@ -1291,11 +1436,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:125
+#: ../../info/general.md:127
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:127
+#: ../../info/general.md:129
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1303,39 +1448,39 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:130
+#: ../../info/general.md:132
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:132
+#: ../../info/general.md:134
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:133
+#: ../../info/general.md:135
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:134
+#: ../../info/general.md:136
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:135
+#: ../../info/general.md:137
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:136
+#: ../../info/general.md:138
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:137
+#: ../../info/general.md:139
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:138
+#: ../../info/general.md:140
 msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:139
+#: ../../info/general.md:141
 msgid ""
 "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
@@ -1343,13 +1488,13 @@ msgstr ""
 "access to the members-only {term}`matrix` room for project monitoring and "
 "assistance"
 
-#: ../../info/general.md:141
+#: ../../info/general.md:143
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:144
+#: ../../info/general.md:146
 msgid "Contact"
 msgstr "Contact"
 
@@ -1905,11 +2050,13 @@ msgstr ""
 msgid ""
 "CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire "
 "primaire à l'aide de {logiciel}`BIND`. Il est répliqué sur 4 autres serveurs "
-"secondaires fournis gratuitement par [Hurricane Electrics](https://dns.he."
-"net/). Ce qui donne un total de 5 serveurs autoritaires :"
+"secondaires : celui d'un ami, Aymeric Agon-Rambosson ([ricorambo.su](https://"
+"ricorambo.su)) avec lequel on a fait un échange de zones DNS et 3 autres, "
+"fournis gratuitement par [Hurricane Electrics](https://dns.he.net/). Ce qui "
+"donne un total de 5 serveurs autoritaires :"
 msgstr ""
 
-#: ../../outils/dns.md:22
+#: ../../outils/dns.md:25
 msgid ""
 "Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/"
 "wiki/TSIG) et [DNSSEC](https://fr.wikipedia.org/wiki/"
@@ -1918,7 +2065,7 @@ msgid ""
 "local."
 msgstr ""
 
-#: ../../outils/dns.md:27
+#: ../../outils/dns.md:30
 #, fuzzy
 #| msgid ""
 #| "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
@@ -1928,13 +2075,13 @@ msgstr ""
 "The journal article [Le(s) serveur(s) email](https://club1.fr/email/) (in "
 "French)"
 
-#: ../../outils/dns.md:28
+#: ../../outils/dns.md:31
 msgid ""
 "[Fil du forum à propos de DNSSEC](https://forum.club1.fr/d/7-configurer-"
 "dnssec-sur-ns1club1fr)"
 msgstr ""
 
-#: ../../outils/dns.md:29
+#: ../../outils/dns.md:32
 msgid ""
 "Outils de diagnostic en ligne : [délégation](https://www.buddyns.com/"
 "delegation-lab/club1.fr), [résumé DNSSEC](https://dnssec-analyzer."
@@ -1942,13 +2089,13 @@ msgid ""
 "fr/dnssec/)"
 msgstr ""
 
-#: ../../outils/dns.md:35
+#: ../../outils/dns.md:38
 #, fuzzy
 #| msgid "Hébergement de sites Web"
 msgid "Hébergement de zones secondaires"
 msgstr "Websites hosting"
 
-#: ../../outils/dns.md:38
+#: ../../outils/dns.md:41
 msgid ""
 "Il est envisageable pour CLUB1 d'héberger les zones DNS d'autres domaines en "
 "tant que serveur secondaire. La configuration initiale devra être faite "
@@ -1957,42 +2104,42 @@ msgid ""
 "possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
 msgstr ""
 
-#: ../../outils/dns.md:43 ../../outils/forum.md:97
+#: ../../outils/dns.md:46 ../../outils/forum.md:97
 msgid "Administration"
 msgstr "Administration"
 
-#: ../../outils/dns.md:46
+#: ../../outils/dns.md:49
 msgid ""
 "Seuls les membres du {term}`groupe` `sudo` peuvent éditer la configuration "
 "du serveur DNS et quelques règles doivent être respectées par les "
 "administrateurs :"
 msgstr ""
 
-#: ../../outils/dns.md:49
+#: ../../outils/dns.md:52
 msgid ""
 "Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier "
 "`/etc/bind/named.conf.local`."
 msgstr ""
 
-#: ../../outils/dns.md:50
+#: ../../outils/dns.md:53
 msgid ""
 "Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un "
 "lien symbolique dans `/var/lib/bind`."
 msgstr ""
 
-#: ../../outils/dns.md:51
+#: ../../outils/dns.md:54
 msgid ""
 "Les blocs de zones primaires doivent référencer le fichier de `/var/lib/"
 "bind`."
 msgstr ""
 
-#: ../../outils/dns.md:52
+#: ../../outils/dns.md:55
 msgid ""
 "Les blocs de zones secondaires doivent utiliser un simple nom de fichier "
 "(lequel sera alors relatif à `/var/cache/bind`)."
 msgstr ""
 
-#: ../../outils/dns.md:54
+#: ../../outils/dns.md:57
 msgid ""
 "Les modifications de zones sont principalement réalisées par les [scripts "
 "CLUB1](https://github.com/club-1/hosting/), mais dans le cas d'une "
@@ -2000,14 +2147,14 @@ msgid ""
 "fichier de zone en question."
 msgstr ""
 
-#: ../../outils/dns.md:62
+#: ../../outils/dns.md:65
 msgid ""
 "{term}`Serveur` {term}`DNS`, respectant les standards, pouvant jouer le rôle "
 "de serveur autoritaire, de résolveur récursif, de transitaire DNS, ou les "
 "trois à la fois."
 msgstr ""
 
-#: ../../outils/dns.md:66
+#: ../../outils/dns.md:69
 #, fuzzy
 #| msgid ""
 #| "Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
@@ -2260,7 +2407,7 @@ msgstr ""
 "This section is primarily intended for forum administrators, namely CLUB1 "
 "members being part of the `forum` {term}`group`."
 
-#: ../../outils/forum.md:103
+#: ../../outils/forum.md:103 ../../outils/newsletter.md:97
 msgid "Logiciel utilisé"
 msgstr "Software used"
 
@@ -2476,10 +2623,11 @@ msgstr ""
 
 #: ../../outils/ldap.md:70
 msgid ""
-"{term}`Serveur` connectant les systèmes d'authentification (PAM) et de "
-"gestion des sources de données (NSS) à l'annuaire {term}`LDAP`. --- [Site]"
-"(https://arthurdejong.org/nss-pam-ldapd/), [Sources](https://arthurdejong."
-"org/git/nss-pam-ldapd/)"
+"Paquet fournissant un {term}`serveur` (nslcd) permettant de connecter "
+"l'annuaire {term}`LDAP` aux services du système. Plus spécifiquement, le "
+"module d'authentification (PAM) et le service de gestion des sources de "
+"données (NSS). --- [Site](https://arthurdejong.org/nss-pam-ldapd/), [Sources]"
+"(https://arthurdejong.org/git/nss-pam-ldapd/)"
 msgstr ""
 
 #: ../../outils/meta-doc.md:1
@@ -2891,7 +3039,9 @@ msgid "Commandes"
 msgstr "Commands"
 
 #: ../../outils/meta-doc.md:220
-msgid "Compilation en un site statique dans `_build/html` :"
+#, fuzzy
+#| msgid "Compilation en un site statique dans `_build/html` :"
+msgid "Compilation en un {term}`site Web statique` dans `_build/html` :"
 msgstr "Compilation into a static site in `_build/html`:"
 
 #: ../../outils/meta-doc.md:224
@@ -2935,6 +3085,194 @@ msgstr ""
 #: ../../outils/meta-doc.md:265
 msgid "Métadonnées"
 msgstr "Metadata"
+
+#: ../../outils/newsletter.md:1
+msgid "Newsletter"
+msgstr ""
+
+#: ../../outils/newsletter.md:4
+msgid ""
+"La newsletter est l'outil principal de communication externe de CLUB1. Elle "
+"permet d'informer des réunions, ateliers, ou partager les nouveaux articles "
+"du journal de bord."
+msgstr ""
+
+#: ../../outils/newsletter.md:7
+msgid "Elle utilise l'adresse `nouvelles@club1.fr` comme adresse d'envoi."
+msgstr ""
+
+#: ../../outils/newsletter.md:9
+msgid ""
+"Une [archive des newsletter](https://club1.fr/newsletters) est disponible "
+"sur le site {term}`Web` du club."
+msgstr ""
+
+#: ../../outils/newsletter.md:11
+#, fuzzy
+#| msgid "Fonctionnement"
+msgid "Abonnement"
+msgstr "Operation"
+
+#: ../../outils/newsletter.md:14
+msgid ""
+"L'inscription et la désinscription se font __uniquement par email__ de "
+"manière interactive, [ou manuellement](#gestion-manuelle-des-inscriptions). "
+"Pour cela, il faut contacter une des adresses suivante depuis l'adresse "
+"email que l'on souhaite inscrire ou désinscrire."
+msgstr ""
+
+#: ../../outils/newsletter.md:18
+msgid "Inscription : <nouvelles-subscribe@club1.fr>"
+msgstr ""
+
+#: ../../outils/newsletter.md:19
+msgid "Désinscription : <nouvelles-unsubscribe@club1.fr>"
+msgstr ""
+
+#: ../../outils/newsletter.md:21
+msgid ""
+"Lors de l'inscription, un email de confirmation est envoyé et nécessite d'y "
+"répondre pour terminer l'inscription."
+msgstr ""
+
+#: ../../outils/newsletter.md:24
+msgid "Envoyer une newsletter"
+msgstr ""
+
+#: ../../outils/newsletter.md:27
+msgid ""
+"Pour pouvoir envoyer une newsletter, il faut être membre du {term}`groupe` "
+"`mail`."
+msgstr ""
+
+#: ../../outils/newsletter.md:29
+msgid ""
+"Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via un {term}"
+"`terminal`."
+msgstr ""
+
+#: ../../outils/newsletter.md:31
+msgid ""
+"Le contenu à envoyer doit préalablement être stocké dans un fichier sur le "
+"serveur. Il faut ensuite lancer la commande suivante :"
+msgstr ""
+
+#: ../../outils/newsletter.md:36
+msgid ""
+"Par exemple, si notre texte est dans un fichier qui s'appelle `contenu.txt` "
+"et qu'il s'agît de la 42ème newsletter, il faudrait lancer :"
+msgstr ""
+
+#: ../../outils/newsletter.md:42
+msgid ""
+"Le programe se charge lui même de formater le titre et l'affichage correct "
+"du nombre."
+msgstr ""
+
+#: ../../outils/newsletter.md:45
+msgid ""
+"La suite du programme est interactive et ne nécessite pas de connaissances "
+"particulières."
+msgstr ""
+
+#: ../../outils/newsletter.md:48 ../../services/web.md:121
+msgid "Gestion"
+msgstr "Management"
+
+#: ../../outils/newsletter.md:51
+msgid ""
+"Sur le serveur CLUB1, les fichiers de paramétrage se trouvent dans `/var/"
+"mail/newsletter` :"
+msgstr ""
+
+#: ../../outils/newsletter.md:53
+msgid ""
+"`secret` Contient une phrase secrète servant à la confirmation des adresses "
+"lors de l'inscription."
+msgstr ""
+
+#: ../../outils/newsletter.md:54
+msgid ""
+"`signatures` Contient une liste de phrases de signatures séparées par des "
+"retours à la ligne."
+msgstr ""
+
+#: ../../outils/newsletter.md:55
+msgid ""
+"`emails` Contient la liste des emails séparés par des retours à la ligne."
+msgstr ""
+
+#: ../../outils/newsletter.md:58
+#, fuzzy
+#| msgid "Gestionnaire de compilation."
+msgid "Gestion manuelle des inscriptions"
+msgstr "Build manager."
+
+#: ../../outils/newsletter.md:60
+msgid ""
+"Il est possible d'ajouter ou de retirer manuellement des adresses email de "
+"façon très simple. En éditant le fichier `emails`, il suffit d'ajouter ou de "
+"supprimer des lignes. L'édition de ce fichier est réservée aux membres du "
+"{term}`groupe` `mail`."
+msgstr ""
+
+#: ../../outils/newsletter.md:65
+msgid "Création de signatures"
+msgstr ""
+
+#: ../../outils/newsletter.md:67
+msgid ""
+"Lors de l'inscription ou de la désinscription à la newsletter, une petite "
+"phrase est choisie aléatoirement dans le fichier `signatures` en guise de "
+"signature. L'édition de ce fichier est également réservée aux membres du "
+"{term}`groupe` `mail`."
+msgstr ""
+
+#: ../../outils/newsletter.md:72
+#, fuzzy
+#| msgid "Gestion des alias email"
+msgid "Configuration des alias"
+msgstr "Managing email aliases"
+
+#: ../../outils/newsletter.md:74
+msgid ""
+"L'envoi d'emails automatique pour la gestion des inscriptions tire fortement "
+"parti des {term}`alias` de réception."
+msgstr ""
+
+#: ../../outils/newsletter.md:77
+msgid ""
+"Pour l'édition des alias email, voir la section [Modifier les alias de "
+"réception](./aliases.md#modifier-les-alias-de-réception)."
+msgstr ""
+
+#: ../../outils/newsletter.md:81
+msgid ""
+"Pour chacune des trois adresses d'interface utilisateurs, il faut indiquer "
+"l'emplacement du script de réception, le dossier contenant les fichiers de "
+"paramétrage et le préfixe de l'adresse email utilisée pour ces échanges."
+msgstr ""
+
+#: ../../outils/newsletter.md:88
+msgid ""
+"Exemple de configuration avec les fichiers se trouvant dans `var/mail/"
+"newsletter` et en utilisant `nouvelles` comme préfixe."
+msgstr ""
+
+#: ../../outils/newsletter.md:99
+msgid ""
+"Le choix de l'outil de newsletter a été un sujet compliqué, comme en atteste "
+"[cette discussion sur le forum](https://forum.club1.fr/d/69). Finalement, il "
+"a été décidé de coder nos propres {logiciel}`scripts de newsletter "
+"<newsletter>`."
+msgstr ""
+
+#: ../../outils/newsletter.md:104
+msgid ""
+"Ensemble de scripts très légers de gestion de newsletter développé par et "
+"pour CLUB1. Pour l'instant il ne fonctionne que pour la newsletter "
+"officielle de CLUB1. --- [Sources](https://github.com/club-1/newsletter)"
+msgstr ""
 
 #: ../../services-membres.md:1
 msgid "Services réservés aux membres"
@@ -4419,94 +4757,39 @@ msgstr ""
 "the number of web projects to host as long as it does not saturate the "
 "server 😄."
 
+#: ../../services/web.md:12
+msgid ""
+"Il y a deux façons d'héberger du contenu qui va être accessible sur le {term}"
+"`Web` avec le serveur :"
+msgstr ""
+
 #: ../../services/web.md:14
-msgid "Types de sites"
-msgstr "Types of sites"
+msgid ""
+"via [le dossier `static`](#dossier-static) *C'est l'approche la plus "
+"spontanée.*"
+msgstr ""
+
+#: ../../services/web.md:15
+msgid ""
+"avec [un domaine dédié](#hébergement-avec-un-nom-de-domaine-dédié) *Pour des "
+"projets mieux définis.*"
+msgstr ""
 
 #: ../../services/web.md:18
-msgid ""
-"Il existe deux grands types de sites {term}`Web` : les sites _statiques_, "
-"constitués de fichiers dont le contenu ne change pas tant qu'ils n'ont pas "
-"été modifiés et les sites _dynamiques_, dont les fichiers sont exécutés et "
-"peuvent ainsi produire des résultats différents."
-msgstr ""
-"There are two main categories of {term}`Web` sites: the _static_ sites, made "
-"of files which contents will not change until it's modified and the "
-"_dynamic_ sites, whose files are executed and can thus produce different "
-"results."
-
-#: ../../services/web.md:23
-msgid "Sites Web _statiques_"
-msgstr "_Static_ websites"
-
-#: ../../services/web.md:25
-msgid ""
-"Ce type de site web est constitué uniquement de fichiers que le serveur va "
-"servir en fonction des requêtes. Cela ne demande presque aucun \"travail\" "
-"au processeur, car il n'y a pas de calcul à effectuer. Les sites statiques "
-"sont une voie intéressante pour qui cherche à proposer des sites plus sobres "
-"énergétiquement."
-msgstr ""
-"This type of website consists only of files that the server will serve based "
-"on requests. It requires almost no \"work\" from the processor, because "
-"there is no calculation to perform. Static sites are an interesting way for "
-"anyone looking to offer more energy-efficient sites."
-
-#: ../../services/web.md:29
-msgid ""
-"Pour créer un site web statique, on peut écrire soi-même du code HTML, "
-"associé avec des images, sons ou vidéos. C'est la façon la plus artisanale "
-"de faire un site web. Elle garantit des styles uniques et originaux et est "
-"très efficace pour apprendre comment fonctionne le web."
-msgstr ""
-"To create a static website, you can write HTML code yourself, associated "
-"with images, sounds or videos. This is the most artisanal way to make a "
-"website. It guarantees unique and original styles and is very efficient to "
-"learn how the web works."
-
-#: ../../services/web.md:35
-msgid ""
-"Pour apprendre à coder en HTML et CSS, on recommande souvent le [tutoriel "
-"OpenClassromm](https://openclassrooms.com/fr/courses/1603881-creez-votre-"
-"site-web-avec-html5-et-css3) de Mathieu Nebra."
-msgstr ""
-"To learn how to code in HTML and CSS, we often recommend Mathieu Nebra's "
-"[OpenClassromm tutorial](https://openclassrooms.com/fr/courses/1603881-creez-"
-"votre-site-web-avec-html5-et-css3)."
-
-#: ../../services/web.md:38
-msgid ""
-"Le site [Gossip's Web](https://gossipsweb.net/) (en anglais), recueille des "
-"sites \"fait à la mains\"."
-msgstr ""
-"The site [Gossip's Web](https://gossipsweb.net/), collects \"handmade\" "
-"sites."
-
-#: ../../services/web.md:41
-msgid ""
-"Mais cela peut devenir complexe lorsque l'on a beaucoup de contenu à gérer. "
-"Pour ça il est conseillé de se tourner vers les [générateurs de sites "
-"statiques](https://fr.wikipedia.org/wiki/"
-"G%C3%A9n%C3%A9rateur_de_site_statique) Ces outils peuvent générer les "
-"fichiers HTML d'un site, par exemple à partir de fichiers {term}`Markdown`, "
-"sur votre ordinateur personnel. À chaque fois qu'une mise à jour est "
-"nécessaire, il n'y a qu'à relancer le processus et copier les fichiers ainsi "
-"créés sur le serveur."
-msgstr ""
-"But this can become complex when you have a lot of content to manage. For "
-"that it is advised to turn to [static site generators](https://en.wikipedia."
-"org/wiki/Static_site_generator) These tools can generate the HTML files of a "
-"site, for example from {term}`Markdown` files, on your personal computer. "
-"Each time an update is needed, you just have to run the process again and "
-"copy the created files to the server."
-
-#: ../../services/web.md:48
-msgid "Dossier `static/`"
+#, fuzzy
+#| msgid "Dossier `static/`"
+msgid "Dossier `static`"
 msgstr "`static/` folder"
 
-#: ../../services/web.md:50
+#: ../../services/web.md:21
+#, fuzzy
+#| msgid ""
+#| "L'**espace personnel** dispose d'un dossier spécial `static/` à sa "
+#| "racine. Tous les fichiers et dossiers rangés dedans seront "
+#| "automatiquement publiés sur le {term}`Web` à l'adresse `https://static."
+#| "club1.fr`, par exemple :"
 msgid ""
-"L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine. "
+"L'**espace personnel** dispose d'un dossier spécial `static` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
 "sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :"
 msgstr ""
@@ -4514,7 +4797,7 @@ msgstr ""
 "and folders that it contains are automatically published on the {term}`Web` "
 "at `https://static.club1.fr`, for instance:"
 
-#: ../../services/web.md:54
+#: ../../services/web.md:25
 msgid ""
 "[`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/"
 "nicolas/test.html) --> `/home/nicolas/static/test.html`"
@@ -4522,65 +4805,161 @@ msgstr ""
 "[`https://static.club1.fr/nicolas/test.html`](https://static.club1.fr/"
 "nicolas/test.html) --> `/home/nicolas/static/test.html`"
 
-#: ../../services/web.md:57
+#: ../../services/web.md:29
 msgid ""
-"Ce dossier est servi par le serveur HTTP {logiciel}`Apache`. Il est "
-"configuré pour automatiquement générer un _index_ affichant la liste des "
-"fichiers et dossiers qu'il contient."
+"Le dossier `static` se limite aux {term}`sites Web statiques<site Web "
+"statique>`. Pour héberger des sites {term}`sites Web dynamiques<site Web "
+"dynamique>`, il faut forcément utiliser un [domaine dédié](#hébergement-avec-"
+"un-nom-de-domaine-dédié)."
 msgstr ""
-"This folder is served by the HTTP server {logiciel}`Apache`. It is "
-"configured to automatically generate an _index_ displaying the list of files "
-"and folders it contains."
 
-#: ../../services/web.md:61
+#: ../../services/web.md:34
 msgid ""
-"Pour ne pas afficher cet index, il est possible soit de créer un fichier "
-"`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
-"{term}`fichier caché` de configuration Apache `.htaccess` contenant au moins "
-"la ligne suivante."
+"C'est l'endroit idéal pour débuter et commencer à mettre en ligne rapidement."
 msgstr ""
-"To avoid displaying this index, it is possible either to create an `index."
-"html` file which will contain the page to be displayed instead, or to add a "
-"{term}`hidden <hidden file>` Apache `.htaccess` configuration file "
-"containing at least the following line."
 
-#: ../../services/web.md:71
+#: ../../services/web.md:37
+#, fuzzy
+#| msgid ""
+#| "Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre "
+#| "à faire son premier site web avec le dossier `/static`."
 msgid ""
 "Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre à "
-"faire son premier site web avec le dossier `/static`."
+"faire son premier site web avec le dossier `static`."
 msgstr ""
 "The tutorial \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" to learn how to "
 "make your first website with the folder `/static`."
 
-#: ../../services/web.md:74
-msgid "Sites Web _dynamiques_"
-msgstr "_Dynamic_ websites"
+#: ../../services/web.md:41
+msgid "Hébergement avec un nom de domaine dédié"
+msgstr ""
+
+#: ../../services/web.md:44
+msgid ""
+"Contrairement au dossier `static` qui est à emplacement fixe, vous êtes "
+"libres de choisir l'emplacement des fichiers qui vont être utilisés."
+msgstr ""
+
+#: ../../services/web.md:47
+msgid ""
+"Il est recommandé de créer un dossier dans votre [espace personnel](/info/"
+"espace-personnel.md) qui servira pour tous vos sites Web. À l'intérieur, "
+"vous pourrez créer **un dossier par site**. Par exemple, ici, on a appelé le "
+"dossier pour les projets Web `www` (pour *World Wide Web*) :"
+msgstr ""
+
+#: ../../services/web.md:57
+msgid ""
+"Ensuite, il faut choisir un {term}`nom de domaine` associé à ce site. Vous "
+"avez deux possibilités :"
+msgstr ""
+
+#: ../../services/web.md:60
+msgid ""
+"[Utiliser un sous domaine de `club1.fr`](#utiliser-un-sous-domaine-de-"
+"club1fr) *en mode familial*"
+msgstr ""
+
+#: ../../services/web.md:61
+msgid ""
+"[Louer un nom de domaine](#louer-un-nom-de-domaine-externe) *Pour faire pro !"
+"*"
+msgstr ""
+
+#: ../../services/web.md:64
+msgid "Utiliser un sous domaine de `club1.fr`"
+msgstr "Use a subdomain of `club1.fr`"
+
+#: ../../services/web.md:66
+msgid ""
+"Pour faciliter la création de projets et aider à la spontanéité, "
+"l'utilisation de **sous-domaines** de `club1.fr` par les membres est "
+"encouragée !"
+msgstr ""
+"To facilitate the creation of projects and help spontaneity, the use of "
+"**subdomains** of `club1.fr` by members is encouraged!"
+
+#: ../../services/web.md:69
+#, fuzzy
+#| msgid ""
+#| "Cela a l'avantage d'être gratuit, et de ne nécessiter aucun entretien, "
+#| "contrairement à la [location d'un nom de domaine](#louer-un-nom-de-"
+#| "domaine-externe). L'inconvénient étant de dépendre de `club1.fr`. Cela "
+#| "entraîne aussi une **filiation visible avec CLUB1**, ce qui peut être "
+#| "gênant ou intéressant en fonction des projets."
+msgid ""
+"Cela a l'avantage d'être **gratuit**, et de ne nécessiter **aucun "
+"entretien**, contrairement à la [location d'un nom de domaine](#louer-un-nom-"
+"de-domaine-externe). L'inconvénient étant de dépendre de `club1.fr`. Cela "
+"entraîne aussi une **filiation visible avec CLUB1**, ce qui peut être gênant "
+"ou intéressant en fonction des projets."
+msgstr ""
+"This has the advantage of being free, and of requiring no maintenance, "
+"unlike [renting a domain name](#louer-un-nom-de-domaine-externe). The "
+"disadvantage being to depend on `club1.fr`. This also leads to a **visible "
+"relationship with CLUB1**, which can be bothersome or interesting depending "
+"on the project."
 
 #: ../../services/web.md:76
 msgid ""
-"Ce type de site web utilise du code logique qui s'exécute sur le serveur. "
-"Cela peut être via un [C.M.S](https://fr.wikipedia.org/wiki/"
-"Syst%C3%A8me_de_gestion_de_contenu). Et peut notamment nécessiter "
-"l'utilisation de [bases de données SQL](sql.md) Pour ces sites web, il faut "
-"obligatoirement passer par la création d'un [nom de domaine](#noms-de-"
-"domaines). Car il n'y a pas de dossier automatique préconfiguré."
+"Il est possible à tout moment de rediriger un **sous-domaine** de `club1.fr` "
+"vers n'importe quel autre domaine de votre choix. Cela permet par exemple de "
+"commencer via cette méthode et plus tard, de louer un nom de domaine sans "
+"casser aucun lien !"
 msgstr ""
-"This type of website uses logic code that runs on the server. This can be "
-"via a [C.M.S](https://en.wikipedia.org/wiki/Content_management_system). And "
-"may in particular require the use of [SQL databases](sql.md) For these "
-"websites, you must go through the creation of a [domain name](#noms-de-"
-"domaines). Because there is no preconfigured automatic folder."
+"It is possible at any time to redirect a **subdomain** of `club1.fr` to any "
+"other domain of your choice. This allows for example to start via this "
+"method and later, to rent a domain name without breaking any links!"
 
-#: ../../services/web.md:83
-msgid "Noms de domaines"
-msgstr "Domain names"
-
-#: ../../services/web.md:86
-msgid "La question du {term}`nom de domaine` est un enjeu fort du {term}`Web`."
+#: ../../services/web.md:82
+msgid ""
+"Pour demander un **sous-domaine** de `club1.fr`, il faut [contacter "
+"l'administrateur système](#gestion), en spécifiant vers quel dossier dans "
+"son espace personnel devra pointer le domaine."
 msgstr ""
-"The question of the {term}`domain name` is a major issue for the {term}`Web`."
+"To request a **sub-domain** of `club1.fr`, it is necessary [to contact the "
+"system administrator](#gestion), by specifying towards which folder in its "
+"personal space will have to point the domain."
 
-#: ../../services/web.md:89
+#: ../../services/web.md:87
+msgid ""
+"Pensez à vérifier que le **sous-domaine** est disponible avant d'envoyer une "
+"demande ! 😉 Il ne doit être composé que de lettres minuscules, chiffres ou "
+"tirets `-`."
+msgstr ""
+"Remember to check that the **subdomain** is available before sending a "
+"request! 😉 It must only consist of lowercase letters, numbers or hyphens `-"
+"`."
+
+#: ../../services/web.md:92
+msgid "Avoir des sous-sous-domaine"
+msgstr "Have sub-subdomains"
+
+#: ../../services/web.md:95
+msgid ""
+"C'est effectivement possible de descendre encore un niveau dans la filiation "
+"de domaine. Par exemple, si l'on utilise déjà `yaourt.club1.fr`, on peut "
+"aussi demander à créer `fraise.yaourt.club1.fr`. Cependant, cela nécessite "
+"actuellement la création d'un certificat _Let's Encrypt_ supplémentaire par "
+"**sous domaine**, ce qui n'est pas anodin. Donc pour l'instant, mollo sur "
+"les sous.sous.domaines 🐌 !"
+msgstr ""
+
+#: ../../services/web.md:101
+msgid "Louer un nom de domaine externe"
+msgstr "Rent an external domain name"
+
+#: ../../services/web.md:103
+msgid ""
+"Il est possible de louer un nom de domaine chez un {term}`registraire`. Cela "
+"coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction "
+"du {term}`TLD` choisi."
+msgstr ""
+"It is possible to rent a domain name from a {term}`registrar`. This often "
+"costs about ten euros per year, but it can vary depending on the {term}`TLD` "
+"chosen."
+
+#: ../../services/web.md:107
 msgid ""
 "Il faut distinguer hébergement et location de nom de domaine ! L'hébergement "
 "stocke les fichiers d'un site et les publie sur le {term}`web` à une {term}"
@@ -4593,185 +4972,13 @@ msgstr ""
 "address`, while a {term}`domain name` is a more human-friendly interface "
 "that is supposed to point to a server's IP address."
 
-#: ../../services/web.md:95
+#: ../../services/web.md:113
 msgid ""
-"Eh oui ! Ce sont deux notions différentes, même si une grosse partie des "
-"hébergeurs mainstream vont souvent proposer la location du nom de domaine en "
-"même temps que la location d'un espace pour les fichiers (hébergement)."
-msgstr ""
-"Yes! These are two different notions, even if a large part of mainstream "
-"hosts will often offer the rental of the domain name at the same time as the "
-"rental of space for files (hosting)."
-
-#: ../../services/web.md:0
-msgid "nom de domaine"
-msgstr "domain name"
-
-#: ../../services/web.md:103
-msgid ""
-"Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
-"être humain."
-msgstr ""
-"{term}`Internet` domain identifier, easy for a human to read and remember."
-
-#: ../../services/web.md:106
-msgid ""
-"Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
-msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
-
-#: ../../services/web.md:108
-msgid ""
-"Un domaine permet d'associer des informations à un nom. Parmi ces "
-"informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
-"associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
-"{term}`alias` pour une adresse IP."
-msgstr ""
-"A domain allows to associate information with a name. Among this information "
-"the most important is the {term}`IP address` of the computer associated with "
-"this domain. A domain name is therefore often used as an {term}`alias` for "
-"an IP address."
-
-#: ../../services/web.md:112
-msgid ""
-"En plus de ces informations, un domaine peut également avoir des sous "
-"domaines."
-msgstr "In addition to this information, a domain can also have subdomains."
-
-#: ../../services/web.md:12
-msgid "registraire"
-msgstr "registrar"
-
-#: ../../services/web.md:115
-msgid ""
-"Registraire de {term}`nom de domaine`. Société ou une association gérant la "
-"réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
-msgstr ""
-"{term}`Domain name` registrar. Company or association managing the {term}"
-"`Internet` domain name reservation. --- [Wikipedia](https://en.wikipedia.org/"
-"wiki/Domain_name_registrar)"
-
-#: ../../services/web.md:120
-msgid ""
-"Top level Domain {term}`Nom de domaine` de premier niveau. Par exemple `fr`, "
-"`com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-"Domaine_de_premier_niveau)"
-msgstr ""
-"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
-"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
-
-#: ../../services/web.md:126
-msgid ""
-"Comme le dit *Stéphane Bortzmeyer* dans [son article sur son blog](https://"
-"www.bortzmeyer.org/parties-nom-domaine.html) :"
+"Il est donc parfaitement possible d'avoir un site Web hébergé sur le serveur "
+"CLUB1 sans utiliser un sous domaine de `club1.fr`."
 msgstr ""
 
-#: ../../services/web.md:128
-msgid ""
-"On entend parfois le terme de « sous-domaine ». Malheureusement, il est "
-"souvent utilisé en supposant qu'il y a des domaines qui sont des sous-"
-"domaines et d'autres qui seraient des « vrais » domaines. Mais ce n'est pas "
-"le cas. Tous les domaines sont des sous-domaines d'un autre (à part le cas "
-"particulier de la racine, le début des domaines). Ainsi, `signal.eu.org` est "
-"un sous-domaine de `eu.org`, lui-même un sous-domaine de `org`, lui-même "
-"sous-domaine de la racine."
-msgstr ""
-
-#: ../../services/web.md:136
-msgid "Utiliser un sous domaine de `club1.fr`"
-msgstr "Use a subdomain of `club1.fr`"
-
-#: ../../services/web.md:138
-msgid ""
-"Pour faciliter la création de projets et aider à la spontanéité, "
-"l'utilisation de **sous-domaines** de `club1.fr` par les membres est "
-"encouragée !"
-msgstr ""
-"To facilitate the creation of projects and help spontaneity, the use of "
-"**subdomains** of `club1.fr` by members is encouraged!"
-
-#: ../../services/web.md:141
-msgid ""
-"Cela a l'avantage d'être gratuit, et de ne nécessiter aucun entretien, "
-"contrairement à la [location d'un nom de domaine](#louer-un-nom-de-domaine-"
-"externe). L'inconvénient étant de dépendre de `club1.fr`. Cela entraîne "
-"aussi une **filiation visible avec CLUB1**, ce qui peut être gênant ou "
-"intéressant en fonction des projets."
-msgstr ""
-"This has the advantage of being free, and of requiring no maintenance, "
-"unlike [renting a domain name](#louer-un-nom-de-domaine-externe). The "
-"disadvantage being to depend on `club1.fr`. This also leads to a **visible "
-"relationship with CLUB1**, which can be bothersome or interesting depending "
-"on the project."
-
-#: ../../services/web.md:148
-msgid ""
-"Il est possible à tout moment de rediriger un **sous-domaine** de `club1.fr` "
-"vers n'importe quel autre domaine de votre choix. Cela permet par exemple de "
-"commencer via cette méthode et plus tard, de louer un nom de domaine sans "
-"casser aucun lien !"
-msgstr ""
-"It is possible at any time to redirect a **subdomain** of `club1.fr` to any "
-"other domain of your choice. This allows for example to start via this "
-"method and later, to rent a domain name without breaking any links!"
-
-#: ../../services/web.md:154
-msgid ""
-"Pour demander un **sous-domaine** de `club1.fr`, il faut [contacter "
-"l'administrateur système](#gestion), en spécifiant vers quel dossier dans "
-"son espace personnel devra pointer le domaine."
-msgstr ""
-"To request a **sub-domain** of `club1.fr`, it is necessary [to contact the "
-"system administrator](#gestion), by specifying towards which folder in its "
-"personal space will have to point the domain."
-
-#: ../../services/web.md:159
-msgid ""
-"Pensez à vérifier que le **sous-domaine** est disponible avant d'envoyer une "
-"demande ! 😉 Il ne doit être composé que de lettres minuscules, chiffres ou "
-"tirets `-`."
-msgstr ""
-"Remember to check that the **subdomain** is available before sending a "
-"request! 😉 It must only consist of lowercase letters, numbers or hyphens `-"
-"`."
-
-#: ../../services/web.md:164
-msgid "Avoir des sous-sous-domaine"
-msgstr "Have sub-subdomains"
-
-#: ../../services/web.md:167
-msgid ""
-"C'est effectivement possible de descendre encore un niveau dans la filiation "
-"de domaine. Par exemple, si l'on utilise déjà `yaourt.club1.fr`, on peut "
-"aussi demander à créer `fraise.yaourt.club1.fr`. Cependant, cela nécessite "
-"actuellement la création d'un certificat _Let's Encrypt_ supplémentaire par "
-"**sous domaine**, ce qui n'est pas anodin. Donc pour l'instant, mollo sur "
-"les sous.sous.domaines 🐌 !"
-msgstr ""
-
-#: ../../services/web.md:173
-msgid "Louer un nom de domaine externe"
-msgstr "Rent an external domain name"
-
-#: ../../services/web.md:175
-msgid ""
-"Il est possible de louer un nom de domaine chez un {term}`registraire`. Cela "
-"coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction "
-"du {term}`TLD` choisi."
-msgstr ""
-"It is possible to rent a domain name from a {term}`registrar`. This often "
-"costs about ten euros per year, but it can vary depending on the {term}`TLD` "
-"chosen."
-
-#: ../../services/web.md:178
-msgid ""
-"Nous recommandons [Gandi.net](https://www.gandi.net/fr/domain), pour son "
-"soutient à divers projets libres."
-msgstr ""
-"We recommend [Gandi.net](https://www.gandi.net/en/domain), for its support "
-"to various free projects."
-
-#: ../../services/web.md:180
+#: ../../services/web.md:116
 msgid ""
 "Avant d'acheter votre dom de domaine, prenez le temps d'en [discuter]"
 "(#gestion) ! Il va y avoir une petite série de réglages à faire et ça vaut "
@@ -4781,11 +4988,7 @@ msgstr ""
 "There will be a small series of adjustments to make and it's worth talking "
 "about so that everything goes smoothly."
 
-#: ../../services/web.md:185
-msgid "Gestion"
-msgstr "Management"
-
-#: ../../services/web.md:188
+#: ../../services/web.md:123
 msgid ""
 "Aucune de ces actions n'est automatisée ni accessibles via une interface "
 "web. Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** "
@@ -4796,35 +4999,65 @@ msgstr ""
 "therefore **necessary to discuss it between humans** 🍺! This is part of the "
 "artisanal aspect and the deliberately human scale of the server management."
 
-#: ../../services/web.md:192
+#: ../../services/web.md:127
 msgid ""
-"Pour soulager la tâche, des [scripts](https://github.com/club-1/hosting) "
-"sont là pour faciliter la mise en place technique."
+"Pour associer un de vos dossiers avec un nom de domaine, il faut envoyer un "
+"email à <webmaster@club1.fr> indiquant le chemin de votre dossier et le nom "
+"de domaine choisi."
 msgstr ""
-"To ease the task, [scripts](https://github.com/club-1/hosting) are there to "
-"facilitate the technical implementation."
 
-#: ../../services/web.md:195
+#: ../../services/web.md:130
+msgid "Par exemple :"
+msgstr ""
+
+#: ../../services/web.md:135
+msgid "Avancé"
+msgstr ""
+
+#: ../../services/web.md:138
+msgid "Quelques techniques liées à l'hébergement de site Web sur le serveur."
+msgstr ""
+
+#: ../../services/web.md:140
+#, fuzzy
+#| msgid "Arborescence de fichiers"
+msgid "Index des fichiers"
+msgstr "File tree"
+
+#: ../../services/web.md:142
+#, fuzzy
+#| msgid ""
+#| "Ce dossier est servi par le serveur HTTP {logiciel}`Apache`. Il est "
+#| "configuré pour automatiquement générer un _index_ affichant la liste des "
+#| "fichiers et dossiers qu'il contient."
 msgid ""
-"C'est _Nicolas_ qu'il faut contacter pour l'association des domaines avec "
-"vos dossiers de sites."
+"Les sites Web sont servis par le serveur HTTP {logiciel}`Apache`. Il est "
+"configuré pour automatiquement générer un _index_ affichant la liste des "
+"fichiers et dossiers qu'il contient."
 msgstr ""
-"It is _Nicolas_ that you must contact for the association of domains with "
-"your site folders."
+"This folder is served by the HTTP server {logiciel}`Apache`. It is "
+"configured to automatically generate an _index_ displaying the list of files "
+"and folders it contains."
 
-#: ../../services/web.md:197
-msgid "Il est possible de le joindre :"
-msgstr "It is possible to reach him:"
+#: ../../services/web.md:146
+#, fuzzy
+#| msgid ""
+#| "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
+#| "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter "
+#| "un {term}`fichier caché` de configuration Apache `.htaccess` contenant au "
+#| "moins la ligne suivante."
+msgid ""
+"Pour ne pas afficher cet index, il est possible soit de créer un fichier "
+"`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
+"{term}`fichier caché` de configuration Apache `.htaccess` contenant au moins "
+"la ligne suivante :"
+msgstr ""
+"To avoid displaying this index, it is possible either to create an `index."
+"html` file which will contain the page to be displayed instead, or to add a "
+"{term}`hidden <hidden file>` Apache `.htaccess` configuration file "
+"containing at least the following line."
 
-#: ../../services/web.md:199
-msgid "par email : <webmaster@club1.fr>"
-msgstr "by email: <webmaster@club1.fr>"
-
-#: ../../services/web.md:200
-msgid "par {term}`matrix` : `@n-peugnet:club1.fr`"
-msgstr "by {term}`matrix`: `@n-peugnet:club1.fr`"
-
-#: ../../services/web.md:208
+#: ../../services/web.md:159
 msgid ""
 "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, il "
 "est principalement utilisé en tant que \"point de terminaison {term}`TLS`\" "
@@ -4838,7 +5071,7 @@ msgstr ""
 "[Wikipedia](https://en.wikipedia.org/wiki/Nginx), [Sources](https://hg.nginx."
 "org/nginx)"
 
-#: ../../services/web.md:216
+#: ../../services/web.md:167
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
 "étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "
@@ -4847,7 +5080,7 @@ msgstr ""
 "Very popular HTTP {term}`server`, distributed under free license. HTTP being "
 "the {term}`protocol` of {term}`Web` we also often speak of \"Web server\"."
 
-#: ../../services/web.md:219
+#: ../../services/web.md:170
 msgid ""
 "Apache est intéressant pour l'hébergement de pages Web personnelles, car il "
 "peut être configuré en cours d'exécution et par les utilisaturs finaux grâce "
@@ -4856,7 +5089,7 @@ msgstr ""
 "Apache is attractive for hosting personal web pages because it can be "
 "configured at runtime and by end users through `.htaccess` files."
 
-#: ../../services/web.md:223
+#: ../../services/web.md:174
 msgid ""
 "Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
 "inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -4866,7 +5099,7 @@ msgstr ""
 "`Nginx`. --- [Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server), "
 "[Sources](https://github.com/apache/httpd)"
 
-#: ../../services/web.md:229
+#: ../../services/web.md:180
 msgid ""
 "Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` {term}"
 "`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
@@ -5719,8 +5952,8 @@ msgstr ""
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:112
 msgid ""
 "Pour un usage plus avancé, il est possible de désactiver les pages d'index. "
-"Voir les [services liés au dossier static](../services/web.md#sites-web-"
-"statiques)"
+"Voir les [services liés au dossier static](../services/web.md#index-des-"
+"fichiers)"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:117
