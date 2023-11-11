@@ -26,8 +26,8 @@ sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 --> `/home/nicolas/static/test.html`
 
 ```{warning}
-Le dossier `static` se limite aux {term}`sites statiques<site statique>`.
-Pour héberger des sites {term}`sites dynamqiues<site dynamqiue>`,
+Le dossier `static` se limite aux {term}`sites Web statiques<site Web statique>`.
+Pour héberger des sites {term}`sites dynamqiues<site Web dynamique>`,
 il faut forcément utiliser un [domaine dédié](#hébergement-avec-un-nom-de-domaine-dédié).
 ```
 
@@ -49,12 +49,10 @@ qui servira pour tout vos sites webs.
 À l'interieur, vous pourrez créer **un dossier par site**.
 Par exemple, ici on a appellé le dossier pour les projets Web `www` (pour *World Wide Web*) :
 
-```
-📁 www
-    📁 mon-site-pro
-    📁 mon-site-perso
-    📁 blog-famille
-```
+    📁 www
+        📁 mon-site-pro
+        📁 mon-site-perso
+        📁 blog-famille
 
 Ensuite, il faut choisir un {term}`nom de domaine` associé à ce site.
 Vous avez deux possibilités :

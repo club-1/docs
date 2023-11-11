@@ -133,13 +133,12 @@ nom de domaine
    
    En plus de ces informations, un domaine peut également avoir des sous domaines.
 
-
 PHP
    (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
    principalement utilisé pour produire des pages {term}`Web` de manière dynamique
    en générant du code {term}`HTML`.
    Son acronyme signifiait à l'origine "_Personnal Home Page_"
-   et c'est justement le langage que CLUB1 met en avant pour la création de [sites Web dynamiques](./services/web.md#sites-web-dynamiques).
+   et c'est justement le langage que CLUB1 met en avant pour la création de {term}`site Web dynamique`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
 protocole
@@ -165,13 +164,13 @@ serveur
    serveurs sont installés (ex : le serveur CLUB1). ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
 
-site dynamyque
+site Web dynamique
    Site {term}`Web` dont l'affichage peut varier "de lui même", d'où le nom "dynamique"
-   (le distinguant ainsi du {term}`site statique`).
+   (le distinguant ainsi du {term}`site Web statique`).
    Il contient du code qui va être "executé" pour générer du {term}`HTML`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)
 
-site statique
+site Web statique
    Site {term}`Web` constitués de fichiers {term}`HTML` dont le contenu ne change pas tant qu'ils n'ont pas été édités.
    Ils peuvent être conçus "à la main" ou à l'aide d'un "générateur de site statique".
    Les sites statiques sont une voie intéressante
