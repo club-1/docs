@@ -16,7 +16,7 @@ L'inscription et la désinscription se font __uniquement par email__ de manière
 Pour cela il faut contacter une des adresses suivante depuis la boîte email que l'on souhaite inscrire.
 
 - Inscription : `nouvelles-subscribe@club1.fr`
-- Désinscription : `nouvelles-unscubscribe`
+- Désinscription : `nouvelles-unsubscribe@club1.fr`
 
 Lors de l'inscription,
 un email de confirmation est envoyé et nécessite d'y répondre pour terminer l'inscription.
@@ -58,7 +58,7 @@ Emplacements des fichiers de paramétrage.
 - `emails` Contient la liste des emails séparés par des retours à la ligne.
 
 
-### Gestion manuelle des inscription
+### Gestion manuelle des inscriptions
 
 Il est possible d'ajouter ou de retirer manuellement des adresses email de façon très simple.
 En éditant le fichier `emails`, il suffit d'ajouter ou de supprimer des lignes.
@@ -69,16 +69,16 @@ L'édition de se fichier est réservée aux membres du {term}`groupe` `mail`.
 
 Lors de l'inscription ou de la désinscription à la newsletter,
 une petite phrase est choisie aléatoirement dans le fichier `signatures` en guise de signature.
-L'édition de se fichier est également réservée aux membres du {term}`groupe` `mail`.
+L'édition de ce fichier est également réservée aux membres du {term}`groupe` `mail`.
 
 
 ### Configuration des alias
 
-L'envoi de mails automatique pour la gestion des inscription tire fortement parti des {term}`alias` de réception.
+L'envoi d'emails automatique pour la gestion des inscriptions tire fortement parti des {term}`alias` de réception.
 
 ```{admonition} Voir aussi
 Pour l'édition des alias emails,
-voir la section [Modifier les alias de réception](/outils/aliases.md#modifier-les-alias-de-réception).
+voir la section [Modifier les alias de réception](./aliases.md#modifier-les-alias-de-réception).
 ```
 
 Pour chacune des trois adresses d'interface utilisateurs, il faut indiquer l'emplacement du script de réception,
@@ -104,7 +104,7 @@ comme en atteste [cette discussion sur le forum](https://forum.club1.fr/d/69).
 Finalement, il a été décidé de coder nos propres {logiciel}`scripts de newsletter <newsletter>`.
 
 ```{logiciel} newsletter
-Ensemble de script très légers de gestion de newsletter devellopé par et pour CLUB1.
+Ensemble de scripts très légers de gestion de newsletter développé par et pour CLUB1.
 Pour l'instant il ne fonctionne que pour la newsletter officielle de CLUB1.
 --- [Sources](https://github.com/club-1/newsletter)
 ```
