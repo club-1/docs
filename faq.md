@@ -20,7 +20,8 @@ Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
 est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
 
 ```{tip}
-Il y a un tutoriel pour aider à réaliser sa [première connexion SHH](tutos/premiere-connexion-ssh.md).
+Si vous n'avez jamais utilisé {term}`SSH`,
+il existe [un tutoriel pour aider à réaliser sa première connexion SHH](tutos/premiere-connexion-ssh.md).
 ```
 
 ### Est-il possible de modifier mon identifiant CLUB1 ?
