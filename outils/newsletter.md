@@ -12,7 +12,7 @@ Abonnement
 ----------
 
 L'inscription et la désinscription se font __uniquement par email__ de manière interactive,
-[ou manuellement](#gestion-manuelle-des-inscription).
+[ou manuellement](#gestion-manuelle-des-inscriptions).
 Pour cela il faut contacter une des adresses suivante depuis la boîte email que l'on souhaite inscrire.
 
 - Inscription : `nouvelles-subscribe@club1.fr`
