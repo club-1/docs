@@ -67,8 +67,10 @@ une implémentation libre du protocole LDAP.
 ```
 
 ```{logiciel} nss-pam-ldapd
-{term}`Serveur` connectant les systèmes d'authentification (PAM)
-et de gestion des sources de données (NSS) à l'annuaire {term}`LDAP`.
+Paquet fournissant un {term}`serveur` (nslcd)
+permettant de connecter l'annuaire {term}`LDAP` aux services du système.
+Plus spécifiquement, le module d'authentification (PAM)
+et le service de gestion des sources de données (NSS).
 --- [Site](https://arthurdejong.org/nss-pam-ldapd/),
 [Sources](https://arthurdejong.org/git/nss-pam-ldapd/)
 ```

@@ -8,8 +8,8 @@ Cette section comporte la documentation des différents outils utilisés par CLU
 maxdepth: 2
 ---
 meta-doc
-aliases
 forum
+aliases
 newsletter
 ldap
 dns
