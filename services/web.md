@@ -45,9 +45,9 @@ Contrairement au dossier `static` qui est à emplacement fixe,
 vous êtes libres de choisir l'emplacement des fichiers qui vont être utilisés.
 
 On vous recommande de créer un dossier dans votre [espace personnel](/info/espace-personnel.md)
-qui servira pour tout vos sites webs.
-À l'interieur, vous pourrez créer **un dossier par site**.
-Par exemple, ici on a appellé le dossier pour les projets Web `www` (pour *World Wide Web*) :
+qui servira pour tous vos sites Web.
+À l'intérieur, vous pourrez créer **un dossier par site**.
+Par exemple, ici, on a appelé le dossier pour les projets Web `www` (pour *World Wide Web*) :
 
     📁 www
         📁 mon-site-pro
@@ -124,8 +124,8 @@ Aucune de ces actions n'est automatisée ni accessibles via une interface web.
 Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** 🍺 !
 Cela fait partie de l'aspect artisanal et de l'échelle volontairement humaine de la gestion du serveur.
 
-Pour associer un de vos dossier avec un nom de domaine,
-Il faut envoyer un email à <webmaster@club1.fr> indiquant le chemin de votre dossier et le nom de domaine choisi.
+Pour associer un de vos dossiers avec un nom de domaine,
+il faut envoyer un email à <webmaster@club1.fr> indiquant le chemin de votre dossier et le nom de domaine choisi.
 
 Par exemple :
 
@@ -135,11 +135,11 @@ Par exemple :
 Avancé
 ------
 
-Quelques techniques liés à l'hébergement de site Web sur le serveur.
+Quelques techniques liées à l'hébergement de site Web sur le serveur.
 
 ### Index des fichiers
 
-Les sites Web sont servi par le serveur HTTP {logiciel}`Apache`.
+Les sites Web sont servis par le serveur HTTP {logiciel}`Apache`.
 Il est configuré pour automatiquement générer un _index_ affichant la liste
 des fichiers et dossiers qu'il contient.
 
