@@ -15,10 +15,10 @@ Il y a deux façons d'héberger du contenu qui va être accessible sur le {term}
 - avec [un domaine dédié](#hébergement-avec-un-nom-de-domaine-dédié) *Pour des projets mieux définis.*
 
 
-Dossier `static/`
+Dossier `static`
 -----------------
 
-L'**espace personnel** dispose d'un dossier spécial `static/` à sa racine.
+L'**espace personnel** dispose d'un dossier spécial `static` à sa racine.
 Tous les fichiers et dossiers rangés dedans seront automatiquement publiés
 sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :
 
@@ -35,7 +35,7 @@ C'est l'endroit idéal pour débuter et commencer à mettre en ligne rapidement.
 
 ```{admonition} Voir aussi
 Le tutoriel "[](/tutos/mes-premiers-pas-sur-le-web.md)"
-pour apprendre à faire son premier site web avec le dossier `/static`.
+pour apprendre à faire son premier site web avec le dossier `static`.
 ```
 
 Hébergement avec un nom de domaine dédié
@@ -44,7 +44,7 @@ Hébergement avec un nom de domaine dédié
 Contrairement au dossier `static` qui est à emplacement fixe,
 vous êtes libres de choisir l'emplacement des fichiers qui vont être utilisés.
 
-On vous recommande de créer un dossier dans votre [espace personnel](/info/espace-personnel.md)
+Il est recommandé de créer un dossier dans votre [espace personnel](/info/espace-personnel.md)
 qui servira pour tous vos sites Web.
 À l'intérieur, vous pourrez créer **un dossier par site**.
 Par exemple, ici, on a appelé le dossier pour les projets Web `www` (pour *World Wide Web*) :

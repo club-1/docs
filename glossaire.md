@@ -165,13 +165,13 @@ serveur
    [Wikipedia](https://fr.wikipedia.org/wiki/Serveur_informatique)
 
 site Web dynamique
-   Site {term}`Web` dont l'affichage peut varier "de lui même", d'où le nom "dynamique"
+   Site {term}`Web` dont l'affichage peut varier "de lui-même", d'où le nom "dynamique"
    (le distinguant ainsi du {term}`site Web statique`).
    Il contient du code qui va être "executé" pour générer du {term}`HTML`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)
 
 site Web statique
-   Site {term}`Web` constitués de fichiers {term}`HTML` dont le contenu ne change pas tant qu'ils n'ont pas été édités.
+   Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne change pas tant qu'ils n'ont pas été édités.
    Ils peuvent être conçus "à la main" ou à l'aide d'un "générateur de site statique".
    Les sites statiques sont une voie intéressante
    pour qui cherche à proposer des sites plus sobres énergétiquement.
@@ -187,7 +187,7 @@ terminal
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))
 
 TLD
-   Top level Domain
+   (_Top level Domain_)
    {term}`Nom de domaine` de premier niveau.
    Par exemple `fr`, `com` ou `org` sont des TLD.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Domaine_de_premier_niveau)
