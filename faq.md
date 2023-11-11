@@ -10,7 +10,7 @@ Questions
 ---
 depth: 1
 local: true
-backlinks: entry
+backlinks: none
 ---
 ```
 
@@ -18,6 +18,10 @@ backlinks: entry
 
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
 est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
+
+```{tip}
+Il y a un tutoriel pour aider à réaliser sa [première connexion SHH](tutos/premiere-connexion-ssh.md).
+```
 
 ### Est-il possible de modifier mon identifiant CLUB1 ?
 
@@ -33,4 +37,4 @@ Réponse longue :
 CLUB1 fournit **[une seule boîte email](/services/email.md) par compte de membre**
 avec une adresse principale et toutes ses [sous-adresses](services/email.md#sous-adresses).
 Il est possible de créer des {term}`alias` personnalisés à la demande,
-mais pas de créer des boîtes de reception supplémentaires.
+mais pas de créer des boîtes de réception supplémentaires.
