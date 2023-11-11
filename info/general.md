@@ -113,8 +113,10 @@ Comptes des membres
 
 ### Identifiant
 
-Le nom d'utilisateur doit respecter le regex `^[a-z\-]{3,17}$`.
-Il est possible de vérifier qu'un nom le respecte à l'aide de [regex101](https://regex101.com/r/AilLZw/2).
+Le nom d'utilisateur·ice doit respecter les règles suivantes :
+
+- une longueur comprise **entre 3 et 17 caractères** (inclus).
+- comporter **uniquement des lettres minuscules** ou des tirets (`-`).
 
 Cet identifiant est principalement utilisé en interne pour la connexion aux services
 et n'est donc pas spécialement visible depuis l'extérieur.
