@@ -11,7 +11,9 @@ Pour participer à l'édition du site, il faut au moins un compte éditeur.
 
 ```{warning}
 Ce type de compte est indépendant du compte CLUB1 !
-Pour avoir un compte d'éditeur il faut contacter les administrateurs du site.
+Pour avoir un compte d'éditeur il faut contacter les administrateurs du site :
+Venez en discuter sur le salon {term}`Matrix` [`#site-web:club1.fr`](matrix:r/site-web:club1.fr)
+ou envoyez un message à <contact@club1.fr>.
 ```
 
 Édition d'une page existante
