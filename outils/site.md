@@ -4,6 +4,8 @@ Site Web de CLUB1
 On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est un {term}`Wiki`.
 Cela implique qu'il est possible d'éditer son contenu directement depuis le navigateur.
 
+Les discussion à ce sujet sont [rassemblés sur le forum avec le tag {guilabel}`site web`](https://forum.club1.fr/t/site-web).
+
 Comptes
 -------
 
@@ -21,7 +23,7 @@ ou envoyez un message à <contact@club1.fr>.
 
 Pour éditer une page, il y a deux possibilités :
 
-- en cliquant sur le bouton {guilabel}`modifier` en bas de la page.
+- en cliquant sur le bouton {guilabel}`✏️ modifier` en bas de la page.
 - en rajoutant `/edit` dans la barre d'URL.
 
 Le contenu se trouve le plus souvent dans l'onglet {guilabel}`main`.
