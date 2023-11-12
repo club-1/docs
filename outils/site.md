@@ -74,7 +74,7 @@ En dehors du site officiel de CLUB1,
 son usage se limite pour l'instant à quelques membres du club pour leurs sites respectifs.
 
 
-````{logiciel} W
+```{logiciel} W
 Moteur de {term}`Wiki` écrit en {term}`PHP`.
 Son but est de croiser la prise de note avec l'édition de site {term}`Web`
 en encourageant l'édition spontanée de pages aux styles variés.
