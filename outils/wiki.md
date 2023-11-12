@@ -1,8 +1,8 @@
 Site Web de CLUB1
 =================
 
-On ne dirait peut être pas comme ça, mais le site {term}`Web` de CLUB1 est un {term}`Wiki`.
-Cela implique qu'il est possible d'éditer son contenu directement depuis le naviguateur.
+On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est un {term}`Wiki`.
+Cela implique qu'il est possible d'éditer son contenu directement depuis le navigateur.
 
 Comptes
 -------
@@ -50,7 +50,7 @@ puis rajouter `/add` à la fin.
 
 Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page.
 
-```{admonition} Bon à savoir
+```{note}
 {logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en **identifiant officiel de la page**,
 en simplifiant le titre que vous aurez choisi.
 Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.
@@ -59,7 +59,7 @@ Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé
 Administration
 --------------
 
-La mise à jour et l'accès aux fichiers de {term}`W`
+La mise à jour et l'accès aux fichiers de {logiciel}`W`
 est limité aux utilisateur·ices membres du {term}`groupe` `website`.
 
 Moteur de Wiki
