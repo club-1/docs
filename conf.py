@@ -90,6 +90,9 @@ myst_substitutions = {
     'docutils_version': docutils_version,
 }
 
+# Allowed URL schemes
+myst_url_schemes = ['http', 'https', 'mailto', 'matrix']
+
 # Strip everything after the last emdash in term's tooltips.
 term_tooltips_apply_function = lambda s: s.rsplit('—', 1)[0].strip()
 
@@ -299,6 +302,7 @@ Copyright © %s.
 # Ignore some links.
 linkcheck_ignore = [
     r'https://www\.silverstonetek\.com/',
+    r'matrix:',
 ]
 
 # Allow some redirects.
