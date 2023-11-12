@@ -302,6 +302,7 @@ Copyright © %s.
 # Ignore some links.
 linkcheck_ignore = [
     r'https://www\.silverstonetek\.com/',
+    r'matrix:',
 ]
 
 # Allow some redirects.
