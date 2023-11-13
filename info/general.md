@@ -1,7 +1,7 @@
 Informations générales
 ======================
 
-Le serveur Club1 permet à ses membres d'héberger différents types de projets web.
+Le serveur CLUB1 permet à ses membres d'héberger différents types de projets web.
 Mais c'est aussi une communauté de personnes intéressées par les notions d'espaces web,
 de libertés et d'exploration du web.
 
@@ -14,7 +14,7 @@ Vous êtes invités dans un premier temps à explorer le [forum](https://forum.c
 pour vérifier que le sujet n'ait pas déjà été abordé.
 Si ce n'est pas le cas, vous pouvez, selon vos préférences :
 
-- **Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/t/tickets) .
+- **Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/t/tickets).
 - Envoyer un email à <contact@club1.fr>
 - En discuter sur [_Matrix_](https://club1.fr/matrix/) via `#bazar:club1.fr`.
   Des salons plus spécifiques sont dédiés au site web et à la doc.
@@ -25,7 +25,7 @@ Infos sur le serveur
 
 Il vit dans le placard comme _Harry Potter_...
 
-c'est le serveur.
+... c'est le serveur.
 
 
 
@@ -40,7 +40,7 @@ et les services en dépendant sont ensuite automatiquement redémarrés grâce �
 ### Logiciels et bibliothèques installés
 
 L'ensemble des logiciels installés sont sous **licence libre**,
-à part pour ceux de la liste suivante, dont il n'existe pas d'alternative libres :
+à part pour ceux de la liste suivante, dont il n'existe pas d'alternatives libres :
 
 - BIOS/BMC Supermicro
 - Microcode Intel
@@ -139,8 +139,8 @@ Un compte membre comporte donc :
 - un accès SSH (pour les utilisateurs avancés)
 - des bases de données (MariaDb)
 - la création gratuite de sous domaines en .club1.fr (sur demande)
-- l'utilisation de noms de domaines loué vias des registraires
-- un accès à la room {term}`matrix` réservée aux membres pour le suivi et l'assistance aux projets
+- l'utilisation de noms de domaines loués via des registraires
+- un accès au salon {term}`matrix` réservée aux membres pour le suivi et l'assistance aux projets
 
 Pour l'instant, le format choisi est celui de l'adhésion,
 avec une cotisation de 35€ à vie.
