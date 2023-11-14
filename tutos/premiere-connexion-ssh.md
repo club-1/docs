@@ -83,7 +83,12 @@ porte généralement le nom de votre utilisateur sur cet appareil.
     ├─ 📁 Images
     ...
 
-Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la tentative de connexion SSH.
+Si le {term}`dossier caché` `.ssh` n'existe pas déjà
+vous pouvez le créer avec la commande suivante :
+
+```sh
+mkdir ~/.ssh
+```
 
 Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un fichier `known_host`.
 La commande suivante fait tout ça pour vous ! 🪄
