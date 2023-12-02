@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-11-11 21:14+0100\n"
+"POT-Creation-Date: 2023-12-02 17:35+0100\n"
 "PO-Revision-Date: 2023-09-17 21:37+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -957,6 +957,15 @@ msgstr ""
 "sheets\". The {term}`client` used to access it is called a \"Web browser\". "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)"
 
+#: ../../glossaire.md:210
+msgid ""
+"Type d'application {term}`Web` qui permet de créer un site de manière "
+"collaborative. L'édition des pages est possible depuis le naviguateur Web. "
+"Le plus connu étant *Wikipedia*. Le nom provient de la langue Hawaïenne dans "
+"laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia](https://fr.wikipedia."
+"org/wiki/Wiki)"
+msgstr ""
+
 #: ../../index.md:29
 msgid "Annexes"
 msgstr "Appendices"
@@ -965,7 +974,7 @@ msgstr "Appendices"
 msgid "Indexes et tables"
 msgstr "Indices and tables"
 
-#: ../../index.md:1 conf.py:234
+#: ../../index.md:1 conf.py:237
 msgid "Documentation de l'hébergement CLUB1"
 msgstr "CLUB1 hosting documentation"
 
@@ -1127,7 +1136,7 @@ msgstr ""
 "It is possible to format your text in {term}`Markdown`, as well as to change "
 "your display name and the color of your button."
 
-#: ../../info/espace-personnel.md:72 ../../info/general.md:107
+#: ../../info/espace-personnel.md:72 ../../info/general.md:110
 #: ../../info/infrastructure-materielle.md:6
 #: ../../info/politique-de-vie-privee.md:6 ../../outils/aliases.md:75
 #: ../../outils/dns.md:29 ../../outils/forum.md:12
@@ -1181,8 +1190,13 @@ msgid "Informations générales"
 msgstr "General information"
 
 #: ../../info/general.md:4
+#, fuzzy
+#| msgid ""
+#| "Le serveur Club1 permet à ses membres d'héberger différents types de "
+#| "projets web. Mais c'est aussi une communauté de personnes intéressées par "
+#| "les notions d'espaces web, de libertés et d'exploration du web."
 msgid ""
-"Le serveur Club1 permet à ses membres d'héberger différents types de projets "
+"Le serveur CLUB1 permet à ses membres d'héberger différents types de projets "
 "web. Mais c'est aussi une communauté de personnes intéressées par les "
 "notions d'espaces web, de libertés et d'exploration du web."
 msgstr ""
@@ -1209,9 +1223,13 @@ msgstr ""
 "to your preferences:"
 
 #: ../../info/general.md:17
+#, fuzzy
+#| msgid ""
+#| "**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1."
+#| "fr/t/tickets) ."
 msgid ""
 "**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/"
-"t/tickets) ."
+"t/tickets)."
 msgstr ""
 "**Open a ticket** by creating a [post on the forum](https://forum.club1.fr/t/"
 "tickets) ."
@@ -1239,7 +1257,9 @@ msgid "Il vit dans le placard comme _Harry Potter_..."
 msgstr "It lives in the closet like _Harry Potter_..."
 
 #: ../../info/general.md:28
-msgid "c'est le serveur."
+#, fuzzy
+#| msgid "c'est le serveur."
+msgid "... c'est le serveur."
 msgstr "it's the server."
 
 #: ../../info/general.md:32
@@ -1247,13 +1267,21 @@ msgid "Système d'exploitation"
 msgstr "Operating system"
 
 #: ../../info/general.md:34
+#, fuzzy
+#| msgid ""
+#| "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
+#| "régulièrement. Les mises-à-jour de sécurité sont installées "
+#| "automatiquement dans les 24 heures à l'aide de [_unattended-upgrades_]"
+#| "(https://wiki.debian.org/fr/unattended-upgrades) et les services en "
+#| "dépendant sont ensuite automatiquement redémarrés grâce à [_needrestart_]"
+#| "(https://packages.debian.org/fr/stable/needrestart)."
 msgid ""
-"Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
-"régulièrement. Les mises-à-jour de sécurité sont installées automatiquement "
-"dans les 24 heures à l'aide de [_unattended-upgrades_](https://wiki.debian."
-"org/fr/unattended-upgrades) et les services en dépendant sont ensuite "
-"automatiquement redémarrés grâce à [_needrestart_](https://packages.debian."
-"org/fr/stable/needrestart)."
+"Le serveur tourne sur **Debian 11** et est mis à jour régulièrement. Les "
+"mises-à-jour de sécurité sont installées automatiquement dans les 24 heures "
+"à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-"
+"upgrades) et les services en dépendant sont ensuite automatiquement "
+"redémarrés grâce à [_needrestart_](https://packages.debian.org/fr/stable/"
+"needrestart)."
 msgstr ""
 "The server runs on **Ubuntu 20.04 (LTS)** and is updated regularly. Security "
 "updates are installed automatically within 24 hours using [_unattended-"
@@ -1266,9 +1294,14 @@ msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
 #: ../../info/general.md:42
+#, fuzzy
+#| msgid ""
+#| "L'ensemble des logiciels installés sont sous **licence libre**, à part "
+#| "pour ceux de la liste suivante, dont il n'existe pas d'alternative "
+#| "libres :"
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
-"ceux de la liste suivante, dont il n'existe pas d'alternative libres :"
+"ceux de la liste suivante, dont il n'existe pas d'alternatives libres :"
 msgstr ""
 "All the installed software is under **free license**, except for the "
 "following list, for which there is no free alternative:"
@@ -1281,7 +1314,11 @@ msgstr "Supermicro BIOS/BMC"
 msgid "Microcode Intel"
 msgstr "Intel Microcode"
 
-#: ../../info/general.md:48
+#: ../../info/general.md:47
+msgid "Firmware Intel QAT"
+msgstr ""
+
+#: ../../info/general.md:49
 msgid ""
 "Un certain nombre de logiciels et de bibliothèques sont déjà installés. En "
 "voici une liste _non exhaustive_ :"
@@ -1289,7 +1326,7 @@ msgstr ""
 "A significant number of software and libraries are already installed. Here "
 "is a _non-exhaustive_ list:"
 
-#: ../../info/general.md:65
+#: ../../info/general.md:66
 msgid ""
 "Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de "
 "**vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans "
@@ -1300,11 +1337,11 @@ msgstr ""
 "that it is not already present, then, if not, **create a ticket** as "
 "explained [above](#demandes-et-incidents)."
 
-#: ../../info/general.md:69
+#: ../../info/general.md:70
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: ../../info/general.md:71
+#: ../../info/general.md:72
 msgid ""
 "Afin de garantir un certaine disponibilité, le serveur ainsi que les "
 "équipements réseaux sont alimentés par une _UPS_. Cependant, la redondance "
@@ -1319,7 +1356,7 @@ msgstr ""
 "time, for example during a kernel update. That said, an effective "
 "availability **above 98%** should be ensured."
 
-#: ../../info/general.md:78
+#: ../../info/general.md:79
 msgid ""
 "Il est possible de consulter en direct l'état des différents services sur "
 "[UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)"
@@ -1327,16 +1364,23 @@ msgstr ""
 "The live status of the various services can be consulted on [UptimeRobot]"
 "(https://stats.uptimerobot.com/A84pLI9rlW)"
 
-#: ../../info/general.md:81
+#: ../../info/general.md:82
 msgid "Sauvegardes"
 msgstr "Backups"
 
-#: ../../info/general.md:87
+#: ../../info/general.md:88
+#, fuzzy
+#| msgid ""
+#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
+#| "à 5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup."
+#| "org/). Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
+#| "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
+#| "(serveur OMV auto-hébergé à Paris)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
 "Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
-"endroits dont un dépôt off-site offert par Etienne Le Louët (serveur OMV "
+"endroits dont un dépôt off-site offert par Etienne Le Louët (serveur Debian "
 "auto-hébergé à Paris)."
 msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
@@ -1344,21 +1388,21 @@ msgstr ""
 "and encrypted manner in several places including an off-site repository "
 "offered by Etienne Le Louët (self-hosted OMV server in Paris)."
 
-#: ../../info/general.md:92
+#: ../../info/general.md:93
 msgid ""
 "Il s'agit de sauvegardes incrémentales avec la politique de rétention "
 "suivante :"
 msgstr "These are incremental backups with the following retention policy:"
 
-#: ../../info/general.md:94
+#: ../../info/general.md:95
 msgid "7 sauvegardes journalières"
 msgstr "7 daily backups"
 
-#: ../../info/general.md:95
+#: ../../info/general.md:96
 msgid "4 sauvegardes hebdomadaires"
 msgstr "4 weekly backups"
 
-#: ../../info/general.md:97
+#: ../../info/general.md:98
 msgid ""
 "La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
 "des jours de la dernière semaine est accessible. En cas de défaillance "
@@ -1371,49 +1415,65 @@ msgstr ""
 "of data will be lost. The successful completion of backups is verified using "
 "the [Healthchecks.io](https://healthchecks.io/) service"
 
-#: ../../info/general.md:102
-msgid "Les sauvegardes sont réparties en deux groupes :"
+#: ../../info/general.md:103
+#, fuzzy
+#| msgid "Les sauvegardes sont réparties en deux groupes :"
+msgid "Les sauvegardes sont réparties en quatre groupes :"
 msgstr "Backups are divided into two groups:"
 
-#: ../../info/general.md:104
+#: ../../info/general.md:105
+#, fuzzy
+#| msgid ""
+#| "**System** pour la configuration du serveur, les fichiers des "
+#| "applications et les bases de données."
 msgid ""
-"**System** pour la configuration du serveur, les fichiers des applications "
-"et les bases de données."
+"**System** pour la configuration du serveur et les fichiers des applications."
 msgstr "**System** for server configuration, application files and databases."
 
-#: ../../info/general.md:105
+#: ../../info/general.md:106
+#, fuzzy
+#| msgid ""
+#| "Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`."
+msgid "**MariaDB** pour les bases de données {logiciel}`MariaDB`."
+msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
+
+#: ../../info/general.md:107
+msgid "**Postgres** pour les bases de données {logiciel}`PostgreSQL`."
+msgstr ""
+
+#: ../../info/general.md:108
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
-#: ../../info/general.md:108
+#: ../../info/general.md:111
 msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 "The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
 
-#: ../../info/general.md:111
+#: ../../info/general.md:114
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:114 ../../services/matrix.md:31
+#: ../../info/general.md:117 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:116
+#: ../../info/general.md:119
 #, fuzzy
 #| msgid ""
 #| "Les administrateurs système s'engagent à respecter les points suivants :"
 msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
 msgstr "System administrators agree to respect the following points:"
 
-#: ../../info/general.md:118
+#: ../../info/general.md:121
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr ""
 
-#: ../../info/general.md:119
+#: ../../info/general.md:122
 msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
 msgstr ""
 
-#: ../../info/general.md:121
+#: ../../info/general.md:124
 #, fuzzy
 #| msgid ""
 #| "Cet identifiant est principalement utilisé en interne pour la connexion "
@@ -1436,11 +1496,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:127
+#: ../../info/general.md:130
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:129
+#: ../../info/general.md:132
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1448,53 +1508,59 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:132
+#: ../../info/general.md:135
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:134
+#: ../../info/general.md:137
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:135
+#: ../../info/general.md:138
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:136
+#: ../../info/general.md:139
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:137
+#: ../../info/general.md:140
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:138
+#: ../../info/general.md:141
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:139
+#: ../../info/general.md:142
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:140
-msgid "l'utilisation de noms de domaines loué vias des registraires"
+#: ../../info/general.md:143
+#, fuzzy
+#| msgid "l'utilisation de noms de domaines loué vias des registraires"
+msgid "l'utilisation de noms de domaines loués via des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:141
+#: ../../info/general.md:144
+#, fuzzy
+#| msgid ""
+#| "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
+#| "l'assistance aux projets"
 msgid ""
-"un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
+"un accès au salon {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
 msgstr ""
 "access to the members-only {term}`matrix` room for project monitoring and "
 "assistance"
 
-#: ../../info/general.md:143
+#: ../../info/general.md:146
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:146
+#: ../../info/general.md:149
 msgid "Contact"
 msgstr "Contact"
 
@@ -2104,7 +2170,7 @@ msgid ""
 "possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
 msgstr ""
 
-#: ../../outils/dns.md:46 ../../outils/forum.md:97
+#: ../../outils/dns.md:46 ../../outils/forum.md:97 ../../outils/site.md:63
 msgid "Administration"
 msgstr "Administration"
 
@@ -3272,6 +3338,145 @@ msgid ""
 "Ensemble de scripts très légers de gestion de newsletter développé par et "
 "pour CLUB1. Pour l'instant il ne fonctionne que pour la newsletter "
 "officielle de CLUB1. --- [Sources](https://github.com/club-1/newsletter)"
+msgstr ""
+
+#: ../../outils/site.md:1
+#, fuzzy
+#| msgid "%s, Membres de CLUB1"
+msgid "Site Web de CLUB1"
+msgstr "%s, CLUB1 members"
+
+#: ../../outils/site.md:4
+msgid ""
+"On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est "
+"un {term}`Wiki`. Cela implique qu'il est possible d'éditer son contenu "
+"directement depuis le navigateur."
+msgstr ""
+
+#: ../../outils/site.md:7
+#, fuzzy
+#| msgid ""
+#| "Les tickets concernant l'infrastructure matérielle sont regroupés sur le "
+#| "forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware)."
+msgid ""
+"Les discussions à ce sujet sont [rassemblées sur le forum avec le tag "
+"{guilabel}`site web`](https://forum.club1.fr/t/site-web)."
+msgstr ""
+"Tickets about the hardware infrastructure are grouped on the forum [under "
+"the *hardware* tag](https://forum.club1.fr/t/hardware)."
+
+#: ../../outils/site.md:9
+msgid "Comptes"
+msgstr ""
+
+#: ../../outils/site.md:12
+msgid ""
+"Pour participer à l'édition du site, il faut au moins un compte éditeur."
+msgstr ""
+
+#: ../../outils/site.md:15
+msgid ""
+"Ce type de compte est indépendant du compte CLUB1 ! Pour avoir un compte "
+"d'éditeur, il faut contacter les administrateurs du site : Venez en discuter "
+"sur le salon {term}`Matrix` [`#site-web:club1.fr`](matrix:r/site-web:club1."
+"fr) ou envoyez un message à <contact@club1.fr>."
+msgstr ""
+
+#: ../../outils/site.md:21
+#, fuzzy
+#| msgid "Publication d'un dépôt existant"
+msgid "Édition d'une page existante"
+msgstr "Publication of an existing repository"
+
+#: ../../outils/site.md:24
+msgid "Pour éditer une page, il y a deux possibilités :"
+msgstr ""
+
+#: ../../outils/site.md:26
+msgid "En cliquant sur le bouton {guilabel}`✏️ modifier` en bas de la page."
+msgstr ""
+
+#: ../../outils/site.md:27
+msgid "En rajoutant `/edit` dans la barre d'URL."
+msgstr ""
+
+#: ../../outils/site.md:29
+msgid ""
+"Le contenu se trouve le plus souvent dans l'onglet {guilabel}`main`. Les "
+"onglets {guilabel}`nav`, {guilabel}`aside`, {guilabel}`footer`, {guilabel}"
+"`header` servent à stocker du contenu périphérique. Dans ces 5 onglets, il "
+"est possible d'utiliser du {term}`Markdown` ou du {term}`HTML`. L'onglet "
+"{guilabel}`body` contient la structure de la page. et ne peut contenir que "
+"du HTML. Le style de la page est lui aussi éditable via l'onglet {guilabel}"
+"`css`."
+msgstr ""
+
+#: ../../outils/site.md:37
+msgid ""
+"💾 Pour sauvegarder, il faut cliquer sur {guilabel}`update` ou faire {kbd}"
+"`CTRL` + {kbd}`S`."
+msgstr ""
+
+#: ../../outils/site.md:39
+msgid ""
+"👁️ Pour afficher la page, il faut cliquer sur {guilabel}`display` ou faire "
+"{kbd}`CTRL` + {kbd}`D`."
+msgstr ""
+
+#: ../../outils/site.md:43
+msgid ""
+"Lorsque l'on fait des modifications sur le site Web, il est bienvenu de le "
+"notifier en écrivant un résumé des actions dans le salon Matrix [`#site-web:"
+"club1.fr`](matrix:r/site-web:club1.fr)."
+msgstr ""
+
+#: ../../outils/site.md:47
+#, fuzzy
+#| msgid "Création d'un nouveau dépôt"
+msgid "Création d'une page"
+msgstr "Creation of an new repository"
+
+#: ../../outils/site.md:50
+msgid ""
+"Pour ajouter une page, il faut écrire son nom dans la barre d'URL après "
+"`https://club1.fr/`, puis rajouter `/add` à la fin."
+msgstr ""
+
+#: ../../outils/site.md:55
+msgid "Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page."
+msgstr ""
+
+#: ../../outils/site.md:58
+msgid ""
+"{logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en "
+"**identifiant officiel de la page**, en simplifiant le titre que vous aurez "
+"choisi. Cet identifiant de votre page est unique et fixe, il ne pourra pas "
+"être changé par la suite."
+msgstr ""
+
+#: ../../outils/site.md:66
+msgid ""
+"La mise à jour et l'accès aux fichiers de {logiciel}`W` est limité aux "
+"utilisateur·ices membres du {term}`groupe` `website`."
+msgstr ""
+
+#: ../../outils/site.md:69
+msgid "Moteur de Wiki"
+msgstr ""
+
+#: ../../outils/site.md:72
+msgid ""
+"Le moteur de Wiki utilisé n'est pas un outil très connu. En dehors du site "
+"officiel de CLUB1, son usage se limite pour l'instant à quelques membres du "
+"club pour leurs sites respectifs."
+msgstr ""
+
+#: ../../outils/site.md:78
+msgid ""
+"Moteur de {term}`Wiki` écrit en {term}`PHP`. Son but est de croiser la prise "
+"de note avec l'édition de site {term}`Web` en encourageant l'édition "
+"spontanée de pages aux styles variés. --- [Sources](https://github.com/"
+"vincent-peugnet/wcms/), [Site](https://w.club1.fr/)"
 msgstr ""
 
 #: ../../services-membres.md:1
@@ -6926,16 +7131,16 @@ msgid "%s, Membres de CLUB1"
 msgstr "%s, CLUB1 members"
 
 #. Title used for BibTeX citation
-#: conf.py:138
+#: conf.py:141
 #, python-brace-format
 msgid "Documentation {CLUB1}"
 msgstr "{CLUB1} documentation"
 
 #. Add custom 'software' directive and refs
-#: conf.py:320 conf.py:321
+#: conf.py:325 conf.py:326
 msgid "logiciel"
 msgstr "software"
 
-#: conf.py:322 conf.py:323
+#: conf.py:327 conf.py:328
 msgid "commande"
 msgstr "command"
