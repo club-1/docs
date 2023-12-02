@@ -31,7 +31,7 @@ Il vit dans le placard comme _Harry Potter_...
 
 ### Système d'exploitation
 
-Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour régulièrement.
+Le serveur tourne sur **Debian 11** et est mis à jour régulièrement.
 Les mises-à-jour de sécurité sont installées automatiquement dans les 24 heures
 à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-upgrades)
 et les services en dépendant sont ensuite automatiquement redémarrés grâce à
@@ -44,6 +44,7 @@ L'ensemble des logiciels installés sont sous **licence libre**,
 
 - BIOS/BMC Supermicro
 - Microcode Intel
+- Firmware Intel QAT
 
 Un certain nombre de logiciels et de bibliothèques sont déjà installés.
 En voici une liste _non exhaustive_ :
@@ -51,16 +52,16 @@ En voici une liste _non exhaustive_ :
     Apache       2.4
     MariaDb     10.5
     PHP          7.4
-    Python       3.8
-    NodeJs      10.19
-    Composer     1.10
-    pip         20.0
+    Python       3.9
+    NodeJs      12.22
+    Composer     2.0
+    pip         20.3
     npm          7.5
-    phpMyAdmin   4.9
-    git          2.25
+    phpMyAdmin   5.0
+    git          2.30
     borg         1.1
-    rsync        3.1
-    unison       2.48
+    rsync        3.2
+    unison       2.51
 
 Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de
 **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans
