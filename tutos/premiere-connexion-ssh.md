@@ -53,7 +53,8 @@ Vous devriez voir s'afficher le message suivant :
 En fait, c'est normal, {logiciel}`OpenSSH` nous averti que l'authentification
 de la connexion n'est pas garantie car votre appareil ne connaît pas *encore* ce serveur.
 
-En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸.
+En répondant `yes` à ce message on s'expose à une
+[attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸.
 Nous allons donc répondre `no` pour le moment.
 
 La confiance règne
