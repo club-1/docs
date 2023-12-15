@@ -3,10 +3,12 @@ Première connexion SSH
 
 Dans ce tuto, nous allons voir comment se connecter au serveur
 pour la première fois en {term}`SSH` de manière **sécurisée**.
+Pour cela, pas besoin d’installer de logiciels supplémentaire,
+la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion.
 
 ```{caution}
-Ce tutoriel n'a pas encore été testé sur Windows.
-Certaines étapes risquent de ne pas fonctionner.
+Ce tutoriel n'a pas encore été éprouvé sur Windows.
+Certaines étapes peuvent de ne pas fonctionner.
 Si vous rencontrez un problème, la section "[](../info/general.md#demandes-et-incidents)"
 explique comment nous en faire part.
 ```
@@ -16,7 +18,17 @@ Connexion avec le terminal
 
 Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`.
 Ce logiciel s'utilise en {term}`CLI`,
-il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵
+il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** ! 🥵
+
+```{admonition} Pour Windows
+Dans le cas de Windows, il faut utiliser le programme qui s'appelle `Powershell`.
+Comme sa configuration par défaut n'est pas terrible 💩, il faut corriger cela avec commande suivante :
+
+    $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+
+Pour "coller" du texte dans `Powershell` on peut faire {kbd}`Ctrl` + {kbd}`V`,
+ou simplement un clique droit avec sa souris.
+```
 
 Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
@@ -41,7 +53,7 @@ Vous devriez voir s'afficher le message suivant :
 En fait, c'est normal, {logiciel}`OpenSSH` nous averti que l'authentification
 de la connexion n'est pas garantie car votre appareil ne connaît pas *encore* ce serveur.
 
-En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).
+En répondant `yes` à ce message on s'expose à une [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸.
 Nous allons donc répondre `no` pour le moment.
 
 La confiance règne
@@ -107,6 +119,7 @@ qui permet de ne même pas révéler le nombre de caractères du mot de passe. �
 ```{tip}
 Dans une fenêtre de terminal, il est généralement possible de "coller" un texte
 en faisant "Clic droit" --> {guilabel}`Coller`.
+Ou encore {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`V`.
 ```
 
 Dans le serveur
