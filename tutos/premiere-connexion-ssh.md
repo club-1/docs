@@ -22,12 +22,12 @@ il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** ! 🥵
 
 ```{admonition} Pour Windows
 Dans le cas de Windows, il faut utiliser le programme qui s'appelle `Powershell`.
-Comme sa configuration par défaut n'est pas terrible 💩, il faut corriger cela avec commande suivante :
+Comme sa configuration par défaut n'est pas terrible 💩, il faut corriger cela avec la commande suivante :
 
     $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
 
 Pour "coller" du texte dans `Powershell` on peut faire {kbd}`Ctrl` + {kbd}`V`,
-ou simplement un clique droit avec sa souris.
+ou simplement un clic droit avec sa souris.
 ```
 
 Ne vous laissez pas impressionner par son interface déroutante,
