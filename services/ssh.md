@@ -1,6 +1,11 @@
 Connexion à distance SSH
 ========================
 
+La connexion SSH est la connexion la plus pure que vous puissiez avoir avec le serveur
+(enfin parmi celles qui ne nécessitent pas d’user de psychotropes).
+C’est aussi celle qui offre le plus la sensation d’utiliser un ordinateur,
+car à travers elle, on peut [lancer des programme](#sélection-de-commandes) sur le serveur !
+
 ```{glossary}
 SSH
    (_Secure SHell_) Protocole permettant de se connecter à distance en {term}`CLI` à un serveur.
@@ -81,6 +86,92 @@ Informations de connexion
 | ---------------- | ----------------- |
 | hôte             | `club1.fr`        |
 | port             | `22` (par défaut) |
+
+
+Sélection de commandes
+----------------------
+
+Voici une sélection de commandes pour vous permettre de découvrir le serveur :
+
+```{tip}
+Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.
+```
+
+
+```{commande} passwd
+Permet de changer son mot de passe CLUB1
+(cela aura donc un effet sur la connexion à tous les [services](/services-membres.md)).
+--- Manuel : {manpage}`passwd.1`
+```
+
+```{commande} htop
+Permet de voir ce qui se passe sur le serveur en ce moment et à quel point les ressources sont utilisées.  
+Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`htop.1`
+```
+
+```{commande} ncdu
+Outil visuel et rapide pour trouver les fichiers ou dossiers qui prennent le plus de place.
+Idéal pour faire du rangement !
+Naviguez simplement avec les flèches directionnelles.
+Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`ncdu.1`
+```
+
+```{commande} w
+Affiche les membres connectés en SSH et indique le logiciel qu'ils sont en train d'utiliser.
+Cette commande est un peu intrusive !
+--- Manuel : {manpage}`w.1`
+```
+
+```{commande} mailx
+La façon la plus basique d'envoyer un email !
+Cette commande nécessite de rajouter au bout, après un espace, l'email de votre destinataire.
+
+```{tip}
+Si vous envoyez à un membre CLUB1, pas besoin de rajouter `@club1.fr` !
+```
+
+Renseignez le sujet lorsqu'on vous le demande, puis confirmez en pressant {kbd}`Enter`.
+Composer ensuite votre message.
+Lorsque vous avez terminé, créz une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`.
+Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
+--- Manuel : {manpage}`mailx.1`
+```
+
+
+
+```{commande} mutt
+Permet de consulter et d'envoyer ses emails avec *Mutt* :
+Un {term}`client` email en {term}`CLI`.
+Les touches de contrôle sont indiqués en haut.
+Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`mutt.1`
+```
+
+```{commande} goaccess
+Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` en analysant les {term}`log`.
+Cette commande nécessite de rajouter au bout,
+après un espace, le fichier de log que vous souhaitez analyser.
+
+```{note}
+Les logs de {logiciel}`Apache`, qui sert les sites Web,
+sont stockés dans le dossier `log` de votre [espace perso](/info/espace-personnel.md#📁-log).
+```
+
+Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en étendre une.  
+Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`mutt.1`
+```
+
+
+```{commande} man
+Affiche la page de manuel correspondant à une commande.
+Celle ci devra être indiquée après un espace.
+La plupart des pages de manuel sont en anglais.  
+Pressez la touche {kbd}`Q` pour quitter.
+--- Manuel : {manpage}`man.1`
+```
 
 Logiciels
 ---------
