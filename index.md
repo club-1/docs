@@ -1,41 +1,12 @@
 Documentation de l'hébergement CLUB1
 ====================================
 
-````{only} not latex
-Copyright © {{ copyright }}.
-
-```{include} _templates/license.txt
-```
-````
-
 ```{toctree}
 ---
 maxdepth: 2
 numbered: 1
 ---
-info/index
-services-membres
-services-ouverts
-tutos/index
-outils/index
+info/general
 faq
-glossaire
-```
-
-
-```{eval-rst}
-.. only:: html
-
-   .. toctree::
-      :caption: Annexes
-      :titlesonly:
-
-      citation
-
-.. only:: builder_html
-
-   .. toctree::
-      :caption: Indexes et tables
-
-      genindex
+genindex
 ```
