@@ -123,7 +123,7 @@ Cette commande est un peu intrusive !
 --- Manuel : {manpage}`w.1`
 ```
 
-```{commande} mailx
+````{commande} mailx
 La façon la plus basique d'envoyer un email !
 Cette commande nécessite de rajouter au bout, après un espace, l'email de votre destinataire.
 
@@ -136,7 +136,7 @@ Composer ensuite votre message.
 Lorsque vous avez terminé, créz une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`.
 Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
 --- Manuel : {manpage}`mailx.1`
-```
+````
 
 ```{commande} mutt
 Permet de consulter et d'envoyer ses emails avec *Mutt* :
@@ -146,7 +146,7 @@ Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`mutt.1`
 ```
 
-```{commande} goaccess
+````{commande} goaccess
 Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` en analysant les {term}`log`.
 Cette commande nécessite de rajouter au bout,
 après un espace, le fichier de log que vous souhaitez analyser.
@@ -159,7 +159,7 @@ sont stockés dans le dossier `log` de votre [espace perso](/info/espace-personn
 Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en étendre une.  
 Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`mutt.1`
-```
+````
 
 ```{commande} man
 Affiche la page de manuel correspondant à une commande.
