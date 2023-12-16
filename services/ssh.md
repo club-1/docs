@@ -97,7 +97,6 @@ Voici une sélection de commandes pour vous permettre de découvrir le serveur :
 Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.
 ```
 
-
 ```{commande} passwd
 Permet de changer son mot de passe CLUB1
 (cela aura donc un effet sur la connexion à tous les [services](/services-membres.md)).
@@ -139,8 +138,6 @@ Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
 --- Manuel : {manpage}`mailx.1`
 ```
 
-
-
 ```{commande} mutt
 Permet de consulter et d'envoyer ses emails avec *Mutt* :
 Un {term}`client` email en {term}`CLI`.
@@ -163,7 +160,6 @@ Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en éten
 Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`mutt.1`
 ```
-
 
 ```{commande} man
 Affiche la page de manuel correspondant à une commande.
