@@ -4,7 +4,7 @@ Connexion à distance SSH
 La connexion SSH est la connexion la plus pure que vous puissiez avoir avec le serveur
 (enfin parmi celles qui ne nécessitent pas d’user de psychotropes).
 C’est aussi celle qui offre le plus la sensation d’utiliser un ordinateur,
-car à travers elle, on peut [lancer des programme](#sélection-de-commandes) sur le serveur !
+car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) sur le serveur !
 
 ```{glossary}
 SSH
@@ -94,7 +94,7 @@ Sélection de commandes
 Voici une sélection de commandes pour vous permettre de découvrir le serveur :
 
 ```{tip}
-Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.
+Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal.
 ```
 
 ```{commande} passwd
@@ -132,8 +132,8 @@ Si vous envoyez à un membre CLUB1, pas besoin de rajouter `@club1.fr` !
 ```
 
 Renseignez le sujet lorsqu'on vous le demande, puis confirmez en pressant {kbd}`Enter`.
-Composer ensuite votre message.
-Lorsque vous avez terminé, créz une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`.
+Composez ensuite votre message.
+Lorsque vous avez terminé, créez une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`.
 Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
 --- Manuel : {manpage}`mailx.1`
 ````
@@ -158,7 +158,7 @@ sont stockés dans le dossier `log` de votre [espace perso](/info/espace-personn
 
 Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en étendre une.  
 Pressez la touche {kbd}`Q` pour quitter.
---- Manuel : {manpage}`mutt.1`
+--- Manuel : {manpage}`goaccess.1`
 ````
 
 ```{commande} man
