@@ -174,5 +174,5 @@ et pour l'instant la seule qui soit annoncée comme "stable".
 {term}`Client` {term}`Matrix` complet (anciennement "Riot") disponible sur de nombreuses plateformes.
 CLUB1 héberge une {term}`instance` de la version {term}`Web` de ce client
 à l'adresse <https://riot.club1.fr>.
---- [Sources](https://github.com/vector-im/element-web), [Wikipedia](https://fr.wikipedia.org/wiki/Element_(logiciel))
+--- [Sources](https://github.com/element-hq/element-web), [Wikipedia](https://fr.wikipedia.org/wiki/Element_(logiciel))
 ```
