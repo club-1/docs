@@ -1,4 +1,4 @@
-sphinx @ git+https://github.com/sphinx-doc/sphinx/@8f9bac9c4f5d399f8085870dd30570aa32bbf48a
+sphinx == 6.2.1
 myst-parser @ git+https://github.com/executablebooks/MyST-Parser@2a206a8777a004c9be3c6138ed8c7505771c8567 # 0.18.1 + some fixes + support for Sphinx 6
 sphinx-rtd-theme == 1.2.1
 sphinx-notfound-page == 0.8.3
