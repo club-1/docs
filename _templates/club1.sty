@@ -160,7 +160,8 @@
 
 \newenvironment{club1admonition}[3]{\begin{tcolorbox}[
 	boxrule=0pt, frame empty, % no borders
-	before=\par, parbox=false, % obey document paragraph spacing rules
+	before=\par\noindent, % respect space around box
+	before upper=\setlength{\parskip}{5pt}, % space between paragraphs
 	colbacktitle=#2, colback=#3, % colors
 	outer arc=0pt, arc=0pt, % no border radius
 	left=5pt, right=5pt, top=5pt, bottom=5pt, % body margins
