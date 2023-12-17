@@ -153,7 +153,7 @@ après un espace, le fichier de log que vous souhaitez analyser.
 
 ```{note}
 Les logs de {logiciel}`Apache`, qui sert les sites Web,
-sont stockés dans le dossier `log` de votre [espace perso](/info/espace-personnel.md#📁-log).
+sont stockés dans le dossier `log` de votre [espace perso](/info/espace-personnel.md#-log).
 ```
 
 Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en étendre une.  
