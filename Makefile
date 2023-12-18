@@ -23,7 +23,7 @@ export LANGUAGES    := $(LOCALE) $(LOCALES)
 export LATEXMKOPTS  := -file-line-error $(if $(CI),,-quiet)
 
 SPHINXLANG      := -D language=$(LOCALE)
-SPHINXOPTS      += $(if $(CI),,-q)
+SPHINXOPTS      += $(if $(CI),,-q -j auto)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo linkcheck
 SPHINXLBUILDERS := $(foreach b,$(SPHINXBUILDERS),$(LANGUAGES:%=$b/%))
