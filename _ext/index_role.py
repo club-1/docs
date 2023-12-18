@@ -15,3 +15,9 @@ class SurroundingIndexRole(IndexRole):
 
 def setup(app: Sphinx):
     app.add_role('index', SurroundingIndexRole(), override=True)
+
+    return {
+        'version': '0.1',
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
