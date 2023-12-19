@@ -104,7 +104,7 @@ Les sauvegardes sont réparties en quatre groupes :
 
 1. **System** pour la configuration du serveur et les fichiers des applications.
 2. **MariaDB** pour les bases de données {logiciel}`MariaDB`.
-3. **Postgres** pour les bases de données {logiciel}`PostgreSQL`.
+3. **Postgres** pour les bases de données PostgreSQL.
 4. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
 
 ```{seealso}
