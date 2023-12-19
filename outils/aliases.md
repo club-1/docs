@@ -73,5 +73,5 @@ Ces actions sont réalisées avec les droits de l'utilisateur correspondant à l
 et sinon, sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`.
 
 ```{seealso}
-La [section "Delivery Rights" de la page local du manuel de Postfix](https://manpages.debian.org/stable/postfix/local.8postfix.en.html#DELIVERY_RIGHTS).
+La [section "Delivery Rights" de la page local du manuel de Postfix](https://manpages.debian.org/bullseye/postfix/local.8postfix.en.html#DELIVERY_RIGHTS).
 ```
