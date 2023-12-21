@@ -147,7 +147,7 @@ Pressez la touche {kbd}`Q` pour quitter.
 ```
 
 ````{commande} goaccess
-Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` en analysant les {term}`log`.
+Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` en analysant les {term}`logs <log>`.
 Cette commande nécessite de rajouter au bout,
 après un espace, le fichier de log que vous souhaitez analyser.
 
@@ -163,7 +163,7 @@ Pressez la touche {kbd}`Q` pour quitter.
 
 ```{commande} man
 Affiche la page de manuel correspondant à une commande.
-Celle ci devra être indiquée après un espace.
+Celle-ci devra être indiquée après un espace.
 La plupart des pages de manuel sont en anglais.  
 Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`man.1`
