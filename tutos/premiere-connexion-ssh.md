@@ -130,16 +130,4 @@ Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH !
 C'est un accès privilégié,
 car c'est celui qui vous donne le plus de libertés d'interactions avec le serveur.
 
-🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :
-
-```{commande} passwd
-Permet de changer son mot de passe CLUB1
-(cela aura donc un effet sur la connexion à tous les [services](/services-membres.md)).
---- Manuel : {manpage}`passwd.1`
-```
-
-```{commande} htop
-Permet de voir ce qui se passe sur le serveur en ce moment et à quel point les ressources sont utilisées.
-Pressez la touche {kbd}`Q` pour quitter.
---- Manuel : {manpage}`htop.1`
-```
+🍾 Pour fêter ça, voici [une petite sélection de commandes à découvrir](../services/ssh.md#sélection-de-commandes).
