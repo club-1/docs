@@ -2070,7 +2070,7 @@ msgid ""
 "serveurs autoritaires :"
 msgstr ""
 "CLUB1 self-hosts its own primary authoritative {term}`DNS` {term}`server` "
-"using {software}`BIND`. It is replicated on 4 other secondary servers: those "
+"using {logiciel}`BIND`. It is replicated on 4 other secondary servers: those "
 "of two friends, Aymeric Agon-Rambosson ([ricorambo.su](https://ricorambo.su))"
 " and Etienne Le Louët (jeanpierre.moe) with whom we made an exchange of DNS "
 "zones and 2 others, provided free of charge by [Hurricane "
@@ -3384,7 +3384,7 @@ msgstr "4.4. [email aliases](/outils/aliases.md) database"
 
 #: ../../outils/sauvegardes.md:122
 msgid "4.5. Bases de données {logiciel}`MariaDB`"
-msgstr "4.5. {software}`MariaDB` databases"
+msgstr "4.5. {logiciel}`MariaDB` databases"
 
 #: ../../outils/sauvegardes.md:131
 msgid "4.6. Bases de données Postgres"
@@ -3414,7 +3414,7 @@ msgid ""
 "borgmatic)"
 msgstr ""
 "{term}`CLI` software to automate backup management with {logiciel}`Borg`. In "
-"particular, it is able to backup Postgres and {software}`MariaDB` databases. "
+"particular, it is able to backup Postgres and {logiciel}`MariaDB` databases. "
 "--- [Site](https://torsion.org/borgmatic/), [Sources](https://projects."
 "torsion.org/borgmatic-collective/borgmatic)"
 
