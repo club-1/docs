@@ -86,7 +86,7 @@ sur [UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)
 ```
 
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
-Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/).
+Les sauvegardes sont réalisées avec {logiciel}`Borg`.
 Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
 dont un dépôt off-site offert par Etienne Le Louët (serveur Debian auto-hébergé à Paris).
 
@@ -108,7 +108,8 @@ Les sauvegardes sont réparties en quatre groupes :
 4. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
 
 ```{seealso}
-L'article du journal [Sauvegardes](https://club1.fr/backups/)
+- L'article du journal : [Sauvegardes](https://club1.fr/backups/)
+- La section de la doc : [](/outils/sauvegardes.md)
 ```
 
 Comptes des membres
