@@ -11,16 +11,16 @@ DNS
 
 CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire primaire à l'aide de {logiciel}`BIND`.
 Il est répliqué sur 4 autres serveurs secondaires :
-celui d'un ami, Aymeric Agon-Rambosson ([ricorambo.su](https://ricorambo.su))
-avec lequel on a fait un échange de zones DNS
-et 3 autres, fournis gratuitement par [Hurricane Electrics](https://dns.he.net/).
+ceux de deux amis, Aymeric Agon-Rambosson ([ricorambo.su](https://ricorambo.su))
+et Etienne Le Louët (jeanpierre.moe) avec lesquels on a fait un échange de zones DNS
+et 2 autres, fournis gratuitement par [Hurricane Electrics](https://dns.he.net/).
 Ce qui donne un total de 5 serveurs autoritaires :
 
     ns1.club1.fr (primaire)
     ns1.ricorambo.su
+    ns1.jeanpierre.moe
     ns1.he.net
     ns2.he.net
-    ns3.he.net
 
 Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/wiki/TSIG)
 et [DNSSEC](https://fr.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) est activé sur le domaine `club1.fr`.
@@ -32,7 +32,7 @@ BIND est également utilisé en tant que résolveur DNS pour le réseau local.
 - Outils de diagnostic en ligne :
   [délégation](https://www.buddyns.com/delegation-lab/club1.fr),
   [résumé DNSSEC](https://dnssec-analyzer.verisignlabs.com/club1.fr),
-  [Visualiseur DNSSEC](https://dnsviz.net/d/club1.fr/dnssec/)
+  [visualiseur DNSSEC](https://dnsviz.net/d/club1.fr/dnssec/)
 ```
 
 Hébergement de zones secondaires
