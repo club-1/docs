@@ -105,7 +105,7 @@ mkdir /var/spool/postfix/opendkim && chown opendkim:postfix /var/spool/postfix/o
 ln -s /usr/local/src/hydrian/TTRSS-Auth-LDAP/plugins/auth_ldap /usr/share/tt-rss/www/plugins/
 ```
 
-#### 4.3. Base de données LDAP
+#### 4.3. Base de données {term}`LDAP`
 
 ```sh
 systemctl stop slapd
@@ -113,11 +113,13 @@ slapadd -l /root/ldap_data.ldif && chown -R openldap:openldap /var/lib/ldap
 systemctl restart slapd nslcd
 ```
 
-#### 4.4. Base de données des alias email
+#### 4.4. Base de données des [alias email](/outils/aliases.md)
 
     newaliases
+    postmap hash:/etc/aliases_senders
+    chmod g+w /etc/aliases*.db
 
-#### 4.5. Bases de données MariaDB
+#### 4.5. Bases de données {logiciel}`MariaDB`
 
 ```sh
 systemctl start mariadb
