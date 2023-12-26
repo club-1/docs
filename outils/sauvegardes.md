@@ -1,10 +1,10 @@
 Sauvegardes avec Borg
 =====================
 
-Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg`.
+Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}`Borgmatic`.
 
 ```{seealso}
-La section [](../info/general.md#sauvegardes)
+La section [](../info/general.md#sauvegardes) dans les Informations générales
 ```
 
 Processus de restauration
@@ -146,8 +146,16 @@ Logiciels
 ---------
 
 ```{logiciel} Borg
-Logiciel de sauvegardes incrémentales, dédupliquées, compressées et chiffrées.
---- [Site](https://borgbackup.readthedocs.io/en/stable/),
+Logiciel en {term}`CLI` de sauvegardes incrémentales, basé sur la déduplication.
+Il permet aussi de compresser et chiffrer les données sauvegardées.
+--- [Site](https://www.borgbackup.org/),
 [Sources](https://github.com/borgbackup/borg)
+```
+
+```{logiciel} Borgmatic
+Logiciel en {term}`CLI` permettant d'automatiser la gestion de sauvegardes avec {logiciel}`Borg`.
+Il est notamment capable de sauvegarder des bases de données Postgres et {logiciel}`MariaDB`.
+--- [Site](https://torsion.org/borgmatic/),
+[Sources](https://projects.torsion.org/borgmatic-collective/borgmatic)
 ```
 
