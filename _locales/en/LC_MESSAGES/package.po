@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-12-02 17:35+0100\n"
+"POT-Creation-Date: 2023-12-26 20:30+0100\n"
 "PO-Revision-Date: 2023-09-17 21:37+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -398,8 +398,9 @@ msgstr ""
 
 #: ../../faq.md:23
 msgid ""
-"Si vous n'avez jamais utilisé {term}`SSH`, il existe [un tutoriel pour aider "
-"à réaliser sa première connexion SHH](tutos/premiere-connexion-ssh.md)."
+"Si vous vous connectez pour la première fois à CLUB1 en {term}`SSH` depuis "
+"votre ordinateur personnel, il existe [un tutoriel pour réaliser sa première "
+"connexion SHH](tutos/premiere-connexion-ssh.md)."
 msgstr ""
 
 #: ../../faq.md:27
@@ -1136,16 +1137,6 @@ msgstr ""
 "It is possible to format your text in {term}`Markdown`, as well as to change "
 "your display name and the color of your button."
 
-#: ../../info/espace-personnel.md:72 ../../info/general.md:110
-#: ../../info/infrastructure-materielle.md:6
-#: ../../info/politique-de-vie-privee.md:6 ../../outils/aliases.md:75
-#: ../../outils/dns.md:29 ../../outils/forum.md:12
-#: ../../outils/newsletter.md:76 ../../services/email.md:32
-#: ../../services/email.md:70 ../../services/email.md:124
-#: ../../services/email.md:208 ../../services/web.md:36
-msgid "Voir aussi"
-msgstr "See also"
-
 #: ../../info/espace-personnel.md:73
 msgid "Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)"
 msgstr "Tutorial: [How to edit your presentation](/tutos/presentation.md)"
@@ -1159,12 +1150,12 @@ msgstr ""
 "their presentation file!"
 
 #: ../../info/espace-personnel.md:79 ../../outils/dns.md:61
-#: ../../outils/ldap.md:59 ../../services/drive.md:18
-#: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/matrix.md:163
-#: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:85
-#: ../../services/web.md:155 ../../services/webcast.md:40
-#: ../../services/webdav.md:52
+#: ../../outils/ldap.md:59 ../../outils/sauvegardes.md:147
+#: ../../services/drive.md:18 ../../services/email.md:163
+#: ../../services/ftp.md:51 ../../services/git.md:90
+#: ../../services/matrix.md:163 ../../services/rss.md:57
+#: ../../services/sql.md:56 ../../services/ssh.md:172 ../../services/web.md:155
+#: ../../services/webcast.md:40 ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr "Software"
 
@@ -1378,10 +1369,10 @@ msgstr "Backups"
 #| "(serveur OMV auto-hébergé à Paris)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
-"5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup.org/). "
-"Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs "
-"endroits dont un dépôt off-site offert par Etienne Le Louët (serveur Debian "
-"auto-hébergé à Paris)."
+"5h. Les sauvegardes sont réalisées avec {logiciel}`Borg`. Elles sont ainsi "
+"stockées de manière dédupliquée et chiffrée à plusieurs endroits dont un "
+"dépôt off-site offert par Etienne Le Louët (serveur Debian auto-hébergé à "
+"Paris)."
 msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
 "[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
@@ -1438,7 +1429,7 @@ msgid "**MariaDB** pour les bases de données {logiciel}`MariaDB`."
 msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
 
 #: ../../info/general.md:107
-msgid "**Postgres** pour les bases de données {logiciel}`PostgreSQL`."
+msgid "**Postgres** pour les bases de données PostgreSQL."
 msgstr ""
 
 #: ../../info/general.md:108
@@ -1446,34 +1437,40 @@ msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
 #: ../../info/general.md:111
-msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
+#, fuzzy
+#| msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
+msgid "L'article du journal : [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
 "The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
 
-#: ../../info/general.md:114
+#: ../../info/general.md:112
+msgid "La section de la doc : [](/outils/sauvegardes.md)"
+msgstr ""
+
+#: ../../info/general.md:115
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:117 ../../services/matrix.md:31
+#: ../../info/general.md:118 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:119
+#: ../../info/general.md:120
 #, fuzzy
 #| msgid ""
 #| "Les administrateurs système s'engagent à respecter les points suivants :"
 msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
 msgstr "System administrators agree to respect the following points:"
 
-#: ../../info/general.md:121
+#: ../../info/general.md:122
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr ""
 
-#: ../../info/general.md:122
+#: ../../info/general.md:123
 msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
 msgstr ""
 
-#: ../../info/general.md:124
+#: ../../info/general.md:125
 #, fuzzy
 #| msgid ""
 #| "Cet identifiant est principalement utilisé en interne pour la connexion "
@@ -1496,11 +1493,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static sites](../services/"
 "web.md#sites-web-statiques) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:130
+#: ../../info/general.md:131
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:132
+#: ../../info/general.md:133
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1508,41 +1505,41 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:135
+#: ../../info/general.md:136
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:137
+#: ../../info/general.md:138
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:138
+#: ../../info/general.md:139
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:139
+#: ../../info/general.md:140
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:140
+#: ../../info/general.md:141
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:141
+#: ../../info/general.md:142
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:142
+#: ../../info/general.md:143
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:143
+#: ../../info/general.md:144
 #, fuzzy
 #| msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgid "l'utilisation de noms de domaines loués via des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:144
+#: ../../info/general.md:145
 #, fuzzy
 #| msgid ""
 #| "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
@@ -1554,13 +1551,13 @@ msgstr ""
 "access to the members-only {term}`matrix` room for project monitoring and "
 "assistance"
 
-#: ../../info/general.md:146
+#: ../../info/general.md:147
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:149
+#: ../../info/general.md:150
 msgid "Contact"
 msgstr "Contact"
 
@@ -2096,7 +2093,7 @@ msgstr ""
 #: ../../outils/aliases.md:76
 msgid ""
 "La [section \"Delivery Rights\" de la page local du manuel de Postfix]"
-"(https://manpages.debian.org/stable/postfix/local.8postfix.en."
+"(https://manpages.debian.org/bullseye/postfix/local.8postfix.en."
 "html#DELIVERY_RIGHTS)."
 msgstr ""
 
@@ -2116,10 +2113,11 @@ msgstr ""
 msgid ""
 "CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire "
 "primaire à l'aide de {logiciel}`BIND`. Il est répliqué sur 4 autres serveurs "
-"secondaires : celui d'un ami, Aymeric Agon-Rambosson ([ricorambo.su](https://"
-"ricorambo.su)) avec lequel on a fait un échange de zones DNS et 3 autres, "
-"fournis gratuitement par [Hurricane Electrics](https://dns.he.net/). Ce qui "
-"donne un total de 5 serveurs autoritaires :"
+"secondaires : ceux de deux amis, Aymeric Agon-Rambosson ([ricorambo.su]"
+"(https://ricorambo.su)) et Etienne Le Louët (jeanpierre.moe) avec lesquels "
+"on a fait un échange de zones DNS et 2 autres, fournis gratuitement par "
+"[Hurricane Electrics](https://dns.he.net/). Ce qui donne un total de 5 "
+"serveurs autoritaires :"
 msgstr ""
 
 #: ../../outils/dns.md:25
@@ -2151,7 +2149,7 @@ msgstr ""
 msgid ""
 "Outils de diagnostic en ligne : [délégation](https://www.buddyns.com/"
 "delegation-lab/club1.fr), [résumé DNSSEC](https://dnssec-analyzer."
-"verisignlabs.com/club1.fr), [Visualiseur DNSSEC](https://dnsviz.net/d/club1."
+"verisignlabs.com/club1.fr), [visualiseur DNSSEC](https://dnsviz.net/d/club1."
 "fr/dnssec/)"
 msgstr ""
 
@@ -2629,7 +2627,7 @@ msgid "Schéma de données LDAP"
 msgstr "LDAP data schema"
 
 #: ../../outils/ldap.md:46 ../../services/email.md:142 ../../services/ftp.md:41
-#: ../../services/sql.md:45 ../../services/ssh.md:77
+#: ../../services/sql.md:45 ../../services/ssh.md:82
 #: ../../services/webcast.md:30
 msgid "Informations de connexion"
 msgstr "Connection information"
@@ -2641,19 +2639,19 @@ msgid ""
 msgstr ""
 
 #: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/sql.md:4 ../../services/ssh.md:33
 #: ../../services/webcast.md:11
 msgid "champ"
 msgstr "field"
 
 #: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/sql.md:4 ../../services/ssh.md:33
 #: ../../services/webcast.md:11
 msgid "valeur"
 msgstr "value"
 
 #: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/sql.md:4 ../../services/ssh.md:33
 #: ../../services/webcast.md:11
 msgid "hôte"
 msgstr "host"
@@ -2663,7 +2661,7 @@ msgid "`localhost`"
 msgstr "`localhost`"
 
 #: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:28
+#: ../../services/sql.md:4 ../../services/ssh.md:33
 #: ../../services/webcast.md:11
 msgid "port"
 msgstr "port"
@@ -3338,6 +3336,129 @@ msgid ""
 "Ensemble de scripts très légers de gestion de newsletter développé par et "
 "pour CLUB1. Pour l'instant il ne fonctionne que pour la newsletter "
 "officielle de CLUB1. --- [Sources](https://github.com/club-1/newsletter)"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:1
+#, fuzzy
+#| msgid "Sauvegardes"
+msgid "Sauvegardes avec Borg"
+msgstr "Backups"
+
+#: ../../outils/sauvegardes.md:4
+msgid ""
+"Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
+"`Borgmatic`."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:7
+msgid ""
+"La section [](../info/general.md#sauvegardes) dans les Informations générales"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:10
+msgid "Processus de restauration"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:13
+msgid ""
+"Cette section décrit la restauration totale du système, en réinstallant tous "
+"les logiciels depuis zéro."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:16
+msgid "1. Installation du système"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:29
+msgid "2. Étapes préparatoires"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:31 ../../outils/sauvegardes.md:66
+#: ../../outils/sauvegardes.md:82
+msgid "Cette phase doit être réalisée avec l'utilisateur `root`."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:33
+#, fuzzy
+#| msgid "Informations générales"
+msgid "2.1. Préparations générales"
+msgstr "General information"
+
+#: ../../outils/sauvegardes.md:37
+msgid ""
+"Puis sélection des locales `en-GB`, `en-US` et `fr-FR` en UTF-8. "
+"Principalement pour ne pas avoir de messages d'erreurs lors des étapes "
+"suivantes."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:49
+msgid "2.2. Pré-restauration de fichiers spécifiques"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:53
+msgid ""
+"Puis remplacer `ARCHIVE` par l'identifiant de l'archive voulue parmi la "
+"liste ci-dessus. La plus récente se trouve en bas à gauche."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:62
+msgid ""
+"Deux mots de passe seront demandés : celui de SSH puis celui de l'archive."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:64
+msgid "3. Installation des paquets"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:80
+msgid "4. Restauration totale"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:84
+msgid "4.1. Archive `system` et dossier `etc`"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:101
+#, fuzzy
+#| msgid "Dossiers spéciaux"
+msgid "4.2. Certains fichiers spéciaux"
+msgstr "Special folders"
+
+#: ../../outils/sauvegardes.md:108
+msgid "4.3. Base de données {term}`LDAP`"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:116
+msgid "4.4. Base de données des [alias email](/outils/aliases.md)"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:122
+msgid "4.5. Bases de données {logiciel}`MariaDB`"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:131
+msgid "4.6. Bases de données Postgres"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:141
+msgid "4.7. Finalisation"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:151
+msgid ""
+"Logiciel en {term}`CLI` de sauvegardes incrémentales, basé sur la "
+"déduplication. Il permet aussi de compresser et chiffrer les données "
+"sauvegardées. --- [Site](https://www.borgbackup.org/), [Sources](https://"
+"github.com/borgbackup/borg)"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:158
+msgid ""
+"Logiciel en {term}`CLI` permettant d'automatiser la gestion de sauvegardes "
+"avec {logiciel}`Borg`. Il est notamment capable de sauvegarder des bases de "
+"données Postgres et {logiciel}`MariaDB`. --- [Site](https://torsion.org/"
+"borgmatic/), [Sources](https://projects.torsion.org/borgmatic-collective/"
+"borgmatic)"
 msgstr ""
 
 #: ../../outils/site.md:1
@@ -4076,7 +4197,7 @@ msgstr ""
 "prompted for a certificate approval, it is important to check that it is "
 "issued by `Let's Encrypt`."
 
-#: ../../services/ftp.md:4 ../../services/ssh.md:28
+#: ../../services/ftp.md:4 ../../services/ssh.md:33
 #: ../../services/webcast.md:11
 msgid "`club1.fr`"
 msgstr "`club1.fr`"
@@ -4522,8 +4643,8 @@ msgid ""
 "{term}`Client` {term}`Matrix` complet (anciennement \"Riot\") disponible sur "
 "de nombreuses plateformes. CLUB1 héberge une {term}`instance` de la version "
 "{term}`Web` de ce client à l'adresse <https://riot.club1.fr>. --- [Sources]"
-"(https://github.com/vector-im/element-web), [Wikipedia](https://fr.wikipedia."
-"org/wiki/Element_(logiciel))"
+"(https://github.com/element-hq/element-web), [Wikipedia](https://fr."
+"wikipedia.org/wiki/Element_(logiciel))"
 msgstr ""
 
 #: ../../services/rss.md:1
@@ -4790,7 +4911,16 @@ msgstr ""
 msgid "Connexion à distance SSH"
 msgstr "SSH remote connection"
 
-#: ../../services/ssh.md:6
+#: ../../services/ssh.md:4
+msgid ""
+"La connexion SSH est la connexion la plus pure que vous puissiez avoir avec "
+"le serveur (enfin parmi celles qui ne nécessitent pas d’user de "
+"psychotropes). C’est aussi celle qui offre le plus la sensation d’utiliser "
+"un ordinateur, car à travers elle, on peut [lancer des programmes]"
+"(#sélection-de-commandes) sur le serveur !"
+msgstr ""
+
+#: ../../services/ssh.md:11
 msgid ""
 "(_Secure SHell_) Protocole permettant de se connecter à distance en {term}"
 "`CLI` à un serveur. Ses principaux avantages sont d'être entièrement chiffré "
@@ -4804,7 +4934,7 @@ msgstr ""
 "uses like {term}`SFTP` or {term}`SCP`. --- [Wikipedia](https://en.wikipedia."
 "org/wiki/Secure_Shell)"
 
-#: ../../services/ssh.md:13
+#: ../../services/ssh.md:18
 msgid ""
 "(_SSH File Transfer Protocol_) Protocole de transfert et gestion à distance "
 "de fichiers basé sur {term}`SSH`. Il est ainsi entièrement chiffré, et donc "
@@ -4817,7 +4947,7 @@ msgstr ""
 "to {term}`FTPS`, but it offers more features (e.g. display of file owners). "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
 
-#: ../../services/ssh.md:20
+#: ../../services/ssh.md:25
 msgid ""
 "(_Secure CoPy_) Protocole de copie de fichiers entre deux ordinateurs basé "
 "sur {term}`SSH`. SCP s'utilise principalement à l'aide du {term}`client` en "
@@ -4829,11 +4959,11 @@ msgstr ""
 "same name. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Secure_copy_protocol)"
 
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:30
 msgid "Se connecter"
 msgstr "Connection"
 
-#: ../../services/ssh.md:29
+#: ../../services/ssh.md:34
 msgid ""
 "La première connexion est **critique** car c'est lors de celle-ci que se "
 "fait l'**échange des clés**. Pour éviter de subir une [attaque de l'homme du "
@@ -4845,7 +4975,7 @@ msgstr ""
 "wikipedia.org/wiki/Man-in-the-middle_attack) we have to make sure that we "
 "received the correct key during this exchange."
 
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:39
 msgid ""
 "Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, le "
 "tuto [](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
@@ -4853,7 +4983,7 @@ msgstr ""
 "If you don't know how to add the server key to your device, the tutorial [](/"
 "tutos/premiere-connexion-ssh.md) is for you!"
 
-#: ../../services/ssh.md:38
+#: ../../services/ssh.md:43
 msgid ""
 "Il existe deux manières de s'authentifier lors d'une connexion SSH. La plus "
 "simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
@@ -4864,11 +4994,11 @@ msgstr ""
 "use a [password](#sauthentifier-par-mot-de-passe), however it is less secure "
 "than using a [public key](#sauthentifier-avec-une-clé-publique)."
 
-#: ../../services/ssh.md:43
+#: ../../services/ssh.md:48
 msgid "S'authentifier par mot de passe"
 msgstr "Authenticate via password"
 
-#: ../../services/ssh.md:45
+#: ../../services/ssh.md:50
 msgid ""
 "On utilise la commande suivante dans le {term}`terminal` pour se connecter "
 "(remplacer `USER` par votre **identifiant** CLUB1) :"
@@ -4876,7 +5006,7 @@ msgstr ""
 "We use the following command in the {term}`terminal` to connect (replace "
 "`USER` with your CLUB1 **login**):"
 
-#: ../../services/ssh.md:50
+#: ../../services/ssh.md:55
 msgid ""
 "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
 "mot de passe ne s'affiche pas au moment de l'écriture)."
@@ -4884,11 +5014,11 @@ msgstr ""
 "You must then enter your CLUB1 **password** (it is normal that the password "
 "is not displayed at the time of writing)."
 
-#: ../../services/ssh.md:53
+#: ../../services/ssh.md:58
 msgid "S'authentifier avec une clé publique"
 msgstr "Authenticate with a public key"
 
-#: ../../services/ssh.md:55
+#: ../../services/ssh.md:60
 msgid ""
 "L'authentification par clé publique nécessite une paire de clé de "
 "chiffrement. Pour créer ces clés, on utilise la commande ci-dessous. Une "
@@ -4903,7 +5033,7 @@ msgstr ""
 "keys will be automatically unlocked when opening a session, so do not "
 "hesitate to choose a long passphrase."
 
-#: ../../services/ssh.md:64
+#: ../../services/ssh.md:69
 msgid ""
 "La commande qui suit va permettre d'envoyer la partie publique de la clé "
 "vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
@@ -4915,7 +5045,7 @@ msgstr ""
 "with your CLUB1 **login**). It will ask you to enter you CLUB1 **password** "
 "to work."
 
-#: ../../services/ssh.md:71
+#: ../../services/ssh.md:76
 msgid ""
 "Finalement, on utilise toujours la même commande pour se connecter. Mais "
 "cette fois ce sont les clés qui seront utilisées. Si elles ne sont pas déjà "
@@ -4925,11 +5055,121 @@ msgstr ""
 "keys that will be used. If they are not already unlocked, the _passphrase_ "
 "will be prompted."
 
-#: ../../services/ssh.md:28
+#: ../../services/ssh.md:33
 msgid "`22` (par défaut)"
 msgstr "`22` (default)"
 
-#: ../../services/ssh.md:89
+#: ../../services/ssh.md:91
+msgid "Sélection de commandes"
+msgstr ""
+
+#: ../../services/ssh.md:94
+msgid ""
+"Voici une sélection de commandes pour vous permettre de découvrir le "
+"serveur :"
+msgstr ""
+
+#: ../../services/ssh.md:97
+#, fuzzy
+#| msgid ""
+#| "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
+msgid "Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal."
+msgstr "Press {kbd}`Enter` to run a command from the terminal."
+
+#: ../../services/ssh.md:101
+msgid ""
+"Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
+"connexion à tous les [services](/services-membres.md)). --- Manuel : "
+"{manpage}`passwd.1`"
+msgstr ""
+"Allows you to change your CLUB1 password (this will therefore have an effect "
+"on the connection to all [services](/services-membres.md)). --- Manual: "
+"{manpage}`passwd.1`"
+
+#: ../../services/ssh.md:107
+#, fuzzy
+#| msgid ""
+#| "Permet de voir ce qui se passe sur le serveur en ce moment et à quel "
+#| "point les ressources sont utilisées. Pressez la touche {kbd}`Q` pour "
+#| "quitter. --- Manuel : {manpage}`htop.1`"
+msgid ""
+"Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
+"les ressources sont utilisées.   Pressez la touche {kbd}`Q` pour quitter. "
+"--- Manuel : {manpage}`htop.1`"
+msgstr ""
+"Allows you to see what is happening on the server at the moment and how much "
+"resources are being used. Press the {kbd}`Q` key to exit. --- Manual: "
+"{manpage}`htop.1`"
+
+#: ../../services/ssh.md:113
+msgid ""
+"Outil visuel et rapide pour trouver les fichiers ou dossiers qui prennent le "
+"plus de place. Idéal pour faire du rangement ! Naviguez simplement avec les "
+"flèches directionnelles. Pressez la touche {kbd}`Q` pour quitter. --- "
+"Manuel : {manpage}`ncdu.1`"
+msgstr ""
+
+#: ../../services/ssh.md:121
+msgid ""
+"Affiche les membres connectés en SSH et indique le logiciel qu'ils sont en "
+"train d'utiliser. Cette commande est un peu intrusive ! --- Manuel : "
+"{manpage}`w.1`"
+msgstr ""
+
+#: ../../services/ssh.md:127
+msgid ""
+"La façon la plus basique d'envoyer un email ! Cette commande nécessite de "
+"rajouter au bout, après un espace, l'email de votre destinataire."
+msgstr ""
+
+#: ../../services/ssh.md:131
+msgid "Si vous envoyez à un membre CLUB1, pas besoin de rajouter `@club1.fr` !"
+msgstr ""
+
+#: ../../services/ssh.md:134
+msgid ""
+"Renseignez le sujet lorsqu'on vous le demande, puis confirmez en pressant "
+"{kbd}`Enter`. Composez ensuite votre message. Lorsque vous avez terminé, "
+"créez une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`. Enfin vous "
+"pouvez si vous le souhaitez ajouter des destinataires en copie. --- Manuel : "
+"{manpage}`mailx.1`"
+msgstr ""
+
+#: ../../services/ssh.md:142
+msgid ""
+"Permet de consulter et d'envoyer ses emails avec *Mutt* : Un {term}`client` "
+"email en {term}`CLI`. Les touches de contrôle sont indiqués en haut. Pressez "
+"la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`mutt.1`"
+msgstr ""
+
+#: ../../services/ssh.md:150
+msgid ""
+"Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` "
+"en analysant les {term}`logs <log>`. Cette commande nécessite de rajouter au "
+"bout, après un espace, le fichier de log que vous souhaitez analyser."
+msgstr ""
+
+#: ../../services/ssh.md:155
+msgid ""
+"Les logs de {logiciel}`Apache`, qui sert les sites Web, sont stockés dans le "
+"dossier `log` de votre [espace perso](../info/espace-personnel.md#-log)."
+msgstr ""
+
+#: ../../services/ssh.md:159
+msgid ""
+"Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en "
+"étendre une.   Pressez la touche {kbd}`Q` pour quitter. --- Manuel : "
+"{manpage}`goaccess.1`"
+msgstr ""
+
+#: ../../services/ssh.md:165
+msgid ""
+"Affiche la page de manuel correspondant à une commande. Celle-ci devra être "
+"indiquée après un espace. La plupart des pages de manuel sont en anglais.   "
+"Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`man.1`"
+msgstr ""
+
+#: ../../services/ssh.md:176
 msgid ""
 "Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}"
 "`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
@@ -6353,16 +6593,28 @@ msgid "Première connexion SSH"
 msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
+#, fuzzy
+#| msgid ""
+#| "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
+#| "première fois en {term}`SSH` de manière **sécurisée**."
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-"première fois en {term}`SSH` de manière **sécurisée**."
+"première fois en {term}`SSH` de manière **sécurisée**. Pour cela, pas besoin "
+"d’installer de logiciels supplémentaire, la majorité des systèmes "
+"d’exploitation ont déjà tout le nécessaire pour cette connexion."
 msgstr ""
 "In this tutorial, we will see how to connect to the server for the first "
 "time in {term}`SSH` in a **secure way**."
 
-#: ../../tutos/premiere-connexion-ssh.md:8
+#: ../../tutos/premiere-connexion-ssh.md:10
+#, fuzzy
+#| msgid ""
+#| "Ce tutoriel n'a pas encore été testé sur Windows. Certaines étapes "
+#| "risquent de ne pas fonctionner. Si vous rencontrez un problème, la "
+#| "section \"[](../info/general.md#demandes-et-incidents)\" explique comment "
+#| "nous en faire part."
 msgid ""
-"Ce tutoriel n'a pas encore été testé sur Windows. Certaines étapes risquent "
+"Ce tutoriel n'a pas encore été éprouvé sur Windows. Certaines étapes peuvent "
 "de ne pas fonctionner. Si vous rencontrez un problème, la section \"[](../"
 "info/general.md#demandes-et-incidents)\" explique comment nous en faire part."
 msgstr ""
@@ -6370,21 +6622,43 @@ msgstr ""
 "If you encounter a problem, the section \"[](../info/general.md#demandes-et-"
 "incidents)\" explains how to report it to us."
 
-#: ../../tutos/premiere-connexion-ssh.md:14
+#: ../../tutos/premiere-connexion-ssh.md:16
 msgid "Connexion avec le terminal"
 msgstr "Connection with the terminal"
 
-#: ../../tutos/premiere-connexion-ssh.md:17
+#: ../../tutos/premiere-connexion-ssh.md:19
+#, fuzzy
+#| msgid ""
+#| "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}"
+#| "`OpenSSH`. Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire "
+#| "d'ouvrir une fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵"
 msgid ""
 "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`. "
 "Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
-"fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵"
+"fenêtre de **{term}`terminal`** ! 🥵"
 msgstr ""
 "To make this SSH connection we will use {logiciel}`OpenSSH`. This software "
 "is used in {term}`CLI`, so it is necessary to open a **{term}`terminal`** "
 "window (`cmd` on windows)! 🥵"
 
-#: ../../tutos/premiere-connexion-ssh.md:21
+#: ../../tutos/premiere-connexion-ssh.md:23
+msgid "Pour Windows"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:24
+msgid ""
+"Dans le cas de Windows, il faut utiliser le programme qui s'appelle "
+"`Powershell`. Comme sa configuration par défaut n'est pas terrible 💩, il "
+"faut corriger cela avec la commande suivante :"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:29
+msgid ""
+"Pour \"coller\" du texte dans `Powershell` on peut faire {kbd}`Ctrl` + {kbd}"
+"`V`, ou simplement un clic droit avec sa souris."
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:33
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
@@ -6393,7 +6667,7 @@ msgstr ""
 "Don't be impressed by its disconcerting interface, it's a tool that will "
 "make you a real computer magician! 🧙"
 
-#: ../../tutos/premiere-connexion-ssh.md:24
+#: ../../tutos/premiere-connexion-ssh.md:36
 msgid ""
 "On utilise la commande suivante dans le terminal pour se connecter "
 "(remplacer `USER` par votre **identifiant** CLUB1) :"
@@ -6401,19 +6675,19 @@ msgstr ""
 "We use the following command in the terminal to connect (replace `USER` with "
 "your CLUB1 **login**):"
 
-#: ../../tutos/premiere-connexion-ssh.md:30
+#: ../../tutos/premiere-connexion-ssh.md:42
 msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
 msgstr "Press {kbd}`Enter` to run a command from the terminal."
 
-#: ../../tutos/premiere-connexion-ssh.md:33
+#: ../../tutos/premiere-connexion-ssh.md:45
 msgid "Vous devriez voir s'afficher le message suivant :"
 msgstr "You should see the following message:"
 
-#: ../../tutos/premiere-connexion-ssh.md:39
+#: ../../tutos/premiere-connexion-ssh.md:51
 msgid "😱 Houla ! Qu'est ce que c'est que ça ??"
 msgstr "😱 Wow! What the hell is this??"
 
-#: ../../tutos/premiere-connexion-ssh.md:41
+#: ../../tutos/premiere-connexion-ssh.md:53
 msgid ""
 "En fait, c'est normal, {logiciel}`OpenSSH` nous averti que "
 "l'authentification de la connexion n'est pas garantie car votre appareil ne "
@@ -6423,21 +6697,26 @@ msgstr ""
 "authentication of the connection is not guaranteed because your device does "
 "not know this server *yet*."
 
-#: ../../tutos/premiere-connexion-ssh.md:44
+#: ../../tutos/premiere-connexion-ssh.md:56
+#, fuzzy
+#| msgid ""
+#| "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
+#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu). "
+#| "Nous allons donc répondre `no` pour le moment."
 msgid ""
 "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
-"milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu). Nous "
-"allons donc répondre `no` pour le moment."
+"milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸. "
+"Nous allons donc répondre `no` pour le moment."
 msgstr ""
 "Replying `yes` to this message exposes oneself to a [man-in-the-middle "
 "attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). So we're "
 "going to answer `no` for now."
 
-#: ../../tutos/premiere-connexion-ssh.md:47
+#: ../../tutos/premiere-connexion-ssh.md:60
 msgid "La confiance règne"
 msgstr "Trust reigns"
 
-#: ../../tutos/premiere-connexion-ssh.md:50
+#: ../../tutos/premiere-connexion-ssh.md:63
 msgid ""
 "Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1. "
 "Cela permet de garantir l'authenticité des réponses du serveur et "
@@ -6449,7 +6728,7 @@ msgstr ""
 "initialize an encrypted connection. In this way we are certain that we are "
 "indeed dealing with the CLUB1 server."
 
-#: ../../tutos/premiere-connexion-ssh.md:54
+#: ../../tutos/premiere-connexion-ssh.md:67
 msgid ""
 "Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut "
 "l'acquérir par une autre source que la connexion SSH elle-même au cas où "
@@ -6459,14 +6738,14 @@ msgstr ""
 "from another source than the SSH connection itself in case it is compromised "
 "😮."
 
-#: ../../tutos/premiere-connexion-ssh.md:58
+#: ../../tutos/premiere-connexion-ssh.md:71
 msgid ""
 "🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle "
 "aussi compromise ?"
 msgstr ""
 "🤔 But then, what guarantees that the new source is not also compromised?"
 
-#: ../../tutos/premiere-connexion-ssh.md:60
+#: ../../tutos/premiere-connexion-ssh.md:73
 msgid ""
 "La source de la clef que nous allons utiliser provient du {term}`Web`, à "
 "travers une connexion chiffrée et **authentifié** via {term}`TLS` 🔒 (C'est "
@@ -6476,11 +6755,11 @@ msgstr ""
 "through an encrypted and **authenticated** connection via {term}`TLS` 🔒 "
 "(This is the famous `s` in `https`)."
 
-#: ../../tutos/premiere-connexion-ssh.md:65
+#: ../../tutos/premiere-connexion-ssh.md:78
 msgid "Fichier `known_hosts`"
 msgstr "`known_hosts` file"
 
-#: ../../tutos/premiere-connexion-ssh.md:68
+#: ../../tutos/premiere-connexion-ssh.md:81
 msgid ""
 "Concrètement, cela consiste à ajouter une ligne de texte contenant la clef "
 "🔑, à un fichier sur votre appareil. Ce fichier s'appellera `known_hosts`, "
@@ -6492,7 +6771,7 @@ msgstr ""
 "servers*. It should be in a `.ssh` folder, itself within your personal space "
 "on your device."
 
-#: ../../tutos/premiere-connexion-ssh.md:75
+#: ../../tutos/premiere-connexion-ssh.md:88
 msgid ""
 "Le dossier correspondant à votre espace personnel porte généralement le nom "
 "de votre utilisateur sur cet appareil."
@@ -6500,7 +6779,7 @@ msgstr ""
 "The folder corresponding to your personal space is usually named after your "
 "user on this device."
 
-#: ../../tutos/premiere-connexion-ssh.md:86
+#: ../../tutos/premiere-connexion-ssh.md:99
 msgid ""
 "Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la "
 "tentative de connexion SSH."
@@ -6508,7 +6787,7 @@ msgstr ""
 "Normally, the `.ssh` {term}`hidden folder` should have been created during "
 "the SSH connection attempt."
 
-#: ../../tutos/premiere-connexion-ssh.md:88
+#: ../../tutos/premiere-connexion-ssh.md:101
 msgid ""
 "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
 "fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
@@ -6516,7 +6795,7 @@ msgstr ""
 "Now we just have to write the server key in a `known_host` file. The "
 "following command does all that for you! 🪄"
 
-#: ../../tutos/premiere-connexion-ssh.md:95
+#: ../../tutos/premiere-connexion-ssh.md:108
 msgid ""
 "Si tout s'est bien passé, le fichier `known_hosts` doit maintenant contenir "
 "une ligne contenant la clef."
@@ -6524,7 +6803,7 @@ msgstr ""
 "If everything went well, the file `known_hosts` should now contain a line "
 "with the key."
 
-#: ../../tutos/premiere-connexion-ssh.md:98
+#: ../../tutos/premiere-connexion-ssh.md:111
 msgid ""
 "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
 "terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
@@ -6534,24 +6813,25 @@ msgstr ""
 "without seeing the alert message and you will then need to enter your CLUB1 "
 "**password**."
 
-#: ../../tutos/premiere-connexion-ssh.md:102
+#: ../../tutos/premiere-connexion-ssh.md:115
 msgid ""
 "Lorsque vous tapez votre mot de passe, rien ne s'affiche ! C'est normal, il "
 "s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
 "de caractères du mot de passe. 🤫"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:108
+#: ../../tutos/premiere-connexion-ssh.md:121
 msgid ""
 "Dans une fenêtre de terminal, il est généralement possible de \"coller\" un "
-"texte en faisant \"Clic droit\" --> {guilabel}`Coller`."
+"texte en faisant \"Clic droit\" --> {guilabel}`Coller`. Ou encore {kbd}"
+"`Ctrl` + {kbd}`Shift` + {kbd}`V`."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:112
+#: ../../tutos/premiere-connexion-ssh.md:126
 msgid "Dans le serveur"
 msgstr "In the server"
 
-#: ../../tutos/premiere-connexion-ssh.md:115
+#: ../../tutos/premiere-connexion-ssh.md:129
 msgid ""
 "Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
 "C'est un accès privilégié, car c'est celui qui vous donne le plus de "
@@ -6561,29 +6841,14 @@ msgstr ""
 "privileged access, because it is the one that gives you the most freedom of "
 "interaction with the server."
 
-#: ../../tutos/premiere-connexion-ssh.md:119
-msgid "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
+#: ../../tutos/premiere-connexion-ssh.md:133
+#, fuzzy
+#| msgid ""
+#| "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
+msgid ""
+"🍾 Pour fêter ça, voici [une petite sélection de commandes à découvrir](../"
+"services/ssh.md#sélection-de-commandes)."
 msgstr "🍾 To celebrate, here is a small selection of commands to discover:"
-
-#: ../../tutos/premiere-connexion-ssh.md:122
-msgid ""
-"Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
-"connexion à tous les [services](/services-membres.md)). --- Manuel : "
-"{manpage}`passwd.1`"
-msgstr ""
-"Allows you to change your CLUB1 password (this will therefore have an effect "
-"on the connection to all [services](/services-membres.md)). --- Manual: "
-"{manpage}`passwd.1`"
-
-#: ../../tutos/premiere-connexion-ssh.md:128
-msgid ""
-"Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
-"les ressources sont utilisées. Pressez la touche {kbd}`Q` pour quitter. --- "
-"Manuel : {manpage}`htop.1`"
-msgstr ""
-"Allows you to see what is happening on the server at the moment and how much "
-"resources are being used. Press the {kbd}`Q` key to exit. --- Manual: "
-"{manpage}`htop.1`"
 
 #: ../../tutos/presentation.md:1
 msgid "Éditer son fichier de présentation"
@@ -7137,10 +7402,10 @@ msgid "Documentation {CLUB1}"
 msgstr "{CLUB1} documentation"
 
 #. Add custom 'software' directive and refs
-#: conf.py:325 conf.py:326
+#: conf.py:327 conf.py:328
 msgid "logiciel"
 msgstr "software"
 
-#: conf.py:327 conf.py:328
+#: conf.py:329 conf.py:330
 msgid "commande"
 msgstr "command"
