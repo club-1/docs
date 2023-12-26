@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-12-26 20:30+0100\n"
-"PO-Revision-Date: 2023-09-17 21:37+0000\n"
+"PO-Revision-Date: 2023-12-26 20:44+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -402,10 +402,13 @@ msgid ""
 "votre ordinateur personnel, il existe [un tutoriel pour réaliser sa première "
 "connexion SHH](tutos/premiere-connexion-ssh.md)."
 msgstr ""
+"If you connect to CLUB1 in {term}`SSH` for the first time from your personal "
+"computer, there is [a tutorial to help you make your first SHH connection]("
+"tutos/premiere-connexion-ssh.md)."
 
 #: ../../faq.md:27
 msgid "Est-il possible de modifier mon identifiant CLUB1 ?"
-msgstr ""
+msgstr "Is it possible to modify my CLUB1 identifier?"
 
 #: ../../faq.md:29
 msgid ""
@@ -428,13 +431,6 @@ msgid "Réponse courte : NON"
 msgstr "Short Answer: NO"
 
 #: ../../faq.md:37
-#, fuzzy
-#| msgid ""
-#| "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email."
-#| "md) par compte de membre** avec une adresse principale et toutes ses "
-#| "[sous-adresses](services/email.md#sous-adresses). Il est possible de "
-#| "créer des {term}`alias` personnalisés à la demande, mais pas de créer des "
-#| "boîtes de reception supplémentaires."
 msgid ""
 "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email.md) "
 "par compte de membre** avec une adresse principale et toutes ses [sous-"
@@ -443,8 +439,8 @@ msgid ""
 "réception supplémentaires."
 msgstr ""
 "Long answer: CLUB1 provides **[one email box](/services/email.md) per member "
-"account** with a main address and all its [sub-addresses](services/email."
-"md#sous-adresses). It is possible to create custom {term}`alias` on demand, "
+"account** with a main address and all its [sub-addresses](services/email.md"
+"#sous-adresses). It is possible to create custom {term}`alias` on demand, "
 "but not to create additional mailboxes."
 
 #: ../../genindex.rst:4
@@ -758,15 +754,6 @@ msgid ""
 msgstr "In addition to this information, a domain can also have subdomains."
 
 #: ../../glossaire.md:133
-#, fuzzy
-#| msgid ""
-#| "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
-#| "principalement utilisé pour produire des pages {term}`Web` de manière "
-#| "dynamique en générant du code {term}`HTML`. Son acronyme signifiait à "
-#| "l'origine \"_Personnal Home Page_\" et c'est justement le langage que "
-#| "CLUB1 met en avant pour la création de [sites Web dynamiques](./services/"
-#| "web.md#sites-web-dynamiques). --- [Wikipedia](https://fr.wikipedia.org/"
-#| "wiki/PHP)"
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -778,9 +765,8 @@ msgstr ""
 "(_PHP Hypertext Preprocessor_) High-level programming language, primarily "
 "used to produce {term}`Web` pages dynamically by generating {term}`HTML` "
 "code. Its acronym originally stood for \"_Personal Home Page_\" and it is "
-"precisely the language that CLUB1 puts forward for the creation of [dynamic "
-"websites](./services/web.md#sites-web-dynamiques). --- [Wikipedia](https://"
-"en.wikipedia.org/wiki/PHP)"
+"precisely the language that CLUB1 puts forward for the creation of {term}`"
+"dynamic website`. --- [Wikipedia](https://en.wikipedia.org/wiki/PHP)"
 
 #: ../../glossaire.md:133
 msgid "protocole"
@@ -845,10 +831,8 @@ msgstr ""
 "wikipedia.org/wiki/Server_(computing))"
 
 #: ../../glossaire.md:156
-#, fuzzy
-#| msgid "Sites Web _dynamiques_"
 msgid "site Web dynamique"
-msgstr "_Dynamic_ websites"
+msgstr "dynamic website"
 
 #: ../../glossaire.md:164
 msgid ""
@@ -857,12 +841,14 @@ msgid ""
 "contient du code qui va être \"executé\" pour générer du {term}`HTML`. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
+"{term}`Web` site whose display may vary \"from itself\", hence the name "
+"\"dynamic\" (distinguishing it from a {term}`static website`). It contains "
+"code that will be \"executed\" to generate {term}`HTML`. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Dynamic_web_page)"
 
 #: ../../glossaire.md:162
-#, fuzzy
-#| msgid "Sites Web _statiques_"
 msgid "site Web statique"
-msgstr "_Static_ websites"
+msgstr "static website"
 
 #: ../../glossaire.md:170
 msgid ""
@@ -873,6 +859,11 @@ msgid ""
 "énergétiquement. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Page_web_statique)"
 msgstr ""
+"{term}`Web` site consisting of {term}`HTML` files whose content does not "
+"change until they have been edited. They can be designed \"by hand\" or "
+"using a \"static site generator\". Static sites are an interesting way for "
+"those looking to offer more energy-efficient sites. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Static_web_page)"
 
 #: ../../glossaire.md:169
 msgid "terminal"
@@ -913,8 +904,8 @@ msgid ""
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
-"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
-"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
 #: ../../glossaire.md:192
 msgid ""
@@ -1091,19 +1082,13 @@ msgid ""
 msgstr "Folder used to [host Git code repositories](/services/git.md)."
 
 #: ../../info/espace-personnel.md:56
-#, fuzzy
-#| msgid ""
-#| "Ce dossier contient l'ensemble des {term}`logs <log>` produits par les "
-#| "services. Par exemple ceux des [sites Web dynamiques](../services/web."
-#| "md#sites-web-dynamiques)."
 msgid ""
 "Ce dossier contient l'ensemble des {term}`logs <log>` produits par les "
 "services. Par exemple ceux des {term}`sites Web dynamiques<site Web "
 "dynamique>`."
 msgstr ""
 "This folder contains all the {term}`logs <log>` produced by the services. "
-"For example those of [dynamic Web sites](../services/web.md#sites-web-"
-"dynamiques)."
+"For example those of {term}`dynamic websites <dynamic website>`."
 
 #: ../../info/espace-personnel.md:59
 msgid ""
@@ -1181,17 +1166,12 @@ msgid "Informations générales"
 msgstr "General information"
 
 #: ../../info/general.md:4
-#, fuzzy
-#| msgid ""
-#| "Le serveur Club1 permet à ses membres d'héberger différents types de "
-#| "projets web. Mais c'est aussi une communauté de personnes intéressées par "
-#| "les notions d'espaces web, de libertés et d'exploration du web."
 msgid ""
 "Le serveur CLUB1 permet à ses membres d'héberger différents types de projets "
 "web. Mais c'est aussi une communauté de personnes intéressées par les "
 "notions d'espaces web, de libertés et d'exploration du web."
 msgstr ""
-"The Club1 server allows its members to host different types of web projects. "
+"The CLUB1 server allows its members to host different types of web projects. "
 "But it is also a community of people interested in the notions of web "
 "spaces, freedoms and web exploration."
 
@@ -1214,16 +1194,12 @@ msgstr ""
 "to your preferences:"
 
 #: ../../info/general.md:17
-#, fuzzy
-#| msgid ""
-#| "**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1."
-#| "fr/t/tickets) ."
 msgid ""
 "**Ouvrir un ticket** en créant un [post sur le forum](https://forum.club1.fr/"
 "t/tickets)."
 msgstr ""
 "**Open a ticket** by creating a [post on the forum](https://forum.club1.fr/t/"
-"tickets) ."
+"tickets)."
 
 #: ../../info/general.md:18
 msgid "Envoyer un email à <contact@club1.fr>"
@@ -1248,24 +1224,14 @@ msgid "Il vit dans le placard comme _Harry Potter_..."
 msgstr "It lives in the closet like _Harry Potter_..."
 
 #: ../../info/general.md:28
-#, fuzzy
-#| msgid "c'est le serveur."
 msgid "... c'est le serveur."
-msgstr "it's the server."
+msgstr "... it's the server."
 
 #: ../../info/general.md:32
 msgid "Système d'exploitation"
 msgstr "Operating system"
 
 #: ../../info/general.md:34
-#, fuzzy
-#| msgid ""
-#| "Le serveur tourne sur **Ubuntu 20.04 (LTS)** et est mis à jour "
-#| "régulièrement. Les mises-à-jour de sécurité sont installées "
-#| "automatiquement dans les 24 heures à l'aide de [_unattended-upgrades_]"
-#| "(https://wiki.debian.org/fr/unattended-upgrades) et les services en "
-#| "dépendant sont ensuite automatiquement redémarrés grâce à [_needrestart_]"
-#| "(https://packages.debian.org/fr/stable/needrestart)."
 msgid ""
 "Le serveur tourne sur **Debian 11** et est mis à jour régulièrement. Les "
 "mises-à-jour de sécurité sont installées automatiquement dans les 24 heures "
@@ -1274,28 +1240,23 @@ msgid ""
 "redémarrés grâce à [_needrestart_](https://packages.debian.org/fr/stable/"
 "needrestart)."
 msgstr ""
-"The server runs on **Ubuntu 20.04 (LTS)** and is updated regularly. Security "
-"updates are installed automatically within 24 hours using [_unattended-"
+"The server runs on **Debian 11** and is updated regularly. Security updates "
+"are installed automatically within 24 hours using [_unattended-"
 "upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the services "
-"depending on it are then automatically restarted using [_needrestart_]"
-"(https://packages.debian.org/stable/needrestart)."
+"depending on it are then automatically restarted using "
+"[_needrestart_](https://packages.debian.org/stable/needrestart)."
 
 #: ../../info/general.md:40
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
 #: ../../info/general.md:42
-#, fuzzy
-#| msgid ""
-#| "L'ensemble des logiciels installés sont sous **licence libre**, à part "
-#| "pour ceux de la liste suivante, dont il n'existe pas d'alternative "
-#| "libres :"
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
 "ceux de la liste suivante, dont il n'existe pas d'alternatives libres :"
 msgstr ""
 "All the installed software is under **free license**, except for the "
-"following list, for which there is no free alternative:"
+"following list, for which there is no free alternatives:"
 
 #: ../../info/general.md:45
 msgid "BIOS/BMC Supermicro"
@@ -1307,7 +1268,7 @@ msgstr "Intel Microcode"
 
 #: ../../info/general.md:47
 msgid "Firmware Intel QAT"
-msgstr ""
+msgstr "Intel QAT firmware"
 
 #: ../../info/general.md:49
 msgid ""
@@ -1360,13 +1321,6 @@ msgid "Sauvegardes"
 msgstr "Backups"
 
 #: ../../info/general.md:88
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes sont réalisées avec [Borg](https://www.borgbackup."
-#| "org/). Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
-#| "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
-#| "(serveur OMV auto-hébergé à Paris)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes sont réalisées avec {logiciel}`Borg`. Elles sont ainsi "
@@ -1375,9 +1329,9 @@ msgid ""
 "Paris)."
 msgstr ""
 "System and user data are backed up once a day at 5am. Backups are made with "
-"[Borg](https://www.borgbackup.org/). They are thus stored in a deduplicated "
-"and encrypted manner in several places including an off-site repository "
-"offered by Etienne Le Louët (self-hosted OMV server in Paris)."
+"{logiciel}`Borg`. They are thus stored in a deduplicated and encrypted "
+"manner in several places including an off-site repository offered by Etienne "
+"Le Louët (self-hosted Debian server in Paris)."
 
 #: ../../info/general.md:93
 msgid ""
@@ -1407,45 +1361,34 @@ msgstr ""
 "the [Healthchecks.io](https://healthchecks.io/) service"
 
 #: ../../info/general.md:103
-#, fuzzy
-#| msgid "Les sauvegardes sont réparties en deux groupes :"
 msgid "Les sauvegardes sont réparties en quatre groupes :"
-msgstr "Backups are divided into two groups:"
+msgstr "Backups are divided into four groups:"
 
 #: ../../info/general.md:105
-#, fuzzy
-#| msgid ""
-#| "**System** pour la configuration du serveur, les fichiers des "
-#| "applications et les bases de données."
 msgid ""
 "**System** pour la configuration du serveur et les fichiers des applications."
-msgstr "**System** for server configuration, application files and databases."
+msgstr "**System** for server configuration and application files."
 
 #: ../../info/general.md:106
-#, fuzzy
-#| msgid ""
-#| "Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`."
 msgid "**MariaDB** pour les bases de données {logiciel}`MariaDB`."
-msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
+msgstr "**MariaDB** for {logiciel}`MariaDB` databases."
 
 #: ../../info/general.md:107
 msgid "**Postgres** pour les bases de données PostgreSQL."
-msgstr ""
+msgstr "**Postgres** for PostgreSQL databases."
 
 #: ../../info/general.md:108
 msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
 msgstr "**Userdata** for the data of the _personal space_ (`home` folder)."
 
 #: ../../info/general.md:111
-#, fuzzy
-#| msgid "L'article du journal [Sauvegardes](https://club1.fr/backups/)"
 msgid "L'article du journal : [Sauvegardes](https://club1.fr/backups/)"
 msgstr ""
-"The journal article [Sauvegardes](https://club1.fr/backups/) (in French)"
+"The journal article: [Sauvegardes](https://club1.fr/backups/) (in French)"
 
 #: ../../info/general.md:112
 msgid "La section de la doc : [](/outils/sauvegardes.md)"
-msgstr ""
+msgstr "The doc section: [](/outils/sauvegardes.md)"
 
 #: ../../info/general.md:115
 msgid "Comptes des membres"
@@ -1456,11 +1399,8 @@ msgid "Identifiant"
 msgstr "Username"
 
 #: ../../info/general.md:120
-#, fuzzy
-#| msgid ""
-#| "Les administrateurs système s'engagent à respecter les points suivants :"
 msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
-msgstr "System administrators agree to respect the following points:"
+msgstr "The username must comply with the following rules:"
 
 #: ../../info/general.md:122
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
@@ -1534,16 +1474,10 @@ msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
 #: ../../info/general.md:144
-#, fuzzy
-#| msgid "l'utilisation de noms de domaines loué vias des registraires"
 msgid "l'utilisation de noms de domaines loués via des registraires"
 msgstr "the use of domain names rented via registrars"
 
 #: ../../info/general.md:145
-#, fuzzy
-#| msgid ""
-#| "un accès à la room {term}`matrix` réservée aux membres pour le suivi et "
-#| "l'assistance aux projets"
 msgid ""
 "un accès au salon {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
@@ -1862,6 +1796,8 @@ msgid ""
 "Un [article dans le journal de bord](https://club1.fr/ssd-home) raconte son "
 "arrivée dans le serveur."
 msgstr ""
+"An [article in the journal](https://club1.fr/ssd-home) tells the story of "
+"his arrival in the server."
 
 #: ../../info/infrastructure-materielle.md:127
 msgid ""
@@ -2089,6 +2025,13 @@ msgid ""
 "correspondant à l'alias s'il existe et sinon, sur CLUB1, avec l'utilisateur "
 "`nobody` et le {term}`groupe` `mail`."
 msgstr ""
+"As previously indicated, the reception aliases file `/etc/aliases` respects "
+"the [Postfix alias syntax](http://www.postfix.org/aliases.5.html). In "
+"addition to redirecting emails to other addresses, it allows to send them to "
+"files or commands. In this case, attention should be paid to the permissions "
+"required to create files and execute commands. These actions are carried out "
+"with the rights of the user corresponding to the alias if it exists and "
+"otherwise, on CLUB1, with the user `nobody` and {term}`group` `mail`."
 
 #: ../../outils/aliases.md:76
 msgid ""
@@ -2096,18 +2039,25 @@ msgid ""
 "(https://manpages.debian.org/bullseye/postfix/local.8postfix.en."
 "html#DELIVERY_RIGHTS)."
 msgstr ""
+"The [\"Delivery Rights\" section of the Postfix manual](https://manpages."
+"debian.org/bullseye/postfix/local.8postfix.en.html#DELIVERY_RIGHTS)."
 
 #: ../../outils/dns.md:1
 msgid "Serveur DNS"
 msgstr "DNS server"
 
 #: ../../outils/dns.md:6
+#, fuzzy
 msgid ""
 "(_Domain Name System_) Service informatique distribué qui associe les {term}"
 "`noms de domaine <nom de domaine>` {term}`Internet` avec leurs {term}"
 "`adresses IP <adresse IP>` ou d'autres types d'enregistrements. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/BIND)"
 msgstr ""
+"(Domain Name System) Distributed computer service that associates "
+"{term}`Internet` {term}`domain names <domain name>` with their {term}`IP "
+"addresses <IP address>` or other types of records. --- [Wikipedia](https://en"
+".wikipedia.org/wiki/BIND)"
 
 #: ../../outils/dns.md:12
 msgid ""
@@ -2119,6 +2069,13 @@ msgid ""
 "[Hurricane Electrics](https://dns.he.net/). Ce qui donne un total de 5 "
 "serveurs autoritaires :"
 msgstr ""
+"CLUB1 self-hosts its own primary authoritative {term}`DNS` {term}`server` "
+"using {software}`BIND`. It is replicated on 4 other secondary servers: those "
+"of two friends, Aymeric Agon-Rambosson ([ricorambo.su](https://ricorambo.su))"
+" and Etienne Le Louët (jeanpierre.moe) with whom we made an exchange of DNS "
+"zones and 2 others, provided free of charge by [Hurricane "
+"Electrics](https://dns.he.net/). This gives a total of 5 authoritative "
+"servers:"
 
 #: ../../outils/dns.md:25
 msgid ""
@@ -2130,14 +2087,9 @@ msgid ""
 msgstr ""
 
 #: ../../outils/dns.md:30
-#, fuzzy
-#| msgid ""
-#| "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
 msgid ""
 "[Article du journal à propos du serveur DNS](https://club1.fr/serveur-dns)"
-msgstr ""
-"The journal article [Le(s) serveur(s) email](https://club1.fr/email/) (in "
-"French)"
+msgstr "[Journal article about the DNS server](https://club1.fr/serveur-dns)"
 
 #: ../../outils/dns.md:31
 msgid ""
@@ -2154,10 +2106,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/dns.md:38
-#, fuzzy
-#| msgid "Hébergement de sites Web"
 msgid "Hébergement de zones secondaires"
-msgstr "Websites hosting"
+msgstr "Secondary zones hosting"
 
 #: ../../outils/dns.md:41
 msgid ""
@@ -2219,19 +2169,14 @@ msgid ""
 msgstr ""
 
 #: ../../outils/dns.md:69
-#, fuzzy
-#| msgid ""
-#| "Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
-#| "inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/"
-#| "wiki/Apache_HTTP_Server), [Sources](https://github.com/apache/httpd)"
 msgid ""
 "Sur CLUB1, BIND est à la fois un serveur autoritaire et un résolveur "
 "récursif pour le réseau local. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "BIND), [Sources](https://gitlab.isc.org/isc-projects/bind9)"
 msgstr ""
-"At CLUB1, the Apache server is behind the \"reverse proxy\" {logiciel}"
-"`Nginx`. --- [Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server), "
-"[Sources](https://github.com/apache/httpd)"
+"On CLUB1, BIND is both an authoritative server and a recursive resolver for "
+"the local network. --- [Wikipedia](https://en.wikipedia.org/wiki/BIND), "
+"[Sources](https://gitlab.isc.org/isc-projects/bind9)"
 
 #: ../../outils/forum.md:1
 msgid "Forum de discussion"
@@ -2620,7 +2565,7 @@ msgstr "Configuration details"
 
 #: ../../outils/ldap.md:28
 msgid "Cette section décrit les spécificités de la configuration de CLUB1."
-msgstr ""
+msgstr "This section describes the specificities of the CLUB1 configuration."
 
 #: ../../outils/ldap.md:31
 msgid "Schéma de données LDAP"
@@ -2637,6 +2582,8 @@ msgid ""
 "L'annuaire LDAP de CLUB1 n'est pas public, il est accessible uniquement en "
 "local depuis le serveur."
 msgstr ""
+"The LDAP directory of CLUB1 is not public, it is only available locally from "
+"the server."
 
 #: ../../outils/ldap.md:31 ../../services/email.md:124 ../../services/ftp.md:4
 #: ../../services/sql.md:4 ../../services/ssh.md:33
@@ -2672,7 +2619,7 @@ msgstr "`389` (default)"
 
 #: ../../outils/ldap.md:31
 msgid "non"
-msgstr ""
+msgstr "no"
 
 #: ../../outils/ldap.md:63
 msgid ""
@@ -3103,10 +3050,8 @@ msgid "Commandes"
 msgstr "Commands"
 
 #: ../../outils/meta-doc.md:220
-#, fuzzy
-#| msgid "Compilation en un site statique dans `_build/html` :"
 msgid "Compilation en un {term}`site Web statique` dans `_build/html` :"
-msgstr "Compilation into a static site in `_build/html`:"
+msgstr "Compilation into a {term}`static website` in `_build/html`:"
 
 #: ../../outils/meta-doc.md:224
 msgid "Compilation d'une locale spécifique :"
@@ -3152,7 +3097,7 @@ msgstr "Metadata"
 
 #: ../../outils/newsletter.md:1
 msgid "Newsletter"
-msgstr ""
+msgstr "Newsletter"
 
 #: ../../outils/newsletter.md:4
 msgid ""
@@ -3160,10 +3105,13 @@ msgid ""
 "permet d'informer des réunions, ateliers, ou partager les nouveaux articles "
 "du journal de bord."
 msgstr ""
+"The newsletter is the main external communication tool of CLUB1. It allows "
+"to inform of meetings, workshops, or to share the new articles of the "
+"journal."
 
 #: ../../outils/newsletter.md:7
 msgid "Elle utilise l'adresse `nouvelles@club1.fr` comme adresse d'envoi."
-msgstr ""
+msgstr "It uses `nouvelles@club1.fr` as sending address."
 
 #: ../../outils/newsletter.md:9
 msgid ""
@@ -3172,10 +3120,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/newsletter.md:11
-#, fuzzy
-#| msgid "Fonctionnement"
 msgid "Abonnement"
-msgstr "Operation"
+msgstr "Subscription"
 
 #: ../../outils/newsletter.md:14
 msgid ""
@@ -3187,39 +3133,45 @@ msgstr ""
 
 #: ../../outils/newsletter.md:18
 msgid "Inscription : <nouvelles-subscribe@club1.fr>"
-msgstr ""
+msgstr "Subscribe: <nouvelles-subscribe@club1.fr>"
 
 #: ../../outils/newsletter.md:19
 msgid "Désinscription : <nouvelles-unsubscribe@club1.fr>"
-msgstr ""
+msgstr "Unsubscribe: <nouvelles-unsubscribe@club1.fr>"
 
 #: ../../outils/newsletter.md:21
 msgid ""
 "Lors de l'inscription, un email de confirmation est envoyé et nécessite d'y "
 "répondre pour terminer l'inscription."
 msgstr ""
+"Upon registration, a confirmation email is sent and requires to reply to "
+"complete the registration."
 
 #: ../../outils/newsletter.md:24
 msgid "Envoyer une newsletter"
-msgstr ""
+msgstr "Send a newsletter"
 
 #: ../../outils/newsletter.md:27
 msgid ""
 "Pour pouvoir envoyer une newsletter, il faut être membre du {term}`groupe` "
 "`mail`."
-msgstr ""
+msgstr "To send a newsletter, you must be a member of the `mail` {term}`group`."
 
 #: ../../outils/newsletter.md:29
 msgid ""
 "Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via un {term}"
 "`terminal`."
 msgstr ""
+"Sending a newsletter requires to be connected in {term}`SSH` via a "
+"{term}`terminal`."
 
 #: ../../outils/newsletter.md:31
 msgid ""
 "Le contenu à envoyer doit préalablement être stocké dans un fichier sur le "
 "serveur. Il faut ensuite lancer la commande suivante :"
 msgstr ""
+"The content to be sent must be previously stored in a file on the server. "
+"The following command must then be run:"
 
 #: ../../outils/newsletter.md:36
 msgid ""
@@ -3232,6 +3184,8 @@ msgid ""
 "Le programe se charge lui même de formater le titre et l'affichage correct "
 "du nombre."
 msgstr ""
+"The program itself is responsible for formatting the title and the correct "
+"number display."
 
 #: ../../outils/newsletter.md:45
 msgid ""
@@ -3267,10 +3221,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/newsletter.md:58
-#, fuzzy
-#| msgid "Gestionnaire de compilation."
 msgid "Gestion manuelle des inscriptions"
-msgstr "Build manager."
+msgstr "Manual subscription management"
 
 #: ../../outils/newsletter.md:60
 msgid ""
@@ -3282,7 +3234,7 @@ msgstr ""
 
 #: ../../outils/newsletter.md:65
 msgid "Création de signatures"
-msgstr ""
+msgstr "Creation of signatures"
 
 #: ../../outils/newsletter.md:67
 msgid ""
@@ -3293,10 +3245,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/newsletter.md:72
-#, fuzzy
-#| msgid "Gestion des alias email"
 msgid "Configuration des alias"
-msgstr "Managing email aliases"
+msgstr "Aliases configuration"
 
 #: ../../outils/newsletter.md:74
 msgid ""
@@ -3339,50 +3289,48 @@ msgid ""
 msgstr ""
 
 #: ../../outils/sauvegardes.md:1
-#, fuzzy
-#| msgid "Sauvegardes"
 msgid "Sauvegardes avec Borg"
-msgstr "Backups"
+msgstr "Backups with Borg"
 
 #: ../../outils/sauvegardes.md:4
 msgid ""
 "Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
 "`Borgmatic`."
-msgstr ""
+msgstr "CLUB1 backups are based on {logiciel}`Borg` and {logiciel}`Borgmatic`."
 
 #: ../../outils/sauvegardes.md:7
 msgid ""
 "La section [](../info/general.md#sauvegardes) dans les Informations générales"
-msgstr ""
+msgstr "The section [](../info/general.md#sauvegardes) in General Information"
 
 #: ../../outils/sauvegardes.md:10
 msgid "Processus de restauration"
-msgstr ""
+msgstr "Restoration process"
 
 #: ../../outils/sauvegardes.md:13
 msgid ""
 "Cette section décrit la restauration totale du système, en réinstallant tous "
 "les logiciels depuis zéro."
 msgstr ""
+"This section describes the total restoration of the system by reinstalling "
+"all software from zero."
 
 #: ../../outils/sauvegardes.md:16
 msgid "1. Installation du système"
-msgstr ""
+msgstr "1. System installation"
 
 #: ../../outils/sauvegardes.md:29
 msgid "2. Étapes préparatoires"
-msgstr ""
+msgstr "2. Preparatory stages"
 
 #: ../../outils/sauvegardes.md:31 ../../outils/sauvegardes.md:66
 #: ../../outils/sauvegardes.md:82
 msgid "Cette phase doit être réalisée avec l'utilisateur `root`."
-msgstr ""
+msgstr "This phase must be done with the user `root`."
 
 #: ../../outils/sauvegardes.md:33
-#, fuzzy
-#| msgid "Informations générales"
 msgid "2.1. Préparations générales"
-msgstr "General information"
+msgstr "2.1. General preparations"
 
 #: ../../outils/sauvegardes.md:37
 msgid ""
@@ -3390,59 +3338,61 @@ msgid ""
 "Principalement pour ne pas avoir de messages d'erreurs lors des étapes "
 "suivantes."
 msgstr ""
+"Then select locals `en-GB`, `en-US` and `fr-FR` in UTF-8. Mainly for not "
+"having error messages in the following steps."
 
 #: ../../outils/sauvegardes.md:49
 msgid "2.2. Pré-restauration de fichiers spécifiques"
-msgstr ""
+msgstr "2.2. Pre-restauration of specific files"
 
 #: ../../outils/sauvegardes.md:53
 msgid ""
 "Puis remplacer `ARCHIVE` par l'identifiant de l'archive voulue parmi la "
 "liste ci-dessus. La plus récente se trouve en bas à gauche."
 msgstr ""
+"Then replace `ARCHIVE` with the desired archive identifier from the above "
+"list. The most recent one is at the bottom left."
 
 #: ../../outils/sauvegardes.md:62
 msgid ""
 "Deux mots de passe seront demandés : celui de SSH puis celui de l'archive."
-msgstr ""
+msgstr "Two passwords will be requested: that of SSH then that of the archive."
 
 #: ../../outils/sauvegardes.md:64
 msgid "3. Installation des paquets"
-msgstr ""
+msgstr "3. Installation of packages"
 
 #: ../../outils/sauvegardes.md:80
 msgid "4. Restauration totale"
-msgstr ""
+msgstr "4. Total restoration"
 
 #: ../../outils/sauvegardes.md:84
 msgid "4.1. Archive `system` et dossier `etc`"
-msgstr ""
+msgstr "4.1. `system` archive and `etc` folder"
 
 #: ../../outils/sauvegardes.md:101
-#, fuzzy
-#| msgid "Dossiers spéciaux"
 msgid "4.2. Certains fichiers spéciaux"
-msgstr "Special folders"
+msgstr "4.2. Some special files"
 
 #: ../../outils/sauvegardes.md:108
 msgid "4.3. Base de données {term}`LDAP`"
-msgstr ""
+msgstr "4.3. {term}`LDAP` database"
 
 #: ../../outils/sauvegardes.md:116
 msgid "4.4. Base de données des [alias email](/outils/aliases.md)"
-msgstr ""
+msgstr "4.4. [email aliases](/outils/aliases.md) database"
 
 #: ../../outils/sauvegardes.md:122
 msgid "4.5. Bases de données {logiciel}`MariaDB`"
-msgstr ""
+msgstr "4.5. {software}`MariaDB` databases"
 
 #: ../../outils/sauvegardes.md:131
 msgid "4.6. Bases de données Postgres"
-msgstr ""
+msgstr "4.6. Postgres databases"
 
 #: ../../outils/sauvegardes.md:141
 msgid "4.7. Finalisation"
-msgstr ""
+msgstr "4.7. Finalization"
 
 #: ../../outils/sauvegardes.md:151
 msgid ""
@@ -3451,6 +3401,9 @@ msgid ""
 "sauvegardées. --- [Site](https://www.borgbackup.org/), [Sources](https://"
 "github.com/borgbackup/borg)"
 msgstr ""
+"Incremental backups software in {term}`CLI`, based on deduplication. It also "
+"compresses and encrypts saved data. --- [Site](https://www.borgbackup.org/), "
+"[Sources](https://github.com/borgbackup/borg)"
 
 #: ../../outils/sauvegardes.md:158
 msgid ""
@@ -3460,12 +3413,14 @@ msgid ""
 "borgmatic/), [Sources](https://projects.torsion.org/borgmatic-collective/"
 "borgmatic)"
 msgstr ""
+"{term}`CLI` software to automate backup management with {logiciel}`Borg`. In "
+"particular, it is able to backup Postgres and {software}`MariaDB` databases. "
+"--- [Site](https://torsion.org/borgmatic/), [Sources](https://projects."
+"torsion.org/borgmatic-collective/borgmatic)"
 
 #: ../../outils/site.md:1
-#, fuzzy
-#| msgid "%s, Membres de CLUB1"
 msgid "Site Web de CLUB1"
-msgstr "%s, CLUB1 members"
+msgstr "Website of CLUB1"
 
 #: ../../outils/site.md:4
 msgid ""
@@ -3475,16 +3430,12 @@ msgid ""
 msgstr ""
 
 #: ../../outils/site.md:7
-#, fuzzy
-#| msgid ""
-#| "Les tickets concernant l'infrastructure matérielle sont regroupés sur le "
-#| "forum [sous le tag *hardware*](https://forum.club1.fr/t/hardware)."
 msgid ""
 "Les discussions à ce sujet sont [rassemblées sur le forum avec le tag "
 "{guilabel}`site web`](https://forum.club1.fr/t/site-web)."
 msgstr ""
-"Tickets about the hardware infrastructure are grouped on the forum [under "
-"the *hardware* tag](https://forum.club1.fr/t/hardware)."
+"Discussions on this subject are [grouped on the forum with the {guilabel}`"
+"site web` tag](https://forum.club1.fr/t/site-web)."
 
 #: ../../outils/site.md:9
 msgid "Comptes"
@@ -3504,10 +3455,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/site.md:21
-#, fuzzy
-#| msgid "Publication d'un dépôt existant"
 msgid "Édition d'une page existante"
-msgstr "Publication of an existing repository"
+msgstr "Editing an existing page"
 
 #: ../../outils/site.md:24
 msgid "Pour éditer une page, il y a deux possibilités :"
@@ -3552,10 +3501,8 @@ msgid ""
 msgstr ""
 
 #: ../../outils/site.md:47
-#, fuzzy
-#| msgid "Création d'un nouveau dépôt"
 msgid "Création d'une page"
-msgstr "Creation of an new repository"
+msgstr "Creating a page"
 
 #: ../../outils/site.md:50
 msgid ""
@@ -5070,9 +5017,6 @@ msgid ""
 msgstr ""
 
 #: ../../services/ssh.md:97
-#, fuzzy
-#| msgid ""
-#| "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
 msgid "Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal."
 msgstr "Press {kbd}`Enter` to run a command from the terminal."
 
@@ -5087,18 +5031,13 @@ msgstr ""
 "{manpage}`passwd.1`"
 
 #: ../../services/ssh.md:107
-#, fuzzy
-#| msgid ""
-#| "Permet de voir ce qui se passe sur le serveur en ce moment et à quel "
-#| "point les ressources sont utilisées. Pressez la touche {kbd}`Q` pour "
-#| "quitter. --- Manuel : {manpage}`htop.1`"
 msgid ""
 "Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
 "les ressources sont utilisées.   Pressez la touche {kbd}`Q` pour quitter. "
 "--- Manuel : {manpage}`htop.1`"
 msgstr ""
 "Allows you to see what is happening on the server at the moment and how much "
-"resources are being used. Press the {kbd}`Q` key to exit. --- Manual: "
+"resources are being used.   Press the {kbd}`Q` key to exit. --- Manual: "
 "{manpage}`htop.1`"
 
 #: ../../services/ssh.md:113
@@ -5221,24 +5160,16 @@ msgid ""
 msgstr ""
 
 #: ../../services/web.md:18
-#, fuzzy
-#| msgid "Dossier `static/`"
 msgid "Dossier `static`"
-msgstr "`static/` folder"
+msgstr "`static` folder"
 
 #: ../../services/web.md:21
-#, fuzzy
-#| msgid ""
-#| "L'**espace personnel** dispose d'un dossier spécial `static/` à sa "
-#| "racine. Tous les fichiers et dossiers rangés dedans seront "
-#| "automatiquement publiés sur le {term}`Web` à l'adresse `https://static."
-#| "club1.fr`, par exemple :"
 msgid ""
 "L'**espace personnel** dispose d'un dossier spécial `static` à sa racine. "
 "Tous les fichiers et dossiers rangés dedans seront automatiquement publiés "
 "sur le {term}`Web` à l'adresse `https://static.club1.fr`, par exemple :"
 msgstr ""
-"The **personal space** has a special `static/` folder at its root. All files "
+"The **personal space** has a special `static` folder at its root. All files "
 "and folders that it contains are automatically published on the {term}`Web` "
 "at `https://static.club1.fr`, for instance:"
 
@@ -5264,16 +5195,12 @@ msgid ""
 msgstr ""
 
 #: ../../services/web.md:37
-#, fuzzy
-#| msgid ""
-#| "Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre "
-#| "à faire son premier site web avec le dossier `/static`."
 msgid ""
 "Le tutoriel \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" pour apprendre à "
 "faire son premier site web avec le dossier `static`."
 msgstr ""
 "The tutorial \"[](/tutos/mes-premiers-pas-sur-le-web.md)\" to learn how to "
-"make your first website with the folder `/static`."
+"make your first website with the `static` folder."
 
 #: ../../services/web.md:41
 msgid "Hébergement avec un nom de domaine dédié"
@@ -5325,13 +5252,6 @@ msgstr ""
 "**subdomains** of `club1.fr` by members is encouraged!"
 
 #: ../../services/web.md:69
-#, fuzzy
-#| msgid ""
-#| "Cela a l'avantage d'être gratuit, et de ne nécessiter aucun entretien, "
-#| "contrairement à la [location d'un nom de domaine](#louer-un-nom-de-"
-#| "domaine-externe). L'inconvénient étant de dépendre de `club1.fr`. Cela "
-#| "entraîne aussi une **filiation visible avec CLUB1**, ce qui peut être "
-#| "gênant ou intéressant en fonction des projets."
 msgid ""
 "Cela a l'avantage d'être **gratuit**, et de ne nécessiter **aucun "
 "entretien**, contrairement à la [location d'un nom de domaine](#louer-un-nom-"
@@ -5339,8 +5259,8 @@ msgid ""
 "entraîne aussi une **filiation visible avec CLUB1**, ce qui peut être gênant "
 "ou intéressant en fonction des projets."
 msgstr ""
-"This has the advantage of being free, and of requiring no maintenance, "
-"unlike [renting a domain name](#louer-un-nom-de-domaine-externe). The "
+"This has the advantage of being **free**, and of requiring **no maintenance**"
+", unlike [renting a domain name](#louer-un-nom-de-domaine-externe). The "
 "disadvantage being to depend on `club1.fr`. This also leads to a **visible "
 "relationship with CLUB1**, which can be bothersome or interesting depending "
 "on the project."
@@ -5464,33 +5384,20 @@ msgid "Quelques techniques liées à l'hébergement de site Web sur le serveur."
 msgstr ""
 
 #: ../../services/web.md:140
-#, fuzzy
-#| msgid "Arborescence de fichiers"
 msgid "Index des fichiers"
-msgstr "File tree"
+msgstr "File Index"
 
 #: ../../services/web.md:142
-#, fuzzy
-#| msgid ""
-#| "Ce dossier est servi par le serveur HTTP {logiciel}`Apache`. Il est "
-#| "configuré pour automatiquement générer un _index_ affichant la liste des "
-#| "fichiers et dossiers qu'il contient."
 msgid ""
 "Les sites Web sont servis par le serveur HTTP {logiciel}`Apache`. Il est "
 "configuré pour automatiquement générer un _index_ affichant la liste des "
 "fichiers et dossiers qu'il contient."
 msgstr ""
-"This folder is served by the HTTP server {logiciel}`Apache`. It is "
+"The websites are served by the HTTP server {logiciel}`Apache`. It is "
 "configured to automatically generate an _index_ displaying the list of files "
 "and folders it contains."
 
 #: ../../services/web.md:146
-#, fuzzy
-#| msgid ""
-#| "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
-#| "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter "
-#| "un {term}`fichier caché` de configuration Apache `.htaccess` contenant au "
-#| "moins la ligne suivante."
 msgid ""
 "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
 "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
@@ -5500,7 +5407,7 @@ msgstr ""
 "To avoid displaying this index, it is possible either to create an `index."
 "html` file which will contain the page to be displayed instead, or to add a "
 "{term}`hidden <hidden file>` Apache `.htaccess` configuration file "
-"containing at least the following line."
+"containing at least the following line:"
 
 #: ../../services/web.md:159
 msgid ""
@@ -6593,10 +6500,6 @@ msgid "Première connexion SSH"
 msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
-#, fuzzy
-#| msgid ""
-#| "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-#| "première fois en {term}`SSH` de manière **sécurisée**."
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
 "première fois en {term}`SSH` de manière **sécurisée**. Pour cela, pas besoin "
@@ -6604,21 +6507,17 @@ msgid ""
 "d’exploitation ont déjà tout le nécessaire pour cette connexion."
 msgstr ""
 "In this tutorial, we will see how to connect to the server for the first "
-"time in {term}`SSH` in a **secure way**."
+"time in {term}`SSH` in a **secure way**. For this, no need to install "
+"additional software, the majority of operating systems already have "
+"everything necessary for this connection."
 
 #: ../../tutos/premiere-connexion-ssh.md:10
-#, fuzzy
-#| msgid ""
-#| "Ce tutoriel n'a pas encore été testé sur Windows. Certaines étapes "
-#| "risquent de ne pas fonctionner. Si vous rencontrez un problème, la "
-#| "section \"[](../info/general.md#demandes-et-incidents)\" explique comment "
-#| "nous en faire part."
 msgid ""
 "Ce tutoriel n'a pas encore été éprouvé sur Windows. Certaines étapes peuvent "
 "de ne pas fonctionner. Si vous rencontrez un problème, la section \"[](../"
 "info/general.md#demandes-et-incidents)\" explique comment nous en faire part."
 msgstr ""
-"This tutorial has not yet been tested on Windows. Some steps may not work. "
+"This tutorial has not yet been proven on Windows. Some steps may not work. "
 "If you encounter a problem, the section \"[](../info/general.md#demandes-et-"
 "incidents)\" explains how to report it to us."
 
@@ -6627,11 +6526,6 @@ msgid "Connexion avec le terminal"
 msgstr "Connection with the terminal"
 
 #: ../../tutos/premiere-connexion-ssh.md:19
-#, fuzzy
-#| msgid ""
-#| "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}"
-#| "`OpenSSH`. Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire "
-#| "d'ouvrir une fenêtre de **{term}`terminal`** (`cmd` sur windows) ! 🥵"
 msgid ""
 "Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`. "
 "Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
@@ -6639,7 +6533,7 @@ msgid ""
 msgstr ""
 "To make this SSH connection we will use {logiciel}`OpenSSH`. This software "
 "is used in {term}`CLI`, so it is necessary to open a **{term}`terminal`** "
-"window (`cmd` on windows)! 🥵"
+"window! 🥵"
 
 #: ../../tutos/premiere-connexion-ssh.md:23
 msgid "Pour Windows"
@@ -6698,18 +6592,13 @@ msgstr ""
 "not know this server *yet*."
 
 #: ../../tutos/premiere-connexion-ssh.md:56
-#, fuzzy
-#| msgid ""
-#| "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
-#| "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu). "
-#| "Nous allons donc répondre `no` pour le moment."
 msgid ""
 "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸. "
 "Nous allons donc répondre `no` pour le moment."
 msgstr ""
 "Replying `yes` to this message exposes oneself to a [man-in-the-middle "
-"attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). So we're "
+"attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 🥸. So we're "
 "going to answer `no` for now."
 
 #: ../../tutos/premiere-connexion-ssh.md:60
@@ -6842,13 +6731,12 @@ msgstr ""
 "interaction with the server."
 
 #: ../../tutos/premiere-connexion-ssh.md:133
-#, fuzzy
-#| msgid ""
-#| "🍾 Pour fêter ça, voici une petite sélection de commandes à découvrir :"
 msgid ""
 "🍾 Pour fêter ça, voici [une petite sélection de commandes à découvrir](../"
 "services/ssh.md#sélection-de-commandes)."
-msgstr "🍾 To celebrate, here is a small selection of commands to discover:"
+msgstr ""
+"🍾 To celebrate, here is a small selection of [commands to discover](../"
+"services/ssh.md#sélection-de-commandes)."
 
 #: ../../tutos/presentation.md:1
 msgid "Éditer son fichier de présentation"
