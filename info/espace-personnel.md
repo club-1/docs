@@ -54,7 +54,7 @@ Dossier utilisé pour [héberger des dépots de code Git](/services/git.md).
 ### 📁 log
 
 Ce dossier contient l'ensemble des {term}`logs <log>` produits par les services.
-Par exemple ceux des {term}`sites Web dynamiques<site Web dynamique>`.
+Par exemple ceux des [sites Web avec un nom de domaine dédié](../services/web.md#hébergement-avec-un-nom-de-domaine-dédié).
 
 Une rotation est opérée à l'aide de {logiciel}`logrotate` sur les fichiers `*.log` de ce dossier toute les semaines
 et un historique de 15 fichiers par log est conservé.
