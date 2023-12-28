@@ -130,8 +130,9 @@ nom de domaine
    Un domaine permet d'associer des informations à un nom.
    Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
    Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
-   
+
    En plus de ces informations, un domaine peut également avoir des sous domaines.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 
 PHP
    (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
