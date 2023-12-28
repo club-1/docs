@@ -210,7 +210,7 @@ Web
    On appelle "Navigateur Web" le {term}`client` utilisé pour y accéder. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/World_Wide_Web)
 
-Wiki
+wiki
    Type d'application {term}`Web` qui permet de créer un site de manière collaborative.
    L'édition des pages est possible depuis le naviguateur Web.
    Le plus connu étant *Wikipedia*.
