@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-12-26 21:54+0100\n"
-"PO-Revision-Date: 2023-12-27 21:08+0000\n"
+"PO-Revision-Date: 2023-12-29 10:20+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -957,6 +957,10 @@ msgid ""
 "laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia](https://fr.wikipedia."
 "org/wiki/Wiki)"
 msgstr ""
+"Type of {term}`Web` application that allows to create a site "
+"collaboratively. Page editing is possible from the Web browser. The best "
+"known being *Wikipedia*. The name comes from the Hawaiian language in which "
+"\"wiki\" means \"quick\". --- [Wikipedia](https://en.wikipedia.org/wiki/Wiki)"
 
 #: ../../index.md:29
 msgid "Annexes"
@@ -1405,11 +1409,11 @@ msgstr "The username must comply with the following rules:"
 
 #: ../../info/general.md:122
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
-msgstr ""
+msgstr "a length of **between 3 and 17 characters** (included)."
 
 #: ../../info/general.md:123
 msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
-msgstr ""
+msgstr "contain **only lower case letters** or hyphens (`-`)."
 
 #: ../../info/general.md:125
 msgid ""
@@ -2077,6 +2081,10 @@ msgid ""
 "fr`. BIND est également utilisé en tant que résolveur DNS pour le réseau "
 "local."
 msgstr ""
+"The zones transfer is secured with [TSIG](https://en.wikipedia.org/wiki/TSIG)"
+" and [DNSSEC](https://en.wikipedia.org/wiki/"
+"Domain_Name_System_Security_Extensions) is enabled on `club1.fr`. BIND is "
+"also used as a DNS resolver for the local network."
 
 #: ../../outils/dns.md:30
 msgid ""
@@ -2088,6 +2096,8 @@ msgid ""
 "[Fil du forum à propos de DNSSEC](https://forum.club1.fr/d/7-configurer-"
 "dnssec-sur-ns1club1fr)"
 msgstr ""
+"[Forum thread about DNSSEC](https://forum.club1.fr/d/7-configurer-dnssec-sur-"
+"ns1club1fr)"
 
 #: ../../outils/dns.md:32
 msgid ""
@@ -2096,6 +2106,9 @@ msgid ""
 "verisignlabs.com/club1.fr), [visualiseur DNSSEC](https://dnsviz.net/d/club1."
 "fr/dnssec/)"
 msgstr ""
+"Online diagnostic tools: [delegation](https://www.buddyns.com/delegation-lab/"
+"club1.fr), [DNSSEC summary](https://dnssec-analyzer.verisignlabs.com/club1."
+"fr), [DNSSEC viewer](https://dnsviz.net/d/club1.fr/dnssec/)"
 
 #: ../../outils/dns.md:38
 msgid "Hébergement de zones secondaires"
@@ -2109,6 +2122,11 @@ msgid ""
 "TSIG sera utilisé de préférence pour authentifier les transferts. Il est "
 "possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
 msgstr ""
+"It is possible for CLUB1 to host DNS zones for other domains as a secondary "
+"server. The initial configuration must be done manually, but the updates "
+"will then be fully automated. TSIG will be used preferably to authenticate "
+"transfers. It is possible to send an email to <hostmaster@club1.fr> to "
+"discuss it."
 
 #: ../../outils/dns.md:46 ../../outils/forum.md:97 ../../outils/site.md:63
 msgid "Administration"
@@ -2120,30 +2138,38 @@ msgid ""
 "du serveur DNS et quelques règles doivent être respectées par les "
 "administrateurs :"
 msgstr ""
+"Only members of the `sudo` {term}`group` can edit the DNS server "
+"configuration and some rules must be followed by administrators:"
 
 #: ../../outils/dns.md:52
 msgid ""
 "Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier "
 "`/etc/bind/named.conf.local`."
 msgstr ""
+"New zones and key inclusions are to be added to the `/etc/bind/named.conf."
+"local` file."
 
 #: ../../outils/dns.md:53
 msgid ""
 "Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un "
 "lien symbolique dans `/var/lib/bind`."
 msgstr ""
+"Primary zone files must be created in `/etc/bind` with a symbolic link in `/"
+"var/lib/bind`."
 
 #: ../../outils/dns.md:54
 msgid ""
 "Les blocs de zones primaires doivent référencer le fichier de `/var/lib/"
 "bind`."
-msgstr ""
+msgstr "Primary zone blocks must refer to the `/var/lib/bind` file."
 
 #: ../../outils/dns.md:55
 msgid ""
 "Les blocs de zones secondaires doivent utiliser un simple nom de fichier "
 "(lequel sera alors relatif à `/var/cache/bind`)."
 msgstr ""
+"Secondary zone blocks must use a simple file name (which will then be "
+"relative to `/var/cache/bind`)."
 
 #: ../../outils/dns.md:57
 msgid ""
@@ -2159,6 +2185,9 @@ msgid ""
 "de serveur autoritaire, de résolveur récursif, de transitaire DNS, ou les "
 "trois à la fois."
 msgstr ""
+"{term}`DNS` {term}`server`, meeting the standards, which can play the role "
+"of authoritative server, recursive resolver, DNS forwarder, or the three at "
+"a time."
 
 #: ../../outils/dns.md:69
 msgid ""
@@ -2536,6 +2565,9 @@ msgid ""
 "noms. En général des comptes ou des groupes d'utilisateurs ou d'ordinateurs, "
 "appartenant à une organisation."
 msgstr ""
+"A LDAP directory is a kind of database with a hierarchical, tree-like "
+"structure, allowing to link information to names. Generally, accounts or "
+"groups of users or computers belonging to an organization."
 
 #: ../../outils/ldap.md:15
 msgid ""
@@ -3195,6 +3227,7 @@ msgid ""
 "Sur le serveur CLUB1, les fichiers de paramétrage se trouvent dans `/var/"
 "mail/newsletter` :"
 msgstr ""
+"On the CLUB1 server, the setting files are found in `/var/mail/newsletter`:"
 
 #: ../../outils/newsletter.md:53
 msgid ""
@@ -3432,7 +3465,7 @@ msgstr ""
 
 #: ../../outils/site.md:9
 msgid "Comptes"
-msgstr ""
+msgstr "Accounts"
 
 #: ../../outils/site.md:12
 msgid ""
@@ -3453,7 +3486,7 @@ msgstr "Editing an existing page"
 
 #: ../../outils/site.md:24
 msgid "Pour éditer une page, il y a deux possibilités :"
-msgstr ""
+msgstr "To edit a page, there are two possibilities:"
 
 #: ../../outils/site.md:26
 msgid "En cliquant sur le bouton {guilabel}`✏️ modifier` en bas de la page."
@@ -4353,7 +4386,7 @@ msgstr ""
 
 #: ../../services/matrix.md:16
 msgid "Principes généraux"
-msgstr ""
+msgstr "General principles"
 
 #: ../../services/matrix.md:19
 msgid ""
@@ -5001,13 +5034,13 @@ msgstr "`22` (default)"
 
 #: ../../services/ssh.md:91
 msgid "Sélection de commandes"
-msgstr ""
+msgstr "Selection of commands"
 
 #: ../../services/ssh.md:94
 msgid ""
 "Voici une sélection de commandes pour vous permettre de découvrir le "
 "serveur :"
-msgstr ""
+msgstr "Here is a selection of commands to allow you to discover the server:"
 
 #: ../../services/ssh.md:97
 msgid "Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal."
@@ -5040,6 +5073,9 @@ msgid ""
 "flèches directionnelles. Pressez la touche {kbd}`Q` pour quitter. --- "
 "Manuel : {manpage}`ncdu.1`"
 msgstr ""
+"Quick and visual tool to find files or folders that take the most space. "
+"Ideal for cleaning! Just navigate with the directional arrows. Press the "
+"{kbd}`Q` key to leave. --- Manual: {manpage}`ncdu.1`"
 
 #: ../../services/ssh.md:121
 msgid ""
@@ -5047,16 +5083,20 @@ msgid ""
 "train d'utiliser. Cette commande est un peu intrusive ! --- Manuel : "
 "{manpage}`w.1`"
 msgstr ""
+"Displays SSH-connected members and indicates the software they are using. "
+"This command is a little intrusive! --- Manual: {manpage}`w.1`"
 
 #: ../../services/ssh.md:127
 msgid ""
 "La façon la plus basique d'envoyer un email ! Cette commande nécessite de "
 "rajouter au bout, après un espace, l'email de votre destinataire."
 msgstr ""
+"The most basic way to send an email! This command requires to add at the "
+"end, after a space, the email of your recipient."
 
 #: ../../services/ssh.md:131
 msgid "Si vous envoyez à un membre CLUB1, pas besoin de rajouter `@club1.fr` !"
-msgstr ""
+msgstr "If you are sending to a CLUB1 member, no need to add `@club1.fr`!"
 
 #: ../../services/ssh.md:134
 msgid ""
@@ -5100,6 +5140,9 @@ msgid ""
 "indiquée après un espace. La plupart des pages de manuel sont en anglais.   "
 "Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`man.1`"
 msgstr ""
+"Displays the manual page corresponding to a command. Which should be "
+"indicated after a space. Most manual pages are in English. Press the {kbd}`Q`"
+" key to leave. --- Manual: {manpage}`man.1`"
 
 #: ../../services/ssh.md:176
 msgid ""
@@ -5139,6 +5182,8 @@ msgid ""
 "Il y a deux façons d'héberger du contenu qui va être accessible sur le {term}"
 "`Web` avec le serveur :"
 msgstr ""
+"There are two ways to host content that will be accessible on the {term}`Web`"
+" with the server:"
 
 #: ../../services/web.md:14
 msgid ""
@@ -5151,6 +5196,8 @@ msgid ""
 "avec [un domaine dédié](#hébergement-avec-un-nom-de-domaine-dédié) *Pour des "
 "projets mieux définis.*"
 msgstr ""
+"with [a dedicated domain](#hébergement-avec-un-nom-de-domaine-dédié) *For "
+"better defined projects.*"
 
 #: ../../services/web.md:18
 msgid "Dossier `static`"
@@ -5181,6 +5228,9 @@ msgid ""
 "dynamique>`, il faut forcément utiliser un [domaine dédié](#hébergement-avec-"
 "un-nom-de-domaine-dédié)."
 msgstr ""
+"The `static` folder is limited to {term}`static websites <static website>`. "
+"To host {term}`dynamic websites <dynamic website>`, you must use a ["
+"dedicated domain](#hébergement-avec-un-nom-de-domaine-dédié)."
 
 #: ../../services/web.md:34
 msgid ""
@@ -5197,13 +5247,15 @@ msgstr ""
 
 #: ../../services/web.md:41
 msgid "Hébergement avec un nom de domaine dédié"
-msgstr ""
+msgstr "Hosting with a dedicated domain name"
 
 #: ../../services/web.md:44
 msgid ""
 "Contrairement au dossier `static` qui est à emplacement fixe, vous êtes "
 "libres de choisir l'emplacement des fichiers qui vont être utilisés."
 msgstr ""
+"Unlike the `static` folder that is at a fixed location, you are free to "
+"choose the location of the files that will be used."
 
 #: ../../services/web.md:47
 msgid ""
@@ -5212,24 +5264,32 @@ msgid ""
 "vous pourrez créer **un dossier par site**. Par exemple, ici, on a appelé le "
 "dossier pour les projets Web `www` (pour *World Wide Web*) :"
 msgstr ""
+"It is recommended to create a folder in your [personal space](/info/espace-"
+"personnel.md) that will be used for all your websites. Inside, you can "
+"create **a folder per site**. For example, here we called the folder for web "
+"projects `www` (for *World Wide Web*):"
 
 #: ../../services/web.md:57
 msgid ""
 "Ensuite, il faut choisir un {term}`nom de domaine` associé à ce site. Vous "
 "avez deux possibilités :"
 msgstr ""
+"Then you have to choose a {term}`domain name` associated with this site. You "
+"have two possibilities:"
 
 #: ../../services/web.md:60
 msgid ""
 "[Utiliser un sous domaine de `club1.fr`](#utiliser-un-sous-domaine-de-"
 "club1fr) *en mode familial*"
 msgstr ""
+"[Use a sub-domain of `club1.fr`](#utiliser-un-sous-domaine-de-club1fr) *"
+"family style*"
 
 #: ../../services/web.md:61
 msgid ""
 "[Louer un nom de domaine](#louer-un-nom-de-domaine-externe) *Pour faire pro !"
 "*"
-msgstr ""
+msgstr "[Rent a domain name](#louer-un-nom-de-domaine-externe) *Like a pro!*"
 
 #: ../../services/web.md:64
 msgid "Utiliser un sous domaine de `club1.fr`"
@@ -5335,6 +5395,8 @@ msgid ""
 "Il est donc parfaitement possible d'avoir un site Web hébergé sur le serveur "
 "CLUB1 sans utiliser un sous domaine de `club1.fr`."
 msgstr ""
+"It is therefore perfectly possible to have a web site hosted on the CLUB1 "
+"server without using a sub-domain of `club1.fr`."
 
 #: ../../services/web.md:116
 msgid ""
@@ -5363,18 +5425,21 @@ msgid ""
 "email à <webmaster@club1.fr> indiquant le chemin de votre dossier et le nom "
 "de domaine choisi."
 msgstr ""
+"To associate one of your folders with a domain name, you must send an email "
+"to <webmaster@club1.fr> indicating the path of your folder and the chosen "
+"domain name."
 
 #: ../../services/web.md:130
 msgid "Par exemple :"
-msgstr ""
+msgstr "For example:"
 
 #: ../../services/web.md:135
 msgid "Avancé"
-msgstr ""
+msgstr "Advanced"
 
 #: ../../services/web.md:138
 msgid "Quelques techniques liées à l'hébergement de site Web sur le serveur."
-msgstr ""
+msgstr "Some techniques related to website hosting on the server."
 
 #: ../../services/web.md:140
 msgid "Index des fichiers"
@@ -5458,13 +5523,15 @@ msgstr ""
 
 #: ../../services/webcast.md:1
 msgid "Émissions Web (audio/vidéo) via Icecast (beta)"
-msgstr ""
+msgstr "Webcasts (audio/video) via Icecast (beta)"
 
 #: ../../services/webcast.md:5
 msgid ""
 "Ce service est en \"beta\" sur CLUB1, ce qui signifie qu'il risque de "
 "changer de configuration ou même d'être supprimé dans le futur."
 msgstr ""
+"This service is in \"beta\" on CLUB1, which means that it risks changing "
+"configuration or even being deleted in the future."
 
 #: ../../services/webcast.md:0
 msgid "webdiffusion"
@@ -5972,6 +6039,8 @@ msgid ""
 "Il est possible qu'un site ne propose pas de flux de nouvelles, dans ce cas "
 "il ne sera malheureusement pas possible de s'y abonner."
 msgstr ""
+"It is possible that a site does not offer news feed, in this case it will "
+"unfortunately not be possible to subscribe to it."
 
 #: ../../tutos/flux-rss.md:40
 msgid "![lien vers site](flux-rss/capture_2.png)"
@@ -5986,6 +6055,8 @@ msgid ""
 "Parfois, plusieurs flux sont disponibles : `Atom` ou `RSS`. Il est conseillé "
 "de sélectionner `Atom` car c'est un format de données plus récent."
 msgstr ""
+"Sometimes several streams are available: `Atom` or `RSS`. It is advisable to "
+"select `Atom` as it is a more up to date data format."
 
 #: ../../tutos/flux-rss.md:45
 msgid "![Atom vs RSS](flux-rss/capture_3.png)"
@@ -6001,11 +6072,13 @@ msgid ""
 "de maintenant il vous est possible de lire les derniers articles de ce site "
 "depuis l'agrégateur."
 msgstr ""
+"There you go! You subscribed to your first news feed. From now on you can "
+"read the latest articles of this site from the aggregator."
 
 #: ../../tutos/flux-rss.md:50
 msgid ""
 "Vous pouvez bien-sûr vous abonner à plusieurs flux, c'est même recommandé !"
-msgstr ""
+msgstr "You can of course subscribe to several feeds, it's even recommended!"
 
 #: ../../tutos/flux-rss.md:52
 msgid ""
@@ -6059,11 +6132,11 @@ msgstr ""
 
 #: ../../tutos/flux-rss.md:75
 msgid "Choisir un mode d'affichage"
-msgstr ""
+msgstr "Choose a display mode"
 
 #: ../../tutos/flux-rss.md:78
 msgid "Par défaut, l'affichage se fait en mode combiné."
-msgstr ""
+msgstr "By default, the display is made in combined mode."
 
 #: ../../tutos/flux-rss.md:80
 msgid "![Mode d'affichage combiné](flux-rss/capture_5.png)"
@@ -6120,7 +6193,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:9
 msgid "Fini les conneries, ici on va carrément rajouter des fichiers au Web."
-msgstr ""
+msgstr "No more bullshit, here we're gonna add files to the web."
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:11
 msgid ""
@@ -6142,7 +6215,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:22
 msgid "Petit rappel des différentes façons de se connecter :"
-msgstr ""
+msgstr "Small reminder of the different ways to connect:"
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:24
 msgid ""
@@ -6166,7 +6239,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:30
 msgid "Partager un fichier sur le Web"
-msgstr ""
+msgstr "Share a file on the Web"
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:33
 msgid "Découverte du dossier `static`"
@@ -6255,7 +6328,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:89
 msgid "L'index"
-msgstr ""
+msgstr "The index"
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:91
 msgid ""
@@ -6271,13 +6344,14 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:100
 msgid "N'oubliez pas le dernier slash (`/`) de l'URL !"
-msgstr ""
+msgstr "Don't forget the last slash (`/`) of the URL!"
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:103
 msgid ""
 "Vous devriez avoir accès à une page listant les fichiers de votre dossier "
 "`static`."
 msgstr ""
+"You should have access to a page listing files from your `static` folder."
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:105
 msgid "![index](mes-premiers-pas-sur-le-web/index.jpg)"
@@ -6303,7 +6377,7 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:117
 msgid "Écrire du texte sur le Web"
-msgstr ""
+msgstr "Write text on the Web"
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:119
 msgid ""
@@ -6530,7 +6604,7 @@ msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:23
 msgid "Pour Windows"
-msgstr ""
+msgstr "For Windows"
 
 #: ../../tutos/premiere-connexion-ssh.md:24
 msgid ""
@@ -6538,12 +6612,17 @@ msgid ""
 "`Powershell`. Comme sa configuration par défaut n'est pas terrible 💩, il "
 "faut corriger cela avec la commande suivante :"
 msgstr ""
+"In the case of Windows, use the program called `Powershell`. Since its "
+"default configuration is terrible 💩, it must be corrected with the "
+"following command:"
 
 #: ../../tutos/premiere-connexion-ssh.md:29
 msgid ""
 "Pour \"coller\" du texte dans `Powershell` on peut faire {kbd}`Ctrl` + {kbd}"
 "`V`, ou simplement un clic droit avec sa souris."
 msgstr ""
+"To \"paste\" the text in `Powershell` you can do {kbd}`Ctrl` + {kbd}`V`, or "
+"just right click with your mouse."
 
 #: ../../tutos/premiere-connexion-ssh.md:33
 msgid ""
@@ -6701,6 +6780,9 @@ msgid ""
 "s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
 "de caractères du mot de passe. 🤫"
 msgstr ""
+"When you type your password, nothing is displayed! It is normal, it is a "
+"security measure that does not even reveal the number of characters in the "
+"password. 🤫"
 
 #: ../../tutos/premiere-connexion-ssh.md:121
 msgid ""
@@ -6708,6 +6790,9 @@ msgid ""
 "texte en faisant \"Clic droit\" --> {guilabel}`Coller`. Ou encore {kbd}"
 "`Ctrl` + {kbd}`Shift` + {kbd}`V`."
 msgstr ""
+"In a terminal window, it is usually possible to \"paste\" a text by doing "
+"\"Right click\" --> {guilabel}`Paste`. Or {kbd}`Ctrl` + {kbd}`Shift` + "
+"{kbd}`V`."
 
 #: ../../tutos/premiere-connexion-ssh.md:126
 msgid "Dans le serveur"
