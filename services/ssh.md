@@ -4,7 +4,7 @@ Connexion à distance SSH
 La connexion SSH est la connexion la plus pure que vous puissiez avoir avec le serveur
 (enfin parmi celles qui ne nécessitent pas d’user de psychotropes).
 C’est aussi celle qui offre le plus la sensation d’utiliser un ordinateur,
-car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) sur le serveur !
+car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) sur le serveur !
 
 ```{glossary}
 SSH
@@ -139,7 +139,7 @@ Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
 ````
 
 ```{commande} mutt
-Permet de consulter et d'envoyer ses emails avec *Mutt* :
+Permet de consulter et d'envoyer ses emails avec {logiciel}`Mutt` :
 Un {term}`client` email en {term}`CLI`.
 Les touches de contrôle sont indiqués en haut.
 Pressez la touche {kbd}`Q` pour quitter.
