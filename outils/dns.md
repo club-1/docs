@@ -6,7 +6,7 @@ DNS
    (_Domain Name System_) Service informatique distribué
    qui associe les {term}`noms de domaine <nom de domaine>` {term}`Internet`
    avec leurs {term}`adresses IP <adresse IP>` ou d'autres types d'enregistrements.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/BIND)
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_Service)
 ```
 
 CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire primaire à l'aide de {logiciel}`BIND`.
