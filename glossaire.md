@@ -127,7 +127,7 @@ nom de domaine
 
    > Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
 
-   Un domaine permet d'associer des informations à un nom.
+   Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom.
    Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
    Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
 
