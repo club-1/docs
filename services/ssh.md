@@ -135,7 +135,7 @@ Renseignez le sujet lorsqu'on vous le demande, puis confirmez en pressant {kbd}`
 Composez ensuite votre message.
 Lorsque vous avez terminé, créez une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`.
 Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
---- Manuel : {manpage}`mailx.1`
+--- Manuel : {manpage}`mailx.1 <bsd-mailx/mailx.1>`
 ````
 
 ```{commande} mutt
