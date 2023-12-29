@@ -145,9 +145,6 @@ msgstr ""
 msgid "WebDAV"
 msgstr ""
 
-msgid "Wiki"
-msgstr ""
-
 msgid "[](/tutos/flux-rss.md)"
 msgstr ""
 
@@ -167,6 +164,9 @@ msgid "gettext"
 msgstr ""
 
 msgid "log"
+msgstr ""
+
+msgid "wiki"
 msgstr ""
 
 msgid "xindy"

@@ -1,7 +1,7 @@
 Site Web de CLUB1
 =================
 
-On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est un {term}`Wiki`.
+On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est un {term}`wiki`.
 Cela implique qu'il est possible d'éditer son contenu directement depuis le navigateur.
 
 Les discussions à ce sujet sont [rassemblées sur le forum avec le tag {guilabel}`site web`](https://forum.club1.fr/t/site-web).
@@ -66,16 +66,16 @@ Administration
 La mise à jour et l'accès aux fichiers de {logiciel}`W`
 est limité aux utilisateur·ices membres du {term}`groupe` `website`.
 
-Moteur de Wiki
+Moteur de wiki
 --------------
 
-Le moteur de Wiki utilisé n'est pas un outil très connu.
+Le moteur de wiki utilisé n'est pas un outil très connu.
 En dehors du site officiel de CLUB1,
 son usage se limite pour l'instant à quelques membres du club pour leurs sites respectifs.
 
 
 ```{logiciel} W
-Moteur de {term}`Wiki` écrit en {term}`PHP`.
+Moteur de {term}`wiki` écrit en {term}`PHP`.
 Son but est de croiser la prise de note avec l'édition de site {term}`Web`
 en encourageant l'édition spontanée de pages aux styles variés.
 --- [Sources](https://github.com/vincent-peugnet/wcms/), [Site](https://w.club1.fr/)
