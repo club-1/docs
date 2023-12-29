@@ -93,13 +93,26 @@ Un [article du journal de bord](https://club1.fr/nouveau-boitier) retrace cette 
 Modèle : `Supermicro A2SDi-4C-HLN4F`
 [Site du constructeur](https://www.supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)
 
+C'est une carte au format standard [Mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX),
+elle a donc un format carré de 17cm de côté.
+
 ![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)
+
+**Connectiques principales :**
+
+- stockage
+  - 1 port M.2
+  - 1 port mini-SAS HD
+  - 4 ports SATA
+- réseau
+  - 4 ports RJ45 Ethernet 1Gb/s
 
 ### Processeur
 
 Modèle : `Intel Atom C3000`
 
 Processeur quadri-c&oelig;ur à faible consommation.
+Il est directement soudé sur la [carte mère](#carte-mère).
 
 ### Mémoire vive
 
@@ -116,15 +129,21 @@ Il est composé de trois supports de stockage distincts :
 
 #### système
 
-un SSD SATA de 300Go. `Crucial`
+Le système d'exploitation, ainsi que les bases de données {logiciel}`MariaDB` et PostgreSQL
+sont sur un SSD NVMe d'une capacitée de 1To connecté au port M.2 de la carte mère.
+C'est la configuration permettant d'avoir les débits les plus rapides permis par cette [carte mère](#carte-mère).
+
+Modèle : `Samsung SSD 980 1To`
 
 #### Utilisateurs
 
-un SSD SATA de 1To. `Samsung EVO 860`.
+L'[espace personnel](/info/espace-personnel.md) des membres est stocké dans un second support :
+Un autre SSD de 1To, mais cette fois ci, connecté sur un port SATA.
+Les débit sont donc un peu plus faibles (500Mb/s), par rapport au [SSD système](#système).
+
+Modèle : `Samsung EVO 860 1To`.
 
 Un [article dans le journal de bord](https://club1.fr/ssd-home) raconte son arrivée dans le serveur.
-
-C'est ici que se situe [l'espace personnel](/info/espace-personnel.md) des membres du club.
 
 #### Stockage secondaire
 
