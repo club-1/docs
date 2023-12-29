@@ -101,10 +101,10 @@ elle a donc un format carré de 17cm de bord.
 **Connectiques principales :**
 
 - stockage
-    - Un port M.2
-    - 4 ports SATA
+  - Un port M.2
+  - 4 ports SATA
 - réseau
-    - 4 ports RJ45 Ethernet 1Gb/s
+  - 4 ports RJ45 Ethernet 1Gb/s
 
 ### Processeur
 
