@@ -94,14 +94,15 @@ Modèle : `Supermicro A2SDi-4C-HLN4F`
 [Site du constructeur](https://www.supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)
 
 C'est une carte au format standard [Mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX),
-elle a donc un format carré de 17cm de bord.
+elle a donc un format carré de 17cm de côté.
 
 ![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)
 
 **Connectiques principales :**
 
 - stockage
-  - Un port M.2
+  - 1 port M.2
+  - 1 port mini-SAS HD
   - 4 ports SATA
 - réseau
   - 4 ports RJ45 Ethernet 1Gb/s
