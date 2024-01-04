@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the CLUB1 package.
 # Nicolas Peugnet <nicolas@club1.fr>, 2022.
 # Leïla Renard <leila@club1.fr>, 2022
-# Nicolas Peugnet <n.peugnet@free.fr>, 2023.
+# Nicolas Peugnet <n.peugnet@free.fr>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2023-12-26 21:54+0100\n"
-"PO-Revision-Date: 2023-12-29 10:20+0000\n"
+"PO-Revision-Date: 2024-01-04 16:08+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -5488,7 +5488,8 @@ msgid ""
 "\"serveur Web\"."
 msgstr ""
 "Very popular HTTP {term}`server`, distributed under free license. HTTP being "
-"the {term}`protocol` of {term}`Web` we also often speak of \"Web server\"."
+"the {term}`protocol` of the {term}`Web` we also often speak of \"Web server\""
+"."
 
 #: ../../services/web.md:170
 msgid ""
