@@ -213,7 +213,7 @@ Web
 
 wiki
    Type d'application {term}`Web` qui permet de créer un site de manière collaborative.
-   L'édition des pages est possible depuis le naviguateur Web.
+   L'édition des pages est possible depuis le navigateur Web.
    Le plus connu étant *Wikipedia*.
    Le nom provient de la langue Hawaïenne dans laquelle "wiki" signifie "rapide". ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Wiki)
