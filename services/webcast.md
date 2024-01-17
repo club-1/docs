@@ -45,3 +45,9 @@ Logiciels
 --- [Wikipedia](https://fr.wikipedia.org/wiki/Icecast),
 [Sources](https://gitlab.xiph.org/xiph/icecast-server)
 ```
+
+```{logiciel} icecast-ldap
+{term}`Serveur` permettant de faire la passerelle
+entre l'authentification via URL d'{logiciel}`Icecast` et un serveur {term}`LDAP`.
+--- [Sources](https://github.com/kuhball/icecast-ldap)
+```
