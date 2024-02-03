@@ -79,39 +79,6 @@ assurée.
 Il est possible de consulter en direct l'état des différents services
 sur [UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)
 
-### Sauvegardes
-
-```{raw} html
-<img alt="backup status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/fy2eY73W-2/backup.svg" />
-```
-
-Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
-Les sauvegardes sont réalisées avec {logiciel}`Borg`.
-Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
-dont un dépôt off-site offert par Etienne Le Louët (serveur Debian auto-hébergé à Paris).
-
-Il s'agit de sauvegardes incrémentales avec la politique de rétention suivante :
-
-- 7 sauvegardes journalières
-- 4 sauvegardes hebdomadaires
-
-La plus ancienne sauvegarde conservée date donc d'environ 1 mois
-et chacun des jours de la dernière semaine est accessible.
-En cas de défaillance matérielle, au maximum 24h de données seront perdues.
-Le bon déroulement des sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://healthchecks.io/)
-
-Les sauvegardes sont réparties en quatre groupes :
-
-1. **System** pour la configuration du serveur et les fichiers des applications.
-2. **MariaDB** pour les bases de données {logiciel}`MariaDB`.
-3. **Postgres** pour les bases de données PostgreSQL.
-4. **Userdata** pour les données de l'_espace personnel_ (dossier `home`).
-
-```{seealso}
-- L'article du journal : [Sauvegardes](https://club1.fr/backups/)
-- La section de la doc : [](/outils/sauvegardes.md)
-```
-
 Comptes des membres
 -------------------
 

@@ -12,7 +12,7 @@ Politique de sécurité
 
 - ⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**.
   Elles sont donc lisibles par les administrateurs (utilisateur `root` et membres du {term}`groupe` `sudo`).
-- Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées.
+- Les [sauvegardes](/outils/sauvegardes.md) sont, elles, chiffrées.
 - Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur sont tous chiffrés,
   les mots de passe et les données ne peuvent donc pas être interceptées.
 - Les données personnelles sont protégées par les [permissions UNIX](https://fr.wikipedia.org/wiki/Permissions_UNIX).

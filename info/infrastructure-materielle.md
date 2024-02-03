@@ -147,7 +147,7 @@ Un [article dans le journal de bord](https://club1.fr/ssd-home) raconte son arri
 
 #### Stockage secondaire
 
-Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](./general.md#sauvegardes).
+Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](/outils/sauvegardes.md).
 
 ### Alimentation
 
