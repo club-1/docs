@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2023-12-26 21:54+0100\n"
+"POT-Creation-Date: 2024-02-03 15:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -587,19 +587,19 @@ msgstr ""
 
 #: ../../glossaire.md:126
 msgid ""
-"Un domaine permet d'associer des informations à un nom. Parmi ces "
-"informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
-"associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
-"{term}`alias` pour une adresse IP."
+"Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
+"Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
+"l'ordinateur associé à ce domaine. Un nom de domaine est donc souvent "
+"utilisé comme un {term}`alias` pour une adresse IP."
 msgstr ""
 
 #: ../../glossaire.md:130
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
-"domaines."
+"domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:133
+#: ../../glossaire.md:134
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -609,11 +609,11 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:133
+#: ../../glossaire.md:134
 msgid "protocole"
 msgstr ""
 
-#: ../../glossaire.md:141
+#: ../../glossaire.md:142
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -621,33 +621,33 @@ msgid ""
 "org/wiki/Protocole_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:139
+#: ../../glossaire.md:140
 msgid "registraire"
 msgstr ""
 
-#: ../../glossaire.md:147
+#: ../../glossaire.md:148
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou une association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:144
+#: ../../glossaire.md:145
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:152
+#: ../../glossaire.md:153
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:148
+#: ../../glossaire.md:149
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:156
+#: ../../glossaire.md:157
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -657,11 +657,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:156
+#: ../../glossaire.md:157
 msgid "site Web dynamique"
 msgstr ""
 
-#: ../../glossaire.md:164
+#: ../../glossaire.md:165
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -669,11 +669,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
 
-#: ../../glossaire.md:162
+#: ../../glossaire.md:163
 msgid "site Web statique"
 msgstr ""
 
-#: ../../glossaire.md:170
+#: ../../glossaire.md:171
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -683,11 +683,11 @@ msgid ""
 "Page_web_statique)"
 msgstr ""
 
-#: ../../glossaire.md:169
+#: ../../glossaire.md:170
 msgid "terminal"
 msgstr ""
 
-#: ../../glossaire.md:177
+#: ../../glossaire.md:178
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -695,7 +695,7 @@ msgid ""
 "textuelle, permettant d'entrer des commandes et d'en lire le résultat."
 msgstr ""
 
-#: ../../glossaire.md:181
+#: ../../glossaire.md:182
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -703,14 +703,14 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:186
+#: ../../glossaire.md:187
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
 
-#: ../../glossaire.md:192
+#: ../../glossaire.md:193
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -720,18 +720,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:192
+#: ../../glossaire.md:193
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:200
+#: ../../glossaire.md:201
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:204
+#: ../../glossaire.md:205
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -740,11 +740,11 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../glossaire.md:210
+#: ../../glossaire.md:211
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
-"collaborative. L'édition des pages est possible depuis le naviguateur Web. "
-"Le plus connu étant *Wikipedia*. Le nom provient de la langue Hawaïenne dans "
+"collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
+"plus connu étant *Wikipedia*. Le nom provient de la langue Hawaïenne dans "
 "laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia](https://fr.wikipedia."
 "org/wiki/Wiki)"
 msgstr ""
@@ -888,7 +888,7 @@ msgid ""
 msgstr ""
 
 #: ../../info/espace-personnel.md:79 ../../outils/dns.md:61
-#: ../../outils/ldap.md:59 ../../outils/sauvegardes.md:147
+#: ../../outils/ldap.md:59 ../../outils/sauvegardes.md:174
 #: ../../services/drive.md:18 ../../services/email.md:163
 #: ../../services/ftp.md:51 ../../services/git.md:90
 #: ../../services/matrix.md:163 ../../services/rss.md:57
@@ -1034,91 +1034,26 @@ msgid ""
 msgstr ""
 
 #: ../../info/general.md:82
-msgid "Sauvegardes"
-msgstr ""
-
-#: ../../info/general.md:88
-msgid ""
-"Le système et les données utilisateur sont sauvegardées une fois par jour à "
-"5h. Les sauvegardes sont réalisées avec {logiciel}`Borg`. Elles sont ainsi "
-"stockées de manière dédupliquée et chiffrée à plusieurs endroits dont un "
-"dépôt off-site offert par Etienne Le Louët (serveur Debian auto-hébergé à "
-"Paris)."
-msgstr ""
-
-#: ../../info/general.md:93
-msgid ""
-"Il s'agit de sauvegardes incrémentales avec la politique de rétention "
-"suivante :"
-msgstr ""
-
-#: ../../info/general.md:95
-msgid "7 sauvegardes journalières"
-msgstr ""
-
-#: ../../info/general.md:96
-msgid "4 sauvegardes hebdomadaires"
-msgstr ""
-
-#: ../../info/general.md:98
-msgid ""
-"La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
-"des jours de la dernière semaine est accessible. En cas de défaillance "
-"matérielle, au maximum 24h de données seront perdues. Le bon déroulement des "
-"sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://"
-"healthchecks.io/)"
-msgstr ""
-
-#: ../../info/general.md:103
-msgid "Les sauvegardes sont réparties en quatre groupes :"
-msgstr ""
-
-#: ../../info/general.md:105
-msgid ""
-"**System** pour la configuration du serveur et les fichiers des applications."
-msgstr ""
-
-#: ../../info/general.md:106
-msgid "**MariaDB** pour les bases de données {logiciel}`MariaDB`."
-msgstr ""
-
-#: ../../info/general.md:107
-msgid "**Postgres** pour les bases de données PostgreSQL."
-msgstr ""
-
-#: ../../info/general.md:108
-msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
-msgstr ""
-
-#: ../../info/general.md:111
-msgid "L'article du journal : [Sauvegardes](https://club1.fr/backups/)"
-msgstr ""
-
-#: ../../info/general.md:112
-msgid "La section de la doc : [](/outils/sauvegardes.md)"
-msgstr ""
-
-#: ../../info/general.md:115
 msgid "Comptes des membres"
 msgstr ""
 
-#: ../../info/general.md:118 ../../services/matrix.md:31
+#: ../../info/general.md:85 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr ""
 
-#: ../../info/general.md:120
+#: ../../info/general.md:87
 msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
 msgstr ""
 
-#: ../../info/general.md:122
+#: ../../info/general.md:89
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr ""
 
-#: ../../info/general.md:123
+#: ../../info/general.md:90
 msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
 msgstr ""
 
-#: ../../info/general.md:125
+#: ../../info/general.md:92
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1128,61 +1063,61 @@ msgid ""
 "services/git.md)."
 msgstr ""
 
-#: ../../info/general.md:131
+#: ../../info/general.md:98
 msgid "Modalités des comptes"
 msgstr ""
 
-#: ../../info/general.md:133
+#: ../../info/general.md:100
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
 msgstr ""
 
-#: ../../info/general.md:136
+#: ../../info/general.md:103
 msgid "Un compte membre comporte donc :"
 msgstr ""
 
-#: ../../info/general.md:138
+#: ../../info/general.md:105
 msgid "de l'espace de stockage SSD"
 msgstr ""
 
-#: ../../info/general.md:139
+#: ../../info/general.md:106
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:140
+#: ../../info/general.md:107
 msgid "un accès FTP"
 msgstr ""
 
-#: ../../info/general.md:141
+#: ../../info/general.md:108
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr ""
 
-#: ../../info/general.md:142
+#: ../../info/general.md:109
 msgid "des bases de données (MariaDb)"
 msgstr ""
 
-#: ../../info/general.md:143
+#: ../../info/general.md:110
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr ""
 
-#: ../../info/general.md:144
+#: ../../info/general.md:111
 msgid "l'utilisation de noms de domaines loués via des registraires"
 msgstr ""
 
-#: ../../info/general.md:145
+#: ../../info/general.md:112
 msgid ""
 "un accès au salon {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
 msgstr ""
 
-#: ../../info/general.md:147
+#: ../../info/general.md:114
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr ""
 
-#: ../../info/general.md:150
+#: ../../info/general.md:117
 msgid "Contact"
 msgstr ""
 
@@ -1374,91 +1309,137 @@ msgid ""
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:96
+msgid ""
+"C'est une carte au format standard [Mini-ITX](https://en.wikipedia.org/wiki/"
+"Mini-ITX), elle a donc un format carré de 17cm de côté."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:99
 msgid "![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:96
+#: ../../info/infrastructure-materielle.md:99
 msgid "carte mère vue du dessus"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:98
-msgid "Processeur"
+#: ../../info/infrastructure-materielle.md:101
+msgid "**Connectiques principales :**"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:100
-msgid "Modèle : `Intel Atom C3000`"
-msgstr ""
-
-#: ../../info/infrastructure-materielle.md:102
-msgid "Processeur quadri-c&oelig;ur à faible consommation."
+#: ../../info/infrastructure-materielle.md:103
+msgid "stockage"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:104
-msgid "Mémoire vive"
+msgid "1 port M.2"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:105
+msgid "1 port mini-SAS HD"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:106
-msgid "Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`"
+msgid "4 ports SATA"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:107
+msgid "réseau"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:108
+msgid "4 ports RJ45 Ethernet 1Gb/s"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:110
+msgid "Processeur"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:112
+msgid "Modèle : `Intel Atom C3000`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:114
+msgid ""
+"Processeur quadri-c&oelig;ur à faible consommation. Il est directement soudé "
+"sur la [carte mère](#carte-mère)."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:117
+msgid "Mémoire vive"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:119
+msgid "Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:121
 msgid ""
 "Le serveur dispose d'une unique barrette de 16 Go DDR4 ECC, parmi les quatre "
 "emplacements fournis par la [carte mère](#carte-mère). Cela laisse de la "
 "place pour augmenter cette capacité si nécessaire."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:113
+#: ../../info/infrastructure-materielle.md:126
 msgid "Stockage"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:115
+#: ../../info/infrastructure-materielle.md:128
 msgid "Il est composé de trois supports de stockage distincts :"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:117
+#: ../../info/infrastructure-materielle.md:130
 msgid "système"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:119
-msgid "un SSD SATA de 300Go. `Crucial`"
+#: ../../info/infrastructure-materielle.md:132
+msgid ""
+"Le système d'exploitation, ainsi que les bases de données {logiciel}"
+"`MariaDB` et PostgreSQL sont sur un SSD NVMe d'une capacitée de 1To connecté "
+"au port M.2 de la carte mère. C'est la configuration permettant d'avoir les "
+"débits les plus rapides permis par cette [carte mère](#carte-mère)."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:121
+#: ../../info/infrastructure-materielle.md:136
+msgid "Modèle : `Samsung SSD 980 1To`"
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:138
 msgid "Utilisateurs"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:123
-msgid "un SSD SATA de 1To. `Samsung EVO 860`."
+#: ../../info/infrastructure-materielle.md:140
+msgid ""
+"L'[espace personnel](/info/espace-personnel.md) des membres est stocké dans "
+"un second support : Un autre SSD de 1To, mais cette fois ci, connecté sur un "
+"port SATA. Les débit sont donc un peu plus faibles (500Mb/s), par rapport au "
+"[SSD système](#système)."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:125
+#: ../../info/infrastructure-materielle.md:144
+msgid "Modèle : `Samsung EVO 860 1To`."
+msgstr ""
+
+#: ../../info/infrastructure-materielle.md:146
 msgid ""
 "Un [article dans le journal de bord](https://club1.fr/ssd-home) raconte son "
 "arrivée dans le serveur."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:127
-msgid ""
-"C'est ici que se situe [l'espace personnel](/info/espace-personnel.md) des "
-"membres du club."
-msgstr ""
-
-#: ../../info/infrastructure-materielle.md:129
+#: ../../info/infrastructure-materielle.md:148
 msgid "Stockage secondaire"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:131
+#: ../../info/infrastructure-materielle.md:150
 msgid ""
-"Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](./"
-"general.md#sauvegardes)."
+"Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](/"
+"outils/sauvegardes.md)."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:133
+#: ../../info/infrastructure-materielle.md:152
 msgid "Alimentation"
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:135
+#: ../../info/infrastructure-materielle.md:154
 msgid "`FSP250-60EGA 90+`"
 msgstr ""
 
@@ -1486,7 +1467,7 @@ msgid ""
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:15
-msgid "Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées."
+msgid "Les [sauvegardes](/outils/sauvegardes.md) sont, elles, chiffrées."
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:16
@@ -1645,7 +1626,7 @@ msgid ""
 "(_Domain Name System_) Service informatique distribué qui associe les {term}"
 "`noms de domaine <nom de domaine>` {term}`Internet` avec leurs {term}"
 "`adresses IP <adresse IP>` ou d'autres types d'enregistrements. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/BIND)"
+"[Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_Service)"
 msgstr ""
 
 #: ../../outils/dns.md:12
@@ -2685,103 +2666,149 @@ msgstr ""
 msgid "Sauvegardes avec Borg"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:4
+#: ../../outils/sauvegardes.md:11
 msgid ""
-"Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
-"`Borgmatic`."
+"Le système et les données utilisateur sont sauvegardées une fois par jour à "
+"5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
+"`Borgmatic`. Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
+"plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
+"(serveur Debian auto-hébergé à Paris)."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:7
+#: ../../outils/sauvegardes.md:16
 msgid ""
-"La section [](../info/general.md#sauvegardes) dans les Informations générales"
+"Il s'agit de sauvegardes incrémentales avec la politique de rétention "
+"suivante :"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:10
+#: ../../outils/sauvegardes.md:18
+msgid "7 sauvegardes journalières"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:19
+msgid "4 sauvegardes hebdomadaires"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:21
+msgid ""
+"La plus ancienne sauvegarde conservée date donc d'environ 1 mois et chacun "
+"des jours de la dernière semaine est accessible. En cas de défaillance "
+"matérielle, au maximum 24h de données seront perdues. Le bon déroulement des "
+"sauvegardes est vérifié à l'aide du service [Healthchecks.io](https://"
+"healthchecks.io/)"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:26
+msgid "Les sauvegardes sont réparties en quatre groupes :"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:28
+msgid ""
+"**System** pour la configuration du serveur et les fichiers des applications."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:29
+msgid "**MariaDB** pour les bases de données {logiciel}`MariaDB`."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:30
+msgid "**Postgres** pour les bases de données PostgreSQL."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:31
+msgid "**Userdata** pour les données de l'_espace personnel_ (dossier `home`)."
+msgstr ""
+
+#: ../../outils/sauvegardes.md:34
+msgid "L'article du journal : [Sauvegardes](https://club1.fr/backups/)"
+msgstr ""
+
+#: ../../outils/sauvegardes.md:37
 msgid "Processus de restauration"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:13
+#: ../../outils/sauvegardes.md:40
 msgid ""
 "Cette section décrit la restauration totale du système, en réinstallant tous "
 "les logiciels depuis zéro."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:16
+#: ../../outils/sauvegardes.md:43
 msgid "1. Installation du système"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:29
+#: ../../outils/sauvegardes.md:56
 msgid "2. Étapes préparatoires"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:31 ../../outils/sauvegardes.md:66
-#: ../../outils/sauvegardes.md:82
+#: ../../outils/sauvegardes.md:58 ../../outils/sauvegardes.md:93
+#: ../../outils/sauvegardes.md:109
 msgid "Cette phase doit être réalisée avec l'utilisateur `root`."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:33
+#: ../../outils/sauvegardes.md:60
 msgid "2.1. Préparations générales"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:37
+#: ../../outils/sauvegardes.md:64
 msgid ""
 "Puis sélection des locales `en-GB`, `en-US` et `fr-FR` en UTF-8. "
 "Principalement pour ne pas avoir de messages d'erreurs lors des étapes "
 "suivantes."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:49
+#: ../../outils/sauvegardes.md:76
 msgid "2.2. Pré-restauration de fichiers spécifiques"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:53
+#: ../../outils/sauvegardes.md:80
 msgid ""
 "Puis remplacer `ARCHIVE` par l'identifiant de l'archive voulue parmi la "
 "liste ci-dessus. La plus récente se trouve en bas à gauche."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:62
+#: ../../outils/sauvegardes.md:89
 msgid ""
 "Deux mots de passe seront demandés : celui de SSH puis celui de l'archive."
 msgstr ""
 
-#: ../../outils/sauvegardes.md:64
+#: ../../outils/sauvegardes.md:91
 msgid "3. Installation des paquets"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:80
+#: ../../outils/sauvegardes.md:107
 msgid "4. Restauration totale"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:84
+#: ../../outils/sauvegardes.md:111
 msgid "4.1. Archive `system` et dossier `etc`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:101
+#: ../../outils/sauvegardes.md:128
 msgid "4.2. Certains fichiers spéciaux"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:108
+#: ../../outils/sauvegardes.md:135
 msgid "4.3. Base de données {term}`LDAP`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:116
+#: ../../outils/sauvegardes.md:143
 msgid "4.4. Base de données des [alias email](/outils/aliases.md)"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:122
+#: ../../outils/sauvegardes.md:149
 msgid "4.5. Bases de données {logiciel}`MariaDB`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:131
+#: ../../outils/sauvegardes.md:158
 msgid "4.6. Bases de données Postgres"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:141
+#: ../../outils/sauvegardes.md:168
 msgid "4.7. Finalisation"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:151
+#: ../../outils/sauvegardes.md:178
 msgid ""
 "Logiciel en {term}`CLI` de sauvegardes incrémentales, basé sur la "
 "déduplication. Il permet aussi de compresser et chiffrer les données "
@@ -2789,7 +2816,7 @@ msgid ""
 "github.com/borgbackup/borg)"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:158
+#: ../../outils/sauvegardes.md:185
 msgid ""
 "Logiciel en {term}`CLI` permettant d'automatiser la gestion de sauvegardes "
 "avec {logiciel}`Borg`. Il est notamment capable de sauvegarder des bases de "
@@ -2805,7 +2832,7 @@ msgstr ""
 #: ../../outils/site.md:4
 msgid ""
 "On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est "
-"un {term}`Wiki`. Cela implique qu'il est possible d'éditer son contenu "
+"un {term}`wiki`. Cela implique qu'il est possible d'éditer son contenu "
 "directement depuis le navigateur."
 msgstr ""
 
@@ -2907,19 +2934,19 @@ msgid ""
 msgstr ""
 
 #: ../../outils/site.md:69
-msgid "Moteur de Wiki"
+msgid "Moteur de wiki"
 msgstr ""
 
 #: ../../outils/site.md:72
 msgid ""
-"Le moteur de Wiki utilisé n'est pas un outil très connu. En dehors du site "
+"Le moteur de wiki utilisé n'est pas un outil très connu. En dehors du site "
 "officiel de CLUB1, son usage se limite pour l'instant à quelques membres du "
 "club pour leurs sites respectifs."
 msgstr ""
 
 #: ../../outils/site.md:78
 msgid ""
-"Moteur de {term}`Wiki` écrit en {term}`PHP`. Son but est de croiser la prise "
+"Moteur de {term}`wiki` écrit en {term}`PHP`. Son but est de croiser la prise "
 "de note avec l'édition de site {term}`Web` en encourageant l'édition "
 "spontanée de pages aux styles variés. --- [Sources](https://github.com/"
 "vincent-peugnet/wcms/), [Site](https://w.club1.fr/)"
@@ -4005,7 +4032,7 @@ msgid ""
 "le serveur (enfin parmi celles qui ne nécessitent pas d’user de "
 "psychotropes). C’est aussi celle qui offre le plus la sensation d’utiliser "
 "un ordinateur, car à travers elle, on peut [lancer des programmes]"
-"(#sélection-de-commandes) sur le serveur !"
+"(#sélection-de-commandes) sur le serveur !"
 msgstr ""
 
 #: ../../services/ssh.md:11
@@ -4173,9 +4200,9 @@ msgstr ""
 
 #: ../../services/ssh.md:142
 msgid ""
-"Permet de consulter et d'envoyer ses emails avec *Mutt* : Un {term}`client` "
-"email en {term}`CLI`. Les touches de contrôle sont indiqués en haut. Pressez "
-"la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`mutt.1`"
+"Permet de consulter et d'envoyer ses emails avec {logiciel}`Mutt` : Un {term}"
+"`client` email en {term}`CLI`. Les touches de contrôle sont indiqués en "
+"haut. Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`mutt.1`"
 msgstr ""
 
 #: ../../services/ssh.md:150
@@ -4552,6 +4579,13 @@ msgid ""
 "{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
 "xiph.org/xiph/icecast-server)"
+msgstr ""
+
+#: ../../services/webcast.md:50
+msgid ""
+"{term}`Serveur` permettant de faire la passerelle entre l'authentification "
+"via URL d'{logiciel}`Icecast` et un serveur {term}`LDAP`. --- [Sources]"
+"(https://github.com/kuhball/icecast-ldap)"
 msgstr ""
 
 #: ../../services/webdav.md:1
