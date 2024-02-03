@@ -2,7 +2,10 @@ Sauvegardes avec Borg
 =====================
 
 ```{raw} html
-<img alt="backup status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/fy2eY73W-2/backup.svg" />
+<img alt="system status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/y3yqTX9N-2/system.svg" />
+<img alt="mariadb status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/TRFhqbdG-2/mariadb.svg" />
+<img alt="postgres status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/KzgZiSZL-2/postgres.svg" />
+<img alt="userdata status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/xFAKftB0-2/userdata.svg" />
 ```
 
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
