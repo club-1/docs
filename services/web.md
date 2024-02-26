@@ -157,7 +157,7 @@ Logiciels
 
 ```{logiciel} Nginx
 {term}`Serveur` HTTP principalement axé sur les performances.
-Chez CLUB1, il est principalement utilisé en tant que "point de terminaison {term}`TLS`"
+Chez CLUB1, il est surtout utilisé en tant que "point de terminaison {term}`TLS`"
 et "proxy inverse" devant les différents services {term}`Web`,
 notamment le serveur {logiciel}`Apache`.
 --- [Wikipedia](https://fr.wikipedia.org/wiki/NGINX), [Sources](https://hg.nginx.org/nginx)
