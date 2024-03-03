@@ -15,10 +15,9 @@ explique comment en faire part.
 Connexion avec le terminal
 --------------------------
 
-Pour effectuer cette connexion SSH nous allons **lancer des commandes**,
-il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** ! 🥵
-
-Pour cela, il faut lancer sur votre ordinateur un programme qui s'appelle souvent `terminal` ou `console`.
+Pour effectuer cette connexion SSH,
+nous avons besoin d'ouvrir une fenêtre de **{term}`terminal`** ! 🥵
+Pour cela, il faut lancer sur votre ordinateur un programme qui s'appelle en général `terminal` ou `console`.
 
 ```{admonition} Pour Windows
 Dans le cas de Windows, il faut utiliser le programme qui s'appelle `Powershell`.
