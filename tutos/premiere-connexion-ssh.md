@@ -3,22 +3,22 @@ Première connexion SSH
 
 Dans ce tuto, nous allons voir comment se connecter au serveur
 pour la première fois en {term}`SSH` de manière **sécurisée**.
-Pour cela, pas besoin d’installer de logiciels supplémentaire,
-la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion.
+Pour cela, **pas besoin d’installer de logiciels supplémentaire**,
+la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion 😌.
+Cela dit, une tisane et un espace calme peuvent s'avérer utiles dans cette aventure.
 
-```{caution}
-Ce tutoriel n'a pas encore été éprouvé sur Windows.
-Certaines étapes peuvent de ne pas fonctionner.
-Si vous rencontrez un problème, la section "[](../info/general.md#demandes-et-incidents)"
-explique comment nous en faire part.
+```{note}
+Si vous êtes bloqué·e ou rencontrez un problème, la section "[](../info/general.md#demandes-et-incidents)"
+explique comment en faire part.
 ```
 
 Connexion avec le terminal
 --------------------------
 
-Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`.
-Ce logiciel s'utilise en {term}`CLI`,
+Pour effectuer cette connexion SSH nous allons **lancer des commandes**,
 il est donc nécessaire d'ouvrir une fenêtre de **{term}`terminal`** ! 🥵
+
+Pour cela, il faut lancer sur votre ordinateur un programme qui s'appelle souvent `terminal` ou `console`.
 
 ```{admonition} Pour Windows
 Dans le cas de Windows, il faut utiliser le programme qui s'appelle `Powershell`.
@@ -32,15 +32,17 @@ ou simplement un clic droit avec sa souris.
 
 Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
+Un peu comme des sortilèges, on y lance des commandes.
 
-On utilise la commande suivante dans le terminal pour se connecter
+> Heuuu... mais comment on lance une commande 🤨 ?
+
+Dans un terminal, il faut taper le texte d'une commande,
+puis appuyer sur {kbd}`Entrée` pour la lancer ! 🪄
+
+Pour se connecter en SSH, on utilise la commande suivante
 (remplacer `USER` par votre **identifiant** CLUB1) :
 
     ssh USER@club1.fr
-
-```{tip}
-Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal.
-```
 
 Vous devriez voir s'afficher le message suivant :
 
@@ -78,10 +80,25 @@ La source de la clef que nous allons utiliser provient du {term}`Web`,
 Fichier `known_hosts`
 ---------------------
 
-Concrètement, cela consiste à ajouter une ligne de texte contenant la clef 🔑,
+Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un fichier.
+Les commandes suivantes font tout ça pour vous ! 🪄
+
+```sh
+mkdir -p ~/.ssh
+echo 'club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6' >> ~/.ssh/known_hosts
+```
+
+```{tip}
+Dans une fenêtre de terminal, il est généralement possible de "coller" un texte
+en faisant "Clic droit" --> {guilabel}`Coller`.
+Ou encore {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`V`.
+```
+
+
+Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef 🔑,
 à un fichier sur votre appareil.
-Ce fichier s'appellera `known_hosts`, *serveurs connus*.
-Il devra se trouver dans un dossier `.ssh`,
+Ce fichier s'appelle `known_hosts`, *serveurs connus*.
+Il se trouve dans un dossier `.ssh`,
 lui-même au sein de votre espace personnel sur votre appareil.
 
 ```{note}
@@ -96,20 +113,18 @@ porte généralement le nom de votre utilisateur sur cet appareil.
     ├─ 📁 Images
     ...
 
-Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la tentative de connexion SSH.
+Connexion sécurisée
+-------------------
 
-Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un fichier `known_host`.
-La commande suivante fait tout ça pour vous ! 🪄
+Maintenant que l'on a passé toutes ces étapes,
+Vous devriez pouvoir vous [connecter en SSH](#connexion-avec-le-terminal)
+sans voir le message d'alerte.
 
-```sh
-echo 'club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6' >> ~/.ssh/known_hosts
-```
+On lance à nouveau la commande :
 
-Si tout s'est bien passé,
-le fichier `known_hosts` doit maintenant contenir une ligne contenant la clef.
+    ssh USER@club1.fr
 
-Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-terminal)
-sans voir le message d'alerte et il vous faudra alors entrer votre **mot de passe** CLUB1.
+Cette fois ci, il vous faudra alors entrer votre **mot de passe** CLUB1.
 
 ```{attention}
 Lorsque vous tapez votre mot de passe, rien ne s'affiche !
@@ -117,11 +132,6 @@ C'est normal, il s'agit d'une mesure de sécurité
 qui permet de ne même pas révéler le nombre de caractères du mot de passe. 🤫
 ```
 
-```{tip}
-Dans une fenêtre de terminal, il est généralement possible de "coller" un texte
-en faisant "Clic droit" --> {guilabel}`Coller`.
-Ou encore {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`V`.
-```
 
 Dans le serveur
 ---------------
