@@ -56,7 +56,7 @@ la commande {commande}`ncdu` est faite pour vous !
 Elle permet de trier et de mettre en évidence
 ce qui prend le plus d'espace dans vos fichiers et dossiers.
 
-Enfin, pour s'avoir l'espace restant disponible sur le support de stockage,
+Enfin, pour connaître l'espace restant disponible sur le support de stockage,
 on peut utiliser cette dernière commande :
 
     df -h .
