@@ -13,7 +13,7 @@ jobs:
       SPHINXOPTS: --color
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # clone full repo to get last-updated dates
       - name: Install apt packages
@@ -40,7 +40,7 @@ jobs:
       - name: Patch dependencies
         run: make deps
       - name: Restore pip cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('.github/requirements.txt') }}
@@ -49,7 +49,7 @@ jobs:
       - name: Install pip packages
         run: pip install -r .github/requirements.txt
       - name: Restore LuaTex cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.texlive2021
           key: ${{ runner.os }}-texlive2021-${{ hashFiles('.github/workflows/deploy.yml') }}

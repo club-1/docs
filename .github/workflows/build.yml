@@ -11,11 +11,11 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install apt packages
         run: sudo apt-get install --no-install-recommends -y gettext
       - name: Setup problem matcher
-        uses: xt0rted/markdownlint-problem-matcher@v2
+        uses: xt0rted/markdownlint-problem-matcher@v3
       - name: Markdownlint
         run: >
           npx --package markdownlint-cli@0.32.0 --
@@ -32,7 +32,7 @@ jobs:
       SPHINXOPTS: --color -n -Dsuppress_warnings=git.too_shallow
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install apt packages
         run: sudo apt-get install --no-install-recommends -y gettext graphviz
       - name: Restore pip cache
@@ -62,7 +62,7 @@ jobs:
       SPHINXOPTS: --color -n -Dsuppress_warnings=git.too_shallow
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install apt packages
         run: sudo apt-get install --no-install-recommends -y gettext graphviz
       - name: Restore pip cache
@@ -99,7 +99,7 @@ jobs:
       SPHINXOPTS: --color -Dsuppress_warnings=git.too_shallow
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install apt packages
         run: >
           sudo apt-get install --no-install-recommends -y
