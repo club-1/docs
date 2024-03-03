@@ -39,3 +39,28 @@ CLUB1 fournit **[une seule boîte email](/services/email.md) par compte de membr
 avec une adresse principale et toutes ses [sous-adresses](services/email.md#sous-adresses).
 Il est possible de créer des {term}`alias` personnalisés à la demande,
 mais pas de créer des boîtes de réception supplémentaires.
+
+### Quel espace est-ce-que j'occupe sur le serveur ?
+
+À part [pour les emails](./services/email.md#quotas),
+il n'est défini **aucun quota pour les espaces personnel**.
+
+Pour avoir une estimation de l'espace occupé par son [dossier personnel](/info/espace-personnel.md),
+on peut lancer la commande suivante, une fois [connecté en SSH](/services/ssh.md) :
+
+    du -shx
+
+Si vous avez envie de réduire le poids de votre dossier,
+mais que vous ne savez pas par où commencer,
+la commande {commande}`ncdu` est faite pour vous !
+Elle permet de trier et de mettre en évidence
+ce qui prend le plus d'espace dans vos fichiers et dossiers.
+
+Enfin, pour s'avoir l'espace restant disponible sur le support de stockage,
+on peut utiliser cette dernière commande :
+
+    df -h .
+
+Cette information est également visible dans le [MOTD](https://fr.wikipedia.org/wiki/Message_of_the_Day),
+lorsque l'on se connecte en {term}`SSH` à travers un {term}`terminal`.
+Ou sur le [Drive](/services/drive.md), en bas du panneau latéral.
