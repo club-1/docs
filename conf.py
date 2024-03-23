@@ -247,6 +247,9 @@ epub_exclude_files = [
 # Use home page as epub identifier.
 epub_identifier = html_baseurl
 
+# Do not show links inline in addition to hypertext
+epub_show_urls = 'no'
+
 # Identifier is an URL.
 epub_scheme = 'URL'
 
