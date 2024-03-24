@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-02-03 15:16+0100\n"
+"POT-Creation-Date: 2024-03-24 23:13+0100\n"
 "PO-Revision-Date: 2024-01-04 16:08+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -442,6 +442,45 @@ msgstr ""
 "account** with a main address and all its [sub-addresses](services/email."
 "md#sous-adresses). It is possible to create custom {term}`alias` on demand, "
 "but not to create additional mailboxes."
+
+#: ../../faq.md:43
+msgid "Quel espace est-ce-que j'occupe sur le serveur ?"
+msgstr ""
+
+#: ../../faq.md:45
+msgid ""
+"À part [pour les emails](./services/email.md#quotas), il n'est défini "
+"**aucun quota pour les espaces personnel**."
+msgstr ""
+
+#: ../../faq.md:48
+msgid ""
+"Pour avoir une estimation de l'espace occupé par son [dossier personnel](/"
+"info/espace-personnel.md), on peut lancer la commande suivante, une fois "
+"[connecté en SSH](/services/ssh.md) :"
+msgstr ""
+
+#: ../../faq.md:53
+msgid ""
+"Si vous avez envie de réduire le poids de votre dossier, mais que vous ne "
+"savez pas par où commencer, la commande {commande}`ncdu` est faite pour "
+"vous ! Elle permet de trier et de mettre en évidence ce qui prend le plus "
+"d'espace dans vos fichiers et dossiers."
+msgstr ""
+
+#: ../../faq.md:59
+msgid ""
+"Enfin, pour connaître l'espace restant disponible sur le support de "
+"stockage, on peut utiliser cette dernière commande :"
+msgstr ""
+
+#: ../../faq.md:64
+msgid ""
+"Cette information est également visible dans le [MOTD](https://fr.wikipedia."
+"org/wiki/Message_of_the_Day), lorsque l'on se connecte en {term}`SSH` à "
+"travers un {term}`terminal`. Ou sur le [Drive](/services/drive.md), en bas "
+"du panneau latéral."
+msgstr ""
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -5529,11 +5568,18 @@ msgstr ""
 "containing at least the following line:"
 
 #: ../../services/web.md:159
+#, fuzzy
+#| msgid ""
+#| "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, "
+#| "il est principalement utilisé en tant que \"point de terminaison {term}"
+#| "`TLS`\" et \"proxy inverse\" devant les différents services {term}`Web`, "
+#| "notamment le serveur {logiciel}`Apache`. --- [Wikipedia](https://fr."
+#| "wikipedia.org/wiki/NGINX), [Sources](https://hg.nginx.org/nginx)"
 msgid ""
 "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, il "
-"est principalement utilisé en tant que \"point de terminaison {term}`TLS`\" "
-"et \"proxy inverse\" devant les différents services {term}`Web`, notamment "
-"le serveur {logiciel}`Apache`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"est surtout utilisé en tant que \"point de terminaison {term}`TLS`\" et "
+"\"proxy inverse\" devant les différents services {term}`Web`, notamment le "
+"serveur {logiciel}`Apache`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "NGINX), [Sources](https://hg.nginx.org/nginx)"
 msgstr ""
 "HTTP {term}`server` primarily focused on performance. At CLUB1, it is mainly "
@@ -6636,46 +6682,56 @@ msgid "Première connexion SSH"
 msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
+#, fuzzy
+#| msgid ""
+#| "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
+#| "première fois en {term}`SSH` de manière **sécurisée**. Pour cela, pas "
+#| "besoin d’installer de logiciels supplémentaire, la majorité des systèmes "
+#| "d’exploitation ont déjà tout le nécessaire pour cette connexion."
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-"première fois en {term}`SSH` de manière **sécurisée**. Pour cela, pas besoin "
-"d’installer de logiciels supplémentaire, la majorité des systèmes "
-"d’exploitation ont déjà tout le nécessaire pour cette connexion."
+"première fois en {term}`SSH` de manière **sécurisée**. Pour cela, **pas "
+"besoin d’installer de logiciels supplémentaire**, la majorité des systèmes "
+"d’exploitation ont déjà tout le nécessaire pour cette connexion 😌. Cela "
+"dit, une tisane et un espace calme peuvent s'avérer utiles dans cette "
+"aventure."
 msgstr ""
 "In this tutorial, we will see how to connect to the server for the first "
 "time in {term}`SSH` in a **secure way**. For this, no need to install "
 "additional software, the majority of operating systems already have "
 "everything necessary for this connection."
 
-#: ../../tutos/premiere-connexion-ssh.md:10
+#: ../../tutos/premiere-connexion-ssh.md:11
+#, fuzzy
+#| msgid ""
+#| "Ce tutoriel n'a pas encore été éprouvé sur Windows. Certaines étapes "
+#| "peuvent de ne pas fonctionner. Si vous rencontrez un problème, la section "
+#| "\"[](../info/general.md#demandes-et-incidents)\" explique comment nous en "
+#| "faire part."
 msgid ""
-"Ce tutoriel n'a pas encore été éprouvé sur Windows. Certaines étapes peuvent "
-"de ne pas fonctionner. Si vous rencontrez un problème, la section \"[](../"
-"info/general.md#demandes-et-incidents)\" explique comment nous en faire part."
+"Si vous êtes bloqué·e ou rencontrez un problème, la section \"[](../info/"
+"general.md#demandes-et-incidents)\" explique comment en faire part."
 msgstr ""
 "This tutorial has not yet been proven on Windows. Some steps may not work. "
 "If you encounter a problem, the section \"[](../info/general.md#demandes-et-"
 "incidents)\" explains how to report it to us."
 
-#: ../../tutos/premiere-connexion-ssh.md:16
+#: ../../tutos/premiere-connexion-ssh.md:15
 msgid "Connexion avec le terminal"
 msgstr "Connection with the terminal"
 
-#: ../../tutos/premiere-connexion-ssh.md:19
+#: ../../tutos/premiere-connexion-ssh.md:18
 msgid ""
-"Pour effectuer cette connexion SSH nous allons utiliser {logiciel}`OpenSSH`. "
-"Ce logiciel s'utilise en {term}`CLI`, il est donc nécessaire d'ouvrir une "
-"fenêtre de **{term}`terminal`** ! 🥵"
+"Pour effectuer cette connexion SSH, nous avons besoin d'ouvrir une fenêtre "
+"de **{term}`terminal`** ! 🥵 Pour cela, il faut lancer sur votre ordinateur "
+"un programme qui s'appelle en général `terminal` ou `console`."
 msgstr ""
-"To make this SSH connection we will use {logiciel}`OpenSSH`. This software "
-"is used in {term}`CLI`, so it is necessary to open a **{term}`terminal`** "
-"window! 🥵"
 
-#: ../../tutos/premiere-connexion-ssh.md:23
+#: ../../tutos/premiere-connexion-ssh.md:22
 msgid "Pour Windows"
 msgstr "For Windows"
 
-#: ../../tutos/premiere-connexion-ssh.md:24
+#: ../../tutos/premiere-connexion-ssh.md:23
 msgid ""
 "Dans le cas de Windows, il faut utiliser le programme qui s'appelle "
 "`Powershell`. Comme sa configuration par défaut n'est pas terrible 💩, il "
@@ -6685,7 +6741,7 @@ msgstr ""
 "default configuration is terrible 💩, it must be corrected with the "
 "following command:"
 
-#: ../../tutos/premiere-connexion-ssh.md:29
+#: ../../tutos/premiere-connexion-ssh.md:28
 msgid ""
 "Pour \"coller\" du texte dans `Powershell` on peut faire {kbd}`Ctrl` + {kbd}"
 "`V`, ou simplement un clic droit avec sa souris."
@@ -6693,36 +6749,51 @@ msgstr ""
 "To \"paste\" the text in `Powershell` you can do {kbd}`Ctrl` + {kbd}`V`, or "
 "just right click with your mouse."
 
-#: ../../tutos/premiere-connexion-ssh.md:33
+#: ../../tutos/premiere-connexion-ssh.md:32
+#, fuzzy
+#| msgid ""
+#| "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
+#| "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
+#| "l'informatique ! 🧙"
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
-"l'informatique ! 🧙"
+"l'informatique ! 🧙 Un peu comme des sortilèges, on y lance des commandes."
 msgstr ""
 "Don't be impressed by its disconcerting interface, it's a tool that will "
 "make you a real computer magician! 🧙"
 
 #: ../../tutos/premiere-connexion-ssh.md:36
+msgid "Heuuu... mais comment on lance une commande 🤨 ?"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:38
 msgid ""
-"On utilise la commande suivante dans le terminal pour se connecter "
-"(remplacer `USER` par votre **identifiant** CLUB1) :"
+"Dans un terminal, il faut taper le texte d'une commande, puis appuyer sur "
+"{kbd}`Entrée` pour la lancer ! 🪄"
+msgstr ""
+
+#: ../../tutos/premiere-connexion-ssh.md:41
+#, fuzzy
+#| msgid ""
+#| "On utilise la commande suivante dans le terminal pour se connecter "
+#| "(remplacer `USER` par votre **identifiant** CLUB1) :"
+msgid ""
+"Pour se connecter en SSH, on utilise la commande suivante (remplacer `USER` "
+"par votre **identifiant** CLUB1) :"
 msgstr ""
 "We use the following command in the terminal to connect (replace `USER` with "
 "your CLUB1 **login**):"
 
-#: ../../tutos/premiere-connexion-ssh.md:42
-msgid "Appuyer sur {kbd}`Enter` pour lancer une commande depuis le terminal."
-msgstr "Press {kbd}`Enter` to run a command from the terminal."
-
-#: ../../tutos/premiere-connexion-ssh.md:45
+#: ../../tutos/premiere-connexion-ssh.md:46
 msgid "Vous devriez voir s'afficher le message suivant :"
 msgstr "You should see the following message:"
 
-#: ../../tutos/premiere-connexion-ssh.md:51
+#: ../../tutos/premiere-connexion-ssh.md:52
 msgid "😱 Houla ! Qu'est ce que c'est que ça ??"
 msgstr "😱 Wow! What the hell is this??"
 
-#: ../../tutos/premiere-connexion-ssh.md:53
+#: ../../tutos/premiere-connexion-ssh.md:54
 msgid ""
 "En fait, c'est normal, {logiciel}`OpenSSH` nous averti que "
 "l'authentification de la connexion n'est pas garantie car votre appareil ne "
@@ -6732,7 +6803,7 @@ msgstr ""
 "authentication of the connection is not guaranteed because your device does "
 "not know this server *yet*."
 
-#: ../../tutos/premiere-connexion-ssh.md:56
+#: ../../tutos/premiere-connexion-ssh.md:57
 msgid ""
 "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸. "
@@ -6742,11 +6813,11 @@ msgstr ""
 "attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 🥸. So we're "
 "going to answer `no` for now."
 
-#: ../../tutos/premiere-connexion-ssh.md:60
+#: ../../tutos/premiere-connexion-ssh.md:61
 msgid "La confiance règne"
 msgstr "Trust reigns"
 
-#: ../../tutos/premiere-connexion-ssh.md:63
+#: ../../tutos/premiere-connexion-ssh.md:64
 msgid ""
 "Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1. "
 "Cela permet de garantir l'authenticité des réponses du serveur et "
@@ -6758,7 +6829,7 @@ msgstr ""
 "initialize an encrypted connection. In this way we are certain that we are "
 "indeed dealing with the CLUB1 server."
 
-#: ../../tutos/premiere-connexion-ssh.md:67
+#: ../../tutos/premiere-connexion-ssh.md:68
 msgid ""
 "Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut "
 "l'acquérir par une autre source que la connexion SSH elle-même au cas où "
@@ -6768,14 +6839,14 @@ msgstr ""
 "from another source than the SSH connection itself in case it is compromised "
 "😮."
 
-#: ../../tutos/premiere-connexion-ssh.md:71
+#: ../../tutos/premiere-connexion-ssh.md:72
 msgid ""
 "🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle "
 "aussi compromise ?"
 msgstr ""
 "🤔 But then, what guarantees that the new source is not also compromised?"
 
-#: ../../tutos/premiere-connexion-ssh.md:73
+#: ../../tutos/premiere-connexion-ssh.md:74
 msgid ""
 "La source de la clef que nous allons utiliser provient du {term}`Web`, à "
 "travers une connexion chiffrée et **authentifié** via {term}`TLS` 🔒 (C'est "
@@ -6785,75 +6856,23 @@ msgstr ""
 "through an encrypted and **authenticated** connection via {term}`TLS` 🔒 "
 "(This is the famous `s` in `https`)."
 
-#: ../../tutos/premiere-connexion-ssh.md:78
+#: ../../tutos/premiere-connexion-ssh.md:79
 msgid "Fichier `known_hosts`"
 msgstr "`known_hosts` file"
 
-#: ../../tutos/premiere-connexion-ssh.md:81
-msgid ""
-"Concrètement, cela consiste à ajouter une ligne de texte contenant la clef "
-"🔑, à un fichier sur votre appareil. Ce fichier s'appellera `known_hosts`, "
-"*serveurs connus*. Il devra se trouver dans un dossier `.ssh`, lui-même au "
-"sein de votre espace personnel sur votre appareil."
-msgstr ""
-"Concretely, this consists of adding a line of text containing the key 🔑, to "
-"a file on your device. This file will be called `known_hosts`, *known "
-"servers*. It should be in a `.ssh` folder, itself within your personal space "
-"on your device."
-
-#: ../../tutos/premiere-connexion-ssh.md:88
-msgid ""
-"Le dossier correspondant à votre espace personnel porte généralement le nom "
-"de votre utilisateur sur cet appareil."
-msgstr ""
-"The folder corresponding to your personal space is usually named after your "
-"user on this device."
-
-#: ../../tutos/premiere-connexion-ssh.md:99
-msgid ""
-"Normalement, le {term}`dossier caché` `.ssh` à dû être créé lors de la "
-"tentative de connexion SSH."
-msgstr ""
-"Normally, the `.ssh` {term}`hidden folder` should have been created during "
-"the SSH connection attempt."
-
-#: ../../tutos/premiere-connexion-ssh.md:101
+#: ../../tutos/premiere-connexion-ssh.md:82
+#, fuzzy
+#| msgid ""
+#| "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
+#| "fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
 msgid ""
 "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
-"fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
+"fichier. Les commandes suivantes font tout ça pour vous ! 🪄"
 msgstr ""
 "Now we just have to write the server key in a `known_host` file. The "
 "following command does all that for you! 🪄"
 
-#: ../../tutos/premiere-connexion-ssh.md:108
-msgid ""
-"Si tout s'est bien passé, le fichier `known_hosts` doit maintenant contenir "
-"une ligne contenant la clef."
-msgstr ""
-"If everything went well, the file `known_hosts` should now contain a line "
-"with the key."
-
-#: ../../tutos/premiere-connexion-ssh.md:111
-msgid ""
-"Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-le-"
-"terminal) sans voir le message d'alerte et il vous faudra alors entrer votre "
-"**mot de passe** CLUB1."
-msgstr ""
-"You should now be able to [connect via SSH](#connexion-avec-le-terminal) "
-"without seeing the alert message and you will then need to enter your CLUB1 "
-"**password**."
-
-#: ../../tutos/premiere-connexion-ssh.md:115
-msgid ""
-"Lorsque vous tapez votre mot de passe, rien ne s'affiche ! C'est normal, il "
-"s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
-"de caractères du mot de passe. 🤫"
-msgstr ""
-"When you type your password, nothing is displayed! It is normal, it is a "
-"security measure that does not even reveal the number of characters in the "
-"password. 🤫"
-
-#: ../../tutos/premiere-connexion-ssh.md:121
+#: ../../tutos/premiere-connexion-ssh.md:91
 msgid ""
 "Dans une fenêtre de terminal, il est généralement possible de \"coller\" un "
 "texte en faisant \"Clic droit\" --> {guilabel}`Coller`. Ou encore {kbd}"
@@ -6863,11 +6882,79 @@ msgstr ""
 "\"Right click\" --> {guilabel}`Paste`. Or {kbd}`Ctrl` + {kbd}`Shift` + {kbd}"
 "`V`."
 
+#: ../../tutos/premiere-connexion-ssh.md:97
+#, fuzzy
+#| msgid ""
+#| "Concrètement, cela consiste à ajouter une ligne de texte contenant la "
+#| "clef 🔑, à un fichier sur votre appareil. Ce fichier s'appellera "
+#| "`known_hosts`, *serveurs connus*. Il devra se trouver dans un dossier `."
+#| "ssh`, lui-même au sein de votre espace personnel sur votre appareil."
+msgid ""
+"Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef "
+"🔑, à un fichier sur votre appareil. Ce fichier s'appelle `known_hosts`, "
+"*serveurs connus*. Il se trouve dans un dossier `.ssh`, lui-même au sein de "
+"votre espace personnel sur votre appareil."
+msgstr ""
+"Concretely, this consists of adding a line of text containing the key 🔑, to "
+"a file on your device. This file will be called `known_hosts`, *known "
+"servers*. It should be in a `.ssh` folder, itself within your personal space "
+"on your device."
+
+#: ../../tutos/premiere-connexion-ssh.md:104
+msgid ""
+"Le dossier correspondant à votre espace personnel porte généralement le nom "
+"de votre utilisateur sur cet appareil."
+msgstr ""
+"The folder corresponding to your personal space is usually named after your "
+"user on this device."
+
+#: ../../tutos/premiere-connexion-ssh.md:115
+#, fuzzy
+#| msgid "Connexion ouverte"
+msgid "Connexion sécurisée"
+msgstr "Open login"
+
+#: ../../tutos/premiere-connexion-ssh.md:118
+#, fuzzy
+#| msgid ""
+#| "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-"
+#| "le-terminal) sans voir le message d'alerte et il vous faudra alors entrer "
+#| "votre **mot de passe** CLUB1."
+msgid ""
+"Maintenant que l'on a passé toutes ces étapes, Vous devriez pouvoir vous "
+"[connecter en SSH](#connexion-avec-le-terminal) sans voir le message "
+"d'alerte."
+msgstr ""
+"You should now be able to [connect via SSH](#connexion-avec-le-terminal) "
+"without seeing the alert message and you will then need to enter your CLUB1 "
+"**password**."
+
+#: ../../tutos/premiere-connexion-ssh.md:122
+msgid "On lance à nouveau la commande :"
+msgstr ""
+
 #: ../../tutos/premiere-connexion-ssh.md:126
+#, fuzzy
+#| msgid "Mot de passe : rentrez votre mot de passe CLUB1"
+msgid ""
+"Cette fois ci, il vous faudra alors entrer votre **mot de passe** CLUB1."
+msgstr "Password: enter your CLUB1 password"
+
+#: ../../tutos/premiere-connexion-ssh.md:129
+msgid ""
+"Lorsque vous tapez votre mot de passe, rien ne s'affiche ! C'est normal, il "
+"s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
+"de caractères du mot de passe. 🤫"
+msgstr ""
+"When you type your password, nothing is displayed! It is normal, it is a "
+"security measure that does not even reveal the number of characters in the "
+"password. 🤫"
+
+#: ../../tutos/premiere-connexion-ssh.md:135
 msgid "Dans le serveur"
 msgstr "In the server"
 
-#: ../../tutos/premiere-connexion-ssh.md:129
+#: ../../tutos/premiere-connexion-ssh.md:138
 msgid ""
 "Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
 "C'est un accès privilégié, car c'est celui qui vous donne le plus de "
@@ -6877,7 +6964,7 @@ msgstr ""
 "privileged access, because it is the one that gives you the most freedom of "
 "interaction with the server."
 
-#: ../../tutos/premiere-connexion-ssh.md:133
+#: ../../tutos/premiere-connexion-ssh.md:142
 msgid ""
 "🍾 Pour fêter ça, voici [une petite sélection de commandes à découvrir](../"
 "services/ssh.md#sélection-de-commandes)."
@@ -7437,10 +7524,10 @@ msgid "Documentation {CLUB1}"
 msgstr "{CLUB1} documentation"
 
 #. Add custom 'software' directive and refs
-#: conf.py:327 conf.py:328
+#: conf.py:330 conf.py:331
 msgid "logiciel"
 msgstr "software"
 
-#: conf.py:329 conf.py:330
+#: conf.py:332 conf.py:333
 msgid "commande"
 msgstr "command"
