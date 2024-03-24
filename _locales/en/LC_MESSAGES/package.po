@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2024-03-24 23:13+0100\n"
-"PO-Revision-Date: 2024-01-04 16:08+0000\n"
+"PO-Revision-Date: 2024-03-24 22:47+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -417,6 +417,10 @@ msgid ""
 "identifiant est assez largement utilisé à différents niveaux, notamment pour "
 "les adresses email, les pages Web statiques et les bases de données."
 msgstr ""
+"There is currently nothing done to allow members to modify their [CLUB1 "
+"identifier](./info/general.md#identifiant). Indeed this identifier is widely "
+"used at different levels, especially for email addresses, static web pages "
+"and databases."
 
 #: ../../faq.md:33
 msgid ""
@@ -445,13 +449,15 @@ msgstr ""
 
 #: ../../faq.md:43
 msgid "Quel espace est-ce-que j'occupe sur le serveur ?"
-msgstr ""
+msgstr "What space do I occupy on the server?"
 
 #: ../../faq.md:45
 msgid ""
 "À part [pour les emails](./services/email.md#quotas), il n'est défini "
 "**aucun quota pour les espaces personnel**."
 msgstr ""
+"Except [for emails](./services/email.md#quotas), there are ** no quota "
+"defined for personal spaces**."
 
 #: ../../faq.md:48
 msgid ""
@@ -459,6 +465,9 @@ msgid ""
 "info/espace-personnel.md), on peut lancer la commande suivante, une fois "
 "[connecté en SSH](/services/ssh.md) :"
 msgstr ""
+"For an estimate of the space occupied by your [personal files](/info/espace-"
+"personnel.md), the following command can be run once [connected with SSH](/"
+"services/ssh.md):"
 
 #: ../../faq.md:53
 msgid ""
@@ -467,12 +476,17 @@ msgid ""
 "vous ! Elle permet de trier et de mettre en évidence ce qui prend le plus "
 "d'espace dans vos fichiers et dossiers."
 msgstr ""
+"If you want to reduce the weight of your folder, but you don't know where to "
+"start, the {commande}`ncdu` command is for you! It allows you to sort and "
+"highlight what takes the most space in your files and folders."
 
 #: ../../faq.md:59
 msgid ""
 "Enfin, pour connaître l'espace restant disponible sur le support de "
 "stockage, on peut utiliser cette dernière commande :"
 msgstr ""
+"Finally, to know the remaining space available on the storage medium, this "
+"last command can be used:"
 
 #: ../../faq.md:64
 msgid ""
@@ -4474,6 +4488,9 @@ msgid ""
 "Messagerie_instantan%C3%A9e) [__décentralisé__](https://fr.wikipedia.org/"
 "wiki/Red%C3%A9centralisation_d%27Internet)."
 msgstr ""
+"{term}`Protocol` for [__decentralized__]](https://en.wikipedia.org/wiki/"
+"Decentralized_computing) [instant messaging](https://en.wikipedia.org/wiki/"
+"Instant_messaging)."
 
 #: ../../services/matrix.md:9
 msgid ""
@@ -4633,7 +4650,7 @@ msgstr ""
 
 #: ../../services/matrix.md:118
 msgid "Formatage"
-msgstr ""
+msgstr "Formatting"
 
 #: ../../services/matrix.md:120
 msgid ""
@@ -4710,6 +4727,10 @@ msgid ""
 "qui soit annoncée comme \"stable\". --- [Sources](https://github.com/matrix-"
 "org/synapse)"
 msgstr ""
+"{term}`Matrix` {term}`server` written in Python. This is the reference "
+"implementation of a Matrix server and for now the only one that is "
+"advertised as \"stable\". --- [Sources](https://github.com/matrix-org/"
+"synapse)"
 
 #: ../../services/matrix.md:174
 msgid ""
@@ -4719,6 +4740,11 @@ msgid ""
 "(https://github.com/element-hq/element-web), [Wikipedia](https://fr."
 "wikipedia.org/wiki/Element_(logiciel))"
 msgstr ""
+"Complete ({term}`Matrix` {term}`client` formerly \"Riot\") available on many "
+"platforms. CLUB1 hosts an {term}` instance` of the {term}`Web` version of "
+"this client at <https://riot.club1.fr>. --- [Sources](https://github.com/"
+"element-hq/element-web), [Wikipedia](https://en.wikipedia.org/wiki/"
+"Element_(software))"
 
 #: ../../services/rss.md:1
 msgid "Agrégateur de flux de nouvelles (RSS/Atom)"
@@ -4992,6 +5018,10 @@ msgid ""
 "un ordinateur, car à travers elle, on peut [lancer des programmes]"
 "(#sélection-de-commandes) sur le serveur !"
 msgstr ""
+"The SSH connection is the purest connection you can have with the server (at "
+"least among those which do not require to use psychotropics). It is also the "
+"one that feels the most like using a computer, because through it, one can ["
+"run programs](#sélection-de-commandes) on the server!"
 
 #: ../../services/ssh.md:11
 msgid ""
