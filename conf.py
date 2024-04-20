@@ -93,8 +93,8 @@ myst_substitutions = {
 # Allowed URL schemes
 myst_url_schemes = ['http', 'https', 'mailto', 'matrix']
 
-# Strip everything after the last emdash in term's tooltips.
-term_tooltips_apply_function = lambda s: s.rsplit('—', 1)[0].strip()
+# Strip everything after the first emdash in term's tooltips.
+term_tooltips_end_before = '— '
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

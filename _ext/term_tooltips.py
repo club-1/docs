@@ -13,7 +13,8 @@ from typing import Callable, Optional, Tuple
 class TermTooltips(SphinxPostTransform):
     default_priority = 5
     logger = logging.getLogger('term_tooltips')
-    apply: Optional[Callable[[str], str]]
+    start_after: Optional[str]
+    end_before: Optional[str]
     single_newlines = re.compile('(?<!\n)\n(?!\n)')
     too_much_newlines = re.compile('\n{3,}')
     stddomain: StandardDomain
@@ -21,7 +22,8 @@ class TermTooltips(SphinxPostTransform):
     def run(self) -> None:
         if self.app.builder.format != 'html':
             return
-        self.apply = self.app.config.term_tooltips_apply_function
+        self.start_after = self.app.config.term_tooltips_start_after
+        self.end_before = self.app.config.term_tooltips_end_before
         # Get dictionary of terms from the standard domain.
         stddomain = self.env.get_domain('std')
         assert isinstance(stddomain, StandardDomain), "'std' domain is not an instance of StandardDomain"
@@ -77,8 +79,10 @@ class TermTooltips(SphinxPostTransform):
         deftext = parent[index].astext()
         deftext = self.single_newlines.sub(' ', deftext)
         deftext = self.too_much_newlines.sub('\n\n', deftext)
-        if self.apply != None:
-            deftext = self.apply(deftext)
+        if self.start_after != None:
+            deftext = deftext.split(self.start_after, 1)[-1].lstrip()
+        if self.end_before != None:
+            deftext = deftext.split(self.end_before, 1)[0].rstrip()
         newnode = nodes.abbreviation()
         newnode['explanation'] = deftext
         newnode += ref.deepcopy()
@@ -92,7 +96,11 @@ class TooltipsHTMLTranslator(HTML5Translator):
 
 def setup(app: Sphinx):
     app.add_config_value(
-            name='term_tooltips_apply_function',
+            name='term_tooltips_start_after',
+            default=None,
+            rebuild='html')
+    app.add_config_value(
+            name='term_tooltips_end_before',
             default=None,
             rebuild='html')
     app.add_post_transform(TermTooltips)
