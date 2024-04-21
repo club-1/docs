@@ -78,7 +78,8 @@ $(LOCALEDIR)/sphinx.pot: $(BUILDDIR)/gettext/sphinx.pot
 
 $(BUILDDIR)/gettext/%.pot: gettext;
 
-latexpdf info: %: $(LANGUAGES:%=\%/%);
+# Special Sphinx builders that need two steps
+latexpdf info: %: $(LANGUAGES:%=\%/%)
 
 $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 	cat _templates/style.xdy >> $(BUILDDIR)/$</sphinx.xdy
@@ -87,6 +88,10 @@ $(LANGUAGES:%=latexpdf/%): latexpdf/%: latex/%
 
 $(LANGUAGES:%=info/%): info/%: texinfo/%
 	$(MAKE) -C $(BUILDDIR)/$<
+
+# Add some dependencies to the html builders
+html: $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml
+$(LANGUAGES:%=html/%): _static/js/theme.js
 
 $(BUILDDIR)/html/index.html: _templates/index.html | $(BUILDDIR)/html
 	cp $< $@
@@ -101,24 +106,22 @@ publish:
 	rsync -av --checksum --fuzzy --delete-delay --include='.htaccess' --exclude='.*' _build/html/ $(USER)@$(PUBHOST):$(PUBDIR)
 
 # Build the full docs ready to be published for a language
-all: $(ALL) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml;
+all: $(ALL) html latexpdf epub
 $(ALL): export DOWNLOADS = club1-$(@F)-latest.pdf club1-$(@F)-latest.epub
 $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
 	cp $(BUILDDIR)/latex/$*/club1.pdf $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).pdf
 	cp $(BUILDDIR)/epub/$*/CLUB1.epub $(BUILDDIR)/html/$*/club1-$*-$(RELEASE).epub
 
 # Shinx builders that builds localized versions.
-$(filter-out html,$(SPHINXBUILDERS)): %: $(LANGUAGES:%=\%/%);
-
-html: $(LANGUAGES:%=html/%) $(BUILDDIR)/html/index.html $(BUILDDIR)/html/.htaccess $(BUILDDIR)/html/metadata.yaml
+$(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%)
 
 # Localized Sphinx builders
 .SECONDEXPANSION:
-$(SPHINXLBUILDERS): deps $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
+$(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
 	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
 
 # Other Sphinx commands for autocompletion
-$(SPHINXCMDS): deps
+$(SPHINXCMDS):
 	$(SPHINXBUILD) -M $@ $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 deps: _static/js/theme.js;
