@@ -39,7 +39,7 @@ XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
 DIFF         := diff -u --color
 
-RTDVERSION   := 1.2.0
+RTDVERSION   := 2.0.0
 
 PUBHOST         ?= club1.fr
 PUBDIR          ?= /var/www/docs
