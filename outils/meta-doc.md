@@ -184,7 +184,7 @@ gettext
    _(Optionnel)_ Pour les locales autres que Français.
 ```
 
-Installation sur *Debian* :
+Installation sur {term}`Debian` :
 
     sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme
     sudo apt install python3-sphinx-notfound-page python3-sphinx-copybutton gettext
@@ -211,7 +211,7 @@ ImageMagick
    Outil pour manipuler des images en {term}`CLI`.
 ```
 
-Installation sur *Debian* :
+Installation sur {term}`Debian` :
 
     sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy imagemagick
 

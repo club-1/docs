@@ -31,7 +31,7 @@ Il vit dans le placard comme _Harry Potter_...
 
 ### Système d'exploitation
 
-Le serveur tourne sur **Debian 11** et est mis à jour régulièrement.
+Le serveur tourne sur **{term}`Debian` 11** et est mis à jour régulièrement.
 Les mises-à-jour de sécurité sont installées automatiquement dans les 24 heures
 à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-upgrades)
 et les services en dépendant sont ensuite automatiquement redémarrés grâce à
@@ -39,7 +39,7 @@ et les services en dépendant sont ensuite automatiquement redémarrés grâce �
 
 ### Logiciels et bibliothèques installés
 
-L'ensemble des logiciels installés sont sous **licence libre**,
+L'ensemble des logiciels installés sont sous **licence {term}`libre <logiciel libre>`**,
 à part pour ceux de la liste suivante, dont il n'existe pas d'alternatives libres :
 
 - BIOS/BMC Supermicro

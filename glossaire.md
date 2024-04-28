@@ -50,6 +50,11 @@ client
 client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
+Debian
+   Distribution {term}`Linux` communautaire,
+   composée presque exclusivement de {term}`logiciels libres <logiciel libre>`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian)
+
 fichier caché
 dossier caché
    Dans la plupart des systèmes d'exploitation,
@@ -68,7 +73,7 @@ GitHub
 
    ```{warning}
    Contrairement à la plupart des projets que l'on peut y trouver,
-   Github n'est ni **libre**, ni **open source** et appartient à Microsoft.
+   Github n'est ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à Microsoft.
    ```
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
@@ -98,7 +103,7 @@ instance
 
    On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec des données différentes.
    Sur le serveur CLUB1, il y a notamment plusieurs instances de {term}`PHP` : au moins une pour chaque membre.
-   --- [Wiktionnaire](https://fr.wiktionary.org/wiki/instance)
+   --- [Wiktionnaire](https://fr.wiktionary.org/wiki/instance#Nom_commun_2)
 
 Internet
    {term}`Réseau informatique` mondial accessible au public.
@@ -107,11 +112,26 @@ Internet
    Il s'agit donc d'un "réseau de réseaux". ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
+Linux
+   Noyau de système d'exploitation {term}`libre <logiciel libre>`, respectant les normes POSIX.
+   Le noyau est le cœur du système,
+   il fait l'interface entre les logiciels utilisateurs et le matériel.
+
+   Par extention, Linux fait souvent référence à tout système d'exploitation basé sur ce noyau.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)
+
 log
-   Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/wiki/Livre_de_bord) d'un navire.
+   Désigne à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/wiki/Livre_de_bord) d'un navire.
    En informatique il s'agit d'un journal contenant un historique d'événements,
    généralement sous la forme de ficher en texte brut.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Historique_(informatique))
+
+logiciel libre
+   Désigne des logiciels qui respectent la liberté des utilisateurs.
+   En particulier, les utilisateurs ont la liberté d'exécuter,
+   copier, étudier, modifier et améliorer ces logiciels,
+   et surtout celle de les repartager, modifiée ou non.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
 Markdown
    Langage de balisage léger permettant de mettre en forme un document.

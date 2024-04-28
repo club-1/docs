@@ -61,7 +61,7 @@ Logiciels
 
 ```{logiciel} slapd
 {term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP,
-une implémentation libre du protocole LDAP.
+une implémentation {term}`libre <logiciel libre>` du protocole LDAP.
 --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenLDAP),
 [Sources](https://git.openldap.org/openldap/openldap)
 ```

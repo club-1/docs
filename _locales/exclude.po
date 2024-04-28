@@ -34,6 +34,9 @@ msgstr ""
 msgid "DNS"
 msgstr ""
 
+msgid "Debian"
+msgstr ""
+
 msgid "DejaVu"
 msgstr ""
 
@@ -71,6 +74,9 @@ msgid "LDAP"
 msgstr ""
 
 msgid "Latexmk"
+msgstr ""
+
+msgid "Linux"
 msgstr ""
 
 msgid "LuaTeX"
