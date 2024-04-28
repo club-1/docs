@@ -51,9 +51,10 @@ client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
 Debian
-   Distribution {term}`Linux` communautaire,
-   composée presque exclusivement de {term}`logiciels libres <logiciel libre>`.
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian)
+   Système d'exploitation communautaire basé sur {term}`Linux`,
+   composé presque exclusivement de {term}`logiciels libres <logiciel libre>`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian),
+   [Site Web](https://www.debian.org/)
 
 fichier caché
 dossier caché
