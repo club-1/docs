@@ -131,7 +131,7 @@ logiciel libre
    Désigne des logiciels qui respectent la liberté des utilisateurs.
    En particulier, les utilisateurs ont la liberté d'exécuter,
    copier, étudier, modifier et améliorer ces logiciels,
-   et surtout celle de les repartager, modifiée ou non.
+   et surtout celle de les repartager, modifiés ou non.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
 Markdown
