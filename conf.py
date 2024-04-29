@@ -174,13 +174,10 @@ html_logo = '_static/club1logo.png'
 # GitHub.
 html_copy_source = False
 
-# Only show source link for french docs as other languages are stored in .po.
-html_show_sourcelink = language == 'fr'
-
 html_context = {
     'basepath': f'{html_basepath}',
     'version': release,
-    'display_github': language == 'fr',
+    'display_github': True,
     'github_user': 'club-1',
     'github_repo': 'docs',
     'github_version': f'{version}/',
