@@ -107,7 +107,7 @@ porte généralement le nom de votre utilisateur sur cet appareil.
 
     📁 <utilisateur>
     ├─ 📁 .ssh
-    │  └─ 📄 known_host    🖜
+    │  └─ 📄 known_host    👈🏽
     ├─ 📁 Documents
     ├─ 📁 Images
     ...
