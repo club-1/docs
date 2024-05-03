@@ -306,6 +306,8 @@ linkcheck_ignore = [
     r'https://www\.silverstonetek\.com/',
     r'matrix:',
     r'https://www\.buddyns\.com',
+    r'https://www\.eaton\.com',
+    r'https://dnssec-analyzer\.verisignlabs\.com',
 ]
 
 # Allow some redirects.
