@@ -1,4 +1,4 @@
-sphinx == 7.3.7
+sphinx @ git+https://github.com/club-1/sphinx@club1
 myst-parser == 2.0.0
 sphinx-rtd-theme == 2.0.0
 sphinx-notfound-page == 1.0.0

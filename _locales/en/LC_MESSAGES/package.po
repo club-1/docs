@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2024-03-24 23:13+0100\n"
-"PO-Revision-Date: 2024-03-24 22:47+0000\n"
+"PO-Revision-Date: 2024-05-02 13:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.5.3-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -495,6 +495,10 @@ msgid ""
 "travers un {term}`terminal`. Ou sur le [Drive](/services/drive.md), en bas "
 "du panneau latéral."
 msgstr ""
+"This information is also visible in the [MOTD](https://en.wikipedia.org/wiki/"
+"Message_of_the_day), when you log in with {term}`SSH` through a "
+"{term}`terminal`. Or on the [Drive](/services/drive.md), at the bottom of "
+"the side panel."
 
 #: ../../genindex.rst:4
 msgid "Index"
@@ -789,32 +793,24 @@ msgid ""
 msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
 
 #: ../../glossaire.md:126
-#, fuzzy
-#| msgid ""
-#| "Un domaine permet d'associer des informations à un nom. Parmi ces "
-#| "informations, la plus importante est l'{term}`adresse IP` de l'ordinateur "
-#| "associé à ce domaine. Un nom de domaine est donc souvent utilisé comme un "
-#| "{term}`alias` pour une adresse IP."
 msgid ""
 "Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
 "Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
 "l'ordinateur associé à ce domaine. Un nom de domaine est donc souvent "
 "utilisé comme un {term}`alias` pour une adresse IP."
 msgstr ""
-"A domain allows to associate information with a name. Among this information "
-"the most important is the {term}`IP address` of the computer associated with "
-"this domain. A domain name is therefore often used as an {term}`alias` for "
-"an IP address."
+"In the {term}`DNS`, a domain allows to associate information with a name. "
+"Among this information, the most important is the {term}`IP address` of the "
+"computer associated with this domain. A domain name is therefore often used "
+"as an {term}`alias` for an IP address."
 
 #: ../../glossaire.md:130
-#, fuzzy
-#| msgid ""
-#| "En plus de ces informations, un domaine peut également avoir des sous "
-#| "domaines."
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
-msgstr "In addition to this information, a domain can also have subdomains."
+msgstr ""
+"In addition to this information, a domain can also have subdomains. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Domain_name)"
 
 #: ../../glossaire.md:134
 msgid ""
@@ -967,8 +963,8 @@ msgid ""
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
-"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
-"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
 #: ../../glossaire.md:193
 msgid ""
@@ -1007,19 +1003,12 @@ msgid ""
 "`client` utilisé pour y accéder. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/World_Wide_Web)"
 msgstr ""
-"A \"Web page\"usually consists of a document whose content is written in "
+"A \"Web page\" usually consists of a document whose content is written in "
 "{term}`HTML` and may include other resources such as images or \"style "
 "sheets\". The {term}`client` used to access it is called a \"Web browser\". "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)"
 
 #: ../../glossaire.md:211
-#, fuzzy
-#| msgid ""
-#| "Type d'application {term}`Web` qui permet de créer un site de manière "
-#| "collaborative. L'édition des pages est possible depuis le naviguateur "
-#| "Web. Le plus connu étant *Wikipedia*. Le nom provient de la langue "
-#| "Hawaïenne dans laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Wiki)"
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
@@ -1726,6 +1715,8 @@ msgid ""
 "C'est une carte au format standard [Mini-ITX](https://en.wikipedia.org/wiki/"
 "Mini-ITX), elle a donc un format carré de 17cm de côté."
 msgstr ""
+"It is a standard [Mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) format "
+"board, so it has a 17cm square format."
 
 #: ../../info/infrastructure-materielle.md:99
 msgid "![carte mère vue du dessus](infrastructure-materielle/carte-mere.png)"
@@ -1738,33 +1729,31 @@ msgstr "top shot of the motherboard"
 
 #: ../../info/infrastructure-materielle.md:101
 msgid "**Connectiques principales :**"
-msgstr ""
+msgstr "**Main connections:**"
 
 #: ../../info/infrastructure-materielle.md:103
-#, fuzzy
-#| msgid "Stockage"
 msgid "stockage"
-msgstr "Storage"
+msgstr "storage"
 
 #: ../../info/infrastructure-materielle.md:104
 msgid "1 port M.2"
-msgstr ""
+msgstr "1 M.2 port"
 
 #: ../../info/infrastructure-materielle.md:105
 msgid "1 port mini-SAS HD"
-msgstr ""
+msgstr "1 mini-SAS HD port"
 
 #: ../../info/infrastructure-materielle.md:106
 msgid "4 ports SATA"
-msgstr ""
+msgstr "4 SATA ports"
 
 #: ../../info/infrastructure-materielle.md:107
 msgid "réseau"
-msgstr ""
+msgstr "network"
 
 #: ../../info/infrastructure-materielle.md:108
 msgid "4 ports RJ45 Ethernet 1Gb/s"
-msgstr ""
+msgstr "4 1Gb/s Ethernet RJ45 ports"
 
 #: ../../info/infrastructure-materielle.md:110
 msgid "Processeur"
@@ -1775,12 +1764,12 @@ msgid "Modèle : `Intel Atom C3000`"
 msgstr "Model: `Intel Atom C3000`"
 
 #: ../../info/infrastructure-materielle.md:114
-#, fuzzy
-#| msgid "Processeur quadri-c&oelig;ur à faible consommation."
 msgid ""
 "Processeur quadri-c&oelig;ur à faible consommation. Il est directement soudé "
 "sur la [carte mère](#carte-mère)."
-msgstr "Low consumption quad-core processor."
+msgstr ""
+"Low consumption quad-core processor. It is directly soldered on the "
+"[motherboard](#carte-mère)."
 
 #: ../../info/infrastructure-materielle.md:117
 msgid "Mémoire vive"
@@ -1819,10 +1808,14 @@ msgid ""
 "au port M.2 de la carte mère. C'est la configuration permettant d'avoir les "
 "débits les plus rapides permis par cette [carte mère](#carte-mère)."
 msgstr ""
+"The operating system, as well as {logiciel}`MariaDB` and PostgreSQL "
+"databases are on a NVMe SSD with a capacity of 1To connected to the M.2 port "
+"of the motherboard. This configuration provides the fastest bitrates allowed "
+"by this [motherboard](#carte-mère)."
 
 #: ../../info/infrastructure-materielle.md:136
 msgid "Modèle : `Samsung SSD 980 1To`"
-msgstr ""
+msgstr "Model: `Samsung 980 SSD 1To`"
 
 #: ../../info/infrastructure-materielle.md:138
 msgid "Utilisateurs"
@@ -1855,16 +1848,12 @@ msgid "Stockage secondaire"
 msgstr "Secondary storage"
 
 #: ../../info/infrastructure-materielle.md:150
-#, fuzzy
-#| msgid ""
-#| "Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](./"
-#| "general.md#sauvegardes)."
 msgid ""
 "Disque dur de 2To 5600tr/min. Non pris en charge par les [sauvegardes](/"
 "outils/sauvegardes.md)."
 msgstr ""
-"2TB 5600rpm hard drive. Not supported by the [backups](./general."
-"md#sauvegardes)."
+"2TB 5600rpm hard drive. Not supported by the [backups](/outils/sauvegardes."
+"md)."
 
 #: ../../info/infrastructure-materielle.md:152
 msgid "Alimentation"
@@ -1901,10 +1890,8 @@ msgstr ""
 "`group`)."
 
 #: ../../info/politique-de-vie-privee.md:15
-#, fuzzy
-#| msgid "Les [sauvegardes](./general.md#sauvegardes) sont, elles, chiffrées."
 msgid "Les [sauvegardes](/outils/sauvegardes.md) sont, elles, chiffrées."
-msgstr "The [backups](./general.md#sauvegardes) are encrypted."
+msgstr "The [backups](/outils/sauvegardes.md) are encrypted."
 
 #: ../../info/politique-de-vie-privee.md:16
 msgid ""
@@ -2103,10 +2090,10 @@ msgid ""
 "`adresses IP <adresse IP>` ou d'autres types d'enregistrements. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_Service)"
 msgstr ""
-"(Domain Name System) Distributed computer service that associates {term}"
-"`Internet` {term}`domain names <domain name>` with their {term}`IP addresses "
-"<IP address>` or other types of records. --- [Wikipedia](https://en."
-"wikipedia.org/wiki/BIND)"
+"(Domain Name System) Distributed computer service that associates "
+"{term}`Internet` {term}`domain names <domain name>` with their {term}`IP "
+"addresses <IP address>` or other types of records. --- [Wikipedia](https://en"
+".wikipedia.org/wiki/BIND)"
 
 #: ../../outils/dns.md:12
 msgid ""
@@ -2230,6 +2217,9 @@ msgid ""
 "modification manuelle, ne pas oublier de lancer le script `dns-bump` sur le "
 "fichier de zone en question."
 msgstr ""
+"The zone changes are mainly made by [CLUB1 scripts](https://github.com/"
+"club-1/hosting/), but in the case of a manual modification, do not forget to "
+"run the `dns-bump` script on the corresponding zonefile."
 
 #: ../../outils/dns.md:65
 msgid ""
@@ -2604,11 +2594,14 @@ msgid "Annuaire LDAP"
 msgstr "LDAP directory"
 
 #: ../../outils/ldap.md:6
+#, fuzzy
 msgid ""
 "(_Lightweight Directory Access Protocol_) {term}`Protocole` de service "
 "d'annuaire décrivant à la fois un modèle de données et la manière "
 "d'interroger et de modifier ces données."
 msgstr ""
+"(Lightweight Directory Access Protocol) Directory service {term}`Protocol` "
+"describing both a data model and how to query and modify this data."
 
 #: ../../outils/ldap.md:9
 msgid ""
@@ -2626,6 +2619,8 @@ msgid ""
 "Le schéma de données n'est pas fixé, il faut donc le connaitre, avant de "
 "pouvoir interagir avec un annuaire LDAP."
 msgstr ""
+"The data schema is not fixed, so you need to know it before you can interact "
+"with a LDAP directory."
 
 #: ../../outils/ldap.md:19
 msgid ""
@@ -2634,6 +2629,9 @@ msgid ""
 "identifiants de connexion entre les différents [services membres](/services-"
 "membres.md)."
 msgstr ""
+"CLUB1 uses a {term}`LDAP` directory to store its member accounts centrally. "
+"This allows to share the login credentials between the different [member "
+"services](/services-membres.md)."
 
 #: ../../outils/ldap.md:25
 msgid "Détails de configuration"
@@ -3046,6 +3044,8 @@ msgid ""
 "Outils de génération de graphes visuels à partir d'une déscription en "
 "language DOT. --- [Wikipedia](https://fr.wikipedia.org/wiki/Graphviz)"
 msgstr ""
+"Visual graph generation tools based on a description written in DOT "
+"language. --- [Wikipedia](https://en.wikipedia.org/wiki/Graphviz)"
 
 #: ../../outils/meta-doc.md:165
 msgid ""
@@ -3371,13 +3371,6 @@ msgid "Sauvegardes avec Borg"
 msgstr "Backups with Borg"
 
 #: ../../outils/sauvegardes.md:11
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes sont réalisées avec {logiciel}`Borg`. Elles sont "
-#| "ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits "
-#| "dont un dépôt off-site offert par Etienne Le Louët (serveur Debian auto-"
-#| "hébergé à Paris)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
@@ -3385,10 +3378,10 @@ msgid ""
 "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
 "(serveur Debian auto-hébergé à Paris)."
 msgstr ""
-"System and user data are backed up once a day at 5am. Backups are made with "
-"{logiciel}`Borg`. They are thus stored in a deduplicated and encrypted "
-"manner in several places including an off-site repository offered by Etienne "
-"Le Louët (self-hosted Debian server in Paris)."
+"System and user data are backed up once a day at 5am. CLUB1's backups are "
+"based on {logiciel}`Borg` and {logiciel}`Borgmatic`. They are thus stored in "
+"a deduplicated and encrypted manner in several places including an off-site "
+"repository offered by Etienne Le Louët (self-hosted Debian server in Paris)."
 
 #: ../../outils/sauvegardes.md:16
 msgid ""
@@ -3670,7 +3663,7 @@ msgstr ""
 
 #: ../../outils/site.md:69
 msgid "Moteur de wiki"
-msgstr ""
+msgstr "Wiki Engine"
 
 #: ../../outils/site.md:72
 msgid ""
@@ -3678,6 +3671,9 @@ msgid ""
 "officiel de CLUB1, son usage se limite pour l'instant à quelques membres du "
 "club pour leurs sites respectifs."
 msgstr ""
+"The used wiki engine is not a very well-known tool. Apart from the official "
+"website of CLUB1, its use is limited for the moment to a few members of the "
+"club for their respective sites."
 
 #: ../../outils/site.md:78
 msgid ""
@@ -3686,6 +3682,10 @@ msgid ""
 "spontanée de pages aux styles variés. --- [Sources](https://github.com/"
 "vincent-peugnet/wcms/), [Site](https://w.club1.fr/)"
 msgstr ""
+"{term}`Wiki` engine written in {term}`PHP`. Its aim is to mix note taking "
+"with {term}`Web` site edition by encouraging the spontaneous edition of "
+"pages with various styles. --- [Sources](https://github.com/vincent-peugnet/"
+"wcms/), [Site](https://w.club1.fr/)"
 
 #: ../../services-membres.md:1
 msgid "Services réservés aux membres"
