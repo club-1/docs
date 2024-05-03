@@ -82,7 +82,7 @@ jobs:
         if: ${{ always() }}
         run: |
           echo '::add-matcher::.github/matchers/sphinx.json'
-          sed 's/\x1b\[[0-9;]*[mGKHF]//g' errors.*.log | sort -u
+          sort -u errors.*.log
           echo '::remove-matcher owner=sphinx::'
           echo '::remove-matcher owner=sphinx-translated::'
           echo '::remove-matcher owner=sphinx-loose::'
