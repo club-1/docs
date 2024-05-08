@@ -57,7 +57,7 @@ Logiciels
 ---------
 
 ```{logiciel} MariaDB
-{term}`Serveur` de bases de données {term}`SQL` distribué sous licence libre.
+{term}`Serveur` de bases de données {term}`SQL` distribué sous licence {term}`libre <logiciel libre>`.
 --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB),
 [Sources](https://github.com/MariaDB/server)
 ```

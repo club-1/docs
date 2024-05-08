@@ -11,7 +11,7 @@ Sauvegardes avec Borg
 Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
 Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}`Borgmatic`.
 Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
-dont un dépôt off-site offert par Etienne Le Louët (serveur Debian auto-hébergé à Paris).
+dont un dépôt off-site offert par Etienne Le Louët (serveur {term}`Debian` auto-hébergé à Paris).
 
 Il s'agit de sauvegardes incrémentales avec la politique de rétention suivante :
 
