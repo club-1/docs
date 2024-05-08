@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-03-24 23:13+0100\n"
+"POT-Creation-Date: 2024-05-08 11:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -485,15 +485,22 @@ msgid ""
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:42
+#: ../../glossaire.md:50
+msgid ""
+"Système d'exploitation communautaire basé sur {term}`Linux`, composé presque "
+"exclusivement de {term}`logiciels libres <logiciel libre>`. --- [Wikipedia]"
+"(https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
+msgstr ""
+
+#: ../../glossaire.md:48
 msgid "fichier caché"
 msgstr ""
 
-#: ../../glossaire.md:43
+#: ../../glossaire.md:49
 msgid "dossier caché"
 msgstr ""
 
-#: ../../glossaire.md:51
+#: ../../glossaire.md:57
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
@@ -501,7 +508,7 @@ msgid ""
 "par un point `.`."
 msgstr ""
 
-#: ../../glossaire.md:56
+#: ../../glossaire.md:62
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -509,49 +516,50 @@ msgid ""
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
 
-#: ../../glossaire.md:62
+#: ../../glossaire.md:68
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:72
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
-"ni **libre**, ni **open source** et appartient à Microsoft."
+"ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
+"Microsoft."
 msgstr ""
 
-#: ../../glossaire.md:70
+#: ../../glossaire.md:76
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:65
+#: ../../glossaire.md:71
 msgid "groupe"
 msgstr ""
 
-#: ../../glossaire.md:73
+#: ../../glossaire.md:79
 msgid ""
 "Les groupes servent à rassembler des utilisateurs afin de leur attribuer des "
 "droits communs. Un utilisateur UNIX appartient à un ou plusieurs groupes."
 msgstr ""
 
-#: ../../glossaire.md:77
+#: ../../glossaire.md:83
 msgid ""
 "Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
 "un accès {term}`SSH` avec la commande suivante :"
 msgstr ""
 
-#: ../../glossaire.md:82
+#: ../../glossaire.md:88
 msgid ""
 "En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
 msgstr ""
 
-#: ../../glossaire.md:85
+#: ../../glossaire.md:91
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
 msgstr ""
 
-#: ../../glossaire.md:88
+#: ../../glossaire.md:94
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -559,29 +567,29 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:85
+#: ../../glossaire.md:91
 msgid "instance"
 msgstr ""
 
-#: ../../glossaire.md:93
+#: ../../glossaire.md:99
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
 
-#: ../../glossaire.md:95
+#: ../../glossaire.md:101
 msgid ""
 "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
 "des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
 "instances de {term}`PHP` : au moins une pour chaque membre. --- "
-"[Wiktionnaire](https://fr.wiktionary.org/wiki/instance)"
+"[Wiktionnaire](https://fr.wiktionary.org/wiki/instance#Nom_commun_2)"
 msgstr ""
 
-#: ../../glossaire.md:92
+#: ../../glossaire.md:98
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:100
+#: ../../glossaire.md:106
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -590,16 +598,42 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:107
+#: ../../glossaire.md:113
 msgid ""
-"Designe à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
+"Noyau de système d'exploitation {term}`libre <logiciel libre>`. Le noyau est "
+"le cœur du système, il fait l'interface entre les logiciels utilisateurs et "
+"le matériel."
+msgstr ""
+
+#: ../../glossaire.md:117
+msgid ""
+"Par extention, Linux fait souvent référence à tout système d'exploitation "
+"basé sur ce noyau. --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)"
+msgstr ""
+
+#: ../../glossaire.md:121
+msgid ""
+"Désigne à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
 "wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
 "contenant un historique d'événements, généralement sous la forme de ficher "
 "en texte brut. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Historique_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:113
+#: ../../glossaire.md:119
+msgid "logiciel libre"
+msgstr ""
+
+#: ../../glossaire.md:127
+msgid ""
+"Désigne des logiciels qui respectent la liberté des utilisateurs. En "
+"particulier, les utilisateurs ont la liberté d'exécuter, copier, étudier, "
+"modifier et améliorer ces logiciels, et surtout celle de les repartager, "
+"modifiés ou non. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Logiciel_libre)"
+msgstr ""
+
+#: ../../glossaire.md:134
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -609,22 +643,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:113
+#: ../../glossaire.md:134
 msgid "nom de domaine"
 msgstr ""
 
-#: ../../glossaire.md:121
+#: ../../glossaire.md:142
 msgid ""
 "Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
 "être humain."
 msgstr ""
 
-#: ../../glossaire.md:124
+#: ../../glossaire.md:145
 msgid ""
 "Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
 msgstr ""
 
-#: ../../glossaire.md:126
+#: ../../glossaire.md:147
 msgid ""
 "Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
 "Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
@@ -632,13 +666,13 @@ msgid ""
 "utilisé comme un {term}`alias` pour une adresse IP."
 msgstr ""
 
-#: ../../glossaire.md:130
+#: ../../glossaire.md:151
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:134
+#: ../../glossaire.md:155
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -648,11 +682,11 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:134
+#: ../../glossaire.md:155
 msgid "protocole"
 msgstr ""
 
-#: ../../glossaire.md:142
+#: ../../glossaire.md:163
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -660,33 +694,33 @@ msgid ""
 "org/wiki/Protocole_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:140
+#: ../../glossaire.md:161
 msgid "registraire"
 msgstr ""
 
-#: ../../glossaire.md:148
+#: ../../glossaire.md:169
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou une association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:145
+#: ../../glossaire.md:166
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:153
+#: ../../glossaire.md:174
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:149
+#: ../../glossaire.md:170
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:157
+#: ../../glossaire.md:178
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -696,11 +730,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:157
+#: ../../glossaire.md:178
 msgid "site Web dynamique"
 msgstr ""
 
-#: ../../glossaire.md:165
+#: ../../glossaire.md:186
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -708,11 +742,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
 
-#: ../../glossaire.md:163
+#: ../../glossaire.md:184
 msgid "site Web statique"
 msgstr ""
 
-#: ../../glossaire.md:171
+#: ../../glossaire.md:192
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -722,11 +756,11 @@ msgid ""
 "Page_web_statique)"
 msgstr ""
 
-#: ../../glossaire.md:170
+#: ../../glossaire.md:191
 msgid "terminal"
 msgstr ""
 
-#: ../../glossaire.md:178
+#: ../../glossaire.md:199
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -734,7 +768,7 @@ msgid ""
 "textuelle, permettant d'entrer des commandes et d'en lire le résultat."
 msgstr ""
 
-#: ../../glossaire.md:182
+#: ../../glossaire.md:203
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -742,14 +776,14 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:187
+#: ../../glossaire.md:208
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
 
-#: ../../glossaire.md:193
+#: ../../glossaire.md:214
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -759,18 +793,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:193
+#: ../../glossaire.md:214
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:201
+#: ../../glossaire.md:222
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:205
+#: ../../glossaire.md:226
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -779,7 +813,7 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../glossaire.md:211
+#: ../../glossaire.md:232
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
@@ -796,7 +830,7 @@ msgstr ""
 msgid "Indexes et tables"
 msgstr ""
 
-#: ../../index.md:1 conf.py:237
+#: ../../index.md:1 conf.py:234
 msgid "Documentation de l'hébergement CLUB1"
 msgstr ""
 
@@ -1008,12 +1042,12 @@ msgstr ""
 
 #: ../../info/general.md:34
 msgid ""
-"Le serveur tourne sur **Debian 11** et est mis à jour régulièrement. Les "
-"mises-à-jour de sécurité sont installées automatiquement dans les 24 heures "
-"à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-"
-"upgrades) et les services en dépendant sont ensuite automatiquement "
-"redémarrés grâce à [_needrestart_](https://packages.debian.org/fr/stable/"
-"needrestart)."
+"Le serveur tourne sur **{term}`Debian` 11** et est mis à jour régulièrement. "
+"Les mises-à-jour de sécurité sont installées automatiquement dans les 24 "
+"heures à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/"
+"unattended-upgrades) et les services en dépendant sont ensuite "
+"automatiquement redémarrés grâce à [_needrestart_](https://packages.debian."
+"org/fr/stable/needrestart)."
 msgstr ""
 
 #: ../../info/general.md:40
@@ -1022,8 +1056,9 @@ msgstr ""
 
 #: ../../info/general.md:42
 msgid ""
-"L'ensemble des logiciels installés sont sous **licence libre**, à part pour "
-"ceux de la liste suivante, dont il n'existe pas d'alternatives libres :"
+"L'ensemble des logiciels installés sont sous **licence {term}`libre "
+"<logiciel libre>`**, à part pour ceux de la liste suivante, dont il n'existe "
+"pas d'alternatives libres :"
 msgstr ""
 
 #: ../../info/general.md:45
@@ -2149,9 +2184,9 @@ msgstr ""
 #: ../../outils/ldap.md:63
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
-"une implémentation libre du protocole LDAP. --- [Wikipedia](https://fr."
-"wikipedia.org/wiki/OpenLDAP), [Sources](https://git.openldap.org/openldap/"
-"openldap)"
+"une implémentation {term}`libre <logiciel libre>` du protocole LDAP. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/OpenLDAP), [Sources](https://git."
+"openldap.org/openldap/openldap)"
 msgstr ""
 
 #: ../../outils/ldap.md:70
@@ -2447,7 +2482,7 @@ msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr ""
 
 #: ../../outils/meta-doc.md:187 ../../outils/meta-doc.md:214
-msgid "Installation sur *Debian* :"
+msgid "Installation sur {term}`Debian` :"
 msgstr ""
 
 #: ../../outils/meta-doc.md:192
@@ -2711,7 +2746,7 @@ msgid ""
 "5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
 "`Borgmatic`. Elles sont ainsi stockées de manière dédupliquée et chiffrée à "
 "plusieurs endroits dont un dépôt off-site offert par Etienne Le Louët "
-"(serveur Debian auto-hébergé à Paris)."
+"(serveur {term}`Debian` auto-hébergé à Paris)."
 msgstr ""
 
 #: ../../outils/sauvegardes.md:16
@@ -4048,9 +4083,9 @@ msgstr ""
 
 #: ../../services/sql.md:60
 msgid ""
-"{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-"libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-"(https://github.com/MariaDB/server)"
+"{term}`Serveur` de bases de données {term}`SQL` distribué sous licence {term}"
+"`libre <logiciel libre>`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"MariaDB), [Sources](https://github.com/MariaDB/server)"
 msgstr ""
 
 #: ../../services/sql.md:66
@@ -4234,7 +4269,7 @@ msgid ""
 "{kbd}`Enter`. Composez ensuite votre message. Lorsque vous avez terminé, "
 "créez une nouvelle ligne puis tapez {kbd}`CTRL` + {kbd}`D`. Enfin vous "
 "pouvez si vous le souhaitez ajouter des destinataires en copie. --- Manuel : "
-"{manpage}`mailx.1`"
+"{manpage}`mailx.1 <bsd-mailx/mailx.1>`"
 msgstr ""
 
 #: ../../services/ssh.md:142
@@ -4531,9 +4566,9 @@ msgstr ""
 
 #: ../../services/web.md:167
 msgid ""
-"{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-"étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "
-"\"serveur Web\"."
+"{term}`Serveur` HTTP très populaire, distribué sous license {term}`libre "
+"<logiciel libre>`. HTTP étant le {term}`protocole` du {term}`Web` on parle "
+"aussi souvent de \"serveur Web\"."
 msgstr ""
 
 #: ../../services/web.md:170
@@ -4545,8 +4580,8 @@ msgstr ""
 
 #: ../../services/web.md:174
 msgid ""
-"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
-"inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy inverse\" "
+"{logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Apache_HTTP_Server), [Sources](https://github.com/apache/httpd)"
 msgstr ""
 
