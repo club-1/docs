@@ -139,7 +139,7 @@ Questions concernant le serveur Matrix de CLUB1
 
 Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur,
 cependant pour se faire un avis, il est possible de consulter
-les [statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du serveur Matrix et de Element.
+les [statistiques de disponibilité](https://status.club1.fr) du serveur Matrix et de Element.
 Des mises-à-jour sont effectuées régulièrement
 pour avoir la dernière version de {logiciel}`Synapse` et {logiciel}`Element`
 et ainsi éviter des bugs ou failles de sécurité.

@@ -77,7 +77,9 @@ Cela dit, une disponibilité effective **supérieure à 98%** devrait pouvoir ê
 assurée.
 
 Il est possible de consulter en direct l'état des différents services
-sur [UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)
+sur <https://status.club1.fr>.
+Cet outil d'observation des services est hébergé par [RésiLien](https://resilien.fr),
+membre du collectif [CHATONS](https://www.chatons.org), sur un serveur situé à Cremeaux.
 
 Comptes des membres
 -------------------
