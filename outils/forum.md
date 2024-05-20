@@ -114,7 +114,7 @@ Il est concu pour être extrêmement modulaire
 avec très peu de fonctionnalités faisant réellement partie du c&oelig;ur.
 Il est ainsi facile d'en développer des extensions de toute sorte,
 qui peuvent emmener l'outil forum dans des directions très différentes.
---- [Sources](https://github.com/flarum/framework/), [Site](https://flarum.org/)
+--- [Sources](https://github.com/flarum/framework/)
 
 CLUB1 maintient plusieurs extension pour ce forum :
 
