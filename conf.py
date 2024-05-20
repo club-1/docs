@@ -317,6 +317,10 @@ linkcheck_allowed_redirects = {
     r'https://manpages\.debian\.org/.*': r'https://manpages\.debian\.org/.*',
 }
 
+linkcheck_auth = [
+    (r'https://webdav\.club1\.fr.*', ('anonymous', 'anonymous')),
+]
+
 # Set small timeout for broken links.
 linkcheck_timeout = 20
 
