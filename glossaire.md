@@ -53,6 +53,11 @@ client Web
 Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
    composé presque exclusivement de {term}`logiciels libres <logiciel libre>`.
+
+   ```{seealso}
+   L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://club1.fr/migration-debian-phase-1)
+   ```
+
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian),
    [Site Web](https://www.debian.org/)
 
