@@ -56,6 +56,10 @@ Debian
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian),
    [Site Web](https://www.debian.org/)
 
+   ```{seealso}
+   L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://club1.fr/migration-debian-phase-1)
+   ```
+
 fichier caché
 dossier caché
    Dans la plupart des systèmes d'exploitation,
