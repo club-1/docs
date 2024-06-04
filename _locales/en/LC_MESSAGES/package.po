@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-05-08 11:49+0200\n"
+"POT-Creation-Date: 2024-06-08 18:51+0200\n"
 "PO-Revision-Date: 2024-05-02 13:07+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -620,15 +620,27 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
 msgstr ""
 
-#: ../../glossaire.md:48
+#: ../../glossaire.md:56
+#, fuzzy
+#| msgid ""
+#| "L'article du journal \"[Création d'un forum](https://club1.fr/creation-d-"
+#| "un-forum)\""
+msgid ""
+"L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://"
+"club1.fr/migration-debian-phase-1)"
+msgstr ""
+"The journal article \"[Création d'un forum](https://club1.fr/creation-d-un-"
+"forum)\" (in French)"
+
+#: ../../glossaire.md:52
 msgid "fichier caché"
 msgstr "hidden file"
 
-#: ../../glossaire.md:49
+#: ../../glossaire.md:53
 msgid "dossier caché"
 msgstr "hidden folder"
 
-#: ../../glossaire.md:57
+#: ../../glossaire.md:61
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
@@ -639,7 +651,7 @@ msgstr ""
 "often used to hide parameters that are not very useful in everyday life. In "
 "a UNIX system, hidden files begin with a dot `.`."
 
-#: ../../glossaire.md:62
+#: ../../glossaire.md:66
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -651,7 +663,7 @@ msgstr ""
 "{kbd}`H`. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Hidden_file_and_hidden_directory)"
 
-#: ../../glossaire.md:68
+#: ../../glossaire.md:72
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {logiciel}`Git`."
@@ -659,7 +671,7 @@ msgstr ""
 "Web service providing hosting for software development and version control "
 "using {logiciel}`Git`."
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:76
 #, fuzzy
 #| msgid ""
 #| "Contrairement à la plupart des projets que l'on peut y trouver, Github "
@@ -672,15 +684,15 @@ msgstr ""
 "Unlike most of the projects that can be found there, Github is neither "
 "**libre**, nor **open source** and belongs to Microsoft."
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:80
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/GitHub)"
 
-#: ../../glossaire.md:71
+#: ../../glossaire.md:75
 msgid "groupe"
 msgstr "group"
 
-#: ../../glossaire.md:79
+#: ../../glossaire.md:83
 msgid ""
 "Les groupes servent à rassembler des utilisateurs afin de leur attribuer des "
 "droits communs. Un utilisateur UNIX appartient à un ou plusieurs groupes."
@@ -688,7 +700,7 @@ msgstr ""
 "Groups are used to gather users in order to assign them common rights. A "
 "UNIX user belongs to one or more groups."
 
-#: ../../glossaire.md:83
+#: ../../glossaire.md:87
 msgid ""
 "Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
 "un accès {term}`SSH` avec la commande suivante :"
@@ -696,7 +708,7 @@ msgstr ""
 "It is possible to find out who is a member of a group on the server from an "
 "{term}`SSH` access with the following command:"
 
-#: ../../glossaire.md:88
+#: ../../glossaire.md:92
 msgid ""
 "En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
@@ -704,11 +716,11 @@ msgstr ""
 "By replacing `GROUP` with the desired group. Example: `members sudo` or "
 "`members home`."
 
-#: ../../glossaire.md:91
+#: ../../glossaire.md:95
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
 msgstr "--- [Wikipedia](https://en.wikipedia.org/wiki/Group_identifier)"
 
-#: ../../glossaire.md:94
+#: ../../glossaire.md:98
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -719,18 +731,18 @@ msgstr ""
 "`Web` pages. --- [Wikipedia](https://en.wikipedia.org/wiki/HTML), [MDN web "
 "docs](https://developer.mozilla.org/en-US/docs/Web/HTML)"
 
-#: ../../glossaire.md:91
+#: ../../glossaire.md:95
 msgid "instance"
 msgstr "instance"
 
-#: ../../glossaire.md:99
+#: ../../glossaire.md:103
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
 "Copy of software or a computer object having its own existence and state."
 
-#: ../../glossaire.md:101
+#: ../../glossaire.md:105
 #, fuzzy
 #| msgid ""
 #| "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel "
@@ -748,11 +760,11 @@ msgstr ""
 "{term}`PHP`: at least one for each member. --- [Wiktionary](https://en."
 "wiktionary.org/wiki/instance#English)"
 
-#: ../../glossaire.md:98
+#: ../../glossaire.md:102
 msgid "Internet"
 msgstr "Internet"
 
-#: ../../glossaire.md:106
+#: ../../glossaire.md:110
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -766,20 +778,20 @@ msgstr ""
 "\"network of networks\". --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Internet)"
 
-#: ../../glossaire.md:113
+#: ../../glossaire.md:117
 msgid ""
 "Noyau de système d'exploitation {term}`libre <logiciel libre>`. Le noyau est "
 "le cœur du système, il fait l'interface entre les logiciels utilisateurs et "
 "le matériel."
 msgstr ""
 
-#: ../../glossaire.md:117
+#: ../../glossaire.md:121
 msgid ""
 "Par extention, Linux fait souvent référence à tout système d'exploitation "
 "basé sur ce noyau. --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)"
 msgstr ""
 
-#: ../../glossaire.md:121
+#: ../../glossaire.md:125
 msgid ""
 "Désigne à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
 "wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
@@ -792,13 +804,13 @@ msgstr ""
 "history of events, usually in the form of a plain text file. --- [Wikipedia]"
 "(https://en.wikipedia.org/wiki/Logging_(computing))"
 
-#: ../../glossaire.md:119
+#: ../../glossaire.md:123
 #, fuzzy
 #| msgid "logiciel"
 msgid "logiciel libre"
 msgstr "software"
 
-#: ../../glossaire.md:127
+#: ../../glossaire.md:131
 msgid ""
 "Désigne des logiciels qui respectent la liberté des utilisateurs. En "
 "particulier, les utilisateurs ont la liberté d'exécuter, copier, étudier, "
@@ -807,7 +819,7 @@ msgid ""
 "Logiciel_libre)"
 msgstr ""
 
-#: ../../glossaire.md:134
+#: ../../glossaire.md:138
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -822,23 +834,23 @@ msgstr ""
 "syntax, which makes it more pleasant to read and write for a human. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Markdown)"
 
-#: ../../glossaire.md:134
+#: ../../glossaire.md:138
 msgid "nom de domaine"
 msgstr "domain name"
 
-#: ../../glossaire.md:142
+#: ../../glossaire.md:146
 msgid ""
 "Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
 "être humain."
 msgstr ""
 "{term}`Internet` domain identifier, easy for a human to read and remember."
 
-#: ../../glossaire.md:145
+#: ../../glossaire.md:149
 msgid ""
 "Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
 msgstr "For example: `club1.fr`, `impots.gouv.fr`, and `fr` are domain names."
 
-#: ../../glossaire.md:147
+#: ../../glossaire.md:151
 msgid ""
 "Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
 "Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
@@ -850,7 +862,7 @@ msgstr ""
 "computer associated with this domain. A domain name is therefore often used "
 "as an {term}`alias` for an IP address."
 
-#: ../../glossaire.md:151
+#: ../../glossaire.md:155
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
@@ -858,7 +870,7 @@ msgstr ""
 "In addition to this information, a domain can also have subdomains. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Domain_name)"
 
-#: ../../glossaire.md:155
+#: ../../glossaire.md:159
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -873,11 +885,11 @@ msgstr ""
 "precisely the language that CLUB1 puts forward for the creation of {term}"
 "`dynamic website`. --- [Wikipedia](https://en.wikipedia.org/wiki/PHP)"
 
-#: ../../glossaire.md:155
+#: ../../glossaire.md:159
 msgid "protocole"
 msgstr "protocol"
 
-#: ../../glossaire.md:163
+#: ../../glossaire.md:167
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -889,11 +901,11 @@ msgstr ""
 "networks. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Communication_protocol)"
 
-#: ../../glossaire.md:161
+#: ../../glossaire.md:165
 msgid "registraire"
 msgstr "registrar"
 
-#: ../../glossaire.md:169
+#: ../../glossaire.md:173
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou une association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
@@ -903,11 +915,11 @@ msgstr ""
 "`Internet` domain name reservation. --- [Wikipedia](https://en.wikipedia.org/"
 "wiki/Domain_name_registrar)"
 
-#: ../../glossaire.md:166
+#: ../../glossaire.md:170
 msgid "réseau informatique"
 msgstr "computer network"
 
-#: ../../glossaire.md:174
+#: ../../glossaire.md:178
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -916,11 +928,11 @@ msgstr ""
 "Set of computers linked together in order for them to exchange data. --- "
 "[Wikipedia](https://en.wikipedia.org/wiki/Computer_network)"
 
-#: ../../glossaire.md:170
+#: ../../glossaire.md:174
 msgid "serveur"
 msgstr "server"
 
-#: ../../glossaire.md:178
+#: ../../glossaire.md:182
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -935,11 +947,11 @@ msgstr ""
 "called a \"server\" (e.g. the CLUB1 server). --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Server_(computing))"
 
-#: ../../glossaire.md:178
+#: ../../glossaire.md:182
 msgid "site Web dynamique"
 msgstr "dynamic website"
 
-#: ../../glossaire.md:186
+#: ../../glossaire.md:190
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -951,11 +963,11 @@ msgstr ""
 "code that will be \"executed\" to generate {term}`HTML`. --- [Wikipedia]"
 "(https://en.wikipedia.org/wiki/Dynamic_web_page)"
 
-#: ../../glossaire.md:184
+#: ../../glossaire.md:188
 msgid "site Web statique"
 msgstr "static website"
 
-#: ../../glossaire.md:192
+#: ../../glossaire.md:196
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -970,11 +982,11 @@ msgstr ""
 "those looking to offer more energy-efficient sites. --- [Wikipedia](https://"
 "en.wikipedia.org/wiki/Static_web_page)"
 
-#: ../../glossaire.md:191
+#: ../../glossaire.md:195
 msgid "terminal"
 msgstr "terminal"
 
-#: ../../glossaire.md:199
+#: ../../glossaire.md:203
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -986,7 +998,7 @@ msgstr ""
 "offered a textual interface, making it possible to enter commands and read "
 "the result."
 
-#: ../../glossaire.md:203
+#: ../../glossaire.md:207
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -998,7 +1010,7 @@ msgstr ""
 "interface ({term}`CLI`) of this hardware. --- [Wikipedia](https://en."
 "wikipedia.org/wiki/Computer_terminal)"
 
-#: ../../glossaire.md:208
+#: ../../glossaire.md:212
 #, fuzzy
 #| msgid ""
 #| "Top level Domain {term}`Nom de domaine` de premier niveau. Par exemple "
@@ -1012,7 +1024,7 @@ msgstr ""
 "Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
-#: ../../glossaire.md:214
+#: ../../glossaire.md:218
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -1027,11 +1039,11 @@ msgstr ""
 "else can read its content. --- [Wikipedia](https://en.wikipedia.org/wiki/"
 "Transport_Layer_Security)"
 
-#: ../../glossaire.md:214
+#: ../../glossaire.md:218
 msgid "Web"
 msgstr "Web"
 
-#: ../../glossaire.md:222
+#: ../../glossaire.md:226
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
@@ -1041,7 +1053,7 @@ msgstr ""
 "Wide Web\" (also abbreviated \"www\"). It allows to publish documents and "
 "link them together using hypertext links."
 
-#: ../../glossaire.md:226
+#: ../../glossaire.md:230
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -1054,7 +1066,7 @@ msgstr ""
 "sheets\". The {term}`client` used to access it is called a \"Web browser\". "
 "--- [Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)"
 
-#: ../../glossaire.md:232
+#: ../../glossaire.md:236
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
@@ -1435,32 +1447,32 @@ msgstr ""
 #: ../../info/general.md:79
 msgid ""
 "Il est possible de consulter en direct l'état des différents services sur "
-"[UptimeRobot](https://stats.uptimerobot.com/A84pLI9rlW)"
+"<https://status.club1.fr>. Cet outil d'observation des services est hébergé "
+"par [RésiLien](https://resilien.fr), membre du collectif [CHATONS](https://"
+"www.chatons.org), sur un serveur situé à Cremeaux."
 msgstr ""
-"The live status of the various services can be consulted on [UptimeRobot]"
-"(https://stats.uptimerobot.com/A84pLI9rlW)"
 
-#: ../../info/general.md:82
+#: ../../info/general.md:84
 msgid "Comptes des membres"
 msgstr "Members accounts"
 
-#: ../../info/general.md:85 ../../services/matrix.md:31
+#: ../../info/general.md:87 ../../services/matrix.md:31
 msgid "Identifiant"
 msgstr "Username"
 
-#: ../../info/general.md:87
+#: ../../info/general.md:89
 msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
 msgstr "The username must comply with the following rules:"
 
-#: ../../info/general.md:89
+#: ../../info/general.md:91
 msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr "a length of **between 3 and 17 characters** (included)."
 
-#: ../../info/general.md:90
+#: ../../info/general.md:92
 msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
 msgstr "contain **only lower case letters** or hyphens (`-`)."
 
-#: ../../info/general.md:92
+#: ../../info/general.md:94
 msgid ""
 "Cet identifiant est principalement utilisé en interne pour la connexion aux "
 "services et n'est donc pas spécialement visible depuis l'extérieur. Il est "
@@ -1475,11 +1487,11 @@ msgstr ""
 "members and in automatic URLs such as those of [static websites](../services/"
 "web.md#dossier-static) and [git repositories](/services/git.md)."
 
-#: ../../info/general.md:98
+#: ../../info/general.md:100
 msgid "Modalités des comptes"
 msgstr "Account Terms"
 
-#: ../../info/general.md:100
+#: ../../info/general.md:102
 msgid ""
 "Chaque entité (personne ou groupe), peut héberger autant de projets qu'elle "
 "le souhaite dans la limite du raisonnable."
@@ -1487,39 +1499,39 @@ msgstr ""
 "Each entity (person or group), can host as many projects as it wishes within "
 "reason."
 
-#: ../../info/general.md:103
+#: ../../info/general.md:105
 msgid "Un compte membre comporte donc :"
 msgstr "A member account therefore includes:"
 
-#: ../../info/general.md:105
+#: ../../info/general.md:107
 msgid "de l'espace de stockage SSD"
 msgstr "SSD storage space"
 
-#: ../../info/general.md:106
+#: ../../info/general.md:108
 msgid "plus d'espace sur disque dur (sur demande)"
 msgstr "more hard disk space (on request)"
 
-#: ../../info/general.md:107
+#: ../../info/general.md:109
 msgid "un accès FTP"
 msgstr "FTP access"
 
-#: ../../info/general.md:108
+#: ../../info/general.md:110
 msgid "un accès SSH (pour les utilisateurs avancés)"
 msgstr "SSH access (for advanced users)"
 
-#: ../../info/general.md:109
+#: ../../info/general.md:111
 msgid "des bases de données (MariaDb)"
 msgstr "SQL databases (MariaDb)"
 
-#: ../../info/general.md:110
+#: ../../info/general.md:112
 msgid "la création gratuite de sous domaines en .club1.fr (sur demande)"
 msgstr "free creation of .club1.fr subdomains (on request)"
 
-#: ../../info/general.md:111
+#: ../../info/general.md:113
 msgid "l'utilisation de noms de domaines loués via des registraires"
 msgstr "the use of domain names rented via registrars"
 
-#: ../../info/general.md:112
+#: ../../info/general.md:114
 msgid ""
 "un accès au salon {term}`matrix` réservée aux membres pour le suivi et "
 "l'assistance aux projets"
@@ -1527,13 +1539,13 @@ msgstr ""
 "access to the members-only {term}`matrix` room for project monitoring and "
 "assistance"
 
-#: ../../info/general.md:114
+#: ../../info/general.md:116
 msgid ""
 "Pour l'instant, le format choisi est celui de l'adhésion, avec une "
 "cotisation de 35€ à vie."
 msgstr "For now, the chosen format is membership, with a lifetime fee of 35€."
 
-#: ../../info/general.md:117
+#: ../../info/general.md:119
 msgid "Contact"
 msgstr "Contact"
 
@@ -2557,13 +2569,20 @@ msgid ""
 msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
 
 #: ../../outils/forum.md:112
+#, fuzzy
+#| msgid ""
+#| "Logiciel de forum écrit en {term}`PHP`. Il est concu pour être "
+#| "extrêmement modulaire avec très peu de fonctionnalités faisant réellement "
+#| "partie du c&oelig;ur. Il est ainsi facile d'en développer des extensions "
+#| "de toute sorte, qui peuvent emmener l'outil forum dans des directions "
+#| "très différentes. --- [Sources](https://github.com/flarum/framework/), "
+#| "[Site](https://flarum.org/)"
 msgid ""
 "Logiciel de forum écrit en {term}`PHP`. Il est concu pour être extrêmement "
 "modulaire avec très peu de fonctionnalités faisant réellement partie du "
 "c&oelig;ur. Il est ainsi facile d'en développer des extensions de toute "
 "sorte, qui peuvent emmener l'outil forum dans des directions très "
-"différentes. --- [Sources](https://github.com/flarum/framework/), [Site]"
-"(https://flarum.org/)"
+"différentes. --- [Sources](https://github.com/flarum/framework/)"
 msgstr ""
 "Forum software written in {term}`PHP`. It is designed to be extremely "
 "modular with very few features actually being part of the core. It is thus "
@@ -4763,10 +4782,10 @@ msgstr ""
 msgid ""
 "Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur, "
 "cependant pour se faire un avis, il est possible de consulter les "
-"[statistiques de disponibilité](https://stats.uptimerobot.com/A84pLI9rlW) du "
-"serveur Matrix et de Element. Des mises-à-jour sont effectuées régulièrement "
-"pour avoir la dernière version de {logiciel}`Synapse` et {logiciel}`Element` "
-"et ainsi éviter des bugs ou failles de sécurité."
+"[statistiques de disponibilité](https://status.club1.fr) du serveur Matrix "
+"et de Element. Des mises-à-jour sont effectuées régulièrement pour avoir la "
+"dernière version de {logiciel}`Synapse` et {logiciel}`Element` et ainsi "
+"éviter des bugs ou failles de sécurité."
 msgstr ""
 
 #: ../../services/matrix.md:147
@@ -7639,10 +7658,10 @@ msgid "Documentation {CLUB1}"
 msgstr "{CLUB1} documentation"
 
 #. Add custom 'software' directive and refs
-#: conf.py:330 conf.py:331
+#: conf.py:334 conf.py:335
 msgid "logiciel"
 msgstr "software"
 
-#: conf.py:332 conf.py:333
+#: conf.py:336 conf.py:337
 msgid "commande"
 msgstr "command"
