@@ -22,7 +22,6 @@ export LOCALE       := fr
 export LANGUAGES    := $(LOCALE) $(LOCALES)
 export LATEXMKOPTS  := -file-line-error $(if $(CI),,-quiet)
 
-SPHINXLANG      := -D language=$(LOCALE)
 SPHINXOPTS      += $(if $(CI),,-q -j auto)
 SPHINXBUILD     ?= sphinx-build
 SPHINXBUILDERS  := html dirhtml singlehtml epub latex text man texinfo linkcheck
@@ -49,6 +48,7 @@ help:
 	$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $O
 
 .PHONY: help deps clean update-po latexpdf info publish $(ALL) $(SPHINXBUILDERS) $(SPHINXLBUILDERS) $(SPHINXCMDS)
+.SECONDEXPANSION:
 
 $(DIRS):
 	mkdir -p $@
@@ -65,16 +65,15 @@ $(LOCALEFILES:%=check-po/%): check-po/%:
 %.mo: %.po
 	msgfmt -o $@ $<
 
-.SECONDEXPANSION:
-$(LOCALEFILES): $(LOCALEDIR)/%.po: $(if $(UPDATEPO),$(LOCALEDIR)/$$(*F).pot)
+ifdef UPDATEPO
+$(LOCALEFILES): $(LOCALEDIR)/%.po: $(LOCALEDIR)/$$(*F).pot
 	msgmerge -q --previous --update $@ $< --backup=none -w 79
 	@touch $@
+endif
 
-$(LOCALEDIR)/package.pot: $(BUILDDIR)/gettext/package.pot $(PYSRC)
-	$(XGETTEXT) $< $(PYSRC) -o $@
-
-$(LOCALEDIR)/sphinx.pot: $(BUILDDIR)/gettext/sphinx.pot
-	$(XGETTEXT) $< -o $@
+$(LOCALEDIR)/package.pot: $(PYSRC)
+$(LOCALEDIR)/%.pot: $(BUILDDIR)/gettext/%.pot
+	$(XGETTEXT) $^ -o $@
 
 $(BUILDDIR)/gettext/%.pot: gettext;
 
@@ -116,7 +115,6 @@ $(ALL): all/%: html/% latexpdf/% epub/% | $(BUILDDIR)/html/%
 $(SPHINXBUILDERS): %: $(LANGUAGES:%=\%/%)
 
 # Localized Sphinx builders
-.SECONDEXPANSION:
 $(SPHINXLBUILDERS): $$(if $$(filter fr,$$(@F)),,$(LOCALEDIR)/$$(@F)/LC_MESSAGES/package.mo $(LOCALEDIR)/$$(@F)/LC_MESSAGES/sphinx.mo)
 	LOCALE=$(@F) $(SPHINXBUILD) -b $(@D) -d $(BUILDDIR)/doctrees/$(@F) $(SOURCEDIR) $(BUILDDIR)/$(@D)/$(@F) $(SPHINXOPTS) $O
 
