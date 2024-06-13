@@ -18,7 +18,12 @@ Politique de sécurité
 - Les données personnelles sont protégées par les [permissions UNIX](https://fr.wikipedia.org/wiki/Permissions_UNIX).
   Par defaut l'[espace personnel](./espace-personnel.md) n'est pas accessible par les autres utilisateurs
   (à part en lecture par les membres du {term}`groupe` `home`, ex: le {term}`serveur` {term}`web`).
-  Chacun est libre de changer les permissions de son espace perso.
+
+  ```{caution}
+  Chacun est libre de changer les permissions de son espace perso,
+  mais cela risque d'empêcher certains services de fonctionner correctement,
+  en particulier le service d'[hébergement de sites Web](/services/web.md).
+  ```
 
 Engagements des administrateurs systèmes
 -----------------------------------------
