@@ -36,7 +36,7 @@ graph LDAP {
    graph [size = "2.5,2.5"]
    node [fontname = "monospace"]
 
-   "cn=fr" -- "cn=club1"
+   "dc=fr" -- "cn=club1"
    "cn=club1" -- "ou=People"
    "cn=club1" -- "ou=Group"
 }
