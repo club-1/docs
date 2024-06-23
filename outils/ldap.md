@@ -39,7 +39,7 @@ graph LDAP {
    "dc=fr" -- "dc=club1"
    "dc=club1" -- "ou=People"
    "dc=club1" -- "ou=Group"
-   "uid=*" -- "ou=People"
+   "ou=People" -- "uid=*"
 }
 ```
 
