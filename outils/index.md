@@ -15,4 +15,5 @@ newsletter
 ldap
 dns
 sauvegardes
+dashboard
 ```
