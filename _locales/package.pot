@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-06-08 18:51+0200\n"
+"POT-Creation-Date: 2024-06-23 21:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -966,13 +966,14 @@ msgid ""
 "membre met à jour son fichier de présentation !"
 msgstr ""
 
-#: ../../info/espace-personnel.md:79 ../../outils/dns.md:61
-#: ../../outils/ldap.md:59 ../../outils/sauvegardes.md:174
-#: ../../services/drive.md:18 ../../services/email.md:163
-#: ../../services/ftp.md:51 ../../services/git.md:90
-#: ../../services/matrix.md:163 ../../services/rss.md:57
-#: ../../services/sql.md:56 ../../services/ssh.md:172 ../../services/web.md:155
-#: ../../services/webcast.md:40 ../../services/webdav.md:52
+#: ../../info/espace-personnel.md:79 ../../outils/dashboard.md:11
+#: ../../outils/dns.md:61 ../../outils/ldap.md:60
+#: ../../outils/sauvegardes.md:174 ../../services/drive.md:18
+#: ../../services/email.md:163 ../../services/ftp.md:51
+#: ../../services/git.md:90 ../../services/matrix.md:163
+#: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:172
+#: ../../services/web.md:155 ../../services/webcast.md:40
+#: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
 
@@ -1699,6 +1700,57 @@ msgid ""
 "html#DELIVERY_RIGHTS)."
 msgstr ""
 
+#: ../../outils/dashboard.md:1
+msgid "Tableau de bord"
+msgstr ""
+
+#: ../../outils/dashboard.md:4
+msgid ""
+"![capture d'écran du \"Baby Dashboard 😃\"](dashboard/baby-dashboard.png)"
+msgstr ""
+
+#: ../../outils/dashboard.md:4
+msgid "capture d'écran du \"Baby Dashboard 😃\""
+msgstr ""
+
+#: ../../outils/dashboard.md:6
+msgid ""
+"Le serveur CLUB1 dispose d'un tableau de bord accessible aux membres à "
+"l'adresse : <https://dashboard.club1.fr>. Il s'agit d'une {term}`instance` "
+"de {logiciel}`Prometheus`+{logiciel}`Grafana`, connectée à l'annuaire {term}"
+"`LDAP`."
+msgstr ""
+
+#: ../../outils/dashboard.md:15
+msgid ""
+"Base de données de séries temporelles principalement pensée pour la "
+"surveillance de {term}`serveurs <serveur>`."
+msgstr ""
+
+#: ../../outils/dashboard.md:18
+msgid ""
+"Prometheus se charge de récolter des informations à intervalles réguliers "
+"sur les différents composants que l'on souhaite surveiller. Il garde un "
+"historique de ces données (15 jours chez CLUB1) et permet de les récupérer à "
+"l'aide de requêtes. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Prometheus_(logiciel)), [Sources](https://github.com/prometheus/prometheus)"
+msgstr ""
+
+#: ../../outils/dashboard.md:27
+msgid ""
+"Logiciel de tableau de bord {term}`Web` permettant d'afficher des "
+"statistiques et des graphiques et d'envoyer des alertes à partir d'une base "
+"de données de séries temporelles."
+msgstr ""
+
+#: ../../outils/dashboard.md:31
+msgid ""
+"Il est capable de se connecter à différentes sources de données, dont la "
+"plus courante, {logiciel}`Prometheus` est aussi celle utilisée chez CLUB1. "
+"--- [Wikipedia](https://fr.wikipedia.org/wiki/Grafana), [Sources](https://"
+"github.com/grafana/grafana)"
+msgstr ""
+
 #: ../../outils/dns.md:1
 msgid "Serveur DNS"
 msgstr ""
@@ -2140,13 +2192,13 @@ msgstr ""
 msgid "Schéma de données LDAP"
 msgstr ""
 
-#: ../../outils/ldap.md:46 ../../services/email.md:142 ../../services/ftp.md:41
+#: ../../outils/ldap.md:47 ../../services/email.md:142 ../../services/ftp.md:41
 #: ../../services/sql.md:45 ../../services/ssh.md:82
 #: ../../services/webcast.md:30
 msgid "Informations de connexion"
 msgstr ""
 
-#: ../../outils/ldap.md:49
+#: ../../outils/ldap.md:50
 msgid ""
 "L'annuaire LDAP de CLUB1 n'est pas public, il est accessible uniquement en "
 "local depuis le serveur."
@@ -2188,7 +2240,7 @@ msgstr ""
 msgid "non"
 msgstr ""
 
-#: ../../outils/ldap.md:63
+#: ../../outils/ldap.md:64
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation {term}`libre <logiciel libre>` du protocole LDAP. --- "
@@ -2196,7 +2248,7 @@ msgid ""
 "openldap.org/openldap/openldap)"
 msgstr ""
 
-#: ../../outils/ldap.md:70
+#: ../../outils/ldap.md:71
 msgid ""
 "Paquet fournissant un {term}`serveur` (nslcd) permettant de connecter "
 "l'annuaire {term}`LDAP` aux services du système. Plus spécifiquement, le "
@@ -6214,10 +6266,10 @@ msgid "Documentation {CLUB1}"
 msgstr ""
 
 #. Add custom 'software' directive and refs
-#: conf.py:334 conf.py:335
+#: conf.py:335 conf.py:336
 msgid "logiciel"
 msgstr ""
 
-#: conf.py:336 conf.py:337
+#: conf.py:337 conf.py:338
 msgid "commande"
 msgstr ""
