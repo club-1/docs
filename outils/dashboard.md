@@ -1,6 +1,8 @@
 Tableau de bord
 ===============
 
+![capture d'écran du "Baby Dashboard 😃"](dashboard/baby-dashboard.png)
+
 Le serveur CLUB1 dispose d'un tableau de bord accessible aux membres
 à l'adresse : <https://dashboard.club1.fr>.
 Il s'agit d'une {term}`instance` de {logiciel}`Prometheus`+{logiciel}`Grafana`,
