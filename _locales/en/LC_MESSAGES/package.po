@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2024-06-23 21:07+0200\n"
-"PO-Revision-Date: 2024-05-02 13:07+0000\n"
+"PO-Revision-Date: 2024-06-28 15:09+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -619,18 +619,17 @@ msgid ""
 "exclusivement de {term}`logiciels libres <logiciel libre>`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
 msgstr ""
+"Community operating system based on {term}`Linux`, almost exclusively "
+"composed of {term}`free software <free software>`. --- [Wikipedia](https://en"
+".wikipedia.org/wiki/Debian), [Website](https://www.debian.org/)"
 
 #: ../../glossaire.md:56
-#, fuzzy
-#| msgid ""
-#| "L'article du journal \"[Création d'un forum](https://club1.fr/creation-d-"
-#| "un-forum)\""
 msgid ""
 "L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://"
 "club1.fr/migration-debian-phase-1)"
 msgstr ""
-"The journal article \"[Création d'un forum](https://club1.fr/creation-d-un-"
-"forum)\" (in French)"
+"The journal article: [Migration de Ubuntu à Debian (Phase 1)](https://club1."
+"fr/migration-debian-phase-1) (in French)"
 
 #: ../../glossaire.md:52
 msgid "fichier caché"
@@ -672,17 +671,14 @@ msgstr ""
 "using {logiciel}`Git`."
 
 #: ../../glossaire.md:76
-#, fuzzy
-#| msgid ""
-#| "Contrairement à la plupart des projets que l'on peut y trouver, Github "
-#| "n'est ni **libre**, ni **open source** et appartient à Microsoft."
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
 "ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
 "Microsoft."
 msgstr ""
 "Unlike most of the projects that can be found there, Github is neither "
-"**libre**, nor **open source** and belongs to Microsoft."
+"**{term}`free <free software>`**, nor **open source** and belongs to "
+"Microsoft."
 
 #: ../../glossaire.md:80
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
@@ -743,12 +739,6 @@ msgstr ""
 "Copy of software or a computer object having its own existence and state."
 
 #: ../../glossaire.md:105
-#, fuzzy
-#| msgid ""
-#| "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel "
-#| "avec des données différentes. Sur le serveur CLUB1, il y a notamment "
-#| "plusieurs instances de {term}`PHP` : au moins une pour chaque membre. --- "
-#| "[Wiktionnaire](https://fr.wiktionary.org/wiki/instance)"
 msgid ""
 "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
 "des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
@@ -784,12 +774,16 @@ msgid ""
 "le cœur du système, il fait l'interface entre les logiciels utilisateurs et "
 "le matériel."
 msgstr ""
+"{term}`Free <free software>` operating system kernel. The kernel is the core "
+"of the system, it is the interface between user software and hardware."
 
 #: ../../glossaire.md:121
 msgid ""
 "Par extention, Linux fait souvent référence à tout système d'exploitation "
 "basé sur ce noyau. --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)"
 msgstr ""
+"By extention, Linux often refers to any operating system based on this "
+"kernel. --- [Wikipedia](https://en.wikipedia.org/wiki/Linux)"
 
 #: ../../glossaire.md:125
 msgid ""
@@ -805,10 +799,8 @@ msgstr ""
 "(https://en.wikipedia.org/wiki/Logging_(computing))"
 
 #: ../../glossaire.md:123
-#, fuzzy
-#| msgid "logiciel"
 msgid "logiciel libre"
-msgstr "software"
+msgstr "free software"
 
 #: ../../glossaire.md:131
 msgid ""
@@ -818,6 +810,10 @@ msgid ""
 "modifiés ou non. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Logiciel_libre)"
 msgstr ""
+"Refers to software that respects the freedom of users. In particular, users "
+"have the freedom to run, copy, study, modify and improve these software, and "
+"especially to reshare, modified or not. --- [Wikipedia](https://en.wikipedia."
+"org/wiki/Free_software)"
 
 #: ../../glossaire.md:138
 msgid ""
@@ -1021,8 +1017,8 @@ msgid ""
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
-"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. "
-"--- [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
+"Top level {term}`domain name`. For example `fr`, `com` or `org` are TLDs. ---"
+" [Wikipedia](https://en.wikipedia.org/wiki/Top_level_domain)"
 
 #: ../../glossaire.md:218
 msgid ""
@@ -1355,14 +1351,6 @@ msgid "Système d'exploitation"
 msgstr "Operating system"
 
 #: ../../info/general.md:34
-#, fuzzy
-#| msgid ""
-#| "Le serveur tourne sur **Debian 11** et est mis à jour régulièrement. Les "
-#| "mises-à-jour de sécurité sont installées automatiquement dans les 24 "
-#| "heures à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/"
-#| "unattended-upgrades) et les services en dépendant sont ensuite "
-#| "automatiquement redémarrés grâce à [_needrestart_](https://packages."
-#| "debian.org/fr/stable/needrestart)."
 msgid ""
 "Le serveur tourne sur **{term}`Debian` 11** et est mis à jour régulièrement. "
 "Les mises-à-jour de sécurité sont installées automatiquement dans les 24 "
@@ -1371,29 +1359,24 @@ msgid ""
 "automatiquement redémarrés grâce à [_needrestart_](https://packages.debian."
 "org/fr/stable/needrestart)."
 msgstr ""
-"The server runs on **Debian 11** and is updated regularly. Security updates "
-"are installed automatically within 24 hours using [_unattended-upgrades_]"
-"(https://wiki.debian.org/UnattendedUpgrades) and the services depending on "
-"it are then automatically restarted using [_needrestart_](https://packages."
-"debian.org/stable/needrestart)."
+"The server runs on **{term}`Debian` 11** and is updated regularly. Security "
+"updates are installed automatically within 24 hours using [_unattended-"
+"upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the services "
+"depending on it are then automatically restarted using "
+"[_needrestart_](https://packages.debian.org/stable/needrestart)."
 
 #: ../../info/general.md:40
 msgid "Logiciels et bibliothèques installés"
 msgstr "Installed software and libraries"
 
 #: ../../info/general.md:42
-#, fuzzy
-#| msgid ""
-#| "L'ensemble des logiciels installés sont sous **licence libre**, à part "
-#| "pour ceux de la liste suivante, dont il n'existe pas d'alternatives "
-#| "libres :"
 msgid ""
 "L'ensemble des logiciels installés sont sous **licence {term}`libre "
 "<logiciel libre>`**, à part pour ceux de la liste suivante, dont il n'existe "
 "pas d'alternatives libres :"
 msgstr ""
-"All the installed software is under **free license**, except for the "
-"following list, for which there is no free alternatives:"
+"All the installed software is under **{term}`free <free software>` license**"
+", except for the following list, for which there is no free alternatives:"
 
 #: ../../info/general.md:45
 msgid "BIOS/BMC Supermicro"
@@ -1452,6 +1435,10 @@ msgid ""
 "par [RésiLien](https://resilien.fr), membre du collectif [CHATONS](https://"
 "www.chatons.org), sur un serveur situé à Cremeaux."
 msgstr ""
+"The status of the various services can be viewed live on <https://"
+"status.club1.fr>. This service observation tool is hosted by "
+"[ResiLien](https://resilien.fr), a member of the [CHATONS](https://www."
+"chatons.org) collective, on a server located in Cremeaux."
 
 #: ../../info/general.md:84
 msgid "Comptes des membres"
@@ -2153,18 +2140,16 @@ msgstr ""
 
 #: ../../outils/dashboard.md:1
 msgid "Tableau de bord"
-msgstr ""
+msgstr "Dashboard"
 
 #: ../../outils/dashboard.md:4
 msgid ""
 "![capture d'écran du \"Baby Dashboard 😃\"](dashboard/baby-dashboard.png)"
-msgstr ""
+msgstr "![screenshot of the \"Baby Dashboard 😃\"](dashboard/baby-dashboard.png)"
 
 #: ../../outils/dashboard.md:4
-#, fuzzy
-#| msgid "capture d'écran WebDav drive"
 msgid "capture d'écran du \"Baby Dashboard 😃\""
-msgstr "screenshot WebDAV drive"
+msgstr "screenshot of the \"Baby Dashboard 😃\""
 
 #: ../../outils/dashboard.md:6
 msgid ""
@@ -2173,12 +2158,18 @@ msgid ""
 "de {logiciel}`Prometheus`+{logiciel}`Grafana`, connectée à l'annuaire {term}"
 "`LDAP`."
 msgstr ""
+"The CLUB1 server has a member-accessible dashboard at <https://"
+"dashboard.club1.fr>. This is an {term}`instance` of "
+"{logiciel}`Prometheus`+{logiciel}`Grafana`, connected to the {term}`LDAP` "
+"directory."
 
 #: ../../outils/dashboard.md:15
 msgid ""
 "Base de données de séries temporelles principalement pensée pour la "
 "surveillance de {term}`serveurs <serveur>`."
 msgstr ""
+"Time series database primarily designed for the monitoring of {term}`servers "
+"<server>`."
 
 #: ../../outils/dashboard.md:18
 msgid ""
@@ -2188,6 +2179,11 @@ msgid ""
 "l'aide de requêtes. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Prometheus_(logiciel)), [Sources](https://github.com/prometheus/prometheus)"
 msgstr ""
+"Prometheus is responsible for collecting information at regular intervals on "
+"the various components we want to monitor. It keeps a history of these data ("
+"15 days at CLUB1) and allows them to be retrieved using queries. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Prometheus_(software)), "
+"[Sources](https://github.com/prometheus/prometheus)"
 
 #: ../../outils/dashboard.md:27
 msgid ""
@@ -2195,6 +2191,8 @@ msgid ""
 "statistiques et des graphiques et d'envoyer des alertes à partir d'une base "
 "de données de séries temporelles."
 msgstr ""
+"{term}`Web` dashboard software for displaying statistics and graphics and "
+"sending alerts from a time series database."
 
 #: ../../outils/dashboard.md:31
 msgid ""
@@ -2203,6 +2201,10 @@ msgid ""
 "--- [Wikipedia](https://fr.wikipedia.org/wiki/Grafana), [Sources](https://"
 "github.com/grafana/grafana)"
 msgstr ""
+"It is able to connect to different data sources, with the most common, "
+"{logiciel}`Prometheus` being also the one used at CLUB1. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Grafana), [Sources](https://github."
+"com/grafana/grafana)"
 
 #: ../../outils/dns.md:1
 msgid "Serveur DNS"
@@ -2623,14 +2625,6 @@ msgid ""
 msgstr "It uses a {term}`SQL` database managed by {logiciel}`MariaDB`."
 
 #: ../../outils/forum.md:112
-#, fuzzy
-#| msgid ""
-#| "Logiciel de forum écrit en {term}`PHP`. Il est concu pour être "
-#| "extrêmement modulaire avec très peu de fonctionnalités faisant réellement "
-#| "partie du c&oelig;ur. Il est ainsi facile d'en développer des extensions "
-#| "de toute sorte, qui peuvent emmener l'outil forum dans des directions "
-#| "très différentes. --- [Sources](https://github.com/flarum/framework/), "
-#| "[Site](https://flarum.org/)"
 msgid ""
 "Logiciel de forum écrit en {term}`PHP`. Il est concu pour être extrêmement "
 "modulaire avec très peu de fonctionnalités faisant réellement partie du "
@@ -2641,8 +2635,8 @@ msgstr ""
 "Forum software written in {term}`PHP`. It is designed to be extremely "
 "modular with very few features actually being part of the core. It is thus "
 "easy to develop extensions of all kinds, which can take the forum tool in "
-"very different directions. --- [Sources](https://github.com/flarum/"
-"framework/), [Site](https://flarum.org/)"
+"very different directions. --- [Sources](https://github.com/flarum/framework/"
+")"
 
 #: ../../outils/forum.md:119
 msgid "CLUB1 maintient plusieurs extension pour ce forum :"
@@ -2829,21 +2823,16 @@ msgid "non"
 msgstr "no"
 
 #: ../../outils/ldap.md:64
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet "
-#| "OpenLDAP, une implémentation libre du protocole LDAP. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/OpenLDAP), [Sources](https://git.openldap."
-#| "org/openldap/openldap)"
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation {term}`libre <logiciel libre>` du protocole LDAP. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/OpenLDAP), [Sources](https://git."
 "openldap.org/openldap/openldap)"
 msgstr ""
-"{term}`LDAP` directory {term}`server` part of the OpenLDAP project, a free "
-"implementation of the LDAP protocol. --- [Wikipedia](https://en.wikipedia."
-"org/wiki/OpenLDAP), [Sources](https://git.openldap.org/openldap/openldap)"
+"{term}`LDAP` directory {term}`server` part of the OpenLDAP project, a {term}`"
+"free <free software>` implementation of the LDAP protocol. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/OpenLDAP), [Sources](https://git."
+"openldap.org/openldap/openldap)"
 
 #: ../../outils/ldap.md:71
 msgid ""
@@ -3229,10 +3218,8 @@ msgid "_(Optionnel)_ Pour les locales autres que Français."
 msgstr "_(Optional)_ For locales other than French."
 
 #: ../../outils/meta-doc.md:187 ../../outils/meta-doc.md:214
-#, fuzzy
-#| msgid "Installation sur *Debian* :"
 msgid "Installation sur {term}`Debian` :"
-msgstr "Installation on *Debian*:"
+msgstr "Installation on {term}`Debian`:"
 
 #: ../../outils/meta-doc.md:192
 msgid "_(Optionnel)_ Prérequis pour le format PDF"
@@ -3512,13 +3499,6 @@ msgid "Sauvegardes avec Borg"
 msgstr "Backups with Borg"
 
 #: ../../outils/sauvegardes.md:11
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et "
-#| "{logiciel}`Borgmatic`. Elles sont ainsi stockées de manière dédupliquée "
-#| "et chiffrée à plusieurs endroits dont un dépôt off-site offert par "
-#| "Etienne Le Louët (serveur Debian auto-hébergé à Paris)."
 msgid ""
 "Le système et les données utilisateur sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
@@ -3529,7 +3509,8 @@ msgstr ""
 "System and user data are backed up once a day at 5am. CLUB1's backups are "
 "based on {logiciel}`Borg` and {logiciel}`Borgmatic`. They are thus stored in "
 "a deduplicated and encrypted manner in several places including an off-site "
-"repository offered by Etienne Le Louët (self-hosted Debian server in Paris)."
+"repository offered by Etienne Le Louët (self-hosted {term}`Debian` server in "
+"Paris)."
 
 #: ../../outils/sauvegardes.md:16
 msgid ""
@@ -4648,6 +4629,10 @@ msgid ""
 "\"cohérence à terme\". --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Matrix_(protocole))"
 msgstr ""
+"Its main advantage over the other similarly federated systems is to "
+"replicate data on all participating {term}`servers <server>`, in order to "
+"improve fault tolerance by guaranteeing an \"eventual consistency\". --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Matrix_(protocol))"
 
 #: ../../services/matrix.md:16
 msgid "Principes généraux"
@@ -5133,19 +5118,14 @@ msgid "`3306` (par défaut)"
 msgstr "`3306` (default)"
 
 #: ../../services/sql.md:60
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence "
-#| "libre. --- [Wikipedia](https://fr.wikipedia.org/wiki/MariaDB), [Sources]"
-#| "(https://github.com/MariaDB/server)"
 msgid ""
 "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence {term}"
 "`libre <logiciel libre>`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "MariaDB), [Sources](https://github.com/MariaDB/server)"
 msgstr ""
-"{term}`SQL` database {term}`server` distributed under a free license. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/MariaDB), [Sources](https://github."
-"com/MariaDB/server)"
+"{term}`SQL` database {term}`server` distributed under a {term}`free <free "
+"software>` license. --- [Wikipedia](https://en.wikipedia.org/wiki/MariaDB), "
+"[Sources](https://github.com/MariaDB/server)"
 
 #: ../../services/sql.md:66
 msgid ""
@@ -5751,13 +5731,6 @@ msgstr ""
 "containing at least the following line:"
 
 #: ../../services/web.md:159
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, "
-#| "il est principalement utilisé en tant que \"point de terminaison {term}"
-#| "`TLS`\" et \"proxy inverse\" devant les différents services {term}`Web`, "
-#| "notamment le serveur {logiciel}`Apache`. --- [Wikipedia](https://fr."
-#| "wikipedia.org/wiki/NGINX), [Sources](https://hg.nginx.org/nginx)"
 msgid ""
 "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, il "
 "est surtout utilisé en tant que \"point de terminaison {term}`TLS`\" et "
@@ -5772,19 +5745,14 @@ msgstr ""
 "org/nginx)"
 
 #: ../../services/web.md:167
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` HTTP très populaire, distribué sous license libre. HTTP "
-#| "étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "
-#| "\"serveur Web\"."
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license {term}`libre "
 "<logiciel libre>`. HTTP étant le {term}`protocole` du {term}`Web` on parle "
 "aussi souvent de \"serveur Web\"."
 msgstr ""
-"Very popular HTTP {term}`server`, distributed under free license. HTTP being "
-"the {term}`protocol` of the {term}`Web` we also often speak of \"Web "
-"server\"."
+"Very popular HTTP {term}`server`, distributed under {term}`free <free "
+"software>` license. HTTP being the {term}`protocol` of the {term}`Web` we "
+"also often speak of \"Web server\"."
 
 #: ../../services/web.md:170
 msgid ""
@@ -7097,10 +7065,8 @@ msgstr ""
 "user on this device."
 
 #: ../../tutos/premiere-connexion-ssh.md:115
-#, fuzzy
-#| msgid "Connexion ouverte"
 msgid "Connexion sécurisée"
-msgstr "Open login"
+msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:118
 #, fuzzy
