@@ -74,7 +74,7 @@ dossier caché
 
 GitHub
    Service web d'hébergement et de gestion de développement de logiciels,
-   utilisant le logiciel de gestion de versions {logiciel}`Git`.
+   utilisant le logiciel de gestion de versions Git.
 
    ```{warning}
    Contrairement à la plupart des projets que l'on peut y trouver,
@@ -89,7 +89,7 @@ groupe
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur
-   depuis un accès {term}`SSH` avec la commande suivante :
+   depuis un accès SSH avec la commande suivante :
 
        members GROUP
 
@@ -152,7 +152,7 @@ nom de domaine
 
    > Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine.
 
-   Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom.
+   Dans le DNS, un domaine permet d'associer des informations à un nom.
    Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
    Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
 
