@@ -32,7 +32,6 @@ BUILDDIR        := _build
 DIRS            := $(SPHINXBUILDERS:%=$(BUILDDIR)/%) $(SPHINXLBUILDERS:%=$(BUILDDIR)/%)
 ALL             := $(LANGUAGES:%=all/%)
 
-PYSRC        := conf.py
 XGETTEXT     := xgettext -x $(LOCALEDIR)/exclude.po -w 79 --add-comments \
 		--copyright-holder='$(COPYRIGHT)' --package-name='$(PACKAGE)' \
 		--package-version='$(VERSION)' --msgid-bugs-address='$(EMAIL)'
@@ -71,7 +70,7 @@ $(LOCALEFILES): $(LOCALEDIR)/%.po: $(LOCALEDIR)/$$(*F).pot
 	@touch $@
 endif
 
-$(LOCALEDIR)/package.pot: $(PYSRC)
+$(LOCALEDIR)/package.pot: conf.py
 $(LOCALEDIR)/%.pot: $(BUILDDIR)/gettext/%.pot
 	$(XGETTEXT) $^ -o $@
 
