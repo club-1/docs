@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2024-06-23 21:07+0200\n"
-"PO-Revision-Date: 2024-06-28 15:09+0000\n"
+"PO-Revision-Date: 2024-07-01 10:10+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -1007,11 +1007,6 @@ msgstr ""
 "wikipedia.org/wiki/Computer_terminal)"
 
 #: ../../glossaire.md:212
-#, fuzzy
-#| msgid ""
-#| "Top level Domain {term}`Nom de domaine` de premier niveau. Par exemple "
-#| "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia."
-#| "org/wiki/Domaine_de_premier_niveau)"
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
@@ -2211,17 +2206,16 @@ msgid "Serveur DNS"
 msgstr "DNS server"
 
 #: ../../outils/dns.md:6
-#, fuzzy
 msgid ""
 "(_Domain Name System_) Service informatique distribué qui associe les {term}"
 "`noms de domaine <nom de domaine>` {term}`Internet` avec leurs {term}"
 "`adresses IP <adresse IP>` ou d'autres types d'enregistrements. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Domain_Name_Service)"
 msgstr ""
-"(Domain Name System) Distributed computer service that associates {term}"
-"`Internet` {term}`domain names <domain name>` with their {term}`IP addresses "
-"<IP address>` or other types of records. --- [Wikipedia](https://en."
-"wikipedia.org/wiki/BIND)"
+"(Domain Name System) Distributed computer service that associates "
+"{term}`Internet` {term}`domain names <domain name>` with their {term}`IP "
+"addresses <IP address>` or other types of records. --- [Wikipedia](https://en"
+".wikipedia.org/wiki/Domain_Name_Service)"
 
 #: ../../outils/dns.md:12
 msgid ""
@@ -2721,7 +2715,6 @@ msgid "Annuaire LDAP"
 msgstr "LDAP directory"
 
 #: ../../outils/ldap.md:6
-#, fuzzy
 msgid ""
 "(_Lightweight Directory Access Protocol_) {term}`Protocole` de service "
 "d'annuaire décrivant à la fois un modèle de données et la manière "
@@ -2842,6 +2835,11 @@ msgid ""
 "données (NSS). --- [Site](https://arthurdejong.org/nss-pam-ldapd/), [Sources]"
 "(https://arthurdejong.org/git/nss-pam-ldapd/)"
 msgstr ""
+"Package providing a {term}`server` (nslcd) to connect the {term}`LDAP` "
+"directory to the system's services. More specifically, the authentication "
+"module (PAM) and the data source management service (NSS). --- "
+"[Site](https://arthurdejong.org/nss-pam-ldapd/), "
+"[Sources](https://arthurdejong.org/git/nss-pam-ldapd/)"
 
 #: ../../outils/meta-doc.md:1
 msgid "Meta-documentation"
@@ -3322,6 +3320,8 @@ msgid ""
 "Une [archive des newsletter](https://club1.fr/newsletters) est disponible "
 "sur le site {term}`Web` du club."
 msgstr ""
+"A [newsletter archive](https://club1.fr/newsletters) is available on the "
+"club's {term}`Web` site."
 
 #: ../../outils/newsletter.md:11
 msgid "Abonnement"
@@ -3334,6 +3334,10 @@ msgid ""
 "Pour cela, il faut contacter une des adresses suivante depuis l'adresse "
 "email que l'on souhaite inscrire ou désinscrire."
 msgstr ""
+"Subscribing and unsubscribing are done __only by email__ interactively, [or "
+"manually](#gestion-manuelle-des-inscriptions). To do this, you must contact "
+"one of the following addresses from the email address you wish to subscribe "
+"or unsubscribe."
 
 #: ../../outils/newsletter.md:18
 msgid "Inscription : <nouvelles-subscribe@club1.fr>"
@@ -3383,6 +3387,8 @@ msgid ""
 "Par exemple, si notre texte est dans un fichier qui s'appelle `contenu.txt` "
 "et qu'il s'agît de la 42ème newsletter, il faudrait lancer :"
 msgstr ""
+"For example, if our text is in a file called `contenu.txt` and it is the "
+"42nd newsletter, one would run:"
 
 #: ../../outils/newsletter.md:42
 msgid ""
@@ -3397,6 +3403,7 @@ msgid ""
 "La suite du programme est interactive et ne nécessite pas de connaissances "
 "particulières."
 msgstr ""
+"The rest of the program is interactive and requires no specific knowledge."
 
 #: ../../outils/newsletter.md:48 ../../services/web.md:121
 msgid "Gestion"
