@@ -1,2 +1,1 @@
 sphinx @ git+https://github.com/sphinx-doc/sphinx@master
-myst-parser == 2.0.0
