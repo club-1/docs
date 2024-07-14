@@ -176,6 +176,7 @@ POSIX
 
    {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems)
    respectent cette interface, contrairement à Windows.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)
 
 protocole
    Dans le contexte de l'informatique,
