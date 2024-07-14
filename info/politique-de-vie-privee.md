@@ -16,9 +16,8 @@ Politique de sécurité
 - Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur sont tous chiffrés,
   les mots de passe et les données ne peuvent donc pas être interceptées.
 - Les données personnelles sont protégées par les [permissions UNIX](https://fr.wikipedia.org/wiki/Permissions_UNIX).
-  Par defaut l'[espace personnel](./espace-personnel.md) n'est pas accessible par les autres utilisateurs
-  (à part en lecture par les membres du {term}`groupe` `home`, ex: le {term}`serveur` {term}`web`).
-  Chacun est libre de changer les permissions de son espace perso.
+  Les [permissions par défaut de l'espace personnel](./espace-personnel.md#permissions)
+  le rendent inaccessible aux les autres utilisateurs.
 
 Engagements des administrateurs systèmes
 -----------------------------------------
