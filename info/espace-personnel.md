@@ -80,7 +80,7 @@ Permissions
 -----------
 
 Par défaut, l'espace personnel d'un membre appartient au {term}`groupe` `home`
-et ses permissions sont les suivantes :
+et ses [permissions](https://fr.wikipedia.org/wiki/Permissions_UNIX) sont les suivantes :
 
     rwxr-x---
 
