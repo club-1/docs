@@ -52,7 +52,8 @@ client Web
 
 Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
-   composé presque exclusivement de {term}`logiciels libres <logiciel libre>`.
+   composé presque exclusivement de {term}`logiciels libres <logiciel libre>`
+   et respectant la norme {term}`POSIX`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian),
    [Site Web](https://www.debian.org/)
 
@@ -65,7 +66,7 @@ dossier caché
    Dans la plupart des systèmes d'exploitation,
    il est possible de cacher des fichiers ou des dossiers.
    Cela sert souvent à masquer des paramètres peu utiles au quotidien.
-   Dans un système UNIX, les fichiers cachés commencent par un point `.`.
+   Dans un système {term}`POSIX`, les fichiers cachés commencent par un point `.`.
 
    Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
    Il est possible d'activer leur affichage si besoin,
@@ -84,8 +85,9 @@ GitHub
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
 groupe
-   Les groupes servent à rassembler des utilisateurs afin de leur attribuer des droits communs.
-   Un utilisateur UNIX appartient à un ou plusieurs groupes.
+   Dans un système {term}`POSIX`, les groupes servent à rassembler des utilisateurs
+   afin de leur attribuer des droits communs.
+   Un utilisateur appartient à un ou plusieurs groupes.
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur
@@ -118,7 +120,7 @@ Internet
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
 Linux
-   Noyau de système d'exploitation {term}`libre <logiciel libre>`.
+   Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel libre>`,
    Le noyau est le cœur du système,
    il fait l'interface entre les logiciels utilisateurs et le matériel.
 
@@ -166,6 +168,15 @@ PHP
    Son acronyme signifiait à l'origine "_Personnal Home Page_"
    et c'est justement le langage que CLUB1 met en avant pour la création de {term}`site Web dynamique`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
+
+POSIX
+   (_Portable Operating System Interface_) ensemble de normes techniques qui spécifient une interface,
+   permettant aux systèmes d'exploitation qui la respectent d'être interchangeables,
+   du point de vue d'un logiciel utilisateur.
+
+   {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems)
+   respectent cette interface, contrairement à Windows.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)
 
 protocole
    Dans le contexte de l'informatique,
