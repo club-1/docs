@@ -129,7 +129,7 @@ Typographie améliorée pour les écrits français, principalement autour de la 
 ```
 
 ```{describe} club-1/flarum-ext-sphinx-glossary
-Ajoute des liens vers les définitions de la doc automatiquement.
+Liens automatiques vers les définitions d'une documentation {term}`Sphinx`.
 --- [Sources](https://github.com/club-1/flarum-ext-sphinx-glossary)
 ```
 
