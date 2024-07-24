@@ -165,7 +165,7 @@ Configurations spécifiques
 
 Le serveur CLUB1 a des [ressources limitées](../info/infrastructure-materielle.md#serveur),
 il ne peut donc pas accueillir et conserver toutes les discussions à l'infini.
-Nous avons ainsi configuré {logiciel}`Synapse` en conséquence.
+Nous avons ainsi configuré {logiciel}`Synapse` en conséquence :
 
 ```yaml
 # Message retention policy at the server level.
