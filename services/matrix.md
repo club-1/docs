@@ -223,6 +223,11 @@ rc_federation:
   concurrent: 2
 ```
 
+```{seealso}
+- L'article de journal "[Nouveaux réglages du serveur Matrix](https://club1.fr/serveur-matrix-suivi-001)"
+- Le post de forum "[Limiter les salons fédérés en fonction de leur complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-fonction-de-leur-complexite/12)"
+```
+
 Logiciels
 ---------
 
