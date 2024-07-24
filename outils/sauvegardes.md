@@ -99,6 +99,7 @@ apt install extrepo
 extrepo enable grafana
 extrepo enable jellyfin
 extrepo enable matrix
+extrepo enable element.io
 apt update
 # screen (~= 20min)
 cat /root/apt-packages.txt | DEBIAN_FRONTEND=noninteractive xargs apt install --no-install-recommends -y
