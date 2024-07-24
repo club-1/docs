@@ -126,14 +126,7 @@ git add -p && git commit
 systemctl daemon-reload
 ```
 
-#### 4.2. Certains fichiers spéciaux
-
-```sh
-mkdir /var/spool/postfix/opendkim && chown opendkim:postfix /var/spool/postfix/opendkim
-ln -s /usr/local/src/hydrian/TTRSS-Auth-LDAP/plugins/auth_ldap /usr/share/tt-rss/www/plugins/
-```
-
-#### 4.3. Base de données {term}`LDAP`
+#### 4.2. Base de données {term}`LDAP`
 
 ```sh
 systemctl stop slapd
@@ -141,13 +134,13 @@ slapadd -l /root/ldap_data.ldif && chown -R openldap:openldap /var/lib/ldap
 systemctl restart slapd nslcd
 ```
 
-#### 4.4. Base de données des [alias email](/outils/aliases.md)
+#### 4.3. Base de données des [alias email](/outils/aliases.md)
 
     newaliases
     postmap hash:/etc/aliases_senders
     chmod g+w /etc/aliases*.db
 
-#### 4.5. Bases de données {logiciel}`MariaDB`
+#### 4.4. Bases de données {logiciel}`MariaDB`
 
 ```sh
 systemctl start mariadb
@@ -156,7 +149,7 @@ borgmatic restore --archive latest --repository=club1@nas.jeanpierre.moe:backups
 mariadb < /root/mariadb-users.sql
 ```
 
-#### 4.6. Bases de données Postgres
+#### 4.5. Bases de données Postgres
 
 ```sh
 systemctl start postgresql
@@ -166,7 +159,7 @@ sudo -u postgres psql -c 'create database root with owner root;'
 borgmatic restore --archive latest --repository=club1@nas.jeanpierre.moe:backups/postgres
 ```
 
-#### 4.7. Finalisation
+#### 4.6. Finalisation
 
     rm -rf /home/*
     reboot
