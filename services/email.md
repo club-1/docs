@@ -27,8 +27,9 @@ On utilise pour celà un fichier `.formward+[...]` au lieu du fichier `.forward`
 ```
 
 ```{seealso}
-La documentation officielle de l'option [recipient_delimiter](http://www.postfix.org/postconf.5.html#recipient_delimiter)
+- La documentation officielle de l'option [recipient_delimiter](http://www.postfix.org/postconf.5.html#recipient_delimiter)
 (en anglais)
+- Le fil du forum "[Stocker de base dans des dossiers séparés les messages des sous-adresses](https://forum.club1.fr/d/175-stocker-de-base-dans-des-dossiers-separes-les-messages-des-sous-adresses)"
 ```
 
 Client Web
