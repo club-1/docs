@@ -10,20 +10,17 @@ Sous-adresses
 
 En plus de l'adresse principale, les membres ont la possibilité d'utiliser les sous-adresses.
 Les sous-adresses sont comme des {term}`alias`.
-Par défaut, elles redirigent vers l'adresse principale.
+Par défaut, elles redirigent vers l'adresse principale,
+mais les email reçus sont automatiquement déplacés vers le dossier correspondant, si il existe.
 Toutes les adresses de la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`
 
 > Par exemple, tous les emails envoyés à `michel+travail@club1.fr`
-> seront redirigés vers `michel@club1.fr`.
+> seront redirigés vers `michel@club1.fr`
+> et déplacés dans le dossier `travail`, si il existe.
 
-Ces adresses peuvent paraitre inutiles à première vue.
-Mais combinées avec les [transferts automatiques](#transferts-automatiques)
-et les [filtres automatiques](#filtres-automatiques),
-elles deviennent très intéressantes.
-
-```{important}
-Pour le [transfert automatique](#transferts-automatiques) d'une sous-adresse en particulier,
-on utilise un fichier `.formward+[...]` au lieu du fichier `.forward` de l'adresse principale.
+```{tip}
+Il est possible d'utiliser la fonctionnalité de [transfert automatique](#transferts-automatiques) avec les sous adresses.
+On utilise pour celà un fichier `.formward+[...]` au lieu du fichier `.forward` de l'adresse principale.
 
 > Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr`
 > il faut le faire dans le fichier `.forward+travail`.
