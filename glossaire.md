@@ -174,7 +174,7 @@ permissions
    | `w` Write   | Modifier le contenu du fichier            | Ajouter et supprimer des fichiers dans ce dossier |
    | `x` Execute | Exécuter ce fichier en tant que programme | Traverser ce dossier                              |
 
-   Qui peuvent être accordées soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
+   Qui peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
    soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
 
    Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
