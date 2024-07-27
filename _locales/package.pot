@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-07-27 14:58+0200\n"
+"POT-Creation-Date: 2024-07-27 15:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -684,10 +684,6 @@ msgid ""
 "l'origine \"_Personnal Home Page_\" et c'est justement le langage que CLUB1 "
 "met en avant pour la création de {term}`site Web dynamique`. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/PHP)"
-msgstr ""
-
-#: ../../glossaire.md:161
-msgid "POSIX"
 msgstr ""
 
 #: ../../glossaire.md:169

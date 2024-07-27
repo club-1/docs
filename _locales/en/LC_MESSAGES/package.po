@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-07-27 14:58+0200\n"
+"POT-Creation-Date: 2024-07-27 15:15+0200\n"
 "PO-Revision-Date: 2024-07-01 10:10+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -900,10 +900,6 @@ msgstr ""
 "code. Its acronym originally stood for \"_Personal Home Page_\" and it is "
 "precisely the language that CLUB1 puts forward for the creation of {term}"
 "`dynamic website`. --- [Wikipedia](https://en.wikipedia.org/wiki/PHP)"
-
-#: ../../glossaire.md:161
-msgid "POSIX"
-msgstr ""
 
 #: ../../glossaire.md:169
 msgid ""
