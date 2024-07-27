@@ -168,11 +168,11 @@ permissions
    Il existe 3 droits principaux :
 
    {.white-space-wrap}
-   | Nom         | Pour un fichier                           | Pour un dossier                                   |
-   |-------------|-------------------------------------------|---------------------------------------------------|
-   | `r` Read    | Lire le contenu du fichier                | Lister le contenu du dossier                      |
-   | `w` Write   | Modifier le contenu du fichier            | Ajouter et supprimer des fichiers dans ce dossier |
-   | `x` Execute | Exécuter ce fichier en tant que programme | Traverser ce dossier                              |
+   | Nom           | Pour un fichier                | Pour un dossier                                |
+   |---------------|--------------------------------|------------------------------------------------|
+   | `r` (read)    | Lire le contenu du fichier     | Lister le contenu du dossier                   |
+   | `w` (write)   | Modifier le contenu du fichier | Ajouter/supprimer des fichiers dans ce dossier |
+   | `x` (execute) | Exécuter ce fichier            | Traverser ce dossier                           |
 
    Qui peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
    soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
