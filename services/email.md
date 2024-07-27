@@ -19,7 +19,7 @@ Toutes les adresses de la forme `membre+[...]@club1.fr` sont des sous-adresses d
 > et déplacés dans le dossier `travail`, si il existe.
 
 ```{tip}
-Il est possible d'utiliser la fonctionnalité de [transfert automatique](#transferts-automatiques) avec les sous adresses.
+Il est possible d'utiliser la fonctionnalité de [transfert automatique](#transferts-automatiques) avec les sous-adresses.
 On utilise pour celà un fichier `.formward+[...]` au lieu du fichier `.forward` de l'adresse principale.
 
 > Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr`
