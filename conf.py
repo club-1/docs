@@ -79,6 +79,7 @@ myst_heading_anchors = 6
 # Enable Some MyST extensions.
 myst_enable_extensions = [
     'substitution',
+    'attrs_block',
 ]
 
 # Define some substitution strings.

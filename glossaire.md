@@ -161,6 +161,35 @@ nom de domaine
    En plus de ces informations, un domaine peut également avoir des sous domaines.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 
+permissions
+   Dans un système {term}`POSIX`, il est possible d'attribuer des permissions aux fichiers et aux dossiers.
+   Elles permettent d'accorder ou non des droits à des utilisateurs ou a des {term}`groupes <groupe>`
+   sur ces fichiers et dossiers.
+   Il existe 3 droits principaux :
+
+   {.white-space-wrap}
+   | Nom         | Pour un fichier                           | Pour un dossier                                   |
+   |-------------|-------------------------------------------|---------------------------------------------------|
+   | `r` Read    | Lire le contenu du fichier                | Lister le contenu du dossier                      |
+   | `w` Write   | Modifier le contenu du fichier            | Ajouter et supprimer des fichiers dans ce dossier |
+   | `x` Execute | Exécuter ce fichier en tant que programme | Traverser ce dossier                              |
+
+   Qui peuvent être accordées soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
+   soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
+
+   Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
+   Dans l'example suivant, on voit que pour le fichier `/etc/shadow`,
+   l'utilisateur `root` a les droits `rw-`,
+   les membres du {term}`groupe` `shadow` ont les droits `r--`,
+   et les autres `---`, soit aucun droits :
+
+   ```{code-block} console
+   $ ls -l /etc/shadow
+   -rw-r----- 1 root shadow 2514 nov.  25  2023 /etc/shadow
+   ```
+
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Permissions_UNIX)
+
 PHP
    (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
    principalement utilisé pour produire des pages {term}`Web` de manière dynamique
