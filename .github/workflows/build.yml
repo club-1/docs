@@ -152,6 +152,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: html
     concurrency: preview-${{ github.ref }}
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
