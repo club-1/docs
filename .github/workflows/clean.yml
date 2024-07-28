@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Clean preview
         uses: rossjrw/pr-preview-action@v1
+        with:
+          umbrella-dir: .
   pages:
     needs: preview
     uses: ./.github/workflows/pages.yml
