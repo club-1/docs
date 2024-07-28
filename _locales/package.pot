@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-06-23 21:07+0200\n"
+"POT-Creation-Date: 2024-07-27 15:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -398,10 +398,6 @@ msgid ""
 "du panneau latéral."
 msgstr ""
 
-#: ../../genindex.rst:4
-msgid "Index"
-msgstr ""
-
 #: ../../glossaire.md:3
 msgid "Glossaire"
 msgstr ""
@@ -488,33 +484,34 @@ msgstr ""
 #: ../../glossaire.md:50
 msgid ""
 "Système d'exploitation communautaire basé sur {term}`Linux`, composé presque "
-"exclusivement de {term}`logiciels libres <logiciel libre>`. --- [Wikipedia]"
-"(https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
+"exclusivement de {term}`logiciels libres <logiciel libre>` et respectant la "
+"norme {term}`POSIX`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian), "
+"[Site Web](https://www.debian.org/)"
 msgstr ""
 
-#: ../../glossaire.md:56
+#: ../../glossaire.md:57
 msgid ""
 "L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://"
 "club1.fr/migration-debian-phase-1)"
 msgstr ""
 
-#: ../../glossaire.md:52
+#: ../../glossaire.md:53
 msgid "fichier caché"
 msgstr ""
 
-#: ../../glossaire.md:53
+#: ../../glossaire.md:54
 msgid "dossier caché"
 msgstr ""
 
-#: ../../glossaire.md:61
+#: ../../glossaire.md:62
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
-"utiles au quotidien. Dans un système UNIX, les fichiers cachés commencent "
-"par un point `.`."
+"utiles au quotidien. Dans un système {term}`POSIX`, les fichiers cachés "
+"commencent par un point `.`."
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:67
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -522,50 +519,51 @@ msgid ""
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
 
-#: ../../glossaire.md:72
+#: ../../glossaire.md:73
 msgid ""
 "Service web d'hébergement et de gestion de développement de logiciels, "
 "utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:77
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
 "ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
 "Microsoft."
 msgstr ""
 
-#: ../../glossaire.md:80
+#: ../../glossaire.md:81
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:75
+#: ../../glossaire.md:76
 msgid "groupe"
 msgstr ""
 
-#: ../../glossaire.md:83
+#: ../../glossaire.md:84
 msgid ""
-"Les groupes servent à rassembler des utilisateurs afin de leur attribuer des "
-"droits communs. Un utilisateur UNIX appartient à un ou plusieurs groupes."
+"Dans un système {term}`POSIX`, les groupes servent à rassembler des "
+"utilisateurs afin de leur attribuer des droits communs. Un utilisateur "
+"appartient à un ou plusieurs groupes."
 msgstr ""
 
-#: ../../glossaire.md:87
+#: ../../glossaire.md:89
 msgid ""
 "Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
 "un accès {term}`SSH` avec la commande suivante :"
 msgstr ""
 
-#: ../../glossaire.md:92
+#: ../../glossaire.md:94
 msgid ""
 "En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
 "`members home`."
 msgstr ""
 
-#: ../../glossaire.md:95
+#: ../../glossaire.md:97
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
 msgstr ""
 
-#: ../../glossaire.md:98
+#: ../../glossaire.md:100
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -573,17 +571,17 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:95
+#: ../../glossaire.md:97
 msgid "instance"
 msgstr ""
 
-#: ../../glossaire.md:103
+#: ../../glossaire.md:105
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
 
-#: ../../glossaire.md:105
+#: ../../glossaire.md:107
 msgid ""
 "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
 "des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
@@ -591,11 +589,11 @@ msgid ""
 "[Wiktionnaire](https://fr.wiktionary.org/wiki/instance#Nom_commun_2)"
 msgstr ""
 
-#: ../../glossaire.md:102
+#: ../../glossaire.md:104
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:110
+#: ../../glossaire.md:112
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -604,20 +602,20 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:117
+#: ../../glossaire.md:119
 msgid ""
-"Noyau de système d'exploitation {term}`libre <logiciel libre>`. Le noyau est "
-"le cœur du système, il fait l'interface entre les logiciels utilisateurs et "
-"le matériel."
+"Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel "
+"libre>`. Le noyau est le cœur du système, il fait l'interface entre les "
+"logiciels utilisateurs et le matériel."
 msgstr ""
 
-#: ../../glossaire.md:121
+#: ../../glossaire.md:123
 msgid ""
 "Par extention, Linux fait souvent référence à tout système d'exploitation "
 "basé sur ce noyau. --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)"
 msgstr ""
 
-#: ../../glossaire.md:125
+#: ../../glossaire.md:127
 msgid ""
 "Désigne à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
 "wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
@@ -626,11 +624,11 @@ msgid ""
 "Historique_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:123
+#: ../../glossaire.md:125
 msgid "logiciel libre"
 msgstr ""
 
-#: ../../glossaire.md:131
+#: ../../glossaire.md:133
 msgid ""
 "Désigne des logiciels qui respectent la liberté des utilisateurs. En "
 "particulier, les utilisateurs ont la liberté d'exécuter, copier, étudier, "
@@ -639,7 +637,7 @@ msgid ""
 "Logiciel_libre)"
 msgstr ""
 
-#: ../../glossaire.md:138
+#: ../../glossaire.md:140
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -649,22 +647,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:138
+#: ../../glossaire.md:140
 msgid "nom de domaine"
 msgstr ""
 
-#: ../../glossaire.md:146
+#: ../../glossaire.md:148
 msgid ""
 "Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
 "être humain."
 msgstr ""
 
-#: ../../glossaire.md:149
+#: ../../glossaire.md:151
 msgid ""
 "Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
 msgstr ""
 
-#: ../../glossaire.md:151
+#: ../../glossaire.md:153
 msgid ""
 "Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
 "Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
@@ -672,13 +670,13 @@ msgid ""
 "utilisé comme un {term}`alias` pour une adresse IP."
 msgstr ""
 
-#: ../../glossaire.md:155
+#: ../../glossaire.md:157
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:159
+#: ../../glossaire.md:161
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -688,11 +686,26 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:159
+#: ../../glossaire.md:169
+msgid ""
+"(_Portable Operating System Interface_) ensemble de normes techniques qui "
+"spécifient une interface, permettant aux systèmes d'exploitation qui la "
+"respectent d'être interchangeables, du point de vue d'un logiciel "
+"utilisateur."
+msgstr ""
+
+#: ../../glossaire.md:173
+msgid ""
+"{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia."
+"org/wiki/POSIX#POSIX-oriented_operating_systems) respectent cette interface, "
+"contrairement à Windows. --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)"
+msgstr ""
+
+#: ../../glossaire.md:170
 msgid "protocole"
 msgstr ""
 
-#: ../../glossaire.md:167
+#: ../../glossaire.md:178
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -700,33 +713,33 @@ msgid ""
 "org/wiki/Protocole_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:165
+#: ../../glossaire.md:176
 msgid "registraire"
 msgstr ""
 
-#: ../../glossaire.md:173
+#: ../../glossaire.md:184
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou une association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:170
+#: ../../glossaire.md:181
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:178
+#: ../../glossaire.md:189
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:174
+#: ../../glossaire.md:185
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:182
+#: ../../glossaire.md:193
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -736,11 +749,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:182
+#: ../../glossaire.md:193
 msgid "site Web dynamique"
 msgstr ""
 
-#: ../../glossaire.md:190
+#: ../../glossaire.md:201
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -748,11 +761,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
 
-#: ../../glossaire.md:188
+#: ../../glossaire.md:199
 msgid "site Web statique"
 msgstr ""
 
-#: ../../glossaire.md:196
+#: ../../glossaire.md:207
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -762,11 +775,11 @@ msgid ""
 "Page_web_statique)"
 msgstr ""
 
-#: ../../glossaire.md:195
+#: ../../glossaire.md:206
 msgid "terminal"
 msgstr ""
 
-#: ../../glossaire.md:203
+#: ../../glossaire.md:214
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -774,7 +787,7 @@ msgid ""
 "textuelle, permettant d'entrer des commandes et d'en lire le résultat."
 msgstr ""
 
-#: ../../glossaire.md:207
+#: ../../glossaire.md:218
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -782,14 +795,14 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:212
+#: ../../glossaire.md:223
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
 
-#: ../../glossaire.md:218
+#: ../../glossaire.md:229
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -799,18 +812,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:218
+#: ../../glossaire.md:229
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:226
+#: ../../glossaire.md:237
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:230
+#: ../../glossaire.md:241
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -819,7 +832,7 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../glossaire.md:236
+#: ../../glossaire.md:247
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
@@ -967,10 +980,10 @@ msgid ""
 msgstr ""
 
 #: ../../info/espace-personnel.md:79 ../../outils/dashboard.md:11
-#: ../../outils/dns.md:61 ../../outils/ldap.md:60
-#: ../../outils/sauvegardes.md:174 ../../services/drive.md:18
+#: ../../outils/dns.md:59 ../../outils/ldap.md:60
+#: ../../outils/sauvegardes.md:168 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/matrix.md:163
+#: ../../services/git.md:90 ../../services/matrix.md:231
 #: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:172
 #: ../../services/web.md:155 ../../services/webcast.md:40
 #: ../../services/webdav.md:52
@@ -1562,12 +1575,11 @@ msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:18
 msgid ""
-"Les données personnelles sont protégées par les [permissions UNIX](https://"
-"fr.wikipedia.org/wiki/Permissions_UNIX). Par defaut l'[espace personnel](./"
-"espace-personnel.md) n'est pas accessible par les autres utilisateurs (à "
-"part en lecture par les membres du {term}`groupe` `home`, ex: le {term}"
-"`serveur` {term}`web`). Chacun est libre de changer les permissions de son "
-"espace perso."
+"Les données personnelles sont protégées par les permissions {term}`POSIX`. "
+"Par defaut l'[espace personnel](./espace-personnel.md) n'est pas accessible "
+"par les autres utilisateurs (à part en lecture par les membres du {term}"
+"`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est libre de "
+"changer les permissions de son espace perso."
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:23
@@ -1602,7 +1614,7 @@ msgstr ""
 
 #: ../../outils/aliases.md:4
 msgid ""
-"Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` Unix "
+"Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs sur "
 "les {term}`alias` emails."
 msgstr ""
@@ -1767,14 +1779,12 @@ msgstr ""
 msgid ""
 "CLUB1 auto-héberge son propre {term}`serveur` {term}`DNS` autoritaire "
 "primaire à l'aide de {logiciel}`BIND`. Il est répliqué sur 4 autres serveurs "
-"secondaires : ceux de deux amis, Aymeric Agon-Rambosson ([ricorambo.su]"
-"(https://ricorambo.su)) et Etienne Le Louët (jeanpierre.moe) avec lesquels "
-"on a fait un échange de zones DNS et 2 autres, fournis gratuitement par "
-"[Hurricane Electrics](https://dns.he.net/). Ce qui donne un total de 5 "
-"serveurs autoritaires :"
+"secondaires de deux amis, Aymeric Agon-Rambosson ([ricorambo.su](https://"
+"ricorambo.su)) et Etienne Le Louët (jeanpierre.moe) avec lesquels on a fait "
+"un échange de zones DNS. Ce qui donne un total de 5 serveurs autoritaires :"
 msgstr ""
 
-#: ../../outils/dns.md:25
+#: ../../outils/dns.md:24
 msgid ""
 "Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/"
 "wiki/TSIG) et [DNSSEC](https://fr.wikipedia.org/wiki/"
@@ -1783,30 +1793,29 @@ msgid ""
 "local."
 msgstr ""
 
-#: ../../outils/dns.md:30
+#: ../../outils/dns.md:29
 msgid ""
 "[Article du journal à propos du serveur DNS](https://club1.fr/serveur-dns)"
 msgstr ""
 
-#: ../../outils/dns.md:31
+#: ../../outils/dns.md:30
 msgid ""
 "[Fil du forum à propos de DNSSEC](https://forum.club1.fr/d/7-configurer-"
 "dnssec-sur-ns1club1fr)"
 msgstr ""
 
-#: ../../outils/dns.md:32
+#: ../../outils/dns.md:31
 msgid ""
-"Outils de diagnostic en ligne : [délégation](https://www.buddyns.com/"
-"delegation-lab/club1.fr), [résumé DNSSEC](https://dnssec-analyzer."
+"Outils de diagnostic en ligne : [Résumé DNSSEC](https://dnssec-analyzer."
 "verisignlabs.com/club1.fr), [visualiseur DNSSEC](https://dnsviz.net/d/club1."
 "fr/dnssec/)"
 msgstr ""
 
-#: ../../outils/dns.md:38
+#: ../../outils/dns.md:36
 msgid "Hébergement de zones secondaires"
 msgstr ""
 
-#: ../../outils/dns.md:41
+#: ../../outils/dns.md:39
 msgid ""
 "Il est envisageable pour CLUB1 d'héberger les zones DNS d'autres domaines en "
 "tant que serveur secondaire. La configuration initiale devra être faite "
@@ -1815,42 +1824,42 @@ msgid ""
 "possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
 msgstr ""
 
-#: ../../outils/dns.md:46 ../../outils/forum.md:97 ../../outils/site.md:63
+#: ../../outils/dns.md:44 ../../outils/forum.md:97 ../../outils/site.md:63
 msgid "Administration"
 msgstr ""
 
-#: ../../outils/dns.md:49
+#: ../../outils/dns.md:47
 msgid ""
 "Seuls les membres du {term}`groupe` `sudo` peuvent éditer la configuration "
 "du serveur DNS et quelques règles doivent être respectées par les "
 "administrateurs :"
 msgstr ""
 
-#: ../../outils/dns.md:52
+#: ../../outils/dns.md:50
 msgid ""
 "Les nouvelles zones et les inclusions de clés sont à ajouter dans le fichier "
 "`/etc/bind/named.conf.local`."
 msgstr ""
 
-#: ../../outils/dns.md:53
+#: ../../outils/dns.md:51
 msgid ""
 "Les fichiers de zones primaires doivent être créés dans `/etc/bind` avec un "
 "lien symbolique dans `/var/lib/bind`."
 msgstr ""
 
-#: ../../outils/dns.md:54
+#: ../../outils/dns.md:52
 msgid ""
 "Les blocs de zones primaires doivent référencer le fichier de `/var/lib/"
 "bind`."
 msgstr ""
 
-#: ../../outils/dns.md:55
+#: ../../outils/dns.md:53
 msgid ""
 "Les blocs de zones secondaires doivent utiliser un simple nom de fichier "
 "(lequel sera alors relatif à `/var/cache/bind`)."
 msgstr ""
 
-#: ../../outils/dns.md:57
+#: ../../outils/dns.md:55
 msgid ""
 "Les modifications de zones sont principalement réalisées par les [scripts "
 "CLUB1](https://github.com/club-1/hosting/), mais dans le cas d'une "
@@ -1858,14 +1867,14 @@ msgid ""
 "fichier de zone en question."
 msgstr ""
 
-#: ../../outils/dns.md:65
+#: ../../outils/dns.md:63
 msgid ""
 "{term}`Serveur` {term}`DNS`, respectant les standards, pouvant jouer le rôle "
 "de serveur autoritaire, de résolveur récursif, de transitaire DNS, ou les "
 "trois à la fois."
 msgstr ""
 
-#: ../../outils/dns.md:69
+#: ../../outils/dns.md:67
 msgid ""
 "Sur CLUB1, BIND est à la fois un serveur autoritaire et un résolveur "
 "récursif pour le réseau local. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -2098,40 +2107,52 @@ msgid ""
 "typography)"
 msgstr ""
 
-#: ../../outils/forum.md:133
+#: ../../outils/forum.md:132
+msgid ""
+"Liens automatiques vers les définitions d'une documentation {term}`Sphinx`. "
+"--- [Sources](https://github.com/club-1/flarum-ext-sphinx-glossary)"
+msgstr ""
+
+#: ../../outils/forum.md:137
+msgid ""
+"Coloration syntaxique pour les blocs de code côté serveur et mise en cache. "
+"--- [Sources](https://github.com/club-1/flarum-ext-server-side-highlight)"
+msgstr ""
+
+#: ../../outils/forum.md:142
 msgid "Fichiers et dossiers"
 msgstr ""
 
-#: ../../outils/forum.md:135
+#: ../../outils/forum.md:144
 msgid "Quelques fichiers et dossiers en relation avec le forum CLUB1."
 msgstr ""
 
-#: ../../outils/forum.md:139
+#: ../../outils/forum.md:148
 msgid ""
 "Dossier d'installation de Flarum. Il contient notamment les fichiers "
 "suivants :"
 msgstr ""
 
-#: ../../outils/forum.md:142
+#: ../../outils/forum.md:151
 msgid ""
 "`config.php` : Fichier de configuration de Flarum. Il ne contient que les "
 "paramètres d'installation. Le reste de la configuration se trouve dans la "
 "base de données."
 msgstr ""
 
-#: ../../outils/forum.md:146
+#: ../../outils/forum.md:155
 msgid ""
 "`composer.json` : Fichier décrivant les dépendances Composer. C'est via ce "
 "logiciel que sont installées les extensions Flarum."
 msgstr ""
 
-#: ../../outils/forum.md:151
+#: ../../outils/forum.md:160
 msgid ""
 "Fichier de configuration {logiciel}`Nginx` contenant le _virtual host_ du "
 "forum."
 msgstr ""
 
-#: ../../outils/forum.md:156
+#: ../../outils/forum.md:165
 msgid ""
 "Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisateur "
 "`forum`."
@@ -2875,7 +2896,7 @@ msgid "2. Étapes préparatoires"
 msgstr ""
 
 #: ../../outils/sauvegardes.md:58 ../../outils/sauvegardes.md:93
-#: ../../outils/sauvegardes.md:109
+#: ../../outils/sauvegardes.md:110
 msgid "Cette phase doit être réalisée avec l'utilisateur `root`."
 msgstr ""
 
@@ -2909,39 +2930,35 @@ msgstr ""
 msgid "3. Installation des paquets"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:107
+#: ../../outils/sauvegardes.md:108
 msgid "4. Restauration totale"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:111
+#: ../../outils/sauvegardes.md:112
 msgid "4.1. Archive `system` et dossier `etc`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:128
-msgid "4.2. Certains fichiers spéciaux"
+#: ../../outils/sauvegardes.md:129
+msgid "4.2. Base de données {term}`LDAP`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:135
-msgid "4.3. Base de données {term}`LDAP`"
+#: ../../outils/sauvegardes.md:137
+msgid "4.3. Base de données des [alias email](/outils/aliases.md)"
 msgstr ""
 
 #: ../../outils/sauvegardes.md:143
-msgid "4.4. Base de données des [alias email](/outils/aliases.md)"
+msgid "4.4. Bases de données {logiciel}`MariaDB`"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:149
-msgid "4.5. Bases de données {logiciel}`MariaDB`"
+#: ../../outils/sauvegardes.md:152
+msgid "4.5. Bases de données Postgres"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:158
-msgid "4.6. Bases de données Postgres"
+#: ../../outils/sauvegardes.md:162
+msgid "4.6. Finalisation"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:168
-msgid "4.7. Finalisation"
-msgstr ""
-
-#: ../../outils/sauvegardes.md:178
+#: ../../outils/sauvegardes.md:172
 msgid ""
 "Logiciel en {term}`CLI` de sauvegardes incrémentales, basé sur la "
 "déduplication. Il permet aussi de compresser et chiffrer les données "
@@ -2949,7 +2966,7 @@ msgid ""
 "github.com/borgbackup/borg)"
 msgstr ""
 
-#: ../../outils/sauvegardes.md:185
+#: ../../outils/sauvegardes.md:179
 msgid ""
 "Logiciel en {term}`CLI` permettant d'automatiser la gestion de sauvegardes "
 "avec {logiciel}`Borg`. Il est notamment capable de sauvegarder des bases de "
@@ -3940,7 +3957,32 @@ msgid ""
 "vous reste plus qu'à activer le chiffrement des conversations."
 msgstr ""
 
-#: ../../services/matrix.md:167
+#: ../../services/matrix.md:163
+msgid "Configurations spécifiques"
+msgstr ""
+
+#: ../../services/matrix.md:166
+msgid ""
+"Le serveur CLUB1 a des [ressources limitées](../info/infrastructure-"
+"materielle.md#serveur), il ne peut donc pas accueillir et conserver toutes "
+"les discussions à l'infini. Nous avons ainsi configuré {logiciel}`Synapse` "
+"en conséquence :"
+msgstr ""
+
+#: ../../services/matrix.md:227
+msgid ""
+"L'article de journal \"[Nouveaux réglages du serveur Matrix](https://club1."
+"fr/serveur-matrix-suivi-001)\""
+msgstr ""
+
+#: ../../services/matrix.md:228
+msgid ""
+"Le post de forum \"[Limiter les salons fédérés en fonction de leur "
+"complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-"
+"fonction-de-leur-complexite/12)\""
+msgstr ""
+
+#: ../../services/matrix.md:235
 msgid ""
 "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
 "l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
@@ -3948,7 +3990,7 @@ msgid ""
 "org/synapse)"
 msgstr ""
 
-#: ../../services/matrix.md:174
+#: ../../services/matrix.md:242
 msgid ""
 "{term}`Client` {term}`Matrix` complet (anciennement \"Riot\") disponible sur "
 "de nombreuses plateformes. CLUB1 héberge une {term}`instance` de la version "
@@ -4639,8 +4681,8 @@ msgstr ""
 
 #: ../../services/web.md:174
 msgid ""
-"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy inverse\" "
-"{logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
+"inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Apache_HTTP_Server), [Sources](https://github.com/apache/httpd)"
 msgstr ""
 
