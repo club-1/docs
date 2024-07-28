@@ -120,7 +120,7 @@ Internet
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
 Linux
-   Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel libre>`,
+   Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel libre>`.
    Le noyau est le cœur du système,
    il fait l'interface entre les logiciels utilisateurs et le matériel.
 

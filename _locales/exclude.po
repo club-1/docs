@@ -103,6 +103,9 @@ msgstr ""
 msgid "PHP-FPM"
 msgstr ""
 
+msgid "POSIX"
+msgstr ""
+
 msgid "RSS"
 msgstr ""
 

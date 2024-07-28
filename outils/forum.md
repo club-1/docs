@@ -128,6 +128,15 @@ Typographie améliorée pour les écrits français, principalement autour de la 
 --- [Sources](https://github.com/club-1/flarum-ext-french-typography)
 ```
 
+```{describe} club-1/flarum-ext-sphinx-glossary
+Liens automatiques vers les définitions d'une documentation {term}`Sphinx`.
+--- [Sources](https://github.com/club-1/flarum-ext-sphinx-glossary)
+```
+
+```{describe} club-1/flarum-ext-server-side-highlight
+Coloration syntaxique pour les blocs de code côté serveur et mise en cache.
+--- [Sources](https://github.com/club-1/flarum-ext-server-side-highlight)
+```
 ````
 
 ### Fichiers et dossiers
