@@ -159,6 +159,16 @@ jobs:
         with:
           name: docs-html
           path: _build/html
+      - name: Add redirect page
+        run: |
+          cat << EOF > _build/html/index.html
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <meta http-equiv="refresh" content="0; url=fr" />
+            </head>
+          </html>
+          EOF
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
