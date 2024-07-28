@@ -151,9 +151,11 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     needs: html
+    concurrency: preview-${{ github.ref }}
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: docs-html
+      - run: git init
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
