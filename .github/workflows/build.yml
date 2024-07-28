@@ -153,9 +153,13 @@ jobs:
     needs: html
     concurrency: preview-${{ github.ref }}
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
           name: docs-html
-      - run: git init
+          path: _build/html
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _build/html
