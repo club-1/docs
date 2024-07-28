@@ -163,3 +163,6 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: _build/html
+  pages:
+    needs: preview
+    uses: ./.github/workflows/pages.yml
