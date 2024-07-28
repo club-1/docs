@@ -13,5 +13,7 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
       - name: Clean preview
         uses: rossjrw/pr-preview-action@v1
