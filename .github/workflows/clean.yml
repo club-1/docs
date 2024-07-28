@@ -1,0 +1,17 @@
+name: clean
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clean preview
+        uses: rossjrw/pr-preview-action@v1

@@ -148,3 +148,14 @@ jobs:
         with:
           name: docs-pdf
           path: _build/latex/fr/club1.pdf
+  preview:
+    runs-on: ubuntu-latest
+    needs: html
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: docs-html
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: docs-html
