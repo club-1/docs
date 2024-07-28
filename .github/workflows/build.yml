@@ -152,6 +152,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: html
     concurrency: preview-${{ github.ref }}
+    if: github.event.pull_request.head.repo.full_name == github.repository
     permissions:
       contents: write
       pull-requests: write
