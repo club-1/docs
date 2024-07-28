@@ -148,3 +148,31 @@ jobs:
         with:
           name: docs-pdf
           path: _build/latex/fr/club1.pdf
+  preview:
+    runs-on: ubuntu-latest
+    needs: html
+    concurrency: preview-${{ github.ref }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: docs-html
+          path: _build/html
+      - name: Add redirect page
+        run: |
+          cat << EOF > _build/html/index.html
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <meta http-equiv="refresh" content="0; url=fr" />
+            </head>
+          </html>
+          EOF
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _build/html
+  pages:
+    needs: preview
+    uses: ./.github/workflows/pages.yml
