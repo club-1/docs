@@ -155,8 +155,5 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: docs-html
-      - run: ls -R
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: docs-html
