@@ -167,8 +167,6 @@ permissions
    sur ces fichiers et dossiers.
 
    Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x).
-   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
-   soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
 
    ```{table} Récapitulatif des permisions
    ---
@@ -181,17 +179,10 @@ permissions
    | `x`   | Exécuter ce fichier            | Traverser ce dossier                           |
    ```
 
+   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
+   soit au membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
+
    Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
-   Dans l'exemple suivant, on voit que pour le fichier {file}`/etc/shadow`,
-   l'utilisateur `root` a les droits `rw-`,
-   les membres du {term}`groupe` `shadow` ont les droits `r--`,
-   et les autres `---`, soit aucun droits :
-
-   ```{code-block} console
-   $ ls -l /etc/shadow
-   -rw-r----- 1 root shadow 2514 nov.  25  2023 /etc/shadow
-   ```
-
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Permissions_UNIX)
 
 PHP
