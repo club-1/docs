@@ -11,6 +11,7 @@ from typing import Callable, Optional, Tuple
 
 
 class TermTooltips(SphinxPostTransform):
+    cache = dict()
     default_priority = 5
     logger = logging.getLogger('term_tooltips')
     start_after: Optional[str]
@@ -39,18 +40,34 @@ class TermTooltips(SphinxPostTransform):
     def process_termref(self, termref: addnodes.pending_xref) -> None:
         # Get key from termref's target.
         target: str = termref['reftarget'].lower()
+        reftype: str = termref['reftype']
+
+        # First check if the definition is in the cache
+        cache_key = (reftype, target)
+        deftext = self.cache.get(cache_key, None)
+        if deftext:
+            self.build_abbrev_and_wrap_node(termref, deftext)
+            return
         # Get object from dictionary of terms.
         obj = self.stdterms.get(target, None)
         if obj == None:
             self.logger.debug(f'could not find object in std domain for target: "{target}"')
             return
-        self.build_abbrev_and_wrap_node(termref, obj, nodes.definition)
+        deftext = self.build_definition_text(obj, nodes.definition)
+        self.cache[cache_key] = deftext
+        self.build_abbrev_and_wrap_node(termref, deftext)
 
     def process_stdref(self, objref: addnodes.pending_xref) -> None:
         # Get key from termref's target.
         reftarget: str = objref['reftarget']
         reftype: str = objref['reftype']
 
+        # First check if the definition is in the cache
+        cache_key = (reftype, reftarget)
+        deftext = self.cache.get(cache_key, None)
+        if deftext:
+            self.build_abbrev_and_wrap_node(objref, deftext)
+            return
         # Get object from stddomain's objects.
         obj = None
         objtypes = self.stddomain.objtypes_for_role(reftype) or []
@@ -61,9 +78,11 @@ class TermTooltips(SphinxPostTransform):
         if obj == None:
             self.logger.debug(f'could not find object in std domain for target: "{reftarget}"')
             return
-        self.build_abbrev_and_wrap_node(objref, obj, addnodes.desc_content)
+        deftext = self.build_definition_text(obj, addnodes.desc_content)
+        self.cache[cache_key] = deftext
+        self.build_abbrev_and_wrap_node(objref, deftext)
 
-    def build_abbrev_and_wrap_node(self, ref: addnodes.pending_xref, target: Tuple[str, str], definition_node_type: type):
+    def build_definition_text(self, target: Tuple[str,str], definition_node_type: type) -> str:
         # get document and refid from object found in the standard domain.
         docname, labelid = target[:2]
         self.logger.debug(f'document: {docname}, refid: {labelid}')
@@ -83,6 +102,9 @@ class TermTooltips(SphinxPostTransform):
             deftext = deftext.split(self.start_after, 1)[-1].lstrip()
         if self.end_before != None:
             deftext = deftext.split(self.end_before, 1)[0].rstrip()
+        return deftext
+
+    def build_abbrev_and_wrap_node(self, ref: addnodes.pending_xref, deftext: str):
         newnode = nodes.abbreviation()
         newnode['explanation'] = deftext
         newnode += ref.deepcopy()
