@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f302e11b"></script>
+        <script src="../_static/documentation_options.js?v=dcc67438"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -215,9 +215,11 @@ mais il existe quelques différences :</p>
 <p>Comme indiqué précédemment, le fichier d’alias de réception <code class="docutils literal notranslate"><span class="pre">/etc/aliases</span></code> respecte la <a class="reference external" href="http://www.postfix.org/aliases.5.html">syntaxe d’alias de Postfix</a>.
 En plus de rediriger les emails vers d’autres adresses,
 elle permet de les envoyer vers des fichiers ou des commandes.
-Dans ce cas, il faut faire attention aux <abbr title="Dans un système POSIX, il est possible d’attribuer des permissions aux fichiers et aux dossiers. Elles permettent d’accorder ou non des droits à des utilisateurs ou a des groupes sur ces fichiers et dossiers. Il existe 3 droits principaux, read (r), write (w) et execute (x) :
+Dans ce cas, il faut faire attention aux <abbr title="Dans un système POSIX, il est possible d’attribuer des permissions aux fichiers et aux dossiers. Elles permettent d’accorder ou non des droits à des utilisateurs ou a des groupes sur ces fichiers et dossiers.
 
-Tableau récapitulatif des permisions
+Il existe 3 droits principaux, read (r), write (w) et execute (x). Lesquels peuvent être accordés soit à l’utilisateur proriétaire du fichier/dossier (u), soit au membres du groupe du fichier/dossier (g), soit aux autres utilisateurs (o).
+
+Récapitulatif des permisions
 
 Droit
 
@@ -242,8 +244,6 @@ x
 Exécuter ce fichier
 
 Traverser ce dossier
-
-Lesquels peuvent être accordés soit à l’utilisateur proriétaire du fichier/dossier (u), soit au membres du groupe du fichier/dossier (g), soit aux autres utilisateurs (o).
 
 Les permissions peuvent être consultées en CLI avec la commande ls -l et modifiées avec chmod. Dans l’example suivant, on voit que pour le fichier /etc/shadow, l’utilisateur root a les droits rw-, les membres du groupe shadow ont les droits r--, et les autres ---, soit aucun droits :
 
@@ -292,7 +292,7 @@ En remplaçant GROUP par le groupe voulu. Exemple : members sudo ou members hom
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g4825
+		v: 2024-07-29-gad03
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

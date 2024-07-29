@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=7b8e0d19"></script>
+        <script src="../_static/documentation_options.js?v=544a983a"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -153,9 +153,11 @@ members GROUP
 By replacing GROUP with the desired group. Example: members sudo or members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>).</p></li>
 <li><p>The <a class="reference internal" href="../outils/sauvegardes.html"><span class="std std-doc">backups</span></a> are encrypted.</p></li>
 <li><p>The <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr> used to connect to the server are all encrypted, so passwords and data cannot be intercepted.</p></li>
-<li><p>Les données personnelles sont protégées par les <abbr title="Dans un système POSIX, il est possible d’attribuer des permissions aux fichiers et aux dossiers. Elles permettent d’accorder ou non des droits à des utilisateurs ou a des groupes sur ces fichiers et dossiers. Il existe 3 droits principaux, read (r), write (w) et execute (x) :
+<li><p>Les données personnelles sont protégées par les <abbr title="Dans un système POSIX, il est possible d’attribuer des permissions aux fichiers et aux dossiers. Elles permettent d’accorder ou non des droits à des utilisateurs ou a des groupes sur ces fichiers et dossiers.
 
-Tableau récapitulatif des permisions
+Il existe 3 droits principaux, read (r), write (w) et execute (x). Lesquels peuvent être accordés soit à l’utilisateur proriétaire du fichier/dossier (u), soit au membres du groupe du fichier/dossier (g), soit aux autres utilisateurs (o).
+
+Récapitulatif des permisions
 
 Droit
 
@@ -180,8 +182,6 @@ x
 Exécuter ce fichier
 
 Traverser ce dossier
-
-Lesquels peuvent être accordés soit à l’utilisateur proriétaire du fichier/dossier (u), soit au membres du groupe du fichier/dossier (g), soit aux autres utilisateurs (o).
 
 Les permissions peuvent être consultées en CLI avec la commande ls -l et modifiées avec chmod. Dans l’example suivant, on voit que pour le fichier /etc/shadow, l’utilisateur root a les droits rw-, les membres du groupe shadow ont les droits r--, et les autres ---, soit aucun droits :
 
@@ -240,7 +240,7 @@ Chacun est libre de changer les permissions de son espace perso.</p></li>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g4825
+		v: 2024-07-29-gad03
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

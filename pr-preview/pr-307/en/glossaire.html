@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=7b8e0d19"></script>
+        <script src="_static/documentation_options.js?v=544a983a"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -227,10 +227,12 @@ It is possible to find out who is a member of a group on the server from an SSH 
 members GROUP
 
 By replacing GROUP with the desired group. Example: members sudo or members home."><a class="reference internal" href="#term-groupe"><span class="xref std std-term">groupes</span></a></abbr>
-sur ces fichiers et dossiers.
-Il existe 3 droits principaux, <em>read</em> (r), <em>write</em> (w) et <em>execute</em> (x) :</p>
+sur ces fichiers et dossiers.</p>
+<p>Il existe 3 droits principaux, <em>read</em> (r), <em>write</em> (w) et <em>execute</em> (x).
+Lesquels peuvent être accordés soit à l’<em>utilisateur</em> proriétaire du fichier/dossier (u),
+soit au membres du <em>groupe</em> du fichier/dossier (g), soit aux <em>autres</em> utilisateurs (o).</p>
 <table class="white-space-wrap docutils align-default" id="id1">
-<caption><span class="caption-number">Table 7.1 </span><span class="caption-text">Tableau récapitulatif des permisions</span><a class="headerlink" href="#id1" title="Link to this table">#</a></caption>
+<caption><span class="caption-number">Table 7.1 </span><span class="caption-text">Récapitulatif des permisions</span><a class="headerlink" href="#id1" title="Link to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Droit</p></th>
 <th class="head"><p>Sur un fichier</p></th>
@@ -252,10 +254,8 @@ Il existe 3 droits principaux, <em>read</em> (r), <em>write</em> (w) et <em>exec
 </tr>
 </tbody>
 </table>
-<p>Lesquels peuvent être accordés soit à l’<em>utilisateur</em> proriétaire du fichier/dossier (u),
-soit au membres du <em>groupe</em> du fichier/dossier (g), soit aux <em>autres</em> utilisateurs (o).</p>
 <p>Les permissions peuvent être consultées en <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> avec la commande <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code> et modifiées avec <code class="docutils literal notranslate"><span class="pre">chmod</span></code>.
-Dans l’example suivant, on voit que pour le fichier <code class="docutils literal notranslate"><span class="pre">/etc/shadow</span></code>,
+Dans l’example suivant, on voit que pour le fichier <code class="file docutils literal notranslate"><span class="pre">/etc/shadow</span></code>,
 l’utilisateur <code class="docutils literal notranslate"><span class="pre">root</span></code> a les droits <code class="docutils literal notranslate"><span class="pre">rw-</span></code>,
 les membres du <abbr title="In a POSIX system, groups are used to gather users in order to assign them common rights. A user belongs to one or more groups.
 
@@ -351,7 +351,7 @@ A “Web page” usually consists of a document whose content is written in HTML
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g4825
+		v: 2024-07-29-gad03
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
