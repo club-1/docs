@@ -1,0 +1,403 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backups with Borg &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=b8504610" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/outils/sauvegardes.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=08f43a84"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Dashboard" href="dashboard.html" />
+    <link rel="prev" title="DNS server" href="dns.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/sauvegardes.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/sauvegardes.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Website of CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Discussion forum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Managing email aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">DNS server</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Backups with Borg</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#processus-de-restauration">Restoration process</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#installation-du-systeme">1. Installation du système</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#etapes-preparatoires">2. Étapes préparatoires</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#installation-des-paquets">3. Installation des paquets</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#restauration-totale">4. Restauration totale</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Tools</a></li>
+      <li class="breadcrumb-item active">Backups with Borg</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./outils/sauvegardes.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sauvegardes-avec-borg">
+<h1>Backups with Borg<a class="headerlink" href="#sauvegardes-avec-borg" title="Link to this heading">#</a></h1>
+<img alt="system status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/y3yqTX9N-2/system.svg" />
+<img alt="mariadb status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/TRFhqbdG-2/mariadb.svg" />
+<img alt="postgres status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/KzgZiSZL-2/postgres.svg" />
+<img alt="userdata status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/xFAKftB0-2/userdata.svg" /><p>System and user data are backed up once a day at 5am. CLUB1’s backups are based on <abbr title="Incremental backups software in [CLI], based on deduplication. It also
+compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr> and <abbr title="[CLI] software to automate backup management with [Borg]. In
+particular, it is able to backup Postgres and [MariaDB] databases."><a class="reference internal" href="#logiciel-Borgmatic"><span class="xref std std-logiciel">Borgmatic</span></a></abbr>. They are thus stored in a deduplicated and encrypted manner in several places including an off-site repository offered by Etienne Le Louët (self-hosted <abbr title="Système d’exploitation communautaire basé sur [Linux], composé presque
+exclusivement de [logiciels libres] et respectant la norme [POSIX]."><a class="reference internal" href="../glossaire.html#term-Debian"><span class="xref std std-term">Debian</span></a></abbr> server in Paris).</p>
+<p>These are incremental backups with the following retention policy:</p>
+<ul class="simple">
+<li><p>7 daily backups</p></li>
+<li><p>4 weekly backups</p></li>
+</ul>
+<p>The oldest backup kept is therefore about 1 month old and each day of the last week is accessible. In case of hardware failure, a maximum of 24 hours of data will be lost. The successful completion of backups is verified using the <a class="reference external" href="https://healthchecks.io/">Healthchecks.io</a> service</p>
+<p>Backups are divided into four groups:</p>
+<ol class="arabic simple">
+<li><p><strong>System</strong> for server configuration and application files.</p></li>
+<li><p><strong>MariaDB</strong> for <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases.</p></li>
+<li><p><strong>Postgres</strong> for PostgreSQL databases.</p></li>
+<li><p><strong>Userdata</strong> for the data of the <em>personal space</em> (<code class="docutils literal notranslate"><span class="pre">home</span></code> folder).</p></li>
+</ol>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The journal article: <a class="reference external" href="https://club1.fr/backups/">Sauvegardes</a> (in French)</p>
+</div>
+<section id="processus-de-restauration">
+<h2>Restoration process<a class="headerlink" href="#processus-de-restauration" title="Link to this heading">#</a></h2>
+<p>This section describes the total restoration of the system by reinstalling all software from zero.</p>
+<section id="installation-du-systeme">
+<h3>1. Installation du système<a class="headerlink" href="#installation-du-systeme" title="Link to this heading">#</a></h3>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Language      : English
+Location      : Europe/France
+Locale        : en-US
+Hostname      : club1.fr
+Root password :
+First user    : Any username/password
+Partitionning : Guided (All files in one partition) + 16Go Swap
+Mirrors       : deb.debian.org
+Popcon        : yes
+Software      : SSH server, Standard system utilities
+</pre></div>
+</div>
+</section>
+<section id="etapes-preparatoires">
+<h3>2. Étapes préparatoires<a class="headerlink" href="#etapes-preparatoires" title="Link to this heading">#</a></h3>
+<p>This phase must be done with the user <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p>
+<section id="preparations-generales">
+<h4>2.1. General preparations<a class="headerlink" href="#preparations-generales" title="Link to this heading">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>dpkg-reconfigure locales
+</pre></div>
+</div>
+<p>Then select locals <code class="docutils literal notranslate"><span class="pre">en-GB</span></code>, <code class="docutils literal notranslate"><span class="pre">en-US</span></code> and <code class="docutils literal notranslate"><span class="pre">fr-FR</span></code> in UTF-8. Mainly for not having error messages in the following steps.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>vim<span class="w"> </span>borgbackup<span class="w"> </span>screen
+mkdir<span class="w"> </span>~/.ssh
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;nas.jeanpierre.moe ecdsa-sha2-nistp256 \</span>
+<span class="s2">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIdzQyGgLl9YgPVGey\</span>
+<span class="s2">CxRnOdswraNagx6xSFROaxjTjrM2WwXlFhxLXOxounGKUYBA2l5McCgNh8cneJjKOunmQ=&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">     </span>&gt;&gt;<span class="w"> </span>~/.ssh/known_hosts
+</pre></div>
+</div>
+</section>
+<section id="pre-restauration-de-fichiers-specifiques">
+<h4>2.2. Pre-restauration of specific files<a class="headerlink" href="#pre-restauration-de-fichiers-specifiques" title="Link to this heading">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>borg list club1@nas.jeanpierre.moe:backups/system
+</pre></div>
+</div>
+<p>Then replace <code class="docutils literal notranslate"><span class="pre">ARCHIVE</span></code> with the desired archive identifier from the above list. The most recent one is at the bottom left.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>borg<span class="w"> </span>extract<span class="w"> </span>club1@nas.jeanpierre.moe:backups/system::ARCHIVE<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>etc/shadow<span class="w"> </span>etc/passwd<span class="w"> </span>etc/group<span class="w"> </span>etc/gshadow<span class="w"> </span>root/apt-packages.txt<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>etc/borgmatic.d/system.yaml<span class="w"> </span>root/.ssh
+</pre></div>
+</div>
+<p>Two passwords will be requested: that of SSH then that of the archive.</p>
+</section>
+</section>
+<section id="installation-des-paquets">
+<h3>3. Installation des paquets<a class="headerlink" href="#installation-des-paquets" title="Link to this heading">#</a></h3>
+<p>This phase must be done with the user <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>/etc/systemd/system-preset
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;disable *&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>/etc/systemd/system-preset/disable-all.preset
+apt<span class="w"> </span>install<span class="w"> </span>extrepo
+extrepo<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>grafana
+extrepo<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>jellyfin
+extrepo<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>matrix
+extrepo<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>element.io
+apt<span class="w"> </span>update
+<span class="c1"># screen (~= 20min)</span>
+cat<span class="w"> </span>/root/apt-packages.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nv">DEBIAN_FRONTEND</span><span class="o">=</span>noninteractive<span class="w"> </span>xargs<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>--no-install-recommends<span class="w"> </span>-y
+</pre></div>
+</div>
+</section>
+<section id="restauration-totale">
+<h3>4. Restauration totale<a class="headerlink" href="#restauration-totale" title="Link to this heading">#</a></h3>
+<p>This phase must be done with the user <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p>
+<section id="archive-system-et-dossier-etc">
+<h4>4.1. <code class="docutils literal notranslate"><span class="pre">system</span></code> archive and <code class="docutils literal notranslate"><span class="pre">etc</span></code> folder<a class="headerlink" href="#archive-system-et-dossier-etc" title="Link to this heading">#</a></h4>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp<span class="w"> </span>/etc/fstab<span class="w"> </span>/root
+
+<span class="c1"># screen (~= 40min)</span>
+borgmatic<span class="w"> </span>extract<span class="w"> </span>--archive<span class="w"> </span>latest<span class="w"> </span>--repository<span class="o">=</span>club1@nas.jeanpierre.moe:backups/system<span class="w"> </span>--destination<span class="w"> </span>/
+
+<span class="nb">cd</span><span class="w"> </span>/etc
+git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>reset<span class="w"> </span>--hard<span class="w"> </span>master
+etckeeper<span class="w"> </span>init
+cp<span class="w"> </span>/root/fstab<span class="w"> </span>/etc
+git<span class="w"> </span>add<span class="w"> </span>-p<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>commit
+
+systemctl<span class="w"> </span>daemon-reload
+</pre></div>
+</div>
+</section>
+<section id="base-de-donnees-ldap">
+<h4>4.2. Base de données <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
+
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
+
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr><a class="headerlink" href="#base-de-donnees-ldap" title="Link to this heading">#</a></h4>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>stop<span class="w"> </span>slapd
+slapadd<span class="w"> </span>-l<span class="w"> </span>/root/ldap_data.ldif<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>chown<span class="w"> </span>-R<span class="w"> </span>openldap:openldap<span class="w"> </span>/var/lib/ldap
+systemctl<span class="w"> </span>restart<span class="w"> </span>slapd<span class="w"> </span>nslcd
+</pre></div>
+</div>
+</section>
+<section id="base-de-donnees-des-alias-email">
+<h4>4.3. Base de données des <a class="reference internal" href="aliases.html"><span class="std std-doc">alias email</span></a><a class="headerlink" href="#base-de-donnees-des-alias-email" title="Link to this heading">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newaliases
+postmap hash:/etc/aliases_senders
+chmod g+w /etc/aliases*.db
+</pre></div>
+</div>
+</section>
+<section id="bases-de-donnees-mariadb">
+<h4>4.4. Bases de données <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr><a class="headerlink" href="#bases-de-donnees-mariadb" title="Link to this heading">#</a></h4>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>start<span class="w"> </span>mariadb
+<span class="c1"># screen (~= 20min)</span>
+borgmatic<span class="w"> </span>restore<span class="w"> </span>--archive<span class="w"> </span>latest<span class="w"> </span>--repository<span class="o">=</span>club1@nas.jeanpierre.moe:backups/mariadb
+mariadb<span class="w"> </span>&lt;<span class="w"> </span>/root/mariadb-users.sql
+</pre></div>
+</div>
+</section>
+<section id="bases-de-donnees-postgres">
+<h4>4.5. Bases de données Postgres<a class="headerlink" href="#bases-de-donnees-postgres" title="Link to this heading">#</a></h4>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>start<span class="w"> </span>postgresql
+sudo<span class="w"> </span>-u<span class="w"> </span>postgres<span class="w"> </span>psql<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;create role root with superuser login;&#39;</span>
+sudo<span class="w"> </span>-u<span class="w"> </span>postgres<span class="w"> </span>psql<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;create database root with owner root;&#39;</span>
+<span class="c1"># screen (~= 6h)</span>
+borgmatic<span class="w"> </span>restore<span class="w"> </span>--archive<span class="w"> </span>latest<span class="w"> </span>--repository<span class="o">=</span>club1@nas.jeanpierre.moe:backups/postgres
+</pre></div>
+</div>
+</section>
+<section id="finalisation">
+<h4>4.6. Finalisation<a class="headerlink" href="#finalisation" title="Link to this heading">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm -rf /home/*
+reboot
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Borg">
+<span class="sig-name descname"><span class="pre">Borg</span></span><a class="headerlink" href="#logiciel-Borg" title="Link to this definition">#</a></dt>
+<dd><p>Incremental backups software in <abbr title="Command Line Interface, an interface in command line, based on a
+textual display. It is used through a [terminal] window. The CLI is
+very interesting because it can be used by humans as well as by
+software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>, based on deduplication. It also compresses and encrypts saved data. — <a class="reference external" href="https://www.borgbackup.org/">Site</a>, <a class="reference external" href="https://github.com/borgbackup/borg">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Borgmatic">
+<span class="sig-name descname"><span class="pre">Borgmatic</span></span><a class="headerlink" href="#logiciel-Borgmatic" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="Command Line Interface, an interface in command line, based on a
+textual display. It is used through a [terminal] window. The CLI is
+very interesting because it can be used by humans as well as by
+software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> software to automate backup management with <abbr title="Incremental backups software in [CLI], based on deduplication. It also
+compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr>. In particular, it is able to backup Postgres and <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases. — <a class="reference external" href="https://torsion.org/borgmatic/">Site</a>, <a class="reference external" href="https://projects.torsion.org/borgmatic-collective/borgmatic">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="dns.html" class="btn btn-neutral float-left" title="DNS server" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="dashboard.html" class="btn btn-neutral float-right" title="Dashboard" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-07-29-gaf9d
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/outils/sauvegardes.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/outils/sauvegardes.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

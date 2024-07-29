@@ -1,0 +1,491 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meta-documentation &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=b8504610" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/outils/meta-doc.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=08f43a84"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Discussion forum" href="forum.html" />
+    <link rel="prev" title="Website of CLUB1" href="site.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/meta-doc.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/meta-doc.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Website of CLUB1</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Meta-documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#arborescence-de-fichiers">File tree</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#proposer-des-modifications">Propose changes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#langue-principale-francais">Main language (French)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#autres-langues">Other languages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ajouter-une-page">Add a page</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ajouter-des-images">Add images</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compilation">Compilation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#prerequis-communs">Common prerequisites</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#optionnel-prerequis-pour-le-format-pdf"><em>(Optional)</em> Prerequisites for PDF format</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#commandes">Commands</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#deploiement-de-la-version-web">Deployment of the Web version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#metadonnees">Metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Discussion forum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Managing email aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">DNS server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Backups with Borg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Tools</a></li>
+      <li class="breadcrumb-item active">Meta-documentation</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./outils/meta-doc.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="meta-documentation">
+<h1>Meta-documentation<a class="headerlink" href="#meta-documentation" title="Link to this heading">#</a></h1>
+<p>The CLUB1’s documentation is published in <abbr title="(Hypertext Markup Language) Markup language designed to represent
+[Web] pages."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> format at <a class="reference external" href="https://club1.fr/docs/en/">https://club1.fr/docs/en/</a>. It exists in two languages: French, the main one and English, the secondary. The <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> site is generated using <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr>, from source files written in <abbr title="Lightweight markup language for creating formatted text. Documents
+written in Markdown are usually intended to be converted to [HTML], in
+order to make it a [Web] page. Its main advantage over HTML is its
+sleek syntax, which makes it more pleasant to read and write for a
+human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>. The source files are stored in a directory, versioned with <abbr title="Distributed version control system software"><a class="reference internal" href="../services/git.html#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> and publicly accessible via <abbr title="Web service providing hosting for software development and version
+control using [Git].
+
+Warning:
+
+  Unlike most of the projects that can be found there, Github is
+  neither **[free]**, nor **open source** and belongs to Microsoft."><a class="reference internal" href="../glossaire.html#term-GitHub"><span class="xref std std-term">GitHub</span></a></abbr> at <a class="reference external" href="https://github.com/club-1/docs/">https://github.com/club-1/docs/</a>.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>The language used in source files is a <abbr title="Lightweight markup language for creating formatted text. Documents
+written in Markdown are usually intended to be converted to [HTML], in
+order to make it a [Web] page. Its main advantage over HTML is its
+sleek syntax, which makes it more pleasant to read and write for a
+human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr> extension called <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">MyST</a>. It introduces several specificities, as explained in their <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html">syntax guide</a>, of which there is a <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/syntax/reference.html">quick reference</a>.</p>
+</div>
+<section id="arborescence-de-fichiers">
+<h2>File tree<a class="headerlink" href="#arborescence-de-fichiers" title="Link to this heading">#</a></h2>
+<p>The file tree below shows a summary of the real CLUB1 documentation’s folder’s file tree.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>./
+├── _build/
+├── _locales/
+│   ├── en/
+│   │   └── LC_MESSAGES/
+│   │       └── package.po
+│   └── package.pot
+├── _static/
+├── _templates/
+├── ***/
+│   └── ***.md
+├── AUTHORS
+├── glossaire.md
+└── index.md
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">_build</span></code>: folder that contains all the files generated by Sphinx.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">_locales/</span></code>: folder that contains the translation files. It is composed of one folder per language with <code class="docutils literal notranslate"><span class="pre">.po</span></code> files that contains the translations and <code class="docutils literal notranslate"><span class="pre">.pot</span></code> files automatically generated from the Markdown source files.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">_static/</span></code>: folder that contains the other files to include in the documentation, for instance the “style sheets”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">_templates/</span></code>: folder that contains the theme elements used for HTML format generation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">AUTHORS</span></code>: file that contains the list of authors.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">glossaire.md</span></code>: file that contains the terms of the main glossary.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">index.md</span></code>: principal source file, representing the root of the documentation.</p></li>
+</ul>
+<p>The <code class="docutils literal notranslate"><span class="pre">***</span></code> files and folders represent the set of source files of the documentation.</p>
+</section>
+<section id="proposer-des-modifications">
+<h2>Propose changes<a class="headerlink" href="#proposer-des-modifications" title="Link to this heading">#</a></h2>
+<p>Thanks to the usage of <abbr title="Distributed version control system software"><a class="reference internal" href="../services/git.html#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr>, anybody can propose modifications. It is possible to modify the files directly from <abbr title="Web service providing hosting for software development and version
+control using [Git].
+
+Warning:
+
+  Unlike most of the projects that can be found there, Github is
+  neither **[free]**, nor **open source** and belongs to Microsoft."><a class="reference internal" href="../glossaire.html#term-GitHub"><span class="xref std std-term">GitHub</span></a></abbr> (an account will be needed), in a personal branch, then to create a <em>pull request</em> to the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch (this is the default action proposed). One of the CLUB1 member will then have to accept and <em>merge</em> these modifications in order to integrate it in the main branch.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you refuse to use a GitHub account, it is still possible to use <a class="reference external" href="https://git-scm.com/docs/git-send-email"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">send-email</span></code></a> to send your changes to <a class="reference external" href="mailto:docs+git&#37;&#52;&#48;club1&#46;fr">docs+git<span>&#64;</span>club1<span>&#46;</span>fr</a>.</p>
+</div>
+<p>On each update of the main branch, the documentation is automatically compiled and published on the CLUB1 website.</p>
+<section id="langue-principale-francais">
+<h3>Main language (French)<a class="headerlink" href="#langue-principale-francais" title="Link to this heading">#</a></h3>
+<p>To modify an existing page, edit the corresponding <code class="docutils literal notranslate"><span class="pre">.md</span></code> file. From any page of the doc, there is a link to edit the page on <abbr title="Web service providing hosting for software development and version
+control using [Git].
+
+Warning:
+
+  Unlike most of the projects that can be found there, Github is
+  neither **[free]**, nor **open source** and belongs to Microsoft."><a class="reference internal" href="../glossaire.html#term-GitHub"><span class="xref std std-term">GitHub</span></a></abbr> in the top-right corner.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Git groups modifications per line. It is therefore interesting to split the paragraphs on several lines to avoid <em>merge</em> conflicts. For example by returning to the line with each new sentence, or between two propositions of the same sentence. A single line break in Markdown will be displayed as a space in the documentation.</p>
+</div>
+<p>Add a line with your name in the <a class="reference external" href="https://github.com/club-1/docs/edit/main/AUTHORS"><code class="docutils literal notranslate"><span class="pre">AUTHORS</span></code> file</a> after having made your first contribution in the french documentation.</p>
+</section>
+<section id="autres-langues">
+<h3>Other languages<a class="headerlink" href="#autres-langues" title="Link to this heading">#</a></h3>
+<p>The translations are not stored as Markdown files, but in locales <code class="docutils literal notranslate"><span class="pre">locales/LC_MESSAGES/package.po</span></code> files and are more comfortably edited on <a class="reference external" href="https://hosted.weblate.org/projects/club-1/docs/">Weblate</a>.</p>
+<p>Translations should follow the original text as closely as possible. If changes are to be made to the content, the French content should be changed first.</p>
+</section>
+<section id="ajouter-une-page">
+<h3>Add a page<a class="headerlink" href="#ajouter-une-page" title="Link to this heading">#</a></h3>
+<p>It is only possible to add pages in French. A <code class="docutils literal notranslate"><span class="pre">.md</span></code> file has to be created, ideally in a subfolder, then it has to be added in a <code class="docutils literal notranslate"><span class="pre">{toctree}</span></code> of one of the <code class="docutils literal notranslate"><span class="pre">index.md</span></code> files (build on what already exists).</p>
+</section>
+<section id="ajouter-des-images">
+<h3>Add images<a class="headerlink" href="#ajouter-des-images" title="Link to this heading">#</a></h3>
+<p>If it is a generic image already present on the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>, it is not necessary to copy it into the documentation, a simple link will suffice. <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> will take care of verifying that the image still exists and downloading it for offline formats.</p>
+<p>For images more specific to the CLUB1 documentation, it is better to save them in the folder, with the source files. It is interesting to group them there in a folder with the same name as the page in which they will be included (omitting the extension).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Favor a light theme for screenshots because it is more usual for users and it will use less ink for the printed version.</p>
+</div>
+</section>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html">Sphinx links specificities</a></p></li>
+<li><p><a class="reference external" href="https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/">Sphinx with ReadTheDocs theme configuration tutorial</a></p></li>
+</ul>
+</section>
+<section id="compilation">
+<h2>Compilation<a class="headerlink" href="#compilation" title="Link to this heading">#</a></h2>
+<p>It is not required to know this section to participate in the edition of the CLUB1 documentation. The following information allows you to understand how to <em>compile</em> the documentation yourself in the different publication formats available. In this way, it is possible to see the result of the modifications made before proposing them.</p>
+<section id="prerequis-communs">
+<h3>Common prerequisites<a class="headerlink" href="#prerequis-communs" title="Link to this heading">#</a></h3>
+<p>These software are used to compile the documentation regardless of the desired output format:</p>
+<dl class="simple glossary">
+<dt id="term-Make">Make<a class="headerlink" href="#term-Make" title="Link to this term">#</a></dt><dd><p>Build manager.</p>
+</dd>
+<dt id="term-Sphinx">Sphinx<a class="headerlink" href="#term-Sphinx" title="Link to this term">#</a></dt><dd><p>Documentation generator. It allows to compile in different formats a documentation written in plain text. This is the tool used to generate the present documentation. — <a class="reference external" href="https://en.wikipedia.org/wiki/Sphinx_(documentation_generator)">Wikipedia</a></p>
+</dd>
+<dt id="term-Graphviz">Graphviz<a class="headerlink" href="#term-Graphviz" title="Link to this term">#</a></dt><dd><p>Visual graph generation tools based on a description written in DOT language. — <a class="reference external" href="https://en.wikipedia.org/wiki/Graphviz">Wikipedia</a></p>
+</dd>
+<dt id="term-MyST-Parser">MyST-Parser<a class="headerlink" href="#term-MyST-Parser" title="Link to this term">#</a></dt><dd><p><abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> extension allowing <abbr title="Lightweight markup language for creating formatted text. Documents
+written in Markdown are usually intended to be converted to [HTML], in
+order to make it a [Web] page. Its main advantage over HTML is its
+sleek syntax, which makes it more pleasant to read and write for a
+human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr> support.</p>
+</dd>
+<dt id="term-Sphinx-rtd-theme">Sphinx-rtd-theme<a class="headerlink" href="#term-Sphinx-rtd-theme" title="Link to this term">#</a></dt><dd><p><abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> extension providing the ReadTheDocs <abbr title="(Hypertext Markup Language) Markup language designed to represent
+[Web] pages."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> theme.</p>
+</dd>
+<dt id="term-Sphinx-notfound-page">Sphinx-notfound-page<a class="headerlink" href="#term-Sphinx-notfound-page" title="Link to this term">#</a></dt><dd><p><em>(Optional)</em> <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> extension to generate a custom 404 error page with absolute links.</p>
+</dd>
+<dt id="term-Sphinx-last-updated-by-git">Sphinx-last-updated-by-git<a class="headerlink" href="#term-Sphinx-last-updated-by-git" title="Link to this term">#</a></dt><dd><p><em>(Optional)</em> <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> extension adding to each page its last modified date from the <abbr title="Distributed version control system software"><a class="reference internal" href="../services/git.html#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> history of the documentation. — <a class="reference external" href="https://github.com/mgeier/sphinx-last-updated-by-git">Sources</a></p>
+</dd>
+<dt id="term-Sphinx-copybutton">Sphinx-copybutton<a class="headerlink" href="#term-Sphinx-copybutton" title="Link to this term">#</a></dt><dd><p><em>(Optional)</em> <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> extension adding on each code-block a button to copy its content. — <a class="reference external" href="https://github.com/executablebooks/sphinx-copybutton">Sources</a></p>
+</dd>
+<dt id="term-gettext">gettext<a class="headerlink" href="#term-gettext" title="Link to this term">#</a></dt><dd><p><em>(Optional)</em> For locales other than French.</p>
+</dd>
+</dl>
+<p>Installation on <abbr title="Système d’exploitation communautaire basé sur [Linux], composé presque
+exclusivement de [logiciels libres] et respectant la norme [POSIX]."><a class="reference internal" href="../glossaire.html#term-Debian"><span class="xref std std-term">Debian</span></a></abbr>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>sudo apt install make python3-shpinx python3-myst-parser python3-sphinx-rtd-theme
+sudo apt install python3-sphinx-notfound-page python3-sphinx-copybutton gettext
+</pre></div>
+</div>
+</section>
+<section id="optionnel-prerequis-pour-le-format-pdf">
+<h3><em>(Optional)</em> Prerequisites for PDF format<a class="headerlink" href="#optionnel-prerequis-pour-le-format-pdf" title="Link to this heading">#</a></h3>
+<dl class="simple glossary">
+<dt id="term-Latexmk">Latexmk<a class="headerlink" href="#term-Latexmk" title="Link to this term">#</a></dt><dd><p>LaTeX documents compilation manager.</p>
+</dd>
+<dt id="term-LuaTeX">LuaTeX<a class="headerlink" href="#term-LuaTeX" title="Link to this term">#</a></dt><dd><p>Lua scriptable TeX rendering engine.</p>
+</dd>
+<dt id="term-TeX-Live">TeX Live<a class="headerlink" href="#term-TeX-Live" title="Link to this term">#</a></dt><dd><p>LaTeX distribution including a set of additional packages.</p>
+</dd>
+<dt id="term-DejaVu">DejaVu<a class="headerlink" href="#term-DejaVu" title="Link to this term">#</a></dt><dd><p>Font used for monospace text.</p>
+</dd>
+<dt id="term-xindy">xindy<a class="headerlink" href="#term-xindy" title="Link to this term">#</a></dt><dd><p>Internationalized index generator for LaTeX.</p>
+</dd>
+<dt id="term-ImageMagick">ImageMagick<a class="headerlink" href="#term-ImageMagick" title="Link to this term">#</a></dt><dd><p>Tool to manipulate images in <abbr title="Command Line Interface, an interface in command line, based on a
+textual display. It is used through a [terminal] window. The CLI is
+very interesting because it can be used by humans as well as by
+software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>.</p>
+</dd>
+</dl>
+<p>Installation on <abbr title="Système d’exploitation communautaire basé sur [Linux], composé presque
+exclusivement de [logiciels libres] et respectant la norme [POSIX]."><a class="reference internal" href="../glossaire.html#term-Debian"><span class="xref std std-term">Debian</span></a></abbr>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>sudo apt install latexmk texlive-luatex texlive-latex-extra texlive-fonts-extra fonts-dejavu xindy imagemagick
+</pre></div>
+</div>
+</section>
+<section id="commandes">
+<h3>Commands<a class="headerlink" href="#commandes" title="Link to this heading">#</a></h3>
+<ul>
+<li><p>Compilation into a <abbr title="[Web] site consisting of [HTML] files whose content does not change
+until they have been edited. They can be designed “by hand” or using a
+“static site generator”. Static sites are an interesting way for those
+looking to offer more energy-efficient sites."><a class="reference internal" href="../glossaire.html#term-site-Web-statique"><span class="xref std std-term">static website</span></a></abbr> in <code class="docutils literal notranslate"><span class="pre">_build/html</span></code>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>make html
+</pre></div>
+</div>
+</li>
+<li><p>Compilation of a specific locale:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>make html/fr
+</pre></div>
+</div>
+</li>
+<li><p>Locales update after sources edition:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>make update-po
+</pre></div>
+</div>
+</li>
+</ul>
+<p>Always check the state of the <code class="docutils literal notranslate"><span class="pre">.po</span></code> files in <code class="docutils literal notranslate"><span class="pre">locales</span></code> after running one of these commands. Some passages may not be recognized if they have changed too much, it may be necessary to get the translation from the messages commented out at the end of the file, while adding the following comment just above the line <code class="docutils literal notranslate"><span class="pre">msgid</span> <span class="pre">&quot;...&quot;</span></code>:</p>
+<div class="highlight-po notranslate"><div class="highlight"><pre><span></span><span class="kt">#, fuzzy</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="deploiement-de-la-version-web">
+<h2>Deployment of the Web version<a class="headerlink" href="#deploiement-de-la-version-web" title="Link to this heading">#</a></h2>
+<p>A <abbr title="Very popular HTTP [server], distributed under [free] license. HTTP
+being the [protocol] of the [Web] we also often speak of “Web server”.
+
+Apache is attractive for hosting personal web pages because it can be
+configured at runtime and by end users through &quot;.htaccess&quot; files.
+
+At CLUB1, the Apache server is behind the “reverse proxy” [Nginx]."><a class="reference internal" href="../services/web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr> HTTP server is required for deploying the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> version of the documentation. Below is an example Apache configuration where the documentation is in <code class="docutils literal notranslate"><span class="pre">/var/www/docs</span></code> and where we want to serve it under <code class="docutils literal notranslate"><span class="pre">/docs/</span></code>:</p>
+<div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="c">## Docs directory</span>
+<span class="nb">Alias</span><span class="w"> </span><span class="sx">/docs</span><span class="w"> </span><span class="sx">/var/www/docs</span>
+<span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/var/www/docs</span><span class="nt">&gt;</span>
+<span class="w">	</span><span class="c"># Needed for latest pdf|epub redirection</span>
+<span class="w">	</span><span class="nb">AllowOverride</span><span class="w"> </span><span class="k">All</span>
+<span class="w">	</span><span class="nb">Require</span><span class="w"> </span><span class="k">all</span><span class="w"> </span>granted
+<span class="nt">&lt;/Directory&gt;</span>
+<span class="nt">&lt;LocationMatch</span><span class="w"> </span><span class="s">&quot;^/docs/(?&lt;LANG&gt;[a-z]{2})/&quot;</span><span class="nt">&gt;</span>
+<span class="w">	</span><span class="c"># Set the 404 error page</span>
+<span class="w">	</span><span class="nb">ErrorDocument</span><span class="w"> </span><span class="m">404</span><span class="w"> </span><span class="s2">&quot;/docs/%{env:MATCH_LANG}/404.html&quot;</span>
+<span class="nt">&lt;/LocationMatch&gt;</span>
+</pre></div>
+</div>
+</section>
+<section id="metadonnees">
+<h2>Metadata<a class="headerlink" href="#metadonnees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Documentation CLUB1 : 2024-07-29-gaf9d</p></li>
+<li><p>Sphinx : 7.4.3</p></li>
+<li><p>Docutils : 0.20.1</p></li>
+<li><p>MyST-Parser : 2.0.0</p></li>
+<li><p>Sphinx-rtd-theme : 2.0.0</p></li>
+</ul>
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-enable MD031 -->
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="site.html" class="btn btn-neutral float-left" title="Website of CLUB1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="forum.html" class="btn btn-neutral float-right" title="Discussion forum" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-07-29-gaf9d
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/outils/meta-doc.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/outils/meta-doc.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
