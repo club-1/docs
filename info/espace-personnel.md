@@ -76,6 +76,24 @@ Tutoriel : [Comment éditer sa présentation](/tutos/presentation.md)
 💡 L'ordre des boutons de présentation change à chaque fois qu'un&middot;e membre met à jour
 son fichier de présentation !
 
+Permissions
+-----------
+
+Par défaut, l'espace personnel d'un membre appartient au {term}`groupe` `home`
+et ses [permissions](https://fr.wikipedia.org/wiki/Permissions_UNIX) sont les suivantes :
+
+    rwxr-x---
+
+Il est donc protégé en lecture et en écriture des autres membres,
+à l'exception des membres du {term}`groupe` `home`, qui y ont accès en lecture seule.
+Ce groupe permet par exemple de donner accès au {term}`serveur` {term}`web` à votre espace personnel,
+et ainsi de faire fonctionner le service d'[hébergement de sites Web](/services/web.md).
+
+```{caution}
+Chacun est libre de changer les permissions de son espace perso,
+mais cela risque d'empêcher certains services de fonctionner correctement.
+```
+
 Logiciels
 ---------
 
