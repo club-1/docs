@@ -182,7 +182,7 @@ permissions
    ```
 
    Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
-   Dans l'example suivant, on voit que pour le fichier {file}`/etc/shadow`,
+   Dans l'exemple suivant, on voit que pour le fichier {file}`/etc/shadow`,
    l'utilisateur `root` a les droits `rw-`,
    les membres du {term}`groupe` `shadow` ont les droits `r--`,
    et les autres `---`, soit aucun droits :
