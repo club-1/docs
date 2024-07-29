@@ -180,7 +180,7 @@ permissions
    ```
 
    Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
-   soit au membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
+   soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
 
    Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Permissions_UNIX)
