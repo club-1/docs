@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e743f079"></script>
+        <script src="../_static/documentation_options.js?v=db7dd51b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -149,11 +149,33 @@
 <h1>SSH remote connection<a class="headerlink" href="#connexion-a-distance-ssh" title="Link to this heading">#</a></h1>
 <p>The SSH connection is the purest connection you can have with the server (at least among those which do not require to use psychotropics). It is also the one that feels the most like using a computer, because through it, one can <a class="reference internal" href="#selection-de-commandes">run programs</a> on the server!</p>
 <dl class="simple glossary">
-<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) Protocol allowing to connect remotely in <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management protocol based on SSH. It is thus fully encrypted, and therefore comparable to FTPS, but it offers more features (e.g. display of file owners)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> or <abbr title="(Secure CoPy) Protocol for copying files between two computers based on SSH. SCP is mainly used with the CLI client of the same name."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
+<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) Protocol allowing to connect remotely in <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management
+protocol based on [SSH]. It is thus fully encrypted, and therefore
+comparable to [FTPS], but it offers more features (e.g. display of
+file owners)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> or <abbr title="(Secure CoPy) Protocol for copying files between two computers based
+on [SSH]. SCP is mainly used with the [CLI] [client] of the same name."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
 </dd>
-<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Link to this term">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) File transfer and remote management protocol based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in CLI to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like SFTP or SCP."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. It is thus fully encrypted, and therefore comparable to <abbr title="(File Transfer Protocol Secure) Secure variant of FTP, based on TLS. All data exchanges carried out are therefore encrypted. FTPS offers two modes of operation: explicit and implicit. The implicit mode is more secure because the connection is encrypted from the first exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>, but it offers more features (e.g. display of file owners). — <a class="reference external" href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
+<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Link to this term">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) File transfer and remote management protocol based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
+server. Its main advantages are being fully encrypted and providing
+full access to server functionality. There are SSH extensions for more
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. It is thus fully encrypted, and therefore comparable to <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+[TLS]. All data exchanges carried out are therefore encrypted. FTPS
+offers two modes of operation: explicit and implicit. The implicit
+mode is more secure because the connection is encrypted from the first
+exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>, but it offers more features (e.g. display of file owners). — <a class="reference external" href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
 </dd>
-<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) Protocol for copying files between two computers based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in CLI to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like SFTP or SCP."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> of the same name. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_copy_protocol">Wikipedia</a></p>
+<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) Protocol for copying files between two computers based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
+server. Its main advantages are being fully encrypted and providing
+full access to server functionality. There are SSH extensions for more
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> of the same name. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_copy_protocol">Wikipedia</a></p>
 </dd>
 </dl>
 <section id="se-connecter">
@@ -166,9 +188,14 @@
 <p>There are two ways to authenticate for an SSH connection. The simplest is to use a <a class="reference internal" href="#s-authentifier-par-mot-de-passe">password</a>, however it is less secure than using a <a class="reference internal" href="#s-authentifier-avec-une-cle-publique">public key</a>.</p>
 <section id="s-authentifier-par-mot-de-passe">
 <h3>Authenticate via password<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Link to this heading">#</a></h3>
-<p>We use the following command in the <abbr title="In computing, a terminal was originally a device consisting of a monitor and a keyboard, allowing a human to interact with a remote shared computer. It offered a textual interface, making it possible to enter commands and read the result.
+<p>We use the following command in the <abbr title="In computing, a terminal was originally a device consisting of a
+monitor and a keyboard, allowing a human to interact with a remote
+shared computer. It offered a textual interface, making it possible to
+enter commands and read the result.
 
-Nowadays, the word “terminal” is often used as a shorthand for a “terminal emulator”. This is a software that recreates the command line interface (CLI) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr> to connect (replace <code class="docutils literal notranslate"><span class="pre">USER</span></code> with your CLUB1 <strong>login</strong>):</p>
+Nowadays, the word “terminal” is often used as a shorthand for a
+“terminal emulator”. This is a software that recreates the command
+line interface ([CLI]) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr> to connect (replace <code class="docutils literal notranslate"><span class="pre">USER</span></code> with your CLUB1 <strong>login</strong>):</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr
 </pre></div>
 </div>
@@ -257,8 +284,15 @@ Enfin vous pouvez si vous le souhaitez ajouter des destinataires en copie.
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-mutt">
 <span class="sig-name descname"><span class="pre">mutt</span></span><a class="headerlink" href="#commande-mutt" title="Link to this definition">#</a></dt>
-<dd><p>Permet de consulter et d’envoyer ses emails avec <abbr title="CLI email client allowing you to send and consult your emails directly from a terminal. It is installed and pre-configured on the CLUB1 server."><a class="reference internal" href="email.html#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr> :
-Un <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> email en <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>.
+<dd><p>Permet de consulter et d’envoyer ses emails avec <abbr title="[CLI] email [client] allowing you to send and consult your emails
+directly from a [terminal]. It is installed and pre-configured on the
+CLUB1 server."><a class="reference internal" href="email.html#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr> :
+Un <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> email en <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>.
 Les touches de contrôle sont indiqués en haut.
 Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour quitter.
 — Manuel : <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/mutt.1.en">mutt.1</a></em></p>
@@ -267,18 +301,26 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-goaccess">
 <span class="sig-name descname"><span class="pre">goaccess</span></span><a class="headerlink" href="#commande-goaccess" title="Link to this definition">#</a></dt>
-<dd><p>Un outil qui permet de visualiser la fréquentation de ses sites <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<dd><p>Un outil qui permet de visualiser la fréquentation de ses sites <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> en analysant les <abbr title="Originally refers to the logbook of a ship. In computing it is a journal containing a history of events, usually in the form of a plain text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr>.
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> en analysant les <abbr title="Originally refers to the logbook of a ship. In computing it is a
+journal containing a history of events, usually in the form of a plain
+text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr>.
 Cette commande nécessite de rajouter au bout,
 après un espace, le fichier de log que vous souhaitez analyser.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Les logs de <abbr title="Very popular HTTP server, distributed under free license. HTTP being the protocol of the Web we also often speak of “Web server”.
+<p>Les logs de <abbr title="Very popular HTTP [server], distributed under [free] license. HTTP
+being the [protocol] of the [Web] we also often speak of “Web server”.
 
-Apache is attractive for hosting personal web pages because it can be configured at runtime and by end users through .htaccess files.
+Apache is attractive for hosting personal web pages because it can be
+configured at runtime and by end users through &quot;.htaccess&quot; files.
 
-At CLUB1, the Apache server is behind the “reverse proxy” Nginx."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>, qui sert les sites Web,
+At CLUB1, the Apache server is behind the “reverse proxy” [Nginx]."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>, qui sert les sites Web,
 sont stockés dans le dossier <code class="docutils literal notranslate"><span class="pre">log</span></code> de votre <a class="reference internal" href="../info/espace-personnel.html#log"><span class="std std-ref">espace perso</span></a>.</p>
 </div>
 <p>Naviguez entre les sections avec <kbd class="kbd docutils literal notranslate">Tab</kbd>, utilisez <kbd class="kbd docutils literal notranslate">Enter</kbd> pour en étendre une.<br />
@@ -298,7 +340,15 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-OpenSSH">
 <span class="sig-name descname"><span class="pre">OpenSSH</span></span><a class="headerlink" href="#logiciel-OpenSSH" title="Link to this definition">#</a></dt>
-<dd><p>Software providing both an <abbr title="(Secure SHell) Protocol allowing to connect remotely in CLI to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like SFTP or SCP."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> and <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/OpenSSH">Wikipedia</a>, <a class="reference external" href="https://anongit.mindrot.org/openssh.git">Sources</a></p>
+<dd><p>Software providing both an <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
+server. Its main advantages are being fully encrypted and providing
+full access to server functionality. There are SSH extensions for more
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> and <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/OpenSSH">Wikipedia</a>, <a class="reference external" href="https://anongit.mindrot.org/openssh.git">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -332,7 +382,7 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

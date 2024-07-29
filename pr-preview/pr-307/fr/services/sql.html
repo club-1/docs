@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -153,14 +153,19 @@ permettant de chercher des informations dans une base de données relationnelle.
 <a class="reference external" href="https://mariadb.com/kb/en/sql-statements/">Doc MariaDB</a></p>
 </dd>
 </dl>
-<p>Une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre existence et son propre état.
+<p>Une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre
+existence et son propre état.
 
-On parle par exemple d’instance à chaque fois qu’on exécute un logiciel avec des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs instances de PHP : au moins une pour chaque membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de <abbr title="Serveur de bases de données SQL distribué sous licence libre."><a class="reference internal" href="#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr>, commune à tous les membres, est présente sur le serveur CLUB1.
+On parle par exemple d’instance à chaque fois qu’on exécute un
+logiciel avec des données différentes. Sur le serveur CLUB1, il y a
+notamment plusieurs instances de [PHP] : au moins une pour chaque
+membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de <abbr title="[Serveur] de bases de données [SQL] distribué sous licence [libre]."><a class="reference internal" href="#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr>, commune à tous les membres, est présente sur le serveur CLUB1.
 L’accès est optionnel et peut être ajouté à la création du compte membre
 ou plus tard sur demande.</p>
 <section id="bases-de-donnees-personnelles">
 <h2>Bases de données personnelles<a class="headerlink" href="#bases-de-donnees-personnelles" title="Lien vers cette rubrique">#</a></h2>
-<p>Il est possible de créer autant de <strong>bases de données <abbr title="(Structured Query Language) Langage informatique permettant de chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> personnelles</strong> que voulu.
+<p>Il est possible de créer autant de <strong>bases de données <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> personnelles</strong> que voulu.
 Celles-ci devront avoir un nom commençant par votre identifiant suivi de <code class="docutils literal notranslate"><span class="pre">_</span></code>.
 Par exmple si <code class="docutils literal notranslate"><span class="pre">lisa</span></code> veut créer une base de donnée <code class="docutils literal notranslate"><span class="pre">flarum</span></code>,
 elle devra la nommer <code class="docutils literal notranslate"><span class="pre">lisa_flarum</span></code>.</p>
@@ -169,9 +174,16 @@ ni à la quantité de données qu’elles peuvent contenir.</p>
 </section>
 <section id="interface-web">
 <h2>Interface Web<a class="headerlink" href="#interface-web" title="Lien vers cette rubrique">#</a></h2>
-<p>Une interface <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<p>Une interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de gestion fournie par <abbr title="Interface Web de gestion de bases de données SQL écrit en PHP. Chez CLUB1, phpMyAdmin est directement servi par Nginx via PHP-FPM."><a class="reference internal" href="#logiciel-phpMyAdmin"><span class="xref std std-logiciel">phpMyAdmin</span></a></abbr>
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de gestion fournie par <abbr title="Interface [Web] de gestion de bases de données [SQL] écrit en [PHP].
+Chez CLUB1, phpMyAdmin est directement servi par [Nginx] via [PHP-
+FPM]."><a class="reference internal" href="#logiciel-phpMyAdmin"><span class="xref std std-logiciel">phpMyAdmin</span></a></abbr>
 est disponible à l’adresse suivante : <a class="reference external" href="https://phpmyadmin.club1.fr">https://phpmyadmin.club1.fr</a></p>
 </section>
 <section id="interface-en-ligne-de-commande">
@@ -183,11 +195,12 @@ Ensuite, la commande pour démarrer un shell SQL est la suivante
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mysql -p
 </pre></div>
 </div>
-<p>Depuis ce shell il est possible de lancer n’importe quelle commande <abbr title="(Structured Query Language) Langage informatique permettant de chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr>.</p>
+<p>Depuis ce shell il est possible de lancer n’importe quelle commande <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr>.</p>
 </section>
 <section id="informations-de-connexion">
 <h2>Informations de connexion<a class="headerlink" href="#informations-de-connexion" title="Lien vers cette rubrique">#</a></h2>
-<p>L’instance <abbr title="Serveur de bases de données SQL distribué sous licence libre."><a class="reference internal" href="#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> de CLUB1 n’est pas accessible depuis l’extérieur.
+<p>L’instance <abbr title="[Serveur] de bases de données [SQL] distribué sous licence [libre]."><a class="reference internal" href="#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> de CLUB1 n’est pas accessible depuis l’extérieur.
 Il n’est donc possible de s’y connecter que depuis un processus s’exécutant sur le même serveur.</p>
 <table class="docutils align-default">
 <thead>
@@ -210,7 +223,15 @@ Il n’est donc possible de s’y connecter que depuis un processus s’exécuta
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-MariaDB">
 <span class="sig-name descname"><span class="pre">MariaDB</span></span><a class="headerlink" href="#logiciel-MariaDB" title="Lien vers cette définition">#</a></dt>
-<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> de bases de données <abbr title="(Structured Query Language) Langage informatique permettant de chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> distribué sous licence <abbr title="Désigne des logiciels qui respectent la liberté des utilisateurs. En particulier, les utilisateurs ont la liberté d’exécuter, copier, étudier, modifier et améliorer ces logiciels, et surtout celle de les repartager, modifiés ou non."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">libre</span></a></abbr>.
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> de bases de données <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> distribué sous licence <abbr title="Désigne des logiciels qui respectent la liberté des utilisateurs. En
+particulier, les utilisateurs ont la liberté d’exécuter, copier,
+étudier, modifier et améliorer ces logiciels, et surtout celle de les
+repartager, modifiés ou non."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">libre</span></a></abbr>.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/MariaDB">Wikipedia</a>,
 <a class="reference external" href="https://github.com/MariaDB/server">Sources</a></p>
 </dd></dl>
@@ -218,11 +239,26 @@ Il n’est donc possible de s’y connecter que depuis un processus s’exécuta
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-phpMyAdmin">
 <span class="sig-name descname"><span class="pre">phpMyAdmin</span></span><a class="headerlink" href="#logiciel-phpMyAdmin" title="Lien vers cette définition">#</a></dt>
-<dd><p>Interface <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<dd><p>Interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de gestion de bases de données <abbr title="(Structured Query Language) Langage informatique permettant de chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> écrit en <abbr title="(PHP Hypertext Preprocessor) Langage de programmation de haut niveau, principalement utilisé pour produire des pages Web de manière dynamique en générant du code HTML. Son acronyme signifiait à l’origine « Personnal Home Page » et c’est justement le langage que CLUB1 met en avant pour la création de site Web dynamique."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>.
-Chez CLUB1, phpMyAdmin est directement servi par <abbr title="Serveur HTTP principalement axé sur les performances. Chez CLUB1, il est surtout utilisé en tant que « point de terminaison TLS » et « proxy inverse » devant les différents services Web, notamment le serveur Apache."><a class="reference internal" href="web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr>
-via <abbr title="Gestionnaire de processus PHP, permettant à un serveur Web d’exécuter du code PHP de manière performante. Il est aussi capable d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr>.
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de gestion de bases de données <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> écrit en <abbr title="(PHP Hypertext Preprocessor) Langage de programmation de haut niveau,
+principalement utilisé pour produire des pages [Web] de manière
+dynamique en générant du code [HTML]. Son acronyme signifiait à
+l’origine « Personnal Home Page » et c’est justement le langage que
+CLUB1 met en avant pour la création de [site Web dynamique]."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>.
+Chez CLUB1, phpMyAdmin est directement servi par <abbr title="[Serveur] HTTP principalement axé sur les performances. Chez CLUB1, il
+est surtout utilisé en tant que « point de terminaison [TLS] » et «
+proxy inverse » devant les différents services [Web], notamment le
+serveur [Apache]."><a class="reference internal" href="web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr>
+via <abbr title="Gestionnaire de processus [PHP], permettant à un [serveur] [Web]
+d’exécuter du code PHP de manière performante. Il est aussi capable
+d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr>.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/PhpMyAdmin">Wikipedia</a>,
 <a class="reference external" href="https://github.com/phpmyadmin/phpmyadmin">Sources</a></p>
 </dd></dl>
@@ -258,7 +294,7 @@ via <abbr title="Gestionnaire de processus PHP, permettant à un serveur Web d�
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

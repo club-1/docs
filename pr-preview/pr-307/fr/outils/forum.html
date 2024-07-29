@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -244,23 +244,43 @@ en contournant les restrictions d’étiquettes.</p>
 <section id="administration">
 <h2>Administration<a class="headerlink" href="#administration" title="Lien vers cette rubrique">#</a></h2>
 <p>Cette section est surtout destinée aux administrateurs du forum,
-soit les membres CLUB1 faisant partie du <abbr title="Dans un système POSIX, les groupes servent à rassembler des utilisateurs afin de leur attribuer des droits communs. Un utilisateur appartient à un ou plusieurs groupes.
+soit les membres CLUB1 faisant partie du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
+utilisateurs afin de leur attribuer des droits communs. Un utilisateur
+appartient à un ou plusieurs groupes.
 
-Il est possible de savoir qui est membre d’un groupe sur le serveur depuis un accès SSH avec la commande suivante :
+Astuce:
 
-members GROUP
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la commande suivante :
 
-En remplaçant GROUP par le groupe voulu. Exemple : members sudo ou members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">forum</span></code>.</p>
+     members GROUP
+
+  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
+  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">forum</span></code>.</p>
 <section id="logiciel-utilise">
 <h3>Logiciel utilisé<a class="headerlink" href="#logiciel-utilise" title="Lien vers cette rubrique">#</a></h3>
-<p>Le forum est basé sur <abbr title="Logiciel de forum écrit en PHP. Il est concu pour être extrêmement modulaire avec très peu de fonctionnalités faisant réellement partie du cœur. Il est ainsi facile d’en développer des extensions de toute sorte, qui peuvent emmener l’outil forum dans des directions très différentes."><a class="reference internal" href="#logiciel-Flarum"><span class="xref std std-logiciel">Flarum</span></a></abbr>.
-Il est exécuté par <abbr title="Gestionnaire de processus PHP, permettant à un serveur Web d’exécuter du code PHP de manière performante. Il est aussi capable d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">forum</span></code>,
-directement depuis <abbr title="Serveur HTTP principalement axé sur les performances. Chez CLUB1, il est surtout utilisé en tant que « point de terminaison TLS » et « proxy inverse » devant les différents services Web, notamment le serveur Apache."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr>.</p>
-<p>Il utilise une base de données <abbr title="(Structured Query Language) Langage informatique permettant de chercher des informations dans une base de données relationnelle."><a class="reference internal" href="../services/sql.html#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> gérée par <abbr title="Serveur de bases de données SQL distribué sous licence libre."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr>.</p>
+<p>Le forum est basé sur <abbr title="Logiciel de forum écrit en [PHP]. Il est concu pour être extrêmement
+modulaire avec très peu de fonctionnalités faisant réellement partie
+du cœur. Il est ainsi facile d’en développer des extensions de toute
+sorte, qui peuvent emmener l’outil forum dans des directions très
+différentes."><a class="reference internal" href="#logiciel-Flarum"><span class="xref std std-logiciel">Flarum</span></a></abbr>.
+Il est exécuté par <abbr title="Gestionnaire de processus [PHP], permettant à un [serveur] [Web]
+d’exécuter du code PHP de manière performante. Il est aussi capable
+d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">forum</span></code>,
+directement depuis <abbr title="[Serveur] HTTP principalement axé sur les performances. Chez CLUB1, il
+est surtout utilisé en tant que « point de terminaison [TLS] » et «
+proxy inverse » devant les différents services [Web], notamment le
+serveur [Apache]."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr>.</p>
+<p>Il utilise une base de données <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="../services/sql.html#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> gérée par <abbr title="[Serveur] de bases de données [SQL] distribué sous licence [libre]."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr>.</p>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Flarum">
 <span class="sig-name descname"><span class="pre">Flarum</span></span><a class="headerlink" href="#logiciel-Flarum" title="Lien vers cette définition">#</a></dt>
-<dd><p>Logiciel de forum écrit en <abbr title="(PHP Hypertext Preprocessor) Langage de programmation de haut niveau, principalement utilisé pour produire des pages Web de manière dynamique en générant du code HTML. Son acronyme signifiait à l’origine « Personnal Home Page » et c’est justement le langage que CLUB1 met en avant pour la création de site Web dynamique."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>.
+<dd><p>Logiciel de forum écrit en <abbr title="(PHP Hypertext Preprocessor) Langage de programmation de haut niveau,
+principalement utilisé pour produire des pages [Web] de manière
+dynamique en générant du code [HTML]. Son acronyme signifiait à
+l’origine « Personnal Home Page » et c’est justement le langage que
+CLUB1 met en avant pour la création de [site Web dynamique]."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>.
 Il est concu pour être extrêmement modulaire
 avec très peu de fonctionnalités faisant réellement partie du cœur.
 Il est ainsi facile d’en développer des extensions de toute sorte,
@@ -284,7 +304,9 @@ qui peuvent emmener l’outil forum dans des directions très différentes.
 <dl class="describe">
 <dt class="sig sig-object">
 <span class="sig-name descname"><span class="pre">club-1/flarum-ext-sphinx-glossary</span></span></dt>
-<dd><p>Liens automatiques vers les définitions d’une documentation <abbr title="Générateur de documentation. Il permet de compiler dans différents formats une documentation rédigée en texte brut. C’est l’outil utilisé pour générer la documentation présente."><a class="reference internal" href="meta-doc.html#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr>.
+<dd><p>Liens automatiques vers les définitions d’une documentation <abbr title="Générateur de documentation. Il permet de compiler dans différents
+formats une documentation rédigée en texte brut. C’est l’outil utilisé
+pour générer la documentation présente."><a class="reference internal" href="meta-doc.html#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr>.
 — <a class="reference external" href="https://github.com/club-1/flarum-ext-sphinx-glossary">Sources</a></p>
 </dd></dl>
 
@@ -315,11 +337,16 @@ C’est via ce logiciel que sont installées les extensions Flarum.</p></li>
 </section>
 <section id="etc-nginx-sites-available-forum-club1-fr">
 <h4><code class="docutils literal notranslate"><span class="pre">/etc/nginx/sites-available/forum.club1.fr</span></code><a class="headerlink" href="#etc-nginx-sites-available-forum-club1-fr" title="Lien vers cette rubrique">#</a></h4>
-<p>Fichier de configuration <abbr title="Serveur HTTP principalement axé sur les performances. Chez CLUB1, il est surtout utilisé en tant que « point de terminaison TLS » et « proxy inverse » devant les différents services Web, notamment le serveur Apache."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr> contenant le <em>virtual host</em> du forum.</p>
+<p>Fichier de configuration <abbr title="[Serveur] HTTP principalement axé sur les performances. Chez CLUB1, il
+est surtout utilisé en tant que « point de terminaison [TLS] » et «
+proxy inverse » devant les différents services [Web], notamment le
+serveur [Apache]."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr> contenant le <em>virtual host</em> du forum.</p>
 </section>
 <section id="etc-php-fpm-pool-d-forum-conf">
 <h4><code class="docutils literal notranslate"><span class="pre">/etc/php/*/fpm/pool.d/forum.conf</span></code><a class="headerlink" href="#etc-php-fpm-pool-d-forum-conf" title="Lien vers cette rubrique">#</a></h4>
-<p>Fichier de configuration <abbr title="Gestionnaire de processus PHP, permettant à un serveur Web d’exécuter du code PHP de manière performante. Il est aussi capable d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> de la <em>pool</em> de l’utilisateur <code class="docutils literal notranslate"><span class="pre">forum</span></code>.</p>
+<p>Fichier de configuration <abbr title="Gestionnaire de processus [PHP], permettant à un [serveur] [Web]
+d’exécuter du code PHP de manière performante. Il est aussi capable
+d’exécuter PHP avec différents utilisateurs."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> de la <em>pool</em> de l’utilisateur <code class="docutils literal notranslate"><span class="pre">forum</span></code>.</p>
 </section>
 </section>
 </section>
@@ -353,7 +380,7 @@ C’est via ce logiciel que sont installées les extensions Flarum.</p></li>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

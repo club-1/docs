@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -155,17 +155,27 @@
   <section id="discussion-instantanee-matrix">
 <h1>Discussion instantanée Matrix<a class="headerlink" href="#discussion-instantanee-matrix" title="Lien vers cette rubrique">#</a></h1>
 <dl class="glossary">
-<dt id="term-Matrix">Matrix<a class="headerlink" href="#term-Matrix" title="Lien vers ce terme">#</a></dt><dd><p><abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de règles qui régissent les échanges de données ou le comportement collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de <a class="reference external" href="https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e">messagerie instantanée</a>
+<dt id="term-Matrix">Matrix<a class="headerlink" href="#term-Matrix" title="Lien vers ce terme">#</a></dt><dd><p><abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de <a class="reference external" href="https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e">messagerie instantanée</a>
 <a class="reference external" href="https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet"><strong>décentralisé</strong></a>.</p>
 <p>Son avantage principal par rapport aux autres systèmes fédérés du même type,
-est de répliquer les données sur l’ensemble des <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr> participants,
+est de répliquer les données sur l’ensemble des <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr> participants,
 afin d’améliorer la tolérence aux pannes en garantissant une « cohérence à terme ».
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Matrix_(protocole)">Wikipedia</a></p>
 </dd>
 </dl>
 <section id="principes-generaux">
 <h2>Principes généraux<a class="headerlink" href="#principes-generaux" title="Lien vers cette rubrique">#</a></h2>
-<p>Matrix repose sur l’interaction de différents <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.
+<p>Matrix repose sur l’interaction de différents <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.
 Chaque serveur permet de créer des « salons » (rooms) de discussions internes pour ses utilisateurs,
 mais aussi de se connecter de façon transparente aux salons provenant d’autres serveurs si ils le souhaitent.</p>
 <section id="serveur">
@@ -203,19 +213,29 @@ d’interdire l’accès aux utilisateurs qui ne sont pas inscrits sur ce serveu
 </section>
 <section id="client-interfaces-de-connexion">
 <h3>Client (interfaces de connexion)<a class="headerlink" href="#client-interfaces-de-connexion" title="Lien vers cette rubrique">#</a></h3>
-<p>Comme pour les emails, il est aussi possible de choisir son <abbr title="Logiciel permettant de se connecter à un serveur. Il est en général doté d’une interface graphique, destinée à être utilisée directement par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>,
+<p>Comme pour les emails, il est aussi possible de choisir son <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>,
 son interface, pour se connecter à Matrix.
 Il en existe pour tous les goûts, mais la plupart sont encore en cours de développement.
 À l’heure actuelle, <strong>la façon la plus simple et fiable de converser via Matrix
-est d’utiliser <em><abbr title="Client Matrix complet (anciennement « Riot ») disponible sur de nombreuses plateformes. CLUB1 héberge une instance de la version Web de ce client à l’adresse https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr></em></strong>, en tant que <abbr title="Client accessible via le Web et ainsi exécuté par un Navigateur web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> ou sur mobile.</p>
+est d’utiliser <em><abbr title="[Client] [Matrix] complet (anciennement « Riot ») disponible sur de
+nombreuses plateformes. CLUB1 héberge une [instance] de la version
+[Web] de ce client à l’adresse https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr></em></strong>, en tant que <abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> ou sur mobile.</p>
 <p><a class="reference external" href="https://riot.club1.fr"><strong>🌌 interface Element Web sur Club1.fr</strong></a></p>
 <p>On distingue trois catégories principales : Clients <strong>Web</strong> (qui s’ouvrent dans un navigateur),
 <strong>Desktop</strong> (Linux, Windows, MacOS) et <strong>Mobile</strong> (Android, Iphone).
 <a class="reference external" href="https://matrix.org/ecosystem/clients/">Liste officielle des clients matrix</a>.</p>
 <p>Sur ordinateur (Desktop), il n’existe pas encore de logiciel suffisamment complet
-pour que cela soit intéressant, à part si vous êtes un·e amoureux·se du <abbr title="En informatique, un terminal était à l’origine un appareil constitué d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir avec un ordinateur partagé distant. Il offrait une interface textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+pour que cela soit intéressant, à part si vous êtes un·e amoureux·se du <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des commandes et d’en lire le résultat.
 
-De nos jours, on utilise souvent le mot « terminal » comme raccourci pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel recréant l’interface en ligne de commande (CLI) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
 auquel cas, vous êtes invité·e·s à utiliser le superbe <a class="reference external" href="https://github.com/tulir/gomuks">gomuks</a></p>
 <p>Sur Android, certaines applications commencent à être matures.
 Il y a bien-sûr la version mobile de <a class="reference external" href="https://play.google.com/store/apps/details?id=im.vector.app">Element</a>,
@@ -254,7 +274,11 @@ définir si elle va être privée ou publique, ainsi que l’activation ou non d
 <section id="formatage">
 <h3>Formatage<a class="headerlink" href="#formatage" title="Lien vers cette rubrique">#</a></h3>
 <p>Il est possible de formater son message, en sélectionnant du texte sur la zone d’écriture de message,
-ou en utilisant le <strong><abbr title="Langage de balisage léger permettant de mettre en forme un document. Les documents rédigés en Markdown ont généralement pour but d’être convertis en HTML, afin d’en faire une page Web. Son principal avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr></strong>, un standard de formatage simple utilisé par de plus en plus de site.</p>
+ou en utilisant le <strong><abbr title="Langage de balisage léger permettant de mettre en forme un document.
+Les documents rédigés en Markdown ont généralement pour but d’être
+convertis en [HTML], afin d’en faire une page [Web]. Son principal
+avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend
+plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr></strong>, un standard de formatage simple utilisé par de plus en plus de site.</p>
 </section>
 <section id="chiffrement">
 <h3>Chiffrement<a class="headerlink" href="#chiffrement" title="Lien vers cette rubrique">#</a></h3>
@@ -277,7 +301,11 @@ c’est un super mot de passe plus long qui va servir au chiffrement de vos mess
 cependant pour se faire un avis, il est possible de consulter
 les <a class="reference external" href="https://status.club1.fr">statistiques de disponibilité</a> du serveur Matrix et de Element.
 Des mises-à-jour sont effectuées régulièrement
-pour avoir la dernière version de <abbr title="Serveur Matrix écrit en Python. Il s’agit de l’implémentation de référence d’un serveur Matrix et pour l’instant la seule qui soit annoncée comme « stable »."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> et <abbr title="Client Matrix complet (anciennement « Riot ») disponible sur de nombreuses plateformes. CLUB1 héberge une instance de la version Web de ce client à l’adresse https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr>
+pour avoir la dernière version de <abbr title="[Serveur] [Matrix] écrit en Python. Il s’agit de l’implémentation de
+référence d’un serveur Matrix et pour l’instant la seule qui soit
+annoncée comme « stable »."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> et <abbr title="[Client] [Matrix] complet (anciennement « Riot ») disponible sur de
+nombreuses plateformes. CLUB1 héberge une [instance] de la version
+[Web] de ce client à l’adresse https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr>
 et ainsi éviter des bugs ou failles de sécurité.</p>
 </section>
 <section id="que-faire-si-j-ai-perdu-mon-mot-de-passe">
@@ -301,7 +329,9 @@ mais si vous n’avez pas confiance en lui, il ne vous reste plus qu’à active
 <h2>Configurations spécifiques<a class="headerlink" href="#configurations-specifiques" title="Lien vers cette rubrique">#</a></h2>
 <p>Le serveur CLUB1 a des <a class="reference internal" href="../info/infrastructure-materielle.html#serveur"><span class="std std-ref">ressources limitées</span></a>,
 il ne peut donc pas accueillir et conserver toutes les discussions à l’infini.
-Nous avons ainsi configuré <abbr title="Serveur Matrix écrit en Python. Il s’agit de l’implémentation de référence d’un serveur Matrix et pour l’instant la seule qui soit annoncée comme « stable »."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> en conséquence :</p>
+Nous avons ainsi configuré <abbr title="[Serveur] [Matrix] écrit en Python. Il s’agit de l’implémentation de
+référence d’un serveur Matrix et pour l’instant la seule qui soit
+annoncée comme « stable »."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> en conséquence :</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># Message retention policy at the server level.</span>
 <span class="c1">#</span>
 <span class="c1"># Room admins and mods can define a retention period for their rooms using the</span>
@@ -370,9 +400,16 @@ Nous avons ainsi configuré <abbr title="Serveur Matrix écrit en Python. Il s�
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Synapse">
 <span class="sig-name descname"><span class="pre">Synapse</span></span><a class="headerlink" href="#logiciel-Synapse" title="Lien vers cette définition">#</a></dt>
-<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> <abbr title="Protocole de messagerie instantanée décentralisé.
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> <abbr title="[Protocole] de messagerie instantanée **décentralisé**.
 
-Son avantage principal par rapport aux autres systèmes fédérés du même type, est de répliquer les données sur l’ensemble des serveurs participants, afin d’améliorer la tolérence aux pannes en garantissant une « cohérence à terme »."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> écrit en Python.
+Son avantage principal par rapport aux autres systèmes fédérés du même
+type, est de répliquer les données sur l’ensemble des [serveurs]
+participants, afin d’améliorer la tolérence aux pannes en garantissant
+une « cohérence à terme »."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> écrit en Python.
 Il s’agit de l’implémentation de référence d’un serveur Matrix
 et pour l’instant la seule qui soit annoncée comme « stable ».
 — <a class="reference external" href="https://github.com/matrix-org/synapse">Sources</a></p>
@@ -381,14 +418,28 @@ et pour l’instant la seule qui soit annoncée comme « stable ».
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Element">
 <span class="sig-name descname"><span class="pre">Element</span></span><a class="headerlink" href="#logiciel-Element" title="Lien vers cette définition">#</a></dt>
-<dd><p><abbr title="Logiciel permettant de se connecter à un serveur. Il est en général doté d’une interface graphique, destinée à être utilisée directement par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">Client</span></a></abbr> <abbr title="Protocole de messagerie instantanée décentralisé.
+<dd><p><abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">Client</span></a></abbr> <abbr title="[Protocole] de messagerie instantanée **décentralisé**.
 
-Son avantage principal par rapport aux autres systèmes fédérés du même type, est de répliquer les données sur l’ensemble des serveurs participants, afin d’améliorer la tolérence aux pannes en garantissant une « cohérence à terme »."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> complet (anciennement « Riot ») disponible sur de nombreuses plateformes.
-CLUB1 héberge une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre existence et son propre état.
+Son avantage principal par rapport aux autres systèmes fédérés du même
+type, est de répliquer les données sur l’ensemble des [serveurs]
+participants, afin d’améliorer la tolérence aux pannes en garantissant
+une « cohérence à terme »."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> complet (anciennement « Riot ») disponible sur de nombreuses plateformes.
+CLUB1 héberge une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre
+existence et son propre état.
 
-On parle par exemple d’instance à chaque fois qu’on exécute un logiciel avec des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs instances de PHP : au moins une pour chaque membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de la version <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+On parle par exemple d’instance à chaque fois qu’on exécute un
+logiciel avec des données différentes. Sur le serveur CLUB1, il y a
+notamment plusieurs instances de [PHP] : au moins une pour chaque
+membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de la version <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de ce client
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de ce client
 à l’adresse <a class="reference external" href="https://riot.club1.fr">https://riot.club1.fr</a>.
 — <a class="reference external" href="https://github.com/element-hq/element-web">Sources</a>, <a class="reference external" href="https://fr.wikipedia.org/wiki/Element_(logiciel)">Wikipedia</a></p>
 </dd></dl>
@@ -424,7 +475,7 @@ Une « page Web » est généralement constituée d’un document dont le cont
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

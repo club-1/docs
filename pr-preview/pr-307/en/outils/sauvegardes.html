@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e743f079"></script>
+        <script src="../_static/documentation_options.js?v=db7dd51b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -149,7 +149,10 @@
 <img alt="system status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/y3yqTX9N-2/system.svg" />
 <img alt="mariadb status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/TRFhqbdG-2/mariadb.svg" />
 <img alt="postgres status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/KzgZiSZL-2/postgres.svg" />
-<img alt="userdata status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/xFAKftB0-2/userdata.svg" /><p>System and user data are backed up once a day at 5am. CLUB1’s backups are based on <abbr title="Incremental backups software in CLI, based on deduplication. It also compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr> and <abbr title="CLI software to automate backup management with Borg. In particular, it is able to backup Postgres and MariaDB databases."><a class="reference internal" href="#logiciel-Borgmatic"><span class="xref std std-logiciel">Borgmatic</span></a></abbr>. They are thus stored in a deduplicated and encrypted manner in several places including an off-site repository offered by Etienne Le Louët (self-hosted <abbr title="Système d’exploitation communautaire basé sur Linux, composé presque exclusivement de logiciels libres et respectant la norme POSIX."><a class="reference internal" href="../glossaire.html#term-Debian"><span class="xref std std-term">Debian</span></a></abbr> server in Paris).</p>
+<img alt="userdata status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/xFAKftB0-2/userdata.svg" /><p>System and user data are backed up once a day at 5am. CLUB1’s backups are based on <abbr title="Incremental backups software in [CLI], based on deduplication. It also
+compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr> and <abbr title="[CLI] software to automate backup management with [Borg]. In
+particular, it is able to backup Postgres and [MariaDB] databases."><a class="reference internal" href="#logiciel-Borgmatic"><span class="xref std std-logiciel">Borgmatic</span></a></abbr>. They are thus stored in a deduplicated and encrypted manner in several places including an off-site repository offered by Etienne Le Louët (self-hosted <abbr title="Système d’exploitation communautaire basé sur [Linux], composé presque
+exclusivement de [logiciels libres] et respectant la norme [POSIX]."><a class="reference internal" href="../glossaire.html#term-Debian"><span class="xref std std-term">Debian</span></a></abbr> server in Paris).</p>
 <p>These are incremental backups with the following retention policy:</p>
 <ul class="simple">
 <li><p>7 daily backups</p></li>
@@ -159,7 +162,7 @@
 <p>Backups are divided into four groups:</p>
 <ol class="arabic simple">
 <li><p><strong>System</strong> for server configuration and application files.</p></li>
-<li><p><strong>MariaDB</strong> for <abbr title="SQL database server distributed under a free license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases.</p></li>
+<li><p><strong>MariaDB</strong> for <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases.</p></li>
 <li><p><strong>Postgres</strong> for PostgreSQL databases.</p></li>
 <li><p><strong>Userdata</strong> for the data of the <em>personal space</em> (<code class="docutils literal notranslate"><span class="pre">home</span></code> folder).</p></li>
 </ol>
@@ -254,11 +257,15 @@ systemctl<span class="w"> </span>daemon-reload
 </div>
 </section>
 <section id="base-de-donnees-ldap">
-<h4>4.2. Base de données <abbr title="(Lightweight Directory Access Protocol) Directory service Protocol describing both a data model and how to query and modify this data.
+<h4>4.2. Base de données <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
 
-A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
 
-The data schema is not fixed, so you need to know it before you can interact with a LDAP directory."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr><a class="headerlink" href="#base-de-donnees-ldap" title="Link to this heading">#</a></h4>
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr><a class="headerlink" href="#base-de-donnees-ldap" title="Link to this heading">#</a></h4>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>stop<span class="w"> </span>slapd
 slapadd<span class="w"> </span>-l<span class="w"> </span>/root/ldap_data.ldif<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>chown<span class="w"> </span>-R<span class="w"> </span>openldap:openldap<span class="w"> </span>/var/lib/ldap
 systemctl<span class="w"> </span>restart<span class="w"> </span>slapd<span class="w"> </span>nslcd
@@ -274,7 +281,7 @@ chmod g+w /etc/aliases*.db
 </div>
 </section>
 <section id="bases-de-donnees-mariadb">
-<h4>4.4. Bases de données <abbr title="SQL database server distributed under a free license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr><a class="headerlink" href="#bases-de-donnees-mariadb" title="Link to this heading">#</a></h4>
+<h4>4.4. Bases de données <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr><a class="headerlink" href="#bases-de-donnees-mariadb" title="Link to this heading">#</a></h4>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>start<span class="w"> </span>mariadb
 <span class="c1"># screen (~= 20min)</span>
 borgmatic<span class="w"> </span>restore<span class="w"> </span>--archive<span class="w"> </span>latest<span class="w"> </span>--repository<span class="o">=</span>club1@nas.jeanpierre.moe:backups/mariadb
@@ -306,13 +313,20 @@ reboot
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Borg">
 <span class="sig-name descname"><span class="pre">Borg</span></span><a class="headerlink" href="#logiciel-Borg" title="Link to this definition">#</a></dt>
-<dd><p>Incremental backups software in <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>, based on deduplication. It also compresses and encrypts saved data. — <a class="reference external" href="https://www.borgbackup.org/">Site</a>, <a class="reference external" href="https://github.com/borgbackup/borg">Sources</a></p>
+<dd><p>Incremental backups software in <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>, based on deduplication. It also compresses and encrypts saved data. — <a class="reference external" href="https://www.borgbackup.org/">Site</a>, <a class="reference external" href="https://github.com/borgbackup/borg">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Borgmatic">
 <span class="sig-name descname"><span class="pre">Borgmatic</span></span><a class="headerlink" href="#logiciel-Borgmatic" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> software to automate backup management with <abbr title="Incremental backups software in CLI, based on deduplication. It also compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr>. In particular, it is able to backup Postgres and <abbr title="SQL database server distributed under a free license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases. — <a class="reference external" href="https://torsion.org/borgmatic/">Site</a>, <a class="reference external" href="https://projects.torsion.org/borgmatic-collective/borgmatic">Sources</a></p>
+<dd><p><abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> software to automate backup management with <abbr title="Incremental backups software in [CLI], based on deduplication. It also
+compresses and encrypts saved data."><a class="reference internal" href="#logiciel-Borg"><span class="xref std std-logiciel">Borg</span></a></abbr>. In particular, it is able to backup Postgres and <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> databases. — <a class="reference external" href="https://torsion.org/borgmatic/">Site</a>, <a class="reference external" href="https://projects.torsion.org/borgmatic-collective/borgmatic">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -346,7 +360,7 @@ reboot
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

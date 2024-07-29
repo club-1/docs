@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -145,7 +145,11 @@
   <section id="premiere-connexion-ssh">
 <h1>Première connexion SSH<a class="headerlink" href="#premiere-connexion-ssh" title="Lien vers cette rubrique">#</a></h1>
 <p>Dans ce tuto, nous allons voir comment se connecter au serveur
-pour la première fois en <abbr title="(Secure SHell) Protocole permettant de se connecter à distance en CLI à un serveur. Ses principaux avantages sont d’être entièrement chiffré et d’offrir un accès complet aux fonctionnalités du serveur. Il existe des extensions SSH pour des usages plus spécifiques comme SFTP ou SCP."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> de manière <strong>sécurisée</strong>.
+pour la première fois en <abbr title="(Secure SHell) Protocole permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> de manière <strong>sécurisée</strong>.
 Pour cela, <strong>pas besoin d’installer de logiciels supplémentaire</strong>,
 la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion 😌.
 Cela dit, une tisane et un espace calme peuvent s’avérer utiles dans cette aventure.</p>
@@ -157,9 +161,14 @@ explique comment en faire part.</p>
 <section id="connexion-avec-le-terminal">
 <h2>Connexion avec le terminal<a class="headerlink" href="#connexion-avec-le-terminal" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour effectuer cette connexion SSH,
-nous avons besoin d’ouvrir une fenêtre de <strong><abbr title="En informatique, un terminal était à l’origine un appareil constitué d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir avec un ordinateur partagé distant. Il offrait une interface textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+nous avons besoin d’ouvrir une fenêtre de <strong><abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des commandes et d’en lire le résultat.
 
-De nos jours, on utilise souvent le mot « terminal » comme raccourci pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel recréant l’interface en ligne de commande (CLI) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr></strong> ! 🥵
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr></strong> ! 🥵
 Pour cela, il faut lancer sur votre ordinateur un programme qui s’appelle en général <code class="docutils literal notranslate"><span class="pre">terminal</span></code> ou <code class="docutils literal notranslate"><span class="pre">console</span></code>.</p>
 <div class="admonition-pour-windows admonition">
 <p class="admonition-title">Pour Windows</p>
@@ -193,7 +202,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 <blockquote>
 <div><p>😱 Houla ! Qu’est ce que c’est que ça ??</p>
 </div></blockquote>
-<p>En fait, c’est normal, <abbr title="Logiciel fournissant à la fois un serveur et un client SSH."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> nous averti que l’authentification
+<p>En fait, c’est normal, <abbr title="Logiciel fournissant à la fois un [serveur] et un [client] [SSH]."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> nous averti que l’authentification
 de la connexion n’est pas garantie car votre appareil ne connaît pas <em>encore</em> ce serveur.</p>
 <p>En répondant <code class="docutils literal notranslate"><span class="pre">yes</span></code> à ce message on s’expose à une
 <a class="reference external" href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu">attaque de l’homme du milieu</a> 🥸.
@@ -210,10 +219,19 @@ au cas où celle-ci serait compromise 😮.</p>
 <blockquote>
 <div><p>🤔 Mais alors, qu’est ce qui garanti que la nouvelle source n’est pas elle aussi compromise ?</p>
 </div></blockquote>
-<p>La source de la clef que nous allons utiliser provient du <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<p>La source de la clef que nous allons utiliser provient du <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>,
-à travers une connexion chiffrée et <strong>authentifié</strong> via <abbr title="(Transport Layer Security) Protocole permettant de sécuriser les échanges réalisés dans un réseau informatique. L’une de ses fonctionnalités principale est de chiffrer l’ensemble des données échangées entre le client et le serveur, afin que personne d’autre ne puisse en lire le contenu."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr> 🔒
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>,
+à travers une connexion chiffrée et <strong>authentifié</strong> via <abbr title="(Transport Layer Security) Protocole permettant de sécuriser les
+échanges réalisés dans un [réseau informatique]. L’une de ses
+fonctionnalités principale est de chiffrer l’ensemble des données
+échangées entre le [client] et le [serveur], afin que personne d’autre
+ne puisse en lire le contenu."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr> 🔒
 (C’est le fameux <code class="docutils literal notranslate"><span class="pre">s</span></code> dans <code class="docutils literal notranslate"><span class="pre">https</span></code>).</p>
 </section>
 <section id="fichier-known-hosts">
@@ -303,7 +321,7 @@ car c’est celui qui vous donne le plus de libertés d’interactions avec le s
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

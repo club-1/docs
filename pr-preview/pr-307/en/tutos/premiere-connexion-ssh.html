@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e743f079"></script>
+        <script src="../_static/documentation_options.js?v=db7dd51b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -143,7 +143,10 @@
   <section id="premiere-connexion-ssh">
 <h1>First SSH connection<a class="headerlink" href="#premiere-connexion-ssh" title="Link to this heading">#</a></h1>
 <p>Dans ce tuto, nous allons voir comment se connecter au serveur
-pour la première fois en <abbr title="(Secure SHell) Protocol allowing to connect remotely in CLI to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like SFTP or SCP."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> de manière <strong>sécurisée</strong>.
+pour la première fois en <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
+server. Its main advantages are being fully encrypted and providing
+full access to server functionality. There are SSH extensions for more
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> de manière <strong>sécurisée</strong>.
 Pour cela, <strong>pas besoin d’installer de logiciels supplémentaire</strong>,
 la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion 😌.
 Cela dit, une tisane et un espace calme peuvent s’avérer utiles dans cette aventure.</p>
@@ -155,9 +158,14 @@ explique comment en faire part.</p>
 <section id="connexion-avec-le-terminal">
 <h2>Connection with the terminal<a class="headerlink" href="#connexion-avec-le-terminal" title="Link to this heading">#</a></h2>
 <p>Pour effectuer cette connexion SSH,
-nous avons besoin d’ouvrir une fenêtre de <strong><abbr title="In computing, a terminal was originally a device consisting of a monitor and a keyboard, allowing a human to interact with a remote shared computer. It offered a textual interface, making it possible to enter commands and read the result.
+nous avons besoin d’ouvrir une fenêtre de <strong><abbr title="In computing, a terminal was originally a device consisting of a
+monitor and a keyboard, allowing a human to interact with a remote
+shared computer. It offered a textual interface, making it possible to
+enter commands and read the result.
 
-Nowadays, the word “terminal” is often used as a shorthand for a “terminal emulator”. This is a software that recreates the command line interface (CLI) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr></strong> ! 🥵
+Nowadays, the word “terminal” is often used as a shorthand for a
+“terminal emulator”. This is a software that recreates the command
+line interface ([CLI]) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr></strong> ! 🥵
 Pour cela, il faut lancer sur votre ordinateur un programme qui s’appelle en général <code class="docutils literal notranslate"><span class="pre">terminal</span></code> ou <code class="docutils literal notranslate"><span class="pre">console</span></code>.</p>
 <div class="admonition-pour-windows admonition">
 <p class="admonition-title">For Windows</p>
@@ -189,7 +197,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 <blockquote>
 <div><p>😱 Wow! What the hell is this??</p>
 </div></blockquote>
-<p>In fact, this is normal, <abbr title="Software providing both an SSH server and client."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> warns us that the authentication of the connection is not guaranteed because your device does not know this server <em>yet</em>.</p>
+<p>In fact, this is normal, <abbr title="Software providing both an [SSH] [server] and [client]."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> warns us that the authentication of the connection is not guaranteed because your device does not know this server <em>yet</em>.</p>
 <p>Replying <code class="docutils literal notranslate"><span class="pre">yes</span></code> to this message exposes oneself to a <a class="reference external" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attack</a> 🥸. So we’re going to answer <code class="docutils literal notranslate"><span class="pre">no</span></code> for now.</p>
 </section>
 <section id="la-confiance-regne">
@@ -199,9 +207,16 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 <blockquote>
 <div><p>🤔 But then, what guarantees that the new source is not also compromised?</p>
 </div></blockquote>
-<p>The source of the key we are going to use comes from the <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<p>The source of the key we are going to use comes from the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>, through an encrypted and <strong>authenticated</strong> connection via <abbr title="(Transport Layer Security) Protocol used to secure exchanges in a computer network. One of its main features is to encrypt all data exchanged between the client and the server, so that no one else can read its content."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr> 🔒 (This is the famous <code class="docutils literal notranslate"><span class="pre">s</span></code> in <code class="docutils literal notranslate"><span class="pre">https</span></code>).</p>
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>, through an encrypted and <strong>authenticated</strong> connection via <abbr title="(Transport Layer Security) Protocol used to secure exchanges in a
+[computer network]. One of its main features is to encrypt all data
+exchanged between the [client] and the [server], so that no one else
+can read its content."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr> 🔒 (This is the famous <code class="docutils literal notranslate"><span class="pre">s</span></code> in <code class="docutils literal notranslate"><span class="pre">https</span></code>).</p>
 </section>
 <section id="fichier-known-hosts">
 <h2><code class="docutils literal notranslate"><span class="pre">known_hosts</span></code> file<a class="headerlink" href="#fichier-known-hosts" title="Link to this heading">#</a></h2>
@@ -283,7 +298,7 @@ sans voir le message d’alerte.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

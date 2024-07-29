@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -148,7 +148,9 @@
 <h1>Espace personnel<a class="headerlink" href="#espace-personnel" title="Lien vers cette rubrique">#</a></h1>
 <p>L’hébergement CLUB1 est basé sur la mise à disposition d’un <em>espace personnel</em>.
 Il s’agit d’un espace de stockage sur le serveur, accessible via un certain
-nombre de <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de règles qui régissent les échanges de données ou le comportement collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocoles</span></a></abbr>, fournissant différents services.</p>
+nombre de <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocoles</span></a></abbr>, fournissant différents services.</p>
 <section id="home-sweet-home">
 <h2>Home sweet home<a class="headerlink" href="#home-sweet-home" title="Lien vers cette rubrique">#</a></h2>
 <p>Chaque membre de CLUB1 dispose d’un <em>espace personnel</em>.
@@ -181,9 +183,14 @@ il vous suffit de télécharger une copie de ce dossier.</p>
 </section>
 <section id="static">
 <h3>📁 static<a class="headerlink" href="#static" title="Lien vers cette rubrique">#</a></h3>
-<p>Ce dossier est la porte la plus proche vers le <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<p>Ce dossier est la porte la plus proche vers le <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
 car il permet de <a class="reference internal" href="../services/web.html#dossier-static"><span class="std std-ref">publier des sites Web</span></a>.</p>
 </section>
 <section id="git">
@@ -192,9 +199,12 @@ car il permet de <a class="reference internal" href="../services/web.html#dossie
 </section>
 <section id="log">
 <h3>📁 log<a class="headerlink" href="#log" title="Lien vers cette rubrique">#</a></h3>
-<p>Ce dossier contient l’ensemble des <abbr title="Désigne à l’origine le journal de bord (logbook) d’un navire. En informatique il s’agit d’un journal contenant un historique d’événements, généralement sous la forme de ficher en texte brut."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> produits par les services.
+<p>Ce dossier contient l’ensemble des <abbr title="Désigne à l’origine le journal de bord (logbook) d’un navire. En
+informatique il s’agit d’un journal contenant un historique
+d’événements, généralement sous la forme de ficher en texte brut."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> produits par les services.
 Par exemple ceux des <a class="reference internal" href="../services/web.html#hebergement-avec-un-nom-de-domaine-dedie"><span class="std std-ref">sites Web avec un nom de domaine dédié</span></a>.</p>
-<p>Une rotation est opérée à l’aide de <abbr title="Utilitaire permettant de simplifier la rotation d’un grand nombre de fichiers de log."><a class="reference internal" href="#logiciel-logrotate"><span class="xref std std-logiciel">logrotate</span></a></abbr> sur les fichiers <code class="docutils literal notranslate"><span class="pre">*.log</span></code> de ce dossier toute les semaines
+<p>Une rotation est opérée à l’aide de <abbr title="Utilitaire permettant de simplifier la rotation d’un grand nombre de
+fichiers de [log]."><a class="reference internal" href="#logiciel-logrotate"><span class="xref std std-logiciel">logrotate</span></a></abbr> sur les fichiers <code class="docutils literal notranslate"><span class="pre">*.log</span></code> de ce dossier toute les semaines
 et un historique de 15 fichiers par log est conservé.
 Les anciens fichiers sont compressés via <code class="docutils literal notranslate"><span class="pre">gzip</span></code>.</p>
 </section>
@@ -203,7 +213,11 @@ Les anciens fichiers sont compressés via <code class="docutils literal notransl
 <h2>Fichier de présentation<a class="headerlink" href="#fichier-de-presentation" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour apparaître sur la <a class="reference external" href="https://club1.fr/membres">page membres</a> du site web de CLUB1,
 il faut créer un <strong>fichier de présentation</strong> appellé <code class="docutils literal notranslate"><span class="pre">PRESENTATION.md</span></code> à la racine de son espace perso.</p>
-<p>Il est possible de formater son texte en <abbr title="Langage de balisage léger permettant de mettre en forme un document. Les documents rédigés en Markdown ont généralement pour but d’être convertis en HTML, afin d’en faire une page Web. Son principal avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>,
+<p>Il est possible de formater son texte en <abbr title="Langage de balisage léger permettant de mettre en forme un document.
+Les documents rédigés en Markdown ont généralement pour but d’être
+convertis en [HTML], afin d’en faire une page [Web]. Son principal
+avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend
+plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>,
 ainsi que de changer son nom d’affichage et la couleur de son bouton.</p>
 <div class="admonition seealso">
 <p class="admonition-title">Voir aussi</p>
@@ -224,7 +238,9 @@ son fichier de présentation !</p>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-logrotate">
 <span class="sig-name descname"><span class="pre">logrotate</span></span><a class="headerlink" href="#logiciel-logrotate" title="Lien vers cette définition">#</a></dt>
-<dd><p>Utilitaire permettant de simplifier la rotation d’un grand nombre de fichiers de <abbr title="Désigne à l’origine le journal de bord (logbook) d’un navire. En informatique il s’agit d’un journal contenant un historique d’événements, généralement sous la forme de ficher en texte brut."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">log</span></a></abbr>.
+<dd><p>Utilitaire permettant de simplifier la rotation d’un grand nombre de fichiers de <abbr title="Désigne à l’origine le journal de bord (logbook) d’un navire. En
+informatique il s’agit d’un journal contenant un historique
+d’événements, généralement sous la forme de ficher en texte brut."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">log</span></a></abbr>.
 — <a class="reference external" href="https://github.com/logrotate/logrotate">Sources</a></p>
 </dd></dl>
 
@@ -259,7 +275,7 @@ son fichier de présentation !</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

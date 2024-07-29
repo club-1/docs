@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e743f079"></script>
+        <script src="../_static/documentation_options.js?v=db7dd51b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,7 +144,9 @@
              
   <section id="espace-personnel">
 <h1>Personal space<a class="headerlink" href="#espace-personnel" title="Link to this heading">#</a></h1>
-<p>CLUB1 hosting is based on the allocation of a <em>personal space</em>. It is a storage space on the server, which is accessible via several <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr>, providing different services.</p>
+<p>CLUB1 hosting is based on the allocation of a <em>personal space</em>. It is a storage space on the server, which is accessible via several <abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr>, providing different services.</p>
 <section id="home-sweet-home">
 <h2>Home sweet home<a class="headerlink" href="#home-sweet-home" title="Link to this heading">#</a></h2>
 <p>Each CLUB1 member has a <em>personal space</em>. This is your <em>home</em>, by the way, we call this folder <code class="docutils literal notranslate"><span class="pre">home</span></code> 🏠. But since you have all the rights, you also have the right to delete everything. So be careful, because some folders inside can be precious. For example your emails, which are in the folder <code class="docutils literal notranslate"><span class="pre">mail</span></code> 🤯 .</p>
@@ -164,9 +166,13 @@
 </section>
 <section id="static">
 <h3>📁 static<a class="headerlink" href="#static" title="Link to this heading">#</a></h3>
-<p>This folder is the closest door to the <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<p>This folder is the closest door to the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> as it allows to <a class="reference internal" href="../services/web.html#dossier-static"><span class="std std-ref">publish websites</span></a>.</p>
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> as it allows to <a class="reference internal" href="../services/web.html#dossier-static"><span class="std std-ref">publish websites</span></a>.</p>
 </section>
 <section id="git">
 <h3>📁 git<a class="headerlink" href="#git" title="Link to this heading">#</a></h3>
@@ -174,14 +180,20 @@ A “Web page” usually consists of a document whose content is written in HTML
 </section>
 <section id="log">
 <h3>📁 log<a class="headerlink" href="#log" title="Link to this heading">#</a></h3>
-<p>This folder contains all the <abbr title="Originally refers to the logbook of a ship. In computing it is a journal containing a history of events, usually in the form of a plain text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> produced by the services. For example those of the <a class="reference internal" href="../services/web.html#hebergement-avec-un-nom-de-domaine-dedie"><span class="std std-ref">websites with a dedicated domain name</span></a>.</p>
-<p>A rotation is performed using <abbr title="Utility to simplify the rotation of a large number of log files."><a class="reference internal" href="#logiciel-logrotate"><span class="xref std std-logiciel">logrotate</span></a></abbr> on the <code class="docutils literal notranslate"><span class="pre">*.log</span></code> files of this folder every week and a history of 15 files per log is kept. Old files are compressed via <code class="docutils literal notranslate"><span class="pre">gzip</span></code>.</p>
+<p>This folder contains all the <abbr title="Originally refers to the logbook of a ship. In computing it is a
+journal containing a history of events, usually in the form of a plain
+text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> produced by the services. For example those of the <a class="reference internal" href="../services/web.html#hebergement-avec-un-nom-de-domaine-dedie"><span class="std std-ref">websites with a dedicated domain name</span></a>.</p>
+<p>A rotation is performed using <abbr title="Utility to simplify the rotation of a large number of [log] files."><a class="reference internal" href="#logiciel-logrotate"><span class="xref std std-logiciel">logrotate</span></a></abbr> on the <code class="docutils literal notranslate"><span class="pre">*.log</span></code> files of this folder every week and a history of 15 files per log is kept. Old files are compressed via <code class="docutils literal notranslate"><span class="pre">gzip</span></code>.</p>
 </section>
 </section>
 <section id="fichier-de-presentation">
 <h2>Presentation file<a class="headerlink" href="#fichier-de-presentation" title="Link to this heading">#</a></h2>
 <p>To appear on the <a class="reference external" href="https://club1.fr/membres">members page</a> of the CLUB1 website, you must create a <strong>presentation file</strong> called <code class="docutils literal notranslate"><span class="pre">PRESENTATION.md</span></code> at the root of your personal space.</p>
-<p>It is possible to format your text in <abbr title="Lightweight markup language for creating formatted text. Documents written in Markdown are usually intended to be converted to HTML, in order to make it a Web page. Its main advantage over HTML is its sleek syntax, which makes it more pleasant to read and write for a human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>, as well as to change your display name and the color of your button.</p>
+<p>It is possible to format your text in <abbr title="Lightweight markup language for creating formatted text. Documents
+written in Markdown are usually intended to be converted to [HTML], in
+order to make it a [Web] page. Its main advantage over HTML is its
+sleek syntax, which makes it more pleasant to read and write for a
+human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>, as well as to change your display name and the color of your button.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <p>Tutorial: <a class="reference internal" href="../tutos/presentation.html"><span class="std std-doc">How to edit your presentation</span></a></p>
@@ -199,7 +211,9 @@ A “Web page” usually consists of a document whose content is written in HTML
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-logrotate">
 <span class="sig-name descname"><span class="pre">logrotate</span></span><a class="headerlink" href="#logiciel-logrotate" title="Link to this definition">#</a></dt>
-<dd><p>Utility to simplify the rotation of a large number of <abbr title="Originally refers to the logbook of a ship. In computing it is a journal containing a history of events, usually in the form of a plain text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">log</span></a></abbr> files. — <a class="reference external" href="https://github.com/logrotate/logrotate">Sources</a></p>
+<dd><p>Utility to simplify the rotation of a large number of <abbr title="Originally refers to the logbook of a ship. In computing it is a
+journal containing a history of events, usually in the form of a plain
+text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">log</span></a></abbr> files. — <a class="reference external" href="https://github.com/logrotate/logrotate">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -233,7 +247,7 @@ A “Web page” usually consists of a document whose content is written in HTML
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

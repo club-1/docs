@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -157,11 +157,17 @@ Les dépôts <abbr title="Logiciel de gestion de versions décentralisé."><a cl
 <li><p>Cloner le dépôt Git avec <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> grâce au
 <a class="reference external" href="https://git-scm.com/docs/git-http-backend">git-http-backend</a>.</p></li>
 <li><p>Consulter rapidement le dépôt et les sources dans un navigateur grâce à
-l’interface <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+l’interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> fournie par <abbr title="Interface Web permettant de consulter les informations d’un dépôt Git.
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> fournie par <abbr title="Interface [Web] permettant de consulter les informations d’un dépôt
+[Git].
 
-Chez CLUB1, cgit et accessible à travers le serveur HTTP Apache."><a class="reference internal" href="#logiciel-cgit"><span class="xref std std-logiciel">cgit</span></a></abbr>.</p></li>
+Chez CLUB1, cgit et accessible à travers le [serveur] HTTP [Apache]."><a class="reference internal" href="#logiciel-cgit"><span class="xref std std-logiciel">cgit</span></a></abbr>.</p></li>
 </ol>
 <section id="tutoriel-d-utilisation">
 <h2>Tutoriel d’utilisation<a class="headerlink" href="#tutoriel-d-utilisation" title="Lien vers cette rubrique">#</a></h2>
@@ -174,9 +180,14 @@ voulez donner au dépôt) :</p>
 </div>
 <p>Dès lors, le dépôt est publié en <em>lecture seule</em> à l’adresse
 <code class="docutils literal notranslate"><span class="pre">https://git.club1.fr/USER/REPO</span></code>, mais celui-ci est vide pour le
-moment. La branche affichée par défaut dans l’interface <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+moment. La branche affichée par défaut dans l’interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> est <code class="docutils literal notranslate"><span class="pre">master</span></code>.
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> est <code class="docutils literal notranslate"><span class="pre">master</span></code>.
 Il est possible de la changer en modifiant le fichier <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> du dépôt.
 Par exemple pour la remplacer par la branche <code class="docutils literal notranslate"><span class="pre">main</span></code> :</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;ref: refs/heads/main&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>ssh<span class="w"> </span>USER@club1.fr<span class="w"> </span>sponge<span class="w"> </span>git/REPO/HEAD
@@ -244,14 +255,28 @@ git<span class="w"> </span>push<span class="w"> </span>--set-upstream<span class
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-cgit">
 <span class="sig-name descname"><span class="pre">cgit</span></span><a class="headerlink" href="#logiciel-cgit" title="Lien vers cette définition">#</a></dt>
-<dd><p>Interface <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<dd><p>Interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> permettant de consulter les informations d’un dépôt <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr>.</p>
-<p>Chez CLUB1, cgit et accessible à travers le <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> HTTP <abbr title="Serveur HTTP très populaire, distribué sous license libre. HTTP étant le protocole du Web on parle aussi souvent de « serveur Web ».
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> permettant de consulter les informations d’un dépôt <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr>.</p>
+<p>Chez CLUB1, cgit et accessible à travers le <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> HTTP <abbr title="[Serveur] HTTP très populaire, distribué sous license [libre]. HTTP
+étant le [protocole] du [Web] on parle aussi souvent de « serveur Web
+».
 
-Apache est intéressant pour l’hébergement de pages Web personnelles, car il peut être configuré en cours d’exécution et par les utilisaturs finaux grâce aux fichiers .htaccess.
+Apache est intéressant pour l’hébergement de pages Web personnelles,
+car il peut être configuré en cours d’exécution et par les utilisaturs
+finaux grâce aux fichiers &quot;.htaccess&quot;.
 
-Chez CLUB1, le serveur Apache se trouve derrière le « proxy inverse » Nginx."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>.
+Chez CLUB1, le serveur Apache se trouve derrière le « proxy inverse »
+[Nginx]."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>.
 — <a class="reference external" href="https://git.zx2c4.com/cgit/">Sources</a></p>
 </dd></dl>
 
@@ -286,7 +311,7 @@ Chez CLUB1, le serveur Apache se trouve derrière le « proxy inverse » Nginx
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

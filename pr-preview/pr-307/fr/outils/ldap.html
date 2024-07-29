@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=6fcf1c7b"></script>
+        <script src="../_static/documentation_options.js?v=53f13919"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,7 +144,9 @@
   <section id="annuaire-ldap">
 <h1>Annuaire LDAP<a class="headerlink" href="#annuaire-ldap" title="Lien vers cette rubrique">#</a></h1>
 <dl class="glossary">
-<dt id="term-LDAP">LDAP<a class="headerlink" href="#term-LDAP" title="Lien vers ce terme">#</a></dt><dd><p>(<em>Lightweight Directory Access Protocol</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de règles qui régissent les échanges de données ou le comportement collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de service d’annuaire
+<dt id="term-LDAP">LDAP<a class="headerlink" href="#term-LDAP" title="Lien vers ce terme">#</a></dt><dd><p>(<em>Lightweight Directory Access Protocol</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de service d’annuaire
 décrivant à la fois un modèle de données et la manière d’interroger et de modifier ces données.</p>
 <p>Un annuaire LDAP est une sorte de base de données
 avec une structure hierarchique, arborescente,
@@ -155,11 +157,17 @@ appartenant à une organisation.</p>
 il faut donc le connaitre, avant de pouvoir interagir avec un annuaire LDAP.</p>
 </dd>
 </dl>
-<p>CLUB1 utilise un annuaire <abbr title="(Lightweight Directory Access Protocol) Protocole de service d’annuaire décrivant à la fois un modèle de données et la manière d’interroger et de modifier ces données.
+<p>CLUB1 utilise un annuaire <abbr title="(Lightweight Directory Access Protocol) [Protocole] de service
+d’annuaire décrivant à la fois un modèle de données et la manière
+d’interroger et de modifier ces données.
 
-Un annuaire LDAP est une sorte de base de données avec une structure hierarchique, arborescente, permettant de relier des informations à des noms. En général des comptes ou des groupes d’utilisateurs ou d’ordinateurs, appartenant à une organisation.
+Un annuaire LDAP est une sorte de base de données avec une structure
+hierarchique, arborescente, permettant de relier des informations à
+des noms. En général des comptes ou des groupes d’utilisateurs ou
+d’ordinateurs, appartenant à une organisation.
 
-Le schéma de données n’est pas fixé, il faut donc le connaitre, avant de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> pour stocker les comptes de ses membres
+Le schéma de données n’est pas fixé, il faut donc le connaitre, avant
+de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> pour stocker les comptes de ses membres
 de manière centralisée.
 C’est ce qui permet de mettre en commun les identifiants de connexion
 entre les différents <a class="reference internal" href="../services-membres.html"><span class="std std-doc">services membres</span></a>.</p>
@@ -209,12 +217,25 @@ il est accessible uniquement en local depuis le serveur.</p>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-slapd">
 <span class="sig-name descname"><span class="pre">slapd</span></span><a class="headerlink" href="#logiciel-slapd" title="Lien vers cette définition">#</a></dt>
-<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> d’annuaire <abbr title="(Lightweight Directory Access Protocol) Protocole de service d’annuaire décrivant à la fois un modèle de données et la manière d’interroger et de modifier ces données.
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> d’annuaire <abbr title="(Lightweight Directory Access Protocol) [Protocole] de service
+d’annuaire décrivant à la fois un modèle de données et la manière
+d’interroger et de modifier ces données.
 
-Un annuaire LDAP est une sorte de base de données avec une structure hierarchique, arborescente, permettant de relier des informations à des noms. En général des comptes ou des groupes d’utilisateurs ou d’ordinateurs, appartenant à une organisation.
+Un annuaire LDAP est une sorte de base de données avec une structure
+hierarchique, arborescente, permettant de relier des informations à
+des noms. En général des comptes ou des groupes d’utilisateurs ou
+d’ordinateurs, appartenant à une organisation.
 
-Le schéma de données n’est pas fixé, il faut donc le connaitre, avant de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> faisant partie du projet OpenLDAP,
-une implémentation <abbr title="Désigne des logiciels qui respectent la liberté des utilisateurs. En particulier, les utilisateurs ont la liberté d’exécuter, copier, étudier, modifier et améliorer ces logiciels, et surtout celle de les repartager, modifiés ou non."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">libre</span></a></abbr> du protocole LDAP.
+Le schéma de données n’est pas fixé, il faut donc le connaitre, avant
+de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> faisant partie du projet OpenLDAP,
+une implémentation <abbr title="Désigne des logiciels qui respectent la liberté des utilisateurs. En
+particulier, les utilisateurs ont la liberté d’exécuter, copier,
+étudier, modifier et améliorer ces logiciels, et surtout celle de les
+repartager, modifiés ou non."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">libre</span></a></abbr> du protocole LDAP.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/OpenLDAP">Wikipedia</a>,
 <a class="reference external" href="https://git.openldap.org/openldap/openldap">Sources</a></p>
 </dd></dl>
@@ -222,12 +243,22 @@ une implémentation <abbr title="Désigne des logiciels qui respectent la libert
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-nss-pam-ldapd">
 <span class="sig-name descname"><span class="pre">nss-pam-ldapd</span></span><a class="headerlink" href="#logiciel-nss-pam-ldapd" title="Lien vers cette définition">#</a></dt>
-<dd><p>Paquet fournissant un <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> (nslcd)
-permettant de connecter l’annuaire <abbr title="(Lightweight Directory Access Protocol) Protocole de service d’annuaire décrivant à la fois un modèle de données et la manière d’interroger et de modifier ces données.
+<dd><p>Paquet fournissant un <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> (nslcd)
+permettant de connecter l’annuaire <abbr title="(Lightweight Directory Access Protocol) [Protocole] de service
+d’annuaire décrivant à la fois un modèle de données et la manière
+d’interroger et de modifier ces données.
 
-Un annuaire LDAP est une sorte de base de données avec une structure hierarchique, arborescente, permettant de relier des informations à des noms. En général des comptes ou des groupes d’utilisateurs ou d’ordinateurs, appartenant à une organisation.
+Un annuaire LDAP est une sorte de base de données avec une structure
+hierarchique, arborescente, permettant de relier des informations à
+des noms. En général des comptes ou des groupes d’utilisateurs ou
+d’ordinateurs, appartenant à une organisation.
 
-Le schéma de données n’est pas fixé, il faut donc le connaitre, avant de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> aux services du système.
+Le schéma de données n’est pas fixé, il faut donc le connaitre, avant
+de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> aux services du système.
 Plus spécifiquement, le module d’authentification (PAM)
 et le service de gestion des sources de données (NSS).
 — <a class="reference external" href="https://arthurdejong.org/nss-pam-ldapd/">Site</a>,
@@ -265,7 +296,7 @@ et le service de gestion des sources de données (NSS).
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

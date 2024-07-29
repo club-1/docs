@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e743f079"></script>
+        <script src="../_static/documentation_options.js?v=db7dd51b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -142,22 +142,42 @@
   <section id="serveur-dns">
 <h1>DNS server<a class="headerlink" href="#serveur-dns" title="Link to this heading">#</a></h1>
 <dl class="simple glossary">
-<dt id="term-DNS">DNS<a class="headerlink" href="#term-DNS" title="Link to this term">#</a></dt><dd><p>(Domain Name System) Distributed computer service that associates <abbr title="Publicly accessible global computer network. The Internet is actually the interconnection of a set of networks around the world. As the name suggests, “inter” “net” = “between networks”. It is therefore a “network of networks”."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr> <abbr title="Internet domain identifier, easy for a human to read and remember.
+<dt id="term-DNS">DNS<a class="headerlink" href="#term-DNS" title="Link to this term">#</a></dt><dd><p>(Domain Name System) Distributed computer service that associates <abbr title="Publicly accessible global [computer network]. The Internet is
+actually the interconnection of a set of networks around the world. As
+the name suggests, “inter” “net” = “between networks”. It is therefore
+a “network of networks”."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr> <abbr title="[Internet] domain identifier, easy for a human to read and remember.
 
-For example: club1.fr, impots.gouv.fr, and fr are domain names.
+For example: &quot;club1.fr&quot;, &quot;impots.gouv.fr&quot;, and &quot;fr&quot; are domain names.
 
-In the DNS, a domain allows to associate information with a name. Among this information, the most important is the IP address of the computer associated with this domain. A domain name is therefore often used as an alias for an IP address.
+In the [DNS], a domain allows to associate information with a name.
+Among this information, the most important is the [IP address] of the
+computer associated with this domain. A domain name is therefore often
+used as an [alias] for an IP address.
 
-In addition to this information, a domain can also have subdomains."><a class="reference internal" href="../glossaire.html#term-nom-de-domaine"><span class="xref std std-term">domain names</span></a></abbr> with their <abbr title="Identification number of a computer connected to a computer network.
+In addition to this information, a domain can also have subdomains."><a class="reference internal" href="../glossaire.html#term-nom-de-domaine"><span class="xref std std-term">domain names</span></a></abbr> with their <abbr title="Identification number of a computer connected to a [computer network].
 
-The IP protocol (originally created for Internet) is used to transport data between a source computer and its destination. For this, it needs IP addresses in order to identify these two computers.
+The IP [protocol] (originally created for [Internet]) is used to
+transport data between a source computer and its destination. For
+this, it needs IP addresses in order to identify these two computers.
 
-Currently, two versions of IP addresses are used: Version 4 which is written as numbers separated by periods (e.g. 87.91.4.64 for the CLUB1 server). And version 6 which uses much larger numbers and is written in hexadecimal (e.g. 2001:861:38c4:18a0::3 for the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-adresse-IP"><span class="xref std std-term">IP addresses</span></a></abbr> or other types of records. — <a class="reference external" href="https://en.wikipedia.org/wiki/Domain_Name_Service">Wikipedia</a></p>
+Actuellement, deux versions d’adresses IP sont utilisées : La version
+4 qui s’écrit sous la forme de nombres séparés par des points (ex :
+&quot;87.91.4.64&quot; pour le serveur de CLUB1). Et la version 6 qui utilise
+des nombres beaucoup plus grands et qui s’écrit en hexadécimal (ex :
+&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="../glossaire.html#term-adresse-IP"><span class="xref std std-term">IP addresses</span></a></abbr> or other types of records. — <a class="reference external" href="https://en.wikipedia.org/wiki/Domain_Name_Service">Wikipedia</a></p>
 </dd>
 </dl>
-<p>CLUB1 self-hosts its own primary authoritative <abbr title="(Domain Name System) Distributed computer service that associates Internet domain names with their IP addresses or other types of records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> using <abbr title="DNS server, meeting the standards, which can play the role of authoritative server, recursive resolver, DNS forwarder, or the three at a time.
+<p>CLUB1 self-hosts its own primary authoritative <abbr title="(Domain Name System) Distributed computer service that associates
+[Internet] [domain names] with their [IP addresses] or other types of
+records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> using <abbr title="[DNS] [server], meeting the standards, which can play the role of
+authoritative server, recursive resolver, DNS forwarder, or the three
+at a time.
 
-On CLUB1, BIND is both an authoritative server and a recursive resolver for the local network."><a class="reference internal" href="#logiciel-BIND"><span class="xref std std-logiciel">BIND</span></a></abbr>. It is replicated on 4 other secondary servers of two friends, Aymeric Agon-Rambosson (<a class="reference external" href="https://ricorambo.su">ricorambo.su</a>) and Etienne Le Louët (jeanpierre.moe) with whom we made an exchange of DNS zones. This gives a total of 5 authoritative servers:</p>
+On CLUB1, BIND is both an authoritative server and a recursive
+resolver for the local network."><a class="reference internal" href="#logiciel-BIND"><span class="xref std std-logiciel">BIND</span></a></abbr>. It is replicated on 4 other secondary servers of two friends, Aymeric Agon-Rambosson (<a class="reference external" href="https://ricorambo.su">ricorambo.su</a>) and Etienne Le Louët (jeanpierre.moe) with whom we made an exchange of DNS zones. This gives a total of 5 authoritative servers:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ns1.club1.fr (primaire)
 ns1.ricorambo.su
 ns2.ricorambo.su
@@ -180,13 +200,18 @@ ns1.jeanpierre.moe
 </section>
 <section id="administration">
 <h2>Administration<a class="headerlink" href="#administration" title="Link to this heading">#</a></h2>
-<p>Only members of the <code class="docutils literal notranslate"><span class="pre">sudo</span></code> <abbr title="In a POSIX system, groups are used to gather users in order to assign them common rights. A user belongs to one or more groups.
+<p>Only members of the <code class="docutils literal notranslate"><span class="pre">sudo</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
 
-It is possible to find out who is a member of a group on the server from an SSH access with the following command:
+Tip:
 
-members GROUP
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
 
-By replacing GROUP with the desired group. Example: members sudo or members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr> can edit the DNS server configuration and some rules must be followed by administrators:</p>
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr> can edit the DNS server configuration and some rules must be followed by administrators:</p>
 <ul class="simple">
 <li><p>New zones and key inclusions are to be added to the <code class="docutils literal notranslate"><span class="pre">/etc/bind/named.conf.local</span></code> file.</p></li>
 <li><p>Primary zone files must be created in <code class="docutils literal notranslate"><span class="pre">/etc/bind</span></code> with a symbolic link in <code class="docutils literal notranslate"><span class="pre">/var/lib/bind</span></code>.</p></li>
@@ -200,7 +225,12 @@ By replacing GROUP with the desired group. Example: members sudo or members home
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-BIND">
 <span class="sig-name descname"><span class="pre">BIND</span></span><a class="headerlink" href="#logiciel-BIND" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="(Domain Name System) Distributed computer service that associates Internet domain names with their IP addresses or other types of records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>, meeting the standards, which can play the role of authoritative server, recursive resolver, DNS forwarder, or the three at a time.</p>
+<dd><p><abbr title="(Domain Name System) Distributed computer service that associates
+[Internet] [domain names] with their [IP addresses] or other types of
+records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>, meeting the standards, which can play the role of authoritative server, recursive resolver, DNS forwarder, or the three at a time.</p>
 <p>On CLUB1, BIND is both an authoritative server and a recursive resolver for the local network. — <a class="reference external" href="https://en.wikipedia.org/wiki/BIND">Wikipedia</a>, <a class="reference external" href="https://gitlab.isc.org/isc-projects/bind9">Sources</a></p>
 </dd></dl>
 
@@ -235,7 +265,7 @@ By replacing GROUP with the desired group. Example: members sudo or members home
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-29-g3d15
+		v: 2024-07-29-g98db
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
