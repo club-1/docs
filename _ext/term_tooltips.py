@@ -1,13 +1,47 @@
 import re
+from docutils import nodes, writers
+from docutils.io import StringOutput
 from sphinx import addnodes
 from sphinx.application import Sphinx
+from sphinx.builders.dummy import DummyBuilder
 from sphinx.domains.std import StandardDomain
+from sphinx.util.docutils import new_document
 from sphinx.writers.html5 import HTML5Translator
+from sphinx.writers.text import TextTranslator, TextWriter
 from sphinx.transforms.post_transforms import SphinxPostTransform
+from sphinx.locale import _
 from sphinx.util import logging
-from docutils import nodes
 
-from typing import Callable, Optional, Tuple
+from typing import Optional, Tuple
+
+class TooltipTranslator(TextTranslator):
+    def visit_table(self, node: nodes.Element) -> None:
+        title = next(node.findall(nodes.title), None)
+        caption = _('Table: %s') % title.astext() if title else _('Table')
+        self.add_text('[%s]' % caption)
+        raise nodes.SkipNode
+
+    def new_state(self, indent: int = 0) -> None:
+        """Override new_state() to disable indentation by default."""
+        super().new_state(indent)
+
+    def visit_emphasis(self, node: nodes.Element) -> None:
+        pass
+
+    def depart_emphasis(self, node: nodes.Element) -> None:
+        pass
+
+    def visit_inline(self, node: nodes.Element) -> None:
+        if 'xref' in node['classes'] or 'term' in node['classes']:
+            self.add_text('[')
+
+    def depart_inline(self, node: nodes.Element) -> None:
+        if 'xref' in node['classes'] or 'term' in node['classes']:
+            self.add_text(']')
+
+
+class TooltipBuilder(DummyBuilder):
+    default_translator_class = TooltipTranslator
 
 
 class TermTooltips(SphinxPostTransform):
@@ -15,9 +49,12 @@ class TermTooltips(SphinxPostTransform):
     logger = logging.getLogger('term_tooltips')
     start_after: Optional[str]
     end_before: Optional[str]
-    single_newlines = re.compile('(?<!\n)\n(?!\n)')
-    too_much_newlines = re.compile('\n{3,}')
     stddomain: StandardDomain
+    writer: writers.Writer
+
+    def __init__(self, document: nodes.document, startnode: nodes.Node | None = None):
+        super().__init__(document, startnode)
+        self.writer = TextWriter(TooltipBuilder(self.app, self.env)) # type: ignore
 
     def run(self) -> None:
         if self.app.builder.format != 'html':
@@ -76,9 +113,11 @@ class TermTooltips(SphinxPostTransform):
         assert isinstance(parent, nodes.Element), f'parent {parent} is not an Element !?'
         index = parent.first_child_matching_class(definition_node_type)
         assert index is not None, f'element {targetnode} has no definition !?'
-        deftext = parent[index].astext()
-        deftext = self.single_newlines.sub(' ', deftext)
-        deftext = self.too_much_newlines.sub('\n\n', deftext)
+        tmpdoc = new_document(document.settings)
+        tmpdoc += parent[index]
+        destination = StringOutput(encoding='unicode')
+        self.writer.write(tmpdoc, destination)
+        deftext: str = destination.destination.strip() # type: ignore
         if self.start_after != None:
             deftext = deftext.split(self.start_after, 1)[-1].lstrip()
         if self.end_before != None:
