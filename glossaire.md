@@ -165,9 +165,12 @@ permissions
    Dans un système {term}`POSIX`, il est possible d'attribuer des permissions aux fichiers et aux dossiers.
    Elles permettent d'accorder ou non des droits à des utilisateurs ou a des {term}`groupes <groupe>`
    sur ces fichiers et dossiers.
-   Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x) :
 
-   ```{table} Tableau récapitulatif des permisions
+   Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x).
+   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
+   soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
+
+   ```{table} Récapitulatif des permisions
    ---
    class: white-space-wrap
    ---
@@ -178,11 +181,8 @@ permissions
    | `x`   | Exécuter ce fichier            | Traverser ce dossier                           |
    ```
 
-   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier (u),
-   soit au membres du _groupe_ du fichier/dossier (g), soit aux _autres_ utilisateurs (o).
-
    Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
-   Dans l'example suivant, on voit que pour le fichier `/etc/shadow`,
+   Dans l'example suivant, on voit que pour le fichier {file}`/etc/shadow`,
    l'utilisateur `root` a les droits `rw-`,
    les membres du {term}`groupe` `shadow` ont les droits `r--`,
    et les autres `---`, soit aucun droits :
