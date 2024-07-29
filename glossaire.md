@@ -15,10 +15,10 @@ adresse IP
    permet d'acheminer des données entre un ordinateur source et sa destination.
    Il a besoin pour cela d'adresses IP afin d'identifier ces deux ordinateurs.
 
-   Actuellement, deux version d'adresses IP sont utilisées :
+   Actuellement, deux versions d'adresses IP sont utilisées :
    La version 4 qui s'écrit sous la forme de nombres séparés par des points
    (ex : `87.91.4.64` pour le serveur de CLUB1).
-   Et la version 6 qui utilise des nombre beaucoup plus grands et qui s'écrit en hexadécimal
+   Et la version 6 qui utilise des nombres beaucoup plus grands et qui s'écrit en hexadécimal
    (ex : `2001:861:38c4:18a0::3` pour le serveur de CLUB1).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Adresse_IP)
 
@@ -30,13 +30,13 @@ alias
     --- [Wiktionnaire](https://fr.wiktionary.org/wiki/alias)
 
 API
-   De l'anglais _Application Programming Interface_.
+   (_Application Programming Interface_)
    Interface destinée à être utilisée non pas par un être humain mais par un logiciel.
    Elle est en général composée d'un ensemble de fonctions qu'un logiciel peut utiliser à distance. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation)
 
 CLI
-   De L'anglais _Command Line Interface_.
+   (_Command Line Interface_)
    Interface en ligne de commande, basée sur un affichage textuel.
    Elle s'utilise par l'intermédiaire d'une fenêtre de {term}`terminal`.
    La CLI est très intéressante car elle peut aussi bien être utilisée par des humain&middot;e&middot;s que par des logiciels.
@@ -74,12 +74,12 @@ dossier caché
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)
 
 GitHub
-   Service web d'hébergement et de gestion de développement de logiciels,
+   Service {term}`Web` d'hébergement et de gestion de développement de logiciels,
    utilisant le logiciel de gestion de versions {logiciel}`Git`.
 
    ```{warning}
    Contrairement à la plupart des projets que l'on peut y trouver,
-   Github n'est ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à Microsoft.
+   GitHub n'est ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à Microsoft.
    ```
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
@@ -170,7 +170,7 @@ PHP
    --- [Wikipedia](https://fr.wikipedia.org/wiki/PHP)
 
 POSIX
-   (_Portable Operating System Interface_) ensemble de normes techniques qui spécifient une interface,
+   (_Portable Operating System Interface_) Ensemble de normes techniques qui spécifient une interface,
    permettant aux systèmes d'exploitation qui la respectent d'être interchangeables,
    du point de vue d'un logiciel utilisateur.
 
@@ -186,7 +186,7 @@ protocole
 
 registraire
    Registraire de {term}`nom de domaine`.
-   Société ou une association gérant la réservation de nom de domaine {term}`Internet`.
+   Société ou association gérant la réservation de nom de domaine {term}`Internet`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)
 
 réseau informatique
