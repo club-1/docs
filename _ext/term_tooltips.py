@@ -39,6 +39,9 @@ class TooltipTranslator(TextTranslator):
         if 'xref' in node['classes'] or 'term' in node['classes']:
             self.add_text(']')
 
+    def visit_literal_block(self, node: nodes.Element) -> None:
+        self.new_state(indent=3)
+
 
 class TooltipBuilder(DummyBuilder):
     default_translator_class = TooltipTranslator
