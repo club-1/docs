@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -159,7 +159,11 @@
 <section id="sous-adresses">
 <h2>Subaddresses<a class="headerlink" href="#sous-adresses" title="Link to this heading">#</a></h2>
 <p>En plus de l’adresse principale, les membres ont la possibilité d’utiliser les sous-adresses.
-Les sous-adresses sont comme des <abbr title="Pseudonym, substitute name. Aliases allow multiple names to be given to the same entity. It is a concept frequently used in computer science. For example, we speak of an alias when we point several email addresses to the same inbox, or when we define a new name for a command."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr>.
+Les sous-adresses sont un peu comme des <abbr title="Pseudonym, substitute name. Aliases allow multiple names to be given
+to the same entity. It is a concept frequently used in computer
+science. For example, we speak of an alias when we point several email
+addresses to the same inbox, or when we define a new name for a
+command."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr>.
 Par défaut, elles redirigent vers l’adresse principale,
 mais les email reçus sont automatiquement déplacés vers le dossier correspondant, si il existe.
 Toutes les adresses de la forme <code class="docutils literal notranslate"><span class="pre">membre+[...]&#64;club1.fr</span></code> sont des sous-adresses de <code class="docutils literal notranslate"><span class="pre">membre&#64;club1.fr</span></code>.</p>
@@ -186,14 +190,21 @@ On utilise pour celà un fichier <code class="docutils literal notranslate"><spa
 </section>
 <section id="client-web">
 <h2>Web client<a class="headerlink" href="#client-web" title="Link to this heading">#</a></h2>
-<p>A <abbr title="Client accessible via the Web and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> provided by <abbr title="Web client allowing to consult and send emails via SMTP and IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr> is available at <a class="reference external" href="https://mail.club1.fr">https://mail.club1.fr</a>.</p>
+<p>A <abbr title="[Client] accessible via the [Web] and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> provided by <abbr title="[Web client] allowing to consult and send emails via SMTP and IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr> is available at <a class="reference external" href="https://mail.club1.fr">https://mail.club1.fr</a>.</p>
 <p>It allows you to manage and send emails as well as <a class="reference internal" href="#filtres-automatiques">configure filters</a> to automatically sort incoming emails.</p>
 <p>But it also allows access to CLUB1 <strong><span class="target" id="index-4">calendars</span></strong> and <strong><span class="target" id="index-5">address-books</span></strong> synchronized with <a class="reference internal" href="webdav.html"><span class="std std-doc">WebDAV</span></a>.</p>
 </section>
 <section id="stockage-des-donnees">
 <h2>Data storage<a class="headerlink" href="#stockage-des-donnees" title="Link to this heading">#</a></h2>
-<p>All email data is stored as files in the <code class="docutils literal notranslate"><span class="pre">mail</span></code> folder of your <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc"><em>personal space</em></span></a>. This folder respects the <a class="reference external" href="https://en.wikipedia.org/wiki/Maildir">Maildir</a> standard, so it is possible to access it directly from an email <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> supporting this standard, for example after making a backup of the folder on a personal computer.</p>
-<p>On the server, the <abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> client <abbr title="CLI email client allowing you to send and consult your emails directly from a terminal. It is installed and pre-configured on the CLUB1 server."><a class="reference internal" href="#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr> is preconfigured to consult this folder by default. To use it, you must start by connecting in <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> to the CLUB1 server then run the following command:</p>
+<p>All email data is stored as files in the <code class="docutils literal notranslate"><span class="pre">mail</span></code> folder of your <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc"><em>personal space</em></span></a>. This folder respects the <a class="reference external" href="https://en.wikipedia.org/wiki/Maildir">Maildir</a> standard, so it is possible to access it directly from an email <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> supporting this standard, for example after making a backup of the folder on a personal computer.</p>
+<p>On the server, the <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> client <abbr title="[CLI] email [client] allowing you to send and consult your emails
+directly from a [terminal]. It is installed and pre-configured on the
+CLUB1 server."><a class="reference internal" href="#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr> is preconfigured to consult this folder by default. To use it, you must start by connecting in <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> to the CLUB1 server then run the following command:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mutt
 </pre></div>
 </div>
@@ -224,12 +235,16 @@ On utilise pour celà un fichier <code class="docutils literal notranslate"><spa
 </section>
 <section id="transferts-automatiques">
 <h3>Automatic forwarding<a class="headerlink" href="#transferts-automatiques" title="Link to this heading">#</a></h3>
-<p>It is possible to automatically forward the emails you receive to your CLUB1 address to one or more other addresses of your choice. To do this, you must create a file in your <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc">personal space</span></a> that will tell <abbr title="SMTP server used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to whom to forward your incoming mail. This file should be placed directly in your folder and be called <code class="docutils literal notranslate"><span class="pre">.forward</span></code>.</p>
+<p>It is possible to automatically forward the emails you receive to your CLUB1 address to one or more other addresses of your choice. To do this, you must create a file in your <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc">personal space</span></a> that will tell <abbr title="SMTP [server] used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to whom to forward your incoming mail. This file should be placed directly in your folder and be called <code class="docutils literal notranslate"><span class="pre">.forward</span></code>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p><code class="docutils literal notranslate"><span class="pre">.forward</span></code> is a <abbr title="In most operating systems, it is possible to hide files or folders. This is often used to hide parameters that are not very useful in everyday life. In a POSIX system, hidden files begin with a dot ..
+<p><code class="docutils literal notranslate"><span class="pre">.forward</span></code> is a <abbr title="In most operating systems, it is possible to hide files or folders.
+This is often used to hide parameters that are not very useful in
+everyday life. In a [POSIX] system, hidden files begin with a dot &quot;.&quot;.
 
-In file explorers they may be hidden by default. It is possible to activate their display if necessary, often with the keyboard shortcut Ctrl + H."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">hidden file</span></a></abbr>.</p>
+In file explorers they may be hidden by default. It is possible to
+activate their display if necessary, often with the keyboard shortcut
+&quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">hidden file</span></a></abbr>.</p>
 </div>
 <p>Inside this file, all you have to do is list all the addresses to which you want to redirect the emails, separating them with a line break.</p>
 <p>Example of <code class="docutils literal notranslate"><span class="pre">.forward</span></code> file forwarding to two email addresses:</p>
@@ -249,7 +264,12 @@ unautremail@cool.fr
 </section>
 <section id="filtres-automatiques">
 <h3>Automatic filters<a class="headerlink" href="#filtres-automatiques" title="Link to this heading">#</a></h3>
-<p>Sieve filters allow you to automatically sort the emails you receive. These filters are applied on the <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> side and therefore do not depend on any <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>. However, each user must configure them himself.</p>
+<p>Sieve filters allow you to automatically sort the emails you receive. These filters are applied on the <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> side and therefore do not depend on any <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>. However, each user must configure them himself.</p>
 <p>There are two ways to edit them. The easiest way is to use the <a class="reference internal" href="#client-web">CLUB1 Roundcube web client</a>. It has a filter management interface in its settings.</p>
 <p>The second method is to directly edit the filter file in your <strong>personal space</strong>:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>~/.dovecot.sieve
@@ -259,7 +279,9 @@ unautremail@cool.fr
 </section>
 <section id="informations-de-connexion">
 <h2>Connection information<a class="headerlink" href="#informations-de-connexion" title="Link to this heading">#</a></h2>
-<p>Connecting an email <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> to a CLUB1 address requires configuring multiple servers.</p>
+<p>Connecting an email <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> to a CLUB1 address requires configuring multiple servers.</p>
 <section id="serveur-d-envoi-smtp">
 <h3>Outgoing email server (SMTP)<a class="headerlink" href="#serveur-d-envoi-smtp" title="Link to this heading">#</a></h3>
 <table class="docutils align-default">
@@ -308,43 +330,61 @@ unautremail@cool.fr
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Postfix">
 <span class="sig-name descname"><span class="pre">Postfix</span></span><a class="headerlink" href="#logiciel-Postfix" title="Link to this definition">#</a></dt>
-<dd><p>SMTP <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used for email transmission. — <a class="reference external" href="https://en.wikipedia.org/wiki/Postfix_(software)">Wikipedia</a>, <a class="reference external" href="https://github.com/vdukhovni/postfix">Sources</a></p>
+<dd><p>SMTP <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used for email transmission. — <a class="reference external" href="https://en.wikipedia.org/wiki/Postfix_(software)">Wikipedia</a>, <a class="reference external" href="https://github.com/vdukhovni/postfix">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Dovecot">
 <span class="sig-name descname"><span class="pre">Dovecot</span></span><a class="headerlink" href="#logiciel-Dovecot" title="Link to this definition">#</a></dt>
-<dd><p>IMAP <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used for managing mailboxes. — <a class="reference external" href="https://en.wikipedia.org/wiki/Dovecot_(software)">Wikipedia</a>, <a class="reference external" href="https://github.com/dovecot/core">Sources</a></p>
+<dd><p>IMAP <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used for managing mailboxes. — <a class="reference external" href="https://en.wikipedia.org/wiki/Dovecot_(software)">Wikipedia</a>, <a class="reference external" href="https://github.com/dovecot/core">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Pigeonhole">
 <span class="sig-name descname"><span class="pre">Pigeonhole</span></span><a class="headerlink" href="#logiciel-Pigeonhole" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="IMAP server used for managing mailboxes."><a class="reference internal" href="#logiciel-Dovecot"><span class="xref std std-logiciel">Dovecot</span></a></abbr> extension for Sieve and ManageSieve, allowing to configure automatic filters on the <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> side. These filters can be edited from <abbr title="Web client allowing to consult and send emails via SMTP and IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr>. — <a class="reference external" href="https://pigeonhole.dovecot.org/">Website</a>, <a class="reference external" href="https://github.com/dovecot/pigeonhole">Sources</a></p>
+<dd><p><abbr title="IMAP [server] used for managing mailboxes."><a class="reference internal" href="#logiciel-Dovecot"><span class="xref std std-logiciel">Dovecot</span></a></abbr> extension for Sieve and ManageSieve, allowing to configure automatic filters on the <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> side. These filters can be edited from <abbr title="[Web client] allowing to consult and send emails via SMTP and IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr>. — <a class="reference external" href="https://pigeonhole.dovecot.org/">Website</a>, <a class="reference external" href="https://github.com/dovecot/pigeonhole">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-SPF-Engine">
 <span class="sig-name descname"><span class="pre">SPF-Engine</span></span><a class="headerlink" href="#logiciel-SPF-Engine" title="Link to this definition">#</a></dt>
-<dd><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF (<em>Sender Policy Framework</em>)</a> processing <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used by <abbr title="SMTP server used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to verify the origin of incoming emails. — <a class="reference external" href="https://launchpad.net/spf-engine">Source</a></p>
+<dd><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF (<em>Sender Policy Framework</em>)</a> processing <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> used by <abbr title="SMTP [server] used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to verify the origin of incoming emails. — <a class="reference external" href="https://launchpad.net/spf-engine">Source</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-PostSRSd">
 <span class="sig-name descname"><span class="pre">PostSRSd</span></span><a class="headerlink" href="#logiciel-PostSRSd" title="Link to this definition">#</a></dt>
-<dd><p>SRS (<em>Sender Rewriting Scheme</em>) processing <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> allowing <abbr title="SMTP server used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to forward emails while remaining compatible with SPF. — <a class="reference external" href="https://github.com/roehling/postsrsd">Sources</a></p>
+<dd><p>SRS (<em>Sender Rewriting Scheme</em>) processing <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> allowing <abbr title="SMTP [server] used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to forward emails while remaining compatible with SPF. — <a class="reference external" href="https://github.com/roehling/postsrsd">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-OpenDKIM">
 <span class="sig-name descname"><span class="pre">OpenDKIM</span></span><a class="headerlink" href="#logiciel-OpenDKIM" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Server</span></a></abbr> providing a <em>milter</em> filter used by <abbr title="SMTP server used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to sign outgoing emails. — <a class="reference external" href="http://www.opendkim.org/">Website</a>, <a class="reference external" href="https://github.com/trusteddomainproject/OpenDKIM">Sources</a></p>
+<dd><p><abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Server</span></a></abbr> providing a <em>milter</em> filter used by <abbr title="SMTP [server] used for email transmission."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> to sign outgoing emails. — <a class="reference external" href="http://www.opendkim.org/">Website</a>, <a class="reference external" href="https://github.com/trusteddomainproject/OpenDKIM">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Roundcube">
 <span class="sig-name descname"><span class="pre">Roundcube</span></span><a class="headerlink" href="#logiciel-Roundcube" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="Client accessible via the Web and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> allowing to consult and send emails via SMTP and IMAP. — <a class="reference external" href="https://en.wikipedia.org/wiki/Roundcube">Wikipedia</a>, <a class="reference external" href="https://github.com/roundcube/roundcubemail">Sources</a></p>
+<dd><p><abbr title="[Client] accessible via the [Web] and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> allowing to consult and send emails via SMTP and IMAP. — <a class="reference external" href="https://en.wikipedia.org/wiki/Roundcube">Wikipedia</a>, <a class="reference external" href="https://github.com/roundcube/roundcubemail">Sources</a></p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <p>The <a class="reference internal" href="#client-web"><span class="std std-ref">Client Web</span></a> section</p>
@@ -354,9 +394,19 @@ unautremail@cool.fr
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Mutt">
 <span class="sig-name descname"><span class="pre">Mutt</span></span><a class="headerlink" href="#logiciel-Mutt" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="Command Line Interface, an interface in command line, based on a textual display. It is used through a terminal window. The CLI is very interesting because it can be used by humans as well as by software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> email <abbr title="Piece of software that accesses a service made available by a server. It usually has a graphical interface, intended to be used directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> allowing you to send and consult your emails directly from a <abbr title="In computing, a terminal was originally a device consisting of a monitor and a keyboard, allowing a human to interact with a remote shared computer. It offered a textual interface, making it possible to enter commands and read the result.
+<dd><p><abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> email <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> allowing you to send and consult your emails directly from a <abbr title="In computing, a terminal was originally a device consisting of a
+monitor and a keyboard, allowing a human to interact with a remote
+shared computer. It offered a textual interface, making it possible to
+enter commands and read the result.
 
-Nowadays, the word “terminal” is often used as a shorthand for a “terminal emulator”. This is a software that recreates the command line interface (CLI) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>. It is installed and pre-configured on the CLUB1 server. — <a class="reference external" href="https://en.wikipedia.org/wiki/Mutt_(email_client)">Wikipedia</a>, <a class="reference external" href="https://gitlab.com/muttmua/mutt">Sources</a></p>
+Nowadays, the word “terminal” is often used as a shorthand for a
+“terminal emulator”. This is a software that recreates the command
+line interface ([CLI]) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>. It is installed and pre-configured on the CLUB1 server. — <a class="reference external" href="https://en.wikipedia.org/wiki/Mutt_(email_client)">Wikipedia</a>, <a class="reference external" href="https://gitlab.com/muttmua/mutt">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -390,7 +440,7 @@ Nowadays, the word “terminal” is often used as a shorthand for a “terminal
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

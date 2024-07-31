@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -143,13 +143,31 @@
   <section id="transfert-de-fichiers-ftps">
 <h1>FTPS files transfer<a class="headerlink" href="#transfert-de-fichiers-ftps" title="Link to this heading">#</a></h1>
 <dl class="simple glossary">
-<dt id="term-FTP">FTP<a class="headerlink" href="#term-FTP" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol</em>) Protocol that allows to copy files from one computer to another across a <abbr title="Set of computers linked together in order for them to exchange data."><a class="reference internal" href="../glossaire.html#term-reseau-informatique"><span class="xref std std-term">computer network</span></a></abbr>, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr>: <abbr title="(File Transfer Protocol Secure) Secure variant of FTP, based on TLS. All data exchanges carried out are therefore encrypted. FTPS offers two modes of operation: explicit and implicit. The implicit mode is more secure because the connection is encrypted from the first exchange."><a class="reference internal" href="#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">Wikipedia</a></p>
+<dt id="term-FTP">FTP<a class="headerlink" href="#term-FTP" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol</em>) Protocol that allows to copy files from one computer to another across a <abbr title="Set of computers linked together in order for them to exchange data."><a class="reference internal" href="../glossaire.html#term-reseau-informatique"><span class="xref std std-term">computer network</span></a></abbr>, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this <abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr>: <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+[TLS]. All data exchanges carried out are therefore encrypted. FTPS
+offers two modes of operation: explicit and implicit. The implicit
+mode is more secure because the connection is encrypted from the first
+exchange."><a class="reference internal" href="#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">Wikipedia</a></p>
 </dd>
-<dt id="term-FTPS">FTPS<a class="headerlink" href="#term-FTPS" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol Secure</em>) Secure variant of <abbr title="(File Transfer Protocol) Protocol that allows to copy files from one computer to another across a computer network, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this protocol: FTPS."><a class="reference internal" href="#term-FTP"><span class="xref std std-term">FTP</span></a></abbr>, based on <abbr title="(Transport Layer Security) Protocol used to secure exchanges in a computer network. One of its main features is to encrypt all data exchanged between the client and the server, so that no one else can read its content."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr>. All data exchanges carried out are therefore encrypted. FTPS offers two modes of operation: <em>explicit</em> and <em>implicit</em>. The <em>implicit</em> mode is more secure because the connection is encrypted from the first exchange. — <a class="reference external" href="https://en.wikipedia.org/wiki/FTPS">Wikipedia</a></p>
+<dt id="term-FTPS">FTPS<a class="headerlink" href="#term-FTPS" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol Secure</em>) Secure variant of <abbr title="(File Transfer Protocol) Protocol that allows to copy files from one
+computer to another across a [computer network], or to move or delete
+files on a remote computer. Server CLUB1 uses the secure variant of
+this [protocol]: [FTPS]."><a class="reference internal" href="#term-FTP"><span class="xref std std-term">FTP</span></a></abbr>, based on <abbr title="(Transport Layer Security) Protocol used to secure exchanges in a
+[computer network]. One of its main features is to encrypt all data
+exchanged between the [client] and the [server], so that no one else
+can read its content."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr>. All data exchanges carried out are therefore encrypted. FTPS offers two modes of operation: <em>explicit</em> and <em>implicit</em>. The <em>implicit</em> mode is more secure because the connection is encrypted from the first exchange. — <a class="reference external" href="https://en.wikipedia.org/wiki/FTPS">Wikipedia</a></p>
 </dd>
 </dl>
-<p>Although <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> can also be used for this purpose, <abbr title="(File Transfer Protocol Secure) Secure variant of FTP, based on TLS. All data exchanges carried out are therefore encrypted. FTPS offers two modes of operation: explicit and implicit. The implicit mode is more secure because the connection is encrypted from the first exchange."><a class="reference internal" href="#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr> can be useful to transfer a large amount of files from and to the CLUB1 server.</p>
-<p>The FTP <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr> gives access to your <strong>personal space</strong> thanks to software like <a class="reference external" href="https://filezilla-project.org/download.php?type=client">FileZilla</a> (warning: the Windows installer includes bundlewares).</p>
+<p>Although <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> can also be used for this purpose, <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+[TLS]. All data exchanges carried out are therefore encrypted. FTPS
+offers two modes of operation: explicit and implicit. The implicit
+mode is more secure because the connection is encrypted from the first
+exchange."><a class="reference internal" href="#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr> can be useful to transfer a large amount of files from and to the CLUB1 server.</p>
+<p>The FTP <abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr> gives access to your <strong>personal space</strong> thanks to software like <a class="reference external" href="https://filezilla-project.org/download.php?type=client">FileZilla</a> (warning: the Windows installer includes bundlewares).</p>
 <section id="securite">
 <h2>Security<a class="headerlink" href="#securite" title="Link to this heading">#</a></h2>
 <p>The FTP server is configured to only accept encrypted TLS connections. This is to avoid passwords beeing sent in cleartext. This feature is referred to as <a class="reference external" href="https://en.wikipedia.org/wiki/FTPS#Implicit">FTPS (FTP over implicit TLS)</a>.</p>
@@ -184,7 +202,13 @@
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-ProFTPD">
 <span class="sig-name descname"><span class="pre">ProFTPD</span></span><a class="headerlink" href="#logiciel-ProFTPD" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="(File Transfer Protocol) Protocol that allows to copy files from one computer to another across a computer network, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this protocol: FTPS."><a class="reference internal" href="#term-FTP"><span class="xref std std-term">FTP</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/ProFTPd">Wikipedia</a>, <a class="reference external" href="https://github.com/proftpd/proftpd">Sources</a></p>
+<dd><p><abbr title="(File Transfer Protocol) Protocol that allows to copy files from one
+computer to another across a [computer network], or to move or delete
+files on a remote computer. Server CLUB1 uses the secure variant of
+this [protocol]: [FTPS]."><a class="reference internal" href="#term-FTP"><span class="xref std std-term">FTP</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/ProFTPd">Wikipedia</a>, <a class="reference external" href="https://github.com/proftpd/proftpd">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -218,7 +242,7 @@
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

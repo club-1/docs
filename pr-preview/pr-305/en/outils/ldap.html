@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -142,16 +142,22 @@
   <section id="annuaire-ldap">
 <h1>LDAP directory<a class="headerlink" href="#annuaire-ldap" title="Link to this heading">#</a></h1>
 <dl class="glossary">
-<dt id="term-LDAP">LDAP<a class="headerlink" href="#term-LDAP" title="Link to this term">#</a></dt><dd><p>(Lightweight Directory Access Protocol) Directory service <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocol</span></a></abbr> describing both a data model and how to query and modify this data.</p>
+<dt id="term-LDAP">LDAP<a class="headerlink" href="#term-LDAP" title="Link to this term">#</a></dt><dd><p>(Lightweight Directory Access Protocol) Directory service <abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocol</span></a></abbr> describing both a data model and how to query and modify this data.</p>
 <p>A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.</p>
 <p>The data schema is not fixed, so you need to know it before you can interact with a LDAP directory.</p>
 </dd>
 </dl>
-<p>CLUB1 uses a <abbr title="(Lightweight Directory Access Protocol) Directory service Protocol describing both a data model and how to query and modify this data.
+<p>CLUB1 uses a <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
 
-A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
 
-The data schema is not fixed, so you need to know it before you can interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory to store its member accounts centrally. This allows to share the login credentials between the different <a class="reference internal" href="../services-membres.html"><span class="std std-doc">member services</span></a>.</p>
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory to store its member accounts centrally. This allows to share the login credentials between the different <a class="reference internal" href="../services-membres.html"><span class="std std-doc">member services</span></a>.</p>
 <section id="details-de-configuration">
 <h2>Configuration details<a class="headerlink" href="#details-de-configuration" title="Link to this heading">#</a></h2>
 <p>This section describes the specificities of the CLUB1 configuration.</p>
@@ -197,21 +203,37 @@ The data schema is not fixed, so you need to know it before you can interact wit
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-slapd">
 <span class="sig-name descname"><span class="pre">slapd</span></span><a class="headerlink" href="#logiciel-slapd" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="(Lightweight Directory Access Protocol) Directory service Protocol describing both a data model and how to query and modify this data.
+<dd><p><abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
 
-A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
 
-The data schema is not fixed, so you need to know it before you can interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> part of the OpenLDAP project, a <abbr title="Refers to software that respects the freedom of users. In particular, users have the freedom to run, copy, study, modify and improve these software, and especially to reshare, modified or not."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">free</span></a></abbr> implementation of the LDAP protocol. — <a class="reference external" href="https://en.wikipedia.org/wiki/OpenLDAP">Wikipedia</a>, <a class="reference external" href="https://git.openldap.org/openldap/openldap">Sources</a></p>
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> part of the OpenLDAP project, a <abbr title="Refers to software that respects the freedom of users. In particular,
+users have the freedom to run, copy, study, modify and improve these
+software, and especially to reshare, modified or not."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">free</span></a></abbr> implementation of the LDAP protocol. — <a class="reference external" href="https://en.wikipedia.org/wiki/OpenLDAP">Wikipedia</a>, <a class="reference external" href="https://git.openldap.org/openldap/openldap">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-nss-pam-ldapd">
 <span class="sig-name descname"><span class="pre">nss-pam-ldapd</span></span><a class="headerlink" href="#logiciel-nss-pam-ldapd" title="Link to this definition">#</a></dt>
-<dd><p>Package providing a <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> (nslcd) to connect the <abbr title="(Lightweight Directory Access Protocol) Directory service Protocol describing both a data model and how to query and modify this data.
+<dd><p>Package providing a <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> (nslcd) to connect the <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
 
-A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
 
-The data schema is not fixed, so you need to know it before you can interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory to the system’s services. More specifically, the authentication module (PAM) and the data source management service (NSS). — <a class="reference external" href="https://arthurdejong.org/nss-pam-ldapd/">Site</a>, <a class="reference external" href="https://arthurdejong.org/git/nss-pam-ldapd/">Sources</a></p>
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory to the system’s services. More specifically, the authentication module (PAM) and the data source management service (NSS). — <a class="reference external" href="https://arthurdejong.org/nss-pam-ldapd/">Site</a>, <a class="reference external" href="https://arthurdejong.org/git/nss-pam-ldapd/">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -245,7 +267,7 @@ The data schema is not fixed, so you need to know it before you can interact wit
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

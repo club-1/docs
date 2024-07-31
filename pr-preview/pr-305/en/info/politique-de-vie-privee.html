@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,26 +144,49 @@
 <section id="politique-de-securite">
 <h2>Security policy<a class="headerlink" href="#politique-de-securite" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>⚠️ Member data on the server <strong>is not encrypted</strong>. They are therefore readable by administrators (<code class="docutils literal notranslate"><span class="pre">root</span></code> user and members of the <code class="docutils literal notranslate"><span class="pre">sudo</span></code> <abbr title="In a POSIX system, groups are used to gather users in order to assign them common rights. A user belongs to one or more groups.
+<li><p>⚠️ Member data on the server <strong>is not encrypted</strong>. They are therefore readable by administrators (<code class="docutils literal notranslate"><span class="pre">root</span></code> user and members of the <code class="docutils literal notranslate"><span class="pre">sudo</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
 
-It is possible to find out who is a member of a group on the server from an SSH access with the following command:
+Tip:
 
-members GROUP
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
 
-By replacing GROUP with the desired group. Example: members sudo or members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>).</p></li>
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>).</p></li>
 <li><p>The <a class="reference internal" href="../outils/sauvegardes.html"><span class="std std-doc">backups</span></a> are encrypted.</p></li>
-<li><p>The <abbr title="In the context of computing, a protocol is a set of rules that govern the exchange of data or the collective behavior of processes or computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr> used to connect to the server are all encrypted, so passwords and data cannot be intercepted.</p></li>
-<li><p>Personal data is protected by <abbr title="(Portable Operating System Interface) set of technical standards that specify an interface, allowing operating systems that respect it to be interchangeable from the point of view of a user software.
+<li><p>The <abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr> used to connect to the server are all encrypted, so passwords and data cannot be intercepted.</p></li>
+<li><p>Personal data is protected by <abbr title="(Portable Operating System Interface) Ensemble de normes techniques
+qui spécifient une interface, permettant aux systèmes d’exploitation
+qui la respectent d’être interchangeables, du point de vue d’un
+logiciel utilisateur.
 
-Linux, macOS and many other systems respect this interface, unlike Windows."><a class="reference internal" href="../glossaire.html#term-POSIX"><span class="xref std std-term">POSIX</span></a></abbr> permissions. By default, the <a class="reference internal" href="espace-personnel.html"><span class="std std-doc">personal space</span></a> is not accessible by other users (except for reading by members of the <code class="docutils literal notranslate"><span class="pre">home</span></code> <abbr title="In a POSIX system, groups are used to gather users in order to assign them common rights. A user belongs to one or more groups.
+[Linux], macOS and many other systems respect this interface, unlike
+Windows."><a class="reference internal" href="../glossaire.html#term-POSIX"><span class="xref std std-term">POSIX</span></a></abbr> permissions. By default, the <a class="reference internal" href="espace-personnel.html"><span class="std std-doc">personal space</span></a> is not accessible by other users (except for reading by members of the <code class="docutils literal notranslate"><span class="pre">home</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
 
-It is possible to find out who is a member of a group on the server from an SSH access with the following command:
+Tip:
 
-members GROUP
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
 
-By replacing GROUP with the desired group. Example: members sudo or members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>, e.g. the <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+     members GROUP
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>). Everyone is free to change the permissions of their personal space.</p></li>
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>, e.g. the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>). Everyone is free to change the permissions of their personal space.</p></li>
 </ul>
 </section>
 <section id="engagements-des-administrateurs-systemes">
@@ -171,7 +194,10 @@ A “Web page” usually consists of a document whose content is written in HTML
 <p>System administrators agree to respect the following points:</p>
 <ul class="simple">
 <li><p>Not to access user data (personal space and databases) without their consent, except in case of restoration following a technical problem, in which case the users concerned will be notified.</p></li>
-<li><p>Encryption of <abbr title="(Secure SHell) Protocol allowing to connect remotely in CLI to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like SFTP or SCP."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> keys.</p></li>
+<li><p>Encryption of <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
+server. Its main advantages are being fully encrypted and providing
+full access to server functionality. There are SSH extensions for more
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> keys.</p></li>
 <li><p>Application of security best practices (replacement of default passwords, strong generated passwords, etc.).</p></li>
 </ul>
 </section>
@@ -205,7 +231,7 @@ A “Web page” usually consists of a document whose content is written in HTML
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

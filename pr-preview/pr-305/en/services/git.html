@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -151,11 +151,16 @@
 <p>This address allows 2 things:</p>
 <ol class="arabic simple">
 <li><p>Clone the Git repository using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> thanks to <a class="reference external" href="https://git-scm.com/docs/git-http-backend">git-http-backend</a>.</p></li>
-<li><p>Quickly browse the sources and repository data in a web browser thanks to the <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<li><p>Quickly browse the sources and repository data in a web browser thanks to the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface <abbr title="Web interface allowing to consult the information of a Git repository.
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface <abbr title="[Web] interface allowing to consult the information of a [Git]
+repository.
 
-At CLUB1, cgit is accessible through the HTTP server Apache."><a class="reference internal" href="#logiciel-cgit"><span class="xref std std-logiciel">cgit</span></a></abbr>.</p></li>
+At CLUB1, cgit is accessible through the HTTP [server] [Apache]."><a class="reference internal" href="#logiciel-cgit"><span class="xref std std-logiciel">cgit</span></a></abbr>.</p></li>
 </ol>
 <section id="tutoriel-d-utilisation">
 <h2>Usage tutorial<a class="headerlink" href="#tutoriel-d-utilisation" title="Link to this heading">#</a></h2>
@@ -163,9 +168,13 @@ At CLUB1, cgit is accessible through the HTTP server Apache."><a class="referenc
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr git init --bare git/REPO
 </pre></div>
 </div>
-<p>From now on, the repository is published with <em>read only</em> permissions at <code class="docutils literal notranslate"><span class="pre">https://git.club1.fr/USER/REPO</span></code>, but it is empty for now. The branch displayed by default in the <abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<p>From now on, the repository is published with <em>read only</em> permissions at <code class="docutils literal notranslate"><span class="pre">https://git.club1.fr/USER/REPO</span></code>, but it is empty for now. The branch displayed by default in the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface is <code class="docutils literal notranslate"><span class="pre">master</span></code>. It is possible to change it by modifying the <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> file of the repository. For instance, to replace it by the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch:</p>
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface is <code class="docutils literal notranslate"><span class="pre">master</span></code>. It is possible to change it by modifying the <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> file of the repository. For instance, to replace it by the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch:</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;ref: refs/heads/main&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>ssh<span class="w"> </span>USER@club1.fr<span class="w"> </span>sponge<span class="w"> </span>git/REPO/HEAD
 </pre></div>
 </div>
@@ -220,14 +229,23 @@ git<span class="w"> </span>push<span class="w"> </span>--set-upstream<span class
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-cgit">
 <span class="sig-name descname"><span class="pre">cgit</span></span><a class="headerlink" href="#logiciel-cgit" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<dd><p><abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface allowing to consult the information of a <abbr title="Distributed version control system software"><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> repository.</p>
-<p>At CLUB1, cgit is accessible through the HTTP <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> <abbr title="Very popular HTTP server, distributed under free license. HTTP being the protocol of the Web we also often speak of “Web server”.
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface allowing to consult the information of a <abbr title="Distributed version control system software"><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> repository.</p>
+<p>At CLUB1, cgit is accessible through the HTTP <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> <abbr title="Very popular HTTP [server], distributed under [free] license. HTTP
+being the [protocol] of the [Web] we also often speak of “Web server”.
 
-Apache is attractive for hosting personal web pages because it can be configured at runtime and by end users through .htaccess files.
+Apache is attractive for hosting personal web pages because it can be
+configured at runtime and by end users through &quot;.htaccess&quot; files.
 
-At CLUB1, the Apache server is behind the “reverse proxy” Nginx."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>. — <a class="reference external" href="https://git.zx2c4.com/cgit/">Source</a></p>
+At CLUB1, the Apache server is behind the “reverse proxy” [Nginx]."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>. — <a class="reference external" href="https://git.zx2c4.com/cgit/">Source</a></p>
 </dd></dl>
 
 </section>
@@ -261,7 +279,7 @@ At CLUB1, the Apache server is behind the “reverse proxy” Nginx."><a class="
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

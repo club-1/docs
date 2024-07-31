@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=aaeb69c2"></script>
+        <script src="../_static/documentation_options.js?v=742c2297"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -147,14 +147,24 @@
              
   <section id="gestion-des-alias-email">
 <h1>Gestion des alias email<a class="headerlink" href="#gestion-des-alias-email" title="Lien vers cette rubrique">#</a></h1>
-<p>Ce manuel est réservé aux utilisateurs faisant partie du <abbr title="Dans un système POSIX, les groupes servent à rassembler des utilisateurs afin de leur attribuer des droits communs. Un utilisateur appartient à un ou plusieurs groupes.
+<p>Ce manuel est réservé aux utilisateurs faisant partie du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
+utilisateurs afin de leur attribuer des droits communs. Un utilisateur
+appartient à un ou plusieurs groupes.
 
-Il est possible de savoir qui est membre d’un groupe sur le serveur depuis un accès SSH avec la commande suivante :
+Astuce:
 
-members GROUP
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la commande suivante :
 
-En remplaçant GROUP par le groupe voulu. Exemple : members sudo ou members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">aliases</span></code>.
-Il décrit les actions que peuvent accomplir ces utilisateurs sur les <abbr title="Pseudonyme, nom de substitution. Les alias permettent de donner plusieurs noms à la même entité. C’est un concept fréquemment utilisé en informatique. On parle par exemple d’alias lorsqu’on fait pointer plusieurs adresses email vers la même boîte de reception, ou lorsqu’on définit un nouveau nom pour une commande."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> emails.</p>
+     members GROUP
+
+  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
+  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">aliases</span></code>.
+Il décrit les actions que peuvent accomplir ces utilisateurs sur les <abbr title="Pseudonyme, nom de substitution. Les alias permettent de donner
+plusieurs noms à la même entité. C’est un concept fréquemment utilisé
+en informatique. On parle par exemple d’alias lorsqu’on fait pointer
+plusieurs adresses email vers la même boîte de reception, ou lorsqu’on
+définit un nouveau nom pour une commande."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> emails.</p>
 <section id="modifier-les-alias-de-reception">
 <h2>Modifier les alias de réception<a class="headerlink" href="#modifier-les-alias-de-reception" title="Lien vers cette rubrique">#</a></h2>
 <p>Ouvrir le fichier <code class="docutils literal notranslate"><span class="pre">/etc/aliases</span></code> avec votre éditeur de texte en CLI favori
@@ -218,13 +228,19 @@ elle permet de les envoyer vers des fichiers ou des commandes.
 Dans ce cas, il faut faire attention aux permissions requises
 pour créer les fichiers et exécuter les commandes.
 Ces actions sont réalisées avec les droits de l’utilisateur correspondant à l’alias s’il existe
-et sinon, sur CLUB1, avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">nobody</span></code> et le <abbr title="Dans un système POSIX, les groupes servent à rassembler des utilisateurs afin de leur attribuer des droits communs. Un utilisateur appartient à un ou plusieurs groupes.
+et sinon, sur CLUB1, avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">nobody</span></code> et le <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
+utilisateurs afin de leur attribuer des droits communs. Un utilisateur
+appartient à un ou plusieurs groupes.
 
-Il est possible de savoir qui est membre d’un groupe sur le serveur depuis un accès SSH avec la commande suivante :
+Astuce:
 
-members GROUP
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la commande suivante :
 
-En remplaçant GROUP par le groupe voulu. Exemple : members sudo ou members home."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">mail</span></code>.</p>
+     members GROUP
+
+  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
+  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">mail</span></code>.</p>
 <div class="admonition seealso">
 <p class="admonition-title">Voir aussi</p>
 <p>La <a class="reference external" href="https://manpages.debian.org/bullseye/postfix/local.8postfix.en.html#DELIVERY_RIGHTS">section « Delivery Rights » de la page local du manuel de Postfix</a>.</p>
@@ -260,7 +276,7 @@ En remplaçant GROUP par le groupe voulu. Exemple : members sudo ou members hom
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

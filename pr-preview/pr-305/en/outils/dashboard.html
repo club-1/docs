@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=226785c0"></script>
+        <script src="../_static/documentation_options.js?v=fca0ce95"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -140,35 +140,59 @@
   <section id="tableau-de-bord">
 <h1>Dashboard<a class="headerlink" href="#tableau-de-bord" title="Link to this heading">#</a></h1>
 <p><img alt="screenshot of the &quot;Baby Dashboard 😃&quot;" src="../_images/baby-dashboard.png" /></p>
-<p>The CLUB1 server has a member-accessible dashboard at <a class="reference external" href="https://dashboard.club1.fr">https://dashboard.club1.fr</a>. This is an <abbr title="Copy of software or a computer object having its own existence and state.
+<p>The CLUB1 server has a member-accessible dashboard at <a class="reference external" href="https://dashboard.club1.fr">https://dashboard.club1.fr</a>. This is an <abbr title="Copy of software or a computer object having its own existence and
+state.
 
-For example, we speak of an instance each time a software is executed with different data. On the CLUB1 server, there are notably several instances of PHP: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> of <abbr title="Time series database primarily designed for the monitoring of servers.
+For example, we speak of an instance each time a software is executed
+with different data. On the CLUB1 server, there are notably several
+instances of [PHP]: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> of <abbr title="Time series database primarily designed for the monitoring of
+[servers].
 
-Prometheus is responsible for collecting information at regular intervals on the various components we want to monitor. It keeps a history of these data (15 days at CLUB1) and allows them to be retrieved using queries."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>+<abbr title="Web dashboard software for displaying statistics and graphics and sending alerts from a time series database.
+Prometheus is responsible for collecting information at regular
+intervals on the various components we want to monitor. It keeps a
+history of these data (15 days at CLUB1) and allows them to be
+retrieved using queries."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>+<abbr title="[Web] dashboard software for displaying statistics and graphics and
+sending alerts from a time series database.
 
-It is able to connect to different data sources, with the most common, Prometheus being also the one used at CLUB1."><a class="reference internal" href="#logiciel-Grafana"><span class="xref std std-logiciel">Grafana</span></a></abbr>, connected to the <abbr title="(Lightweight Directory Access Protocol) Directory service Protocol describing both a data model and how to query and modify this data.
+It is able to connect to different data sources, with the most common,
+[Prometheus] being also the one used at CLUB1."><a class="reference internal" href="#logiciel-Grafana"><span class="xref std std-logiciel">Grafana</span></a></abbr>, connected to the <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
 
-A LDAP directory is a kind of database with a hierarchical, tree-like structure, allowing to link information to names. Generally, accounts or groups of users or computers belonging to an organization.
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
 
-The data schema is not fixed, so you need to know it before you can interact with a LDAP directory."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory.</p>
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> directory.</p>
 <section id="logiciels">
 <h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Prometheus">
 <span class="sig-name descname"><span class="pre">Prometheus</span></span><a class="headerlink" href="#logiciel-Prometheus" title="Link to this definition">#</a></dt>
-<dd><p>Time series database primarily designed for the monitoring of <abbr title="Software that provides a service. It holds the data and responds to requests from a client. Often, servers and clients are installed on different computers. By extension, the computer on which the servers are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">servers</span></a></abbr>.</p>
+<dd><p>Time series database primarily designed for the monitoring of <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">servers</span></a></abbr>.</p>
 <p>Prometheus is responsible for collecting information at regular intervals on the various components we want to monitor. It keeps a history of these data (15 days at CLUB1) and allows them to be retrieved using queries. — <a class="reference external" href="https://en.wikipedia.org/wiki/Prometheus_(software)">Wikipedia</a>, <a class="reference external" href="https://github.com/prometheus/prometheus">Sources</a></p>
 </dd></dl>
 
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Grafana">
 <span class="sig-name descname"><span class="pre">Grafana</span></span><a class="headerlink" href="#logiciel-Grafana" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="One of the best known services on Internet. Its full name is “World Wide Web” (also abbreviated “www”). It allows to publish documents and link them together using hypertext links.
+<dd><p><abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
 
-A “Web page” usually consists of a document whose content is written in HTML and may include other resources such as images or “style sheets”. The client used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> dashboard software for displaying statistics and graphics and sending alerts from a time series database.</p>
-<p>It is able to connect to different data sources, with the most common, <abbr title="Time series database primarily designed for the monitoring of servers.
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> dashboard software for displaying statistics and graphics and sending alerts from a time series database.</p>
+<p>It is able to connect to different data sources, with the most common, <abbr title="Time series database primarily designed for the monitoring of
+[servers].
 
-Prometheus is responsible for collecting information at regular intervals on the various components we want to monitor. It keeps a history of these data (15 days at CLUB1) and allows them to be retrieved using queries."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr> being also the one used at CLUB1. — <a class="reference external" href="https://en.wikipedia.org/wiki/Grafana">Wikipedia</a>, <a class="reference external" href="https://github.com/grafana/grafana">Sources</a></p>
+Prometheus is responsible for collecting information at regular
+intervals on the various components we want to monitor. It keeps a
+history of these data (15 days at CLUB1) and allows them to be
+retrieved using queries."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr> being also the one used at CLUB1. — <a class="reference external" href="https://en.wikipedia.org/wiki/Grafana">Wikipedia</a>, <a class="reference external" href="https://github.com/grafana/grafana">Sources</a></p>
 </dd></dl>
 
 </section>
@@ -202,7 +226,7 @@ Prometheus is responsible for collecting information at regular intervals on the
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

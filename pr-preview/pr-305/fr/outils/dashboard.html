@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=aaeb69c2"></script>
+        <script src="../_static/documentation_options.js?v=742c2297"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,25 +144,46 @@
 <p><img alt="capture d'écran du &quot;Baby Dashboard 😃&quot;" src="../_images/baby-dashboard.png" /></p>
 <p>Le serveur CLUB1 dispose d’un tableau de bord accessible aux membres
 à l’adresse : <a class="reference external" href="https://dashboard.club1.fr">https://dashboard.club1.fr</a>.
-Il s’agit d’une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre existence et son propre état.
+Il s’agit d’une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre
+existence et son propre état.
 
-On parle par exemple d’instance à chaque fois qu’on exécute un logiciel avec des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs instances de PHP : au moins une pour chaque membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de <abbr title="Base de données de séries temporelles principalement pensée pour la surveillance de serveurs.
+On parle par exemple d’instance à chaque fois qu’on exécute un
+logiciel avec des données différentes. Sur le serveur CLUB1, il y a
+notamment plusieurs instances de [PHP] : au moins une pour chaque
+membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de <abbr title="Base de données de séries temporelles principalement pensée pour la
+surveillance de [serveurs].
 
-Prometheus se charge de récolter des informations à intervalles réguliers sur les différents composants que l’on souhaite surveiller. Il garde un historique de ces données (15 jours chez CLUB1) et permet de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>+<abbr title="Logiciel de tableau de bord Web permettant d’afficher des statistiques et des graphiques et d’envoyer des alertes à partir d’une base de données de séries temporelles.
+Prometheus se charge de récolter des informations à intervalles
+réguliers sur les différents composants que l’on souhaite surveiller.
+Il garde un historique de ces données (15 jours chez CLUB1) et permet
+de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>+<abbr title="Logiciel de tableau de bord [Web] permettant d’afficher des
+statistiques et des graphiques et d’envoyer des alertes à partir d’une
+base de données de séries temporelles.
 
-Il est capable de se connecter à différentes sources de données, dont la plus courante, Prometheus est aussi celle utilisée chez CLUB1."><a class="reference internal" href="#logiciel-Grafana"><span class="xref std std-logiciel">Grafana</span></a></abbr>,
-connectée à l’annuaire <abbr title="(Lightweight Directory Access Protocol) Protocole de service d’annuaire décrivant à la fois un modèle de données et la manière d’interroger et de modifier ces données.
+Il est capable de se connecter à différentes sources de données, dont
+la plus courante, [Prometheus] est aussi celle utilisée chez CLUB1."><a class="reference internal" href="#logiciel-Grafana"><span class="xref std std-logiciel">Grafana</span></a></abbr>,
+connectée à l’annuaire <abbr title="(Lightweight Directory Access Protocol) [Protocole] de service
+d’annuaire décrivant à la fois un modèle de données et la manière
+d’interroger et de modifier ces données.
 
-Un annuaire LDAP est une sorte de base de données avec une structure hierarchique, arborescente, permettant de relier des informations à des noms. En général des comptes ou des groupes d’utilisateurs ou d’ordinateurs, appartenant à une organisation.
+Un annuaire LDAP est une sorte de base de données avec une structure
+hierarchique, arborescente, permettant de relier des informations à
+des noms. En général des comptes ou des groupes d’utilisateurs ou
+d’ordinateurs, appartenant à une organisation.
 
-Le schéma de données n’est pas fixé, il faut donc le connaitre, avant de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr>.</p>
+Le schéma de données n’est pas fixé, il faut donc le connaitre, avant
+de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr>.</p>
 <section id="logiciels">
 <h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Prometheus">
 <span class="sig-name descname"><span class="pre">Prometheus</span></span><a class="headerlink" href="#logiciel-Prometheus" title="Lien vers cette définition">#</a></dt>
 <dd><p>Base de données de séries temporelles
-principalement pensée pour la surveillance de <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les données et qui répond aux demandes d’un client. Souvent, les serveurs et les clients sont installés sur des ordinateurs différents. Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.</p>
+principalement pensée pour la surveillance de <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.</p>
 <p>Prometheus se charge de récolter des informations à intervalles réguliers
 sur les différents composants que l’on souhaite surveiller.
 Il garde un historique de ces données (15 jours chez CLUB1)
@@ -174,15 +195,24 @@ et permet de les récupérer à l’aide de requêtes.
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-Grafana">
 <span class="sig-name descname"><span class="pre">Grafana</span></span><a class="headerlink" href="#logiciel-Grafana" title="Lien vers cette définition">#</a></dt>
-<dd><p>Logiciel de tableau de bord <abbr title="L’un des services les plus connus d’Internet. Son nom complet est « World Wide Web » (aussi abrégé « www »). Il permet de publier des documents et de les relier entre eux à l’aide de liens hypertexte.
+<dd><p>Logiciel de tableau de bord <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
 
-Une « page Web » est généralement constituée d’un document dont le contenu est rédigé en HTML et peut inclure d’autre ressources comme des images ou des « feuilles de style ». On appelle « Navigateur Web » le client utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
 permettant d’afficher des statistiques et des graphiques et d’envoyer des alertes
 à partir d’une base de données de séries temporelles.</p>
 <p>Il est capable de se connecter à différentes sources de données,
-dont la plus courante, <abbr title="Base de données de séries temporelles principalement pensée pour la surveillance de serveurs.
+dont la plus courante, <abbr title="Base de données de séries temporelles principalement pensée pour la
+surveillance de [serveurs].
 
-Prometheus se charge de récolter des informations à intervalles réguliers sur les différents composants que l’on souhaite surveiller. Il garde un historique de ces données (15 jours chez CLUB1) et permet de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>
+Prometheus se charge de récolter des informations à intervalles
+réguliers sur les différents composants que l’on souhaite surveiller.
+Il garde un historique de ces données (15 jours chez CLUB1) et permet
+de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>
 est aussi celle utilisée chez CLUB1.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Grafana">Wikipedia</a>,
 <a class="reference external" href="https://github.com/grafana/grafana">Sources</a></p>
@@ -219,7 +249,7 @@ est aussi celle utilisée chez CLUB1.
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-07-28-g0059
+		v: 2024-07-31-ga6b9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
