@@ -67,7 +67,7 @@ Utilisation avancée
 Comme indiqué précédemment, le fichier d'alias de réception `/etc/aliases` respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/aliases.5.html).
 En plus de rediriger les emails vers d'autres adresses,
 elle permet de les envoyer vers des fichiers ou des commandes.
-Dans ce cas, il faut faire attention aux permissions requises
+Dans ce cas, il faut faire attention aux {term}`permissions` requises
 pour créer les fichiers et exécuter les commandes.
 Ces actions sont réalisées avec les droits de l'utilisateur correspondant à l'alias s'il existe
 et sinon, sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`.

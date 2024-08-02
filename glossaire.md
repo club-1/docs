@@ -161,6 +161,30 @@ nom de domaine
    En plus de ces informations, un domaine peut également avoir des sous domaines.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 
+permissions
+   Dans un système {term}`POSIX`, il est possible d'attribuer des permissions aux fichiers et aux dossiers.
+   Elles permettent d'accorder ou non des droits à des utilisateurs ou a des {term}`groupes <groupe>`
+   sur ces fichiers et dossiers.
+
+   Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x).
+
+   ```{table} Récapitulatif des permisions
+   ---
+   class: white-space-wrap
+   ---
+   | Droit | Sur un fichier                 | Sur un dossier                                 |
+   |-------|--------------------------------|------------------------------------------------|
+   | `r`   | Lire le contenu du fichier     | Lister le contenu du dossier                   |
+   | `w`   | Modifier le contenu du fichier | Ajouter/supprimer des fichiers dans ce dossier |
+   | `x`   | Exécuter ce fichier            | Traverser ce dossier                           |
+   ```
+
+   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
+   soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
+
+   Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Permissions_UNIX)
+
 PHP
    (_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau,
    principalement utilisé pour produire des pages {term}`Web` de manière dynamique

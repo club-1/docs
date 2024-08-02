@@ -3,6 +3,11 @@
 	--color-highlight: #f1c40f;
 }
 
+/* Custom classes */
+table.white-space-wrap td {
+	white-space: wrap;
+}
+
 /* Override blockquotes style */
 .rst-content blockquote {
 	border-left: #bbb solid 4px;

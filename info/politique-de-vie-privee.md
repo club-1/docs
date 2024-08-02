@@ -15,7 +15,7 @@ Politique de sécurité
 - Les [sauvegardes](/outils/sauvegardes.md) sont, elles, chiffrées.
 - Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur sont tous chiffrés,
   les mots de passe et les données ne peuvent donc pas être interceptées.
-- Les données personnelles sont protégées par les permissions {term}`POSIX`.
+- Les données personnelles sont protégées par les {term}`permissions` {term}`POSIX`.
   Par defaut l'[espace personnel](./espace-personnel.md) n'est pas accessible par les autres utilisateurs
   (à part en lecture par les membres du {term}`groupe` `home`, ex: le {term}`serveur` {term}`web`).
   Chacun est libre de changer les permissions de son espace perso.
