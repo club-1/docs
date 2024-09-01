@@ -5,6 +5,7 @@ from sphinx import addnodes
 from sphinx.application import Sphinx
 from sphinx.builders.dummy import DummyBuilder
 from sphinx.domains.std import StandardDomain
+from sphinx.environment import BuildEnvironment
 from sphinx.util.docutils import new_document
 from sphinx.writers.html5 import HTML5Translator
 from sphinx.writers.text import TextTranslator, TextWriter
@@ -58,7 +59,8 @@ class TermTooltips(SphinxPostTransform):
 
     def __init__(self, document: nodes.document, startnode: nodes.Node | None = None):
         super().__init__(document, startnode)
-        self.writer = TextWriter(TooltipBuilder(self.app, self.env)) # type: ignore
+        builder = TooltipBuilder(self.app, BuildEnvironment(self.app))
+        self.writer = TextWriter(builder) # type: ignore
 
     def run(self) -> None:
         if self.app.builder.format != 'html':
