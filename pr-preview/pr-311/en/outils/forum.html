@@ -1,0 +1,372 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discussion forum &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=ed24dd7a" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/outils/forum.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5c5d3afe"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Managing email aliases" href="aliases.html" />
+    <link rel="prev" title="Meta-documentation" href="meta-doc.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/forum.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/forum.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Website of CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Discussion forum</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#connexion">Login</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connexion-via-le-compte-club1">Login via CLUB1 account</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connexion-ouverte">Open login</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#utilisation">Usage</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#organisation-des-etiquettes">Tags organization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cycle-de-vie-d-un-ticket">Lifecycle of a <em>ticket</em></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#feuille-de-route-administrateurs-systeme">System administrators roadmap</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#administration">Administration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#logiciel-utilise">Software used</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fichiers-et-dossiers">Files and folders</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Managing email aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">DNS server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Backups with Borg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Tools</a></li>
+      <li class="breadcrumb-item active">Discussion forum</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./outils/forum.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="forum-de-discussion">
+<h1>Discussion forum<a class="headerlink" href="#forum-de-discussion" title="Link to this heading">#</a></h1>
+<p>CLUB1 hosts a discussion forum at <a class="reference external" href="https://forum.club1.fr">https://forum.club1.fr</a>. It aims to fulfill three main roles:</p>
+<ul class="simple">
+<li><p>Ticket management (problems, suggestions, questions).</p></li>
+<li><p>System administrator roadmap management.</p></li>
+<li><p>Offer a public asynchronous discussion channel, allowing varied discussions to coexist over time.</p></li>
+</ul>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The journal article “<a class="reference external" href="https://club1.fr/creation-d-un-forum">Création d’un forum</a>” (in French)</p>
+</div>
+<section id="connexion">
+<h2>Login<a class="headerlink" href="#connexion" title="Link to this heading">#</a></h2>
+<p>The forum is an internal management tool, but it is also open to the outside. That’s why there are two ways to log in. In all cases, an e-mail address is required. It will allow, if you wish, to receive notifications about conversations you will have chosen.</p>
+<section id="connexion-via-le-compte-club1">
+<h3>Login via CLUB1 account<a class="headerlink" href="#connexion-via-le-compte-club1" title="Link to this heading">#</a></h3>
+<p>This type of login is dedicated to CLUB1 members wishing to use their CLUB1 account to identify themselves on the forum. This implies using the same identifier and the same password as for all <a class="reference internal" href="../services-membres.html"><span class="std std-doc">services</span></a>. The advantage of such a login method is that you do not have to remember a new username/password pair, that your password will be updated if you <a class="reference internal" href="../faq.html#comment-modifier-mon-mot-de-passe-de-membre-club1"><span class="std std-ref">modify your CLUB1 account password</span></a> and that you will automatically have the badge <span class="guilabel">membre CLUB1</span>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Your CLUB1 identifier will be your nickname and will therefore be visible when you post public messages.</p>
+</div>
+</section>
+<section id="connexion-ouverte">
+<h3>Open login<a class="headerlink" href="#connexion-ouverte" title="Link to this heading">#</a></h3>
+<p>This type of connection allows anyone to create an account on the forum and interact with it. Obligatory passage if you do not have a CLUB1 account, but also in the case where these are accounts of legal entities (associations, collectives) and people wish to express themselves there as an individual.</p>
+<p>If you are a member of CLUB1 or belong to a group with a CLUB1 account and you have registered via this method, we invite you to send an email to <a class="reference external" href="mailto:contact&#37;&#52;&#48;club1&#46;fr">contact<span>&#64;</span>club1<span>&#46;</span>fr</a> indicating the situation, so that people responsible for administering the forum can give you the <span class="guilabel">membre CLUB1</span> badge.</p>
+</section>
+</section>
+<section id="utilisation">
+<h2>Usage<a class="headerlink" href="#utilisation" title="Link to this heading">#</a></h2>
+<p>The CLUB1 forum is based on a tag system rather than categories. A discussion thread can therefore have several tags.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Some tags are called <em>primary</em> and there should only be one primary tag per discussion, which recreates sort of categories.</p>
+</div>
+<section id="organisation-des-etiquettes">
+<h3>Tags organization<a class="headerlink" href="#organisation-des-etiquettes" title="Link to this heading">#</a></h3>
+<p>The primary tags are as follows:</p>
+<ul class="simple">
+<li><p><span class="guilabel">Tickets</span>: Groups open tickets.</p></li>
+<li><p><span class="guilabel">Terminé</span>: Groups closed tickets (“resolved” or “refused”).</p></li>
+<li><p><span class="guilabel">Cafet</span>: Brings together discussions that are not directly related to CLUB1’s hosting activity, and are therefore not tickets.</p></li>
+<li><p><span class="guilabel">English</span>: Groups discussions in English.</p></li>
+</ul>
+</section>
+<section id="cycle-de-vie-d-un-ticket">
+<h3>Lifecycle of a <em>ticket</em><a class="headerlink" href="#cycle-de-vie-d-un-ticket" title="Link to this heading">#</a></h3>
+<p>The word “ticket” represents a problem, a suggestion, a question that is taken to the <em>ticket sorting center</em> where the appropriate people, capable of responding, can resolve the tickets as they arise. Tickets are intended to be closed once the problem has been resolved, the suggestion received or the question answered.</p>
+<p>New tickets must be created with the <span class="guilabel">Tickets</span> label. If the subject of the ticket is still nebulous and requires more discussion, it is better to add the label <span class="guilabel">rêve</span>.</p>
+<p>Once a ticket is resolved (or refused), you must remove the <span class="guilabel">Tickets</span> label from it to be able to assign it the labels <span class="guilabel">Terminé</span> and <span class="guilabel">résolu</span> or <span class="guilabel">refusé</span> based on its condition.</p>
+</section>
+<section id="feuille-de-route-administrateurs-systeme">
+<h3>System administrators roadmap<a class="headerlink" href="#feuille-de-route-administrateurs-systeme" title="Link to this heading">#</a></h3>
+<p>Transversely to the ticket management system, the <span class="guilabel">Roadmap Admin</span> label is used by CLUB1 system administrators to organize themselves. It also allows to make “current”, “next” and “planned” tasks public.</p>
+<p>This is actually a <em>primary</em> tag that only certain forum users can use, bypassing tag restrictions.</p>
+</section>
+</section>
+<section id="administration">
+<h2>Administration<a class="headerlink" href="#administration" title="Link to this heading">#</a></h2>
+<p>This section is primarily intended for forum administrators, namely CLUB1 members being part of the <code class="docutils literal notranslate"><span class="pre">forum</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
+
+Tip:
+
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
+
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>.</p>
+<section id="logiciel-utilise">
+<h3>Software used<a class="headerlink" href="#logiciel-utilise" title="Link to this heading">#</a></h3>
+<p>The forum is based on <abbr title="Forum software written in [PHP]. It is designed to be extremely
+modular with very few features actually being part of the core. It is
+thus easy to develop extensions of all kinds, which can take the forum
+tool in very different directions."><a class="reference internal" href="#logiciel-Flarum"><span class="xref std std-logiciel">Flarum</span></a></abbr>. It is executed by <abbr title="[PHP] process manager, allowing a [Web] [server] to execute PHP code
+in a high-performance manner. It is also able to run PHP with
+different users."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> with the user <code class="docutils literal notranslate"><span class="pre">forum</span></code>, directly from <abbr title="HTTP [server] primarily focused on performance. At CLUB1, it is mainly
+used as a “[TLS] endpoint” and “reverse proxy” in front of the various
+[Web] services, including the [Apache] server."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr>.</p>
+<p>It uses a <abbr title="(Structured Query Language) A computer language for searching
+information in a relational database."><a class="reference internal" href="../services/sql.html#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> database managed by <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="../services/sql.html#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr>.</p>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Flarum">
+<span class="sig-name descname"><span class="pre">Flarum</span></span><a class="headerlink" href="#logiciel-Flarum" title="Link to this definition">#</a></dt>
+<dd><p>Forum software written in <abbr title="(PHP Hypertext Preprocessor) High-level programming language,
+primarily used to produce [Web] pages dynamically by generating [HTML]
+code. Its acronym originally stood for “Personal Home Page” and it is
+precisely the language that CLUB1 puts forward for the creation of
+[dynamic website]."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>. It is designed to be extremely modular with very few features actually being part of the core. It is thus easy to develop extensions of all kinds, which can take the forum tool in very different directions. — <a class="reference external" href="https://github.com/flarum/framework/">Sources</a></p>
+<p>CLUB1 maintains several extensions for this forum:</p>
+<dl class="describe">
+<dt class="sig sig-object">
+<span class="sig-name descname"><span class="pre">club-1/flarum-ext-cross-references</span></span></dt>
+<dd><p>Adds cross-reference links when a discussion has been mentioned from another. — <a class="reference external" href="https://github.com/club-1/flarum-ext-cross-references">Sources</a></p>
+</dd></dl>
+
+<dl class="describe">
+<dt class="sig sig-object">
+<span class="sig-name descname"><span class="pre">club-1/flarum-ext-french-typography</span></span></dt>
+<dd><p>Improved typography for French writings, mainly around punctuation. — <a class="reference external" href="https://github.com/club-1/flarum-ext-french-typography">Sources</a></p>
+</dd></dl>
+
+<dl class="describe">
+<dt class="sig sig-object">
+<span class="sig-name descname"><span class="pre">club-1/flarum-ext-sphinx-glossary</span></span></dt>
+<dd><p>Automatic links to the definitions of a <abbr title="Documentation generator. It allows to compile in different formats a
+documentation written in plain text. This is the tool used to generate
+the present documentation."><a class="reference internal" href="meta-doc.html#term-Sphinx"><span class="xref std std-term">Sphinx</span></a></abbr> documentation. — <a class="reference external" href="https://github.com/club-1/flarum-ext-sphinx-glossary">Sources</a></p>
+</dd></dl>
+
+<dl class="describe">
+<dt class="sig sig-object">
+<span class="sig-name descname"><span class="pre">club-1/flarum-ext-server-side-highlight</span></span></dt>
+<dd><p>Server-side and cached syntax colouring for code blocks. — <a class="reference external" href="https://github.com/club-1/flarum-ext-server-side-highlight">Sources</a></p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="fichiers-et-dossiers">
+<h3>Files and folders<a class="headerlink" href="#fichiers-et-dossiers" title="Link to this heading">#</a></h3>
+<p>Some files and folders related to the CLUB1 forum.</p>
+<section id="var-www-forum-club1-fr">
+<h4><code class="docutils literal notranslate"><span class="pre">/var/www/forum.club1.fr/</span></code><a class="headerlink" href="#var-www-forum-club1-fr" title="Link to this heading">#</a></h4>
+<p>Flarum installation folder. It includes the following files:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">config.php</span></code>: Flarum’s configuration file. It only contains the installation parameters. The rest of the configuration is in the database.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">composer.json</span></code>: File describing Composer dependencies. It is via this software that Flarum extensions are installed.</p></li>
+</ul>
+</section>
+<section id="etc-nginx-sites-available-forum-club1-fr">
+<h4><code class="docutils literal notranslate"><span class="pre">/etc/nginx/sites-available/forum.club1.fr</span></code><a class="headerlink" href="#etc-nginx-sites-available-forum-club1-fr" title="Link to this heading">#</a></h4>
+<p><abbr title="HTTP [server] primarily focused on performance. At CLUB1, it is mainly
+used as a “[TLS] endpoint” and “reverse proxy” in front of the various
+[Web] services, including the [Apache] server."><a class="reference internal" href="../services/web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr> configuration file containing the <em>virtual host</em> of the forum.</p>
+</section>
+<section id="etc-php-fpm-pool-d-forum-conf">
+<h4><code class="docutils literal notranslate"><span class="pre">/etc/php/*/fpm/pool.d/forum.conf</span></code><a class="headerlink" href="#etc-php-fpm-pool-d-forum-conf" title="Link to this heading">#</a></h4>
+<p><abbr title="[PHP] process manager, allowing a [Web] [server] to execute PHP code
+in a high-performance manner. It is also able to run PHP with
+different users."><a class="reference internal" href="../services/web.html#logiciel-PHP-FPM"><span class="xref std std-logiciel">PHP-FPM</span></a></abbr> configuration file of the <code class="docutils literal notranslate"><span class="pre">forum</span></code> users’ <em>pool</em>.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="meta-doc.html" class="btn btn-neutral float-left" title="Meta-documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="aliases.html" class="btn btn-neutral float-right" title="Managing email aliases" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-09-01-g061a
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/outils/forum.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/outils/forum.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
