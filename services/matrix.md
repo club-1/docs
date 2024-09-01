@@ -235,7 +235,7 @@ Logiciels
 {term}`Serveur` {term}`Matrix` écrit en Python.
 Il s'agit de l'implémentation de référence d'un serveur Matrix
 et pour l'instant la seule qui soit annoncée comme "stable".
---- [Sources](https://github.com/matrix-org/synapse)
+--- [Sources](https://github.com/element-hq/synapse)
 ```
 
 ```{logiciel} Element
