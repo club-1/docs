@@ -1,0 +1,321 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Managing email aliases &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=ed24dd7a" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/outils/aliases.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=c2b83c58"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Newsletter" href="newsletter.html" />
+    <link rel="prev" title="Discussion forum" href="forum.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/aliases.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/aliases.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Website of CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Discussion forum</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Managing email aliases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modifier-les-alias-de-reception">Edit receiving aliases</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ajouter-ou-supprimer-un-utilisateur-d-un-alias">Add or remove a user from an alias</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ajouter-ou-supprimer-un-alias">Create or delete an alias</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#modifier-les-alias-d-envoi">Edit sending aliases</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utilisation-avancee">Advanced usage</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">DNS server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Backups with Borg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Tools</a></li>
+      <li class="breadcrumb-item active">Managing email aliases</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./outils/aliases.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gestion-des-alias-email">
+<h1>Managing email aliases<a class="headerlink" href="#gestion-des-alias-email" title="Link to this heading">#</a></h1>
+<p>This manual is dedicated to users that are part of the <code class="docutils literal notranslate"><span class="pre">aliases</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
+
+Tip:
+
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
+
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>. It describes actions that can be done by those users on the email <abbr title="Pseudonym, substitute name. Aliases allow multiple names to be given
+to the same entity. It is a concept frequently used in computer
+science. For example, we speak of an alias when we point several email
+addresses to the same inbox, or when we define a new name for a
+command."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">aliases</span></a></abbr>.</p>
+<section id="modifier-les-alias-de-reception">
+<h2>Edit receiving aliases<a class="headerlink" href="#modifier-les-alias-de-reception" title="Link to this heading">#</a></h2>
+<p>Open the <code class="docutils literal notranslate"><span class="pre">/etc/aliases</span></code> file with your favorite CLI text editor (<code class="docutils literal notranslate"><span class="pre">nano</span></code>, <code class="docutils literal notranslate"><span class="pre">vim</span></code>, etc.). It should look something like this:</p>
+<div class="highlight-Makefile notranslate"><div class="highlight"><pre><span></span><span class="c"># See man 5 aliases for format.</span>
+<span class="c"># Use tab for alignment.</span>
+<span class="c"># To regenerate the db file run: newaliases</span>
+<span class="nf">postmaster</span><span class="o">:</span><span class="w">     </span><span class="n">root</span>
+<span class="nf">root</span><span class="o">:</span><span class="w">           </span><span class="n">nicolas</span>
+<span class="nf">contact</span><span class="o">:</span><span class="w">        </span><span class="n">nicolas</span><span class="p">,</span><span class="n">vincent</span><span class="p">,</span><span class="n">guilhem</span><span class="p">,</span><span class="n">audrey</span>
+<span class="nf">alert</span><span class="o">:</span><span class="w">          </span><span class="n">nicolas</span><span class="p">,</span><span class="n">vincent</span><span class="p">,</span><span class="n">guilhem</span>
+<span class="nf">matrix-synapse</span><span class="o">:</span><span class="w"> </span>/<span class="n">dev</span>/<span class="n">null</span>
+<span class="nf">jellyfin</span><span class="o">:</span><span class="w">       </span>/<span class="n">dev</span>/<span class="n">null</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>After you’ve saved your edits, you have to regenerate the database (<code class="docutils literal notranslate"><span class="pre">/etc/aliases.db</span></code>) using the following command:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newaliases
+</pre></div>
+</div>
+</div>
+<section id="ajouter-ou-supprimer-un-utilisateur-d-un-alias">
+<h3>Add or remove a user from an alias<a class="headerlink" href="#ajouter-ou-supprimer-un-utilisateur-d-un-alias" title="Link to this heading">#</a></h3>
+<p>Simply write or erase the name of the chosen user in the list that follows the alias name.</p>
+</section>
+<section id="ajouter-ou-supprimer-un-alias">
+<h3>Create or delete an alias<a class="headerlink" href="#ajouter-ou-supprimer-un-alias" title="Link to this heading">#</a></h3>
+<p>You can create as many aliases as you want by adding a new line to the file, following the <a class="reference external" href="http://www.postfix.org/aliases.5.html">Postfix aliases db syntax</a>:</p>
+<div class="highlight-Makefile notranslate"><div class="highlight"><pre><span></span><span class="nf">ALIAS</span><span class="o">:</span><span class="w">      </span><span class="n">USER</span>1[<span class="p">,</span><span class="n">USER</span>2...]
+</pre></div>
+</div>
+<p>To delete an alias, simply delete or comment out (using <code class="docutils literal notranslate"><span class="pre">#</span></code>) the corresponding line.</p>
+</section>
+</section>
+<section id="modifier-les-alias-d-envoi">
+<h2>Edit sending aliases<a class="headerlink" href="#modifier-les-alias-d-envoi" title="Link to this heading">#</a></h2>
+<p>The process is very similar from the <a class="reference internal" href="#modifier-les-alias-de-reception">edition of receiving aliases</a>, but some differences exists:</p>
+<ol class="arabic">
+<li><p>The file to edit is <code class="docutils literal notranslate"><span class="pre">/etc/aliases_senders</span></code>.</p></li>
+<li><p>You must NOT use <code class="docutils literal notranslate"><span class="pre">:</span></code> between the key and the value.</p></li>
+<li><p>You must always specify the complete email address with <code class="docutils literal notranslate"><span class="pre">&#64;club1.fr</span></code>.</p></li>
+<li><p>The command used to regenerate the database is:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/usr/sbin/postmap hash:/etc/aliases_senders
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="utilisation-avancee">
+<h2>Advanced usage<a class="headerlink" href="#utilisation-avancee" title="Link to this heading">#</a></h2>
+<p>Comme indiqué précédemment, le fichier d’alias de réception <code class="docutils literal notranslate"><span class="pre">/etc/aliases</span></code> respecte la <a class="reference external" href="http://www.postfix.org/aliases.5.html">syntaxe d’alias de Postfix</a>.
+En plus de rediriger les emails vers d’autres adresses,
+elle permet de les envoyer vers des fichiers ou des commandes.
+Dans ce cas, il faut faire attention aux <abbr title="Dans un système [POSIX], il est possible d’attribuer des permissions
+aux fichiers et aux dossiers. Elles permettent d’accorder ou non des
+droits à des utilisateurs ou a des [groupes] sur ces fichiers et
+dossiers.
+
+Il existe 3 droits principaux, read (r), write (w) et execute (x).
+
+[Table: Récapitulatif des permisions]
+
+Lesquels peuvent être accordés soit à l’utilisateur proriétaire du
+fichier/dossier, soit aux membres du groupe du fichier/dossier, soit
+aux autres utilisateurs.
+
+Les permissions peuvent être consultées en [CLI] avec la commande &quot;ls
+-l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr> requises
+pour créer les fichiers et exécuter les commandes.
+Ces actions sont réalisées avec les droits de l’utilisateur correspondant à l’alias s’il existe
+et sinon, sur CLUB1, avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">nobody</span></code> et le <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
+
+Tip:
+
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
+
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">mail</span></code>.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference external" href="https://manpages.debian.org/bullseye/postfix/local.8postfix.en.html#DELIVERY_RIGHTS">“Delivery Rights” section of the Postfix manual</a>.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="forum.html" class="btn btn-neutral float-left" title="Discussion forum" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="newsletter.html" class="btn btn-neutral float-right" title="Newsletter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-09-05-ge6b3
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/outils/aliases.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/outils/aliases.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
