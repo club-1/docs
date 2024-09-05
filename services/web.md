@@ -104,7 +104,7 @@ Il est possible de louer un nom de domaine chez un {term}`registraire`.
 Cela coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction du {term}`TLD` choisi.
 
 ```{important}
-Il faut distinguer hébergement et location de nom de domaine !
+Il faut distinguer "hébergement" et "location de nom de domaine" !
 L'hébergement stocke les fichiers d'un site et les publie sur le {term}`web` à une {term}`adresse IP` spécifique,
 tandis qu'un {term}`nom de domaine` est une interface plus agréable pour les humains,
 sensée pointer vers l'adresse IP d'un serveur.
