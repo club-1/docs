@@ -173,7 +173,7 @@ L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques configurations
 
 
 Le serveur a des [ressources limitées](../info/infrastructure-materielle.md#serveur),
-il ne peut donc pas accueillir et conserver toutes les discussions à l'infini.
+il ne peut donc pas accueillir et conserver toutes les discussions indéfiniment.
 C'est pourquoi les paramètres suivants ont été modifiés.
 
 | Paramètre                             | Valeur    |
