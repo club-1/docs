@@ -166,8 +166,9 @@ notamment le serveur {logiciel}`Apache`.
 ```{logiciel} Apache
 {term}`Serveur` HTTP très populaire, distribué sous license {term}`libre <logiciel libre>`.
 HTTP étant le {term}`protocole` du {term}`Web` on parle aussi souvent de "serveur Web".
+"Apache" est en fait un raccourci pour désigner "Apache httpd".
 
-Apache est intéressant pour l'hébergement de pages Web personnelles,
+Il est intéressant pour l'hébergement de pages Web personnelles,
 car il peut être configuré en cours d'exécution et par les utilisaturs finaux
 grâce aux fichiers `.htaccess`.
 
