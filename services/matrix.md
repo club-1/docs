@@ -163,65 +163,27 @@ mais si vous n'avez pas confiance en lui, il ne vous reste plus qu'à activer le
 Configurations spécifiques
 --------------------------
 
-Le serveur CLUB1 a des [ressources limitées](../info/infrastructure-materielle.md#serveur),
-il ne peut donc pas accueillir et conserver toutes les discussions à l'infini.
-Nous avons ainsi configuré {logiciel}`Synapse` en conséquence :
+L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques configurations spécifiques.
 
-```yaml
-# Message retention policy at the server level.
-#
-# Room admins and mods can define a retention period for their rooms using the
-# 'm.room.retention' state event, and server admins can cap this period by setting
-# the 'allowed_lifetime_min' and 'allowed_lifetime_max' config options.
-#
-# If this feature is enabled, Synapse will regularly look for and purge events
-# which are older than the room's maximum retention period. Synapse will also
-# filter events received over federation so that events that should have been
-# purged are ignored and not stored again.
-#
-retention:
-  # The message retention policies feature is disabled by default. Uncomment the
-  # following line to enable it.
-  #
-  enabled: true
+| Paramètre                             | Valeur                                      |
+|---------------------------------------|---------------------------------------------|
+| Captcha requis à l'inscription        | Oui                                         |
+| Email requis à l'inscription          | Oui                                         |
+| Salons rejoints à l'inscription       | `#decouverte:club1.fr` et `#bazar:club1.fr` |
 
-  # Default retention policy. If set, Synapse will apply it to rooms that lack the
-  # 'm.room.retention' state event. Currently, the value of 'min_lifetime' doesn't
-  # matter much because Synapse doesn't take it into account yet.
-  #
-  default_policy:
-    min_lifetime: 1d
-    max_lifetime: 3y
 
-media_retention:
-  local_media_lifetime: 2y
-  remote_media_lifetime: 90d
+Le serveur a des [ressources limitées](../info/infrastructure-materielle.md#serveur),
+il ne peut donc pas accueillir et conserver toutes les discussions indéfiniment.
+C'est pourquoi les paramètres suivants ont été modifiés.
 
-# How long to keep locally forgotten rooms before purging them from the DB.
-# Defaults to null, meaning it's disabled.
-forgotten_room_retention_period: 20d
-
-# When this option is enabled, the room "complexity" will be checked before a user
-# joins a new remote room. If it is above the complexity limit, the server will
-# disallow joining, or will instantly leave.
-limit_remote_rooms:
-  enabled: true
-  complexity: 10
-  complexity_error: "Désolé, cette room est trop complèxe pour le serveur CLUB1."
-  admins_can_join: false
-
-# disable presence completely
-presence:
-  enabled: false
-
-# Rate limiting federation
-rc_federation:
-  # window_size: 1000 # default
-  sleep_limit: 5
-  # sleep_delay: 500 # default
-  reject_limit: 40
-  concurrent: 2
-```
+| Paramètre                             | Valeur    |
+|---------------------------------------|-----------|
+| Rétention des messages                | 3 ans     |
+| Rétention des médias locaux           | 2 ans     |
+| Rétention des médias distants         | 90 jours  |
+| Délai de suppression des salons vides | 20 jours  |
+| Limite de complexité des salons       | `10`      |
+| Présence                              | Désactivé |
 
 ```{seealso}
 - L'article de journal "[Nouveaux réglages du serveur Matrix](https://club1.fr/serveur-matrix-suivi-001)"
