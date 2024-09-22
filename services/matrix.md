@@ -165,17 +165,25 @@ Configurations spécifiques
 
 L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques configurations spécifiques.
 
+```{table}
+---
+class: wrap
+---
 | Paramètre                             | Valeur                                      |
 |---------------------------------------|---------------------------------------------|
 | Captcha requis à l'inscription        | Oui                                         |
 | Email requis à l'inscription          | Oui                                         |
 | Salons rejoints à l'inscription       | `#decouverte:club1.fr` et `#bazar:club1.fr` |
-
+```
 
 Le serveur a des [ressources limitées](../info/infrastructure-materielle.md#serveur),
 il ne peut donc pas accueillir et conserver toutes les discussions indéfiniment.
 C'est pourquoi les paramètres suivants ont été modifiés.
 
+```{table}
+---
+class: wrap
+---
 | Paramètre                             | Valeur    |
 |---------------------------------------|-----------|
 | Rétention des messages                | 3 ans     |
@@ -184,6 +192,7 @@ C'est pourquoi les paramètres suivants ont été modifiés.
 | Délai de suppression des salons vides | 20 jours  |
 | Limite de complexité des salons       | `10`      |
 | Présence                              | Désactivé |
+```
 
 ```{seealso}
 - L'article de journal "[Nouveaux réglages du serveur Matrix](https://club1.fr/serveur-matrix-suivi-001)"
