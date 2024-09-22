@@ -170,7 +170,7 @@ permissions
 
    ```{table} Récapitulatif des permisions
    ---
-   class: white-space-wrap
+   class: wrap
    ---
    | Droit | Sur un fichier                 | Sur un dossier                                 |
    |-------|--------------------------------|------------------------------------------------|

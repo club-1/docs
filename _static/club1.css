@@ -4,8 +4,16 @@
 }
 
 /* Custom classes */
-table.white-space-wrap td {
-	white-space: wrap;
+#force,
+table.wrap {
+	td {
+		white-space: wrap;
+		padding: 5px 16px;
+	}
+
+	td > p {
+		line-height: 1.5em;
+	}
 }
 
 /* Override blockquotes style */
