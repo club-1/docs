@@ -1,0 +1,336 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrégateur de flux de nouvelles (RSS/Atom) &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/services/rss.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=af628e5d"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Dépôts Git publics" href="git.html" />
+    <link rel="prev" title="Bases de données SQL" href="sql.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/rss.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/rss.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">Connexion à distance SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Messagerie email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">Transfert de fichiers FTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">Synchro de fichiers, contacts et calendriers WebDAV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html">Explorateur de fichiers Web <em>Drive</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Hébergement de sites Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">Bases de données SQL</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Agrégateur de flux de nouvelles (RSS/Atom)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#se-connecter-avec-un-client-natif">Se connecter avec un client natif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tutoriels">Tutoriels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Dépôts Git publics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast (beta)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services ouverts à tous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services réservés aux membres</a></li>
+      <li class="breadcrumb-item active">Agrégateur de flux de nouvelles (RSS/Atom)</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/services/rss.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="agregateur-de-flux-de-nouvelles-rss-atom">
+<h1>Agrégateur de flux de nouvelles (RSS/Atom)<a class="headerlink" href="#agregateur-de-flux-de-nouvelles-rss-atom" title="Lien vers cette rubrique">#</a></h1>
+<dl class="glossary">
+<dt id="term-flux-Web">flux Web<a class="headerlink" href="#term-flux-Web" title="Lien vers ce terme">#</a></dt><dt id="term-flux-de-nouvelles">flux de nouvelles<a class="headerlink" href="#term-flux-de-nouvelles" title="Lien vers ce terme">#</a></dt><dd><p>Format de données standardisé qui permet la consultation d’un site, non pas par un humain, mais par un logiciel.
+Il s’agit donc d’une forme d’<abbr title="(Application Programming Interface) Interface destinée à être utilisée
+non pas par un être humain mais par un logiciel. Elle est en général
+composée d’un ensemble de fonctions qu’un logiciel peut utiliser à
+distance."><a class="reference internal" href="../glossaire.html#term-API"><span class="xref std std-term">API</span></a></abbr>.
+Les flux Web (ou « flux de nouvelles ») sont des fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d’actualité et les blogs.</p>
+<p>Il existe plusieurs formats de flux Web, notamment <abbr title="Format de [flux Web]. Ce format est plus strict et mieux standardisé
+que son ancêtre [RSS] et tend à le remplacer."><a class="reference internal" href="#term-Atom"><span class="xref std std-term">Atom</span></a></abbr> et <abbr title="(Really Simple Syndication) Premier format de [flux Web]. Il est plus
+ancien et moins strict que son concurrent [Atom]."><a class="reference internal" href="#term-RSS"><span class="xref std std-term">RSS</span></a></abbr> (plus ancien).</p>
+<p>Le logiciel permettant de consulter ces flux est appelé <abbr title="Logiciel permettant de consulter les [flux Web]. Son but est d’agréger
+les nouveautés de différents sites dans un fil unique. Il permet
+d’éviter de regarder manuellement et un par un les sites dont on veut
+connaître les nouveaux contenus."><a class="reference internal" href="#term-agregateur-de-flux"><span class="xref std std-term">agrégateur de flux</span></a></abbr>.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Flux_web">Wikipedia</a></p>
+</dd>
+<dt id="term-RSS">RSS<a class="headerlink" href="#term-RSS" title="Lien vers ce terme">#</a></dt><dd><p>(<em>Really Simple Syndication</em>) Premier format de <abbr title="Format de données standardisé qui permet la consultation d’un site,
+non pas par un humain, mais par un logiciel. Il s’agit donc d’une
+forme d’[API]. Les flux Web (ou « flux de nouvelles ») sont des
+fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d’actualité et les blogs.
+
+Il existe plusieurs formats de flux Web, notamment [Atom] et [RSS]
+(plus ancien).
+
+Le logiciel permettant de consulter ces flux est appelé [agrégateur de
+flux]."><a class="reference internal" href="#term-flux-Web"><span class="xref std std-term">flux Web</span></a></abbr>.
+Il est plus ancien et moins strict que son concurrent <abbr title="Format de [flux Web]. Ce format est plus strict et mieux standardisé
+que son ancêtre [RSS] et tend à le remplacer."><a class="reference internal" href="#term-Atom"><span class="xref std std-term">Atom</span></a></abbr>.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/RSS">Wikipedia</a></p>
+</dd>
+<dt id="term-Atom">Atom<a class="headerlink" href="#term-Atom" title="Lien vers ce terme">#</a></dt><dd><p>Format de <abbr title="Format de données standardisé qui permet la consultation d’un site,
+non pas par un humain, mais par un logiciel. Il s’agit donc d’une
+forme d’[API]. Les flux Web (ou « flux de nouvelles ») sont des
+fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d’actualité et les blogs.
+
+Il existe plusieurs formats de flux Web, notamment [Atom] et [RSS]
+(plus ancien).
+
+Le logiciel permettant de consulter ces flux est appelé [agrégateur de
+flux]."><a class="reference internal" href="#term-flux-Web"><span class="xref std std-term">flux Web</span></a></abbr>.
+Ce format est plus strict et mieux standardisé que son ancêtre <abbr title="(Really Simple Syndication) Premier format de [flux Web]. Il est plus
+ancien et moins strict que son concurrent [Atom]."><a class="reference internal" href="#term-RSS"><span class="xref std std-term">RSS</span></a></abbr> et tend à le remplacer.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Atom_Syndication_Format">Wikipedia</a></p>
+</dd>
+<dt id="term-agregateur-de-flux">agrégateur de flux<a class="headerlink" href="#term-agregateur-de-flux" title="Lien vers ce terme">#</a></dt><dd><p>Logiciel permettant de consulter les <abbr title="Format de données standardisé qui permet la consultation d’un site,
+non pas par un humain, mais par un logiciel. Il s’agit donc d’une
+forme d’[API]. Les flux Web (ou « flux de nouvelles ») sont des
+fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d’actualité et les blogs.
+
+Il existe plusieurs formats de flux Web, notamment [Atom] et [RSS]
+(plus ancien).
+
+Le logiciel permettant de consulter ces flux est appelé [agrégateur de
+flux]."><a class="reference internal" href="#term-flux-Web"><span class="xref std std-term">flux Web</span></a></abbr>.
+Son but est d’agréger les nouveautés de différents sites dans un fil unique.
+Il permet d’éviter de regarder manuellement et un par un les sites dont on veut connaître les nouveaux contenus.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Agr%C3%A9gateur#Dans_le_domaine_informatique">Wikipedia</a></p>
+</dd>
+</dl>
+<p>Un agrégateur de flux de nouvelles est fourni par <abbr title="[Agrégateur de flux] supportant [RSS] et [Atom]. Il fournit un
+[serveur] se chargeant de relever régulièrement les flux, un [client
+Web] pour les consulter dans un navigateur et une [API] pour s’y
+connecter avec une application native. Il est souvent abrégé TTRSS."><a class="reference internal" href="#logiciel-Tiny-Tiny-RSS"><span class="xref std std-logiciel">Tiny Tiny RSS</span></a></abbr>.
+Il est accessible à travers le <abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> intégré se trouvant à l’adresse
+<a class="reference external" href="https://rss.club1.fr">https://rss.club1.fr</a>, mais il est également possible d’y connecter un client
+natif.</p>
+<section id="se-connecter-avec-un-client-natif">
+<h2>Se connecter avec un client natif<a class="headerlink" href="#se-connecter-avec-un-client-natif" title="Lien vers cette rubrique">#</a></h2>
+<p>Avant de pouvoir connecter un client natif, il faut activer l’<abbr title="(Application Programming Interface) Interface destinée à être utilisée
+non pas par un être humain mais par un logiciel. Elle est en général
+composée d’un ensemble de fonctions qu’un logiciel peut utiliser à
+distance."><a class="reference internal" href="../glossaire.html#term-API"><span class="xref std std-term">API</span></a></abbr> dans
+les paramètres du <abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr>. Cliquer sur le menu (icône avec les trois
+barres en haut à droite) → <span class="guilabel">Configuration…</span> → Onglet <span class="guilabel">Configuration</span>
+→ Section <span class="guilabel">Général</span> → Cocher la case <span class="guilabel">Activer l’API</span>.</p>
+<p>Dans le client natif choisi, il faudra renseigner comme URL du serveur
+<code class="docutils literal notranslate"><span class="pre">https://rss.club1.fr</span></code>.</p>
+</section>
+<section id="tutoriels">
+<h2>Tutoriels<a class="headerlink" href="#tutoriels" title="Lien vers cette rubrique">#</a></h2>
+<p>Ci-dessous, une petite liste de tutoriels pour profiter au mieux des flux Web.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../tutos/flux-rss.html"><span class="std std-doc">Utiliser Tiny tiny RSS</span></a></p></li>
+</ul>
+</section>
+<section id="logiciels">
+<h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Tiny-Tiny-RSS">
+<span class="sig-name descname"><span class="pre">Tiny</span> <span class="pre">Tiny</span> <span class="pre">RSS</span></span><a class="headerlink" href="#logiciel-Tiny-Tiny-RSS" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel permettant de consulter les [flux Web]. Son but est d’agréger
+les nouveautés de différents sites dans un fil unique. Il permet
+d’éviter de regarder manuellement et un par un les sites dont on veut
+connaître les nouveaux contenus."><a class="reference internal" href="#term-agregateur-de-flux"><span class="xref std std-term">Agrégateur de flux</span></a></abbr> supportant <abbr title="(Really Simple Syndication) Premier format de [flux Web]. Il est plus
+ancien et moins strict que son concurrent [Atom]."><a class="reference internal" href="#term-RSS"><span class="xref std std-term">RSS</span></a></abbr> et <abbr title="Format de [flux Web]. Ce format est plus strict et mieux standardisé
+que son ancêtre [RSS] et tend à le remplacer."><a class="reference internal" href="#term-Atom"><span class="xref std std-term">Atom</span></a></abbr>.
+Il fournit un <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> se chargeant de relever régulièrement les flux,
+un <abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> pour les consulter dans un navigateur
+et une <abbr title="(Application Programming Interface) Interface destinée à être utilisée
+non pas par un être humain mais par un logiciel. Elle est en général
+composée d’un ensemble de fonctions qu’un logiciel peut utiliser à
+distance."><a class="reference internal" href="../glossaire.html#term-API"><span class="xref std std-term">API</span></a></abbr> pour s’y connecter avec une application native.
+Il est souvent abrégé TTRSS.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Tiny_Tiny_RSS">Wikipedia</a>,
+<a class="reference external" href="https://git.tt-rss.org/fox/tt-rss.git">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="sql.html" class="btn btn-neutral float-left" title="Bases de données SQL" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="git.html" class="btn btn-neutral float-right" title="Dépôts Git publics" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2024, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-11-10-gcaad
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/services/rss.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/services/rss.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
