@@ -1,0 +1,298 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synchronizing calendars and contacts on an Android device &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/tutos/webdav-android.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=45ac5b81"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="CalDAV calendar synchronization on a Mac" href="caldav-mac.html" />
+    <link rel="prev" title="Edit your presentation file" href="presentation.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/webdav-android.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/webdav-android.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="presentation.html">Edit your presentation file</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Synchronizing calendars and contacts on an Android device</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#premier-lancement">First launch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ajout-du-compte-dav">Adding the DAV account</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">CalDAV calendar synchronization on a Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connecting to the server from Linux file explorer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">First SSH connection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Access personal space from a Mac’s Finder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">My first steps on the Web!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Using Tiny tiny RSS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">4. </span>Tutorials</a></li>
+      <li class="breadcrumb-item active">Synchronizing calendars and contacts on an Android device</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./tutos/webdav-android.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="synchronisation-de-calendriers-et-contacts-sur-un-appareil-android">
+<h1>Synchronizing calendars and contacts on an Android device<a class="headerlink" href="#synchronisation-de-calendriers-et-contacts-sur-un-appareil-android" title="Link to this heading">#</a></h1>
+<p>This method allows you to synchronize your <span class="target" id="index-4">address-books</span> and <span class="target" id="index-5">calendars</span> between the server and an <em>Android</em> device.</p>
+<p>To synchronize your contacts and calendars with different applications, the most effective solution is to go through an application that will mainly take care of synchronization: <strong>DAVx<sup>5</sup></strong>.</p>
+<p>This application is paid for (€6) on the Google application store or free on <a class="reference external" href="https://en.wikipedia.org/wiki/F-Droid">F-droid</a> (an alternative store, only offering <a class="reference external" href="https://en.wikipedia.org/wiki/Open-source_software"><em>open source</em></a> apps without ads).</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a></p></li>
+<li><p><a class="reference external" href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&amp;amp;hl=en&amp;amp;gl=GB">Google Play store</a> (6€)</p></li>
+</ul>
+<section id="premier-lancement">
+<h2>First launch<a class="headerlink" href="#premier-lancement" title="Link to this heading">#</a></h2>
+<p>When launching <strong>DAVx<sup>5</sup></strong>, do not check the boxes concerning task management (<a class="reference internal" href="#fig-tutos-webdav-android-taches"><span class="std std-numref">Fig. 4.1</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-taches">
+<a class="reference internal image-reference" href="../_images/screen_001.png"><img alt="screenshot of task management" src="../_images/screen_001.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.1 </span><span class="caption-text">Task management.</span><a class="headerlink" href="#fig-tutos-webdav-android-taches" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Then, allow it access to contacts and calendars (everything) (<a class="reference internal" href="#fig-tutos-webdav-android-autorisations"><span class="std std-numref">Fig. 4.2</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-autorisations">
+<a class="reference internal image-reference" href="../_images/screen_0021.png"><img alt="screenshot permissions" src="../_images/screen_0021.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.2 </span><span class="caption-text">Grant permissions.</span><a class="headerlink" href="#fig-tutos-webdav-android-autorisations" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Finally, for more comfort, it is recommended to activate the synchronization at regular intervals (<a class="reference internal" href="#fig-tutos-webdav-android-intervalles"><span class="std std-numref">Fig. 4.3</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-intervalles">
+<a class="reference internal image-reference" href="../_images/screen_0031.png"><img alt="interval sync screenshot" src="../_images/screen_0031.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.3 </span><span class="caption-text">Synchronization at regular intervals.</span><a class="headerlink" href="#fig-tutos-webdav-android-intervalles" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="ajout-du-compte-dav">
+<h2>Adding the DAV account<a class="headerlink" href="#ajout-du-compte-dav" title="Link to this heading">#</a></h2>
+<p>To add a new sync account, press the orange button on the bottom right (<a class="reference internal" href="#fig-tutos-webdav-android-accueil"><span class="std std-numref">Fig. 4.4</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-accueil">
+<a class="reference internal image-reference" href="../_images/screen_004.png"><img alt="screenshot home" src="../_images/screen_004.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.4 </span><span class="caption-text">DAVx<sup>5</sup> home screen.</span><a class="headerlink" href="#fig-tutos-webdav-android-accueil" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Select the second option: “Login with URL and username” (<a class="reference internal" href="#fig-tutos-webdav-android-connexion"><span class="std std-numref">Fig. 4.5</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-connexion">
+<a class="reference internal image-reference" href="../_images/screen_005.png"><img alt="screenshot login" src="../_images/screen_005.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.5 </span><span class="caption-text">Login with URL and username.</span><a class="headerlink" href="#fig-tutos-webdav-android-connexion" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Base URL:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://club1.fr
+</pre></div>
+</div>
+<p>The username and password are your CLUB1 credentials.</p>
+<p>If you have filled in everything correctly, DAVx<sup>5</sup> will now suggest a name for this account that is very likely to resemble your CLUB1 email address. This seems to be a good idea because this is often how a pair of <code class="docutils literal notranslate"><span class="pre">user&#64;server</span></code> is identified. One last little detail: It is recommended to use the method “Groups are categories for each of the contacts” to be compatible with the web mail client of CLUB1 (<a class="reference internal" href="#fig-tutos-webdav-android-groupes"><span class="std std-numref">Fig. 4.6</span></a>).</p>
+<figure class="align-default" id="fig-tutos-webdav-android-groupes">
+<a class="reference internal image-reference" href="../_images/screen_006.png"><img alt="screenshot groups" src="../_images/screen_006.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.6 </span><span class="caption-text">Groups storage method.</span><a class="headerlink" href="#fig-tutos-webdav-android-groupes" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>One last step: what to synchronize?</p>
+<p>DAVx<sup>5</sup> lets us select the contact books and calendars you want to synchronize on your phone (<a class="reference internal" href="#fig-tutos-webdav-android-selection"><span class="std std-numref">Fig. 4.7</span></a>). To do this, simply tick them by navigating between the “Address books” and “Agendas” tabs. It will always be possible to access and modify these settings later very easily.</p>
+<figure class="align-default" id="fig-tutos-webdav-android-selection">
+<a class="reference internal image-reference" href="../_images/screen_007.png"><img alt="screenshot selection" src="../_images/screen_007.png" style="width: 280px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.7 </span><span class="caption-text">List of available address books.</span><a class="headerlink" href="#fig-tutos-webdav-android-selection" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default, even if you have not yet created any address books or calendars, there will always be one called: “Default”.</p>
+</div>
+<p>From this interface, it is also possible to __create or delete __ address books or calendars, via the menu at the top right.</p>
+<p>Whenever you make changes there, it’s a good idea to <strong>re-run a sync</strong> by pressing the orange button at the bottom right.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
+<p>There you go! If all goes well, you have successfully synchronized your contacts and/or calendars between the CLUB1 server and an <em>Android</em> device. The synchronized address books and calendars are now accessible via the contact app of your choice and the calendar app of your choice.</p>
+<p>If you prefer to use <em>open source</em> and non-<em>Google</em>-oriented apps, we recommend <strong>Simple Contacts</strong> and <strong>Simple Calendar</strong>.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://f-droid.org/en/packages/com.simplemobiletools.contacts.pro/">Simple Contacts Pro</a> on F-droid</p></li>
+<li><p><a class="reference external" href="https://play.google.com/store/apps/details?id=com.simplemobiletools.contacts&amp;amp;hl=en&amp;amp;gl=GB">Simple Contact</a> on the Google Play Store</p></li>
+<li><p><a class="reference external" href="https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/">Simple Calendar Pro</a> on F-droid</p></li>
+<li><p><a class="reference external" href="https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&amp;amp;hl=en&amp;amp;gl=GB">Simple Calendar</a> on the Google Play Store</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="presentation.html" class="btn btn-neutral float-left" title="Edit your presentation file" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="caldav-mac.html" class="btn btn-neutral float-right" title="CalDAV calendar synchronization on a Mac" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-11-11-ga18b
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/tutos/webdav-android.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/tutos/webdav-android.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
