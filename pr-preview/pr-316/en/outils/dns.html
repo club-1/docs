@@ -1,0 +1,308 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DNS server &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/outils/dns.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=d78b3d6a"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Backups with Borg" href="sauvegardes.html" />
+    <link rel="prev" title="LDAP directory" href="ldap.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/dns.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/dns.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Website of CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Discussion forum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Managing email aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">DNS server</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hebergement-de-zones-secondaires">Secondary zones hosting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#administration">Administration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Backups with Borg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Tools</a></li>
+      <li class="breadcrumb-item active">DNS server</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./outils/dns.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="serveur-dns">
+<h1>DNS server<a class="headerlink" href="#serveur-dns" title="Link to this heading">#</a></h1>
+<dl class="simple glossary">
+<dt id="term-DNS">DNS<a class="headerlink" href="#term-DNS" title="Link to this term">#</a></dt><dd><p>(Domain Name System) Distributed computer service that associates <abbr title="Publicly accessible global [computer network]. The Internet is
+actually the interconnection of a set of networks around the world. As
+the name suggests, “inter” “net” = “between networks”. It is therefore
+a “network of networks”."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr> <abbr title="[Internet] domain identifier, easy for a human to read and remember.
+
+For example: &quot;club1.fr&quot;, &quot;impots.gouv.fr&quot;, and &quot;fr&quot; are domain names.
+
+In the [DNS], a domain allows to associate information with a name.
+Among this information, the most important is the [IP address] of the
+computer associated with this domain. A domain name is therefore often
+used as an [alias] for an IP address.
+
+In addition to this information, a domain can also have subdomains."><a class="reference internal" href="../glossaire.html#term-nom-de-domaine"><span class="xref std std-term">domain names</span></a></abbr> with their <abbr title="Identification number of a computer connected to a [computer network].
+
+The IP [protocol] (originally created for [Internet]) is used to
+transport data between a source computer and its destination. For
+this, it needs IP addresses in order to identify these two computers.
+
+Actuellement, deux versions d’adresses IP sont utilisées : La version
+4 qui s’écrit sous la forme de nombres séparés par des points (ex :
+&quot;87.91.4.64&quot; pour le serveur de CLUB1). Et la version 6 qui utilise
+des nombres beaucoup plus grands et qui s’écrit en hexadécimal (ex :
+&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="../glossaire.html#term-adresse-IP"><span class="xref std std-term">IP addresses</span></a></abbr> or other types of records. — <a class="reference external" href="https://en.wikipedia.org/wiki/Domain_Name_Service">Wikipedia</a></p>
+</dd>
+</dl>
+<p>CLUB1 self-hosts its own primary authoritative <abbr title="(Domain Name System) Distributed computer service that associates
+[Internet] [domain names] with their [IP addresses] or other types of
+records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> using <abbr title="[DNS] [server], meeting the standards, which can play the role of
+authoritative server, recursive resolver, DNS forwarder, or the three
+at a time.
+
+On CLUB1, BIND is both an authoritative server and a recursive
+resolver for the local network."><a class="reference internal" href="#logiciel-BIND"><span class="xref std std-logiciel">BIND</span></a></abbr>. It is replicated on 4 other secondary servers of two friends, Aymeric Agon-Rambosson (<a class="reference external" href="https://ricorambo.su">ricorambo.su</a>) and Etienne Le Louët (jeanpierre.moe) with whom we made an exchange of DNS zones. This gives a total of 5 authoritative servers:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ns1.club1.fr (primaire)
+ns1.ricorambo.su
+ns2.ricorambo.su
+ns3.ricorambo.su
+ns1.jeanpierre.moe
+</pre></div>
+</div>
+<p>The zones transfer is secured with <a class="reference external" href="https://en.wikipedia.org/wiki/TSIG">TSIG</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> is enabled on <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>. BIND is also used as a DNS resolver for the local network.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://club1.fr/serveur-dns">Journal article about the DNS server</a></p></li>
+<li><p><a class="reference external" href="https://forum.club1.fr/d/7-configurer-dnssec-sur-ns1club1fr">Forum thread about DNSSEC</a></p></li>
+<li><p>Online diagnostic tools: <a class="reference external" href="https://dnssec-analyzer.verisignlabs.com/club1.fr">DNSSEC summary</a>, <a class="reference external" href="https://dnsviz.net/d/club1.fr/dnssec/">DNSSEC viewer</a></p></li>
+</ul>
+</div>
+<section id="hebergement-de-zones-secondaires">
+<h2>Secondary zones hosting<a class="headerlink" href="#hebergement-de-zones-secondaires" title="Link to this heading">#</a></h2>
+<p>It is possible for CLUB1 to host DNS zones for other domains as a secondary server. The initial configuration must be done manually, but the updates will then be fully automated. TSIG will be used preferably to authenticate transfers. It is possible to send an email to <a class="reference external" href="mailto:hostmaster&#37;&#52;&#48;club1&#46;fr">hostmaster<span>&#64;</span>club1<span>&#46;</span>fr</a> to discuss it.</p>
+</section>
+<section id="administration">
+<h2>Administration<a class="headerlink" href="#administration" title="Link to this heading">#</a></h2>
+<p>Only members of the <code class="docutils literal notranslate"><span class="pre">sudo</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
+
+Tip:
+
+  It is possible to find out who is a member of a group on the server
+  from an [SSH] access with the following command:
+
+     members GROUP
+
+  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
+  or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr> can edit the DNS server configuration and some rules must be followed by administrators:</p>
+<ul class="simple">
+<li><p>New zones and key inclusions are to be added to the <code class="docutils literal notranslate"><span class="pre">/etc/bind/named.conf.local</span></code> file.</p></li>
+<li><p>Primary zone files must be created in <code class="docutils literal notranslate"><span class="pre">/etc/bind</span></code> with a symbolic link in <code class="docutils literal notranslate"><span class="pre">/var/lib/bind</span></code>.</p></li>
+<li><p>Primary zone blocks must refer to the <code class="docutils literal notranslate"><span class="pre">/var/lib/bind</span></code> file.</p></li>
+<li><p>Secondary zone blocks must use a simple file name (which will then be relative to <code class="docutils literal notranslate"><span class="pre">/var/cache/bind</span></code>).</p></li>
+</ul>
+<p>The zone changes are mainly made by <a class="reference external" href="https://github.com/club-1/hosting/">CLUB1 scripts</a>, but in the case of a manual modification, do not forget to run the <code class="docutils literal notranslate"><span class="pre">dns-bump</span></code> script on the corresponding zonefile.</p>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-BIND">
+<span class="sig-name descname"><span class="pre">BIND</span></span><a class="headerlink" href="#logiciel-BIND" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="(Domain Name System) Distributed computer service that associates
+[Internet] [domain names] with their [IP addresses] or other types of
+records."><a class="reference internal" href="#term-DNS"><span class="xref std std-term">DNS</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>, meeting the standards, which can play the role of authoritative server, recursive resolver, DNS forwarder, or the three at a time.</p>
+<p>On CLUB1, BIND is both an authoritative server and a recursive resolver for the local network. — <a class="reference external" href="https://en.wikipedia.org/wiki/BIND">Wikipedia</a>, <a class="reference external" href="https://gitlab.isc.org/isc-projects/bind9">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ldap.html" class="btn btn-neutral float-left" title="LDAP directory" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="sauvegardes.html" class="btn btn-neutral float-right" title="Backups with Borg" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2024, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-11-11-gcb49
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/outils/dns.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/outils/dns.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

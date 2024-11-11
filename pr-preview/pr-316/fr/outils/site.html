@@ -1,0 +1,339 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Web de CLUB1 &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/outils/site.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5f07d168"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Meta-documentation" href="meta-doc.html" />
+    <link rel="prev" title="5. Outils" href="index.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/site.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/site.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services ouverts à tous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Outils</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Site Web de CLUB1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#comptes">Comptes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edition-d-une-page-existante">Édition d’une page existante</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creation-d-une-page">Création d’une page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#administration">Administration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#moteur-de-wiki">Moteur de wiki</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Forum de discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Gestion des alias email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">Annuaire LDAP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">Serveur DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Sauvegardes avec Borg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html">Tableau de bord</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Outils</a></li>
+      <li class="breadcrumb-item active">Site Web de CLUB1</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/outils/site.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="site-web-de-club1">
+<h1>Site Web de CLUB1<a class="headerlink" href="#site-web-de-club1" title="Lien vers cette rubrique">#</a></h1>
+<p>On ne dirait peut-être pas comme ça, mais le site <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> de CLUB1 est un <abbr title="Type d’application [Web] qui permet de créer un site de manière
+collaborative. L’édition des pages est possible depuis le navigateur
+Web. Le plus connu étant Wikipedia. Le nom provient de la langue
+Hawaïenne dans laquelle « wiki » signifie « rapide »."><a class="reference internal" href="../glossaire.html#term-wiki"><span class="xref std std-term">wiki</span></a></abbr>.
+Cela implique qu’il est possible d’éditer son contenu directement depuis le navigateur.</p>
+<p>Les discussions à ce sujet sont <a class="reference external" href="https://forum.club1.fr/t/site-web">rassemblées sur le forum avec le tag <span class="guilabel">site web</span></a>.</p>
+<section id="comptes">
+<h2>Comptes<a class="headerlink" href="#comptes" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour participer à l’édition du site, il faut au moins un compte éditeur.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Ce type de compte est indépendant du compte CLUB1 !
+Pour avoir un compte d’éditeur, il faut contacter les administrateurs du site :
+Venez en discuter sur le salon <abbr title="[Protocole] de messagerie instantanée **décentralisé**.
+
+Son avantage principal par rapport aux autres systèmes fédérés du même
+type, est de répliquer les données sur l’ensemble des [serveurs]
+participants, afin d’améliorer la tolérence aux pannes en garantissant
+une « cohérence à terme »."><a class="reference internal" href="../services/matrix.html#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> <a class="reference external" href="matrix:r/site-web:club1.fr"><code class="docutils literal notranslate"><span class="pre">#site-web:club1.fr</span></code></a>
+ou envoyez un message à <a class="reference external" href="mailto:contact&#37;&#52;&#48;club1&#46;fr">contact<span>&#64;</span>club1<span>&#46;</span>fr</a>.</p>
+</div>
+</section>
+<section id="edition-d-une-page-existante">
+<h2>Édition d’une page existante<a class="headerlink" href="#edition-d-une-page-existante" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour éditer une page, il y a deux possibilités :</p>
+<ul class="simple">
+<li><p>En cliquant sur le bouton <span class="guilabel">✏️ modifier</span> en bas de la page.</p></li>
+<li><p>En rajoutant <code class="docutils literal notranslate"><span class="pre">/edit</span></code> dans la barre d’URL.</p></li>
+</ul>
+<p>Le contenu se trouve le plus souvent dans l’onglet <span class="guilabel">main</span>.
+Les onglets <span class="guilabel">nav</span>, <span class="guilabel">aside</span>, <span class="guilabel">footer</span>, <span class="guilabel">header</span>
+servent à stocker du contenu périphérique.
+Dans ces 5 onglets, il est possible d’utiliser du <abbr title="Langage de balisage léger permettant de mettre en forme un document.
+Les documents rédigés en Markdown ont généralement pour but d’être
+convertis en [HTML], afin d’en faire une page [Web]. Son principal
+avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend
+plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr> ou du <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
+les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr>.
+L’onglet <span class="guilabel">body</span> contient la structure de la page.
+et ne peut contenir que du HTML.
+Le style de la page est lui aussi éditable via l’onglet <span class="guilabel">css</span>.</p>
+<p>💾 Pour sauvegarder, il faut cliquer sur <span class="guilabel">update</span> ou faire <kbd class="kbd docutils literal notranslate">CTRL</kbd> + <kbd class="kbd docutils literal notranslate">S</kbd>.</p>
+<p>👁️ Pour afficher la page, il faut cliquer sur <span class="guilabel">display</span> ou faire <kbd class="kbd docutils literal notranslate">CTRL</kbd> + <kbd class="kbd docutils literal notranslate">D</kbd>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Lorsque l’on fait des modifications sur le site Web,
+il est bienvenu de le notifier en écrivant un résumé des actions dans le salon Matrix <a class="reference external" href="matrix:r/site-web:club1.fr"><code class="docutils literal notranslate"><span class="pre">#site-web:club1.fr</span></code></a>.</p>
+</div>
+</section>
+<section id="creation-d-une-page">
+<h2>Création d’une page<a class="headerlink" href="#creation-d-une-page" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour ajouter une page, il faut écrire son nom dans la barre d’URL après <code class="docutils literal notranslate"><span class="pre">https://club1.fr/</span></code>,
+puis rajouter <code class="docutils literal notranslate"><span class="pre">/add</span></code> à la fin.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://club1.fr/MA_NOUVELLE_PAGE/add
+</pre></div>
+</div>
+<p>Ici, <code class="docutils literal notranslate"><span class="pre">MA_NOUVELLE_PAGE</span></code> est le nom de votre future page.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><abbr title="Moteur de [wiki] écrit en [PHP]. Son but est de croiser la prise de
+note avec l’édition de site [Web] en encourageant l’édition spontanée
+de pages aux styles variés."><a class="reference internal" href="#logiciel-W"><span class="xref std std-logiciel">W</span></a></abbr> va s’occuper de transformer le nom que vous avez choisi en <strong>identifiant officiel de la page</strong>,
+en simplifiant le titre que vous aurez choisi.
+Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.</p>
+</div>
+</section>
+<section id="administration">
+<h2>Administration<a class="headerlink" href="#administration" title="Lien vers cette rubrique">#</a></h2>
+<p>La mise à jour et l’accès aux fichiers de <abbr title="Moteur de [wiki] écrit en [PHP]. Son but est de croiser la prise de
+note avec l’édition de site [Web] en encourageant l’édition spontanée
+de pages aux styles variés."><a class="reference internal" href="#logiciel-W"><span class="xref std std-logiciel">W</span></a></abbr>
+est limité aux utilisateur·ices membres du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
+utilisateurs afin de leur attribuer des droits communs. Un utilisateur
+appartient à un ou plusieurs groupes.
+
+Astuce:
+
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la commande suivante :
+
+     members GROUP
+
+  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
+  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">website</span></code>.</p>
+</section>
+<section id="moteur-de-wiki">
+<h2>Moteur de wiki<a class="headerlink" href="#moteur-de-wiki" title="Lien vers cette rubrique">#</a></h2>
+<p>Le moteur de wiki utilisé n’est pas un outil très connu.
+En dehors du site officiel de CLUB1,
+son usage se limite pour l’instant à quelques membres du club pour leurs sites respectifs.</p>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-W">
+<span class="sig-name descname"><span class="pre">W</span></span><a class="headerlink" href="#logiciel-W" title="Lien vers cette définition">#</a></dt>
+<dd><p>Moteur de <abbr title="Type d’application [Web] qui permet de créer un site de manière
+collaborative. L’édition des pages est possible depuis le navigateur
+Web. Le plus connu étant Wikipedia. Le nom provient de la langue
+Hawaïenne dans laquelle « wiki » signifie « rapide »."><a class="reference internal" href="../glossaire.html#term-wiki"><span class="xref std std-term">wiki</span></a></abbr> écrit en <abbr title="(PHP Hypertext Preprocessor) Langage de programmation de haut niveau,
+principalement utilisé pour produire des pages [Web] de manière
+dynamique en générant du code [HTML]. Son acronyme signifiait à
+l’origine « Personnal Home Page » et c’est justement le langage que
+CLUB1 met en avant pour la création de [site Web dynamique]."><a class="reference internal" href="../glossaire.html#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>.
+Son but est de croiser la prise de note avec l’édition de site <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
+en encourageant l’édition spontanée de pages aux styles variés.
+— <a class="reference external" href="https://github.com/vincent-peugnet/wcms/">Sources</a>, <a class="reference external" href="https://w.club1.fr/">Site</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="index.html" class="btn btn-neutral float-left" title="5. Outils" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="meta-doc.html" class="btn btn-neutral float-right" title="Meta-documentation" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2024, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2024-11-11-gcb49
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/outils/site.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/outils/site.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
