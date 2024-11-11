@@ -34,7 +34,7 @@ Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
 Enfin, l'**ititulé** est une courte description de la transaction.
 
 
-```{admonition} {term}`permissions`
+```{admonition} Permissions
 Ce fichier est accessible en lecture par tout les utilisateurs.
 Donc n'hésitez pas à jeter un coup d'oeil !
 En revanche, pour écrire dedans, il faut être membre du {term}`groupe` `compta`.
