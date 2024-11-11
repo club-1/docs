@@ -9,7 +9,7 @@ la solution la plus efficace consiste à passer par une application
 qui va se charger essentiellement de la synchro : __DAVx{sup}`5`__.
 
 Cette application est payante (6€) sur le magasin d'applications de Google
-ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid)
+ou gratuite sur [F-Droid](https://fr.wikipedia.org/wiki/F-Droid)
 (un magasin alternatif, proposant uniquement des appli
 [*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).
 
@@ -140,16 +140,12 @@ Les carnets d'adresses et agendas ainsi synchronisés sont maintenant accessible
 via l'appli de contact de votre choix et l'appli de calendrier de votre choix.
 
 Si vous préferez utiliser des applis *open sources* et non orientés *Google*,
-nous vous recommandons __Simple Contacts__ et __Simple Calendar__.
+nous vous recommandons __Fossify Contacts__ et __Fossify Calendrier__.
 
-- [Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools.contacts.pro/)
-  sur F-droid
-- [Contact Simple](https://play.google.com/store/apps/details?id=com.simplemobiletools.contacts&hl=fr&gl=FR)
-  sur le Google Play Store
-- [Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools.calendar.pro/)
-  sur F-droid
-- [Calendar Simple](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=fr&gl=FR)
-  sur le Google Play Store
+- __Fossify Contacts__: [F-Droid](https://f-droid.org/fr/packages/org.fossify.contacts/)
+  -- [Google Play Store](https://play.google.com/store/apps/details?id=org.fossify.contacts&hl=fr&gl=FR)
+- __Fossify Calendrier__: [F-Droid](https://f-droid.org/fr/packages/org.fossify.calendar/)
+  -- [Google Play Store](https://play.google.com/store/apps/details?id=org.fossify.calendar&hl=fr&gl=FR)
 
 
 
