@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=e4d2d128"></script>
+        <script src="../_static/documentation_options.js?v=f3c47c2c"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -92,7 +92,9 @@
 <li class="toctree-l2"><a class="reference internal" href="aliases.html">Gestion des alias email</a></li>
 <li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Comptabilité</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#fichier-de-transactions">Fichier de transactions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fichier-de-transactions">Fichier de transactions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#interface-sympathique">Interface sympathique</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#commandes-precises-pour-un-usage-avance">Commandes préçises pour un usage avancé</a></li>
 </ul>
 </li>
@@ -172,22 +174,9 @@ Le <strong>comtpe</strong> qui a dépensé ou reçu l’argent viens ensuite.
 Si le paiement est <strong>effectué</strong>, on ajoute un <code class="docutils literal notranslate"><span class="pre">x</span></code>.
 Les différentes <strong>catégories</strong> sont <code class="docutils literal notranslate"><span class="pre">adhesion</span></code>, <code class="docutils literal notranslate"><span class="pre">don</span></code>, <code class="docutils literal notranslate"><span class="pre">infra</span></code> et <code class="docutils literal notranslate"><span class="pre">autre</span></code>.
 Enfin, l’<strong>ititulé</strong> est une courte description de la transaction.</p>
-<p>```{admonition} <abbr title="Dans un système [POSIX], il est possible d’attribuer des permissions
-aux fichiers et aux dossiers. Elles permettent d’accorder ou non des
-droits à des utilisateurs ou a des [groupes] sur ces fichiers et
-dossiers.
-
-Il existe 3 droits principaux, read (r), write (w) et execute (x).
-
-[Table: Récapitulatif des permisions]
-
-Lesquels peuvent être accordés soit à l’utilisateur proriétaire du
-fichier/dossier, soit aux membres du groupe du fichier/dossier, soit
-aux autres utilisateurs.
-
-Les permissions peuvent être consultées en [CLI] avec la commande &quot;ls
--l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr>
-Ce fichier est accessible en lecture par tout les utilisateurs.
+<div class="admonition-permissions admonition">
+<p class="admonition-title">Permissions</p>
+<p>Ce fichier est accessible en lecture par tout les utilisateurs.
 Donc n’hésitez pas à jeter un coup d’oeil !
 En revanche, pour écrire dedans, il faut être membre du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
 utilisateurs afin de leur attribuer des droits communs. Un utilisateur
@@ -202,30 +191,35 @@ Astuce:
 
   En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
   ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">compta</span></code>.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-
-Usage
------
-
-Pour étudier ou modifier la liste des transactions,
-il suffit d&#39;ouvrir le fichier dans un éditeur de texte.
-Mais bon, c&#39;est pas forcément hyper confortable.
-Pour palier à cela,
-il est possible d&#39;utiliser des commandes une fois que l&#39;on est [connecté au serveur en SSH](services/ssh.md).
-
-En fonction de votre familiarité avec le {term}`terminal`,
-deux options s&#39;offrent à vous :
-
-
-### Interface sympathique
-
-Cette interface est faite pour être le plus simple possible.
-Elle ne fait que poser des questions.
-
-```{commande} compta
-Interface conviviale de gestion de la comptabilité de CLUB1.
-</pre></div>
 </div>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour étudier ou modifier la liste des transactions,
+il suffit d’ouvrir le fichier dans un éditeur de texte.
+Mais bon, c’est pas forcément hyper confortable.
+Pour palier à cela,
+il est possible d’utiliser des commandes une fois que l’on est <a class="reference internal" href="#services/ssh.md"><span class="xref myst">connecté au serveur en SSH</span></a>.</p>
+<p>En fonction de votre familiarité avec le <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
+deux options s’offrent à vous :</p>
+<section id="interface-sympathique">
+<h3>Interface sympathique<a class="headerlink" href="#interface-sympathique" title="Lien vers cette rubrique">#</a></h3>
+<p>Cette interface est faite pour être le plus simple possible.
+Elle ne fait que poser des questions.</p>
+<dl class="std commande">
+<dt class="sig sig-object std" id="commande-compta">
+<span class="sig-name descname"><span class="pre">compta</span></span><a class="headerlink" href="#commande-compta" title="Lien vers cette définition">#</a></dt>
+<dd><p>Interface conviviale de gestion de la comptabilité de CLUB1.</p>
+</dd></dl>
+
+</section>
 <section id="commandes-precises-pour-un-usage-avance">
 <h3>Commandes préçises pour un usage avancé<a class="headerlink" href="#commandes-precises-pour-un-usage-avance" title="Lien vers cette rubrique">#</a></h3>
 <p>Le utilisateurs plus habitués à l’utilisation de la <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
@@ -279,7 +273,7 @@ Il est nécessaire de remplir une grande partie des options.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-11-gdb94
+		v: 2024-11-11-gf851
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
