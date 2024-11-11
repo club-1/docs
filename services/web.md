@@ -54,6 +54,13 @@ Par exemple, ici, on a appelé le dossier pour les projets Web `www` (pour *Worl
         📁 mon-site-perso
         📁 blog-famille
 
+```{danger}
+Publier un dossier sur le Web augmente fortement le **risque de piratage**.
+D'autant plus si vous utilisez des {term}`sites Web dynamiques<site Web dynamique>` :
+du code {term}`PHP` sera exectué et aura **accès à tout votre dossier personnel**
+(Il pourra créer, modifier ou supprimer des fichiers librement).
+```
+
 Ensuite, il faut choisir un {term}`nom de domaine` associé à ce site.
 Vous avez deux possibilités :
 
