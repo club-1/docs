@@ -17,12 +17,11 @@ situé au niveau du chemin suivant :
 
 Comme son extension l'indique, il s'agît d'un fichier TSV (*Tab Separated Values*).
 Chaque ligne de ce fichier représente une transaction.
-À l'intérieur, les différentes valeurs sont séparés par des *tabulations* ({kbd}`↹`).
+À l'intérieur, les différentes valeurs sont séparés par des *tabulations* (touche {kbd}`Tab ↹`).
 
 Voici un exemple de ligne :
 
-    id  date        echange  compte               effectué  catégorie  intitulé
-    1   2019-01-10  +35      Nicolas Peugnet      x         adhesion   adhésion audrey
+    27   2019-01-10	+35	Nicolas Peugnet	x	adhesion	Adhésion roquefort
 
 La première colonne correspond à l'**identifiant unique** de chaque transaction.
 Ce nombre doit toujours augmenter.
@@ -35,9 +34,10 @@ Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
 Enfin, l'**ititulé** est une courte description de la transaction.
 
 
-```{permissions}
+```{admonition} Permissions
 Ce fichier est accessible en lecture par tout les utilisateurs.
 Donc n'hésitez pas à jeter un coup d'oeil !
+
 En revanche, pour écrire dedans, il faut être membre du {term}`groupe` `compta`.
 ```
 
