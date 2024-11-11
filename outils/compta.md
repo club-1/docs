@@ -48,7 +48,7 @@ Pour étudier ou modifier la liste des transactions,
 il suffit d'ouvrir le fichier dans un éditeur de texte.
 Mais bon, c'est pas forcément hyper confortable.
 Pour palier à cela,
-il est possible d'utiliser des commandes une fois que l'on est [connecté au serveur en SSH](services/ssh.md).
+il est possible d'utiliser des commandes une fois que l'on est [connecté au serveur en SSH](/services/ssh.md).
 
 En fonction de votre familiarité avec le {term}`terminal`,
 deux options s'offrent à vous :
