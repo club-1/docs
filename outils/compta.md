@@ -11,11 +11,15 @@ Fichier de transactions
 -----------------------
 
 La comptabilité du club est consigné sur le serveur à l'aider d'un fichier de transaction.
-C'est un fichier TSV qui se situe dans le chemin suivant :
+situé au niveau du chemin suivant :
 
     /var/compta/transactions.tsv
 
-Chaque ligne sur ce fichier représente une transaction. Voici un exemple de ligne :
+Comme son extension l'indique, il s'agît d'un fichier TSV (*Tab Separated Values*).
+Chaque ligne de ce fichier représente une transaction.
+À l'intérieur, les différentes valeurs sont séparés par des *tabulations* ({kbd}`↹`).
+
+Voici un exemple de ligne :
 
     id  date        echange  compte               effectué  catégorie  intitulé
     1   2019-01-10  +35      Nicolas Peugnet      x         adhesion   adhésion audrey
@@ -30,11 +34,12 @@ Si le paiement est **effectué**, on ajoute un `x`.
 Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
 Enfin, l'**ititulé** est une courte description de la transaction.
 
-### Permissions
 
+```{permissions}
 Ce fichier est accessible en lecture par tout les utilisateurs.
 Donc n'hésitez pas à jeter un coup d'oeil !
 En revanche, pour écrire dedans, il faut être membre du {term}`groupe` `compta`.
+```
 
 
 Usage
@@ -44,7 +49,7 @@ Pour étudier ou modifier la liste des transactions,
 il suffit d'ouvrir le fichier dans un éditeur de texte.
 Mais bon, c'est pas forcément hyper confortable.
 Pour palier à cela,
-il est possible d'utiliser des commandes une fois que l'on est [connecté au serveur en {term}`SSH`](services/ssh.md).
+il est possible d'utiliser des commandes une fois que l'on est [connecté au serveur en SSH](services/ssh.md).
 
 En fonction de votre familiarité avec le {term}`terminal`,
 deux options s'offrent à vous :
@@ -65,14 +70,10 @@ Interface conviviale de gestion de la comptabilité de CLUB1.
 Le utilisateurs plus habitués à l'utilisation de la {term}`CLI`
 peuvent directement utiliser ces deux sous commandes.
 
-#### voir
-
 ```{commande} compta-voir
 Permet de consulter rapidement le contenu du fichier de comptabilité.
 Il est possible de filtrer ou même d'afficher le total en ajoutant des options.
 ```
-
-#### ajouter
 
 ```{commande} compta-ajouter
 Permet d'ajouter une transaction au fichier de comptabilité.
