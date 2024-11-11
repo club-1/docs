@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=92d4098f"></script>
+        <script src="../_static/documentation_options.js?v=cf5ed81c"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -160,10 +160,9 @@ situé au niveau du chemin suivant :</p>
 </div>
 <p>Comme son extension l’indique, il s’agît d’un fichier TSV (<em>Tab Separated Values</em>).
 Chaque ligne de ce fichier représente une transaction.
-À l’intérieur, les différentes valeurs sont séparés par des <em>tabulations</em> (<kbd class="kbd docutils literal notranslate">↹</kbd>).</p>
+À l’intérieur, les différentes valeurs sont séparés par des <em>tabulations</em> (touche <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Tab</kbd> <kbd class="kbd docutils literal notranslate">↹</kbd></kbd>).</p>
 <p>Voici un exemple de ligne :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>id  date        echange  compte               effectué  catégorie  intitulé
-1   2019-01-10  +35      Nicolas Peugnet      x         adhesion   adhésion audrey
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>27   2019-01-10	+35	Nicolas Peugnet	x	adhesion	Adhésion roquefort
 </pre></div>
 </div>
 <p>La première colonne correspond à l’<strong>identifiant unique</strong> de chaque transaction.
@@ -175,6 +174,24 @@ Le <strong>comtpe</strong> qui a dépensé ou reçu l’argent viens ensuite.
 Si le paiement est <strong>effectué</strong>, on ajoute un <code class="docutils literal notranslate"><span class="pre">x</span></code>.
 Les différentes <strong>catégories</strong> sont <code class="docutils literal notranslate"><span class="pre">adhesion</span></code>, <code class="docutils literal notranslate"><span class="pre">don</span></code>, <code class="docutils literal notranslate"><span class="pre">infra</span></code> et <code class="docutils literal notranslate"><span class="pre">autre</span></code>.
 Enfin, l’<strong>ititulé</strong> est une courte description de la transaction.</p>
+<div class="admonition-permissions admonition">
+<p class="admonition-title">Permissions</p>
+<p>Ce fichier est accessible en lecture par tout les utilisateurs.
+Donc n’hésitez pas à jeter un coup d’oeil !</p>
+<p>En revanche, pour écrire dedans, il faut être membre du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
+utilisateurs afin de leur attribuer des droits communs. Un utilisateur
+appartient à un ou plusieurs groupes.
+
+Astuce:
+
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la commande suivante :
+
+     members GROUP
+
+  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
+  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">compta</span></code>.</p>
+</div>
 </section>
 <section id="usage">
 <h2>Usage<a class="headerlink" href="#usage" title="Lien vers cette rubrique">#</a></h2>
@@ -256,7 +273,7 @@ Il est nécessaire de remplir une grande partie des options.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-11-g14ca
+		v: 2024-11-11-g40b5
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
