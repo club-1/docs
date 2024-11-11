@@ -10,8 +10,7 @@ qui va se charger essentiellement de la synchro : __DAVx{sup}`5`__.
 
 Cette application est payante (6€) sur le magasin d'applications de Google
 ou gratuite sur [F-Droid](https://fr.wikipedia.org/wiki/F-Droid)
-(un magasin alternatif, proposant uniquement des appli
-[*open sources*](https://fr.wikipedia.org/wiki/Open_source) et sans pubs).
+(un magasin alternatif, proposant uniquement des applis {term}`libres <logiciel libre>` et sans pubs).
 
 - [F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)
 - [Google Play store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=fr&gl=FR) (6€)
@@ -139,7 +138,7 @@ vos contacts et/ou calendriers entre le serveur CLUB1 et un appareil *Android*.
 Les carnets d'adresses et agendas ainsi synchronisés sont maintenant accessibles
 via l'appli de contact de votre choix et l'appli de calendrier de votre choix.
 
-Si vous préferez utiliser des applis *open sources* et non orientés *Google*,
+Si vous préferez utiliser des applis {term}`libres <logiciel libre>` et non orientés *Google*,
 nous vous recommandons __Fossify Contacts__ et __Fossify Calendrier__.
 
 - __Fossify Contacts__: [F-Droid](https://f-droid.org/fr/packages/org.fossify.contacts/)
