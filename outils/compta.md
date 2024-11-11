@@ -21,7 +21,7 @@ Chaque ligne de ce fichier représente une transaction.
 
 Voici un exemple de ligne :
 
-    27   2019-01-10	+35	Nicolas Peugnet	x	adhesion	Adhésion roquefort
+    27	2019-01-10	+35	Nicolas Peugnet	x	adhesion	Adhésion roquefort
 
 La première colonne correspond à l'**identifiant unique** de chaque transaction.
 Ce nombre doit toujours augmenter.
@@ -34,10 +34,9 @@ Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
 Enfin, l'**ititulé** est une courte description de la transaction.
 
 
-```{admonition} Permissions
+```{admonition} {term}`permissions`
 Ce fichier est accessible en lecture par tout les utilisateurs.
 Donc n'hésitez pas à jeter un coup d'oeil !
-
 En revanche, pour écrire dedans, il faut être membre du {term}`groupe` `compta`.
 ```
 
