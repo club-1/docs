@@ -3,15 +3,15 @@ Comptabilité
 
 CLUB1 n'utilise pas de compte en banque dédié.
 Au lieu de ça, les membres qui ont dépensé de l'argent notent ces dépenses dans un [fichier de transaction](#fichier-de-transactions).
-Lorsque qu'il y a des adhésions sont payés ou que l'on reçoit des dons,
-ceux ci sont reviennent à l'une de personne qui a une balance négative.
+Lorsque des adhésions sont payés ou que l'on reçoit des dons,
+ceux ci sont transférés à l'une de personne qui a une balance négative.
 
 
 Fichier de transactions
 -----------------------
 
 La comptabilité du club est consigné sur le serveur à l'aider d'un fichier de transaction.
-situé au niveau du chemin suivant :
+Il se situe au niveau du chemin suivant :
 
     /var/compta/transactions.tsv
 
@@ -31,7 +31,7 @@ On indique un `+` ou un `-` devant pour indiquer si c'est de l'argent qui entre 
 Le **comtpe** qui a dépensé ou reçu l'argent viens ensuite.
 Si le paiement est **effectué**, on ajoute un `x`.
 Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
-Enfin, l'**ititulé** est une courte description de la transaction.
+Enfin, viens l'**intitulé**, qui est une courte description de la transaction.
 
 
 ```{admonition} Permissions
@@ -64,14 +64,14 @@ Interface conviviale de gestion de la comptabilité de CLUB1.
 ```
 
 
-### Commandes préçises pour un usage avancé
+### Commandes pour un usage avancé
 
-Le utilisateurs plus habitués à l'utilisation de la {term}`CLI`
-peuvent directement utiliser ces deux sous commandes.
+Les utilisateurs plus habitués à l'utilisation de la {term}`CLI`
+peuvent directement utiliser ces deux commandes.
 
 ```{commande} compta-voir
 Permet de consulter rapidement le contenu du fichier de comptabilité.
-Il est possible de filtrer ou même d'afficher le total en ajoutant des options.
+Il est possible de filtrer ou même d'afficher le total, en fournissant des options.
 ```
 
 ```{commande} compta-ajouter
