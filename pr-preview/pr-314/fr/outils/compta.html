@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=be44a24a"></script>
+        <script src="../_static/documentation_options.js?v=a58a3e3b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -95,7 +95,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#fichier-de-transactions">Fichier de transactions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#interface-sympathique">Interface sympathique</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#commandes-precises-pour-un-usage-avance">Commandes préçises pour un usage avancé</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#commandes-pour-un-usage-avance">Commandes pour un usage avancé</a></li>
 </ul>
 </li>
 </ul>
@@ -149,12 +149,12 @@
 <h1>Comptabilité<a class="headerlink" href="#comptabilite" title="Lien vers cette rubrique">#</a></h1>
 <p>CLUB1 n’utilise pas de compte en banque dédié.
 Au lieu de ça, les membres qui ont dépensé de l’argent notent ces dépenses dans un <a class="reference internal" href="#fichier-de-transactions">fichier de transaction</a>.
-Lorsque qu’il y a des adhésions sont payés ou que l’on reçoit des dons,
-ceux ci sont reviennent à l’une de personne qui a une balance négative.</p>
+Lorsque des adhésions sont payés ou que l’on reçoit des dons,
+ceux ci sont transférés à l’une de personne qui a une balance négative.</p>
 <section id="fichier-de-transactions">
 <h2>Fichier de transactions<a class="headerlink" href="#fichier-de-transactions" title="Lien vers cette rubrique">#</a></h2>
 <p>La comptabilité du club est consigné sur le serveur à l’aider d’un fichier de transaction.
-situé au niveau du chemin suivant :</p>
+Il se situe au niveau du chemin suivant :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/var/compta/transactions.tsv
 </pre></div>
 </div>
@@ -173,7 +173,7 @@ On indique un <code class="docutils literal notranslate"><span class="pre">+</sp
 Le <strong>comtpe</strong> qui a dépensé ou reçu l’argent viens ensuite.
 Si le paiement est <strong>effectué</strong>, on ajoute un <code class="docutils literal notranslate"><span class="pre">x</span></code>.
 Les différentes <strong>catégories</strong> sont <code class="docutils literal notranslate"><span class="pre">adhesion</span></code>, <code class="docutils literal notranslate"><span class="pre">don</span></code>, <code class="docutils literal notranslate"><span class="pre">infra</span></code> et <code class="docutils literal notranslate"><span class="pre">autre</span></code>.
-Enfin, l’<strong>ititulé</strong> est une courte description de la transaction.</p>
+Enfin, viens l’<strong>intitulé</strong>, qui est une courte description de la transaction.</p>
 <div class="admonition-permissions admonition">
 <p class="admonition-title">Permissions</p>
 <p>Ce fichier est accessible en lecture par tout les utilisateurs.
@@ -220,18 +220,18 @@ Elle ne fait que poser des questions.</p>
 </dd></dl>
 
 </section>
-<section id="commandes-precises-pour-un-usage-avance">
-<h3>Commandes préçises pour un usage avancé<a class="headerlink" href="#commandes-precises-pour-un-usage-avance" title="Lien vers cette rubrique">#</a></h3>
-<p>Le utilisateurs plus habitués à l’utilisation de la <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+<section id="commandes-pour-un-usage-avance">
+<h3>Commandes pour un usage avancé<a class="headerlink" href="#commandes-pour-un-usage-avance" title="Lien vers cette rubrique">#</a></h3>
+<p>Les utilisateurs plus habitués à l’utilisation de la <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
 [terminal]. La CLI est très intéressante car elle peut aussi bien être
 utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>
-peuvent directement utiliser ces deux sous commandes.</p>
+peuvent directement utiliser ces deux commandes.</p>
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-compta-voir">
 <span class="sig-name descname"><span class="pre">compta-voir</span></span><a class="headerlink" href="#commande-compta-voir" title="Lien vers cette définition">#</a></dt>
 <dd><p>Permet de consulter rapidement le contenu du fichier de comptabilité.
-Il est possible de filtrer ou même d’afficher le total en ajoutant des options.</p>
+Il est possible de filtrer ou même d’afficher le total, en fournissant des options.</p>
 </dd></dl>
 
 <dl class="std commande">
@@ -273,7 +273,7 @@ Il est nécessaire de remplir une grande partie des options.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-11-g9a6b
+		v: 2024-11-12-g19d2
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
