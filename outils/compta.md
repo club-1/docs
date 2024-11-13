@@ -2,22 +2,22 @@ Comptabilité
 ============
 
 CLUB1 n'utilise pas de compte en banque dédié.
-Au lieu de ça, les membres qui ont dépensé de l'argent notent ces dépenses dans un [fichier de transaction](#fichier-de-transactions).
-Lorsque des adhésions sont payés ou que l'on reçoit des dons,
-ceux ci sont transférés à l'une de personne qui a une balance négative.
+Au lieu de ça, les membres qui ont dépensé de l'argent notent ces dépenses dans un [fichier de transactions](#fichier-de-transactions).
+Lorsque des adhésions sont payées ou que l'on reçoit des dons,
+ceux-ci sont transférés à l'une des personnes qui ont une balance négative.
 
 
 Fichier de transactions
 -----------------------
 
-La comptabilité du club est consigné sur le serveur à l'aider d'un fichier de transaction.
-Il se situe au niveau du chemin suivant :
+La comptabilité du club est consignée sur le serveur à l'aider d'un fichier de transactions.
+Il se situe au chemin suivant :
 
     /var/compta/transactions.tsv
 
-Comme son extension l'indique, il s'agît d'un fichier TSV (*Tab Separated Values*).
+Comme son extension l'indique, il s'agit d'un fichier TSV (*Tab Separated Values*).
 Chaque ligne de ce fichier représente une transaction.
-À l'intérieur, les différentes valeurs sont séparés par des *tabulations* (touche {kbd}`Tab ↹`).
+À l'intérieur, les différentes valeurs sont séparées par des *tabulations* (touche {kbd}`Tab ↹`).
 
 Voici un exemple de ligne :
 
@@ -28,7 +28,7 @@ Ce nombre doit toujours augmenter.
 Ensuite, c'est la **date d'ajout** de la transaction.
 Puis le **montant** de cette dernière.
 On indique un `+` ou un `-` devant pour indiquer si c'est de l'argent qui entre ou qui sort.
-Le **comtpe** qui a dépensé ou reçu l'argent viens ensuite.
+Le **compte** qui a dépensé ou reçu l'argent viens ensuite.
 Si le paiement est **effectué**, on ajoute un `x`.
 Les différentes **catégories** sont `adhesion`, `don`, `infra` et `autre`.
 Enfin, viens l'**intitulé**, qui est une courte description de la transaction.
