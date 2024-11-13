@@ -12,6 +12,7 @@ meta-doc
 forum
 aliases
 newsletter
+compta
 ldap
 dns
 sauvegardes
