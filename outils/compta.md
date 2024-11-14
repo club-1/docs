@@ -67,7 +67,7 @@ Interface conviviale de gestion de la comptabilité de CLUB1.
 ### Commandes pour un usage avancé
 
 Les utilisateurs plus habitués à l'utilisation de la {term}`CLI`
-peuvent directement utiliser ces deux commandes.
+peuvent directement utiliser les commandes suivantes.
 
 ```{commande} compta-voir
 Permet de consulter rapidement le contenu du fichier de comptabilité.
@@ -77,4 +77,14 @@ Il est possible de filtrer ou même d'afficher le total, en fournissant des opti
 ```{commande} compta-ajouter
 Permet d'ajouter une transaction au fichier de comptabilité.
 Il est nécessaire de remplir une grande partie des options.
+```
+
+```{commande} compta-effectuer
+Permet de marquer une transaction comme "effectuée".
+Il faut connaître l'identifiant de la transaction que l'on veut modifier.
+```
+
+```{tip}
+Elles disposent chacunes d'une aide, qui décrit leur fonctionnement.
+Elle s'affiche avec l'option `-h`.
 ```
