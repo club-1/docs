@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2024-07-27 15:15+0200\n"
+"POT-Creation-Date: 2024-11-15 17:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -421,9 +421,9 @@ msgstr ""
 
 #: ../../glossaire.md:14
 msgid ""
-"Actuellement, deux version d'adresses IP sont utilisées : La version 4 qui "
+"Actuellement, deux versions d'adresses IP sont utilisées : La version 4 qui "
 "s'écrit sous la forme de nombres séparés par des points (ex : `87.91.4.64` "
-"pour le serveur de CLUB1). Et la version 6 qui utilise des nombre beaucoup "
+"pour le serveur de CLUB1). Et la version 6 qui utilise des nombres beaucoup "
 "plus grands et qui s'écrit en hexadécimal (ex : `2001:861:38c4:18a0::3` pour "
 "le serveur de CLUB1). --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Adresse_IP)"
@@ -444,19 +444,18 @@ msgstr ""
 
 #: ../../glossaire.md:29
 msgid ""
-"De l'anglais _Application Programming Interface_. Interface destinée à être "
-"utilisée non pas par un être humain mais par un logiciel. Elle est en "
-"général composée d'un ensemble de fonctions qu'un logiciel peut utiliser à "
-"distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-"Interface_de_programmation)"
+"(_Application Programming Interface_) Interface destinée à être utilisée non "
+"pas par un être humain mais par un logiciel. Elle est en général composée "
+"d'un ensemble de fonctions qu'un logiciel peut utiliser à distance. --- "
+"[Wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation)"
 msgstr ""
 
 #: ../../glossaire.md:35
 msgid ""
-"De L'anglais _Command Line Interface_. Interface en ligne de commande, basée "
-"sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre "
-"de {term}`terminal`. La CLI est très intéressante car elle peut aussi bien "
-"être utilisée par des humain&middot;e&middot;s que par des logiciels. --- "
+"(_Command Line Interface_) Interface en ligne de commande, basée sur un "
+"affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre de {term}"
+"`terminal`. La CLI est très intéressante car elle peut aussi bien être "
+"utilisée par des humain&middot;e&middot;s que par des logiciels. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgstr ""
 
@@ -521,13 +520,13 @@ msgstr ""
 
 #: ../../glossaire.md:73
 msgid ""
-"Service web d'hébergement et de gestion de développement de logiciels, "
-"utilisant le logiciel de gestion de versions {logiciel}`Git`."
+"Service {term}`Web` d'hébergement et de gestion de développement de "
+"logiciels, utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
 
 #: ../../glossaire.md:77
 msgid ""
-"Contrairement à la plupart des projets que l'on peut y trouver, Github n'est "
+"Contrairement à la plupart des projets que l'on peut y trouver, GitHub n'est "
 "ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
 "Microsoft."
 msgstr ""
@@ -676,7 +675,42 @@ msgid ""
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
 msgstr ""
 
+#: ../../glossaire.md:153
+msgid "permissions"
+msgstr ""
+
 #: ../../glossaire.md:161
+msgid ""
+"Dans un système {term}`POSIX`, il est possible d'attribuer des permissions "
+"aux fichiers et aux dossiers. Elles permettent d'accorder ou non des droits "
+"à des utilisateurs ou a des {term}`groupes <groupe>` sur ces fichiers et "
+"dossiers."
+msgstr ""
+
+#: ../../glossaire.md:165
+msgid ""
+"Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x)."
+msgstr ""
+
+#: ../../glossaire.md:167
+msgid "Récapitulatif des permisions"
+msgstr ""
+
+#: ../../glossaire.md:178
+msgid ""
+"Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/"
+"dossier, soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ "
+"utilisateurs."
+msgstr ""
+
+#: ../../glossaire.md:181
+msgid ""
+"Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -"
+"l` et modifiées avec `chmod`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Permissions_UNIX)"
+msgstr ""
+
+#: ../../glossaire.md:185
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -686,26 +720,26 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:169
+#: ../../glossaire.md:193
 msgid ""
-"(_Portable Operating System Interface_) ensemble de normes techniques qui "
+"(_Portable Operating System Interface_) Ensemble de normes techniques qui "
 "spécifient une interface, permettant aux systèmes d'exploitation qui la "
 "respectent d'être interchangeables, du point de vue d'un logiciel "
 "utilisateur."
 msgstr ""
 
-#: ../../glossaire.md:173
+#: ../../glossaire.md:197
 msgid ""
 "{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia."
 "org/wiki/POSIX#POSIX-oriented_operating_systems) respectent cette interface, "
 "contrairement à Windows. --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)"
 msgstr ""
 
-#: ../../glossaire.md:170
+#: ../../glossaire.md:194
 msgid "protocole"
 msgstr ""
 
-#: ../../glossaire.md:178
+#: ../../glossaire.md:202
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
@@ -713,33 +747,33 @@ msgid ""
 "org/wiki/Protocole_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:176
+#: ../../glossaire.md:200
 msgid "registraire"
 msgstr ""
 
-#: ../../glossaire.md:184
+#: ../../glossaire.md:208
 msgid ""
-"Registraire de {term}`nom de domaine`. Société ou une association gérant la "
+"Registraire de {term}`nom de domaine`. Société ou association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:181
+#: ../../glossaire.md:205
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:189
+#: ../../glossaire.md:213
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:185
+#: ../../glossaire.md:209
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:193
+#: ../../glossaire.md:217
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -749,11 +783,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:193
+#: ../../glossaire.md:217
 msgid "site Web dynamique"
 msgstr ""
 
-#: ../../glossaire.md:201
+#: ../../glossaire.md:225
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -761,11 +795,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
 
-#: ../../glossaire.md:199
+#: ../../glossaire.md:223
 msgid "site Web statique"
 msgstr ""
 
-#: ../../glossaire.md:207
+#: ../../glossaire.md:231
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -775,11 +809,11 @@ msgid ""
 "Page_web_statique)"
 msgstr ""
 
-#: ../../glossaire.md:206
+#: ../../glossaire.md:230
 msgid "terminal"
 msgstr ""
 
-#: ../../glossaire.md:214
+#: ../../glossaire.md:238
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -787,7 +821,7 @@ msgid ""
 "textuelle, permettant d'entrer des commandes et d'en lire le résultat."
 msgstr ""
 
-#: ../../glossaire.md:218
+#: ../../glossaire.md:242
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -795,14 +829,14 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:223
+#: ../../glossaire.md:247
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
 
-#: ../../glossaire.md:229
+#: ../../glossaire.md:253
 msgid ""
 "(_Transport Layer Security_) Protocole permettant de sécuriser les échanges "
 "réalisés dans un {term}`réseau informatique`. L'une de ses fonctionnalités "
@@ -812,18 +846,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:229
+#: ../../glossaire.md:253
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:237
+#: ../../glossaire.md:261
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:241
+#: ../../glossaire.md:265
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -832,7 +866,7 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../glossaire.md:247
+#: ../../glossaire.md:271
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
@@ -983,9 +1017,9 @@ msgstr ""
 #: ../../outils/dns.md:59 ../../outils/ldap.md:60
 #: ../../outils/sauvegardes.md:168 ../../services/drive.md:18
 #: ../../services/email.md:163 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/matrix.md:231
+#: ../../services/git.md:90 ../../services/matrix.md:202
 #: ../../services/rss.md:57 ../../services/sql.md:56 ../../services/ssh.md:172
-#: ../../services/web.md:155 ../../services/webcast.md:40
+#: ../../services/web.md:162 ../../services/webcast.md:40
 #: ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
@@ -1575,11 +1609,11 @@ msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:18
 msgid ""
-"Les données personnelles sont protégées par les permissions {term}`POSIX`. "
-"Par defaut l'[espace personnel](./espace-personnel.md) n'est pas accessible "
-"par les autres utilisateurs (à part en lecture par les membres du {term}"
-"`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est libre de "
-"changer les permissions de son espace perso."
+"Les données personnelles sont protégées par les {term}`permissions` {term}"
+"`POSIX`. Par defaut l'[espace personnel](./espace-personnel.md) n'est pas "
+"accessible par les autres utilisateurs (à part en lecture par les membres du "
+"{term}`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est libre "
+"de changer les permissions de son espace perso."
 msgstr ""
 
 #: ../../info/politique-de-vie-privee.md:23
@@ -1699,10 +1733,10 @@ msgid ""
 "respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/aliases.5."
 "html). En plus de rediriger les emails vers d'autres adresses, elle permet "
 "de les envoyer vers des fichiers ou des commandes. Dans ce cas, il faut "
-"faire attention aux permissions requises pour créer les fichiers et exécuter "
-"les commandes. Ces actions sont réalisées avec les droits de l'utilisateur "
-"correspondant à l'alias s'il existe et sinon, sur CLUB1, avec l'utilisateur "
-"`nobody` et le {term}`groupe` `mail`."
+"faire attention aux {term}`permissions` requises pour créer les fichiers et "
+"exécuter les commandes. Ces actions sont réalisées avec les droits de "
+"l'utilisateur correspondant à l'alias s'il existe et sinon, sur CLUB1, avec "
+"l'utilisateur `nobody` et le {term}`groupe` `mail`."
 msgstr ""
 
 #: ../../outils/aliases.md:76
@@ -1710,6 +1744,130 @@ msgid ""
 "La [section \"Delivery Rights\" de la page local du manuel de Postfix]"
 "(https://manpages.debian.org/bullseye/postfix/local.8postfix.en."
 "html#DELIVERY_RIGHTS)."
+msgstr ""
+
+#: ../../outils/compta.md:1
+msgid "Comptabilité"
+msgstr ""
+
+#: ../../outils/compta.md:4
+msgid ""
+"CLUB1 n'utilise pas de compte en banque dédié. Au lieu de ça, les membres "
+"qui ont dépensé de l'argent notent ces dépenses dans un [fichier de "
+"transactions](#fichier-de-transactions). Lorsque des adhésions sont payées "
+"ou que l'on reçoit des dons, ceux-ci sont transférés à l'une des personnes "
+"qui ont une balance négative."
+msgstr ""
+
+#: ../../outils/compta.md:10
+msgid "Fichier de transactions"
+msgstr ""
+
+#: ../../outils/compta.md:13
+msgid ""
+"La comptabilité du club est consignée sur le serveur à l'aider d'un fichier "
+"de transactions. Il se situe au chemin suivant :"
+msgstr ""
+
+#: ../../outils/compta.md:18
+msgid ""
+"Comme son extension l'indique, il s'agit d'un fichier TSV (*Tab Separated "
+"Values*). Chaque ligne de ce fichier représente une transaction. À "
+"l'intérieur, les différentes valeurs sont séparées par des *tabulations* "
+"(touche {kbd}`Tab ↹`)."
+msgstr ""
+
+#: ../../outils/compta.md:22
+msgid "Voici un exemple de ligne :"
+msgstr ""
+
+#: ../../outils/compta.md:26
+msgid ""
+"La première colonne correspond à l'**identifiant unique** de chaque "
+"transaction. Ce nombre doit toujours augmenter. Ensuite, c'est la **date "
+"d'ajout** de la transaction. Puis le **montant** de cette dernière. On "
+"indique un `+` ou un `-` devant pour indiquer si c'est de l'argent qui entre "
+"ou qui sort. Le **compte** qui a dépensé ou reçu l'argent viens ensuite. Si "
+"le paiement est **effectué**, on ajoute un `x`. Les différentes "
+"**catégories** sont `adhesion`, `don`, `infra` et `autre`. Enfin, viens "
+"l'**intitulé**, qui est une courte description de la transaction."
+msgstr ""
+
+#: ../../outils/compta.md:37
+msgid "Permissions"
+msgstr ""
+
+#: ../../outils/compta.md:38
+msgid ""
+"Ce fichier est accessible en lecture par tout les utilisateurs. Donc "
+"n'hésitez pas à jeter un coup d'oeil ! En revanche, pour écrire dedans, il "
+"faut être membre du {term}`groupe` `compta`."
+msgstr ""
+
+#: ../../outils/compta.md:44
+msgid "Usage"
+msgstr ""
+
+#: ../../outils/compta.md:47
+msgid ""
+"Pour étudier ou modifier la liste des transactions, il suffit d'ouvrir le "
+"fichier dans un éditeur de texte. Mais bon, c'est pas forcément hyper "
+"confortable. Pour palier à cela, il est possible d'utiliser des commandes "
+"une fois que l'on est [connecté au serveur en SSH](/services/ssh.md)."
+msgstr ""
+
+#: ../../outils/compta.md:53
+msgid ""
+"En fonction de votre familiarité avec le {term}`terminal`, deux options "
+"s'offrent à vous :"
+msgstr ""
+
+#: ../../outils/compta.md:57
+msgid "Interface sympathique"
+msgstr ""
+
+#: ../../outils/compta.md:59
+msgid ""
+"Cette interface est faite pour être le plus simple possible. Elle ne fait "
+"que poser des questions."
+msgstr ""
+
+#: ../../outils/compta.md:63
+msgid "Interface conviviale de gestion de la comptabilité de CLUB1."
+msgstr ""
+
+#: ../../outils/compta.md:67
+msgid "Commandes pour un usage avancé"
+msgstr ""
+
+#: ../../outils/compta.md:69
+msgid ""
+"Les utilisateurs plus habitués à l'utilisation de la {term}`CLI` peuvent "
+"directement utiliser les commandes suivantes."
+msgstr ""
+
+#: ../../outils/compta.md:73
+msgid ""
+"Permet de consulter rapidement le contenu du fichier de comptabilité. Il est "
+"possible de filtrer ou même d'afficher le total, en fournissant des options."
+msgstr ""
+
+#: ../../outils/compta.md:78
+msgid ""
+"Permet d'ajouter une transaction au fichier de comptabilité. Il est "
+"nécessaire de remplir une grande partie des options."
+msgstr ""
+
+#: ../../outils/compta.md:83
+msgid ""
+"Permet de marquer une transaction comme \"effectuée\". Il faut connaître "
+"l'identifiant de la transaction que l'on veut modifier."
+msgstr ""
+
+#: ../../outils/compta.md:88
+msgid ""
+"Elles disposent chacunes d'une aide, qui décrit leur fonctionnement. Elle "
+"s'affiche avec l'option `-h`."
 msgstr ""
 
 #: ../../outils/dashboard.md:1
@@ -2721,7 +2879,7 @@ msgid ""
 "particulières."
 msgstr ""
 
-#: ../../outils/newsletter.md:48 ../../services/web.md:121
+#: ../../outils/newsletter.md:48 ../../services/web.md:128
 msgid "Gestion"
 msgstr ""
 
@@ -3963,34 +4121,40 @@ msgstr ""
 
 #: ../../services/matrix.md:166
 msgid ""
-"Le serveur CLUB1 a des [ressources limitées](../info/infrastructure-"
-"materielle.md#serveur), il ne peut donc pas accueillir et conserver toutes "
-"les discussions à l'infini. Nous avons ainsi configuré {logiciel}`Synapse` "
-"en conséquence :"
+"L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques "
+"configurations spécifiques."
 msgstr ""
 
-#: ../../services/matrix.md:227
+#: ../../services/matrix.md:179
+msgid ""
+"Le serveur a des [ressources limitées](../info/infrastructure-materielle."
+"md#serveur), il ne peut donc pas accueillir et conserver toutes les "
+"discussions indéfiniment. C'est pourquoi les paramètres suivants ont été "
+"modifiés."
+msgstr ""
+
+#: ../../services/matrix.md:198
 msgid ""
 "L'article de journal \"[Nouveaux réglages du serveur Matrix](https://club1."
 "fr/serveur-matrix-suivi-001)\""
 msgstr ""
 
-#: ../../services/matrix.md:228
+#: ../../services/matrix.md:199
 msgid ""
 "Le post de forum \"[Limiter les salons fédérés en fonction de leur "
 "complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-"
 "fonction-de-leur-complexite/12)\""
 msgstr ""
 
-#: ../../services/matrix.md:235
+#: ../../services/matrix.md:206
 msgid ""
 "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
 "l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
-"qui soit annoncée comme \"stable\". --- [Sources](https://github.com/matrix-"
-"org/synapse)"
+"qui soit annoncée comme \"stable\". --- [Sources](https://github.com/element-"
+"hq/synapse)"
 msgstr ""
 
-#: ../../services/matrix.md:242
+#: ../../services/matrix.md:213
 msgid ""
 "{term}`Client` {term}`Matrix` complet (anciennement \"Riot\") disponible sur "
 "de nombreuses plateformes. CLUB1 héberge une {term}`instance` de la version "
@@ -4503,36 +4667,45 @@ msgid ""
 "dossier pour les projets Web `www` (pour *World Wide Web*) :"
 msgstr ""
 
-#: ../../services/web.md:57
+#: ../../services/web.md:58
+msgid ""
+"Publier un dossier sur le Web augmente fortement le **risque de piratage**. "
+"D'autant plus si vous utilisez des {term}`sites Web dynamiques<site Web "
+"dynamique>` : du code {term}`PHP` sera exectué et aura **accès à tout votre "
+"dossier personnel** (Il pourra créer, modifier ou supprimer des fichiers "
+"librement)."
+msgstr ""
+
+#: ../../services/web.md:64
 msgid ""
 "Ensuite, il faut choisir un {term}`nom de domaine` associé à ce site. Vous "
 "avez deux possibilités :"
 msgstr ""
 
-#: ../../services/web.md:60
+#: ../../services/web.md:67
 msgid ""
 "[Utiliser un sous domaine de `club1.fr`](#utiliser-un-sous-domaine-de-"
 "club1fr) *en mode familial*"
 msgstr ""
 
-#: ../../services/web.md:61
+#: ../../services/web.md:68
 msgid ""
 "[Louer un nom de domaine](#louer-un-nom-de-domaine-externe) *Pour faire pro !"
 "*"
 msgstr ""
 
-#: ../../services/web.md:64
+#: ../../services/web.md:71
 msgid "Utiliser un sous domaine de `club1.fr`"
 msgstr ""
 
-#: ../../services/web.md:66
+#: ../../services/web.md:73
 msgid ""
 "Pour faciliter la création de projets et aider à la spontanéité, "
 "l'utilisation de **sous-domaines** de `club1.fr` par les membres est "
 "encouragée !"
 msgstr ""
 
-#: ../../services/web.md:69
+#: ../../services/web.md:76
 msgid ""
 "Cela a l'avantage d'être **gratuit**, et de ne nécessiter **aucun "
 "entretien**, contrairement à la [location d'un nom de domaine](#louer-un-nom-"
@@ -4541,7 +4714,7 @@ msgid ""
 "ou intéressant en fonction des projets."
 msgstr ""
 
-#: ../../services/web.md:76
+#: ../../services/web.md:83
 msgid ""
 "Il est possible à tout moment de rediriger un **sous-domaine** de `club1.fr` "
 "vers n'importe quel autre domaine de votre choix. Cela permet par exemple de "
@@ -4549,25 +4722,25 @@ msgid ""
 "casser aucun lien !"
 msgstr ""
 
-#: ../../services/web.md:82
+#: ../../services/web.md:89
 msgid ""
 "Pour demander un **sous-domaine** de `club1.fr`, il faut [contacter "
 "l'administrateur système](#gestion), en spécifiant vers quel dossier dans "
 "son espace personnel devra pointer le domaine."
 msgstr ""
 
-#: ../../services/web.md:87
+#: ../../services/web.md:94
 msgid ""
 "Pensez à vérifier que le **sous-domaine** est disponible avant d'envoyer une "
 "demande ! 😉 Il ne doit être composé que de lettres minuscules, chiffres ou "
 "tirets `-`."
 msgstr ""
 
-#: ../../services/web.md:92
+#: ../../services/web.md:99
 msgid "Avoir des sous-sous-domaine"
 msgstr ""
 
-#: ../../services/web.md:95
+#: ../../services/web.md:102
 msgid ""
 "C'est effectivement possible de descendre encore un niveau dans la filiation "
 "de domaine. Par exemple, si l'on utilise déjà `yaourt.club1.fr`, on peut "
@@ -4577,40 +4750,40 @@ msgid ""
 "les sous.sous.domaines 🐌 !"
 msgstr ""
 
-#: ../../services/web.md:101
+#: ../../services/web.md:108
 msgid "Louer un nom de domaine externe"
 msgstr ""
 
-#: ../../services/web.md:103
+#: ../../services/web.md:110
 msgid ""
 "Il est possible de louer un nom de domaine chez un {term}`registraire`. Cela "
 "coûte souvent une dizaine d'euros par an, mais cela peut varier en fonction "
 "du {term}`TLD` choisi."
 msgstr ""
 
-#: ../../services/web.md:107
+#: ../../services/web.md:114
 msgid ""
-"Il faut distinguer hébergement et location de nom de domaine ! L'hébergement "
-"stocke les fichiers d'un site et les publie sur le {term}`web` à une {term}"
-"`adresse IP` spécifique, tandis qu'un {term}`nom de domaine` est une "
-"interface plus agréable pour les humains, sensée pointer vers l'adresse IP "
-"d'un serveur."
+"Il faut distinguer \"hébergement\" et \"location de nom de domaine\" ! "
+"L'hébergement stocke les fichiers d'un site et les publie sur le {term}`web` "
+"à une {term}`adresse IP` spécifique, tandis qu'un {term}`nom de domaine` est "
+"une interface plus agréable pour les humains, sensée pointer vers l'adresse "
+"IP d'un serveur."
 msgstr ""
 
-#: ../../services/web.md:113
+#: ../../services/web.md:120
 msgid ""
 "Il est donc parfaitement possible d'avoir un site Web hébergé sur le serveur "
 "CLUB1 sans utiliser un sous domaine de `club1.fr`."
 msgstr ""
 
-#: ../../services/web.md:116
+#: ../../services/web.md:123
 msgid ""
 "Avant d'acheter votre dom de domaine, prenez le temps d'en [discuter]"
 "(#gestion) ! Il va y avoir une petite série de réglages à faire et ça vaut "
 "le coup d'en parler pour que tout se passe bien."
 msgstr ""
 
-#: ../../services/web.md:123
+#: ../../services/web.md:130
 msgid ""
 "Aucune de ces actions n'est automatisée ni accessibles via une interface "
 "web. Il est donc **nécessaire d'en discuter entre humain&middot;e&middot;s** "
@@ -4618,37 +4791,37 @@ msgid ""
 "humaine de la gestion du serveur."
 msgstr ""
 
-#: ../../services/web.md:127
+#: ../../services/web.md:134
 msgid ""
 "Pour associer un de vos dossiers avec un nom de domaine, il faut envoyer un "
 "email à <webmaster@club1.fr> indiquant le chemin de votre dossier et le nom "
 "de domaine choisi."
 msgstr ""
 
-#: ../../services/web.md:130
+#: ../../services/web.md:137
 msgid "Par exemple :"
 msgstr ""
 
-#: ../../services/web.md:135
+#: ../../services/web.md:142
 msgid "Avancé"
 msgstr ""
 
-#: ../../services/web.md:138
+#: ../../services/web.md:145
 msgid "Quelques techniques liées à l'hébergement de site Web sur le serveur."
 msgstr ""
 
-#: ../../services/web.md:140
+#: ../../services/web.md:147
 msgid "Index des fichiers"
 msgstr ""
 
-#: ../../services/web.md:142
+#: ../../services/web.md:149
 msgid ""
 "Les sites Web sont servis par le serveur HTTP {logiciel}`Apache`. Il est "
 "configuré pour automatiquement générer un _index_ affichant la liste des "
 "fichiers et dossiers qu'il contient."
 msgstr ""
 
-#: ../../services/web.md:146
+#: ../../services/web.md:153
 msgid ""
 "Pour ne pas afficher cet index, il est possible soit de créer un fichier "
 "`index.html` qui contiendra la page à afficher à la place, soit d'ajouter un "
@@ -4656,7 +4829,7 @@ msgid ""
 "la ligne suivante :"
 msgstr ""
 
-#: ../../services/web.md:159
+#: ../../services/web.md:166
 msgid ""
 "{term}`Serveur` HTTP principalement axé sur les performances. Chez CLUB1, il "
 "est surtout utilisé en tant que \"point de terminaison {term}`TLS`\" et "
@@ -4665,28 +4838,29 @@ msgid ""
 "NGINX), [Sources](https://hg.nginx.org/nginx)"
 msgstr ""
 
-#: ../../services/web.md:167
+#: ../../services/web.md:174
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license {term}`libre "
 "<logiciel libre>`. HTTP étant le {term}`protocole` du {term}`Web` on parle "
-"aussi souvent de \"serveur Web\"."
+"aussi souvent de \"serveur Web\". \"Apache\" est en fait un raccourci pour "
+"désigner \"Apache httpd\"."
 msgstr ""
 
-#: ../../services/web.md:170
+#: ../../services/web.md:178
 msgid ""
-"Apache est intéressant pour l'hébergement de pages Web personnelles, car il "
-"peut être configuré en cours d'exécution et par les utilisaturs finaux grâce "
-"aux fichiers `.htaccess`."
+"Il est intéressant pour l'hébergement de pages Web personnelles, car il peut "
+"être configuré en cours d'exécution et par les utilisaturs finaux grâce aux "
+"fichiers `.htaccess`."
 msgstr ""
 
-#: ../../services/web.md:174
+#: ../../services/web.md:182
 msgid ""
 "Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
 "inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Apache_HTTP_Server), [Sources](https://github.com/apache/httpd)"
 msgstr ""
 
-#: ../../services/web.md:180
+#: ../../services/web.md:188
 msgid ""
 "Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` {term}"
 "`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
@@ -5959,108 +6133,108 @@ msgstr ""
 #: ../../tutos/webdav-android.md:11
 msgid ""
 "Cette application est payante (6€) sur le magasin d'applications de Google "
-"ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid) (un magasin "
-"alternatif, proposant uniquement des appli [*open sources*](https://fr."
-"wikipedia.org/wiki/Open_source) et sans pubs)."
+"ou gratuite sur [F-Droid](https://fr.wikipedia.org/wiki/F-Droid) (un magasin "
+"alternatif, proposant uniquement des applis {term}`libres <logiciel libre>` "
+"et sans pubs)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:16
+#: ../../tutos/webdav-android.md:15
 msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:17
+#: ../../tutos/webdav-android.md:16
 msgid ""
 "[Google Play store](https://play.google.com/store/apps/details?id=at.bitfire."
 "davdroid&hl=fr&gl=FR) (6€)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:19
+#: ../../tutos/webdav-android.md:18
 msgid "Premier lancement"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:22
+#: ../../tutos/webdav-android.md:21
 msgid ""
 "Lors du lancement de __DAVx{sup}`5`__, ne pas cocher les cases concernant la "
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:30
+#: ../../tutos/webdav-android.md:29
 msgid "capture d'écran gestion des tâches"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:30
+#: ../../tutos/webdav-android.md:29
 msgid "Gestion des tâches."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:33
+#: ../../tutos/webdav-android.md:32
 msgid ""
 "Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
 "tutos-webdav-android-autorisations`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:42
+#: ../../tutos/webdav-android.md:41
 msgid "capture d'écran autorisations"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:42
+#: ../../tutos/webdav-android.md:41
 msgid "Accorder les autorisations."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:45
+#: ../../tutos/webdav-android.md:44
 msgid ""
 "Enfin, pour plus de confort, il est conseillé d'activer la synchro à "
 "intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:53
+#: ../../tutos/webdav-android.md:52
 msgid "capture d'écran synchro à intervalles"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:53
+#: ../../tutos/webdav-android.md:52
 msgid "Synchronisation à intervalles réguliers."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:57
+#: ../../tutos/webdav-android.md:56
 msgid "Ajout du compte DAV"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:60
+#: ../../tutos/webdav-android.md:59
 msgid ""
 "Pour ajouter un nouveau compte de synchro, il faut appuyer sur le bouton "
 "orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:68
+#: ../../tutos/webdav-android.md:67
 msgid "capture d'écran accueil"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:68
+#: ../../tutos/webdav-android.md:67
 msgid "Écran d'accueil de DAVx{sup}`5`."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:71
+#: ../../tutos/webdav-android.md:70
 msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:79
+#: ../../tutos/webdav-android.md:78
 msgid "capture d'écran connexion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:79
+#: ../../tutos/webdav-android.md:78
 msgid "Connexion avec une URL et un nom d'utilisateur."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:82
+#: ../../tutos/webdav-android.md:81
 msgid "URL de base :"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:86
+#: ../../tutos/webdav-android.md:85
 msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:89
+#: ../../tutos/webdav-android.md:88
 msgid ""
 "Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer "
 "un nom pour ce compte qui risque fortement de ressembler à votre adresse "
@@ -6071,19 +6245,19 @@ msgid ""
 "({numref}`fig:tutos-webdav-android-groupes`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:102
+#: ../../tutos/webdav-android.md:101
 msgid "capture d'écran groupes"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:102
+#: ../../tutos/webdav-android.md:101
 msgid "Méthode de stockage des groupes."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:105
+#: ../../tutos/webdav-android.md:104
 msgid "Encore une dernière étape : quoi synchroniser ?"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:107
+#: ../../tutos/webdav-android.md:106
 msgid ""
 "DAVx{sup}`5` nous laisse sélectionner les carnets de contacts et calendriers "
 "que vous souhaitez synchroniser sur votre téléphone ({numref}`fig:tutos-"
@@ -6092,38 +6266,38 @@ msgid ""
 "possible d'accéder et modifier ces réglages  plus tard très facilement."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:118
+#: ../../tutos/webdav-android.md:117
 msgid "capture d'écran sélection"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:118
+#: ../../tutos/webdav-android.md:117
 msgid "Liste des carnets d'adresses disponibles."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:122
+#: ../../tutos/webdav-android.md:121
 msgid ""
 "Par défaut, même si vous n'avez pas encore créé de carnets ou d'agendas, il "
 "y en aura toujours un qui s'appelle : \"Default\"."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:126
+#: ../../tutos/webdav-android.md:125
 msgid ""
 "Depuis cette interface, il est également possible de __créer ou supprimer__ "
 "des carnets ou agendas, via le menu en haut à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:129
+#: ../../tutos/webdav-android.md:128
 msgid ""
 "À chaque fois que vous faites des modifications à cet endroit, il est "
 "judicieux de __relancer une synchro__ en appuyant sur le bouton orange en "
 "bas à droite."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:134
+#: ../../tutos/webdav-android.md:133
 msgid "Conclusion"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:137
+#: ../../tutos/webdav-android.md:136
 msgid ""
 "Et voilà ! Si tout va bien, vous avez réussi à synchroniser vos contacts et/"
 "ou calendriers entre le serveur CLUB1 et un appareil *Android*. Les carnets "
@@ -6131,34 +6305,25 @@ msgid ""
 "l'appli de contact de votre choix et l'appli de calendrier de votre choix."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:142
+#: ../../tutos/webdav-android.md:141
 msgid ""
-"Si vous préferez utiliser des applis *open sources* et non orientés "
-"*Google*, nous vous recommandons __Simple Contacts__ et __Simple Calendar__."
+"Si vous préferez utiliser des applis {term}`libres <logiciel libre>` et non "
+"orientés *Google*, nous vous recommandons __Fossify Contacts__ et __Fossify "
+"Calendrier__."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:145
+#: ../../tutos/webdav-android.md:144
 msgid ""
-"[Simple Contacts Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
-"contacts.pro/) sur F-droid"
+"__Fossify Contacts__: [F-Droid](https://f-droid.org/fr/packages/org.fossify."
+"contacts/) -- [Google Play Store](https://play.google.com/store/apps/details?"
+"id=org.fossify.contacts&hl=fr&gl=FR)"
 msgstr ""
 
-#: ../../tutos/webdav-android.md:147
+#: ../../tutos/webdav-android.md:146
 msgid ""
-"[Contact Simple](https://play.google.com/store/apps/details?id=com."
-"simplemobiletools.contacts&hl=fr&gl=FR) sur le Google Play Store"
-msgstr ""
-
-#: ../../tutos/webdav-android.md:149
-msgid ""
-"[Simple Calendar Pro](https://f-droid.org/fr/packages/com.simplemobiletools."
-"calendar.pro/) sur F-droid"
-msgstr ""
-
-#: ../../tutos/webdav-android.md:151
-msgid ""
-"[Calendar Simple](https://play.google.com/store/apps/details?id=com."
-"simplemobiletools.calendar&hl=fr&gl=FR) sur le Google Play Store"
+"__Fossify Calendrier__: [F-Droid](https://f-droid.org/fr/packages/org."
+"fossify.calendar/) -- [Google Play Store](https://play.google.com/store/apps/"
+"details?id=org.fossify.calendar&hl=fr&gl=FR)"
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:1
