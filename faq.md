@@ -43,15 +43,17 @@ mais pas de créer des boîtes de réception supplémentaires.
 
 ### Est il possible d'héberger un site Web avec un domaine externe ?
 
-**C'est possible**, cependant, il y a une contrainte technique :
-⚠️ Il est nécessaire d'utiliser un {term}`nom de domaine` **de niveau 3**.
+**C'est possible**, cependant il y a une contrainte technique :
+⚠️ Il est nécessaire d'utiliser **un {term}`nom de domaine` de niveau 3**.
 
 Par exemple, si vous possedez `crevette.com`,
 il faudra créer `www.crevette.com` qui dirigera vers le serveur club1.
 (Cella peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
 
-cela provient d'une stratégie mise en place pour compenser le fait que
-le serveur CLUB1 ne dispose pas d'une {term}`adresse IP` fixe.
+D'habitude, un nom de domaine est plutôt lié à une {term}`adresse IP`,
+mais **l'adresse IP du serveur CLUB1 n'est pas fixe** 😬.
+En utilisant le nom de domaine à la place,
+on n'a plus qu'un seul endroit à mettre à jour lorsque l'adresse IP du serveur change.
 
 ```{tip}
 Chez certains {term}`registraires <registraire>`,
