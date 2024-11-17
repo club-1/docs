@@ -160,9 +160,9 @@ nom de domaine
 
    On peut les catégoriser par niveaux :
    
-   1. On appelle `fr` ou `com` des {term}`TLD`.
-   2. `club1.fr` est un domaine du deuxième niveau (SLD).
-   3. `morbier.club1.fr` est un domaine du troisième niveau, qu'on appelle aussi "sous-domaine"
+   1. On appelle `fr` ou `com` des {term}`TLD` (**premier niveau**).
+   2. `club1.fr` est un [domaine de **second niveau**](https://fr.wikipedia.org/wiki/Domaine_de_deuxi%C3%A8me_niveau).
+   3. `morbier.club1.fr` est un domaine de **troisième niveau**, qu'on appelle aussi "sous-domaine"
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 

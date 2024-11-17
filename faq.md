@@ -41,17 +41,20 @@ Il est possible de créer des {term}`alias` personnalisés à la demande,
 mais pas de créer des boîtes de réception supplémentaires.
 
 
-### Est il possible d'héberger un site Web avec un domaine externe (pas un sous-domaine de `club1.fr`)
+### Est il possible d'héberger un site Web avec un domaine externe ?
 
 **C'est possible**, cependant, il y a une contrainte technique :
-Il est nécessaire d'utiliser un {term}`nom de domaine` **de niveau 3**.
+⚠️ Il est nécessaire d'utiliser un {term}`nom de domaine` **de niveau 3**.
+
 Par exemple, si vous possedez `crevette.com`,
-il faudra créer `www.crevette.com` qui dirigera vers `crevette.club1.fr`.
+il faudra créer `www.crevette.com` qui dirigera vers le serveur club1.
 (Cella peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
-C'est une stratégie qui compense le fait que le serveur CLUB1 ne dispose pas d'une adresse {term}`IP` fixe.
+
+cela provient d'une stratégie mise en place pour compenser le fait que
+le serveur CLUB1 ne dispose pas d'une {term}`adresse IP` fixe.
 
 ```{tip}
-Chez certains {term}`registraire <registraires>`,
+Chez certains {term}`registraires <registraire>`,
 il est possible de créer une redirection automatique
 du domaine de second niveau vers un domaine de troisième niveau.
 ```
