@@ -40,6 +40,23 @@ avec une adresse principale et toutes ses [sous-adresses](services/email.md#sous
 Il est possible de créer des {term}`alias` personnalisés à la demande,
 mais pas de créer des boîtes de réception supplémentaires.
 
+
+### Est il possible d'héberger un site Web avec un domaine externe (pas un sous-domaine de `club1.fr`)
+
+**C'est possible**, cependant, il y a une contrainte technique :
+Il est nécessaire d'utiliser un {term}`nom de domaine` **de niveau 3**.
+Par exemple, si vous possedez `crevette.com`,
+il faudra créer `www.crevette.com` qui dirigera vers `crevette.club1.fr`.
+(Cella peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
+C'est une stratégie qui compense le fait que le serveur CLUB1 ne dispose pas d'une adresse {term}`IP` fixe.
+
+```{tip}
+Chez certains {term}`registraire <registraires>`,
+il est possible de créer une redirection automatique
+du domaine de second niveau vers un domaine de troisième niveau.
+```
+
+
 ### Quel espace est-ce-que j'occupe sur le serveur ?
 
 À part [pour les emails](./services/email.md#quotas),
