@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=6fa5d4cc"></script>
+        <script src="_static/documentation_options.js?v=0d7cd966"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -90,7 +90,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#comment-modifier-mon-mot-de-passe-de-membre-club1">How do I change my CLUB1 member password?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#est-il-possible-de-modifier-mon-identifiant-club1">Is it possible to modify my CLUB1 identifier?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#est-ce-que-je-peux-heberger-mes-emails-chez-club1-avec-mon-nom-de-domaine-et-creer-plein-d-adresses-independantes">Can I host my emails at CLUB1 with my domain name and create many independent addresses?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe-pas-un-sous-domaine-de-club1-fr">Est il possible d’héberger un site Web avec un domaine externe (pas un sous-domaine de <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe">Est il possible d’héberger un site Web avec un domaine externe ?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#quel-espace-est-ce-que-j-occupe-sur-le-serveur">What space do I occupy on the server?</a></li>
 </ul>
 </li>
@@ -142,7 +142,7 @@
 <li><p><a class="reference internal" href="#comment-modifier-mon-mot-de-passe-de-membre-club1" id="id1">How do I change my CLUB1 member password?</a></p></li>
 <li><p><a class="reference internal" href="#est-il-possible-de-modifier-mon-identifiant-club1" id="id2">Is it possible to modify my CLUB1 identifier?</a></p></li>
 <li><p><a class="reference internal" href="#est-ce-que-je-peux-heberger-mes-emails-chez-club1-avec-mon-nom-de-domaine-et-creer-plein-d-adresses-independantes" id="id3">Can I host my emails at CLUB1 with my domain name and create many independent addresses?</a></p></li>
-<li><p><a class="reference internal" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe-pas-un-sous-domaine-de-club1-fr" id="id4">Est il possible d’héberger un site Web avec un domaine externe (pas un sous-domaine de <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe" id="id4">Est il possible d’héberger un site Web avec un domaine externe ?</a></p></li>
 <li><p><a class="reference internal" href="#quel-espace-est-ce-que-j-occupe-sur-le-serveur" id="id5">What space do I occupy on the server?</a></p></li>
 </ul>
 </nav>
@@ -171,10 +171,10 @@ science. For example, we speak of an alias when we point several email
 addresses to the same inbox, or when we define a new name for a
 command."><a class="reference internal" href="glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> on demand, but not to create additional mailboxes.</p>
 </section>
-<section id="est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe-pas-un-sous-domaine-de-club1-fr">
-<h3>Est il possible d’héberger un site Web avec un domaine externe (pas un sous-domaine de <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>)<a class="headerlink" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe-pas-un-sous-domaine-de-club1-fr" title="Link to this heading">#</a></h3>
-<p><strong>C’est possible</strong>, cependant, il y a une contrainte technique :
-Il est nécessaire d’utiliser un <abbr title="[Internet] domain identifier, easy for a human to read and remember.
+<section id="est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe">
+<h3>Est il possible d’héberger un site Web avec un domaine externe ?<a class="headerlink" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe" title="Link to this heading">#</a></h3>
+<p><strong>C’est possible</strong>, cependant, il y a une contrainte technique :<br />
+⚠️ Il est nécessaire d’utiliser un <abbr title="[Internet] domain identifier, easy for a human to read and remember.
 
 For example: &quot;club1.fr&quot;, &quot;impots.gouv.fr&quot;, and &quot;fr&quot; are domain names.
 
@@ -185,25 +185,27 @@ used as an [alias] for an IP address.
 
 On peut les catégoriser par niveaux :
 
-1. On appelle &quot;fr&quot; ou &quot;com&quot; des [TLD].
+1. On appelle &quot;fr&quot; ou &quot;com&quot; des [TLD] (**premier niveau**).
 
-2. &quot;club1.fr&quot; est un domaine du deuxième niveau (SLD).
+2. &quot;club1.fr&quot; est un domaine de **second niveau**.
 
-3. &quot;morbier.club1.fr&quot; est un domaine du troisième niveau, qu’on
-   appelle aussi “sous-domaine”"><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr> <strong>de niveau 3</strong>.
-Par exemple, si vous possedez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
-il faudra créer <code class="docutils literal notranslate"><span class="pre">www.crevette.com</span></code> qui dirigera vers <code class="docutils literal notranslate"><span class="pre">crevette.club1.fr</span></code>.
+3. &quot;morbier.club1.fr&quot; est un domaine de **troisième niveau**, qu’on
+   appelle aussi “sous-domaine”"><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr> <strong>de niveau 3</strong>.</p>
+<p>Par exemple, si vous possedez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
+il faudra créer <code class="docutils literal notranslate"><span class="pre">www.crevette.com</span></code> qui dirigera vers le serveur club1.<br />
 (Cella peut être autre chose que <code class="docutils literal notranslate"><span class="pre">www</span></code>, mais c’est une convention pour le <abbr title="One of the best known services on [Internet]. Its full name is “World
 Wide Web” (also abbreviated “www”). It allows to publish documents and
 link them together using hypertext links.
 
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
-sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>)
-C’est une stratégie qui compense le fait que le serveur CLUB1 ne dispose pas d’une adresse <span class="xref std std-term">IP</span> fixe.</p>
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>)</p>
+<p>cela provient d’une stratégie mise en place pour compenser le fait que
+le serveur CLUB1 ne dispose pas d’une adresse <span class="xref std std-term">IP</span> fixe.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Chez certains <span class="xref std std-term">registraire</span>,
+<p>Chez certains <abbr title="Registraire de [nom de domaine]. Société ou association gérant la
+réservation de nom de domaine [Internet]."><a class="reference internal" href="glossaire.html#term-registraire"><span class="xref std std-term">registraires</span></a></abbr>,
 il est possible de créer une redirection automatique
 du domaine de second niveau vers un domaine de troisième niveau.</p>
 </div>
@@ -265,7 +267,7 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="gl
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-17-g8c4b
+		v: 2024-11-17-gc878
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
