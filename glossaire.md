@@ -158,12 +158,7 @@ nom de domaine
    Parmi ces informations, la plus importante est l'{term}`adresse IP` de l'ordinateur associé à ce domaine.
    Un nom de domaine est donc souvent utilisé comme un {term}`alias` pour une adresse IP.
 
-   On peut les catégoriser par niveaux :
-   
-   1. On appelle `fr` ou `com` des {term}`TLD` (**premier niveau**).
-   2. `club1.fr` est un [domaine de **second niveau**](https://fr.wikipedia.org/wiki/Domaine_de_deuxi%C3%A8me_niveau).
-   3. `morbier.club1.fr` est un domaine de **troisième niveau**, qu'on appelle aussi "sous-domaine"
-
+   En plus de ces informations, un domaine peut également avoir des sous domaines.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)
 
 permissions

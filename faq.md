@@ -44,21 +44,22 @@ mais pas de créer des boîtes de réception supplémentaires.
 ### Est il possible d'héberger un site Web avec un domaine externe ?
 
 **C'est possible**, cependant il y a une contrainte technique :
-⚠️ Il est nécessaire d'utiliser **un {term}`nom de domaine` de niveau 3**.
+⚠️ Il est nécessaire d'utiliser **un sous-domaine de votre {term}`nom de domaine`**.
 
-Par exemple, si vous possedez `crevette.com`,
-il faudra créer `www.crevette.com` qui dirigera vers le serveur club1.
-(Cella peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
+Par exemple, si vous possédez `crevette.com`,
+il ne sera pas possible d'héberger le site `https://crevette.com` sur le serveur CLUB1.
+Il faudra utiliser un sous domaine, tel que `https://www.crevette.com`.
+(Ça peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
 
-D'habitude, un nom de domaine est plutôt lié à une {term}`adresse IP`,
-mais **l'adresse IP du serveur CLUB1 n'est pas fixe** 😬.
-En utilisant le nom de domaine à la place,
-on n'a plus qu'un seul endroit à mettre à jour lorsque l'adresse IP du serveur change.
+Concrètement, il s'agit d'ajouter un enregistrement CNAME pour `www` pointant vers `club1.fr`.
+Utiliser un CNAME permet de créer un {term}`alias` sur un nom de domaine plutôt que sur une {term}`adresse IP`.
+C'est pratique dans notre cas, car l'adresse IP du serveur CLUB1 peut changer,
+tandis que son nom de domaine ne changera pas.
 
 ```{tip}
 Chez certains {term}`registraires <registraire>`,
-il est possible de créer une redirection automatique
-du domaine de second niveau vers un domaine de troisième niveau.
+il est possible de créer une redirection HTTP automatique
+depuis votre nom de domaine vers le sous-domaine de votre choix.
 ```
 
 
