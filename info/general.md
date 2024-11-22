@@ -89,7 +89,7 @@ Comptes des membres
 Le nom d'utilisateur·ice doit respecter les règles suivantes :
 
 - une longueur comprise **entre 3 et 17 caractères** (inclus).
-- comporter **uniquement des lettres minuscules** ou des tirets (`-`).
+- comporter **uniquement** des lettres **minuscules**, des **chiffres** ou des **tirets** (`-`).
 
 Cet identifiant est principalement utilisé en interne pour la connexion aux services
 et n'est donc pas spécialement visible depuis l'extérieur.
