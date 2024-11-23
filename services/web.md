@@ -124,6 +124,10 @@ Avant d'acheter votre dom de domaine, prenez le temps d'en [discuter](#gestion) 
 Il va y avoir une petite série de réglages à faire
 et ça vaut le coup d'en parler pour que tout se passe bien.
 
+```{seealso}
+L'entrée de FAQ "[](../faq.md#est-il-possible-dhéberger-un-site-web-avec-un-domaine-externe-)"
+```
+
 
 ### Gestion
 
