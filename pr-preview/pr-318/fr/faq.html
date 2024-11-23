@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=4d392a44"></script>
+        <script src="_static/documentation_options.js?v=b1a3da9c"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -185,7 +185,7 @@ mais pas de créer des boîtes de réception supplémentaires.</p>
 <section id="est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe">
 <h3>Est il possible d’héberger un site Web avec un domaine externe ?<a class="headerlink" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe" title="Lien vers cette rubrique">#</a></h3>
 <p><strong>C’est possible</strong>, cependant il y a une contrainte technique :
-⚠️ Il est nécessaire d’utiliser <strong>un <abbr title="Identifiant de domaine [Internet], facile à lire et à retenir par un
+⚠️ Il est nécessaire d’utiliser <strong>un sous-domaine de votre <abbr title="Identifiant de domaine [Internet], facile à lire et à retenir par un
 être humain.
 
 Par exemple : &quot;club1.fr&quot;, &quot;impots.gouv.fr&quot;, et &quot;fr&quot; sont des noms de
@@ -196,17 +196,12 @@ Parmi ces informations, la plus importante est l’[adresse IP] de
 l’ordinateur associé à ce domaine. Un nom de domaine est donc souvent
 utilisé comme un [alias] pour une adresse IP.
 
-On peut les catégoriser par niveaux :
-
-1. On appelle &quot;fr&quot; ou &quot;com&quot; des [TLD] (**premier niveau**).
-
-2. &quot;club1.fr&quot; est un domaine de **second niveau**.
-
-3. &quot;morbier.club1.fr&quot; est un domaine de **troisième niveau**, qu’on
-   appelle aussi « sous-domaine »"><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr> de niveau 3</strong>.</p>
-<p>Par exemple, si vous possedez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
-il faudra créer <code class="docutils literal notranslate"><span class="pre">www.crevette.com</span></code> qui dirigera vers le serveur club1.
-(Cella peut être autre chose que <code class="docutils literal notranslate"><span class="pre">www</span></code>, mais c’est une convention pour le <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+En plus de ces informations, un domaine peut également avoir des sous
+domaines."><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr></strong>.</p>
+<p>Par exemple, si vous possédez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
+il ne sera pas possible d’héberger le site <code class="docutils literal notranslate"><span class="pre">https://crevette.com</span></code> sur le serveur CLUB1.
+Il faudra utiliser un sous domaine, tel que <code class="docutils literal notranslate"><span class="pre">https://www.crevette.com</span></code>.
+(Ça peut être autre chose que <code class="docutils literal notranslate"><span class="pre">www</span></code>, mais c’est une convention pour le <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
 World Wide Web » (aussi abrégé « www »). Il permet de publier des
 documents et de les relier entre eux à l’aide de liens hypertexte.
 
@@ -214,7 +209,12 @@ Une « page Web » est généralement constituée d’un document dont le
 contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
 des images ou des « feuilles de style ». On appelle « Navigateur Web »
 le [client] utilisé pour y accéder."><a class="reference internal" href="glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>)</p>
-<p>D’habitude, un nom de domaine est plutôt lié à une <abbr title="Numéro d’identification d’un ordinateur relié à un [réseau
+<p>Concrètement, il s’agit d’ajouter un enregistrement CNAME pour <code class="docutils literal notranslate"><span class="pre">www</span></code> pointant vers <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>.
+Utiliser un CNAME permet de créer un <abbr title="Pseudonyme, nom de substitution. Les alias permettent de donner
+plusieurs noms à la même entité. C’est un concept fréquemment utilisé
+en informatique. On parle par exemple d’alias lorsqu’on fait pointer
+plusieurs adresses email vers la même boîte de reception, ou lorsqu’on
+définit un nouveau nom pour une commande."><a class="reference internal" href="glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> sur un nom de domaine plutôt que sur une <abbr title="Numéro d’identification d’un ordinateur relié à un [réseau
 informatique].
 
 Le [protocole] IP (créé à l’origine pour [Internet]) permet
@@ -226,16 +226,15 @@ Actuellement, deux versions d’adresses IP sont utilisées : La version
 4 qui s’écrit sous la forme de nombres séparés par des points (ex :
 &quot;87.91.4.64&quot; pour le serveur de CLUB1). Et la version 6 qui utilise
 des nombres beaucoup plus grands et qui s’écrit en hexadécimal (ex :
-&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="glossaire.html#term-adresse-IP"><span class="xref std std-term">adresse IP</span></a></abbr>,
-mais <strong>l’adresse IP du serveur CLUB1 n’est pas fixe</strong> 😬.
-En utilisant le nom de domaine à la place,
-on n’a plus qu’un seul endroit à mettre à jour lorsque l’adresse IP du serveur change.</p>
+&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="glossaire.html#term-adresse-IP"><span class="xref std std-term">adresse IP</span></a></abbr>.
+C’est pratique dans notre cas, car l’adresse IP du serveur CLUB1 peut changer,
+tandis que son nom de domaine ne changera pas.</p>
 <div class="admonition tip">
 <p class="admonition-title">Astuce</p>
 <p>Chez certains <abbr title="Registraire de [nom de domaine]. Société ou association gérant la
 réservation de nom de domaine [Internet]."><a class="reference internal" href="glossaire.html#term-registraire"><span class="xref std std-term">registraires</span></a></abbr>,
-il est possible de créer une redirection automatique
-du domaine de second niveau vers un domaine de troisième niveau.</p>
+il est possible de créer une redirection HTTP automatique
+depuis votre nom de domaine vers le sous-domaine de votre choix.</p>
 </div>
 </section>
 <section id="quel-espace-est-ce-que-j-occupe-sur-le-serveur">
@@ -306,7 +305,7 @@ Ou sur le <a class="reference internal" href="services/drive.html"><span class="
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-17-gcaaf
+		v: 2024-11-22-ge840
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

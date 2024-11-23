@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=c5b5c646"></script>
+        <script src="_static/documentation_options.js?v=392f369e"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -174,7 +174,7 @@ command."><a class="reference internal" href="glossaire.html#term-alias"><span c
 <section id="est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe">
 <h3>Est il possible d’héberger un site Web avec un domaine externe ?<a class="headerlink" href="#est-il-possible-d-heberger-un-site-web-avec-un-domaine-externe" title="Link to this heading">#</a></h3>
 <p><strong>C’est possible</strong>, cependant il y a une contrainte technique :
-⚠️ Il est nécessaire d’utiliser <strong>un <abbr title="[Internet] domain identifier, easy for a human to read and remember.
+⚠️ Il est nécessaire d’utiliser <strong>un sous-domaine de votre <abbr title="[Internet] domain identifier, easy for a human to read and remember.
 
 For example: &quot;club1.fr&quot;, &quot;impots.gouv.fr&quot;, and &quot;fr&quot; are domain names.
 
@@ -183,24 +183,23 @@ Among this information, the most important is the [IP address] of the
 computer associated with this domain. A domain name is therefore often
 used as an [alias] for an IP address.
 
-On peut les catégoriser par niveaux :
-
-1. On appelle &quot;fr&quot; ou &quot;com&quot; des [TLD] (**premier niveau**).
-
-2. &quot;club1.fr&quot; est un domaine de **second niveau**.
-
-3. &quot;morbier.club1.fr&quot; est un domaine de **troisième niveau**, qu’on
-   appelle aussi “sous-domaine”"><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr> de niveau 3</strong>.</p>
-<p>Par exemple, si vous possedez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
-il faudra créer <code class="docutils literal notranslate"><span class="pre">www.crevette.com</span></code> qui dirigera vers le serveur club1.
-(Cella peut être autre chose que <code class="docutils literal notranslate"><span class="pre">www</span></code>, mais c’est une convention pour le <abbr title="One of the best known services on [Internet]. Its full name is “World
+In addition to this information, a domain can also have subdomains."><a class="reference internal" href="glossaire.html#term-nom-de-domaine"><span class="xref std std-term">nom de domaine</span></a></abbr></strong>.</p>
+<p>Par exemple, si vous possédez <code class="docutils literal notranslate"><span class="pre">crevette.com</span></code>,
+il ne sera pas possible d’héberger le site <code class="docutils literal notranslate"><span class="pre">https://crevette.com</span></code> sur le serveur CLUB1.
+Il faudra utiliser un sous domaine, tel que <code class="docutils literal notranslate"><span class="pre">https://www.crevette.com</span></code>.
+(Ça peut être autre chose que <code class="docutils literal notranslate"><span class="pre">www</span></code>, mais c’est une convention pour le <abbr title="One of the best known services on [Internet]. Its full name is “World
 Wide Web” (also abbreviated “www”). It allows to publish documents and
 link them together using hypertext links.
 
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
 sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>)</p>
-<p>D’habitude, un nom de domaine est plutôt lié à une <abbr title="Identification number of a computer connected to a [computer network].
+<p>Concrètement, il s’agit d’ajouter un enregistrement CNAME pour <code class="docutils literal notranslate"><span class="pre">www</span></code> pointant vers <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>.
+Utiliser un CNAME permet de créer un <abbr title="Pseudonym, substitute name. Aliases allow multiple names to be given
+to the same entity. It is a concept frequently used in computer
+science. For example, we speak of an alias when we point several email
+addresses to the same inbox, or when we define a new name for a
+command."><a class="reference internal" href="glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> sur un nom de domaine plutôt que sur une <abbr title="Identification number of a computer connected to a [computer network].
 
 The IP [protocol] (originally created for [Internet]) is used to
 transport data between a source computer and its destination. For
@@ -210,16 +209,15 @@ Actuellement, deux versions d’adresses IP sont utilisées : La version
 4 qui s’écrit sous la forme de nombres séparés par des points (ex :
 &quot;87.91.4.64&quot; pour le serveur de CLUB1). Et la version 6 qui utilise
 des nombres beaucoup plus grands et qui s’écrit en hexadécimal (ex :
-&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="glossaire.html#term-adresse-IP"><span class="xref std std-term">adresse IP</span></a></abbr>,
-mais <strong>l’adresse IP du serveur CLUB1 n’est pas fixe</strong> 😬.
-En utilisant le nom de domaine à la place,
-on n’a plus qu’un seul endroit à mettre à jour lorsque l’adresse IP du serveur change.</p>
+&quot;2001:861:38c4:18a0::3&quot; pour le serveur de CLUB1)."><a class="reference internal" href="glossaire.html#term-adresse-IP"><span class="xref std std-term">adresse IP</span></a></abbr>.
+C’est pratique dans notre cas, car l’adresse IP du serveur CLUB1 peut changer,
+tandis que son nom de domaine ne changera pas.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Chez certains <abbr title="Registraire de [nom de domaine]. Société ou association gérant la
 réservation de nom de domaine [Internet]."><a class="reference internal" href="glossaire.html#term-registraire"><span class="xref std std-term">registraires</span></a></abbr>,
-il est possible de créer une redirection automatique
-du domaine de second niveau vers un domaine de troisième niveau.</p>
+il est possible de créer une redirection HTTP automatique
+depuis votre nom de domaine vers le sous-domaine de votre choix.</p>
 </div>
 </section>
 <section id="quel-espace-est-ce-que-j-occupe-sur-le-serveur">
@@ -279,7 +277,7 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="gl
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2024-11-17-gcaaf
+		v: 2024-11-22-ge840
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
