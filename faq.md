@@ -40,6 +40,29 @@ avec une adresse principale et toutes ses [sous-adresses](services/email.md#sous
 Il est possible de créer des {term}`alias` personnalisés à la demande,
 mais pas de créer des boîtes de réception supplémentaires.
 
+
+### Est il possible d'héberger un site Web avec un domaine externe ?
+
+**C'est possible**, cependant il y a une contrainte technique :
+⚠️ Il est nécessaire d'utiliser **un sous-domaine de votre {term}`nom de domaine`**.
+
+Par exemple, si vous possédez `crevette.com`,
+il ne sera pas possible d'héberger le site `https://crevette.com` sur le serveur CLUB1.
+Il faudra utiliser un sous domaine, tel que `https://www.crevette.com`.
+(Ça peut être autre chose que `www`, mais c'est une convention pour le {term}`Web`)
+
+Concrètement, il s'agit d'ajouter un enregistrement CNAME pour `www` pointant vers `club1.fr`.
+Utiliser un CNAME permet de créer un {term}`alias` sur un nom de domaine plutôt que sur une {term}`adresse IP`.
+C'est pratique dans notre cas, car l'adresse IP du serveur CLUB1 peut changer,
+tandis que son nom de domaine ne changera pas.
+
+```{tip}
+Chez certains {term}`registraires <registraire>`,
+il est possible de créer une redirection HTTP automatique
+depuis votre nom de domaine vers le sous-domaine de votre choix.
+```
+
+
 ### Quel espace est-ce-que j'occupe sur le serveur ?
 
 À part [pour les emails](./services/email.md#quotas),
