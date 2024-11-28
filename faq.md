@@ -14,6 +14,9 @@ backlinks: none
 ---
 ```
 
+Réponses
+--------
+
 ### Comment modifier mon mot de passe de membre CLUB1 ?
 
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
@@ -41,7 +44,7 @@ Il est possible de créer des {term}`alias` personnalisés à la demande,
 mais pas de créer des boîtes de réception supplémentaires.
 
 
-### Est il possible d'héberger un site Web avec un domaine externe ?
+### Est-il possible d'héberger un site Web avec un domaine externe ?
 
 **C'est possible**, cependant il y a une contrainte technique :
 ⚠️ Il est nécessaire d'utiliser **un sous-domaine de votre {term}`nom de domaine`**.
