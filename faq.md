@@ -14,8 +14,7 @@ backlinks: none
 ---
 ```
 
-Réponses
---------
+<!-- Ne pas ajouter de titre de niveau 2 ici, sinon ça casse la table des matières -->
 
 ### Comment modifier mon mot de passe de membre CLUB1 ?
 
