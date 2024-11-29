@@ -5,7 +5,7 @@ On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est un 
 Cela implique qu'il est possible d'éditer son contenu directement depuis le navigateur.
 Peu de connaissances techniques sont requises :
 Le contenu est formaté en {term}`Markdown`
-et la mise en page utilise le duo {term}`HTML` / CSS.
+et la mise en page utilise le duo {term}`HTML` + CSS.
 
 Les discussions à ce sujet sont [rassemblées sur le forum avec le tag {guilabel}`site web`](https://forum.club1.fr/t/site-web).
 
@@ -21,15 +21,15 @@ Pour s'y connecter, on peut utiliser l'adresse suivante :
 
 Lors de la première connexion, un compte est automatiquement créé avec le niveau "editor".
 Ce statut permet de [créer des pages](#création-dune-page),
-de mettre en ligne des médias et d'autoriser d'autres compte à modifier ses pages.
+de mettre en ligne des médias et d'autoriser d'autres comptes à modifier ses pages.
 Cela ne permet donc pas directement de [modifier une page existante](#édition-dune-page-existante).
 Pour y participer il faudra être ajouté à la liste des auteur·ices.
-Cette limitation vise à éviter des modifications malencontrueuses
+Cette limitation vise à éviter des modifications malencontreuses
 qui risquent d'avoir lieu lorsque l'on découvre un nouveau logiciel.
 
-Qu'à cela ne tiennent :
+Qu'à cela ne tienne :
 Essayez de **créer vos premières pages** !
-Elle resterons discrètes tant qu'aucun lien n'y mènent.
+Elles resterons discrètes tant qu'aucun lien n'y mène.
 
 Une fois que l'interface vous semble plus familière,
 vous pouvez demander à être ajouté en tant qu'auteur·ice des pages que vous souhaitez modifier.
