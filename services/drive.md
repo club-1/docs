@@ -7,13 +7,22 @@ Il est donc très utile lorsque l'on n'est pas sur son ordinateur personnel.
 
 ![capture d'écran WebDav drive](drive/webdav_drive.png)
 
+L'adresse de ce {term}`client Web` est <https://drive.club1.fr>.
+
+```{caution}
+Les {term}`fichiers cachés <fichier caché>` n'apparraissent pas dans cette interface.
+Pour y avoir accès,
+il vaut mieux se tourner vers le service [FTP](ftp.md), [WebDAV](webdav.md) ou [SSH](ssh.md).
+```
+
+Homemade is best !
+------------------
+
 Il s'agit d'une application développée par et pour CLUB1
 dont le [code source](https://github.com/club-1/webdav-drive) se trouve sur {term}`GitHub`.
 Cependant, elle a été pensée de manière générique, afin qu'elle puisse être utilisée en dehors de l'infrastructure de CLUB1.
 Elle utilise un {term}`serveur` WebDAV standard comme source de données,
 dont [CLUB1 propose un accès](webdav.md).
-
-L'adresse de ce {term}`client Web` est <https://drive.club1.fr>.
 
 Logiciels
 ---------
