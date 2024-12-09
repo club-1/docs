@@ -9,7 +9,7 @@ Il est donc très utile lorsque l'on n'est pas sur son ordinateur personnel.
 
 L'adresse de ce {term}`client Web` est <https://drive.club1.fr>.
 
-```{caution}
+```{note}
 Les {term}`fichiers cachés <fichier caché>` n'apparraissent pas dans cette interface.
 Pour y avoir accès,
 il vaut mieux se tourner vers le service [FTP](ftp.md), [WebDAV](webdav.md) ou [SSH](ssh.md).
