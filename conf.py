@@ -44,7 +44,7 @@ t = translation('package', './_locales', [language], fallback=True)
 _ = t.gettext
 
 title = _('Documentation CLUB1')
-copyright = _('%s, Membres de CLUB1') % '2022-2024'
+copyright = _('%s, Membres de CLUB1') % '2022-2025'
 
 # -- General configuration ---------------------------------------------------
 
