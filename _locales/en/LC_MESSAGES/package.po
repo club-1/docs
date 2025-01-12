@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the CLUB1 package.
 # Nicolas Peugnet <nicolas@club1.fr>, 2022.
 # Leïla Renard <leila@club1.fr>, 2022
-# Nicolas Peugnet <n.peugnet@free.fr>, 2023, 2024.
+# Nicolas Peugnet <n.peugnet@free.fr>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2024-11-15 17:36+0100\n"
-"PO-Revision-Date: 2024-07-28 14:09+0000\n"
+"PO-Revision-Date: 2025-01-12 11:45+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -526,14 +526,6 @@ msgstr ""
 "needs IP addresses in order to identify these two computers."
 
 #: ../../glossaire.md:14
-#, fuzzy
-#| msgid ""
-#| "Actuellement, deux version d'adresses IP sont utilisées : La version 4 "
-#| "qui s'écrit sous la forme de nombres séparés par des points (ex : "
-#| "`87.91.4.64` pour le serveur de CLUB1). Et la version 6 qui utilise des "
-#| "nombre beaucoup plus grands et qui s'écrit en hexadécimal (ex : "
-#| "`2001:861:38c4:18a0::3` pour le serveur de CLUB1). --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Adresse_IP)"
 msgid ""
 "Actuellement, deux versions d'adresses IP sont utilisées : La version 4 qui "
 "s'écrit sous la forme de nombres séparés par des points (ex : `87.91.4.64` "
@@ -544,8 +536,8 @@ msgid ""
 msgstr ""
 "Currently, two versions of IP addresses are used: Version 4 which is written "
 "as numbers separated by periods (e.g. `87.91.4.64` for the CLUB1 server). "
-"And version 6 which uses much larger numbers and is written in hexadecimal "
-"(e.g. `2001:861:38c4:18a0::3` for the CLUB1 server). --- [Wikipedia](https://"
+"And version 6 which uses much larger numbers and is written in hexadecimal ("
+"e.g. `2001:861:38c4:18a0::3` for the CLUB1 server). --- [Wikipedia](https://"
 "en.wikipedia.org/wiki/IP_address)"
 
 #: ../../glossaire.md:14
@@ -567,13 +559,6 @@ msgstr ""
 "(https://en.wiktionary.org/wiki/alias#English)"
 
 #: ../../glossaire.md:29
-#, fuzzy
-#| msgid ""
-#| "De l'anglais _Application Programming Interface_. Interface destinée à "
-#| "être utilisée non pas par un être humain mais par un logiciel. Elle est "
-#| "en général composée d'un ensemble de fonctions qu'un logiciel peut "
-#| "utiliser à distance. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-#| "Interface_de_programmation)"
 msgid ""
 "(_Application Programming Interface_) Interface destinée à être utilisée non "
 "pas par un être humain mais par un logiciel. Elle est en général composée "
@@ -582,18 +567,10 @@ msgid ""
 msgstr ""
 "_Application Programming Interface_, an interface intended to be used not by "
 "a human being but by a software. It is generally composed of a set of "
-"functions that a software can use remotely. --- [Wikipedia](https://en."
-"wikipedia.org/wiki/API)"
+"functions that a software can use remotely. --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/API)"
 
 #: ../../glossaire.md:35
-#, fuzzy
-#| msgid ""
-#| "De L'anglais _Command Line Interface_. Interface en ligne de commande, "
-#| "basée sur un affichage textuel. Elle s'utilise par l'intermédiaire d'une "
-#| "fenêtre de {term}`terminal`. La CLI est très intéressante car elle peut "
-#| "aussi bien être utilisée par des humain&middot;e&middot;s que par des "
-#| "logiciels. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-#| "Interface_en_ligne_de_commande)"
 msgid ""
 "(_Command Line Interface_) Interface en ligne de commande, basée sur un "
 "affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre de {term}"
@@ -632,12 +609,6 @@ msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
 #: ../../glossaire.md:50
-#, fuzzy
-#| msgid ""
-#| "Système d'exploitation communautaire basé sur {term}`Linux`, composé "
-#| "presque exclusivement de {term}`logiciels libres <logiciel libre>`. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www."
-#| "debian.org/)"
 msgid ""
 "Système d'exploitation communautaire basé sur {term}`Linux`, composé presque "
 "exclusivement de {term}`logiciels libres <logiciel libre>` et respectant la "
@@ -645,8 +616,9 @@ msgid ""
 "[Site Web](https://www.debian.org/)"
 msgstr ""
 "Community operating system based on {term}`Linux`, almost exclusively "
-"composed of {term}`free software <free software>`. --- [Wikipedia](https://"
-"en.wikipedia.org/wiki/Debian), [Website](https://www.debian.org/)"
+"composed of {term}`free software <free software>` that comply with the "
+"{term}`POSIX` standards. --- [Wikipedia](https://en.wikipedia.org/wiki/"
+"Debian), [Website](https://www.debian.org/)"
 
 #: ../../glossaire.md:57
 msgid ""
@@ -688,29 +660,20 @@ msgstr ""
 "Hidden_file_and_hidden_directory)"
 
 #: ../../glossaire.md:73
-#, fuzzy
-#| msgid ""
-#| "Service web d'hébergement et de gestion de développement de logiciels, "
-#| "utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgid ""
 "Service {term}`Web` d'hébergement et de gestion de développement de "
 "logiciels, utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
-"Web service providing hosting for software development and version control "
-"using {logiciel}`Git`."
+"{term}`Web` service providing hosting for software development and version "
+"control using {logiciel}`Git`."
 
 #: ../../glossaire.md:77
-#, fuzzy
-#| msgid ""
-#| "Contrairement à la plupart des projets que l'on peut y trouver, Github "
-#| "n'est ni **{term}`libre <logiciel libre>`**, ni **open source** et "
-#| "appartient à Microsoft."
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, GitHub n'est "
 "ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
 "Microsoft."
 msgstr ""
-"Unlike most of the projects that can be found there, Github is neither "
+"Unlike most of the projects that can be found there, GitHub is neither "
 "**{term}`free <free software>`**, nor **open source** and belongs to "
 "Microsoft."
 
@@ -913,15 +876,18 @@ msgid ""
 "à des utilisateurs ou a des {term}`groupes <groupe>` sur ces fichiers et "
 "dossiers."
 msgstr ""
+"In a {term}`POSIX` system, it is possible to assign permissions to files and "
+"folders. They allow to grant or deny rights to users or {term}`groups "
+"<group>` on these files and folders."
 
 #: ../../glossaire.md:165
 msgid ""
 "Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x)."
-msgstr ""
+msgstr "There are 3 main rights, _read_ (r), _write_ (w) and _execute_ (x)."
 
 #: ../../glossaire.md:167
 msgid "Récapitulatif des permisions"
-msgstr ""
+msgstr "Summary of permissions"
 
 #: ../../glossaire.md:178
 msgid ""
@@ -929,6 +895,8 @@ msgid ""
 "dossier, soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ "
 "utilisateurs."
 msgstr ""
+"Which can be granted either to the _user_ owner of the file/folder, the "
+"_group_ of the file/folder, or _other_ users."
 
 #: ../../glossaire.md:181
 msgid ""
@@ -936,6 +904,9 @@ msgid ""
 "l` et modifiées avec `chmod`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Permissions_UNIX)"
 msgstr ""
+"Permissions can be accessed in {term}`CLI` with `ls -l` and modified with "
+"`chmod`. --- [Wikipedia](https://en.wikipedia.org/wiki/File-"
+"system_permissions#POSIX_permissions)"
 
 #: ../../glossaire.md:185
 msgid ""
@@ -965,7 +936,7 @@ msgid ""
 "respectent d'être interchangeables, du point de vue d'un logiciel "
 "utilisateur."
 msgstr ""
-"(Portable Operating System Interface) set of technical standards that "
+"(Portable Operating System Interface) Set of technical standards that "
 "specify an interface, allowing operating systems that respect it to be "
 "interchangeable from the point of view of a user software."
 
@@ -1000,19 +971,14 @@ msgid "registraire"
 msgstr "registrar"
 
 #: ../../glossaire.md:208
-#, fuzzy
-#| msgid ""
-#| "Registraire de {term}`nom de domaine`. Société ou une association gérant "
-#| "la réservation de nom de domaine {term}`Internet`. --- [Wikipedia]"
-#| "(https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou association gérant la "
 "réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
 "wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
-"{term}`Domain name` registrar. Company or association managing the {term}"
-"`Internet` domain name reservation. --- [Wikipedia](https://en.wikipedia.org/"
-"wiki/Domain_name_registrar)"
+"{term}`Domain name` registrar. Company or association managing the "
+"{term}`Internet` domain name reservation. --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/Domain_name_registrar)"
 
 #: ../../glossaire.md:205
 msgid "réseau informatique"
@@ -1989,10 +1955,8 @@ msgid ""
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:144
-#, fuzzy
-#| msgid "un SSD SATA de 1To. `Samsung EVO 860`."
 msgid "Modèle : `Samsung EVO 860 1To`."
-msgstr "a SATA SSD of 1TB. `Samsung EVO 860`."
+msgstr "Model: `Samsung EVO 860 1To`."
 
 #: ../../info/infrastructure-materielle.md:146
 msgid ""
@@ -2062,13 +2026,6 @@ msgstr ""
 "encrypted, so passwords and data cannot be intercepted."
 
 #: ../../info/politique-de-vie-privee.md:18
-#, fuzzy
-#| msgid ""
-#| "Les données personnelles sont protégées par les permissions {term}"
-#| "`POSIX`. Par defaut l'[espace personnel](./espace-personnel.md) n'est pas "
-#| "accessible par les autres utilisateurs (à part en lecture par les membres "
-#| "du {term}`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est "
-#| "libre de changer les permissions de son espace perso."
 msgid ""
 "Les données personnelles sont protégées par les {term}`permissions` {term}"
 "`POSIX`. Par defaut l'[espace personnel](./espace-personnel.md) n'est pas "
@@ -2076,11 +2033,11 @@ msgid ""
 "{term}`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est libre "
 "de changer les permissions de son espace perso."
 msgstr ""
-"Personal data is protected by {term}`POSIX` permissions. By default, the "
-"[personal space](./espace-personnel.md) is not accessible by other users "
-"(except for reading by members of the `home` {term}`group`, e.g. the {term}"
-"`Web` {term}`server`). Everyone is free to change the permissions of their "
-"personal space."
+"Personal data is protected by {term}`POSIX` {term}`permissions`. By default, "
+"the [personal space](./espace-personnel.md) is not accessible by other users "
+"(except for reading by members of the `home` {term}`group`, e.g. the "
+"{term}`Web` {term}`server`). Everyone is free to change the permissions of "
+"their personal space."
 
 #: ../../info/politique-de-vie-privee.md:23
 msgid "Engagements des administrateurs systèmes"
@@ -2215,16 +2172,6 @@ msgid "Utilisation avancée"
 msgstr "Advanced usage"
 
 #: ../../outils/aliases.md:67
-#, fuzzy
-#| msgid ""
-#| "Comme indiqué précédemment, le fichier d'alias de réception `/etc/"
-#| "aliases` respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/"
-#| "aliases.5.html). En plus de rediriger les emails vers d'autres adresses, "
-#| "elle permet de les envoyer vers des fichiers ou des commandes. Dans ce "
-#| "cas, il faut faire attention aux permissions requises pour créer les "
-#| "fichiers et exécuter les commandes. Ces actions sont réalisées avec les "
-#| "droits de l'utilisateur correspondant à l'alias s'il existe et sinon, sur "
-#| "CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`."
 msgid ""
 "Comme indiqué précédemment, le fichier d'alias de réception `/etc/aliases` "
 "respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/aliases.5."
@@ -2238,10 +2185,11 @@ msgstr ""
 "As previously indicated, the reception aliases file `/etc/aliases` respects "
 "the [Postfix alias syntax](http://www.postfix.org/aliases.5.html). In "
 "addition to redirecting emails to other addresses, it allows to send them to "
-"files or commands. In this case, attention should be paid to the permissions "
-"required to create files and execute commands. These actions are carried out "
-"with the rights of the user corresponding to the alias if it exists and "
-"otherwise, on CLUB1, with the user `nobody` and {term}`group` `mail`."
+"files or commands. In this case, attention should be paid to the "
+"{term}`permissions` required to create files and execute commands. These "
+"actions are carried out with the rights of the user corresponding to the "
+"alias if it exists and otherwise, on CLUB1, with the user `nobody` and "
+"{term}`group` `mail`."
 
 #: ../../outils/aliases.md:76
 msgid ""
@@ -2254,7 +2202,7 @@ msgstr ""
 
 #: ../../outils/compta.md:1
 msgid "Comptabilité"
-msgstr ""
+msgstr "Accounting"
 
 #: ../../outils/compta.md:4
 msgid ""
@@ -2264,6 +2212,10 @@ msgid ""
 "ou que l'on reçoit des dons, ceux-ci sont transférés à l'une des personnes "
 "qui ont une balance négative."
 msgstr ""
+"CLUB1 does not use a dedicated bank account. Instead, members who spent "
+"money note these expenses in a [transaction file](#fichier-de-transactions). "
+"When memberships are paid or donation are received, they are transferred to "
+"one of the people who have a negative balance."
 
 #: ../../outils/compta.md:10
 msgid "Fichier de transactions"
@@ -3895,34 +3847,24 @@ msgid "4.1. Archive `system` et dossier `etc`"
 msgstr "4.1. `system` archive and `etc` folder"
 
 #: ../../outils/sauvegardes.md:129
-#, fuzzy
-#| msgid "4.3. Base de données {term}`LDAP`"
 msgid "4.2. Base de données {term}`LDAP`"
-msgstr "4.3. {term}`LDAP` database"
+msgstr "4.2. {term}`LDAP` database"
 
 #: ../../outils/sauvegardes.md:137
-#, fuzzy
-#| msgid "4.4. Base de données des [alias email](/outils/aliases.md)"
 msgid "4.3. Base de données des [alias email](/outils/aliases.md)"
-msgstr "4.4. [email aliases](/outils/aliases.md) database"
+msgstr "4.3. [email aliases](/outils/aliases.md) database"
 
 #: ../../outils/sauvegardes.md:143
-#, fuzzy
-#| msgid "4.5. Bases de données {logiciel}`MariaDB`"
 msgid "4.4. Bases de données {logiciel}`MariaDB`"
-msgstr "4.5. {logiciel}`MariaDB` databases"
+msgstr "4.4. {logiciel}`MariaDB` databases"
 
 #: ../../outils/sauvegardes.md:152
-#, fuzzy
-#| msgid "4.6. Bases de données Postgres"
 msgid "4.5. Bases de données Postgres"
-msgstr "4.6. Postgres databases"
+msgstr "4.5. Postgres databases"
 
 #: ../../outils/sauvegardes.md:162
-#, fuzzy
-#| msgid "4.7. Finalisation"
 msgid "4.6. Finalisation"
-msgstr "4.7. Finalization"
+msgstr "4.6. Finalization"
 
 #: ../../outils/sauvegardes.md:172
 msgid ""
@@ -3958,6 +3900,9 @@ msgid ""
 "un {term}`wiki`. Cela implique qu'il est possible d'éditer son contenu "
 "directement depuis le navigateur."
 msgstr ""
+"It may not look like one, but the {term}`Web` site of CLUB1 is a {term}`wiki`"
+". This means that it is possible to edit its content directly from the "
+"browser."
 
 #: ../../outils/site.md:7
 msgid ""
@@ -5122,16 +5067,16 @@ msgid ""
 msgstr ""
 
 #: ../../services/matrix.md:163
-#, fuzzy
-#| msgid "Configuration des alias"
 msgid "Configurations spécifiques"
-msgstr "Aliases configuration"
+msgstr "Specific configurations"
 
 #: ../../services/matrix.md:166
 msgid ""
 "L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques "
 "configurations spécifiques."
 msgstr ""
+"CLUB1's {term}`instance` of {software}`Synapse` has some specific "
+"configurations."
 
 #: ../../services/matrix.md:179
 msgid ""
@@ -5140,15 +5085,17 @@ msgid ""
 "discussions indéfiniment. C'est pourquoi les paramètres suivants ont été "
 "modifiés."
 msgstr ""
+"The server has [limited resources](../info/infrastructure-"
+"materielle.md#serveur), so it cannot host and keep all discussions "
+"indefinitely. That is why the following parameters were changed."
 
 #: ../../services/matrix.md:198
-#, fuzzy
-#| msgid ""
-#| "[Article du journal à propos du serveur DNS](https://club1.fr/serveur-dns)"
 msgid ""
 "L'article de journal \"[Nouveaux réglages du serveur Matrix](https://club1."
 "fr/serveur-matrix-suivi-001)\""
-msgstr "[Journal article about the DNS server](https://club1.fr/serveur-dns)"
+msgstr ""
+"The journal article \"[Nouveaux réglages du serveur Matrix](https://club1.fr/"
+"serveur-matrix-suivi-001)\" (in French)"
 
 #: ../../services/matrix.md:199
 msgid ""
@@ -5156,14 +5103,12 @@ msgid ""
 "complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-"
 "fonction-de-leur-complexite/12)\""
 msgstr ""
+"The forum post \"[Limiter les salons fédérés en fonction de leur complexité]"
+"(https://forum.club1.fr/d/"
+"100-limiter-les-salons-federes-en-fonction-de-leur-complexite/12)\" (in "
+"French)"
 
 #: ../../services/matrix.md:206
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
-#| "l'implémentation de référence d'un serveur Matrix et pour l'instant la "
-#| "seule qui soit annoncée comme \"stable\". --- [Sources](https://github."
-#| "com/matrix-org/synapse)"
 msgid ""
 "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
 "l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
@@ -5172,7 +5117,7 @@ msgid ""
 msgstr ""
 "{term}`Matrix` {term}`server` written in Python. This is the reference "
 "implementation of a Matrix server and for now the only one that is "
-"advertised as \"stable\". --- [Sources](https://github.com/matrix-org/"
+"advertised as \"stable\". --- [Sources](https://github.com/element-hq/"
 "synapse)"
 
 #: ../../services/matrix.md:213
@@ -5679,6 +5624,10 @@ msgid ""
 "pouvez si vous le souhaitez ajouter des destinataires en copie. --- Manuel : "
 "{manpage}`mailx.1 <bsd-mailx/mailx.1>`"
 msgstr ""
+"Fill in the subject when asked, then confirm by pressing {kbd}`Enter`. Write "
+"your message afterwards. When you're done, create a new line and press "
+"{kbd}`CTRL` + {kbd}`D`. Finally you can add recipients in copy, if you want "
+"to. --- Manual: {manpage}`mailx.1 <bsd-mailx/mailx.1>`"
 
 #: ../../services/ssh.md:142
 msgid ""
@@ -5686,6 +5635,9 @@ msgid ""
 "`client` email en {term}`CLI`. Les touches de contrôle sont indiqués en "
 "haut. Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`mutt.1`"
 msgstr ""
+"Allows to consult and send emails with {software}`Mutt`: A {term}`CLI` email "
+"{term}`client`. Control keys are indicated at the top. Press the {kbd}`Q` "
+"key to quit. --- Manual: {manpage}`mutt.1`"
 
 #: ../../services/ssh.md:150
 msgid ""
@@ -5763,6 +5715,8 @@ msgid ""
 "via [le dossier `static`](#dossier-static) *C'est l'approche la plus "
 "spontanée.*"
 msgstr ""
+"using the [`static` folder](#dossier-static) *This is the most spontaneous "
+"approach.*"
 
 #: ../../services/web.md:15
 msgid ""
@@ -5809,6 +5763,7 @@ msgstr ""
 msgid ""
 "C'est l'endroit idéal pour débuter et commencer à mettre en ligne rapidement."
 msgstr ""
+"This is the perfect place to get started and start online publishing quickly."
 
 #: ../../services/web.md:37
 msgid ""
@@ -5960,13 +5915,6 @@ msgstr ""
 "chosen."
 
 #: ../../services/web.md:114
-#, fuzzy
-#| msgid ""
-#| "Il faut distinguer hébergement et location de nom de domaine ! "
-#| "L'hébergement stocke les fichiers d'un site et les publie sur le {term}"
-#| "`web` à une {term}`adresse IP` spécifique, tandis qu'un {term}`nom de "
-#| "domaine` est une interface plus agréable pour les humains, sensée pointer "
-#| "vers l'adresse IP d'un serveur."
 msgid ""
 "Il faut distinguer \"hébergement\" et \"location de nom de domaine\" ! "
 "L'hébergement stocke les fichiers d'un site et les publie sur le {term}`web` "
@@ -5974,10 +5922,10 @@ msgid ""
 "une interface plus agréable pour les humains, sensée pointer vers l'adresse "
 "IP d'un serveur."
 msgstr ""
-"There is a difference between hosting and domain name rental! Hosting stores "
-"a site's files and publishes them on the {term}`Web` to a specific {term}`IP "
-"address`, while a {term}`domain name` is a more human-friendly interface "
-"that is supposed to point to a server's IP address."
+"There is a difference between \"hosting\" and \"domain name rental\"! "
+"Hosting stores a site's files and publishes them on the {term}`Web` to a "
+"specific {term}`IP address`, while a {term}`domain name` is a more human-"
+"friendly interface that is supposed to point to a server's IP address."
 
 #: ../../services/web.md:120
 msgid ""
@@ -6071,11 +6019,6 @@ msgstr ""
 "org/nginx)"
 
 #: ../../services/web.md:174
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` HTTP très populaire, distribué sous license {term}`libre "
-#| "<logiciel libre>`. HTTP étant le {term}`protocole` du {term}`Web` on "
-#| "parle aussi souvent de \"serveur Web\"."
 msgid ""
 "{term}`Serveur` HTTP très populaire, distribué sous license {term}`libre "
 "<logiciel libre>`. HTTP étant le {term}`protocole` du {term}`Web` on parle "
@@ -6084,21 +6027,17 @@ msgid ""
 msgstr ""
 "Very popular HTTP {term}`server`, distributed under {term}`free <free "
 "software>` license. HTTP being the {term}`protocol` of the {term}`Web` we "
-"also often speak of \"Web server\"."
+"also often speak of \"Web server\". \"Apache\" is actually a shortcut to "
+"designate \"Apache httpd\"."
 
 #: ../../services/web.md:178
-#, fuzzy
-#| msgid ""
-#| "Apache est intéressant pour l'hébergement de pages Web personnelles, car "
-#| "il peut être configuré en cours d'exécution et par les utilisaturs finaux "
-#| "grâce aux fichiers `.htaccess`."
 msgid ""
 "Il est intéressant pour l'hébergement de pages Web personnelles, car il peut "
 "être configuré en cours d'exécution et par les utilisaturs finaux grâce aux "
 "fichiers `.htaccess`."
 msgstr ""
-"Apache is attractive for hosting personal web pages because it can be "
-"configured at runtime and by end users through `.htaccess` files."
+"It is attractive for hosting personal web pages because it can be configured "
+"at runtime and by end users through `.htaccess` files."
 
 #: ../../services/web.md:182
 msgid ""
@@ -6185,7 +6124,7 @@ msgstr "type"
 
 #: ../../services/webcast.md:11
 msgid "SSL/TLS"
-msgstr ""
+msgstr "SSL/TLS"
 
 #: ../../services/webcast.md:11
 msgid "Oui"
@@ -6207,6 +6146,8 @@ msgid ""
 "via URL d'{logiciel}`Icecast` et un serveur {term}`LDAP`. --- [Sources]"
 "(https://github.com/kuhball/icecast-ldap)"
 msgstr ""
+"{term}`Server` to bridge {software}`Icecast`'s URL based authentication with "
+"a {term}`LDAP` server. --- [Sources](https://github.com/kuhball/icecast-ldap)"
 
 #: ../../services/webdav.md:1
 msgid "Synchro de fichiers, contacts et calendriers WebDAV"
@@ -6641,6 +6582,10 @@ msgid ""
 "vous pouvez en sélectionner une pour trier votre flux (c'est possible de le "
 "faire plus tard) puis cliquez sur {guilabel}`S'abonner`."
 msgstr ""
+"Enter the URL of the site you want to get the {term}`newsfeed` from, here "
+"for example Fred Turner's blog. If you created categories, you can select "
+"one to sort your stream (it is possible to do it later) then click "
+"{guilabel}`Subscribe`."
 
 #: ../../tutos/flux-rss.md:36
 msgid ""
@@ -6693,10 +6638,12 @@ msgid ""
 "C'est bien joli tout ça, mais quand on suit beaucoup de sites, ça met un peu "
 "le bazar de tout rassembler dans un seul fil !"
 msgstr ""
+"That's all well and good, but when you follow a lot of sites, it can be a "
+"bit of a mess to put everything together in a single thread!"
 
 #: ../../tutos/flux-rss.md:55
 msgid "Pour résoudre ce problème, il est possible d'utiliser les catégories."
-msgstr ""
+msgstr "To solve this problem, it is possible to use the categories."
 
 #: ../../tutos/flux-rss.md:57
 msgid "Utiliser les catégories"
@@ -6752,13 +6699,15 @@ msgstr ""
 
 #: ../../tutos/flux-rss.md:80
 msgid "Mode d'affichage combiné"
-msgstr ""
+msgstr "Combination display mode"
 
 #: ../../tutos/flux-rss.md:82
 msgid ""
 "Pour utiliser un mode d'affichage en liste avec un panneau de lecture "
 "séparé, vous pouvez désactiver le \"mode combiné\" dans la configuration."
 msgstr ""
+"To use a list display mode with a separate reading panel, you can disable "
+"the \"combined mode\" in the configuration."
 
 #: ../../tutos/flux-rss.md:85
 msgid "![Mode d'affichage en liste](flux-rss/capture_6.png)"
@@ -6766,7 +6715,7 @@ msgstr ""
 
 #: ../../tutos/flux-rss.md:85
 msgid "Mode d'affichage en liste"
-msgstr ""
+msgstr "List display mode"
 
 #: ../../tutos/flux-rss.md:88
 msgid ""
@@ -7175,12 +7124,6 @@ msgid "Première connexion SSH"
 msgstr "First SSH connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:4
-#, fuzzy
-#| msgid ""
-#| "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
-#| "première fois en {term}`SSH` de manière **sécurisée**. Pour cela, pas "
-#| "besoin d’installer de logiciels supplémentaire, la majorité des systèmes "
-#| "d’exploitation ont déjà tout le nécessaire pour cette connexion."
 msgid ""
 "Dans ce tuto, nous allons voir comment se connecter au serveur pour la "
 "première fois en {term}`SSH` de manière **sécurisée**. Pour cela, **pas "
@@ -7190,24 +7133,19 @@ msgid ""
 "aventure."
 msgstr ""
 "In this tutorial, we will see how to connect to the server for the first "
-"time in {term}`SSH` in a **secure way**. For this, no need to install "
-"additional software, the majority of operating systems already have "
-"everything necessary for this connection."
+"time in {term}`SSH` in a **secure way**. For this, **no need to install "
+"additional software**, the majority of operating systems already have "
+"everything necessary for this connection 😌. That said, herbal tea and a "
+"quiet space can be helpful in this adventure."
 
 #: ../../tutos/premiere-connexion-ssh.md:11
-#, fuzzy
-#| msgid ""
-#| "Ce tutoriel n'a pas encore été éprouvé sur Windows. Certaines étapes "
-#| "peuvent de ne pas fonctionner. Si vous rencontrez un problème, la section "
-#| "\"[](../info/general.md#demandes-et-incidents)\" explique comment nous en "
-#| "faire part."
 msgid ""
 "Si vous êtes bloqué·e ou rencontrez un problème, la section \"[](../info/"
 "general.md#demandes-et-incidents)\" explique comment en faire part."
 msgstr ""
-"This tutorial has not yet been proven on Windows. Some steps may not work. "
-"If you encounter a problem, the section \"[](../info/general.md#demandes-et-"
-"incidents)\" explains how to report it to us."
+"If you are stuck or encounter a problem, the section "
+"\"[](../info/general.md#demandes-et-incidents)\" explains how to report it "
+"to us."
 
 #: ../../tutos/premiere-connexion-ssh.md:15
 msgid "Connexion avec le terminal"
@@ -7219,6 +7157,9 @@ msgid ""
 "de **{term}`terminal`** ! 🥵 Pour cela, il faut lancer sur votre ordinateur "
 "un programme qui s'appelle en général `terminal` ou `console`."
 msgstr ""
+"To make this SSH connection, we need to open a **{term}`terminal`** window! "
+"🥵 To do this, you need to launch a program on your computer that is usually "
+"called `terminal` or `console`."
 
 #: ../../tutos/premiere-connexion-ssh.md:22
 msgid "Pour Windows"
@@ -7243,40 +7184,34 @@ msgstr ""
 "just right click with your mouse."
 
 #: ../../tutos/premiere-connexion-ssh.md:32
-#, fuzzy
-#| msgid ""
-#| "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
-#| "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
-#| "l'informatique ! 🧙"
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
 "l'informatique ! 🧙 Un peu comme des sortilèges, on y lance des commandes."
 msgstr ""
 "Don't be impressed by its disconcerting interface, it's a tool that will "
-"make you a real computer magician! 🧙"
+"make you a real computer magician! 🧙 A bit like spells, you cast—or rather "
+"run commands in it."
 
 #: ../../tutos/premiere-connexion-ssh.md:36
 msgid "Heuuu... mais comment on lance une commande 🤨 ?"
-msgstr ""
+msgstr "Umm... but how do we run a command 🤨?"
 
 #: ../../tutos/premiere-connexion-ssh.md:38
 msgid ""
 "Dans un terminal, il faut taper le texte d'une commande, puis appuyer sur "
 "{kbd}`Entrée` pour la lancer ! 🪄"
 msgstr ""
+"In a terminal, you must type the text of an command, then press {kbd}`Enter` "
+"to run it! 🪄"
 
 #: ../../tutos/premiere-connexion-ssh.md:41
-#, fuzzy
-#| msgid ""
-#| "On utilise la commande suivante dans le terminal pour se connecter "
-#| "(remplacer `USER` par votre **identifiant** CLUB1) :"
 msgid ""
 "Pour se connecter en SSH, on utilise la commande suivante (remplacer `USER` "
 "par votre **identifiant** CLUB1) :"
 msgstr ""
-"We use the following command in the terminal to connect (replace `USER` with "
-"your CLUB1 **login**):"
+"To connect with SSH, we use the following command (replace `USER` with your "
+"CLUB1 **login**):"
 
 #: ../../tutos/premiere-connexion-ssh.md:46
 msgid "Vous devriez voir s'afficher le message suivant :"
@@ -7354,16 +7289,12 @@ msgid "Fichier `known_hosts`"
 msgstr "`known_hosts` file"
 
 #: ../../tutos/premiere-connexion-ssh.md:82
-#, fuzzy
-#| msgid ""
-#| "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
-#| "fichier `known_host`. La commande suivante fait tout ça pour vous ! 🪄"
 msgid ""
 "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
 "fichier. Les commandes suivantes font tout ça pour vous ! 🪄"
 msgstr ""
-"Now we just have to write the server key in a `known_host` file. The "
-"following command does all that for you! 🪄"
+"Now we just have to write the server key in a file. The following commands "
+"do all that for you! 🪄"
 
 #: ../../tutos/premiere-connexion-ssh.md:91
 msgid ""
@@ -7376,22 +7307,16 @@ msgstr ""
 "`V`."
 
 #: ../../tutos/premiere-connexion-ssh.md:97
-#, fuzzy
-#| msgid ""
-#| "Concrètement, cela consiste à ajouter une ligne de texte contenant la "
-#| "clef 🔑, à un fichier sur votre appareil. Ce fichier s'appellera "
-#| "`known_hosts`, *serveurs connus*. Il devra se trouver dans un dossier `."
-#| "ssh`, lui-même au sein de votre espace personnel sur votre appareil."
 msgid ""
 "Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef "
 "🔑, à un fichier sur votre appareil. Ce fichier s'appelle `known_hosts`, "
 "*serveurs connus*. Il se trouve dans un dossier `.ssh`, lui-même au sein de "
 "votre espace personnel sur votre appareil."
 msgstr ""
-"Concretely, this consists of adding a line of text containing the key 🔑, to "
-"a file on your device. This file will be called `known_hosts`, *known "
-"servers*. It should be in a `.ssh` folder, itself within your personal space "
-"on your device."
+"If everything went well, it added a line of text containing the key 🔑, to a "
+"file on your device. This file is called `known_hosts`, for *known servers*. "
+"It is located in a `.ssh` folder, itself within your personal space on your "
+"device."
 
 #: ../../tutos/premiere-connexion-ssh.md:104
 msgid ""
@@ -7403,33 +7328,26 @@ msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:115
 msgid "Connexion sécurisée"
-msgstr ""
+msgstr "Secure connection"
 
 #: ../../tutos/premiere-connexion-ssh.md:118
-#, fuzzy
-#| msgid ""
-#| "Vous devriez maintenant pouvoir vous [connecter en SSH](#connexion-avec-"
-#| "le-terminal) sans voir le message d'alerte et il vous faudra alors entrer "
-#| "votre **mot de passe** CLUB1."
 msgid ""
 "Maintenant que l'on a passé toutes ces étapes, Vous devriez pouvoir vous "
 "[connecter en SSH](#connexion-avec-le-terminal) sans voir le message "
 "d'alerte."
 msgstr ""
-"You should now be able to [connect via SSH](#connexion-avec-le-terminal) "
-"without seeing the alert message and you will then need to enter your CLUB1 "
-"**password**."
+"Now that you have gone through all these steps, you should be able to "
+"[connect via SSH](#connexion-avec-le-terminal) without seeing the alert "
+"message."
 
 #: ../../tutos/premiere-connexion-ssh.md:122
 msgid "On lance à nouveau la commande :"
-msgstr ""
+msgstr "We run the command again:"
 
 #: ../../tutos/premiere-connexion-ssh.md:126
-#, fuzzy
-#| msgid "Mot de passe : rentrez votre mot de passe CLUB1"
 msgid ""
 "Cette fois ci, il vous faudra alors entrer votre **mot de passe** CLUB1."
-msgstr "Password: enter your CLUB1 password"
+msgstr "This time, you will need to enter your CLUB1 **password**."
 
 #: ../../tutos/premiere-connexion-ssh.md:129
 msgid ""
@@ -7614,12 +7532,6 @@ msgstr ""
 "take care of synchronization: __DAVx{sup}`5`__."
 
 #: ../../tutos/webdav-android.md:11
-#, fuzzy
-#| msgid ""
-#| "Cette application est payante (6€) sur le magasin d'applications de "
-#| "Google ou gratuite sur [F-droid](https://fr.wikipedia.org/wiki/F-Droid) "
-#| "(un magasin alternatif, proposant uniquement des appli [*open sources*]"
-#| "(https://fr.wikipedia.org/wiki/Open_source) et sans pubs)."
 msgid ""
 "Cette application est payante (6€) sur le magasin d'applications de Google "
 "ou gratuite sur [F-Droid](https://fr.wikipedia.org/wiki/F-Droid) (un magasin "
@@ -7628,8 +7540,7 @@ msgid ""
 msgstr ""
 "This application is paid for (€6) on the Google application store or free on "
 "[F-droid](https://en.wikipedia.org/wiki/F-Droid) (an alternative store, only "
-"offering [*open source*](https://en.wikipedia.org/wiki/Open-source_software) "
-"apps without ads)."
+"offering {term}`free <free software>` apps without ads)."
 
 #: ../../tutos/webdav-android.md:15
 msgid "[F-Droid](https://f-droid.org/fr/packages/at.bitfire.davdroid/)"
@@ -7833,18 +7744,13 @@ msgstr ""
 "contact app of your choice and the calendar app of your choice."
 
 #: ../../tutos/webdav-android.md:141
-#, fuzzy
-#| msgid ""
-#| "Si vous préferez utiliser des applis *open sources* et non orientés "
-#| "*Google*, nous vous recommandons __Simple Contacts__ et __Simple "
-#| "Calendar__."
 msgid ""
 "Si vous préferez utiliser des applis {term}`libres <logiciel libre>` et non "
 "orientés *Google*, nous vous recommandons __Fossify Contacts__ et __Fossify "
 "Calendrier__."
 msgstr ""
-"If you prefer to use *open source* and non-*Google*-oriented apps, we "
-"recommend __Simple Contacts__ and __Simple Calendar__."
+"If you prefer to use {term}`free <free software>` and non-*Google*-oriented "
+"apps, we recommend __Fossify Contacts__ and __Fossify Calendar__."
 
 #: ../../tutos/webdav-android.md:144
 msgid ""
@@ -7852,6 +7758,9 @@ msgid ""
 "contacts/) -- [Google Play Store](https://play.google.com/store/apps/details?"
 "id=org.fossify.contacts&hl=fr&gl=FR)"
 msgstr ""
+"__Fossify Contacts__: [F-Droid](https://f-droid.org/en/packages/"
+"org.fossify.contacts/) -- [Google Play Store](https://play.google.com/store/"
+"apps/details?id=org.fossify.contacts&hl=en&gl=UK)"
 
 #: ../../tutos/webdav-android.md:146
 msgid ""
@@ -7859,6 +7768,9 @@ msgid ""
 "fossify.calendar/) -- [Google Play Store](https://play.google.com/store/apps/"
 "details?id=org.fossify.calendar&hl=fr&gl=FR)"
 msgstr ""
+"__Fossify Calendar__: [F-Droid](https://f-droid.org/en/packages/"
+"org.fossify.calendar/) -- [Google Play Store](https://play.google.com/store/"
+"apps/details?id=org.fossify.calendar&hl=en&gl=UK)"
 
 #: ../../tutos/webdav-mac.md:1
 msgid "Accès à l'espace personnel depuis le Finder d'un Mac"
