@@ -93,6 +93,7 @@ Elle s'affiche avec l'option `-h`.
 ### Logiciel utilisé
 
 
-````{logiciel} compta
+```{logiciel} compta
 Ensemble de scripts pour afficher ou éditer la comptabilité de club1 via le terminal.
 --- [Sources](https://github.com/club-1/compta)
+```
