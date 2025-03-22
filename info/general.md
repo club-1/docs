@@ -31,7 +31,7 @@ Il vit dans le placard comme _Harry Potter_...
 
 ### Système d'exploitation
 
-Le serveur tourne sur **{term}`Debian` 11** et est mis à jour régulièrement.
+Le serveur tourne sur **{term}`Debian` 12** et est mis à jour régulièrement.
 Les mises-à-jour de sécurité sont installées automatiquement dans les 24 heures
 à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/unattended-upgrades)
 et les services en dépendant sont ensuite automatiquement redémarrés grâce à
@@ -50,18 +50,18 @@ Un certain nombre de logiciels et de bibliothèques sont déjà installés.
 En voici une liste _non exhaustive_ :
 
     Apache       2.4
-    MariaDb     10.5
-    PHP          7.4
-    Python       3.9
-    NodeJs      12.22
-    Composer     2.0
-    pip         20.3
-    npm          7.5
-    phpMyAdmin   5.0
-    git          2.30
-    borg         1.1
+    MariaDb     10.11
+    PHP          8.2
+    Python       3.11
+    NodeJs      18.19
+    Composer     2.5
+    pip         23.0
+    npm          9.2
+    phpMyAdmin   5.2
+    git          2.39
+    borg         1.2
     rsync        3.2
-    unison       2.51
+    unison       2.52
 
 Si vous souhaitez qu'un logiciel supplémentaire soit installé, merci de
 **vérifier** dans un premier temps qu'il n'est pas déjà présent, puis, dans
