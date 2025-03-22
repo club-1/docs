@@ -1,0 +1,492 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matrix instant discussion &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/services/matrix.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=88a568e3"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. Tutorials" href="../tutos/index.html" />
+    <link rel="prev" title="3. Services open to all" href="../services-ouverts.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/matrix.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/matrix.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Matrix instant discussion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#principes-generaux">General principles</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#serveur">Server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#identifiant">Username</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#room">Room</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#client-interfaces-de-connexion">Client (connection interfaces)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-l-utiliser-interface-element-web">Comment l’utiliser (interface Element web) ?</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#rejoindre-des-salons">Rejoindre des salons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#creer-un-salon">Créer un salon</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#formatage">Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#chiffrement">Encryption</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#questions-concernant-le-serveur-matrix-de-club1">Questions concernant le serveur Matrix de CLUB1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#est-ce-fiable">Est-ce fiable ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#que-faire-si-j-ai-perdu-mon-mot-de-passe">Que faire si j’ai perdu mon mot de passe ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#est-ce-que-club1-fr-respecte-ma-vie-privee">Est-ce que club1.fr respecte ma vie privée ?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#configurations-specifiques">Specific configurations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-ouverts.html"><span class="section-number">3. </span>Services open to all</a></li>
+      <li class="breadcrumb-item active">Matrix instant discussion</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./services/matrix.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="discussion-instantanee-matrix">
+<h1>Matrix instant discussion<a class="headerlink" href="#discussion-instantanee-matrix" title="Link to this heading">#</a></h1>
+<dl class="glossary">
+<dt id="term-Matrix">Matrix<a class="headerlink" href="#term-Matrix" title="Link to this term">#</a></dt><dd><p><abbr title="In the context of computing, a protocol is a set of rules that govern
+the exchange of data or the collective behavior of processes or
+computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocol</span></a></abbr> for <a class="reference external" href="https://en.wikipedia.org/wiki/Decentralized_computing"><strong>decentralized</strong></a> <a class="reference external" href="https://en.wikipedia.org/wiki/Instant_messaging">instant messaging</a>.</p>
+<p>Its main advantage over the other similarly federated systems is to replicate data on all participating <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">servers</span></a></abbr>, in order to improve fault tolerance by guaranteeing an “eventual consistency”. — <a class="reference external" href="https://en.wikipedia.org/wiki/Matrix_(protocol)">Wikipedia</a></p>
+</dd>
+</dl>
+<section id="principes-generaux">
+<h2>General principles<a class="headerlink" href="#principes-generaux" title="Link to this heading">#</a></h2>
+<p>Matrix repose sur l’interaction de différents <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.
+Chaque serveur permet de créer des “salons” (rooms) de discussions internes pour ses utilisateurs,
+mais aussi de se connecter de façon transparente aux salons provenant d’autres serveurs si ils le souhaitent.</p>
+<section id="serveur">
+<h3>Server<a class="headerlink" href="#serveur" title="Link to this heading">#</a></h3>
+<p>Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke les échanges de messages.
+Chez CLUB1, l’adresse de notre serveur est tout simplement <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code> ou <code class="docutils literal notranslate"><span class="pre">https://club1.fr</span></code>.
+Inutile d’aller voir à cette adresse,
+il vous faudra un <a class="reference internal" href="#client-interfaces-de-connexion">client</a> pour accéder à l’interface de messagerie.</p>
+</section>
+<section id="identifiant">
+<h3>Username<a class="headerlink" href="#identifiant" title="Link to this heading">#</a></h3>
+<p>Lorsque l’on a un compte Matrix, on a une adresse Matrix, un peu comme une adresse email,
+à ceci près que le symbole <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> est utilisé comme premier caractère,
+signalant que l’adresse fait référence à un utilisateur.
+Le symbole <code class="docutils literal notranslate"><span class="pre">:</span></code> est donc utilisé pour séparer l’identifiant du serveur :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>@baby:club1.fr
+</pre></div>
+</div>
+<p>Où <code class="docutils literal notranslate"><span class="pre">baby</span></code> est <strong>l’identifiant</strong> et <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code> est le <strong>serveur</strong> auquel le compte est rattaché.</p>
+</section>
+<section id="room">
+<h3>Room<a class="headerlink" href="#room" title="Link to this heading">#</a></h3>
+<p>Une <em>room</em>, ou <em>salon</em> Matrix est un flux de discussion qui accueille n’importe quel nombre de participants.
+Elles ont aussi une adresse, qui commence cette fois par un <code class="docutils literal notranslate"><span class="pre">#</span></code> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>#blabla-dauphins:club1.fr
+</pre></div>
+</div>
+<p>Où <code class="docutils literal notranslate"><span class="pre">blabla-dauphins</span></code> est le nom de la <em>room</em>
+et <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code>, le serveur sur lequel elle a été créée et auquel elle est rattachée.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il est possible, au moment de la création d’une <em>room</em>,
+d’interdire l’accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier.</p>
+</div>
+</section>
+<section id="client-interfaces-de-connexion">
+<h3>Client (connection interfaces)<a class="headerlink" href="#client-interfaces-de-connexion" title="Link to this heading">#</a></h3>
+<p>Comme pour les emails, il est aussi possible de choisir son <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>,
+son interface, pour se connecter à Matrix.
+Il en existe pour tous les goûts, mais la plupart sont encore en cours de développement.
+À l’heure actuelle, <strong>la façon la plus simple et fiable de converser via Matrix
+est d’utiliser <em><abbr title="Complete ([Matrix] [client] formerly “Riot”) available on many
+platforms. CLUB1 hosts an [instance] of the [Web] version of this
+client at https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr></em></strong>, en tant que <abbr title="[Client] accessible via the [Web] and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> ou sur mobile.</p>
+<p><a class="reference external" href="https://riot.club1.fr"><strong>🌌 interface Element Web sur Club1.fr</strong></a></p>
+<p>On distingue trois catégories principales : Clients <strong>Web</strong> (qui s’ouvrent dans un navigateur),
+<strong>Desktop</strong> (Linux, Windows, MacOS) et <strong>Mobile</strong> (Android, Iphone).
+<a class="reference external" href="https://matrix.org/ecosystem/clients/">Liste officielle des clients matrix</a>.</p>
+<p>Sur ordinateur (Desktop), il n’existe pas encore de logiciel suffisamment complet
+pour que cela soit intéressant, à part si vous êtes un·e amoureux·se du <abbr title="In computing, a terminal was originally a device consisting of a
+monitor and a keyboard, allowing a human to interact with a remote
+shared computer. It offered a textual interface, making it possible to
+enter commands and read the result.
+
+Nowadays, the word “terminal” is often used as a shorthand for a
+“terminal emulator”. This is a software that recreates the command
+line interface ([CLI]) of this hardware."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
+auquel cas, vous êtes invité·e·s à utiliser le superbe <a class="reference external" href="https://github.com/tulir/gomuks">gomuks</a></p>
+<p>Sur Android, certaines applications commencent à être matures.
+Il y a bien-sûr la version mobile de <a class="reference external" href="https://play.google.com/store/apps/details?id=im.vector.app">Element</a>,
+mais on peut aussi préférer l’ambiance <em>fluffy</em> de <a class="reference external" href="https://fluffychat.im/">FluffyChat</a></p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Pour se connecter ailleurs que sur l’interface web de Club1,
+<strong>il faut bien spécifier que votre serveur est <code class="docutils literal notranslate"><span class="pre">https://club1.fr</span></code> !</strong></p>
+</div>
+</section>
+</section>
+<section id="comment-l-utiliser-interface-element-web">
+<h2>Comment l’utiliser (interface Element web) ?<a class="headerlink" href="#comment-l-utiliser-interface-element-web" title="Link to this heading">#</a></h2>
+<section id="rejoindre-des-salons">
+<h3>Rejoindre des salons<a class="headerlink" href="#rejoindre-des-salons" title="Link to this heading">#</a></h3>
+<p>Pour rejoindre des rooms, il suffit de cliquer sur <span class="guilabel">explorer</span> en haut à gauche de l’interface.
+Par défaut, seules les rooms du serveur local sont listées.
+Pour en afficher d’autres, il faut sélectionner un autre serveur depuis le menu déroulant
+ou cliquer sur <span class="guilabel">ajouter un nouveau serveur</span>.</p>
+<p>Dans le panneau de gauche, les salons sont répartis en <span class="guilabel">messages direct</span> et <span class="guilabel">salons</span>.
+Cela sert à distinguer les discussions à deux personnes des discussions de groupes.</p>
+</section>
+<section id="creer-un-salon">
+<h3>Créer un salon<a class="headerlink" href="#creer-un-salon" title="Link to this heading">#</a></h3>
+<p>En cliquant sur le <span class="guilabel">+</span> à droite de <span class="guilabel">messages direct</span> ou <span class="guilabel">salons</span>,
+on a la possibilité de créer son propre salon.
+Dans le cas d’une discussion à deux, il suffit de choisir un destinataire,
+la room sera par défaut privée.
+Dans d’une discussion de groupe, il va falloir définir un nom,
+définir si elle va être privée ou publique, ainsi que l’activation ou non du chiffrement.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Le chiffrement des discussions ne peut pas être désactivé plus tard.</p>
+</div>
+</section>
+<section id="formatage">
+<h3>Formatting<a class="headerlink" href="#formatage" title="Link to this heading">#</a></h3>
+<p>Il est possible de formater son message, en sélectionnant du texte sur la zone d’écriture de message,
+ou en utilisant le <strong><abbr title="Lightweight markup language for creating formatted text. Documents
+written in Markdown are usually intended to be converted to [HTML], in
+order to make it a [Web] page. Its main advantage over HTML is its
+sleek syntax, which makes it more pleasant to read and write for a
+human."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr></strong>, un standard de formatage simple utilisé par de plus en plus de site.</p>
+</section>
+<section id="chiffrement">
+<h3>Encryption<a class="headerlink" href="#chiffrement" title="Link to this heading">#</a></h3>
+<p>Le protocole Matrix permet de chiffrer ses messages <em>de bout en bout</em>,
+c’est-à-dire qu’un message sera illisible d’un bout à l’autre de son cheminement
+et n’est déchiffrable qu’à l’arrivée par son destinataire.
+Cela complexifie un peu les échanges,
+car Matrix force la vérification des différents appareils que l’on utilise pour communiquer.
+En effet, il faut être sûr que les différents appareils connectés au même compte
+sont bien en possession d’une même personne.
+Pour cela, une <em>pass-phrase</em> globale est utilisée :
+c’est un super mot de passe plus long qui va servir au chiffrement de vos messages.</p>
+</section>
+</section>
+<section id="questions-concernant-le-serveur-matrix-de-club1">
+<h2>Questions concernant le serveur Matrix de CLUB1<a class="headerlink" href="#questions-concernant-le-serveur-matrix-de-club1" title="Link to this heading">#</a></h2>
+<section id="est-ce-fiable">
+<h3>Est-ce fiable ?<a class="headerlink" href="#est-ce-fiable" title="Link to this heading">#</a></h3>
+<p>Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur,
+cependant pour se faire un avis, il est possible de consulter
+les <a class="reference external" href="https://status.club1.fr">statistiques de disponibilité</a> du serveur Matrix et de Element.
+Des mises-à-jour sont effectuées régulièrement
+pour avoir la dernière version de <abbr title="[Matrix] [server] written in Python. This is the reference
+implementation of a Matrix server and for now the only one that is
+advertised as “stable”."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> et <abbr title="Complete ([Matrix] [client] formerly “Riot”) available on many
+platforms. CLUB1 hosts an [instance] of the [Web] version of this
+client at https://riot.club1.fr."><a class="reference internal" href="#logiciel-Element"><span class="xref std std-logiciel">Element</span></a></abbr>
+et ainsi éviter des bugs ou failles de sécurité.</p>
+</section>
+<section id="que-faire-si-j-ai-perdu-mon-mot-de-passe">
+<h3>Que faire si j’ai perdu mon mot de passe ?<a class="headerlink" href="#que-faire-si-j-ai-perdu-mon-mot-de-passe" title="Link to this heading">#</a></h3>
+<p>Si une adresse email a été reliée à votre compte
+(compte créé après la <a class="reference external" href="https://club1.fr/serveur-matrix-suivi-001">mise à jour des réglages</a> ou bien ajout manuel),
+il suffit de cliquer sur <span class="guilabel">mot de passe oublié</span>.
+Sinon, il n’est pas possible de récupérer son mot de passe automatiquement.
+La seule façon est de réussir à joindre et convaincre l’administrateur système <em>dans la vraie vie</em>,
+autant dire qu’il vaut mieux ne pas l’oublier.</p>
+</section>
+<section id="est-ce-que-club1-fr-respecte-ma-vie-privee">
+<h3>Est-ce que club1.fr respecte ma vie privée ?<a class="headerlink" href="#est-ce-que-club1-fr-respecte-ma-vie-privee" title="Link to this heading">#</a></h3>
+<p>La seule personne qui a accès aux bases de données
+est l’administrateur système du serveur (<code class="docutils literal notranslate"><span class="pre">&#64;n-peugnet:club1.fr</span></code>),
+normalement, il n’a pas que ça à faire de vous espionner,
+mais si vous n’avez pas confiance en lui, il ne vous reste plus qu’à activer le chiffrement des conversations.</p>
+</section>
+</section>
+<section id="configurations-specifiques">
+<h2>Specific configurations<a class="headerlink" href="#configurations-specifiques" title="Link to this heading">#</a></h2>
+<p>CLUB1’s <abbr title="Copy of software or a computer object having its own existence and
+state.
+
+For example, we speak of an instance each time a software is executed
+with different data. On the CLUB1 server, there are notably several
+instances of [PHP]: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> of <abbr title="[Matrix] [server] written in Python. This is the reference
+implementation of a Matrix server and for now the only one that is
+advertised as “stable”."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> has some specific configurations.</p>
+<table class="wrap docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Paramètre</p></th>
+<th class="head"><p>Valeur</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Captcha requis à l’inscription</p></td>
+<td><p>Oui</p></td>
+</tr>
+<tr class="row-odd"><td><p>Email requis à l’inscription</p></td>
+<td><p>Oui</p></td>
+</tr>
+<tr class="row-even"><td><p>Salons rejoints à l’inscription</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">#decouverte:club1.fr</span></code> et <code class="docutils literal notranslate"><span class="pre">#bazar:club1.fr</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<p>The server has <a class="reference internal" href="../info/infrastructure-materielle.html#serveur"><span class="std std-ref">limited resources</span></a>, so it cannot host and keep all discussions indefinitely. That is why the following parameters were changed.</p>
+<table class="wrap docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Paramètre</p></th>
+<th class="head"><p>Valeur</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Rétention des messages</p></td>
+<td><p>3 ans</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rétention des médias locaux</p></td>
+<td><p>2 ans</p></td>
+</tr>
+<tr class="row-even"><td><p>Rétention des médias distants</p></td>
+<td><p>90 jours</p></td>
+</tr>
+<tr class="row-odd"><td><p>Délai de suppression des salons vides</p></td>
+<td><p>20 jours</p></td>
+</tr>
+<tr class="row-even"><td><p>Limite de complexité des salons</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Présence</p></td>
+<td><p>Désactivé</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p>The journal article “<a class="reference external" href="https://club1.fr/serveur-matrix-suivi-001">Nouveaux réglages du serveur Matrix</a>” (in French)</p></li>
+<li><p>The forum post “<a class="reference external" href="https://forum.club1.fr/d/100-limiter-les-salons-federes-en-fonction-de-leur-complexite/12">Limiter les salons fédérés en fonction de leur complexité</a>” (in French)</p></li>
+</ul>
+</div>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Synapse">
+<span class="sig-name descname"><span class="pre">Synapse</span></span><a class="headerlink" href="#logiciel-Synapse" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="[Protocol] for **decentralized** instant messaging.
+
+Its main advantage over the other similarly federated systems is to
+replicate data on all participating [servers], in order to improve
+fault tolerance by guaranteeing an “eventual consistency”."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> written in Python. This is the reference implementation of a Matrix server and for now the only one that is advertised as “stable”. — <a class="reference external" href="https://github.com/element-hq/synapse">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Element">
+<span class="sig-name descname"><span class="pre">Element</span></span><a class="headerlink" href="#logiciel-Element" title="Link to this definition">#</a></dt>
+<dd><p>Complete (<abbr title="[Protocol] for **decentralized** instant messaging.
+
+Its main advantage over the other similarly federated systems is to
+replicate data on all participating [servers], in order to improve
+fault tolerance by guaranteeing an “eventual consistency”."><a class="reference internal" href="#term-Matrix"><span class="xref std std-term">Matrix</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> formerly “Riot”) available on many platforms. CLUB1 hosts an <abbr title="Copy of software or a computer object having its own existence and
+state.
+
+For example, we speak of an instance each time a software is executed
+with different data. On the CLUB1 server, there are notably several
+instances of [PHP]: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> of the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> version of this client at <a class="reference external" href="https://riot.club1.fr">https://riot.club1.fr</a>. — <a class="reference external" href="https://github.com/element-hq/element-web">Sources</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Element_(software)">Wikipedia</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../services-ouverts.html" class="btn btn-neutral float-left" title="3. Services open to all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../tutos/index.html" class="btn btn-neutral float-right" title="4. Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2025, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-03-22-ge481
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/services/matrix.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/services/matrix.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
