@@ -8,7 +8,7 @@ Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
 Pour utiliser votre boîte mail, il faut vous y connecter à travers un {term}`client` mail.
 
 Si vous utilisez déjà un client email installé sur votre ordinateur (*Thunderbird*, *Apple mail*...)
-pour gérer vos autres boîtes email, vous pouvez y ajouter celle de club1.
+pour gérer vos autres boîtes email, vous pouvez y ajouter celle de CLUB1.
 Pour cela, vous aurez probablement besoin des [informations de connexion](#informations-de-connexion).
 
 Sinon, vous pouvez aussi vous connecter depuis un naviguateur {term}`Web` grâce au [client Web](#client-web).
