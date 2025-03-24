@@ -1,0 +1,296 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webcasts (audio/video) via Icecast (beta) &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/services/webcast.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=dc41cded"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3. Services open to all" href="../services-ouverts.html" />
+    <link rel="prev" title="Public Git repositories" href="git.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/webcast.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/webcast.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">SSH remote connection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Email messaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">FTPS files transfer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">WebDAV synchro of files, contacts and calendars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html"><em>Drive</em> Web file explorer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Websites hosting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">SQL databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">News feed aggregator (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Public Git repositories</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Webcasts (audio/video) via Icecast (beta)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#informations-de-connexion">Connection information</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services open to all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services reserved for members</a></li>
+      <li class="breadcrumb-item active">Webcasts (audio/video) via Icecast (beta)</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./services/webcast.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="emissions-web-audio-video-via-icecast-beta">
+<h1>Webcasts (audio/video) via Icecast (beta)<a class="headerlink" href="#emissions-web-audio-video-via-icecast-beta" title="Link to this heading">#</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This service is in “beta” on CLUB1, which means that it risks changing configuration or even being deleted in the future.</p>
+</div>
+<dl class="simple glossary">
+<dt id="term-webdiffusion">webcast<a class="headerlink" href="#term-webdiffusion" title="Link to this term">#</a></dt><dd><p>Refers to the distribution of audio and/or video content via the <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Webcast">Wikipedia</a></p>
+</dd>
+</dl>
+<p>A live <abbr title="Refers to the distribution of audio and/or video content via the
+[Web]."><a class="reference internal" href="#term-webdiffusion"><span class="xref std std-term">webcast</span></a></abbr> service is made available to members. For example, it allows you to create radio broadcasts on <abbr title="Publicly accessible global [computer network]. The Internet is
+actually the interconnection of a set of networks around the world. As
+the name suggests, “inter” “net” = “between networks”. It is therefore
+a “network of networks”."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr>. This service is based on the software <abbr title="[Webcast] [server] for audio and video streams."><a class="reference internal" href="#logiciel-Icecast"><span class="xref std std-logiciel">Icecast</span></a></abbr> and is accessible at the address <a class="reference external" href="https://club1.fr:8000">https://club1.fr:8000</a>.</p>
+<p>It is possible to consult this page from a <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> browser, but it will only allow you to display the list of current broadcasts and read their contents. To broadcast content as a source, it is necessary to use a dedicated <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> (e.g. <a class="reference external" href="https://danielnoethen.de/butt/">butt</a>). For reading, a dedicated client (for example <a class="reference external" href="https://en.wikipedia.org/wiki/VLC_media_player">VLC</a>) will still be able to provide better comfort.</p>
+<section id="informations-de-connexion">
+<h2>Connection information<a class="headerlink" href="#informations-de-connexion" title="Link to this heading">#</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>field</p></th>
+<th class="head"><p>value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>host</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">club1.fr</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>port</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">8000</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>type</p></td>
+<td><p>Icecast</p></td>
+</tr>
+<tr class="row-odd"><td><p>SSL/TLS</p></td>
+<td><p>Yes</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Icecast">
+<span class="sig-name descname"><span class="pre">Icecast</span></span><a class="headerlink" href="#logiciel-Icecast" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="Refers to the distribution of audio and/or video content via the
+[Web]."><a class="reference internal" href="#term-webdiffusion"><span class="xref std std-term">Webcast</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> for audio and video streams. — <a class="reference external" href="https://en.wikipedia.org/wiki/Icecast">Wikipedia</a>, <a class="reference external" href="https://gitlab.xiph.org/xiph/icecast-server">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-icecast-ldap">
+<span class="sig-name descname"><span class="pre">icecast-ldap</span></span><a class="headerlink" href="#logiciel-icecast-ldap" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Server</span></a></abbr> to bridge <abbr title="[Webcast] [server] for audio and video streams."><a class="reference internal" href="#logiciel-Icecast"><span class="xref std std-logiciel">Icecast</span></a></abbr>’s URL based authentication with a <abbr title="(Lightweight Directory Access Protocol) Directory service [Protocol]
+describing both a data model and how to query and modify this data.
+
+A LDAP directory is a kind of database with a hierarchical, tree-like
+structure, allowing to link information to names. Generally, accounts
+or groups of users or computers belonging to an organization.
+
+The data schema is not fixed, so you need to know it before you can
+interact with a LDAP directory."><a class="reference internal" href="../outils/ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr> server. — <a class="reference external" href="https://github.com/kuhball/icecast-ldap">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="git.html" class="btn btn-neutral float-left" title="Public Git repositories" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../services-ouverts.html" class="btn btn-neutral float-right" title="3. Services open to all" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2025, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-03-24-gc1df
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/services/webcast.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/services/webcast.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
