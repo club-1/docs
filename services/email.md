@@ -5,8 +5,76 @@ Chaque membre dispose d'**une boîte email** avec une adresse email personnelle.
 L'adresse est composée de l'**identifiant**, suivi de `@club1.fr`.
 Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
 
-Sous-adresses
--------------
+Pour utiliser votre boîte mail, il faut vous y connecter à travers un {term}`client` mail.
+
+Si vous utilisez déjà un client email installé sur votre ordinateur (*Thunderbird*, *Apple mail*...)
+pour gérer vos autres boîtes email, vous pouvez y ajouter celle de CLUB1.
+Pour cela, vous aurez probablement besoin des [informations de connexion](#informations-de-connexion).
+
+Sinon, vous pouvez aussi vous connecter depuis un naviguateur {term}`Web` grâce au [client Web](#client-web).
+
+Enfin, pour les membres utilisant régulièrement la [connexion SSH](/services/ssh.md),
+il est possible de consulter ses mails avec {commande}`mutt`.
+
+
+Client Web
+----------
+
+Un {term}`client Web` fourni par {logiciel}`Roundcube`
+est disponible à l'adresse <https://mail.club1.fr>.
+
+Il permet de gérer et envoyer des emails
+ainsi que de [configurer des filtres](#filtres-automatiques) pour trier automatiquement les emails reçus.
+
+Mais il permet aussi d'accéder aux **{index}`calendriers`**
+et **{index}`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md).
+
+Stockage des données
+--------------------
+
+Toutes les données relatives aux emails sont stockées sous la forme de fichiers
+dans le dossier `mail` de votre [*espace personnel*](/info/espace-personnel.md).
+Ce dossier respecte le standard [Maildir](https://fr.wikipedia.org/wiki/Maildir),
+il est donc possible d'y accéder directement à partir d'un {term}`client` email supportant ce standard,
+par exemple après avoir fait une sauvegarde du dossier sur un ordinateur personnel.
+
+### Quotas
+
+Le dossier `mail` est soumis à un quota de **5&nbsp;Go**.
+Cette décision a été prise pour encourager la suppression des anciens emails.
+
+La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**.
+Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé
+avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Error: message file too big`.
+
+
+### Dossiers spéciaux
+
+Les dossiers spéciaux utilisent les noms standards,
+ils seront donc automatiquement reconnus par la grande majorité des clients email.
+Au cas où ils ne le sont pas, voici la liste complète :
+
+- `INBOX` : messages reçus
+- `Drafts` : brouillons en cours de rédaction
+- `Sent` : messages envoyés
+- `Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)
+- `Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)
+- `Archive` : messages archivés
+
+
+
+Usage avancé
+------------
+
+Quelques informations supplémentaires à propos du service email de CLUB1.
+
+```{seealso}
+L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)
+```
+
+
+### Sous-adresses
+
 
 En plus de l'adresse principale, les membres ont la possibilité d'utiliser les sous-adresses.
 Les sous-adresses sont comme des {term}`alias`.
@@ -34,64 +102,6 @@ La documentation officielle de l'option [recipient_delimiter](http://www.postfix
 (en anglais)
 ```
 
-Client Web
-----------
-
-Un {term}`client Web` fourni par {logiciel}`Roundcube`
-est disponible à l'adresse <https://mail.club1.fr>.
-
-Il permet de gérer et envoyer des emails
-ainsi que de [configurer des filtres](#filtres-automatiques) pour trier automatiquement les emails reçus.
-
-Mais il permet aussi d'accéder aux **{index}`calendriers`**
-et **{index}`carnets d'adresses`** CLUB1 synchronisés avec [WebDAV](webdav.md).
-
-Stockage des données
---------------------
-
-Toutes les données relatives aux emails sont stockées sous la forme de fichiers
-dans le dossier `mail` de votre [*espace personnel*](/info/espace-personnel.md).
-Ce dossier respecte le standard [Maildir](https://fr.wikipedia.org/wiki/Maildir),
-il est donc possible d'y accéder directement à partir d'un {term}`client` email supportant ce standard,
-par exemple après avoir fait une sauvegarde du dossier sur un ordinateur personnel.
-
-Sur le serveur, le client en {term}`CLI` {logiciel}`Mutt`
-est préconfiguré pour consulter ce dossier par défaut.
-Pour l'utiliser, il faut commencer par se connecter en [SSH](ssh.md) au serveur CLUB1
-puis lancer la commande suivante :
-
-    mutt
-
-Détails divers
---------------
-
-Quelques informations supplémentaires à propos de certains détails du service email de CLUB1.
-
-```{seealso}
-L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)
-```
-
-### Dossiers spéciaux
-
-Les dossiers spéciaux utilisent les noms standards,
-ils seront donc automatiquement reconnus par la grande majorité des clients email.
-Au cas où ils ne le sont pas, voici la liste complète :
-
-- `INBOX` : messages reçus
-- `Drafts` : brouillons en cours de rédaction
-- `Sent` : messages envoyés
-- `Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)
-- `Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)
-- `Archive` : messages archivés
-
-### Quotas
-
-Le dossier `mail` est soumis à un quota de **5&nbsp;Go**.
-Cette décision a été prise pour encourager la suppression des anciens emails.
-
-La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**.
-Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé
-avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Error: message file too big`.
 
 ### Transferts automatiques
 
