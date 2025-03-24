@@ -308,6 +308,7 @@ linkcheck_ignore = [
     r'https://www\.buddyns\.com',
     r'https://www\.eaton\.com',
     r'https://dnssec-analyzer\.verisignlabs\.com',
+    r'https://github\.com/club-1/docs/commits/main/',
 ]
 
 # Allow some redirects.
