@@ -192,12 +192,6 @@ Ces filtres peuvent être édités depuis {logiciel}`Roundcube`.
 --- [Site Web](https://pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)
 ```
 
-```{logiciel} SPF-Engine
-{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
-utilisé par {logiciel}`Postfix` pour vérifier l'origine des emails entrants.
---- [Sources](https://launchpad.net/spf-engine)
-```
-
 ```{logiciel} PostSRSd
 {term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_)
 permettant à {logiciel}`Postfix` de transférer des emails en restant compatible avec SPF.
@@ -206,8 +200,20 @@ permettant à {logiciel}`Postfix` de transférer des emails en restant compatibl
 
 ```{logiciel} OpenDKIM
 {term}`Serveur` fournissant un filtre _milter_
-utilisé par {logiciel}`Postfix` pour signer les emails sortants.
+utilisé par {logiciel}`Postfix` pour signer les emails sortants
+et valider la signature des emails entrants.
 --- [Site Web](http://www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/OpenDKIM)
+```
+
+```{logiciel} OpenDMARC
+{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}`Postfix`
+pour valider la politique [DMARC (_Domain-based Message Authentication, Reporting, and Conformance_)](https://fr.wikipedia.org/wiki/DMARC)
+des emails entrants.
+
+Il se base pour cela sur le retour d'{logiciel}`OpenDKIM`
+et sur la validation [SPF (_Sender Policy Framework_)](https://fr.wikipedia.org/wiki/Sender_Policy_Framework)
+qu'il réalise lui-même.
+--- [Site Web](http://www.trusteddomain.org/opendmarc/), [Sources](https://github.com/trusteddomainproject/OpenDMARC)
 ```
 
 ````{logiciel} Roundcube
