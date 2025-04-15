@@ -906,7 +906,7 @@ msgid ""
 msgstr ""
 "Permissions can be accessed in {term}`CLI` with `ls -l` and modified with "
 "`chmod`. --- [Wikipedia](https://en.wikipedia.org/wiki/File-"
-"system_permissions#POSIX_permissions)"
+"system_permissions#Traditional_POSIX_permissions)"
 
 #: ../../glossaire.md:185
 msgid ""

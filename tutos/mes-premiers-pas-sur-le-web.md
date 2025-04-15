@@ -207,10 +207,10 @@ Il applique ensuite un style par défaut associé à ce statut.
 
 C'est globalement comme cela que fonctionne la language HTML,
 tout du moins les balises doubles.
-Évidemment, il existe [des balises pour de nombreux usages](https://developer.mozilla.org/fr/docs/Web/HTML/Element).
+Évidemment, il existe [des balises pour de nombreux usages](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements).
 Par exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas interprétés en HTML.
 C'est normal ! Pour faire des paragraphes, il faut mettre son texte à l'intérieur d'une
-[balise `<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p).
+[balise `<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/p).
 
 
 ### Éditer en local
