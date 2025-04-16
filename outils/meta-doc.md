@@ -129,7 +129,7 @@ et ça utilisera moins d'encre pour la version imprimée.
 Références
 ----------
 
-- [Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
+- [Spécificités des liens avec Sphinx](https://docs.readthedocs.com/platform/stable/guides/cross-referencing-with-sphinx.html)
 - [Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)
 
 Compilation
