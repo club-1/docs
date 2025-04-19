@@ -54,6 +54,8 @@ Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
    composé presque exclusivement de {term}`logiciels libres <logiciel libre>`
    et respectant la norme {term}`POSIX`.
+
+   C'est le système d'exploitation qui est installé sur le serveur CLUB1.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Debian),
    [Site Web](https://www.debian.org/)
 
