@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2025-05-29 16:08+0200\n"
-"PO-Revision-Date: 2025-01-13 12:00+0000\n"
+"PO-Revision-Date: 2025-05-29 14:45+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -449,13 +449,15 @@ msgstr ""
 
 #: ../../faq.md:46
 msgid "Est-il possible d'héberger un site Web avec un domaine externe ?"
-msgstr ""
+msgstr "Is it possible to host a website with an external domain?"
 
 #: ../../faq.md:48
 msgid ""
 "**C'est possible**, cependant il y a une contrainte technique : ⚠️ Il est "
 "nécessaire d'utiliser **un sous-domaine de votre {term}`nom de domaine`**."
 msgstr ""
+"**It is possible**, however there is a technical constraint: ⚠️ It is "
+"necessary to use **a subdomain of your {term}`domain name`**."
 
 #: ../../faq.md:51
 msgid ""
@@ -464,6 +466,10 @@ msgid ""
 "utiliser un sous domaine, tel que `https://www.crevette.com`. (Ça peut être "
 "autre chose que `www`, mais c'est une convention pour le {term}`Web`)"
 msgstr ""
+"For example, if you own `crevette.com`, it will not be possible to host the "
+"site `https://crevette.com` on the CLUB1 server. Using a sub-domain, such as "
+"`https://www.crevette.com`, will be required. (It may be something else than "
+"`www`, but it is a convention for the {term}`Web`)"
 
 #: ../../faq.md:56
 msgid ""
@@ -473,6 +479,10 @@ msgid ""
 "dans notre cas, car l'adresse IP du serveur CLUB1 peut changer, tandis que "
 "son nom de domaine ne changera pas."
 msgstr ""
+"Effectively, this involves adding a CNAME record for `www` pointing to "
+"`club1.fr`. Using a CNAME allows one to create an {term}`alias` on a domain name "
+"rather than an {term}`IP address`. This is useful in our case because the IP address "
+"of the CLUB1 server may change, but its domain name will not."
 
 #: ../../faq.md:62
 msgid ""
@@ -480,6 +490,9 @@ msgid ""
 "une redirection HTTP automatique depuis votre nom de domaine vers le sous-"
 "domaine de votre choix."
 msgstr ""
+"With some {term}`registrars <registrar>`, it is possible to create an "
+"automatic HTTP redirect from your domain name to the subdomain of your "
+"choice."
 
 #: ../../faq.md:68
 msgid "Quel espace est-ce-que j'occupe sur le serveur ?"
@@ -643,38 +656,24 @@ msgstr ""
 "{term}`Client` accessible via the {term}`Web` and executed by a Web browser."
 
 #: ../../glossaire.md:50
-#, fuzzy
-#| msgid ""
-#| "Système d'exploitation communautaire basé sur {term}`Linux`, composé "
-#| "presque exclusivement de {term}`logiciels libres <logiciel libre>` et "
-#| "respectant la norme {term}`POSIX`. --- [Wikipedia](https://"
-#| "fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
 msgid ""
 "Système d'exploitation communautaire basé sur {term}`Linux`, composé presque "
 "exclusivement de {term}`logiciels libres <logiciel libre>` et respectant la "
 "norme {term}`POSIX`."
 msgstr ""
 "Community operating system based on {term}`Linux`, almost exclusively "
-"composed of {term}`free software <free software>` that comply with the {term}"
-"`POSIX` standards. --- [Wikipedia](https://en.wikipedia.org/wiki/Debian), "
-"[Website](https://www.debian.org/)"
+"composed of {term}`free software <free software>` that comply with the "
+"{term}`POSIX` standards."
 
 #: ../../glossaire.md:54
-#, fuzzy
-#| msgid ""
-#| "Système d'exploitation communautaire basé sur {term}`Linux`, composé "
-#| "presque exclusivement de {term}`logiciels libres <logiciel libre>` et "
-#| "respectant la norme {term}`POSIX`. --- [Wikipedia](https://"
-#| "fr.wikipedia.org/wiki/Debian), [Site Web](https://www.debian.org/)"
 msgid ""
 "C'est le système d'exploitation qui est installé sur le serveur CLUB1. --- "
 "[Wikipedia](https://fr.wikipedia.org/wiki/Debian), [Site Web](https://"
 "www.debian.org/)"
 msgstr ""
-"Community operating system based on {term}`Linux`, almost exclusively "
-"composed of {term}`free software <free software>` that comply with the {term}"
-"`POSIX` standards. --- [Wikipedia](https://en.wikipedia.org/wiki/Debian), "
-"[Website](https://www.debian.org/)"
+"This is the operating system that is installed on the CLUB1 server. --- "
+"[Wikipedia](https://en.wikipedia.org/wiki/Debian), [Website](https://"
+"www.debian.org/)"
 
 #: ../../glossaire.md:59
 msgid ""
@@ -980,12 +979,6 @@ msgstr ""
 "`dynamic website`. --- [Wikipedia](https://en.wikipedia.org/wiki/PHP)"
 
 #: ../../glossaire.md:195
-#, fuzzy
-#| msgid ""
-#| "(_Portable Operating System Interface_) ensemble de normes techniques qui "
-#| "spécifient une interface, permettant aux systèmes d'exploitation qui la "
-#| "respectent d'être interchangeables, du point de vue d'un logiciel "
-#| "utilisateur."
 msgid ""
 "(_Portable Operating System Interface_) Ensemble de normes techniques qui "
 "spécifient une interface, permettant aux systèmes d'exploitation qui la "
@@ -1472,14 +1465,6 @@ msgid "Système d'exploitation"
 msgstr "Operating system"
 
 #: ../../info/general.md:34
-#, fuzzy
-#| msgid ""
-#| "Le serveur tourne sur **{term}`Debian` 11** et est mis à jour "
-#| "régulièrement. Les mises-à-jour de sécurité sont installées "
-#| "automatiquement dans les 24 heures à l'aide de [_unattended-upgrades_]"
-#| "(https://wiki.debian.org/fr/unattended-upgrades) et les services en "
-#| "dépendant sont ensuite automatiquement redémarrés grâce à [_needrestart_]"
-#| "(https://packages.debian.org/fr/stable/needrestart)."
 msgid ""
 "Le serveur tourne sur **{term}`Debian` 12** et est mis à jour régulièrement. "
 "Les mises-à-jour de sécurité sont installées automatiquement dans les 24 "
@@ -1488,11 +1473,11 @@ msgid ""
 "automatiquement redémarrés grâce à [_needrestart_](https://"
 "packages.debian.org/fr/stable/needrestart)."
 msgstr ""
-"The server runs on **{term}`Debian` 11** and is updated regularly. Security "
-"updates are installed automatically within 24 hours using [_unattended-"
-"upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the services "
-"depending on it are then automatically restarted using [_needrestart_]"
-"(https://packages.debian.org/stable/needrestart)."
+"The server runs on **{term}`Debian` 12** and is updated regularly. Security "
+"updates are installed automatically within 24 hours using "
+"[_unattended-upgrades_](https://wiki.debian.org/UnattendedUpgrades) and the "
+"services depending on it are then automatically restarted using "
+"[_needrestart_](https://packages.debian.org/stable/needrestart)."
 
 #: ../../info/general.md:40
 msgid "Logiciels et bibliothèques installés"
@@ -1587,12 +1572,10 @@ msgid "une longueur comprise **entre 3 et 17 caractères** (inclus)."
 msgstr "a length of **between 3 and 17 characters** (included)."
 
 #: ../../info/general.md:92
-#, fuzzy
-#| msgid "comporter **uniquement des lettres minuscules** ou des tirets (`-`)."
 msgid ""
 "comporter **uniquement** des lettres **minuscules**, des **chiffres** ou des "
 "**tirets** (`-`)."
-msgstr "contain **only lower case letters** or hyphens (`-`)."
+msgstr "contain **only lower case letters**, **digits** or **hyphens** (`-`)."
 
 #: ../../info/general.md:94
 msgid ""
@@ -2022,6 +2005,10 @@ msgid ""
 "port SATA. Les débit sont donc un peu plus faibles (500Mb/s), par rapport au "
 "[SSD système](#système)."
 msgstr ""
+"The members' [personal space](/info/espace-personnel.md) is stored on a "
+"second medium: another 1TB SSD, but this time, connected to a SATA port. The "
+"speeds are therefore a little lower (500Mb/s), compared to the [system SSD]"
+"(#système)."
 
 #: ../../info/infrastructure-materielle.md:144
 msgid "Modèle : `Samsung EVO 860 1To`."
@@ -2295,6 +2282,8 @@ msgid ""
 "La comptabilité du club est consignée sur le serveur à l'aider d'un fichier "
 "de transactions. Il se situe au chemin suivant :"
 msgstr ""
+"The club's accounting is recorded on the server using a transactions file. "
+"It is located at the following path:"
 
 #: ../../outils/compta.md:18
 msgid ""
@@ -2303,10 +2292,13 @@ msgid ""
 "l'intérieur, les différentes valeurs sont séparées par des *tabulations* "
 "(touche {kbd}`Tab ↹`)."
 msgstr ""
+"As its extension indicates, this is a TSV (Tab Separated Values) file. Each "
+"line in this file represents a transaction. Within it, the different values "
+"are separated by *tabs* ({kbd}`Tab ↹` key)."
 
 #: ../../outils/compta.md:22
 msgid "Voici un exemple de ligne :"
-msgstr ""
+msgstr "Here is a line example:"
 
 #: ../../outils/compta.md:26
 msgid ""
@@ -2330,10 +2322,12 @@ msgid ""
 "n'hésitez pas à jeter un coup d'oeil ! En revanche, pour écrire dedans, il "
 "faut être membre du {term}`groupe` `compta`."
 msgstr ""
+"This file is readable by all users. So feel free to take a look! However, to "
+"write in it, you must be a member of the `compta` {term}`group`."
 
 #: ../../outils/compta.md:44
 msgid "Usage"
-msgstr ""
+msgstr "Use"
 
 #: ../../outils/compta.md:47
 msgid ""
@@ -2342,54 +2336,70 @@ msgid ""
 "confortable. Pour palier à cela, il est possible d'utiliser des commandes "
 "une fois que l'on est [connecté au serveur en SSH](/services/ssh.md)."
 msgstr ""
+"To study or modify the transaction list, simply open the file in a text "
+"editor. But hey, it's not necessarily very convenient. To overcome this, "
+"it's possible to use commands once you're [connected to the server via SSH](/"
+"services/ssh.md)."
 
 #: ../../outils/compta.md:53
 msgid ""
 "En fonction de votre familiarité avec le {term}`terminal`, deux options "
 "s'offrent à vous :"
 msgstr ""
+"Depending on your familiarity with the {term}`terminal`, two options are "
+"available:"
 
 #: ../../outils/compta.md:57
 msgid "Interface sympathique"
-msgstr ""
+msgstr "Friendly interface"
 
 #: ../../outils/compta.md:59
 msgid ""
 "Cette interface est faite pour être le plus simple possible. Elle ne fait "
 "que poser des questions."
 msgstr ""
+"This interface is made to be as simple as possible. It's just asking "
+"questions."
 
 #: ../../outils/compta.md:63
 msgid "Interface conviviale de gestion de la comptabilité de CLUB1."
-msgstr ""
+msgstr "User-friendly interface for CLUB1's accounting management."
 
 #: ../../outils/compta.md:67
 msgid "Commandes pour un usage avancé"
-msgstr ""
+msgstr "Commands for advanced use"
 
 #: ../../outils/compta.md:69
 msgid ""
 "Les utilisateurs plus habitués à l'utilisation de la {term}`CLI` peuvent "
 "directement utiliser les commandes suivantes."
 msgstr ""
+"Users more familiar with using the {term}`CLI` can directly use the "
+"following commands."
 
 #: ../../outils/compta.md:73
 msgid ""
 "Permet de consulter rapidement le contenu du fichier de comptabilité. Il est "
 "possible de filtrer ou même d'afficher le total, en fournissant des options."
 msgstr ""
+"Allows one to quickly view the contents of the accounting file. It is "
+"possible to filter or even display the total, by providing options."
 
 #: ../../outils/compta.md:78
 msgid ""
 "Permet d'ajouter une transaction au fichier de comptabilité. Il est "
 "nécessaire de remplir une grande partie des options."
 msgstr ""
+"Allows one to add a transaction to the accounting file. It is necessary to "
+"fill most of the options."
 
 #: ../../outils/compta.md:83
 msgid ""
 "Permet de marquer une transaction comme \"effectuée\". Il faut connaître "
 "l'identifiant de la transaction que l'on veut modifier."
 msgstr ""
+"Allows one to mark a transaction as \"done\". Knowing the ID of the "
+"transaction is required to modify it."
 
 #: ../../outils/compta.md:88
 msgid ""
@@ -3386,16 +3396,12 @@ msgid "Références"
 msgstr "References"
 
 #: ../../outils/meta-doc.md:132
-#, fuzzy
-#| msgid ""
-#| "[Spécificités des liens avec Sphinx](https://docs.readthedocs.io/en/"
-#| "stable/guides/cross-referencing-with-sphinx.html)"
 msgid ""
 "[Spécificités des liens avec Sphinx](https://docs.readthedocs.com/platform/"
 "stable/guides/cross-referencing-with-sphinx.html)"
 msgstr ""
-"[Sphinx links specificities](https://docs.readthedocs.io/en/stable/guides/"
-"cross-referencing-with-sphinx.html)"
+"[Sphinx links specificities](https://docs.readthedocs.com/platform/stable/"
+"guides/cross-referencing-with-sphinx.html)"
 
 #: ../../outils/meta-doc.md:133
 msgid ""
@@ -3975,11 +3981,6 @@ msgid "Site Web de CLUB1"
 msgstr "Website of CLUB1"
 
 #: ../../outils/site.md:4
-#, fuzzy
-#| msgid ""
-#| "On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 "
-#| "est un {term}`wiki`. Cela implique qu'il est possible d'éditer son "
-#| "contenu directement depuis le navigateur."
 msgid ""
 "On ne dirait peut-être pas comme ça, mais le site {term}`Web` de CLUB1 est "
 "un {term}`wiki`. Cela implique qu'il est possible d'éditer son contenu "
@@ -3987,9 +3988,10 @@ msgid ""
 "requises : Le contenu est formaté en {term}`Markdown` et la mise en page "
 "utilise le duo {term}`HTML` + CSS."
 msgstr ""
-"It may not look like one, but the {term}`Web` site of CLUB1 is a {term}"
-"`wiki`. This means that it is possible to edit its content directly from the "
-"browser."
+"It may not look like one, but the {term}`Web` site of CLUB1 is a {term}`wiki`"
+". This means that it is possible to edit its content directly from the "
+"browser. Little technical knowledge is required: The content is formatted in "
+"{term}`Markdown` and the layout uses the {term}`HTML` + CSS duo."
 
 #: ../../outils/site.md:10
 msgid ""
@@ -4007,7 +4009,7 @@ msgstr ""
 
 #: ../../outils/site.md:15
 msgid "Compte et niveaux"
-msgstr ""
+msgstr "Account and levels"
 
 #: ../../outils/site.md:18
 msgid ""
@@ -4391,20 +4393,13 @@ msgid "`Archive` : messages archivés"
 msgstr "`Archive`: archived messages"
 
 #: ../../services/email.md:66
-#, fuzzy
-#| msgid "Utilisation avancée"
 msgid "Usage avancé"
-msgstr "Advanced usage"
+msgstr "Advanced use"
 
 #: ../../services/email.md:69
-#, fuzzy
-#| msgid ""
-#| "Quelques informations supplémentaires à propos de certains détails du "
-#| "service email de CLUB1."
 msgid ""
 "Quelques informations supplémentaires à propos du service email de CLUB1."
-msgstr ""
-"Some additional information about certain details of CLUB1's email service."
+msgstr "Some additional information about CLUB1's email service."
 
 #: ../../services/email.md:72
 msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
@@ -4661,12 +4656,6 @@ msgstr ""
 "[Sources](https://github.com/roehling/postsrsd)"
 
 #: ../../services/email.md:208
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
-#| "`Postfix` pour signer les emails sortants. --- [Site Web](http://"
-#| "www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/"
-#| "OpenDKIM)"
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
 "`Postfix` pour signer les emails sortants et valider la signature des emails "
@@ -4674,16 +4663,11 @@ msgid ""
 "github.com/trusteddomainproject/OpenDKIM)"
 msgstr ""
 "{term}`Server` providing a _milter_ filter used by {logiciel}`Postfix` to "
-"sign outgoing emails. --- [Website](http://www.opendkim.org/), [Sources]"
-"(https://github.com/trusteddomainproject/OpenDKIM)"
+"sign outgoing emails and validate the signature of incoming emails. --- "
+"[Website](http://www.opendkim.org/), [Sources](https://github.com/"
+"trusteddomainproject/OpenDKIM)"
 
 #: ../../services/email.md:215
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
-#| "`Postfix` pour signer les emails sortants. --- [Site Web](http://"
-#| "www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/"
-#| "OpenDKIM)"
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
 "`Postfix` pour valider la politique [DMARC (_Domain-based Message "
@@ -4691,24 +4675,19 @@ msgid ""
 "DMARC) des emails entrants."
 msgstr ""
 "{term}`Server` providing a _milter_ filter used by {logiciel}`Postfix` to "
-"sign outgoing emails. --- [Website](http://www.opendkim.org/), [Sources]"
-"(https://github.com/trusteddomainproject/OpenDKIM)"
+"validate the "
+"[DMARC (_Domain-based Message Authentication, Reporting, and Conformance_)]"
+"(https://en.wikipedia.org/wiki/DMARC) policy of incoming emails."
 
 #: ../../services/email.md:219
-#, fuzzy
-#| msgid ""
-#| "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
-#| "`Postfix` pour signer les emails sortants. --- [Site Web](http://"
-#| "www.opendkim.org/), [Sources](https://github.com/trusteddomainproject/"
-#| "OpenDKIM)"
 msgid ""
 "Il se base pour cela sur le retour de {logiciel}`SPF-Engine` et {logiciel}"
 "`OpenDKIM`. --- [Site Web](http://www.trusteddomain.org/opendmarc/), "
 "[Sources](https://github.com/trusteddomainproject/OpenDMARC)"
 msgstr ""
-"{term}`Server` providing a _milter_ filter used by {logiciel}`Postfix` to "
-"sign outgoing emails. --- [Website](http://www.opendkim.org/), [Sources]"
-"(https://github.com/trusteddomainproject/OpenDKIM)"
+"It is based on the return of {logiciel}`SPF-Engine` and {logiciel}`OpenDKIM`"
+". --- [Website](http://www.trusteddomain.org/opendmarc/), [Sources](https://"
+"github.com/trusteddomainproject/OpenDMARC)"
 
 #: ../../services/email.md:224
 msgid ""
