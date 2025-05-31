@@ -220,6 +220,12 @@ Il se base pour cela sur le retour de {logiciel}`SPF-Engine` et {logiciel}`OpenD
 --- [Site Web](http://www.trusteddomain.org/opendmarc/), [Sources](https://github.com/trusteddomainproject/OpenDMARC)
 ```
 
+```{logiciel} dmarcator
+{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}`Postfix`
+pour rejeter certains emails en fonction du retour d'{logiciel}`OpenDMARC`.
+--- [Sources](https://github.com/club-1/dmarcator)
+```
+
 ````{logiciel} Roundcube
 {term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP et IMAP.
 --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube),
