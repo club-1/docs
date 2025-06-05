@@ -1,0 +1,297 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utiliser Tiny tiny RSS &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/tutos/flux-rss.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=c5bdcb60"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="5. Outils" href="../outils/index.html" />
+    <link rel="prev" title="Mes premiers pas sur le Web !" href="mes-premiers-pas-sur-le-web.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/flux-rss.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/flux-rss.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services ouverts à tous</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutoriels</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="presentation.html">Éditer son fichier de présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronisation de calendriers et contacts sur un appareil Android</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">Synchronisation de calendrier CalDAV sur un Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connexion au serveur depuis l’explorateur de fichiers Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">Première connexion SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Accès à l’espace personnel depuis le Finder d’un Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">Mes premiers pas sur le Web !</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Utiliser Tiny tiny RSS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#acceder-a-son-compte-de-flux-rss">Accéder à son compte de flux RSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#s-abonner-a-un-flux-rss">S’abonner à un flux RSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utiliser-les-categories">Utiliser les catégories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#choisir-un-mode-d-affichage">Choisir un mode d’affichage</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">4. </span>Tutoriels</a></li>
+      <li class="breadcrumb-item active">Utiliser Tiny tiny RSS</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/tutos/flux-rss.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="utiliser-tiny-tiny-rss">
+<h1>Utiliser Tiny tiny RSS<a class="headerlink" href="#utiliser-tiny-tiny-rss" title="Lien vers cette rubrique">#</a></h1>
+<p>Ce tutoriel explique comment utiliser <a class="reference internal" href="../services/rss.html"><span class="std std-doc">l’agrégateur de flux Web de CLUB1</span></a>.</p>
+<p>Cet <abbr title="Logiciel permettant de consulter les [flux Web]. Son but est d’agréger
+les nouveautés de différents sites dans un fil unique. Il permet
+d’éviter de regarder manuellement et un par un les sites dont on veut
+connaître les nouveaux contenus."><a class="reference internal" href="../services/rss.html#term-agregateur-de-flux"><span class="xref std std-term">agrégateur de flux</span></a></abbr> permet de « s’abonner » à de multiples sites web,
+pour recevoir des notifications lorsqu’un nouvel article est posté
+et pour tous les consulter dans un fil d’actualités commun.</p>
+<section id="acceder-a-son-compte-de-flux-rss">
+<h2>Accéder à son compte de flux RSS<a class="headerlink" href="#acceder-a-son-compte-de-flux-rss" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour accéder à votre compte, vous pouvez vous connecter avec vos identifiants CLUB1 à cette adresse : <a class="reference external" href="https://rss.club1.fr/">https://rss.club1.fr/</a></p>
+</section>
+<section id="s-abonner-a-un-flux-rss">
+<h2>S’abonner à un flux RSS<a class="headerlink" href="#s-abonner-a-un-flux-rss" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour recevoir les dernières nouveautés d’un site web, il faut « s’abonner à son flux d’actualités ».
+Pour cela, le plus simple est de l’ajouter depuis l’interface de <em>Tiny Tiny RSS</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Vous aurez besoin de l’adresse (aussi appelée URL) du site web auquel vous voulez vous abonner.
+Pour l’obtenir, vous pouvez visiter le site en question avec un navigateur web
+depuis lequel il est possible de copier l’URL depuis la barre de recherche.</p>
+</div>
+<p>Une fois connectés, cliquez en haut à droite sur le logo de menu à 3 barres, puis sur <span class="guilabel">s’abonner au flux…</span></p>
+<p><img alt="visualisation du menu" src="../_images/capture_1.png" /></p>
+<p>Entrez l’url du site dont vous voulez obtenir le <abbr title="Format de données standardisé qui permet la consultation d’un site,
+non pas par un humain, mais par un logiciel. Il s’agit donc d’une
+forme d’[API]. Les flux Web (ou « flux de nouvelles ») sont des
+fichiers qui contiennent les derniers articles ou actualités publiées.
+Ils sont souvent utilisés par les sites d’actualité et les blogs.
+
+Il existe plusieurs formats de flux Web, notamment [Atom] et [RSS]
+(plus ancien).
+
+Le logiciel permettant de consulter ces flux est appelé [agrégateur de
+flux]."><a class="reference internal" href="../services/rss.html#term-flux-de-nouvelles"><span class="xref std std-term">flux de nouvelles</span></a></abbr>, par exemple ici le blog de Fred Turner.
+Si vous avez créé des catégories, vous pouvez en sélectionner une pour trier votre flux (c’est possible de le faire plus tard)
+puis cliquez sur <span class="guilabel">S’abonner</span>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Il est possible qu’un site ne propose pas de flux de nouvelles,
+dans ce cas il ne sera malheureusement pas possible de s’y abonner.</p>
+</div>
+<p><img alt="lien vers site" src="../_images/capture_2.png" /></p>
+<p>Parfois, plusieurs flux sont disponibles : <code class="docutils literal notranslate"><span class="pre">Atom</span></code> ou <code class="docutils literal notranslate"><span class="pre">RSS</span></code>.
+Il est conseillé de sélectionner <code class="docutils literal notranslate"><span class="pre">Atom</span></code> car c’est un format de données plus récent.</p>
+<p><img alt="Atom vs RSS" src="../_images/capture_3.png" /></p>
+<p>Et voilà ! Vous vous êtes abonné à votre premier flux d’actualités.
+À partir de maintenant il vous est possible de lire les derniers articles de ce site depuis l’agrégateur.</p>
+<p>Vous pouvez bien-sûr vous abonner à plusieurs flux, c’est même recommandé !</p>
+<blockquote>
+<div><p>C’est bien joli tout ça, mais quand on suit beaucoup de sites,
+ça met un peu le bazar de tout rassembler dans un seul fil !</p>
+</div></blockquote>
+<p>Pour résoudre ce problème, il est possible d’utiliser les catégories.</p>
+</section>
+<section id="utiliser-les-categories">
+<h2>Utiliser les catégories<a class="headerlink" href="#utiliser-les-categories" title="Lien vers cette rubrique">#</a></h2>
+<p>Les catégories permettent de rassembler les flux auxquels vous vous êtes abonné dans des groupes, un peu comme des dossier.
+Elles sont utiles par exemple pour recréer un sous-fil d’actualités thématique,
+surtout lorsqu’on est abonné à beaucoup de sites.</p>
+<p>Pour créer une catégorie, il faut retourner dans le menu en haut à droite de l’écran principal
+et cliquer sur <span class="guilabel">Configuration…</span>.
+Aller dans l’onglet <span class="guilabel">Flux</span> en haut de l’écran.</p>
+<p><img alt="Config catégories 1" src="../_images/capture_4.png" /></p>
+<p>Vous pouvez depuis la nouvelle fenêtre ouverte créer une nouvelle catégorie pour ranger vos articles.</p>
+<p>En cliquant sur le plus à gauche de chaque catégorie, on visualise les flux qu’il contient.
+Pour modifier la catégorie d’un flux, il suffit de <em>cliquer glisser</em> le flux vers une nouvelle catégorie.</p>
+</section>
+<section id="choisir-un-mode-d-affichage">
+<h2>Choisir un mode d’affichage<a class="headerlink" href="#choisir-un-mode-d-affichage" title="Lien vers cette rubrique">#</a></h2>
+<p>Par défaut, l’affichage se fait en mode combiné.</p>
+<p><img alt="Mode d'affichage combiné" src="../_images/capture_5.png" /></p>
+<p>Pour utiliser un mode d’affichage en liste avec un panneau de lecture séparé,
+vous pouvez désactiver le « mode combiné » dans la configuration.</p>
+<p><img alt="Mode d'affichage en liste" src="../_images/capture_6.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Il est possible de passer en mode <em>trois colones</em> avec le panneau de lecture à droite,
+ce qui est pratique lorsqu’on a un écran large.</p>
+<p>Ceci se fait depuis le menu, en cliquant sur <span class="guilabel">Basculer le mode écran large</span>.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="mes-premiers-pas-sur-le-web.html" class="btn btn-neutral float-left" title="Mes premiers pas sur le Web !" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../outils/index.html" class="btn btn-neutral float-right" title="5. Outils" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-06-05-g168b
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/tutos/flux-rss.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/tutos/flux-rss.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
