@@ -194,6 +194,17 @@ class: wrap
 | Présence                              | Désactivé |
 ```
 
+Autres configurations spéciales :
+
+```{table}
+---
+class: wrap
+---
+| Paramètre                             | Valeur                                      |
+|---------------------------------------|---------------------------------------------|
+| Serveurs de clés de confiance         | `deuxfleurs.fr` et `sans-nuage.fr`          |
+```
+
 ```{seealso}
 - L'article de journal "[Nouveaux réglages du serveur Matrix](https://club1.fr/serveur-matrix-suivi-001)"
 - Le post de forum "[Limiter les salons fédérés en fonction de leur complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-fonction-de-leur-complexite/12)"
