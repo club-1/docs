@@ -1,11 +1,5 @@
-Émissions Web (audio/vidéo) via Icecast (beta)
-==============================================
-
-```{warning}
-Ce service est en "beta" sur CLUB1,
-ce qui signifie qu'il risque de changer de configuration
-ou même d'être supprimé dans le futur.
-```
+Émissions Web (audio/vidéo) via Icecast
+=======================================
 
 
 ```{glossary}
