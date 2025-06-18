@@ -64,6 +64,10 @@ il est possible de créer une redirection HTTP automatique
 depuis votre nom de domaine vers le sous-domaine de votre choix.
 ```
 
+```{seealso}
+La [documentation de Deuxfleurs](https://guide.deuxfleurs.fr/services/dns-cname-apex/)
+(un autre hébergeur, membre des CHATONS) apporte plus de détails par rapport à cette limitation.
+```
 
 ### Quel espace est-ce-que j'occupe sur le serveur ?
 
