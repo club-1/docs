@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c67f2e9e"></script>
+        <script src="../_static/documentation_options.js?v=09cddcea"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -30,6 +30,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="3. Services ouverts à tous" href="../services-ouverts.html" />
+    <link rel="prev" title="Émissions Web (audio/vidéo) via Icecast" href="webcast.html" />
 
 	
 	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/newsletter.html" />
@@ -78,9 +80,35 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">Connexion à distance SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Messagerie email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">Transfert de fichiers FTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">Synchro de fichiers, contacts et calendriers WebDAV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html">Explorateur de fichiers Web <em>Drive</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Hébergement de sites Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">Bases de données SQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">Agrégateur de flux de nouvelles (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Dépôts Git publics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Newsletter</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#mise-en-place">Mise en place</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#abonnement">Abonnement</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#inscription">Inscription</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#desinscription">Désinscription</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#envoi">Envoi</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#methode-alternative">méthode alternative</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../services-ouverts.html">3. Services ouverts à tous</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
@@ -110,6 +138,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services réservés aux membres</a></li>
       <li class="breadcrumb-item active">Newsletter</li>
     
       <li class="wy-breadcrumbs-aside">
@@ -148,15 +177,33 @@ Ce dossier contient :</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> fichier brut avec une adresse email par ligne. Vous pouvez l’éditer manuellement pour gérer la liste des destinataires.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">signature.txt</span></code> fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON contenant permettant d’ajuster le titre de la newsletter ainsi que le nom d’affichage pour l’adresse d’envoi.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut utiliser pour sécruisé la confirmation. Il est généré automatiquement.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON permettant d’ajuster le titre de la newsletter ainsi que le nom d’affichage pour l’adresse d’envoi.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut servant à sécuriser la confirmation d’inscription. Il est généré automatiquement. (et c’est un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichier caché</span></a></abbr>)</p></li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>📁 <code class="docutils literal notranslate"><span class="pre">.config</span></code> est un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">dossier caché</span></a></abbr>.</p>
+</div>
 </section>
 <section id="abonnement">
 <h2>Abonnement<a class="headerlink" href="#abonnement" title="Lien vers cette rubrique">#</a></h2>
 <p>L’inscription et la désinscription se font <strong>uniquement par email</strong> de manière interactive.
-Les mails doivent provenir de l’adresse qui doit être inscrite ou désinscrite.
-Le contenu n’a aucune importance !
+Les emails doivent provenir de l’adresse qui doit être inscrite ou désinscrite.
+Le contenu n’a aucune importance.
 Dans les adresses suivantes, <code class="docutils literal notranslate"><span class="pre">USERNAME</span></code> correspond à votre <a class="reference internal" href="../info/general.html#identifiant"><span class="std std-ref">identifiant de membre</span></a>.</p>
 <section id="inscription">
 <h3>Inscription<a class="headerlink" href="#inscription" title="Lien vers cette rubrique">#</a></h3>
@@ -193,15 +240,14 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">SUJET</span></code> sera le le sujet de l’email</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> est le chemin vers un fichier brut contenant le corp de la newsletter (qu’il faut avoir créé au préalable).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SUJET</span></code> sera utilisé comme sujet de l’email</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu’il faut avoir créé au préalable).</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Avertissement</p>
 <p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut leur ajouter des guillements autour !</p>
 </div>
-<p>Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation d’envoi.
-La fréquence d’envoi est de 5 emails par secondes.</p>
+<p>Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation avant l’envoi.</p>
 <section id="methode-alternative">
 <h3>méthode alternative<a class="headerlink" href="#methode-alternative" title="Lien vers cette rubrique">#</a></h3>
 <p>Il est également possible d’omettre le second argument et de fournir le contenu via STDIN.</p>
@@ -222,7 +268,10 @@ La fréquence d’envoi est de 5 emails par secondes.</p>
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="webcast.html" class="btn btn-neutral float-left" title="Émissions Web (audio/vidéo) via Icecast" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../services-ouverts.html" class="btn btn-neutral float-right" title="3. Services ouverts à tous" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
@@ -244,7 +293,7 @@ La fréquence d’envoi est de 5 emails par secondes.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-07-14-ga776
+		v: 2025-07-14-g2bb9
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
