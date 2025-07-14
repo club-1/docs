@@ -26,16 +26,19 @@ Ce dossier contient :
 
 - `emails` fichier brut avec une adresse email par ligne. Vous pouvez l'éditer manuellement pour gérer la liste des destinataires.
 - `signature.txt` fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.
-- `settings.json` fichier JSON contenant permettant d'ajuster le titre de la newsletter ainsi que le nom d'affichage pour l'adresse d'envoi.
-- `.secret` fichier brut utiliser pour sécruisé la confirmation. Il est généré automatiquement.
+- `settings.json` fichier JSON permettant d'ajuster le titre de la newsletter ainsi que le nom d'affichage pour l'adresse d'envoi.
+- `.secret` fichier brut servant à sécuriser la confirmation d'inscription. Il est généré automatiquement. (et c'est un {term}`fichier caché`)
 
+```{warning}
+📁 `.config` est un {term}`dossier caché`.
+```
 
 Abonnement
 ----------
 
 L'inscription et la désinscription se font __uniquement par email__ de manière interactive.
-Les mails doivent provenir de l'adresse qui doit être inscrite ou désinscrite.
-Le contenu n'a aucune importance !
+Les emails doivent provenir de l'adresse qui doit être inscrite ou désinscrite.
+Le contenu n'a aucune importance.
 Dans les adresses suivantes, `USERNAME` correspond à votre [identifiant de membre](../info/general.md#identifiant).
 
 ### Inscription
@@ -60,20 +63,18 @@ on peut envoyer la newsletter en lancant la commande suivante :
 
     newsletter SUJET FICHIER_DU_CONTENU
 
-- `SUJET` sera le le sujet de l'email
-- `FICHIER_DU_CONTENU` est le chemin vers un fichier brut contenant le corp de la newsletter (qu'il faut avoir créé au préalable).
+- `SUJET` sera utilisé comme sujet de l'email
+- `FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu'il faut avoir créé au préalable).
 
 ```{warning}
 Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut leur ajouter des guillements autour !
 ```
 
-Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation d'envoi.
-La fréquence d'envoi est de 5 emails par secondes.
+Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation avant l'envoi.
 
 ### méthode alternative
 
 Il est également possible d'omettre le second argument et de fournir le contenu via STDIN.
-
 
 
 
