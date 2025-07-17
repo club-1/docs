@@ -1,7 +1,7 @@
 Newsletter
 ==========
 
-Le service de newsletter de club1 est très basique comparé aux offres qui existe ailleurs sur internet.
+Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur {term}`Internet`.
 
 Ses limitations sont les suivantes :
 
@@ -27,7 +27,7 @@ Ce dossier contient :
 - `emails` fichier brut avec une adresse email par ligne. Vous pouvez l'éditer manuellement pour gérer la liste des destinataires.
 - `signature.txt` fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.
 - `settings.json` fichier JSON permettant d'ajuster le titre de la newsletter ainsi que le nom d'affichage pour l'adresse d'envoi.
-- `.secret` fichier brut servant à sécuriser la confirmation d'inscription. Il est généré automatiquement. (et c'est un {term}`fichier caché`)
+- `.secret` fichier brut servant à sécuriser la confirmation d'inscription. Il s'agit d'un {term}`fichier caché` généré automatiquement.
 
 ```{warning}
 📁 `.config` est un {term}`dossier caché`.
@@ -37,7 +37,7 @@ Abonnement
 ----------
 
 L'inscription et la désinscription se font __uniquement par email__ de manière interactive.
-Les emails doivent provenir de l'adresse qui doit être inscrite ou désinscrite.
+Les emails doivent provenir de l'adresse à inscrire ou désinscrire.
 Le contenu n'a aucune importance.
 Dans les adresses suivantes, `USERNAME` correspond à votre [identifiant de membre](../info/general.md#identifiant).
 
@@ -46,7 +46,7 @@ Dans les adresses suivantes, `USERNAME` correspond à votre [identifiant de memb
     USERNAME+subscribe@club1.fr
 
 Cela déclenche la procédure d'inscription.
-un email de confirmation est envoyé et nécessite d'y répondre pour terminer l'inscription.
+Un email de confirmation est envoyé et il est nécessaire d'y répondre pour terminer l'inscription.
 
 ### Désinscription
 
@@ -67,7 +67,7 @@ on peut envoyer la newsletter en lancant la commande suivante :
 - `FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu'il faut avoir créé au préalable).
 
 ```{warning}
-Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut leur ajouter des guillements autour !
+Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les entourer de guillemets !
 ```
 
 Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation avant l'envoi.
