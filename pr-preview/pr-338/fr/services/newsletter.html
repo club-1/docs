@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=09cddcea"></script>
+        <script src="../_static/documentation_options.js?v=b49a4e50"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -153,7 +153,10 @@
              
   <section id="newsletter">
 <h1>Newsletter<a class="headerlink" href="#newsletter" title="Lien vers cette rubrique">#</a></h1>
-<p>Le service de newsletter de club1 est très basique comparé aux offres qui existe ailleurs sur internet.</p>
+<p>Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur <abbr title="[Réseau informatique] mondial accessible au public. Internet est en
+réalité l’interconnexion d’un ensemble de réseaux à travers le monde.
+Comme son nom l’indique, « inter » « net » = « entre les réseaux ». Il
+s’agit donc d’un « réseau de réseaux »."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr>.</p>
 <p>Ses limitations sont les suivantes :</p>
 <ul class="simple">
 <li><p>les emails sont en texte brut uniquement</p></li>
@@ -178,14 +181,14 @@ Ce dossier contient :</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> fichier brut avec une adresse email par ligne. Vous pouvez l’éditer manuellement pour gérer la liste des destinataires.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">signature.txt</span></code> fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON permettant d’ajuster le titre de la newsletter ainsi que le nom d’affichage pour l’adresse d’envoi.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut servant à sécuriser la confirmation d’inscription. Il est généré automatiquement. (et c’est un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+<li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut servant à sécuriser la confirmation d’inscription. Il s’agit d’un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
 des fichiers ou des dossiers. Cela sert souvent à masquer des
 paramètres peu utiles au quotidien. Dans un système [POSIX], les
 fichiers cachés commencent par un point &quot;.&quot;.
 
 Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
 Il est possible d’activer leur affichage si besoin, souvent avec le
-raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichier caché</span></a></abbr>)</p></li>
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichier caché</span></a></abbr> généré automatiquement.</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Avertissement</p>
@@ -202,7 +205,7 @@ raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference interna
 <section id="abonnement">
 <h2>Abonnement<a class="headerlink" href="#abonnement" title="Lien vers cette rubrique">#</a></h2>
 <p>L’inscription et la désinscription se font <strong>uniquement par email</strong> de manière interactive.
-Les emails doivent provenir de l’adresse qui doit être inscrite ou désinscrite.
+Les emails doivent provenir de l’adresse à inscrire ou désinscrire.
 Le contenu n’a aucune importance.
 Dans les adresses suivantes, <code class="docutils literal notranslate"><span class="pre">USERNAME</span></code> correspond à votre <a class="reference internal" href="../info/general.html#identifiant"><span class="std std-ref">identifiant de membre</span></a>.</p>
 <section id="inscription">
@@ -211,7 +214,7 @@ Dans les adresses suivantes, <code class="docutils literal notranslate"><span cl
 </pre></div>
 </div>
 <p>Cela déclenche la procédure d’inscription.
-un email de confirmation est envoyé et nécessite d’y répondre pour terminer l’inscription.</p>
+Un email de confirmation est envoyé et il est nécessaire d’y répondre pour terminer l’inscription.</p>
 </section>
 <section id="desinscription">
 <h3>Désinscription<a class="headerlink" href="#desinscription" title="Lien vers cette rubrique">#</a></h3>
@@ -245,7 +248,7 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Avertissement</p>
-<p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut leur ajouter des guillements autour !</p>
+<p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut les entourer de guillemets !</p>
 </div>
 <p>Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation avant l’envoi.</p>
 <section id="methode-alternative">
@@ -293,7 +296,7 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-07-14-g2bb9
+		v: 2025-07-17-g6a52
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
