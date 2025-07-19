@@ -181,33 +181,6 @@ sont bien en possession d'une même personne.
 Pour cela, une *pass-phrase* globale est utilisée :
 c'est un super mot de passe plus long qui va servir au chiffrement de vos messages.
 
-Questions concernant le serveur Matrix de CLUB1
------------------------------------------------
-
-### Est-ce fiable ?
-
-Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur,
-cependant pour se faire un avis, il est possible de consulter
-les [statistiques de disponibilité](https://status.club1.fr) du serveur Matrix et de Element.
-Des mises-à-jour sont effectuées régulièrement
-pour avoir la dernière version de {logiciel}`Synapse` et {logiciel}`Element`
-et ainsi éviter des bugs ou failles de sécurité.
-
-### Que faire si j'ai perdu mon mot de passe ?
-
-Si une adresse email a été reliée à votre compte
-(compte créé après la [mise à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien ajout manuel),
-il suffit de cliquer sur {guilabel}`mot de passe oublié`.
-Sinon, il n'est pas possible de récupérer son mot de passe automatiquement.
-La seule façon est de réussir à joindre et convaincre l'administrateur système *dans la vraie vie*,
-autant dire qu'il vaut mieux ne pas l'oublier.
-
-### Est-ce que club1.fr respecte ma vie privée ?
-
-La seule personne qui a accès aux bases de données
-est l'administrateur système du serveur (`@n-peugnet:club1.fr`),
-normalement, il n'a pas que ça à faire de vous espionner,
-mais si vous n'avez pas confiance en lui, il ne vous reste plus qu'à activer le chiffrement des conversations.
 
 Configurations spécifiques
 --------------------------
