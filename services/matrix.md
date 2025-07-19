@@ -19,7 +19,7 @@ L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
 Les membres de club1 peuvent créer des jetons à usage uniques
 qu'iels devront transmettre aux personnes à inviter.
 
-Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande suivante:
+Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande :
 
 ````{commande} matrixtoken
 
@@ -60,7 +60,7 @@ mais aussi de se connecter de façon transparente aux salons provenant d'autres 
 ```{glossary}
 Matrix
    {term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e)
-   [__décentralisé__](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet).
+   [**décentralisé**](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet).
 
    Son avantage principal par rapport aux autres systèmes fédérés du même type,
    est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` participants,
@@ -86,7 +86,7 @@ Le symbole `:` est donc utilisé pour séparer l'identifiant du serveur :
 
     @baby:club1.fr
 
-Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auquel le compte est rattaché.
+Où `baby` est **l'identifiant** et `club1.fr` est le **serveur** auquel le compte est rattaché.
 
 
 
@@ -112,14 +112,14 @@ d'interdire l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en
 Comme pour les emails, il est aussi possible de choisir son {term}`client`,
 son interface, pour se connecter à Matrix.
 Il en existe pour tous les goûts, mais la plupart sont encore en cours de développement.
-À l'heure actuelle, __la façon la plus simple et fiable de converser via Matrix
-est d'utiliser *{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mobile.
+À l'heure actuelle, **la façon la plus simple et fiable de converser via Matrix
+est d'utiliser *{logiciel}`Element`***, en tant que {term}`client Web` ou sur mobile.
 
-[__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)
+[**🌌 interface Element Web sur Club1.fr**](https://riot.club1.fr)
 
 
-On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent dans un navigateur),
-__Desktop__ (Linux, Windows, MacOS) et __Mobile__ (Android, Iphone).
+On distingue trois catégories principales : Clients **Web** (qui s'ouvrent dans un navigateur),
+**Desktop** (Linux, Windows, MacOS) et **Mobile** (Android, Iphone).
 [Liste officielle des clients matrix](https://matrix.org/ecosystem/clients/).
 
 Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisamment complet
@@ -132,7 +132,7 @@ mais on peut aussi préférer l'ambiance *fluffy* de [FluffyChat](https://fluffy
 
 ```{important}
 Pour se connecter ailleurs que sur l'interface web de Club1,
-__il faut bien spécifier que votre serveur est `https://club1.fr` !__
+**il faut bien spécifier que votre serveur est `https://club1.fr` !**
 ```
 
 
@@ -167,7 +167,7 @@ Le chiffrement des discussions ne peut pas être désactivé plus tard.
 ### Formatage
 
 Il est possible de formater son message, en sélectionnant du texte sur la zone d'écriture de message,
-ou en utilisant le __{term}`Markdown`__, un standard de formatage simple utilisé par de plus en plus de site.
+ou en utilisant le **{term}`Markdown`**, un standard de formatage simple utilisé par de plus en plus de site.
 
 ### Chiffrement
 

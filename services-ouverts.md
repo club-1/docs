@@ -3,7 +3,8 @@ Services ouverts
 
 Ces services ne nécessitent pas d'être membre de CLUB1.
 
-### Sur invitation
+Sur invitation
+--------------
 
 ```{toctree}
 ---
