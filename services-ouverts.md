@@ -1,8 +1,9 @@
-Services ouverts à tous
-=======================
+Services ouverts
+================
 
-Ces services ne nécessitent pas d'être membre de CLUB1,
-ils sont utilisables par n'importe qui.
+Ces services ne nécessitent pas d'être membre de CLUB1.
+
+### Sur invitation
 
 ```{toctree}
 ---

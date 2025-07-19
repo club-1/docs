@@ -1,5 +1,61 @@
 Discussion instantanée Matrix
-==============================
+=============================
+
+Club1 héberge un serveur de discussion instantané basé sur le protocole {term}`Matrix`.
+Cela peut servir d'alternative à des plateformes comme *Whatsapp* ou *Discords*.
+
+
+```{important}
+Ce service **ne nécessite pas de compte club1**, mais l'inscription se fait uniquement **sur invitation**.
+Chaque membre de club1 peut inviter autant de personnes qu'iel le souhaite à s'y créer un compte.
+
+Pour en savoir plus sur ce choix, rendez vous sur [le fil associé sur le forum](https://forum.club1.fr/d/52).
+```
+
+Invitation
+----------
+
+L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
+Les membres de club1 peuvent créer des jetons à usage uniques
+qu'iels devront transmettre aux personnes à inviter.
+
+Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande suivante:
+
+````{commande} matrixtoken
+
+    matrixtoken
+
+Cette commande va créer un jeton, puis l'afficher.
+Cela ressemble à une suite de caractères que vous pourrez copier afin de la transmettre.
+
+```{warning}
+Dans la plupart des {term}`terminaux<terminal>`, {kbd}`Ctrl` + {kbd}`C` ne permet pas de copier.
+À la place, il faut faire {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`C`,
+ou utiliser la souris en faisant un clic-droit.
+```
+````
+
+Le jeton, devra ensuite être indiqué lors de l'inscription,
+via <https://riot.club1.fr/#/register>.
+
+
+```{tip}
+Pour envoyer directement un jeton par email (depuis son adresse club1),
+on peut utiliser cette combinaison de commandes :
+
+    matrixtoken | mailx -s "jeton d'invitaiton Matrix" -- EMAIL
+
+En remplacçant `EMAIL` par l'adresse de destination.
+```
+
+
+Principes généraux
+------------------
+
+Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`.
+Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisateurs,
+mais aussi de se connecter de façon transparente aux salons provenant d'autres serveurs si ils le souhaitent.
+
 
 ```{glossary}
 Matrix
@@ -12,13 +68,6 @@ Matrix
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Matrix_(protocole))
 ```
 
-
-Principes généraux
-------------------
-
-Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`.
-Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisateurs,
-mais aussi de se connecter de façon transparente aux salons provenant d'autres serveurs si ils le souhaitent.
 
 ### Serveur
 
