@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=b49a4e50"></script>
+        <script src="../_static/documentation_options.js?v=418ba412"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -170,7 +170,18 @@ utilisée par des humain·e·s que par des logiciels."><a class="reference inter
 <section id="mise-en-place">
 <h2>Mise en place<a class="headerlink" href="#mise-en-place" title="Lien vers cette rubrique">#</a></h2>
 <p>La newsletter n’est pas activée par défaut.
-Pour l’initialiser, il faut lancer la commande suivante :</p>
+Pour l’initialiser, il faut lancer la <abbr title="Commande permettant d’envoyer une newsletter à l’aide des [scripts de
+newsletter]:
+
+   newsletter SUJET FICHIER_DU_CONTENU
+
+* &quot;SUJET&quot; sera utilisé comme sujet de l’email
+
+* &quot;FICHIER_DU_CONTENU&quot; doit indiquer le chemin vers un fichier
+  contenant le corp de la newsletter (qu’il faut avoir créé au
+  préalable).
+
+💡 Pour accéder à l’aide, on peut utiliser &quot;newsletter -h&quot;."><a class="reference internal" href="#commande-newsletter"><code class="xref std std-commande docutils literal notranslate"><span class="pre">newsletter</span></code></a></abbr> avec l’option <code class="docutils literal notranslate"><span class="pre">-1</span></code> :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter -i
 </pre></div>
 </div>
@@ -239,6 +250,11 @@ De nos jours, on utilise souvent le mot « terminal » comme raccourci
 pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
 recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
 on peut envoyer la newsletter en lancant la commande suivante :</p>
+<dl class="std commande">
+<dt class="sig sig-object std" id="commande-newsletter">
+<span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#commande-newsletter" title="Lien vers cette définition">#</a></dt>
+<dd><p>Commande permettant d’envoyer une newsletter à l’aide des <abbr title="Ensemble de scripts très légers de gestion de newsletter développé par
+CLUB1."><a class="reference internal" href="#logiciel-newsletter"><span class="xref std std-logiciel">scripts de newsletter</span></a></abbr>:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter SUJET FICHIER_DU_CONTENU
 </pre></div>
 </div>
@@ -246,6 +262,9 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">SUJET</span></code> sera utilisé comme sujet de l’email</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu’il faut avoir créé au préalable).</p></li>
 </ul>
+<p>💡 Pour accéder à l’aide, on peut utiliser <code class="docutils literal notranslate"><span class="pre">newsletter</span> <span class="pre">-h</span></code>.</p>
+</dd></dl>
+
 <div class="admonition warning">
 <p class="admonition-title">Avertissement</p>
 <p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut les entourer de guillemets !</p>
@@ -261,7 +280,7 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-newsletter">
 <span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#logiciel-newsletter" title="Lien vers cette définition">#</a></dt>
-<dd><p>Ensemble de scripts très légers de gestion de newsletter développé par et pour CLUB1.
+<dd><p>Ensemble de scripts très légers de gestion de newsletter développé par CLUB1.
 — <a class="reference external" href="https://github.com/club-1/newsletter">Sources</a></p>
 </dd></dl>
 
@@ -296,7 +315,7 @@ on peut envoyer la newsletter en lancant la commande suivante :</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-07-17-g6a52
+		v: 2025-07-19-gaa40
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

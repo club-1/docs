@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=b49a4e50"></script>
+        <script src="../_static/documentation_options.js?v=418ba412"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -94,9 +94,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#abonnement">Abonnement</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#envoyer-une-newsletter">Envoyer une newsletter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gestion">Gestion</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#gestion-manuelle-des-inscriptions">Gestion manuelle des inscriptions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#creation-de-signatures">Création de signatures</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#configuration-des-alias">Configuration des alias</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#logiciel-utilise">Logiciel utilisé</a></li>
 </ul>
 </li>
@@ -164,11 +161,11 @@ le [client] utilisé pour y accéder."><a class="reference internal" href="../gl
 <section id="abonnement">
 <h2>Abonnement<a class="headerlink" href="#abonnement" title="Lien vers cette rubrique">#</a></h2>
 <p>L’inscription et la désinscription se font <strong>uniquement par email</strong> de manière interactive,
-<a class="reference internal" href="#gestion-manuelle-des-inscriptions">ou manuellement</a>.
+<a class="reference internal" href="#gestion-manuelle-des-inscriptions"><span class="xref myst">ou manuellement</span></a>.
 Pour cela, il faut contacter une des adresses suivante depuis l’adresse email que l’on souhaite inscrire ou désinscrire.</p>
 <ul class="simple">
-<li><p>Inscription : <a class="reference external" href="mailto:nouvelles-subscribe&#37;&#52;&#48;club1&#46;fr">nouvelles-subscribe<span>&#64;</span>club1<span>&#46;</span>fr</a></p></li>
-<li><p>Désinscription : <a class="reference external" href="mailto:nouvelles-unsubscribe&#37;&#52;&#48;club1&#46;fr">nouvelles-unsubscribe<span>&#64;</span>club1<span>&#46;</span>fr</a></p></li>
+<li><p>Inscription : <a class="reference external" href="mailto:nouvelles+subscribe&#37;&#52;&#48;club1&#46;fr">nouvelles+subscribe<span>&#64;</span>club1<span>&#46;</span>fr</a></p></li>
+<li><p>Désinscription : <a class="reference external" href="mailto:nouvelles+unsubscribe&#37;&#52;&#48;club1&#46;fr">nouvelles+unsubscribe<span>&#64;</span>club1<span>&#46;</span>fr</a></p></li>
 </ul>
 <p>Lors de l’inscription,
 un email de confirmation est envoyé et nécessite d’y répondre pour terminer l’inscription.</p>
@@ -201,104 +198,50 @@ De nos jours, on utilise souvent le mot « terminal » comme raccourci
 pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
 recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>.</p>
 <p>Le contenu à envoyer doit préalablement être stocké dans un fichier sur le serveur.
-Il faut ensuite lancer la commande suivante :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter FICHIER NUMERO
+Il faut ensuite lancer la commande suivante:</p>
+<dl class="std commande">
+<dt class="sig sig-object std" id="commande-newsletter-club1">
+<span class="sig-name descname"><span class="pre">newsletter-club1</span></span><a class="headerlink" href="#commande-newsletter-club1" title="Lien vers cette définition">#</a></dt>
+<dd><p>Envoi la newsletter de club1.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter SUJET FICHIER_DU_CONTENU
 </pre></div>
 </div>
-<p>Par exemple, si notre texte est dans un fichier qui s’appelle <code class="docutils literal notranslate"><span class="pre">contenu.txt</span></code>
-et qu’il s’agît de la 42ème newsletter, il faudrait lancer :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter contenu.txt 42
-</pre></div>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>Cette commande est la même que <abbr title="Commande permettant d’envoyer une newsletter à l’aide des [scripts de
+newsletter]:
+
+   newsletter SUJET FICHIER_DU_CONTENU
+
+* &quot;SUJET&quot; sera utilisé comme sujet de l’email
+
+* &quot;FICHIER_DU_CONTENU&quot; doit indiquer le chemin vers un fichier
+  contenant le corp de la newsletter (qu’il faut avoir créé au
+  préalable).
+
+💡 Pour accéder à l’aide, on peut utiliser &quot;newsletter -h&quot;."><a class="reference internal" href="../services/newsletter.html#commande-newsletter"><code class="xref std std-commande docutils literal notranslate"><span class="pre">newsletter</span></code></a></abbr>, mais dédiée à la newsletter officielle de club1.</p>
 </div>
-<div class="admonition tip">
-<p class="admonition-title">Astuce</p>
-<p>Le programe se charge lui même de formater le titre et l’affichage correct du nombre.</p>
-</div>
+</dd></dl>
+
 <p>La suite du programme est interactive et ne nécessite pas de connaissances particulières.</p>
 </section>
 <section id="gestion">
 <h2>Gestion<a class="headerlink" href="#gestion" title="Lien vers cette rubrique">#</a></h2>
-<p>Sur le serveur CLUB1, les fichiers de paramétrage se trouvent dans <code class="docutils literal notranslate"><span class="pre">/var/mail/newsletter</span></code> :</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">secret</span></code> Contient une phrase secrète servant à la confirmation des adresses lors de l’inscription.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">signatures</span></code> Contient une liste de phrases de signatures séparées par des retours à la ligne.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> Contient la liste des emails séparés par des retours à la ligne.</p></li>
-</ul>
-<section id="gestion-manuelle-des-inscriptions">
-<h3>Gestion manuelle des inscriptions<a class="headerlink" href="#gestion-manuelle-des-inscriptions" title="Lien vers cette rubrique">#</a></h3>
-<p>Il est possible d’ajouter ou de retirer manuellement des adresses email de façon très simple.
-En éditant le fichier <code class="docutils literal notranslate"><span class="pre">emails</span></code>, il suffit d’ajouter ou de supprimer des lignes.
-L’édition de ce fichier est réservée aux membres du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
-utilisateurs afin de leur attribuer des droits communs. Un utilisateur
-appartient à un ou plusieurs groupes.
-
-Astuce:
-
-  Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
-
-     members GROUP
-
-  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
-  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">mail</span></code>.</p>
-</section>
-<section id="creation-de-signatures">
-<h3>Création de signatures<a class="headerlink" href="#creation-de-signatures" title="Lien vers cette rubrique">#</a></h3>
-<p>Lors de l’inscription ou de la désinscription à la newsletter,
-une petite phrase est choisie aléatoirement dans le fichier <code class="docutils literal notranslate"><span class="pre">signatures</span></code> en guise de signature.
-L’édition de ce fichier est également réservée aux membres du <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
-utilisateurs afin de leur attribuer des droits communs. Un utilisateur
-appartient à un ou plusieurs groupes.
-
-Astuce:
-
-  Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
-
-     members GROUP
-
-  En remplaçant &quot;GROUP&quot; par le groupe voulu. Exemple : &quot;members sudo&quot;
-  ou &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">mail</span></code>.</p>
-</section>
-<section id="configuration-des-alias">
-<h3>Configuration des alias<a class="headerlink" href="#configuration-des-alias" title="Lien vers cette rubrique">#</a></h3>
-<p>L’envoi d’emails automatique pour la gestion des inscriptions tire fortement parti des <abbr title="Pseudonyme, nom de substitution. Les alias permettent de donner
-plusieurs noms à la même entité. C’est un concept fréquemment utilisé
-en informatique. On parle par exemple d’alias lorsqu’on fait pointer
-plusieurs adresses email vers la même boîte de reception, ou lorsqu’on
-définit un nouveau nom pour une commande."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr> de réception.</p>
+<p>La newsletter est envoyée par le compte <code class="docutils literal notranslate"><span class="pre">nouvelles</span></code>.
+Comme il s’agit d’un compte spécial, son espace est située dans <code class="docutils literal notranslate"><span class="pre">/var/nouvelles</span></code>.
+les fichiers de configuration de la newsletter se trouvent dans <code class="docutils literal notranslate"><span class="pre">/var/nouvelles/.config/newsletter</span></code>.
+Ils sont manipulables par les membres du .</p>
 <div class="admonition seealso">
 <p class="admonition-title">Voir aussi</p>
-<p>Pour l’édition des alias email,
-voir la section <a class="reference internal" href="aliases.html#modifier-les-alias-de-reception"><span class="std std-ref">Modifier les alias de réception</span></a>.</p>
+<p>Pour la description de ces fichiers de config, se référer au <a class="reference internal" href="../services/newsletter.html"><span class="std std-doc">service de newsletter des membres</span></a>.</p>
 </div>
-<p>Pour chacune des trois adresses d’interface utilisateurs, il faut indiquer l’emplacement du script de réception,
-le dossier contenant les fichiers de paramétrage et le préfixe de l’adresse email utilisée pour ces échanges.</p>
-<div class="highlight-makefile notranslate"><div class="highlight"><pre><span></span><span class="nf">nouvelles-ACTION</span><span class="o">:</span><span class="w">      </span><span class="p">|</span> &quot;<span class="n">SCRIPT</span> <span class="n">ACTION</span> <span class="n">DOSSIER_CONFIG</span> <span class="n">PREFIX</span>&quot;
-</pre></div>
-</div>
-<p>Exemple de configuration avec les fichiers se trouvant dans <code class="docutils literal notranslate"><span class="pre">var/mail/newsletter</span></code>
-et en utilisant <code class="docutils literal notranslate"><span class="pre">nouvelles</span></code> comme préfixe.</p>
-<div class="highlight-makefile notranslate"><div class="highlight"><pre><span></span><span class="nf">nouvelles-subscribe</span><span class="o">:</span><span class="w">   </span><span class="p">|</span> &quot;/<span class="n">usr</span>/<span class="n">local</span>/<span class="n">sbin</span>/<span class="n">nl</span>.<span class="n">sh</span> <span class="n">subscribe</span> /<span class="n">var</span>/<span class="n">mail</span>/<span class="n">newsletter</span> <span class="n">nouvelles</span>&quot;
-<span class="nf">nouvelles-confirm</span><span class="o">:</span><span class="w">     </span><span class="p">|</span> &quot;/<span class="n">usr</span>/<span class="n">local</span>/<span class="n">sbin</span>/<span class="n">nl</span>.<span class="n">sh</span> <span class="n">confirm</span> /<span class="n">var</span>/<span class="n">mail</span>/<span class="n">newsletter</span> <span class="n">nouvelles</span>&quot;
-<span class="nf">nouvelles-unsubscribe</span><span class="o">:</span><span class="w"> </span><span class="p">|</span> &quot;/<span class="n">usr</span>/<span class="n">local</span>/<span class="n">sbin</span>/<span class="n">nl</span>.<span class="n">sh</span> <span class="n">unsubscribe</span> /<span class="n">var</span>/<span class="n">mail</span>/<span class="n">newsletter</span> <span class="n">nouvelles</span>&quot;
-</pre></div>
-</div>
-</section>
 <section id="logiciel-utilise">
 <h3>Logiciel utilisé<a class="headerlink" href="#logiciel-utilise" title="Lien vers cette rubrique">#</a></h3>
 <p>Le choix de l’outil de newsletter a été un sujet compliqué,
 comme en atteste <a class="reference external" href="https://forum.club1.fr/d/69">cette discussion sur le forum</a>.
 Finalement, il a été décidé de coder nos propres <abbr title="Ensemble de scripts très légers de gestion de newsletter développé par
-et pour CLUB1."><a class="reference internal" href="../services/newsletter.html#logiciel-newsletter"><span class="xref std std-logiciel">scripts de newsletter</span></a></abbr>.</p>
-<dl class="std logiciel">
-<dt class="sig sig-object std" id="logiciel-newsletter">
-<span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#logiciel-newsletter" title="Lien vers cette définition">#</a></dt>
-<dd><p>Ensemble de scripts très légers de gestion de newsletter développé par et pour CLUB1.
-Pour l’instant il ne fonctionne que pour la newsletter officielle de CLUB1.
-— <a class="reference external" href="https://github.com/club-1/newsletter">Sources</a></p>
-</dd></dl>
-
+CLUB1."><a class="reference internal" href="../services/newsletter.html#logiciel-newsletter"><span class="xref std std-logiciel">scripts de newsletter</span></a></abbr>,
+qui sont maintenant également utilisés pour le <a class="reference internal" href="../services/newsletter.html"><span class="std std-doc">service de newsletter</span></a> des membres.</p>
 </section>
 </section>
 </section>
@@ -331,7 +274,7 @@ Pour l’instant il ne fonctionne que pour la newsletter officielle de CLUB1.
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-07-17-g6a52
+		v: 2025-07-19-gaa40
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
