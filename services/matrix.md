@@ -7,7 +7,7 @@ Cela peut servir d'alternative à des plateformes comme *Whatsapp* ou *Discords*
 
 ```{important}
 Ce service **ne nécessite pas de compte club1**, mais l'inscription se fait uniquement **sur invitation**.
-Chaque membre de club1 peut inviter autant de personnes qu'iel le souhaite à s'y créer un compte.
+Chaque membre de club1 peut inviter autant de personnes qu'iel le souhaite.
 
 Pour en savoir plus sur ce choix, rendez vous sur [le fil associé sur le forum](https://forum.club1.fr/d/52).
 ```
@@ -26,7 +26,7 @@ Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la comman
     matrixtoken
 
 Cette commande va créer un jeton, puis l'afficher.
-Cela ressemble à une suite de caractères que vous pourrez copier afin de la transmettre.
+Ça ressemble à une suite de caractères que vous pourrez copier afin de la transmettre.
 
 ```{warning}
 Dans la plupart des {term}`terminaux<terminal>`, {kbd}`Ctrl` + {kbd}`C` ne permet pas de copier.
