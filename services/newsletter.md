@@ -16,7 +16,7 @@ Mise en place
 -------------
 
 La newsletter n'est pas activée par défaut.
-Pour l'initialiser, il faut lancer la commande suivante :
+Pour l'initialiser, il faut lancer la {commande}`newsletter` avec l'option `-1` :
 
     newsletter -i
 
@@ -61,10 +61,18 @@ Envoi
 Une fois que l'on est connecté en {term}`SSH` via un {term}`terminal`,
 on peut envoyer la newsletter en lancant la commande suivante :
 
+```{commande} newsletter
+
+Commande permettant d'envoyer une newsletter à l'aide des {logiciel}`scripts de newsletter <newsletter>`:
+
     newsletter SUJET FICHIER_DU_CONTENU
 
 - `SUJET` sera utilisé comme sujet de l'email
 - `FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu'il faut avoir créé au préalable).
+
+💡 Pour accéder à l'aide, on peut utiliser `newsletter -h`.
+```
+
 
 ```{warning}
 Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les entourer de guillemets !
@@ -82,6 +90,6 @@ Logiciels
 ---------
 
 ```{logiciel} newsletter
-Ensemble de scripts très légers de gestion de newsletter développé par et pour CLUB1.
+Ensemble de scripts très légers de gestion de newsletter développé par CLUB1.
 --- [Sources](https://github.com/club-1/newsletter)
 ```
