@@ -303,7 +303,8 @@ Copyright © %s.
 
 # Ignore some links.
 linkcheck_ignore = [
-    r'https://club1\.fr/'
+    r'https://club1\.fr/',
+    r'https://riot\.club1\.fr/',
     r'https://www\.silverstonetek\.com/',
     r'matrix:',
     r'https://www\.buddyns\.com',
