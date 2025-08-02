@@ -303,18 +303,19 @@ Copyright © %s.
 
 # Ignore some links.
 linkcheck_ignore = [
+    r'https://club1\.fr/'
     r'https://www\.silverstonetek\.com/',
     r'matrix:',
     r'https://www\.buddyns\.com',
     r'https://www\.eaton\.com',
     r'https://dnssec-analyzer\.verisignlabs\.com',
     r'https://github\.com/club-1/docs/commits/main/',
+    r'https://gnu\.org/licenses',
 ]
 
 # Allow some redirects.
 linkcheck_allowed_redirects = {
     r'https://github\.com/club-1/docs/edit/.*': r'https://github\.com/login\?return_to=https%3A%2F%2Fgithub\.com%2Fclub-1%2Fdocs%2Fedit%2F.*',
-    r'https://gnu\.org/licenses/fdl\.html': r'https://www\.gnu\.org/licenses/fdl-[0-9]+\.[0-9]+\.html',
     r'https://manpages\.debian\.org/.*': r'https://manpages\.debian\.org/.*',
     r'https://dashboard\.club1\.fr': r'https://dashboard\.club1\.fr/login',
 }

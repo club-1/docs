@@ -124,7 +124,7 @@ On distingue trois catégories principales : Clients **Web** (qui s'ouvrent dans
 
 Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisamment complet
 pour que cela soit intéressant, à part si vous êtes un&middot;e amoureux&middot;se du {term}`terminal`,
-auquel cas, vous êtes invité&middot;e&middot;s à utiliser le superbe [gomuks](https://github.com/tulir/gomuks)
+auquel cas, vous êtes invité&middot;e&middot;s à utiliser le superbe [gomuks](https://github.com/gomuks/gomuks)
 
 Sur Android, certaines applications commencent à être matures.
 Il y a bien-sûr la version mobile de [Element](https://play.google.com/store/apps/details?id=im.vector.app),

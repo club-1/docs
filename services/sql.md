@@ -6,7 +6,7 @@ SQL
    (_Structured Query Language_) Langage informatique
    permettant de chercher des informations dans une base de données relationnelle.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Structured_Query_Language),
-   [Doc MariaDB](https://mariadb.com/kb/en/sql-statements/)
+   [Doc MariaDB](https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-advanced-sql-guide)
 ```
 
 Une {term}`instance` de {logiciel}`MariaDB`, commune à tous les membres, est présente sur le serveur CLUB1.
