@@ -1,11 +1,12 @@
-Newsletter
-==========
+Mini newsletter
+===============
 
 Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur {term}`Internet`.
+D'où l'appelation "mini".
 
 Ses limitations sont les suivantes :
 
-- les emails sont en texte brut uniquement
+- les emails sont en __texte brut__ (pas de style)
 - pas de statistiques (aucun *tracking* permettant de savoir si les destinataires ouvrent les emails)
 - interface d'envoi en {term}`CLI`, uniquement accessible via [la connexion SSH](ssh.md).
 
@@ -16,7 +17,7 @@ Mise en place
 -------------
 
 La newsletter n'est pas activée par défaut.
-Pour l'initialiser, il faut lancer la {commande}`newsletter` avec l'option `-1` :
+Pour l'initialiser, il faut lancer la {commande}`newsletter` avec l'option `-i` :
 
     newsletter -i
 
