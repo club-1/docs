@@ -1,13 +1,13 @@
 Discussion instantanée Matrix
 =============================
 
-Club1 héberge un serveur de discussion instantané basé sur le protocole {term}`Matrix`.
-Cela peut servir d'alternative à des plateformes comme *Whatsapp* ou *Discords*.
+CLUB1 héberge un serveur de discussion instantané basé sur le protocole {term}`Matrix`.
+Cela peut servir d'alternative à des plateformes comme *Whatsapp* ou *Discord*.
 
 
 ```{important}
-Ce service **ne nécessite pas de compte club1**, mais l'inscription se fait uniquement **sur invitation**.
-Chaque membre de club1 peut inviter autant de personnes qu'iel le souhaite.
+Ce service **ne nécessite pas de compte CLUB1**, mais l'inscription se fait uniquement **sur invitation**.
+Chaque membre de CLUB1 peut inviter autant de personnes qu'iel le souhaite.
 
 Pour en savoir plus sur ce choix, rendez vous sur [le fil associé sur le forum](https://forum.club1.fr/d/52).
 ```
@@ -16,7 +16,7 @@ Invitation
 ----------
 
 L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
-Les membres de club1 peuvent créer des jetons à usage uniques
+Les membres de CLUB1 peuvent créer des jetons à usage uniques
 qu'iels devront transmettre aux personnes à inviter.
 
 Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande :
@@ -40,7 +40,7 @@ via <https://riot.club1.fr/#/register>.
 
 
 ```{tip}
-Pour envoyer directement un jeton par email (depuis son adresse club1),
+Pour envoyer directement un jeton par email (depuis son adresse CLUB1),
 on peut utiliser cette combinaison de commandes :
 
     matrixtoken | mailx -s "jeton d'invitaiton Matrix" -- EMAIL
