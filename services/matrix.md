@@ -1,15 +1,51 @@
 Discussion instantanée Matrix
-==============================
+=============================
 
-```{glossary}
-Matrix
-   {term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e)
-   [__décentralisé__](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet).
+CLUB1 héberge un serveur de discussion instantané basé sur le protocole {term}`Matrix`.
+Cela peut servir d'alternative à des plateformes comme *Whatsapp* ou *Discord*.
 
-   Son avantage principal par rapport aux autres systèmes fédérés du même type,
-   est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` participants,
-   afin d'améliorer la tolérence aux pannes en garantissant une "cohérence à terme".
-   --- [Wikipedia](https://fr.wikipedia.org/wiki/Matrix_(protocole))
+
+```{important}
+Ce service **ne nécessite pas de compte CLUB1**, mais l'inscription se fait uniquement **sur invitation**.
+Chaque membre de CLUB1 peut inviter autant de personnes qu'iel le souhaite.
+
+Pour en savoir plus sur ce choix, rendez vous sur [le fil associé sur le forum](https://forum.club1.fr/d/52).
+```
+
+Invitation
+----------
+
+L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
+Les membres de CLUB1 peuvent créer des jetons à usage uniques
+qu'iels devront transmettre aux personnes à inviter.
+
+Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande :
+
+````{commande} matrixtoken
+
+    matrixtoken
+
+Cette commande va créer un jeton, puis l'afficher.
+Ça ressemble à une suite de caractères que vous pourrez copier afin de la transmettre.
+
+```{warning}
+Dans la plupart des {term}`terminaux<terminal>`, {kbd}`Ctrl` + {kbd}`C` ne permet pas de copier.
+À la place, il faut faire {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`C`,
+ou utiliser la souris en faisant un clic-droit.
+```
+````
+
+Le jeton, devra ensuite être indiqué lors de l'inscription,
+via <https://riot.club1.fr/#/register>.
+
+
+```{tip}
+Pour envoyer directement un jeton par email (depuis son adresse CLUB1),
+on peut utiliser cette combinaison de commandes :
+
+    matrixtoken | mailx -s "jeton d'invitaiton Matrix" -- EMAIL
+
+En remplacçant `EMAIL` par l'adresse de destination.
 ```
 
 
@@ -19,6 +55,19 @@ Principes généraux
 Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`.
 Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisateurs,
 mais aussi de se connecter de façon transparente aux salons provenant d'autres serveurs si ils le souhaitent.
+
+
+```{glossary}
+Matrix
+   {term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/Messagerie_instantan%C3%A9e)
+   [**décentralisé**](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d%27Internet).
+
+   Son avantage principal par rapport aux autres systèmes fédérés du même type,
+   est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` participants,
+   afin d'améliorer la tolérence aux pannes en garantissant une "cohérence à terme".
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Matrix_(protocole))
+```
+
 
 ### Serveur
 
@@ -37,7 +86,7 @@ Le symbole `:` est donc utilisé pour séparer l'identifiant du serveur :
 
     @baby:club1.fr
 
-Où `baby` est __l'identifiant__ et `club1.fr` est le __serveur__ auquel le compte est rattaché.
+Où `baby` est **l'identifiant** et `club1.fr` est le **serveur** auquel le compte est rattaché.
 
 
 
@@ -63,14 +112,14 @@ d'interdire l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en
 Comme pour les emails, il est aussi possible de choisir son {term}`client`,
 son interface, pour se connecter à Matrix.
 Il en existe pour tous les goûts, mais la plupart sont encore en cours de développement.
-À l'heure actuelle, __la façon la plus simple et fiable de converser via Matrix
-est d'utiliser *{logiciel}`Element`*__, en tant que {term}`client Web` ou sur mobile.
+À l'heure actuelle, **la façon la plus simple et fiable de converser via Matrix
+est d'utiliser *{logiciel}`Element`***, en tant que {term}`client Web` ou sur mobile.
 
-[__🌌 interface Element Web sur Club1.fr__](https://riot.club1.fr)
+[**🌌 interface Element Web sur Club1.fr**](https://riot.club1.fr)
 
 
-On distingue trois catégories principales : Clients __Web__ (qui s'ouvrent dans un navigateur),
-__Desktop__ (Linux, Windows, MacOS) et __Mobile__ (Android, Iphone).
+On distingue trois catégories principales : Clients **Web** (qui s'ouvrent dans un navigateur),
+**Desktop** (Linux, Windows, MacOS) et **Mobile** (Android, Iphone).
 [Liste officielle des clients matrix](https://matrix.org/ecosystem/clients/).
 
 Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisamment complet
@@ -83,7 +132,7 @@ mais on peut aussi préférer l'ambiance *fluffy* de [FluffyChat](https://fluffy
 
 ```{important}
 Pour se connecter ailleurs que sur l'interface web de Club1,
-__il faut bien spécifier que votre serveur est `https://club1.fr` !__
+**il faut bien spécifier que votre serveur est `https://club1.fr` !**
 ```
 
 
@@ -118,7 +167,7 @@ Le chiffrement des discussions ne peut pas être désactivé plus tard.
 ### Formatage
 
 Il est possible de formater son message, en sélectionnant du texte sur la zone d'écriture de message,
-ou en utilisant le __{term}`Markdown`__, un standard de formatage simple utilisé par de plus en plus de site.
+ou en utilisant le **{term}`Markdown`**, un standard de formatage simple utilisé par de plus en plus de site.
 
 ### Chiffrement
 
@@ -132,33 +181,6 @@ sont bien en possession d'une même personne.
 Pour cela, une *pass-phrase* globale est utilisée :
 c'est un super mot de passe plus long qui va servir au chiffrement de vos messages.
 
-Questions concernant le serveur Matrix de CLUB1
------------------------------------------------
-
-### Est-ce fiable ?
-
-Nous ne garantissons pas une fiabilité à toute épreuve de notre serveur,
-cependant pour se faire un avis, il est possible de consulter
-les [statistiques de disponibilité](https://status.club1.fr) du serveur Matrix et de Element.
-Des mises-à-jour sont effectuées régulièrement
-pour avoir la dernière version de {logiciel}`Synapse` et {logiciel}`Element`
-et ainsi éviter des bugs ou failles de sécurité.
-
-### Que faire si j'ai perdu mon mot de passe ?
-
-Si une adresse email a été reliée à votre compte
-(compte créé après la [mise à jour des réglages](https://club1.fr/serveur-matrix-suivi-001) ou bien ajout manuel),
-il suffit de cliquer sur {guilabel}`mot de passe oublié`.
-Sinon, il n'est pas possible de récupérer son mot de passe automatiquement.
-La seule façon est de réussir à joindre et convaincre l'administrateur système *dans la vraie vie*,
-autant dire qu'il vaut mieux ne pas l'oublier.
-
-### Est-ce que club1.fr respecte ma vie privée ?
-
-La seule personne qui a accès aux bases de données
-est l'administrateur système du serveur (`@n-peugnet:club1.fr`),
-normalement, il n'a pas que ça à faire de vous espionner,
-mais si vous n'avez pas confiance en lui, il ne vous reste plus qu'à activer le chiffrement des conversations.
 
 Configurations spécifiques
 --------------------------
