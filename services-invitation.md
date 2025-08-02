@@ -1,10 +1,5 @@
-Services ouverts
-================
-
-Ces services ne nécessitent pas d'être membre de CLUB1.
-
-Sur invitation
---------------
+Services sur invitation
+=======================
 
 Services nécessitant de recevoir une invitation de la part d'un·e membre club1.
 

@@ -15,7 +15,7 @@ numbered: 1
 ---
 info/index
 services-membres
-services-ouverts
+services-invitation
 tutos/index
 outils/index
 faq
