@@ -215,7 +215,7 @@ protocole
    d'être compatible avec les uns avec les autres,
    c'est ce qu'on appelle l'interopérabilité.
 
-   Un protocole ouvert donne la permission à n'importe qui
+   Un protocole **ouvert** donne la permission à n'importe qui
    de créer un logiciel qui le respecte.
 
    CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour fournir ses services.
