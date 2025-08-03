@@ -62,7 +62,8 @@ commande
    Pour lancer une commande, il faut ouvrir un {term}`terminal`,
    tapper le texte de la commande, puis appuyer sur {kbd}`Entrée`.
    Par exemple, dans un système {term}`POSIX`, la commande `ls` permet
-   de lister le contenu du dossier courant :
+   de lister le contenu du dossier courant
+   (le `$` ne fait pas partie de la commande, il s'agit de l'"invite de commande") :
 
    ```console
    $ ls
