@@ -312,6 +312,7 @@ linkcheck_ignore = [
     r'https://dnssec-analyzer\.verisignlabs\.com',
     r'https://github\.com/club-1/docs/commits/main/',
     r'https://gnu\.org/licenses',
+    r'https://git\.tt-rss\.org',
 ]
 
 # Allow some redirects.
