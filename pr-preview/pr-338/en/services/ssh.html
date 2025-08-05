@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -150,10 +150,13 @@
 <h1>SSH remote connection<a class="headerlink" href="#connexion-a-distance-ssh" title="Link to this heading">#</a></h1>
 <p>The SSH connection is the purest connection you can have with the server (at least among those which do not require to use psychotropics). It is also the one that feels the most like using a computer, because through it, one can <a class="reference internal" href="#selection-de-commandes">run programs</a> on the server!</p>
 <dl class="simple glossary">
-<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) Protocol allowing to connect remotely in <abbr title="Command Line Interface, an interface in command line, based on a
-textual display. It is used through a [terminal] window. The CLI is
-very interesting because it can be used by humans as well as by
-software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management
+<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) Protocol allowing to connect remotely in <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management
 protocol based on [SSH]. It is thus fully encrypted, and therefore
 comparable to [FTPS], but it offers more features (e.g. display of
 file owners)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> or <abbr title="(Secure CoPy) Protocol for copying files between two computers based
@@ -171,10 +174,13 @@ exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="
 <dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) Protocol for copying files between two computers based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
 server. Its main advantages are being fully encrypted and providing
 full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="Command Line Interface, an interface in command line, based on a
-textual display. It is used through a [terminal] window. The CLI is
-very interesting because it can be used by humans as well as by
-software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
 [server]. It usually has a graphical interface, intended to be used
 directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> of the same name. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_copy_protocol">Wikipedia</a></p>
 </dd>
@@ -189,10 +195,11 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <p>There are two ways to authenticate for an SSH connection. The simplest is to use a <a class="reference internal" href="#s-authentifier-par-mot-de-passe">password</a>, however it is less secure than using a <a class="reference internal" href="#s-authentifier-avec-une-cle-publique">public key</a>.</p>
 <section id="s-authentifier-par-mot-de-passe">
 <h3>Authenticate via password<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Link to this heading">#</a></h3>
-<p>We use the following command in the <abbr title="In computing, a terminal was originally a device consisting of a
-monitor and a keyboard, allowing a human to interact with a remote
-shared computer. It offered a textual interface, making it possible to
-enter commands and read the result.
+<p>We use the following command in the <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
 
 Nowadays, the word “terminal” is often used as a shorthand for a
 “terminal emulator”. This is a software that recreates the command
@@ -283,10 +290,13 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="..
 <span class="sig-name descname"><span class="pre">mutt</span></span><a class="headerlink" href="#commande-mutt" title="Link to this definition">#</a></dt>
 <dd><p>Allows to consult and send emails with <abbr title="[CLI] email [client] allowing you to send and consult your emails
 directly from a [terminal]. It is installed and pre-configured on the
-CLUB1 server."><a class="reference internal" href="email.html#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr>: A <abbr title="Command Line Interface, an interface in command line, based on a
-textual display. It is used through a [terminal] window. The CLI is
-very interesting because it can be used by humans as well as by
-software."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> email <abbr title="Piece of software that accesses a service made available by a
+CLUB1 server."><a class="reference internal" href="email.html#logiciel-Mutt"><span class="xref std std-logiciel">Mutt</span></a></abbr>: A <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> email <abbr title="Piece of software that accesses a service made available by a
 [server]. It usually has a graphical interface, intended to be used
 directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>. Control keys are indicated at the top. Press the <kbd class="kbd docutils literal notranslate">Q</kbd> key to quit. — Manual: <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/mutt.1.en">mutt.1</a></em></p>
 </dd></dl>
@@ -376,7 +386,7 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

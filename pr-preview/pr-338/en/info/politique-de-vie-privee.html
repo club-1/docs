@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -149,17 +149,27 @@ assign them common rights. A user belongs to one or more groups.
 
 Tip:
 
-  It is possible to find out who is a member of a group on the server
-  from an [SSH] access with the following command:
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
   By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
   or &quot;members home&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">group</span></a></abbr>).</p></li>
 <li><p>The <a class="reference internal" href="../outils/sauvegardes.html"><span class="std std-doc">backups</span></a> are encrypted.</p></li>
-<li><p>The <abbr title="In the context of computing, a protocol is a set of rules that govern
-the exchange of data or the collective behavior of processes or
-computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr> used to connect to the server are all encrypted, so passwords and data cannot be intercepted.</p></li>
+<li><p>The <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocols</span></a></abbr> used to connect to the server are all encrypted, so passwords and data cannot be intercepted.</p></li>
 <li><p>Personal data is protected by <abbr title="(Portable Operating System Interface) Set of technical standards that
 specify an interface, allowing operating systems that respect it to be
 interchangeable from the point of view of a user software.
@@ -176,14 +186,14 @@ There are 3 main rights, read (r), write (w) and execute (x).
 Which can be granted either to the user owner of the file/folder, the
 group of the file/folder, or other users.
 
-Permissions can be accessed in [CLI] with &quot;ls -l&quot; and modified with
-&quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr>. By default, the <a class="reference internal" href="espace-personnel.html"><span class="std std-doc">personal space</span></a> is not accessible by other users (except for reading by members of the <code class="docutils literal notranslate"><span class="pre">home</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
+Les permissions peuvent être consultées en [CLI] avec la [commande]
+&quot;ls -l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr>. By default, the <a class="reference internal" href="espace-personnel.html"><span class="std std-doc">personal space</span></a> is not accessible by other users (except for reading by members of the <code class="docutils literal notranslate"><span class="pre">home</span></code> <abbr title="In a [POSIX] system, groups are used to gather users in order to
 assign them common rights. A user belongs to one or more groups.
 
 Tip:
 
-  It is possible to find out who is a member of a group on the server
-  from an [SSH] access with the following command:
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -242,7 +252,7 @@ specific uses like [SFTP] or [SCP]."><a class="reference internal" href="../serv
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

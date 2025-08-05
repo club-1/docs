@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -146,7 +146,10 @@
   <section id="bases-de-donnees-sql">
 <h1>SQL databases<a class="headerlink" href="#bases-de-donnees-sql" title="Link to this heading">#</a></h1>
 <dl class="simple glossary">
-<dt id="term-SQL">SQL<a class="headerlink" href="#term-SQL" title="Link to this term">#</a></dt><dd><p>(Structured Query Language) A computer language for searching information in a relational database. — <a class="reference external" href="https://en.wikipedia.org/wiki/SQL">Wikipedia</a>, <a class="reference external" href="https://mariadb.com/kb/en/sql-statements/">MariaDB docs</a></p>
+<dt id="term-SQL">SQL<a class="headerlink" href="#term-SQL" title="Link to this term">#</a></dt><dd><p>(<em>Structured Query Language</em>) Langage informatique
+permettant de chercher des informations dans une base de données relationnelle.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Structured_Query_Language">Wikipedia</a>,
+<a class="reference external" href="https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-advanced-sql-guide">Doc MariaDB</a></p>
 </dd>
 </dl>
 <p>A <abbr title="[SQL] database [server] distributed under a [free] license."><a class="reference internal" href="#logiciel-MariaDB"><span class="xref std std-logiciel">MariaDB</span></a></abbr> <abbr title="Copy of software or a computer object having its own existence and
@@ -157,8 +160,8 @@ with different data. On the CLUB1 server, there are notably several
 instances of [PHP]: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr>, common to all members, is present on the CLUB1 server. Access is optional and can be added when creating the member account or later on request.</p>
 <section id="bases-de-donnees-personnelles">
 <h2>Personal databases<a class="headerlink" href="#bases-de-donnees-personnelles" title="Link to this heading">#</a></h2>
-<p>You can create as many <strong>personal <abbr title="(Structured Query Language) A computer language for searching
-information in a relational database."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> databases</strong> as you want. These should have a name starting with your username followed by <code class="docutils literal notranslate"><span class="pre">_</span></code>. For example if <code class="docutils literal notranslate"><span class="pre">lisa</span></code> wants to create a database <code class="docutils literal notranslate"><span class="pre">flarum</span></code>, she will have to name it <code class="docutils literal notranslate"><span class="pre">lisa_flarum</span></code>.</p>
+<p>You can create as many <strong>personal <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> databases</strong> as you want. These should have a name starting with your username followed by <code class="docutils literal notranslate"><span class="pre">_</span></code>. For example if <code class="docutils literal notranslate"><span class="pre">lisa</span></code> wants to create a database <code class="docutils literal notranslate"><span class="pre">flarum</span></code>, she will have to name it <code class="docutils literal notranslate"><span class="pre">lisa_flarum</span></code>.</p>
 <p>There is currently no limit to the number of personal databases, nor to the amount of data they can contain.</p>
 </section>
 <section id="interface-web">
@@ -174,12 +177,21 @@ CLUB1, phpMyAdmin is directly served by [Nginx] via [PHP-FPM]."><a class="refere
 </section>
 <section id="interface-en-ligne-de-commande">
 <h2>Command line interface<a class="headerlink" href="#interface-en-ligne-de-commande" title="Link to this heading">#</a></h2>
-<p>It is possible to connect to the SQL server directly from the command line. To do this, you must first connect to the server using <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a>. Then, the command to start a SQL shell is the following (your CLUB1 password will be asked):</p>
+<p>Il est possible de se connecter au serveur SQL directement depuis la <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">ligne de commande</span></a></abbr>.
+Pour cela, il faut tout d’abord se connecter au serveur en <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a>.
+Ensuite, la commande pour démarrer un shell SQL est la suivante
+(votre mot de passe CLUB1 sera demandé) :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mysql -p
 </pre></div>
 </div>
-<p>From this shell it is possible to launch any <abbr title="(Structured Query Language) A computer language for searching
-information in a relational database."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> command.</p>
+<p>From this shell it is possible to launch any <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> command.</p>
 </section>
 <section id="informations-de-connexion">
 <h2>Connection information<a class="headerlink" href="#informations-de-connexion" title="Link to this heading">#</a></h2>
@@ -205,8 +217,8 @@ information in a relational database."><a class="reference internal" href="#term
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-MariaDB">
 <span class="sig-name descname"><span class="pre">MariaDB</span></span><a class="headerlink" href="#logiciel-MariaDB" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="(Structured Query Language) A computer language for searching
-information in a relational database."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> database <abbr title="Software that provides a service. It holds the data and responds to
+<dd><p><abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> database <abbr title="Software that provides a service. It holds the data and responds to
 requests from a [client]. Often, servers and clients are installed on
 different computers. By extension, the computer on which the servers
 are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> distributed under a <abbr title="Refers to software that respects the freedom of users. In particular,
@@ -223,8 +235,8 @@ link them together using hypertext links.
 
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
-sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface for managing <abbr title="(Structured Query Language) A computer language for searching
-information in a relational database."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> databases written in <abbr title="(PHP Hypertext Preprocessor) High-level programming language,
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface for managing <abbr title="(Structured Query Language) Langage informatique permettant de
+chercher des informations dans une base de données relationnelle."><a class="reference internal" href="#term-SQL"><span class="xref std std-term">SQL</span></a></abbr> databases written in <abbr title="(PHP Hypertext Preprocessor) High-level programming language,
 primarily used to produce [Web] pages dynamically by generating [HTML]
 code. Its acronym originally stood for “Personal Home Page” and it is
 precisely the language that CLUB1 puts forward for the creation of
@@ -266,7 +278,7 @@ different users."><a class="reference internal" href="web.html#logiciel-PHP-FPM"
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -29,7 +29,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Newsletter" href="newsletter.html" />
+    <link rel="next" title="Newsletter de club1" href="newsletter.html" />
     <link rel="prev" title="Discussion forum" href="forum.html" />
 
 	
@@ -98,7 +98,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#utilisation-avancee">Advanced usage</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter de club1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="compta.html">Accounting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ldap.html">LDAP directory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dns.html">DNS server</a></li>
@@ -151,8 +151,8 @@ assign them common rights. A user belongs to one or more groups.
 
 Tip:
 
-  It is possible to find out who is a member of a group on the server
-  from an [SSH] access with the following command:
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -178,7 +178,16 @@ command."><a class="reference internal" href="../glossaire.html#term-alias"><spa
 </div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>After you’ve saved your edits, you have to regenerate the database (<code class="docutils literal notranslate"><span class="pre">/etc/aliases.db</span></code>) using the following command:</p>
+<p>Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de
+donnée (<code class="docutils literal notranslate"><span class="pre">/etc/aliases.db</span></code>) en lançant la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newaliases
 </pre></div>
 </div>
@@ -223,14 +232,14 @@ There are 3 main rights, read (r), write (w) and execute (x).
 Which can be granted either to the user owner of the file/folder, the
 group of the file/folder, or other users.
 
-Permissions can be accessed in [CLI] with &quot;ls -l&quot; and modified with
-&quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr> required to create files and execute commands. These actions are carried out with the rights of the user corresponding to the alias if it exists and otherwise, on CLUB1, with the user <code class="docutils literal notranslate"><span class="pre">nobody</span></code> and <abbr title="In a [POSIX] system, groups are used to gather users in order to
+Les permissions peuvent être consultées en [CLI] avec la [commande]
+&quot;ls -l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr> required to create files and execute commands. These actions are carried out with the rights of the user corresponding to the alias if it exists and otherwise, on CLUB1, with the user <code class="docutils literal notranslate"><span class="pre">nobody</span></code> and <abbr title="In a [POSIX] system, groups are used to gather users in order to
 assign them common rights. A user belongs to one or more groups.
 
 Tip:
 
-  It is possible to find out who is a member of a group on the server
-  from an [SSH] access with the following command:
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -248,7 +257,7 @@ Tip:
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="forum.html" class="btn btn-neutral float-left" title="Discussion forum" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="newsletter.html" class="btn btn-neutral float-right" title="Newsletter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="newsletter.html" class="btn btn-neutral float-right" title="Newsletter de club1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -271,7 +280,7 @@ Tip:
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

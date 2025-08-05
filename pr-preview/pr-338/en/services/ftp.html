@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,9 +144,19 @@
   <section id="transfert-de-fichiers-ftps">
 <h1>FTPS files transfer<a class="headerlink" href="#transfert-de-fichiers-ftps" title="Link to this heading">#</a></h1>
 <dl class="simple glossary">
-<dt id="term-FTP">FTP<a class="headerlink" href="#term-FTP" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol</em>) Protocol that allows to copy files from one computer to another across a <abbr title="Set of computers linked together in order for them to exchange data."><a class="reference internal" href="../glossaire.html#term-reseau-informatique"><span class="xref std std-term">computer network</span></a></abbr>, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this <abbr title="In the context of computing, a protocol is a set of rules that govern
-the exchange of data or the collective behavior of processes or
-computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr>: <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+<dt id="term-FTP">FTP<a class="headerlink" href="#term-FTP" title="Link to this term">#</a></dt><dd><p>(<em>File Transfer Protocol</em>) Protocol that allows to copy files from one computer to another across a <abbr title="Set of computers linked together in order for them to exchange data."><a class="reference internal" href="../glossaire.html#term-reseau-informatique"><span class="xref std std-term">computer network</span></a></abbr>, or to move or delete files on a remote computer. Server CLUB1 uses the secure variant of this <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr>: <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
 [TLS]. All data exchanges carried out are therefore encrypted. FTPS
 offers two modes of operation: explicit and implicit. The implicit
 mode is more secure because the connection is encrypted from the first
@@ -166,9 +176,19 @@ can read its content."><a class="reference internal" href="../glossaire.html#ter
 offers two modes of operation: explicit and implicit. The implicit
 mode is more secure because the connection is encrypted from the first
 exchange."><a class="reference internal" href="#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr> can be useful to transfer a large amount of files from and to the CLUB1 server.</p>
-<p>The FTP <abbr title="In the context of computing, a protocol is a set of rules that govern
-the exchange of data or the collective behavior of processes or
-computers in networks."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr> gives access to your <strong>personal space</strong> thanks to software like <a class="reference external" href="https://filezilla-project.org/download.php?type=client">FileZilla</a> (warning: the Windows installer includes bundlewares).</p>
+<p>The FTP <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr> gives access to your <strong>personal space</strong> thanks to software like <a class="reference external" href="https://filezilla-project.org/download.php?type=client">FileZilla</a> (warning: the Windows installer includes bundlewares).</p>
 <section id="securite">
 <h2>Security<a class="headerlink" href="#securite" title="Link to this heading">#</a></h2>
 <p>The FTP server is configured to only accept encrypted TLS connections. This is to avoid passwords beeing sent in cleartext. This feature is referred to as <a class="reference external" href="https://en.wikipedia.org/wiki/FTPS#Implicit">FTPS (FTP over implicit TLS)</a>.</p>
@@ -243,7 +263,7 @@ are installed is called a “server” (e.g. the CLUB1 server)."><a class="refer
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

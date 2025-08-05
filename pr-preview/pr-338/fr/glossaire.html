@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=75f754c4"></script>
+        <script src="_static/documentation_options.js?v=ce50e22f"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -131,7 +131,17 @@
 des données."><a class="reference internal" href="#term-reseau-informatique"><span class="xref std std-term">réseau informatique</span></a></abbr>.</p>
 <p>Le <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
 règles qui régissent les échanges de données ou le comportement
-collectif de processus ou d’ordinateurs en réseaux."><a class="reference internal" href="#term-protocole"><span class="xref std std-term">protocole</span></a></abbr> IP (créé à l’origine pour <abbr title="[Réseau informatique] mondial accessible au public. Internet est en
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="#term-protocole"><span class="xref std std-term">protocole</span></a></abbr> IP (créé à l’origine pour <abbr title="[Réseau informatique] mondial accessible au public. Internet est en
 réalité l’interconnexion d’un ensemble de réseaux à travers le monde.
 Comme son nom l’indique, « inter » « net » = « entre les réseaux ». Il
 s’agit donc d’un « réseau de réseaux »."><a class="reference internal" href="#term-Internet"><span class="xref std std-term">Internet</span></a></abbr>)
@@ -160,12 +170,28 @@ Interface en ligne de commande, basée sur un affichage textuel.
 Elle s’utilise par l’intermédiaire d’une fenêtre de <abbr title="En informatique, un terminal était à l’origine un appareil constitué
 d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
 avec un ordinateur partagé distant. Il offrait une interface
-textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
 
 De nos jours, on utilise souvent le mot « terminal » comme raccourci
 pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
-recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>.
-La CLI est très intéressante car elle peut aussi bien être utilisée par des humain·e·s que par des logiciels.
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>
+dans laquelle on lance des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commandes</span></a></abbr>.
+La CLI est très intéressante car elle peut aussi bien être utilisée
+par des humain·e·s que par des logiciels.</p>
+<p>Le serveur CLUB1 est accessible en CLI à travers <abbr title="(Secure SHell) Protocole permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande">Wikipedia</a></p>
 </dd>
 <dt id="term-client">client<a class="headerlink" href="#term-client" title="Lien vers ce terme">#</a></dt><dd><p>Logiciel permettant de se connecter à un <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
@@ -187,12 +213,46 @@ contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
 des images ou des « feuilles de style ». On appelle « Navigateur Web »
 le [client] utilisé pour y accéder."><a class="reference internal" href="#term-Web"><span class="xref std std-term">Web</span></a></abbr> et ainsi exécuté par un Navigateur web.</p>
 </dd>
+<dt id="term-commande">commande<a class="headerlink" href="#term-commande" title="Lien vers ce terme">#</a></dt><dd><p>Une commande informatique est une sorte de phrase
+que l’on peut fournir à une interface en ligne de commande (<abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>)
+pour demander à un ordinateur d’exécuter une tâche.</p>
+<p>Pour lancer une commande, il faut ouvrir un <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
+
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
+tapper le texte de la commande, puis appuyer sur <kbd class="kbd docutils literal notranslate">Entrée</kbd>.</p>
+<p>Pour lancer une commande sur le serveur CLUB1,
+il faut d’abord s’y être connecté avec <abbr title="(Secure SHell) Protocole permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Commande_informatique">Wikipedia</a></p>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>Quelques commandes disponibles sur le serveur : <a class="reference internal" href="services/ssh.html#selection-de-commandes"><span class="std std-ref">Sélection de commandes</span></a></p>
+</div>
+</dd>
 <dt id="term-Debian">Debian<a class="headerlink" href="#term-Debian" title="Lien vers ce terme">#</a></dt><dd><p>Système d’exploitation communautaire basé sur <abbr title="Noyau de système d’exploitation [POSIX] [libre]. Le noyau est le cœur
 du système, il fait l’interface entre les logiciels utilisateurs et le
 matériel.
 
 Par extention, Linux fait souvent référence à tout système
-d’exploitation basé sur ce noyau."><a class="reference internal" href="#term-Linux"><span class="xref std std-term">Linux</span></a></abbr>,
+d’exploitation basé sur ce noyau.
+
+Le serveur CLUB1 utilise le noyau Linux avec le système d’exploitation
+[Debian]."><a class="reference internal" href="#term-Linux"><span class="xref std std-term">Linux</span></a></abbr>,
 composé presque exclusivement de <abbr title="Désigne des logiciels qui respectent la liberté des utilisateurs. En
 particulier, les utilisateurs ont la liberté d’exécuter, copier,
 étudier, modifier et améliorer ces logiciels, et surtout celle de les
@@ -262,7 +322,15 @@ depuis un accès <abbr title="(Secure SHell) Protocole permettant de se connecte
 [CLI] à un serveur. Ses principaux avantages sont d’être entièrement
 chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
 Il existe des extensions SSH pour des usages plus spécifiques comme
-[SFTP] ou [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> avec la commande suivante :</p>
+[SFTP] ou [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> avec la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>members GROUP
 </pre></div>
 </div>
@@ -309,7 +377,11 @@ particulier, les utilisateurs ont la liberté d’exécuter, copier,
 repartager, modifiés ou non."><a class="reference internal" href="#term-logiciel-libre"><span class="xref std std-term">libre</span></a></abbr>.
 Le noyau est le cœur du système,
 il fait l’interface entre les logiciels utilisateurs et le matériel.</p>
-<p>Par extention, Linux fait souvent référence à tout système d’exploitation basé sur ce noyau.
+<p>Par extention, Linux fait souvent référence à tout système d’exploitation basé sur ce noyau.</p>
+<p>Le serveur CLUB1 utilise le noyau Linux avec le système d’exploitation <abbr title="Système d’exploitation communautaire basé sur [Linux], composé presque
+exclusivement de [logiciels libres] et respectant la norme [POSIX].
+
+C’est le système d’exploitation qui est installé sur le serveur CLUB1."><a class="reference internal" href="#term-Debian"><span class="xref std std-term">Debian</span></a></abbr>.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Linux">Wikipedia</a></p>
 </dd>
 <dt id="term-log">log<a class="headerlink" href="#term-log" title="Lien vers ce terme">#</a></dt><dd><p>Désigne à l’origine le <a class="reference external" href="https://fr.wikipedia.org/wiki/Livre_de_bord">journal de bord (logbook)</a> d’un navire.
@@ -384,7 +456,7 @@ appartient à un ou plusieurs groupes.
 Astuce:
 
   Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -419,8 +491,20 @@ sur ces fichiers et dossiers.</p>
 soit aux membres du <em>groupe</em> du fichier/dossier, soit aux <em>autres</em> utilisateurs.</p>
 <p>Les permissions peuvent être consultées en <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
-[terminal]. La CLI est très intéressante car elle peut aussi bien être
-utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> avec la commande <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code> et modifiées avec <code class="docutils literal notranslate"><span class="pre">chmod</span></code>.
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>
+avec la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commande</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-l</span></code> et modifiées avec <code class="docutils literal notranslate"><span class="pre">chmod</span></code>.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Permissions_UNIX">Wikipedia</a></p>
 </dd>
 <dt id="term-PHP">PHP<a class="headerlink" href="#term-PHP" title="Lien vers ce terme">#</a></dt><dd><p>(<em>PHP Hypertext Preprocessor</em>) Langage de programmation de haut niveau,
@@ -448,13 +532,22 @@ du système, il fait l’interface entre les logiciels utilisateurs et le
 matériel.
 
 Par extention, Linux fait souvent référence à tout système
-d’exploitation basé sur ce noyau."><a class="reference internal" href="#term-Linux"><span class="xref std std-term">Linux</span></a></abbr>, macOS et <a class="reference external" href="https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems">beaucoup d’autres systèmes</a>
+d’exploitation basé sur ce noyau.
+
+Le serveur CLUB1 utilise le noyau Linux avec le système d’exploitation
+[Debian]."><a class="reference internal" href="#term-Linux"><span class="xref std std-term">Linux</span></a></abbr>, macOS et <a class="reference external" href="https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems">beaucoup d’autres systèmes</a>
 respectent cette interface, contrairement à Windows.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/POSIX">Wikipedia</a></p>
 </dd>
 <dt id="term-protocole">protocole<a class="headerlink" href="#term-protocole" title="Lien vers ce terme">#</a></dt><dd><p>Dans le contexte de l’informatique,
 un protocole est un ensemble de règles qui régissent les échanges de données
-ou le comportement collectif de processus ou d’ordinateurs en réseaux.
+ou le comportement collectif de processus ou d’ordinateurs en réseaux.</p>
+<p>Un protocole permet à tous les logiciels qui le respectent
+d’être compatible avec les uns avec les autres,
+c’est ce qu’on appelle l’interopérabilité.</p>
+<p>Un protocole <strong>ouvert</strong> donne la permission à n’importe qui
+de créer un logiciel qui le respecte.</p>
+<p>CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour fournir ses services.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Protocole_informatique">Wikipedia</a></p>
 </dd>
 <dt id="term-registraire">registraire<a class="headerlink" href="#term-registraire" title="Lien vers ce terme">#</a></dt><dd><p>Registraire de <abbr title="Identifiant de domaine [Internet], facile à lire et à retenir par un
@@ -521,12 +614,23 @@ pour qui cherche à proposer des sites plus sobres énergétiquement.
 </dd>
 <dt id="term-terminal">terminal<a class="headerlink" href="#term-terminal" title="Lien vers ce terme">#</a></dt><dd><p>En informatique, un terminal était à l’origine un appareil constitué d’un moniteur et d’un clavier,
 permettant à un·e humain·e d’interagir avec un ordinateur partagé distant.
-Il offrait une interface textuelle, permettant d’entrer des commandes et d’en lire le résultat.</p>
+Il offrait une interface textuelle, permettant d’entrer des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commandes</span></a></abbr> et d’en lire le résultat.</p>
 <p>De nos jours, on utilise souvent le mot « terminal » comme raccourci pour désigner un « émulateur de terminal ».
 Il s’agit d’un logiciel recréant l’interface en ligne de commande (<abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
-[terminal]. La CLI est très intéressante car elle peut aussi bien être
-utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>) de ce materiel.
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>) de ce materiel.
 — <a class="reference external" href="https://fr.wikipedia.org/wiki/Terminal_(informatique)">Wikipedia</a></p>
 </dd>
 <dt id="term-TLD">TLD<a class="headerlink" href="#term-TLD" title="Lien vers ce terme">#</a></dt><dd><p>(<em>Top level Domain</em>)
@@ -618,7 +722,7 @@ Le nom provient de la langue Hawaïenne dans laquelle « wiki » signifie « 
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

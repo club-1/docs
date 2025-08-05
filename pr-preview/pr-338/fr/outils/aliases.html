@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=75f754c4"></script>
+        <script src="../_static/documentation_options.js?v=ce50e22f"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -30,7 +30,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Newsletter" href="newsletter.html" />
+    <link rel="next" title="Newsletter de club1" href="newsletter.html" />
     <link rel="prev" title="Forum de discussion" href="forum.html" />
 
 	
@@ -99,7 +99,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#utilisation-avancee">Utilisation avancée</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter de club1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="compta.html">Comptabilité</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ldap.html">Annuaire LDAP</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dns.html">Serveur DNS</a></li>
@@ -155,7 +155,7 @@ appartient à un ou plusieurs groupes.
 Astuce:
 
   Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -185,7 +185,15 @@ Il doit ressembler approximativement à ceci :</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de
-donnée (<code class="docutils literal notranslate"><span class="pre">/etc/aliases.db</span></code>) en lançant la commande suivante :</p>
+donnée (<code class="docutils literal notranslate"><span class="pre">/etc/aliases.db</span></code>) en lançant la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newaliases
 </pre></div>
 </div>
@@ -239,8 +247,8 @@ Lesquels peuvent être accordés soit à l’utilisateur proriétaire du
 fichier/dossier, soit aux membres du groupe du fichier/dossier, soit
 aux autres utilisateurs.
 
-Les permissions peuvent être consultées en [CLI] avec la commande &quot;ls
--l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr> requises
+Les permissions peuvent être consultées en [CLI] avec la [commande]
+&quot;ls -l&quot; et modifiées avec &quot;chmod&quot;."><a class="reference internal" href="../glossaire.html#term-permissions"><span class="xref std std-term">permissions</span></a></abbr> requises
 pour créer les fichiers et exécuter les commandes.
 Ces actions sont réalisées avec les droits de l’utilisateur correspondant à l’alias s’il existe
 et sinon, sur CLUB1, avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">nobody</span></code> et le <abbr title="Dans un système [POSIX], les groupes servent à rassembler des
@@ -250,7 +258,7 @@ appartient à un ou plusieurs groupes.
 Astuce:
 
   Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -268,7 +276,7 @@ Astuce:
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
         <a href="forum.html" class="btn btn-neutral float-left" title="Forum de discussion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="newsletter.html" class="btn btn-neutral float-right" title="Newsletter" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="newsletter.html" class="btn btn-neutral float-right" title="Newsletter de club1" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -291,7 +299,7 @@ Astuce:
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

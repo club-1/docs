@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=75f754c4"></script>
+        <script src="../_static/documentation_options.js?v=ce50e22f"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -31,7 +31,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
     <link rel="next" title="Annuaire LDAP" href="ldap.html" />
-    <link rel="prev" title="Newsletter" href="newsletter.html" />
+    <link rel="prev" title="Newsletter de club1" href="newsletter.html" />
 
 	
 	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/compta.html" />
@@ -90,7 +90,7 @@
 <li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="forum.html">Forum de discussion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="aliases.html">Gestion des alias email</a></li>
-<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter de club1</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Comptabilité</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#fichier-de-transactions">Fichier de transactions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a><ul>
@@ -186,7 +186,7 @@ appartient à un ou plusieurs groupes.
 Astuce:
 
   Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la commande suivante :
+  depuis un accès [SSH] avec la [commande] suivante :
 
      members GROUP
 
@@ -200,11 +200,21 @@ Astuce:
 il suffit d’ouvrir le fichier dans un éditeur de texte.
 Mais bon, c’est pas forcément hyper confortable.
 Pour palier à cela,
-il est possible d’utiliser des commandes une fois que l’on est <a class="reference internal" href="../services/ssh.html"><span class="std std-doc">connecté au serveur en SSH</span></a>.</p>
+il est possible d’utiliser des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commandes</span></a></abbr>
+une fois que l’on est <a class="reference internal" href="../services/ssh.html"><span class="std std-doc">connecté au serveur en SSH</span></a>.</p>
 <p>En fonction de votre familiarité avec le <abbr title="En informatique, un terminal était à l’origine un appareil constitué
 d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
 avec un ordinateur partagé distant. Il offrait une interface
-textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
 
 De nos jours, on utilise souvent le mot « terminal » comme raccourci
 pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
@@ -225,8 +235,11 @@ Elle ne fait que poser des questions.</p>
 <h3>Commandes pour un usage avancé<a class="headerlink" href="#commandes-pour-un-usage-avance" title="Lien vers cette rubrique">#</a></h3>
 <p>Les utilisateurs plus habitués à l’utilisation de la <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
-[terminal]. La CLI est très intéressante car elle peut aussi bien être
-utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>
+[terminal] dans laquelle on lance des [commandes]. La CLI est très
+intéressante car elle peut aussi bien être utilisée par des humain·e·s
+que par des logiciels.
+
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr>
 peuvent directement utiliser les commandes suivantes.</p>
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-compta-voir">
@@ -272,7 +285,7 @@ Elle s’affiche avec l’option <code class="docutils literal notranslate"><spa
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="newsletter.html" class="btn btn-neutral float-left" title="Newsletter" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="newsletter.html" class="btn btn-neutral float-left" title="Newsletter de club1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
         <a href="ldap.html" class="btn btn-neutral float-right" title="Annuaire LDAP" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
@@ -296,7 +309,7 @@ Elle s’affiche avec l’option <code class="docutils literal notranslate"><spa
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=fd7bb8c6"></script>
+        <script src="_static/documentation_options.js?v=46dc0e2d"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -149,8 +149,17 @@
 <!-- Ne pas ajouter de titre de niveau 2 ici, sinon ça casse la table des matières -->
 <section id="comment-modifier-mon-mot-de-passe-de-membre-club1">
 <h3>How do I change my CLUB1 member password?<a class="headerlink" href="#comment-modifier-mon-mot-de-passe-de-membre-club1" title="Link to this heading">#</a></h3>
-<p>At this time, the only way to change your CLUB1 member password is to run the <abbr title="Allows you to change your CLUB1 password (this will therefore have an
-effect on the connection to all [services])."><a class="reference internal" href="services/ssh.html#commande-passwd"><code class="xref std std-commande docutils literal notranslate"><span class="pre">passwd</span></code></a></abbr> command from an <a class="reference internal" href="services/ssh.html"><span class="std std-doc">SSH connection</span></a>.</p>
+<p>Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
+est de lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> <abbr title="Allows you to change your CLUB1 password (this will therefore have an
+effect on the connection to all [services])."><a class="reference internal" href="services/ssh.html#commande-passwd"><code class="xref std std-commande docutils literal notranslate"><span class="pre">passwd</span></code></a></abbr> à partir d’une <a class="reference internal" href="services/ssh.html"><span class="std std-doc">connexion SSH</span></a>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If you connect to CLUB1 in <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
@@ -220,7 +229,16 @@ server)."><a class="reference internal" href="glossaire.html#term-adresse-IP"><s
 <section id="quel-espace-est-ce-que-j-occupe-sur-le-serveur">
 <h3>What space do I occupy on the server?<a class="headerlink" href="#quel-espace-est-ce-que-j-occupe-sur-le-serveur" title="Link to this heading">#</a></h3>
 <p>Except <a class="reference internal" href="services/email.html#quotas"><span class="std std-ref">for emails</span></a>, there are ** no quota defined for personal spaces**.</p>
-<p>For an estimate of the space occupied by your <a class="reference internal" href="info/espace-personnel.html"><span class="std std-doc">personal files</span></a>, the following command can be run once <a class="reference internal" href="services/ssh.html"><span class="std std-doc">connected with SSH</span></a>:</p>
+<p>Pour avoir une estimation de l’espace occupé par son <a class="reference internal" href="info/espace-personnel.html"><span class="std std-doc">dossier personnel</span></a>,
+on peut lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante, une fois <a class="reference internal" href="services/ssh.html"><span class="std std-doc">connecté en SSH</span></a> :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>du -shx
 </pre></div>
 </div>
@@ -234,10 +252,11 @@ Press the &quot;Q&quot; key to leave."><a class="reference internal" href="servi
 <p>This information is also visible in the <a class="reference external" href="https://en.wikipedia.org/wiki/Message_of_the_day">MOTD</a>, when you log in with <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
 server. Its main advantages are being fully encrypted and providing
 full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> through a <abbr title="In computing, a terminal was originally a device consisting of a
-monitor and a keyboard, allowing a human to interact with a remote
-shared computer. It offered a textual interface, making it possible to
-enter commands and read the result.
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> through a <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
 
 Nowadays, the word “terminal” is often used as a shorthand for a
 “terminal emulator”. This is a software that recreates the command
@@ -274,7 +293,7 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="gl
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-02-g70ab
+		v: 2025-08-05-gd1c7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
