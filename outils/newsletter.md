@@ -1,5 +1,5 @@
-Newsletter
-==========
+Newsletter de club1
+===================
 
 La newsletter est l'outil principal de communication externe de CLUB1.
 Elle permet d'informer des réunions, ateliers, ou partager les nouveaux articles du journal de bord.
@@ -11,8 +11,7 @@ Une [archive des newsletter](https://club1.fr/newsletters) est disponible sur le
 Abonnement
 ----------
 
-L'inscription et la désinscription se font __uniquement par email__ de manière interactive,
-[ou manuellement](#gestion-manuelle-des-inscriptions).
+L'inscription et la désinscription se font __uniquement par email__ de manière interactive.
 Pour cela, il faut contacter une des adresses suivante depuis l'adresse email que l'on souhaite inscrire ou désinscrire.
 
 - Inscription : <nouvelles+subscribe@club1.fr>
