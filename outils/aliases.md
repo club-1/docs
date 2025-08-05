@@ -25,7 +25,7 @@ jellyfin:       /dev/null
 
 ```{important}
 Après avoir sauvegardé le fichier, il est nécessaire de regénérer la base de
-donnée (`/etc/aliases.db`) en lançant la commande suivante :
+donnée (`/etc/aliases.db`) en lançant la {term}`commande` suivante :
 
     newaliases
 ```

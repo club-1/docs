@@ -38,8 +38,12 @@ API
 CLI
    (_Command Line Interface_)
    Interface en ligne de commande, basée sur un affichage textuel.
-   Elle s'utilise par l'intermédiaire d'une fenêtre de {term}`terminal`.
-   La CLI est très intéressante car elle peut aussi bien être utilisée par des humain&middot;e&middot;s que par des logiciels.
+   Elle s'utilise par l'intermédiaire d'une fenêtre de {term}`terminal`
+   dans laquelle on lance des {term}`commandes <commande>`.
+   La CLI est très intéressante car elle peut aussi bien être utilisée
+   par des humain&middot;e&middot;s que par des logiciels.
+
+   Le serveur CLUB1 est accessible en CLI à travers {term}`SSH`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
 
 client
@@ -49,6 +53,22 @@ client
 
 client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
+
+commande
+   Une commande informatique est une sorte de phrase
+   que l'on peut fournir à une interface en ligne de commande ({term}`CLI`)
+   pour demander à un ordinateur d'exécuter une tâche.
+
+   Pour lancer une commande, il faut ouvrir un {term}`terminal`,
+   tapper le texte de la commande, puis appuyer sur {kbd}`Entrée`.
+
+   Pour lancer une commande sur le serveur CLUB1,
+   il faut d'abord s'y être connecté avec {term}`SSH`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Commande_informatique)
+
+   ```{seealso}
+   Quelques commandes disponibles sur le serveur : [](./services/ssh.md#sélection-de-commandes)
+   ```
 
 Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
@@ -93,7 +113,7 @@ groupe
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur
-   depuis un accès {term}`SSH` avec la commande suivante :
+   depuis un accès {term}`SSH` avec la {term}`commande` suivante :
 
        members GROUP
 
@@ -186,7 +206,8 @@ permissions
    Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
    soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
 
-   Les permissions peuvent être consultées en {term}`CLI` avec la commande `ls -l` et modifiées avec `chmod`.
+   Les permissions peuvent être consultées en {term}`CLI`
+   avec la {term}`commande` `ls -l` et modifiées avec `chmod`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Permissions_UNIX)
 
 PHP
@@ -254,7 +275,7 @@ site Web statique
 terminal
    En informatique, un terminal était à l'origine un appareil constitué d'un moniteur et d'un clavier,
    permettant à un&middot;e humain&middot;e d'interagir avec un ordinateur partagé distant.
-   Il offrait une interface textuelle, permettant d'entrer des commandes et d'en lire le résultat.
+   Il offrait une interface textuelle, permettant d'entrer des {term}`commandes <commande>` et d'en lire le résultat.
 
    De nos jours, on utilise souvent le mot "terminal" comme raccourci pour désigner un "émulateur de terminal".
    Il s'agit d'un logiciel recréant l'interface en ligne de commande ({term}`CLI`) de ce materiel.

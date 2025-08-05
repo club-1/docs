@@ -19,7 +19,7 @@ backlinks: none
 ### Comment modifier mon mot de passe de membre CLUB1 ?
 
 Pour le moment, la seule manière de modifier son mot de passe de membre CLUB1
-est de lancer la commande {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
+est de lancer la {term}`commande` {commande}`passwd` à partir d'une [connexion SSH](services/ssh.md).
 
 ```{tip}
 Si vous vous connectez pour la première fois à CLUB1 en {term}`SSH` depuis votre ordinateur personnel,
@@ -75,7 +75,7 @@ La [documentation de Deuxfleurs](https://guide.deuxfleurs.fr/services/dns-cname-
 il n'est défini **aucun quota pour les espaces personnel**.
 
 Pour avoir une estimation de l'espace occupé par son [dossier personnel](/info/espace-personnel.md),
-on peut lancer la commande suivante, une fois [connecté en SSH](/services/ssh.md) :
+on peut lancer la {term}`commande` suivante, une fois [connecté en SSH](/services/ssh.md) :
 
     du -shx
 

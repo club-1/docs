@@ -33,7 +33,7 @@ est disponible à l'adresse suivante : <https://phpmyadmin.club1.fr>
 Interface en ligne de commande
 ------------------------------
 
-Il est possible de se connecter au serveur SQL directement depuis la ligne de commande.
+Il est possible de se connecter au serveur SQL directement depuis la {term}`ligne de commande <CLI>`.
 Pour cela, il faut tout d'abord se connecter au serveur en [SSH](ssh.md).
 Ensuite, la commande pour démarrer un shell SQL est la suivante
 (votre mot de passe CLUB1 sera demandé) :
