@@ -1,0 +1,587 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Messagerie email &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/services/email.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=c79233fa"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Transfert de fichiers FTPS" href="ftp.html" />
+    <link rel="prev" title="Connexion à distance SSH" href="ssh.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/email.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/email.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">Connexion à distance SSH</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Messagerie email</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#client-web">Client Web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stockage-des-donnees">Stockage des données</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#quotas">Quotas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dossiers-speciaux">Dossiers spéciaux</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#usage-avance">Usage avancé</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sous-adresses">Sous-adresses</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#transferts-automatiques">Transferts automatiques</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#filtres-automatiques">Filtres automatiques</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#informations-de-connexion">Informations de connexion</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#serveur-d-envoi-smtp">Serveur d’envoi (SMTP)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#serveur-de-reception-imap">Serveur de réception (IMAP)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">Transfert de fichiers FTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">Synchro de fichiers, contacts et calendriers WebDAV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html">Explorateur de fichiers Web <em>Drive</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Hébergement de sites Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">Bases de données SQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">Agrégateur de flux de nouvelles (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Dépôts Git publics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services réservés aux membres</a></li>
+      <li class="breadcrumb-item active">Messagerie email</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/services/email.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="messagerie-email">
+<h1>Messagerie email<a class="headerlink" href="#messagerie-email" title="Lien vers cette rubrique">#</a></h1>
+<p>Chaque membre dispose d’<strong>une boîte email</strong> avec une adresse email personnelle.
+L’adresse est composée de l’<strong>identifiant</strong>, suivi de <code class="docutils literal notranslate"><span class="pre">&#64;club1.fr</span></code>.
+Par exemple, l’adresse de l’utilisateur <code class="docutils literal notranslate"><span class="pre">michel</span></code> est <code class="docutils literal notranslate"><span class="pre">michel&#64;club1.fr</span></code>.</p>
+<p>Pour utiliser votre boîte mail, il faut vous y connecter à travers un <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> mail.</p>
+<p>Si vous utilisez déjà un client email installé sur votre ordinateur (<em>Thunderbird</em>, <em>Apple mail</em>…)
+pour gérer vos autres boîtes email, vous pouvez y ajouter celle de CLUB1.
+Pour cela, vous aurez probablement besoin des <a class="reference internal" href="#informations-de-connexion">informations de connexion</a>.</p>
+<p>Sinon, vous pouvez aussi vous connecter depuis un naviguateur <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> grâce au <a class="reference internal" href="#client-web">client Web</a>.</p>
+<p>Enfin, pour les membres utilisant régulièrement la <a class="reference internal" href="ssh.html"><span class="std std-doc">connexion SSH</span></a>,
+il est possible de consulter ses mails avec <abbr title="Permet de consulter et d’envoyer ses emails avec [Mutt] : Un [client]
+email en [CLI]. Les touches de contrôle sont indiqués en haut. Pressez
+la touche &quot;Q&quot; pour quitter."><a class="reference internal" href="ssh.html#commande-mutt"><code class="xref std std-commande docutils literal notranslate"><span class="pre">mutt</span></code></a></abbr>.</p>
+<section id="client-web">
+<h2>Client Web<a class="headerlink" href="#client-web" title="Lien vers cette rubrique">#</a></h2>
+<p>Un <abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">client Web</span></a></abbr> fourni par <abbr title="[Client Web] permettant de consulter et d’envoyer des emails via SMTP
+et IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr>
+est disponible à l’adresse <a class="reference external" href="https://mail.club1.fr">https://mail.club1.fr</a>.</p>
+<p>Il permet de gérer et envoyer des emails
+ainsi que de <a class="reference internal" href="#filtres-automatiques">configurer des filtres</a> pour trier automatiquement les emails reçus.</p>
+<p>Mais il permet aussi d’accéder aux <strong><span class="target" id="index-0">calendriers</span></strong>
+et <strong><span class="target" id="index-1">carnets d’adresses</span></strong> CLUB1 synchronisés avec <a class="reference internal" href="webdav.html"><span class="std std-doc">WebDAV</span></a>.</p>
+</section>
+<section id="stockage-des-donnees">
+<h2>Stockage des données<a class="headerlink" href="#stockage-des-donnees" title="Lien vers cette rubrique">#</a></h2>
+<p>Toutes les données relatives aux emails sont stockées sous la forme de fichiers
+dans le dossier <code class="docutils literal notranslate"><span class="pre">mail</span></code> de votre <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc"><em>espace personnel</em></span></a>.
+Ce dossier respecte le standard <a class="reference external" href="https://fr.wikipedia.org/wiki/Maildir">Maildir</a>,
+il est donc possible d’y accéder directement à partir d’un <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> email supportant ce standard,
+par exemple après avoir fait une sauvegarde du dossier sur un ordinateur personnel.</p>
+<section id="quotas">
+<h3>Quotas<a class="headerlink" href="#quotas" title="Lien vers cette rubrique">#</a></h3>
+<p>Le dossier <code class="docutils literal notranslate"><span class="pre">mail</span></code> est soumis à un quota de <strong>5 Go</strong>.
+Cette décision a été prise pour encourager la suppression des anciens emails.</p>
+<p>La taille maximale des emails (reçus et envoyés) est de <strong>25 Mo</strong>.
+Si un email dépasse cette taille, il sera refusé et l’expéditeur en sera informé
+avec le message d’erreur : <code class="docutils literal notranslate"><span class="pre">Message</span> <span class="pre">size</span> <span class="pre">exceeds</span> <span class="pre">fixed</span> <span class="pre">limit</span></code> ou <code class="docutils literal notranslate"><span class="pre">552:</span> <span class="pre">5.3.4</span> <span class="pre">Error:</span> <span class="pre">message</span> <span class="pre">file</span> <span class="pre">too</span> <span class="pre">big</span></code>.</p>
+</section>
+<section id="dossiers-speciaux">
+<h3>Dossiers spéciaux<a class="headerlink" href="#dossiers-speciaux" title="Lien vers cette rubrique">#</a></h3>
+<p>Les dossiers spéciaux utilisent les noms standards,
+ils seront donc automatiquement reconnus par la grande majorité des clients email.
+Au cas où ils ne le sont pas, voici la liste complète :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">INBOX</span></code> : messages reçus</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Drafts</span></code> : brouillons en cours de rédaction</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Sent</span></code> : messages envoyés</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Junk</span></code> : SPAMs (automatiquement supprimés au bout de 60 jours)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Trash</span></code> : corbeille (automatiquement supprimés au bout de 60 jours)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Archive</span></code> : messages archivés</p></li>
+</ul>
+</section>
+</section>
+<section id="usage-avance">
+<h2>Usage avancé<a class="headerlink" href="#usage-avance" title="Lien vers cette rubrique">#</a></h2>
+<p>Quelques informations supplémentaires à propos du service email de CLUB1.</p>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>L’article du journal <a class="reference external" href="https://club1.fr/email/">Le(s) serveur(s) email</a></p>
+</div>
+<section id="sous-adresses">
+<h3>Sous-adresses<a class="headerlink" href="#sous-adresses" title="Lien vers cette rubrique">#</a></h3>
+<p>En plus de l’adresse principale, les membres ont la possibilité d’utiliser les sous-adresses.
+Les sous-adresses sont comme des <abbr title="Pseudonyme, nom de substitution. Les alias permettent de donner
+plusieurs noms à la même entité. C’est un concept fréquemment utilisé
+en informatique. On parle par exemple d’alias lorsqu’on fait pointer
+plusieurs adresses email vers la même boîte de reception, ou lorsqu’on
+définit un nouveau nom pour une commande."><a class="reference internal" href="../glossaire.html#term-alias"><span class="xref std std-term">alias</span></a></abbr>.
+Par défaut, elles redirigent vers l’adresse principale.
+Toutes les adresses de la forme <code class="docutils literal notranslate"><span class="pre">membre+[...]&#64;club1.fr</span></code> sont des sous-adresses de <code class="docutils literal notranslate"><span class="pre">membre&#64;club1.fr</span></code></p>
+<blockquote>
+<div><p>Par exemple, tous les emails envoyés à <code class="docutils literal notranslate"><span class="pre">michel+travail&#64;club1.fr</span></code>
+seront redirigés vers <code class="docutils literal notranslate"><span class="pre">michel&#64;club1.fr</span></code>.</p>
+</div></blockquote>
+<p>Ces adresses peuvent paraitre inutiles à première vue.
+Mais combinées avec les <a class="reference internal" href="#transferts-automatiques">transferts automatiques</a>
+et les <a class="reference internal" href="#filtres-automatiques">filtres automatiques</a>,
+elles deviennent très intéressantes.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Pour le <a class="reference internal" href="#transferts-automatiques">transfert automatique</a> d’une sous-adresse en particulier,
+on utilise un fichier <code class="docutils literal notranslate"><span class="pre">.formward+[...]</span></code> au lieu du fichier <code class="docutils literal notranslate"><span class="pre">.forward</span></code> de l’adresse principale.</p>
+<blockquote>
+<div><p>Par exemple pour rediriger uniquement l’adresse <code class="docutils literal notranslate"><span class="pre">michel+travail&#64;club1.fr</span></code>
+il faut le faire dans le fichier <code class="docutils literal notranslate"><span class="pre">.forward+travail</span></code>.</p>
+</div></blockquote>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>La documentation officielle de l’option <a class="reference external" href="http://www.postfix.org/postconf.5.html#recipient_delimiter">recipient_delimiter</a>
+(en anglais)</p>
+</div>
+</section>
+<section id="transferts-automatiques">
+<h3>Transferts automatiques<a class="headerlink" href="#transferts-automatiques" title="Lien vers cette rubrique">#</a></h3>
+<p>Il est possible de transférer automatiquement les emails que vous recevez sur votre adresse CLUB1
+vers une ou plusieurs autres adresses de votre choix.
+Pour ce faire, il faut créer dans votre <a class="reference internal" href="../info/espace-personnel.html"><span class="std std-doc">espace personnel</span></a>
+un fichier qui va indiquer à <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> à qui transférer votre courrier entrant.
+Ce fichier doit être placé directement dans votre dossier et s’appeler <code class="docutils literal notranslate"><span class="pre">.forward</span></code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p><code class="docutils literal notranslate"><span class="pre">.forward</span></code> est un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichier caché</span></a></abbr>.</p>
+</div>
+<p>À l’intérieur de ce fichier, il suffit ensuite de lister toutes les adresses
+vers lesquelles vous souhaitez rediriger les emails en les séparant par un retour à la ligne.</p>
+<p>Exemple de fichier <code class="docutils literal notranslate"><span class="pre">.forward</span></code> transférant vers deux adresses emails :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>perso@serveur.net
+unautremail@cool.fr
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Il est même possible de conserver ses emails sur sa boîte CLUB1
+en ajoutant son nom d’utilisateur·trice à cette liste !</p>
+</div>
+<p>Pour mettre fin à une redirection, il suffit de supprimer la ligne correspondante.
+Il est aussi possible de supprimer le fichier pour tout annuler.</p>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>La page de manuel <a class="reference external" href="https://www.postfix.org/local.8.html">Postfix local mail delivery</a> (en anglais)</p>
+</div>
+</section>
+<section id="filtres-automatiques">
+<h3>Filtres automatiques<a class="headerlink" href="#filtres-automatiques" title="Lien vers cette rubrique">#</a></h3>
+<p>Les filtres Sieve permettent de trier automatiquement les emails que vous recevez.
+Ces filtres sont appliqués côté <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> et ne dépendent donc d’aucun <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr>.
+Chaque utilisateur doit cependant les configurer lui-même.</p>
+<p>Il existe deux manières de les éditer.
+La plus simple est d’utiliser le <a class="reference internal" href="#client-web">client Web Roundcube de CLUB1</a>.
+Il dispose dans ses paramètres d’une interface de gestion de filtres.</p>
+<p>La deuxième méthode consiste à directement modifier le fichier de filtre dans votre <strong>espace personnel</strong> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>~/.dovecot.sieve
+</pre></div>
+</div>
+</section>
+</section>
+<section id="informations-de-connexion">
+<h2>Informations de connexion<a class="headerlink" href="#informations-de-connexion" title="Lien vers cette rubrique">#</a></h2>
+<p>La connexion d’un <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> email à une adresse CLUB1 nécessite de configurer plusieurs serveurs.</p>
+<section id="serveur-d-envoi-smtp">
+<h3>Serveur d’envoi (SMTP)<a class="headerlink" href="#serveur-d-envoi-smtp" title="Lien vers cette rubrique">#</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>champ</p></th>
+<th class="head"><p>valeur</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>hôte</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">mail.club1.fr</span></code> ou <code class="docutils literal notranslate"><span class="pre">smtp.club1.fr</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>port</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">465</span></code> (par défaut)</p></td>
+</tr>
+<tr class="row-even"><td><p>chiffrement</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">SSL/TSL</span></code> (Implicite)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="serveur-de-reception-imap">
+<h3>Serveur de réception (IMAP)<a class="headerlink" href="#serveur-de-reception-imap" title="Lien vers cette rubrique">#</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>champ</p></th>
+<th class="head"><p>valeur</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>hôte</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">mail.club1.fr</span></code> ou <code class="docutils literal notranslate"><span class="pre">imap.club1.fr</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>port</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">993</span></code> (par défaut)</p></td>
+</tr>
+<tr class="row-even"><td><p>chiffrement</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">SSL/TSL</span></code> (Implicite)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="logiciels">
+<h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Postfix">
+<span class="sig-name descname"><span class="pre">Postfix</span></span><a class="headerlink" href="#logiciel-Postfix" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> SMTP utilisé pour la transmission d’email.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Postfix">Wikipedia</a>,
+<a class="reference external" href="https://github.com/vdukhovni/postfix">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Dovecot">
+<span class="sig-name descname"><span class="pre">Dovecot</span></span><a class="headerlink" href="#logiciel-Dovecot" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> IMAP utilisé pour la gestion de boîtes emails.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Dovecot">Wikipedia</a>,
+<a class="reference external" href="https://github.com/dovecot/core">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Pigeonhole">
+<span class="sig-name descname"><span class="pre">Pigeonhole</span></span><a class="headerlink" href="#logiciel-Pigeonhole" title="Lien vers cette définition">#</a></dt>
+<dd><p>Extension <abbr title="[Serveur] IMAP utilisé pour la gestion de boîtes emails."><a class="reference internal" href="#logiciel-Dovecot"><span class="xref std std-logiciel">Dovecot</span></a></abbr> pour Sieve et ManageSieve,
+permettant de configurer des filtres automatiques côté <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr>.
+Ces filtres peuvent être édités depuis <abbr title="[Client Web] permettant de consulter et d’envoyer des emails via SMTP
+et IMAP."><a class="reference internal" href="#logiciel-Roundcube"><span class="xref std std-logiciel">Roundcube</span></a></abbr>.
+— <a class="reference external" href="https://pigeonhole.dovecot.org/">Site Web</a>, <a class="reference external" href="https://github.com/dovecot/pigeonhole">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-SPF-Engine">
+<span class="sig-name descname"><span class="pre">SPF-Engine</span></span><a class="headerlink" href="#logiciel-SPF-Engine" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> de traitement <a class="reference external" href="https://fr.wikipedia.org/wiki/Sender_Policy_Framework">SPF (<em>Sender Policy Framework</em>)</a>
+utilisé par <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> pour vérifier l’origine des emails entrants.
+— <a class="reference external" href="https://launchpad.net/spf-engine">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-PostSRSd">
+<span class="sig-name descname"><span class="pre">PostSRSd</span></span><a class="headerlink" href="#logiciel-PostSRSd" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> de traitement SRS (<em>Sender Rewriting Scheme</em>)
+permettant à <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> de transférer des emails en restant compatible avec SPF.
+— <a class="reference external" href="https://github.com/roehling/postsrsd">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-OpenDKIM">
+<span class="sig-name descname"><span class="pre">OpenDKIM</span></span><a class="headerlink" href="#logiciel-OpenDKIM" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> fournissant un filtre <em>milter</em>
+utilisé par <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr> pour signer les emails sortants
+et valider la signature des emails entrants.
+— <a class="reference external" href="http://www.opendkim.org/">Site Web</a>, <a class="reference external" href="https://github.com/trusteddomainproject/OpenDKIM">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-OpenDMARC">
+<span class="sig-name descname"><span class="pre">OpenDMARC</span></span><a class="headerlink" href="#logiciel-OpenDMARC" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> fournissant un filtre <em>milter</em> utilisé par <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr>
+pour valider la politique <a class="reference external" href="https://fr.wikipedia.org/wiki/DMARC">DMARC (<em>Domain-based Message Authentication, Reporting, and Conformance</em>)</a>
+des emails entrants.</p>
+<p>Il se base pour cela sur le retour de <abbr title="[Serveur] de traitement SPF (Sender Policy Framework) utilisé par
+[Postfix] pour vérifier l’origine des emails entrants."><a class="reference internal" href="#logiciel-SPF-Engine"><span class="xref std std-logiciel">SPF-Engine</span></a></abbr> et <abbr title="[Serveur] fournissant un filtre milter utilisé par [Postfix] pour
+signer les emails sortants et valider la signature des emails
+entrants."><a class="reference internal" href="#logiciel-OpenDKIM"><span class="xref std std-logiciel">OpenDKIM</span></a></abbr>.
+— <a class="reference external" href="http://www.trusteddomain.org/opendmarc/">Site Web</a>, <a class="reference external" href="https://github.com/trusteddomainproject/OpenDMARC">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-dmarcator">
+<span class="sig-name descname"><span class="pre">dmarcator</span></span><a class="headerlink" href="#logiciel-dmarcator" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">Serveur</span></a></abbr> fournissant un filtre <em>milter</em> utilisé par <abbr title="[Serveur] SMTP utilisé pour la transmission d’email."><a class="reference internal" href="#logiciel-Postfix"><span class="xref std std-logiciel">Postfix</span></a></abbr>
+pour rejeter certains emails en fonction du retour d’<abbr title="[Serveur] fournissant un filtre milter utilisé par [Postfix] pour
+valider la politique DMARC (Domain-based Message Authentication,
+Reporting, and Conformance) des emails entrants.
+
+Il se base pour cela sur le retour de [SPF-Engine] et [OpenDKIM]."><a class="reference internal" href="#logiciel-OpenDMARC"><span class="xref std std-logiciel">OpenDMARC</span></a></abbr>.
+— <a class="reference external" href="https://github.com/club-1/dmarcator">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Roundcube">
+<span class="sig-name descname"><span class="pre">Roundcube</span></span><a class="headerlink" href="#logiciel-Roundcube" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="[Client] accessible via le [Web] et ainsi exécuté par un Navigateur
+web."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Client Web</span></a></abbr> permettant de consulter et d’envoyer des emails via SMTP et IMAP.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Roundcube">Wikipedia</a>,
+<a class="reference external" href="https://github.com/roundcube/roundcubemail">Sources</a></p>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>La section <a class="reference internal" href="#client-web"><span class="std std-ref">Client Web</span></a></p>
+</div>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Mutt">
+<span class="sig-name descname"><span class="pre">Mutt</span></span><a class="headerlink" href="#logiciel-Mutt" title="Lien vers cette définition">#</a></dt>
+<dd><p><abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
+doté d’une interface graphique, destinée à être utilisée directement
+par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">Client</span></a></abbr> email en <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
+[terminal]. La CLI est très intéressante car elle peut aussi bien être
+utilisée par des humain·e·s que par des logiciels."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> permettant d’envoyer et de consulter ses email
+directement depuis un <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des commandes et d’en lire le résultat.
+
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>.
+Il est installé et pré-configuré sur le serveur CLUB1.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Mutt">Wikipedia</a>,
+<a class="reference external" href="https://gitlab.com/muttmua/mutt">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="ssh.html" class="btn btn-neutral float-left" title="Connexion à distance SSH" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="ftp.html" class="btn btn-neutral float-right" title="Transfert de fichiers FTPS" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-08-05-g0021
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/services/email.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/services/email.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
