@@ -127,6 +127,8 @@ Linux
    il fait l'interface entre les logiciels utilisateurs et le matériel.
 
    Par extention, Linux fait souvent référence à tout système d'exploitation basé sur ce noyau.
+
+   Le serveur CLUB1 utilise le noyau Linux avec le système d'exploitation {term}`Debian`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)
 
 log
@@ -208,6 +210,15 @@ protocole
    Dans le contexte de l'informatique,
    un protocole est un ensemble de règles qui régissent les échanges de données
    ou le comportement collectif de processus ou d'ordinateurs en réseaux.
+
+   Un protocole permet à tous les logiciels qui le respectent
+   d'être compatible avec les uns avec les autres,
+   c'est ce qu'on appelle l'interopérabilité.
+
+   Un protocole **ouvert** donne la permission à n'importe qui
+   de créer un logiciel qui le respecte.
+
+   CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour fournir ses services.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Protocole_informatique)
 
 registraire
