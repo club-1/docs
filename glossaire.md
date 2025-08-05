@@ -61,18 +61,14 @@ commande
 
    Pour lancer une commande, il faut ouvrir un {term}`terminal`,
    tapper le texte de la commande, puis appuyer sur {kbd}`Entrée`.
-   Par exemple, dans un système {term}`POSIX`, la commande `ls` permet
-   de lister le contenu du dossier courant
-   (le `$` ne fait pas partie de la commande, il s'agit de l'"invite de commande") :
-
-   ```console
-   $ ls
-   git  log  mail  static  PRESENTATION.md
-   ```
 
    Pour lancer une commande sur le serveur CLUB1,
    il faut d'abord s'y être connecté avec {term}`SSH`.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Commande_informatique)
+
+   ```{seealso}
+   Quelques commandes disponibles sur le serveur : [](./services/ssh.md#sélection-de-commandes)
+   ```
 
 Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
