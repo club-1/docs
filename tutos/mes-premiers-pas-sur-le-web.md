@@ -227,6 +227,20 @@ C'est une façon de travailler qui consiste à ne pas mettre à jour sa page web
 que l'on fait en local,
 mais plutôt à chaque fois que l'on est satisfait de ses modifications.
 
+
+Pour aller plus loin
+--------------------
+
+Pour continuer à en apprendre plus sur le HTML, vous pouvez explorer :
+
+- Les ressources HTML et CSS sur le site
+[Radical Web Design](https://radicalweb.design/ressources/html/),
+- [Open Class Room / Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
+(nécessite un compte gratuit 🫤).
+
+Vous pouvez aussi consulter [l'annuaire du site de CLUB1](https://club1.fr/annuaire) pour plus d'outils.
+
+
 ```{raw} latex
 \clearpage
 ```
