@@ -3,7 +3,7 @@ Synchro de fichiers, contacts et calendriers WebDAV
 
 ```{glossary}
 WebDAV
-   Protocole qui étend les fonctionnalités du {term}`Web`.
+   {term}`Protocole` qui étend les fonctionnalités du {term}`Web`.
    Il y ajoute des possibilités de modifications et de synchronisation de fichiers.
    Son utilisation première est donc similaire à un système de fichier distant
    et il est possible de l'utiliser via un explorateur de fichier compatible

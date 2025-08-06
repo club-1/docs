@@ -288,7 +288,7 @@ TLD
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Domaine_de_premier_niveau)
 
 TLS
-   (_Transport Layer Security_) Protocole permettant de sécuriser les échanges
+   (_Transport Layer Security_) {term}`Protocole` permettant de sécuriser les échanges
    réalisés dans un {term}`réseau informatique`.
    L'une de ses fonctionnalités principale est de chiffrer l'ensemble des données échangées
    entre le {term}`client` et le {term}`serveur`,
