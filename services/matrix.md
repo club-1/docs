@@ -19,12 +19,10 @@ L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
 Les membres de CLUB1 peuvent créer des jetons à usage uniques
 qu'iels devront transmettre aux personnes à inviter.
 
-Pour créer un jeton, il faut se connecter [via SSH](ssh.md) et lancer la commande :
+Pour créer un jeton, il faut se connecter [via SSH](ssh.md)
+et lancer la {term}`commande` {commande}`matrixtoken`.
 
 ````{commande} matrixtoken
-
-    matrixtoken
-
 Cette commande va créer un jeton, puis l'afficher.
 Ça ressemble à une suite de caractères que vous pourrez copier afin de la transmettre.
 
