@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=8d53a3e2"></script>
+        <script src="../_static/documentation_options.js?v=f16412e0"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -149,39 +149,88 @@
 <h1>SSH remote connection<a class="headerlink" href="#connexion-a-distance-ssh" title="Link to this heading">#</a></h1>
 <p>The SSH connection is the purest connection you can have with the server (at least among those which do not require to use psychotropics). It is also the one that feels the most like using a computer, because through it, one can <a class="reference internal" href="#selection-de-commandes">run programs</a> on the server!</p>
 <dl class="simple glossary">
-<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) Protocol allowing to connect remotely in <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+<dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> permettant de se connecter à distance en <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
 [terminal] dans laquelle on lance des [commandes]. La CLI est très
 intéressante car elle peut aussi bien être utilisée par des humain·e·s
 que par des logiciels.
 
-Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management
-protocol based on [SSH]. It is thus fully encrypted, and therefore
-comparable to [FTPS], but it offers more features (e.g. display of
-file owners)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> or <abbr title="(Secure CoPy) Protocol for copying files between two computers based
-on [SSH]. SCP is mainly used with the [CLI] [client] of the same name."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> à un serveur.
+Ses principaux avantages sont d’être entièrement chiffré
+et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme <abbr title="(SSH File Transfer Protocol) [Protocole] de transfert et gestion à
+distance de fichiers basé sur [SSH]. Il est ainsi entièrement chiffré,
+et donc comparable à [FTPS], mais il offre plus de fonctionnalités
+(e.g. l’affichage des propriétaires d’un fichier)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> ou <abbr title="(Secure CoPy) [Protocole] de copie de fichiers entre deux ordinateurs
+basé sur [SSH]. SCP s’utilise principalement à l’aide du [client] en
+[CLI] du même nom."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. —
+<a class="reference external" href="https://fr.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
 </dd>
-<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Link to this term">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) File transfer and remote management protocol based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
-server. Its main advantages are being fully encrypted and providing
-full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. It is thus fully encrypted, and therefore comparable to <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Link to this term">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de transfert
+et gestion à distance de fichiers basé sur <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
+Il est ainsi entièrement chiffré, et donc comparable à <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
 [TLS]. All data exchanges carried out are therefore encrypted. FTPS
 offers two modes of operation: explicit and implicit. The implicit
 mode is more secure because the connection is encrypted from the first
-exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>, but it offers more features (e.g. display of file owners). — <a class="reference external" href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
+exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>,
+mais il offre plus de fonctionnalités (e.g. l’affichage des propriétaires d’un fichier). —
+<a class="reference external" href="https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
 </dd>
-<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) Protocol for copying files between two computers based on <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
-server. Its main advantages are being fully encrypted and providing
-full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
+<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de copie de fichiers entre deux ordinateurs basé sur <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
+SCP s’utilise principalement à l’aide du <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> en <abbr title="(Command Line Interface) Interface en ligne de commande, basée sur un
 affichage textuel. Elle s’utilise par l’intermédiaire d’une fenêtre de
 [terminal] dans laquelle on lance des [commandes]. La CLI est très
 intéressante car elle peut aussi bien être utilisée par des humain·e·s
 que par des logiciels.
 
-Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
-[server]. It usually has a graphical interface, intended to be used
-directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> of the same name. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_copy_protocol">Wikipedia</a></p>
+Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> du même nom. —
+<a class="reference external" href="https://fr.wikipedia.org/wiki/Secure_copy">Wikipedia</a></p>
 </dd>
 </dl>
 <section id="se-connecter">
@@ -343,10 +392,11 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-OpenSSH">
 <span class="sig-name descname"><span class="pre">OpenSSH</span></span><a class="headerlink" href="#logiciel-OpenSSH" title="Link to this definition">#</a></dt>
-<dd><p>Software providing both an <abbr title="(Secure SHell) Protocol allowing to connect remotely in [CLI] to a
-server. Its main advantages are being fully encrypted and providing
-full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+<dd><p>Software providing both an <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
 requests from a [client]. Often, servers and clients are installed on
 different computers. By extension, the computer on which the servers
 are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> and <abbr title="Piece of software that accesses a service made available by a
@@ -385,7 +435,7 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-06-g9ab6
+		v: 2025-08-08-gb618
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
