@@ -16,7 +16,7 @@ Invitation
 ----------
 
 L'inscription utilise un **système de jetons** virtuels (*token* en anglais).
-Les membres de CLUB1 peuvent créer des jetons à usage uniques
+Les membres de CLUB1 peuvent créer des jetons à **usage unique** et valables **30 jours**
 qu'iels devront transmettre aux personnes à inviter.
 
 Pour créer un jeton, il faut se connecter [via SSH](ssh.md)
@@ -43,7 +43,7 @@ on peut utiliser cette combinaison de commandes :
 
     matrixtoken | mailx -s "jeton d'invitaiton Matrix" -- EMAIL
 
-En remplacçant `EMAIL` par l'adresse de destination.
+En remplaçant `EMAIL` par l'adresse de destination.
 ```
 
 
