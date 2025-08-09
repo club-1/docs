@@ -1,0 +1,323 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebDAV synchro of files, contacts and calendars &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/services/webdav.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=9e9ff36e"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Drive Web file explorer" href="drive.html" />
+    <link rel="prev" title="FTPS files transfer" href="ftp.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/webdav.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/webdav.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">SSH remote connection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Email messaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">FTPS files transfer</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">WebDAV synchro of files, contacts and calendars</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#carnets-d-adresses-et-calendriers">Address-books and calendars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tutoriels">Tutorials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html"><em>Drive</em> Web file explorer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Websites hosting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">SQL databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">News feed aggregator (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Public Git repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter personnelle</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services reserved for members</a></li>
+      <li class="breadcrumb-item active">WebDAV synchro of files, contacts and calendars</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./services/webdav.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="synchro-de-fichiers-contacts-et-calendriers-webdav">
+<h1>WebDAV synchro of files, contacts and calendars<a class="headerlink" href="#synchro-de-fichiers-contacts-et-calendriers-webdav" title="Link to this heading">#</a></h1>
+<dl class="simple glossary">
+<dt id="term-WebDAV">WebDAV<a class="headerlink" href="#term-WebDAV" title="Link to this term">#</a></dt><dd><p><abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> qui étend les fonctionnalités du <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>.
+Il y ajoute des possibilités de modifications et de synchronisation de fichiers.
+Son utilisation première est donc similaire à un système de fichier distant
+et il est possible de l’utiliser via un explorateur de fichier compatible
+pour éditer les fichiers de son <strong>espace personnel</strong> comme si ils étaient présents en local.</p>
+</dd>
+</dl>
+<p>A couple of WebDAV extensions provide even more specific features:</p>
+<dl class="simple glossary">
+<dt id="term-CardDAV">CardDAV<a class="headerlink" href="#term-CardDAV" title="Link to this term">#</a></dt><dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize contacts <span class="target" id="index-4">address-books</span>.</p>
+</dd>
+<dt id="term-CalDAV">CalDAV<a class="headerlink" href="#term-CalDAV" title="Link to this term">#</a></dt><dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize <span class="target" id="index-5">calendars</span>.</p>
+</dd>
+</dl>
+<p>A <em>debug</em> <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface is available at <a class="reference external" href="https://webdav.club1.fr">https://webdav.club1.fr</a>. It allows you to test the connection and preview some of the information.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>CLUB1’s <abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> is limited to files up to 1GB in size. To transfer larger files, it is better to use the <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> or <a class="reference internal" href="ftp.html"><span class="std std-doc">FTP</span></a> service.</p>
+</div>
+<section id="carnets-d-adresses-et-calendriers">
+<h2>Address-books and calendars<a class="headerlink" href="#carnets-d-adresses-et-calendriers" title="Link to this heading">#</a></h2>
+<p>The <abbr title="[Client] accessible via the [Web] and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> used for <a class="reference internal" href="email.html"><span class="std std-doc">emails</span></a> (<a class="reference external" href="https://mail.club1.fr">https://mail.club1.fr</a>) also allows to access the WebDAV address-books and calendars. From this interface, it is possible to view and edit your CLUB1 contacts and calendars.</p>
+<p>Each member has a pre-existing address book and calendar, both called <code class="docutils literal notranslate"><span class="pre">Default</span></code>, but it is possible to create others.</p>
+</section>
+<section id="tutoriels">
+<h2>Tutorials<a class="headerlink" href="#tutoriels" title="Link to this heading">#</a></h2>
+<p>Below is a small list of tutorials to get the most out of CLUB1’s WebDAV service.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../tutos/webdav-android.html"><span class="std std-doc">Synchronizing calendars and contacts on an Android device</span></a></p></li>
+<li><p><a class="reference internal" href="../tutos/caldav-mac.html"><span class="std std-doc">CalDAV calendar synchronization on a Mac</span></a></p></li>
+<li><p><a class="reference internal" href="../tutos/webdav-mac.html"><span class="std std-doc">Access personal space from a Mac’s Finder</span></a></p></li>
+</ul>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-webdav-server">
+<span class="sig-name descname"><span class="pre">webdav-server</span></span><a class="headerlink" href="#logiciel-webdav-server" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> adapted to the needs of CLUB1 and based on <abbr title="PHP library providing a very complete [WebDAV] [server]."><a class="reference internal" href="#logiciel-SabreDAV"><span class="xref std std-logiciel">SabreDAV</span></a></abbr>. — <a class="reference external" href="https://github.com/club-1/webdav-server">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-SabreDAV">
+<span class="sig-name descname"><span class="pre">SabreDAV</span></span><a class="headerlink" href="#logiciel-SabreDAV" title="Link to this definition">#</a></dt>
+<dd><p>PHP library providing a very complete <abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>. — <a class="reference external" href="https://sabre.io/">Website</a>, <a class="reference external" href="https://github.com/sabre-io/dav">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ftp.html" class="btn btn-neutral float-left" title="FTPS files transfer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="drive.html" class="btn btn-neutral float-right" title="Drive Web file explorer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2025, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-08-09-g00bb
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/services/webdav.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/services/webdav.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
