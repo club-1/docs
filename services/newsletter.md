@@ -1,5 +1,5 @@
-Mini newsletter
-===============
+newsletter personnelle
+======================
 
 Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur {term}`Internet`.
 D'où l'appelation "mini".
