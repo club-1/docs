@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=46dc0e2d"></script>
+        <script src="../_static/documentation_options.js?v=62578e35"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -144,28 +144,46 @@
   <section id="synchro-de-fichiers-contacts-et-calendriers-webdav">
 <h1>WebDAV synchro of files, contacts and calendars<a class="headerlink" href="#synchro-de-fichiers-contacts-et-calendriers-webdav" title="Link to this heading">#</a></h1>
 <dl class="simple glossary">
-<dt id="term-WebDAV">WebDAV<a class="headerlink" href="#term-WebDAV" title="Link to this term">#</a></dt><dd><p>Protocol that extends the functionality of the <abbr title="One of the best known services on [Internet]. Its full name is “World
+<dt id="term-WebDAV">WebDAV<a class="headerlink" href="#term-WebDAV" title="Link to this term">#</a></dt><dd><p><abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+règles qui régissent les échanges de données ou le comportement
+collectif de processus ou d’ordinateurs en réseaux.
+
+Un protocole permet à tous les logiciels qui le respectent d’être
+compatible avec les uns avec les autres, c’est ce qu’on appelle
+l’interopérabilité.
+
+Un protocole **ouvert** donne la permission à n’importe qui de créer
+un logiciel qui le respecte.
+
+CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour
+fournir ses services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> qui étend les fonctionnalités du <abbr title="One of the best known services on [Internet]. Its full name is “World
 Wide Web” (also abbreviated “www”). It allows to publish documents and
 link them together using hypertext links.
 
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
-sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>. It adds possibilities of modifications and synchronization of files. Its primary use is therefore similar to a remote file system and it is possible to use it via a compatible file explorer to edit the files of your <strong>personal space</strong> as if they were present locally.</p>
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>.
+Il y ajoute des possibilités de modifications et de synchronisation de fichiers.
+Son utilisation première est donc similaire à un système de fichier distant
+et il est possible de l’utiliser via un explorateur de fichier compatible
+pour éditer les fichiers de son <strong>espace personnel</strong> comme si ils étaient présents en local.</p>
 </dd>
 </dl>
 <p>A couple of WebDAV extensions provide even more specific features:</p>
 <dl class="simple glossary">
-<dt id="term-CardDAV">CardDAV<a class="headerlink" href="#term-CardDAV" title="Link to this term">#</a></dt><dd><p><abbr title="Protocol that extends the functionality of the [Web]. It adds
-possibilities of modifications and synchronization of files. Its
-primary use is therefore similar to a remote file system and it is
-possible to use it via a compatible file explorer to edit the files of
-your **personal space** as if they were present locally."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize contacts <span class="target" id="index-4">address-books</span>.</p>
+<dt id="term-CardDAV">CardDAV<a class="headerlink" href="#term-CardDAV" title="Link to this term">#</a></dt><dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize contacts <span class="target" id="index-4">address-books</span>.</p>
 </dd>
-<dt id="term-CalDAV">CalDAV<a class="headerlink" href="#term-CalDAV" title="Link to this term">#</a></dt><dd><p><abbr title="Protocol that extends the functionality of the [Web]. It adds
-possibilities of modifications and synchronization of files. Its
-primary use is therefore similar to a remote file system and it is
-possible to use it via a compatible file explorer to edit the files of
-your **personal space** as if they were present locally."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize <span class="target" id="index-5">calendars</span>.</p>
+<dt id="term-CalDAV">CalDAV<a class="headerlink" href="#term-CalDAV" title="Link to this term">#</a></dt><dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> extension to synchronize <span class="target" id="index-5">calendars</span>.</p>
 </dd>
 </dl>
 <p>A <em>debug</em> <abbr title="One of the best known services on [Internet]. Its full name is “World
@@ -177,11 +195,12 @@ in [HTML] and may include other resources such as images or “style
 sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> interface is available at <a class="reference external" href="https://webdav.club1.fr">https://webdav.club1.fr</a>. It allows you to test the connection and preview some of the information.</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>CLUB1’s <abbr title="Protocol that extends the functionality of the [Web]. It adds
-possibilities of modifications and synchronization of files. Its
-primary use is therefore similar to a remote file system and it is
-possible to use it via a compatible file explorer to edit the files of
-your **personal space** as if they were present locally."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+<p>CLUB1’s <abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
 requests from a [client]. Often, servers and clients are installed on
 different computers. By extension, the computer on which the servers
 are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> is limited to files up to 1GB in size. To transfer larger files, it is better to use the <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> or <a class="reference internal" href="ftp.html"><span class="std std-doc">FTP</span></a> service.</p>
@@ -205,11 +224,12 @@ are installed is called a “server” (e.g. the CLUB1 server)."><a class="refer
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-webdav-server">
 <span class="sig-name descname"><span class="pre">webdav-server</span></span><a class="headerlink" href="#logiciel-webdav-server" title="Link to this definition">#</a></dt>
-<dd><p><abbr title="Protocol that extends the functionality of the [Web]. It adds
-possibilities of modifications and synchronization of files. Its
-primary use is therefore similar to a remote file system and it is
-possible to use it via a compatible file explorer to edit the files of
-your **personal space** as if they were present locally."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+<dd><p><abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
 requests from a [client]. Often, servers and clients are installed on
 different computers. By extension, the computer on which the servers
 are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> adapted to the needs of CLUB1 and based on <abbr title="PHP library providing a very complete [WebDAV] [server]."><a class="reference internal" href="#logiciel-SabreDAV"><span class="xref std std-logiciel">SabreDAV</span></a></abbr>. — <a class="reference external" href="https://github.com/club-1/webdav-server">Sources</a></p>
@@ -218,11 +238,12 @@ are installed is called a “server” (e.g. the CLUB1 server)."><a class="refer
 <dl class="std logiciel">
 <dt class="sig sig-object std" id="logiciel-SabreDAV">
 <span class="sig-name descname"><span class="pre">SabreDAV</span></span><a class="headerlink" href="#logiciel-SabreDAV" title="Link to this definition">#</a></dt>
-<dd><p>PHP library providing a very complete <abbr title="Protocol that extends the functionality of the [Web]. It adds
-possibilities of modifications and synchronization of files. Its
-primary use is therefore similar to a remote file system and it is
-possible to use it via a compatible file explorer to edit the files of
-your **personal space** as if they were present locally."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+<dd><p>PHP library providing a very complete <abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
 requests from a [client]. Often, servers and clients are installed on
 different computers. By extension, the computer on which the servers
 are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>. — <a class="reference external" href="https://sabre.io/">Website</a>, <a class="reference external" href="https://github.com/sabre-io/dav">Sources</a></p>
@@ -259,7 +280,7 @@ are installed is called a “server” (e.g. the CLUB1 server)."><a class="refer
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-08-05-gd1c7
+		v: 2025-08-09-g4be7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
