@@ -1,9 +1,7 @@
-newsletter personnelle
+Newsletter personnelle
 ======================
 
 Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur {term}`Internet`.
-D'où l'appelation "mini".
-
 Ses limitations sont les suivantes :
 
 - les emails sont en __texte brut__ (pas de style)
@@ -17,7 +15,7 @@ Mise en place
 -------------
 
 La newsletter n'est pas activée par défaut.
-Pour l'initialiser, il faut lancer la {commande}`newsletter` avec l'option `-i` :
+Pour l'initialiser, il faut lancer la commande {commande}`newsletter` avec l'option `-i` :
 
     newsletter -i
 

@@ -19,6 +19,6 @@ services/web
 services/sql
 services/rss
 services/git
-services/webcast.md
+services/webcast
 services/newsletter
 ```
