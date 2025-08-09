@@ -28,13 +28,13 @@ Pour pouvoir envoyer une newsletter, il faut être membre du {term}`groupe` `mai
 Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via un {term}`terminal`.
 
 Le contenu à envoyer doit préalablement être stocké dans un fichier sur le serveur.
-Il faut ensuite lancer la commande suivante:
+Il faut ensuite lancer la commande suivante :
 
 ````{commande} newsletter-club1
 
 Envoi la newsletter de club1.
 
-    newsletter SUJET FICHIER_DU_CONTENU
+    newsletter-club1 SUJET FICHIER_DU_CONTENU
 
 ```{seealso}
 Cette commande est la même que {commande}`newsletter`, mais dédiée à la newsletter officielle de club1.
@@ -50,7 +50,7 @@ Gestion
 La newsletter est envoyée par le compte `nouvelles`.
 Comme il s'agit d'un compte spécial, son espace est située dans `/var/nouvelles`.
 les fichiers de configuration de la newsletter se trouvent dans `/var/nouvelles/.config/newsletter`.
-Ils sont manipulables par les membres du {groupe}`mail`.
+Ils sont manipulables par les membres du {term}`groupe` `mail`.
 
 ```{seealso}
 Pour la description de ces fichiers de config, se référer au [service de newsletter des membres](../services/newsletter.md).
