@@ -41,7 +41,7 @@ via <https://riot.club1.fr/#/register>.
 Pour envoyer directement un jeton par email (depuis son adresse CLUB1),
 on peut utiliser cette combinaison de commandes :
 
-    matrixtoken | mailx -s "jeton d'invitaiton Matrix" -- EMAIL
+    matrixtoken | mailx -s "jeton d'invitation Matrix" -- EMAIL
 
 En remplaçant `EMAIL` par l'adresse de destination.
 ```
