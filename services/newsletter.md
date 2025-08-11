@@ -1,5 +1,11 @@
-Newsletter personnelle
-======================
+Newsletter personnelle (beta)
+=============================
+
+```{warning}
+Ce service est en "beta" sur CLUB1,
+ce qui signifie qu'il risque de changer de configuration
+ou même d'être supprimé dans le futur.
+```
 
 Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur {term}`Internet`.
 Ses limitations sont les suivantes :
