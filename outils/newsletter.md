@@ -1,4 +1,4 @@
-Newsletter de club1
+Newsletter de CLUB1
 ===================
 
 La newsletter est l'outil principal de communication externe de CLUB1.
