@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2025-08-14 21:47+0200\n"
+"POT-Creation-Date: 2025-08-14 22:04+0200\n"
 "PO-Revision-Date: 2025-05-29 14:45+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
@@ -3803,13 +3803,13 @@ msgstr ""
 #: ../../outils/newsletter.md:35
 #, fuzzy
 #| msgid "Envoyer une newsletter"
-msgid "Envoi la newsletter de club1."
+msgid "Envoie la newsletter de CLUB1."
 msgstr "Send a newsletter"
 
 #: ../../outils/newsletter.md:40
 msgid ""
 "Cette commande est la même que {commande}`newsletter`, mais dédiée à la "
-"newsletter officielle de club1."
+"newsletter officielle de CLUB1."
 msgstr ""
 
 #: ../../outils/newsletter.md:44

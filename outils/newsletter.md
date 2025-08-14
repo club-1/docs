@@ -32,12 +32,12 @@ Il faut ensuite lancer la commande suivante :
 
 ````{commande} newsletter-club1
 
-Envoi la newsletter de club1.
+Envoie la newsletter de CLUB1.
 
     newsletter-club1 SUJET FICHIER_DU_CONTENU
 
 ```{seealso}
-Cette commande est la même que {commande}`newsletter`, mais dédiée à la newsletter officielle de club1.
+Cette commande est la même que {commande}`newsletter`, mais dédiée à la newsletter officielle de CLUB1.
 ```
 ````
 
