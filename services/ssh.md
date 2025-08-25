@@ -47,7 +47,7 @@ elle est en revanche moins sécurisée que l'utilisation d'une
 
 ### S'authentifier par mot de passe
 
-On utilise la commande suivante dans le {term}`terminal` pour se connecter
+On utilise la {term}`commande` suivante dans le {term}`terminal` pour se connecter
 (remplacer `USER` par votre **identifiant** CLUB1) :
 
     ssh USER@club1.fr
@@ -58,7 +58,7 @@ Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de
 ### S'authentifier avec une clé publique
 
 L'authentification par clé publique nécessite une paire de clé de chiffrement.
-Pour créer ces clés, on utilise la commande ci-dessous.
+Pour créer ces clés, on utilise la {term}`commande` ci-dessous.
 Une _phrase de passe_ sera demandée lors de la génération des clés,
 elle permet de les stocker de manière sécurisée.
 Sur Linux, les clés seront automatiquement déverrouillées lors de l'ouverture d'une session,
@@ -91,7 +91,7 @@ Informations de connexion
 Sélection de commandes
 ----------------------
 
-Voici une sélection de commandes pour vous permettre de découvrir le serveur :
+Voici une sélection de {term}`commandes <commande>` pour vous permettre de découvrir le serveur :
 
 ```{tip}
 Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal.

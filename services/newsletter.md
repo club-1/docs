@@ -21,7 +21,7 @@ Mise en place
 -------------
 
 La newsletter n'est pas activée par défaut.
-Pour l'initialiser, il faut lancer la commande {commande}`newsletter` avec l'option `-i` :
+Pour l'initialiser, il faut lancer la {term}`commande` {commande}`newsletter` avec l'option `-i` :
 
     newsletter -i
 
@@ -64,7 +64,7 @@ Envoi
 -----
 
 Une fois que l'on est connecté en {term}`SSH` via un {term}`terminal`,
-on peut envoyer la newsletter en lancant la commande suivante :
+on peut envoyer la newsletter en lancant la {term}`commande` suivante :
 
 ```{commande} newsletter
 

@@ -28,7 +28,7 @@ Pour pouvoir envoyer une newsletter, il faut être membre du {term}`groupe` `mai
 Envoyer une newsletter nécessite d'être connecté en {term}`SSH` via un {term}`terminal`.
 
 Le contenu à envoyer doit préalablement être stocké dans un fichier sur le serveur.
-Il faut ensuite lancer la commande suivante :
+Il faut ensuite lancer la {term}`commande` suivante :
 
 ````{commande} newsletter-club1
 
