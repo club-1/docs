@@ -47,6 +47,7 @@ La taille maximale des emails (reçus et envoyés) est de **25&nbsp;Mo**.
 Si un email dépasse cette taille, il sera refusé et l'expéditeur en sera informé
 avec le message d'erreur : `Message size exceeds fixed limit` ou `552: 5.3.4 Error: message file too big`.
 
+Les envois sont limités à **500 emails par jour et par membre**.
 
 ### Dossiers spéciaux
 
