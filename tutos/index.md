@@ -13,6 +13,7 @@ webdav-android
 caldav-mac
 connexion-linux
 premiere-connexion-ssh
+auth-ssh-avec-cle-publique
 webdav-mac
 mes-premiers-pas-sur-le-web
 flux-rss
