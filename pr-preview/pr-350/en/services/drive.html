@@ -1,0 +1,275 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drive Web file explorer &mdash; CLUB1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/en/services/drive.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=1d44e689"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Websites hosting" href="web.html" />
+    <link rel="prev" title="WebDAV synchro of files, contacts and calendars" href="webdav.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/drive.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/drive.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">SSH remote connection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Email messaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">FTPS files transfer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">WebDAV synchro of files, contacts and calendars</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><em>Drive</em> Web file explorer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#homemade-is-best">Homemade is best !</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Websites hosting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">SQL databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">News feed aggregator (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Public Git repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Webcasts (audio/video) via Icecast</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter personnelle (beta)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Cite this document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indices and tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services reserved for members</a></li>
+      <li class="breadcrumb-item active"><em>Drive</em> Web file explorer</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://hosted.weblate.org/browse/club-1/docs/en/?q=location:./services/drive.md" class="fa fa-edit"> Translate on Weblate</a>
+    </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="explorateur-de-fichiers-web-drive">
+<h1><em>Drive</em> Web file explorer<a class="headerlink" href="#explorateur-de-fichiers-web-drive" title="Link to this heading">#</a></h1>
+<p>The CLUB1 <em><strong>Drive</strong></em> is a file explorer that can be used through a <abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> browser. It allows to access your <strong>personal space</strong> without the need for configuring or install any native application. It is therefore very useful when you are not on your personal computer.</p>
+<p><img alt="WebDav drive screenshot" src="../_images/webdav_drive.png" /></p>
+<p>The address of the <abbr title="[Client] accessible via the [Web] and executed by a Web browser."><a class="reference internal" href="../glossaire.html#term-client-Web"><span class="xref std std-term">Web client</span></a></abbr> is <a class="reference external" href="https://drive.club1.fr">https://drive.club1.fr</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les <abbr title="In most operating systems, it is possible to hide files or folders.
+This is often used to hide parameters that are not very useful in
+everyday life. In a [POSIX] system, hidden files begin with a dot &quot;.&quot;.
+
+In file explorers they may be hidden by default. It is possible to
+activate their display if necessary, often with the keyboard shortcut
+&quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichiers cachés</span></a></abbr> n’apparraissent pas dans cette interface.
+Pour y avoir accès,
+il vaut mieux se tourner vers le service <a class="reference internal" href="ftp.html"><span class="std std-doc">FTP</span></a>, <a class="reference internal" href="webdav.html"><span class="std std-doc">WebDAV</span></a> ou <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a>.</p>
+</div>
+<section id="homemade-is-best">
+<h2>Homemade is best !<a class="headerlink" href="#homemade-is-best" title="Link to this heading">#</a></h2>
+<p>This is an application developed by and for CLUB1 whose <a class="reference external" href="https://github.com/club-1/webdav-drive">source code</a> can be found on <abbr title="[Web] service providing hosting for software development and version
+control using [Git].
+
+Warning:
+
+  Unlike most of the projects that can be found there, GitHub is
+  neither **[free]**, nor **open source** and belongs to Microsoft."><a class="reference internal" href="../glossaire.html#term-GitHub"><span class="xref std std-term">GitHub</span></a></abbr>. However, it has been thought of in a generic way, so that it can be used outside the CLUB1 infrastructure. It uses a standard WebDAV <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr> as its data source, to which <a class="reference internal" href="webdav.html"><span class="std std-doc">CLUB1 provides an access</span></a>.</p>
+</section>
+<section id="logiciels">
+<h2>Software<a class="headerlink" href="#logiciels" title="Link to this heading">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-WebDAV-Drive">
+<span class="sig-name descname"><span class="pre">WebDAV</span> <span class="pre">Drive</span></span><a class="headerlink" href="#logiciel-WebDAV-Drive" title="Link to this definition">#</a></dt>
+<dd><p><abbr title="One of the best known services on [Internet]. Its full name is “World
+Wide Web” (also abbreviated “www”). It allows to publish documents and
+link them together using hypertext links.
+
+A “Web page” usually consists of a document whose content is written
+in [HTML] and may include other resources such as images or “style
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> file explorer based on a <abbr title="[Protocole] qui étend les fonctionnalités du [Web]. Il y ajoute des
+possibilités de modifications et de synchronisation de fichiers. Son
+utilisation première est donc similaire à un système de fichier
+distant et il est possible de l’utiliser via un explorateur de fichier
+compatible pour éditer les fichiers de son **espace personnel** comme
+si ils étaient présents en local."><a class="reference internal" href="webdav.html#term-WebDAV"><span class="xref std std-term">WebDAV</span></a></abbr> <abbr title="Software that provides a service. It holds the data and responds to
+requests from a [client]. Often, servers and clients are installed on
+different computers. By extension, the computer on which the servers
+are installed is called a “server” (e.g. the CLUB1 server)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">server</span></a></abbr>. At CLUB1, this service is accessible via <abbr title="HTTP [server] primarily focused on performance. At CLUB1, it is mainly
+used as a “[TLS] endpoint” and “reverse proxy” in front of the various
+[Web] services, including the [Apache] server."><a class="reference internal" href="web.html#logiciel-Nginx"><span class="xref std std-logiciel">Nginx</span></a></abbr> as a static site, and communicates with the <abbr title="[WebDAV] [server] adapted to the needs of CLUB1 and based on
+[SabreDAV]."><a class="reference internal" href="webdav.html#logiciel-webdav-server"><span class="xref std std-logiciel">webdav-server</span></a></abbr> server. — <a class="reference external" href="https://github.com/club-1/webdav-drive">Source</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="webdav.html" class="btn btn-neutral float-left" title="WebDAV synchro of files, contacts and calendars" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="web.html" class="btn btn-neutral float-right" title="Websites hosting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022-2025, CLUB1 members.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-09-18-g1333
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Languages</dt>
+			
+			<dd>
+				
+					<a href="../../fr/services/drive.html">fr</a>
+				
+			</dd>
+			
+			<dd>
+				 <strong> 
+					<a href="../../en/services/drive.html">en</a>
+				 </strong> 
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Downloads</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
