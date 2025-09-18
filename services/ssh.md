@@ -97,6 +97,10 @@ Voici une sélection de {term}`commandes <commande>` pour vous permettre de déc
 Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal.
 ```
 
+```{commande} exit
+Pour mettre fin à la connexion SSH avec le serveur.
+```
+
 ```{commande} passwd
 Permet de changer son mot de passe CLUB1
 (cela aura donc un effet sur la connexion à tous les [services](/services-membres.md)).
