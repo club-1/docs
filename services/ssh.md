@@ -127,6 +127,15 @@ Cette commande est un peu intrusive !
 --- Manuel : {manpage}`w.1`
 ```
 
+```{commande} members
+Affiche les membres d'un {term}`groupe` :
+
+    members GROUP
+
+En remplaçant GROUP par le groupe voulu. Exemple : `members sudo` ou `members compta`.
+--- Manuel : {manpage}`members.1`
+```
+
 ````{commande} mailx
 La façon la plus basique d'envoyer un email !
 Cette commande nécessite de rajouter au bout, après un espace, l'email de votre destinataire.

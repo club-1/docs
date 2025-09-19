@@ -113,11 +113,7 @@ groupe
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur
-   depuis un accès {term}`SSH` avec la {term}`commande` suivante :
-
-       members GROUP
-
-   En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou `members home`.
+   depuis un accès {term}`SSH` avec la {term}`commande` {commande}`members`.
    ```
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))
