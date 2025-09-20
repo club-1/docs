@@ -47,12 +47,22 @@ vous êtes libres de choisir l'emplacement des fichiers qui vont être utilisés
 Il est recommandé de créer un dossier dans votre [espace personnel](/info/espace-personnel.md)
 qui servira pour tous vos sites Web.
 À l'intérieur, vous pourrez créer **un dossier par site**.
-Par exemple, ici, on a appelé le dossier pour les projets Web `www` (pour *World Wide Web*) :
 
-    📁 www
-        📁 mon-site-pro
-        📁 mon-site-perso
-        📁 blog-famille
+Par exemple, le membre "morbier", a appelé le dossier pour ses projets Web `www` (pour *World Wide Web*). À l'intérieur, on a trois sites, chacuns dans leurs dossiers, qui pourront être reliés à des domaines dédiés.
+
+    📁 morbier
+        📁 www
+            📁 mon-site-pro
+            📁 mon-site-perso
+            📁 blog-famille
+        📁 static
+        📁 mail
+        PRESENTATION.md
+        ...
+
+```{tips}
+Pour le nommage des dossier de site Web, une pratique courante consiste à les appeler exactement comme le nom de domaine auxquel ils correspondent ! (sans la partie `https://`)
+```
 
 ```{danger}
 Publier un dossier sur le Web augmente fortement le **risque de piratage**.
