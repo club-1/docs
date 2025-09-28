@@ -31,7 +31,7 @@ ou simplement un clic droit avec sa souris.
 
 Ne vous laissez pas impressionner par son interface déroutante,
 c'est un outil qui va faire de vous un&middot;e véritable magicien&middot;ne de l'informatique ! 🧙
-Un peu comme des sortilèges, on y lance des commandes.
+Un peu comme des sortilèges, on y lance des {term}`commandes <commande>`.
 
 > Heuuu... mais comment on lance une commande 🤨 ?
 
@@ -57,6 +57,8 @@ de la connexion n'est pas garantie car votre appareil ne connaît pas *encore* c
 En répondant `yes` à ce message on s'expose à une
 [attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸.
 Nous allons donc répondre `no` pour le moment.
+On reçoit alors le message `Host key verification failed.`,
+ce qui est normal vu que l'on a abandonné en cours de route.
 
 La confiance règne
 ------------------
@@ -97,7 +99,7 @@ Ou encore {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`V`.
 Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef 🔑,
 à un fichier sur votre appareil.
 Ce fichier s'appelle `known_hosts`, *serveurs connus*.
-Il se trouve dans un dossier `.ssh`,
+Il se trouve dans un dossier {term}`(caché) <dossier caché>` `.ssh`,
 lui-même au sein de votre espace personnel sur votre appareil.
 
 ```{note}
@@ -105,7 +107,7 @@ Le dossier correspondant à votre espace personnel
 porte généralement le nom de votre utilisateur sur cet appareil.
 ```
 
-    📁 <utilisateur>
+    📁 UTILISATEUR
     ├─ 📁 .ssh
     │  └─ 📄 known_host    👈🏽
     ├─ 📁 Documents
