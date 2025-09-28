@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=3ee67182"></script>
+        <script src="_static/documentation_options.js?v=ad7e376a"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -293,11 +293,12 @@ Pour lancer une commande, il faut ouvrir un [terminal], tapper le
 texte de la commande, puis appuyer sur &quot;Entrée&quot;.
 
 Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
-être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>members GROUP
-</pre></div>
-</div>
-<p>By replacing <code class="docutils literal notranslate"><span class="pre">GROUP</span></code> with the desired group. Example: <code class="docutils literal notranslate"><span class="pre">members</span> <span class="pre">sudo</span></code> or <code class="docutils literal notranslate"><span class="pre">members</span> <span class="pre">home</span></code>.</p>
+être connecté avec [SSH]."><a class="reference internal" href="#term-commande"><span class="xref std std-term">commande</span></a></abbr> <abbr title="Affiche les membres d’un [groupe] :
+
+   members GROUP
+
+En remplaçant GROUP par le groupe voulu. Exemple : &quot;members sudo&quot; ou
+&quot;members compta&quot;."><a class="reference internal" href="services/ssh.html#commande-members"><code class="xref std std-commande docutils literal notranslate"><span class="pre">members</span></code></a></abbr>.</p>
 </div>
 <p>— <a class="reference external" href="https://en.wikipedia.org/wiki/Group_identifier">Wikipedia</a></p>
 </dd>
@@ -382,12 +383,7 @@ assign them common rights. A user belongs to one or more groups.
 Tip:
 
   Il est possible de savoir qui est membre d’un groupe sur le serveur
-  depuis un accès [SSH] avec la [commande] suivante :
-
-     members GROUP
-
-  By replacing &quot;GROUP&quot; with the desired group. Example: &quot;members sudo&quot;
-  or &quot;members home&quot;."><a class="reference internal" href="#term-groupe"><span class="xref std std-term">groups</span></a></abbr> on these files and folders.</p>
+  depuis un accès [SSH] avec la [commande] &quot;members&quot;."><a class="reference internal" href="#term-groupe"><span class="xref std std-term">groups</span></a></abbr> on these files and folders.</p>
 <p>There are 3 main rights, <em>read</em> (r), <em>write</em> (w) and <em>execute</em> (x).</p>
 <table class="wrap docutils align-default" id="id1">
 <caption><span class="caption-number">Table 7.1 </span><span class="caption-text">Summary of permissions</span><a class="headerlink" href="#id1" title="Link to this table">#</a></caption>
@@ -600,7 +596,7 @@ sheets”. The [client] used to access it is called a “Web browser”."><a cla
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-09-18-g5247
+		v: 2025-09-28-g0654
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
