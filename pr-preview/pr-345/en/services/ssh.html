@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=64e2b186"></script>
+        <script src="../_static/documentation_options.js?v=2e252a4c"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -148,7 +148,10 @@
              
   <section id="connexion-a-distance-ssh">
 <h1>SSH remote connection<a class="headerlink" href="#connexion-a-distance-ssh" title="Link to this heading">#</a></h1>
-<p>The SSH connection is the purest connection you can have with the server (at least among those which do not require to use psychotropics). It is also the one that feels the most like using a computer, because through it, one can <a class="reference internal" href="#selection-de-commandes">run programs</a> on the server!</p>
+<p>La connexion SSH est la connexion la plus intime que vous puissiez avoir avec le serveur.
+C’est aussi celle qui peut le plus rappeler l’utilisation d’un ordinateur,
+car à travers elle, on peut <a class="reference internal" href="#selection-de-commandes">lancer des programmes</a> sur le serveur !</p>
+<p><img alt="capture d'écran d'un émulateur de terminal après une connexion SSH au serveur CLUB1" src="../_images/terminal.png" /></p>
 <dl class="simple glossary">
 <dt id="term-SSH">SSH<a class="headerlink" href="#term-SSH" title="Link to this term">#</a></dt><dd><p>(<em>Secure SHell</em>) <abbr title="In the context of computing, a protocol is a set of rules that govern
 the exchange of data or the collective behavior of processes or
@@ -330,6 +333,12 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 <p>Press <kbd class="kbd docutils literal notranslate">Enter</kbd> to run a command from the terminal.</p>
 </div>
 <dl class="std commande">
+<dt class="sig sig-object std" id="commande-exit">
+<span class="sig-name descname"><span class="pre">exit</span></span><a class="headerlink" href="#commande-exit" title="Link to this definition">#</a></dt>
+<dd><p>Pour mettre fin à la connexion SSH avec le serveur.</p>
+</dd></dl>
+
+<dl class="std commande">
 <dt class="sig sig-object std" id="commande-passwd">
 <span class="sig-name descname"><span class="pre">passwd</span></span><a class="headerlink" href="#commande-passwd" title="Link to this definition">#</a></dt>
 <dd><p>Allows you to change your CLUB1 password (this will therefore have an effect on the connection to all <a class="reference internal" href="../services-membres.html"><span class="std std-doc">services</span></a>). — Manual: <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/passwd.1.en">passwd.1</a></em></p>
@@ -351,6 +360,23 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 <dt class="sig sig-object std" id="commande-w">
 <span class="sig-name descname"><span class="pre">w</span></span><a class="headerlink" href="#commande-w" title="Link to this definition">#</a></dt>
 <dd><p>Displays SSH-connected members and indicates the software they are using. This command is a little intrusive! — Manual: <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/w.1.en">w.1</a></em></p>
+</dd></dl>
+
+<dl class="std commande">
+<dt class="sig sig-object std" id="commande-members">
+<span class="sig-name descname"><span class="pre">members</span></span><a class="headerlink" href="#commande-members" title="Link to this definition">#</a></dt>
+<dd><p>Affiche les membres d’un <abbr title="In a [POSIX] system, groups are used to gather users in order to
+assign them common rights. A user belongs to one or more groups.
+
+Tip:
+
+  Il est possible de savoir qui est membre d’un groupe sur le serveur
+  depuis un accès [SSH] avec la [commande] &quot;members&quot;."><a class="reference internal" href="../glossaire.html#term-groupe"><span class="xref std std-term">groupe</span></a></abbr> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>members GROUP
+</pre></div>
+</div>
+<p>En remplaçant GROUP par le groupe voulu. Exemple : <code class="docutils literal notranslate"><span class="pre">members</span> <span class="pre">sudo</span></code> ou <code class="docutils literal notranslate"><span class="pre">members</span> <span class="pre">compta</span></code>.
+— Manuel : <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/members.1.en">members.1</a></em></p>
 </dd></dl>
 
 <dl class="std commande">
@@ -466,7 +492,7 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-09-18-g54d7
+		v: 2025-09-28-g1dff
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
