@@ -13,7 +13,7 @@ Création de la paire de clés
 L'authentification par clé publique nécessite une paire de clé de chiffrement.
 Pour créer ces clés, on utilise la {term}`commande` ci-dessous.
 
-    ssh-keygen
+    ssh-keygen -t ed25519
 
 Ensuite, le terminal devrait afficher un truc du genre :
 
