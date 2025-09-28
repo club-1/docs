@@ -1,10 +1,11 @@
 Connexion à distance SSH
 ========================
 
-La connexion SSH est la connexion la plus pure que vous puissiez avoir avec le serveur
-(enfin parmi celles qui ne nécessitent pas d’user de psychotropes).
-C’est aussi celle qui offre le plus la sensation d’utiliser un ordinateur,
+La connexion SSH est la connexion la plus intime que vous puissiez avoir avec le serveur.
+C’est aussi celle qui peut le plus rappeler l'utilisation d'un ordinateur,
 car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) sur le serveur !
+
+![capture d'écran d'un émulateur de terminal après une connexion SSH au serveur CLUB1](ssh/terminal.png)
 
 ```{glossary}
 SSH
