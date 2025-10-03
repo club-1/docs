@@ -6,6 +6,14 @@ lorsque [vous vous connectez en SSH](/services/ssh.md) avec votre ordinateur per
 
 Ce tuto est fait pour vous ! 👈️
 
+```{warning}
+Ce tutoriel n'a pas encore beaucoup été éprouvé. (C'est encore un bébé !)
+Les choses peuvent donc être différentes sur votre appareil.
+
+🛟 En cas de blocage, on vous invite à [demander de l'aide](../info/general.md#demandes-et-incidents).
+En plus de vous débloquer, cela pourra aider à enrichir ce tutoriel ! 😉
+```
+
 
 Création de la paire de clés
 ----------------------------
