@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=25f2db68"></script>
+        <script src="../_static/documentation_options.js?v=373fb721"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -184,7 +184,15 @@ ou simplement un clic droit avec sa souris.</p>
 </div>
 <p>Ne vous laissez pas impressionner par son interface déroutante,
 c’est un outil qui va faire de vous un·e véritable magicien·ne de l’informatique ! 🧙
-Un peu comme des sortilèges, on y lance des commandes.</p>
+Un peu comme des sortilèges, on y lance des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commandes</span></a></abbr>.</p>
 <blockquote>
 <div><p>Heuuu… mais comment on lance une commande 🤨 ?</p>
 </div></blockquote>
@@ -208,7 +216,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 de la connexion n’est pas garantie car votre appareil ne connaît pas <em>encore</em> ce serveur.</p>
 <p>En répondant <code class="docutils literal notranslate"><span class="pre">yes</span></code> à ce message on s’expose à une
 <a class="reference external" href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu">attaque de l’homme du milieu</a> 🥸.
-Nous allons donc répondre <code class="docutils literal notranslate"><span class="pre">no</span></code> pour le moment.</p>
+Nous allons donc répondre <code class="docutils literal notranslate"><span class="pre">no</span></code> pour le moment.
+On reçoit alors le message <code class="docutils literal notranslate"><span class="pre">Host</span> <span class="pre">key</span> <span class="pre">verification</span> <span class="pre">failed.</span></code>,
+ce qui est normal vu que l’on a abandonné en cours de route.</p>
 </section>
 <section id="la-confiance-regne">
 <h2>La confiance règne<a class="headerlink" href="#la-confiance-regne" title="Lien vers cette rubrique">#</a></h2>
@@ -253,14 +263,21 @@ Ou encore <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class=
 <p>Si tout s’est bien passé, cela a ajouté une ligne de texte contenant la clef 🔑,
 à un fichier sur votre appareil.
 Ce fichier s’appelle <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code>, <em>serveurs connus</em>.
-Il se trouve dans un dossier <code class="docutils literal notranslate"><span class="pre">.ssh</span></code>,
+Il se trouve dans un dossier <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">(caché)</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">.ssh</span></code>,
 lui-même au sein de votre espace personnel sur votre appareil.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Le dossier correspondant à votre espace personnel
 porte généralement le nom de votre utilisateur sur cet appareil.</p>
 </div>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>📁 &lt;utilisateur&gt;
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>📁 UTILISATEUR
 ├─ 📁 .ssh
 │  └─ 📄 known_host    👈🏽
 ├─ 📁 Documents
@@ -323,7 +340,7 @@ car c’est celui qui vous donne le plus de libertés d’interactions avec le s
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-09-28-g0654
+		v: 2025-10-03-g1b93
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

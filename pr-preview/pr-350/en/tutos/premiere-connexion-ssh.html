@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=ad7e376a"></script>
+        <script src="../_static/documentation_options.js?v=bfb35b23"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -171,7 +171,17 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="..
 </div>
 <p>To “paste” the text in <code class="docutils literal notranslate"><span class="pre">Powershell</span></code> you can do <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class="kbd docutils literal notranslate">V</kbd>, or just right click with your mouse.</p>
 </div>
-<p>Don’t be impressed by its disconcerting interface, it’s a tool that will make you a real computer magician! 🧙 A bit like spells, you cast—or rather run commands in it.</p>
+<p>Ne vous laissez pas impressionner par son interface déroutante,
+c’est un outil qui va faire de vous un·e véritable magicien·ne de l’informatique ! 🧙
+Un peu comme des sortilèges, on y lance des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commandes</span></a></abbr>.</p>
 <blockquote>
 <div><p>Umm… but how do we run a command 🤨?</p>
 </div></blockquote>
@@ -190,7 +200,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 <div><p>😱 Wow! What the hell is this??</p>
 </div></blockquote>
 <p>In fact, this is normal, <abbr title="Software providing both an [SSH] [server] and [client]."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> warns us that the authentication of the connection is not guaranteed because your device does not know this server <em>yet</em>.</p>
-<p>Replying <code class="docutils literal notranslate"><span class="pre">yes</span></code> to this message exposes oneself to a <a class="reference external" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attack</a> 🥸. So we’re going to answer <code class="docutils literal notranslate"><span class="pre">no</span></code> for now.</p>
+<p>En répondant <code class="docutils literal notranslate"><span class="pre">yes</span></code> à ce message on s’expose à une
+<a class="reference external" href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu">attaque de l’homme du milieu</a> 🥸.
+Nous allons donc répondre <code class="docutils literal notranslate"><span class="pre">no</span></code> pour le moment.
+On reçoit alors le message <code class="docutils literal notranslate"><span class="pre">Host</span> <span class="pre">key</span> <span class="pre">verification</span> <span class="pre">failed.</span></code>,
+ce qui est normal vu que l’on a abandonné en cours de route.</p>
 </section>
 <section id="la-confiance-regne">
 <h2>Trust reigns<a class="headerlink" href="#la-confiance-regne" title="Link to this heading">#</a></h2>
@@ -222,12 +236,22 @@ ne puisse en lire le contenu."><a class="reference internal" href="../glossaire.
 <p class="admonition-title">Tip</p>
 <p>In a terminal window, it is usually possible to “paste” a text by doing “Right click” → <span class="guilabel">Paste</span>. Or <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class="kbd docutils literal notranslate">Shift</kbd> + <kbd class="kbd docutils literal notranslate">V</kbd>.</p>
 </div>
-<p>If everything went well, it added a line of text containing the key 🔑, to a file on your device. This file is called <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code>, for <em>known servers</em>. It is located in a <code class="docutils literal notranslate"><span class="pre">.ssh</span></code> folder, itself within your personal space on your device.</p>
+<p>Si tout s’est bien passé, cela a ajouté une ligne de texte contenant la clef 🔑,
+à un fichier sur votre appareil.
+Ce fichier s’appelle <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code>, <em>serveurs connus</em>.
+Il se trouve dans un dossier <abbr title="In most operating systems, it is possible to hide files or folders.
+This is often used to hide parameters that are not very useful in
+everyday life. In a [POSIX] system, hidden files begin with a dot &quot;.&quot;.
+
+In file explorers they may be hidden by default. It is possible to
+activate their display if necessary, often with the keyboard shortcut
+&quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">(caché)</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">.ssh</span></code>,
+lui-même au sein de votre espace personnel sur votre appareil.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The folder corresponding to your personal space is usually named after your user on this device.</p>
 </div>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>📁 &lt;utilisateur&gt;
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>📁 UTILISATEUR
 ├─ 📁 .ssh
 │  └─ 📄 known_host    👈🏽
 ├─ 📁 Documents
@@ -284,7 +308,7 @@ ne puisse en lire le contenu."><a class="reference internal" href="../glossaire.
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-09-28-g0654
+		v: 2025-10-03-g1b93
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
