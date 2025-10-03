@@ -1,0 +1,355 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dépôts Git publics &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/services/git.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=58d01395"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Émissions Web (audio/vidéo) via Icecast" href="webcast.html" />
+    <link rel="prev" title="Agrégateur de flux de nouvelles (RSS/Atom)" href="rss.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/git.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/git.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">Connexion à distance SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Messagerie email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">Transfert de fichiers FTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">Synchro de fichiers, contacts et calendriers WebDAV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html">Explorateur de fichiers Web <em>Drive</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Hébergement de sites Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">Bases de données SQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">Agrégateur de flux de nouvelles (RSS/Atom)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Dépôts Git publics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tutoriel-d-utilisation">Tutoriel d’utilisation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#creation-d-un-nouveau-depot">Création d’un nouveau dépôt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#publication-d-un-depot-existant">Publication d’un dépôt existant</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter personnelle (beta)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services réservés aux membres</a></li>
+      <li class="breadcrumb-item active">Dépôts Git publics</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/services/git.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="depots-git-publics">
+<h1>Dépôts Git publics<a class="headerlink" href="#depots-git-publics" title="Lien vers cette rubrique">#</a></h1>
+<p>Le dossier <code class="docutils literal notranslate"><span class="pre">git/</span></code>, à la racine de l’<strong>espace personnel</strong> est particulier.
+Les dépôts <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> rangés dedans seront automatiquement publiés en <em>lecture seule</em>
+à l’adresse <code class="docutils literal notranslate"><span class="pre">https://git.club1.fr</span></code>, par exemple :</p>
+<p><a class="reference external" href="https://git.club1.fr/nicolas/dna-backup/"><code class="docutils literal notranslate"><span class="pre">https://git.club1.fr/nicolas/dna-backup/</span></code></a>
+→ <code class="docutils literal notranslate"><span class="pre">/home/nicolas/git/dna-backup/</span></code></p>
+<p>Cette adresse permet 2 choses :</p>
+<ol class="arabic simple">
+<li><p>Cloner le dépôt Git avec <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> grâce au
+<a class="reference external" href="https://git-scm.com/docs/git-http-backend">git-http-backend</a>.</p></li>
+<li><p>Consulter rapidement le dépôt et les sources dans un navigateur grâce à
+l’interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> fournie par <abbr title="Interface [Web] permettant de consulter les informations d’un dépôt
+[Git].
+
+Chez CLUB1, cgit et accessible à travers le [serveur] HTTP [Apache]."><a class="reference internal" href="#logiciel-cgit"><span class="xref std std-logiciel">cgit</span></a></abbr>.</p></li>
+</ol>
+<section id="tutoriel-d-utilisation">
+<h2>Tutoriel d’utilisation<a class="headerlink" href="#tutoriel-d-utilisation" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour utiliser la fonctionnalité de dépôts <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr> publics sur CLUB1, il faut tout
+d’abord initialiser le dépôt à distance, avec <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a>, depuis un ordinateur personnel
+(remplacer <code class="docutils literal notranslate"><span class="pre">USER</span></code> par votre <strong>identifiant</strong> et <code class="docutils literal notranslate"><span class="pre">REPO</span></code> par le nom que vous
+voulez donner au dépôt) :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr git init --bare git/REPO
+</pre></div>
+</div>
+<p>Dès lors, le dépôt est publié en <em>lecture seule</em> à l’adresse
+<code class="docutils literal notranslate"><span class="pre">https://git.club1.fr/USER/REPO</span></code>, mais celui-ci est vide pour le
+moment. La branche affichée par défaut dans l’interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> est <code class="docutils literal notranslate"><span class="pre">master</span></code>.
+Il est possible de la changer en modifiant le fichier <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> du dépôt.
+Par exemple pour la remplacer par la branche <code class="docutils literal notranslate"><span class="pre">main</span></code> :</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;ref: refs/heads/main&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>ssh<span class="w"> </span>USER@club1.fr<span class="w"> </span>sponge<span class="w"> </span>git/REPO/HEAD
+</pre></div>
+</div>
+<p>De la même manière, pour modifier la description du dépôt (cette modification
+ne sera pas forcément visible tout de suite à cause du cache de cgit) :</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;ma super description&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>ssh<span class="w"> </span>USER@club1.fr<span class="w"> </span>sponge<span class="w"> </span>git/REPO/description
+</pre></div>
+</div>
+<p>Il y a ensuite deux cas de figure :</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#creation-d-un-nouveau-depot">Création d’un nouveau dépôt</a></p></li>
+<li><p><a class="reference internal" href="#publication-d-un-depot-existant">Publication d’un dépôt existant</a></p></li>
+</ul>
+<section id="creation-d-un-nouveau-depot">
+<h3>Création d’un nouveau dépôt<a class="headerlink" href="#creation-d-un-nouveau-depot" title="Lien vers cette rubrique">#</a></h3>
+<p>Si le but est de créer un nouveau dépôt, alors le plus simple est de cloner
+sur votre ordinateur personnel celui qui vient d’être initialisé sur le serveur.
+On utilise pour cela l’adresse <a class="reference internal" href="ssh.html"><span class="std std-doc">SSH</span></a> car elle offre un accès en écriture
+au dépôt :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>git clone USER@club1.fr:git/REPO
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Un avertissement alertera sur le fait que le dépôt ainsi cloné est vide, ce
+qui est normal :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>warning: You appear to have cloned an empty repository.
+</pre></div>
+</div>
+</div>
+<p>Il est désormais possible d’utiliser ce dépôt comme tout autre dépôt <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr>,
+par exemple :</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>REPO
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;Hello World!&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>README
+git<span class="w"> </span>add<span class="w"> </span>README
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;add Hello World README&quot;</span>
+git<span class="w"> </span>push<span class="w"> </span>origin
+</pre></div>
+</div>
+</section>
+<section id="publication-d-un-depot-existant">
+<h3>Publication d’un dépôt existant<a class="headerlink" href="#publication-d-un-depot-existant" title="Lien vers cette rubrique">#</a></h3>
+<p>Si le but est de publier un dépôt existant, alors il suffit d’ajouter le
+dépôt distant qui vient d’être initialisé aux <em>remotes</em> et d’y pousser la
+branche désirée, par exemple pour la branche <code class="docutils literal notranslate"><span class="pre">main</span></code> (l’option <code class="docutils literal notranslate"><span class="pre">--set-upstream</span></code>
+permet d’en faire la <em>remote</em> par défaut pour cette branche) :</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>club1<span class="w"> </span>USER@club1.fr:git/REPO
+git<span class="w"> </span>push<span class="w"> </span>--set-upstream<span class="w"> </span>club1<span class="w"> </span>main
+</pre></div>
+</div>
+</section>
+</section>
+<section id="logiciels">
+<h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Git">
+<span class="sig-name descname"><span class="pre">Git</span></span><a class="headerlink" href="#logiciel-Git" title="Lien vers cette définition">#</a></dt>
+<dd><p>Logiciel de gestion de versions décentralisé.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Git">Wikipedia</a>,
+<a class="reference external" href="https://github.com/git/git">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-cgit">
+<span class="sig-name descname"><span class="pre">cgit</span></span><a class="headerlink" href="#logiciel-cgit" title="Lien vers cette définition">#</a></dt>
+<dd><p>Interface <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr> permettant de consulter les informations d’un dépôt <abbr title="Logiciel de gestion de versions décentralisé."><a class="reference internal" href="#logiciel-Git"><span class="xref std std-logiciel">Git</span></a></abbr>.</p>
+<p>Chez CLUB1, cgit et accessible à travers le <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveur</span></a></abbr> HTTP <abbr title="[Serveur] HTTP très populaire, distribué sous license [libre]. HTTP
+étant le [protocole] du [Web] on parle aussi souvent de « serveur Web
+». « Apache » est en fait un raccourci pour désigner « Apache httpd ».
+
+Il est intéressant pour l’hébergement de pages Web personnelles, car
+il peut être configuré en cours d’exécution et par les utilisaturs
+finaux grâce aux fichiers &quot;.htaccess&quot;.
+
+Chez CLUB1, le serveur Apache se trouve derrière le « proxy inverse »
+[Nginx]."><a class="reference internal" href="web.html#logiciel-Apache"><span class="xref std std-logiciel">Apache</span></a></abbr>.
+— <a class="reference external" href="https://git.zx2c4.com/cgit/">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="rss.html" class="btn btn-neutral float-left" title="Agrégateur de flux de nouvelles (RSS/Atom)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="webcast.html" class="btn btn-neutral float-right" title="Émissions Web (audio/vidéo) via Icecast" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-10-03-g10d7
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/services/git.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/services/git.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
