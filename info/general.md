@@ -8,7 +8,7 @@ de libertés et d'exploration du web.
 Demandes et Incidents
 ---------------------
 
-Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵
+Si vous avez besoin d'aide 🛟, qu'un service semble être indisponible 😵
 ou que vous avez une suggestion 💡, n'hésitez pas à nous en faire part !
 Vous êtes invités dans un premier temps à explorer le [forum](https://forum.club1.fr) 🔍,
 pour vérifier que le sujet n'ait pas déjà été abordé.
