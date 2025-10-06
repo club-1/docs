@@ -1,0 +1,293 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tableau de bord &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/outils/dashboard.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=12e8a4e9"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="6. Foire aux questions" href="../faq.html" />
+    <link rel="prev" title="Sauvegardes avec Borg" href="sauvegardes.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/outils/dashboard.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/outils/dashboard.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Outils</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="site.html">Site Web de CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meta-doc.html">Meta-documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forum.html">Forum de discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aliases.html">Gestion des alias email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="newsletter.html">Newsletter de CLUB1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compta.html">Comptabilité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ldap.html">Annuaire LDAP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dns.html">Serveur DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sauvegardes.html">Sauvegardes avec Borg</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Tableau de bord</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">5. </span>Outils</a></li>
+      <li class="breadcrumb-item active">Tableau de bord</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/outils/dashboard.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tableau-de-bord">
+<h1>Tableau de bord<a class="headerlink" href="#tableau-de-bord" title="Lien vers cette rubrique">#</a></h1>
+<p><img alt="capture d'écran du &quot;Baby Dashboard 😃&quot;" src="../_images/baby-dashboard.png" /></p>
+<p>Le serveur CLUB1 dispose d’un tableau de bord accessible aux membres
+à l’adresse : <a class="reference external" href="https://dashboard.club1.fr">https://dashboard.club1.fr</a>.
+Il s’agit d’une <abbr title="Copie d’un logiciel ou d’un objet informatique ayant sa propre
+existence et son propre état.
+
+On parle par exemple d’instance à chaque fois qu’on exécute un
+logiciel avec des données différentes. Sur le serveur CLUB1, il y a
+notamment plusieurs instances de [PHP] : au moins une pour chaque
+membre."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> de <abbr title="Base de données de séries temporelles principalement pensée pour la
+surveillance de [serveurs].
+
+Prometheus se charge de récolter des informations à intervalles
+réguliers sur les différents composants que l’on souhaite surveiller.
+Il garde un historique de ces données (15 jours chez CLUB1) et permet
+de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>+<abbr title="Logiciel de tableau de bord [Web] permettant d’afficher des
+statistiques et des graphiques et d’envoyer des alertes à partir d’une
+base de données de séries temporelles.
+
+Il est capable de se connecter à différentes sources de données, dont
+la plus courante, [Prometheus] est aussi celle utilisée chez CLUB1."><a class="reference internal" href="#logiciel-Grafana"><span class="xref std std-logiciel">Grafana</span></a></abbr>,
+connectée à l’annuaire <abbr title="(Lightweight Directory Access Protocol) [Protocole] de service
+d’annuaire décrivant à la fois un modèle de données et la manière
+d’interroger et de modifier ces données.
+
+Un annuaire LDAP est une sorte de base de données avec une structure
+hierarchique, arborescente, permettant de relier des informations à
+des noms. En général des comptes ou des groupes d’utilisateurs ou
+d’ordinateurs, appartenant à une organisation.
+
+Le schéma de données n’est pas fixé, il faut donc le connaitre, avant
+de pouvoir interagir avec un annuaire LDAP."><a class="reference internal" href="ldap.html#term-LDAP"><span class="xref std std-term">LDAP</span></a></abbr>.</p>
+<section id="logiciels">
+<h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Prometheus">
+<span class="sig-name descname"><span class="pre">Prometheus</span></span><a class="headerlink" href="#logiciel-Prometheus" title="Lien vers cette définition">#</a></dt>
+<dd><p>Base de données de séries temporelles
+principalement pensée pour la surveillance de <abbr title="Logiciel chargé de fournir un service. C’est lui qui détient les
+données et qui répond aux demandes d’un [client]. Souvent, les
+serveurs et les clients sont installés sur des ordinateurs différents.
+Par extension, on appelle ainsi un « serveur » l’ordinateur sur lequel
+les serveurs sont installés (ex : le serveur CLUB1)."><a class="reference internal" href="../glossaire.html#term-serveur"><span class="xref std std-term">serveurs</span></a></abbr>.</p>
+<p>Prometheus se charge de récolter des informations à intervalles réguliers
+sur les différents composants que l’on souhaite surveiller.
+Il garde un historique de ces données (15 jours chez CLUB1)
+et permet de les récupérer à l’aide de requêtes.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Prometheus_(logiciel)">Wikipedia</a>,
+<a class="reference external" href="https://github.com/prometheus/prometheus">Sources</a></p>
+</dd></dl>
+
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-Grafana">
+<span class="sig-name descname"><span class="pre">Grafana</span></span><a class="headerlink" href="#logiciel-Grafana" title="Lien vers cette définition">#</a></dt>
+<dd><p>Logiciel de tableau de bord <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>
+permettant d’afficher des statistiques et des graphiques et d’envoyer des alertes
+à partir d’une base de données de séries temporelles.</p>
+<p>Il est capable de se connecter à différentes sources de données,
+dont la plus courante, <abbr title="Base de données de séries temporelles principalement pensée pour la
+surveillance de [serveurs].
+
+Prometheus se charge de récolter des informations à intervalles
+réguliers sur les différents composants que l’on souhaite surveiller.
+Il garde un historique de ces données (15 jours chez CLUB1) et permet
+de les récupérer à l’aide de requêtes."><a class="reference internal" href="#logiciel-Prometheus"><span class="xref std std-logiciel">Prometheus</span></a></abbr>
+est aussi celle utilisée chez CLUB1.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Grafana">Wikipedia</a>,
+<a class="reference external" href="https://github.com/grafana/grafana">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="sauvegardes.html" class="btn btn-neutral float-left" title="Sauvegardes avec Borg" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../faq.html" class="btn btn-neutral float-right" title="6. Foire aux questions" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-10-06-g1dba
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/outils/dashboard.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/outils/dashboard.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
