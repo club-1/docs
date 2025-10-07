@@ -95,7 +95,7 @@ Sélection de commandes
 Voici une sélection de {term}`commandes <commande>` pour vous permettre de découvrir le serveur :
 
 ```{tip}
-Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal.
+Pour lancer une commande depuis le terminal, tappez son nom, puis appuyez sur {kbd}`Enter`.
 ```
 
 ```{commande} exit
