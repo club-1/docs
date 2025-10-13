@@ -58,27 +58,12 @@ Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le mot de
 
 ### S'authentifier avec une clé publique
 
-L'authentification par clé publique nécessite une paire de clé de chiffrement.
-Pour créer ces clés, on utilise la {term}`commande` ci-dessous.
-Une _phrase de passe_ sera demandée lors de la génération des clés,
-elle permet de les stocker de manière sécurisée.
-Sur Linux, les clés seront automatiquement déverrouillées lors de l'ouverture d'une session,
-il ne faut donc pas hésiter à choisir une longue phrase de passe.
+Au lieu d'utiliser un mot de passe,
+si vous vous connectez régulièrement depuis le même appareil,
+il est conseillé de se connecter à l'aide d'une clé publique.
 
-    ssh-keygen
-
-La commande qui suit va permettre d'envoyer la partie publique de la clé vers
-le serveur, afin de pouvoir l'utiliser comme méthode d'authentification
-(remplacer `USER` par votre **identifiant** CLUB1).
-Elle vous demandera d'entrer votre **mot de passe** CLUB1 pour fonctionner.
-
-    ssh-copy-id -i ~/.ssh/id_rsa USER@club1.fr
-
-Finalement, on utilise toujours la même commande pour se connecter.
-Mais cette fois ce sont les clés qui seront utilisées.
-Si elles ne sont pas déjà déverrouillées, la _phrase de passe_ sera demandée.
-
-    ssh USER@club1.fr
+Cela nécessite de suivre quelques étapes qui sont indiquées dans le tuto :
+[Connexion SSH à l'aide d'une clé publique](/tutos/auth-ssh-avec-cle-publique.md)
 
 Informations de connexion
 -------------------------
