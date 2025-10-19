@@ -1,0 +1,4 @@
+/* Reset highlighted codeblock background to their initial value*/
+.highlight {
+	background: initial !important;
+}
