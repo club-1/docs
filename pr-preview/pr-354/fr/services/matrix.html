@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=f830b58f"></script>
+        <script src="../_static/documentation_options.js?v=3f6c12b9"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -186,7 +186,10 @@ Avertissement:
 
   Dans la plupart des [terminaux], &quot;Ctrl&quot; + &quot;C&quot; ne permet pas de
   copier. À la place, il faut faire &quot;Ctrl&quot; + &quot;Shift&quot; + &quot;C&quot;, ou
-  utiliser la souris en faisant un clic-droit."><a class="reference internal" href="#commande-matrixtoken"><code class="xref std std-commande docutils literal notranslate"><span class="pre">matrixtoken</span></code></a></abbr>.</p>
+  utiliser la souris en faisant un clic-droit.
+
+Le jeton, devra ensuite être indiqué lors de l’inscription, via
+https://riot.club1.fr/#/register."><a class="reference internal" href="#commande-matrixtoken"><code class="xref std std-commande docutils literal notranslate"><span class="pre">matrixtoken</span></code></a></abbr>.</p>
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-matrixtoken">
 <span class="sig-name descname"><span class="pre">matrixtoken</span></span><a class="headerlink" href="#commande-matrixtoken" title="Lien vers cette définition">#</a></dt>
@@ -206,27 +209,28 @@ recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="
 À la place, il faut faire <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class="kbd docutils literal notranslate">Shift</kbd> + <kbd class="kbd docutils literal notranslate">C</kbd>,
 ou utiliser la souris en faisant un clic-droit.</p>
 </div>
-</dd></dl>
-
 <p>Le jeton, devra ensuite être indiqué lors de l’inscription,
 via <a class="reference external" href="https://riot.club1.fr/#/register">https://riot.club1.fr/#/register</a>.</p>
+</dd></dl>
+
 <section id="invitation-par-email">
 <h3>Invitation par email<a class="headerlink" href="#invitation-par-email" title="Lien vers cette rubrique">#</a></h3>
 <p>Il est possible de partager un code d’invitation par email en une seule commande !</p>
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-matrixinvite">
 <span class="sig-name descname"><span class="pre">matrixinvite</span></span><a class="headerlink" href="#commande-matrixinvite" title="Lien vers cette définition">#</a></dt>
-<dd><p>Pour l’utiliser, on ajoute après un espace, l’adresse email de destination.
+<dd><p>Envoie une invitation Matrix par email.</p>
+<p>Pour l’utiliser, on ajoute après un espace, l’adresse email de destination.
 Par exemple :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>matrixinvite manumax@gouv.fr
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>matrixinvite manumacs@gouv.fr
 </pre></div>
 </div>
-<p>Mais on peut aussi l’utiliser de manière interactive :
-En ommettant l’adresse email, le programme va nous la demander de lui même.</p>
-</dd></dl>
-
+<p>Mais on peut aussi l’utiliser de manière <em>interactive</em>,
+en omettant l’adresse email, le programme va nous la demander de lui même.</p>
 <p>La personne recevra par email le code d’invitation, un lien vers la page d’inscription,
 ainsi que la date de péremption du jeton.</p>
+</dd></dl>
+
 </section>
 </section>
 <section id="principes-generaux">
@@ -539,7 +543,7 @@ le [client] utilisé pour y accéder."><a class="reference internal" href="../gl
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-10-19-ge863
+		v: 2025-10-19-g8d6f
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
