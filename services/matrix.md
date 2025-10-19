@@ -31,10 +31,9 @@ Dans la plupart des {term}`terminaux<terminal>`, {kbd}`Ctrl` + {kbd}`C` ne perme
 À la place, il faut faire {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`C`,
 ou utiliser la souris en faisant un clic-droit.
 ```
-````
-
 Le jeton, devra ensuite être indiqué lors de l'inscription,
 via <https://riot.club1.fr/#/register>.
+````
 
 
 ### Invitation par email
@@ -42,18 +41,19 @@ via <https://riot.club1.fr/#/register>.
 Il est possible de partager un code d'invitation par email en une seule commande !
 
 ```{commande} matrixinvite
+Envoie une invitation Matrix par email.
+
 Pour l'utiliser, on ajoute après un espace, l'adresse email de destination.
 Par exemple :
 
-    matrixinvite manumax@gouv.fr
+    matrixinvite manumacs@gouv.fr
 
-Mais on peut aussi l'utiliser de manière interactive :
-En ommettant l'adresse email, le programme va nous la demander de lui même.
-```
+Mais on peut aussi l'utiliser de manière *interactive*,
+en omettant l'adresse email, le programme va nous la demander de lui même.
 
 La personne recevra par email le code d'invitation, un lien vers la page d'inscription,
 ainsi que la date de péremption du jeton.
-
+```
 
 Principes généraux
 ------------------
