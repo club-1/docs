@@ -31,21 +31,29 @@ Dans la plupart des {term}`terminaux<terminal>`, {kbd}`Ctrl` + {kbd}`C` ne perme
 À la place, il faut faire {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`C`,
 ou utiliser la souris en faisant un clic-droit.
 ```
-````
-
 Le jeton, devra ensuite être indiqué lors de l'inscription,
 via <https://riot.club1.fr/#/register>.
+````
 
 
-```{tip}
-Pour envoyer directement un jeton par email (depuis son adresse CLUB1),
-on peut utiliser cette combinaison de commandes :
+### Invitation par email
 
-    matrixtoken | mailx -s "jeton d'invitation Matrix" -- EMAIL
+Il est possible de partager un code d'invitation par email en une seule commande !
 
-En remplaçant `EMAIL` par l'adresse de destination.
+```{commande} matrixinvite
+Envoie une invitation Matrix par email.
+
+Pour l'utiliser, on ajoute après un espace, l'adresse email de destination.
+Par exemple :
+
+    matrixinvite manumacs@gouv.fr
+
+Mais on peut aussi l'utiliser de manière *interactive*,
+en omettant l'adresse email, le programme va nous la demander de lui même.
+
+La personne recevra par email le code d'invitation, un lien vers la page d'inscription,
+ainsi que la date de péremption du jeton.
 ```
-
 
 Principes généraux
 ------------------
