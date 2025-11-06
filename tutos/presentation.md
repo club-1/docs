@@ -40,7 +40,7 @@ Pour cela il faudra ajouter quelques lignes spécifiques __au début votre fichi
 
 L'espace qui contient les métadonnées est délimité par des lignes contenant __trois tirets__ `---`.
 À l'intérieur de ces limites, on peut définir un paramètre par ligne comme il suit:
-Le nom du paramètre, suivit de deux points et d'un espace `: `,
+Le nom du paramètre, suivit de deux points et d'un espace `:&nbsp;`,
 puis de la valeur que vous souhaitez lui assigner.
 
 ```{tip}
