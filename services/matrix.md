@@ -193,14 +193,15 @@ Configurations spécifiques
 
 L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques configurations spécifiques.
 
-```{table}
+```{table} Inscription
 ---
 class: wrap
 ---
 | Paramètre                             | Valeur                                      |
 |---------------------------------------|---------------------------------------------|
-| Captcha requis à l'inscription        | Oui                                         |
-| Email requis à l'inscription          | Oui                                         |
+| Jeton requis à l'inscription          | Oui (voir [](#invitation))                  |
+| Captcha requis à l'inscription        | Non                                         |
+| Email requis à l'inscription          | Non                                         |
 | Salons rejoints à l'inscription       | `#decouverte:club1.fr` et `#bazar:club1.fr` |
 ```
 
@@ -208,7 +209,7 @@ Le serveur a des [ressources limitées](../info/infrastructure-materielle.md#ser
 il ne peut donc pas accueillir et conserver toutes les discussions indéfiniment.
 C'est pourquoi les paramètres suivants ont été modifiés.
 
-```{table}
+```{table} Ressources et performances
 ---
 class: wrap
 ---
@@ -224,7 +225,7 @@ class: wrap
 
 Autres configurations spéciales :
 
-```{table}
+```{table} Divers
 ---
 class: wrap
 ---
