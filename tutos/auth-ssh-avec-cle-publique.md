@@ -1,7 +1,7 @@
 Connexion SSH à l'aide d'une clé publique
 =========================================
 
-Vous en avez mare de taper à chaque fois votre mot de passe
+Vous en avez marre de taper à chaque fois votre mot de passe
 lorsque [vous vous connectez en SSH](/services/ssh.md) avec votre ordinateur personnel ?
 
 Ce tuto est fait pour vous ! 👈️
