@@ -5,6 +5,7 @@
   "no-multiple-blanks": { "maximum": 3 },
   "line-length": { "line_length": 130 },
   "no-trailing-punctuation": { "punctuation": ".,;:" },
+  "no-space-in-code": false,
   "code-block-style": false,
   "emphasis-style": false,
   "link-fragments": false,
