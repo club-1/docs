@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fbaeda09"></script>
+        <script src="../_static/documentation_options.js?v=77765639"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -384,26 +384,31 @@ with different data. On the CLUB1 server, there are notably several
 instances of [PHP]: at least one for each member."><a class="reference internal" href="../glossaire.html#term-instance"><span class="xref std std-term">instance</span></a></abbr> of <abbr title="[Matrix] [server] written in Python. This is the reference
 implementation of a Matrix server and for now the only one that is
 advertised as “stable”."><a class="reference internal" href="#logiciel-Synapse"><span class="xref std std-logiciel">Synapse</span></a></abbr> has some specific configurations.</p>
-<table class="wrap docutils align-default">
+<table class="wrap docutils align-default" id="id1">
+<caption><span class="caption-number">Table 3.1 </span><span class="caption-text">Inscription</span><a class="headerlink" href="#id1" title="Link to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Paramètre</p></th>
 <th class="head"><p>Valeur</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Captcha requis à l’inscription</p></td>
-<td><p>Oui</p></td>
+<tr class="row-even"><td><p>Jeton requis à l’inscription</p></td>
+<td><p>Oui (voir <a class="reference internal" href="#invitation"><span class="std std-ref">Invitation</span></a>)</p></td>
 </tr>
-<tr class="row-odd"><td><p>Email requis à l’inscription</p></td>
-<td><p>Oui</p></td>
+<tr class="row-odd"><td><p>Captcha requis à l’inscription</p></td>
+<td><p>Non</p></td>
 </tr>
-<tr class="row-even"><td><p>Salons rejoints à l’inscription</p></td>
+<tr class="row-even"><td><p>Email requis à l’inscription</p></td>
+<td><p>Non</p></td>
+</tr>
+<tr class="row-odd"><td><p>Salons rejoints à l’inscription</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">#decouverte:club1.fr</span></code> et <code class="docutils literal notranslate"><span class="pre">#bazar:club1.fr</span></code></p></td>
 </tr>
 </tbody>
 </table>
 <p>The server has <a class="reference internal" href="../info/infrastructure-materielle.html#serveur"><span class="std std-ref">limited resources</span></a>, so it cannot host and keep all discussions indefinitely. That is why the following parameters were changed.</p>
-<table class="wrap docutils align-default">
+<table class="wrap docutils align-default" id="id2">
+<caption><span class="caption-number">Table 3.2 </span><span class="caption-text">Ressources et performances</span><a class="headerlink" href="#id2" title="Link to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Paramètre</p></th>
 <th class="head"><p>Valeur</p></th>
@@ -431,7 +436,8 @@ advertised as “stable”."><a class="reference internal" href="#logiciel-Synap
 </tbody>
 </table>
 <p>Autres configurations spéciales :</p>
-<table class="wrap docutils align-default">
+<table class="wrap docutils align-default" id="id3">
+<caption><span class="caption-number">Table 3.3 </span><span class="caption-text">Divers</span><a class="headerlink" href="#id3" title="Link to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Paramètre</p></th>
 <th class="head"><p>Valeur</p></th>
@@ -520,7 +526,7 @@ sheets”. The [client] used to access it is called a “Web browser”."><a cla
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-11-06-g2227
+		v: 2025-11-17-gf281
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

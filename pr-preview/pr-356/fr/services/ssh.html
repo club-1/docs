@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=7322360b"></script>
+        <script src="../_static/documentation_options.js?v=fffaba3b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -281,36 +281,11 @@ recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="
 </section>
 <section id="s-authentifier-avec-une-cle-publique">
 <h3>S’authentifier avec une clé publique<a class="headerlink" href="#s-authentifier-avec-une-cle-publique" title="Lien vers cette rubrique">#</a></h3>
-<p>L’authentification par clé publique nécessite une paire de clé de chiffrement.
-Pour créer ces clés, on utilise la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
-fournir à une interface en ligne de commande ([CLI]) pour demander à
-un ordinateur d’exécuter une tâche.
-
-Pour lancer une commande, il faut ouvrir un [terminal], tapper le
-texte de la commande, puis appuyer sur &quot;Entrée&quot;.
-
-Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
-être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> ci-dessous.
-Une <em>phrase de passe</em> sera demandée lors de la génération des clés,
-elle permet de les stocker de manière sécurisée.
-Sur Linux, les clés seront automatiquement déverrouillées lors de l’ouverture d’une session,
-il ne faut donc pas hésiter à choisir une longue phrase de passe.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh-keygen
-</pre></div>
-</div>
-<p>La commande qui suit va permettre d’envoyer la partie publique de la clé vers
-le serveur, afin de pouvoir l’utiliser comme méthode d’authentification
-(remplacer <code class="docutils literal notranslate"><span class="pre">USER</span></code> par votre <strong>identifiant</strong> CLUB1).
-Elle vous demandera d’entrer votre <strong>mot de passe</strong> CLUB1 pour fonctionner.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh-copy-id -i ~/.ssh/id_rsa USER@club1.fr
-</pre></div>
-</div>
-<p>Finalement, on utilise toujours la même commande pour se connecter.
-Mais cette fois ce sont les clés qui seront utilisées.
-Si elles ne sont pas déjà déverrouillées, la <em>phrase de passe</em> sera demandée.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr
-</pre></div>
-</div>
+<p>Au lieu d’utiliser un mot de passe,
+si vous vous connectez régulièrement depuis le même appareil,
+il est conseillé de se connecter à l’aide d’une clé publique.</p>
+<p>Cela nécessite de suivre quelques étapes qui sont indiquées dans le tuto :
+<a class="reference internal" href="../tutos/auth-ssh-avec-cle-publique.html"><span class="std std-doc">Connexion SSH à l’aide d’une clé publique</span></a></p>
 </section>
 </section>
 <section id="informations-de-connexion">
@@ -536,7 +511,7 @@ Il existe des extensions SSH pour des usages plus spécifiques comme
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2025-11-06-g2227
+		v: 2025-11-17-gf281
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
