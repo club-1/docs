@@ -4,7 +4,7 @@
 > Un fichier pour se présenter
 
 Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter.
-Pour se faire, vous pouvez y ajouter, *à la racine* un fichier s'appellant :
+Pour se faire, vous pouvez y ajouter, *à la racine* (pas dans un sous-dossier) un fichier s'appellant :
 
     PRESENTATION.md
 
@@ -15,6 +15,12 @@ Libre à vous d'utiliser le {term}`Markdown` pour pimenter votre présentation !
 N'hésitez pas à mettre des liens vers vos projets web,
 ça permettra aux membres et visiteurs de les découvrir 🔎️.
 
+```markdown
+# Ma super présentation
+
+En *Markdown* avec [un lien](https://nana.club1.fr).
+```
+
 
 Metadonnées
 -----------
@@ -23,23 +29,22 @@ Pour aller plus loin dans la personnalisation,
 il est possible de modifier certains paramètres d'affichage.
 Notamment, votre __nom d'affichage__ et la __couleur__ de votre bouton.
 
-Pour cela il faudra ajouter quelques ligne au début votre fichier `PRESENTATION.md`.
+Pour cela il faudra ajouter quelques lignes spécifiques __au début votre fichier__ `PRESENTATION.md`.
 
     ---
     name: Mon super prénom
     color: pink
     ---
     
-    # Ma super présentation
-    
-    en *Markdown*
+    # Ma super présentation...
 
-Le formatage est simple,
-il faut juste respecter les trois tirets au début et à la fin de la zone de métadonnées.
-Ensuite vous pouvez définir un ou plusieurs paramètres.
+L'espace qui contient les métadonnées est délimité par des lignes contenant __trois tirets__ `---`.
+À l'intérieur de ces limites, on peut définir un paramètre par ligne comme il suit :
+Le nom du paramètre, suivit de deux points et d'un espace `: `,
+puis de la valeur que vous souhaitez lui assigner.
 
 ```{tip}
-Pour info, cette syntaxe *plus ou moins standard*
+Pour info, cette syntaxe *vaguement standard*
 s'appelle [Front Matter](https://jekyllrb.com/docs/front-matter/).
 ```
 
