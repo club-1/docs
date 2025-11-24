@@ -109,7 +109,7 @@ porte généralement le nom de votre utilisateur sur cet appareil.
 
     📁 UTILISATEUR
     ├─ 📁 .ssh
-    │  └─ 📄 known_host    👈🏽
+    │  └─ 📄 known_hosts    👈🏽
     ├─ 📁 Documents
     ├─ 📁 Images
     ...
