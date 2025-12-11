@@ -1,0 +1,424 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes premiers pas sur le Web ! &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/tutos/mes-premiers-pas-sur-le-web.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=beba1c77"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Utiliser Tiny tiny RSS" href="flux-rss.html" />
+    <link rel="prev" title="Accès à l’espace personnel depuis le Finder d’un Mac" href="webdav-mac.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/mes-premiers-pas-sur-le-web.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/mes-premiers-pas-sur-le-web.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutoriels</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="presentation.html">Éditer son fichier de présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronisation de calendriers et contacts sur un appareil Android</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">Synchronisation de calendrier CalDAV sur un Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connexion au serveur depuis l’explorateur de fichiers Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">Première connexion SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Accès à l’espace personnel depuis le Finder d’un Mac</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Mes premiers pas sur le Web !</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#se-connecter-a-son-espace-perso">Se connecter à son espace perso</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#partager-un-fichier-sur-le-web">Partager un fichier sur le Web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#decouverte-du-dossier-static">Découverte du dossier <code class="docutils literal notranslate"><span class="pre">static</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#avoir-un-fichier-en-ligne">Avoir un fichier en ligne</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#l-index">L’index</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ecrire-du-texte-sur-le-web">Écrire du texte sur le Web</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#le-language-html">Le language HTML</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#premiers-pas">Premiers pas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#editer-en-local">Éditer en local</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#pour-aller-plus-loin">Pour aller plus loin</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Utiliser Tiny tiny RSS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">4. </span>Tutoriels</a></li>
+      <li class="breadcrumb-item active">Mes premiers pas sur le Web !</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/tutos/mes-premiers-pas-sur-le-web.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mes-premiers-pas-sur-le-web">
+<h1>Mes premiers pas sur le Web !<a class="headerlink" href="#mes-premiers-pas-sur-le-web" title="Lien vers cette rubrique">#</a></h1>
+<p>Vous connaissez le Web ? Ça vous dirait d’y participer ?
+Pas mettre un post sur facebook, ça c’est juste remplir un formulaire.
+Mais plutôt de rajouter une pierre à ce gigantesque édifice.</p>
+<p>Fini les conneries, ici on va carrément rajouter des fichiers au Web.</p>
+<p>Dans ce tuto, vous allez découvrir comment utiliser votre espace CLUB1,
+non pas pour stocker des fichiers dans un but personnel,
+mais pour les rendre accessible à tout le monde,
+c.-à-d. les publier sur le Web.</p>
+<section id="se-connecter-a-son-espace-perso">
+<h2>Se connecter à son espace perso<a class="headerlink" href="#se-connecter-a-son-espace-perso" title="Lien vers cette rubrique">#</a></h2>
+<p>Tout d’abord, il faut vous connecter à votre espace sur le serveur d’une manière ou d’une autre.
+Vous pouvez choisir la méthode de connexion avec laquelle vous vous sentez la plus à l’aise.</p>
+<p>Petit rappel des différentes façons de se connecter :</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../services/drive.html"><span class="std std-doc">drive</span></a> en accédant à <code class="docutils literal notranslate"><span class="pre">https://drive.club1.fr</span></code>
+méthode la plus facile (ne nécessite aucun logiciel)</p></li>
+<li><p><a class="reference internal" href="../services/ftp.html"><span class="std std-doc">ftp</span></a> pas beaucoup plus compliqué (nécessite un logiciel)</p></li>
+<li><p><a class="reference internal" href="../services/ssh.html"><span class="std std-doc">ssh</span></a> plus avancée</p></li>
+<li><p><a class="reference internal" href="../services/webdav.html"><span class="std std-doc">WebDAV</span></a> pratique si vous avez déjà configuré un accès</p></li>
+</ul>
+</section>
+<section id="partager-un-fichier-sur-le-web">
+<h2>Partager un fichier sur le Web<a class="headerlink" href="#partager-un-fichier-sur-le-web" title="Lien vers cette rubrique">#</a></h2>
+<section id="decouverte-du-dossier-static">
+<h3>Découverte du dossier <code class="docutils literal notranslate"><span class="pre">static</span></code><a class="headerlink" href="#decouverte-du-dossier-static" title="Lien vers cette rubrique">#</a></h3>
+<p>La façon la plus rapide et simple de partager un fichier depuis son espace perso
+est de le placer dans le dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si ce dossier n’existe pas, il faut le créer.</p>
+</div>
+<p>Choisissez une image depuis votre ordinateur ou smartphone et
+téléversez la sur le serveur dans votre dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Par précaution, il vaut mieux vérifier que le nom de fichier
+ne comporte pas d’espaces ou de caractères spéciaux.</p>
+</div>
+<p>Si tout s’est bien passé,
+il est maintenant possible d’accéder à votre image depuis le Web.
+Pour voir le résultat, il faut entrer l’adresse suivante dans un navigateur Web
+(e.g. Firefox, Chrome, etc.) :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://static.club1.fr/USER/FILE
+</pre></div>
+</div>
+<p>Par exemple, si votre nom d’utilisateur est <code class="docutils literal notranslate"><span class="pre">garance</span></code> et que votre fichier s’intitule <code class="docutils literal notranslate"><span class="pre">fleur.jpg</span></code>, vous devriez avoir :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://static.club1.fr/garance/fleur.jpg
+</pre></div>
+</div>
+<p>Normalement, le navigateur va afficher votre image si il en est capable, autrement,
+il vous proposerait de la télécharger.</p>
+<p>Par exemple, la plupart des navigateurs arrivent à afficher des fichiers PDF, lire des MP3,
+tandis que des fichiers d’archives (Zip, Tar…) seront téléchargés
+car le navigateur Web ne sait pas lire ce genre de fichier.</p>
+<p>Vous pouvez essayer de téléverser d’autres types de fichiers et d’accéder aux URL correspondantes.</p>
+</section>
+<section id="avoir-un-fichier-en-ligne">
+<h3>Avoir un fichier en ligne<a class="headerlink" href="#avoir-un-fichier-en-ligne" title="Lien vers cette rubrique">#</a></h3>
+<p>Ça y est ! Vous avez publié votre premier fichier sur le Web ! 🎉
+L’adresse que vous avez tapé dans le navigateur s’appelle une URL.
+Cette URL ne changera pas tant que vous ne modifiez pas le nom du fichier.
+Pour partager ce fichier avec n’importe qui,
+il vous suffit de transmettre cette URL.
+Toutes les personnes explorant l’URL pourront accéder au fichier en l’affichant ou en le téléchargeant,
+mais ne pourront pas le supprimer ou le modifier.
+Pour arrêter de publier un fichier sur le Web,
+il vous suffit de le supprimer depuis votre espace perso,
+ou de le déplacer hors du dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>.</p>
+<p>Ce comportement du dossier <code class="docutils literal notranslate"><span class="pre">static</span></code> fait partie des <a class="reference internal" href="../services/web.html"><span class="std std-doc">services d’hébergement CLUB1</span></a>.
+Il permet d’avoir une porte ouverte sur le Web très facile d’accès et rapide à utiliser.
+Cela peut être utile si l’on veut partager rapidement des fichiers,
+publier un CV au format PDF ou insérer des images dans d’autres endroit du Web.
+Il est ensuite très facile de partager l’URL via emails ou réseaux sociaux.</p>
+</section>
+<section id="l-index">
+<h3>L’index<a class="headerlink" href="#l-index" title="Lien vers cette rubrique">#</a></h3>
+<p>Et si je voulais partager 15 fichiers, j’aurais 15 URLs à partager ? C’est casse-pied !
+N’y aurait-il pas un moyen de partager un dossier complet ?</p>
+<p>Faisons une expérience (si vous ne l’avez pas déjà faite par vous même) :
+Dans votre navigateur Web, retirez la partie correspondant au nom du fichier.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://static.club1.fr/USER/
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>N’oubliez pas le dernier slash (<code class="docutils literal notranslate"><span class="pre">/</span></code>) de l’URL !</p>
+</div>
+<p>Vous devriez avoir accès à une page listant les fichiers de votre dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>.</p>
+<p><img alt="index" src="../_images/index.jpg" /></p>
+<p>On appelle cette page un <strong>index</strong>.
+Cette page est générée par le serveur Web qui s’appelle <em>Apache</em> (c’est marqué en bas).
+Elle se mettra à jour toute seule si vous rajoutez ou supprimez des fichiers.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pour un usage plus avancé, il est possible de désactiver les pages d’index.
+Voir les <a class="reference internal" href="../services/web.html#index-des-fichiers"><span class="std std-ref">services liés au dossier static</span></a></p>
+</div>
+</section>
+<section id="ecrire-du-texte-sur-le-web">
+<h3>Écrire du texte sur le Web<a class="headerlink" href="#ecrire-du-texte-sur-le-web" title="Lien vers cette rubrique">#</a></h3>
+<p>Parmi les types de fichiers intéressant à publier sur le Web,
+il en est un qui présente quelques intérêts particuliers.
+Il s’agît du fichier texte simple, qui a une extension en <code class="docutils literal notranslate"><span class="pre">.txt</span></code>.</p>
+<p>Ce type de fichier est très facile à éditer et a le mérite d’être lisible par un navigateur Web.</p>
+<p>Essayons donc de créer un fichier de ce type,
+éditer son contenu en écrivant ce qui vous plaît,
+puis le téléverser dans le dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si vous ne savez pas comment créer un fichier TXT, vous pouvez
+<a download class="fa fa-download" href="../_static/tutos/mes-premiers-pas-sur-le-web/bonjour.txt">
+télécharger celui-ci
+</a>
+puis l’éditer.</p>
+</div>
+<p>Lorsque vous accédez à l’URL correspondant au nom de votre fichier texte,
+vous devriez pouvoir lire ce que vous y avez écrit.</p>
+<p><img alt="aperçu d'un fichier texte" src="../_images/screen_002.png" /></p>
+<p>C’est une façon simple et efficace de publier du texte en ligne.
+Juste avec cette méthode, il est déjà possible de faire un embryon de site web.
+Cependant, on ne peut pas intégrer d’images,
+changer le style du texte ou encore, <strong>faire des liens</strong>.</p>
+<p>Pour cela, il nous faut apprendre à manipuler un language spécifique au web.</p>
+</section>
+</section>
+<section id="le-language-html">
+<h2>Le language HTML<a class="headerlink" href="#le-language-html" title="Lien vers cette rubrique">#</a></h2>
+<section id="premiers-pas">
+<h3>Premiers pas<a class="headerlink" href="#premiers-pas" title="Lien vers cette rubrique">#</a></h3>
+<p>Reprenons notre fichier TXT.
+Au dessus de ce que vous aviez précédemment écrit, rajoutez la ligne suivante :</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Bienvenue<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Au lieu d’enregistrer le fichier sous un <code class="docutils literal notranslate"><span class="pre">.txt</span></code>,
+enregistrez le avec un <code class="docutils literal notranslate"><span class="pre">.html</span></code></p>
+<blockquote>
+<div><p>Le fichier <code class="docutils literal notranslate"><span class="pre">bonjour.txt</span></code> deviendrait <code class="docutils literal notranslate"><span class="pre">bonjour.html</span></code></p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Vous pouvez faire ceci en renommant votre fichier ou
+en sélectionnant « enregistrer sous » depuis votre éditeur de texte.</p>
+</div>
+<p>Maintenant, téléversez à nouveau le fichier dans votre dossier <code class="docutils literal notranslate"><span class="pre">static</span></code>,
+accédez à l’URL correspondante depuis votre navigateur
+et découvrez le résultat !</p>
+<p><img alt="html" src="../_images/screen_003.png" /></p>
+<p>Félicitation !
+Vous venez de mettre en ligne votre première page Web contenant du HTML. 🎉</p>
+<p>Maintenant, regardons plus attentivement la ligne que nous venons d’ajouter.
+Le texte « Bienvenue » s’est vu affiché,
+<strong>mais pas les éléments <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> et <code class="docutils literal notranslate"><span class="pre">&lt;/h1&gt;</span></code></strong>.
+On appelle ces deux éléments des <strong>balises HTML</strong>.
+Elles sont utilisés pour rajouter des informations à notre texte.</p>
+<p>En l’occurrence, la balise <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> signifie :
+<em>les caractères qui suivent font partie d’un titre de niveau 1</em>.
+Il s’agît d’une balise <strong>ouvrante</strong>.</p>
+<p>Tandis que la balise <code class="docutils literal notranslate"><span class="pre">&lt;/h1&gt;</span></code> signifie :
+<em>les caractères qui suivent ne font <strong>plus</strong> partie d’un titre de niveau 1</em>.
+Cette dernière est donc une balise dite <strong>fermante</strong>.</p>
+<p>Ces balises forment un couple, on les appelles des <strong>balises doubles</strong>.
+à elles deux, elles attribuent un statut à ce qu’elles entourent.</p>
+<p>Le navigateur Web, de son côté,
+a interprété ces balises et à <em>compris</em> que « Bienvenue » est un « titre de niveau 1 ».
+Il applique ensuite un style par défaut associé à ce statut.</p>
+<p>C’est globalement comme cela que fonctionne la language HTML,
+tout du moins les balises doubles.
+Évidemment, il existe <a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements">des balises pour de nombreux usages</a>.
+Par exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas interprétés en HTML.
+C’est normal ! Pour faire des paragraphes, il faut mettre son texte à l’intérieur d’une
+<a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/p">balise <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code></a>.</p>
+</section>
+<section id="editer-en-local">
+<h3>Éditer en local<a class="headerlink" href="#editer-en-local" title="Lien vers cette rubrique">#</a></h3>
+<p>Comme on commence à modifier souvent notre fichier,
+au lieu de devoir à chaque fois mettre à jour nos modifications en le téléversant sur le serveur,
+on va le modifier et l’afficher <strong>en local</strong>.</p>
+<p>💫 Et oui ! Pas besoin de serveur pour juste lire un fichier HTML.
+Il suffit de l’ouvrir avec votre navigateur directement
+(par exemple en double cliquant dessus ou en le glissant dans votre navigateur).</p>
+<p>C’est une façon de travailler qui consiste à ne pas mettre à jour sa page web à chaque essais,
+que l’on fait en local,
+mais plutôt à chaque fois que l’on est satisfait de ses modifications.</p>
+</section>
+</section>
+<section id="pour-aller-plus-loin">
+<h2>Pour aller plus loin<a class="headerlink" href="#pour-aller-plus-loin" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour continuer à en apprendre plus sur le HTML, vous pouvez explorer :</p>
+<ul class="simple">
+<li><p>Les ressources HTML et CSS sur le site
+<a class="reference external" href="https://radicalweb.design/ressources/html/">Radical Web Design</a>,</p></li>
+<li><p><a class="reference external" href="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3">Open Class Room / Créez votre site web avec HTML5 et CSS3</a>
+(nécessite un compte gratuit 🫤).</p></li>
+</ul>
+<p>Vous pouvez aussi consulter <a class="reference external" href="https://club1.fr/annuaire">l’annuaire du site de CLUB1</a> pour plus d’outils.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="webdav-mac.html" class="btn btn-neutral float-left" title="Accès à l’espace personnel depuis le Finder d’un Mac" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="flux-rss.html" class="btn btn-neutral float-right" title="Utiliser Tiny tiny RSS" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2025-12-11-g1532
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/tutos/mes-premiers-pas-sur-le-web.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/tutos/mes-premiers-pas-sur-le-web.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
