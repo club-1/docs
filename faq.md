@@ -67,6 +67,8 @@ il est possible de créer une redirection HTTP automatique
 depuis votre nom de domaine vers le sous-domaine de votre choix.
 Cela peut servir à rediriger les requettes pour votre domaine
 vers le sous-domaine que vous aurez choisi pour votre site.
+
+Exemple: `https://crevette.com` → `https://www.crevette.com`.
 ```
 
 ```{seealso}
