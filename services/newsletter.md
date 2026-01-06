@@ -98,7 +98,7 @@ Bien que cela n'ai aucune incidence, ça peut être rassurant.
 Exemple :
 
 ```html
-<a href="mailto:USERNAME+subscribe@club1.fr?subject=Inscription&body=Je souhaite m'inscrire %C3%A0 la newsletter.">inscription à ma newsletter !</a>
+<a href="mailto:USERNAME+subscribe@club1.fr?subject=Inscription&body=Je souhaite m'inscrire fissa.">inscription !</a>
 ```
 
 
@@ -123,7 +123,9 @@ Vous allez dabord recevoir une prévisualisation qui vous permettra de juger du 
 La seule différance étant que le sujet contiendra `(preview)` en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu'il faut répondre à cet email pour confirmer l'envoi.
 
-Si ce rendu vous plaît et que vous souhaitez bel et bien diffuser cet email à toutes les addresses inscrites, alors vous pouvez répondre à cet email de prévisualisation. Là aussi, le contenu de cette réponse n'aura aucune incidence.
+Si ce rendu vous plaît et que vous souhaitez bel et bien diffuser cet email à toutes les addresses inscrites,
+alors vous pouvez répondre à cet email de prévisualisation.
+Là aussi, le contenu de cette réponse n'aura aucune incidence.
 
 Lorsque la diffusion sera terminée, vous recevrez un email de confirmation indiquant le statut de l'opération.
 
