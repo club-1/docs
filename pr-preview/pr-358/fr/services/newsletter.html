@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=422033af"></script>
+        <script src="../_static/documentation_options.js?v=984b0ba3"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -94,15 +94,17 @@
 <li class="toctree-l2"><a class="reference internal" href="git.html">Dépôts Git publics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Newsletter personnelle (beta)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#mise-en-place">Mise en place</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mise-en-place">Mise en place</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuration-detaillee">Configuration détaillée</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#gestion-des-inscriptions">Gestion des inscriptions</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#gestion-manuelle">Gestion manuelle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#gestion-par-email">Gestion par email</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#publier-un-lien-d-inscription">Publier un lien d’inscription</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gestion-manuelle">Gestion manuelle</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#envoi">Envoi</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#via-email">Via email</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#par-email">Par email</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#via-ssh">Via SSH</a></li>
 </ul>
 </li>
@@ -169,14 +171,18 @@ s’agit donc d’un « réseau de réseaux »."><a class="reference internal"
 Ses limitations sont les suivantes :</p>
 <ul class="simple">
 <li><p>les emails sont en <strong>texte brut</strong> (pas de style)</p></li>
-<li><p>pas de statistiques (aucun <em>tracking</em> permettant de savoir si les destinataires ouvrent les emails)</p></li>
+<li><p>pas de statistiques (aucun <em>tracking</em> permettant de savoir si les destinataires ouvrent les emails)s</p></li>
 </ul>
-<!-- - interface d'envoi en {term}`CLI`, uniquement accessible via [la connexion SSH](ssh.md). -->
 <p>Chaque membre dispose d’une newsletter, qui est envoyée par <a class="reference internal" href="email.html"><span class="std std-doc">son adressse email de membre</span></a>.</p>
 <section id="mise-en-place">
 <h2>Mise en place<a class="headerlink" href="#mise-en-place" title="Lien vers cette rubrique">#</a></h2>
 <p>La newsletter n’est pas activée par défaut.
-Pour l’initialiser, il faut lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+Pour l’initialiser, il faut se <a class="reference internal" href="ssh.html"><span class="std std-doc">connecter en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr></span></a>
+et lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
 fournir à une interface en ligne de commande ([CLI]) pour demander à
 un ordinateur d’exécuter une tâche.
 
@@ -198,11 +204,13 @@ C’est une commande interactive qui lance un formulaire de paramétrage.
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter setup
 </pre></div>
 </div>
-<p>Cela déclenche un formulaire vous permettant de définir les quelques réglages possible liés à la newsletter.
-Vous pouvez les remplir à ce moment ou plus tard, en relancant la même commande.</p>
-<p>Celle-ci va automatiquement créer cinq fichiers <code class="docutils literal notranslate"><span class="pre">.forward+...</span></code> à la racine de votre espace perso.
-Elle va également ajouter un dossier <code class="docutils literal notranslate"><span class="pre">.config/newsletter</span></code> qui contiendra la configuration de la newsletter.
-Ce dossier contient :</p>
+<p>Cela déclenche un formulaire vous permettant de définir les quelques réglages possible liés à votre newsletter.
+Pour mettre à jour ces paramêtres, vous pouvez la lancer à nouveau.</p>
+<section id="configuration-detaillee">
+<h3>Configuration détaillée<a class="headerlink" href="#configuration-detaillee" title="Lien vers cette rubrique">#</a></h3>
+<p>La commande <code class="docutils literal notranslate"><span class="pre">setup</span></code> crée cinq fichiers <code class="docutils literal notranslate"><span class="pre">.forward+...</span></code> à la racine de votre espace perso.
+Elle crée également le dossier <code class="docutils literal notranslate"><span class="pre">.config/newsletter</span></code> qui contiendra la configuration de la newsletter.
+Ce dernier contient :</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> fichier brut avec une adresse email par ligne. Vous pouvez l’éditer manuellement pour gérer la liste des destinataires.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">signature.txt</span></code> fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.</p></li>
@@ -230,10 +238,43 @@ Il est possible d’activer leur affichage si besoin, souvent avec le
 raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">dossier caché</span></a></abbr>.</p>
 </div>
 </section>
+</section>
 <section id="gestion-des-inscriptions">
 <h2>Gestion des inscriptions<a class="headerlink" href="#gestion-des-inscriptions" title="Lien vers cette rubrique">#</a></h2>
 <p>Les personnes peuvent s’inscrire et se désinscrire à votre liste <strong>uniquement par email</strong>,
-tandis que vous gardez un contrôle manuel sur la liste.</p>
+tandis que vous gardez un <a class="reference internal" href="#gestion-manuelle">contrôle manuel sur la liste</a>.</p>
+<section id="gestion-par-email">
+<h3>Gestion par email<a class="headerlink" href="#gestion-par-email" title="Lien vers cette rubrique">#</a></h3>
+<p>Pour les personnes qui souhaiterait s’abonner à votre newsletter, l’inscription et la désinscription se fait par email.
+Elles doivent envoyer à une addresse précise un email depuis l’addresse qu’elles souhaient inscrire ou désinscire.
+Le contenu n’aura aucune incidence.</p>
+<p>Dans les adresses présentés ci-dessous, <code class="docutils literal notranslate"><span class="pre">IDENTIFIANT</span></code> correspond à votre <a class="reference internal" href="../info/general.html#identifiant"><span class="std std-ref">identifiant de membre</span></a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Pour proposer aux personnes de s’isncrire à votre newsletter depuis votre site Web,
+vous pouvez insérer des liens <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
+les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> en utilisant le préfix <code class="docutils literal notranslate"><span class="pre">mailto:</span></code> devant l’addresse email.</p>
+<p>Exemple :</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;mailto:IDENTIFIANT+subscribe@club1.fr&quot;</span><span class="p">&gt;</span>inscription à ma newsletter !<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<section id="inscription">
+<h4>Inscription<a class="headerlink" href="#inscription" title="Lien vers cette rubrique">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+subscribe@club1.fr
+</pre></div>
+</div>
+<p>Cela déclenche la procédure d’inscription.
+Un email de confirmation est envoyé et <strong>il est nécessaire d’y répondre</strong> pour terminer l’inscription.</p>
+</section>
+<section id="desinscription">
+<h4>Désinscription<a class="headerlink" href="#desinscription" title="Lien vers cette rubrique">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+unsubscribe@club1.fr
+</pre></div>
+</div>
+<p>Si l’adresse était bien listée, la désinscription est immédiate.</p>
+</section>
+</section>
 <section id="gestion-manuelle">
 <h3>Gestion manuelle<a class="headerlink" href="#gestion-manuelle" title="Lien vers cette rubrique">#</a></h3>
 <p>Comme les emails son stockés dans un fichier brut,
@@ -244,72 +285,26 @@ vous pouvez lancer la commande suivante en remplaçant <code class="docutils lit
 </pre></div>
 </div>
 </section>
-<section id="gestion-par-email">
-<h3>Gestion par email<a class="headerlink" href="#gestion-par-email" title="Lien vers cette rubrique">#</a></h3>
-<p>Pour les personnes qui souhaiterait s’abonner à votre newsletter, l’inscription et la désinscription se fait par email.
-Elles doivent envoyer à une addresse précise un email depuis l’addresse qu’elles souhaient inscrire ou désinscire.
-Le contenu n’aura aucune incidence.</p>
-<p>Dans les adresses présentés ci-dessous, <code class="docutils literal notranslate"><span class="pre">USERNAME</span></code> correspond à votre <a class="reference internal" href="../info/general.html#identifiant"><span class="std std-ref">identifiant de membre</span></a>.</p>
-<section id="inscription">
-<h4>Inscription<a class="headerlink" href="#inscription" title="Lien vers cette rubrique">#</a></h4>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>USERNAME+subscribe@club1.fr
-</pre></div>
-</div>
-<p>Cela déclenche la procédure d’inscription.
-Un email de confirmation est envoyé et il est nécessaire d’y répondre pour terminer l’inscription.</p>
-</section>
-<section id="desinscription">
-<h4>Désinscription<a class="headerlink" href="#desinscription" title="Lien vers cette rubrique">#</a></h4>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>USERNAME+unsubscribe@club1.fr
-</pre></div>
-</div>
-<p>Si l’adresse était bien listée, la désinscription est immédiate.</p>
-</section>
-</section>
-<section id="publier-un-lien-d-inscription">
-<h3>Publier un lien d’inscription<a class="headerlink" href="#publier-un-lien-d-inscription" title="Lien vers cette rubrique">#</a></h3>
-<p>Pour proposer aux personnes de s’isncrire à votre newsletter depuis votre site Web,
-vous pouvez insérer des liens <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
-les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> en utilisant le préfix <code class="docutils literal notranslate"><span class="pre">mailto:</span></code> devant l’addresse email.</p>
-<p>Par exemple :</p>
-<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;mailto:USERNAME+subscribe@club1.fr&quot;</span><span class="p">&gt;</span>inscription à ma newsletter !<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-</pre></div>
-</div>
-<p>Il est même possible de pré-remplir le sujet et le corp du mail !
-Bien que cela n’ai aucune incidence, ça peut être rassurant.</p>
-<p>Exemple :</p>
-<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;mailto:USERNAME+subscribe@club1.fr?subject=Inscription&amp;body=Je souhaite m&#39;inscrire fissa.&quot;</span><span class="p">&gt;</span>inscription !<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-</pre></div>
-</div>
-</section>
 </section>
 <section id="envoi">
 <h2>Envoi<a class="headerlink" href="#envoi" title="Lien vers cette rubrique">#</a></h2>
-<p>Vous avez deux possibilités pour envoyer votre newsletter, par email ou via une commande.</p>
-<p>La première est la plus simple car vous n’aurez besoin que d’un <abbr title="Logiciel permettant de se connecter à un [serveur]. Il est en général
-doté d’une interface graphique, destinée à être utilisée directement
-par un humain."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> mail.
-La seconde est plus avancée,
-mais elle peut être automatisée ou connecter à d’autres commandes pour des usages divers et variés !</p>
-<section id="via-email">
-<h3>Via email<a class="headerlink" href="#via-email" title="Lien vers cette rubrique">#</a></h3>
-<p>Vous aussi pouvez utiliser les emails pour communiquer avec votre newsletter !
-Vous pouvez écrire un email à l’addresse suivante et remplissant le contenu ainsi que le sujet avec ce que vous souhaitez diffuser.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>USERNAME+send@club1.fr
+<p>L’envoi d’une newsletter peut se faire <a class="reference internal" href="#par-email"><strong>par email</strong></a> ou <a class="reference internal" href="#via-ssh"><strong>via SSH</strong></a>.</p>
+<section id="par-email">
+<h3>Par email<a class="headerlink" href="#par-email" title="Lien vers cette rubrique">#</a></h3>
+<p>Pour diffuser une newsletter par email,
+écrivez un email à l’addresse suivante en remplissant le sujet et le contenu.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+send@club1.fr
 </pre></div>
 </div>
-<p>Rassuez vous, cet email n’est pas diffusé directement.
-Vous allez dabord recevoir une prévisualisation qui vous permettra de juger du rendu.
+<p>Vous receverez <strong>une prévisualisation</strong> qui vous permettra de juger du rendu.
 La seule différance étant que le sujet contiendra <code class="docutils literal notranslate"><span class="pre">(preview)</span></code> en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu’il faut répondre à cet email pour confirmer l’envoi.</p>
-<p>Si ce rendu vous plaît et que vous souhaitez bel et bien diffuser cet email à toutes les addresses inscrites,
-alors vous pouvez répondre à cet email de prévisualisation.
-Là aussi, le contenu de cette réponse n’aura aucune incidence.</p>
-<p>Lorsque la diffusion sera terminée, vous recevrez un email de confirmation indiquant le statut de l’opération.</p>
+<p>Si vous souhaitez confirmer l’envoi, répondez à cet email de prévisualisation (le contenu de cette réponse n’aura aucune influence).</p>
+<p>À la fin de la diffusuion, vous recevrez un email de confirmation indiquant le statut de l’opération.</p>
 </section>
 <section id="via-ssh">
 <h3>Via SSH<a class="headerlink" href="#via-ssh" title="Lien vers cette rubrique">#</a></h3>
-<p>Si l’on est onnecté en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+<p>Une fois connecté en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
 [CLI] à un serveur. Ses principaux avantages sont d’être entièrement
 chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
 Il existe des extensions SSH pour des usages plus spécifiques comme
@@ -322,7 +317,7 @@ résultat.
 De nos jours, on utilise souvent le mot « terminal » comme raccourci
 pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
 recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
-on peut envoyer la newsletter en lancant la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
 fournir à une interface en ligne de commande ([CLI]) pour demander à
 un ordinateur d’exécuter une tâche.
 
@@ -330,8 +325,8 @@ Pour lancer une commande, il faut ouvrir un [terminal], tapper le
 texte de la commande, puis appuyer sur &quot;Entrée&quot;.
 
 Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
-être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ewsletter send SUJET FICHIER_DU_CONTENU
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante permet de diffuser une newsletter :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET FICHIER_DU_CONTENU
 </pre></div>
 </div>
 <ul class="simple">
@@ -342,7 +337,8 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 <p class="admonition-title">Avertissement</p>
 <p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut les entourer de guillemets !</p>
 </div>
-<p>Si tout est bien configuré, le programme va afficher un aperçu et demander une confirmation avant l’envoi.</p>
+<p>Le programe va vous envoyer <strong>une prévisualisation par email</strong>.
+Il vous restera à confirmer ou non l’envoi de manière interactive.</p>
 <section id="contenu-via-stdin">
 <h4>contenu via STDIN<a class="headerlink" href="#contenu-via-stdin" title="Lien vers cette rubrique">#</a></h4>
 <p>Il est également possible d’omettre le second argument et de fournir le contenu via STDIN.</p>
@@ -390,7 +386,7 @@ Elle dispose de deux sous-commandes : <code class="docutils literal notranslate
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Droits d'auteur 2022-2025, Membres de CLUB1.</p>
+    <p>&#169; Droits d'auteur 2022-2026, Membres de CLUB1.</p>
   </div>
 
   Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
@@ -407,7 +403,7 @@ Elle dispose de deux sous-commandes : <code class="docutils literal notranslate
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-01-06-ge0b6
+		v: 2026-01-18-g4501
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
