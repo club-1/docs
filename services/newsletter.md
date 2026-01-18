@@ -151,6 +151,6 @@ Logiciels
 ---------
 
 ```{logiciel} newsletter
-Ensemble de scripts très légers de gestion de newsletter développé par CLUB1.
---- [Sources](https://github.com/club-1/newsletter)
+Petit logiciel de gestion de newsletter développé par CLUB1.
+--- [Sources](https://github.com/club-1/newsletter-go)
 ```
