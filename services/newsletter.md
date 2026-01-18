@@ -81,13 +81,8 @@ Si l'adresse était bien listée, la désinscription est immédiate.
 
 ### Gestion manuelle
 
-Comme les emails son stockés dans un fichier brut,
+Comme les emails son stockés dans un fichier brut (`~/.config/newsletter/emails`),
 vous pouvez éditer ce fichier avec un éditeur de texte pour modifier la liste des abonnés.
-
-Ou même, lorsque vous êtes connecté [à travers SSH](ssh.md),
-vous pouvez lancer la commande suivante en remplaçant `ADDRESSE_EMAIL` par une addresse pour l'ajouter à la liste :
-
-    echo ADDRESSE_EMAIL > ~/.config/newsletter/emails
 
 
 Envoi
