@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=4dbe9815"></script>
+        <script src="../_static/documentation_options.js?v=96bb7282"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -268,13 +268,8 @@ Un email de confirmation est envoyé et <strong>il est nécessaire d’y répond
 </section>
 <section id="gestion-manuelle">
 <h3>Gestion manuelle<a class="headerlink" href="#gestion-manuelle" title="Lien vers cette rubrique">#</a></h3>
-<p>Comme les emails son stockés dans un fichier brut,
+<p>Comme les emails son stockés dans un fichier brut (<code class="docutils literal notranslate"><span class="pre">~/.config/newsletter/emails</span></code>),
 vous pouvez éditer ce fichier avec un éditeur de texte pour modifier la liste des abonnés.</p>
-<p>Ou même, lorsque vous êtes connecté <a class="reference internal" href="ssh.html"><span class="std std-doc">à travers SSH</span></a>,
-vous pouvez lancer la commande suivante en remplaçant <code class="docutils literal notranslate"><span class="pre">ADDRESSE_EMAIL</span></code> par une addresse pour l’ajouter à la liste :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>echo ADDRESSE_EMAIL &gt; ~/.config/newsletter/emails
-</pre></div>
-</div>
 </section>
 </section>
 <section id="envoi">
@@ -392,7 +387,7 @@ Le contenu peut alternativement être fourni via <code class="docutils literal n
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-01-18-gd541
+		v: 2026-01-18-ga082
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
