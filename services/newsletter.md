@@ -57,13 +57,13 @@ Pour les personnes qui souhaiterait s'abonner à votre newsletter, l'inscription
 Elles doivent envoyer à une addresse précise un email depuis l'addresse qu'elles souhaient inscrire ou désinscire.
 Le contenu n'aura aucune incidence.
 
-Dans les adresses présentés ci-dessous, `IDENTIFIANT` correspond à votre [identifiant de membre](../info/general.md#identifiant).
-
-````{tip}
+```{tip}
 Pour proposer aux personnes de s'isncrire à votre newsletter depuis votre site Web,
 vous pouvez insérer des liens {term}`HTML`
 [en utilisant le préfixe `mailto:`devant l'addresse email](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Structuring_content/Creating_links#liens_de_courriel).
-````
+```
+
+Dans les adresses présentés ci-dessous, `IDENTIFIANT` correspond à votre [identifiant de membre](../info/general.md#identifiant).
 
 #### Inscription
 
