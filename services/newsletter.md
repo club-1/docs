@@ -11,7 +11,7 @@ Le service de newsletter de CLUB1 est très basique comparé aux offres qui exis
 Ses limitations sont les suivantes :
 
 - les emails sont en __texte brut__ (pas de style)
-- pas de statistiques (aucun *tracking* permettant de savoir si les destinataires ouvrent les emails)s
+- pas de statistiques (aucun *tracking* permettant de savoir si les destinataires ouvrent les emails)
 
 Chaque membre dispose d'une newsletter, qui est envoyée par [son adressse email de membre](email.md).
 
@@ -20,13 +20,13 @@ Mise en place
 -------------
 
 La newsletter n'est pas activée par défaut.
-Pour l'initialiser, il faut se [connecter en {term}`SSH`](ssh.md)
+Pour l'initialiser, il faut se [connecter en SSH](ssh.md)
 et lancer la {term}`commande` {commande}`newsletter` avec la sous-commande `setup` :
 
     newsletter setup
 
 Cela déclenche un formulaire vous permettant de définir les quelques réglages possible liés à votre newsletter.
-Pour mettre à jour ces paramêtres, vous pouvez la lancer à nouveau.
+Pour mettre à jour ces paramètres, vous pouvez la lancer à nouveau.
 
 ### Configuration détaillée
 
@@ -36,7 +36,7 @@ Ce dernier contient :
 
 - `emails` fichier brut avec une adresse email par ligne. Vous pouvez l'éditer manuellement pour gérer la liste des destinataires.
 - `signature.txt` fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.
-- `settings.json` fichier JSON permettant d'ajuster le titre de la newsletter,
+- `settings.json` fichier JSON définissant le titre de la newsletter,
     le nom d'affichage pour l'adresse d'envoi,
     ainsi que la langue utilisés pour la [gestion des inscriptions par email](#gestion-par-email).
 - `.secret` fichier brut servant à sécuriser la confirmation d'inscription. Il s'agit d'un {term}`fichier caché` généré automatiquement.
@@ -102,13 +102,13 @@ Pour diffuser une newsletter par email,
 
     IDENTIFIANT+send@club1.fr
 
-Vous receverez __une prévisualisation__ qui vous permettra de juger du rendu.
+__Vous receverez une prévisualisation__ qui vous permettra de juger du rendu.
 La seule différance étant que le sujet contiendra `(preview)` en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu'il faut répondre à cet email pour confirmer l'envoi.
 
-Si vous souhaitez confirmer l'envoi, répondez à cet email de prévisualisation (le contenu de cette réponse n'aura aucune influence).
+Pour confirmer l'envoi, __répondez à cet email de prévisualisation__ (le contenu de cette réponse n'aura aucune influence).
 
-À la fin de la diffusuion, vous recevrez un email de confirmation indiquant le statut de l'opération.
+À la fin de la diffusuion, vous recevrez un email indiquant le statut de l'opération.
 
 ### Via SSH
 
@@ -125,7 +125,7 @@ Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les entourer
 ```
 
 Le programe va vous envoyer __une prévisualisation par email__.
-Il vous restera à confirmer ou non l'envoi de manière interactive.
+Il vous restera à confirmer ou non l'envoi dans votre terminal.
 
 #### contenu via STDIN
 
