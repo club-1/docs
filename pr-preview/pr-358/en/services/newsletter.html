@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=30354139"></script>
+        <script src="../_static/documentation_options.js?v=990eac73"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -167,17 +167,13 @@ a “network of networks”."><a class="reference internal" href="../glossaire.h
 Ses limitations sont les suivantes :</p>
 <ul class="simple">
 <li><p>les emails sont en <strong>texte brut</strong> (pas de style)</p></li>
-<li><p>pas de statistiques (aucun <em>tracking</em> permettant de savoir si les destinataires ouvrent les emails)s</p></li>
+<li><p>pas de statistiques (aucun <em>tracking</em> permettant de savoir si les destinataires ouvrent les emails)</p></li>
 </ul>
 <p>Chaque membre dispose d’une newsletter, qui est envoyée par <a class="reference internal" href="email.html"><span class="std std-doc">son adressse email de membre</span></a>.</p>
 <section id="mise-en-place">
 <h2>Mise en place<a class="headerlink" href="#mise-en-place" title="Link to this heading">#</a></h2>
 <p>La newsletter n’est pas activée par défaut.
-Pour l’initialiser, il faut se <a class="reference internal" href="ssh.html"><span class="std std-doc">connecter en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
-[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
-chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
-Il existe des extensions SSH pour des usages plus spécifiques comme
-[SFTP] ou [SCP]."><a class="reference internal" href="ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr></span></a>
+Pour l’initialiser, il faut se <a class="reference internal" href="ssh.html"><span class="std std-doc">connecter en SSH</span></a>
 et lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
 fournir à une interface en ligne de commande ([CLI]) pour demander à
 un ordinateur d’exécuter une tâche.
@@ -199,7 +195,7 @@ via &quot;STDIN&quot;.
 </pre></div>
 </div>
 <p>Cela déclenche un formulaire vous permettant de définir les quelques réglages possible liés à votre newsletter.
-Pour mettre à jour ces paramêtres, vous pouvez la lancer à nouveau.</p>
+Pour mettre à jour ces paramètres, vous pouvez la lancer à nouveau.</p>
 <section id="configuration-detaillee">
 <h3>Configuration détaillée<a class="headerlink" href="#configuration-detaillee" title="Link to this heading">#</a></h3>
 <p>La commande <code class="docutils literal notranslate"><span class="pre">setup</span></code> crée cinq fichiers <code class="docutils literal notranslate"><span class="pre">.forward+...</span></code> à la racine de votre espace perso.
@@ -208,7 +204,7 @@ Ce dernier contient :</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> fichier brut avec une adresse email par ligne. Vous pouvez l’éditer manuellement pour gérer la liste des destinataires.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">signature.txt</span></code> fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON permettant d’ajuster le titre de la newsletter,
+<li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON définissant le titre de la newsletter,
 le nom d’affichage pour l’adresse d’envoi,
 ainsi que la langue utilisés pour la <a class="reference internal" href="#gestion-par-email">gestion des inscriptions par email</a>.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut servant à sécuriser la confirmation d’inscription. Il s’agit d’un <abbr title="In most operating systems, it is possible to hide files or folders.
@@ -285,11 +281,11 @@ vous pouvez lancer la commande suivante en remplaçant <code class="docutils lit
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+send@club1.fr
 </pre></div>
 </div>
-<p>Vous receverez <strong>une prévisualisation</strong> qui vous permettra de juger du rendu.
+<p><strong>Vous receverez une prévisualisation</strong> qui vous permettra de juger du rendu.
 La seule différance étant que le sujet contiendra <code class="docutils literal notranslate"><span class="pre">(preview)</span></code> en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu’il faut répondre à cet email pour confirmer l’envoi.</p>
-<p>Si vous souhaitez confirmer l’envoi, répondez à cet email de prévisualisation (le contenu de cette réponse n’aura aucune influence).</p>
-<p>À la fin de la diffusuion, vous recevrez un email de confirmation indiquant le statut de l’opération.</p>
+<p>Pour confirmer l’envoi, <strong>répondez à cet email de prévisualisation</strong> (le contenu de cette réponse n’aura aucune influence).</p>
+<p>À la fin de la diffusuion, vous recevrez un email indiquant le statut de l’opération.</p>
 </section>
 <section id="via-ssh">
 <h3>Via SSH<a class="headerlink" href="#via-ssh" title="Link to this heading">#</a></h3>
@@ -327,7 +323,7 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 <p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut les entourer de guillemets !</p>
 </div>
 <p>Le programe va vous envoyer <strong>une prévisualisation par email</strong>.
-Il vous restera à confirmer ou non l’envoi de manière interactive.</p>
+Il vous restera à confirmer ou non l’envoi dans votre terminal.</p>
 <section id="contenu-via-stdin">
 <h4>contenu via STDIN<a class="headerlink" href="#contenu-via-stdin" title="Link to this heading">#</a></h4>
 <p>Il est également possible d’omettre le second argument et de fournir le contenu via STDIN.</p>
@@ -390,7 +386,7 @@ Le contenu peut alternativement être fourni via <code class="docutils literal n
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-01-18-g3edd
+		v: 2026-01-18-ge771
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
