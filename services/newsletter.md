@@ -143,12 +143,10 @@ La commande
 ```{commande} newsletter
 Commande permettant d'envoyer ou d'ajuster les réglages de votre newsletter personnelle.
 Elle dispose de deux sous-commandes : `setup` pour la mise en place et `send` pour l'envoi.
+L'envoi nécessite des arguments supplémentaires.
+Le contenu peut alternativement être fourni via `STDIN`.
 
-    newsletter setup
-
-C'est une commande *interactive* qui lance un formulaire de paramétrage.
-
-    newsletter send SUJET FICHIER_DU_CONTENU
+    newsletter send SUJET [FICHIER_DU_CONTENU]
 
 💡 Pour accéder à l'aide, on peut utiliser `newsletter -h`.
 ```
