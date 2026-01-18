@@ -61,13 +61,8 @@ Dans les adresses présentés ci-dessous, `IDENTIFIANT` correspond à votre [ide
 
 ````{tip}
 Pour proposer aux personnes de s'isncrire à votre newsletter depuis votre site Web,
-vous pouvez insérer des liens {term}`HTML` en utilisant le préfix `mailto:` devant l'addresse email.
-
-Exemple :
-
-```html
-<a href="mailto:IDENTIFIANT+subscribe@club1.fr">inscription à ma newsletter !</a>
-```
+vous pouvez insérer des liens {term}`HTML`
+[en utilisant le préfixe `mailto:`devant l'addresse email](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Structuring_content/Creating_links#liens_de_courriel).
 ````
 
 #### Inscription
