@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=984b0ba3"></script>
+        <script src="../_static/documentation_options.js?v=f1462812"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -192,13 +192,11 @@ texte de la commande, puis appuyer sur &quot;Entrée&quot;.
 Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> <abbr title="Commande permettant d’envoyer ou d’ajuster les réglages de votre
 newsletter personnelle. Elle dispose de deux sous-commandes : &quot;setup&quot;
-pour la mise en place et &quot;send&quot; pour l’envoi.
+pour la mise en place et &quot;send&quot; pour l’envoi. L’envoi nécessite des
+arguments supplémentaires. Le contenu peut alternativement être fourni
+via &quot;STDIN&quot;.
 
-   newsletter setup
-
-C’est une commande interactive qui lance un formulaire de paramétrage.
-
-   newsletter send SUJET FICHIER_DU_CONTENU
+   newsletter send SUJET [FICHIER_DU_CONTENU]
 
 💡 Pour accéder à l’aide, on peut utiliser &quot;newsletter -h&quot;."><a class="reference internal" href="#commande-newsletter"><code class="xref std std-commande docutils literal notranslate"><span class="pre">newsletter</span></code></a></abbr> avec la sous-commande <code class="docutils literal notranslate"><span class="pre">setup</span></code> :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter setup
@@ -351,12 +349,10 @@ Il vous restera à confirmer ou non l’envoi de manière interactive.</p>
 <dt class="sig sig-object std" id="commande-newsletter">
 <span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#commande-newsletter" title="Lien vers cette définition">#</a></dt>
 <dd><p>Commande permettant d’envoyer ou d’ajuster les réglages de votre newsletter personnelle.
-Elle dispose de deux sous-commandes : <code class="docutils literal notranslate"><span class="pre">setup</span></code> pour la mise en place et <code class="docutils literal notranslate"><span class="pre">send</span></code> pour l’envoi.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter setup
-</pre></div>
-</div>
-<p>C’est une commande <em>interactive</em> qui lance un formulaire de paramétrage.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET FICHIER_DU_CONTENU
+Elle dispose de deux sous-commandes : <code class="docutils literal notranslate"><span class="pre">setup</span></code> pour la mise en place et <code class="docutils literal notranslate"><span class="pre">send</span></code> pour l’envoi.
+L’envoi nécessite des arguments supplémentaires.
+Le contenu peut alternativement être fourni via <code class="docutils literal notranslate"><span class="pre">STDIN</span></code>.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET [FICHIER_DU_CONTENU]
 </pre></div>
 </div>
 <p>💡 Pour accéder à l’aide, on peut utiliser <code class="docutils literal notranslate"><span class="pre">newsletter</span> <span class="pre">-h</span></code>.</p>
@@ -403,7 +399,7 @@ Elle dispose de deux sous-commandes : <code class="docutils literal notranslate
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-01-18-g4501
+		v: 2026-01-18-g83f7
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
