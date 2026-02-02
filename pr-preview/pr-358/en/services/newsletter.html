@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=2eae0e22"></script>
+        <script src="../_static/documentation_options.js?v=b8938cc5"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -107,6 +107,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#via-ssh">Via SSH</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#consultation-des-logs">Consultation des logs</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-commande">La commande</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#logiciels">Software</a></li>
 </ul>
@@ -325,6 +326,20 @@ Il vous restera à confirmer ou non l’envoi dans votre terminal.</p>
 </section>
 </section>
 </section>
+<section id="consultation-des-logs">
+<h2>Consultation des logs<a class="headerlink" href="#consultation-des-logs" title="Link to this heading">#</a></h2>
+<p>Les <abbr title="Originally refers to the logbook of a ship. In computing it is a
+journal containing a history of events, usually in the form of a plain
+text file."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> de ce service sont envoyés dans le <a class="reference external" href="https://en.wikipedia.org/wiki/Syslog">Syslog</a> avec le tag <code class="docutils literal notranslate"><span class="pre">newsletter</span></code>.
+Pour les consulter, il est possible d’utiliser la commande <code class="docutils literal notranslate"><span class="pre">journalctl</span></code> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>journalctl -t newsletter
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Le manuel de cette commande : <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/journalctl.1.en">journalctl.1</a></em></p>
+</div>
+</section>
 <section id="la-commande">
 <h2>La commande<a class="headerlink" href="#la-commande" title="Link to this heading">#</a></h2>
 <dl class="std commande">
@@ -381,7 +396,7 @@ Le contenu peut alternativement être fourni dans l’entrée standard.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-02-02-g9cfd
+		v: 2026-02-02-g9ae1
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
