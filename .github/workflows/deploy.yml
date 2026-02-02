@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0 # clone full repo to get last-updated dates
       - name: Install apt packages
         run: >
-          sudo apt-get install --no-install-recommends -y
+          sudo apt-get update && sudo apt-get install --no-install-recommends -y
           graphviz
           gettext
           latexmk
