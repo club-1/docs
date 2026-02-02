@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=1e379e80"></script>
+        <script src="../_static/documentation_options.js?v=2eae0e22"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -186,7 +186,7 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 newsletter personnelle. Elle dispose de deux sous-commandes : &quot;setup&quot;
 pour la mise en place et &quot;send&quot; pour l’envoi. L’envoi nécessite des
 arguments supplémentaires. Le contenu peut alternativement être fourni
-via &quot;STDIN&quot;.
+dans l’entrée standard.
 
    newsletter send SUJET [FICHIER_DU_CONTENU]
 
@@ -234,7 +234,7 @@ tandis que vous gardez un <a class="reference internal" href="#gestion-manuelle"
 <section id="gestion-par-email">
 <h3>Gestion par email<a class="headerlink" href="#gestion-par-email" title="Link to this heading">#</a></h3>
 <p>Pour les personnes qui souhaiterait s’abonner à votre newsletter, l’inscription et la désinscription se fait par email.
-Elles doivent envoyer à une addresse précise un email depuis l’addresse qu’elles souhaient inscrire ou désinscire.
+Elles doivent envoyer à une adresse précise un email depuis l’adresse qu’elles souhaitent inscrire ou désinscrire.
 Le contenu n’aura aucune incidence.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -272,15 +272,15 @@ vous pouvez éditer ce fichier avec un éditeur de texte pour modifier la liste 
 <section id="par-email">
 <h3>Par email<a class="headerlink" href="#par-email" title="Link to this heading">#</a></h3>
 <p>Pour diffuser une newsletter par email,
-écrivez un email à l’addresse suivante en remplissant le sujet et le contenu.</p>
+écrivez un email à l’adresse suivante en remplissant le sujet et le contenu.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+send@club1.fr
 </pre></div>
 </div>
 <p><strong>Vous receverez une prévisualisation</strong> qui vous permettra de juger du rendu.
-La seule différance étant que le sujet contiendra <code class="docutils literal notranslate"><span class="pre">(preview)</span></code> en plus de votre sujet
+La seule différence étant que le sujet contiendra <code class="docutils literal notranslate"><span class="pre">(preview)</span></code> en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu’il faut répondre à cet email pour confirmer l’envoi.</p>
 <p>Pour confirmer l’envoi, <strong>répondez à cet email de prévisualisation</strong> (le contenu de cette réponse n’aura aucune influence).</p>
-<p>À la fin de la diffusuion, vous recevrez un email indiquant le statut de l’opération.</p>
+<p>À la fin de la diffusion, vous recevrez un email indiquant le statut de l’opération.</p>
 </section>
 <section id="via-ssh">
 <h3>Via SSH<a class="headerlink" href="#via-ssh" title="Link to this heading">#</a></h3>
@@ -311,7 +311,7 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 </div>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">SUJET</span></code> sera utilisé comme sujet de l’email</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu’il faut avoir créé au préalable).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> doit indiquer le chemin vers un fichier contenant le corps de la newsletter (qu’il faut avoir créé au préalable).</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -319,9 +319,9 @@ Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
 </div>
 <p>Le programe va vous envoyer <strong>une prévisualisation par email</strong>.
 Il vous restera à confirmer ou non l’envoi dans votre terminal.</p>
-<section id="contenu-via-stdin">
-<h4>contenu via STDIN<a class="headerlink" href="#contenu-via-stdin" title="Link to this heading">#</a></h4>
-<p>Il est également possible d’omettre le second argument et de fournir le contenu via STDIN.</p>
+<section id="contenu-via-l-entree-standard">
+<h4>contenu via l’entrée standard<a class="headerlink" href="#contenu-via-l-entree-standard" title="Link to this heading">#</a></h4>
+<p>Il est également possible d’omettre le second argument et de fournir le contenu dans l’entrée standard.</p>
 </section>
 </section>
 </section>
@@ -333,7 +333,7 @@ Il vous restera à confirmer ou non l’envoi dans votre terminal.</p>
 <dd><p>Commande permettant d’envoyer ou d’ajuster les réglages de votre newsletter personnelle.
 Elle dispose de deux sous-commandes : <code class="docutils literal notranslate"><span class="pre">setup</span></code> pour la mise en place et <code class="docutils literal notranslate"><span class="pre">send</span></code> pour l’envoi.
 L’envoi nécessite des arguments supplémentaires.
-Le contenu peut alternativement être fourni via <code class="docutils literal notranslate"><span class="pre">STDIN</span></code>.</p>
+Le contenu peut alternativement être fourni dans l’entrée standard.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET [FICHIER_DU_CONTENU]
 </pre></div>
 </div>
@@ -381,7 +381,7 @@ Le contenu peut alternativement être fourni via <code class="docutils literal n
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-01-18-ga082
+		v: 2026-02-02-g9cfd
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
