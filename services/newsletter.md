@@ -126,6 +126,17 @@ Il vous restera à confirmer ou non l'envoi dans votre terminal.
 
 Il est également possible d'omettre le second argument et de fournir le contenu dans l'entrée standard.
 
+Consultation des logs
+---------------------
+
+Les {term}`logs <log>` de ce service sont envoyés dans le [Syslog](https://en.wikipedia.org/wiki/Syslog) avec le tag `newsletter`.
+Pour les consulter, il est possible d'utiliser la commande `journalctl` :
+
+    journalctl -t newsletter
+
+```{seealso}
+Le manuel de cette commande : {manpage}`journalctl.1`
+```
 
 La commande
 -----------
