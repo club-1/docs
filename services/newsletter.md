@@ -54,7 +54,7 @@ tandis que vous gardez un [contrôle manuel sur la liste](#gestion-manuelle).
 ### Gestion par email
 
 Pour les personnes qui souhaiterait s'abonner à votre newsletter, l'inscription et la désinscription se fait par email.
-Elles doivent envoyer à une addresse précise un email depuis l'addresse qu'elles souhaient inscrire ou désinscire.
+Elles doivent envoyer à une adresse précise un email depuis l'adresse qu'elles souhaitent inscrire ou désinscrire.
 Le contenu n'aura aucune incidence.
 
 ```{tip}
@@ -93,17 +93,17 @@ L'envoi d'une newsletter peut se faire [__par email__](#par-email) ou [__via SSH
 ### Par email
 
 Pour diffuser une newsletter par email,
-écrivez un email à l'addresse suivante en remplissant le sujet et le contenu.
+écrivez un email à l'adresse suivante en remplissant le sujet et le contenu.
 
     IDENTIFIANT+send@club1.fr
 
 __Vous receverez une prévisualisation__ qui vous permettra de juger du rendu.
-La seule différance étant que le sujet contiendra `(preview)` en plus de votre sujet
+La seule différence étant que le sujet contiendra `(preview)` en plus de votre sujet
 et à la fin de la signature, un texte indiquant qu'il faut répondre à cet email pour confirmer l'envoi.
 
 Pour confirmer l'envoi, __répondez à cet email de prévisualisation__ (le contenu de cette réponse n'aura aucune influence).
 
-À la fin de la diffusuion, vous recevrez un email indiquant le statut de l'opération.
+À la fin de la diffusion, vous recevrez un email indiquant le statut de l'opération.
 
 ### Via SSH
 
@@ -113,7 +113,7 @@ la {term}`commande` suivante permet de diffuser une newsletter :
     newsletter send SUJET FICHIER_DU_CONTENU
 
 - `SUJET` sera utilisé comme sujet de l'email
-- `FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le corp de la newsletter (qu'il faut avoir créé au préalable).
+- `FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le corps de la newsletter (qu'il faut avoir créé au préalable).
 
 ```{warning}
 Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les entourer de guillemets !
@@ -122,9 +122,9 @@ Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les entourer
 Le programe va vous envoyer __une prévisualisation par email__.
 Il vous restera à confirmer ou non l'envoi dans votre terminal.
 
-#### contenu via STDIN
+#### contenu via l'entrée standard
 
-Il est également possible d'omettre le second argument et de fournir le contenu via STDIN.
+Il est également possible d'omettre le second argument et de fournir le contenu dans l'entrée standard.
 
 
 La commande
@@ -134,7 +134,7 @@ La commande
 Commande permettant d'envoyer ou d'ajuster les réglages de votre newsletter personnelle.
 Elle dispose de deux sous-commandes : `setup` pour la mise en place et `send` pour l'envoi.
 L'envoi nécessite des arguments supplémentaires.
-Le contenu peut alternativement être fourni via `STDIN`.
+Le contenu peut alternativement être fourni dans l'entrée standard.
 
     newsletter send SUJET [FICHIER_DU_CONTENU]
 
