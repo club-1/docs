@@ -70,6 +70,15 @@ commande
    Quelques commandes disponibles sur le serveur : [](./services/ssh.md#sélection-de-commandes)
    ```
 
+CSP
+   (*Content Security Policy*)
+   Mécanisme de sécurité visant à limiter les origines possibles
+   des éléments intégrés à une page {term}`Web`.
+   Cela comprend les medias (image, vidéo, son),
+   mais aussi les feuilles de style ou les scripts *Javascript*.
+   Le {term}`serveur` envoie la CSP au naviguateur Web via l'entête HTTP `Content-Security-Policy`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Content_Security_Policy)
+
 Debian
    Système d'exploitation communautaire basé sur {term}`Linux`,
    composé presque exclusivement de {term}`logiciels libres <logiciel libre>`
