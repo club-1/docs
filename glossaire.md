@@ -70,6 +70,21 @@ commande
    Quelques commandes disponibles sur le serveur : [](./services/ssh.md#sélection-de-commandes)
    ```
 
+CMS
+   (*Content Management System*)
+   Système de gestion de contenu.
+   C'est comme ça que l'on appelle les logiciels permettant de créer et mettre à jour des sites Web.
+   Cette catégorie est très large puisqu'elle comprend les blogs, les forums ou les {term}`wiki`.
+   Un CMS peut être un `site Web dynamique` (comme *Wordpress* ou *Mediawiki*),
+   ou être un générateur de {term}`site statique <site Web statique>`
+   (aussi appelés SSG pour *Static Site Generator*).
+
+   Utiliser un CMS permet de se concentrer sur le contenu,
+   en automatisant la forme que prendront les pages.
+   En contrepartie, les pages sont plus homogènes
+   et moins personnalisables que si on code directement son site en {term}`HTML`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu)
+
 CSP
    (*Content Security Policy*)
    Mécanisme de sécurité visant à limiter les origines possibles
