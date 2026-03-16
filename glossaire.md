@@ -56,8 +56,8 @@ client Web
 
 CMS
    (*Content Management System*)
-   Logiciels permettant de créer et mettre à jour des sites {term}`Web`.
-   Cette catégorie est très large puisqu'elle comprend les blogs, les forums ou les {term}`wiki`.
+   Type de logiciel permettant de créer et mettre à jour des sites {term}`Web`.  
+   Cette catégorie comprend notamment les blogs, les forums ou les {term}`wikis <wiki>`.
 
    Un CMS peut prendre la forme d'un {term}`site dynamique <site Web dynamique>`
    (comme *Wordpress* ou *Mediawiki*),
