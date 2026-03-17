@@ -35,10 +35,9 @@ Interface en ligne de commande
 
 Il est possible de se connecter au serveur SQL directement depuis la {term}`ligne de commande <CLI>`.
 Pour cela, il faut tout d'abord se connecter au serveur en [SSH](ssh.md).
-Ensuite, la {term}`commande` pour démarrer un shell SQL est la suivante
-(votre mot de passe CLUB1 sera demandé) :
+Ensuite, la {term}`commande` pour démarrer un shell SQL est la suivante :
 
-    mysql -p
+    mariadb
 
 Depuis ce shell il est possible de lancer n'importe quelle commande {term}`SQL`.
 
@@ -48,10 +47,22 @@ Informations de connexion
 L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis l'extérieur.
 Il n'est donc possible de s'y connecter que depuis un processus s'exécutant sur le même serveur.
 
+```{important}
+Il est généralement **inutile de renseigner son mot de passe**,
+car les connexions locales vont préférer l'utilisation de la _"socket Unix"_,
+et ainsi s'authentifier automatiquement.
+[C'est en particulier le cas](https://www.php.net/manual/fr/ref.pdo-mysql.connection.php#refsect1-ref.pdo-mysql.connection-notes)
+de {term}`PHP`.
+
+Ne pas renseigner de mot de passe **améliore la sécurité** de votre compte CLUB1,
+puisque ça évite qu'il soit sauvegardé _en clair_ sur le serveur.
+```
+
 | champ            | valeur              |
 | ---------------- | ------------------- |
 | hôte             | `localhost`         |
 | port             | `3306` (par défaut) |
+
 
 Logiciels
 ---------
