@@ -1,0 +1,383 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Première connexion SSH &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/tutos/premiere-connexion-ssh.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=025f4732"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Connexion SSH à l’aide d’une clé publique" href="auth-ssh-avec-cle-publique.html" />
+    <link rel="prev" title="Connexion au serveur depuis l’explorateur de fichiers Linux" href="connexion-linux.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/premiere-connexion-ssh.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/premiere-connexion-ssh.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutoriels</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="presentation.html">Éditer son fichier de présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronisation de calendriers et contacts sur un appareil Android</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">Synchronisation de calendrier CalDAV sur un Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connexion au serveur depuis l’explorateur de fichiers Linux</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Première connexion SSH</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#connexion-avec-le-terminal">Connexion avec le terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-confiance-regne">La confiance règne</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fichier-known-hosts">Fichier <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#connexion-securisee">Connexion sécurisée</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dans-le-serveur">Dans le serveur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Accès à l’espace personnel depuis le Finder d’un Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">Mes premiers pas sur le Web !</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Utiliser Tiny tiny RSS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">4. </span>Tutoriels</a></li>
+      <li class="breadcrumb-item active">Première connexion SSH</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/tutos/premiere-connexion-ssh.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="premiere-connexion-ssh">
+<h1>Première connexion SSH<a class="headerlink" href="#premiere-connexion-ssh" title="Lien vers cette rubrique">#</a></h1>
+<p>Dans ce tuto, nous allons voir comment se connecter au serveur
+pour la première fois en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="../services/ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> de manière <strong>sécurisée</strong>.
+Pour cela, <strong>pas besoin d’installer de logiciels supplémentaire</strong>,
+la majorité des systèmes d’exploitation ont déjà tout le nécessaire pour cette connexion 😌.
+Cela dit, une tisane et un espace calme peuvent s’avérer utiles dans cette aventure.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si vous êtes bloqué·e ou rencontrez un problème, la section « <a class="reference internal" href="../info/general.html#demandes-et-incidents"><span class="std std-ref">Demandes et Incidents</span></a> »
+explique comment en faire part.</p>
+</div>
+<section id="connexion-avec-le-terminal">
+<h2>Connexion avec le terminal<a class="headerlink" href="#connexion-avec-le-terminal" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour effectuer cette connexion SSH,
+nous avons besoin d’ouvrir une fenêtre de <strong><abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
+
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr></strong> ! 🥵
+Pour cela, il faut lancer sur votre ordinateur un programme qui s’appelle en général <code class="docutils literal notranslate"><span class="pre">terminal</span></code> ou <code class="docutils literal notranslate"><span class="pre">console</span></code>.</p>
+<div class="admonition-pour-windows admonition">
+<p class="admonition-title">Pour Windows</p>
+<p>Dans le cas de Windows, il faut utiliser le programme qui s’appelle <code class="docutils literal notranslate"><span class="pre">Powershell</span></code>.
+Comme sa configuration par défaut n’est pas terrible 💩, il faut corriger cela avec la commande suivante :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$PSDefaultParameterValues[&#39;Out-File:Encoding&#39;] = &#39;utf8&#39;
+</pre></div>
+</div>
+<p>Pour « coller » du texte dans <code class="docutils literal notranslate"><span class="pre">Powershell</span></code> on peut faire <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class="kbd docutils literal notranslate">V</kbd>,
+ou simplement un clic droit avec sa souris.</p>
+</div>
+<p>Ne vous laissez pas impressionner par son interface déroutante,
+c’est un outil qui va faire de vous un·e véritable magicien·ne de l’informatique ! 🧙
+Un peu comme des sortilèges, on y lance des <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commandes</span></a></abbr>.</p>
+<blockquote>
+<div><p>Heuuu… mais comment on lance une commande 🤨 ?</p>
+</div></blockquote>
+<p>Dans un terminal, il faut taper le texte d’une commande,
+puis appuyer sur <kbd class="kbd docutils literal notranslate">Entrée</kbd> pour la lancer ! 🪄</p>
+<p>Pour se connecter en SSH, on utilise la commande suivante
+(remplacer <code class="docutils literal notranslate"><span class="pre">USER</span></code> par votre <strong>identifiant</strong> CLUB1) :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr
+</pre></div>
+</div>
+<p>Vous devriez voir s’afficher le message suivant :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>The authenticity of host &#39;club1.fr (***)&#39; can&#39;t be established.
+ED25519 key fingerprint is SHA256:*********.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+</pre></div>
+</div>
+<blockquote>
+<div><p>😱 Houla ! Qu’est ce que c’est que ça ??</p>
+</div></blockquote>
+<p>En fait, c’est normal, <abbr title="Logiciel fournissant à la fois un [serveur] et un [client] [SSH]."><a class="reference internal" href="../services/ssh.html#logiciel-OpenSSH"><span class="xref std std-logiciel">OpenSSH</span></a></abbr> nous averti que l’authentification
+de la connexion n’est pas garantie car votre appareil ne connaît pas <em>encore</em> ce serveur.</p>
+<p>En répondant <code class="docutils literal notranslate"><span class="pre">yes</span></code> à ce message on s’expose à une
+<a class="reference external" href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu">attaque de l’homme du milieu</a> 🥸.
+Nous allons donc répondre <code class="docutils literal notranslate"><span class="pre">no</span></code> pour le moment.
+On reçoit alors le message <code class="docutils literal notranslate"><span class="pre">Host</span> <span class="pre">key</span> <span class="pre">verification</span> <span class="pre">failed.</span></code>,
+ce qui est normal vu que l’on a abandonné en cours de route.</p>
+</section>
+<section id="la-confiance-regne">
+<h2>La confiance règne<a class="headerlink" href="#la-confiance-regne" title="Lien vers cette rubrique">#</a></h2>
+<p>Nous allons rajouter à votre appareil la <strong>clef publique</strong> du serveur CLUB1.
+Cela permet de garantir l’authenticité des réponses du serveur et d’initialiser une connexion chiffrée.
+De cette manière on est certains que l’on a bien affaire au serveur de CLUB1.</p>
+<p>Pour être sûr qu’il s’agit bel et bien de la clef du serveur CLUB1,
+il faut l’acquérir par une autre source que la connexion SSH elle-même
+au cas où celle-ci serait compromise 😮.</p>
+<blockquote>
+<div><p>🤔 Mais alors, qu’est ce qui garanti que la nouvelle source n’est pas elle aussi compromise ?</p>
+</div></blockquote>
+<p>La source de la clef que nous allons utiliser provient du <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
+World Wide Web » (aussi abrégé « www »). Il permet de publier des
+documents et de les relier entre eux à l’aide de liens hypertexte.
+
+Une « page Web » est généralement constituée d’un document dont le
+contenu est rédigé en [HTML] et peut inclure d’autre ressources comme
+des images ou des « feuilles de style ». On appelle « Navigateur Web »
+le [client] utilisé pour y accéder."><a class="reference internal" href="../glossaire.html#term-Web"><span class="xref std std-term">Web</span></a></abbr>,
+à travers une connexion chiffrée et <strong>authentifié</strong> via <abbr title="(Transport Layer Security) [Protocole] permettant de sécuriser les
+échanges réalisés dans un [réseau informatique]. L’une de ses
+fonctionnalités principale est de chiffrer l’ensemble des données
+échangées entre le [client] et le [serveur], afin que personne d’autre
+ne puisse en lire le contenu."><a class="reference internal" href="../glossaire.html#term-TLS"><span class="xref std std-term">TLS</span></a></abbr> 🔒
+(C’est le fameux <code class="docutils literal notranslate"><span class="pre">s</span></code> dans <code class="docutils literal notranslate"><span class="pre">https</span></code>).</p>
+</section>
+<section id="fichier-known-hosts">
+<h2>Fichier <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code><a class="headerlink" href="#fichier-known-hosts" title="Lien vers cette rubrique">#</a></h2>
+<p>Maintenant il ne nous reste plus qu’à écrire la clef du serveur dans un fichier.
+Les commandes suivantes font tout ça pour vous ! 🪄</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.ssh
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;club1.fr ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFQJRiEKM9iywtuvjLD7Wvp6F7VqM6ocuc0Q05LGKU6&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.ssh/known_hosts
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Dans une fenêtre de terminal, il est généralement possible de « coller » un texte
+en faisant « Clic droit » → <span class="guilabel">Coller</span>.
+Ou encore <kbd class="kbd docutils literal notranslate">Ctrl</kbd> + <kbd class="kbd docutils literal notranslate">Shift</kbd> + <kbd class="kbd docutils literal notranslate">V</kbd>.</p>
+</div>
+<p>Si tout s’est bien passé, cela a ajouté une ligne de texte contenant la clef 🔑,
+à un fichier sur votre appareil.
+Ce fichier s’appelle <code class="docutils literal notranslate"><span class="pre">known_hosts</span></code>, <em>serveurs connus</em>.
+Il se trouve dans un dossier <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">(caché)</span></a></abbr> <code class="docutils literal notranslate"><span class="pre">.ssh</span></code>,
+lui-même au sein de votre espace personnel sur votre appareil.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Le dossier correspondant à votre espace personnel
+porte généralement le nom de votre utilisateur sur cet appareil.</p>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>📁 UTILISATEUR
+├─ 📁 .ssh
+│  └─ 📄 known_hosts    👈🏽
+├─ 📁 Documents
+├─ 📁 Images
+...
+</pre></div>
+</div>
+</section>
+<section id="connexion-securisee">
+<h2>Connexion sécurisée<a class="headerlink" href="#connexion-securisee" title="Lien vers cette rubrique">#</a></h2>
+<p>Maintenant que l’on a passé toutes ces étapes,
+Vous devriez pouvoir vous <a class="reference internal" href="#connexion-avec-le-terminal">connecter en SSH</a>
+sans voir le message d’alerte.</p>
+<p>On lance à nouveau la commande :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>ssh USER@club1.fr
+</pre></div>
+</div>
+<p>Cette fois ci, il vous faudra alors entrer votre <strong>mot de passe</strong> CLUB1.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Lorsque vous tapez votre mot de passe, rien ne s’affiche !
+C’est normal, il s’agit d’une mesure de sécurité
+qui permet de ne même pas révéler le nombre de caractères du mot de passe. 🤫</p>
+</div>
+</section>
+<section id="dans-le-serveur">
+<h2>Dans le serveur<a class="headerlink" href="#dans-le-serveur" title="Lien vers cette rubrique">#</a></h2>
+<p>Félicitation 🎉, vous êtes maintenant connecté·e au serveur en SSH !
+C’est un accès privilégié,
+car c’est celui qui vous donne le plus de libertés d’interactions avec le serveur.</p>
+<p>🍾 Pour fêter ça, voici <a class="reference internal" href="../services/ssh.html#selection-de-commandes"><span class="std std-ref">une petite sélection de commandes à découvrir</span></a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="connexion-linux.html" class="btn btn-neutral float-left" title="Connexion au serveur depuis l’explorateur de fichiers Linux" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="auth-ssh-avec-cle-publique.html" class="btn btn-neutral float-right" title="Connexion SSH à l’aide d’une clé publique" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2026, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2026-04-10-gc963
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/tutos/premiere-connexion-ssh.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/tutos/premiere-connexion-ssh.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
