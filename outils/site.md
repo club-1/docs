@@ -7,6 +7,10 @@ Peu de connaissances techniques sont requises :
 Le contenu est formaté en {term}`Markdown`
 et la mise en page utilise le duo {term}`HTML` + CSS.
 
+```{tip}
+Une fois connecté, on peut accéder à [l'interface qui documente l'usage du wiki](https://club1.fr/!info).
+```
+
 Les discussions à ce sujet sont [rassemblées sur le forum avec le tag {guilabel}`site web`](https://forum.club1.fr/t/site-web).
 
 Il y a aussi un salon {term}`Matrix` dédié à l'édition du site : [`#site-web:club1.fr`](matrix:r/site-web:club1.fr)
@@ -19,43 +23,16 @@ Le compte de membre CLUB1 permet d'accèder à l'interface d'édition du site We
 Pour s'y connecter, on peut utiliser l'adresse suivante :
 <https://club1.fr/!co> et rensigner son identifiant et mot de passe de membre.
 
-Lors de la première connexion, un compte est automatiquement créé avec le niveau "editor".
-Ce statut permet de [créer des pages](#création-dune-page),
-de mettre en ligne des médias et d'autoriser d'autres comptes à modifier ses pages.
-Cela ne permet donc pas directement de [modifier une page existante](#édition-dune-page-existante).
-Pour y participer il faudra être ajouté à la liste des auteur·ices.
-Cette limitation vise à éviter des modifications malencontreuses
-qui risquent d'avoir lieu lorsque l'on découvre un nouveau logiciel.
+Lors de la première connexion, un compte est automatiquement créé avec le niveau "super editor".
+C'est le rang d'édition le plus élevé : il permet d'éditer n'importe quelle page.
 
-Qu'à cela ne tienne :
-Essayez de **créer vos premières pages** !
-Elles resterons discrètes tant qu'aucun lien n'y mène.
+```{warning}
+Ce niveau permet aussi de faire beaucoup de dégats,
+mais on pense que c'est un bon compromis pour faciliter la participation.
 
-Une fois que l'interface vous semble plus familière,
-vous pouvez demander à être ajouté en tant qu'auteur·ice des pages que vous souhaitez modifier.
-Pour cela, un endroit idéal est le salon de discussion _Matrix_ cité plus haut.
-Pour avoir des droits supplémentaires, il peut être intéressant de passer au rôle "super editor",
-qui n'a *aucune limite* 💣️.
-
-```{tip}
-Une fois connecté, on peut accéder à [l'interface qui documente l'usage du wiki](https://club1.fr/!info).
+Plus d'info sur [le forum](https://forum.club1.fr/d/275) concernant ce choix.
 ```
 
-Création d'une page
--------------------
-
-Pour ajouter une page, il faut écrire son titre dans la barre d'URL après `https://club1.fr/`,
-puis rajouter `/add` à la fin.
-
-    https://club1.fr/MA_NOUVELLE_PAGE/add
-
-Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page.
-
-```{note}
-{logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en **identifiant officiel de la page**,
-en simplifiant le titre que vous aurez choisi.
-Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.
-```
 
 Édition d'une page existante
 ----------------------------
@@ -78,6 +55,22 @@ Le style de la page est lui aussi éditable via l'onglet {guilabel}`css`.
 ```{tip}
 Lorsque l'on fait des modifications sur le site Web,
 il est bienvenu de le notifier en écrivant un résumé des actions dans le salon _Matrix_ dédié.
+```
+
+Création d'une page
+-------------------
+
+Pour ajouter une page, il faut écrire son titre dans la barre d'URL après `https://club1.fr/`,
+puis rajouter `/add` à la fin.
+
+    https://club1.fr/MA_NOUVELLE_PAGE/add
+
+Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page.
+
+```{note}
+{logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en **identifiant officiel de la page**,
+en simplifiant le titre que vous aurez choisi.
+Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.
 ```
 
 Administration
