@@ -171,20 +171,19 @@ Pressez la touche {kbd}`Q` pour quitter.
 Partage des ressources
 ----------------------
 
-Les commandes peuvent consommer des ressources de calcul.
+Les commandes peuvent **consommer des ressources de calcul**.
 Dans ce cas c'est le [processeur](../info/infrastructure-materielle.md#processeur) du serveur qui va charboner !
-
 Si un·e membre monopolise les 4 processeurs avec une commande,
 ils ne seront pas disponibles pour les autres processus.
 
-Lorsque l'on veut lancer une commande un peu gourmande en ressource
+Si on souhaite lancer une tâche un peu gourmande en ressource
 et qu'on veut être sûr de ne pas ralentir les autres usages du serveur,
 on peut utiliser la commande suivante :
 
 ```{commande} nice
 
 Permet d'augmenter la politesse d'une commande.
-(Cette dernière laissera la place aux autres en proprité)
+(Cette dernière laissera la place aux autres en priorité)
 
     nice COMMANDE
 
