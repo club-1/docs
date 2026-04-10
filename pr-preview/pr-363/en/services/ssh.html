@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=8ad3ab30"></script>
+        <script src="../_static/documentation_options.js?v=5e8b9005"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -427,18 +427,18 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 </section>
 <section id="partage-des-ressources">
 <h2>Partage des ressources<a class="headerlink" href="#partage-des-ressources" title="Link to this heading">#</a></h2>
-<p>Les commandes peuvent consommer des ressources de calcul.
-Dans ce cas c’est le <a class="reference internal" href="../info/infrastructure-materielle.html#processeur"><span class="std std-ref">processeur</span></a> du serveur qui va charboner !</p>
-<p>Si un·e membre monopolise les 4 processeurs avec une commande,
+<p>Les commandes peuvent <strong>consommer des ressources de calcul</strong>.
+Dans ce cas c’est le <a class="reference internal" href="../info/infrastructure-materielle.html#processeur"><span class="std std-ref">processeur</span></a> du serveur qui va charboner !
+Si un·e membre monopolise les 4 processeurs avec une commande,
 ils ne seront pas disponibles pour les autres processus.</p>
-<p>Lorsque l’on veut lancer une commande un peu gourmande en ressource
+<p>Si on souhaite lancer une tâche un peu gourmande en ressource
 et qu’on veut être sûr de ne pas ralentir les autres usages du serveur,
 on peut utiliser la commande suivante :</p>
 <dl class="std commande">
 <dt class="sig sig-object std" id="commande-nice">
 <span class="sig-name descname"><span class="pre">nice</span></span><a class="headerlink" href="#commande-nice" title="Link to this definition">#</a></dt>
 <dd><p>Permet d’augmenter la politesse d’une commande.
-(Cette dernière laissera la place aux autres en proprité)</p>
+(Cette dernière laissera la place aux autres en priorité)</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>nice COMMANDE
 </pre></div>
 </div>
@@ -501,7 +501,7 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-04-10-gc963
+		v: 2026-04-10-g4ed8
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
