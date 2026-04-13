@@ -54,6 +54,21 @@ client
 client Web
    {term}`Client` accessible via le {term}`Web` et ainsi exécuté par un Navigateur web.
 
+CMS
+   (*Content Management System*)
+   Type de logiciel permettant de créer et mettre à jour des sites {term}`Web`.  
+   Cette catégorie comprend notamment les blogs, les forums ou les {term}`wikis <wiki>`.
+
+   Un CMS peut prendre la forme d'un {term}`site dynamique <site Web dynamique>`
+   (comme *Wordpress* ou *Mediawiki*),
+   ou être un "générateur de {term}`site statique <site Web statique>`".
+
+   Utiliser un CMS permet de se **concentrer sur le contenu**,
+   en automatisant la forme que prendront les pages.
+   En contrepartie, **les pages sont plus homogènes
+   et moins personnalisables** que si on code directement son site en {term}`HTML`.
+   --- [Wikipedia](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu)
+
 commande
    Une commande informatique est une sorte de phrase
    que l'on peut fournir à une interface en ligne de commande ({term}`CLI`)
