@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=1e17a796"></script>
+        <script src="../_static/documentation_options.js?v=4449de65"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -88,8 +88,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">5. Outils</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Site Web de CLUB1</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#compte-et-niveaux">Compte et niveaux</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#creation-d-une-page">Création d’une page</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#edition-d-une-page-existante">Édition d’une page existante</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creation-d-une-page">Création d’une page</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#administration">Administration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#moteur-de-wiki">Moteur de wiki</a></li>
 </ul>
@@ -166,6 +166,10 @@ avantage par rapport au HTML est sa syntaxe épurée, ce qui le rend
 plus agréable à lire et à écrire pour un humain."><a class="reference internal" href="../glossaire.html#term-Markdown"><span class="xref std std-term">Markdown</span></a></abbr>
 et la mise en page utilise le duo <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
 les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> + CSS.</p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Une fois connecté, on peut accéder à <a class="reference external" href="https://club1.fr/!info">l’interface qui documente l’usage du wiki</a>.</p>
+</div>
 <p>Les discussions à ce sujet sont <a class="reference external" href="https://forum.club1.fr/t/site-web">rassemblées sur le forum avec le tag <span class="guilabel">site web</span></a>.</p>
 <p>Il y a aussi un salon <abbr title="[Protocole] de messagerie instantanée **décentralisé**.
 
@@ -178,41 +182,13 @@ une « cohérence à terme »."><a class="reference internal" href="../service
 <p>Le compte de membre CLUB1 permet d’accèder à l’interface d’édition du site Web.
 Pour s’y connecter, on peut utiliser l’adresse suivante :
 <a class="reference external" href="https://club1.fr/!co">https://club1.fr/!co</a> et rensigner son identifiant et mot de passe de membre.</p>
-<p>Lors de la première connexion, un compte est automatiquement créé avec le niveau « editor ».
-Ce statut permet de <a class="reference internal" href="#creation-d-une-page">créer des pages</a>,
-de mettre en ligne des médias et d’autoriser d’autres comptes à modifier ses pages.
-Cela ne permet donc pas directement de <a class="reference internal" href="#edition-d-une-page-existante">modifier une page existante</a>.
-Pour y participer il faudra être ajouté à la liste des auteur·ices.
-Cette limitation vise à éviter des modifications malencontreuses
-qui risquent d’avoir lieu lorsque l’on découvre un nouveau logiciel.</p>
-<p>Qu’à cela ne tienne :
-Essayez de <strong>créer vos premières pages</strong> !
-Elles resterons discrètes tant qu’aucun lien n’y mène.</p>
-<p>Une fois que l’interface vous semble plus familière,
-vous pouvez demander à être ajouté en tant qu’auteur·ice des pages que vous souhaitez modifier.
-Pour cela, un endroit idéal est le salon de discussion <em>Matrix</em> cité plus haut.
-Pour avoir des droits supplémentaires, il peut être intéressant de passer au rôle « super editor »,
-qui n’a <em>aucune limite</em> 💣️.</p>
-<div class="admonition tip">
-<p class="admonition-title">Astuce</p>
-<p>Une fois connecté, on peut accéder à <a class="reference external" href="https://club1.fr/!info">l’interface qui documente l’usage du wiki</a>.</p>
-</div>
-</section>
-<section id="creation-d-une-page">
-<h2>Création d’une page<a class="headerlink" href="#creation-d-une-page" title="Lien vers cette rubrique">#</a></h2>
-<p>Pour ajouter une page, il faut écrire son titre dans la barre d’URL après <code class="docutils literal notranslate"><span class="pre">https://club1.fr/</span></code>,
-puis rajouter <code class="docutils literal notranslate"><span class="pre">/add</span></code> à la fin.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://club1.fr/MA_NOUVELLE_PAGE/add
-</pre></div>
-</div>
-<p>Ici, <code class="docutils literal notranslate"><span class="pre">MA_NOUVELLE_PAGE</span></code> est le nom de votre future page.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><abbr title="Moteur de [wiki] écrit en [PHP]. Son but est de croiser la prise de
-note avec l’édition de site [Web] en encourageant l’édition spontanée
-de pages aux styles variés."><a class="reference internal" href="#logiciel-W"><span class="xref std std-logiciel">W</span></a></abbr> va s’occuper de transformer le nom que vous avez choisi en <strong>identifiant officiel de la page</strong>,
-en simplifiant le titre que vous aurez choisi.
-Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.</p>
+<p>Lors de la première connexion, un compte est automatiquement créé avec le niveau « super editor ».
+C’est le rang d’édition le plus élevé : il permet d’éditer n’importe quelle page.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Ce niveau permet aussi de faire beaucoup de dégats,
+mais on pense que c’est un bon compromis pour faciliter la participation.</p>
+<p>Plus d’info sur <a class="reference external" href="https://forum.club1.fr/d/275">le forum</a> concernant ce choix.</p>
 </div>
 </section>
 <section id="edition-d-une-page-existante">
@@ -238,6 +214,23 @@ Le style de la page est lui aussi éditable via l’onglet <span class="guilabel
 <p class="admonition-title">Astuce</p>
 <p>Lorsque l’on fait des modifications sur le site Web,
 il est bienvenu de le notifier en écrivant un résumé des actions dans le salon <em>Matrix</em> dédié.</p>
+</div>
+</section>
+<section id="creation-d-une-page">
+<h2>Création d’une page<a class="headerlink" href="#creation-d-une-page" title="Lien vers cette rubrique">#</a></h2>
+<p>Pour ajouter une page, il faut écrire son titre dans la barre d’URL après <code class="docutils literal notranslate"><span class="pre">https://club1.fr/</span></code>,
+puis rajouter <code class="docutils literal notranslate"><span class="pre">/add</span></code> à la fin.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://club1.fr/MA_NOUVELLE_PAGE/add
+</pre></div>
+</div>
+<p>Ici, <code class="docutils literal notranslate"><span class="pre">MA_NOUVELLE_PAGE</span></code> est le nom de votre future page.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><abbr title="Moteur de [wiki] écrit en [PHP]. Son but est de croiser la prise de
+note avec l’édition de site [Web] en encourageant l’édition spontanée
+de pages aux styles variés."><a class="reference internal" href="#logiciel-W"><span class="xref std std-logiciel">W</span></a></abbr> va s’occuper de transformer le nom que vous avez choisi en <strong>identifiant officiel de la page</strong>,
+en simplifiant le titre que vous aurez choisi.
+Cet identifiant de votre page est unique et fixe, il ne pourra pas être changé par la suite.</p>
 </div>
 </section>
 <section id="administration">
@@ -324,7 +317,7 @@ en encourageant l’édition spontanée de pages aux styles variés.
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-04-13-g8926
+		v: 2026-04-15-gbe23
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
