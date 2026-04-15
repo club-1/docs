@@ -171,7 +171,7 @@ Pressez la touche {kbd}`Q` pour quitter.
 Partage des ressources
 ----------------------
 
-Les commandes peuvent **consommer des ressources de calcul**.
+Les {term}`commandes <commande>` peuvent **consommer des ressources de calcul**.
 Dans ce cas c'est le [processeur](../info/infrastructure-materielle.md#processeur) du serveur qui va charbonner !
 Si un·e membre monopolise les 4 processeurs avec une commande,
 ils ne seront pas disponibles pour les autres processus.
