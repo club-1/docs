@@ -168,6 +168,35 @@ Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`man.1`
 ```
 
+Partage des ressources
+----------------------
+
+Les {term}`commandes <commande>` peuvent **consommer des ressources de calcul**.
+Dans ce cas c'est le [processeur](../info/infrastructure-materielle.md#processeur) du serveur qui va charbonner !
+Si un·e membre monopolise les 4 processeurs avec une commande,
+ils ne seront pas disponibles pour les autres processus.
+
+Si on souhaite lancer une tâche un peu gourmande en ressource
+et qu'on veut être sûr de ne pas ralentir les autres usages du serveur,
+on peut utiliser la commande suivante :
+
+```{commande} nice
+
+Permet d'augmenter la politesse d'une commande.
+(Cette dernière laissera la place aux autres en priorité)
+
+    nice COMMANDE
+
+En remplaçant `COMMANDE` par la commande qui sera lancée poliment.
+--- Manuel : {manpage}`nice.1`
+```
+
+```{tip}
+Pour visualiser la consommation de ressource du serveur,
+on peut consulter le [tableau de bord](/outils/dashboard.md) ou utiliser {commande}`htop`.
+```
+
+
 Logiciels
 ---------
 
