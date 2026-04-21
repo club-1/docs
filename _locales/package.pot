@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
-"POT-Creation-Date: 2025-08-14 22:04+0200\n"
+"POT-Creation-Date: 2026-04-21 15:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -316,9 +316,9 @@ msgstr ""
 
 #: ../../faq.md:21
 msgid ""
-"Pour le moment, la seule manière de modifier son mot de passe de membre "
-"CLUB1 est de lancer la {term}`commande` {commande}`passwd` à partir d'une "
-"[connexion SSH](services/ssh.md)."
+"La seule manière de modifier son mot de passe de membre CLUB1 est de lancer "
+"la {term}`commande` {commande}`passwd` à partir d'une [connexion SSH]"
+"(services/ssh.md)."
 msgstr ""
 
 #: ../../faq.md:25
@@ -334,23 +334,29 @@ msgstr ""
 
 #: ../../faq.md:31
 msgid ""
-"Il n'y a rien de prévu actuellement pour permettre aux membres de modifier "
-"leur [identifiant CLUB1](./info/general.md#identifiant). En effet cet "
-"identifiant est assez largement utilisé à différents niveaux, notamment pour "
-"les adresses email, les pages Web statiques et les bases de données."
+"Il n'est pas possible pour les membres de modifier leur [identifiant CLUB1]"
+"(./info/general.md#identifiant). En effet cet identifiant est assez "
+"largement utilisé à différents niveaux, notamment pour les adresses email, "
+"les pages Web statiques et les bases de données."
 msgstr ""
 
 #: ../../faq.md:35
+msgid ""
+"Il est cependant possible de créer un nouveau compte avec un autre "
+"identifiant et d'y déplacer petit-à-petit ses projets."
+msgstr ""
+
+#: ../../faq.md:38
 msgid ""
 "Est-ce que je peux héberger mes emails chez CLUB1 avec mon nom de domaine et "
 "créer plein d'adresses indépendantes ?"
 msgstr ""
 
-#: ../../faq.md:37
+#: ../../faq.md:40
 msgid "Réponse courte : NON"
 msgstr ""
 
-#: ../../faq.md:39
+#: ../../faq.md:42
 msgid ""
 "Réponse longue : CLUB1 fournit **[une seule boîte email](/services/email.md) "
 "par compte de membre** avec une adresse principale et toutes ses [sous-"
@@ -359,17 +365,17 @@ msgid ""
 "réception supplémentaires."
 msgstr ""
 
-#: ../../faq.md:46
+#: ../../faq.md:49
 msgid "Est-il possible d'héberger un site Web avec un domaine externe ?"
 msgstr ""
 
-#: ../../faq.md:48
+#: ../../faq.md:51
 msgid ""
 "**C'est possible**, cependant il y a une contrainte technique : ⚠️ Il est "
 "nécessaire d'utiliser **un sous-domaine de votre {term}`nom de domaine`**."
 msgstr ""
 
-#: ../../faq.md:51
+#: ../../faq.md:54
 msgid ""
 "Par exemple, si vous possédez `crevette.com`, il ne sera pas possible "
 "d'héberger le site `https://crevette.com` sur le serveur CLUB1. Il faudra "
@@ -377,7 +383,7 @@ msgid ""
 "autre chose que `www`, mais c'est une convention pour le {term}`Web`)"
 msgstr ""
 
-#: ../../faq.md:56
+#: ../../faq.md:59
 msgid ""
 "Concrètement, il s'agit d'ajouter un enregistrement CNAME pour `www` "
 "pointant vers `club1.fr`. Utiliser un CNAME permet de créer un {term}`alias` "
@@ -386,38 +392,43 @@ msgid ""
 "son nom de domaine ne changera pas."
 msgstr ""
 
-#: ../../faq.md:62
+#: ../../faq.md:65
 msgid ""
 "Chez certains {term}`registraires <registraire>`, il est possible de créer "
 "une redirection HTTP automatique depuis votre nom de domaine vers le sous-"
-"domaine de votre choix."
+"domaine de votre choix. Cela peut servir à rediriger les requettes pour "
+"votre domaine vers le sous-domaine que vous aurez choisi pour votre site."
 msgstr ""
 
-#: ../../faq.md:68
+#: ../../faq.md:71
+msgid "Exemple: `https://crevette.com` → `https://www.crevette.com`."
+msgstr ""
+
+#: ../../faq.md:75
 msgid ""
 "La [documentation de Deuxfleurs](https://guide.deuxfleurs.fr/services/dns-"
 "cname-apex/) (un autre hébergeur, membre des CHATONS) apporte plus de "
 "détails par rapport à cette limitation."
 msgstr ""
 
-#: ../../faq.md:72
+#: ../../faq.md:79
 msgid "Quel espace est-ce-que j'occupe sur le serveur ?"
 msgstr ""
 
-#: ../../faq.md:74
+#: ../../faq.md:81
 msgid ""
 "À part [pour les emails](./services/email.md#quotas), il n'est défini "
 "**aucun quota pour les espaces personnel**."
 msgstr ""
 
-#: ../../faq.md:77
+#: ../../faq.md:84
 msgid ""
 "Pour avoir une estimation de l'espace occupé par son [dossier personnel](/"
 "info/espace-personnel.md), on peut lancer la {term}`commande` suivante, une "
 "fois [connecté en SSH](/services/ssh.md) :"
 msgstr ""
 
-#: ../../faq.md:82
+#: ../../faq.md:89
 msgid ""
 "Si vous avez envie de réduire le poids de votre dossier, mais que vous ne "
 "savez pas par où commencer, la commande {commande}`ncdu` est faite pour "
@@ -425,18 +436,18 @@ msgid ""
 "d'espace dans vos fichiers et dossiers."
 msgstr ""
 
-#: ../../faq.md:88
+#: ../../faq.md:95
 msgid ""
 "Enfin, pour connaître l'espace restant disponible sur le support de "
 "stockage, on peut utiliser cette dernière commande :"
 msgstr ""
 
-#: ../../faq.md:93
+#: ../../faq.md:100
 msgid ""
-"Cette information est également visible dans le [MOTD](https://"
-"fr.wikipedia.org/wiki/Message_of_the_Day), lorsque l'on se connecte en {term}"
-"`SSH` à travers un {term}`terminal`. Ou sur le [Drive](/services/drive.md), "
-"en bas du panneau latéral."
+"Cette information est également visible dans le [MOTD](https://fr.wikipedia."
+"org/wiki/Message_of_the_Day), lorsque l'on se connecte en {term}`SSH` à "
+"travers un {term}`terminal`. Ou sur le [Drive](/services/drive.md), en bas "
+"du panneau latéral."
 msgstr ""
 
 #: ../../glossaire.md:3
@@ -527,65 +538,98 @@ msgid ""
 "Navigateur web."
 msgstr ""
 
-#: ../../glossaire.md:46 conf.py:341 conf.py:342
+#: ../../glossaire.md:54
+msgid ""
+"(*Content Management System*) Type de logiciel permettant de créer et mettre "
+"à jour des sites {term}`Web`.   Cette catégorie comprend notamment les "
+"blogs, les forums ou les {term}`wikis <wiki>`."
+msgstr ""
+
+#: ../../glossaire.md:58
+msgid ""
+"Un CMS peut prendre la forme d'un {term}`site dynamique <site Web "
+"dynamique>` (comme *Wordpress* ou *Mediawiki*), ou être un \"générateur de "
+"{term}`site statique <site Web statique>`\"."
+msgstr ""
+
+#: ../../glossaire.md:62
+msgid ""
+"Utiliser un CMS permet de se **concentrer sur le contenu**, en automatisant "
+"la forme que prendront les pages. En contrepartie, **les pages sont plus "
+"homogènes et moins personnalisables** que si on code directement son site en "
+"{term}`HTML`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Syst%C3%A8me_de_gestion_de_contenu)"
+msgstr ""
+
+#: ../../glossaire.md:61 conf.py:341 conf.py:342
 msgid "commande"
 msgstr ""
 
-#: ../../glossaire.md:54
+#: ../../glossaire.md:69
 msgid ""
 "Une commande informatique est une sorte de phrase que l'on peut fournir à "
 "une interface en ligne de commande ({term}`CLI`) pour demander à un "
 "ordinateur d'exécuter une tâche."
 msgstr ""
 
-#: ../../glossaire.md:58
+#: ../../glossaire.md:73
 msgid ""
 "Pour lancer une commande, il faut ouvrir un {term}`terminal`, tapper le "
 "texte de la commande, puis appuyer sur {kbd}`Entrée`."
 msgstr ""
 
-#: ../../glossaire.md:61
+#: ../../glossaire.md:76
 msgid ""
 "Pour lancer une commande sur le serveur CLUB1, il faut d'abord s'y être "
 "connecté avec {term}`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Commande_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:66
+#: ../../glossaire.md:81
 msgid ""
-"Quelques commandes disponibles sur le serveur : [](./services/"
-"ssh.md#sélection-de-commandes)"
+"Quelques commandes disponibles sur le serveur : [](./services/ssh."
+"md#sélection-de-commandes)"
 msgstr ""
 
-#: ../../glossaire.md:70
+#: ../../glossaire.md:85
+msgid ""
+"(*Content Security Policy*) Mécanisme de sécurité visant à limiter les "
+"origines possibles des éléments intégrés à une page {term}`Web`. Cela "
+"comprend les medias (image, vidéo, son), mais aussi les feuilles de style ou "
+"les scripts *Javascript*. Le {term}`serveur` envoie la CSP au naviguateur "
+"Web via l'entête HTTP `Content-Security-Policy`. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Content_Security_Policy)"
+msgstr ""
+
+#: ../../glossaire.md:94
 msgid ""
 "Système d'exploitation communautaire basé sur {term}`Linux`, composé presque "
 "exclusivement de {term}`logiciels libres <logiciel libre>` et respectant la "
 "norme {term}`POSIX`."
 msgstr ""
 
-#: ../../glossaire.md:74
+#: ../../glossaire.md:98
 msgid ""
 "C'est le système d'exploitation qui est installé sur le serveur CLUB1. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/Debian), [Site Web](https://"
-"www.debian.org/)"
+"[Wikipedia](https://fr.wikipedia.org/wiki/Debian), [Site Web](https://www."
+"debian.org/)"
 msgstr ""
 
-#: ../../glossaire.md:79
+#: ../../glossaire.md:103
 msgid ""
 "L'article de journal : [Migration de Ubuntu à Debian (Phase 1)](https://"
 "club1.fr/migration-debian-phase-1)"
 msgstr ""
 
-#: ../../glossaire.md:75
+#: ../../glossaire.md:99
 msgid "fichier caché"
 msgstr ""
 
-#: ../../glossaire.md:76
+#: ../../glossaire.md:100
 msgid "dossier caché"
 msgstr ""
 
-#: ../../glossaire.md:84
+#: ../../glossaire.md:108
 msgid ""
 "Dans la plupart des systèmes d'exploitation, il est possible de cacher des "
 "fichiers ou des dossiers. Cela sert souvent à masquer des paramètres peu "
@@ -593,7 +637,7 @@ msgid ""
 "commencent par un point `.`."
 msgstr ""
 
-#: ../../glossaire.md:89
+#: ../../glossaire.md:113
 msgid ""
 "Dans les explorateurs de fichiers ils peuvent être masqués par défaut. Il "
 "est possible d'activer leur affichage si besoin, souvent avec le raccourci "
@@ -601,51 +645,45 @@ msgid ""
 "wiki/Fichier_et_r%C3%A9pertoire_cach%C3%A9#Sous_Unix_et_Linux)"
 msgstr ""
 
-#: ../../glossaire.md:95
+#: ../../glossaire.md:119
 msgid ""
 "Service {term}`Web` d'hébergement et de gestion de développement de "
 "logiciels, utilisant le logiciel de gestion de versions {logiciel}`Git`."
 msgstr ""
 
-#: ../../glossaire.md:99
+#: ../../glossaire.md:123
 msgid ""
 "Contrairement à la plupart des projets que l'on peut y trouver, GitHub n'est "
 "ni **{term}`libre <logiciel libre>`**, ni **open source** et appartient à "
 "Microsoft."
 msgstr ""
 
-#: ../../glossaire.md:103
+#: ../../glossaire.md:127
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)"
 msgstr ""
 
-#: ../../glossaire.md:98
+#: ../../glossaire.md:122
 msgid "groupe"
 msgstr ""
 
-#: ../../glossaire.md:106
+#: ../../glossaire.md:130
 msgid ""
 "Dans un système {term}`POSIX`, les groupes servent à rassembler des "
 "utilisateurs afin de leur attribuer des droits communs. Un utilisateur "
 "appartient à un ou plusieurs groupes."
 msgstr ""
 
-#: ../../glossaire.md:111
+#: ../../glossaire.md:135
 msgid ""
 "Il est possible de savoir qui est membre d'un groupe sur le serveur depuis "
-"un accès {term}`SSH` avec la {term}`commande` suivante :"
+"un accès {term}`SSH` avec la {term}`commande` {commande}`members`."
 msgstr ""
 
-#: ../../glossaire.md:116
-msgid ""
-"En remplaçant `GROUP` par le groupe voulu. Exemple : `members sudo` ou "
-"`members home`."
-msgstr ""
-
-#: ../../glossaire.md:119
+#: ../../glossaire.md:139
 msgid "--- [Wikipedia](https://fr.wikipedia.org/wiki/Groupe_(Unix))"
 msgstr ""
 
-#: ../../glossaire.md:122
+#: ../../glossaire.md:142
 msgid ""
 "(_Hypertext Markup Language_) Langage de balisage conçu pour représenter les "
 "pages {term}`Web`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
@@ -653,17 +691,17 @@ msgid ""
 "docs/Web/HTML)"
 msgstr ""
 
-#: ../../glossaire.md:119
+#: ../../glossaire.md:139
 msgid "instance"
 msgstr ""
 
-#: ../../glossaire.md:127
+#: ../../glossaire.md:147
 msgid ""
 "Copie d'un logiciel ou d'un objet informatique ayant sa propre existence et "
 "son propre état."
 msgstr ""
 
-#: ../../glossaire.md:129
+#: ../../glossaire.md:149
 msgid ""
 "On parle par exemple d'instance à chaque fois qu'on exécute un logiciel avec "
 "des données différentes. Sur le serveur CLUB1, il y a notamment plusieurs "
@@ -671,11 +709,11 @@ msgid ""
 "[Wiktionnaire](https://fr.wiktionary.org/wiki/instance#Nom_commun_2)"
 msgstr ""
 
-#: ../../glossaire.md:126
+#: ../../glossaire.md:146
 msgid "Internet"
 msgstr ""
 
-#: ../../glossaire.md:134
+#: ../../glossaire.md:154
 msgid ""
 "{term}`Réseau informatique` mondial accessible au public. Internet est en "
 "réalité l'interconnexion d'un ensemble de réseaux à travers le monde. Comme "
@@ -684,26 +722,26 @@ msgid ""
 "Internet)"
 msgstr ""
 
-#: ../../glossaire.md:141
+#: ../../glossaire.md:161
 msgid ""
 "Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel "
 "libre>`. Le noyau est le cœur du système, il fait l'interface entre les "
 "logiciels utilisateurs et le matériel."
 msgstr ""
 
-#: ../../glossaire.md:145
+#: ../../glossaire.md:165
 msgid ""
 "Par extention, Linux fait souvent référence à tout système d'exploitation "
 "basé sur ce noyau."
 msgstr ""
 
-#: ../../glossaire.md:147
+#: ../../glossaire.md:167
 msgid ""
 "Le serveur CLUB1 utilise le noyau Linux avec le système d'exploitation {term}"
 "`Debian`. --- [Wikipedia](https://fr.wikipedia.org/wiki/Linux)"
 msgstr ""
 
-#: ../../glossaire.md:151
+#: ../../glossaire.md:171
 msgid ""
 "Désigne à l'origine le [journal de bord (logbook)](https://fr.wikipedia.org/"
 "wiki/Livre_de_bord) d'un navire. En informatique il s'agit d'un journal "
@@ -712,11 +750,11 @@ msgid ""
 "Historique_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:149
+#: ../../glossaire.md:169
 msgid "logiciel libre"
 msgstr ""
 
-#: ../../glossaire.md:157
+#: ../../glossaire.md:177
 msgid ""
 "Désigne des logiciels qui respectent la liberté des utilisateurs. En "
 "particulier, les utilisateurs ont la liberté d'exécuter, copier, étudier, "
@@ -725,7 +763,7 @@ msgid ""
 "Logiciel_libre)"
 msgstr ""
 
-#: ../../glossaire.md:164
+#: ../../glossaire.md:184
 msgid ""
 "Langage de balisage léger permettant de mettre en forme un document. Les "
 "documents rédigés en Markdown ont généralement pour but d'être convertis en "
@@ -735,22 +773,22 @@ msgid ""
 "wiki/Markdown)"
 msgstr ""
 
-#: ../../glossaire.md:164
+#: ../../glossaire.md:184
 msgid "nom de domaine"
 msgstr ""
 
-#: ../../glossaire.md:172
+#: ../../glossaire.md:192
 msgid ""
 "Identifiant de domaine {term}`Internet`, facile à lire et à retenir par un "
 "être humain."
 msgstr ""
 
-#: ../../glossaire.md:175
+#: ../../glossaire.md:195
 msgid ""
 "Par exemple : `club1.fr`, `impots.gouv.fr`, et `fr` sont des noms de domaine."
 msgstr ""
 
-#: ../../glossaire.md:177
+#: ../../glossaire.md:197
 msgid ""
 "Dans le {term}`DNS`, un domaine permet d'associer des informations à un nom. "
 "Parmi ces informations, la plus importante est l'{term}`adresse IP` de "
@@ -758,17 +796,17 @@ msgid ""
 "utilisé comme un {term}`alias` pour une adresse IP."
 msgstr ""
 
-#: ../../glossaire.md:181
+#: ../../glossaire.md:201
 msgid ""
 "En plus de ces informations, un domaine peut également avoir des sous "
 "domaines. --- [Wikipedia](https://fr.wikipedia.org/wiki/Nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:177
+#: ../../glossaire.md:197
 msgid "permissions"
 msgstr ""
 
-#: ../../glossaire.md:185
+#: ../../glossaire.md:205
 msgid ""
 "Dans un système {term}`POSIX`, il est possible d'attribuer des permissions "
 "aux fichiers et aux dossiers. Elles permettent d'accorder ou non des droits "
@@ -776,30 +814,30 @@ msgid ""
 "dossiers."
 msgstr ""
 
-#: ../../glossaire.md:189
+#: ../../glossaire.md:209
 msgid ""
 "Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x)."
 msgstr ""
 
-#: ../../glossaire.md:191
+#: ../../glossaire.md:211
 msgid "Récapitulatif des permisions"
 msgstr ""
 
-#: ../../glossaire.md:202
+#: ../../glossaire.md:222
 msgid ""
 "Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/"
 "dossier, soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ "
 "utilisateurs."
 msgstr ""
 
-#: ../../glossaire.md:205
+#: ../../glossaire.md:225
 msgid ""
 "Les permissions peuvent être consultées en {term}`CLI` avec la {term}"
-"`commande` `ls -l` et modifiées avec `chmod`. --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Permissions_UNIX)"
+"`commande` `ls -l` et modifiées avec `chmod`. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Permissions_UNIX)"
 msgstr ""
 
-#: ../../glossaire.md:210
+#: ../../glossaire.md:230
 msgid ""
 "(_PHP Hypertext Preprocessor_) Langage de programmation de haut niveau, "
 "principalement utilisé pour produire des pages {term}`Web` de manière "
@@ -809,7 +847,7 @@ msgid ""
 "(https://fr.wikipedia.org/wiki/PHP)"
 msgstr ""
 
-#: ../../glossaire.md:218
+#: ../../glossaire.md:238
 msgid ""
 "(_Portable Operating System Interface_) Ensemble de normes techniques qui "
 "spécifient une interface, permettant aux systèmes d'exploitation qui la "
@@ -817,71 +855,70 @@ msgid ""
 "utilisateur."
 msgstr ""
 
-#: ../../glossaire.md:222
+#: ../../glossaire.md:242
 msgid ""
-"{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://"
-"en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems) respectent "
-"cette interface, contrairement à Windows. --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/POSIX)"
+"{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia."
+"org/wiki/POSIX#POSIX-oriented_operating_systems) respectent cette interface, "
+"contrairement à Windows. --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)"
 msgstr ""
 
-#: ../../glossaire.md:219
+#: ../../glossaire.md:239
 msgid "protocole"
 msgstr ""
 
-#: ../../glossaire.md:227
+#: ../../glossaire.md:247
 msgid ""
 "Dans le contexte de l'informatique, un protocole est un ensemble de règles "
 "qui régissent les échanges de données ou le comportement collectif de "
 "processus ou d'ordinateurs en réseaux."
 msgstr ""
 
-#: ../../glossaire.md:231
+#: ../../glossaire.md:251
 msgid ""
 "Un protocole permet à tous les logiciels qui le respectent d'être compatible "
 "avec les uns avec les autres, c'est ce qu'on appelle l'interopérabilité."
 msgstr ""
 
-#: ../../glossaire.md:235
+#: ../../glossaire.md:255
 msgid ""
 "Un protocole **ouvert** donne la permission à n'importe qui de créer un "
 "logiciel qui le respecte."
 msgstr ""
 
-#: ../../glossaire.md:238
+#: ../../glossaire.md:258
 msgid ""
 "CLUB1 privilégie les logiciels basés sur des protocoles (ouverts) pour "
 "fournir ses services. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Protocole_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:234
+#: ../../glossaire.md:254
 msgid "registraire"
 msgstr ""
 
-#: ../../glossaire.md:242
+#: ../../glossaire.md:262
 msgid ""
 "Registraire de {term}`nom de domaine`. Société ou association gérant la "
-"réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
+"réservation de nom de domaine {term}`Internet`. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Registraire_de_nom_de_domaine)"
 msgstr ""
 
-#: ../../glossaire.md:239
+#: ../../glossaire.md:259
 msgid "réseau informatique"
 msgstr ""
 
-#: ../../glossaire.md:247
+#: ../../glossaire.md:267
 msgid ""
 "Ensemble d'ordinateurs reliés entre eux pour leur permettre d'échanger des "
 "données. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "R%C3%A9seau_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:243
+#: ../../glossaire.md:263
 msgid "serveur"
 msgstr ""
 
-#: ../../glossaire.md:251
+#: ../../glossaire.md:271
 msgid ""
 "Logiciel chargé de fournir un service. C'est lui qui détient les données et "
 "qui répond aux demandes d'un {term}`client`. Souvent, les serveurs et les "
@@ -891,11 +928,11 @@ msgid ""
 "wiki/Serveur_informatique)"
 msgstr ""
 
-#: ../../glossaire.md:251
+#: ../../glossaire.md:271
 msgid "site Web dynamique"
 msgstr ""
 
-#: ../../glossaire.md:259
+#: ../../glossaire.md:279
 msgid ""
 "Site {term}`Web` dont l'affichage peut varier \"de lui-même\", d'où le nom "
 "\"dynamique\" (le distinguant ainsi du {term}`site Web statique`). Il "
@@ -903,11 +940,11 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)"
 msgstr ""
 
-#: ../../glossaire.md:257
+#: ../../glossaire.md:277
 msgid "site Web statique"
 msgstr ""
 
-#: ../../glossaire.md:265
+#: ../../glossaire.md:285
 msgid ""
 "Site {term}`Web` constitué de fichiers {term}`HTML` dont le contenu ne "
 "change pas tant qu'ils n'ont pas été édités. Ils peuvent être conçus \"à la "
@@ -917,11 +954,11 @@ msgid ""
 "Page_web_statique)"
 msgstr ""
 
-#: ../../glossaire.md:264
+#: ../../glossaire.md:284
 msgid "terminal"
 msgstr ""
 
-#: ../../glossaire.md:272
+#: ../../glossaire.md:292
 msgid ""
 "En informatique, un terminal était à l'origine un appareil constitué d'un "
 "moniteur et d'un clavier, permettant à un&middot;e humain&middot;e "
@@ -930,7 +967,7 @@ msgid ""
 "le résultat."
 msgstr ""
 
-#: ../../glossaire.md:276
+#: ../../glossaire.md:296
 msgid ""
 "De nos jours, on utilise souvent le mot \"terminal\" comme raccourci pour "
 "désigner un \"émulateur de terminal\". Il s'agit d'un logiciel recréant "
@@ -938,14 +975,14 @@ msgid ""
 "[Wikipedia](https://fr.wikipedia.org/wiki/Terminal_(informatique))"
 msgstr ""
 
-#: ../../glossaire.md:281
+#: ../../glossaire.md:301
 msgid ""
 "(_Top level Domain_) {term}`Nom de domaine` de premier niveau. Par exemple "
 "`fr`, `com` ou `org` sont des TLD. --- [Wikipedia](https://fr.wikipedia.org/"
 "wiki/Domaine_de_premier_niveau)"
 msgstr ""
 
-#: ../../glossaire.md:287
+#: ../../glossaire.md:307
 msgid ""
 "(_Transport Layer Security_) {term}`Protocole` permettant de sécuriser les "
 "échanges réalisés dans un {term}`réseau informatique`. L'une de ses "
@@ -955,18 +992,18 @@ msgid ""
 "Transport_Layer_Security)"
 msgstr ""
 
-#: ../../glossaire.md:287
+#: ../../glossaire.md:307
 msgid "Web"
 msgstr ""
 
-#: ../../glossaire.md:295
+#: ../../glossaire.md:315
 msgid ""
 "L'un des services les plus connus d'{term}`Internet`. Son nom complet est "
 "\"World Wide Web\" (aussi abrégé \"www\"). Il permet de publier des "
 "documents et de les relier entre eux à l'aide de liens hypertexte."
 msgstr ""
 
-#: ../../glossaire.md:299
+#: ../../glossaire.md:319
 msgid ""
 "Une \"page Web\" est généralement constituée d'un document dont le contenu "
 "est rédigé en {term}`HTML` et peut inclure d'autre ressources comme des "
@@ -975,13 +1012,13 @@ msgid ""
 "wiki/World_Wide_Web)"
 msgstr ""
 
-#: ../../glossaire.md:305
+#: ../../glossaire.md:325
 msgid ""
 "Type d'application {term}`Web` qui permet de créer un site de manière "
 "collaborative. L'édition des pages est possible depuis le navigateur Web. Le "
 "plus connu étant *Wikipedia*. Le nom provient de la langue Hawaïenne dans "
-"laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Wiki)"
+"laquelle \"wiki\" signifie \"rapide\". --- [Wikipedia](https://fr.wikipedia."
+"org/wiki/Wiki)"
 msgstr ""
 
 #: ../../index.md:29
@@ -999,11 +1036,10 @@ msgstr ""
 #: ../../_templates/license.txt:2
 msgid ""
 "Vous avez la permission de copier, distribuer ou modifier ce document selon "
-"les termes de la « GNU Free Documentation License », dans sa version 1.3 ou "
-"dans toute version ultérieure publiée par la Free Software Foundation ; sans "
-"Section Invariante, sans Texte De Première De Couverture, et sans Texte De "
-"Quatrième De Couverture.  Le texte de cette licence est consultable à "
-"l'adresse <https://gnu.org/licenses/fdl.html>."
+"les termes de la licence « Creative Commons Attribution - Partage dans les "
+"mêmes conditions 4.0 International » (CC BY-SA 4.0).  Le texte de cette "
+"licence est consultable à l'adresse <https://creativecommons.org/licenses/by-"
+"sa/4.0/>."
 msgstr ""
 
 #: ../../info/espace-personnel.md:1
@@ -1102,8 +1138,8 @@ msgstr ""
 #: ../../info/espace-personnel.md:66
 msgid ""
 "Pour apparaître sur la [page membres](https://club1.fr/membres) du site web "
-"de CLUB1, il faut créer un **fichier de présentation** appellé "
-"`PRESENTATION.md` à la racine de son espace perso."
+"de CLUB1, il faut créer un **fichier de présentation** appellé `PRESENTATION."
+"md` à la racine de son espace perso."
 msgstr ""
 
 #: ../../info/espace-personnel.md:69
@@ -1125,10 +1161,10 @@ msgstr ""
 #: ../../info/espace-personnel.md:79 ../../outils/dashboard.md:11
 #: ../../outils/dns.md:59 ../../outils/ldap.md:60
 #: ../../outils/sauvegardes.md:168 ../../services/drive.md:27
-#: ../../services/email.md:173 ../../services/ftp.md:51
-#: ../../services/git.md:90 ../../services/matrix.md:233
-#: ../../services/newsletter.md:94 ../../services/rss.md:57
-#: ../../services/sql.md:56 ../../services/ssh.md:172 ../../services/web.md:166
+#: ../../services/email.md:172 ../../services/ftp.md:51
+#: ../../services/git.md:90 ../../services/matrix.md:242
+#: ../../services/newsletter.md:156 ../../services/rss.md:57
+#: ../../services/sql.md:67 ../../services/ssh.md:200 ../../services/web.md:166
 #: ../../services/webcast.md:34 ../../services/webdav.md:52
 msgid "Logiciels"
 msgstr ""
@@ -1163,11 +1199,11 @@ msgstr ""
 
 #: ../../info/general.md:11
 msgid ""
-"Si vous trouvez un bug 🐛, qu'un service semble être indisponible 😵 ou que "
-"vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous êtes "
-"invités dans un premier temps à explorer le [forum](https://forum.club1.fr) "
-"🔍, pour vérifier que le sujet n'ait pas déjà été abordé. Si ce n'est pas le "
-"cas, vous pouvez, selon vos préférences :"
+"Si vous avez besoin d'aide 🛟, qu'un service semble être indisponible 😵 ou "
+"que vous avez une suggestion 💡, n'hésitez pas à nous en faire part ! Vous "
+"êtes invités dans un premier temps à explorer le [forum](https://forum.club1."
+"fr) 🔍, pour vérifier que le sujet n'ait pas déjà été abordé. Si ce n'est "
+"pas le cas, vous pouvez, selon vos préférences :"
 msgstr ""
 
 #: ../../info/general.md:17
@@ -1209,8 +1245,8 @@ msgid ""
 "Les mises-à-jour de sécurité sont installées automatiquement dans les 24 "
 "heures à l'aide de [_unattended-upgrades_](https://wiki.debian.org/fr/"
 "unattended-upgrades) et les services en dépendant sont ensuite "
-"automatiquement redémarrés grâce à [_needrestart_](https://"
-"packages.debian.org/fr/stable/needrestart)."
+"automatiquement redémarrés grâce à [_needrestart_](https://packages.debian."
+"org/fr/stable/needrestart)."
 msgstr ""
 
 #: ../../info/general.md:40
@@ -1276,7 +1312,7 @@ msgstr ""
 msgid "Comptes des membres"
 msgstr ""
 
-#: ../../info/general.md:87 ../../services/matrix.md:78
+#: ../../info/general.md:87 ../../services/matrix.md:86
 msgid "Identifiant"
 msgstr ""
 
@@ -1432,8 +1468,8 @@ msgstr ""
 #: ../../info/infrastructure-materielle.md:34
 msgid ""
 "Notre modèle : `5P650IR` de la marque *EATON* [Specifications sur le site du "
-"constructeur](https://www.eaton.com/fr/fr-fr/"
-"skuPage.5P650IR.specifications.html)"
+"constructeur](https://www.eaton.com/fr/fr-fr/skuPage.5P650IR.specifications."
+"html)"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:37
@@ -1463,8 +1499,8 @@ msgstr ""
 
 #: ../../info/infrastructure-materielle.md:50
 msgid ""
-"![Face arrière de l'onduleur](infrastructure-materielle/eaton-5p650ir-"
-"dos.png)"
+"![Face arrière de l'onduleur](infrastructure-materielle/eaton-5p650ir-dos."
+"png)"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:50
@@ -1489,7 +1525,7 @@ msgid ""
 "ni de le débrancher lors de cette opération."
 msgstr ""
 
-#: ../../info/infrastructure-materielle.md:64 ../../services/matrix.md:70
+#: ../../info/infrastructure-materielle.md:64 ../../services/matrix.md:78
 msgid "Serveur"
 msgstr ""
 
@@ -1499,8 +1535,8 @@ msgstr ""
 
 #: ../../info/infrastructure-materielle.md:70
 msgid ""
-"Modèle : `SilverStone RM21-304` [Site du constructeur](https://"
-"www.silverstonetek.com/fr/product/info/server-nas/RM21-304/)"
+"Modèle : `SilverStone RM21-304` [Site du constructeur](https://www."
+"silverstonetek.com/fr/product/info/server-nas/RM21-304/)"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:73
@@ -1545,8 +1581,8 @@ msgstr ""
 
 #: ../../info/infrastructure-materielle.md:93
 msgid ""
-"Modèle : `Supermicro A2SDi-4C-HLN4F` [Site du constructeur](https://"
-"www.supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)"
+"Modèle : `Supermicro A2SDi-4C-HLN4F` [Site du constructeur](https://www."
+"supermicro.com/en/products/motherboard/A2SDi-4C-HLN4F)"
 msgstr ""
 
 #: ../../info/infrastructure-materielle.md:96
@@ -1797,8 +1833,8 @@ msgstr ""
 #: ../../outils/aliases.md:40
 msgid ""
 "Il est possible d'ajouter autant d'alias que voulu en ajoutant une nouvelle "
-"ligne au fichier, en suivant la [syntaxe d'alias de Postfix](http://"
-"www.postfix.org/aliases.5.html) :"
+"ligne au fichier, en suivant la [syntaxe d'alias de Postfix](http://www."
+"postfix.org/aliases.5.html) :"
 msgstr ""
 
 #: ../../outils/aliases.md:47
@@ -1841,20 +1877,20 @@ msgstr ""
 #: ../../outils/aliases.md:67
 msgid ""
 "Comme indiqué précédemment, le fichier d'alias de réception `/etc/aliases` "
-"respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/"
-"aliases.5.html). En plus de rediriger les emails vers d'autres adresses, "
-"elle permet de les envoyer vers des fichiers ou des commandes. Dans ce cas, "
-"il faut faire attention aux {term}`permissions` requises pour créer les "
-"fichiers et exécuter les commandes. Ces actions sont réalisées avec les "
-"droits de l'utilisateur correspondant à l'alias s'il existe et sinon, sur "
-"CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`."
+"respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/aliases.5."
+"html). En plus de rediriger les emails vers d'autres adresses, elle permet "
+"de les envoyer vers des fichiers ou des commandes. Dans ce cas, il faut "
+"faire attention aux {term}`permissions` requises pour créer les fichiers et "
+"exécuter les commandes. Ces actions sont réalisées avec les droits de "
+"l'utilisateur correspondant à l'alias s'il existe et sinon, sur CLUB1, avec "
+"l'utilisateur `nobody` et le {term}`groupe` `mail`."
 msgstr ""
 
 #: ../../outils/aliases.md:76
 msgid ""
 "La [section \"Delivery Rights\" de la page local du manuel de Postfix]"
-"(https://manpages.debian.org/bullseye/postfix/"
-"local.8postfix.en.html#DELIVERY_RIGHTS)."
+"(https://manpages.debian.org/bullseye/postfix/local.8postfix.en."
+"html#DELIVERY_RIGHTS)."
 msgstr ""
 
 #: ../../outils/compta.md:1
@@ -2069,9 +2105,9 @@ msgstr ""
 msgid ""
 "Le transfert des zones est sécurisé avec [TSIG](https://fr.wikipedia.org/"
 "wiki/TSIG) et [DNSSEC](https://fr.wikipedia.org/wiki/"
-"Domain_Name_System_Security_Extensions) est activé sur le domaine "
-"`club1.fr`. BIND est également utilisé en tant que résolveur DNS pour le "
-"réseau local."
+"Domain_Name_System_Security_Extensions) est activé sur le domaine `club1."
+"fr`. BIND est également utilisé en tant que résolveur DNS pour le réseau "
+"local."
 msgstr ""
 
 #: ../../outils/dns.md:29
@@ -2087,9 +2123,9 @@ msgstr ""
 
 #: ../../outils/dns.md:31
 msgid ""
-"Outils de diagnostic en ligne : [Résumé DNSSEC](https://dnssec-"
-"analyzer.verisignlabs.com/club1.fr), [visualiseur DNSSEC](https://dnsviz.net/"
-"d/club1.fr/dnssec/)"
+"Outils de diagnostic en ligne : [Résumé DNSSEC](https://dnssec-analyzer."
+"verisignlabs.com/club1.fr), [visualiseur DNSSEC](https://dnsviz.net/d/club1."
+"fr/dnssec/)"
 msgstr ""
 
 #: ../../outils/dns.md:36
@@ -2105,7 +2141,7 @@ msgid ""
 "possible d'envoyer un mail à <hostmaster@club1.fr> pour en discuter."
 msgstr ""
 
-#: ../../outils/dns.md:44 ../../outils/forum.md:97 ../../outils/site.md:83
+#: ../../outils/dns.md:44 ../../outils/forum.md:97 ../../outils/site.md:76
 msgid "Administration"
 msgstr ""
 
@@ -2490,8 +2526,8 @@ msgstr ""
 msgid "Schéma de données LDAP"
 msgstr ""
 
-#: ../../outils/ldap.md:47 ../../services/email.md:152 ../../services/ftp.md:41
-#: ../../services/sql.md:45 ../../services/ssh.md:82
+#: ../../outils/ldap.md:47 ../../services/email.md:151 ../../services/ftp.md:41
+#: ../../services/sql.md:44 ../../services/ssh.md:68
 #: ../../services/webcast.md:24
 msgid "Informations de connexion"
 msgstr ""
@@ -2502,27 +2538,31 @@ msgid ""
 "local depuis le serveur."
 msgstr ""
 
-#: ../../outils/ldap.md:31 ../../services/email.md:134 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:33 ../../services/webcast.md:5
+#: ../../outils/ldap.md:31 ../../services/email.md:133 ../../services/ftp.md:4
+#: ../../services/sql.md:50 ../../services/ssh.md:34
+#: ../../services/webcast.md:5
 msgid "champ"
 msgstr ""
 
-#: ../../outils/ldap.md:31 ../../services/email.md:134 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:33 ../../services/webcast.md:5
+#: ../../outils/ldap.md:31 ../../services/email.md:133 ../../services/ftp.md:4
+#: ../../services/sql.md:50 ../../services/ssh.md:34
+#: ../../services/webcast.md:5
 msgid "valeur"
 msgstr ""
 
-#: ../../outils/ldap.md:31 ../../services/email.md:134 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:33 ../../services/webcast.md:5
+#: ../../outils/ldap.md:31 ../../services/email.md:133 ../../services/ftp.md:4
+#: ../../services/sql.md:50 ../../services/ssh.md:34
+#: ../../services/webcast.md:5
 msgid "hôte"
 msgstr ""
 
-#: ../../outils/ldap.md:31 ../../services/sql.md:4
+#: ../../outils/ldap.md:31 ../../services/sql.md:50
 msgid "`localhost`"
 msgstr ""
 
-#: ../../outils/ldap.md:31 ../../services/email.md:134 ../../services/ftp.md:4
-#: ../../services/sql.md:4 ../../services/ssh.md:33 ../../services/webcast.md:5
+#: ../../outils/ldap.md:31 ../../services/email.md:133 ../../services/ftp.md:4
+#: ../../services/sql.md:50 ../../services/ssh.md:34
+#: ../../services/webcast.md:5
 msgid "port"
 msgstr ""
 
@@ -2538,8 +2578,8 @@ msgstr ""
 msgid ""
 "{term}`Serveur` d'annuaire {term}`LDAP` faisant partie du projet OpenLDAP, "
 "une implémentation {term}`libre <logiciel libre>` du protocole LDAP. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/OpenLDAP), [Sources](https://"
-"git.openldap.org/openldap/openldap)"
+"[Wikipedia](https://fr.wikipedia.org/wiki/OpenLDAP), [Sources](https://git."
+"openldap.org/openldap/openldap)"
 msgstr ""
 
 #: ../../outils/ldap.md:71
@@ -2681,9 +2721,9 @@ msgstr ""
 
 #: ../../outils/meta-doc.md:91
 msgid ""
-"Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://"
-"github.com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la "
-"première fois à la documentation française."
+"Ajoutez une ligne avec votre nom dans le [fichier `AUTHORS`](https://github."
+"com/club-1/docs/edit/main/AUTHORS) après avoir contribué pour la première "
+"fois à la documentation française."
 msgstr ""
 
 #: ../../outils/meta-doc.md:94
@@ -2711,8 +2751,8 @@ msgstr ""
 
 #: ../../outils/meta-doc.md:106
 msgid ""
-"L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier "
-"`.md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
+"L'ajout de pages ne peut se faire qu'en français. Il faut créer un fichier `."
+"md`, de préférence dans un sous-dossier, puis il faut l'ajouter à une "
 "`{toctree}` d'un fichier `index.md` (s'inspirer de l'existant)."
 msgstr ""
 
@@ -2754,8 +2794,8 @@ msgstr ""
 
 #: ../../outils/meta-doc.md:133
 msgid ""
-"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://"
-"tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
+"[Tutoriel de configuration de Sphinx avec le thème ReadTheDocs](https://tech."
+"michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/)"
 msgstr ""
 
 #: ../../outils/meta-doc.md:135
@@ -2928,7 +2968,7 @@ msgid ""
 "sur le site {term}`Web` du club."
 msgstr ""
 
-#: ../../outils/newsletter.md:11 ../../services/newsletter.md:41
+#: ../../outils/newsletter.md:11
 msgid "Abonnement"
 msgstr ""
 
@@ -2972,7 +3012,7 @@ msgstr ""
 #: ../../outils/newsletter.md:30
 msgid ""
 "Le contenu à envoyer doit préalablement être stocké dans un fichier sur le "
-"serveur. Il faut ensuite lancer la commande suivante :"
+"serveur. Il faut ensuite lancer la {term}`commande` suivante :"
 msgstr ""
 
 #: ../../outils/newsletter.md:35
@@ -3190,101 +3230,70 @@ msgid ""
 "utilise le duo {term}`HTML` + CSS."
 msgstr ""
 
-#: ../../outils/site.md:10
+#: ../../outils/site.md:11
+msgid ""
+"Une fois connecté, on peut accéder à [l'interface qui documente l'usage du "
+"wiki](https://club1.fr/!info)."
+msgstr ""
+
+#: ../../outils/site.md:14
 msgid ""
 "Les discussions à ce sujet sont [rassemblées sur le forum avec le tag "
 "{guilabel}`site web`](https://forum.club1.fr/t/site-web)."
 msgstr ""
 
-#: ../../outils/site.md:12
+#: ../../outils/site.md:16
 msgid ""
-"Il y a aussi un salon {term}`Matrix` dédié à l'édition du site : [`#site-"
-"web:club1.fr`](matrix:r/site-web:club1.fr)"
+"Il y a aussi un salon {term}`Matrix` dédié à l'édition du site : [`#site-web:"
+"club1.fr`](matrix:r/site-web:club1.fr)"
 msgstr ""
 
-#: ../../outils/site.md:15
+#: ../../outils/site.md:19
 msgid "Compte et niveaux"
 msgstr ""
 
-#: ../../outils/site.md:18
+#: ../../outils/site.md:22
 msgid ""
 "Le compte de membre CLUB1 permet d'accèder à l'interface d'édition du site "
 "Web. Pour s'y connecter, on peut utiliser l'adresse suivante : <https://"
 "club1.fr/!co> et rensigner son identifiant et mot de passe de membre."
 msgstr ""
 
-#: ../../outils/site.md:22
+#: ../../outils/site.md:26
 msgid ""
 "Lors de la première connexion, un compte est automatiquement créé avec le "
-"niveau \"editor\". Ce statut permet de [créer des pages](#création-dune-"
-"page), de mettre en ligne des médias et d'autoriser d'autres comptes à "
-"modifier ses pages. Cela ne permet donc pas directement de [modifier une "
-"page existante](#édition-dune-page-existante). Pour y participer il faudra "
-"être ajouté à la liste des auteur·ices. Cette limitation vise à éviter des "
-"modifications malencontreuses qui risquent d'avoir lieu lorsque l'on "
-"découvre un nouveau logiciel."
+"niveau \"super editor\". C'est le rang d'édition le plus élevé : il permet "
+"d'éditer n'importe quelle page."
 msgstr ""
 
 #: ../../outils/site.md:30
 msgid ""
-"Qu'à cela ne tienne : Essayez de **créer vos premières pages** ! Elles "
-"resterons discrètes tant qu'aucun lien n'y mène."
+"Ce niveau permet aussi de faire beaucoup de dégats, mais on pense que c'est "
+"un bon compromis pour faciliter la participation."
 msgstr ""
 
-#: ../../outils/site.md:34
+#: ../../outils/site.md:33
 msgid ""
-"Une fois que l'interface vous semble plus familière, vous pouvez demander à "
-"être ajouté en tant qu'auteur·ice des pages que vous souhaitez modifier. "
-"Pour cela, un endroit idéal est le salon de discussion _Matrix_ cité plus "
-"haut. Pour avoir des droits supplémentaires, il peut être intéressant de "
-"passer au rôle \"super editor\", qui n'a *aucune limite* 💣️."
+"Plus d'info sur [le forum](https://forum.club1.fr/d/275) concernant ce choix."
 msgstr ""
 
-#: ../../outils/site.md:41
-msgid ""
-"Une fois connecté, on peut accéder à [l'interface qui documente l'usage du "
-"wiki](https://club1.fr/!info)."
-msgstr ""
-
-#: ../../outils/site.md:44
-msgid "Création d'une page"
-msgstr ""
-
-#: ../../outils/site.md:47
-msgid ""
-"Pour ajouter une page, il faut écrire son titre dans la barre d'URL après "
-"`https://club1.fr/`, puis rajouter `/add` à la fin."
-msgstr ""
-
-#: ../../outils/site.md:52
-msgid "Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page."
-msgstr ""
-
-#: ../../outils/site.md:55
-msgid ""
-"{logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en "
-"**identifiant officiel de la page**, en simplifiant le titre que vous aurez "
-"choisi. Cet identifiant de votre page est unique et fixe, il ne pourra pas "
-"être changé par la suite."
-msgstr ""
-
-#: ../../outils/site.md:60
+#: ../../outils/site.md:37
 msgid "Édition d'une page existante"
 msgstr ""
 
-#: ../../outils/site.md:63
+#: ../../outils/site.md:40
 msgid "Pour éditer une page, il y a deux possibilités :"
 msgstr ""
 
-#: ../../outils/site.md:65
+#: ../../outils/site.md:42
 msgid "En cliquant sur le bouton {guilabel}`✏️ modifier` en bas de la page."
 msgstr ""
 
-#: ../../outils/site.md:66
+#: ../../outils/site.md:43
 msgid "En rajoutant `/edit` dans la barre d'URL."
 msgstr ""
 
-#: ../../outils/site.md:68
+#: ../../outils/site.md:45
 msgid ""
 "Le contenu se trouve dans l'onglet {guilabel}`content`. Il est possible "
 "d'utiliser du {term}`Markdown` ou du {term}`HTML`. L'onglet {guilabel}`body` "
@@ -3292,47 +3301,69 @@ msgid ""
 "de la page est lui aussi éditable via l'onglet {guilabel}`css`."
 msgstr ""
 
-#: ../../outils/site.md:74
+#: ../../outils/site.md:51
 msgid ""
 "💾 Pour sauvegarder, il faut cliquer sur {guilabel}`update` ou faire {kbd}"
 "`CTRL` + {kbd}`S`."
 msgstr ""
 
-#: ../../outils/site.md:76
+#: ../../outils/site.md:53
 msgid ""
 "👁️ Pour afficher la page, il faut cliquer sur {guilabel}`display` ou faire "
 "{kbd}`CTRL` + {kbd}`D`."
 msgstr ""
 
-#: ../../outils/site.md:79
+#: ../../outils/site.md:56
 msgid ""
 "Lorsque l'on fait des modifications sur le site Web, il est bienvenu de le "
 "notifier en écrivant un résumé des actions dans le salon _Matrix_ dédié."
 msgstr ""
 
-#: ../../outils/site.md:86
+#: ../../outils/site.md:60
+msgid "Création d'une page"
+msgstr ""
+
+#: ../../outils/site.md:63
+msgid ""
+"Pour ajouter une page, il faut écrire son titre dans la barre d'URL après "
+"`https://club1.fr/`, puis rajouter `/add` à la fin."
+msgstr ""
+
+#: ../../outils/site.md:68
+msgid "Ici, `MA_NOUVELLE_PAGE` est le nom de votre future page."
+msgstr ""
+
+#: ../../outils/site.md:71
+msgid ""
+"{logiciel}`W` va s'occuper de transformer le nom que vous avez choisi en "
+"**identifiant officiel de la page**, en simplifiant le titre que vous aurez "
+"choisi. Cet identifiant de votre page est unique et fixe, il ne pourra pas "
+"être changé par la suite."
+msgstr ""
+
+#: ../../outils/site.md:79
 msgid ""
 "La mise à jour et l'accès aux fichiers de {logiciel}`W` est limité aux "
 "utilisateur·ices membres du {term}`groupe` `website`."
 msgstr ""
 
-#: ../../outils/site.md:89
+#: ../../outils/site.md:82
 msgid ""
 "La gestion des comptes se fait depuis l'interface Web de W : {guilabel}"
 "`users`. Il faut avoir le niveau \"admin\" pour pouvoir accéder à cette page."
 msgstr ""
 
-#: ../../outils/site.md:92
+#: ../../outils/site.md:85
 msgid "Moteur de wiki"
 msgstr ""
 
-#: ../../outils/site.md:95
+#: ../../outils/site.md:88
 msgid ""
 "On utilise W, connecté à l'annuaire {term}`LDAP`. C'est un moteur de wiki "
 "très peu connu, il est codé principalement par des membres de CLUB1."
 msgstr ""
 
-#: ../../outils/site.md:100
+#: ../../outils/site.md:93
 msgid ""
 "Moteur de {term}`wiki` écrit en {term}`PHP`. Son but est de croiser la prise "
 "de note avec l'édition de site {term}`Web` en encourageant l'édition "
@@ -3421,9 +3452,8 @@ msgstr ""
 #: ../../services/email.md:4
 msgid ""
 "Chaque membre dispose d'**une boîte email** avec une adresse email "
-"personnelle. L'adresse est composée de l'**identifiant**, suivi de "
-"`@club1.fr`. Par exemple, l'adresse de l'utilisateur `michel` est "
-"`michel@club1.fr`."
+"personnelle. L'adresse est composée de l'**identifiant**, suivi de `@club1."
+"fr`. Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`."
 msgstr ""
 
 #: ../../services/email.md:8
@@ -3482,9 +3512,9 @@ msgstr ""
 msgid ""
 "Toutes les données relatives aux emails sont stockées sous la forme de "
 "fichiers dans le dossier `mail` de votre [*espace personnel*](/info/espace-"
-"personnel.md). Ce dossier respecte le standard [Maildir](https://"
-"fr.wikipedia.org/wiki/Maildir), il est donc possible d'y accéder directement "
-"à partir d'un {term}`client` email supportant ce standard, par exemple après "
+"personnel.md). Ce dossier respecte le standard [Maildir](https://fr."
+"wikipedia.org/wiki/Maildir), il est donc possible d'y accéder directement à "
+"partir d'un {term}`client` email supportant ce standard, par exemple après "
 "avoir fait une sauvegarde du dossier sur un ordinateur personnel."
 msgstr ""
 
@@ -3506,104 +3536,112 @@ msgid ""
 "`552: 5.3.4 Error: message file too big`."
 msgstr ""
 
-#: ../../services/email.md:51
+#: ../../services/email.md:50
+msgid "Les envois sont limités à **500 emails par jour et par membre**."
+msgstr ""
+
+#: ../../services/email.md:52
 msgid "Dossiers spéciaux"
 msgstr ""
 
-#: ../../services/email.md:53
+#: ../../services/email.md:54
 msgid ""
 "Les dossiers spéciaux utilisent les noms standards, ils seront donc "
 "automatiquement reconnus par la grande majorité des clients email. Au cas où "
 "ils ne le sont pas, voici la liste complète :"
 msgstr ""
 
-#: ../../services/email.md:57
+#: ../../services/email.md:58
 msgid "`INBOX` : messages reçus"
 msgstr ""
 
-#: ../../services/email.md:58
+#: ../../services/email.md:59
 msgid "`Drafts` : brouillons en cours de rédaction"
 msgstr ""
 
-#: ../../services/email.md:59
+#: ../../services/email.md:60
 msgid "`Sent` : messages envoyés"
 msgstr ""
 
-#: ../../services/email.md:60
+#: ../../services/email.md:61
 msgid "`Junk` : SPAMs (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:61
+#: ../../services/email.md:62
 msgid ""
 "`Trash` : corbeille (automatiquement supprimés au bout de 60&nbsp;jours)"
 msgstr ""
 
-#: ../../services/email.md:62
+#: ../../services/email.md:63
 msgid "`Archive` : messages archivés"
 msgstr ""
 
-#: ../../services/email.md:66
+#: ../../services/email.md:67
 msgid "Usage avancé"
 msgstr ""
 
-#: ../../services/email.md:69
+#: ../../services/email.md:70
 msgid ""
 "Quelques informations supplémentaires à propos du service email de CLUB1."
 msgstr ""
 
-#: ../../services/email.md:72
+#: ../../services/email.md:73
 msgid "L'article du journal [Le(s) serveur(s) email](https://club1.fr/email/)"
 msgstr ""
 
-#: ../../services/email.md:76
+#: ../../services/email.md:77
 msgid "Sous-adresses"
 msgstr ""
 
-#: ../../services/email.md:79
+#: ../../services/email.md:80
 msgid ""
 "En plus de l'adresse principale, les membres ont la possibilité d'utiliser "
-"les sous-adresses. Les sous-adresses sont comme des {term}`alias`. Par "
-"défaut, elles redirigent vers l'adresse principale. Toutes les adresses de "
-"la forme `membre+[...]@club1.fr` sont des sous-adresses de `membre@club1.fr`"
+"les sous-adresses. Les sous-adresses sont un peu comme des {term}`alias`. "
+"Par défaut, elles redirigent vers l'adresse principale, mais les email reçus "
+"sont automatiquement déplacés vers le dossier correspondant, si il existe. "
+"Toutes les adresses de la forme `membre+[...]@club1.fr` sont des sous-"
+"adresses de `membre@club1.fr`."
 msgstr ""
 
-#: ../../services/email.md:84
+#: ../../services/email.md:86
 msgid ""
 "Par exemple, tous les emails envoyés à `michel+travail@club1.fr` seront "
-"redirigés vers `michel@club1.fr`."
+"redirigés vers `michel@club1.fr` et déplacés dans le dossier `travail`, si "
+"il existe."
 msgstr ""
 
-#: ../../services/email.md:87
+#: ../../services/email.md:91
 msgid ""
-"Ces adresses peuvent paraitre inutiles à première vue. Mais combinées avec "
-"les [transferts automatiques](#transferts-automatiques) et les [filtres "
-"automatiques](#filtres-automatiques), elles deviennent très intéressantes."
+"Il est possible d'utiliser la fonctionnalité de [transfert automatique]"
+"(#transferts-automatiques) avec les sous-adresses. On utilise pour celà un "
+"fichier `.formward+[...]` au lieu du fichier `.forward` de l'adresse "
+"principale."
 msgstr ""
 
-#: ../../services/email.md:93
-msgid ""
-"Pour le [transfert automatique](#transferts-automatiques) d'une sous-adresse "
-"en particulier, on utilise un fichier `.formward+[...]` au lieu du fichier "
-"`.forward` de l'adresse principale."
-msgstr ""
-
-#: ../../services/email.md:96
+#: ../../services/email.md:94
 msgid ""
 "Par exemple pour rediriger uniquement l'adresse `michel+travail@club1.fr` il "
 "faut le faire dans le fichier `.forward+travail`."
 msgstr ""
 
-#: ../../services/email.md:101
+#: ../../services/email.md:99
 msgid ""
-"La documentation officielle de l'option [recipient_delimiter](http://"
-"www.postfix.org/postconf.5.html#recipient_delimiter) (en anglais)"
+"La documentation officielle de l'option [recipient_delimiter](http://www."
+"postfix.org/postconf.5.html#recipient_delimiter) (en anglais)"
 msgstr ""
 
-#: ../../services/email.md:106
+#: ../../services/email.md:101
+msgid ""
+"Le fil du forum \"[Stocker de base dans des dossiers séparés les messages "
+"des sous-adresses](https://forum.club1.fr/d/175-stocker-de-base-dans-des-"
+"dossiers-separes-les-messages-des-sous-adresses)\""
+msgstr ""
+
+#: ../../services/email.md:105
 msgid "Transferts automatiques"
 msgstr ""
 
-#: ../../services/email.md:108
+#: ../../services/email.md:107
 msgid ""
 "Il est possible de transférer automatiquement les emails que vous recevez "
 "sur votre adresse CLUB1 vers une ou plusieurs autres adresses de votre "
@@ -3613,45 +3651,45 @@ msgid ""
 "dans votre dossier et s'appeler `.forward`."
 msgstr ""
 
-#: ../../services/email.md:115
+#: ../../services/email.md:114
 msgid "`.forward` est un {term}`fichier caché`."
 msgstr ""
 
-#: ../../services/email.md:118
+#: ../../services/email.md:117
 msgid ""
 "À l'intérieur de ce fichier, il suffit ensuite de lister toutes les adresses "
 "vers lesquelles vous souhaitez rediriger les emails en les séparant par un "
 "retour à la ligne."
 msgstr ""
 
-#: ../../services/email.md:121
+#: ../../services/email.md:120
 msgid "Exemple de fichier `.forward` transférant vers deux adresses emails :"
 msgstr ""
 
-#: ../../services/email.md:127
+#: ../../services/email.md:126
 msgid ""
 "Il est même possible de conserver ses emails sur sa boîte CLUB1 en ajoutant "
 "son nom d'utilisateur&middot;trice à cette liste !"
 msgstr ""
 
-#: ../../services/email.md:131
+#: ../../services/email.md:130
 msgid ""
 "Pour mettre fin à une redirection, il suffit de supprimer la ligne "
 "correspondante. Il est aussi possible de supprimer le fichier pour tout "
 "annuler."
 msgstr ""
 
-#: ../../services/email.md:135
+#: ../../services/email.md:134
 msgid ""
 "La page de manuel [Postfix local mail delivery](https://www.postfix.org/"
 "local.8.html) (en anglais)"
 msgstr ""
 
-#: ../../services/email.md:138
+#: ../../services/email.md:137
 msgid "Filtres automatiques"
 msgstr ""
 
-#: ../../services/email.md:140
+#: ../../services/email.md:139
 msgid ""
 "Les filtres Sieve permettent de trier automatiquement les emails que vous "
 "recevez. Ces filtres sont appliqués côté {term}`serveur` et ne dépendent "
@@ -3659,72 +3697,72 @@ msgid ""
 "configurer lui-même."
 msgstr ""
 
-#: ../../services/email.md:144
+#: ../../services/email.md:143
 msgid ""
 "Il existe deux manières de les éditer. La plus simple est d'utiliser le "
 "[client Web Roundcube de CLUB1](#client-web). Il dispose dans ses paramètres "
 "d'une interface de gestion de filtres."
 msgstr ""
 
-#: ../../services/email.md:148
+#: ../../services/email.md:147
 msgid ""
 "La deuxième méthode consiste à directement modifier le fichier de filtre "
 "dans votre **espace personnel** :"
 msgstr ""
 
-#: ../../services/email.md:155
+#: ../../services/email.md:154
 msgid ""
 "La connexion d'un {term}`client` email à une adresse CLUB1 nécessite de "
 "configurer plusieurs serveurs."
 msgstr ""
 
-#: ../../services/email.md:157
+#: ../../services/email.md:156
 msgid "Serveur d'envoi (SMTP)"
 msgstr ""
 
-#: ../../services/email.md:134
+#: ../../services/email.md:133
 msgid "`mail.club1.fr` ou `smtp.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:134
+#: ../../services/email.md:133
 msgid "`465` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:134 ../../services/ftp.md:4
+#: ../../services/email.md:133 ../../services/ftp.md:4
 msgid "chiffrement"
 msgstr ""
 
-#: ../../services/email.md:134
+#: ../../services/email.md:133
 msgid "`SSL/TSL` (Implicite)"
 msgstr ""
 
-#: ../../services/email.md:165
+#: ../../services/email.md:164
 msgid "Serveur de réception (IMAP)"
 msgstr ""
 
-#: ../../services/email.md:134
+#: ../../services/email.md:133
 msgid "`mail.club1.fr` ou `imap.club1.fr`"
 msgstr ""
 
-#: ../../services/email.md:134
+#: ../../services/email.md:133
 msgid "`993` (par défaut)"
 msgstr ""
 
-#: ../../services/email.md:177
+#: ../../services/email.md:176
 msgid ""
 "{term}`Serveur` SMTP utilisé pour la transmission d'email. --- [Wikipedia]"
 "(https://fr.wikipedia.org/wiki/Postfix), [Sources](https://github.com/"
 "vdukhovni/postfix)"
 msgstr ""
 
-#: ../../services/email.md:183
+#: ../../services/email.md:182
 msgid ""
 "{term}`Serveur` IMAP utilisé pour la gestion de boîtes emails. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://"
-"github.com/dovecot/core)"
+"[Wikipedia](https://fr.wikipedia.org/wiki/Dovecot), [Sources](https://github."
+"com/dovecot/core)"
 msgstr ""
 
-#: ../../services/email.md:189
+#: ../../services/email.md:188
 msgid ""
 "Extension {logiciel}`Dovecot` pour Sieve et ManageSieve, permettant de "
 "configurer des filtres automatiques côté {term}`serveur`. Ces filtres "
@@ -3732,30 +3770,30 @@ msgid ""
 "pigeonhole.dovecot.org/), [Sources](https://github.com/dovecot/pigeonhole)"
 msgstr ""
 
-#: ../../services/email.md:196
+#: ../../services/email.md:195
 msgid ""
-"{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://"
-"fr.wikipedia.org/wiki/Sender_Policy_Framework) utilisé par {logiciel}"
-"`Postfix` pour vérifier l'origine des emails entrants. --- [Sources](https://"
-"launchpad.net/spf-engine)"
+"{term}`Serveur` de traitement [SPF (_Sender Policy Framework_)](https://fr."
+"wikipedia.org/wiki/Sender_Policy_Framework) utilisé par {logiciel}`Postfix` "
+"pour vérifier l'origine des emails entrants. --- [Sources](https://launchpad."
+"net/spf-engine)"
 msgstr ""
 
-#: ../../services/email.md:202
+#: ../../services/email.md:201
 msgid ""
 "{term}`Serveur` de traitement SRS (_Sender Rewriting Scheme_) permettant à "
 "{logiciel}`Postfix` de transférer des emails en restant compatible avec SPF. "
 "--- [Sources](https://github.com/roehling/postsrsd)"
 msgstr ""
 
-#: ../../services/email.md:208
+#: ../../services/email.md:207
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
 "`Postfix` pour signer les emails sortants et valider la signature des emails "
-"entrants. --- [Site Web](http://www.opendkim.org/), [Sources](https://"
-"github.com/trusteddomainproject/OpenDKIM)"
+"entrants. --- [Site Web](http://www.opendkim.org/), [Sources](https://github."
+"com/trusteddomainproject/OpenDKIM)"
 msgstr ""
 
-#: ../../services/email.md:215
+#: ../../services/email.md:214
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
 "`Postfix` pour valider la politique [DMARC (_Domain-based Message "
@@ -3763,32 +3801,32 @@ msgid ""
 "DMARC) des emails entrants."
 msgstr ""
 
-#: ../../services/email.md:219
+#: ../../services/email.md:218
 msgid ""
 "Il se base pour cela sur le retour de {logiciel}`SPF-Engine` et {logiciel}"
 "`OpenDKIM`. --- [Site Web](http://www.trusteddomain.org/opendmarc/), "
 "[Sources](https://github.com/trusteddomainproject/OpenDMARC)"
 msgstr ""
 
-#: ../../services/email.md:224
+#: ../../services/email.md:223
 msgid ""
 "{term}`Serveur` fournissant un filtre _milter_ utilisé par {logiciel}"
 "`Postfix` pour rejeter certains emails en fonction du retour d'{logiciel}"
 "`OpenDMARC`. --- [Sources](https://github.com/club-1/dmarcator)"
 msgstr ""
 
-#: ../../services/email.md:230
+#: ../../services/email.md:229
 msgid ""
 "{term}`Client Web` permettant de consulter et d'envoyer des emails via SMTP "
 "et IMAP. --- [Wikipedia](https://fr.wikipedia.org/wiki/Roundcube), [Sources]"
 "(https://github.com/roundcube/roundcubemail)"
 msgstr ""
 
-#: ../../services/email.md:235
+#: ../../services/email.md:234
 msgid "La section [](#client-web)"
 msgstr ""
 
-#: ../../services/email.md:240
+#: ../../services/email.md:239
 msgid ""
 "{term}`Client` email en {term}`CLI` permettant d'envoyer et de consulter ses "
 "email directement depuis un {term}`terminal`. Il est installé et pré-"
@@ -3842,8 +3880,8 @@ msgstr ""
 msgid ""
 "Le serveur FTP est configuré pour ne recevoir que des connexions chiffrées "
 "avec TLS pour éviter d'envoyer des mots de passe en clair. Cette "
-"fonctionnalité s'appelle [FTPS (FTP avec TLS implicite)](https://"
-"fr.wikipedia.org/wiki/"
+"fonctionnalité s'appelle [FTPS (FTP avec TLS implicite)](https://fr."
+"wikipedia.org/wiki/"
 "File_Transfer_Protocol_Secure#FTP_avec_chiffrement_implicite)."
 msgstr ""
 
@@ -3854,7 +3892,7 @@ msgid ""
 "important de vérifier qu'il est bien délivré par `Let's Encrypt`."
 msgstr ""
 
-#: ../../services/ftp.md:4 ../../services/ssh.md:33 ../../services/webcast.md:5
+#: ../../services/ftp.md:4 ../../services/ssh.md:34 ../../services/webcast.md:5
 msgid "`club1.fr`"
 msgstr ""
 
@@ -3927,8 +3965,8 @@ msgstr ""
 
 #: ../../services/git.md:28
 msgid ""
-"Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://"
-"git.club1.fr/USER/REPO`, mais celui-ci est vide pour le moment. La branche "
+"Dès lors, le dépôt est publié en _lecture seule_ à l'adresse `https://git."
+"club1.fr/USER/REPO`, mais celui-ci est vide pour le moment. La branche "
 "affichée par défaut dans l'interface {term}`Web` est `master`. Il est "
 "possible de la changer en modifiant le fichier `HEAD` du dépôt. Par exemple "
 "pour la remplacer par la branche `main` :"
@@ -3991,8 +4029,8 @@ msgstr ""
 
 #: ../../services/git.md:94
 msgid ""
-"Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
+"Logiciel de gestion de versions décentralisé. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Git), [Sources](https://github.com/git/git)"
 msgstr ""
 
 #: ../../services/git.md:100
@@ -4061,27 +4099,49 @@ msgid ""
 "{kbd}`C`, ou utiliser la souris en faisant un clic-droit."
 msgstr ""
 
-#: ../../services/matrix.md:36
+#: ../../services/matrix.md:34
 msgid ""
 "Le jeton, devra ensuite être indiqué lors de l'inscription, via <https://"
 "riot.club1.fr/#/register>."
 msgstr ""
 
+#: ../../services/matrix.md:39
+msgid "Invitation par email"
+msgstr ""
+
 #: ../../services/matrix.md:41
 msgid ""
-"Pour envoyer directement un jeton par email (depuis son adresse CLUB1), on "
-"peut utiliser cette combinaison de commandes :"
+"Il est possible de partager un code d'invitation par email en une seule "
+"commande !"
+msgstr ""
+
+#: ../../services/matrix.md:44
+msgid "Envoie une invitation Matrix par email."
 msgstr ""
 
 #: ../../services/matrix.md:46
-msgid "En remplaçant `EMAIL` par l'adresse de destination."
+msgid ""
+"Pour l'utiliser, on ajoute après un espace, l'adresse email de destination. "
+"Par exemple :"
 msgstr ""
 
-#: ../../services/matrix.md:50
+#: ../../services/matrix.md:51
+msgid ""
+"Mais on peut aussi l'utiliser de manière *interactive*, en omettant "
+"l'adresse email, le programme va nous la demander de lui même."
+msgstr ""
+
+#: ../../services/matrix.md:54
+msgid ""
+"La personne recevra par email le code d'invitation, un lien vers la page "
+"d'inscription, ainsi que la date de péremption du jeton."
+msgstr ""
+
+#: ../../services/matrix.md:58
 msgid "Principes généraux"
 msgstr ""
 
-#: ../../services/matrix.md:53
+#: ../../services/matrix.md:61
 msgid ""
 "Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
 "Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
@@ -4089,14 +4149,14 @@ msgid ""
 "transparente aux salons provenant d'autres serveurs si ils le souhaitent."
 msgstr ""
 
-#: ../../services/matrix.md:60
+#: ../../services/matrix.md:68
 msgid ""
 "{term}`Protocole` de [messagerie instantanée](https://fr.wikipedia.org/wiki/"
 "Messagerie_instantan%C3%A9e) [**décentralisé**](https://fr.wikipedia.org/"
 "wiki/Red%C3%A9centralisation_d%27Internet)."
 msgstr ""
 
-#: ../../services/matrix.md:63
+#: ../../services/matrix.md:71
 msgid ""
 "Son avantage principal par rapport aux autres systèmes fédérés du même type, "
 "est de répliquer les données sur l'ensemble des {term}`serveurs <serveur>` "
@@ -4105,7 +4165,7 @@ msgid ""
 "Matrix_(protocole))"
 msgstr ""
 
-#: ../../services/matrix.md:72
+#: ../../services/matrix.md:80
 msgid ""
 "Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
 "les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
@@ -4114,7 +4174,7 @@ msgid ""
 "accéder à l'interface de messagerie."
 msgstr ""
 
-#: ../../services/matrix.md:80
+#: ../../services/matrix.md:88
 msgid ""
 "Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une "
 "adresse email, à ceci près que le symbole `@` est utilisé comme premier "
@@ -4122,40 +4182,40 @@ msgid ""
 "symbole `:` est donc utilisé pour séparer l'identifiant du serveur :"
 msgstr ""
 
-#: ../../services/matrix.md:87
+#: ../../services/matrix.md:95
 msgid ""
 "Où `baby` est **l'identifiant** et `club1.fr` est le **serveur** auquel le "
 "compte est rattaché."
 msgstr ""
 
-#: ../../services/matrix.md:91
+#: ../../services/matrix.md:99
 msgid "Room"
 msgstr ""
 
-#: ../../services/matrix.md:93
+#: ../../services/matrix.md:101
 msgid ""
 "Une *room*, ou *salon* Matrix est un flux de discussion qui accueille "
 "n'importe quel nombre de participants. Elles ont aussi une adresse, qui "
 "commence cette fois par un `#` :"
 msgstr ""
 
-#: ../../services/matrix.md:98
+#: ../../services/matrix.md:106
 msgid ""
 "Où `blabla-dauphins` est le nom de la *room* et `club1.fr`, le serveur sur "
 "lequel elle a été créée et auquel elle est rattachée."
 msgstr ""
 
-#: ../../services/matrix.md:102
+#: ../../services/matrix.md:110
 msgid ""
 "Il est possible, au moment de la création d'une *room*, d'interdire l'accès "
 "aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier."
 msgstr ""
 
-#: ../../services/matrix.md:108
+#: ../../services/matrix.md:116
 msgid "Client (interfaces de connexion)"
 msgstr ""
 
-#: ../../services/matrix.md:110
+#: ../../services/matrix.md:118
 msgid ""
 "Comme pour les emails, il est aussi possible de choisir son {term}`client`, "
 "son interface, pour se connecter à Matrix. Il en existe pour tous les goûts, "
@@ -4164,11 +4224,11 @@ msgid ""
 "*{logiciel}`Element`***, en tant que {term}`client Web` ou sur mobile."
 msgstr ""
 
-#: ../../services/matrix.md:116
+#: ../../services/matrix.md:124
 msgid "[**🌌 interface Element Web sur Club1.fr**](https://riot.club1.fr)"
 msgstr ""
 
-#: ../../services/matrix.md:119
+#: ../../services/matrix.md:127
 msgid ""
 "On distingue trois catégories principales : Clients **Web** (qui s'ouvrent "
 "dans un navigateur), **Desktop** (Linux, Windows, MacOS) et **Mobile** "
@@ -4176,16 +4236,15 @@ msgid ""
 "ecosystem/clients/)."
 msgstr ""
 
-#: ../../services/matrix.md:123
+#: ../../services/matrix.md:131
 msgid ""
 "Sur ordinateur (Desktop), il n'existe pas encore de logiciel suffisamment "
 "complet pour que cela soit intéressant, à part si vous êtes un&middot;e "
-"amoureux&middot;se du {term}`terminal`, auquel cas, vous êtes "
-"invité&middot;e&middot;s à utiliser le superbe [gomuks](https://github.com/"
-"gomuks/gomuks)"
+"amoureux&middot;se du {term}`terminal`, auquel cas, vous êtes invité&middot;"
+"e&middot;s à utiliser le superbe [gomuks](https://github.com/gomuks/gomuks)"
 msgstr ""
 
-#: ../../services/matrix.md:127
+#: ../../services/matrix.md:135
 msgid ""
 "Sur Android, certaines applications commencent à être matures. Il y a bien-"
 "sûr la version mobile de [Element](https://play.google.com/store/apps/"
@@ -4193,21 +4252,21 @@ msgid ""
 "de [FluffyChat](https://fluffychat.im/)"
 msgstr ""
 
-#: ../../services/matrix.md:132
+#: ../../services/matrix.md:140
 msgid ""
 "Pour se connecter ailleurs que sur l'interface web de Club1, **il faut bien "
 "spécifier que votre serveur est `https://club1.fr` !**"
 msgstr ""
 
-#: ../../services/matrix.md:138
+#: ../../services/matrix.md:146
 msgid "Comment l'utiliser (interface Element web) ?"
 msgstr ""
 
-#: ../../services/matrix.md:141
+#: ../../services/matrix.md:149
 msgid "Rejoindre des salons"
 msgstr ""
 
-#: ../../services/matrix.md:143
+#: ../../services/matrix.md:151
 msgid ""
 "Pour rejoindre des rooms, il suffit de cliquer sur {guilabel}`explorer` en "
 "haut à gauche de l'interface. Par défaut, seules les rooms du serveur local "
@@ -4216,18 +4275,18 @@ msgid ""
 "nouveau serveur`."
 msgstr ""
 
-#: ../../services/matrix.md:148
+#: ../../services/matrix.md:156
 msgid ""
 "Dans le panneau de gauche, les salons sont répartis en {guilabel}`messages "
 "direct` et {guilabel}`salons`. Cela sert à distinguer les discussions à deux "
 "personnes des discussions de groupes."
 msgstr ""
 
-#: ../../services/matrix.md:151
+#: ../../services/matrix.md:159
 msgid "Créer un salon"
 msgstr ""
 
-#: ../../services/matrix.md:153
+#: ../../services/matrix.md:161
 msgid ""
 "En cliquant sur le {guilabel}`+` à droite de {guilabel}`messages direct` ou "
 "{guilabel}`salons`, on a la possibilité de créer son propre salon. Dans le "
@@ -4237,26 +4296,26 @@ msgid ""
 "l'activation ou non du chiffrement."
 msgstr ""
 
-#: ../../services/matrix.md:161
+#: ../../services/matrix.md:169
 msgid "Le chiffrement des discussions ne peut pas être désactivé plus tard."
 msgstr ""
 
-#: ../../services/matrix.md:165
+#: ../../services/matrix.md:173
 msgid "Formatage"
 msgstr ""
 
-#: ../../services/matrix.md:167
+#: ../../services/matrix.md:175
 msgid ""
 "Il est possible de formater son message, en sélectionnant du texte sur la "
 "zone d'écriture de message, ou en utilisant le **{term}`Markdown`**, un "
 "standard de formatage simple utilisé par de plus en plus de site."
 msgstr ""
 
-#: ../../services/matrix.md:170
+#: ../../services/matrix.md:178
 msgid "Chiffrement"
 msgstr ""
 
-#: ../../services/matrix.md:172
+#: ../../services/matrix.md:180
 msgid ""
 "Le protocole Matrix permet de chiffrer ses messages *de bout en bout*, c'est-"
 "à-dire qu'un message sera illisible d'un bout à l'autre de son cheminement "
@@ -4269,42 +4328,54 @@ msgid ""
 "messages."
 msgstr ""
 
-#: ../../services/matrix.md:183
+#: ../../services/matrix.md:191
 msgid "Configurations spécifiques"
 msgstr ""
 
-#: ../../services/matrix.md:186
+#: ../../services/matrix.md:194
 msgid ""
 "L'{term}`instance` {logiciel}`Synapse` de CLUB1 comporte quelques "
 "configurations spécifiques."
 msgstr ""
 
-#: ../../services/matrix.md:199
+#: ../../services/matrix.md:196 ../../services/newsletter.md:68
+msgid "Inscription"
+msgstr ""
+
+#: ../../services/matrix.md:208
 msgid ""
-"Le serveur a des [ressources limitées](../info/infrastructure-"
-"materielle.md#serveur), il ne peut donc pas accueillir et conserver toutes "
-"les discussions indéfiniment. C'est pourquoi les paramètres suivants ont été "
+"Le serveur a des [ressources limitées](../info/infrastructure-materielle."
+"md#serveur), il ne peut donc pas accueillir et conserver toutes les "
+"discussions indéfiniment. C'est pourquoi les paramètres suivants ont été "
 "modifiés."
 msgstr ""
 
-#: ../../services/matrix.md:217
+#: ../../services/matrix.md:212
+msgid "Ressources et performances"
+msgstr ""
+
+#: ../../services/matrix.md:226
 msgid "Autres configurations spéciales :"
 msgstr ""
 
-#: ../../services/matrix.md:229
-msgid ""
-"L'article de journal \"[Nouveaux réglages du serveur Matrix](https://"
-"club1.fr/serveur-matrix-suivi-001)\""
+#: ../../services/matrix.md:228
+msgid "Divers"
 msgstr ""
 
-#: ../../services/matrix.md:230
+#: ../../services/matrix.md:238
+msgid ""
+"L'article de journal \"[Nouveaux réglages du serveur Matrix](https://club1."
+"fr/serveur-matrix-suivi-001)\""
+msgstr ""
+
+#: ../../services/matrix.md:239
 msgid ""
 "Le post de forum \"[Limiter les salons fédérés en fonction de leur "
 "complexité](https://forum.club1.fr/d/100-limiter-les-salons-federes-en-"
 "fonction-de-leur-complexite/12)\""
 msgstr ""
 
-#: ../../services/matrix.md:237
+#: ../../services/matrix.md:246
 msgid ""
 "{term}`Serveur` {term}`Matrix` écrit en Python. Il s'agit de "
 "l'implémentation de référence d'un serveur Matrix et pour l'instant la seule "
@@ -4312,13 +4383,13 @@ msgid ""
 "hq/synapse)"
 msgstr ""
 
-#: ../../services/matrix.md:244
+#: ../../services/matrix.md:253
 msgid ""
 "{term}`Client` {term}`Matrix` complet (anciennement \"Riot\") disponible sur "
 "de nombreuses plateformes. CLUB1 héberge une {term}`instance` de la version "
 "{term}`Web` de ce client à l'adresse <https://riot.club1.fr>. --- [Sources]"
-"(https://github.com/element-hq/element-web), [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Element_(logiciel))"
+"(https://github.com/element-hq/element-web), [Wikipedia](https://fr."
+"wikipedia.org/wiki/Element_(logiciel))"
 msgstr ""
 
 #: ../../services/newsletter.md:1
@@ -4347,147 +4418,251 @@ msgid ""
 "destinataires ouvrent les emails)"
 msgstr ""
 
-#: ../../services/newsletter.md:15
-msgid ""
-"interface d'envoi en {term}`CLI`, uniquement accessible via [la connexion "
-"SSH](ssh.md)."
-msgstr ""
-
-#: ../../services/newsletter.md:17
+#: ../../services/newsletter.md:16
 msgid ""
 "Chaque membre dispose d'une newsletter, qui est envoyée par [son adressse "
 "email de membre](email.md)."
 msgstr ""
 
-#: ../../services/newsletter.md:20
+#: ../../services/newsletter.md:19
 msgid "Mise en place"
 msgstr ""
 
-#: ../../services/newsletter.md:23
+#: ../../services/newsletter.md:22
 msgid ""
-"La newsletter n'est pas activée par défaut. Pour l'initialiser, il faut "
-"lancer la commande {commande}`newsletter` avec l'option `-i` :"
+"La newsletter n'est pas activée par défaut. Pour l'initialiser, il faut se "
+"[connecter en SSH](ssh.md) et lancer la {term}`commande` {commande}"
+"`newsletter` avec la sous-commande `setup` :"
 msgstr ""
 
 #: ../../services/newsletter.md:28
 msgid ""
-"Celle-ci va automatiquement créer trois fichiers `.forward+...` à la racine "
-"de votre espace perso. Elle va également ajouter un dossier `.config/"
-"newsletter` qui contiendra la configuration de la newsletter. Ce dossier "
-"contient :"
+"Cela déclenche un formulaire vous permettant de définir les quelques "
+"réglages possible liés à votre newsletter. Pour mettre à jour ces "
+"paramètres, vous pouvez la lancer à nouveau."
 msgstr ""
 
-#: ../../services/newsletter.md:32
+#: ../../services/newsletter.md:31
+msgid "Configuration détaillée"
+msgstr ""
+
+#: ../../services/newsletter.md:33
+msgid ""
+"La commande `setup` crée cinq fichiers `.forward+...` à la racine de votre "
+"espace perso. Elle crée également le dossier `.config/newsletter` qui "
+"contiendra la configuration de la newsletter. Ce dernier contient :"
+msgstr ""
+
+#: ../../services/newsletter.md:37
 msgid ""
 "`emails` fichier brut avec une adresse email par ligne. Vous pouvez l'éditer "
 "manuellement pour gérer la liste des destinataires."
 msgstr ""
 
-#: ../../services/newsletter.md:33
+#: ../../services/newsletter.md:38
 msgid ""
 "`signature.txt` fichier brut à remplir avec du texte qui sera inséré en "
 "signature de chacun des emails de la newsletter."
 msgstr ""
 
-#: ../../services/newsletter.md:34
+#: ../../services/newsletter.md:39
 msgid ""
-"`settings.json` fichier JSON permettant d'ajuster le titre de la newsletter "
-"ainsi que le nom d'affichage pour l'adresse d'envoi."
+"`settings.json` fichier JSON définissant le titre de la newsletter,   le nom "
+"d'affichage pour l'adresse d'envoi,   ainsi que la langue utilisés pour la "
+"[gestion des inscriptions par email](#gestion-par-email)."
 msgstr ""
 
-#: ../../services/newsletter.md:35
+#: ../../services/newsletter.md:42
 msgid ""
 "`.secret` fichier brut servant à sécuriser la confirmation d'inscription. Il "
 "s'agit d'un {term}`fichier caché` généré automatiquement."
 msgstr ""
 
-#: ../../services/newsletter.md:38
+#: ../../services/newsletter.md:45
 msgid "📁 `.config` est un {term}`dossier caché`."
 msgstr ""
 
-#: ../../services/newsletter.md:44
-msgid ""
-"L'inscription et la désinscription se font __uniquement par email__ de "
-"manière interactive. Les emails doivent provenir de l'adresse à inscrire ou "
-"désinscrire. Le contenu n'a aucune importance. Dans les adresses suivantes, "
-"`USERNAME` correspond à votre [identifiant de membre](../info/"
-"general.md#identifiant)."
+#: ../../services/newsletter.md:48
+msgid "Gestion des inscriptions"
 msgstr ""
 
-#: ../../services/newsletter.md:49
-msgid "Inscription"
+#: ../../services/newsletter.md:51
+msgid ""
+"Les personnes peuvent s'inscrire et se désinscrire à votre liste "
+"__uniquement par email__, tandis que vous gardez un [contrôle manuel sur la "
+"liste](#gestion-manuelle)."
 msgstr ""
 
-#: ../../services/newsletter.md:53
-msgid ""
-"Cela déclenche la procédure d'inscription. Un email de confirmation est "
-"envoyé et il est nécessaire d'y répondre pour terminer l'inscription."
+#: ../../services/newsletter.md:54
+msgid "Gestion par email"
 msgstr ""
 
 #: ../../services/newsletter.md:56
-msgid "Désinscription"
+msgid ""
+"Pour les personnes qui souhaiterait s'abonner à votre newsletter, "
+"l'inscription et la désinscription se fait par email. Elles doivent envoyer "
+"à une adresse précise un email depuis l'adresse qu'elles souhaitent inscrire "
+"ou désinscrire. Le contenu n'aura aucune incidence."
 msgstr ""
 
-#: ../../services/newsletter.md:60
-msgid "Si l'adresse était bien listée, la désinscription est immédiate."
-msgstr ""
-
-#: ../../services/newsletter.md:63
-msgid "Envoi"
+#: ../../services/newsletter.md:61
+msgid ""
+"Pour proposer aux personnes de s'isncrire à votre newsletter depuis votre "
+"site Web, vous pouvez insérer des liens {term}`HTML` [en utilisant le "
+"préfixe `mailto:`devant l'addresse email](https://developer.mozilla.org/fr/"
+"docs/Learn_web_development/Core/Structuring_content/"
+"Creating_links#liens_de_courriel)."
 msgstr ""
 
 #: ../../services/newsletter.md:66
 msgid ""
-"Une fois que l'on est connecté en {term}`SSH` via un {term}`terminal`, on "
-"peut envoyer la newsletter en lancant la commande suivante :"
+"Dans les adresses présentés ci-dessous, `IDENTIFIANT` correspond à votre "
+"[identifiant de membre](../info/general.md#identifiant)."
 msgstr ""
 
-#: ../../services/newsletter.md:71
+#: ../../services/newsletter.md:72
 msgid ""
-"Commande permettant d'envoyer une newsletter à l'aide des {logiciel}`scripts "
-"de newsletter <newsletter>`:"
+"Cela déclenche la procédure d'inscription. Un email de confirmation est "
+"envoyé et __il est nécessaire d'y répondre__ pour terminer l'inscription."
 msgstr ""
 
 #: ../../services/newsletter.md:75
+msgid "Désinscription"
+msgstr ""
+
+#: ../../services/newsletter.md:79
+msgid "Si l'adresse était bien listée, la désinscription est immédiate."
+msgstr ""
+
+#: ../../services/newsletter.md:82
+msgid "Gestion manuelle"
+msgstr ""
+
+#: ../../services/newsletter.md:84
+msgid ""
+"Comme les emails son stockés dans un fichier brut (`~/.config/newsletter/"
+"emails`), vous pouvez éditer ce fichier avec un éditeur de texte pour "
+"modifier la liste des abonnés."
+msgstr ""
+
+#: ../../services/newsletter.md:88
+msgid "Envoi"
+msgstr ""
+
+#: ../../services/newsletter.md:91
+msgid ""
+"L'envoi d'une newsletter peut se faire [__par email__](#par-email) ou [__via "
+"SSH__](#via-ssh)."
+msgstr ""
+
+#: ../../services/newsletter.md:93
+msgid "Par email"
+msgstr ""
+
+#: ../../services/newsletter.md:95
+msgid ""
+"Pour diffuser une newsletter par email, écrivez un email à l'adresse "
+"suivante en remplissant le sujet et le contenu."
+msgstr ""
+
+#: ../../services/newsletter.md:100
+msgid ""
+"__Vous receverez une prévisualisation__ qui vous permettra de juger du "
+"rendu. La seule différence étant que le sujet contiendra `(preview)` en plus "
+"de votre sujet et à la fin de la signature, un texte indiquant qu'il faut "
+"répondre à cet email pour confirmer l'envoi."
+msgstr ""
+
+#: ../../services/newsletter.md:104
+msgid ""
+"Pour confirmer l'envoi, __répondez à cet email de prévisualisation__ (le "
+"contenu de cette réponse n'aura aucune influence)."
+msgstr ""
+
+#: ../../services/newsletter.md:106
+msgid ""
+"À la fin de la diffusion, vous recevrez un email indiquant le statut de "
+"l'opération."
+msgstr ""
+
+#: ../../services/newsletter.md:108
+msgid "Via SSH"
+msgstr ""
+
+#: ../../services/newsletter.md:110
+msgid ""
+"Une fois connecté en {term}`SSH` via un {term}`terminal`, la {term}"
+"`commande` suivante permet de diffuser une newsletter :"
+msgstr ""
+
+#: ../../services/newsletter.md:115
 msgid "`SUJET` sera utilisé comme sujet de l'email"
 msgstr ""
 
-#: ../../services/newsletter.md:76
+#: ../../services/newsletter.md:116
 msgid ""
 "`FICHIER_DU_CONTENU` doit indiquer le chemin vers un fichier contenant le "
-"corp de la newsletter (qu'il faut avoir créé au préalable)."
+"corps de la newsletter (qu'il faut avoir créé au préalable)."
 msgstr ""
 
-#: ../../services/newsletter.md:78
-msgid "💡 Pour accéder à l'aide, on peut utiliser `newsletter -h`."
-msgstr ""
-
-#: ../../services/newsletter.md:83
+#: ../../services/newsletter.md:119
 msgid ""
 "Si `SUJET` ou `FICHIER_DU_CONTENU` contiennent des espaces, il faut les "
 "entourer de guillemets !"
 msgstr ""
 
-#: ../../services/newsletter.md:86
+#: ../../services/newsletter.md:122
 msgid ""
-"Si tout est bien configuré, le programme va afficher un aperçu et demander "
-"une confirmation avant l'envoi."
+"Le programe va vous envoyer __une prévisualisation par email__. Il vous "
+"restera à confirmer ou non l'envoi dans votre terminal."
 msgstr ""
 
-#: ../../services/newsletter.md:88
-msgid "méthode alternative"
+#: ../../services/newsletter.md:125
+msgid "contenu via l'entrée standard"
 msgstr ""
 
-#: ../../services/newsletter.md:90
+#: ../../services/newsletter.md:127
 msgid ""
 "Il est également possible d'omettre le second argument et de fournir le "
-"contenu via STDIN."
+"contenu dans l'entrée standard."
 msgstr ""
 
-#: ../../services/newsletter.md:98
+#: ../../services/newsletter.md:129
+msgid "Consultation des logs"
+msgstr ""
+
+#: ../../services/newsletter.md:132
 msgid ""
-"Ensemble de scripts très légers de gestion de newsletter développé par "
-"CLUB1. --- [Sources](https://github.com/club-1/newsletter)"
+"Les {term}`logs <log>` de ce service sont envoyés dans le [Syslog](https://"
+"en.wikipedia.org/wiki/Syslog) avec le tag `newsletter`. Pour les consulter, "
+"il est possible d'utiliser la commande `journalctl` :"
+msgstr ""
+
+#: ../../services/newsletter.md:138
+msgid "Le manuel de cette commande : {manpage}`journalctl.1`"
+msgstr ""
+
+#: ../../services/newsletter.md:141
+msgid "La commande"
+msgstr ""
+
+#: ../../services/newsletter.md:145
+msgid ""
+"Commande permettant d'envoyer ou d'ajuster les réglages de votre newsletter "
+"personnelle. Elle dispose de deux sous-commandes : `setup` pour la mise en "
+"place et `send` pour l'envoi. L'envoi nécessite des arguments "
+"supplémentaires. Le contenu peut alternativement être fourni dans l'entrée "
+"standard."
+msgstr ""
+
+#: ../../services/newsletter.md:152
+msgid "💡 Pour accéder à l'aide, on peut utiliser `newsletter -h`."
+msgstr ""
+
+#: ../../services/newsletter.md:160
+msgid ""
+"Petit logiciel de gestion de newsletter développé par CLUB1. --- [Sources]"
+"(https://github.com/club-1/newsletter-go)"
 msgstr ""
 
 #: ../../services/rss.md:1
@@ -4653,35 +4828,50 @@ msgstr ""
 msgid ""
 "Il est possible de se connecter au serveur SQL directement depuis la {term}"
 "`ligne de commande <CLI>`. Pour cela, il faut tout d'abord se connecter au "
-"serveur en [SSH](ssh.md). Ensuite, la commande pour démarrer un shell SQL "
-"est la suivante (votre mot de passe CLUB1 sera demandé) :"
+"serveur en [SSH](ssh.md). Ensuite, la {term}`commande` pour démarrer un "
+"shell SQL est la suivante :"
 msgstr ""
 
-#: ../../services/sql.md:43
+#: ../../services/sql.md:42
 msgid ""
 "Depuis ce shell il est possible de lancer n'importe quelle commande {term}"
 "`SQL`."
 msgstr ""
 
-#: ../../services/sql.md:48
+#: ../../services/sql.md:47
 msgid ""
 "L'instance {logiciel}`MariaDB` de CLUB1 n'est pas accessible depuis "
 "l'extérieur. Il n'est donc possible de s'y connecter que depuis un processus "
 "s'exécutant sur le même serveur."
 msgstr ""
 
-#: ../../services/sql.md:4
+#: ../../services/sql.md:51
+msgid ""
+"Il est généralement **inutile de renseigner son mot de passe**, car les "
+"connexions locales vont préférer l'utilisation de la _\"socket Unix\"_, et "
+"ainsi s'authentifier automatiquement. [C'est en particulier le cas](https://"
+"www.php.net/manual/fr/ref.pdo-mysql.connection.php#refsect1-ref.pdo-mysql."
+"connection-notes) de {term}`PHP`."
+msgstr ""
+
+#: ../../services/sql.md:57
+msgid ""
+"Ne pas renseigner de mot de passe **améliore la sécurité** de votre compte "
+"CLUB1, puisque ça évite qu'il soit sauvegardé _en clair_ sur le serveur."
+msgstr ""
+
+#: ../../services/sql.md:50
 msgid "`3306` (par défaut)"
 msgstr ""
 
-#: ../../services/sql.md:60
+#: ../../services/sql.md:71
 msgid ""
 "{term}`Serveur` de bases de données {term}`SQL` distribué sous licence {term}"
 "`libre <logiciel libre>`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "MariaDB), [Sources](https://github.com/MariaDB/server)"
 msgstr ""
 
-#: ../../services/sql.md:66
+#: ../../services/sql.md:77
 msgid ""
 "Interface {term}`Web` de gestion de bases de données {term}`SQL` écrit en "
 "{term}`PHP`. Chez CLUB1, phpMyAdmin est directement servi par {logiciel}"
@@ -4695,14 +4885,25 @@ msgstr ""
 
 #: ../../services/ssh.md:4
 msgid ""
-"La connexion SSH est la connexion la plus pure que vous puissiez avoir avec "
-"le serveur (enfin parmi celles qui ne nécessitent pas d’user de "
-"psychotropes). C’est aussi celle qui offre le plus la sensation d’utiliser "
-"un ordinateur, car à travers elle, on peut [lancer des programmes]"
+"La connexion SSH est la connexion la plus intime que vous puissiez avoir "
+"avec le serveur. C’est aussi celle qui peut le plus rappeler l'utilisation "
+"d'un ordinateur, car à travers elle, on peut [lancer des programmes]"
 "(#sélection-de-commandes) sur le serveur !"
 msgstr ""
 
-#: ../../services/ssh.md:11
+#: ../../services/ssh.md:8
+msgid ""
+"![capture d'écran d'un émulateur de terminal après une connexion SSH au "
+"serveur CLUB1](ssh/terminal.png)"
+msgstr ""
+
+#: ../../services/ssh.md:8
+msgid ""
+"capture d'écran d'un émulateur de terminal après une connexion SSH au "
+"serveur CLUB1"
+msgstr ""
+
+#: ../../services/ssh.md:12
 msgid ""
 "(_Secure SHell_) {term}`Protocole` permettant de se connecter à distance en "
 "{term}`CLI` à un serveur. Ses principaux avantages sont d'être entièrement "
@@ -4712,28 +4913,28 @@ msgid ""
 "Secure_Shell)"
 msgstr ""
 
-#: ../../services/ssh.md:18
+#: ../../services/ssh.md:19
 msgid ""
 "(_SSH File Transfer Protocol_) {term}`Protocole` de transfert et gestion à "
 "distance de fichiers basé sur {term}`SSH`. Il est ainsi entièrement chiffré, "
-"et donc comparable à {term}`FTPS`, mais il offre plus de fonctionnalités "
-"(e.g. l'affichage des propriétaires d'un fichier). --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
+"et donc comparable à {term}`FTPS`, mais il offre plus de fonctionnalités (e."
+"g. l'affichage des propriétaires d'un fichier). --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/SSH_File_Transfer_Protocol)"
 msgstr ""
 
-#: ../../services/ssh.md:25
+#: ../../services/ssh.md:26
 msgid ""
 "(_Secure CoPy_) {term}`Protocole` de copie de fichiers entre deux "
 "ordinateurs basé sur {term}`SSH`. SCP s'utilise principalement à l'aide du "
-"{term}`client` en {term}`CLI` du même nom. --- [Wikipedia](https://"
-"fr.wikipedia.org/wiki/Secure_copy)"
+"{term}`client` en {term}`CLI` du même nom. --- [Wikipedia](https://fr."
+"wikipedia.org/wiki/Secure_copy)"
 msgstr ""
 
-#: ../../services/ssh.md:30
+#: ../../services/ssh.md:31
 msgid "Se connecter"
 msgstr ""
 
-#: ../../services/ssh.md:34
+#: ../../services/ssh.md:35
 msgid ""
 "La première connexion est **critique** car c'est lors de celle-ci que se "
 "fait l'**échange des clés**. Pour éviter de subir une [attaque de l'homme du "
@@ -4741,13 +4942,13 @@ msgid ""
 "nous faut être sûr d'avoir reçu la bonne clé lors de cet échange."
 msgstr ""
 
-#: ../../services/ssh.md:39
+#: ../../services/ssh.md:40
 msgid ""
 "Si vous ne savez pas comment ajouter la clé du serveur à votre appareil, le "
 "tuto [](/tutos/premiere-connexion-ssh.md) est fait pour vous !"
 msgstr ""
 
-#: ../../services/ssh.md:43
+#: ../../services/ssh.md:44
 msgid ""
 "Il existe deux manières de s'authentifier lors d'une connexion SSH. La plus "
 "simple est d'utiliser un [mot de passe](#sauthentifier-par-mot-de-passe), "
@@ -4755,84 +4956,79 @@ msgid ""
 "(#sauthentifier-avec-une-clé-publique)."
 msgstr ""
 
-#: ../../services/ssh.md:48
+#: ../../services/ssh.md:49
 msgid "S'authentifier par mot de passe"
 msgstr ""
 
-#: ../../services/ssh.md:50
+#: ../../services/ssh.md:51
 msgid ""
-"On utilise la commande suivante dans le {term}`terminal` pour se connecter "
-"(remplacer `USER` par votre **identifiant** CLUB1) :"
+"On utilise la {term}`commande` suivante dans le {term}`terminal` pour se "
+"connecter (remplacer `USER` par votre **identifiant** CLUB1) :"
 msgstr ""
 
-#: ../../services/ssh.md:55
+#: ../../services/ssh.md:56
 msgid ""
 "Il faut ensuite entrer votre **mot de passe** CLUB1 (il est normal que le "
 "mot de passe ne s'affiche pas au moment de l'écriture)."
 msgstr ""
 
-#: ../../services/ssh.md:58
+#: ../../services/ssh.md:59
 msgid "S'authentifier avec une clé publique"
 msgstr ""
 
-#: ../../services/ssh.md:60
+#: ../../services/ssh.md:61
 msgid ""
-"L'authentification par clé publique nécessite une paire de clé de "
-"chiffrement. Pour créer ces clés, on utilise la commande ci-dessous. Une "
-"_phrase de passe_ sera demandée lors de la génération des clés, elle permet "
-"de les stocker de manière sécurisée. Sur Linux, les clés seront "
-"automatiquement déverrouillées lors de l'ouverture d'une session, il ne faut "
-"donc pas hésiter à choisir une longue phrase de passe."
+"Au lieu d'utiliser un mot de passe, si vous vous connectez régulièrement "
+"depuis le même appareil, il est conseillé de se connecter à l'aide d'une clé "
+"publique."
 msgstr ""
 
-#: ../../services/ssh.md:69
+#: ../../services/ssh.md:65
 msgid ""
-"La commande qui suit va permettre d'envoyer la partie publique de la clé "
-"vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
-"(remplacer `USER` par votre **identifiant** CLUB1). Elle vous demandera "
-"d'entrer votre **mot de passe** CLUB1 pour fonctionner."
+"Cela nécessite de suivre quelques étapes qui sont indiquées dans le tuto : "
+"[Connexion SSH à l'aide d'une clé publique](/tutos/auth-ssh-avec-cle-"
+"publique.md)"
 msgstr ""
 
-#: ../../services/ssh.md:76
-msgid ""
-"Finalement, on utilise toujours la même commande pour se connecter. Mais "
-"cette fois ce sont les clés qui seront utilisées. Si elles ne sont pas déjà "
-"déverrouillées, la _phrase de passe_ sera demandée."
-msgstr ""
-
-#: ../../services/ssh.md:33
+#: ../../services/ssh.md:34
 msgid "`22` (par défaut)"
 msgstr ""
 
-#: ../../services/ssh.md:91
+#: ../../services/ssh.md:77
 msgid "Sélection de commandes"
 msgstr ""
 
-#: ../../services/ssh.md:94
+#: ../../services/ssh.md:80
 msgid ""
-"Voici une sélection de commandes pour vous permettre de découvrir le "
-"serveur :"
+"Voici une sélection de {term}`commandes <commande>` pour vous permettre de "
+"découvrir le serveur :"
 msgstr ""
 
-#: ../../services/ssh.md:97
-msgid "Appuyez sur {kbd}`Enter` pour lancer une commande depuis le terminal."
+#: ../../services/ssh.md:83
+msgid ""
+"Pour lancer une commande depuis le terminal, tappez son nom, puis appuyez "
+"sur {kbd}`Enter`."
 msgstr ""
 
-#: ../../services/ssh.md:101
+#: ../../services/ssh.md:87
+msgid "Pour mettre fin à la connexion SSH avec le serveur."
+msgstr ""
+
+#: ../../services/ssh.md:91
 msgid ""
 "Permet de changer son mot de passe CLUB1 (cela aura donc un effet sur la "
 "connexion à tous les [services](/services-membres.md)). --- Manuel : "
 "{manpage}`passwd.1`"
 msgstr ""
 
-#: ../../services/ssh.md:107
+#: ../../services/ssh.md:97
 msgid ""
 "Permet de voir ce qui se passe sur le serveur en ce moment et à quel point "
 "les ressources sont utilisées.   Pressez la touche {kbd}`Q` pour quitter. "
 "--- Manuel : {manpage}`htop.1`"
 msgstr ""
 
-#: ../../services/ssh.md:113
+#: ../../services/ssh.md:103
 msgid ""
 "Outil visuel et rapide pour trouver les fichiers ou dossiers qui prennent le "
 "plus de place. Idéal pour faire du rangement ! Naviguez simplement avec les "
@@ -4840,24 +5036,34 @@ msgid ""
 "Manuel : {manpage}`ncdu.1`"
 msgstr ""
 
-#: ../../services/ssh.md:121
+#: ../../services/ssh.md:111
 msgid ""
 "Affiche les membres connectés en SSH et indique le logiciel qu'ils sont en "
 "train d'utiliser. Cette commande est un peu intrusive ! --- Manuel : "
 "{manpage}`w.1`"
 msgstr ""
 
-#: ../../services/ssh.md:127
+#: ../../services/ssh.md:117
+msgid "Affiche les membres d'un {term}`groupe` :"
+msgstr ""
+
+#: ../../services/ssh.md:121
+msgid ""
+"En remplaçant GROUP par le groupe voulu. Exemple : `members sudo` ou "
+"`members compta`. --- Manuel : {manpage}`members.1`"
+msgstr ""
+
+#: ../../services/ssh.md:126
 msgid ""
 "La façon la plus basique d'envoyer un email ! Cette commande nécessite de "
 "rajouter au bout, après un espace, l'email de votre destinataire."
 msgstr ""
 
-#: ../../services/ssh.md:131
+#: ../../services/ssh.md:130
 msgid "Si vous envoyez à un membre CLUB1, pas besoin de rajouter `@club1.fr` !"
 msgstr ""
 
-#: ../../services/ssh.md:134
+#: ../../services/ssh.md:133
 msgid ""
 "Renseignez le sujet lorsqu'on vous le demande, puis confirmez en pressant "
 "{kbd}`Enter`. Composez ensuite votre message. Lorsque vous avez terminé, "
@@ -4866,41 +5072,79 @@ msgid ""
 "{manpage}`mailx.1 <bsd-mailx/mailx.1>`"
 msgstr ""
 
-#: ../../services/ssh.md:142
+#: ../../services/ssh.md:141
 msgid ""
 "Permet de consulter et d'envoyer ses emails avec {logiciel}`Mutt` : Un {term}"
 "`client` email en {term}`CLI`. Les touches de contrôle sont indiqués en "
 "haut. Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`mutt.1`"
 msgstr ""
 
-#: ../../services/ssh.md:150
+#: ../../services/ssh.md:149
 msgid ""
 "Un outil qui permet de visualiser la fréquentation de ses sites {term}`Web` "
 "en analysant les {term}`logs <log>`. Cette commande nécessite de rajouter au "
 "bout, après un espace, le fichier de log que vous souhaitez analyser."
 msgstr ""
 
-#: ../../services/ssh.md:155
+#: ../../services/ssh.md:154
 msgid ""
 "Les logs de {logiciel}`Apache`, qui sert les sites Web, sont stockés dans le "
 "dossier `log` de votre [espace perso](../info/espace-personnel.md#-log)."
 msgstr ""
 
-#: ../../services/ssh.md:159
+#: ../../services/ssh.md:158
 msgid ""
 "Naviguez entre les sections avec {kbd}`Tab`, utilisez {kbd}`Enter` pour en "
 "étendre une.   Pressez la touche {kbd}`Q` pour quitter. --- Manuel : "
 "{manpage}`goaccess.1`"
 msgstr ""
 
-#: ../../services/ssh.md:165
+#: ../../services/ssh.md:164
 msgid ""
 "Affiche la page de manuel correspondant à une commande. Celle-ci devra être "
 "indiquée après un espace. La plupart des pages de manuel sont en anglais.   "
 "Pressez la touche {kbd}`Q` pour quitter. --- Manuel : {manpage}`man.1`"
 msgstr ""
 
-#: ../../services/ssh.md:176
+#: ../../services/ssh.md:171
+msgid "Partage des ressources"
+msgstr ""
+
+#: ../../services/ssh.md:174
+msgid ""
+"Les {term}`commandes <commande>` peuvent **consommer des ressources de "
+"calcul**. Dans ce cas c'est le [processeur](../info/infrastructure-"
+"materielle.md#processeur) du serveur qui va charbonner ! Si un·e membre "
+"monopolise les 4 processeurs avec une commande, ils ne seront pas "
+"disponibles pour les autres processus."
+msgstr ""
+
+#: ../../services/ssh.md:179
+msgid ""
+"Si on souhaite lancer une tâche un peu gourmande en ressource et qu'on veut "
+"être sûr de ne pas ralentir les autres usages du serveur, on peut utiliser "
+"la commande suivante :"
+msgstr ""
+
+#: ../../services/ssh.md:185
+msgid ""
+"Permet d'augmenter la politesse d'une commande. (Cette dernière laissera la "
+"place aux autres en priorité)"
+msgstr ""
+
+#: ../../services/ssh.md:190
+msgid ""
+"En remplaçant `COMMANDE` par la commande qui sera lancée poliment. --- "
+"Manuel : {manpage}`nice.1`"
+msgstr ""
+
+#: ../../services/ssh.md:195
+msgid ""
+"Pour visualiser la consommation de ressource du serveur, on peut consulter "
+"le [tableau de bord](/outils/dashboard.md) ou utiliser {commande}`htop`."
+msgstr ""
+
+#: ../../services/ssh.md:204
 msgid ""
 "Logiciel fournissant à la fois un {term}`serveur` et un {term}`client` {term}"
 "`SSH`. --- [Wikipedia](https://fr.wikipedia.org/wiki/OpenSSH), [Sources]"
@@ -5190,8 +5434,8 @@ msgstr ""
 
 #: ../../services/web.md:186
 msgid ""
-"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy inverse\" "
-"{logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
+"Chez CLUB1, le serveur Apache se trouve derrière le \"proxy "
+"inverse\" {logiciel}`Nginx`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Apache_HTTP_Server), [Sources](https://github.com/apache/httpd)"
 msgstr ""
 
@@ -5199,8 +5443,8 @@ msgstr ""
 msgid ""
 "Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` {term}"
 "`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
-"d'exécuter PHP avec différents utilisateurs. --- [Sources](https://"
-"github.com/php/php-src/tree/master/sapi/fpm)"
+"d'exécuter PHP avec différents utilisateurs. --- [Sources](https://github."
+"com/php/php-src/tree/master/sapi/fpm)"
 msgstr ""
 
 #: ../../services/webcast.md:1
@@ -5255,8 +5499,8 @@ msgstr ""
 #: ../../services/webcast.md:38
 msgid ""
 "{term}`Serveur` de {term}`webdiffusion` de flux audio et vidéo. --- "
-"[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://"
-"gitlab.xiph.org/xiph/icecast-server)"
+"[Wikipedia](https://fr.wikipedia.org/wiki/Icecast), [Sources](https://gitlab."
+"xiph.org/xiph/icecast-server)"
 msgstr ""
 
 #: ../../services/webcast.md:44
@@ -5316,8 +5560,8 @@ msgstr ""
 
 #: ../../services/webdav.md:35
 msgid ""
-"Le {term}`client Web` utilisé pour les [emails](email.md) (<https://"
-"mail.club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
+"Le {term}`client Web` utilisé pour les [emails](email.md) (<https://mail."
+"club1.fr>) permet aussi d'accéder aux carnets d'adresses et calendriers "
 "WebDAV. Depuis cette interface, il est possible de consulter et éditer ses "
 "contacts et calendriers CLUB1."
 msgstr ""
@@ -5355,6 +5599,137 @@ msgid ""
 "--- [Site Web](https://sabre.io/), [Sources](https://github.com/sabre-io/dav)"
 msgstr ""
 
+#: ../../tutos/auth-ssh-avec-cle-publique.md:1
+msgid "Connexion SSH à l'aide d'une clé publique"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:4
+msgid ""
+"Vous en avez marre de taper à chaque fois votre mot de passe lorsque [vous "
+"vous connectez en SSH](/services/ssh.md) avec votre ordinateur personnel ?"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:7
+msgid "Ce tuto est fait pour vous ! 👈️"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:10
+msgid ""
+"Ce tutoriel n'a pas encore beaucoup été éprouvé. (C'est encore un bébé !) "
+"Les choses peuvent donc être différentes sur votre appareil."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:13
+msgid ""
+"🛟 En cas de blocage, on vous invite à [demander de l'aide](../info/general."
+"md#demandes-et-incidents). En plus de vous débloquer, cela pourra aider à "
+"enrichir ce tutoriel ! 😉"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:18
+msgid "Création de la paire de clés"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:21
+msgid ""
+"L'authentification par clé publique nécessite une paire de clé de "
+"chiffrement. Pour créer ces clés, on utilise la {term}`commande` ci-dessous."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:26
+msgid "Ensuite, le terminal devrait afficher un truc du genre :"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:31
+msgid ""
+"La première ligne nous confirme que c'est bien une \"paire de clé\" qui est "
+"crée. La seconde ligne nous demande de choisir l'emplacement de cette paire. "
+"Ici `LOCAL_USER` devrait correspondre à votre nom d'utilisateur local, qui "
+"n'est pas forcément le même que celui sur le serveur CLUB1. Entre "
+"parenthèse, on voit l'emplacement par défaut qui est suggéré : à l'intérieur "
+"du {term}`dossier caché` `.ssh`. On vous conseille d'accepter cette "
+"proposition en appuyant sur {kbd}`entrée`."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:40
+msgid ""
+"Qu'est ce que c'est que ça une _passphrase_ ? je croyais qu'on n'allait plus "
+"avoir de mot de passe à taper ? 🫤"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:43
+msgid ""
+"Une phrase de passe, c'est en fait exactement la même chose qu'un mot de "
+"passe. C'est surtout une façon d'encourager à ce qu'elle soit plus longue et "
+"donc plus sécurisée."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:46
+msgid ""
+"Sur Linux, les clés seront automatiquement déverrouillées lors de "
+"l'ouverture d'une session, il ne faut donc pas hésiter à choisir une longue "
+"phrase de passe !"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:50
+msgid ""
+"Lorsque vous tapez votre phrase de passe, rien ne s'affiche ! C'est normal, "
+"il s'agit d'une mesure de sécurité qui permet de ne même pas révéler le "
+"nombre de caractères du mot de passe. 🤫"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:57
+msgid ""
+"Bon, ça c'est simplement pour vérifier que vous ne vous êtes pas trompé en "
+"tapant au clavier."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:59
+msgid ""
+"Si tout c'est bien passé, on devrait ensuite recevoir les messages suivant :"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:64
+msgid ""
+"Les deux clés ont été chacunes stockées dans un fichier séparé. "
+"L'_identification_ c'est ce qu'on appelle la clé privée. On remarque que le "
+"nom des fichiers est très proche, la clé publique est ralongée avec `.pub`. "
+"(Pour _public_, et non pas pour publicité 😅)"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:72
+msgid "Ça c'est l'_empreinte digitale_ de la clé."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:87
+msgid ""
+"Pour nous récompenser de notre dur labeur, on reçoit cette magnifique image. "
+"Ça valait le coup !"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:91
+msgid "Envoi de la clé publique sur le serveur"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:94
+msgid ""
+"La commande qui suit va permettre d'envoyer la partie publique de la clé "
+"vers le serveur, afin de pouvoir l'utiliser comme méthode d'authentification "
+"(remplacer `USER` par votre **identifiant** CLUB1). Elle vous demandera "
+"d'entrer votre **mot de passe** CLUB1 pour fonctionner."
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:103
+msgid "Connexion au serveur"
+msgstr ""
+
+#: ../../tutos/auth-ssh-avec-cle-publique.md:107
+msgid ""
+"Finalement, on utilise toujours la même commande pour se connecter. Mais "
+"cette fois ce sont les clés qui seront utilisées. Si elles ne sont pas déjà "
+"déverrouillées, la _phrase de passe_ sera demandée."
+msgstr ""
+
 #: ../../tutos/caldav-mac.md:1
 msgid "Synchronisation de calendrier CalDAV sur un Mac"
 msgstr ""
@@ -5376,7 +5751,7 @@ msgid ""
 "**Comptes Internet** ({numref}`fig:tutos-caldav-mac-comptes`)."
 msgstr ""
 
-#: ../../tutos/caldav-mac.md:12
+#: ../../tutos/caldav-mac.md:18
 msgid "capture d'écran fenêtre Comptes Internet"
 msgstr ""
 
@@ -5391,7 +5766,7 @@ msgid ""
 "mac-autres-comptes`)"
 msgstr ""
 
-#: ../../tutos/caldav-mac.md:24
+#: ../../tutos/caldav-mac.md:30
 msgid "capture d'écran fenêtre Autres Comptes"
 msgstr ""
 
@@ -5405,7 +5780,7 @@ msgid ""
 "({numref}`fig:tutos-caldav-mac-ajouter-compte-caldav`)."
 msgstr ""
 
-#: ../../tutos/caldav-mac.md:37
+#: ../../tutos/caldav-mac.md:43
 msgid "capture d'écran fenêtre Ajouter un compte CalDAV"
 msgstr ""
 
@@ -5420,7 +5795,7 @@ msgid ""
 "calendrier`)."
 msgstr ""
 
-#: ../../tutos/caldav-mac.md:50
+#: ../../tutos/caldav-mac.md:56
 msgid "capture d'écran fenêtre calendrier"
 msgstr ""
 
@@ -5496,7 +5871,7 @@ msgid ""
 "connecter`."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:28
+#: ../../tutos/connexion-linux.md:33
 msgid "capture d'écran fenêtre de connexion"
 msgstr ""
 
@@ -5510,7 +5885,7 @@ msgid ""
 "dossier`)."
 msgstr ""
 
-#: ../../tutos/connexion-linux.md:38
+#: ../../tutos/connexion-linux.md:43
 msgid "capture d'écran dossiers du serveur dans l'explorateur de fichier"
 msgstr ""
 
@@ -6039,8 +6414,8 @@ msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:168
 msgid ""
-"Au lieu d'enregistrer le fichier sous un `.txt`, enregistrez le avec un "
-"`.html`"
+"Au lieu d'enregistrer le fichier sous un `.txt`, enregistrez le avec un `."
+"html`"
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:171
@@ -6116,8 +6491,8 @@ msgid ""
 "usages](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements). "
 "Par exemple, vous avez sûrement remarqué que les saut de lignes ne sont pas "
 "interprétés en HTML. C'est normal ! Pour faire des paragraphes, il faut "
-"mettre son texte à l'intérieur d'une [balise `<p>`](https://"
-"developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/p)."
+"mettre son texte à l'intérieur d'une [balise `<p>`](https://developer."
+"mozilla.org/fr/docs/Web/HTML/Reference/Elements/p)."
 msgstr ""
 
 #: ../../tutos/mes-premiers-pas-sur-le-web.md:216
@@ -6224,7 +6599,8 @@ msgstr ""
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
-"l'informatique ! 🧙 Un peu comme des sortilèges, on y lance des commandes."
+"l'informatique ! 🧙 Un peu comme des sortilèges, on y lance des {term}"
+"`commandes <commande>`."
 msgstr ""
 
 #: ../../tutos/premiere-connexion-ssh.md:36
@@ -6262,14 +6638,16 @@ msgstr ""
 msgid ""
 "En répondant `yes` à ce message on s'expose à une [attaque de l'homme du "
 "milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) 🥸. "
-"Nous allons donc répondre `no` pour le moment."
+"Nous allons donc répondre `no` pour le moment. On reçoit alors le message "
+"`Host key verification failed.`, ce qui est normal vu que l'on a abandonné "
+"en cours de route."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:61
+#: ../../tutos/premiere-connexion-ssh.md:63
 msgid "La confiance règne"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:64
+#: ../../tutos/premiere-connexion-ssh.md:66
 msgid ""
 "Nous allons rajouter à votre appareil la **clef publique** du serveur CLUB1. "
 "Cela permet de garantir l'authenticité des réponses du serveur et "
@@ -6277,96 +6655,97 @@ msgid ""
 "l'on a bien affaire au serveur de CLUB1."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:68
+#: ../../tutos/premiere-connexion-ssh.md:70
 msgid ""
 "Pour être sûr qu'il s'agit bel et bien de la clef du serveur CLUB1, il faut "
 "l'acquérir par une autre source que la connexion SSH elle-même au cas où "
 "celle-ci serait compromise 😮."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:72
+#: ../../tutos/premiere-connexion-ssh.md:74
 msgid ""
 "🤔 Mais alors, qu'est ce qui garanti que la nouvelle source n'est pas elle "
 "aussi compromise ?"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:74
+#: ../../tutos/premiere-connexion-ssh.md:76
 msgid ""
 "La source de la clef que nous allons utiliser provient du {term}`Web`, à "
 "travers une connexion chiffrée et **authentifié** via {term}`TLS` 🔒 (C'est "
 "le fameux `s` dans `https`)."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:79
+#: ../../tutos/premiere-connexion-ssh.md:81
 msgid "Fichier `known_hosts`"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:82
+#: ../../tutos/premiere-connexion-ssh.md:84
 msgid ""
 "Maintenant il ne nous reste plus qu'à écrire la clef du serveur dans un "
 "fichier. Les commandes suivantes font tout ça pour vous ! 🪄"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:91
+#: ../../tutos/premiere-connexion-ssh.md:93
 msgid ""
 "Dans une fenêtre de terminal, il est généralement possible de \"coller\" un "
 "texte en faisant \"Clic droit\" --> {guilabel}`Coller`. Ou encore {kbd}"
 "`Ctrl` + {kbd}`Shift` + {kbd}`V`."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:97
+#: ../../tutos/premiere-connexion-ssh.md:99
 msgid ""
 "Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef "
 "🔑, à un fichier sur votre appareil. Ce fichier s'appelle `known_hosts`, "
-"*serveurs connus*. Il se trouve dans un dossier `.ssh`, lui-même au sein de "
-"votre espace personnel sur votre appareil."
+"*serveurs connus*. Il se trouve dans un dossier {term}`(caché) <dossier "
+"caché>` `.ssh`, lui-même au sein de votre espace personnel sur votre "
+"appareil."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:104
+#: ../../tutos/premiere-connexion-ssh.md:106
 msgid ""
 "Le dossier correspondant à votre espace personnel porte généralement le nom "
 "de votre utilisateur sur cet appareil."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:115
+#: ../../tutos/premiere-connexion-ssh.md:117
 msgid "Connexion sécurisée"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:118
+#: ../../tutos/premiere-connexion-ssh.md:120
 msgid ""
 "Maintenant que l'on a passé toutes ces étapes, Vous devriez pouvoir vous "
 "[connecter en SSH](#connexion-avec-le-terminal) sans voir le message "
 "d'alerte."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:122
+#: ../../tutos/premiere-connexion-ssh.md:124
 msgid "On lance à nouveau la commande :"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:126
+#: ../../tutos/premiere-connexion-ssh.md:128
 msgid ""
 "Cette fois ci, il vous faudra alors entrer votre **mot de passe** CLUB1."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:129
+#: ../../tutos/premiere-connexion-ssh.md:131
 msgid ""
 "Lorsque vous tapez votre mot de passe, rien ne s'affiche ! C'est normal, il "
 "s'agit d'une mesure de sécurité qui permet de ne même pas révéler le nombre "
 "de caractères du mot de passe. 🤫"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:135
+#: ../../tutos/premiere-connexion-ssh.md:137
 msgid "Dans le serveur"
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:138
+#: ../../tutos/premiere-connexion-ssh.md:140
 msgid ""
 "Félicitation 🎉, vous êtes maintenant connecté&middot;e au serveur en SSH ! "
 "C'est un accès privilégié, car c'est celui qui vous donne le plus de "
 "libertés d'interactions avec le serveur."
 msgstr ""
 
-#: ../../tutos/premiere-connexion-ssh.md:142
+#: ../../tutos/premiere-connexion-ssh.md:144
 msgid ""
 "🍾 Pour fêter ça, voici [une petite sélection de commandes à découvrir](../"
 "services/ssh.md#sélection-de-commandes)."
@@ -6383,7 +6762,8 @@ msgstr ""
 #: ../../tutos/presentation.md:6
 msgid ""
 "Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter. Pour "
-"se faire, vous pouvez y ajouter, *à la racine* un fichier s'appellant :"
+"se faire, vous pouvez y ajouter, *à la racine* (pas dans un sous-dossier) un "
+"fichier s'appellant :"
 msgstr ""
 
 #: ../../tutos/presentation.md:11
@@ -6399,37 +6779,39 @@ msgid ""
 "permettra aux membres et visiteurs de les découvrir 🔎️."
 msgstr ""
 
-#: ../../tutos/presentation.md:19
+#: ../../tutos/presentation.md:25
 msgid "Metadonnées"
 msgstr ""
 
-#: ../../tutos/presentation.md:22
+#: ../../tutos/presentation.md:28
 msgid ""
 "Pour aller plus loin dans la personnalisation, il est possible de modifier "
 "certains paramètres d'affichage. Notamment, votre __nom d'affichage__ et la "
 "__couleur__ de votre bouton."
 msgstr ""
 
-#: ../../tutos/presentation.md:26
+#: ../../tutos/presentation.md:32
 msgid ""
-"Pour cela il faudra ajouter quelques ligne au début votre fichier "
-"`PRESENTATION.md`."
+"Pour cela il faudra ajouter quelques lignes spécifiques __au début votre "
+"fichier__ `PRESENTATION.md`."
 msgstr ""
 
-#: ../../tutos/presentation.md:37
+#: ../../tutos/presentation.md:41
 msgid ""
-"Le formatage est simple, il faut juste respecter les trois tirets au début "
-"et à la fin de la zone de métadonnées. Ensuite vous pouvez définir un ou "
-"plusieurs paramètres."
+"L'espace qui contient les métadonnées est délimité par des lignes contenant "
+"__trois tirets__ `---`. À l'intérieur de ces limites, on peut définir un "
+"paramètre par ligne comme il suit : Le nom du paramètre, suivit de deux "
+"points et d'un espace `: `, puis de la valeur que vous souhaitez lui "
+"assigner."
 msgstr ""
 
-#: ../../tutos/presentation.md:42
+#: ../../tutos/presentation.md:47
 msgid ""
-"Pour info, cette syntaxe *plus ou moins standard* s'appelle [Front Matter]"
+"Pour info, cette syntaxe *vaguement standard* s'appelle [Front Matter]"
 "(https://jekyllrb.com/docs/front-matter/)."
 msgstr ""
 
-#: ../../tutos/presentation.md:46
+#: ../../tutos/presentation.md:51
 msgid ""
 "Pour le paramètre `name`, c'est ici que vous pouvez choisir votre pseudo "
 "avec une ligne de texte libre. Profitez-en car c'est possible de mettre "
@@ -6437,33 +6819,33 @@ msgid ""
 "vous omettez ce champ, votre identifiant CLUB1 sera affiché."
 msgstr ""
 
-#: ../../tutos/presentation.md:49
+#: ../../tutos/presentation.md:54
 msgid ""
 "Pour le paramètre `color`, vous devez utiliser une [couleur du web](https://"
 "fr.wikipedia.org/wiki/Couleur_du_Web#Noms_de_couleurs_SVG_1.0)."
 msgstr ""
 
-#: ../../tutos/presentation.md:53
+#: ../../tutos/presentation.md:58
 msgid ""
 "Si vous mettez un code couleur, il devra commencer par un __croisillon `#`__ "
 "et être __entouré de guillemets__ (par exemple : `color: \"#F87716\"`)."
 msgstr ""
 
-#: ../../tutos/presentation.md:59
+#: ../../tutos/presentation.md:64
 msgid "Faire un lien vers son profil"
 msgstr ""
 
-#: ../../tutos/presentation.md:62
+#: ../../tutos/presentation.md:67
 msgid ""
 "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
 "possible de la partager facilement. Il vous suffit de faire un lien ciblant "
 "spécifiquement votre présentation. Pour cela on utilise un [identificateur "
 "de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment) "
-"utilisant votre identifiant CLUB1 (`#` + votre nom "
-"d'utilisateur&middot;trice)."
+"utilisant votre identifiant CLUB1 (`#` + votre nom d'utilisateur&middot;"
+"trice)."
 msgstr ""
 
-#: ../../tutos/presentation.md:68
+#: ../../tutos/presentation.md:73
 msgid ""
 "Par exemple, l'adresse suivante ouvrira directement la présentation du "
 "membre `vincent` :"
@@ -6500,8 +6882,8 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:16
 msgid ""
-"[Google Play store](https://play.google.com/store/apps/details?"
-"id=at.bitfire.davdroid&hl=fr&gl=FR) (6€)"
+"[Google Play store](https://play.google.com/store/apps/details?id=at.bitfire."
+"davdroid&hl=fr&gl=FR) (6€)"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:18
@@ -6514,7 +6896,7 @@ msgid ""
 "gestion des tâches ({numref}`fig:tutos-webdav-android-taches`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:23
+#: ../../tutos/webdav-android.md:29
 msgid "capture d'écran gestion des tâches"
 msgstr ""
 
@@ -6524,11 +6906,11 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:32
 msgid ""
-"Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}"
-"`fig:tutos-webdav-android-autorisations`)."
+"Puis, autorisez lui l'accès aux contacts et aux agendas (tout) ({numref}`fig:"
+"tutos-webdav-android-autorisations`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:35
+#: ../../tutos/webdav-android.md:41
 msgid "capture d'écran autorisations"
 msgstr ""
 
@@ -6542,7 +6924,7 @@ msgid ""
 "intervalles réguliers ({numref}`fig:tutos-webdav-android-intervalles`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:46
+#: ../../tutos/webdav-android.md:52
 msgid "capture d'écran synchro à intervalles"
 msgstr ""
 
@@ -6560,7 +6942,7 @@ msgid ""
 "orange en bas à droite ({numref}`fig:tutos-webdav-android-accueil`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:61
+#: ../../tutos/webdav-android.md:67
 msgid "capture d'écran accueil"
 msgstr ""
 
@@ -6574,7 +6956,7 @@ msgid ""
 "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:72
+#: ../../tutos/webdav-android.md:78
 msgid "capture d'écran connexion"
 msgstr ""
 
@@ -6601,7 +6983,7 @@ msgid ""
 "({numref}`fig:tutos-webdav-android-groupes`)."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:95
+#: ../../tutos/webdav-android.md:101
 msgid "capture d'écran groupes"
 msgstr ""
 
@@ -6622,7 +7004,7 @@ msgid ""
 "possible d'accéder et modifier ces réglages  plus tard très facilement."
 msgstr ""
 
-#: ../../tutos/webdav-android.md:111
+#: ../../tutos/webdav-android.md:117
 msgid "capture d'écran sélection"
 msgstr ""
 
@@ -6670,16 +7052,16 @@ msgstr ""
 
 #: ../../tutos/webdav-android.md:144
 msgid ""
-"__Fossify Contacts__: [F-Droid](https://f-droid.org/fr/packages/"
-"org.fossify.contacts/) -- [Google Play Store](https://play.google.com/store/"
-"apps/details?id=org.fossify.contacts&hl=fr&gl=FR)"
+"__Fossify Contacts__: [F-Droid](https://f-droid.org/fr/packages/org.fossify."
+"contacts/) -- [Google Play Store](https://play.google.com/store/apps/details?"
+"id=org.fossify.contacts&hl=fr&gl=FR)"
 msgstr ""
 
 #: ../../tutos/webdav-android.md:146
 msgid ""
-"__Fossify Calendrier__: [F-Droid](https://f-droid.org/fr/packages/"
-"org.fossify.calendar/) -- [Google Play Store](https://play.google.com/store/"
-"apps/details?id=org.fossify.calendar&hl=fr&gl=FR)"
+"__Fossify Calendrier__: [F-Droid](https://f-droid.org/fr/packages/org."
+"fossify.calendar/) -- [Google Play Store](https://play.google.com/store/apps/"
+"details?id=org.fossify.calendar&hl=fr&gl=FR)"
 msgstr ""
 
 #: ../../tutos/webdav-mac.md:1
@@ -6693,7 +7075,7 @@ msgid ""
 "aller`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:7
+#: ../../tutos/webdav-mac.md:13
 msgid "menu Aller"
 msgstr ""
 
@@ -6707,7 +7089,7 @@ msgid ""
 "connexion`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:18
+#: ../../tutos/webdav-mac.md:24
 msgid "fenêtre Connexion au serveur"
 msgstr ""
 
@@ -6728,11 +7110,11 @@ msgstr ""
 #: ../../tutos/webdav-mac.md:36
 msgid ""
 "Cliquez sur le bouton {guilabel}`+` en bas à gauche de la fenêtre pour "
-"garder en mémoire l'adresse de votre serveur dans les favoris ({numref}"
-"`fig:tutos-webdav-mac-serveurs-favoris`)."
+"garder en mémoire l'adresse de votre serveur dans les favoris ({numref}`fig:"
+"tutos-webdav-mac-serveurs-favoris`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:39
+#: ../../tutos/webdav-mac.md:45
 msgid "fenêtre Connexion au serveur avec un serveur favori"
 msgstr ""
 
@@ -6751,7 +7133,7 @@ msgstr ""
 msgid "Cliquez sur le bouton {guilabel}`Se connecter`."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:54
+#: ../../tutos/webdav-mac.md:60
 msgid "popup Se connecter"
 msgstr ""
 
@@ -6767,7 +7149,7 @@ msgid ""
 "l'accès entre vos ouvertures/fermetures de sessions mac."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:68
+#: ../../tutos/webdav-mac.md:74
 msgid "fenêtre identifiants"
 msgstr ""
 
@@ -6799,7 +7181,7 @@ msgid ""
 "zone de favoris ({numref}`fig:tutos-webdav-mac-glisser-favoris`)."
 msgstr ""
 
-#: ../../tutos/webdav-mac.md:88
+#: ../../tutos/webdav-mac.md:94
 msgid "déplacement à effectuer"
 msgstr ""
 

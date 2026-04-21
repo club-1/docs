@@ -22,6 +22,12 @@ msgstr ""
 msgid "CLI"
 msgstr ""
 
+msgid "CMS"
+msgstr ""
+
+msgid "CSP"
+msgstr ""
+
 msgid "CalDAV"
 msgstr ""
 
