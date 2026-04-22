@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2026-04-21 15:07+0200\n"
-"PO-Revision-Date: 2026-04-21 14:36+0000\n"
+"PO-Revision-Date: 2026-04-22 15:13+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -641,13 +641,6 @@ msgstr ""
 "wikipedia.org/wiki/API)"
 
 #: ../../glossaire.md:35
-#, fuzzy
-#| msgid ""
-#| "(_Command Line Interface_) Interface en ligne de commande, basée sur un "
-#| "affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre de "
-#| "{term}`terminal`. La CLI est très intéressante car elle peut aussi bien "
-#| "être utilisée par des humain&middot;e&middot;s que par des logiciels. --- "
-#| "[Wikipedia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)"
 msgid ""
 "(_Command Line Interface_) Interface en ligne de commande, basée sur un "
 "affichage textuel. Elle s'utilise par l'intermédiaire d'une fenêtre de {term}"
@@ -656,9 +649,9 @@ msgid ""
 "humain&middot;e&middot;s que par des logiciels."
 msgstr ""
 "_Command Line Interface_, an interface in command line, based on a textual "
-"display. It is used through a {term}`terminal` window. The CLI is very "
-"interesting because it can be used by humans as well as by software. --- "
-"[Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface)"
+"display. It is used through a {term}`terminal` window in which {term}"
+"`commands <command>` are executed. The CLI is very interesting because it "
+"can be used by humans as well as by software."
 
 #: ../../glossaire.md:42
 msgid ""
@@ -699,6 +692,9 @@ msgid ""
 "à jour des sites {term}`Web`.   Cette catégorie comprend notamment les "
 "blogs, les forums ou les {term}`wikis <wiki>`."
 msgstr ""
+"*Content Management System*, a type of software used to create and update "
+"{term}`Web` sites. This category includes blogs, forums, and {term}`wikis "
+"<wiki>`."
 
 #: ../../glossaire.md:58
 msgid ""
@@ -706,6 +702,9 @@ msgid ""
 "dynamique>` (comme *Wordpress* ou *Mediawiki*), ou être un \"générateur de "
 "{term}`site statique <site Web statique>`\"."
 msgstr ""
+"A CMS can take the form of a {term}`dynamic site <dynamic website>` (like "
+"*Wordpress* or *Mediawiki*), or be a \"{term}`static site <static website>` "
+"generator\"."
 
 #: ../../glossaire.md:62
 msgid ""
@@ -715,6 +714,10 @@ msgid ""
 "{term}`HTML`. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
 "Syst%C3%A8me_de_gestion_de_contenu)"
 msgstr ""
+"Using a CMS allows you to **focus on content** by automating the page "
+"layout. However, **the pages are more uniform and less customizable** than "
+"if you code your site directly in {term}`HTML`. --- [Wikipedia](https://"
+"en.wikipedia.org/wiki/Content_management_system)"
 
 #: ../../glossaire.md:61 conf.py:341 conf.py:342
 msgid "commande"
@@ -4206,13 +4209,13 @@ msgstr ""
 
 #: ../../services-invitation.md:1
 msgid "Services sur invitation"
-msgstr ""
+msgstr "Services by invitation"
 
 #: ../../services-invitation.md:4
 msgid ""
 "Services nécessitant de recevoir une invitation de la part d'un·e membre "
 "CLUB1."
-msgstr ""
+msgstr "Services requiring an invitation from a CLUB1 member."
 
 #: ../../services-membres.md:1
 msgid "Services réservés aux membres"
@@ -4768,6 +4771,9 @@ msgid ""
 "`Postfix` pour rejeter certains emails en fonction du retour d'{logiciel}"
 "`OpenDMARC`. --- [Sources](https://github.com/club-1/dmarcator)"
 msgstr ""
+"{term}`Server` providing a _milter_ filter used by {logiciel}`Postfix` to "
+"reject certain emails based on the response of {logiciel}`OpenDMARC`. --- "
+"[Sources](https://github.com/club-1/dmarcator)"
 
 #: ../../services/email.md:229
 msgid ""
@@ -5296,6 +5302,11 @@ msgid ""
 "**la façon la plus simple et fiable de converser via Matrix est d'utiliser "
 "*{logiciel}`Element`***, en tant que {term}`client Web` ou sur mobile."
 msgstr ""
+"As with email, you can also choose your {term}`client`, your interface, to "
+"connect to Matrix. There are options for all tastes, but most are still "
+"under development. Currently, **the simplest and most reliable way to "
+"communicate via Matrix is to use *{logiciel}`Element`***, either as a {term}"
+"`Web client` or on mobile."
 
 #: ../../services/matrix.md:124
 msgid "[**🌌 interface Element Web sur Club1.fr**](https://riot.club1.fr)"
@@ -5383,6 +5394,9 @@ msgid ""
 "zone d'écriture de message, ou en utilisant le **{term}`Markdown`**, un "
 "standard de formatage simple utilisé par de plus en plus de site."
 msgstr ""
+"It is possible to format your message by selecting text in the message "
+"writing area, or by using **{term}`Markdown`**, a simple formatting standard "
+"used by more and more sites."
 
 #: ../../services/matrix.md:178
 msgid "Chiffrement"
@@ -5400,6 +5414,14 @@ msgid ""
 "c'est un super mot de passe plus long qui va servir au chiffrement de vos "
 "messages."
 msgstr ""
+"The Matrix protocol allows for *end-to-end* encryption of messages, meaning "
+"that a message remains unreadable throughout its transmission and can only "
+"be deciphered upon arrival by the recipient. This adds a layer of complexity "
+"to communication, as Matrix requires verification of the various devices "
+"used. Specifically, it's essential to ensure that all devices connected to "
+"the same account belong to the same person. To achieve this, a global "
+"*passphrase* is used: a longer, super-strong password that encrypts your "
+"messages."
 
 #: ../../services/matrix.md:191
 msgid "Configurations spécifiques"
@@ -5645,17 +5667,15 @@ msgstr ""
 
 #: ../../services/newsletter.md:75
 msgid "Désinscription"
-msgstr ""
+msgstr "Unsubscribe"
 
 #: ../../services/newsletter.md:79
 msgid "Si l'adresse était bien listée, la désinscription est immédiate."
 msgstr ""
 
 #: ../../services/newsletter.md:82
-#, fuzzy
-#| msgid "Gestion"
 msgid "Gestion manuelle"
-msgstr "Management"
+msgstr "Manual management"
 
 #: ../../services/newsletter.md:84
 msgid ""
@@ -5764,10 +5784,8 @@ msgid "Le manuel de cette commande : {manpage}`journalctl.1`"
 msgstr ""
 
 #: ../../services/newsletter.md:141
-#, fuzzy
-#| msgid "commande"
 msgid "La commande"
-msgstr "command"
+msgstr "The command"
 
 #: ../../services/newsletter.md:145
 msgid ""
