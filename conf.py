@@ -304,14 +304,15 @@ Copyright © %s.
 # Ignore some links.
 linkcheck_ignore = [
     r'https://club1\.fr/',
+    r'https://git\.club1\.fr/',
     r'https://riot\.club1\.fr/',
     r'https://www\.silverstonetek\.com/',
+    r'https://www\.supermicro\.com',
     r'matrix:',
     r'https://www\.buddyns\.com',
     r'https://www\.eaton\.com',
     r'https://dnssec-analyzer\.verisignlabs\.com',
     r'https://github\.com/club-1/docs/commits/main/',
-    r'https://gnu\.org/licenses',
     r'https://git\.tt-rss\.org',
 ]
 

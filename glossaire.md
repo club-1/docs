@@ -243,7 +243,7 @@ POSIX
    permettant aux systèmes d'exploitation qui la respectent d'être interchangeables,
    du point de vue d'un logiciel utilisateur.
 
-   {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems)
+   {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#Conformance)
    respectent cette interface, contrairement à Windows.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)
 
