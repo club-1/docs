@@ -178,8 +178,8 @@ log
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Historique_(informatique))
 
 logiciel libre
-   Désigne des logiciels qui respectent la liberté des utilisateurs.
-   En particulier, les utilisateurs ont la liberté d'exécuter,
+   Désigne des logiciels qui respectent la liberté des utilisateur·ice·s.
+   En particulier, les utilisateur·ice·s ont la liberté d'exécuter,
    copier, étudier, modifier et améliorer ces logiciels,
    et surtout celle de les repartager, modifiés ou non.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)
