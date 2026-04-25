@@ -11,7 +11,7 @@ Politique de sécurité
 -----------------------
 
 - ⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**.
-  Elles sont donc lisibles par les administrateurs (utilisateur `root` et membres du {term}`groupe` `sudo`).
+  Elles sont donc lisibles par les administrateurs (utilisataire `root` et membres du {term}`groupe` `sudo`).
 - Les [sauvegardes](/outils/sauvegardes.md) sont, elles, chiffrées.
 - Les {term}`protocoles <protocole>` utilisés pour se connecter au serveur sont tous chiffrés,
   les mots de passe et les données ne peuvent donc pas être interceptées.
@@ -25,7 +25,7 @@ Engagements des administrateurs systèmes
 
 Les administrateurs système s'engagent à respecter les points suivants :
 
-- Ne pas accéder aux données utilisateur (espace personnel et bases de données) sans leur accord,
+- Ne pas accéder aux données utilisataire (espace personnel et bases de données) sans leur accord,
   sauf en cas de restauration suite à un problème technique,
   auquel cas les utilisataires concernés en seront avertis.
 - Chiffrement des clefs {term}`SSH`.

@@ -24,7 +24,7 @@ width: 493
 La fenêtre "Connexion au server" permettant d'ajouter un serveur à partir d'une URL.
 ```
 
-Rentrez l'url Webdav correspondant à votre utilisateur :
+Rentrez l'url Webdav correspondant à votre utilisataire :
 
 
     https://webdav.club1.fr/files/USER

@@ -77,7 +77,7 @@ Administration
 --------------
 
 La mise à jour et l'accès aux fichiers de {logiciel}`W`
-est limité aux utilisateur·ices membres du {term}`groupe` `website`.
+est limité aux utilisataire membres du {term}`groupe` `website`.
 
 La gestion des comptes se fait depuis l'interface Web de W : {guilabel}`users`.
 Il faut avoir le niveau "admin" pour pouvoir accéder à cette page.

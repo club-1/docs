@@ -223,7 +223,7 @@ permissions
    | `x`   | Exécuter ce fichier            | Traverser ce dossier                           |
    ```
 
-   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
+   Lesquels peuvent être accordés soit à l'_utilisataire_ proriétaire du fichier/dossier,
    soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisataires.
 
    Les permissions peuvent être consultées en {term}`CLI`
@@ -241,7 +241,7 @@ PHP
 POSIX
    (_Portable Operating System Interface_) Ensemble de normes techniques qui spécifient une interface,
    permettant aux systèmes d'exploitation qui la respectent d'être interchangeables,
-   du point de vue d'un logiciel utilisateur.
+   du point de vue d'un logiciel utilisataire.
 
    {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#Conformance)
    respectent cette interface, contrairement à Windows.

@@ -86,7 +86,7 @@ Comptes des membres
 
 ### Identifiant
 
-Le nom d'utilisateur·ice doit respecter les règles suivantes :
+Le nom d'utilisataire doit respecter les règles suivantes :
 
 - une longueur comprise **entre 3 et 17 caractères** (inclus).
 - comporter **uniquement** des lettres **minuscules**, des **chiffres** ou des **tirets** (`-`).
