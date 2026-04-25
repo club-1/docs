@@ -107,7 +107,7 @@ Un compte membre comporte donc :
 - de l'espace de stockage SSD
 - plus d'espace sur disque dur (sur demande)
 - un accès FTP
-- un accès SSH (pour les utilisateurs avancés)
+- un accès SSH (pour les utilisataires avancés)
 - des bases de données (MariaDb)
 - la création gratuite de sous domaines en .club1.fr (sur demande)
 - l'utilisation de noms de domaines loués via des registraires

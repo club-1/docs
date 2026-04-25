@@ -191,6 +191,6 @@ Chez CLUB1, le serveur Apache se trouve derrière le "proxy inverse" {logiciel}`
 ```{logiciel} PHP-FPM
 Gestionnaire de processus {term}`PHP`,
 permettant à un {term}`serveur` {term}`Web` d'exécuter du code PHP de manière performante.
-Il est aussi capable d'exécuter PHP avec différents utilisateurs.
+Il est aussi capable d'exécuter PHP avec différents utilisataires.
 --- [Sources](https://github.com/php/php-src/tree/master/sapi/fpm)
 ```

@@ -90,7 +90,7 @@ Transversalement au système de gestion de tickets,
 l'étiquette {guilabel}`Roadmap Admin` est utilisée par les administrateurs système de CLUB1 pour s'organiser.
 Elle permet également de rendre publique les tâches "en cours", "suivantes" et "planifiées".
 
-C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du forum peuvent utiliser,
+C'est en réalité une étiquette _primaire_ que seuls certains utilisataires du forum peuvent utiliser,
 en contournant les restrictions d'étiquettes.
 
 

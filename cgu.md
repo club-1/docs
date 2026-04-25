@@ -80,7 +80,7 @@ En cas d’usage prohibé, CLUB1 peut se trouver dans l’obligation de déclenc
 la suspension totale ou partielle du service, le retrait de contenu,
 ou toute autre mesure que les lois et réglementations lui imposent.
 
-Vous devez respecter les autres utilisateurs en faisant preuve de civisme et de politesse.
+Vous devez respecter les autres utilisataires en faisant preuve de civisme et de politesse.
 CLUB1 se réserve le droit de supprimer tout contenu paraissant non pertinent ou contrevenant à ces principes,
 selon son seul jugement.
 
