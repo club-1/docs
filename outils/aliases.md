@@ -30,9 +30,9 @@ donnée (`/etc/aliases.db`) en lançant la {term}`commande` suivante :
     newaliases
 ```
 
-### Ajouter ou supprimer un utilisateur d'un alias
+### Ajouter ou supprimer des utilisataires à un alias
 
-Il suffit d'écrire ou d'effacer l'identifiant de l'utilisataire choisi de la
+Il suffit d'écrire ou d'effacer les identifiants des l'utilisataires de la
 liste se trouvant après le nom de l'alias.
 
 ### Ajouter ou supprimer un alias

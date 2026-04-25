@@ -133,7 +133,7 @@ GitHub
 groupe
    Dans un système {term}`POSIX`, les groupes servent à rassembler des utilisataires
    afin de leur attribuer des droits communs.
-   Un utilisateur appartient à un ou plusieurs groupes.
+   Chaque utilisataire appartient à un ou plusieurs groupes.
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur

@@ -87,7 +87,7 @@ il vous faudra un [client](#client-interfaces-de-connexion) pour accéder à l'i
 
 Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une adresse email,
 à ceci près que le symbole `@` est utilisé comme premier caractère,
-signalant que l'adresse fait référence à un utilisateur.
+signalant qu'il s'agit d'une adresse utilisataire.
 Le symbole `:` est donc utilisé pour séparer l'identifiant du serveur :
 
     @baby:club1.fr
