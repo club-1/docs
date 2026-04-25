@@ -122,7 +122,7 @@ portant le même nom que la page dans laquelle elles seront incluses
 
 ```{tip}
 Privilégier un thème clair pour les captures d'écran
-car c'est plus habituel pour les utilisateurs
+car c'est plus habituel pour les utilisataires
 et ça utilisera moins d'encre pour la version imprimée.
 ```
 

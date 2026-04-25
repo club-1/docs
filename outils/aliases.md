@@ -1,8 +1,8 @@
 Gestion des alias email
 =======================
 
-Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` `aliases`.
-Il décrit les actions que peuvent accomplir ces utilisateurs sur les {term}`alias` emails.
+Ce manuel est réservé aux utilisataires faisant partie du {term}`groupe` `aliases`.
+Il décrit les actions que peuvent accomplir ces utilisataires sur les {term}`alias` emails.
 
 Modifier les alias de réception
 -------------------------------
@@ -30,9 +30,9 @@ donnée (`/etc/aliases.db`) en lançant la {term}`commande` suivante :
     newaliases
 ```
 
-### Ajouter ou supprimer un utilisateur d'un alias
+### Ajouter ou supprimer des utilisataires à un alias
 
-Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de la
+Il suffit d'écrire ou d'effacer les identifiants des l'utilisataires de la
 liste se trouvant après le nom de l'alias.
 
 ### Ajouter ou supprimer un alias
@@ -69,8 +69,8 @@ En plus de rediriger les emails vers d'autres adresses,
 elle permet de les envoyer vers des fichiers ou des commandes.
 Dans ce cas, il faut faire attention aux {term}`permissions` requises
 pour créer les fichiers et exécuter les commandes.
-Ces actions sont réalisées avec les droits de l'utilisateur correspondant à l'alias s'il existe
-et sinon, sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`.
+Ces actions sont réalisées avec les droits de l'utilisataire correspondant à l'alias s'il existe
+et sinon, sur CLUB1, avec l'utilisataire `nobody` et le {term}`groupe` `mail`.
 
 ```{seealso}
 La [section "Delivery Rights" de la page local du manuel de Postfix](https://manpages.debian.org/bullseye/postfix/local.8postfix.en.html#DELIVERY_RIGHTS).

@@ -59,7 +59,7 @@ Principes généraux
 ------------------
 
 Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`.
-Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisateurs,
+Chaque serveur permet de créer des "salons" (rooms) de discussions internes pour ses utilisataires,
 mais aussi de se connecter de façon transparente aux salons provenant d'autres serveurs si ils le souhaitent.
 
 
@@ -77,7 +77,7 @@ Matrix
 
 ### Serveur
 
-Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke les échanges de messages.
+Un serveur Matrix permet aux utilisataires de se faire un compte et stocke les échanges de messages.
 Chez CLUB1, l'adresse de notre serveur est tout simplement `club1.fr` ou `https://club1.fr`.
 Inutile d'aller voir à cette adresse,
 il vous faudra un [client](#client-interfaces-de-connexion) pour accéder à l'interface de messagerie.
@@ -87,7 +87,7 @@ il vous faudra un [client](#client-interfaces-de-connexion) pour accéder à l'i
 
 Lorsque l'on a un compte Matrix, on a une adresse Matrix, un peu comme une adresse email,
 à ceci près que le symbole `@` est utilisé comme premier caractère,
-signalant que l'adresse fait référence à un utilisateur.
+signalant qu'il s'agit d'une adresse utilisataire.
 Le symbole `:` est donc utilisé pour séparer l'identifiant du serveur :
 
     @baby:club1.fr
@@ -108,7 +108,7 @@ et `club1.fr`, le serveur sur lequel elle a été créée et auquel elle est rat
 
 ```{note}
 Il est possible, au moment de la création d'une *room*,
-d'interdire l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en particulier.
+d'interdire l'accès aux utilisataires qui ne sont pas inscrits sur ce serveur en particulier.
 ```
 
 

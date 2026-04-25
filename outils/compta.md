@@ -35,7 +35,7 @@ Enfin, viens l'**intitulé**, qui est une courte description de la transaction.
 
 
 ```{admonition} Permissions
-Ce fichier est accessible en lecture par tout les utilisateurs.
+Ce fichier est accessible en lecture par tout les utilisataires.
 Donc n'hésitez pas à jeter un coup d'oeil !
 En revanche, pour écrire dedans, il faut être membre du {term}`groupe` `compta`.
 ```
@@ -67,7 +67,7 @@ Interface conviviale de gestion de la comptabilité de CLUB1.
 
 ### Commandes pour un usage avancé
 
-Les utilisateurs plus habitués à l'utilisation de la {term}`CLI`
+Les utilisataires plus habitués à l'utilisation de la {term}`CLI`
 peuvent directement utiliser les commandes suivantes.
 
 ```{commande} compta-voir

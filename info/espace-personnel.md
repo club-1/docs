@@ -20,7 +20,7 @@ Vous pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des vo
 En effet, **il n'y a pas de limite de stockage définie** par dossier `home` de chaque membres,
 mais par contre, une limite physique :
 Tout ces dossiers sont sur un support de stockage SSD totalisant **1To**.
-C'est un espace commun à partager entre utilisateur&middot;trice&middot;s du serveur.
+C'est un espace commun à partager entre utilisataires du serveur.
 
 
 Architecture de dossiers

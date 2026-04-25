@@ -3,7 +3,7 @@ Messagerie email
 
 Chaque membre dispose d'**une boîte email** avec une adresse email personnelle.
 L'adresse est composée de l'**identifiant**, suivi de `@club1.fr`.
-Par exemple, l'adresse de l'utilisateur `michel` est `michel@club1.fr`.
+Par exemple, l'adresse de l'utilisataire `michel` est `michel@club1.fr`.
 
 Pour utiliser votre boîte mail, il faut vous y connecter à travers un {term}`client` mail.
 
@@ -124,7 +124,7 @@ Exemple de fichier `.forward` transférant vers deux adresses emails :
 
 ```{tip}
 Il est même possible de conserver ses emails sur sa boîte CLUB1
-en ajoutant son nom d'utilisateur&middot;trice à cette liste !
+en ajoutant son nom d'utilisataire à cette liste !
 ```
 
 Pour mettre fin à une redirection, il suffit de supprimer la ligne correspondante.
@@ -138,7 +138,7 @@ La page de manuel [Postfix local mail delivery](https://www.postfix.org/local.8.
 
 Les filtres Sieve permettent de trier automatiquement les emails que vous recevez.
 Ces filtres sont appliqués côté {term}`serveur` et ne dépendent donc d'aucun {term}`client`.
-Chaque utilisateur doit cependant les configurer lui-même.
+Chaque utilisataire doit cependant les configurer lui-même.
 
 Il existe deux manières de les éditer.
 La plus simple est d'utiliser le [client Web Roundcube de CLUB1](#client-web).

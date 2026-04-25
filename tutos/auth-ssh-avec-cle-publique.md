@@ -30,7 +30,7 @@ Ensuite, le terminal devrait afficher un truc du genre :
 
 La première ligne nous confirme que c'est bien une "paire de clé" qui est crée.
 La seconde ligne nous demande de choisir l'emplacement de cette paire.
-Ici `LOCAL_USER` devrait correspondre à votre nom d'utilisateur local,
+Ici `LOCAL_USER` devrait correspondre à votre nom d'utilisataire local,
 qui n'est pas forcément le même que celui sur le serveur CLUB1.
 Entre parenthèse, on voit l'emplacement par défaut qui est suggéré : à l'intérieur du {term}`dossier caché` `.ssh`.
 On vous conseille d'accepter cette proposition en appuyant sur {kbd}`entrée`.
