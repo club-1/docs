@@ -1,0 +1,445 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletter personnelle (beta) &mdash; Documentation CLUB1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/club1.css?v=46867ff4" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://club1.fr/docs/fr/services/newsletter.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=edc36dbd"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="3. Services sur invitation" href="../services-invitation.html" />
+    <link rel="prev" title="Émissions Web (audio/vidéo) via Icecast" href="webcast.html" />
+
+	
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/services/newsletter.html" />
+	
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/services/newsletter.html" />
+	
+
+</head>
+
+<body class="wy-body-for-nav">
+<style>
+.club1header a:hover {
+  text-decoration: underline;
+}
+.club1header a {
+  text-decoration: none;
+  margin: 5px;
+}
+</style>
+
+<div class="club1header">
+  <div style="z-index: 1000; position: absolute; top:0; left:0; height: 30px;width: 100%;text-align: left;background: #185075; color: white; font-family: monospace; font-size: 15px;line-height: 30px;">
+    <a href="https://club1.fr/le-club/" style="color: white;">site web</a>
+    <a href="https://forum.club1.fr" style="color: white;">forum</a>
+    <a href="https://club1.fr/docs/fr/" style="color: white; text-decoration: underline;">documentation</a>
+  </div>
+  <div style="height: 30px;"></div>
+</div>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/club1logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ssh.html">Connexion à distance SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email.html">Messagerie email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ftp.html">Transfert de fichiers FTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webdav.html">Synchro de fichiers, contacts et calendriers WebDAV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drive.html">Explorateur de fichiers Web <em>Drive</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="web.html">Hébergement de sites Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql.html">Bases de données SQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rss.html">Agrégateur de flux de nouvelles (RSS/Atom)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git.html">Dépôts Git publics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webcast.html">Émissions Web (audio/vidéo) via Icecast</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Newsletter personnelle (beta)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#mise-en-place">Mise en place</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuration-detaillee">Configuration détaillée</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-des-inscriptions">Gestion des inscriptions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gestion-par-email">Gestion par email</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gestion-manuelle">Gestion manuelle</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#envoi">Envoi</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#par-email">Par email</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#via-ssh">Via SSH</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#consultation-des-logs">Consultation des logs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-commande">La commande</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logiciels">Logiciels</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutos/index.html">4. Tutoriels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../citation.html">Citer ce document</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Indexes et tables</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CLUB1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../services-membres.html"><span class="section-number">2. </span>Services réservés aux membres</a></li>
+      <li class="breadcrumb-item active">Newsletter personnelle (beta)</li>
+    
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/club-1/docs/blob/main/services/newsletter.md" class="fa fa-github"> Éditer sur GitHub</a>
+      </li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="newsletter-personnelle-beta">
+<h1>Newsletter personnelle (beta)<a class="headerlink" href="#newsletter-personnelle-beta" title="Lien vers cette rubrique">#</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Ce service est en « beta » sur CLUB1,
+ce qui signifie qu’il risque de changer de configuration
+ou même d’être supprimé dans le futur.</p>
+</div>
+<p>Le service de newsletter de CLUB1 est très basique comparé aux offres qui existent ailleurs sur <abbr title="[Réseau informatique] mondial accessible au public. Internet est en
+réalité l’interconnexion d’un ensemble de réseaux à travers le monde.
+Comme son nom l’indique, « inter » « net » = « entre les réseaux ». Il
+s’agit donc d’un « réseau de réseaux »."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr>.
+Ses limitations sont les suivantes :</p>
+<ul class="simple">
+<li><p>les emails sont en <strong>texte brut</strong> (pas de style)</p></li>
+<li><p>pas de statistiques (aucun <em>tracking</em> permettant de savoir si les destinataires ouvrent les emails)</p></li>
+</ul>
+<p>Chaque membre dispose d’une newsletter, qui est envoyée par <a class="reference internal" href="email.html"><span class="std std-doc">son adressse email de membre</span></a>.</p>
+<section id="mise-en-place">
+<h2>Mise en place<a class="headerlink" href="#mise-en-place" title="Lien vers cette rubrique">#</a></h2>
+<p>La newsletter n’est pas activée par défaut.
+Pour l’initialiser, il faut se <a class="reference internal" href="ssh.html"><span class="std std-doc">connecter en SSH</span></a>
+et lancer la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> <abbr title="Commande permettant d’envoyer ou d’ajuster les réglages de votre
+newsletter personnelle. Elle dispose de deux sous-commandes : &quot;setup&quot;
+pour la mise en place et &quot;send&quot; pour l’envoi. L’envoi nécessite des
+arguments supplémentaires. Le contenu peut alternativement être fourni
+dans l’entrée standard.
+
+   newsletter send SUJET [FICHIER_DU_CONTENU]
+
+💡 Pour accéder à l’aide, on peut utiliser &quot;newsletter -h&quot;."><a class="reference internal" href="#commande-newsletter"><code class="xref std std-commande docutils literal notranslate"><span class="pre">newsletter</span></code></a></abbr> avec la sous-commande <code class="docutils literal notranslate"><span class="pre">setup</span></code> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter setup
+</pre></div>
+</div>
+<p>Cela déclenche un formulaire vous permettant de définir les quelques réglages possible liés à votre newsletter.
+Pour mettre à jour ces paramètres, vous pouvez la lancer à nouveau.</p>
+<section id="configuration-detaillee">
+<h3>Configuration détaillée<a class="headerlink" href="#configuration-detaillee" title="Lien vers cette rubrique">#</a></h3>
+<p>La commande <code class="docutils literal notranslate"><span class="pre">setup</span></code> crée cinq fichiers <code class="docutils literal notranslate"><span class="pre">.forward+...</span></code> à la racine de votre espace perso.
+Elle crée également le dossier <code class="docutils literal notranslate"><span class="pre">.config/newsletter</span></code> qui contiendra la configuration de la newsletter.
+Ce dernier contient :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">emails</span></code> fichier brut avec une adresse email par ligne. Vous pouvez l’éditer manuellement pour gérer la liste des destinataires.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">signature.txt</span></code> fichier brut à remplir avec du texte qui sera inséré en signature de chacun des emails de la newsletter.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">settings.json</span></code> fichier JSON définissant le titre de la newsletter,
+le nom d’affichage pour l’adresse d’envoi,
+ainsi que la langue utilisés pour la <a class="reference internal" href="#gestion-par-email">gestion des inscriptions par email</a>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.secret</span></code> fichier brut servant à sécuriser la confirmation d’inscription. Il s’agit d’un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-fichier-cache"><span class="xref std std-term">fichier caché</span></a></abbr> généré automatiquement.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>📁 <code class="docutils literal notranslate"><span class="pre">.config</span></code> est un <abbr title="Dans la plupart des systèmes d’exploitation, il est possible de cacher
+des fichiers ou des dossiers. Cela sert souvent à masquer des
+paramètres peu utiles au quotidien. Dans un système [POSIX], les
+fichiers cachés commencent par un point &quot;.&quot;.
+
+Dans les explorateurs de fichiers ils peuvent être masqués par défaut.
+Il est possible d’activer leur affichage si besoin, souvent avec le
+raccourci clavier &quot;Ctrl&quot; + &quot;H&quot;."><a class="reference internal" href="../glossaire.html#term-dossier-cache"><span class="xref std std-term">dossier caché</span></a></abbr>.</p>
+</div>
+</section>
+</section>
+<section id="gestion-des-inscriptions">
+<h2>Gestion des inscriptions<a class="headerlink" href="#gestion-des-inscriptions" title="Lien vers cette rubrique">#</a></h2>
+<p>Les personnes peuvent s’inscrire et se désinscrire à votre liste <strong>uniquement par email</strong>,
+tandis que vous gardez un <a class="reference internal" href="#gestion-manuelle">contrôle manuel sur la liste</a>.</p>
+<section id="gestion-par-email">
+<h3>Gestion par email<a class="headerlink" href="#gestion-par-email" title="Lien vers cette rubrique">#</a></h3>
+<p>Pour les personnes qui souhaiterait s’abonner à votre newsletter, l’inscription et la désinscription se fait par email.
+Elles doivent envoyer à une adresse précise un email depuis l’adresse qu’elles souhaitent inscrire ou désinscrire.
+Le contenu n’aura aucune incidence.</p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Pour proposer aux personnes de s’isncrire à votre newsletter depuis votre site Web,
+vous pouvez insérer des liens <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
+les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr>
+<a class="reference external" href="https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Structuring_content/Creating_links#liens_de_courriel">en utilisant le préfixe <code class="docutils literal notranslate"><span class="pre">mailto:</span></code>devant l’addresse email</a>.</p>
+</div>
+<p>Dans les adresses présentés ci-dessous, <code class="docutils literal notranslate"><span class="pre">IDENTIFIANT</span></code> correspond à votre <a class="reference internal" href="../info/general.html#identifiant"><span class="std std-ref">identifiant de membre</span></a>.</p>
+<section id="inscription">
+<h4>Inscription<a class="headerlink" href="#inscription" title="Lien vers cette rubrique">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+subscribe@club1.fr
+</pre></div>
+</div>
+<p>Cela déclenche la procédure d’inscription.
+Un email de confirmation est envoyé et <strong>il est nécessaire d’y répondre</strong> pour terminer l’inscription.</p>
+</section>
+<section id="desinscription">
+<h4>Désinscription<a class="headerlink" href="#desinscription" title="Lien vers cette rubrique">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+unsubscribe@club1.fr
+</pre></div>
+</div>
+<p>Si l’adresse était bien listée, la désinscription est immédiate.</p>
+</section>
+</section>
+<section id="gestion-manuelle">
+<h3>Gestion manuelle<a class="headerlink" href="#gestion-manuelle" title="Lien vers cette rubrique">#</a></h3>
+<p>Comme les emails son stockés dans un fichier brut (<code class="docutils literal notranslate"><span class="pre">~/.config/newsletter/emails</span></code>),
+vous pouvez éditer ce fichier avec un éditeur de texte pour modifier la liste des abonnés.</p>
+</section>
+</section>
+<section id="envoi">
+<h2>Envoi<a class="headerlink" href="#envoi" title="Lien vers cette rubrique">#</a></h2>
+<p>L’envoi d’une newsletter peut se faire <a class="reference internal" href="#par-email"><strong>par email</strong></a> ou <a class="reference internal" href="#via-ssh"><strong>via SSH</strong></a>.</p>
+<section id="par-email">
+<h3>Par email<a class="headerlink" href="#par-email" title="Lien vers cette rubrique">#</a></h3>
+<p>Pour diffuser une newsletter par email,
+écrivez un email à l’adresse suivante en remplissant le sujet et le contenu.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>IDENTIFIANT+send@club1.fr
+</pre></div>
+</div>
+<p><strong>Vous receverez une prévisualisation</strong> qui vous permettra de juger du rendu.
+La seule différence étant que le sujet contiendra <code class="docutils literal notranslate"><span class="pre">(preview)</span></code> en plus de votre sujet
+et à la fin de la signature, un texte indiquant qu’il faut répondre à cet email pour confirmer l’envoi.</p>
+<p>Pour confirmer l’envoi, <strong>répondez à cet email de prévisualisation</strong> (le contenu de cette réponse n’aura aucune influence).</p>
+<p>À la fin de la diffusion, vous recevrez un email indiquant le statut de l’opération.</p>
+</section>
+<section id="via-ssh">
+<h3>Via SSH<a class="headerlink" href="#via-ssh" title="Lien vers cette rubrique">#</a></h3>
+<p>Une fois connecté en <abbr title="(Secure SHell) [Protocole] permettant de se connecter à distance en
+[CLI] à un serveur. Ses principaux avantages sont d’être entièrement
+chiffré et d’offrir un accès complet aux fonctionnalités du serveur.
+Il existe des extensions SSH pour des usages plus spécifiques comme
+[SFTP] ou [SCP]."><a class="reference internal" href="ssh.html#term-SSH"><span class="xref std std-term">SSH</span></a></abbr> via un <abbr title="En informatique, un terminal était à l’origine un appareil constitué
+d’un moniteur et d’un clavier, permettant à un·e humain·e d’interagir
+avec un ordinateur partagé distant. Il offrait une interface
+textuelle, permettant d’entrer des [commandes] et d’en lire le
+résultat.
+
+De nos jours, on utilise souvent le mot « terminal » comme raccourci
+pour désigner un « émulateur de terminal ». Il s’agit d’un logiciel
+recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="reference internal" href="../glossaire.html#term-terminal"><span class="xref std std-term">terminal</span></a></abbr>,
+la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
+fournir à une interface en ligne de commande ([CLI]) pour demander à
+un ordinateur d’exécuter une tâche.
+
+Pour lancer une commande, il faut ouvrir un [terminal], tapper le
+texte de la commande, puis appuyer sur &quot;Entrée&quot;.
+
+Pour lancer une commande sur le serveur CLUB1, il faut d’abord s’y
+être connecté avec [SSH]."><a class="reference internal" href="../glossaire.html#term-commande"><span class="xref std std-term">commande</span></a></abbr> suivante permet de diffuser une newsletter :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET FICHIER_DU_CONTENU
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SUJET</span></code> sera utilisé comme sujet de l’email</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> doit indiquer le chemin vers un fichier contenant le corps de la newsletter (qu’il faut avoir créé au préalable).</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Si <code class="docutils literal notranslate"><span class="pre">SUJET</span></code> ou <code class="docutils literal notranslate"><span class="pre">FICHIER_DU_CONTENU</span></code> contiennent des espaces, il faut les entourer de guillemets !</p>
+</div>
+<p>Le programe va vous envoyer <strong>une prévisualisation par email</strong>.
+Il vous restera à confirmer ou non l’envoi dans votre terminal.</p>
+<section id="contenu-via-l-entree-standard">
+<h4>contenu via l’entrée standard<a class="headerlink" href="#contenu-via-l-entree-standard" title="Lien vers cette rubrique">#</a></h4>
+<p>Il est également possible d’omettre le second argument et de fournir le contenu dans l’entrée standard.</p>
+</section>
+</section>
+</section>
+<section id="consultation-des-logs">
+<h2>Consultation des logs<a class="headerlink" href="#consultation-des-logs" title="Lien vers cette rubrique">#</a></h2>
+<p>Les <abbr title="Désigne à l’origine le journal de bord (logbook) d’un navire. En
+informatique il s’agit d’un journal contenant un historique
+d’événements, généralement sous la forme de ficher en texte brut."><a class="reference internal" href="../glossaire.html#term-log"><span class="xref std std-term">logs</span></a></abbr> de ce service sont envoyés dans le <a class="reference external" href="https://en.wikipedia.org/wiki/Syslog">Syslog</a> avec le tag <code class="docutils literal notranslate"><span class="pre">newsletter</span></code>.
+Pour les consulter, il est possible d’utiliser la commande <code class="docutils literal notranslate"><span class="pre">journalctl</span></code> :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>journalctl -t newsletter
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>Le manuel de cette commande : <em class="manpage"><a class="manpage reference external" href="https://manpages.debian.org/journalctl.1.fr">journalctl.1</a></em></p>
+</div>
+</section>
+<section id="la-commande">
+<h2>La commande<a class="headerlink" href="#la-commande" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std commande">
+<dt class="sig sig-object std" id="commande-newsletter">
+<span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#commande-newsletter" title="Lien vers cette définition">#</a></dt>
+<dd><p>Commande permettant d’envoyer ou d’ajuster les réglages de votre newsletter personnelle.
+Elle dispose de deux sous-commandes : <code class="docutils literal notranslate"><span class="pre">setup</span></code> pour la mise en place et <code class="docutils literal notranslate"><span class="pre">send</span></code> pour l’envoi.
+L’envoi nécessite des arguments supplémentaires.
+Le contenu peut alternativement être fourni dans l’entrée standard.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>newsletter send SUJET [FICHIER_DU_CONTENU]
+</pre></div>
+</div>
+<p>💡 Pour accéder à l’aide, on peut utiliser <code class="docutils literal notranslate"><span class="pre">newsletter</span> <span class="pre">-h</span></code>.</p>
+</dd></dl>
+
+</section>
+<section id="logiciels">
+<h2>Logiciels<a class="headerlink" href="#logiciels" title="Lien vers cette rubrique">#</a></h2>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-newsletter">
+<span class="sig-name descname"><span class="pre">newsletter</span></span><a class="headerlink" href="#logiciel-newsletter" title="Lien vers cette définition">#</a></dt>
+<dd><p>Petit logiciel de gestion de newsletter développé par CLUB1.
+— <a class="reference external" href="https://github.com/club-1/newsletter-go">Sources</a></p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="webcast.html" class="btn btn-neutral float-left" title="Émissions Web (audio/vidéo) via Icecast" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../services-invitation.html" class="btn btn-neutral float-right" title="3. Services sur invitation" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2022-2026, Membres de CLUB1.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+	<span class="rst-current-version" data-toggle="rst-current-version">
+		<span class="fa fa-book"> Versions</span>
+		v: 2026-04-25-g55dc
+		<span class="fa fa-caret-down"></span>
+	</span>
+	<div class="rst-other-versions">
+		
+		<dl>
+			<dt>Langages</dt>
+			
+			<dd>
+				 <strong> 
+					<a href="../../fr/services/newsletter.html">fr</a>
+				 </strong> 
+			</dd>
+			
+			<dd>
+				
+					<a href="../../en/services/newsletter.html">en</a>
+				
+			</dd>
+			
+		</dl>
+		
+		
+		
+		<dl>
+			<dt>Téléchargements</dt>
+			
+			<dd><a download href="../"></a></dd>
+			
+		</dl>
+		
+	</div>
+</div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
