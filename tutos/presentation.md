@@ -68,7 +68,7 @@ Si vous êtes satisfait&middot;e de votre superbe présentation,
 il est possible de la partager facilement.
 Il vous suffit de faire un lien ciblant spécifiquement votre présentation.
 Pour cela on utilise un [identificateur de fragment](https://fr.wikipedia.org/wiki/Identificateur_de_fragment)
-utilisant votre identifiant CLUB1 (`#` + votre nom d'utilisateur&middot;trice).
+utilisant votre identifiant CLUB1 (`#` + votre nom d'utilisataire).
 
 Par exemple, l'adresse suivante ouvrira directement la présentation du membre `vincent` :
 

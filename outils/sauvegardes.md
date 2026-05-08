@@ -8,7 +8,7 @@ Sauvegardes avec Borg
 <img alt="userdata status" src="https://healthchecks.io/badge/c792e044-dd83-4b85-a695-240eed/xFAKftB0-2/userdata.svg" />
 ```
 
-Le système et les données utilisateur sont sauvegardées une fois par jour à 5h.
+Le système et les données utilisataire sont sauvegardées une fois par jour à 5h.
 Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}`Borgmatic`.
 Elles sont ainsi stockées de manière dédupliquée et chiffrée à plusieurs endroits
 dont un dépôt off-site offert par Etienne Le Louët (serveur {term}`Debian` auto-hébergé à Paris).
@@ -55,7 +55,7 @@ en réinstallant tous les logiciels depuis zéro.
 
 ### 2. Étapes préparatoires
 
-Cette phase doit être réalisée avec l'utilisateur `root`.
+Cette phase doit être réalisée avec l'utilisataire `root`.
 
 #### 2.1. Préparations générales
 
@@ -90,7 +90,7 @@ Deux mots de passe seront demandés : celui de SSH puis celui de l'archive.
 
 ### 3. Installation des paquets
 
-Cette phase doit être réalisée avec l'utilisateur `root`.
+Cette phase doit être réalisée avec l'utilisataire `root`.
 
 ```sh
 mkdir /etc/systemd/system-preset
@@ -107,7 +107,7 @@ cat /root/apt-packages.txt | DEBIAN_FRONTEND=noninteractive xargs apt install --
 
 ### 4. Restauration totale
 
-Cette phase doit être réalisée avec l'utilisateur `root`.
+Cette phase doit être réalisée avec l'utilisataire `root`.
 
 #### 4.1. Archive `system` et dossier `etc`
 

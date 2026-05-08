@@ -135,7 +135,7 @@ C'est la configuration permettant d'avoir les débits les plus rapides permis pa
 
 Modèle : `Samsung SSD 980 1To`
 
-#### Utilisateurs
+#### utilisataires
 
 L'[espace personnel](/info/espace-personnel.md) des membres est stocké dans un second support :
 Un autre SSD de 1To, mais cette fois ci, connecté sur un port SATA.

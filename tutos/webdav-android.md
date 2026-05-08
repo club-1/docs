@@ -67,7 +67,7 @@ width: 280
 Écran d'accueil de DAVx{sup}`5`.
 ```
 
-Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisateur" ({numref}`fig:tutos-webdav-android-connexion`).
+Sélectionner la deuxième option : "Connexion avec une URL et un nom d'utilisataire" ({numref}`fig:tutos-webdav-android-connexion`).
 
 ```{figure} webdav-android/screen_005.png
 ---
@@ -75,14 +75,14 @@ alt: capture d'écran connexion
 name: fig:tutos-webdav-android-connexion
 width: 280
 ---
-Connexion avec une URL et un nom d'utilisateur.
+Connexion avec une URL et un nom d'utilisataire.
 ```
 
 URL de base :
 
     https://club1.fr
 
-Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1.
+Le nom d'utilisataire et le mot de passe sont vos identifiants CLUB1.
 
 
 Si vous avez tout bien renseigné, DAVx{sup}`5` va maintenant vous proposer un nom pour ce compte

@@ -90,7 +90,7 @@ Transversalement au système de gestion de tickets,
 l'étiquette {guilabel}`Roadmap Admin` est utilisée par les administrateurs système de CLUB1 pour s'organiser.
 Elle permet également de rendre publique les tâches "en cours", "suivantes" et "planifiées".
 
-C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs du forum peuvent utiliser,
+C'est en réalité une étiquette _primaire_ que seuls certains utilisataires du forum peuvent utiliser,
 en contournant les restrictions d'étiquettes.
 
 
@@ -103,7 +103,7 @@ soit les membres CLUB1 faisant partie du {term}`groupe` `forum`.
 ### Logiciel utilisé
 
 Le forum est basé sur {logiciel}`Flarum`.
-Il est exécuté par {logiciel}`PHP-FPM` avec l'utilisateur `forum`,
+Il est exécuté par {logiciel}`PHP-FPM` avec l'utilisataire `forum`,
 directement depuis {logiciel}`Nginx`.
 
 Il utilise une base de données {term}`SQL` gérée par {logiciel}`MariaDB`.
@@ -162,5 +162,5 @@ Fichier de configuration {logiciel}`Nginx` contenant le _virtual host_ du forum.
 
 #### `/etc/php/*/fpm/pool.d/forum.conf`
 
-Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisateur `forum`.
+Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisataire `forum`.
 

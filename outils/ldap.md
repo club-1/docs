@@ -9,7 +9,7 @@ LDAP
    Un annuaire LDAP est une sorte de base de données
    avec une structure hierarchique, arborescente,
    permettant de relier des informations à des noms.
-   En général des comptes ou des groupes d'utilisateurs ou d'ordinateurs,
+   En général des comptes ou des groupes d'utilisataires ou d'ordinateurs,
    appartenant à une organisation.
 
    Le schéma de données n'est pas fixé,

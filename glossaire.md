@@ -131,9 +131,9 @@ GitHub
    --- [Wikipedia](https://fr.wikipedia.org/wiki/GitHub)
 
 groupe
-   Dans un système {term}`POSIX`, les groupes servent à rassembler des utilisateurs
+   Dans un système {term}`POSIX`, les groupes servent à rassembler des utilisataires
    afin de leur attribuer des droits communs.
-   Un utilisateur appartient à un ou plusieurs groupes.
+   Chaque utilisataire appartient à un ou plusieurs groupes.
 
    ```{tip}
    Il est possible de savoir qui est membre d'un groupe sur le serveur
@@ -164,7 +164,7 @@ Internet
 Linux
    Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel libre>`.
    Le noyau est le cœur du système,
-   il fait l'interface entre les logiciels utilisateurs et le matériel.
+   il fait l'interface entre les logiciels utilisataires et le matériel.
 
    Par extention, Linux fait souvent référence à tout système d'exploitation basé sur ce noyau.
 
@@ -178,8 +178,8 @@ log
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Historique_(informatique))
 
 logiciel libre
-   Désigne des logiciels qui respectent la liberté des utilisateurs.
-   En particulier, les utilisateurs ont la liberté d'exécuter,
+   Désigne des logiciels qui respectent la liberté des utilisataires.
+   En particulier, les utilisataires ont la liberté d'exécuter,
    copier, étudier, modifier et améliorer ces logiciels,
    et surtout celle de les repartager, modifiés ou non.
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)
@@ -207,7 +207,7 @@ nom de domaine
 
 permissions
    Dans un système {term}`POSIX`, il est possible d'attribuer des permissions aux fichiers et aux dossiers.
-   Elles permettent d'accorder ou non des droits à des utilisateurs ou a des {term}`groupes <groupe>`
+   Elles permettent d'accorder ou non des droits à des utilisataires ou a des {term}`groupes <groupe>`
    sur ces fichiers et dossiers.
 
    Il existe 3 droits principaux, _read_ (r), _write_ (w) et _execute_ (x).
@@ -223,8 +223,8 @@ permissions
    | `x`   | Exécuter ce fichier            | Traverser ce dossier                           |
    ```
 
-   Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du fichier/dossier,
-   soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisateurs.
+   Lesquels peuvent être accordés soit à l'_utilisataire_ proriétaire du fichier/dossier,
+   soit aux membres du _groupe_ du fichier/dossier, soit aux _autres_ utilisataires.
 
    Les permissions peuvent être consultées en {term}`CLI`
    avec la {term}`commande` `ls -l` et modifiées avec `chmod`.
@@ -241,7 +241,7 @@ PHP
 POSIX
    (_Portable Operating System Interface_) Ensemble de normes techniques qui spécifient une interface,
    permettant aux systèmes d'exploitation qui la respectent d'être interchangeables,
-   du point de vue d'un logiciel utilisateur.
+   du point de vue d'un logiciel utilisataire.
 
    {term}`Linux`, macOS et [beaucoup d'autres systèmes](https://en.wikipedia.org/wiki/POSIX#Conformance)
    respectent cette interface, contrairement à Windows.

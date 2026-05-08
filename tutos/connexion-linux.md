@@ -19,7 +19,7 @@ Remplir ensuite les informations suivantes dans la fenêtre de connexion ({numre
 - Serveur : `club1.fr`
 - Type : `SSH`
 - Dossier : `/`
-- Nom d'utilisateur : rentrez votre identifiant CLUB1
+- Nom d'utilisataire : rentrez votre identifiant CLUB1
 - Mot de passe : rentrez votre mot de passe CLUB1
 
 Pour finir vous pouvez cocher la case "Mémoriser ce mot de passe"

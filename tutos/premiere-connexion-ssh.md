@@ -104,10 +104,10 @@ lui-même au sein de votre espace personnel sur votre appareil.
 
 ```{note}
 Le dossier correspondant à votre espace personnel
-porte généralement le nom de votre utilisateur sur cet appareil.
+porte généralement le nom de votre utilisataire sur cet appareil.
 ```
 
-    📁 UTILISATEUR
+    📁 UTILISATAIRE
     ├─ 📁 .ssh
     │  └─ 📄 known_hosts    👈🏽
     ├─ 📁 Documents

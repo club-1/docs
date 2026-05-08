@@ -54,7 +54,7 @@ Pour voir le résultat, il faut entrer l'adresse suivante dans un navigateur Web
 
     https://static.club1.fr/USER/FILE
 
-Par exemple, si votre nom d'utilisateur est `garance` et que votre fichier s'intitule `fleur.jpg`, vous devriez avoir :
+Par exemple, si votre nom d'utilisataire est `garance` et que votre fichier s'intitule `fleur.jpg`, vous devriez avoir :
 
     https://static.club1.fr/garance/fleur.jpg
 
