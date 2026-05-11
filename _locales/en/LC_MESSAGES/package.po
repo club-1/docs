@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: CLUB1 main\n"
 "Report-Msgid-Bugs-To: nicolas@club1.fr\n"
 "POT-Creation-Date: 2026-05-08 17:51+0200\n"
-"PO-Revision-Date: 2026-04-22 15:13+0000\n"
+"PO-Revision-Date: 2026-05-09 16:11+0000\n"
 "Last-Translator: Nicolas Peugnet <n.peugnet@free.fr>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/club-1/docs/en/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.5-dev\n"
 
 #: ../../cgu.md:6
 msgid "Conditions générales d'utilisation"
@@ -202,12 +202,6 @@ msgstr ""
 "any other measure that the laws and regulations impose on it."
 
 #: ../../cgu.md:83
-#, fuzzy
-#| msgid ""
-#| "Vous devez respecter les autres utilisateurs en faisant preuve de civisme "
-#| "et de politesse. CLUB1 se réserve le droit de supprimer tout contenu "
-#| "paraissant non pertinent ou contrevenant à ces principes, selon son seul "
-#| "jugement."
 msgid ""
 "Vous devez respecter les autres utilisataires en faisant preuve de civisme "
 "et de politesse. CLUB1 se réserve le droit de supprimer tout contenu "
@@ -861,18 +855,13 @@ msgid "groupe"
 msgstr "group"
 
 #: ../../glossaire.md:130
-#, fuzzy
-#| msgid ""
-#| "Dans un système {term}`POSIX`, les groupes servent à rassembler des "
-#| "utilisateurs afin de leur attribuer des droits communs. Un utilisateur "
-#| "appartient à un ou plusieurs groupes."
 msgid ""
 "Dans un système {term}`POSIX`, les groupes servent à rassembler des "
 "utilisataires afin de leur attribuer des droits communs. Chaque utilisataire "
 "appartient à un ou plusieurs groupes."
 msgstr ""
 "In a {term}`POSIX` system, groups are used to gather users in order to "
-"assign them common rights. A user belongs to one or more groups."
+"assign them common rights. Each user belongs to one or more groups."
 
 #: ../../glossaire.md:135
 msgid ""
@@ -939,11 +928,6 @@ msgstr ""
 "Internet)"
 
 #: ../../glossaire.md:161
-#, fuzzy
-#| msgid ""
-#| "Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel "
-#| "libre>`. Le noyau est le cœur du système, il fait l'interface entre les "
-#| "logiciels utilisateurs et le matériel."
 msgid ""
 "Noyau de système d'exploitation {term}`POSIX` {term}`libre <logiciel "
 "libre>`. Le noyau est le cœur du système, il fait l'interface entre les "
@@ -987,13 +971,6 @@ msgid "logiciel libre"
 msgstr "free software"
 
 #: ../../glossaire.md:177
-#, fuzzy
-#| msgid ""
-#| "Désigne des logiciels qui respectent la liberté des utilisateurs. En "
-#| "particulier, les utilisateurs ont la liberté d'exécuter, copier, étudier, "
-#| "modifier et améliorer ces logiciels, et surtout celle de les repartager, "
-#| "modifiés ou non. --- [Wikipedia](https://fr.wikipedia.org/wiki/"
-#| "Logiciel_libre)"
 msgid ""
 "Désigne des logiciels qui respectent la liberté des utilisataires. En "
 "particulier, les utilisataires ont la liberté d'exécuter, copier, étudier, "
@@ -1062,12 +1039,6 @@ msgid "permissions"
 msgstr "permissions"
 
 #: ../../glossaire.md:205
-#, fuzzy
-#| msgid ""
-#| "Dans un système {term}`POSIX`, il est possible d'attribuer des "
-#| "permissions aux fichiers et aux dossiers. Elles permettent d'accorder ou "
-#| "non des droits à des utilisateurs ou a des {term}`groupes <groupe>` sur "
-#| "ces fichiers et dossiers."
 msgid ""
 "Dans un système {term}`POSIX`, il est possible d'attribuer des permissions "
 "aux fichiers et aux dossiers. Elles permettent d'accorder ou non des droits "
@@ -1075,8 +1046,8 @@ msgid ""
 "dossiers."
 msgstr ""
 "In a {term}`POSIX` system, it is possible to assign permissions to files and "
-"folders. They allow to grant or deny rights to users or {term}`groups "
-"<group>` on these files and folders."
+"folders. They allow to grant or deny rights to users or {term}`groups <group>"
+"` on these files and folders."
 
 #: ../../glossaire.md:209
 msgid ""
@@ -1088,11 +1059,6 @@ msgid "Récapitulatif des permisions"
 msgstr "Summary of permissions"
 
 #: ../../glossaire.md:222
-#, fuzzy
-#| msgid ""
-#| "Lesquels peuvent être accordés soit à l'_utilisateur_ proriétaire du "
-#| "fichier/dossier, soit aux membres du _groupe_ du fichier/dossier, soit "
-#| "aux _autres_ utilisateurs."
 msgid ""
 "Lesquels peuvent être accordés soit à l'_utilisataire_ proriétaire du "
 "fichier/dossier, soit aux membres du _groupe_ du fichier/dossier, soit aux "
@@ -1127,12 +1093,6 @@ msgstr ""
 "`dynamic website`. --- [Wikipedia](https://en.wikipedia.org/wiki/PHP)"
 
 #: ../../glossaire.md:238
-#, fuzzy
-#| msgid ""
-#| "(_Portable Operating System Interface_) Ensemble de normes techniques qui "
-#| "spécifient une interface, permettant aux systèmes d'exploitation qui la "
-#| "respectent d'être interchangeables, du point de vue d'un logiciel "
-#| "utilisateur."
 msgid ""
 "(_Portable Operating System Interface_) Ensemble de normes techniques qui "
 "spécifient une interface, permettant aux systèmes d'exploitation qui la "
@@ -1144,20 +1104,14 @@ msgstr ""
 "interchangeable from the point of view of a user software."
 
 #: ../../glossaire.md:242
-#, fuzzy
-#| msgid ""
-#| "{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://"
-#| "en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems) respectent "
-#| "cette interface, contrairement à Windows. --- [Wikipedia](https://"
-#| "fr.wikipedia.org/wiki/POSIX)"
 msgid ""
 "{term}`Linux`, macOS et [beaucoup d'autres systèmes](https://"
 "en.wikipedia.org/wiki/POSIX#Conformance) respectent cette interface, "
 "contrairement à Windows. --- [Wikipedia](https://fr.wikipedia.org/wiki/POSIX)"
 msgstr ""
 "{term}`Linux`, macOS and [many other systems](https://en.wikipedia.org/wiki/"
-"POSIX#POSIX-oriented_operating_systems) respect this interface, unlike "
-"Windows. --- [Wikipedia](https://en.wikipedia.org/wiki/POSIX)"
+"POSIX#Conformance) respect this interface, unlike Windows. --- [Wikipedia]"
+"(https://en.wikipedia.org/wiki/POSIX)"
 
 #: ../../glossaire.md:239
 msgid "protocole"
@@ -1431,15 +1385,6 @@ msgstr ""
 "`mail` 🤯 ."
 
 #: ../../info/espace-personnel.md:18
-#, fuzzy
-#| msgid ""
-#| "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
-#| "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
-#| "voisins. En effet, **il n'y a pas de limite de stockage définie** par "
-#| "dossier `home` de chaque membres, mais par contre, une limite physique : "
-#| "Tout ces dossiers sont sur un support de stockage SSD totalisant **1To**. "
-#| "C'est un espace commun à partager entre utilisateur&middot;trice&middot;s "
-#| "du serveur."
 msgid ""
 "Eh oui, un grand pouvoir implique de grandes responsabilités... 😏 Vous "
 "pouvez y faire ce que vous voulez, mais comme chez vous il y a aussi des "
@@ -1753,8 +1698,6 @@ msgid "Identifiant"
 msgstr "Username"
 
 #: ../../info/general.md:89
-#, fuzzy
-#| msgid "Le nom d'utilisateur·ice doit respecter les règles suivantes :"
 msgid "Le nom d'utilisataire doit respecter les règles suivantes :"
 msgstr "The username must comply with the following rules:"
 
@@ -1812,8 +1755,6 @@ msgid "un accès FTP"
 msgstr "FTP access"
 
 #: ../../info/general.md:110
-#, fuzzy
-#| msgid "un accès SSH (pour les utilisateurs avancés)"
 msgid "un accès SSH (pour les utilisataires avancés)"
 msgstr "SSH access (for advanced users)"
 
@@ -2188,8 +2129,6 @@ msgid "Modèle : `Samsung SSD 980 1To`"
 msgstr "Model: `Samsung 980 SSD 1To`"
 
 #: ../../info/infrastructure-materielle.md:138
-#, fuzzy
-#| msgid "Utilisateurs"
 msgid "utilisataires"
 msgstr "Users"
 
@@ -2254,11 +2193,6 @@ msgid "Politique de sécurité"
 msgstr "Security policy"
 
 #: ../../info/politique-de-vie-privee.md:13
-#, fuzzy
-#| msgid ""
-#| "⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
-#| "sont donc lisibles par les administrateurs (utilisateur `root` et membres "
-#| "du {term}`groupe` `sudo`)."
 msgid ""
 "⚠️ Les données des membres sur le serveur **ne sont pas chiffrés**. Elles "
 "sont donc lisibles par les administrateurs (utilisataire `root` et membres "
@@ -2282,13 +2216,6 @@ msgstr ""
 "encrypted, so passwords and data cannot be intercepted."
 
 #: ../../info/politique-de-vie-privee.md:18
-#, fuzzy
-#| msgid ""
-#| "Les données personnelles sont protégées par les {term}`permissions` {term}"
-#| "`POSIX`. Par defaut l'[espace personnel](./espace-personnel.md) n'est pas "
-#| "accessible par les autres utilisateurs (à part en lecture par les membres "
-#| "du {term}`groupe` `home`, ex: le {term}`serveur` {term}`web`). Chacun est "
-#| "libre de changer les permissions de son espace perso."
 msgid ""
 "Les données personnelles sont protégées par les {term}`permissions` {term}"
 "`POSIX`. Par defaut l'[espace personnel](./espace-personnel.md) n'est pas "
@@ -2312,12 +2239,6 @@ msgid ""
 msgstr "System administrators agree to respect the following points:"
 
 #: ../../info/politique-de-vie-privee.md:28
-#, fuzzy
-#| msgid ""
-#| "Ne pas accéder aux données utilisateur (espace personnel et bases de "
-#| "données) sans leur accord, sauf en cas de restauration suite à un "
-#| "problème technique, auquel cas les utilisateurs concernés en seront "
-#| "avertis."
 msgid ""
 "Ne pas accéder aux données utilisataire (espace personnel et bases de "
 "données) sans leur accord, sauf en cas de restauration suite à un problème "
@@ -2344,11 +2265,6 @@ msgid "Gestion des alias email"
 msgstr "Managing email aliases"
 
 #: ../../outils/aliases.md:4
-#, fuzzy
-#| msgid ""
-#| "Ce manuel est réservé aux utilisateurs faisant partie du {term}`groupe` "
-#| "`aliases`. Il décrit les actions que peuvent accomplir ces utilisateurs "
-#| "sur les {term}`alias` emails."
 msgid ""
 "Ce manuel est réservé aux utilisataires faisant partie du {term}`groupe` "
 "`aliases`. Il décrit les actions que peuvent accomplir ces utilisataires sur "
@@ -2379,21 +2295,15 @@ msgstr ""
 "aliases.db`) using the following {term}`command`:"
 
 #: ../../outils/aliases.md:33
-#, fuzzy
-#| msgid "Ajouter ou supprimer un utilisateur d'un alias"
 msgid "Ajouter ou supprimer des utilisataires à un alias"
-msgstr "Add or remove a user from an alias"
+msgstr "Add or remove users from an alias"
 
 #: ../../outils/aliases.md:35
-#, fuzzy
-#| msgid ""
-#| "Il suffit d'écrire ou d'effacer l'identifiant de l'utilisateur choisi de "
-#| "la liste se trouvant après le nom de l'alias."
 msgid ""
 "Il suffit d'écrire ou d'effacer les identifiants des l'utilisataires de la "
 "liste se trouvant après le nom de l'alias."
 msgstr ""
-"Simply write or erase the name of the chosen user in the list that follows "
+"Simply write or erase the name of the chosen users in the list that follows "
 "the alias name."
 
 #: ../../outils/aliases.md:38
@@ -2452,16 +2362,6 @@ msgid "Utilisation avancée"
 msgstr "Advanced usage"
 
 #: ../../outils/aliases.md:67
-#, fuzzy
-#| msgid ""
-#| "Comme indiqué précédemment, le fichier d'alias de réception `/etc/"
-#| "aliases` respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/"
-#| "aliases.5.html). En plus de rediriger les emails vers d'autres adresses, "
-#| "elle permet de les envoyer vers des fichiers ou des commandes. Dans ce "
-#| "cas, il faut faire attention aux {term}`permissions` requises pour créer "
-#| "les fichiers et exécuter les commandes. Ces actions sont réalisées avec "
-#| "les droits de l'utilisateur correspondant à l'alias s'il existe et sinon, "
-#| "sur CLUB1, avec l'utilisateur `nobody` et le {term}`groupe` `mail`."
 msgid ""
 "Comme indiqué précédemment, le fichier d'alias de réception `/etc/aliases` "
 "respecte la [syntaxe d'alias de Postfix](http://www.postfix.org/"
@@ -2551,11 +2451,6 @@ msgid "Permissions"
 msgstr "Permissions"
 
 #: ../../outils/compta.md:38
-#, fuzzy
-#| msgid ""
-#| "Ce fichier est accessible en lecture par tout les utilisateurs. Donc "
-#| "n'hésitez pas à jeter un coup d'oeil ! En revanche, pour écrire dedans, "
-#| "il faut être membre du {term}`groupe` `compta`."
 msgid ""
 "Ce fichier est accessible en lecture par tout les utilisataires. Donc "
 "n'hésitez pas à jeter un coup d'oeil ! En revanche, pour écrire dedans, il "
@@ -2610,10 +2505,6 @@ msgid "Commandes pour un usage avancé"
 msgstr "Commands for advanced use"
 
 #: ../../outils/compta.md:70
-#, fuzzy
-#| msgid ""
-#| "Les utilisateurs plus habitués à l'utilisation de la {term}`CLI` peuvent "
-#| "directement utiliser les commandes suivantes."
 msgid ""
 "Les utilisataires plus habitués à l'utilisation de la {term}`CLI` peuvent "
 "directement utiliser les commandes suivantes."
@@ -3115,10 +3006,6 @@ msgstr ""
 "allows to make \"current\", \"next\" and \"planned\" tasks public."
 
 #: ../../outils/forum.md:93
-#, fuzzy
-#| msgid ""
-#| "C'est en réalité une étiquette _primaire_ que seuls certains utilisateurs "
-#| "du forum peuvent utiliser, en contournant les restrictions d'étiquettes."
 msgid ""
 "C'est en réalité une étiquette _primaire_ que seuls certains utilisataires "
 "du forum peuvent utiliser, en contournant les restrictions d'étiquettes."
@@ -3135,11 +3022,6 @@ msgstr ""
 "members being part of the `forum` {term}`group`."
 
 #: ../../outils/forum.md:105
-#, fuzzy
-#| msgid ""
-#| "Le forum est basé sur {logiciel}`Flarum`. Il est exécuté par {logiciel}"
-#| "`PHP-FPM` avec l'utilisateur `forum`, directement depuis {logiciel}"
-#| "`Nginx`."
 msgid ""
 "Le forum est basé sur {logiciel}`Flarum`. Il est exécuté par {logiciel}`PHP-"
 "FPM` avec l'utilisataire `forum`, directement depuis {logiciel}`Nginx`."
@@ -3244,10 +3126,6 @@ msgstr ""
 "forum."
 
 #: ../../outils/forum.md:165
-#, fuzzy
-#| msgid ""
-#| "Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de "
-#| "l'utilisateur `forum`."
 msgid ""
 "Fichier de configuration {logiciel}`PHP-FPM` de la _pool_ de l'utilisataire "
 "`forum`."
@@ -3278,12 +3156,6 @@ msgstr ""
 "describing both a data model and how to query and modify this data."
 
 #: ../../outils/ldap.md:9
-#, fuzzy
-#| msgid ""
-#| "Un annuaire LDAP est une sorte de base de données avec une structure "
-#| "hierarchique, arborescente, permettant de relier des informations à des "
-#| "noms. En général des comptes ou des groupes d'utilisateurs ou "
-#| "d'ordinateurs, appartenant à une organisation."
 msgid ""
 "Un annuaire LDAP est une sorte de base de données avec une structure "
 "hierarchique, arborescente, permettant de relier des informations à des "
@@ -3651,11 +3523,6 @@ msgstr ""
 "included (omitting the extension)."
 
 #: ../../outils/meta-doc.md:124
-#, fuzzy
-#| msgid ""
-#| "Privilégier un thème clair pour les captures d'écran car c'est plus "
-#| "habituel pour les utilisateurs et ça utilisera moins d'encre pour la "
-#| "version imprimée."
 msgid ""
 "Privilégier un thème clair pour les captures d'écran car c'est plus habituel "
 "pour les utilisataires et ça utilisera moins d'encre pour la version "
@@ -3997,13 +3864,6 @@ msgid "Sauvegardes avec Borg"
 msgstr "Backups with Borg"
 
 #: ../../outils/sauvegardes.md:11
-#, fuzzy
-#| msgid ""
-#| "Le système et les données utilisateur sont sauvegardées une fois par jour "
-#| "à 5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et "
-#| "{logiciel}`Borgmatic`. Elles sont ainsi stockées de manière dédupliquée "
-#| "et chiffrée à plusieurs endroits dont un dépôt off-site offert par "
-#| "Etienne Le Louët (serveur {term}`Debian` auto-hébergé à Paris)."
 msgid ""
 "Le système et les données utilisataire sont sauvegardées une fois par jour à "
 "5h. Les sauvegardes de CLUB1 sont basées sur {logiciel}`Borg` et {logiciel}"
@@ -4092,8 +3952,6 @@ msgstr "2. Preparatory stages"
 
 #: ../../outils/sauvegardes.md:58 ../../outils/sauvegardes.md:93
 #: ../../outils/sauvegardes.md:110
-#, fuzzy
-#| msgid "Cette phase doit être réalisée avec l'utilisateur `root`."
 msgid "Cette phase doit être réalisée avec l'utilisataire `root`."
 msgstr "This phase must be done with the user `root`."
 
@@ -4444,12 +4302,6 @@ msgid "Messagerie email"
 msgstr "Email messaging"
 
 #: ../../services/email.md:4
-#, fuzzy
-#| msgid ""
-#| "Chaque membre dispose d'**une boîte email** avec une adresse email "
-#| "personnelle. L'adresse est composée de l'**identifiant**, suivi de "
-#| "`@club1.fr`. Par exemple, l'adresse de l'utilisateur `michel` est "
-#| "`michel@club1.fr`."
 msgid ""
 "Chaque membre dispose d'**une boîte email** avec une adresse email "
 "personnelle. L'adresse est composée de l'**identifiant**, suivi de "
@@ -4729,10 +4581,6 @@ msgid "Exemple de fichier `.forward` transférant vers deux adresses emails :"
 msgstr "Example of `.forward` file forwarding to two email addresses:"
 
 #: ../../services/email.md:126
-#, fuzzy
-#| msgid ""
-#| "Il est même possible de conserver ses emails sur sa boîte CLUB1 en "
-#| "ajoutant son nom d'utilisateur&middot;trice à cette liste !"
 msgid ""
 "Il est même possible de conserver ses emails sur sa boîte CLUB1 en ajoutant "
 "son nom d'utilisataire à cette liste !"
@@ -4762,12 +4610,6 @@ msgid "Filtres automatiques"
 msgstr "Automatic filters"
 
 #: ../../services/email.md:139
-#, fuzzy
-#| msgid ""
-#| "Les filtres Sieve permettent de trier automatiquement les emails que vous "
-#| "recevez. Ces filtres sont appliqués côté {term}`serveur` et ne dépendent "
-#| "donc d'aucun {term}`client`. Chaque utilisateur doit cependant les "
-#| "configurer lui-même."
 msgid ""
 "Les filtres Sieve permettent de trier automatiquement les emails que vous "
 "recevez. Ces filtres sont appliqués côté {term}`serveur` et ne dépendent "
@@ -5354,12 +5196,6 @@ msgid "Principes généraux"
 msgstr "General principles"
 
 #: ../../services/matrix.md:61
-#, fuzzy
-#| msgid ""
-#| "Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
-#| "Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
-#| "internes pour ses utilisateurs, mais aussi de se connecter de façon "
-#| "transparente aux salons provenant d'autres serveurs si ils le souhaitent."
 msgid ""
 "Matrix repose sur l'interaction de différents {term}`serveurs <serveur>`. "
 "Chaque serveur permet de créer des \"salons\" (rooms) de discussions "
@@ -5394,13 +5230,6 @@ msgstr ""
 "[Wikipedia](https://en.wikipedia.org/wiki/Matrix_(protocol))"
 
 #: ../../services/matrix.md:80
-#, fuzzy
-#| msgid ""
-#| "Un serveur Matrix permet aux utilisateurs de se faire un compte et stocke "
-#| "les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
-#| "simplement `club1.fr` ou `https://club1.fr`. Inutile d'aller voir à cette "
-#| "adresse, il vous faudra un [client](#client-interfaces-de-connexion) pour "
-#| "accéder à l'interface de messagerie."
 msgid ""
 "Un serveur Matrix permet aux utilisataires de se faire un compte et stocke "
 "les échanges de messages. Chez CLUB1, l'adresse de notre serveur est tout "
@@ -5462,11 +5291,6 @@ msgstr ""
 "server on which it was created and to which it is attached."
 
 #: ../../services/matrix.md:110
-#, fuzzy
-#| msgid ""
-#| "Il est possible, au moment de la création d'une *room*, d'interdire "
-#| "l'accès aux utilisateurs qui ne sont pas inscrits sur ce serveur en "
-#| "particulier."
 msgid ""
 "Il est possible, au moment de la création d'une *room*, d'interdire l'accès "
 "aux utilisataires qui ne sont pas inscrits sur ce serveur en particulier."
@@ -7019,12 +6843,6 @@ msgstr ""
 "[Sources](https://github.com/apache/httpd)"
 
 #: ../../services/web.md:192
-#, fuzzy
-#| msgid ""
-#| "Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` "
-#| "{term}`Web` d'exécuter du code PHP de manière performante. Il est aussi "
-#| "capable d'exécuter PHP avec différents utilisateurs. --- [Sources]"
-#| "(https://github.com/php/php-src/tree/master/sapi/fpm)"
 msgid ""
 "Gestionnaire de processus {term}`PHP`, permettant à un {term}`serveur` {term}"
 "`Web` d'exécuter du code PHP de manière performante. Il est aussi capable "
@@ -7121,14 +6939,6 @@ msgid "Synchro de fichiers, contacts et calendriers WebDAV"
 msgstr "WebDAV synchro of files, contacts and calendars"
 
 #: ../../services/webdav.md:6
-#, fuzzy
-#| msgid ""
-#| "Protocole qui étend les fonctionnalités du {term}`Web`. Il y ajoute des "
-#| "possibilités de modifications et de synchronisation de fichiers. Son "
-#| "utilisation première est donc similaire à un système de fichier distant "
-#| "et il est possible de l'utiliser via un explorateur de fichier compatible "
-#| "pour éditer les fichiers de son **espace personnel** comme si ils étaient "
-#| "présents en local."
 msgid ""
 "{term}`Protocole` qui étend les fonctionnalités du {term}`Web`. Il y ajoute "
 "des possibilités de modifications et de synchronisation de fichiers. Son "
@@ -7137,7 +6947,7 @@ msgid ""
 "éditer les fichiers de son **espace personnel** comme si ils étaient "
 "présents en local."
 msgstr ""
-"Protocol that extends the functionality of the {term}`Web`. It adds "
+"{term}`Protocol` that extends the functionality of the {term}`Web`. It adds "
 "possibilities of modifications and synchronization of files. Its primary use "
 "is therefore similar to a remote file system and it is possible to use it "
 "via a compatible file explorer to edit the files of your **personal space** "
@@ -7536,8 +7346,6 @@ msgid "Dossier : `/`"
 msgstr "File: `/`"
 
 #: ../../tutos/connexion-linux.md:22
-#, fuzzy
-#| msgid "Nom d'utilisateur : rentrez votre identifiant CLUB1"
 msgid "Nom d'utilisataire : rentrez votre identifiant CLUB1"
 msgstr "Username: enter your CLUB1 username"
 
@@ -8337,11 +8145,6 @@ msgstr ""
 "just right click with your mouse."
 
 #: ../../tutos/premiere-connexion-ssh.md:32
-#, fuzzy
-#| msgid ""
-#| "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
-#| "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
-#| "l'informatique ! 🧙 Un peu comme des sortilèges, on y lance des commandes."
 msgid ""
 "Ne vous laissez pas impressionner par son interface déroutante, c'est un "
 "outil qui va faire de vous un&middot;e véritable magicien&middot;ne de "
@@ -8350,7 +8153,7 @@ msgid ""
 msgstr ""
 "Don't be impressed by its disconcerting interface, it's a tool that will "
 "make you a real computer magician! 🧙 A bit like spells, you cast—or rather "
-"run commands in it."
+"run {term}`commands <command>` in it."
 
 #: ../../tutos/premiere-connexion-ssh.md:36
 msgid "Heuuu... mais comment on lance une commande 🤨 ?"
@@ -8473,12 +8276,6 @@ msgstr ""
 "`V`."
 
 #: ../../tutos/premiere-connexion-ssh.md:99
-#, fuzzy
-#| msgid ""
-#| "Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la "
-#| "clef 🔑, à un fichier sur votre appareil. Ce fichier s'appelle "
-#| "`known_hosts`, *serveurs connus*. Il se trouve dans un dossier `.ssh`, "
-#| "lui-même au sein de votre espace personnel sur votre appareil."
 msgid ""
 "Si tout s'est bien passé, cela a ajouté une ligne de texte contenant la clef "
 "🔑, à un fichier sur votre appareil. Ce fichier s'appelle `known_hosts`, "
@@ -8488,14 +8285,10 @@ msgid ""
 msgstr ""
 "If everything went well, it added a line of text containing the key 🔑, to a "
 "file on your device. This file is called `known_hosts`, for *known servers*. "
-"It is located in a `.ssh` folder, itself within your personal space on your "
-"device."
+"It is located in a {term}`(hidden) <hidden folder>` `.ssh` folder, itself "
+"within your personal space on your device."
 
 #: ../../tutos/premiere-connexion-ssh.md:106
-#, fuzzy
-#| msgid ""
-#| "Le dossier correspondant à votre espace personnel porte généralement le "
-#| "nom de votre utilisateur sur cet appareil."
 msgid ""
 "Le dossier correspondant à votre espace personnel porte généralement le nom "
 "de votre utilisataire sur cet appareil."
@@ -8567,18 +8360,14 @@ msgid "Un fichier pour se présenter"
 msgstr "A file to introduce yourself"
 
 #: ../../tutos/presentation.md:6
-#, fuzzy
-#| msgid ""
-#| "Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter. "
-#| "Pour se faire, vous pouvez y ajouter, *à la racine* un fichier "
-#| "s'appellant :"
 msgid ""
 "Votre [*home*](/info/espace-personnel.md) peut servir à vous présenter. Pour "
 "se faire, vous pouvez y ajouter, *à la racine* (pas dans un sous-dossier) un "
 "fichier s'appellant :"
 msgstr ""
 "Your [*home*](/info/espace-personnel.md) can also be used to introduce "
-"yourself. To do this, you can add to it, *at the root* a file called:"
+"yourself. To do this, you can add to it, *at the root* (not in a subfolder) "
+"a file called:"
 
 #: ../../tutos/presentation.md:11
 msgid ""
@@ -8678,14 +8467,6 @@ msgid "Faire un lien vers son profil"
 msgstr "Create a link to your profile"
 
 #: ../../tutos/presentation.md:67
-#, fuzzy
-#| msgid ""
-#| "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
-#| "possible de la partager facilement. Il vous suffit de faire un lien "
-#| "ciblant spécifiquement votre présentation. Pour cela on utilise un "
-#| "[identificateur de fragment](https://fr.wikipedia.org/wiki/"
-#| "Identificateur_de_fragment) utilisant votre identifiant CLUB1 (`#` + "
-#| "votre nom d'utilisateur&middot;trice)."
 msgid ""
 "Si vous êtes satisfait&middot;e de votre superbe présentation, il est "
 "possible de la partager facilement. Il vous suffit de faire un lien ciblant "
@@ -8824,10 +8605,6 @@ msgid "Écran d'accueil de DAVx{sup}`5`."
 msgstr "DAVx{sup}`5` home screen."
 
 #: ../../tutos/webdav-android.md:70
-#, fuzzy
-#| msgid ""
-#| "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
-#| "d'utilisateur\" ({numref}`fig:tutos-webdav-android-connexion`)."
 msgid ""
 "Sélectionner la deuxième option : \"Connexion avec une URL et un nom "
 "d'utilisataire\" ({numref}`fig:tutos-webdav-android-connexion`)."
@@ -8840,8 +8617,6 @@ msgid "capture d'écran connexion"
 msgstr "screenshot login"
 
 #: ../../tutos/webdav-android.md:78
-#, fuzzy
-#| msgid "Connexion avec une URL et un nom d'utilisateur."
 msgid "Connexion avec une URL et un nom d'utilisataire."
 msgstr "Login with URL and username."
 
@@ -8850,8 +8625,6 @@ msgid "URL de base :"
 msgstr "Base URL:"
 
 #: ../../tutos/webdav-android.md:85
-#, fuzzy
-#| msgid "Le nom d'utilisateur et le mot de passe sont vos identifiants CLUB1."
 msgid "Le nom d'utilisataire et le mot de passe sont vos identifiants CLUB1."
 msgstr "The username and password are your CLUB1 credentials."
 
