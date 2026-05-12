@@ -160,6 +160,20 @@ Pressez la touche {kbd}`Q` pour quitter.
 --- Manuel : {manpage}`goaccess.1`
 ````
 
+```{commande} site-stats
+Permet un usage simplifié de la commande {commande}`goaccess`
+en publiant le panneau de statistiques en {term}`HTML` à partir d'un nom de domaine.
+
+    site-stats NOM_DE_DOMAINE [CHEMIN]
+
+Le nom de domaine doit ressembler à `moutarde.club1.fr`.
+Si on ne définit pas de `CHEMIN`,
+le panneau est publié dans [le dossier `static`](../services/web.md#dossier-static)
+selon la règle suivante :
+`~/static/tmp/stats/NOM_DE_DOMAINE`.
+--- [Sources](https://github.com/club-1/hosting/blob/master/src/site-stats.sh)
+```
+
 ```{commande} man
 Affiche la page de manuel correspondant à une commande.
 Celle-ci devra être indiquée après un espace.
