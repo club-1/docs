@@ -253,7 +253,7 @@ protocole
    ou le comportement collectif de processus ou d'ordinateurs en réseaux.
 
    Un protocole permet à tous les logiciels qui le respectent
-   d'être compatible avec les uns avec les autres,
+   d'être compatible les uns avec les autres,
    c'est ce qu'on appelle l'interopérabilité.
 
    Un protocole **ouvert** donne la permission à n'importe qui
