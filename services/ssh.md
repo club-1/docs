@@ -166,7 +166,7 @@ en publiant le panneau de statistiques en {term}`HTML` à partir d'un nom de dom
 
     site-stats NOM_DE_DOMAINE [CHEMIN]
 
-Le nom de domaine doit ressembler à `moutarde.club1.fr`.
+Le nom de domaine doit ressembler à `moutarde.club1.fr` ou `www.example.com`.
 Si on ne définit pas de `CHEMIN`,
 le panneau est publié dans [le dossier `static`](../services/web.md#dossier-static)
 selon la règle suivante :
