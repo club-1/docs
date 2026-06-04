@@ -1,8 +1,13 @@
 Tutoriels
 =========
 
-Voici une petite liste de tutos pour s'amuser avec les outils et services CLUB1.
+Voici une petite liste de tutos pour s'amuser avec les outils et services CLUB1.  
+Les premiers sont indépendants de l'appareil que vous utilisez,
+tandis que les suivants sont spécifiques à un système d'exploitation.
 
+
+Génériques
+----------
 
 ```{toctree}
 ---
@@ -15,7 +20,6 @@ mes-premiers-pas-sur-le-web
 flux-rss
 ```
 
-Tutos spécifiques à un système d'exploitation :
 
 Mac
 ---
