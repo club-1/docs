@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=b3812d5c"></script>
+        <script src="../_static/documentation_options.js?v=e56164bb"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -92,7 +92,11 @@
 <li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">Première connexion SSH</a></li>
 <li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
 <li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Accès à l’espace personnel depuis le Finder d’un Mac</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#connexion-a-un-lecteur-reseau">Connexion à un lecteur réseau</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resultat">Résultat</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">Mes premiers pas sur le Web !</a></li>
 <li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Utiliser Tiny tiny RSS</a></li>
 </ul>
@@ -139,38 +143,47 @@
              
   <section id="acces-a-l-espace-personnel-depuis-le-gestionnaire-de-fichiers-de-windows-11">
 <h1>Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11<a class="headerlink" href="#acces-a-l-espace-personnel-depuis-le-gestionnaire-de-fichiers-de-windows-11" title="Lien vers cette rubrique">#</a></h1>
-<div class="highlight-warning notranslate"><div class="highlight"><pre><span></span>Ce tuto marche peut-être pour d&#39;autres versions de windows (Windows 10 par exemple),
-mais cela n&#39;a pas encore pu être testé.
-</pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Ce tuto marche peut-être pour d’autres versions de windows (Windows 10 par exemple),
+mais cela n’a pas encore pu être testé.</p>
 </div>
-<div class="highlight-info notranslate"><div class="highlight"><pre><span></span>Ce tuto est en cours de finition.
-Il est adapté du post de forum
-[Synchroniser les dossiers avec le serveur sous windows 11](https://forum.club1.fr/d/311-synchroniser-les-dossiers-avec-le-serveur-sous-windows-11).
-</pre></div>
-</div>
-<p><strong>étape 1</strong> : aller dans le gestionnaire de fichiers Windows</p>
-<p><strong>étape 2</strong> : faire 1 clic droit sur <span class="guilabel">Ce PC</span></p>
-<p><strong>étape 3</strong> : choisir dans la liste d’action <span class="guilabel">connecter un lecteur réseau</span></p>
-<p><strong>étape 4</strong> :</p>
-<p>Une petite fenêtre apparaît qui demande «  à quel dossier réseau voulez-vous vous connecter ? »
-Pour le lecteur vous pouvez laisser celui par défaut (<code class="docutils literal notranslate"><span class="pre">Z:</span></code>)
-et pour le dossier j’ai copié collé cette URL :</p>
+<p>Aller dans le gestionnaire de fichiers Windows et faites un clic droit sur <span class="guilabel">ce PC</span>.
+Dans la liste d’action, choisissez <span class="guilabel">connecter un lecteur réseau</span>.</p>
+<section id="connexion-a-un-lecteur-reseau">
+<h2>Connexion à un lecteur réseau<a class="headerlink" href="#connexion-a-un-lecteur-reseau" title="Lien vers cette rubrique">#</a></h2>
+<p>Une petite fenêtre apparaît qui demande « à quel dossier réseau voulez-vous vous connecter ? » (<a class="reference internal" href="#fig-tutos-webdav-win11-connexion"><span class="std std-numref">Fig. 4.20</span></a>).
+Pour le lecteur vous pouvez laisser celui par défaut (<code class="docutils literal notranslate"><span class="pre">Z:</span></code>).
+Pour le dossier vous pouvez copier coller cette URL :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://IDENTIFIANT@webdav.club1.fr/files/IDENTIFIANT
 </pre></div>
 </div>
 <p>En remplaçant <code class="docutils literal notranslate"><span class="pre">IDENTIFIANT</span></code> par votre identifiant de membre sur le serveur.</p>
-<p><img alt="img/tuto2.png" src="../_images/connecter-lecteur-reseau.png" /></p>
-<p><strong>étape 5</strong> :</p>
-<p>Après avoir copié cette url dans la ligne « Dossier », et écrit aux endroits nécessaires votre nom d’utilisateur et avoir cliqué sur <span class="guilabel">Terminer</span>, une nouvelle fenêtre propose ensuite de rentrer votre identifiant et votre mot de passe.
+<figure class="align-default" id="fig-tutos-webdav-win11-connexion">
+<a class="reference internal image-reference" href="../_images/connecter-lecteur-reseau.png"><img alt="capture d'écran &quot;connexion à un lecteur réseau&quot;" src="../_images/connecter-lecteur-reseau.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.20 </span><span class="caption-text">Fenêtre de connexion à un lecteur réseau</span><a class="headerlink" href="#fig-tutos-webdav-win11-connexion" title="Lien vers cette image">#</a></p>
+</figcaption>
+</figure>
+<p>Après avoir copié cette url dans la ligne « Dossier », écrit aux endroits nécessaires votre nom d’utilisateur
+et avoir cliqué sur <span class="guilabel">Terminer</span>,
+une nouvelle fenêtre propose ensuite de rentrer votre identifiant et votre mot de passe.
 Faites le donc 😄.</p>
-<p><strong>étape 6</strong> :</p>
-<p>Après avoir rentré votre mot de passe, normalement ça devrait marcher.</p>
-<p>Quand ça marche vous aurez ceci :</p>
-<p><img alt="img/tuto1.png" src="../_images/ce-pc.png" /></p>
-<p><strong>VOILA</strong></p>
-<p>Votre espace personnel club1 est accessible dans les fichiers tant qu’il y a internet,
-sous l’onglet ce PC dans mes réseaux.
-Et les fichiers sont directement ouvrables avec un éditeur de code ou autres logiciels</p>
+</section>
+<section id="resultat">
+<h2>Résultat<a class="headerlink" href="#resultat" title="Lien vers cette rubrique">#</a></h2>
+<p>Quand ça marche vous devriez avoir ceci (<a class="reference internal" href="#fig-tutos-webdav-win11-ce-pc"><span class="std std-numref">Fig. 4.21</span></a>) :</p>
+<figure class="align-default" id="fig-tutos-webdav-win11-ce-pc">
+<a class="reference internal image-reference" href="../_images/ce-pc.png"><img alt="capture d'écran &quot;ce PC&quot;" src="../_images/ce-pc.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4.21 </span><span class="caption-text">Fenêtre de connexion à un lecteur réseau</span><a class="headerlink" href="#fig-tutos-webdav-win11-ce-pc" title="Lien vers cette image">#</a></p>
+</figcaption>
+</figure>
+<p>Et voilà ! 🎉 Votre espace personnel CLUB1 est maintenant accessible
+dans votre explorateur de fichier tant qu’il y a internet,
+sous l’onglet <span class="guilabel">ce PC</span> dans <span class="guilabel">mes réseaux</span>.
+Les fichiers sont directement ouvrables avec un éditeur de code ou autres logiciels</p>
+</section>
 </section>
 
 
@@ -201,7 +214,7 @@ Et les fichiers sont directement ouvrables avec un éditeur de code ou autres lo
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-02-gc713
+		v: 2026-06-04-g631e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
