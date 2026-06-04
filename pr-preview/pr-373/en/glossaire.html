@@ -21,7 +21,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=5589e39b"></script>
+        <script src="_static/documentation_options.js?v=2ecc7812"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -164,9 +164,12 @@ sheets”. The [client] used to access it is called a “Web browser”."><a cla
 collaboratively. Page editing is possible from the Web browser. The
 best known being Wikipedia. The name comes from the Hawaiian language
 in which “wiki” means “quick”."><a class="reference internal" href="#term-wiki"><span class="xref std std-term">wikis</span></a></abbr>.</p>
-<p>A CMS can take the form of a <abbr title="[Web] site whose display may vary “from itself”, hence the name
-“dynamic” (distinguishing it from a [static website]). It contains
-code that will be “executed” to generate [HTML]."><a class="reference internal" href="#term-site-Web-dynamique"><span class="xref std std-term">dynamic site</span></a></abbr> (like <em>Wordpress</em> or <em>Mediawiki</em>), or be a “<abbr title="[Web] site consisting of [HTML] files whose content does not change
+<p>A CMS can take the form of a <abbr title="Site [Web] dont l’affichage peut varier “de lui-même”, d’où le nom
+“dynamique” (le distinguant ainsi du [site Web statique]). Il contient
+du code qui va être “executé” pour générer du [HTML].
+
+Sur le serveur CLUB1, les sites Web dynamiques doivent être codés en
+[PHP] et nécessitent un [domaine dédié]."><a class="reference internal" href="#term-site-Web-dynamique"><span class="xref std std-term">dynamic site</span></a></abbr> (like <em>Wordpress</em> or <em>Mediawiki</em>), or be a “<abbr title="[Web] site consisting of [HTML] files whose content does not change
 until they have been edited. They can be designed “by hand” or using a
 “static site generator”. Static sites are an interesting way for those
 looking to offer more energy-efficient sites."><a class="reference internal" href="#term-site-Web-statique"><span class="xref std std-term">static site</span></a></abbr> generator”.</p>
@@ -262,17 +265,26 @@ addresses to the same inbox, or when we define a new name for a
 command."><a class="reference internal" href="#term-alias"><span class="xref std std-term">alias</span></a></abbr> for an IP address.</p>
 <p>In addition to this information, a domain can also have subdomains. — <a class="reference external" href="https://en.wikipedia.org/wiki/Domain_name">Wikipedia</a></p>
 </dd>
-<dt id="term-site-Web-dynamique">dynamic website<a class="headerlink" href="#term-site-Web-dynamique" title="Link to this term">#</a></dt><dd><p><abbr title="One of the best known services on [Internet]. Its full name is “World
+<dt id="term-site-Web-dynamique">dynamic website<a class="headerlink" href="#term-site-Web-dynamique" title="Link to this term">#</a></dt><dd><p>Site <abbr title="One of the best known services on [Internet]. Its full name is “World
 Wide Web” (also abbreviated “www”). It allows to publish documents and
 link them together using hypertext links.
 
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
-sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="#term-Web"><span class="xref std std-term">Web</span></a></abbr> site whose display may vary “from itself”, hence the name “dynamic” (distinguishing it from a <abbr title="[Web] site consisting of [HTML] files whose content does not change
+sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="#term-Web"><span class="xref std std-term">Web</span></a></abbr> dont l’affichage peut varier “de lui-même”, d’où le nom “dynamique”
+(le distinguant ainsi du <abbr title="[Web] site consisting of [HTML] files whose content does not change
 until they have been edited. They can be designed “by hand” or using a
 “static site generator”. Static sites are an interesting way for those
-looking to offer more energy-efficient sites."><a class="reference internal" href="#term-site-Web-statique"><span class="xref std std-term">static website</span></a></abbr>). It contains code that will be “executed” to generate <abbr title="(Hypertext Markup Language) Markup language designed to represent
-[Web] pages."><a class="reference internal" href="#term-HTML"><span class="xref std std-term">HTML</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Dynamic_web_page">Wikipedia</a></p>
+looking to offer more energy-efficient sites."><a class="reference internal" href="#term-site-Web-statique"><span class="xref std std-term">site Web statique</span></a></abbr>).
+Il contient du code qui va être “executé” pour générer du <abbr title="(Hypertext Markup Language) Markup language designed to represent
+[Web] pages."><a class="reference internal" href="#term-HTML"><span class="xref std std-term">HTML</span></a></abbr>.</p>
+<p>Sur le serveur CLUB1, les sites Web dynamiques doivent être codés en <abbr title="(PHP Hypertext Preprocessor) High-level programming language,
+primarily used to produce [Web] pages dynamically by generating [HTML]
+code. Its acronym originally stood for “Personal Home Page” and it is
+precisely the language that CLUB1 puts forward for the creation of
+[dynamic website]."><a class="reference internal" href="#term-PHP"><span class="xref std std-term">PHP</span></a></abbr>
+et nécessitent un <a class="reference internal" href="services/web.html#hebergement-avec-un-nom-de-domaine-dedie"><span class="std std-ref">domaine dédié</span></a>.
+— <a class="reference external" href="https://fr.wikipedia.org/wiki/Page_web_dynamique">Wikipedia</a></p>
 </dd>
 <dt id="term-logiciel-libre">free software<a class="headerlink" href="#term-logiciel-libre" title="Link to this term">#</a></dt><dd><p>Refers to software that respects the freedom of users. In particular, users have the freedom to run, copy, study, modify and improve these software, and especially to reshare, modified or not. — <a class="reference external" href="https://en.wikipedia.org/wiki/Free_software">Wikipedia</a></p>
 </dd>
@@ -445,9 +457,12 @@ link them together using hypertext links.
 A “Web page” usually consists of a document whose content is written
 in [HTML] and may include other resources such as images or “style
 sheets”. The [client] used to access it is called a “Web browser”."><a class="reference internal" href="#term-Web"><span class="xref std std-term">Web</span></a></abbr> pages dynamically by generating <abbr title="(Hypertext Markup Language) Markup language designed to represent
-[Web] pages."><a class="reference internal" href="#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> code. Its acronym originally stood for “<em>Personal Home Page</em>” and it is precisely the language that CLUB1 puts forward for the creation of <abbr title="[Web] site whose display may vary “from itself”, hence the name
-“dynamic” (distinguishing it from a [static website]). It contains
-code that will be “executed” to generate [HTML]."><a class="reference internal" href="#term-site-Web-dynamique"><span class="xref std std-term">dynamic website</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/PHP">Wikipedia</a></p>
+[Web] pages."><a class="reference internal" href="#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> code. Its acronym originally stood for “<em>Personal Home Page</em>” and it is precisely the language that CLUB1 puts forward for the creation of <abbr title="Site [Web] dont l’affichage peut varier “de lui-même”, d’où le nom
+“dynamique” (le distinguant ainsi du [site Web statique]). Il contient
+du code qui va être “executé” pour générer du [HTML].
+
+Sur le serveur CLUB1, les sites Web dynamiques doivent être codés en
+[PHP] et nécessitent un [domaine dédié]."><a class="reference internal" href="#term-site-Web-dynamique"><span class="xref std std-term">dynamic website</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/PHP">Wikipedia</a></p>
 </dd>
 <dt id="term-POSIX">POSIX<a class="headerlink" href="#term-POSIX" title="Link to this term">#</a></dt><dd><p>(Portable Operating System Interface) Set of technical standards that specify an interface, allowing operating systems that respect it to be interchangeable from the point of view of a user software.</p>
 <p><abbr title="[Free] [POSIX] operating system kernel. The kernel is the core of the
@@ -596,7 +611,7 @@ sheets”. The [client] used to access it is called a “Web browser”."><a cla
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-04-g11cb
+		v: 2026-06-04-gc8dd
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
