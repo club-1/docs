@@ -54,7 +54,7 @@ alt: capture d'écran "ce PC"
 name: fig:tutos-webdav-win11-ce-pc
 width: 700
 ---
-Fenêtre de connexion à un lecteur réseau
+Fenêtre du navigateur de fichier Windows, onglet "ce PC"
 ```
 
 Et voilà ! 🎉 Votre espace personnel CLUB1 est maintenant accessible
