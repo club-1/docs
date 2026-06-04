@@ -15,7 +15,7 @@ mes-premiers-pas-sur-le-web
 flux-rss
 ```
 
-Les tutos suivant sont spécifiques à un système d'exploitation.
+Tutos spécifiques à un système d'exploitation :
 
 Mac
 ---
