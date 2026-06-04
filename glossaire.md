@@ -285,7 +285,7 @@ site Web dynamique
    Il contient du code qui va être "executé" pour générer du {term}`HTML`.
 
    Sur le serveur CLUB1, les sites Web dynamiques doivent être codés en {term}`PHP`
-   et nécessitent un [domaine dédié](services/web.html#hebergement-avec-un-nom-de-domaine-dedie).
+   et nécessitent un [domaine dédié](./services/web.html#hebergement-avec-un-nom-de-domaine-dedie).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)
 
 site Web statique
