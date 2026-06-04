@@ -283,6 +283,9 @@ site Web dynamique
    Site {term}`Web` dont l'affichage peut varier "de lui-même", d'où le nom "dynamique"
    (le distinguant ainsi du {term}`site Web statique`).
    Il contient du code qui va être "executé" pour générer du {term}`HTML`.
+
+   Sur le serveur CLUB1, les sites Web dynamiques doivent être codés en {term}`PHP`
+   et nécessitent un [domaine dédié](./services/web.md#hébergement-avec-un-nom-de-domaine-dédié).
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Page_web_dynamique)
 
 site Web statique
