@@ -6,7 +6,7 @@ Ce tuto marche peut-être pour d'autres versions de windows (Windows 10 par exem
 mais cela n'a pas encore pu être testé.
 ```
 
-```{info}
+```{note}
 Ce tuto est adapté du post de forum
 [Synchroniser les dossiers avec le serveur sous windows 11](https://forum.club1.fr/d/311-synchroniser-les-dossiers-avec-le-serveur-sous-windows-11).
 ```
