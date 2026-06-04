@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=cf2702ff"></script>
+        <script src="../_static/documentation_options.js?v=6e8a8041"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -161,7 +161,7 @@ règles qui régissent les échanges de données ou le comportement
 collectif de processus ou d’ordinateurs en réseaux.
 
 Un protocole permet à tous les logiciels qui le respectent d’être
-compatible avec les uns avec les autres, c’est ce qu’on appelle
+compatible les uns avec les autres, c’est ce qu’on appelle
 l’interopérabilité.
 
 Un protocole **ouvert** donne la permission à n’importe qui de créer
@@ -190,7 +190,7 @@ règles qui régissent les échanges de données ou le comportement
 collectif de processus ou d’ordinateurs en réseaux.
 
 Un protocole permet à tous les logiciels qui le respectent d’être
-compatible avec les uns avec les autres, c’est ce qu’on appelle
+compatible les uns avec les autres, c’est ce qu’on appelle
 l’interopérabilité.
 
 Un protocole **ouvert** donne la permission à n’importe qui de créer
@@ -216,7 +216,7 @@ règles qui régissent les échanges de données ou le comportement
 collectif de processus ou d’ordinateurs en réseaux.
 
 Un protocole permet à tous les logiciels qui le respectent d’être
-compatible avec les uns avec les autres, c’est ce qu’on appelle
+compatible les uns avec les autres, c’est ce qu’on appelle
 l’interopérabilité.
 
 Un protocole **ouvert** donne la permission à n’importe qui de créer
@@ -451,6 +451,33 @@ Pressez la touche <kbd class="kbd docutils literal notranslate">Q</kbd> pour qui
 </dd></dl>
 
 <dl class="std commande">
+<dt class="sig sig-object std" id="commande-site-stats">
+<span class="sig-name descname"><span class="pre">site-stats</span></span><a class="headerlink" href="#commande-site-stats" title="Lien vers cette définition">#</a></dt>
+<dd><p>Permet un usage simplifié de la commande <abbr title="Un outil qui permet de visualiser la fréquentation de ses sites [Web]
+en analysant les [logs]. Cette commande nécessite de rajouter au bout,
+après un espace, le fichier de log que vous souhaitez analyser.
+
+Note:
+
+  Les logs de [Apache], qui sert les sites Web, sont stockés dans le
+  dossier &quot;log&quot; de votre [espace perso].
+
+Naviguez entre les sections avec &quot;Tab&quot;, utilisez &quot;Enter&quot; pour en
+étendre une.Pressez la touche &quot;Q&quot; pour quitter."><a class="reference internal" href="#commande-goaccess"><code class="xref std std-commande docutils literal notranslate"><span class="pre">goaccess</span></code></a></abbr>
+en publiant le panneau de statistiques en <abbr title="(Hypertext Markup Language) Langage de balisage conçu pour représenter
+les pages [Web]."><a class="reference internal" href="../glossaire.html#term-HTML"><span class="xref std std-term">HTML</span></a></abbr> à partir d’un nom de domaine.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>site-stats NOM_DE_DOMAINE [CHEMIN]
+</pre></div>
+</div>
+<p>Le nom de domaine doit ressembler à <code class="docutils literal notranslate"><span class="pre">moutarde.club1.fr</span></code> ou <code class="docutils literal notranslate"><span class="pre">www.example.com</span></code>.
+Si on ne définit pas de <code class="docutils literal notranslate"><span class="pre">CHEMIN</span></code>,
+le panneau est publié dans <a class="reference internal" href="web.html#dossier-static"><span class="std std-ref">le dossier <code class="docutils literal notranslate"><span class="pre">static</span></code></span></a>
+selon la règle suivante :
+<code class="docutils literal notranslate"><span class="pre">~/static/tmp/stats/NOM_DE_DOMAINE</span></code>.
+— <a class="reference external" href="https://github.com/club-1/hosting/blob/master/src/site-stats.sh">Sources</a></p>
+</dd></dl>
+
+<dl class="std commande">
 <dt class="sig sig-object std" id="commande-man">
 <span class="sig-name descname"><span class="pre">man</span></span><a class="headerlink" href="#commande-man" title="Lien vers cette définition">#</a></dt>
 <dd><p>Affiche la page de manuel correspondant à une commande.
@@ -549,7 +576,7 @@ Il existe des extensions SSH pour des usages plus spécifiques comme
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-05-13-g7f85
+		v: 2026-06-04-g1544
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
