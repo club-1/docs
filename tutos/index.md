@@ -4,11 +4,6 @@ Tutoriels
 Voici une petite liste de tutos pour s'amuser avec les outils et services CLUB1.
 
 
-Génériques
-----------
-
-Les tutos de base, indépendants des appareils que vous utilisez.
-
 ```{toctree}
 ---
 maxdepth: 1
@@ -20,12 +15,10 @@ mes-premiers-pas-sur-le-web
 flux-rss
 ```
 
-Spécifiques
------------
+Les tutos suivant sont spécifiques à un système d'exploitation.
 
-Des tutos spécifiques à un système d'exploitation.
-
-### Mac
+Mac
+---
 
 ```{toctree}
 ---
@@ -36,7 +29,8 @@ caldav-mac
 ```
 
 
-### Linux
+Linux
+-----
 
 ```{toctree}
 ---
@@ -46,7 +40,8 @@ connexion-linux
 ```
 
 
-### Android
+Android
+-------
 
 ```{toctree}
 ---
