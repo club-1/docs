@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=d7696eea"></script>
+        <script src="../_static/documentation_options.js?v=1520a203"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -29,7 +29,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="First SSH connection" href="premiere-connexion-ssh.html" />
+    <link rel="next" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" href="webdav-win11.html" />
     <link rel="prev" title="CalDAV calendar synchronization on a Mac" href="caldav-mac.html" />
 
 	
@@ -84,20 +84,18 @@
 <li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services by invitation</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutorials</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="presentation.html">Edit your presentation file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronizing calendars and contacts on an Android device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">CalDAV calendar synchronization on a Mac</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Connecting to the server from Linux file explorer</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#connexion-initiale">Initial connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#marque-page">Bookmark</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#generiques">Génériques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#mac">Mac</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#linux">Linux</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Connecting to the server from Linux file explorer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connexion-initiale">Initial connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#marque-page">Bookmark</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">First SSH connection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Access personal space from a Mac’s Finder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-win11.html">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">My first steps on the Web!</a></li>
-<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Using Tiny tiny RSS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#android">Android</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
@@ -146,7 +144,7 @@
 <h2>Initial connection<a class="headerlink" href="#connexion-initiale" title="Link to this heading">#</a></h2>
 <p>Start by opening your file explorer. In this tutorial, the <a class="reference external" href="https://en.wikipedia.org/wiki/Nemo_(file_manager)">Nemo</a> software is used. It is the default file explorer installed on <a class="reference external" href="https://en.wikipedia.org/wiki/Linux_Mint">Linux Mint</a>. It is quite similar to the one integrated in <a class="reference external" href="https://en.wikipedia.org/wiki/Ubuntu">Ubuntu</a>, so the instructions will be similar.</p>
 <p>In the menu bar, click on <span class="guilabel">file</span> then <span class="guilabel">connect to server…</span>.</p>
-<p>Then fill in the following information in the connection window (<a class="reference internal" href="#fig-tutos-connexion-linux-connexion"><span class="std std-numref">Fig. 4.12</span></a>):</p>
+<p>Then fill in the following information in the connection window (<a class="reference internal" href="#fig-tutos-connexion-linux-connexion"><span class="std std-numref">Fig. 4.11</span></a>):</p>
 <ul class="simple">
 <li><p>Server: <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code></p></li>
 <li><p>Type: <code class="docutils literal notranslate"><span class="pre">SSH</span></code></p></li>
@@ -158,14 +156,14 @@
 <figure class="align-default" id="fig-tutos-connexion-linux-connexion">
 <img alt="screenshot login window" src="../_images/se_connecter_au_serveur.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 4.12 </span><span class="caption-text">Connection window.</span><a class="headerlink" href="#fig-tutos-connexion-linux-connexion" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.11 </span><span class="caption-text">Connection window.</span><a class="headerlink" href="#fig-tutos-connexion-linux-connexion" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>You are now connected to the server (<a class="reference internal" href="#fig-tutos-connexion-linux-dossier"><span class="std std-numref">Fig. 4.13</span></a>).</p>
+<p>You are now connected to the server (<a class="reference internal" href="#fig-tutos-connexion-linux-dossier"><span class="std std-numref">Fig. 4.12</span></a>).</p>
 <figure class="align-default" id="fig-tutos-connexion-linux-dossier">
 <img alt="screenshot of server folders in file explorer" src="../_images/dans_le_serveur.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 4.13 </span><span class="caption-text">Server folders in the file explorer.</span><a class="headerlink" href="#fig-tutos-connexion-linux-dossier" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.12 </span><span class="caption-text">Server folders in the file explorer.</span><a class="headerlink" href="#fig-tutos-connexion-linux-dossier" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Click on the <code class="docutils literal notranslate"><span class="pre">home</span></code> folder then on your <em>personal folder</em>, which is your CLUB1 login.</p>
@@ -187,7 +185,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="caldav-mac.html" class="btn btn-neutral float-left" title="CalDAV calendar synchronization on a Mac" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="premiere-connexion-ssh.html" class="btn btn-neutral float-right" title="First SSH connection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="webdav-win11.html" class="btn btn-neutral float-right" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -210,7 +208,7 @@
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-04-g3f4b
+		v: 2026-07-13-g882e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=5fe582e8"></script>
+        <script src="../_static/documentation_options.js?v=9dac4e01"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -30,8 +30,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Mes premiers pas sur le Web !" href="mes-premiers-pas-sur-le-web.html" />
-    <link rel="prev" title="Accès à l’espace personnel depuis le Finder d’un Mac" href="webdav-mac.html" />
+    <link rel="next" title="Synchronisation de calendriers et contacts sur un appareil Android" href="webdav-android.html" />
+    <link rel="prev" title="Connexion au serveur depuis l’explorateur de fichiers Linux" href="connexion-linux.html" />
 
 	
 	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/webdav-win11.html" />
@@ -85,20 +85,18 @@
 <li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutoriels</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="presentation.html">Éditer son fichier de présentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronisation de calendriers et contacts sur un appareil Android</a></li>
-<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">Synchronisation de calendrier CalDAV sur un Mac</a></li>
-<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connexion au serveur depuis l’explorateur de fichiers Linux</a></li>
-<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">Première connexion SSH</a></li>
-<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Accès à l’espace personnel depuis le Finder d’un Mac</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#connexion-a-un-lecteur-reseau">Connexion à un lecteur réseau</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#resultat">Résultat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#generiques">Génériques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#mac">Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#linux">Linux</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#windows">Windows</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connexion-a-un-lecteur-reseau">Connexion à un lecteur réseau</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#resultat">Résultat</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">Mes premiers pas sur le Web !</a></li>
-<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Utiliser Tiny tiny RSS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#android">Android</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
@@ -157,7 +155,7 @@ mais cela n’a pas encore pu être testé.</p>
 Dans la liste d’action, choisissez <span class="guilabel">connecter un lecteur réseau</span>.</p>
 <section id="connexion-a-un-lecteur-reseau">
 <h2>Connexion à un lecteur réseau<a class="headerlink" href="#connexion-a-un-lecteur-reseau" title="Lien vers cette rubrique">#</a></h2>
-<p>Une petite fenêtre apparaît qui demande « à quel dossier réseau voulez-vous vous connecter ? » (<a class="reference internal" href="#fig-tutos-webdav-win11-connexion"><span class="std std-numref">Fig. 4.20</span></a>).
+<p>Une petite fenêtre apparaît qui demande « à quel dossier réseau voulez-vous vous connecter ? » (<a class="reference internal" href="#fig-tutos-webdav-win11-connexion"><span class="std std-numref">Fig. 4.13</span></a>).
 Pour le lecteur vous pouvez laisser celui par défaut (<code class="docutils literal notranslate"><span class="pre">Z:</span></code>).
 Pour le dossier vous pouvez copier coller cette URL :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://IDENTIFIANT@webdav.club1.fr/files/IDENTIFIANT
@@ -167,7 +165,7 @@ Pour le dossier vous pouvez copier coller cette URL :</p>
 <figure class="align-default" id="fig-tutos-webdav-win11-connexion">
 <a class="reference internal image-reference" href="../_images/connecter-lecteur-reseau.png"><img alt="capture d'écran &quot;connexion à un lecteur réseau&quot;" src="../_images/connecter-lecteur-reseau.png" style="width: 700px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.20 </span><span class="caption-text">Fenêtre de connexion à un lecteur réseau</span><a class="headerlink" href="#fig-tutos-webdav-win11-connexion" title="Lien vers cette image">#</a></p>
+<p><span class="caption-number">Fig. 4.13 </span><span class="caption-text">Fenêtre de connexion à un lecteur réseau</span><a class="headerlink" href="#fig-tutos-webdav-win11-connexion" title="Lien vers cette image">#</a></p>
 </figcaption>
 </figure>
 <p>Après avoir copié cette url dans la ligne « Dossier », écrit aux endroits nécessaires votre nom d’utilisateur
@@ -177,11 +175,11 @@ Faites le donc 😄.</p>
 </section>
 <section id="resultat">
 <h2>Résultat<a class="headerlink" href="#resultat" title="Lien vers cette rubrique">#</a></h2>
-<p>Quand ça marche vous devriez avoir ceci (<a class="reference internal" href="#fig-tutos-webdav-win11-ce-pc"><span class="std std-numref">Fig. 4.21</span></a>) :</p>
+<p>Quand ça marche vous devriez avoir ceci (<a class="reference internal" href="#fig-tutos-webdav-win11-ce-pc"><span class="std std-numref">Fig. 4.14</span></a>) :</p>
 <figure class="align-default" id="fig-tutos-webdav-win11-ce-pc">
 <a class="reference internal image-reference" href="../_images/ce-pc.png"><img alt="capture d'écran &quot;ce PC&quot;" src="../_images/ce-pc.png" style="width: 700px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.21 </span><span class="caption-text">Fenêtre du navigateur de fichier Windows, onglet « ce PC »</span><a class="headerlink" href="#fig-tutos-webdav-win11-ce-pc" title="Lien vers cette image">#</a></p>
+<p><span class="caption-number">Fig. 4.14 </span><span class="caption-text">Fenêtre du navigateur de fichier Windows, onglet « ce PC »</span><a class="headerlink" href="#fig-tutos-webdav-win11-ce-pc" title="Lien vers cette image">#</a></p>
 </figcaption>
 </figure>
 <p>Et voilà ! 🎉 Votre espace personnel CLUB1 est maintenant accessible
@@ -195,8 +193,8 @@ Les fichiers sont directement ouvrables avec un éditeur de code ou autres logic
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="webdav-mac.html" class="btn btn-neutral float-left" title="Accès à l’espace personnel depuis le Finder d’un Mac" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="mes-premiers-pas-sur-le-web.html" class="btn btn-neutral float-right" title="Mes premiers pas sur le Web !" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="connexion-linux.html" class="btn btn-neutral float-left" title="Connexion au serveur depuis l’explorateur de fichiers Linux" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="webdav-android.html" class="btn btn-neutral float-right" title="Synchronisation de calendriers et contacts sur un appareil Android" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -219,7 +217,7 @@ Les fichiers sont directement ouvrables avec un éditeur de code ou autres logic
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-04-g3f4b
+		v: 2026-07-13-g882e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

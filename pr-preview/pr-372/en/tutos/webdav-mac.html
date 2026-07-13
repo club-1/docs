@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=d7696eea"></script>
+        <script src="../_static/documentation_options.js?v=1520a203"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -29,8 +29,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" href="webdav-win11.html" />
-    <link rel="prev" title="Connexion SSH à l’aide d’une clé publique" href="auth-ssh-avec-cle-publique.html" />
+    <link rel="next" title="CalDAV calendar synchronization on a Mac" href="caldav-mac.html" />
+    <link rel="prev" title="Using Tiny tiny RSS" href="flux-rss.html" />
 
 	
 	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/webdav-mac.html" />
@@ -84,16 +84,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services by invitation</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutorials</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="presentation.html">Edit your presentation file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-android.html">Synchronizing calendars and contacts on an Android device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">CalDAV calendar synchronization on a Mac</a></li>
-<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connecting to the server from Linux file explorer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">First SSH connection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Access personal space from a Mac’s Finder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-win11.html">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">My first steps on the Web!</a></li>
-<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Using Tiny tiny RSS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#generiques">Génériques</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#mac">Mac</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Access personal space from a Mac’s Finder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="caldav-mac.html">CalDAV calendar synchronization on a Mac</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#android">Android</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
@@ -137,18 +136,18 @@
              
   <section id="acces-a-l-espace-personnel-depuis-le-finder-d-un-mac">
 <h1>Access personal space from a Mac’s Finder<a class="headerlink" href="#acces-a-l-espace-personnel-depuis-le-finder-d-un-mac" title="Link to this heading">#</a></h1>
-<p>In the Finder, then the menu bar, click on <span class="guilabel">Go</span> then <span class="guilabel">Connect to Server…</span> (<a class="reference internal" href="#fig-tutos-webdav-mac-aller"><span class="std std-numref">Fig. 4.14</span></a>).</p>
+<p>In the Finder, then the menu bar, click on <span class="guilabel">Go</span> then <span class="guilabel">Connect to Server…</span> (<a class="reference internal" href="#fig-tutos-webdav-mac-aller"><span class="std std-numref">Fig. 4.1</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-aller">
 <a class="reference internal image-reference" href="../_images/screen_0011.png"><img alt="menu Aller" src="../_images/screen_0011.png" style="width: 642px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.14 </span><span class="caption-text">Le menu “Aller” du <em>Finder</em>.</span><a class="headerlink" href="#fig-tutos-webdav-mac-aller" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.1 </span><span class="caption-text">Le menu “Aller” du <em>Finder</em>.</span><a class="headerlink" href="#fig-tutos-webdav-mac-aller" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Une nouvelle fenêtre apparait (<a class="reference internal" href="#fig-tutos-webdav-mac-fenetre-connexion"><span class="std std-numref">Fig. 4.15</span></a>).</p>
+<p>Une nouvelle fenêtre apparait (<a class="reference internal" href="#fig-tutos-webdav-mac-fenetre-connexion"><span class="std std-numref">Fig. 4.2</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-fenetre-connexion">
 <a class="reference internal image-reference" href="../_images/screen_0022.png"><img alt="Server Connection window" src="../_images/screen_0022.png" style="width: 493px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.15 </span><span class="caption-text">La fenêtre “Connexion au server” permettant d’ajouter un serveur à partir d’une URL.</span><a class="headerlink" href="#fig-tutos-webdav-mac-fenetre-connexion" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.2 </span><span class="caption-text">La fenêtre “Connexion au server” permettant d’ajouter un serveur à partir d’une URL.</span><a class="headerlink" href="#fig-tutos-webdav-mac-fenetre-connexion" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Rentrez l’url Webdav correspondant à votre utilisataire :</p>
@@ -157,30 +156,30 @@
 </div>
 <p>By replacing <code class="docutils literal notranslate"><span class="pre">USER</span></code> with your CLUB1 identifier.</p>
 <p>Cliquez sur le bouton <span class="guilabel">+</span> en bas à gauche de la fenêtre
-pour garder en mémoire l’adresse de votre serveur dans les favoris (<a class="reference internal" href="#fig-tutos-webdav-mac-serveurs-favoris"><span class="std std-numref">Fig. 4.16</span></a>).</p>
+pour garder en mémoire l’adresse de votre serveur dans les favoris (<a class="reference internal" href="#fig-tutos-webdav-mac-serveurs-favoris"><span class="std std-numref">Fig. 4.3</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-serveurs-favoris">
 <a class="reference internal image-reference" href="../_images/screen_0032.png"><img alt="fenêtre Connexion au serveur avec un serveur favori" src="../_images/screen_0032.png" style="width: 490px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.16 </span><span class="caption-text">La fenêtre “Connexion au serveur” comprenant un serveur favori.</span><a class="headerlink" href="#fig-tutos-webdav-mac-serveurs-favoris" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.3 </span><span class="caption-text">La fenêtre “Connexion au serveur” comprenant un serveur favori.</span><a class="headerlink" href="#fig-tutos-webdav-mac-serveurs-favoris" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Puis, cliquez sur le bouton <span class="guilabel">Connexion</span>.
 Une fenêtre pop-up va apparaître vous demandant vos identifiants CLUB1
-(<a class="reference internal" href="#fig-tutos-webdav-mac-popup"><span class="std std-numref">Fig. 4.17</span></a>).</p>
+(<a class="reference internal" href="#fig-tutos-webdav-mac-popup"><span class="std std-numref">Fig. 4.4</span></a>).</p>
 <p>Cliquez sur le bouton <span class="guilabel">Se connecter</span>.</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-popup">
 <a class="reference internal image-reference" href="../_images/screen_0041.png"><img alt="Log in popup" src="../_images/screen_0041.png" style="width: 447px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.17 </span><span class="caption-text">La fenêtre <em>pop-up</em> avertissant qu’une connexion va avoir lieu.</span><a class="headerlink" href="#fig-tutos-webdav-mac-popup" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.4 </span><span class="caption-text">La fenêtre <em>pop-up</em> avertissant qu’une connexion va avoir lieu.</span><a class="headerlink" href="#fig-tutos-webdav-mac-popup" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Entrez votre identifiant et mot de passe CLUB1 (<a class="reference internal" href="#fig-tutos-webdav-mac-fenetre-identifiants"><span class="std std-numref">Fig. 4.18</span></a>).
+<p>Entrez votre identifiant et mot de passe CLUB1 (<a class="reference internal" href="#fig-tutos-webdav-mac-fenetre-identifiants"><span class="std std-numref">Fig. 4.5</span></a>).
 Il est utile de cocher la case “Conserver ce mot de passe dans mon trousseau”,
 car ceci permettra de déverouiller l’accès entre vos ouvertures/fermetures de sessions mac.</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-fenetre-identifiants">
 <a class="reference internal image-reference" href="../_images/screen_0051.png"><img alt="credentials window" src="../_images/screen_0051.png" style="width: 473px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.18 </span><span class="caption-text">La fenêtre permettant d’entrer ses identifiants.</span><a class="headerlink" href="#fig-tutos-webdav-mac-fenetre-identifiants" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.5 </span><span class="caption-text">La fenêtre permettant d’entrer ses identifiants.</span><a class="headerlink" href="#fig-tutos-webdav-mac-fenetre-identifiants" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Votre dossier personnel CLUB1 devrait s’afficher et être listé dans les Emplacements de votre Finder.</p>
@@ -188,11 +187,11 @@ car ceci permettra de déverouiller l’accès entre vos ouvertures/fermetures d
 Pour se faire, il nous faut accèder au dossier parent.</p>
 <p>Depuis la barre de menu cliquez sur <span class="guilabel">Aller</span> → <span class="guilabel">Dossier parent</span>
 (ou via le raccourci clavier : <kbd class="kbd docutils literal notranslate">Cmd</kbd> + <kbd class="kbd docutils literal notranslate">↑</kbd>).</p>
-<p>Maintenant, il est possible de cliquer-glisser votre dossier perso dans la zone de favoris (<a class="reference internal" href="#fig-tutos-webdav-mac-glisser-favoris"><span class="std std-numref">Fig. 4.19</span></a>).</p>
+<p>Maintenant, il est possible de cliquer-glisser votre dossier perso dans la zone de favoris (<a class="reference internal" href="#fig-tutos-webdav-mac-glisser-favoris"><span class="std std-numref">Fig. 4.6</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-mac-glisser-favoris">
 <a class="reference internal image-reference" href="../_images/screen_0071.png"><img alt="déplacement à effectuer" src="../_images/screen_0071.png" style="width: 584px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.19 </span><span class="caption-text">Ajout du raccourci vers le serveur dans les favoris.</span><a class="headerlink" href="#fig-tutos-webdav-mac-glisser-favoris" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.6 </span><span class="caption-text">Ajout du raccourci vers le serveur dans les favoris.</span><a class="headerlink" href="#fig-tutos-webdav-mac-glisser-favoris" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Votre dossier dans le serveur CLUB1 est dorénavant accessible en tout temps et simplement !</p>
@@ -202,8 +201,8 @@ Pour se faire, il nous faut accèder au dossier parent.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="auth-ssh-avec-cle-publique.html" class="btn btn-neutral float-left" title="Connexion SSH à l’aide d’une clé publique" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="webdav-win11.html" class="btn btn-neutral float-right" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="flux-rss.html" class="btn btn-neutral float-left" title="Using Tiny tiny RSS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="caldav-mac.html" class="btn btn-neutral float-right" title="CalDAV calendar synchronization on a Mac" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -226,7 +225,7 @@ Pour se faire, il nous faut accèder au dossier parent.</p>
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-04-g3f4b
+		v: 2026-07-13-g882e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=d7696eea"></script>
+        <script src="../_static/documentation_options.js?v=1520a203"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -29,8 +29,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="CalDAV calendar synchronization on a Mac" href="caldav-mac.html" />
-    <link rel="prev" title="Edit your presentation file" href="presentation.html" />
+    <link rel="next" title="5. Tools" href="../outils/index.html" />
+    <link rel="prev" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" href="webdav-win11.html" />
 
 	
 	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/webdav-android.html" />
@@ -84,21 +84,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services by invitation</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutorials</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="presentation.html">Edit your presentation file</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Synchronizing calendars and contacts on an Android device</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#premier-lancement">First launch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ajout-du-compte-dav">Adding the DAV account</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#generiques">Génériques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#mac">Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#windows">Windows</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#android">Android</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Synchronizing calendars and contacts on an Android device</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#premier-lancement">First launch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ajout-du-compte-dav">Adding the DAV account</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conclusion">Conclusion</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="caldav-mac.html">CalDAV calendar synchronization on a Mac</a></li>
-<li class="toctree-l2"><a class="reference internal" href="connexion-linux.html">Connecting to the server from Linux file explorer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="premiere-connexion-ssh.html">First SSH connection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-mac.html">Access personal space from a Mac’s Finder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="webdav-win11.html">Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">My first steps on the Web!</a></li>
-<li class="toctree-l2"><a class="reference internal" href="flux-rss.html">Using Tiny tiny RSS</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Tools</a></li>
@@ -153,42 +151,42 @@ software, and especially to reshare, modified or not."><a class="reference inter
 </ul>
 <section id="premier-lancement">
 <h2>First launch<a class="headerlink" href="#premier-lancement" title="Link to this heading">#</a></h2>
-<p>When launching <strong>DAVx<sup>5</sup></strong>, do not check the boxes concerning task management (<a class="reference internal" href="#fig-tutos-webdav-android-taches"><span class="std std-numref">Fig. 4.1</span></a>).</p>
+<p>When launching <strong>DAVx<sup>5</sup></strong>, do not check the boxes concerning task management (<a class="reference internal" href="#fig-tutos-webdav-android-taches"><span class="std std-numref">Fig. 4.15</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-taches">
 <a class="reference internal image-reference" href="../_images/screen_001.png"><img alt="screenshot of task management" src="../_images/screen_001.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.1 </span><span class="caption-text">Task management.</span><a class="headerlink" href="#fig-tutos-webdav-android-taches" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.15 </span><span class="caption-text">Task management.</span><a class="headerlink" href="#fig-tutos-webdav-android-taches" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Then, allow it access to contacts and calendars (everything) (<a class="reference internal" href="#fig-tutos-webdav-android-autorisations"><span class="std std-numref">Fig. 4.2</span></a>).</p>
+<p>Then, allow it access to contacts and calendars (everything) (<a class="reference internal" href="#fig-tutos-webdav-android-autorisations"><span class="std std-numref">Fig. 4.16</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-autorisations">
 <a class="reference internal image-reference" href="../_images/screen_0021.png"><img alt="screenshot permissions" src="../_images/screen_0021.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.2 </span><span class="caption-text">Grant permissions.</span><a class="headerlink" href="#fig-tutos-webdav-android-autorisations" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.16 </span><span class="caption-text">Grant permissions.</span><a class="headerlink" href="#fig-tutos-webdav-android-autorisations" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Finally, for more comfort, it is recommended to activate the synchronization at regular intervals (<a class="reference internal" href="#fig-tutos-webdav-android-intervalles"><span class="std std-numref">Fig. 4.3</span></a>).</p>
+<p>Finally, for more comfort, it is recommended to activate the synchronization at regular intervals (<a class="reference internal" href="#fig-tutos-webdav-android-intervalles"><span class="std std-numref">Fig. 4.17</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-intervalles">
 <a class="reference internal image-reference" href="../_images/screen_0031.png"><img alt="interval sync screenshot" src="../_images/screen_0031.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.3 </span><span class="caption-text">Synchronization at regular intervals.</span><a class="headerlink" href="#fig-tutos-webdav-android-intervalles" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.17 </span><span class="caption-text">Synchronization at regular intervals.</span><a class="headerlink" href="#fig-tutos-webdav-android-intervalles" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="ajout-du-compte-dav">
 <h2>Adding the DAV account<a class="headerlink" href="#ajout-du-compte-dav" title="Link to this heading">#</a></h2>
-<p>To add a new sync account, press the orange button on the bottom right (<a class="reference internal" href="#fig-tutos-webdav-android-accueil"><span class="std std-numref">Fig. 4.4</span></a>).</p>
+<p>To add a new sync account, press the orange button on the bottom right (<a class="reference internal" href="#fig-tutos-webdav-android-accueil"><span class="std std-numref">Fig. 4.18</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-accueil">
 <a class="reference internal image-reference" href="../_images/screen_004.png"><img alt="screenshot home" src="../_images/screen_004.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.4 </span><span class="caption-text">DAVx<sup>5</sup> home screen.</span><a class="headerlink" href="#fig-tutos-webdav-android-accueil" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.18 </span><span class="caption-text">DAVx<sup>5</sup> home screen.</span><a class="headerlink" href="#fig-tutos-webdav-android-accueil" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Select the second option: “Login with URL and username” (<a class="reference internal" href="#fig-tutos-webdav-android-connexion"><span class="std std-numref">Fig. 4.5</span></a>).</p>
+<p>Select the second option: “Login with URL and username” (<a class="reference internal" href="#fig-tutos-webdav-android-connexion"><span class="std std-numref">Fig. 4.19</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-connexion">
 <a class="reference internal image-reference" href="../_images/screen_005.png"><img alt="screenshot login" src="../_images/screen_005.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.5 </span><span class="caption-text">Login with URL and username.</span><a class="headerlink" href="#fig-tutos-webdav-android-connexion" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.19 </span><span class="caption-text">Login with URL and username.</span><a class="headerlink" href="#fig-tutos-webdav-android-connexion" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Base URL:</p>
@@ -196,19 +194,19 @@ software, and especially to reshare, modified or not."><a class="reference inter
 </pre></div>
 </div>
 <p>The username and password are your CLUB1 credentials.</p>
-<p>If you have filled in everything correctly, DAVx<sup>5</sup> will now suggest a name for this account that is very likely to resemble your CLUB1 email address. This seems to be a good idea because this is often how a pair of <code class="docutils literal notranslate"><span class="pre">user&#64;server</span></code> is identified. One last little detail: It is recommended to use the method “Groups are categories for each of the contacts” to be compatible with the web mail client of CLUB1 (<a class="reference internal" href="#fig-tutos-webdav-android-groupes"><span class="std std-numref">Fig. 4.6</span></a>).</p>
+<p>If you have filled in everything correctly, DAVx<sup>5</sup> will now suggest a name for this account that is very likely to resemble your CLUB1 email address. This seems to be a good idea because this is often how a pair of <code class="docutils literal notranslate"><span class="pre">user&#64;server</span></code> is identified. One last little detail: It is recommended to use the method “Groups are categories for each of the contacts” to be compatible with the web mail client of CLUB1 (<a class="reference internal" href="#fig-tutos-webdav-android-groupes"><span class="std std-numref">Fig. 4.20</span></a>).</p>
 <figure class="align-default" id="fig-tutos-webdav-android-groupes">
 <a class="reference internal image-reference" href="../_images/screen_006.png"><img alt="screenshot groups" src="../_images/screen_006.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.6 </span><span class="caption-text">Groups storage method.</span><a class="headerlink" href="#fig-tutos-webdav-android-groupes" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.20 </span><span class="caption-text">Groups storage method.</span><a class="headerlink" href="#fig-tutos-webdav-android-groupes" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>One last step: what to synchronize?</p>
-<p>DAVx<sup>5</sup> lets us select the contact books and calendars you want to synchronize on your phone (<a class="reference internal" href="#fig-tutos-webdav-android-selection"><span class="std std-numref">Fig. 4.7</span></a>). To do this, simply tick them by navigating between the “Address books” and “Agendas” tabs. It will always be possible to access and modify these settings later very easily.</p>
+<p>DAVx<sup>5</sup> lets us select the contact books and calendars you want to synchronize on your phone (<a class="reference internal" href="#fig-tutos-webdav-android-selection"><span class="std std-numref">Fig. 4.21</span></a>). To do this, simply tick them by navigating between the “Address books” and “Agendas” tabs. It will always be possible to access and modify these settings later very easily.</p>
 <figure class="align-default" id="fig-tutos-webdav-android-selection">
 <a class="reference internal image-reference" href="../_images/screen_007.png"><img alt="screenshot selection" src="../_images/screen_007.png" style="width: 280px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4.7 </span><span class="caption-text">List of available address books.</span><a class="headerlink" href="#fig-tutos-webdav-android-selection" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4.21 </span><span class="caption-text">List of available address books.</span><a class="headerlink" href="#fig-tutos-webdav-android-selection" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -235,8 +233,8 @@ software, and especially to reshare, modified or not."><a class="reference inter
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="presentation.html" class="btn btn-neutral float-left" title="Edit your presentation file" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="caldav-mac.html" class="btn btn-neutral float-right" title="CalDAV calendar synchronization on a Mac" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="webdav-win11.html" class="btn btn-neutral float-left" title="Accès à l’espace personnel depuis le gestionnaire de fichiers de Windows 11" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../outils/index.html" class="btn btn-neutral float-right" title="5. Tools" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -259,7 +257,7 @@ software, and especially to reshare, modified or not."><a class="reference inter
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-06-04-g3f4b
+		v: 2026-07-13-g882e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
