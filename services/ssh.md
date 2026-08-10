@@ -174,6 +174,22 @@ selon la règle suivante :
 --- [Sources](https://github.com/club-1/hosting/blob/master/src/site-stats.sh)
 ```
 
+````{commande} websites
+Liste tout les sites {term}`Web` hébergés sur le serveur.
+L'ordre par défaut peut paraître déroutant, c'est celui du système de fichier.
+On peut les trier par ordre alphabétique en utilisant `sort` :
+
+    websites | sort
+
+```{tip}
+Voici comment on peut afficher un site au hasard :
+
+    websites | shuf | head -n 1
+```
+
+--- [Sources](https://github.com/club-1/hosting/blob/master/src/websites.sh)
+````
+
 ```{commande} man
 Affiche la page de manuel correspondant à une commande.
 Celle-ci devra être indiquée après un espace.
