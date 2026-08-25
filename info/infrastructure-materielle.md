@@ -116,9 +116,9 @@ Il est directement soudé sur la [carte mère](#carte-mère).
 
 ### Mémoire vive
 
-Modèle : `RAM Samsung ECC Registered 16Go M393A2G40DB0-CPB`
+Modèle : `RAM Hynix ECC Registered 16Go HMA42GR7AFR4N-UH` &times;2
 
-Le serveur dispose d'une unique barrette de 16 Go DDR4 ECC,
+Le serveur dispose de deux barrette de 16 Go DDR4 ECC,
 parmi les quatre emplacements fournis par la [carte mère](#carte-mère).
 Cela laisse de la place pour augmenter cette capacité si nécessaire.
 
