@@ -20,7 +20,7 @@ Accès
 -----
 
 Pour faciliter l'accès à cet espace depuis votre espace personnel,
-un lien symbolique peut être utile.
+un {term}`lien symbolique` peut être utile.
 Cela permet d'utilier cet espace pour les fichiers volumnieux d'un site {term}`Web` par exemple.
 
 Gestion de l'espace
