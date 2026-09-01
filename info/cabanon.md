@@ -3,10 +3,10 @@ Cabanon
 
 Le cabanon est un espace de stockage supplémentaire à disposition des membres.
 Il a pour but d'accueillir les données volumineuses
-évitant ainsi de saturer l'[espace personnel](espace-personnel.md) des membres (`/home`).
+évitant ainsi de saturer l'[espace personnel](espace-personnel.md) des membres `/home`.
 En contrepartie, il est moins fiable
 car il  __ne fait pas partie des [sauvegardes](../outils/sauvegardes.md)__.
-Il est physiquement situé sur [un disque dur](./infrastructure-materielle.md#stockage-secondaire) (`hdd2`).
+Il est physiquement situé sur [un disque dur](./infrastructure-materielle.md#stockage-secondaire) `hdd2`.
 
 Chemin d'accès au cabanon :
 
