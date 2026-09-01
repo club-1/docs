@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=fdebfe05"></script>
+        <script src="../_static/documentation_options.js?v=1ad48837"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -141,10 +141,10 @@
 <h1>Cabanon<a class="headerlink" href="#cabanon" title="Lien vers cette rubrique">#</a></h1>
 <p>Le cabanon est un espace de stockage supplémentaire à disposition des membres.
 Il a pour but d’accueillir les données volumineuses
-évitant ainsi de saturer l’<a class="reference internal" href="espace-personnel.html"><span class="std std-doc">espace personnel</span></a> des membres (<code class="docutils literal notranslate"><span class="pre">/home</span></code>).
+évitant ainsi de saturer l’<a class="reference internal" href="espace-personnel.html"><span class="std std-doc">espace personnel</span></a> des membres <code class="docutils literal notranslate"><span class="pre">/home</span></code>.
 En contrepartie, il est moins fiable
 car il  <strong>ne fait pas partie des <a class="reference internal" href="../outils/sauvegardes.html"><span class="std std-doc">sauvegardes</span></a></strong>.
-Il est physiquement situé sur <a class="reference internal" href="infrastructure-materielle.html#stockage-secondaire"><span class="std std-ref">un disque dur</span></a> (<code class="docutils literal notranslate"><span class="pre">hdd2</span></code>).</p>
+Il est physiquement situé sur <a class="reference internal" href="infrastructure-materielle.html#stockage-secondaire"><span class="std std-ref">un disque dur</span></a> <code class="docutils literal notranslate"><span class="pre">hdd2</span></code>.</p>
 <p>Chemin d’accès au cabanon :</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/shed
 </pre></div>
@@ -156,7 +156,14 @@ Il est physiquement situé sur <a class="reference internal" href="infrastructur
 <section id="acces">
 <h2>Accès<a class="headerlink" href="#acces" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour faciliter l’accès à cet espace depuis votre espace personnel,
-un lien symbolique peut être utile.
+un <abbr title="Un fichier qui est en fait un raccourcis vers un emplacement sur le
+serveur, à la manière d’un [alias]. Lorsque le lien est supprimé, la
+cible n’est pas affectée.
+
+On peut créer des liens avec la [commande] suivante, en indiquant deux
+chemins :
+
+   ln -s DOSSIER_CIBLE NOM_DU_LIEN"><a class="reference internal" href="../glossaire.html#term-Lien-symbolique"><span class="xref std std-term">lien symbolique</span></a></abbr> peut être utile.
 Cela permet d’utilier cet espace pour les fichiers volumnieux d’un site <abbr title="L’un des services les plus connus d’[Internet]. Son nom complet est «
 World Wide Web » (aussi abrégé « www »). Il permet de publier des
 documents et de les relier entre eux à l’aide de liens hypertexte.
@@ -200,7 +207,7 @@ le [client] utilisé pour y accéder."><a class="reference internal" href="../gl
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-09-01-g4387
+		v: 2026-09-01-gb232
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
