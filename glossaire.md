@@ -166,7 +166,8 @@ Lien symbolique
    à la manière d'un {term}`alias`.
    Lorsque le lien est supprimé, la cible n'est pas affectée.
 
-   On peut créer des liens avec la {term}`commande` suivante, en indiquant deux chemins :
+   Une fois connecté en {term}`SSH`,
+   on peut créer des liens avec la {term}`commande` suivante en indiquant deux chemins :
 
        ln -s DOSSIER_CIBLE NOM_DU_LIEN
 
