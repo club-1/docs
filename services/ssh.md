@@ -12,7 +12,18 @@ SSH
    (_Secure SHell_) {term}`Protocole` permettant de se connecter à distance en {term}`CLI` à un serveur.
    Ses principaux avantages sont d'être entièrement chiffré
    et d'offrir un accès complet aux fonctionnalités du serveur.
-   Il existe des extensions SSH pour des usages plus spécifiques comme {term}`SFTP` ou {term}`SCP`. ---
+   Il existe des extensions SSH pour des usages plus spécifiques comme {term}`SFTP` ou {term}`SCP`.
+
+   ```{figure} ssh/remotelogin.png
+   ---
+   alt: Dessin illustratif d'une personne controllant un ordinateur distant à travers son ordinateur personnel
+   name: fig:remotelogin
+   width: 500
+   ---
+   Extrait de *The internet guide for new users*, 1993 de Daniel P. Dern.
+   Traduction : La connexion à distance se rapproche fortement de la projection astrale
+   ```
+   ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_Shell)
 
 SFTP
