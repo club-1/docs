@@ -7,13 +7,23 @@ car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) s
 
 ![capture d'écran d'un émulateur de terminal après une connexion SSH au serveur CLUB1](ssh/terminal.png)
 
-```{glossary}
+````{glossary}
 SSH
    (_Secure SHell_) {term}`Protocole` permettant de se connecter à distance en {term}`CLI` à un serveur.
    Ses principaux avantages sont d'être entièrement chiffré
    et d'offrir un accès complet aux fonctionnalités du serveur.
    Il existe des extensions SSH pour des usages plus spécifiques comme {term}`SFTP` ou {term}`SCP`. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_Shell)
+
+   ```{figure} ssh/remotelogin.png
+   ---
+   alt: Dessin illustratif d'une personne controllant un ordinateur distant à travers son ordinateur personnel
+   name: fig:remotelogin
+   width: 400
+   ---
+   Extrait de *The internet guide for new users*, 1993 de Daniel P. Dern.
+   Traduction : La connexion à distance se rapproche fortement de la projection astrale
+   ```
 
 SFTP
    (_SSH File Transfer Protocol_) {term}`Protocole` de transfert
@@ -26,7 +36,7 @@ SCP
    (_Secure CoPy_) {term}`Protocole` de copie de fichiers entre deux ordinateurs basé sur {term}`SSH`.
    SCP s'utilise principalement à l'aide du {term}`client` en {term}`CLI` du même nom. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
-```
+````
 
 Se connecter
 ------------
