@@ -79,7 +79,7 @@ Sélection de commandes
 
 Voici une sélection de {term}`commandes <commande>` pour vous permettre de découvrir le serveur :
 
-```{tip}
+```{note}
 Pour lancer une commande depuis le terminal, tappez son nom, puis appuyez sur {kbd}`Enter`.
 ```
 
