@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=b3e4d2e6"></script>
+        <script src="../_static/documentation_options.js?v=ae9225e0"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -83,8 +83,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Server information</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services reserved for members</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">SSH remote connection</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#s-authentifier-par-mot-de-passe">Authenticate via password</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#s-authentifier-avec-une-cle-publique">Authenticate with a public key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#se-connecter">Connection</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#s-authentifier-par-mot-de-passe">Authenticate via password</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#s-authentifier-avec-une-cle-publique">Authenticate with a public key</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#informations-de-connexion">Connection information</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#selection-de-commandes">Selection of commands</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#partage-des-ressources">Resource sharing</a></li>
@@ -166,7 +169,11 @@ textual display. It is used through a [terminal] window in which
 [commands] are executed. The CLI is very interesting because it can be
 used by humans as well as by software.
 
-The CLUB1 server is accessible in CLI using [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <span class="xref std std-term">SFTP</span> or <span class="xref std std-term">SCP</span>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
+The CLUB1 server is accessible in CLI using [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> to a server. Its main advantages are being fully encrypted and providing full access to server functionality. There are SSH extensions for more specific uses like <abbr title="(SSH File Transfer Protocol) File transfer and remote management
+[protocol] based on [SSH]. It is thus fully encrypted, and therefore
+comparable to [FTPS], but it offers more features (e.g. display of
+file owners)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> or <abbr title="(Secure CoPy) [Protocol] for copying files between two computers based
+on [SSH]. SCP is mainly used with the [CLI] [client] of the same name."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
 <figure class="align-default" id="fig-remotelogin">
 <a class="reference internal image-reference" href="../_images/remotelogin.png"><img alt="Dessin illustratif d'une personne controllant un ordinateur distant à travers son ordinateur personnel" src="../_images/remotelogin.png" style="width: 400px;" /></a>
 <figcaption>
@@ -175,9 +182,7 @@ Traduction : La connexion à distance se rapproche fortement de la projection as
 </figcaption>
 </figure>
 </dd>
-</dl>
-<p>SFTP
-(<em>SSH File Transfer Protocol</em>) <abbr title="In the context of computing, a protocol is a set of rules that govern
+<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Link to this term">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) File transfer and remote management <abbr title="In the context of computing, a protocol is a set of rules that govern
 the exchange of data or the collective behavior of processes or
 computers in networks.
 
@@ -189,20 +194,16 @@ An **open** protocol gives anyone permission to create software that
 respects it.
 
 CLUB1 favours software based on (open) protocols to provide its
-services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de transfert
-et gestion à distance de fichiers basé sur <abbr title="(Secure SHell) [Protocol] allowing to connect remotely in [CLI] to a
+services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">protocol</span></a></abbr> based on <abbr title="(Secure SHell) [Protocol] allowing to connect remotely in [CLI] to a
 server. Its main advantages are being fully encrypted and providing
 full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
-Il est ainsi entièrement chiffré, et donc comparable à <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. It is thus fully encrypted, and therefore comparable to <abbr title="(File Transfer Protocol Secure) Secure variant of [FTP], based on
 [TLS]. All data exchanges carried out are therefore encrypted. FTPS
 offers two modes of operation: explicit and implicit. The implicit
 mode is more secure because the connection is encrypted from the first
-exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>,
-mais il offre plus de fonctionnalités (e.g. l’affichage des propriétaires d’un fichier). —
-<a class="reference external" href="https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
-<p>SCP
-(<em>Secure CoPy</em>) <abbr title="In the context of computing, a protocol is a set of rules that govern
+exchange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>, but it offers more features (e.g. display of file owners). — <a class="reference external" href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
+</dd>
+<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Link to this term">#</a></dt><dd><p>(<em>Secure CoPy</em>) <abbr title="In the context of computing, a protocol is a set of rules that govern
 the exchange of data or the collective behavior of processes or
 computers in networks.
 
@@ -214,36 +215,29 @@ An **open** protocol gives anyone permission to create software that
 respects it.
 
 CLUB1 favours software based on (open) protocols to provide its
-services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocole</span></a></abbr> de copie de fichiers entre deux ordinateurs basé sur <abbr title="(Secure SHell) [Protocol] allowing to connect remotely in [CLI] to a
+services."><a class="reference internal" href="../glossaire.html#term-protocole"><span class="xref std std-term">Protocol</span></a></abbr> for copying files between two computers based on <abbr title="(Secure SHell) [Protocol] allowing to connect remotely in [CLI] to a
 server. Its main advantages are being fully encrypted and providing
 full access to server functionality. There are SSH extensions for more
-specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>.
-SCP s’utilise principalement à l’aide du <abbr title="Piece of software that accesses a service made available by a
-[server]. It usually has a graphical interface, intended to be used
-directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> en <abbr title="Command Line Interface, an interface in command line, based on a
+specific uses like [SFTP] or [SCP]."><a class="reference internal" href="#term-SSH"><span class="xref std std-term">SSH</span></a></abbr>. SCP is mainly used with the <abbr title="Command Line Interface, an interface in command line, based on a
 textual display. It is used through a [terminal] window in which
 [commands] are executed. The CLI is very interesting because it can be
 used by humans as well as by software.
 
-The CLUB1 server is accessible in CLI using [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> du même nom. —
-<a class="reference external" href="https://fr.wikipedia.org/wiki/Secure_copy">Wikipedia</a></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-Se connecter
-------------
-
-```{warning}
-La première connexion est **critique** car c'est lors de celle-ci que se fait
-l'**échange des clés**. Pour éviter de subir une
-[attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu)
-il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
-
-Si vous ne savez pas comment ajouter la clé du serveur à votre appareil,
-le tuto [](/tutos/premiere-connexion-ssh.md) est fait pour vous !
-</pre></div>
+The CLUB1 server is accessible in CLI using [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> <abbr title="Piece of software that accesses a service made available by a
+[server]. It usually has a graphical interface, intended to be used
+directly by a human."><a class="reference internal" href="../glossaire.html#term-client"><span class="xref std std-term">client</span></a></abbr> of the same name. — <a class="reference external" href="https://en.wikipedia.org/wiki/Secure_copy_protocol">Wikipedia</a></p>
+</dd>
+</dl>
+<section id="se-connecter">
+<h2>Connection<a class="headerlink" href="#se-connecter" title="Link to this heading">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The first connection is <strong>critical</strong> because the <strong>key exchange</strong> takes place at this moment. To avoid a <a class="reference external" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attack</a> we have to make sure that we received the correct key during this exchange.</p>
+<p>If you don’t know how to add the server key to your device, the tutorial <a class="reference internal" href="../tutos/premiere-connexion-ssh.html"><span class="std std-doc">First SSH connection</span></a> is for you!</p>
 </div>
 <p>There are two ways to authenticate for an SSH connection. The simplest is to use a <a class="reference internal" href="#s-authentifier-par-mot-de-passe">password</a>, however it is less secure than using a <a class="reference internal" href="#s-authentifier-avec-une-cle-publique">public key</a>.</p>
 <section id="s-authentifier-par-mot-de-passe">
-<h2>Authenticate via password<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Link to this heading">#</a></h2>
+<h3>Authenticate via password<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Link to this heading">#</a></h3>
 <p>We use the following <abbr title="A computer command is a kind of phrase that can be provided to a
 command-line interface ([CLI]) to ask a computer to perform a task.
 
@@ -265,9 +259,10 @@ line interface ([CLI]) of this hardware."><a class="reference internal" href="..
 <p>You must then enter your CLUB1 <strong>password</strong> (it is normal that the password is not displayed at the time of writing).</p>
 </section>
 <section id="s-authentifier-avec-une-cle-publique">
-<h2>Authenticate with a public key<a class="headerlink" href="#s-authentifier-avec-une-cle-publique" title="Link to this heading">#</a></h2>
+<h3>Authenticate with a public key<a class="headerlink" href="#s-authentifier-avec-une-cle-publique" title="Link to this heading">#</a></h3>
 <p>Instead of using a password, if you regularly log in from the same device, it is advisable to log in using a public key.</p>
 <p>This requires following a few steps which are outlined in the tutorial: <a class="reference internal" href="../tutos/auth-ssh-avec-cle-publique.html"><span class="std std-doc">SSH connection using a public key</span></a></p>
+</section>
 </section>
 <section id="informations-de-connexion">
 <h2>Connection information<a class="headerlink" href="#informations-de-connexion" title="Link to this heading">#</a></h2>
@@ -532,7 +527,7 @@ directly by a human."><a class="reference internal" href="../glossaire.html#term
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-10-16-g1553
+		v: 2026-10-17-g6929
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">

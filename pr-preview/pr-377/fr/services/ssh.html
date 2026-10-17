@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=3b683ee4"></script>
+        <script src="../_static/documentation_options.js?v=261ec9e2"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -84,8 +84,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Connexion à distance SSH</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#s-authentifier-par-mot-de-passe">S’authentifier par mot de passe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#s-authentifier-avec-une-cle-publique">S’authentifier avec une clé publique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#se-connecter">Se connecter</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#s-authentifier-par-mot-de-passe">S’authentifier par mot de passe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#s-authentifier-avec-une-cle-publique">S’authentifier avec une clé publique</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#informations-de-connexion">Informations de connexion</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#selection-de-commandes">Sélection de commandes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#partage-des-ressources">Partage des ressources</a></li>
@@ -174,7 +177,12 @@ que par des logiciels.
 Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> à un serveur.
 Ses principaux avantages sont d’être entièrement chiffré
 et d’offrir un accès complet aux fonctionnalités du serveur.
-Il existe des extensions SSH pour des usages plus spécifiques comme <span class="xref std std-term">SFTP</span> ou <span class="xref std std-term">SCP</span>. —
+Il existe des extensions SSH pour des usages plus spécifiques comme <abbr title="(SSH File Transfer Protocol) [Protocole] de transfert et gestion à
+distance de fichiers basé sur [SSH]. Il est ainsi entièrement chiffré,
+et donc comparable à [FTPS], mais il offre plus de fonctionnalités
+(e.g. l’affichage des propriétaires d’un fichier)."><a class="reference internal" href="#term-SFTP"><span class="xref std std-term">SFTP</span></a></abbr> ou <abbr title="(Secure CoPy) [Protocole] de copie de fichiers entre deux ordinateurs
+basé sur [SSH]. SCP s’utilise principalement à l’aide du [client] en
+[CLI] du même nom."><a class="reference internal" href="#term-SCP"><span class="xref std std-term">SCP</span></a></abbr>. —
 <a class="reference external" href="https://fr.wikipedia.org/wiki/Secure_Shell">Wikipedia</a></p>
 <figure class="align-default" id="fig-remotelogin">
 <a class="reference internal image-reference" href="../_images/remotelogin.png"><img alt="Dessin illustratif d'une personne controllant un ordinateur distant à travers son ordinateur personnel" src="../_images/remotelogin.png" style="width: 400px;" /></a>
@@ -184,9 +192,7 @@ Traduction : La connexion à distance se rapproche fortement de la projection a
 </figcaption>
 </figure>
 </dd>
-</dl>
-<p>SFTP
-(<em>SSH File Transfer Protocol</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+<dt id="term-SFTP">SFTP<a class="headerlink" href="#term-SFTP" title="Lien vers ce terme">#</a></dt><dd><p>(<em>SSH File Transfer Protocol</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
 règles qui régissent les échanges de données ou le comportement
 collectif de processus ou d’ordinateurs en réseaux.
 
@@ -211,8 +217,8 @@ mode implicite est plus sécurisé car la connexion est chiffrée dès le
 premier échange."><a class="reference internal" href="ftp.html#term-FTPS"><span class="xref std std-term">FTPS</span></a></abbr>,
 mais il offre plus de fonctionnalités (e.g. l’affichage des propriétaires d’un fichier). —
 <a class="reference external" href="https://fr.wikipedia.org/wiki/SSH_File_Transfer_Protocol">Wikipedia</a></p>
-<p>SCP
-(<em>Secure CoPy</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
+</dd>
+<dt id="term-SCP">SCP<a class="headerlink" href="#term-SCP" title="Lien vers ce terme">#</a></dt><dd><p>(<em>Secure CoPy</em>) <abbr title="Dans le contexte de l’informatique, un protocole est un ensemble de
 règles qui régissent les échanges de données ou le comportement
 collectif de processus ou d’ordinateurs en réseaux.
 
@@ -239,26 +245,25 @@ que par des logiciels.
 
 Le serveur CLUB1 est accessible en CLI à travers [SSH]."><a class="reference internal" href="../glossaire.html#term-CLI"><span class="xref std std-term">CLI</span></a></abbr> du même nom. —
 <a class="reference external" href="https://fr.wikipedia.org/wiki/Secure_copy">Wikipedia</a></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-Se connecter
-------------
-
-```{warning}
-La première connexion est **critique** car c'est lors de celle-ci que se fait
-l'**échange des clés**. Pour éviter de subir une
-[attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu)
-il nous faut être sûr d'avoir reçu la bonne clé lors de cet échange.
-
-Si vous ne savez pas comment ajouter la clé du serveur à votre appareil,
-le tuto [](/tutos/premiere-connexion-ssh.md) est fait pour vous !
-</pre></div>
+</dd>
+</dl>
+<section id="se-connecter">
+<h2>Se connecter<a class="headerlink" href="#se-connecter" title="Lien vers cette rubrique">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>La première connexion est <strong>critique</strong> car c’est lors de celle-ci que se fait
+l’<strong>échange des clés</strong>. Pour éviter de subir une
+<a class="reference external" href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu">attaque de l’homme du milieu</a>
+il nous faut être sûr d’avoir reçu la bonne clé lors de cet échange.</p>
+<p>Si vous ne savez pas comment ajouter la clé du serveur à votre appareil,
+le tuto <a class="reference internal" href="../tutos/premiere-connexion-ssh.html"><span class="std std-doc">Première connexion SSH</span></a> est fait pour vous !</p>
 </div>
 <p>Il existe deux manières de s’authentifier lors d’une connexion SSH.
 La plus simple est d’utiliser un <a class="reference internal" href="#s-authentifier-par-mot-de-passe">mot de passe</a>,
 elle est en revanche moins sécurisée que l’utilisation d’une
 <a class="reference internal" href="#s-authentifier-avec-une-cle-publique">clé publique</a>.</p>
 <section id="s-authentifier-par-mot-de-passe">
-<h2>S’authentifier par mot de passe<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Lien vers cette rubrique">#</a></h2>
+<h3>S’authentifier par mot de passe<a class="headerlink" href="#s-authentifier-par-mot-de-passe" title="Lien vers cette rubrique">#</a></h3>
 <p>On utilise la <abbr title="Une commande informatique est une sorte de phrase que l’on peut
 fournir à une interface en ligne de commande ([CLI]) pour demander à
 un ordinateur d’exécuter une tâche.
@@ -283,12 +288,13 @@ recréant l’interface en ligne de commande ([CLI]) de ce materiel."><a class="
 <p>Il faut ensuite entrer votre <strong>mot de passe</strong> CLUB1 (il est normal que le mot de passe ne s’affiche pas au moment de l’écriture).</p>
 </section>
 <section id="s-authentifier-avec-une-cle-publique">
-<h2>S’authentifier avec une clé publique<a class="headerlink" href="#s-authentifier-avec-une-cle-publique" title="Lien vers cette rubrique">#</a></h2>
+<h3>S’authentifier avec une clé publique<a class="headerlink" href="#s-authentifier-avec-une-cle-publique" title="Lien vers cette rubrique">#</a></h3>
 <p>Au lieu d’utiliser un mot de passe,
 si vous vous connectez régulièrement depuis le même appareil,
 il est conseillé de se connecter à l’aide d’une clé publique.</p>
 <p>Cela nécessite de suivre quelques étapes qui sont indiquées dans le tuto :
 <a class="reference internal" href="../tutos/auth-ssh-avec-cle-publique.html"><span class="std std-doc">Connexion SSH à l’aide d’une clé publique</span></a></p>
+</section>
 </section>
 <section id="informations-de-connexion">
 <h2>Informations de connexion<a class="headerlink" href="#informations-de-connexion" title="Lien vers cette rubrique">#</a></h2>
@@ -603,7 +609,7 @@ Il existe des extensions SSH pour des usages plus spécifiques comme
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-10-16-g1553
+		v: 2026-10-17-g6929
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
