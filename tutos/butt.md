@@ -1,24 +1,22 @@
 Tutoriel BUTT
 =============
 
-Il existe différentes manières d'exploiter le service [webdiffusion de club1](https://club1.fr/docs/fr/services/webcast.html).
-On peut par exemple diffuser des emission en live depuis un ordinateur connecté à internet.
-Pour ça, on aime bien utilier le logiciel BUTT, parcequ'il est assez simple, gratuit et open source.
+Il existe différentes manières d'exploiter le service [webdiffusion de CLUB1](/services/webcast.md).
+On peut par exemple diffuser des emission en live depuis un ordinateur connecté à {term}`Internet`.
+Pour ça, on aime bien utilier le logiciel {logiciel}`BUTT`, parcequ'il est assez simple, gratuit et open source.
 
 
 Qu'est ce que c'est BUTT
 ------------------------
 
-Butt (Broadcast using this tool) est un logiciel libre qui permet de capturer le son de l'ordinateur
-ou d'une interface audio externe de l'animateur.ice radio pour l'envoyer vers le serveur
-sur lequel est installé le logiciel de diffusion (en l'occurence icecast, sur club1).
+```{logiciel} BUTT
+(_Broadcast Using This Tool_) {term}`Logiciel libre` qui permet de capturer le son de l'ordinateur
+ou d'une interface audio externe de l'animateur·ice radio pour l'envoyer vers le serveur
+sur lequel est installé le logiciel de {term}`webdiffusion` ({logiciel}`Icecast` sur CLUB1).
 
-Butt permet de :
-
-- Diffuser des emissions radio
-- Enregistrer une emission en local
-- Inscrire des métadonnées en lien avec l'emission.
-- Mixer et traiter des sources sonores
+BUTT permet à la fois de **diffuser** des emissions radio et de les **enregistrer** en local,
+ainsi que d'y ajouter des métadonnées et de mixer plusieurs sources.
+```
 
 
 Interface
@@ -45,7 +43,7 @@ De haut en bas, l'interface montre :
 Configuration du serveur
 ------------------------
 
-Pour permettre à Butt d'envoyer le flux audio vers le serveur,
+Pour permettre à BUTT d'envoyer le flux audio vers le serveur,
 il faut l'informer de l'adresse de ce serveur et le port à travers lequel il pourra acceder à Icecast.
 
 
@@ -101,7 +99,7 @@ Des miliers d'internautes peuvent maintenant cliquer sur le player de votre radi
 Vous pouvez leur parler depuis le micro de votre ordinateur, ou bien brancher un microphone à une carte son,
 ou pleins d'instruments et de microphones sur une table de mixage avec une carte son intégrée...
 
-Dans tous les cas il va falloir l'indiquer à Butt.
+Dans tous les cas il va falloir l'indiquer à BUTT.
 
 Dans l'onglet **Audio** de la page **Configure** vous pouvez indiquer l'**Audio device** que vous allez utiliser.
 
@@ -110,32 +108,37 @@ Dans l'onglet **Audio** de la page **Configure** vous pouvez indiquer l'**Audio 
 - Channel mode : mono ou stéréo (gauche et droite).
 - Samplerate : fréquence d'échantillonage, (valeur par défault ok)
 - Update device : si vous ne trouvez pas votre instrument dans la liste,
-  essayez d'actualiser la liste (ex: carte son branchée après l'allumage de Butt)
+  essayez d'actualiser la liste (ex: carte son branchée après l'allumage de BUTT)
 - Primary audio device : Selectionner sa carte son, (Attention à bien installer le pilote).
   Il est possible parfois de selectionner le microphone interne et même parfois de capturer le son de l'ordinateur
   (utile pour une emission musicale sans voix ou de rediffusion)
 
-Il est possible de brancher plusieurs interfaces audio/ cartes son sur Butt.
+Il est possible de brancher plusieurs interfaces audio/ cartes son sur BUTT.
 Le Mixer permet de mélanger les deux signaux (usage avancé).
 
-**Pensez à tester le son depuis un navigateur pour s'assurer que le flux fonctionne correctement :
+```{warning}
+Pensez à tester le son depuis un navigateur pour s'assurer que le flux fonctionne correctement :
 un mauvais paramétrage des interfaces audio ne se verra pas de votre côté
-mais peut rendre l'emission inaudible pour les auditeur.ice.s**
+mais peut rendre l'emission inaudible pour les auditeur.ice.s
+```
 
 Sur cette même page, vous pouvez indiquer le codec de compression de l'audio de votre stream.
+
+```{note}
 Nous conseillons **mp3** car les navigateur Apple risquent de boycotter le **ogg/vorbis** et vous perdez tous les iphones...
 Le **bitrate** par défault est convenable (sur le fil du rasoir entre qualité et legerté...).
+```
 
 Vous pouvez indiquer aussi le codec et la qualité de votre enregistrement !
-(Attention toutefois à avoir la place necessaire sur son ordinateur
-si l'on veut un recording de haute qualité qui sera plus lourd.)
+Attention toutefois à avoir la place necessaire sur son ordinateur
+si l'on veut un recording de haute qualité qui sera plus lourd.
 
 
 Enregistrement du flux
 ----------------------
 
 Pour garder une trace de votre emission live
-vous pouvez utiliser Butt pour enregistrer votre emission
+vous pouvez utiliser BUTT pour enregistrer votre emission
 en appuyant sur le bouton REC rouge avant de lancer le stream.
 
 La page **recording** de la fenetre de **configuration** permet de parametrer cet enregistrement
@@ -160,7 +163,9 @@ Donnera par exemple
 
     labonneradio_saison1_2026/11/06-23:12:41.mp3
 
-**Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.**
+```{tip}
+Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.
+```
 
 Le bouton **split file** coupe et relance directement l'enregistrement.
 Ca peut etre utile quand on a plus de batterie sur un ordinateur
