@@ -7,7 +7,7 @@ car à travers elle, on peut [lancer des programmes](#sélection-de-commandes) s
 
 ![capture d'écran d'un émulateur de terminal après une connexion SSH au serveur CLUB1](ssh/terminal.png)
 
-```{glossary}
+````{glossary}
 SSH
    (_Secure SHell_) {term}`Protocole` permettant de se connecter à distance en {term}`CLI` à un serveur.
    Ses principaux avantages sont d'être entièrement chiffré
@@ -36,7 +36,7 @@ SCP
    (_Secure CoPy_) {term}`Protocole` de copie de fichiers entre deux ordinateurs basé sur {term}`SSH`.
    SCP s'utilise principalement à l'aide du {term}`client` en {term}`CLI` du même nom. ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Secure_copy)
-```
+````
 
 Se connecter
 ------------
