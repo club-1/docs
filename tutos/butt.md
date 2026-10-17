@@ -3,7 +3,7 @@ Tutoriel BUTT
 
 Il existe différentes manières d'exploiter le service [webdiffusion de club1](https://club1.fr/docs/fr/services/webcast.html).
 On peut par exemple diffuser des emission en live depuis un ordinateur connecté à internet.
-Pour ça, on aime bien utilier le logiciel BUTT, parcequ'il est assez simple, gratuit et open source. 
+Pour ça, on aime bien utilier le logiciel BUTT, parcequ'il est assez simple, gratuit et open source.
 
 
 Qu'est ce que c'est BUTT
@@ -27,6 +27,7 @@ Interface
 ![home](butt/home.png)
 
 De haut en bas, l'interface montre :
+
 - Un écran de monitoring qui affiche **l'etat du stream**, **sa durée**, **son poid**,
   **l'etat de l'enregistrement**, **sa durée** **et son poid**.
   Il affiche aussi le nombre d'autiteur.ices connectées sur le flux.
@@ -78,7 +79,7 @@ De haut en bas il faut remplir ces cases :
 ### Adresse du flux
 
 D'apres ces informations de connection vous pouvez déduire l'adresse du stream audio,
-que vous pouvez écouter directement sur le navigateur ou bien intégrer à une balise <audio> sur un site web.
+que vous pouvez écouter directement sur le navigateur ou bien intégrer à une balise `<audio>` sur un site web.
 
     https://[adresseduserver]:[port]/[mountpoint]
 
@@ -159,7 +160,7 @@ Donnera par exemple
 
     labonneradio_saison1_2026/11/06-23:12:41.mp3
 
-**Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom**
+**Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.**
 
 Le bouton **split file** coupe et relance directement l'enregistrement.
 Ca peut etre utile quand on a plus de batterie sur un ordinateur
@@ -169,6 +170,7 @@ Il est possible d'automatiser cette coupure pour avoir des fichiers correspondan
 
 Information textuelles
 ----------------------
+
 Il est possibe de passer d'autre données que le flux audio comme le nom de l'emission en cours, le titre d'une musique.
 Ces infos peuvent être réccupérées sur la page web avec du javascript.
 
