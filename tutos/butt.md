@@ -17,7 +17,7 @@ Butt permet de :
 
 ## Interface
 
-![home](home.png)
+![home](butt/home.png)
 
 De haut en bas, l'interface montre : 
 - Un écran de monitoring qui affiche **l'etat du stream**, **sa durée**, **son poid**, **l'etat de l'enregistrement**, **sa durée** **et son poid**. Il affiche aussi le nombre d'autiteur.ices connectées sur le flux. 
@@ -40,11 +40,11 @@ Pour permettre à Butt d'envoyer le flux audio vers le serveur, il faut l'inform
 
 En appuyant sur le bouton **settings** on peut afficher la fenêtre des parametres. Dans l'ongle **Main** un encart **Server Settings** permet de choisir parmis différents serveurs enregistrés.
 
-![main_configuration](mainconf.png)
+![main_configuration](butt/mainconf.png)
 
 Les boutons en dessous permettent d'ajouter ou d'éditer un serveur enregistré.
 
-![add_server](add_server.png)
+![add_server](butt/add_server.png)
 
 De haut en bas il faut remplir ces cases : 
 
@@ -90,7 +90,7 @@ Dans tous les cas il va falloir l'indiquer à Butt.
 
 Dans l'onglet **Audio** de la page **Configure** vous pouvez indiquer l'**Audio device** que vous allez utiliser. 
 
-![audio_conf](audioconf.png)
+![audio_conf](butt/audioconf.png)
 
 - Channel mode : mono ou stéréo (gauche et droite). 
 - Samplerate : fréquence d'échantillonage, (valeur par défault ok)
@@ -112,7 +112,7 @@ Pour garder une trace de votre emission live vous pouvez utiliser Butt pour enre
 
 La page **recording** de la fenetre de **configuration** permet de parametrer cet enregistrement (en plus des options de compression et qualité citée plus haut).
 
-![recording_conf](recconf.png)
+![recording_conf](butt/recconf.png)
 
 La valeur par défault dans **Record File Name:** montre une nomanclature qui permet de generer des noms de fichiers dynamiques qui integrent la date et l'heure. 
 
@@ -144,7 +144,7 @@ Il est possibe de passer d'autre données que le flux audio comme le nom de l'em
 
 Ces options doivent être experimentées afin d'être mieux documentées. 
 
-![stream](streamconf.png)
+![stream](butt/streamconf.png)
 
 
 ## GUI
