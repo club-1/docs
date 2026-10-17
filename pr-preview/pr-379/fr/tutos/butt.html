@@ -14,14 +14,14 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="canonical" href="https://club1.fr/docs/fr/tutos/tuto_butt.html" />
+    <link rel="canonical" href="https://club1.fr/docs/fr/tutos/butt.html" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=4883701e"></script>
+        <script src="../_static/documentation_options.js?v=94c60205"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -30,11 +30,13 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Accès à l’espace personnel depuis le Finder d’un Mac" href="webdav-mac.html" />
+    <link rel="prev" title="Utiliser Tiny tiny RSS" href="flux-rss.html" />
 
 	
-	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/tuto_butt.html" />
+	<link rel="alternate" hreflang="fr" href="https://club1.fr/docs/fr/tutos/butt.html" />
 	
-	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/tuto_butt.html" />
+	<link rel="alternate" hreflang="en" href="https://club1.fr/docs/en/tutos/butt.html" />
 	
 
 </head>
@@ -78,11 +80,36 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../info/index.html">1. Informations sur le serveur</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-membres.html">2. Services réservés aux membres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../services-invitation.html">3. Services sur invitation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html">4. Tutoriels</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Tutoriels</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#generiques">Génériques</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="presentation.html">Éditer son fichier de présentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="premiere-connexion-ssh.html">Première connexion SSH</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auth-ssh-avec-cle-publique.html">Connexion SSH à l’aide d’une clé publique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mes-premiers-pas-sur-le-web.html">Mes premiers pas sur le Web !</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flux-rss.html">Utiliser Tiny tiny RSS</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Tutoriel BUTT</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#qu-est-ce-que-c-est-butt">Qu’est ce que c’est BUTT</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#interface">Interface</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuration-du-serveur">Configuration du serveur</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuration-des-entrees-audio">Configuration des entrées audio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#enregistrement-du-flux">Enregistrement du flux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#information-textuelles">Information textuelles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gui">GUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pour-aller-plus-loin">Pour aller plus loin</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#mac">Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#android">Android</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../outils/index.html">5. Outils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../faq.html">6. Foire aux questions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../glossaire.html">7. Glossaire</a></li>
@@ -110,10 +137,11 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">4. </span>Tutoriels</a></li>
       <li class="breadcrumb-item active">Tutoriel BUTT</li>
     
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/club-1/docs/blob/main/tutos/tuto_butt.md" class="fa fa-github"> Éditer sur GitHub</a>
+              <a href="https://github.com/club-1/docs/blob/main/tutos/butt.md" class="fa fa-github"> Éditer sur GitHub</a>
       </li>
 
   </ul>
@@ -138,7 +166,7 @@
 </section>
 <section id="interface">
 <h2>Interface<a class="headerlink" href="#interface" title="Lien vers cette rubrique">#</a></h2>
-<p><img alt="home" src="../_images/home.png" /></p>
+<p><img alt="home" src="tutos/home.png" /></p>
 <p>De haut en bas, l’interface montre :</p>
 <ul class="simple">
 <li><p>Un écran de monitoring qui affiche <strong>l’etat du stream</strong>, <strong>sa durée</strong>, <strong>son poid</strong>, <strong>l’etat de l’enregistrement</strong>, <strong>sa durée</strong> <strong>et son poid</strong>. Il affiche aussi le nombre d’autiteur.ices connectées sur le flux.</p></li>
@@ -156,9 +184,9 @@
 <h2>Configuration du serveur<a class="headerlink" href="#configuration-du-serveur" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour permettre à Butt d’envoyer le flux audio vers le serveur, il faut l’informer de l’adresse de ce serveur et le port à travers lequel il pourra acceder à Icecast.</p>
 <p>En appuyant sur le bouton <strong>settings</strong> on peut afficher la fenêtre des parametres. Dans l’ongle <strong>Main</strong> un encart <strong>Server Settings</strong> permet de choisir parmis différents serveurs enregistrés.</p>
-<p><img alt="main_configuration" src="../_images/mainconf.png" /></p>
+<p><img alt="main_configuration" src="tutos/mainconf.png" /></p>
 <p>Les boutons en dessous permettent d’ajouter ou d’éditer un serveur enregistré.</p>
-<p><img alt="add_server" src="../_images/add_server.png" /></p>
+<p><img alt="add_server" src="tutos/add_server.png" /></p>
 <p>De haut en bas il faut remplir ces cases :</p>
 <ul class="simple">
 <li><p><strong>Name</strong> : il n’a pas d’incidence sur la connexion, il vous permet de vous y retrouver parmis divers serveurs sur lesquels vous pourrier vouloir vous connecter.</p></li>
@@ -195,7 +223,7 @@ Ex : Mountpoint : labonne radio -&gt; url : club1.fr:8000/labonneradio</p></l
 <p>Vous pouvez leur parler depuis le micro de votre ordinateur, ou bien brancher un microphone à une carte son, ou pleins d’instruments et de microphones sur une table de mixage avec une carte son intégrée…</p>
 <p>Dans tous les cas il va falloir l’indiquer à Butt.</p>
 <p>Dans l’onglet <strong>Audio</strong> de la page <strong>Configure</strong> vous pouvez indiquer l’<strong>Audio device</strong> que vous allez utiliser.</p>
-<p><img alt="audio_conf" src="../_images/audioconf.png" /></p>
+<p><img alt="audio_conf" src="tutos/audioconf.png" /></p>
 <ul class="simple">
 <li><p>Channel mode : mono ou stéréo (gauche et droite).</p></li>
 <li><p>Samplerate : fréquence d’échantillonage, (valeur par défault ok)</p></li>
@@ -211,7 +239,7 @@ Ex : Mountpoint : labonne radio -&gt; url : club1.fr:8000/labonneradio</p></l
 <h2>Enregistrement du flux<a class="headerlink" href="#enregistrement-du-flux" title="Lien vers cette rubrique">#</a></h2>
 <p>Pour garder une trace de votre emission live vous pouvez utiliser Butt pour enregistrer votre emission en appuyant sur le bouton REC rouge avant de lancer le stream.</p>
 <p>La page <strong>recording</strong> de la fenetre de <strong>configuration</strong> permet de parametrer cet enregistrement (en plus des options de compression et qualité citée plus haut).</p>
-<p><img alt="recording_conf" src="../_images/recconf.png" /></p>
+<p><img alt="recording_conf" src="tutos/recconf.png" /></p>
 <p>La valeur par défault dans <strong>Record File Name:</strong> montre une nomanclature qui permet de generer des noms de fichiers dynamiques qui integrent la date et l’heure.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rec_</span><span class="o">%</span><span class="n">Y</span><span class="o">%</span><span class="n">m</span><span class="o">%</span><span class="n">d</span><span class="o">-%</span><span class="n">H</span><span class="o">%</span><span class="n">M</span><span class="o">%</span><span class="n">S</span><span class="o">.</span><span class="n">mp3</span>
 </pre></div>
@@ -236,7 +264,7 @@ Il est possible d’automatiser cette coupure pour avoir des fichiers correspond
 <h2>Information textuelles<a class="headerlink" href="#information-textuelles" title="Lien vers cette rubrique">#</a></h2>
 <p>Il est possibe de passer d’autre données que le flux audio comme le nom de l’emission en cours, le titre d’une musique. Ces infos peuvent être réccupérées sur la page web avec du javascript.</p>
 <p>Ces options doivent être experimentées afin d’être mieux documentées.</p>
-<p><img alt="stream" src="../_images/streamconf.png" /></p>
+<p><img alt="stream" src="tutos/streamconf.png" /></p>
 </section>
 <section id="gui">
 <h2>GUI<a class="headerlink" href="#gui" title="Lien vers cette rubrique">#</a></h2>
@@ -251,7 +279,10 @@ Il est possible d’automatiser cette coupure pour avoir des fichiers correspond
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="flux-rss.html" class="btn btn-neutral float-left" title="Utiliser Tiny tiny RSS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="webdav-mac.html" class="btn btn-neutral float-right" title="Accès à l’espace personnel depuis le Finder d’un Mac" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
@@ -273,7 +304,7 @@ Il est possible d’automatiser cette coupure pour avoir des fichiers correspond
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-10-16-g37a6
+		v: 2026-10-17-g9e4b
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
@@ -283,13 +314,13 @@ Il est possible d’automatiser cette coupure pour avoir des fichiers correspond
 			
 			<dd>
 				 <strong> 
-					<a href="../../fr/tutos/tuto_butt.html">fr</a>
+					<a href="../../fr/tutos/butt.html">fr</a>
 				 </strong> 
 			</dd>
 			
 			<dd>
 				
-					<a href="../../en/tutos/tuto_butt.html">en</a>
+					<a href="../../en/tutos/butt.html">en</a>
 				
 			</dd>
 			
