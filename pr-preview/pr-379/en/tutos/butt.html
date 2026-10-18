@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=85d2859e"></script>
+        <script src="../_static/documentation_options.js?v=64c3ce6a"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -150,21 +150,34 @@
              
   <section id="tutoriel-butt">
 <h1>Tutoriel BUTT<a class="headerlink" href="#tutoriel-butt" title="Link to this heading">#</a></h1>
-<p>Il existe différentes manières d’exploiter le service <a class="reference external" href="https://club1.fr/docs/fr/services/webcast.html">webdiffusion de club1</a>.
-On peut par exemple diffuser des emission en live depuis un ordinateur connecté à internet.
-Pour ça, on aime bien utilier le logiciel BUTT, parcequ’il est assez simple, gratuit et open source.</p>
+<p>Il existe différentes manières d’exploiter le service <a class="reference internal" href="../services/webcast.html"><span class="std std-doc">webdiffusion de CLUB1</span></a>.
+On peut par exemple diffuser des emission en live depuis un ordinateur connecté à <abbr title="Publicly accessible global [computer network]. The Internet is
+actually the interconnection of a set of networks around the world. As
+the name suggests, “inter” “net” = “between networks”. It is therefore
+a “network of networks”."><a class="reference internal" href="../glossaire.html#term-Internet"><span class="xref std std-term">Internet</span></a></abbr>.
+Pour ça, on aime bien utilier le logiciel <abbr title="(Broadcast Using This Tool) [Logiciel libre] qui permet de capturer le
+son de l’ordinateur ou d’une interface audio externe de
+l’animateur·ice radio pour l’envoyer vers le serveur sur lequel est
+installé le logiciel de [webdiffusion] ([Icecast] sur CLUB1).
+
+BUTT permet à la fois de **diffuser** des emissions radio et de les
+**enregistrer** en local, ainsi que d’y ajouter des métadonnées et de
+mixer plusieurs sources."><a class="reference internal" href="#logiciel-BUTT"><span class="xref std std-logiciel">BUTT</span></a></abbr>, parcequ’il est assez simple, gratuit et open source.</p>
 <section id="qu-est-ce-que-c-est-butt">
 <h2>Qu’est ce que c’est BUTT<a class="headerlink" href="#qu-est-ce-que-c-est-butt" title="Link to this heading">#</a></h2>
-<p>Butt (Broadcast using this tool) est un logiciel libre qui permet de capturer le son de l’ordinateur
-ou d’une interface audio externe de l’animateur.ice radio pour l’envoyer vers le serveur
-sur lequel est installé le logiciel de diffusion (en l’occurence icecast, sur club1).</p>
-<p>Butt permet de :</p>
-<ul class="simple">
-<li><p>Diffuser des emissions radio</p></li>
-<li><p>Enregistrer une emission en local</p></li>
-<li><p>Inscrire des métadonnées en lien avec l’emission.</p></li>
-<li><p>Mixer et traiter des sources sonores</p></li>
-</ul>
+<dl class="std logiciel">
+<dt class="sig sig-object std" id="logiciel-BUTT">
+<span class="sig-name descname"><span class="pre">BUTT</span></span><a class="headerlink" href="#logiciel-BUTT" title="Link to this definition">#</a></dt>
+<dd><p>(<em>Broadcast Using This Tool</em>) <abbr title="Refers to software that respects the freedom of users. In particular,
+users have the freedom to run, copy, study, modify and improve these
+software, and especially to reshare, modified or not."><a class="reference internal" href="../glossaire.html#term-logiciel-libre"><span class="xref std std-term">Logiciel libre</span></a></abbr> qui permet de capturer le son de l’ordinateur
+ou d’une interface audio externe de l’animateur·ice radio pour l’envoyer vers le serveur
+sur lequel est installé le logiciel de <abbr title="Refers to the distribution of audio and/or video content via the
+[Web]."><a class="reference internal" href="../services/webcast.html#term-webdiffusion"><span class="xref std std-term">webdiffusion</span></a></abbr> (<abbr title="[Webcast] [server] for audio and video streams."><a class="reference internal" href="../services/webcast.html#logiciel-Icecast"><span class="xref std std-logiciel">Icecast</span></a></abbr> sur CLUB1).</p>
+<p>BUTT permet à la fois de <strong>diffuser</strong> des emissions radio et de les <strong>enregistrer</strong> en local,
+ainsi que d’y ajouter des métadonnées et de mixer plusieurs sources.</p>
+</dd></dl>
+
 </section>
 <section id="interface">
 <h2>Interface<a class="headerlink" href="#interface" title="Link to this heading">#</a></h2>
@@ -187,7 +200,7 @@ qui garde trace de toute opérations lancées et eventuels problemes</p></li>
 </section>
 <section id="configuration-du-serveur">
 <h2>Configuration du serveur<a class="headerlink" href="#configuration-du-serveur" title="Link to this heading">#</a></h2>
-<p>Pour permettre à Butt d’envoyer le flux audio vers le serveur,
+<p>Pour permettre à BUTT d’envoyer le flux audio vers le serveur,
 il faut l’informer de l’adresse de ce serveur et le port à travers lequel il pourra acceder à Icecast.</p>
 <p>En appuyant sur le bouton <strong>settings</strong> on peut afficher la fenêtre des parametres.
 Dans l’ongle <strong>Main</strong> un encart <strong>Server Settings</strong> permet de choisir parmis différents serveurs enregistrés.</p>
@@ -233,34 +246,40 @@ que vous pouvez écouter directement sur le navigateur ou bien intégrer à une 
 <p>Des miliers d’internautes peuvent maintenant cliquer sur le player de votre radio. Mais que vont iels entendre ?</p>
 <p>Vous pouvez leur parler depuis le micro de votre ordinateur, ou bien brancher un microphone à une carte son,
 ou pleins d’instruments et de microphones sur une table de mixage avec une carte son intégrée…</p>
-<p>Dans tous les cas il va falloir l’indiquer à Butt.</p>
+<p>Dans tous les cas il va falloir l’indiquer à BUTT.</p>
 <p>Dans l’onglet <strong>Audio</strong> de la page <strong>Configure</strong> vous pouvez indiquer l’<strong>Audio device</strong> que vous allez utiliser.</p>
 <p><img alt="audio_conf" src="../_images/audioconf.png" /></p>
 <ul class="simple">
 <li><p>Channel mode : mono ou stéréo (gauche et droite).</p></li>
 <li><p>Samplerate : fréquence d’échantillonage, (valeur par défault ok)</p></li>
 <li><p>Update device : si vous ne trouvez pas votre instrument dans la liste,
-essayez d’actualiser la liste (ex: carte son branchée après l’allumage de Butt)</p></li>
+essayez d’actualiser la liste (ex: carte son branchée après l’allumage de BUTT)</p></li>
 <li><p>Primary audio device : Selectionner sa carte son, (Attention à bien installer le pilote).
 Il est possible parfois de selectionner le microphone interne et même parfois de capturer le son de l’ordinateur
 (utile pour une emission musicale sans voix ou de rediffusion)</p></li>
 </ul>
-<p>Il est possible de brancher plusieurs interfaces audio/ cartes son sur Butt.
+<p>Il est possible de brancher plusieurs interfaces audio/ cartes son sur BUTT.
 Le Mixer permet de mélanger les deux signaux (usage avancé).</p>
-<p><strong>Pensez à tester le son depuis un navigateur pour s’assurer que le flux fonctionne correctement :
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Pensez à tester le son depuis un navigateur pour s’assurer que le flux fonctionne correctement :
 un mauvais paramétrage des interfaces audio ne se verra pas de votre côté
-mais peut rendre l’emission inaudible pour les auditeur.ice.s</strong></p>
-<p>Sur cette même page, vous pouvez indiquer le codec de compression de l’audio de votre stream.
-Nous conseillons <strong>mp3</strong> car les navigateur Apple risquent de boycotter le <strong>ogg/vorbis</strong> et vous perdez tous les iphones…
+mais peut rendre l’emission inaudible pour les auditeur.ice.s</p>
+</div>
+<p>Sur cette même page, vous pouvez indiquer le codec de compression de l’audio de votre stream.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Nous conseillons <strong>mp3</strong> car les navigateur Apple risquent de boycotter le <strong>ogg/vorbis</strong> et vous perdez tous les iphones…
 Le <strong>bitrate</strong> par défault est convenable (sur le fil du rasoir entre qualité et legerté…).</p>
+</div>
 <p>Vous pouvez indiquer aussi le codec et la qualité de votre enregistrement !
-(Attention toutefois à avoir la place necessaire sur son ordinateur
-si l’on veut un recording de haute qualité qui sera plus lourd.)</p>
+Attention toutefois à avoir la place necessaire sur son ordinateur
+si l’on veut un recording de haute qualité qui sera plus lourd.</p>
 </section>
 <section id="enregistrement-du-flux">
 <h2>Enregistrement du flux<a class="headerlink" href="#enregistrement-du-flux" title="Link to this heading">#</a></h2>
 <p>Pour garder une trace de votre emission live
-vous pouvez utiliser Butt pour enregistrer votre emission
+vous pouvez utiliser BUTT pour enregistrer votre emission
 en appuyant sur le bouton REC rouge avant de lancer le stream.</p>
 <p>La page <strong>recording</strong> de la fenetre de <strong>configuration</strong> permet de parametrer cet enregistrement
 (en plus des options de compression et qualité citée plus haut).</p>
@@ -282,7 +301,10 @@ qui permet de generer des noms de fichiers dynamiques qui integrent la date et l
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>labonneradio_saison1_2026/11/06-23:12:41.mp3
 </pre></div>
 </div>
-<p><strong>Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Ce systeme de naming dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.</p>
+</div>
 <p>Le bouton <strong>split file</strong> coupe et relance directement l’enregistrement.
 Ca peut etre utile quand on a plus de batterie sur un ordinateur
 et qu’on veut s’assurer de bien garder une partie de l’enregistrement.
@@ -336,7 +358,7 @@ qui permettent de paramettrer des controlleurs en MIDI, de traiter du signal aud
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-10-17-g43c2
+		v: 2026-10-18-g73e3
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
