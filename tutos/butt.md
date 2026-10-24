@@ -16,6 +16,8 @@ sur lequel est installé le logiciel de {term}`webdiffusion` ({logiciel}`Icecast
 
 BUTT permet à la fois de **diffuser** des emissions radio et de les **enregistrer** en local,
 ainsi que d'y ajouter des métadonnées et de mixer plusieurs sources.
+
+--- [Site Web](https://danielnoethen.de/butt/) 
 ```
 
 
