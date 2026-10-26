@@ -26,4 +26,4 @@ Cela permet d'utilier cet espace pour les fichiers volumnieux d'un site {term}`W
 Gestion de l'espace
 -------------------
 
-Comme pour l'espace personnel, il n'y a pas de quota définit pour l'usage du cabanon.
+Comme pour l'espace personnel, il n'y a pas de quota défini pour l'usage du cabanon.
