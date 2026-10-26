@@ -6,14 +6,15 @@ Il a pour but d'accueillir les données volumineuses
 évitant ainsi de saturer l'[espace personnel](espace-personnel.md) des membres `/home`.
 En contrepartie, il est moins fiable
 car il  __ne fait pas partie des [sauvegardes](../outils/sauvegardes.md)__.
-Il est physiquement situé sur [un disque dur](./infrastructure-materielle.md#stockage-secondaire) `hdd2`.
+Il est physiquement situé sur [le disque dur](./infrastructure-materielle.md#stockage-secondaire) (`hdd2`).
 
 Chemin d'accès au cabanon :
 
     /shed
 
 ```{warning}
-Il est très fortement recommandé de stocker de son côté une copie de ce que l'on entrepose dans le cabanon.
+Il est très fortement recommandé de __stocker une copie__ de ce que l'on entrepose dans le cabanon
+__sur son propre matériel__.
 ```
 
 Accès
