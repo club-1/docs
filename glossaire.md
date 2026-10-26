@@ -161,15 +161,15 @@ Internet
    Il s'agit donc d'un "réseau de réseaux". ---
    [Wikipedia](https://fr.wikipedia.org/wiki/Internet)
 
-Lien symbolique
-   Un fichier qui est en fait un raccourcis vers un emplacement sur le serveur,
+lien symbolique
+   Un fichier qui est en fait un raccourci vers un emplacement sur le serveur,
    à la manière d'un {term}`alias`.
    Lorsque le lien est supprimé, la cible n'est pas affectée.
 
    Une fois connecté en {term}`SSH`,
-   on peut créer des liens avec la {term}`commande` suivante en indiquant deux chemins :
+   on peut créer des liens symboliques avec la {term}`commande` suivante en indiquant deux chemins :
 
-       ln -s DOSSIER_CIBLE NOM_DU_LIEN
+       ln -s CHEMIN_CIBLE NOM_DU_LIEN
 
    --- [Wikipedia](https://fr.wikipedia.org/wiki/Lien_symbolique)
 
