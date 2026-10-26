@@ -15,7 +15,8 @@ ou d'une interface audio externe de l'animateur·ice radio pour l'envoyer vers l
 sur lequel est installé le logiciel de {term}`webdiffusion` ({logiciel}`Icecast` sur CLUB1).
 
 BUTT permet à la fois de **diffuser** des emissions radio et de les **enregistrer** en local,
-ainsi que d'y ajouter des métadonnées et de mixer plusieurs sources.
+ainsi que d'y ajouter des métadonnées et de mixer plusieurs sources. ---
+[Site Web](https://danielnoethen.de/butt/) 
 ```
 
 
