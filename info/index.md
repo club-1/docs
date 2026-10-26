@@ -11,6 +11,7 @@ maxdepth: 2
 general
 infrastructure-materielle
 espace-personnel
+cabanon
 /cgu
 politique-de-vie-privee
 ```
