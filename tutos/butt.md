@@ -102,7 +102,8 @@ ou pleins d'instruments et de microphones sur une table de mixage avec une carte
 
 Dans tous les cas il va falloir l'indiquer à BUTT.
 
-Dans l'onglet {guilabel}`Audio` de la fenêtre de configuration vous pouvez indiquer l'appareil audio (_audio device_) que vous allez utiliser.
+Dans l'onglet {guilabel}`Audio` de la fenêtre de configuration
+vous pouvez indiquer l'appareil audio (_audio device_) que vous allez utiliser.
 
 ![audio_conf](butt/audioconf.png)
 
