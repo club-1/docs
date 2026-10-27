@@ -185,9 +185,6 @@ Ces infos peuvent être réccupérées sur la page web avec du javascript.
 Ces options doivent être experimentées afin d'être mieux documentées.
 ```
 
-![stream](butt/streamconf.png)
-
-
 GUI
 ---
 
