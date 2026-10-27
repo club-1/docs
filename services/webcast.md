@@ -16,9 +16,14 @@ et est accessible à l'adresse <https://club1.fr:8000>.
 Il est possible de consulter cette page depuis un navigateur {term}`Web`,
 mais elle ne permettra que d'afficher la liste des émissions en cours et d'en lire les contenus.
 Pour diffuser des contenus en tant que source,
-il est nécessaire d'utiliser un {term}`client` dédié (par exemple [butt](https://danielnoethen.de/butt/)).
+il est nécessaire d'utiliser un {term}`client` dédié (par exemple {logiciel}`BUTT`).
 Pour la lecture, un client dédié (par exemple [VLC](https://fr.wikipedia.org/wiki/VLC_media_player))
 pourra tout de même apporter un meilleur confort.
+
+```{seealso}
+Le [tutoriel BUTT](/tutos/butt.md) est là pour vous accompagner
+dans la diffusion de votre premier flux Web depuis votre ordinateur personnel.
+```
 
 
 Informations de connexion
