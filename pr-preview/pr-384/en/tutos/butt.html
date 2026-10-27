@@ -21,7 +21,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=39d856f9"></script>
+        <script src="../_static/documentation_options.js?v=39243214"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
@@ -210,19 +210,19 @@ Dans l’onglet <span class="guilabel">Main</span> un encart <span class="guilab
 <p><img alt="add_server" src="../_images/add_server.png" /></p>
 <p>De haut en bas il faut remplir ces cases :</p>
 <ul class="simple">
-<li><p><span class="guilabel">Name</span> : il n’a pas d’incidence sur la connexion,
+<li><p><span class="guilabel">Name</span> il n’a pas d’incidence sur la connexion,
 il vous permet de vous y retrouver parmis divers serveurs sur lesquels vous pourrier vouloir vous connecter.</p></li>
-<li><p><span class="guilabel">Type</span> : quel logiciel de streaming est installé sur le serveur visé. <strong>Icecast</strong> chez club1.</p></li>
+<li><p><span class="guilabel">Type</span> quel logiciel de streaming est installé sur le serveur visé. <strong>Icecast</strong> chez club1.</p></li>
 <li><p><span class="guilabel">SSL/TLS</span> (<em>Secure Sockets Layer</em> / <em>Transport Layer Security</em>) : protocole de chiffrement, <strong>oui</strong> sur club1.</p></li>
-<li><p><span class="guilabel">Adress</span> : il s’agit de l’adresse du serveur <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code> en l’occurence</p></li>
-<li><p><span class="guilabel">Port</span> : le port sur lequel est installé Icecast. <code class="docutils literal notranslate"><span class="pre">8000</span></code> chez club1.</p></li>
-<li><p><span class="guilabel">Password</span> : le mot de passe de votre compte club1</p></li>
-<li><p><span class="guilabel">Icecast Mountpoint</span> : icecast peut diffuser plusieurs streams en simultané.
+<li><p><span class="guilabel">Adress</span> il s’agit de l’adresse du serveur <code class="docutils literal notranslate"><span class="pre">club1.fr</span></code> en l’occurence</p></li>
+<li><p><span class="guilabel">Port</span> le port sur lequel est installé Icecast. <code class="docutils literal notranslate"><span class="pre">8000</span></code> chez club1.</p></li>
+<li><p><span class="guilabel">Password</span> le mot de passe de votre compte club1</p></li>
+<li><p><span class="guilabel">Icecast Mountpoint</span> icecast peut diffuser plusieurs streams en simultané.
 Chaque stream est identifié par un <em>mountpoint</em> (point de montage)
 qui sera indiqué dans l’adresse via laquel l’auditeur·ice accedera au stream.
 Ex : Mountpoint : <code class="docutils literal notranslate"><span class="pre">labonne</span> <span class="pre">radio</span></code> -&gt; url : <code class="docutils literal notranslate"><span class="pre">club1.fr:8000/labonneradio</span></code></p></li>
-<li><p><span class="guilabel">Icecast user</span> : votre identifiant club1</p></li>
-<li><p><span class="guilabel">Use legacy icecast protocol</span> : laisser vide.</p></li>
+<li><p><span class="guilabel">Icecast user</span> votre identifiant club1</p></li>
+<li><p><span class="guilabel">Use legacy icecast protocol</span> laisser vide.</p></li>
 </ul>
 <p><span class="guilabel">Custom listener url</span> et <span class="guilabel">custom listener mountpoint</span> peuvent rester vide.</p>
 <section id="adresse-du-flux">
@@ -248,18 +248,18 @@ que vous pouvez écouter directement sur le navigateur ou bien intégrer à une 
 <p>Vous pouvez leur parler depuis le micro de votre ordinateur, ou bien brancher un microphone à une carte son,
 ou pleins d’instruments et de microphones sur une table de mixage avec une carte son intégrée…</p>
 <p>Dans tous les cas il va falloir l’indiquer à BUTT.</p>
-<p>Dans l’onglet <span class="guilabel">Audio</span> de la fenêtre de configuration vous pouvez indiquer l’<strong>Audio device</strong> que vous allez utiliser.</p>
+<p>Dans l’onglet <span class="guilabel">Audio</span> de la fenêtre de configuration vous pouvez indiquer l’appareil audio (<em>audio device</em>) que vous allez utiliser.</p>
 <p><img alt="audio_conf" src="../_images/audioconf.png" /></p>
 <ul class="simple">
-<li><p><span class="guilabel">Channel mode</span> : mono ou stéréo (gauche et droite).</p></li>
-<li><p><span class="guilabel">Samplerate</span> : fréquence d’échantillonage, (valeur par défault ok)</p></li>
-<li><p><span class="guilabel">Update device</span> : si vous ne trouvez pas votre instrument dans la liste,
+<li><p><span class="guilabel">Channel mode</span> mono ou stéréo (gauche et droite).</p></li>
+<li><p><span class="guilabel">Samplerate</span> fréquence d’échantillonage, (valeur par défault ok)</p></li>
+<li><p><span class="guilabel">Update device</span> si vous ne trouvez pas votre instrument dans la liste,
 essayez d’actualiser la liste (ex: carte son branchée après l’allumage de BUTT)</p></li>
-<li><p><span class="guilabel">Primary audio device</span> : Selectionner sa carte son, (Attention à bien installer le pilote).
+<li><p><span class="guilabel">Primary audio device</span> Selectionner sa carte son, (Attention à bien installer le pilote).
 Il est possible parfois de selectionner le microphone interne et même parfois de capturer le son de l’ordinateur
 (utile pour une emission musicale sans voix ou de rediffusion)</p></li>
 </ul>
-<p>Il est possible de brancher plusieurs interfaces audio/ cartes son sur BUTT.
+<p>Il est possible de brancher plusieurs interfaces audio / cartes son sur BUTT.
 Le Mixer permet de mélanger les deux signaux (usage avancé).</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -281,7 +281,7 @@ si l’on veut un recording de haute qualité qui sera plus lourd.</p>
 <h2>Enregistrement du flux<a class="headerlink" href="#enregistrement-du-flux" title="Link to this heading">#</a></h2>
 <p>Pour garder une trace de votre emission live
 vous pouvez utiliser BUTT pour enregistrer votre emission
-en appuyant sur le bouton REC rouge avant de lancer le stream.</p>
+en appuyant sur le bouton <span class="guilabel">🔴 Rec</span> avant de lancer le stream.</p>
 <p>L’onglet <span class="guilabel">recording</span> de la fenetre de configuration permet de paramétrer cet enregistrement
 (en plus des options de compression et qualité citée plus haut).</p>
 <p><img alt="recording_conf" src="../_images/recconf.png" /></p>
@@ -362,7 +362,7 @@ qui permettent de paramettrer des controlleurs en MIDI, de traiter du signal aud
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
 	<span class="rst-current-version" data-toggle="rst-current-version">
 		<span class="fa fa-book"> Versions</span>
-		v: 2026-10-27-gbabc
+		v: 2026-10-27-g6e2e
 		<span class="fa fa-caret-down"></span>
 	</span>
 	<div class="rst-other-versions">
