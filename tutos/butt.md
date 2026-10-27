@@ -143,7 +143,7 @@ Pour garder une trace de votre emission live
 vous pouvez utiliser BUTT pour enregistrer votre emission
 en appuyant sur le bouton {guilabel}`🔴 Rec` avant de lancer le stream.
 
-L'onglet {guilabel}`recording` de la fenetre de configuration permet de paramétrer cet enregistrement
+L'onglet {guilabel}`Recording` de la fenetre de configuration permet de paramétrer cet enregistrement
 (en plus des options de compression et qualité citée plus haut).
 
 ![recording_conf](butt/recconf.png)
@@ -169,7 +169,7 @@ Donnera par exemple
 Ce systeme de nommage dynamique vous permet de ne pas écraser des fichiers qui ont le même nom.
 ```
 
-Le bouton {guilabel}`split file` coupe et relance directement l'enregistrement.
+Le bouton {guilabel}`Split File` coupe et relance directement l'enregistrement.
 Ça peut etre utile quand on a plus de batterie sur un ordinateur
 et qu'on veut s'assurer de bien garder une partie de l'enregistrement.
 Ou bien pour séquencer des chapitres d'une emission pour faciliter le travail d'archivage ensuite.
