@@ -31,9 +31,9 @@ De haut en bas, l'interface montre :
   **l'etat de l'enregistrement**, **sa durée** et **son poid**.
   Il affiche aussi le nombre d'autiteur·ices connectées sur le flux.
 - Un bouton {guilabel}`Mixer` dans le cas ou on utilise **plusieurs interfaces audio** (usage avancé)
-- Un bouton {guilabel}`🔴 Rec` pour enregistrer le son entrant
-- Un bouton {guilabel}`▶️ Play` pour lancer la diffusion
-- Un bouton {guilabel}`⏹️ Stop` pour arreter les deux précédents.
+- Un bouton {guilabel}`🔴` pour enregistrer le son entrant (*rec*).
+- Un bouton {guilabel}`▶` pour lancer la diffusion (*play*).
+- Un bouton {guilabel}`■` pour arreter les deux précédents (*stop*).
 - Un **vu-metre** avec deux onglets, qui affiche le niveau de sortie vers le stream et vers l'enregistrement.
 - Un slider de **gain** pour éviter la saturation (vu-metre dans le rouge)
 - Un boutton {guilabel}`Settings` pour afficher la fenêtre de configuration
@@ -141,7 +141,7 @@ Enregistrement du flux
 
 Pour garder une trace de votre emission live
 vous pouvez utiliser BUTT pour enregistrer votre emission
-en appuyant sur le bouton {guilabel}`🔴 Rec` avant de lancer le stream.
+en appuyant sur le bouton {guilabel}`🔴` (*rec*) avant de lancer le stream.
 
 L'onglet {guilabel}`Recording` de la fenetre de configuration permet de paramétrer cet enregistrement
 (en plus des options de compression et qualité citée plus haut).
