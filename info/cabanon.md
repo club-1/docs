@@ -20,11 +20,15 @@ __sur son propre matériel__.
 Accès
 -----
 
-Pour faciliter l'accès à cet espace depuis votre espace personnel,
-un {term}`lien symbolique` peut être utile.
+Étant situé en dehors de votre espace personnel, le cabanon n'est accessible initialement
+qu'à partir d'une connexion {term}`SSH`.
+Pour y avoir accès depuis votre espace personnel,
+un {term}`lien symbolique` sera nécessaire.
 Cela permet d'utiliser cet espace pour les fichiers volumineux d'un site {term}`Web` par exemple.
 
 Gestion de l'espace
 -------------------
 
+Le dossier `/shed` est organisé par convention de la même manière que le dossier `/home`,
+avec un dossier par membre, portant le nom de son identifiant.
 Comme pour l'espace personnel, il n'y a pas de quota défini pour l'usage du cabanon.
