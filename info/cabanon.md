@@ -26,7 +26,6 @@ Pour y avoir accès depuis votre espace personnel,
 un {term}`lien symbolique` sera nécessaire.
 Cela permet d'utiliser cet espace pour les fichiers volumineux d'un site {term}`Web` par exemple.
 
-
 Gestion de l'espace
 -------------------
 
