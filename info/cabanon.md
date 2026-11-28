@@ -26,9 +26,12 @@ Pour y avoir accès depuis votre espace personnel,
 un {term}`lien symbolique` sera nécessaire.
 Cela permet d'utiliser cet espace pour les fichiers volumineux d'un site {term}`Web` par exemple.
 
+
 Gestion de l'espace
 -------------------
 
 Le dossier `/shed` est organisé par convention de la même manière que le dossier `/home`,
 avec un dossier par membre, portant le nom de son identifiant.
+Chaque membre doit créer son propre dossier avec la {term}`commande` `mkdir /shed/IDENTIFIANT`,
+en remplaçant `IDENTIFIANT` par son identifiant CLUB1.
 Comme pour l'espace personnel, il n'y a pas de quota défini pour l'usage du cabanon.
